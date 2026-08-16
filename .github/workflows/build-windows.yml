@@ -25,11 +25,57 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.13'
-      - run: python -m pip install pyinstaller
-      - run: python -m pip install -e shared/python
-      - run: python -m pip install -r ${{ matrix.app.dir }}/requirements.txt
-      - shell: pwsh
-        run: pyinstaller --noconfirm --clean --windowed --name "${{ matrix.app.name }}" "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
+
+      - name: Install build dependencies
+        run: python -m pip install --upgrade pip pyinstaller
+
+      # Use a normal install instead of an editable PEP 660 install. Editable
+      # installs can resolve correctly in Python while their finder/path is not
+      # collected by PyInstaller, which caused ModuleNotFoundError: drowned_shared.
+      - name: Install shared core
+        run: python -m pip install shared/python
+
+      - name: Install app dependencies
+        run: python -m pip install -r ${{ matrix.app.dir }}/requirements.txt
+
+      - name: Verify shared core import before packaging
+        run: python -c "import drowned_shared; print('drowned_shared:', drowned_shared.__file__)"
+
+      - name: Build Windows application
+        shell: pwsh
+        run: >-
+          pyinstaller
+          --noconfirm
+          --clean
+          --windowed
+          --paths "shared/python"
+          --collect-all drowned_shared
+          --name "${{ matrix.app.name }}"
+          "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
+
+      - name: Verify packaged shared module
+        shell: pwsh
+        run: |
+          $archive = "dist/${{ matrix.app.name }}/${{ matrix.app.name }}.exe"
+          if (!(Test-Path $archive)) { throw "Built executable was not found: $archive" }
+          python -m PyInstaller.utils.cliutils.archive_viewer -l $archive | Out-File -Encoding utf8 archive-contents.txt
+          if (-not (Select-String -Path archive-contents.txt -Pattern "drowned_shared" -Quiet)) {
+            throw "PyInstaller archive does not contain drowned_shared"
+          }
+
+      # Catch startup-time packaging failures such as missing Python modules.
+      - name: Launch smoke test
+        shell: pwsh
+        run: |
+          $exe = Resolve-Path "dist/${{ matrix.app.name }}/${{ matrix.app.name }}.exe"
+          $process = Start-Process -FilePath $exe -PassThru
+          Start-Sleep -Seconds 5
+          $process.Refresh()
+          if ($process.HasExited) {
+            throw "${{ matrix.app.name }} exited during startup smoke test with code $($process.ExitCode)"
+          }
+          Stop-Process -Id $process.Id -Force
+
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.app.name }}-Windows
