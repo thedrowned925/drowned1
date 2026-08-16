@@ -1,5 +1,27 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-16T18:18:55.230939+00:00",
-  "games": []
+  "updated_at": "2026-08-16T18:27:46.358061+00:00",
+  "games": [
+    {
+      "id": "papers-please",
+      "title": "Papers, Please",
+      "platform": "pc",
+      "description": "Congratulations. The October labor lottery is complete. Your name was pulled. For immediate placement, report to the Ministry of Admission at Grestin Border Checkpoint. An apartment will be provided for you and your family in East Grestin.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/papers-please/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/papers-please/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/papers-please/logo.png"
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-papers-please-v1.0.0-stable",
+          "manifest_path": "manifests/pc/papers-please/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/papers-please/stable/1.0.0.json",
+          "size": 94151373,
+          "published_at": "2026-08-16T18:27:46.358051+00:00"
+        }
+      }
+    }
+  ]
 }
