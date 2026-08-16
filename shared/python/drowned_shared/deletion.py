@@ -15,14 +15,19 @@ def _find_game(catalog:dict, game_id:str, platform:str)->dict:
 def _delete_release_for_channel(client, data:dict, log):
     tag=data.get("tag")
     if not tag: raise ValueError("catalog channel has no release tag")
+    release_deleted=False; tag_deleted=False
     release=client.release_by_tag(tag)
     if release is None:
         log(f"Release already absent: {tag}")
-        return False
-    log(f"Deleting GitHub Release and its assets: {tag}")
-    client.delete_release(int(release["id"]))
-    log(f"Deleted release: {tag}")
-    return True
+    else:
+        log(f"Deleting GitHub Release and all attached chunk assets: {tag}")
+        client.delete_release(int(release["id"])); release_deleted=True
+        log(f"Deleted release: {tag}")
+    if client.delete_tag_ref(tag):
+        tag_deleted=True; log(f"Deleted Git tag: {tag}")
+    else:
+        log(f"Git tag already absent: {tag}")
+    return release_deleted,tag_deleted
 
 
 def _delete_manifest(client, game:dict, channel:str, data:dict, log):
@@ -57,14 +62,14 @@ def delete_channel(client, game_id:str, platform:str, channel:str, log=print)->d
     """Delete one published channel/version and then remove its catalog entry.
 
     Remote deletion is deliberately performed before the catalog mutation. The
-    operation is idempotent: a retry treats already-missing releases/manifests
-    as successfully deleted and can finish the catalog cleanup.
+    operation is idempotent: a retry treats already-missing releases, tags and
+    manifests as successfully deleted and can finish the catalog cleanup.
     """
     catalog=load_catalog(client); game=_find_game(catalog,game_id,platform)
     channels=game.get("channels") or {}
     if channel not in channels: raise KeyError(f"channel not found: {channel}")
-    data=dict(channels[channel]); releases=0; manifests=0; artwork=[]
-    if _delete_release_for_channel(client,data,log): releases+=1
+    data=dict(channels[channel]); releases=0; tags=0; manifests=0; artwork=[]
+    rd,td=_delete_release_for_channel(client,data,log); releases+=int(rd); tags+=int(td)
     if _delete_manifest(client,game,channel,data,log): manifests+=1
     del channels[channel]
     removed_game=False
@@ -75,23 +80,23 @@ def delete_channel(client, game_id:str, platform:str, channel:str, log=print)->d
         game["channels"]=channels
     _commit_catalog(client,catalog,f"Delete {game['title']} {channel}")
     log("Catalog updated after remote files were removed")
-    return {"game_removed":removed_game,"channels_removed":[channel],"releases_deleted":releases,"manifests_deleted":manifests,"artwork_deleted":artwork}
+    return {"game_removed":removed_game,"channels_removed":[channel],"releases_deleted":releases,"tags_deleted":tags,"manifests_deleted":manifests,"artwork_deleted":artwork}
 
 
 def delete_game(client, game_id:str, platform:str, log=print)->dict:
-    """Delete all releases, manifests, artwork, and finally the game catalog row.
+    """Delete all releases/tags/manifests/artwork and finally the game catalog row.
 
     If a network/API failure occurs mid-operation, the catalog is intentionally
     left untouched. Re-running is safe because missing remote resources are
     treated as already deleted, allowing the final catalog commit to complete.
     """
     catalog=load_catalog(client); game=_find_game(catalog,game_id,platform)
-    channels=dict(game.get("channels") or {}); releases=0; manifests=0
+    channels=dict(game.get("channels") or {}); releases=0; tags=0; manifests=0
     for channel,data in channels.items():
-        if _delete_release_for_channel(client,data,log): releases+=1
+        rd,td=_delete_release_for_channel(client,data,log); releases+=int(rd); tags+=int(td)
         if _delete_manifest(client,game,channel,data,log): manifests+=1
     artwork=_delete_artwork(client,game,log)
     catalog["games"].remove(game)
     _commit_catalog(client,catalog,f"Delete {game['title']} completely")
     log("Game removed from catalog after all remote files were removed")
-    return {"game_removed":True,"channels_removed":list(channels),"releases_deleted":releases,"manifests_deleted":manifests,"artwork_deleted":artwork}
+    return {"game_removed":True,"channels_removed":list(channels),"releases_deleted":releases,"tags_deleted":tags,"manifests_deleted":manifests,"artwork_deleted":artwork}
