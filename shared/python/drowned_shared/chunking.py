@@ -1,5 +1,5 @@
 from __future__ import annotations
-import hashlib, math, os
+import hashlib, math
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable, Generator
@@ -54,7 +54,10 @@ class ChunkBuilder:
         def finish():
             nonlocal fp
             if fp is None: return None
-            fp.flush(); os.fsync(fp.fileno()); fp.close()
+            # This is a disposable staging file. flush() makes it visible to the
+            # uploader; forcing fsync() only adds storage latency and gives no
+            # durability benefit because a crashed publish is discarded anyway.
+            fp.flush(); fp.close()
             meta={"name":path.name,"size":csize,"sha256":chash.hexdigest(),"segments":segments.copy()}; chunks_meta.append(meta); fp=None
             return BuiltChunk(idx,path,meta)
 
