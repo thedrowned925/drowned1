@@ -1,7 +1,9 @@
 name: Suite Release
+
 on:
   push:
     tags: ['suite-v*']
+
 permissions:
   contents: write
 
@@ -9,52 +11,47 @@ jobs:
   windows:
     runs-on: windows-latest
     strategy:
+      fail-fast: false
       matrix:
         app:
           - name: Drowned-Release-Manager
             dir: windows/release-manager
+            entry: app_v3.py
           - name: Drowned-Launcher
             dir: windows/launcher
+            entry: app_v4.py
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
-        with: { python-version: '3.13' }
-      - run: python -m pip install pyinstaller
-      - run: python -m pip install -e shared/python
-      - run: python -m pip install -r ${{ matrix.app.dir }}/requirements.txt
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+          cache-dependency-path: |
+            shared/python/pyproject.toml
+            windows/release-manager/requirements.txt
+            windows/launcher/requirements.txt
+      - run: |
+          python -m pip install pyinstaller
+          python -m pip install shared/python
+          python -m pip install -r ${{ matrix.app.dir }}/requirements.txt
+      - run: python -m py_compile "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
       - shell: pwsh
         run: |
-          pyinstaller --noconfirm --clean --windowed --name "${{ matrix.app.name }}" "${{ matrix.app.dir }}/app.py"
+          pyinstaller --noconfirm --clean --windowed --paths "shared/python" --collect-all drowned_shared --name "${{ matrix.app.name }}" "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
           Compress-Archive -Path "dist/${{ matrix.app.name }}/*" -DestinationPath "${{ matrix.app.name }}-${{ github.ref_name }}-Windows-x64.zip"
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.app.name }}
           path: ${{ matrix.app.name }}-${{ github.ref_name }}-Windows-x64.zip
-
-  android:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-java@v5
-        with: { distribution: temurin, java-version: '17' }
-      - uses: android-actions/setup-android@v3
-      - run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
-      - uses: gradle/actions/setup-gradle@v4
-        with: { gradle-version: '9.5.0' }
-      - working-directory: android
-        run: gradle :app:assembleDebug
-      - run: cp android/app/build/outputs/apk/debug/app-debug.apk Drowned-Mobile-${{ github.ref_name }}.apk
-      - uses: actions/upload-artifact@v4
-        with:
-          name: Drowned-Mobile
-          path: Drowned-Mobile-${{ github.ref_name }}.apk
+          compression-level: 0
 
   publish:
-    needs: [windows, android]
+    needs: [windows]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/download-artifact@v5
-        with: { path: artifacts }
+        with:
+          path: artifacts
       - run: |
           find artifacts -type f -print0 | sort -z | xargs -0 sha256sum > SHA256SUMS.txt
           gh release create "${GITHUB_REF_NAME}" --generate-notes $(find artifacts -type f -printf '%p ') SHA256SUMS.txt
