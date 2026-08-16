@@ -1,10 +1,14 @@
 # Central protocol and GitHub release limits
-CHUNK_SIZE_MIB = 1900
+#
+# Release assets must remain under GitHub's 2 GiB per-file limit. 1536 MiB
+# leaves a comfortable safety margin while still allowing high-throughput
+# parallel uploads and keeping the number of assets reasonable.
+CHUNK_SIZE_MIB = 1536
 CHUNK_SIZE_BYTES = CHUNK_SIZE_MIB * 1024 * 1024
 
-# Fast-start publishing: the first asset is intentionally smaller so network
-# upload starts quickly. Following assets keep the large 1900 MiB size to
-# minimize the number of mutating GitHub API requests.
+# Legacy fast-start constants kept for manifest/backward compatibility. The
+# gigabit uploader now chooses an adaptive chunk size and may use a smaller
+# size when necessary to keep all upload workers busy.
 STARTER_CHUNK_SIZE_MIB = 256
 STARTER_CHUNK_SIZE_BYTES = STARTER_CHUNK_SIZE_MIB * 1024 * 1024
 
