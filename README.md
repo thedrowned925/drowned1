@@ -1,141 +1,125 @@
 # Drowned Distribution Suite
 
-Drowned Distribution Suite is a monorepo for distributing large game, software, homebrew and dataset builds through GitHub Releases without creating a second full archive copy on disk.
+Windows odaklı GitHub Releases dağıtım sistemi.
 
-## Applications
+## Uygulamalar
 
-- **Drowned Release Manager (Windows)** — creates draft releases, streams the source directory into ~1900 MiB chunks, hashes them, uploads release assets, publishes raw repository metadata, and includes a careful release/game deletion manager.
-- **Drowned Launcher (Windows)** — browses the shared raw catalog, downloads release chunks, reconstructs final files directly at their target offsets, resumes completed chunks, and verifies SHA-256.
-- **Drowned Mobile (Android)** — native Kotlin/Jetpack Compose catalog client with platform/channel filters and manager connection settings using the same catalog/manifest protocol.
+- **Drowned Release Manager** — oyun/proje yayınlama, katalog yönetimi ve güvenli silme.
+- **Drowned Launcher** — Steam benzeri kütüphane, raw katalog/artwork okuma, indirme ve SHA-256 doğrulama.
 
-> Use this project only for content you have the right to distribute.
+Android uygulaması ve Android build pipeline'ı projeden tamamen kaldırılmıştır.
 
-## GitHub release model
+## Dağıtım mimarisi
 
-The suite currently uses 1900 MiB data chunks. GitHub documents a maximum of 1000 assets per release and requires each release asset to be under 2 GiB. One asset is reserved for a redundant `manifest.json`, leaving 999 data chunks. Limits live in one shared constants module so they can be changed centrally if GitHub changes its policy.
-
-Large payloads live in **GitHub Releases**, not Git history. Small metadata lives in the repository and is read through `raw.githubusercontent.com` whenever possible:
-
-- `catalog.json`
-- `manifests/<platform>/<game>/<channel>/<version>.json`
-- `artwork/<platform>/<game>/...`
-
-The REST API is reserved for operations that actually require authenticated GitHub management, such as creating/updating repository content and creating/deleting Releases. Binary chunk downloads use direct `github.com/.../releases/download/...` URLs and do not enumerate assets through the REST API.
-
-## Safe deletion model
-
-Release Manager has a **Yayınları Yönet** tab with two destructive operations:
-
-- delete one selected channel/version
-- delete an entire game across every channel
-
-Deletion is deliberately ordered so the catalog is the last mutation:
+Büyük binary içerikler normal Git history içine konmaz. Release Manager kaynak klasörü stream ederek yaklaşık **1900 MiB** chunk'lar üretir ve bunları GitHub Release Assets olarak yükler. Aynı anda yaklaşık tek chunk kadar geçici disk alanı gerekir.
 
 ```text
-GitHub Release + its chunk assets
-        -> raw manifest
-        -> artwork (only when the whole game disappears)
-        -> catalog.json entry
+Kaynak klasör
+  -> streaming chunk
+  -> SHA-256
+  -> GitHub draft release
+  -> chunk assets
+  -> manifest.json
+  -> catalog.json
+  -> publish
 ```
 
-A whole-game deletion requires typing the exact game title. A channel/version deletion requires typing `SİL`.
+Launcher tarafında chunk'lar kalıcı bir arşiv olarak tutulmaz; manifest segment haritasına göre doğrudan final dosyaların doğru offset'lerine yazılır.
 
-The deletion backend is idempotent. If a network/API error interrupts the operation, `catalog.json` is not intentionally mutated before the remote cleanup completes. Re-running the same deletion treats already-missing Releases/manifests/artwork as already deleted and continues toward the final catalog cleanup.
+## Raw-first metadata
 
-## Repository layout
+Normal kullanıcı okumaları mümkün olduğunca REST API yerine aşağıdaki adreslerden yapılır:
+
+- `catalog.json` -> `raw.githubusercontent.com`
+- manifestler -> `raw.githubusercontent.com`
+- hero / cover / logo -> `raw.githubusercontent.com`
+- büyük chunk dosyaları -> GitHub Releases download URL'leri
+
+Launcher raw CDN gecikmesini hesaba katar:
+
+- cache-busting query ekler,
+- birkaç kez yeniden dener,
+- raw geçici olarak hazır değilse son başarılı katalog cache'ini gösterebilir,
+- raw hatası nedeniyle uygulamayı kapatmaz.
+
+## Artwork
+
+- **Hero**: geniş arka plan, önerilen `1920x620`.
+- **Cover**: dikey oyun kapağı, önerilen `600x900`.
+- **Logo**: tercihen şeffaf PNG/WebP oyun logosu/yazısı.
+
+Repo yapısı:
 
 ```text
-shared/
-  python/drowned_shared/   shared Windows backend
-  schemas/                 JSON Schemas
-  examples/                protocol examples
-windows/
-  release-manager/         publisher + deletion manager
-  launcher/                end-user launcher
-android/                    native Android app
-.github/workflows/          CI and build pipelines
+artwork/<platform>/<game-id>/hero.*
+artwork/<platform>/<game-id>/cover.*
+artwork/<platform>/<game-id>/logo.*
+manifests/<platform>/<game-id>/<channel>/<version>.json
+catalog.json
 ```
 
-## Windows development
+## Release Manager token izinleri
 
-Python 3.12+ is recommended.
+Fine-grained PAT kullanın ve yalnız dağıtım repository'sine erişim verin.
 
-```powershell
-python -m venv .venv
-.venv\Scripts\activate
-pip install -e shared/python
-pip install -r windows/release-manager/requirements.txt
-python windows/release-manager/app.py
+Önerilen repository permissions:
+
+- `Contents: Read and write`
+- `Workflows: Read and write` (repository workflow dosyaları içeriyorsa)
+
+Token kaynak koda yazılmaz; Windows keyring / Credential Manager üzerinden saklanır.
+
+## Güvenli silme
+
+Release Manager'da bir kanal veya oyunun tamamı silindiğinde sistem sırayla:
+
+1. GitHub Release'i ve assetlerini,
+2. ilgili Git tag'i,
+3. raw manifest kaydını,
+4. artık başka kayıt tarafından kullanılmayan artwork dosyalarını,
+5. en son `catalog.json` kaydını
+
+temizler.
+
+Katalog son adımda güncellenir; böylece yarım kalmış silme işlemi katalogda sahte bir başarı durumu oluşturmaz.
+
+## Windows build
+
+GitHub Actions workflow'u:
+
+- Python/pip cache kullanır,
+- aynı branch'te eski build varsa iptal eder,
+- `PySide6-Essentials` kullanır,
+- `drowned_shared` paketini PyInstaller içine açıkça toplar,
+- syntax kontrolü yapar,
+- paket içi modül kontrolü yapar,
+- EXE için gerçek startup smoke test çalıştırır.
+
+Yerel geliştirme için Python 3.13 önerilir.
+
+Release Manager:
+
+```bash
+python -m pip install shared/python
+python -m pip install -r windows/release-manager/requirements.txt
+python windows/release-manager/app_v3.py
 ```
 
 Launcher:
 
-```powershell
-pip install -r windows/launcher/requirements.txt
-python windows/launcher/app.py
+```bash
+python -m pip install shared/python
+python -m pip install -r windows/launcher/requirements.txt
+python windows/launcher/app_v4.py
 ```
 
-### GitHub token
-
-Release Manager supports a fine-grained GitHub PAT. Restrict the token to the distribution repository and grant the minimum repository permission needed by GitHub for Releases/Contents writes. The app stores the token through the OS keyring; it is never written into source control.
-
-## Android development
-
-The Android project uses Kotlin, Jetpack Compose, Material 3, AGP 9.3.0 and Gradle 9.5.0. CI installs the required Gradle/Android SDK toolchain.
+## Test
 
 ```bash
-cd android
-gradle :app:assembleDebug
-```
-
-## Protocol
-
-### `catalog.json`
-
-The catalog is the launcher index. Games are grouped by stable IDs and platform, with independent release channels such as `stable`, `beta`, `dev`, `nightly`, and `archive`. Clients read it directly from the repository raw URL.
-
-### Raw release manifests
-
-Each channel points to a repository raw manifest. Each manifest contains:
-
-- file relative path, size and SHA-256
-- chunk name, size and SHA-256
-- segment map (`file`, `file_offset`, `chunk_offset`, `length`)
-- owner/repo/tag metadata
-
-Downloaders reject unsafe paths, invalid offsets, overlaps and sizes before writing files. The manifest tells clients which direct Release download URLs to use for the large chunks; clients do not need to list Release assets through the REST API.
-
-## Streaming behavior
-
-Uploader:
-
-```text
-source files -> one temporary ~1900 MiB chunk -> hash -> upload -> delete chunk
-```
-
-Downloader:
-
-```text
-raw manifest -> direct GitHub Release HTTP stream -> small RAM buffer -> segment map -> final file offset
-```
-
-No RAR/ZIP extraction stage is required.
-
-## Tests
-
-```bash
-pip install -e shared/python
+python -m pip install shared/python
 python -m unittest discover -s tests -v
 ```
 
-Tests cover chunk reconstruction, unsafe paths, invalid segment maps, catalog parsing, safe deletion ordering, full game cleanup, retry behavior, and protection against catalog mutation after a simulated deletion failure.
+## İçerik
 
-## Builds
-
-GitHub Actions produce:
-
-- `Drowned-Release-Manager-Windows`
-- `Drowned-Launcher-Windows`
-- `Drowned-Mobile-debug.apk`
-
-A `suite-vX.Y.Z` tag triggers the release workflow and attaches packaged builds plus SHA256 sums when all build jobs succeed.
+Bu altyapıyı yalnızca dağıtım hakkına sahip olduğunuz oyun, yazılım, homebrew, dataset ve diğer içerikler için kullanın.
