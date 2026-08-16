@@ -32,6 +32,7 @@ jobs:
       - run: python -m unittest discover -s tests -v
       - run: |
           python -m py_compile windows/release-manager/app_v3.py
+          python -m py_compile windows/release-manager/app_v4.py
           python -m py_compile windows/launcher/app_v4.py
           python -m py_compile windows/launcher/app_v5.py
           python -m py_compile windows/launcher/app_v6.py
