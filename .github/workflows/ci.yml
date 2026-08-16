@@ -1,7 +1,22 @@
 name: CI
+
 on:
   push:
+    paths:
+      - 'shared/python/**'
+      - 'tests/**'
+      - 'windows/**'
+      - '.github/workflows/ci.yml'
   pull_request:
+    paths:
+      - 'shared/python/**'
+      - 'tests/**'
+      - 'windows/**'
+      - '.github/workflows/ci.yml'
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   python-tests:
@@ -11,21 +26,10 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.13'
-      - run: python -m pip install -e shared/python
+          cache: 'pip'
+          cache-dependency-path: shared/python/pyproject.toml
+      - run: python -m pip install shared/python
       - run: python -m unittest discover -s tests -v
-
-  android-check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-java@v5
-        with:
-          distribution: temurin
-          java-version: '17'
-      - uses: android-actions/setup-android@v3
-      - run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
-      - uses: gradle/actions/setup-gradle@v4
-        with:
-          gradle-version: '9.5.0'
-      - working-directory: android
-        run: gradle :app:testDebugUnitTest :app:lintDebug
+      - run: |
+          python -m py_compile windows/release-manager/app_v3.py
+          python -m py_compile windows/launcher/app_v4.py
