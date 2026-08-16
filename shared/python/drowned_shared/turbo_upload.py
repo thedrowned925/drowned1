@@ -12,9 +12,12 @@ from .errors import AuthenticationError, NetworkError
 
 MIB = 1024 * 1024
 GIB = 1024 * MIB
-DEFAULT_TURBO_WORKERS = 8
-MAX_TURBO_WORKERS = 12
-TEMP_BUDGET_BYTES = 4 * GIB
+DEFAULT_TURBO_WORKERS = 16
+MAX_TURBO_WORKERS = 16
+
+# 16 x 1.5 GiB lets all streams remain active even for maximum-sized chunks.
+# This is still far below making a second full copy of a large game.
+TEMP_BUDGET_BYTES = 24 * GIB
 
 
 def _align_up(value: int, alignment: int = MIB) -> int:
@@ -22,28 +25,35 @@ def _align_up(value: int, alignment: int = MIB) -> int:
 
 
 def choose_upload_chunk_size(total_size: int, requested_workers: int = DEFAULT_TURBO_WORKERS) -> int:
-    """Pick a chunk size that can use several connections without exhausting release assets.
+    """Choose an adaptive chunk size for high-bandwidth parallel uploads.
 
-    Small projects are split across the selected worker count so a single slow GitHub
-    connection does not become the whole transfer. Larger projects target 256 MiB
-    assets, growing automatically when needed to stay comfortably below GitHub's
-    per-release asset count.
+    Goals:
+      * Keep roughly all requested workers busy for small/medium projects.
+      * Never exceed the configured 1.5 GiB maximum chunk size.
+      * Automatically grow chunks when needed to remain below the release asset limit.
+
+    Examples with 16 workers:
+      * ~90 MiB  -> ~6 MiB chunks (about 15 parallel assets)
+      * 1 GiB    -> ~64 MiB chunks (about 16 assets)
+      * 10 GiB   -> ~640 MiB chunks (about 16 assets)
+      * >=24 GiB -> up to 1536 MiB chunks
     """
     total_size = max(0, int(total_size))
     workers = max(1, min(int(requested_workers or 1), MAX_TURBO_WORKERS))
     if total_size <= 0:
         return CHUNK_SIZE_BYTES
 
-    # Up to 1 GiB: deliberately create enough pieces to keep all selected workers busy.
-    if total_size <= GIB:
-        per_worker = math.ceil(total_size / workers)
-        return min(CHUNK_SIZE_BYTES, _align_up(max(8 * MIB, per_worker), MIB))
+    # Target at least roughly one asset per active worker so one slow GitHub
+    # connection cannot cap the whole transfer. 4 MiB is the practical floor.
+    target_for_parallelism = max(4 * MIB, math.ceil(total_size / workers))
 
-    # Normal large-game target. 900 leaves room under GitHub's 999 data-asset ceiling.
-    desired = 256 * MIB
+    # Stay comfortably below the 999 data-asset ceiling. The normal planner
+    # aims at <=900 assets, leaving margin for protocol changes/extra metadata.
     required_for_asset_budget = math.ceil(total_size / min(900, MAX_DATA_ASSETS))
-    chosen = max(desired, required_for_asset_budget)
-    return min(CHUNK_SIZE_BYTES, _align_up(chosen, 8 * MIB))
+
+    chosen = max(target_for_parallelism, required_for_asset_budget)
+    chosen = min(CHUNK_SIZE_BYTES, chosen)
+    return min(CHUNK_SIZE_BYTES, _align_up(chosen, MIB))
 
 
 def effective_worker_count(chunk_size: int, requested_workers: int) -> int:
@@ -53,15 +63,17 @@ def effective_worker_count(chunk_size: int, requested_workers: int) -> int:
 
 
 class TurboAssetUploader:
-    """Thread-safe release asset uploader with per-thread HTTP sessions and backoff."""
+    """Thread-safe Release asset uploader with per-thread sessions and shared backoff."""
 
-    def __init__(self, client, release_id: int, min_start_interval: float = 0.20):
+    def __init__(self, client, release_id: int, min_start_interval: float = 0.15):
         self.client = client
         self.release_id = int(release_id)
         self.min_start_interval = max(0.0, float(min_start_interval))
         self._thread_local = threading.local()
         self._start_lock = threading.Lock()
         self._last_start = 0.0
+        self._backoff_lock = threading.Lock()
+        self._backoff_until = 0.0
 
     def _session(self) -> requests.Session:
         session = getattr(self._thread_local, "session", None)
@@ -70,13 +82,27 @@ class TurboAssetUploader:
             session.headers.update({
                 "Accept": "application/vnd.github+json",
                 "X-GitHub-Api-Version": GITHUB_API_VERSION,
-                "User-Agent": "Drowned-Distribution-Suite/0.5-gigabit",
+                "User-Agent": "Drowned-Distribution-Suite/0.6-gigabit16",
                 "Authorization": f"Bearer {self.client.token}",
             })
             self._thread_local.session = session
         return session
 
+    def _wait_global_backoff(self):
+        while True:
+            with self._backoff_lock:
+                remaining = self._backoff_until - time.monotonic()
+            if remaining <= 0:
+                return
+            time.sleep(min(remaining, 1.0))
+
+    def _set_global_backoff(self, seconds: float):
+        seconds = max(1.0, float(seconds))
+        with self._backoff_lock:
+            self._backoff_until = max(self._backoff_until, time.monotonic() + seconds)
+
     def _wait_for_start_slot(self):
+        self._wait_global_backoff()
         with self._start_lock:
             now = time.monotonic()
             delay = self.min_start_interval - (now - self._last_start)
@@ -132,7 +158,8 @@ class TurboAssetUploader:
                 last_error = exc
                 if attempt == 4:
                     raise NetworkError(f"asset upload network error: {exc}") from exc
-                time.sleep(min(30, 2 ** attempt))
+                wait = min(30, 2 ** attempt)
+                self._set_global_backoff(wait)
                 continue
 
             if response.ok:
@@ -142,12 +169,15 @@ class TurboAssetUploader:
                 retry_after = response.headers.get("Retry-After")
                 wait = float(retry_after) if retry_after and retry_after.isdigit() else min(60, 5 * (2 ** attempt))
                 last_error = NetworkError(f"GitHub secondary rate limit: HTTP {response.status_code}")
-                time.sleep(wait)
+                # One worker hitting secondary limits pauses new starts for every
+                # worker instead of allowing 15 others to keep hammering GitHub.
+                self._set_global_backoff(wait)
                 continue
 
             if response.status_code in (500, 502, 503, 504) and attempt < 4:
+                wait = min(30, 2 ** attempt)
                 last_error = NetworkError(f"GitHub upload HTTP {response.status_code}")
-                time.sleep(min(30, 2 ** attempt))
+                self._set_global_backoff(wait)
                 continue
 
             message = self.client._permission_help(response.status_code, response.text)
