@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-16T12:00:00Z",
+  "games": [
+    {
+      "id": "sample-game",
+      "title": "Sample Game",
+      "platform": "pc",
+      "description": "Example catalog entry",
+      "artwork": {},
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-sample-game-v1.0.0-stable",
+          "manifest_url": "https://example.invalid/manifest.json",
+          "size": 123456789,
+          "published_at": "2026-08-16T12:00:00Z"
+        }
+      }
+    }
+  ]
+}

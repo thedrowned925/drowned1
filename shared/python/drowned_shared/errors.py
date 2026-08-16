@@ -1,0 +1,9 @@
+class DrownedError(RuntimeError): pass
+class AuthenticationError(DrownedError): pass
+class RateLimitError(DrownedError): pass
+class NetworkError(DrownedError): pass
+class ManifestError(DrownedError): pass
+class HashMismatchError(DrownedError): pass
+class SourceChangedError(DrownedError): pass
+class DiskSpaceError(DrownedError): pass
+class ReleaseConflictError(DrownedError): pass

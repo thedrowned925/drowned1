@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Drowned Manifest",
+  "type": "object",
+  "required": ["schema_version", "game", "release", "chunk_size", "total_size", "files", "chunks"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "chunk_size": {"type": "integer", "minimum": 1},
+    "total_size": {"type": "integer", "minimum": 0},
+    "files": {"type": "array"},
+    "chunks": {"type": "array"}
+  }
+}

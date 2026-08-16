@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Drowned Catalog",
+  "type": "object",
+  "required": ["schema_version", "games"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "updated_at": {"type": ["string", "null"]},
+    "games": {"type": "array"}
+  }
+}

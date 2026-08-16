@@ -1,0 +1,36 @@
+name: Build Windows
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'windows/**'
+      - 'shared/python/**'
+      - '.github/workflows/build-windows.yml'
+
+jobs:
+  build:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        app:
+          - name: Drowned-Release-Manager
+            dir: windows/release-manager
+            entry: app.py
+          - name: Drowned-Launcher
+            dir: windows/launcher
+            entry: app.py
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - run: python -m pip install pyinstaller
+      - run: python -m pip install -e shared/python
+      - run: python -m pip install -r ${{ matrix.app.dir }}/requirements.txt
+      - shell: pwsh
+        run: pyinstaller --noconfirm --clean --windowed --name "${{ matrix.app.name }}" "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.app.name }}-Windows
+          path: dist/${{ matrix.app.name }}/
