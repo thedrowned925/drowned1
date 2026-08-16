@@ -69,11 +69,14 @@ class RepairTests(unittest.TestCase):
             )
             calls = []
 
-            def fake_download(m, install_root, chunk_names, progress, log, cancelled):
+            def fake_download(m, install_root, chunk_names, progress, log, cancelled, **kwargs):
                 calls.append(set(chunk_names))
                 target = Path(install_root) / "sub" / "b.bin"
                 target.parent.mkdir(parents=True, exist_ok=True)
                 target.write_bytes(b)
+                callback = kwargs.get("on_chunk_complete")
+                if callback:
+                    callback("chunk-000002.bin")
                 return 1
 
             with patch("drowned_shared.install._download_chunks", side_effect=fake_download):
