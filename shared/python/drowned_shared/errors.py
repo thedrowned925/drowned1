@@ -7,3 +7,4 @@ class HashMismatchError(DrownedError): pass
 class SourceChangedError(DrownedError): pass
 class DiskSpaceError(DrownedError): pass
 class ReleaseConflictError(DrownedError): pass
+class DownloadCancelled(DrownedError): pass
