@@ -99,7 +99,11 @@ def publish_project(
 
         pending = set()
         result = None
-        queue_limit = max(workers + 2, workers * 2)
+
+        # Keep at most one temporary chunk per active stream. With the 16-stream
+        # / 1.5 GiB profile this caps upload scratch space at about 24 GiB instead
+        # of building dozens of chunks ahead of the network.
+        queue_limit = max(1, workers)
 
         with ThreadPoolExecutor(max_workers=workers, thread_name_prefix="drowned-turbo") as pool:
             while True:
@@ -113,8 +117,8 @@ def publish_project(
 
                 pending.add(pool.submit(upload_one, built))
 
-                # Bound temporary disk usage. Chunk building can stay ahead of the
-                # network, but not enough to make a second full copy of the game.
+                # Once every stream has one chunk, wait for the first completed
+                # upload before building another temporary chunk.
                 if len(pending) >= queue_limit:
                     done, pending = wait(pending, return_when=FIRST_COMPLETED)
                     for future in done:
