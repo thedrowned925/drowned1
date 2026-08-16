@@ -11,7 +11,7 @@ class GitHubClient:
         self.owner=owner.strip(); self.repo=repo.strip(); self.branch=branch.strip() or "main"
         headers={"Accept":"application/vnd.github+json","X-GitHub-Api-Version":GITHUB_API_VERSION,"User-Agent":"Drowned-Distribution-Suite/0.2"}
         self.s=requests.Session(); self.s.headers.update(headers)
-        self.raw_s=requests.Session(); self.raw_s.headers.update({"User-Agent":"Drowned-Distribution-Suite/0.2","Accept":"application/octet-stream"})
+        self.raw_s=requests.Session(); self.raw_s.headers.update({"User-Agent":"Drowned-Distribution-Suite/0.2","Accept":"application/octet-stream","Cache-Control":"no-cache"})
         if token:
             auth=f"Bearer {token.strip()}"; self.s.headers["Authorization"]=auth; self.raw_s.headers["Authorization"]=auth
 
@@ -65,6 +65,15 @@ class GitHubClient:
         if r.status_code in (401,403) and r.headers.get("X-RateLimit-Remaining")=="0": raise RateLimitError("GitHub API rate limit reached")
         if r.status_code==401: raise AuthenticationError("GitHub authentication failed")
         if r.status_code!=204: raise NetworkError(f"release delete {r.status_code}: {r.text[:800]}")
+        return True
+
+    def delete_tag_ref(self,tag:str)->bool:
+        url=f"{GITHUB_API}/repos/{self.owner}/{self.repo}/git/refs/tags/{quote(tag,safe='')}"
+        r=self.s.delete(url,timeout=60)
+        if r.status_code==404: return False
+        if r.status_code in (401,403) and r.headers.get("X-RateLimit-Remaining")=="0": raise RateLimitError("GitHub API rate limit reached")
+        if r.status_code==401: raise AuthenticationError("GitHub authentication failed")
+        if r.status_code!=204: raise NetworkError(f"tag delete {r.status_code}: {r.text[:800]}")
         return True
 
     def upload_asset(self,rid,name,path:Path,content_type="application/octet-stream",progress=None):
