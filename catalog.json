@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-16T19:34:27.826021+00:00",
+  "updated_at": "2026-08-16T20:17:52.092127+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -62,6 +62,27 @@
           "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/grand-theft-auto-vice-city/stable/1.0.0.json",
           "size": 1619033742,
           "published_at": "2026-08-16T19:34:27.826011+00:00"
+        }
+      }
+    },
+    {
+      "id": "grand-theft-auto-iii",
+      "title": "Grand Theft Auto III",
+      "platform": "pc",
+      "description": "Welcome to Liberty City. Where it all began. With stellar voice acting, a darkly comic storyline, a stunning soundtrack and revolutionary open-world gameplay, Grand Theft Auto III is the game that defined the open world genre for a generation.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/grand-theft-auto-iii/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/grand-theft-auto-iii/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/grand-theft-auto-iii/logo.png"
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-grand-theft-auto-iii-v1.0.0-stable",
+          "manifest_path": "manifests/pc/grand-theft-auto-iii/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/grand-theft-auto-iii/stable/1.0.0.json",
+          "size": 1351311178,
+          "published_at": "2026-08-16T20:17:52.092118+00:00"
         }
       }
     }
