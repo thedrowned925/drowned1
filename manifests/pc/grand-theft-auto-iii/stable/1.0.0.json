@@ -1,0 +1,4812 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "grand-theft-auto-iii",
+    "title": "Grand Theft Auto III",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Welcome to Liberty City. Where it all began. With stellar voice acting, a darkly comic storyline, a stunning soundtrack and revolutionary open-world gameplay, Grand Theft Auto III is the game that defined the open world genre for a generation."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-grand-theft-auto-iii-v1.0.0-stable"
+  },
+  "chunk_size": 84934656,
+  "upload_workers": 16,
+  "total_size": 1351311178,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "anim/cuts.dir",
+      "size": 9216,
+      "sha256": "0160c3ba5d2c88994738124c53cf80cdbf428d6a8905ea922f641986bb17053b"
+    },
+    {
+      "path": "anim/cuts.img",
+      "size": 43634688,
+      "sha256": "03e108f2ca853f8655b31f5481c2115a8f5b2bf4536c0b779eee42e54f1f350a"
+    },
+    {
+      "path": "anim/gta3.ini",
+      "size": 10,
+      "sha256": "bd03fd541c1520f1bf34743052235a200ed87b34451801c772f7762b023ba81a"
+    },
+    {
+      "path": "anim/ped.ifp",
+      "size": 2049400,
+      "sha256": "579b86445956dee767827aa1ec662365a7fa36a98bda2837b11b157013679f91"
+    },
+    {
+      "path": "audio/A1_a.wav",
+      "size": 8252,
+      "sha256": "846bdfe272a7b9ed288d4915d810c6b11da1b5d266e8c88635b703c1bd01df4f"
+    },
+    {
+      "path": "audio/a1_sso.wav",
+      "size": 1921174,
+      "sha256": "47f2af93da1a907318ba4488124a3896af1386d0531f213735e21c71ae2b83d9"
+    },
+    {
+      "path": "audio/a2_pp.wav",
+      "size": 874646,
+      "sha256": "49330ce7fca78ef707259994921f39f5e27f71669c1085703a02edcb9a3df106"
+    },
+    {
+      "path": "audio/a3_a.wav",
+      "size": 51200,
+      "sha256": "d2283225cc025c48f0cb19f4a89b42976e56787a4228f556b26912969870fc0c"
+    },
+    {
+      "path": "audio/a3_ss.wav",
+      "size": 1802390,
+      "sha256": "14c6d1a68a1e51e0dac065784a9d20b26683b9679591c9dc6d591294c71cb7d5"
+    },
+    {
+      "path": "audio/a4_a.wav",
+      "size": 12604,
+      "sha256": "bc2b85dc98facf6e596d0daf54c8e9aaac251ef8f70b770f1ebbf518222b3687"
+    },
+    {
+      "path": "audio/a4_b.wav",
+      "size": 12604,
+      "sha256": "0af65c3396b972a59421ea966daa16bb18e4d2f9691da369b4737ec57ca5a906"
+    },
+    {
+      "path": "audio/a4_c.wav",
+      "size": 13372,
+      "sha256": "9202db8306754eb47f1cd04831fc8c724c3cb0f3f25d24b623e6a4381942e334"
+    },
+    {
+      "path": "audio/a4_d.wav",
+      "size": 13116,
+      "sha256": "e4de589c62f29fccdd3139eafb3ce970ff8ba9445c33e6f087e5c88ef8b675e4"
+    },
+    {
+      "path": "audio/a4_pdr.wav",
+      "size": 1392790,
+      "sha256": "9a331dfc8239f8f42a1aa15c5bf0b25e92e731c23f76297473a2674d98779915"
+    },
+    {
+      "path": "audio/a5_a.wav",
+      "size": 78704,
+      "sha256": "90e3e312ebf3bccf2f252737dce589ad86d3c46186f28bec1a92d8e592093810"
+    },
+    {
+      "path": "audio/a5_k2ft.wav",
+      "size": 858262,
+      "sha256": "18e7dc9ffae211ca4ad1342e9d267597ddfb8213d8f585f6922fb5ce4052013b"
+    },
+    {
+      "path": "audio/a6_bait.wav",
+      "size": 1403030,
+      "sha256": "b8ee4ac66659369bf680ee8428cc6b1d4ec1223fa04fb9eefbdf8ef1cffadff7"
+    },
+    {
+      "path": "audio/a7_etg.wav",
+      "size": 1372310,
+      "sha256": "68e840158ecf4e565a7a7d8119ec2a777b3dce8f69425f928dee13ecc6b1fae0"
+    },
+    {
+      "path": "audio/a8_ps.wav",
+      "size": 1953852,
+      "sha256": "8ba2d7cdd914e047b3fce682c7ae21d4d077800ed0d59b11fbcb88c1c0b82219"
+    },
+    {
+      "path": "audio/a9_asd.wav",
+      "size": 616508,
+      "sha256": "a9b77ff0a0b459a150d5a29b9279ee3898e29b8bb22a70085ad49ba028db4b65"
+    },
+    {
+      "path": "audio/AMMU_A.wav",
+      "size": 8764,
+      "sha256": "a19eebcff2398d7a8e481f99a7b5d695692a2ba21fb2ea158802479891c3478a"
+    },
+    {
+      "path": "audio/AMMU_b.wav",
+      "size": 7996,
+      "sha256": "a6dd52ed850e1f246fe3f8cec11fc2cac1fa1b4aaa9700921271d17a2b41030b"
+    },
+    {
+      "path": "audio/AMMU_C.wav",
+      "size": 15676,
+      "sha256": "3763927b4b4a011ed280e54bf33ddaad7fc34576eaefba419435e21ad382ef32"
+    },
+    {
+      "path": "audio/BET.mp3",
+      "size": 591122,
+      "sha256": "c21823d471786421499eeec59253ed6762c50eedd484a45975fd7d8f3896e4cf"
+    },
+    {
+      "path": "audio/c1_tex.mp3",
+      "size": 1043772,
+      "sha256": "6d2f9fe15be6682b8644320f7ce258480a0179b1f21167163e7e787ef5a618d2"
+    },
+    {
+      "path": "audio/cat1.wav",
+      "size": 11580,
+      "sha256": "4995709f521b224f56e2b10cd366432b6f29271bdbad771cc1e62a9619fba87d"
+    },
+    {
+      "path": "audio/CHAT.wav",
+      "size": 112280636,
+      "sha256": "297b55f6a0fff72dc0a06f73f43733c6a8dab89a0f509a4eb9f0764d49c828ed"
+    },
+    {
+      "path": "audio/City.wav",
+      "size": 19346492,
+      "sha256": "3fa06ecaa0bb737b13fe00ee5c5123973172c79d5c452957ae00e7f0eade5fdd"
+    },
+    {
+      "path": "audio/CLASS.wav",
+      "size": 39846972,
+      "sha256": "9ca54b02c65a2dc15e0cbc3773fa744b56d726d6879707202ab572399d84c63f"
+    },
+    {
+      "path": "audio/COMopen.wav",
+      "size": 547900,
+      "sha256": "2ab2bb43aa73ba044ba89c8e53ebd14fe510f4581712dfed1798dda058527b3e"
+    },
+    {
+      "path": "audio/d1_stog.mp3",
+      "size": 737408,
+      "sha256": "1926a4ef6cb11da12565ed9d15cd1f01abe2d1598968da05c5af212887320153"
+    },
+    {
+      "path": "audio/d2_kk.mp3",
+      "size": 685163,
+      "sha256": "63587200e1a8224c674977861a69fd308c4002133d665810546430500f0ddaff"
+    },
+    {
+      "path": "audio/d3_ado.mp3",
+      "size": 430208,
+      "sha256": "bb3e2c94ded5109c7e926855dd2fea7d52cf998f583a1e5181ce6272f4dfbec3"
+    },
+    {
+      "path": "audio/d4_gta.mp3",
+      "size": 444837,
+      "sha256": "f276e255f2455bd73f2c2c3e7a1a131bb89533808319b468838fe568b0dbec38"
+    },
+    {
+      "path": "audio/d4_gta2.mp3",
+      "size": 1415756,
+      "sha256": "059fa90db23158470f63dc5d667f558dab77d973d5cdca686b71f3497d6006ae"
+    },
+    {
+      "path": "audio/d5_es.mp3",
+      "size": 305656,
+      "sha256": "89864c8e303361beb00595d7920533f4f6029723cd39f8274196fc70d38a7ace"
+    },
+    {
+      "path": "audio/d6_sts.mp3",
+      "size": 323210,
+      "sha256": "83ba1000885faa474f6a8b967c2affe7580db81ad76b06b5ecba39ab5fd6322b"
+    },
+    {
+      "path": "audio/d7_mld.mp3",
+      "size": 268040,
+      "sha256": "d30da1615c61acf5673c82787bbb3dce31e9af4394c8d51975d8394f30ff6c84"
+    },
+    {
+      "path": "audio/door_1.wav",
+      "size": 12348,
+      "sha256": "e7b1ebfa3bc2797304d63e578dc9c44448fa4a64ce6d99ef822afd5668965d74"
+    },
+    {
+      "path": "audio/door_2.wav",
+      "size": 6716,
+      "sha256": "27aecd7fd43670e675967655092a0cc743c14486891fea7647380ebe4816fbed"
+    },
+    {
+      "path": "audio/door_3.wav",
+      "size": 24124,
+      "sha256": "ce9f941d1e0446043ea602468b5cc77813be9c086263ca160f3ef6c90373c624"
+    },
+    {
+      "path": "audio/door_4.wav",
+      "size": 22332,
+      "sha256": "cff52b3578d870c873c8c3bdfc8ecb2c6bd1311f5f90059455f22a1032ad9e9d"
+    },
+    {
+      "path": "audio/door_5.wav",
+      "size": 572,
+      "sha256": "6f2dbd6396acea45a29969717db1c2493e2f24a305a4b9dc63cf05e494ca5fbb"
+    },
+    {
+      "path": "audio/door_6.wav",
+      "size": 572,
+      "sha256": "6f2dbd6396acea45a29969717db1c2493e2f24a305a4b9dc63cf05e494ca5fbb"
+    },
+    {
+      "path": "audio/el3_a.wav",
+      "size": 64142,
+      "sha256": "bf690387f60f58965967a04fa15d210768c041e8d8131906cf52144df30aca9a"
+    },
+    {
+      "path": "audio/el_ph1.mp3",
+      "size": 355393,
+      "sha256": "834f42a45db31702e95872485cde64bfb2382e7e37208f4c64d6334c309789e4"
+    },
+    {
+      "path": "audio/el_ph2.mp3",
+      "size": 576912,
+      "sha256": "21cb8d5bedd1300929c50ebd69a84573461953ec793a518b660257faea345a80"
+    },
+    {
+      "path": "audio/el_ph3.mp3",
+      "size": 576076,
+      "sha256": "3f33eecb8b64e2613814763a578a4d4f530dfc17d93428c8718d7ca5387fdebc"
+    },
+    {
+      "path": "audio/el_ph4.mp3",
+      "size": 448598,
+      "sha256": "08c19bdc2f63876b8ae8631ab806c1780110ae745744700471c64331c2a794a7"
+    },
+    {
+      "path": "audio/END.mp3",
+      "size": 8596295,
+      "sha256": "730dbb34196265b1dbfd391f0c890321744ce98a0a27b480211f0baf2a4914a4"
+    },
+    {
+      "path": "audio/FLASH.wav",
+      "size": 36281404,
+      "sha256": "f8bdfcdc0833cf10a6c1152e60d36d506337a92e1dc1d752842f36065d3ab643"
+    },
+    {
+      "path": "audio/GAME.wav",
+      "size": 41803836,
+      "sha256": "0432323161a6e0cefefe029055adef57ab2970e97ed608f49b9ef5b865abf091"
+    },
+    {
+      "path": "audio/h5_a.wav",
+      "size": 33340,
+      "sha256": "6c602f7b1361c1803da04969f410d7222d40db521c677cde9e0bb2eb3376dda0"
+    },
+    {
+      "path": "audio/h5_b.wav",
+      "size": 13628,
+      "sha256": "9e7382692f59763cb11453195f42f91f87f3a333edc9bd31cbcbfaea0d2c741d"
+    },
+    {
+      "path": "audio/h5_c.wav",
+      "size": 10556,
+      "sha256": "e0ab5c2775c45cb5139ed6f76b3f86f8baaf9003774e4d0918282aa50d3a77e0"
+    },
+    {
+      "path": "audio/hd_ph1.mp3",
+      "size": 511292,
+      "sha256": "9890e12b4918533b0652c41b73eb8a9c9f9c32809cd1d00dea6057251792c6f4"
+    },
+    {
+      "path": "audio/hd_ph2.mp3",
+      "size": 270966,
+      "sha256": "9c56079e34095770aebabd56aa03a3dc0155bf3bd33dcf0a06f2bf2bcd03b058"
+    },
+    {
+      "path": "audio/hd_ph3.mp3",
+      "size": 372112,
+      "sha256": "7159a38d01ecd008141c34ae85eb86d61401f301270f17a9722f29c327ded618"
+    },
+    {
+      "path": "audio/hd_ph4.mp3",
+      "size": 354557,
+      "sha256": "dca0f120f9a8a39fa866176b14c83df944fd3c7ff709d95958b7ecddd4d39978"
+    },
+    {
+      "path": "audio/hd_ph5.mp3",
+      "size": 354557,
+      "sha256": "70ff38c650879adb73cee3932e4e7bd119b27ff949ca1b79dac00393f6a55ad3"
+    },
+    {
+      "path": "audio/HEAD.wav",
+      "size": 45304004,
+      "sha256": "f4f8dcf24bc6d2b8761d57180ea52d1d89e19904d96644df575b0da0708ae25e"
+    },
+    {
+      "path": "audio/j0_dm2.mp3",
+      "size": 458211,
+      "sha256": "90c1f531b3dbd69b40bdf4b2ef3dfde07c9073fe18a8d1f536cd792904b073d4"
+    },
+    {
+      "path": "audio/j1_lfl.mp3",
+      "size": 508366,
+      "sha256": "5f80f48220656bdab5a7ebeb98043f03b84af1f7553d23ee666a4730bcbe472f"
+    },
+    {
+      "path": "audio/j2_kcl.mp3",
+      "size": 524249,
+      "sha256": "ae2db743779f1f6655cf5548b01396e7de8ca7b884bdb124daa1d8acd590d8a5"
+    },
+    {
+      "path": "audio/j3_vh.mp3",
+      "size": 454868,
+      "sha256": "0ae2aa1ffd7f13d69be882c6c8f9061ffb0d6e74b1077ae347f1473e1342c490"
+    },
+    {
+      "path": "audio/j4_a.wav",
+      "size": 15164,
+      "sha256": "0711f65ab0dbb0ddafc896d4b0508f136f5b5a05ae40915519eada030e417e06"
+    },
+    {
+      "path": "audio/j4_b.wav",
+      "size": 19772,
+      "sha256": "5bef11ba7feff09548d93d115a8a5893ce9b85e390c8eb78491fb5612cc0ed6b"
+    },
+    {
+      "path": "audio/j4_c.wav",
+      "size": 17980,
+      "sha256": "70b50b41a94b6f6b96f2b26db820972d42817f115189a0f561ad320eecc2175f"
+    },
+    {
+      "path": "audio/j4_d.wav",
+      "size": 24892,
+      "sha256": "9feb6a8924aef7eca37df1445a50fb2d9ae18ec09d91dd00de47d1884fb2ecc1"
+    },
+    {
+      "path": "audio/j4_e.wav",
+      "size": 14908,
+      "sha256": "5f7edd17f8805f9b83d29cb45498335336fda27143685debbc4725bd43d0bf1a"
+    },
+    {
+      "path": "audio/j4_eth.mp3",
+      "size": 398861,
+      "sha256": "ec554fa28a49fb83716d1de57a77702afae78d293b03b83827cf8c107bbd5ac7"
+    },
+    {
+      "path": "audio/j4_f.wav",
+      "size": 10812,
+      "sha256": "dbb609eccc63fd1dc92e46734d48cf36238c07d79adc7a727992f77717ccf2ea"
+    },
+    {
+      "path": "audio/j4t_1.wav",
+      "size": 30268,
+      "sha256": "7ed00dcb23a54d66c717b80bac0fd289dfc2f66a41e01282eae3d83c68ff6683"
+    },
+    {
+      "path": "audio/j4t_2.wav",
+      "size": 14908,
+      "sha256": "bd0da1ee07d287ccd9521c09abdb8f9880f9aaa40954f078f11f73a6f5ec4f14"
+    },
+    {
+      "path": "audio/j4t_3.wav",
+      "size": 14140,
+      "sha256": "71ceb72a917e85334e643cb2eaf95a7304dd6a0d35591b2acedd87d82a74533d"
+    },
+    {
+      "path": "audio/j4t_4.wav",
+      "size": 9532,
+      "sha256": "a71a825ad580b4db4cd4f26039407815977818d60f8fca0193b792aaa5372746"
+    },
+    {
+      "path": "audio/j5_dst.mp3",
+      "size": 353304,
+      "sha256": "466273fb4083a69f0cd6d7a05c6800b6eb8c784b6ac90379eab99c592a4ad2a2"
+    },
+    {
+      "path": "audio/j6_1.wav",
+      "size": 23868,
+      "sha256": "ee6971a4fff361ad34466d43825ecc10bbde9ae0d4ad59b2d9a826014056e4d5"
+    },
+    {
+      "path": "audio/j6_a.wav",
+      "size": 10044,
+      "sha256": "11dc2916cc59a03ebb2b8116118a9de9d85b78249a2b0088cdd39bbafe1412c0"
+    },
+    {
+      "path": "audio/j6_b.wav",
+      "size": 12092,
+      "sha256": "05a51f89beeb8b1090ee119e7cdf4c91a4ee84a037f29c9506043c75876b501b"
+    },
+    {
+      "path": "audio/j6_c.wav",
+      "size": 3900,
+      "sha256": "15dbd8e85a555d622313e8f973b726d02ef1bca474a0ba519f8e32d7a5d21264"
+    },
+    {
+      "path": "audio/j6_d.wav",
+      "size": 63906,
+      "sha256": "85c4b4dd8b1ddf9e65f667dccaa8f806b955dae1438a87c84227d41f54b6e644"
+    },
+    {
+      "path": "audio/j6_tbj.mp3",
+      "size": 364170,
+      "sha256": "9b518632d8668909e0f943d05bcd2a4bf482f7fea9d3f634877bbd9621db1cca"
+    },
+    {
+      "path": "audio/JB.mp3",
+      "size": 1809891,
+      "sha256": "319fbb55564d1c2b7963aa9eb313eeb5581099a3e2a39babf618af943d854ea3"
+    },
+    {
+      "path": "audio/k1_a.wav",
+      "size": 56972,
+      "sha256": "0ffb7f22bc7932cee67b76f45d7961e4e645cd8ead716a50ef04a728ae4415cf"
+    },
+    {
+      "path": "audio/k1_b.wav",
+      "size": 9788,
+      "sha256": "2b51f658f6dbf4a221b3797d17724521113dea6d794e6e5f00dd6208592bedbf"
+    },
+    {
+      "path": "audio/k1_kbo.mp3",
+      "size": 535534,
+      "sha256": "a5c1161947dc6e485305c1ad13f5aaae89e4d233a74a3b4e73aa64d2e70ecb09"
+    },
+    {
+      "path": "audio/k2_gis.mp3",
+      "size": 658832,
+      "sha256": "b3dd71311f99a7195f5e7ab054508603a6bc28be60d9ba8c9d4f23a101250e6c"
+    },
+    {
+      "path": "audio/K3_A.wav",
+      "size": 11836,
+      "sha256": "68115628f3f1d3cd92d2e6c4e255dd2f437bf88bbf09083ef6ac9297e2a4f55b"
+    },
+    {
+      "path": "audio/k3_ds.mp3",
+      "size": 418505,
+      "sha256": "d911b9a65a3d17c2af1a0636041137a7b41688509dc4d267a353fe180d4a2519"
+    },
+    {
+      "path": "audio/k4_shi.mp3",
+      "size": 324046,
+      "sha256": "ca5ef8697ccb7ba1dadcdd2f2c5dd98cfd63d6803b64835a8ec351beb9ce4b0c"
+    },
+    {
+      "path": "audio/k4_shi2.mp3",
+      "size": 214123,
+      "sha256": "6ffe8a8fc8d9a12e3f50b710f998a3d93ec88e807f5118ad255557c6b721a3c6"
+    },
+    {
+      "path": "audio/k5_sd.mp3",
+      "size": 565627,
+      "sha256": "2334c05ce863f3d16792f382a111be41d311f66ba216d00dd1779a1f94d5138b"
+    },
+    {
+      "path": "audio/KJAH.wav",
+      "size": 36886588,
+      "sha256": "23cecac9efd819355b3f4624c78344019ef2f34d96fb7c5d8a802dad692fc88b"
+    },
+    {
+      "path": "audio/l1_lg.mp3",
+      "size": 1051713,
+      "sha256": "bce66cb8a0d75073fbe6426ae0a7c2f9ca3f141d2991f2e35d7e2a9efbb1a37b"
+    },
+    {
+      "path": "audio/l2_a.wav",
+      "size": 31548,
+      "sha256": "6d46b261fc04f12b203dd842b2809a24329f0b83270121ac97a086072c90ef09"
+    },
+    {
+      "path": "audio/l2_dsb.mp3",
+      "size": 540549,
+      "sha256": "18ee6b9382a6f6dbe4c7966c82f6a0795fa0b754e8f8616e7bf3db543e9c5c5b"
+    },
+    {
+      "path": "audio/l3_dm.mp3",
+      "size": 483289,
+      "sha256": "b6f7890dd4b7067db00450d733edf11f8c904a7248c5899cd33c684d522de7ca"
+    },
+    {
+      "path": "audio/l4_pap.mp3",
+      "size": 365842,
+      "sha256": "00f5eb8c3a85ce3cd15d700310405c693175bf413acaa150ceaf72296f76a326"
+    },
+    {
+      "path": "audio/l5_tfb.mp3",
+      "size": 448598,
+      "sha256": "293fae87f6d70361a062a5cc717c348cbec74360d609aa0d9deba587e97d78f6"
+    },
+    {
+      "path": "audio/lib_a.wav",
+      "size": 20540,
+      "sha256": "1d523a79f2712f0eb8c3c52b09e45f863d55d7febf7b826e0cae926a6d9d1500"
+    },
+    {
+      "path": "audio/lib_a1.wav",
+      "size": 17724,
+      "sha256": "b4adfa30de46d81205d45bee29fbfa07812dad115bb6d0061febbeed3409664b"
+    },
+    {
+      "path": "audio/lib_a2.wav",
+      "size": 14908,
+      "sha256": "dc13e26b62c6e0a8cd7567b2645610acdf13a237f98872493956239342c339a0"
+    },
+    {
+      "path": "audio/lib_b.wav",
+      "size": 39228,
+      "sha256": "718f8abb52b376e4771682fe82e632ddff5b41feb8f07cfad2af95e01bea0e2e"
+    },
+    {
+      "path": "audio/lib_c.wav",
+      "size": 17468,
+      "sha256": "c9975a6bdeb71a9dd3a93faa204ee21374179f07388241e997d708c8b2d3c04f"
+    },
+    {
+      "path": "audio/lib_d.wav",
+      "size": 7996,
+      "sha256": "8a04011f49b7ff45b22572671e136f087423b2c26336017312017b5e58927db4"
+    },
+    {
+      "path": "audio/LIPS.wav",
+      "size": 38895812,
+      "sha256": "3984e47affdb363cd4391fd776cdb62d624d23c4a9f346e12bf96c878a5a6101"
+    },
+    {
+      "path": "audio/lo2_a.wav",
+      "size": 73522,
+      "sha256": "6373c7e043880b71975988437335a0291f1e041a3f78b15fa23b06e00930cbaf"
+    },
+    {
+      "path": "audio/lo6_a.wav",
+      "size": 95132,
+      "sha256": "6fc6273fee1d75266ee347b8757bbddc165220e4761647d13c23cbc1b673d5be"
+    },
+    {
+      "path": "audio/mf1_a.wav",
+      "size": 23356,
+      "sha256": "856de93a718c9f138f1ef449ff21d8da65c239f51ffc6064898c6d2dbf1a0846"
+    },
+    {
+      "path": "audio/mf2_a.wav",
+      "size": 24380,
+      "sha256": "4012d30be8f6e988f8a1bfd152f01bfc73c84955586b0f24722e11f2686791f1"
+    },
+    {
+      "path": "audio/mf3_a.wav",
+      "size": 26428,
+      "sha256": "d2e44a7b196c5789a7d8dfa8636ac1633873ccd6497edbe4bb809dbc31cf09e0"
+    },
+    {
+      "path": "audio/mf3_b.wav",
+      "size": 27964,
+      "sha256": "b60397749ec2c7bc1e813d40b1106454c0f45f6d420fb4b0106cc230ecd85083"
+    },
+    {
+      "path": "audio/mf3_b1.wav",
+      "size": 11836,
+      "sha256": "e4c08725d2bffcb08e14911ca15b053d2abda311dde8e08a7a34ad5fa5036fa2"
+    },
+    {
+      "path": "audio/mf3_c.wav",
+      "size": 32060,
+      "sha256": "12c76bf25439bb3656d451c267a391cb09c9e08b2f552beb5c1133bb03828560"
+    },
+    {
+      "path": "audio/mf4_a.wav",
+      "size": 13884,
+      "sha256": "0b30bd40596c11ae35632efa4becc62e158560d7d280b4bae61946a7d15a292a"
+    },
+    {
+      "path": "audio/mf4_b.wav",
+      "size": 28220,
+      "sha256": "e7c7d61c6b03cda7163d239df7143eabb16f57176b307401d9faf3cde0a207a2"
+    },
+    {
+      "path": "audio/mf4_c.wav",
+      "size": 16444,
+      "sha256": "1e8e15681d11a31f9ffad44e0fcdeb5a214f4c67ce12ebc6ed146c5b31f80f40"
+    },
+    {
+      "path": "audio/Miscom.wav",
+      "size": 428092,
+      "sha256": "5e03d2cbebac434ae862393b5fb3c495763714e8d889c7a706b5b87346640697"
+    },
+    {
+      "path": "audio/MSX.wav",
+      "size": 48354364,
+      "sha256": "aa74331143be72e3e53dbe6aa18b12287fdbf9a74afb69f1e2ddf8cfe9c31f60"
+    },
+    {
+      "path": "audio/mt_ph1.mp3",
+      "size": 437313,
+      "sha256": "65e827417b03e9c432ef64f8a2f91a183f1b2d3c40d7b82f4c75a0da1a8ff6a7"
+    },
+    {
+      "path": "audio/mt_ph2.mp3",
+      "size": 432298,
+      "sha256": "d5af5e1d27bcf9fc3a305766d83eb27fbe46872436baa6ee8f398aeb60e7d06c"
+    },
+    {
+      "path": "audio/mt_ph3.mp3",
+      "size": 321121,
+      "sha256": "09074bdc753dc84e5e305feff0e2d1d7dde7e1a67befaaf5f40df2dcf1eeb836"
+    },
+    {
+      "path": "audio/mt_ph4.mp3",
+      "size": 320703,
+      "sha256": "81b3b6dfed56401b9bf43ac15dfb059020bb20acadcff1d6107de0a086d22314"
+    },
+    {
+      "path": "audio/police.wav",
+      "size": 31898684,
+      "sha256": "e609724f7f2f19ef33d42218e41e1041b62cdfd62d95e8c78ed5443528bfeb37"
+    },
+    {
+      "path": "audio/r0_pdr2.mp3",
+      "size": 588197,
+      "sha256": "0cc0b48b15dd6908765e800299f0656c363f0ff938795098c550722322ae9fec"
+    },
+    {
+      "path": "audio/r1_a.wav",
+      "size": 60106,
+      "sha256": "78d22c933a62a6128ec350b5be930444451aa0f96537b9396eef40ecabaee66f"
+    },
+    {
+      "path": "audio/r1_sw.mp3",
+      "size": 356229,
+      "sha256": "cd083d4b8dfa8f8349d5d82697b6a34853e7333b2bb670b96a09072bdec83172"
+    },
+    {
+      "path": "audio/r2_a.wav",
+      "size": 14908,
+      "sha256": "271b2ae92b985c9ce95cf7a1fffeb91fed2cf42f3660139235ef6a13ae69606e"
+    },
+    {
+      "path": "audio/r2_ap.mp3",
+      "size": 636262,
+      "sha256": "0e31a3ccf77a3cae840ef006bd29ce47b5c02433ea7601ab53c83c955c067665"
+    },
+    {
+      "path": "audio/r2_b.wav",
+      "size": 21052,
+      "sha256": "e2afe09ac14b8b8b98fcadff30a06242e088b6badfc67ff9053533022892a53a"
+    },
+    {
+      "path": "audio/r2_c.wav",
+      "size": 17212,
+      "sha256": "f3e4508839a559af6d1f092acdede59a73eba3bd16a974ae196d1b64322e0c15"
+    },
+    {
+      "path": "audio/r2_d.wav",
+      "size": 7740,
+      "sha256": "445c796599a8e6a4851e9be5065a885a4ef8c3916cdbf6a3649a85369dfce3a7"
+    },
+    {
+      "path": "audio/r2_e.wav",
+      "size": 15676,
+      "sha256": "5511d3e98482ab9442ad0c99f66ac0c08e51bca6189c8fe035cd259a4edf9264"
+    },
+    {
+      "path": "audio/r2_f.wav",
+      "size": 22844,
+      "sha256": "c5caebe54980f297ce9fd5c26639b97c61f02367e8897a05cf8a2fd9a721a308"
+    },
+    {
+      "path": "audio/r2_g.wav",
+      "size": 32316,
+      "sha256": "26ed56b7c4f0397630941c96ab6e7d7fbab9624a6a0a49c42f71fd0fc3317c6d"
+    },
+    {
+      "path": "audio/r2_h.wav",
+      "size": 13884,
+      "sha256": "0b142149af3a9f2d513ca3812790e1448ac4fd7ee46c601009134a6ea6a2dc41"
+    },
+    {
+      "path": "audio/r3_ed.mp3",
+      "size": 699792,
+      "sha256": "bb3aabf2799768616b3570285fd7d034e19cb8603180ca5d04ae0ea71bdbd748"
+    },
+    {
+      "path": "audio/r4_gf.mp3",
+      "size": 345362,
+      "sha256": "cb5548b0a455e39d2a3b0d69db71c66853bf5314e6e1f6d3d42c3c17e4be10df"
+    },
+    {
+      "path": "audio/r5_a.wav",
+      "size": 74828,
+      "sha256": "2a2fec81e85d2374221eaca66c21d6fb183a43fe05e6fe2370de087e7795ab97"
+    },
+    {
+      "path": "audio/r5_pb.mp3",
+      "size": 325718,
+      "sha256": "9fd0877c1c3e8183a15c33844ea9992c17346a3200f354f968297db9058dbdec"
+    },
+    {
+      "path": "audio/r6_a.wav",
+      "size": 6716,
+      "sha256": "e39c0497cbc4a5e427684d13fcb75eac4c576e48daf1a05dd359782fb5292102"
+    },
+    {
+      "path": "audio/r6_a1.wav",
+      "size": 18748,
+      "sha256": "4ec94befb280f4e88ff0ca7ad12fd6863d257d7bb06fb845c379495f945bb2f9"
+    },
+    {
+      "path": "audio/r6_b.wav",
+      "size": 4668,
+      "sha256": "754b4da409938dfb6f4f3160f65605907383280fd3618eba790ffdcb485a9943"
+    },
+    {
+      "path": "audio/r6_mm.mp3",
+      "size": 375037,
+      "sha256": "ac0e20cfbd8d392587b83fd6d84fedadc114d0356b2fdec2dc611fc32b8acd49"
+    },
+    {
+      "path": "audio/RISE.wav",
+      "size": 50536508,
+      "sha256": "cb3eb5cbef8038be76e4e036a6a4149a22b6f8d45eec32013812924f5ccd48ed"
+    },
+    {
+      "path": "audio/s0_mas.mp3",
+      "size": 766665,
+      "sha256": "edb66e97864469169ebc36e1b44e2d404431d9d70db6ce7ec75dca8b778c6c0b"
+    },
+    {
+      "path": "audio/s1_a.wav",
+      "size": 17980,
+      "sha256": "5fc48ad97638a04a012195909e89d59d8cb9e29a7f623a652b7f1e7b0fb6b5ce"
+    },
+    {
+      "path": "audio/s1_a1.wav",
+      "size": 23356,
+      "sha256": "cd310916bd366f842a4a9a5816ef4053a6e579a3048aa7ad1df34fadc02c5b77"
+    },
+    {
+      "path": "audio/s1_b.wav",
+      "size": 13372,
+      "sha256": "a7f42a9dbf389e3c307617d673bca3133ee0f91adbf2c3f52153b8b2517a74c9"
+    },
+    {
+      "path": "audio/s1_c.wav",
+      "size": 7484,
+      "sha256": "8749daade31b99096b8093665d247ca8f817cf7463eae5bcfae93d29e9a9a4ed"
+    },
+    {
+      "path": "audio/s1_c1.wav",
+      "size": 26172,
+      "sha256": "5b27986c83a3a388fe52f991729eb4b5085b3a93bca1f10ed4f50707f66df6b9"
+    },
+    {
+      "path": "audio/s1_d.wav",
+      "size": 15932,
+      "sha256": "6d1aa3b902d0b59b2c6cbf3150fdd75b2f26686569d17ea8b52cb6312e3971c7"
+    },
+    {
+      "path": "audio/s1_e.wav",
+      "size": 19772,
+      "sha256": "5006c1dd6823de303599f8fb6634f5d5d0af81cdce3ce3643ee9cb7169036e40"
+    },
+    {
+      "path": "audio/s1_f.wav",
+      "size": 11580,
+      "sha256": "3d281b3d36f0269c4affa42b939341b714db72eac1975110f7f1f261cca505af"
+    },
+    {
+      "path": "audio/s1_g.wav",
+      "size": 24380,
+      "sha256": "0f76b965ded8b2453a62694fef4d61af39281ad94c89bbe26dac7e10c2ac6e52"
+    },
+    {
+      "path": "audio/s1_h.wav",
+      "size": 65092,
+      "sha256": "185055d021661e841e63a13b7940a1a65779dc23fc05da736a4e69d33a1054ce"
+    },
+    {
+      "path": "audio/s1_i.wav",
+      "size": 5180,
+      "sha256": "d1d23f53e51b24f3c7fbf3e6bae9c02a2ee77e3e7fa2d873765bad908d814ef2"
+    },
+    {
+      "path": "audio/s1_j.wav",
+      "size": 13884,
+      "sha256": "cddf7c1e0efbae9a084e27eb8578f3a5cb3cd5754e71b3bebb74319b49e3ece3"
+    },
+    {
+      "path": "audio/s1_k.wav",
+      "size": 32060,
+      "sha256": "6e37ee3b52a77f75601bf0fd59e7e57d7970013c3a80facfc74302aa84c50f38"
+    },
+    {
+      "path": "audio/s1_l.wav",
+      "size": 16444,
+      "sha256": "38b896a842fd5dccf4b6bd319f6c137163624c4b472b4ccdd361b88a563556a3"
+    },
+    {
+      "path": "audio/s1_pf.mp3",
+      "size": 722361,
+      "sha256": "7abdf033a007e4a55b38c57f6d7f917a5ce5c4da0fab131e9c8f287df63c74ee"
+    },
+    {
+      "path": "audio/s2_ctg.mp3",
+      "size": 640024,
+      "sha256": "05136f8644c42a612a75710f89ec5786e9b473cc68a44cd52018e62103a5c5a4"
+    },
+    {
+      "path": "audio/s2_ctg2.mp3",
+      "size": 643367,
+      "sha256": "38a2b7618df02020687f67d934c04c201416abf461156b9927e967bc402f5023"
+    },
+    {
+      "path": "audio/s3_a.wav",
+      "size": 20284,
+      "sha256": "df01a18d6745ef087d24c19b555c53285a1730b4a467929d86b4527056814b6d"
+    },
+    {
+      "path": "audio/s3_b.wav",
+      "size": 77440,
+      "sha256": "cb9b9b44d37061d9f0f6d4161a87bdffb0b97ffae6b6b4e343cae96993f4d4ac"
+    },
+    {
+      "path": "audio/s3_rtc.mp3",
+      "size": 641695,
+      "sha256": "0e26a695c81fcd5062054bd7d60b7dfc2a1c187fb1e1602ecba71aeb24ccee3a"
+    },
+    {
+      "path": "audio/s4_bdba.mp3",
+      "size": 285594,
+      "sha256": "c04466712b31bea1f2dda754fda872d43c9e413007822f45f30448d241cf1f38"
+    },
+    {
+      "path": "audio/s4_bdbb.mp3",
+      "size": 264278,
+      "sha256": "26f74470a291619dc8cd547fddd9093562296049838fc6bc601f24970bc63584"
+    },
+    {
+      "path": "audio/s4_bdbd.mp3",
+      "size": 540549,
+      "sha256": "29e1211720196056f86751d162a93045a34825b0111ac7da0c124529594fb08c"
+    },
+    {
+      "path": "audio/s5_lrq.mp3",
+      "size": 449434,
+      "sha256": "087d121c7685c9b246c5e247a7359364c65fab1ce7abb42ad6668afe57438709"
+    },
+    {
+      "path": "audio/s5_lrqb.mp3",
+      "size": 641695,
+      "sha256": "8455cf7aa506535c0da7bf9a75cc15cd29e74af47ec94f41d30dae11c795cdfc"
+    },
+    {
+      "path": "audio/s5_lrqc.mp3",
+      "size": 481617,
+      "sha256": "50f41ccbaac8e895147d538a3354d790479f6548b4ce3728c21c682ae9ddc45a"
+    },
+    {
+      "path": "audio/sfx.RAW",
+      "size": 80849468,
+      "sha256": "676cad4ec396249db93a20de77d099f7a7612f22333ab0ec270c99e78fb216f9"
+    },
+    {
+      "path": "audio/sfx.SDT",
+      "size": 60640,
+      "sha256": "e228217c8c6a9dcf73b4db35190b274cd8b32befa8c97b6120d799b2b400af3c"
+    },
+    {
+      "path": "audio/SUBopen.wav",
+      "size": 543912,
+      "sha256": "8bdd283b5c27d603eb0ba80b5ebe4eca81e0f03dc89105e6a70280be426dfc80"
+    },
+    {
+      "path": "audio/t1_tol.mp3",
+      "size": 534698,
+      "sha256": "371a85e94b82ff90ec8d904723ccc4b2b8133ff03581820ee1b6cd8cb8b261fc"
+    },
+    {
+      "path": "audio/t2_tpu.mp3",
+      "size": 358319,
+      "sha256": "3644e63ae57b365808a88b4391aa74647cbe1a6eaf809754e6addf508f6cd821"
+    },
+    {
+      "path": "audio/t3_a.wav",
+      "size": 3388,
+      "sha256": "f6b914077406da056033deabae44038ca45f51f09c40726093ad613adfa30ffc"
+    },
+    {
+      "path": "audio/t3_b.wav",
+      "size": 5180,
+      "sha256": "ee4468f2a4ce53e7881f9e72b03e97166b51c05278a69749bb292de8ead86c6b"
+    },
+    {
+      "path": "audio/t3_c.wav",
+      "size": 6204,
+      "sha256": "40225425d77b76d6f4ef7944e4c1b9678c0e0d81d937c3e071b2b7769c84e4db"
+    },
+    {
+      "path": "audio/t3_mas.mp3",
+      "size": 337839,
+      "sha256": "95a81f00875d808923d4423f1cd0940f3bd0471507cc62568b7a474e66993975"
+    },
+    {
+      "path": "audio/t4_a.wav",
+      "size": 67586,
+      "sha256": "57d45e8da7dc6bf00675d6385f7240597c4fcfcfcfaa3b375e8c3deaf0c3ed6c"
+    },
+    {
+      "path": "audio/t4_tat.mp3",
+      "size": 395517,
+      "sha256": "d879d480e4f459145eb42856726eaf407e586e39fe4ff0d8789a810b2ac74d01"
+    },
+    {
+      "path": "audio/t5_bf.mp3",
+      "size": 461973,
+      "sha256": "4f77e786464861cfccdf475b22488e862450ec794b84bd70da4da03f5f49ca04"
+    },
+    {
+      "path": "audio/Water.wav",
+      "size": 20380732,
+      "sha256": "554b6c5e8db581b1a544c42cba7c18628b0b6ae3aa4a4bc0573566384a5ff830"
+    },
+    {
+      "path": "audio/YD2_A.wav",
+      "size": 39484,
+      "sha256": "0b64d4cd12a977c0519549a0b1b6ac09f86df6dce951fe396338997590d2e327"
+    },
+    {
+      "path": "audio/yd2_ass.wav",
+      "size": 19516,
+      "sha256": "98ed0be4c2b5c04a75b773696076ca0884dbc65da4140139ce049c5e0bc676b9"
+    },
+    {
+      "path": "audio/yd2_b.wav",
+      "size": 30012,
+      "sha256": "3b43020958280b139c147073a71c931224e938f3b262ee10959abcf431627b91"
+    },
+    {
+      "path": "audio/yd2_c.wav",
+      "size": 12348,
+      "sha256": "bd84f0e868754a890d0693d0967adffe557cd3538808403ce10e9cf76876f27f"
+    },
+    {
+      "path": "audio/yd2_c1.wav",
+      "size": 6716,
+      "sha256": "e5a62a51e74706e35dc82f2d3aa1da7b29858a6a5fd3cb3cdd5687277fb0f959"
+    },
+    {
+      "path": "audio/yd2_d.wav",
+      "size": 19004,
+      "sha256": "49cfcf9852e329784d9abb0d49e71a416446817e834a12e39099bc004e185486"
+    },
+    {
+      "path": "audio/yd2_e.wav",
+      "size": 17468,
+      "sha256": "99707d8bb2175930c76d8b4d4e57f015c5327ef4415689d536272ae5137c965d"
+    },
+    {
+      "path": "audio/yd2_f.wav",
+      "size": 20540,
+      "sha256": "6690fcf2f929bfacc46a3c43b58d4b852bbdcd0bd872dcdb6ca3711281c3b306"
+    },
+    {
+      "path": "audio/yd2_g.wav",
+      "size": 18492,
+      "sha256": "babb21aa67725263d30ff13680ac96162198bce99851725b50eba324f7930d61"
+    },
+    {
+      "path": "audio/yd2_h.wav",
+      "size": 26428,
+      "sha256": "0f5a248d6e64ed3ed54a31b886a5595fe7dac74605cfbe5d12a43eedb232b3ff"
+    },
+    {
+      "path": "audio/yd2_ok.wav",
+      "size": 34364,
+      "sha256": "d09bdc779cf7164aef2d38e93a913bc95f85e569bef3665a7c5ac80814deeb21"
+    },
+    {
+      "path": "audio/yd_ph1.mp3",
+      "size": 431880,
+      "sha256": "d8e711b3343d757fa442210680306c43b85f7c02457dfbdaf50e920792aa27e7"
+    },
+    {
+      "path": "audio/yd_ph2.mp3",
+      "size": 250068,
+      "sha256": "724e4d01dbb3bbfbbb801b2fb9c31f6205f0f6fcf21a360d72b998f515750991"
+    },
+    {
+      "path": "audio/yd_ph3.mp3",
+      "size": 349960,
+      "sha256": "b952bde269fe6a628f16674af3da3346975e6a0767847ffcd7b4035ee301f843"
+    },
+    {
+      "path": "audio/yd_ph4.mp3",
+      "size": 167312,
+      "sha256": "6f5e62a78f8efd66e7687c89e6218f65f251e0f615e9d9c27e87f5fb09e024b5"
+    },
+    {
+      "path": "data/animviewer.dat",
+      "size": 404,
+      "sha256": "f1c92ab018de7bce7c72cc8380f36a0c38c7f5357979719861aad0f464f517b5"
+    },
+    {
+      "path": "data/CAPS.DAT",
+      "size": 16,
+      "sha256": "e8b1fbb37bf92662bc4474894b30c2bf8553b0e6a6635cbdd158e012f279b56b"
+    },
+    {
+      "path": "data/carcols.dat",
+      "size": 5945,
+      "sha256": "5d4e036d82c8a9e72ebd28f3c8bdb397be135cc329b91795f73b8a024fad7aac"
+    },
+    {
+      "path": "data/CULLZONE.DAT",
+      "size": 158124,
+      "sha256": "356c110f34804b0d1f438ec7e4d937e61f3d10e8e0149050ec276a6ecd1f8580"
+    },
+    {
+      "path": "data/default.dat",
+      "size": 615,
+      "sha256": "670644499c119b6e999076f1584ec1e5bf8c0645bfd6425623dff90327caa495"
+    },
+    {
+      "path": "data/default.ide",
+      "size": 11723,
+      "sha256": "a0de7cf099779858b0a52968e9d687c3fdec91029c6b6ed0d76a2db6e45ed7e8"
+    },
+    {
+      "path": "data/fistfite.dat",
+      "size": 1268,
+      "sha256": "181be14b914769a70e536661d37692e533a0b91d1b88ffb7aa3249addd10b162"
+    },
+    {
+      "path": "data/gta3.dat",
+      "size": 2010,
+      "sha256": "226229f1f82f5e6bc98792d4e23756d7ea293540aa851462ca77490599c89764"
+    },
+    {
+      "path": "data/gta3.zon",
+      "size": 2968,
+      "sha256": "ddbbb4d684d6a6daf68ee5eafc0f87b2479b59e73cd8f40f1522e40c142c5ead"
+    },
+    {
+      "path": "data/handling.cfg",
+      "size": 11596,
+      "sha256": "edb090005461c04776a72bbab2108ca9452a3ea36d56322b0e7a40b09439428a"
+    },
+    {
+      "path": "data/main.scm",
+      "size": 606553,
+      "sha256": "e4f809e770418842565c86d133edf88f42c85d61a4825d1322cd70c584d17e96"
+    },
+    {
+      "path": "data/map.zon",
+      "size": 1700,
+      "sha256": "10b0edb6e74f2ffdc55fb044d5749a0b0e1dbff2e983035deaf4e46de1acb3f1"
+    },
+    {
+      "path": "data/maps/comNbtm.ipl",
+      "size": 68659,
+      "sha256": "d3ea586344f2c74ada8ba9076c7c1fa74de4b9bcd48f63ba90491c39e9fc6286"
+    },
+    {
+      "path": "data/maps/comnbtm/comNbtm.col",
+      "size": 318036,
+      "sha256": "ce482de7ce305380e61bc1df234e9d73ae7eeb838685c935aa3fbf8635443541"
+    },
+    {
+      "path": "data/maps/comnbtm/comnbtm.ide",
+      "size": 36174,
+      "sha256": "d942dc54a195b67e9217687f7837dcb0e025244693ebcae21a51af2f28481b65"
+    },
+    {
+      "path": "data/maps/comnbtm/comNbtm.ipl",
+      "size": 68733,
+      "sha256": "5b40564f0e41e816dbfb78dfc6ab3d63206f2e0dd6bca48bc16ad80d24b0fc0a"
+    },
+    {
+      "path": "data/maps/comNtop.ipl",
+      "size": 81430,
+      "sha256": "f80d9995fb3304b0585ef43c16bda5563aa3d2b9181dec1cc0c6c966275f5de1"
+    },
+    {
+      "path": "data/maps/comntop/comNtop.col",
+      "size": 260108,
+      "sha256": "643c0b6b9b71ee0394c0d547fecab1c06d88ba3f5dc4f50f5eef53c54364f9dd"
+    },
+    {
+      "path": "data/maps/comntop/comntop.ide",
+      "size": 25480,
+      "sha256": "63df66009c5868f0336689cebb877aedf59e8b0b1519945a90f530a741383abf"
+    },
+    {
+      "path": "data/maps/comntop/comNtop.ipl",
+      "size": 81664,
+      "sha256": "dc4f41787d84508068f91c60edf0585b2d3333401c84d4b2bf2aea9c1e03d2c7"
+    },
+    {
+      "path": "data/maps/comroad/comroad.col",
+      "size": 156760,
+      "sha256": "ddc37c5d78e144ab180d50c733adc8f474f3f3e9837fe77216e3671be4464c97"
+    },
+    {
+      "path": "data/maps/comroad/comroad.ide",
+      "size": 86552,
+      "sha256": "f4907e61cc5e0bbedd7f42b044c1eccfa8160300caf2b0a275b6e993d094c764"
+    },
+    {
+      "path": "data/maps/comroad/comroad.ipl",
+      "size": 8577,
+      "sha256": "70e6a1b00b409ddafcbb82b35bcb179def16f1b348e9ec0a0f61dfcda43a58d9"
+    },
+    {
+      "path": "data/maps/comSE.ipl",
+      "size": 43025,
+      "sha256": "b3d74956cde01c1949609f38ba671aba01b35b73efec28746aa6f3d938a01a67"
+    },
+    {
+      "path": "data/maps/comse/comSE.col",
+      "size": 171324,
+      "sha256": "c5862a9feb1ef80dae4195006b77eb2e77b9f84b03803f91f219ba6f30459752"
+    },
+    {
+      "path": "data/maps/comse/comse.ide",
+      "size": 29074,
+      "sha256": "37fc3aff6c03ad74b24ab8c4f452887a11d47e6201aada5ec2eb00195c90a9f1"
+    },
+    {
+      "path": "data/maps/comse/comSE.ipl",
+      "size": 43035,
+      "sha256": "89184f15ef8fcb78afdc8eb0cb2fe211f75373c8bf13ae8b6953b483a43d5e61"
+    },
+    {
+      "path": "data/maps/comSW.ipl",
+      "size": 60424,
+      "sha256": "e860a948c8f473a6c3b52f297cfa6e52037b88a29841e721844a37694225113a"
+    },
+    {
+      "path": "data/maps/comsw/comSW.col",
+      "size": 217676,
+      "sha256": "fae933de109e8c3875203c7f872941bf9c9320c521e3a12eea55ea1acf757467"
+    },
+    {
+      "path": "data/maps/comsw/comsw.ide",
+      "size": 30841,
+      "sha256": "a92d89dbec7b9a285a73b687ff7a0fb5f319c6a1059549071cda8df0768d4c67"
+    },
+    {
+      "path": "data/maps/comsw/comSW.ipl",
+      "size": 60434,
+      "sha256": "ecdb2c8b3160711546da881f3ee87990426f67c3acb3548c2fa51b48b3b441bb"
+    },
+    {
+      "path": "data/maps/cull.ipl",
+      "size": 66906,
+      "sha256": "9973ffa8577de83a153f105743ee9dc1f8c1af5703618c090829439d45f2c444"
+    },
+    {
+      "path": "data/maps/generic.ide",
+      "size": 82776,
+      "sha256": "379eb3c1e61be9ebcb8cd4478d149081f85c43da2cc1c8d76eb3220e3a561003"
+    },
+    {
+      "path": "data/maps/gta3.IDE",
+      "size": 613068,
+      "sha256": "7685651084b62840910616a9240d885f3d4ca246730503068eaddfaec29255b2"
+    },
+    {
+      "path": "data/maps/indroads/indroads.col",
+      "size": 157068,
+      "sha256": "d71ff04083166f97aea1156026f65af64918bcf19b6c8fc94c9c9646fe94070c"
+    },
+    {
+      "path": "data/maps/indroads/indroads.ide",
+      "size": 86174,
+      "sha256": "df859d5b40d3dfb2d2cc685db6dd426f17683b0098c5e1e6af3e3129a5a9949e"
+    },
+    {
+      "path": "data/maps/indroads/indroads.ipl",
+      "size": 8564,
+      "sha256": "df00697f88125509e0ff6eb11f82fcbafe9721071106b23378483ea44a23a22b"
+    },
+    {
+      "path": "data/maps/industNE.ipl",
+      "size": 41469,
+      "sha256": "f3fd9e32096fe6cc076f4113a17c947470f565141171b5fe0a445a600accb2af"
+    },
+    {
+      "path": "data/maps/industne/industNE.col",
+      "size": 248400,
+      "sha256": "d75b5fd069052564f22eca932766d0ca195a597e2438cde900c1224fa1b9ccbf"
+    },
+    {
+      "path": "data/maps/industne/industne.ide",
+      "size": 8670,
+      "sha256": "a9735cea979f5ec511ffe21d16f8fe2554e6168ac22ba8d80bfac2d83e3f9d48"
+    },
+    {
+      "path": "data/maps/industne/industNE.ipl",
+      "size": 41297,
+      "sha256": "ef41130becc1b3fb600f2301f8d9619ce7d0c30658c8161fb3bf072c83b6a20a"
+    },
+    {
+      "path": "data/maps/industNW.ipl",
+      "size": 53496,
+      "sha256": "bd2ad55cf035e567b3c792e0009b566bc64ef0d2ad15b26995704021fa912e39"
+    },
+    {
+      "path": "data/maps/industnw/industNW.col",
+      "size": 163704,
+      "sha256": "928560ef3a936e26dc60ac93d2b2c1059256cd33aaecbb6265c31e1fbc0a2222"
+    },
+    {
+      "path": "data/maps/industnw/industnw.ide",
+      "size": 13827,
+      "sha256": "de602d99510520cbb208139ea1e09fdbc970b53987aaac43d69615a5913d8f04"
+    },
+    {
+      "path": "data/maps/industnw/industNW.ipl",
+      "size": 53575,
+      "sha256": "cc5b7b38086513e65e17d8ef625a5e1a4977423b655e9adb0db7cb6b812f28fb"
+    },
+    {
+      "path": "data/maps/industSE.ipl",
+      "size": 54896,
+      "sha256": "cffc8f4f88d45d2cb8621f53091a4123bafb4b255aa8e2e642ced8d8c3745c6a"
+    },
+    {
+      "path": "data/maps/industse/industSE.col",
+      "size": 240564,
+      "sha256": "b9a37f064b21629105d5580c3b20adff95e532101ecec77797f17ab6fbc432d6"
+    },
+    {
+      "path": "data/maps/industse/industse.ide",
+      "size": 32659,
+      "sha256": "9eeda0cf57672b4c02cb211a3380f73a65d967b9ce612ab677369dca93c1b74c"
+    },
+    {
+      "path": "data/maps/industse/industSE.ipl",
+      "size": 55181,
+      "sha256": "7c012c51317d7e1305fe8bb24c62075af816ef3f6c9a9beb58d46f6e855c2ba8"
+    },
+    {
+      "path": "data/maps/industSW.ipl",
+      "size": 50418,
+      "sha256": "905ae057d8cd95089a30e89a0117422fdb5f26eee54a9501f097f99eb942d552"
+    },
+    {
+      "path": "data/maps/industsw/industSW.col",
+      "size": 165320,
+      "sha256": "5be9189682b49de6db4b489ba7871d5ef96d209d4675b6c3cf4e82eb448a6d87"
+    },
+    {
+      "path": "data/maps/industsw/industsw.ide",
+      "size": 22576,
+      "sha256": "3b7ca277929cb6f788b0cc4973ee7c09ff49fadacb0ec5aba14e6e9c2f524c17"
+    },
+    {
+      "path": "data/maps/industsw/industSW.ipl",
+      "size": 50430,
+      "sha256": "cac6c6117a6bb73654d42643b9e81ae89278ce82dca52acd626565229e8bbbd1"
+    },
+    {
+      "path": "data/maps/landne/landne.col",
+      "size": 464528,
+      "sha256": "63ad6b6c307825152cc987998afda2b90e81ad08761b1e2daa119dcec848cf66"
+    },
+    {
+      "path": "data/maps/landne/landne.ide",
+      "size": 24669,
+      "sha256": "1fc8101b217540566498f06be65c4e0ad42a06edb42743c23b578c6e99d76dc2"
+    },
+    {
+      "path": "data/maps/landne/landne.ipl",
+      "size": 72223,
+      "sha256": "8e5479895047d275869f47235ba217237a09dab7cdc5c4de949ec25238472767"
+    },
+    {
+      "path": "data/maps/landsw/landsw.col",
+      "size": 448432,
+      "sha256": "f4d6ca494bd2f28862b73e0094a84daee969aa6e838e9c611ec5f8a42c7f081a"
+    },
+    {
+      "path": "data/maps/landsw/landsw.ide",
+      "size": 55543,
+      "sha256": "919bd071b3abf961d47947ad99757f25551c1a06c31b53b83c4af7e28d4038ee"
+    },
+    {
+      "path": "data/maps/landsw/landsw.ipl",
+      "size": 95277,
+      "sha256": "04d56e1315be26802dceff8ef137fc139934f04890c0c7f323f6473c71a67568"
+    },
+    {
+      "path": "data/maps/making/making.col",
+      "size": 19600,
+      "sha256": "3e2d7a3fb820678e34209981e64bfcd09f08f96e8f31ec77edb513eb54f8d4d3"
+    },
+    {
+      "path": "data/maps/making/making.ide",
+      "size": 2761,
+      "sha256": "797845ab999155ef28a06bbc7e26031a26873f0581672b4abfada56b2921f1f7"
+    },
+    {
+      "path": "data/maps/making/making.ipl",
+      "size": 2812,
+      "sha256": "7e60e558648b96c830f87cf4693d943e7697a4732411559f49836a70ed03c39d"
+    },
+    {
+      "path": "data/maps/overview.ipl",
+      "size": 7142,
+      "sha256": "e49b5acd090258344df0405eccc0c51ca97cfbd5b622b53d1ad45a67d55d9ea4"
+    },
+    {
+      "path": "data/maps/props.IPL",
+      "size": 37166,
+      "sha256": "6d3896df9243901a18c9d32cb2b489d94a542e7840e98484b1ace1172a006098"
+    },
+    {
+      "path": "data/maps/subroads/subroads.col",
+      "size": 169876,
+      "sha256": "855fb708ad42b7c3bc1b8c4d99b05f2fb574b6e31e545d1cd9bccfa987fe6dfb"
+    },
+    {
+      "path": "data/maps/subroads/subroads.ide",
+      "size": 70990,
+      "sha256": "337577100d3343fa7f9f637f5994a4c0f7c58950831e67a704dc8ae31c155ffb"
+    },
+    {
+      "path": "data/maps/subroads/subroads.ipl",
+      "size": 8098,
+      "sha256": "fe42ef06229748a0ca762dbcb83c010450b5d0c7bce89fe6e6ddbde68e8f0419"
+    },
+    {
+      "path": "data/maps/suburbne.ipl",
+      "size": 72145,
+      "sha256": "038219203382a1e301682457477d84d1c7080cc53dfc9ba082efe681d83804e1"
+    },
+    {
+      "path": "data/maps/suburbsw.ipl",
+      "size": 94839,
+      "sha256": "0e3667cc057c30e57cfae8c11982100f4ad055087c713a69c330e2ade1e2c1be"
+    },
+    {
+      "path": "data/maps/temppart/temppart.col",
+      "size": 59960,
+      "sha256": "e3198daa91906344e1286e0750c0468453308508693e6010db619ae454f82c75"
+    },
+    {
+      "path": "data/maps/temppart/temppart.ide",
+      "size": 5936,
+      "sha256": "d5969a7bb3c0076b5b07f58057b4afb204b7ccc6b09901f94aa3af6c72ca58b9"
+    },
+    {
+      "path": "data/maps/temppart/temppart.ipl",
+      "size": 8546,
+      "sha256": "69bedcbafaf79d87e12f5ae3c460f1eb5838e7b55d8e158388284267182ddc43"
+    },
+    {
+      "path": "data/object.dat",
+      "size": 14585,
+      "sha256": "1d9dd1f139637675abc82cb64015fb01e8d13350abaa5f406637daf04f6fce4a"
+    },
+    {
+      "path": "data/particle.cfg",
+      "size": 23574,
+      "sha256": "e9dbaf53033287cdaa6322ddf093bf67d9c40056c7062742af4b11572dc91153"
+    },
+    {
+      "path": "data/paths/CHASE0.DAT",
+      "size": 151200,
+      "sha256": "40644badf405dd5437ef500f42d5fb99b07c47f8aa7166d4121ac6e4b7d27289"
+    },
+    {
+      "path": "data/paths/CHASE1.DAT",
+      "size": 151200,
+      "sha256": "83590385c786ad0f9a8cf393fd0424a1b71db8d304b404f9d534d97fa3a855ad"
+    },
+    {
+      "path": "data/paths/CHASE10.DAT",
+      "size": 67200,
+      "sha256": "e48add73a3a7b3eb4eb31d04cabdb691164ada9e66110158958b9b8a79ab8abb"
+    },
+    {
+      "path": "data/paths/CHASE11.DAT",
+      "size": 67200,
+      "sha256": "b6842303a896b471f928fc6dc2df29350ce8ccb773169d43f29dde20448c9daf"
+    },
+    {
+      "path": "data/paths/CHASE14.DAT",
+      "size": 67200,
+      "sha256": "b7ca0757dd2fa631ad734d9e987166f5ecdec718d9ae7ed85d2955feb24850ff"
+    },
+    {
+      "path": "data/paths/CHASE16.DAT",
+      "size": 67200,
+      "sha256": "2a190868d2ae8c3dc39c064737fa2ae302b13edde94bddd39a970f9481f53eb8"
+    },
+    {
+      "path": "data/paths/CHASE18.DAT",
+      "size": 67200,
+      "sha256": "74da778ffeb8252a1ed6868eb43d7ab634acf7a7a39307cea868132699d78958"
+    },
+    {
+      "path": "data/paths/CHASE19.DAT",
+      "size": 67200,
+      "sha256": "3492d7afba8fb4755b9c445b92bf743c6ee7d84c5ba98d82eed9ff102473d25a"
+    },
+    {
+      "path": "data/paths/CHASE2.DAT",
+      "size": 151200,
+      "sha256": "5c80e61aa681c0412ab0d45d9ca2cb851593882908e75e335c84913ca9f1c472"
+    },
+    {
+      "path": "data/paths/CHASE3.DAT",
+      "size": 151200,
+      "sha256": "e255e2d98639db328beea85ebe2b71234f5f0889a5c7d2337dd5974e618990f6"
+    },
+    {
+      "path": "data/paths/CHASE4.DAT",
+      "size": 67200,
+      "sha256": "9c94608215eed91e2446292a34db3827284467c1d2cb838768213e25df77b631"
+    },
+    {
+      "path": "data/paths/CHASE5.DAT",
+      "size": 67200,
+      "sha256": "5969d87d41f4b2cf631f9158847f09dbc58d6b92b625f9b9b02215d5ba1ff15b"
+    },
+    {
+      "path": "data/paths/CHASE6.DAT",
+      "size": 67200,
+      "sha256": "3b1629cfc8c1dc3a1d4cb89f764951cb58a8cf3df27f5f0d2807b2488863384d"
+    },
+    {
+      "path": "data/paths/CHASE7.DAT",
+      "size": 67200,
+      "sha256": "78794fe957cc71edea5658a2d373ae9f05462a712f95c1c3b9dfc783c009837e"
+    },
+    {
+      "path": "data/paths/flight.dat",
+      "size": 2746,
+      "sha256": "dcf67a5e1be7c612d0fc83cdadffcd4743069a831dc4c009e7e20fbcc06287c3"
+    },
+    {
+      "path": "data/paths/flight2.dat",
+      "size": 1114,
+      "sha256": "df00ed869cda922cabe1769d0d3d583e334b8a5ce9d4defe08f4cc49dfd4722f"
+    },
+    {
+      "path": "data/paths/flight3.dat",
+      "size": 1170,
+      "sha256": "d280530ff9088bf10c1c0b2c171720361a88f80bb38e3d1a0c5d15b94088412c"
+    },
+    {
+      "path": "data/paths/flight4.dat",
+      "size": 3489,
+      "sha256": "317211a9a9452d830c8d2433fcc7712ef075c5a7a9eb7f784208ec1714fc0e90"
+    },
+    {
+      "path": "data/paths/tracks.dat",
+      "size": 4330,
+      "sha256": "37d63a3a1fb0393c0541eca416d45bc6f0757c58fe12b8e09106fa07696efe03"
+    },
+    {
+      "path": "data/paths/tracks2.dat",
+      "size": 15023,
+      "sha256": "2e260ec54ec7053ab0533885e916460d3f2b64d1e40e2ec4002658b9a3ca41a4"
+    },
+    {
+      "path": "data/ped.dat",
+      "size": 2067,
+      "sha256": "9d4c43908d78f503805799dc5cf160b0920ba0c313a05b704434d773dc8a7265"
+    },
+    {
+      "path": "data/pedgrp.dat",
+      "size": 3223,
+      "sha256": "45177ec3889dcacfed3460cc494a6cb8cee8ea3b5e723ed423db2908d8630a6e"
+    },
+    {
+      "path": "data/pedstats.dat",
+      "size": 2976,
+      "sha256": "84124e3e625f381910ac1040d2648fe9fab72f1ab5a7d5044a9954460d7c3642"
+    },
+    {
+      "path": "data/surface.dat",
+      "size": 487,
+      "sha256": "d58fa4980573a1f0750df2a05ef091cbbac4c77ed073c4c6917d67ceb2b6fe7a"
+    },
+    {
+      "path": "data/timecyc.dat",
+      "size": 22216,
+      "sha256": "1dfcf54f387ff31347ba996f4b91a912f83f2377c0bb969a55a4d7857637891e"
+    },
+    {
+      "path": "data/train.dat",
+      "size": 2476,
+      "sha256": "53f0b4b2c01a82522d37a3e3d09e14217bca2d91ced525b45bf9fabfd1a1bfb0"
+    },
+    {
+      "path": "data/train2.dat",
+      "size": 4232,
+      "sha256": "0dd3a51310bbaf649de2a97267d27d6ce8fa9e3930139fa1fdafdf5b8db9bea6"
+    },
+    {
+      "path": "data/water.dat",
+      "size": 2639,
+      "sha256": "57a286ea1ff026e45caf358280b53b644efbe2e8f99e46450b00f745a4762427"
+    },
+    {
+      "path": "data/waterpro.dat",
+      "size": 21444,
+      "sha256": "4db7620ed9b012ca0472e593dc7580b3d34c41efddddb8989e34574783d2095c"
+    },
+    {
+      "path": "data/weapon.dat",
+      "size": 2956,
+      "sha256": "4bc124b76a1d0ea99e3a7f2ef74f6abc371c9a4f2298916002914e85797f070c"
+    },
+    {
+      "path": "ddraw.dll",
+      "size": 111616,
+      "sha256": "f533cbd54080cd3b0cd642a89cc87ab0af091ee0aedc7a0ace9f8f0d732a9b21"
+    },
+    {
+      "path": "drvmgt.dll",
+      "size": 35840,
+      "sha256": "45783ad8760d2b7ebf63dcd2856bdfe8e9d7454d00505f83e9832038c828cd9f"
+    },
+    {
+      "path": "gta3.exe",
+      "size": 2801664,
+      "sha256": "cfb3e02b2ad4f2d611fde0884a7235542f0fa46d17905883d897af904370cdca"
+    },
+    {
+      "path": "gta3.ini",
+      "size": 10,
+      "sha256": "d02a3575320e14ec31b963dca90e286c87bbff8c8155d9efaf1c2190e7fdea1e"
+    },
+    {
+      "path": "gta3_o.exe",
+      "size": 2801664,
+      "sha256": "9b1ddafadee27dca2970159be497c9a851061711ec79ec319340a1a35c0daa28"
+    },
+    {
+      "path": "Icons/gta3.ico",
+      "size": 2238,
+      "sha256": "0f8d261502ab3fede94b0e3ead6cedf64d8ac9be9afb02993d9738b27b8ef81e"
+    },
+    {
+      "path": "Icons/gtaPcWaste.ico",
+      "size": 2238,
+      "sha256": "89a3c34770f69434a03a3ec1994bc7441608bf133ca0434b16d20411ef1ac415"
+    },
+    {
+      "path": "Icons/rockstar.ico",
+      "size": 5694,
+      "sha256": "53c3da01924dd2c426bd36d26cbd804072289c6285421285f4e34eb519540d96"
+    },
+    {
+      "path": "installscript.vdf",
+      "size": 178,
+      "sha256": "25cec0acb331bad839c9729e654fd62376b50a40f80b5e74ccd76dd49dff7a66"
+    },
+    {
+      "path": "models/Coll/commer.col",
+      "size": 1123328,
+      "sha256": "8fac1060883321fb60b3555a3b4b34172cd77f3b0d3d33a991b5f01dc67852a3"
+    },
+    {
+      "path": "models/Coll/generic.col",
+      "size": 350988,
+      "sha256": "9064da8e0047277b646edbc0e2aebd1a74231c08f3faba82edf6fdb5c2d50393"
+    },
+    {
+      "path": "models/Coll/indust.col",
+      "size": 1053928,
+      "sha256": "33c8f36b79d07b1bfa65593d6acb7f1bfec75209ff260dd5d80953dffb7b4c4d"
+    },
+    {
+      "path": "models/Coll/peds.col",
+      "size": 21477,
+      "sha256": "d6faa88b9227e6f6fe286f69cfd8d7348229bda267b21125b7daea4d3dd23d10"
+    },
+    {
+      "path": "models/Coll/suburb.col",
+      "size": 1082000,
+      "sha256": "f87e97cb23e08454070398823e9d962b085839bb5a35f5b1d4d720dbd1118bce"
+    },
+    {
+      "path": "models/Coll/vehicles.col",
+      "size": 56412,
+      "sha256": "a26bd18eb3e1e0fc90462d97514c8ad14fc85a64882b73d19f6a50ac24a71599"
+    },
+    {
+      "path": "models/Coll/weapons.col",
+      "size": 1908,
+      "sha256": "55bcc617eb60d44260027ed3df1ef9d4d9972ffefef2325e499ec462f20d55e1"
+    },
+    {
+      "path": "models/fonts.txd",
+      "size": 1379752,
+      "sha256": "d037658489b87d270c80de89d607ceaeddc0c6da28d727706b39f3aef9a6a59d"
+    },
+    {
+      "path": "models/frontend.txd",
+      "size": 4888360,
+      "sha256": "be4ab282e9df26df566db50bfe048b5a157a183d5e2ac4f4c95b5fb34633d2ab"
+    },
+    {
+      "path": "models/generic.txd",
+      "size": 659880,
+      "sha256": "70beacf76287dd3e3c63a14a21c3fd0c9d57c47f3de1a8778a43224b6799e7a7"
+    },
+    {
+      "path": "models/Generic/air_vlo.DFF",
+      "size": 7008,
+      "sha256": "e4206f70d92b8b7f6352f17d4bc4a437f210312bb951e112b9bf3fe5345557dd"
+    },
+    {
+      "path": "models/Generic/arrow.DFF",
+      "size": 4849,
+      "sha256": "cfc1bd58828c675b5c428141b4e0eb18f9590c6b2d4b09446830401d253c7768"
+    },
+    {
+      "path": "models/Generic/loplyguy.dff",
+      "size": 18728,
+      "sha256": "955d88d64053a100026f47859e076ab5b11b1e7ed2e3041897a9be8434d381cd"
+    },
+    {
+      "path": "models/Generic/peds.dff",
+      "size": 1106273,
+      "sha256": "53b9d52cc402b4df35dacaf8573eead22cc64c3069f923d10edb76437990091d"
+    },
+    {
+      "path": "models/Generic/player.bmp",
+      "size": 196662,
+      "sha256": "94d230e38345c5a4e7ac654f3f934c4863f8ac0a9835922e9abc4626146b712a"
+    },
+    {
+      "path": "models/Generic/qsphere.DFF",
+      "size": 5171,
+      "sha256": "37d1e5fd966fc4b265a87cfb2e9be84972bff9c9ab55ce164760562bf69b0700"
+    },
+    {
+      "path": "models/Generic/sphere.DFF",
+      "size": 21582,
+      "sha256": "39765595cbb8d5c96fcea4d690ea82d8e73d72025a35f4e7735f08aa514ce204"
+    },
+    {
+      "path": "models/Generic/weapons.dff",
+      "size": 164899,
+      "sha256": "ba6ab3d335450a5c86729940b0cf0682a885ba998656fec5b0bcb820d391dc12"
+    },
+    {
+      "path": "models/Generic/wheels.DFF",
+      "size": 85410,
+      "sha256": "879092dc7944f760364cf8c50aa71519a3d72e8fba1f8032e4ade86d232f8cbb"
+    },
+    {
+      "path": "models/Generic/zonecyla.DFF",
+      "size": 1540,
+      "sha256": "58b1c5fceddf54fc17fbb75eee71ff3e8dafae15946a76e940ec2c94ba43d024"
+    },
+    {
+      "path": "models/Generic/zonecylb.DFF",
+      "size": 2260,
+      "sha256": "84fbaa94b224107554b26bf672ff8c5bf110d0b7a06c422411c98ba9383161e4"
+    },
+    {
+      "path": "models/Generic/zonesphr.DFF",
+      "size": 4336,
+      "sha256": "4871774f945db5e7402b6b0a3717fe9294f3f54a2afe48c5db0a57eab817753d"
+    },
+    {
+      "path": "models/gta3.dir",
+      "size": 123392,
+      "sha256": "773b90354a7cce1af62b490fe778254f10b2b4b7a743a42909ed51862d54d987"
+    },
+    {
+      "path": "models/gta3.img",
+      "size": 170891264,
+      "sha256": "d0195989d780a021698523da296822d59cbb8b3ea45c639c3e8f5334de6eec25"
+    },
+    {
+      "path": "models/hud.txd",
+      "size": 171816,
+      "sha256": "ae8b151367929a3ae809bb54dead099a29c181fc3aa8aac1a2d5f0a33d4520d4"
+    },
+    {
+      "path": "models/menu.txd",
+      "size": 7884200,
+      "sha256": "5e20cf54cf569421f75e0896dee3da6e4ec00f905527d794b9d393e371afbc3f"
+    },
+    {
+      "path": "models/MISC.TXD",
+      "size": 107944,
+      "sha256": "fb6ebee7d6793bc4287261a2d6e0b31552c1f1563742b7ef8799a5d01134c9a6"
+    },
+    {
+      "path": "models/particle.txd",
+      "size": 464040,
+      "sha256": "f221a92be5a5c2c21cbfaa31dcbd52afe6dd236e1ddae059fca4eb5b3ced169e"
+    },
+    {
+      "path": "models/txd.dir",
+      "size": 22944,
+      "sha256": "6e693a560fd953730b9f36679369999dd7a4f56c01197b3a600ea7d234e6135c"
+    },
+    {
+      "path": "models/txd.img",
+      "size": 331290624,
+      "sha256": "6f16b5ec03ba2e11f5f5417615390c6464f595fedd638ae2d7145aa893fc741c"
+    },
+    {
+      "path": "movies/GTAtitles.mpg",
+      "size": 16207876,
+      "sha256": "aefb2d466bd9572963879b4b2a1a95f0f721097efd0efef5530f1fce76da6192"
+    },
+    {
+      "path": "movies/GTAtitlesGER.mpg",
+      "size": 16207876,
+      "sha256": "d085d75b268d35092d72ddf92d949c19d25d448bae73f24d8f63f19576e80e43"
+    },
+    {
+      "path": "movies/Logo.mpg",
+      "size": 6428676,
+      "sha256": "fb8f08eeae4a1cf4ff05f31a7e6b2959eea80fb2f583554d2b7c2142acd11665"
+    },
+    {
+      "path": "mp3/MP3Report.txt",
+      "size": 179,
+      "sha256": "c1a14632d65cd0b33ccb5355fd0fe41908f4aa69b9659349acec46fe19f5eaad"
+    },
+    {
+      "path": "mss/Mp3dec.asi",
+      "size": 125952,
+      "sha256": "0a6db88a5fad28168c1dac700473c5709b17802c33e36b2668c3300c1e580fad"
+    },
+    {
+      "path": "mss/Mssa3d.m3d",
+      "size": 51200,
+      "sha256": "025b99a56f7008f3e09b27edc479d4254a3626de40cd6764d9312faf7b44ff4b"
+    },
+    {
+      "path": "mss/Mssa3d2.m3d",
+      "size": 60928,
+      "sha256": "53b969507ff7a8c438336eee48c74a7d9beaab34a4e261d2a381a4f90f7a40a7"
+    },
+    {
+      "path": "mss/Mssds3dh.m3d",
+      "size": 50688,
+      "sha256": "d05c187bace02b8defc79121e672f62ad25c6ff04ab84de3742dcc21dc8a202d"
+    },
+    {
+      "path": "mss/Mssds3ds.m3d",
+      "size": 50688,
+      "sha256": "3e8d94e58753ea3153bb105142f9198eec394b26fbee82481985d064629490f4"
+    },
+    {
+      "path": "mss/Msseax.m3d",
+      "size": 53760,
+      "sha256": "e74e57bfe5fa8fd3b2282e58e18e796c3125bf012fe998cf7b2401cc81e9ea38"
+    },
+    {
+      "path": "mss/msseax3.m3d",
+      "size": 72704,
+      "sha256": "15ac39a9ca1761ab2d450a3e2d7752d5fa2c72b0e5de0e6a291e9e742f057416"
+    },
+    {
+      "path": "mss/Mssfast.m3d",
+      "size": 62976,
+      "sha256": "031a18c4f272dbe9c19c4e5a8be732309165c05f4898728cf1bd02b9bff22b5c"
+    },
+    {
+      "path": "mss/Mssrsx.m3d",
+      "size": 352768,
+      "sha256": "0ecf0f453cfcc58e5fd29a63cd2c1de68d6996af1815e7ec993e68dd3c48f888"
+    },
+    {
+      "path": "mss/Reverb3.flt",
+      "size": 56832,
+      "sha256": "e106854e123efa1396474b8a65369514c5b86f9a891fac74170ea5846faad62c"
+    },
+    {
+      "path": "Mss32.dll",
+      "size": 338432,
+      "sha256": "d82c6770d80c04318cdba0a504443f233fb2347b428bc672adaa01f71f27b649"
+    },
+    {
+      "path": "ReadMe/ReadMe.txt",
+      "size": 9975,
+      "sha256": "555904f2350f40c4f899457738144eef461e619616809c7cca4ab966ae3bed43"
+    },
+    {
+      "path": "ReadMe/ReadMe_FRENCH.txt",
+      "size": 11015,
+      "sha256": "37308fdac1803ef38fe49d1342dccfd35ac38056101753bbd9e7e33ad543858f"
+    },
+    {
+      "path": "ReadMe/ReadMe_GERMAN.txt",
+      "size": 10441,
+      "sha256": "081311a29540090b283daf523d87fd20666597ff582ec1161336541852245cc1"
+    },
+    {
+      "path": "ReadMe/Readme_ITALIAN.txt",
+      "size": 10215,
+      "sha256": "cab0b1becafe30eae83b6ba62be4ba6c967efc895d0e1801fb13a1c34ecdf89b"
+    },
+    {
+      "path": "ReadMe/ReadMe_SPANISH.txt",
+      "size": 11089,
+      "sha256": "179dcab4d21d832ae5b70c113dff50e050a05d49e2f4a85e2cbc88044eee9829"
+    },
+    {
+      "path": "SilentPatchIII.asi",
+      "size": 189440,
+      "sha256": "ad72c1ebd4be20bc9967c2f9cf0121fd661a642dbc19ccd6388266aeabf6d1f1"
+    },
+    {
+      "path": "SilentPatchIII.ini",
+      "size": 1188,
+      "sha256": "319f356b6e2aa67deaedd6eace149d18a72eb8ba4bf29dc5657bdb2d0ac5812e"
+    },
+    {
+      "path": "skins/playa2.bmp",
+      "size": 66612,
+      "sha256": "f17d5e83be79cdbd88ee22347d06c4e7c24e9ab8d35b65e1094a188b4102b50f"
+    },
+    {
+      "path": "skins/player.bmp",
+      "size": 196662,
+      "sha256": "94d230e38345c5a4e7ac654f3f934c4863f8ac0a9835922e9abc4626146b712a"
+    },
+    {
+      "path": "testapp.exe",
+      "size": 2801664,
+      "sha256": "cfb3e02b2ad4f2d611fde0884a7235542f0fa46d17905883d897af904370cdca"
+    },
+    {
+      "path": "testapp_o.exe",
+      "size": 2801664,
+      "sha256": "9b1ddafadee27dca2970159be497c9a851061711ec79ec319340a1a35c0daa28"
+    },
+    {
+      "path": "TEXT/american.gxt",
+      "size": 218592,
+      "sha256": "ce5701f02650b9a8cfa15d3d90f3ebe48aafc5c2005fda30fb437815524ab102"
+    },
+    {
+      "path": "TEXT/english.gxt",
+      "size": 204494,
+      "sha256": "1c19cc7cabedcf3c3f43877d50d486fb3f58598045db18edcae771275151c501"
+    },
+    {
+      "path": "TEXT/french.gxt",
+      "size": 244510,
+      "sha256": "f6cbfe84beabf39fc4108e07f0abebc2a6330077a7c4e3c696a550b644c611c9"
+    },
+    {
+      "path": "TEXT/german.gxt",
+      "size": 240454,
+      "sha256": "abd4aecc6c84e2d37d06339d365f628fc35390ace1bd093c290b631983d34a1d"
+    },
+    {
+      "path": "TEXT/italian.gxt",
+      "size": 239928,
+      "sha256": "e0b3250474e0dd2065c7f5fd5ea080e579ce087bbab32c929fa546e593e6468d"
+    },
+    {
+      "path": "TEXT/spanish.gxt",
+      "size": 246104,
+      "sha256": "a5af51bcc3bd210474877e8a031fdfe735bb52e2d94aaf626c6d0b7b52b2ff5c"
+    },
+    {
+      "path": "txd/LOADSC0.TXD",
+      "size": 263336,
+      "sha256": "9d96413020c7f31f1841b7e004376477bc4129017a4519162d5de84ac411933d"
+    },
+    {
+      "path": "txd/LOADSC1.TXD",
+      "size": 263336,
+      "sha256": "5a8623024fc8ae5b3abe314e554a00ecfc4e1f79ad06b90991524c5f44cde238"
+    },
+    {
+      "path": "txd/LOADSC10.TXD",
+      "size": 263336,
+      "sha256": "50c08bfabe25ab3ca49cfd94d96538c7ea63950ab116b53a5976a0d89130bf58"
+    },
+    {
+      "path": "txd/LOADSC11.TXD",
+      "size": 263336,
+      "sha256": "ae44089800bf8809ad93c1ff15a379887e6369f0d85e013280ceafba1d329b15"
+    },
+    {
+      "path": "txd/LOADSC12.TXD",
+      "size": 263336,
+      "sha256": "6ec38ae0b2d0cb0e0bb0fddfb364c3f9ba7e3ca524d04b5f9a199e5b9dccdaa7"
+    },
+    {
+      "path": "txd/LOADSC13.TXD",
+      "size": 263336,
+      "sha256": "c6fb2ba11fdae5871ad031ff8b625a119d5433a65e50823bb0a60a8e7a044a28"
+    },
+    {
+      "path": "txd/LOADSC14.TXD",
+      "size": 263336,
+      "sha256": "d8fb31e7dcbe01d815018d71ac59d2f3eea611d05a6f9b9fe15b0d17a3699027"
+    },
+    {
+      "path": "txd/LOADSC15.TXD",
+      "size": 263336,
+      "sha256": "89c45a37e446deafac55c6b15c3115bde685f1492e27dcda183be02ddd629acf"
+    },
+    {
+      "path": "txd/LOADSC16.TXD",
+      "size": 263336,
+      "sha256": "aef5aa38ed993a470699ce03eae805c326e8f28d21f913f1c926705943289ae1"
+    },
+    {
+      "path": "txd/LOADSC17.TXD",
+      "size": 263336,
+      "sha256": "bf444e04d4a4ffe5200e391aab7a1f26a8670dbdead64f31b8396ebb25932563"
+    },
+    {
+      "path": "txd/LOADSC18.TXD",
+      "size": 263336,
+      "sha256": "e05793dfd5b31db47fb2c5d4c2f001a7cdd5038572832b89454ec966dead536e"
+    },
+    {
+      "path": "txd/LOADSC19.TXD",
+      "size": 263336,
+      "sha256": "e8e19ee515f3435472ff8de84793e68428745f6bf3dbc8ad017c75fce5237db6"
+    },
+    {
+      "path": "txd/LOADSC2.TXD",
+      "size": 263336,
+      "sha256": "e48451308fe2560a2a29367184395627b6eb10df1b4f2d5dd30b4eca76819890"
+    },
+    {
+      "path": "txd/LOADSC20.TXD",
+      "size": 263336,
+      "sha256": "0918109d84fa614bd5ca8b81449be83348bdef462eaec408edab3fa4b953b339"
+    },
+    {
+      "path": "txd/LOADSC21.TXD",
+      "size": 263336,
+      "sha256": "5690b036c2cd6c3b1737c972213f0d6ea0492a0a5384d3fc139b1a6d5f66bf62"
+    },
+    {
+      "path": "txd/LOADSC22.TXD",
+      "size": 263336,
+      "sha256": "5dbc5f5051140f026736c6b364cdc8a870788fccdc554bb3b46065f4768d4bf6"
+    },
+    {
+      "path": "txd/LOADSC23.TXD",
+      "size": 263336,
+      "sha256": "c72270d3a15e4d285cd91a1353343cca81dc4393d1325e61e3ad128e0d6e6b57"
+    },
+    {
+      "path": "txd/LOADSC24.TXD",
+      "size": 263336,
+      "sha256": "7a7fa3e41461d330aafe3891075b1dc1f98eb96c802ed8f2a39c696695616c46"
+    },
+    {
+      "path": "txd/LOADSC25.TXD",
+      "size": 263336,
+      "sha256": "2bb8f449903645d5989f8672fbcfc1a4ea7efa95dfa8069308c90701dfceacd8"
+    },
+    {
+      "path": "txd/LOADSC3.TXD",
+      "size": 263336,
+      "sha256": "8a528caec3b2eea90427e4b99c9cc3a23f44a554e5780ad9b3297551c38ff5b3"
+    },
+    {
+      "path": "txd/LOADSC4.TXD",
+      "size": 263336,
+      "sha256": "59a2607b78b8cad08f129f7e2aca89bb558f4c9db0c77cece6d03f7a8ddc0bbb"
+    },
+    {
+      "path": "txd/LOADSC5.TXD",
+      "size": 263336,
+      "sha256": "21f45a6d8186cb4ba773e0de975e0f565cdb4c9b6615340008d701e397cd6c27"
+    },
+    {
+      "path": "txd/LOADSC6.TXD",
+      "size": 263336,
+      "sha256": "abdbee101792b0934a29a191c74b42bcfeeac3f26c357da1c7ed959b305f87c5"
+    },
+    {
+      "path": "txd/LOADSC7.TXD",
+      "size": 263336,
+      "sha256": "31f0209b528f2b623ac74edb56d726984fe552cc1a4dc3963d2f9867e860dc04"
+    },
+    {
+      "path": "txd/LOADSC8.TXD",
+      "size": 263336,
+      "sha256": "a73afe43797132a76451b62494d415c5d9633499a35f74f0705b2d8e59b25702"
+    },
+    {
+      "path": "txd/LOADSC9.TXD",
+      "size": 263336,
+      "sha256": "9b685ff8fe76bff4ffc0bc3fe61aae726bb23cbcad56eacca74a8b8548e3bdcb"
+    },
+    {
+      "path": "txd/mainsc1.txd",
+      "size": 1049768,
+      "sha256": "ed2ab8b5feede658412196d7d9754e1258db8f0f2e5f581f43982c6b352494f3"
+    },
+    {
+      "path": "txd/mainsc2.txd",
+      "size": 1049768,
+      "sha256": "a236bc897d3b496e2871d6fd5f7cf2b0bc5708b67382254e509520bcd4743214"
+    },
+    {
+      "path": "txd/NEWS.TXD",
+      "size": 263336,
+      "sha256": "5747c678702591f8bd383816f21f907cd96c117934791801ff7508bee8b7f7e5"
+    },
+    {
+      "path": "txd/SPLASH1.TXD",
+      "size": 132264,
+      "sha256": "256ab119d4559a2251c028d413ba78aab296ad6c890c73dc533fd3b1619a7ebe"
+    },
+    {
+      "path": "txd/SPLASH2.TXD",
+      "size": 132264,
+      "sha256": "4108809234e5f020aab5cd97f4e4d6660db98abe260c051ff60091ce372beefb"
+    },
+    {
+      "path": "txd/SPLASH3.TXD",
+      "size": 132264,
+      "sha256": "6d5da31f828b0cd61f83d5faeac6af594fc402f007f121caa53e2b530c2221bc"
+    },
+    {
+      "path": "Website/website.url",
+      "size": 84,
+      "sha256": "d1141372eb5bbab7af135dd180ebf36ffb9ae4f55b083dfc37ff33d7cf754d41"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 84934656,
+      "sha256": "fa76a14f15066894e761d5cfef50d40bf6bbaa2cb49a2913472133d1d718fb36",
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "anim/cuts.dir",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 9216
+        },
+        {
+          "file": "anim/cuts.img",
+          "file_offset": 0,
+          "chunk_offset": 49228992,
+          "length": 35705664
+        }
+      ]
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 84934656,
+      "sha256": "908143fcedeb0afe206e7b6c0a2d06b7cbe53b3163651bf0501e54b5405c5244",
+      "segments": [
+        {
+          "file": "anim/cuts.img",
+          "file_offset": 35705664,
+          "chunk_offset": 0,
+          "length": 7929024
+        },
+        {
+          "file": "anim/gta3.ini",
+          "file_offset": 0,
+          "chunk_offset": 7929024,
+          "length": 10
+        },
+        {
+          "file": "anim/ped.ifp",
+          "file_offset": 0,
+          "chunk_offset": 7929034,
+          "length": 2049400
+        },
+        {
+          "file": "audio/A1_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 9978434,
+          "length": 8252
+        },
+        {
+          "file": "audio/a1_sso.wav",
+          "file_offset": 0,
+          "chunk_offset": 9986686,
+          "length": 1921174
+        },
+        {
+          "file": "audio/a2_pp.wav",
+          "file_offset": 0,
+          "chunk_offset": 11907860,
+          "length": 874646
+        },
+        {
+          "file": "audio/a3_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 12782506,
+          "length": 51200
+        },
+        {
+          "file": "audio/a3_ss.wav",
+          "file_offset": 0,
+          "chunk_offset": 12833706,
+          "length": 1802390
+        },
+        {
+          "file": "audio/a4_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 14636096,
+          "length": 12604
+        },
+        {
+          "file": "audio/a4_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 14648700,
+          "length": 12604
+        },
+        {
+          "file": "audio/a4_c.wav",
+          "file_offset": 0,
+          "chunk_offset": 14661304,
+          "length": 13372
+        },
+        {
+          "file": "audio/a4_d.wav",
+          "file_offset": 0,
+          "chunk_offset": 14674676,
+          "length": 13116
+        },
+        {
+          "file": "audio/a4_pdr.wav",
+          "file_offset": 0,
+          "chunk_offset": 14687792,
+          "length": 1392790
+        },
+        {
+          "file": "audio/a5_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 16080582,
+          "length": 78704
+        },
+        {
+          "file": "audio/a5_k2ft.wav",
+          "file_offset": 0,
+          "chunk_offset": 16159286,
+          "length": 858262
+        },
+        {
+          "file": "audio/a6_bait.wav",
+          "file_offset": 0,
+          "chunk_offset": 17017548,
+          "length": 1403030
+        },
+        {
+          "file": "audio/a7_etg.wav",
+          "file_offset": 0,
+          "chunk_offset": 18420578,
+          "length": 1372310
+        },
+        {
+          "file": "audio/a8_ps.wav",
+          "file_offset": 0,
+          "chunk_offset": 19792888,
+          "length": 1953852
+        },
+        {
+          "file": "audio/a9_asd.wav",
+          "file_offset": 0,
+          "chunk_offset": 21746740,
+          "length": 616508
+        },
+        {
+          "file": "audio/AMMU_A.wav",
+          "file_offset": 0,
+          "chunk_offset": 22363248,
+          "length": 8764
+        },
+        {
+          "file": "audio/AMMU_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 22372012,
+          "length": 7996
+        },
+        {
+          "file": "audio/AMMU_C.wav",
+          "file_offset": 0,
+          "chunk_offset": 22380008,
+          "length": 15676
+        },
+        {
+          "file": "audio/BET.mp3",
+          "file_offset": 0,
+          "chunk_offset": 22395684,
+          "length": 591122
+        },
+        {
+          "file": "audio/c1_tex.mp3",
+          "file_offset": 0,
+          "chunk_offset": 22986806,
+          "length": 1043772
+        },
+        {
+          "file": "audio/cat1.wav",
+          "file_offset": 0,
+          "chunk_offset": 24030578,
+          "length": 11580
+        },
+        {
+          "file": "audio/CHAT.wav",
+          "file_offset": 0,
+          "chunk_offset": 24042158,
+          "length": 60892498
+        }
+      ]
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 84934656,
+      "sha256": "6eb4e8708c779918b63503b6fe61cfb09b011abf32281e1221515f9dbb790689",
+      "segments": [
+        {
+          "file": "audio/CHAT.wav",
+          "file_offset": 60892498,
+          "chunk_offset": 0,
+          "length": 51388138
+        },
+        {
+          "file": "audio/City.wav",
+          "file_offset": 0,
+          "chunk_offset": 51388138,
+          "length": 19346492
+        },
+        {
+          "file": "audio/CLASS.wav",
+          "file_offset": 0,
+          "chunk_offset": 70734630,
+          "length": 14200026
+        }
+      ]
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 84934656,
+      "sha256": "eb778e8085757348735ff727bf104bae4e8cb6185a5c614a8d2278bd65585404",
+      "segments": [
+        {
+          "file": "audio/CLASS.wav",
+          "file_offset": 14200026,
+          "chunk_offset": 0,
+          "length": 25646946
+        },
+        {
+          "file": "audio/COMopen.wav",
+          "file_offset": 0,
+          "chunk_offset": 25646946,
+          "length": 547900
+        },
+        {
+          "file": "audio/d1_stog.mp3",
+          "file_offset": 0,
+          "chunk_offset": 26194846,
+          "length": 737408
+        },
+        {
+          "file": "audio/d2_kk.mp3",
+          "file_offset": 0,
+          "chunk_offset": 26932254,
+          "length": 685163
+        },
+        {
+          "file": "audio/d3_ado.mp3",
+          "file_offset": 0,
+          "chunk_offset": 27617417,
+          "length": 430208
+        },
+        {
+          "file": "audio/d4_gta.mp3",
+          "file_offset": 0,
+          "chunk_offset": 28047625,
+          "length": 444837
+        },
+        {
+          "file": "audio/d4_gta2.mp3",
+          "file_offset": 0,
+          "chunk_offset": 28492462,
+          "length": 1415756
+        },
+        {
+          "file": "audio/d5_es.mp3",
+          "file_offset": 0,
+          "chunk_offset": 29908218,
+          "length": 305656
+        },
+        {
+          "file": "audio/d6_sts.mp3",
+          "file_offset": 0,
+          "chunk_offset": 30213874,
+          "length": 323210
+        },
+        {
+          "file": "audio/d7_mld.mp3",
+          "file_offset": 0,
+          "chunk_offset": 30537084,
+          "length": 268040
+        },
+        {
+          "file": "audio/door_1.wav",
+          "file_offset": 0,
+          "chunk_offset": 30805124,
+          "length": 12348
+        },
+        {
+          "file": "audio/door_2.wav",
+          "file_offset": 0,
+          "chunk_offset": 30817472,
+          "length": 6716
+        },
+        {
+          "file": "audio/door_3.wav",
+          "file_offset": 0,
+          "chunk_offset": 30824188,
+          "length": 24124
+        },
+        {
+          "file": "audio/door_4.wav",
+          "file_offset": 0,
+          "chunk_offset": 30848312,
+          "length": 22332
+        },
+        {
+          "file": "audio/door_5.wav",
+          "file_offset": 0,
+          "chunk_offset": 30870644,
+          "length": 572
+        },
+        {
+          "file": "audio/door_6.wav",
+          "file_offset": 0,
+          "chunk_offset": 30871216,
+          "length": 572
+        },
+        {
+          "file": "audio/el3_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 30871788,
+          "length": 64142
+        },
+        {
+          "file": "audio/el_ph1.mp3",
+          "file_offset": 0,
+          "chunk_offset": 30935930,
+          "length": 355393
+        },
+        {
+          "file": "audio/el_ph2.mp3",
+          "file_offset": 0,
+          "chunk_offset": 31291323,
+          "length": 576912
+        },
+        {
+          "file": "audio/el_ph3.mp3",
+          "file_offset": 0,
+          "chunk_offset": 31868235,
+          "length": 576076
+        },
+        {
+          "file": "audio/el_ph4.mp3",
+          "file_offset": 0,
+          "chunk_offset": 32444311,
+          "length": 448598
+        },
+        {
+          "file": "audio/END.mp3",
+          "file_offset": 0,
+          "chunk_offset": 32892909,
+          "length": 8596295
+        },
+        {
+          "file": "audio/FLASH.wav",
+          "file_offset": 0,
+          "chunk_offset": 41489204,
+          "length": 36281404
+        },
+        {
+          "file": "audio/GAME.wav",
+          "file_offset": 0,
+          "chunk_offset": 77770608,
+          "length": 7164048
+        }
+      ]
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 84934656,
+      "sha256": "11788f195b60ff07e0882abef2a1ce49364c9ab3e3ee40083040c83d2a1f9cfd",
+      "segments": [
+        {
+          "file": "audio/GAME.wav",
+          "file_offset": 7164048,
+          "chunk_offset": 0,
+          "length": 34639788
+        },
+        {
+          "file": "audio/h5_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 34639788,
+          "length": 33340
+        },
+        {
+          "file": "audio/h5_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 34673128,
+          "length": 13628
+        },
+        {
+          "file": "audio/h5_c.wav",
+          "file_offset": 0,
+          "chunk_offset": 34686756,
+          "length": 10556
+        },
+        {
+          "file": "audio/hd_ph1.mp3",
+          "file_offset": 0,
+          "chunk_offset": 34697312,
+          "length": 511292
+        },
+        {
+          "file": "audio/hd_ph2.mp3",
+          "file_offset": 0,
+          "chunk_offset": 35208604,
+          "length": 270966
+        },
+        {
+          "file": "audio/hd_ph3.mp3",
+          "file_offset": 0,
+          "chunk_offset": 35479570,
+          "length": 372112
+        },
+        {
+          "file": "audio/hd_ph4.mp3",
+          "file_offset": 0,
+          "chunk_offset": 35851682,
+          "length": 354557
+        },
+        {
+          "file": "audio/hd_ph5.mp3",
+          "file_offset": 0,
+          "chunk_offset": 36206239,
+          "length": 354557
+        },
+        {
+          "file": "audio/HEAD.wav",
+          "file_offset": 0,
+          "chunk_offset": 36560796,
+          "length": 45304004
+        },
+        {
+          "file": "audio/j0_dm2.mp3",
+          "file_offset": 0,
+          "chunk_offset": 81864800,
+          "length": 458211
+        },
+        {
+          "file": "audio/j1_lfl.mp3",
+          "file_offset": 0,
+          "chunk_offset": 82323011,
+          "length": 508366
+        },
+        {
+          "file": "audio/j2_kcl.mp3",
+          "file_offset": 0,
+          "chunk_offset": 82831377,
+          "length": 524249
+        },
+        {
+          "file": "audio/j3_vh.mp3",
+          "file_offset": 0,
+          "chunk_offset": 83355626,
+          "length": 454868
+        },
+        {
+          "file": "audio/j4_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 83810494,
+          "length": 15164
+        },
+        {
+          "file": "audio/j4_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 83825658,
+          "length": 19772
+        },
+        {
+          "file": "audio/j4_c.wav",
+          "file_offset": 0,
+          "chunk_offset": 83845430,
+          "length": 17980
+        },
+        {
+          "file": "audio/j4_d.wav",
+          "file_offset": 0,
+          "chunk_offset": 83863410,
+          "length": 24892
+        },
+        {
+          "file": "audio/j4_e.wav",
+          "file_offset": 0,
+          "chunk_offset": 83888302,
+          "length": 14908
+        },
+        {
+          "file": "audio/j4_eth.mp3",
+          "file_offset": 0,
+          "chunk_offset": 83903210,
+          "length": 398861
+        },
+        {
+          "file": "audio/j4_f.wav",
+          "file_offset": 0,
+          "chunk_offset": 84302071,
+          "length": 10812
+        },
+        {
+          "file": "audio/j4t_1.wav",
+          "file_offset": 0,
+          "chunk_offset": 84312883,
+          "length": 30268
+        },
+        {
+          "file": "audio/j4t_2.wav",
+          "file_offset": 0,
+          "chunk_offset": 84343151,
+          "length": 14908
+        },
+        {
+          "file": "audio/j4t_3.wav",
+          "file_offset": 0,
+          "chunk_offset": 84358059,
+          "length": 14140
+        },
+        {
+          "file": "audio/j4t_4.wav",
+          "file_offset": 0,
+          "chunk_offset": 84372199,
+          "length": 9532
+        },
+        {
+          "file": "audio/j5_dst.mp3",
+          "file_offset": 0,
+          "chunk_offset": 84381731,
+          "length": 353304
+        },
+        {
+          "file": "audio/j6_1.wav",
+          "file_offset": 0,
+          "chunk_offset": 84735035,
+          "length": 23868
+        },
+        {
+          "file": "audio/j6_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 84758903,
+          "length": 10044
+        },
+        {
+          "file": "audio/j6_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 84768947,
+          "length": 12092
+        },
+        {
+          "file": "audio/j6_c.wav",
+          "file_offset": 0,
+          "chunk_offset": 84781039,
+          "length": 3900
+        },
+        {
+          "file": "audio/j6_d.wav",
+          "file_offset": 0,
+          "chunk_offset": 84784939,
+          "length": 63906
+        },
+        {
+          "file": "audio/j6_tbj.mp3",
+          "file_offset": 0,
+          "chunk_offset": 84848845,
+          "length": 85811
+        }
+      ]
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 84934656,
+      "sha256": "127a2f6ac14df63540e1573be1bd0baea21ada9fb394cc2d740fa68a245a4181",
+      "segments": [
+        {
+          "file": "audio/j6_tbj.mp3",
+          "file_offset": 85811,
+          "chunk_offset": 0,
+          "length": 278359
+        },
+        {
+          "file": "audio/JB.mp3",
+          "file_offset": 0,
+          "chunk_offset": 278359,
+          "length": 1809891
+        },
+        {
+          "file": "audio/k1_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 2088250,
+          "length": 56972
+        },
+        {
+          "file": "audio/k1_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 2145222,
+          "length": 9788
+        },
+        {
+          "file": "audio/k1_kbo.mp3",
+          "file_offset": 0,
+          "chunk_offset": 2155010,
+          "length": 535534
+        },
+        {
+          "file": "audio/k2_gis.mp3",
+          "file_offset": 0,
+          "chunk_offset": 2690544,
+          "length": 658832
+        },
+        {
+          "file": "audio/K3_A.wav",
+          "file_offset": 0,
+          "chunk_offset": 3349376,
+          "length": 11836
+        },
+        {
+          "file": "audio/k3_ds.mp3",
+          "file_offset": 0,
+          "chunk_offset": 3361212,
+          "length": 418505
+        },
+        {
+          "file": "audio/k4_shi.mp3",
+          "file_offset": 0,
+          "chunk_offset": 3779717,
+          "length": 324046
+        },
+        {
+          "file": "audio/k4_shi2.mp3",
+          "file_offset": 0,
+          "chunk_offset": 4103763,
+          "length": 214123
+        },
+        {
+          "file": "audio/k5_sd.mp3",
+          "file_offset": 0,
+          "chunk_offset": 4317886,
+          "length": 565627
+        },
+        {
+          "file": "audio/KJAH.wav",
+          "file_offset": 0,
+          "chunk_offset": 4883513,
+          "length": 36886588
+        },
+        {
+          "file": "audio/l1_lg.mp3",
+          "file_offset": 0,
+          "chunk_offset": 41770101,
+          "length": 1051713
+        },
+        {
+          "file": "audio/l2_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 42821814,
+          "length": 31548
+        },
+        {
+          "file": "audio/l2_dsb.mp3",
+          "file_offset": 0,
+          "chunk_offset": 42853362,
+          "length": 540549
+        },
+        {
+          "file": "audio/l3_dm.mp3",
+          "file_offset": 0,
+          "chunk_offset": 43393911,
+          "length": 483289
+        },
+        {
+          "file": "audio/l4_pap.mp3",
+          "file_offset": 0,
+          "chunk_offset": 43877200,
+          "length": 365842
+        },
+        {
+          "file": "audio/l5_tfb.mp3",
+          "file_offset": 0,
+          "chunk_offset": 44243042,
+          "length": 448598
+        },
+        {
+          "file": "audio/lib_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 44691640,
+          "length": 20540
+        },
+        {
+          "file": "audio/lib_a1.wav",
+          "file_offset": 0,
+          "chunk_offset": 44712180,
+          "length": 17724
+        },
+        {
+          "file": "audio/lib_a2.wav",
+          "file_offset": 0,
+          "chunk_offset": 44729904,
+          "length": 14908
+        },
+        {
+          "file": "audio/lib_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 44744812,
+          "length": 39228
+        },
+        {
+          "file": "audio/lib_c.wav",
+          "file_offset": 0,
+          "chunk_offset": 44784040,
+          "length": 17468
+        },
+        {
+          "file": "audio/lib_d.wav",
+          "file_offset": 0,
+          "chunk_offset": 44801508,
+          "length": 7996
+        },
+        {
+          "file": "audio/LIPS.wav",
+          "file_offset": 0,
+          "chunk_offset": 44809504,
+          "length": 38895812
+        },
+        {
+          "file": "audio/lo2_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 83705316,
+          "length": 73522
+        },
+        {
+          "file": "audio/lo6_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 83778838,
+          "length": 95132
+        },
+        {
+          "file": "audio/mf1_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 83873970,
+          "length": 23356
+        },
+        {
+          "file": "audio/mf2_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 83897326,
+          "length": 24380
+        },
+        {
+          "file": "audio/mf3_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 83921706,
+          "length": 26428
+        },
+        {
+          "file": "audio/mf3_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 83948134,
+          "length": 27964
+        },
+        {
+          "file": "audio/mf3_b1.wav",
+          "file_offset": 0,
+          "chunk_offset": 83976098,
+          "length": 11836
+        },
+        {
+          "file": "audio/mf3_c.wav",
+          "file_offset": 0,
+          "chunk_offset": 83987934,
+          "length": 32060
+        },
+        {
+          "file": "audio/mf4_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 84019994,
+          "length": 13884
+        },
+        {
+          "file": "audio/mf4_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 84033878,
+          "length": 28220
+        },
+        {
+          "file": "audio/mf4_c.wav",
+          "file_offset": 0,
+          "chunk_offset": 84062098,
+          "length": 16444
+        },
+        {
+          "file": "audio/Miscom.wav",
+          "file_offset": 0,
+          "chunk_offset": 84078542,
+          "length": 428092
+        },
+        {
+          "file": "audio/MSX.wav",
+          "file_offset": 0,
+          "chunk_offset": 84506634,
+          "length": 428022
+        }
+      ]
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 84934656,
+      "sha256": "8330f0eea27b232e56daf0a8ee6dcd51f5712f30eb8d5badcdec50e172364327",
+      "segments": [
+        {
+          "file": "audio/MSX.wav",
+          "file_offset": 428022,
+          "chunk_offset": 0,
+          "length": 47926342
+        },
+        {
+          "file": "audio/mt_ph1.mp3",
+          "file_offset": 0,
+          "chunk_offset": 47926342,
+          "length": 437313
+        },
+        {
+          "file": "audio/mt_ph2.mp3",
+          "file_offset": 0,
+          "chunk_offset": 48363655,
+          "length": 432298
+        },
+        {
+          "file": "audio/mt_ph3.mp3",
+          "file_offset": 0,
+          "chunk_offset": 48795953,
+          "length": 321121
+        },
+        {
+          "file": "audio/mt_ph4.mp3",
+          "file_offset": 0,
+          "chunk_offset": 49117074,
+          "length": 320703
+        },
+        {
+          "file": "audio/police.wav",
+          "file_offset": 0,
+          "chunk_offset": 49437777,
+          "length": 31898684
+        },
+        {
+          "file": "audio/r0_pdr2.mp3",
+          "file_offset": 0,
+          "chunk_offset": 81336461,
+          "length": 588197
+        },
+        {
+          "file": "audio/r1_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 81924658,
+          "length": 60106
+        },
+        {
+          "file": "audio/r1_sw.mp3",
+          "file_offset": 0,
+          "chunk_offset": 81984764,
+          "length": 356229
+        },
+        {
+          "file": "audio/r2_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 82340993,
+          "length": 14908
+        },
+        {
+          "file": "audio/r2_ap.mp3",
+          "file_offset": 0,
+          "chunk_offset": 82355901,
+          "length": 636262
+        },
+        {
+          "file": "audio/r2_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 82992163,
+          "length": 21052
+        },
+        {
+          "file": "audio/r2_c.wav",
+          "file_offset": 0,
+          "chunk_offset": 83013215,
+          "length": 17212
+        },
+        {
+          "file": "audio/r2_d.wav",
+          "file_offset": 0,
+          "chunk_offset": 83030427,
+          "length": 7740
+        },
+        {
+          "file": "audio/r2_e.wav",
+          "file_offset": 0,
+          "chunk_offset": 83038167,
+          "length": 15676
+        },
+        {
+          "file": "audio/r2_f.wav",
+          "file_offset": 0,
+          "chunk_offset": 83053843,
+          "length": 22844
+        },
+        {
+          "file": "audio/r2_g.wav",
+          "file_offset": 0,
+          "chunk_offset": 83076687,
+          "length": 32316
+        },
+        {
+          "file": "audio/r2_h.wav",
+          "file_offset": 0,
+          "chunk_offset": 83109003,
+          "length": 13884
+        },
+        {
+          "file": "audio/r3_ed.mp3",
+          "file_offset": 0,
+          "chunk_offset": 83122887,
+          "length": 699792
+        },
+        {
+          "file": "audio/r4_gf.mp3",
+          "file_offset": 0,
+          "chunk_offset": 83822679,
+          "length": 345362
+        },
+        {
+          "file": "audio/r5_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 84168041,
+          "length": 74828
+        },
+        {
+          "file": "audio/r5_pb.mp3",
+          "file_offset": 0,
+          "chunk_offset": 84242869,
+          "length": 325718
+        },
+        {
+          "file": "audio/r6_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 84568587,
+          "length": 6716
+        },
+        {
+          "file": "audio/r6_a1.wav",
+          "file_offset": 0,
+          "chunk_offset": 84575303,
+          "length": 18748
+        },
+        {
+          "file": "audio/r6_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 84594051,
+          "length": 4668
+        },
+        {
+          "file": "audio/r6_mm.mp3",
+          "file_offset": 0,
+          "chunk_offset": 84598719,
+          "length": 335937
+        }
+      ]
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 84934656,
+      "sha256": "5e3e4920ff520df3be778612f0c6e3bfe15a456097c7c70f174939fbecf55402",
+      "segments": [
+        {
+          "file": "audio/r6_mm.mp3",
+          "file_offset": 335937,
+          "chunk_offset": 0,
+          "length": 39100
+        },
+        {
+          "file": "audio/RISE.wav",
+          "file_offset": 0,
+          "chunk_offset": 39100,
+          "length": 50536508
+        },
+        {
+          "file": "audio/s0_mas.mp3",
+          "file_offset": 0,
+          "chunk_offset": 50575608,
+          "length": 766665
+        },
+        {
+          "file": "audio/s1_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 51342273,
+          "length": 17980
+        },
+        {
+          "file": "audio/s1_a1.wav",
+          "file_offset": 0,
+          "chunk_offset": 51360253,
+          "length": 23356
+        },
+        {
+          "file": "audio/s1_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 51383609,
+          "length": 13372
+        },
+        {
+          "file": "audio/s1_c.wav",
+          "file_offset": 0,
+          "chunk_offset": 51396981,
+          "length": 7484
+        },
+        {
+          "file": "audio/s1_c1.wav",
+          "file_offset": 0,
+          "chunk_offset": 51404465,
+          "length": 26172
+        },
+        {
+          "file": "audio/s1_d.wav",
+          "file_offset": 0,
+          "chunk_offset": 51430637,
+          "length": 15932
+        },
+        {
+          "file": "audio/s1_e.wav",
+          "file_offset": 0,
+          "chunk_offset": 51446569,
+          "length": 19772
+        },
+        {
+          "file": "audio/s1_f.wav",
+          "file_offset": 0,
+          "chunk_offset": 51466341,
+          "length": 11580
+        },
+        {
+          "file": "audio/s1_g.wav",
+          "file_offset": 0,
+          "chunk_offset": 51477921,
+          "length": 24380
+        },
+        {
+          "file": "audio/s1_h.wav",
+          "file_offset": 0,
+          "chunk_offset": 51502301,
+          "length": 65092
+        },
+        {
+          "file": "audio/s1_i.wav",
+          "file_offset": 0,
+          "chunk_offset": 51567393,
+          "length": 5180
+        },
+        {
+          "file": "audio/s1_j.wav",
+          "file_offset": 0,
+          "chunk_offset": 51572573,
+          "length": 13884
+        },
+        {
+          "file": "audio/s1_k.wav",
+          "file_offset": 0,
+          "chunk_offset": 51586457,
+          "length": 32060
+        },
+        {
+          "file": "audio/s1_l.wav",
+          "file_offset": 0,
+          "chunk_offset": 51618517,
+          "length": 16444
+        },
+        {
+          "file": "audio/s1_pf.mp3",
+          "file_offset": 0,
+          "chunk_offset": 51634961,
+          "length": 722361
+        },
+        {
+          "file": "audio/s2_ctg.mp3",
+          "file_offset": 0,
+          "chunk_offset": 52357322,
+          "length": 640024
+        },
+        {
+          "file": "audio/s2_ctg2.mp3",
+          "file_offset": 0,
+          "chunk_offset": 52997346,
+          "length": 643367
+        },
+        {
+          "file": "audio/s3_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 53640713,
+          "length": 20284
+        },
+        {
+          "file": "audio/s3_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 53660997,
+          "length": 77440
+        },
+        {
+          "file": "audio/s3_rtc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 53738437,
+          "length": 641695
+        },
+        {
+          "file": "audio/s4_bdba.mp3",
+          "file_offset": 0,
+          "chunk_offset": 54380132,
+          "length": 285594
+        },
+        {
+          "file": "audio/s4_bdbb.mp3",
+          "file_offset": 0,
+          "chunk_offset": 54665726,
+          "length": 264278
+        },
+        {
+          "file": "audio/s4_bdbd.mp3",
+          "file_offset": 0,
+          "chunk_offset": 54930004,
+          "length": 540549
+        },
+        {
+          "file": "audio/s5_lrq.mp3",
+          "file_offset": 0,
+          "chunk_offset": 55470553,
+          "length": 449434
+        },
+        {
+          "file": "audio/s5_lrqb.mp3",
+          "file_offset": 0,
+          "chunk_offset": 55919987,
+          "length": 641695
+        },
+        {
+          "file": "audio/s5_lrqc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 56561682,
+          "length": 481617
+        },
+        {
+          "file": "audio/sfx.RAW",
+          "file_offset": 0,
+          "chunk_offset": 57043299,
+          "length": 27891357
+        }
+      ]
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 84934656,
+      "sha256": "5515f84350bcdaf2b2fa2778d51b39778f028bb662f3cdae9cbf5466bd7b5dea",
+      "segments": [
+        {
+          "file": "audio/sfx.RAW",
+          "file_offset": 27891357,
+          "chunk_offset": 0,
+          "length": 52958111
+        },
+        {
+          "file": "audio/sfx.SDT",
+          "file_offset": 0,
+          "chunk_offset": 52958111,
+          "length": 60640
+        },
+        {
+          "file": "audio/SUBopen.wav",
+          "file_offset": 0,
+          "chunk_offset": 53018751,
+          "length": 543912
+        },
+        {
+          "file": "audio/t1_tol.mp3",
+          "file_offset": 0,
+          "chunk_offset": 53562663,
+          "length": 534698
+        },
+        {
+          "file": "audio/t2_tpu.mp3",
+          "file_offset": 0,
+          "chunk_offset": 54097361,
+          "length": 358319
+        },
+        {
+          "file": "audio/t3_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 54455680,
+          "length": 3388
+        },
+        {
+          "file": "audio/t3_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 54459068,
+          "length": 5180
+        },
+        {
+          "file": "audio/t3_c.wav",
+          "file_offset": 0,
+          "chunk_offset": 54464248,
+          "length": 6204
+        },
+        {
+          "file": "audio/t3_mas.mp3",
+          "file_offset": 0,
+          "chunk_offset": 54470452,
+          "length": 337839
+        },
+        {
+          "file": "audio/t4_a.wav",
+          "file_offset": 0,
+          "chunk_offset": 54808291,
+          "length": 67586
+        },
+        {
+          "file": "audio/t4_tat.mp3",
+          "file_offset": 0,
+          "chunk_offset": 54875877,
+          "length": 395517
+        },
+        {
+          "file": "audio/t5_bf.mp3",
+          "file_offset": 0,
+          "chunk_offset": 55271394,
+          "length": 461973
+        },
+        {
+          "file": "audio/Water.wav",
+          "file_offset": 0,
+          "chunk_offset": 55733367,
+          "length": 20380732
+        },
+        {
+          "file": "audio/YD2_A.wav",
+          "file_offset": 0,
+          "chunk_offset": 76114099,
+          "length": 39484
+        },
+        {
+          "file": "audio/yd2_ass.wav",
+          "file_offset": 0,
+          "chunk_offset": 76153583,
+          "length": 19516
+        },
+        {
+          "file": "audio/yd2_b.wav",
+          "file_offset": 0,
+          "chunk_offset": 76173099,
+          "length": 30012
+        },
+        {
+          "file": "audio/yd2_c.wav",
+          "file_offset": 0,
+          "chunk_offset": 76203111,
+          "length": 12348
+        },
+        {
+          "file": "audio/yd2_c1.wav",
+          "file_offset": 0,
+          "chunk_offset": 76215459,
+          "length": 6716
+        },
+        {
+          "file": "audio/yd2_d.wav",
+          "file_offset": 0,
+          "chunk_offset": 76222175,
+          "length": 19004
+        },
+        {
+          "file": "audio/yd2_e.wav",
+          "file_offset": 0,
+          "chunk_offset": 76241179,
+          "length": 17468
+        },
+        {
+          "file": "audio/yd2_f.wav",
+          "file_offset": 0,
+          "chunk_offset": 76258647,
+          "length": 20540
+        },
+        {
+          "file": "audio/yd2_g.wav",
+          "file_offset": 0,
+          "chunk_offset": 76279187,
+          "length": 18492
+        },
+        {
+          "file": "audio/yd2_h.wav",
+          "file_offset": 0,
+          "chunk_offset": 76297679,
+          "length": 26428
+        },
+        {
+          "file": "audio/yd2_ok.wav",
+          "file_offset": 0,
+          "chunk_offset": 76324107,
+          "length": 34364
+        },
+        {
+          "file": "audio/yd_ph1.mp3",
+          "file_offset": 0,
+          "chunk_offset": 76358471,
+          "length": 431880
+        },
+        {
+          "file": "audio/yd_ph2.mp3",
+          "file_offset": 0,
+          "chunk_offset": 76790351,
+          "length": 250068
+        },
+        {
+          "file": "audio/yd_ph3.mp3",
+          "file_offset": 0,
+          "chunk_offset": 77040419,
+          "length": 349960
+        },
+        {
+          "file": "audio/yd_ph4.mp3",
+          "file_offset": 0,
+          "chunk_offset": 77390379,
+          "length": 167312
+        },
+        {
+          "file": "data/animviewer.dat",
+          "file_offset": 0,
+          "chunk_offset": 77557691,
+          "length": 404
+        },
+        {
+          "file": "data/CAPS.DAT",
+          "file_offset": 0,
+          "chunk_offset": 77558095,
+          "length": 16
+        },
+        {
+          "file": "data/carcols.dat",
+          "file_offset": 0,
+          "chunk_offset": 77558111,
+          "length": 5945
+        },
+        {
+          "file": "data/CULLZONE.DAT",
+          "file_offset": 0,
+          "chunk_offset": 77564056,
+          "length": 158124
+        },
+        {
+          "file": "data/default.dat",
+          "file_offset": 0,
+          "chunk_offset": 77722180,
+          "length": 615
+        },
+        {
+          "file": "data/default.ide",
+          "file_offset": 0,
+          "chunk_offset": 77722795,
+          "length": 11723
+        },
+        {
+          "file": "data/fistfite.dat",
+          "file_offset": 0,
+          "chunk_offset": 77734518,
+          "length": 1268
+        },
+        {
+          "file": "data/gta3.dat",
+          "file_offset": 0,
+          "chunk_offset": 77735786,
+          "length": 2010
+        },
+        {
+          "file": "data/gta3.zon",
+          "file_offset": 0,
+          "chunk_offset": 77737796,
+          "length": 2968
+        },
+        {
+          "file": "data/handling.cfg",
+          "file_offset": 0,
+          "chunk_offset": 77740764,
+          "length": 11596
+        },
+        {
+          "file": "data/main.scm",
+          "file_offset": 0,
+          "chunk_offset": 77752360,
+          "length": 606553
+        },
+        {
+          "file": "data/map.zon",
+          "file_offset": 0,
+          "chunk_offset": 78358913,
+          "length": 1700
+        },
+        {
+          "file": "data/maps/comNbtm.ipl",
+          "file_offset": 0,
+          "chunk_offset": 78360613,
+          "length": 68659
+        },
+        {
+          "file": "data/maps/comnbtm/comNbtm.col",
+          "file_offset": 0,
+          "chunk_offset": 78429272,
+          "length": 318036
+        },
+        {
+          "file": "data/maps/comnbtm/comnbtm.ide",
+          "file_offset": 0,
+          "chunk_offset": 78747308,
+          "length": 36174
+        },
+        {
+          "file": "data/maps/comnbtm/comNbtm.ipl",
+          "file_offset": 0,
+          "chunk_offset": 78783482,
+          "length": 68733
+        },
+        {
+          "file": "data/maps/comNtop.ipl",
+          "file_offset": 0,
+          "chunk_offset": 78852215,
+          "length": 81430
+        },
+        {
+          "file": "data/maps/comntop/comNtop.col",
+          "file_offset": 0,
+          "chunk_offset": 78933645,
+          "length": 260108
+        },
+        {
+          "file": "data/maps/comntop/comntop.ide",
+          "file_offset": 0,
+          "chunk_offset": 79193753,
+          "length": 25480
+        },
+        {
+          "file": "data/maps/comntop/comNtop.ipl",
+          "file_offset": 0,
+          "chunk_offset": 79219233,
+          "length": 81664
+        },
+        {
+          "file": "data/maps/comroad/comroad.col",
+          "file_offset": 0,
+          "chunk_offset": 79300897,
+          "length": 156760
+        },
+        {
+          "file": "data/maps/comroad/comroad.ide",
+          "file_offset": 0,
+          "chunk_offset": 79457657,
+          "length": 86552
+        },
+        {
+          "file": "data/maps/comroad/comroad.ipl",
+          "file_offset": 0,
+          "chunk_offset": 79544209,
+          "length": 8577
+        },
+        {
+          "file": "data/maps/comSE.ipl",
+          "file_offset": 0,
+          "chunk_offset": 79552786,
+          "length": 43025
+        },
+        {
+          "file": "data/maps/comse/comSE.col",
+          "file_offset": 0,
+          "chunk_offset": 79595811,
+          "length": 171324
+        },
+        {
+          "file": "data/maps/comse/comse.ide",
+          "file_offset": 0,
+          "chunk_offset": 79767135,
+          "length": 29074
+        },
+        {
+          "file": "data/maps/comse/comSE.ipl",
+          "file_offset": 0,
+          "chunk_offset": 79796209,
+          "length": 43035
+        },
+        {
+          "file": "data/maps/comSW.ipl",
+          "file_offset": 0,
+          "chunk_offset": 79839244,
+          "length": 60424
+        },
+        {
+          "file": "data/maps/comsw/comSW.col",
+          "file_offset": 0,
+          "chunk_offset": 79899668,
+          "length": 217676
+        },
+        {
+          "file": "data/maps/comsw/comsw.ide",
+          "file_offset": 0,
+          "chunk_offset": 80117344,
+          "length": 30841
+        },
+        {
+          "file": "data/maps/comsw/comSW.ipl",
+          "file_offset": 0,
+          "chunk_offset": 80148185,
+          "length": 60434
+        },
+        {
+          "file": "data/maps/cull.ipl",
+          "file_offset": 0,
+          "chunk_offset": 80208619,
+          "length": 66906
+        },
+        {
+          "file": "data/maps/generic.ide",
+          "file_offset": 0,
+          "chunk_offset": 80275525,
+          "length": 82776
+        },
+        {
+          "file": "data/maps/gta3.IDE",
+          "file_offset": 0,
+          "chunk_offset": 80358301,
+          "length": 613068
+        },
+        {
+          "file": "data/maps/indroads/indroads.col",
+          "file_offset": 0,
+          "chunk_offset": 80971369,
+          "length": 157068
+        },
+        {
+          "file": "data/maps/indroads/indroads.ide",
+          "file_offset": 0,
+          "chunk_offset": 81128437,
+          "length": 86174
+        },
+        {
+          "file": "data/maps/indroads/indroads.ipl",
+          "file_offset": 0,
+          "chunk_offset": 81214611,
+          "length": 8564
+        },
+        {
+          "file": "data/maps/industNE.ipl",
+          "file_offset": 0,
+          "chunk_offset": 81223175,
+          "length": 41469
+        },
+        {
+          "file": "data/maps/industne/industNE.col",
+          "file_offset": 0,
+          "chunk_offset": 81264644,
+          "length": 248400
+        },
+        {
+          "file": "data/maps/industne/industne.ide",
+          "file_offset": 0,
+          "chunk_offset": 81513044,
+          "length": 8670
+        },
+        {
+          "file": "data/maps/industne/industNE.ipl",
+          "file_offset": 0,
+          "chunk_offset": 81521714,
+          "length": 41297
+        },
+        {
+          "file": "data/maps/industNW.ipl",
+          "file_offset": 0,
+          "chunk_offset": 81563011,
+          "length": 53496
+        },
+        {
+          "file": "data/maps/industnw/industNW.col",
+          "file_offset": 0,
+          "chunk_offset": 81616507,
+          "length": 163704
+        },
+        {
+          "file": "data/maps/industnw/industnw.ide",
+          "file_offset": 0,
+          "chunk_offset": 81780211,
+          "length": 13827
+        },
+        {
+          "file": "data/maps/industnw/industNW.ipl",
+          "file_offset": 0,
+          "chunk_offset": 81794038,
+          "length": 53575
+        },
+        {
+          "file": "data/maps/industSE.ipl",
+          "file_offset": 0,
+          "chunk_offset": 81847613,
+          "length": 54896
+        },
+        {
+          "file": "data/maps/industse/industSE.col",
+          "file_offset": 0,
+          "chunk_offset": 81902509,
+          "length": 240564
+        },
+        {
+          "file": "data/maps/industse/industse.ide",
+          "file_offset": 0,
+          "chunk_offset": 82143073,
+          "length": 32659
+        },
+        {
+          "file": "data/maps/industse/industSE.ipl",
+          "file_offset": 0,
+          "chunk_offset": 82175732,
+          "length": 55181
+        },
+        {
+          "file": "data/maps/industSW.ipl",
+          "file_offset": 0,
+          "chunk_offset": 82230913,
+          "length": 50418
+        },
+        {
+          "file": "data/maps/industsw/industSW.col",
+          "file_offset": 0,
+          "chunk_offset": 82281331,
+          "length": 165320
+        },
+        {
+          "file": "data/maps/industsw/industsw.ide",
+          "file_offset": 0,
+          "chunk_offset": 82446651,
+          "length": 22576
+        },
+        {
+          "file": "data/maps/industsw/industSW.ipl",
+          "file_offset": 0,
+          "chunk_offset": 82469227,
+          "length": 50430
+        },
+        {
+          "file": "data/maps/landne/landne.col",
+          "file_offset": 0,
+          "chunk_offset": 82519657,
+          "length": 464528
+        },
+        {
+          "file": "data/maps/landne/landne.ide",
+          "file_offset": 0,
+          "chunk_offset": 82984185,
+          "length": 24669
+        },
+        {
+          "file": "data/maps/landne/landne.ipl",
+          "file_offset": 0,
+          "chunk_offset": 83008854,
+          "length": 72223
+        },
+        {
+          "file": "data/maps/landsw/landsw.col",
+          "file_offset": 0,
+          "chunk_offset": 83081077,
+          "length": 448432
+        },
+        {
+          "file": "data/maps/landsw/landsw.ide",
+          "file_offset": 0,
+          "chunk_offset": 83529509,
+          "length": 55543
+        },
+        {
+          "file": "data/maps/landsw/landsw.ipl",
+          "file_offset": 0,
+          "chunk_offset": 83585052,
+          "length": 95277
+        },
+        {
+          "file": "data/maps/making/making.col",
+          "file_offset": 0,
+          "chunk_offset": 83680329,
+          "length": 19600
+        },
+        {
+          "file": "data/maps/making/making.ide",
+          "file_offset": 0,
+          "chunk_offset": 83699929,
+          "length": 2761
+        },
+        {
+          "file": "data/maps/making/making.ipl",
+          "file_offset": 0,
+          "chunk_offset": 83702690,
+          "length": 2812
+        },
+        {
+          "file": "data/maps/overview.ipl",
+          "file_offset": 0,
+          "chunk_offset": 83705502,
+          "length": 7142
+        },
+        {
+          "file": "data/maps/props.IPL",
+          "file_offset": 0,
+          "chunk_offset": 83712644,
+          "length": 37166
+        },
+        {
+          "file": "data/maps/subroads/subroads.col",
+          "file_offset": 0,
+          "chunk_offset": 83749810,
+          "length": 169876
+        },
+        {
+          "file": "data/maps/subroads/subroads.ide",
+          "file_offset": 0,
+          "chunk_offset": 83919686,
+          "length": 70990
+        },
+        {
+          "file": "data/maps/subroads/subroads.ipl",
+          "file_offset": 0,
+          "chunk_offset": 83990676,
+          "length": 8098
+        },
+        {
+          "file": "data/maps/suburbne.ipl",
+          "file_offset": 0,
+          "chunk_offset": 83998774,
+          "length": 72145
+        },
+        {
+          "file": "data/maps/suburbsw.ipl",
+          "file_offset": 0,
+          "chunk_offset": 84070919,
+          "length": 94839
+        },
+        {
+          "file": "data/maps/temppart/temppart.col",
+          "file_offset": 0,
+          "chunk_offset": 84165758,
+          "length": 59960
+        },
+        {
+          "file": "data/maps/temppart/temppart.ide",
+          "file_offset": 0,
+          "chunk_offset": 84225718,
+          "length": 5936
+        },
+        {
+          "file": "data/maps/temppart/temppart.ipl",
+          "file_offset": 0,
+          "chunk_offset": 84231654,
+          "length": 8546
+        },
+        {
+          "file": "data/object.dat",
+          "file_offset": 0,
+          "chunk_offset": 84240200,
+          "length": 14585
+        },
+        {
+          "file": "data/particle.cfg",
+          "file_offset": 0,
+          "chunk_offset": 84254785,
+          "length": 23574
+        },
+        {
+          "file": "data/paths/CHASE0.DAT",
+          "file_offset": 0,
+          "chunk_offset": 84278359,
+          "length": 151200
+        },
+        {
+          "file": "data/paths/CHASE1.DAT",
+          "file_offset": 0,
+          "chunk_offset": 84429559,
+          "length": 151200
+        },
+        {
+          "file": "data/paths/CHASE10.DAT",
+          "file_offset": 0,
+          "chunk_offset": 84580759,
+          "length": 67200
+        },
+        {
+          "file": "data/paths/CHASE11.DAT",
+          "file_offset": 0,
+          "chunk_offset": 84647959,
+          "length": 67200
+        },
+        {
+          "file": "data/paths/CHASE14.DAT",
+          "file_offset": 0,
+          "chunk_offset": 84715159,
+          "length": 67200
+        },
+        {
+          "file": "data/paths/CHASE16.DAT",
+          "file_offset": 0,
+          "chunk_offset": 84782359,
+          "length": 67200
+        },
+        {
+          "file": "data/paths/CHASE18.DAT",
+          "file_offset": 0,
+          "chunk_offset": 84849559,
+          "length": 67200
+        },
+        {
+          "file": "data/paths/CHASE19.DAT",
+          "file_offset": 0,
+          "chunk_offset": 84916759,
+          "length": 17897
+        }
+      ]
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 84934656,
+      "sha256": "d8636dc790f3d51b9508e7184a7caa822dc42c061418de14b69966aa0102b722",
+      "segments": [
+        {
+          "file": "data/paths/CHASE19.DAT",
+          "file_offset": 17897,
+          "chunk_offset": 0,
+          "length": 49303
+        },
+        {
+          "file": "data/paths/CHASE2.DAT",
+          "file_offset": 0,
+          "chunk_offset": 49303,
+          "length": 151200
+        },
+        {
+          "file": "data/paths/CHASE3.DAT",
+          "file_offset": 0,
+          "chunk_offset": 200503,
+          "length": 151200
+        },
+        {
+          "file": "data/paths/CHASE4.DAT",
+          "file_offset": 0,
+          "chunk_offset": 351703,
+          "length": 67200
+        },
+        {
+          "file": "data/paths/CHASE5.DAT",
+          "file_offset": 0,
+          "chunk_offset": 418903,
+          "length": 67200
+        },
+        {
+          "file": "data/paths/CHASE6.DAT",
+          "file_offset": 0,
+          "chunk_offset": 486103,
+          "length": 67200
+        },
+        {
+          "file": "data/paths/CHASE7.DAT",
+          "file_offset": 0,
+          "chunk_offset": 553303,
+          "length": 67200
+        },
+        {
+          "file": "data/paths/flight.dat",
+          "file_offset": 0,
+          "chunk_offset": 620503,
+          "length": 2746
+        },
+        {
+          "file": "data/paths/flight2.dat",
+          "file_offset": 0,
+          "chunk_offset": 623249,
+          "length": 1114
+        },
+        {
+          "file": "data/paths/flight3.dat",
+          "file_offset": 0,
+          "chunk_offset": 624363,
+          "length": 1170
+        },
+        {
+          "file": "data/paths/flight4.dat",
+          "file_offset": 0,
+          "chunk_offset": 625533,
+          "length": 3489
+        },
+        {
+          "file": "data/paths/tracks.dat",
+          "file_offset": 0,
+          "chunk_offset": 629022,
+          "length": 4330
+        },
+        {
+          "file": "data/paths/tracks2.dat",
+          "file_offset": 0,
+          "chunk_offset": 633352,
+          "length": 15023
+        },
+        {
+          "file": "data/ped.dat",
+          "file_offset": 0,
+          "chunk_offset": 648375,
+          "length": 2067
+        },
+        {
+          "file": "data/pedgrp.dat",
+          "file_offset": 0,
+          "chunk_offset": 650442,
+          "length": 3223
+        },
+        {
+          "file": "data/pedstats.dat",
+          "file_offset": 0,
+          "chunk_offset": 653665,
+          "length": 2976
+        },
+        {
+          "file": "data/surface.dat",
+          "file_offset": 0,
+          "chunk_offset": 656641,
+          "length": 487
+        },
+        {
+          "file": "data/timecyc.dat",
+          "file_offset": 0,
+          "chunk_offset": 657128,
+          "length": 22216
+        },
+        {
+          "file": "data/train.dat",
+          "file_offset": 0,
+          "chunk_offset": 679344,
+          "length": 2476
+        },
+        {
+          "file": "data/train2.dat",
+          "file_offset": 0,
+          "chunk_offset": 681820,
+          "length": 4232
+        },
+        {
+          "file": "data/water.dat",
+          "file_offset": 0,
+          "chunk_offset": 686052,
+          "length": 2639
+        },
+        {
+          "file": "data/waterpro.dat",
+          "file_offset": 0,
+          "chunk_offset": 688691,
+          "length": 21444
+        },
+        {
+          "file": "data/weapon.dat",
+          "file_offset": 0,
+          "chunk_offset": 710135,
+          "length": 2956
+        },
+        {
+          "file": "ddraw.dll",
+          "file_offset": 0,
+          "chunk_offset": 713091,
+          "length": 111616
+        },
+        {
+          "file": "drvmgt.dll",
+          "file_offset": 0,
+          "chunk_offset": 824707,
+          "length": 35840
+        },
+        {
+          "file": "gta3.exe",
+          "file_offset": 0,
+          "chunk_offset": 860547,
+          "length": 2801664
+        },
+        {
+          "file": "gta3.ini",
+          "file_offset": 0,
+          "chunk_offset": 3662211,
+          "length": 10
+        },
+        {
+          "file": "gta3_o.exe",
+          "file_offset": 0,
+          "chunk_offset": 3662221,
+          "length": 2801664
+        },
+        {
+          "file": "Icons/gta3.ico",
+          "file_offset": 0,
+          "chunk_offset": 6463885,
+          "length": 2238
+        },
+        {
+          "file": "Icons/gtaPcWaste.ico",
+          "file_offset": 0,
+          "chunk_offset": 6466123,
+          "length": 2238
+        },
+        {
+          "file": "Icons/rockstar.ico",
+          "file_offset": 0,
+          "chunk_offset": 6468361,
+          "length": 5694
+        },
+        {
+          "file": "installscript.vdf",
+          "file_offset": 0,
+          "chunk_offset": 6474055,
+          "length": 178
+        },
+        {
+          "file": "models/Coll/commer.col",
+          "file_offset": 0,
+          "chunk_offset": 6474233,
+          "length": 1123328
+        },
+        {
+          "file": "models/Coll/generic.col",
+          "file_offset": 0,
+          "chunk_offset": 7597561,
+          "length": 350988
+        },
+        {
+          "file": "models/Coll/indust.col",
+          "file_offset": 0,
+          "chunk_offset": 7948549,
+          "length": 1053928
+        },
+        {
+          "file": "models/Coll/peds.col",
+          "file_offset": 0,
+          "chunk_offset": 9002477,
+          "length": 21477
+        },
+        {
+          "file": "models/Coll/suburb.col",
+          "file_offset": 0,
+          "chunk_offset": 9023954,
+          "length": 1082000
+        },
+        {
+          "file": "models/Coll/vehicles.col",
+          "file_offset": 0,
+          "chunk_offset": 10105954,
+          "length": 56412
+        },
+        {
+          "file": "models/Coll/weapons.col",
+          "file_offset": 0,
+          "chunk_offset": 10162366,
+          "length": 1908
+        },
+        {
+          "file": "models/fonts.txd",
+          "file_offset": 0,
+          "chunk_offset": 10164274,
+          "length": 1379752
+        },
+        {
+          "file": "models/frontend.txd",
+          "file_offset": 0,
+          "chunk_offset": 11544026,
+          "length": 4888360
+        },
+        {
+          "file": "models/generic.txd",
+          "file_offset": 0,
+          "chunk_offset": 16432386,
+          "length": 659880
+        },
+        {
+          "file": "models/Generic/air_vlo.DFF",
+          "file_offset": 0,
+          "chunk_offset": 17092266,
+          "length": 7008
+        },
+        {
+          "file": "models/Generic/arrow.DFF",
+          "file_offset": 0,
+          "chunk_offset": 17099274,
+          "length": 4849
+        },
+        {
+          "file": "models/Generic/loplyguy.dff",
+          "file_offset": 0,
+          "chunk_offset": 17104123,
+          "length": 18728
+        },
+        {
+          "file": "models/Generic/peds.dff",
+          "file_offset": 0,
+          "chunk_offset": 17122851,
+          "length": 1106273
+        },
+        {
+          "file": "models/Generic/player.bmp",
+          "file_offset": 0,
+          "chunk_offset": 18229124,
+          "length": 196662
+        },
+        {
+          "file": "models/Generic/qsphere.DFF",
+          "file_offset": 0,
+          "chunk_offset": 18425786,
+          "length": 5171
+        },
+        {
+          "file": "models/Generic/sphere.DFF",
+          "file_offset": 0,
+          "chunk_offset": 18430957,
+          "length": 21582
+        },
+        {
+          "file": "models/Generic/weapons.dff",
+          "file_offset": 0,
+          "chunk_offset": 18452539,
+          "length": 164899
+        },
+        {
+          "file": "models/Generic/wheels.DFF",
+          "file_offset": 0,
+          "chunk_offset": 18617438,
+          "length": 85410
+        },
+        {
+          "file": "models/Generic/zonecyla.DFF",
+          "file_offset": 0,
+          "chunk_offset": 18702848,
+          "length": 1540
+        },
+        {
+          "file": "models/Generic/zonecylb.DFF",
+          "file_offset": 0,
+          "chunk_offset": 18704388,
+          "length": 2260
+        },
+        {
+          "file": "models/Generic/zonesphr.DFF",
+          "file_offset": 0,
+          "chunk_offset": 18706648,
+          "length": 4336
+        },
+        {
+          "file": "models/gta3.dir",
+          "file_offset": 0,
+          "chunk_offset": 18710984,
+          "length": 123392
+        },
+        {
+          "file": "models/gta3.img",
+          "file_offset": 0,
+          "chunk_offset": 18834376,
+          "length": 66100280
+        }
+      ]
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 84934656,
+      "sha256": "cd2de049ab1df1c1660c48fd0578b93f9b40e8199f049150cc5af82551c55c09",
+      "segments": [
+        {
+          "file": "models/gta3.img",
+          "file_offset": 66100280,
+          "chunk_offset": 0,
+          "length": 84934656
+        }
+      ]
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 84934656,
+      "sha256": "f51d09c9c100ce9dbcb4955a589c9952b7a40995dd0bede3375ffccc69660a3e",
+      "segments": [
+        {
+          "file": "models/gta3.img",
+          "file_offset": 151034936,
+          "chunk_offset": 0,
+          "length": 19856328
+        },
+        {
+          "file": "models/hud.txd",
+          "file_offset": 0,
+          "chunk_offset": 19856328,
+          "length": 171816
+        },
+        {
+          "file": "models/menu.txd",
+          "file_offset": 0,
+          "chunk_offset": 20028144,
+          "length": 7884200
+        },
+        {
+          "file": "models/MISC.TXD",
+          "file_offset": 0,
+          "chunk_offset": 27912344,
+          "length": 107944
+        },
+        {
+          "file": "models/particle.txd",
+          "file_offset": 0,
+          "chunk_offset": 28020288,
+          "length": 464040
+        },
+        {
+          "file": "models/txd.dir",
+          "file_offset": 0,
+          "chunk_offset": 28484328,
+          "length": 22944
+        },
+        {
+          "file": "models/txd.img",
+          "file_offset": 0,
+          "chunk_offset": 28507272,
+          "length": 56427384
+        }
+      ]
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 84934656,
+      "sha256": "1c7857bd8b7e9ce2b331476ba998baa276db7403d0d10120fcde26d40236e6c6",
+      "segments": [
+        {
+          "file": "models/txd.img",
+          "file_offset": 56427384,
+          "chunk_offset": 0,
+          "length": 84934656
+        }
+      ]
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 84934656,
+      "sha256": "0162d913329988ced3fdd42402ebb86be0c2223698769c33afea647ca575bc74",
+      "segments": [
+        {
+          "file": "models/txd.img",
+          "file_offset": 141362040,
+          "chunk_offset": 0,
+          "length": 84934656
+        }
+      ]
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 84934656,
+      "sha256": "b511c1cf3823d7837993dfedac63be006f4d259eba349866f6d73fb240f226e6",
+      "segments": [
+        {
+          "file": "models/txd.img",
+          "file_offset": 226296696,
+          "chunk_offset": 0,
+          "length": 84934656
+        }
+      ]
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 77291338,
+      "sha256": "a0a89aa923deb392a966c589df0063d5a4ecf8d3904c43e3e9e0e8d6e4c19b9a",
+      "segments": [
+        {
+          "file": "models/txd.img",
+          "file_offset": 311231352,
+          "chunk_offset": 0,
+          "length": 20059272
+        },
+        {
+          "file": "movies/GTAtitles.mpg",
+          "file_offset": 0,
+          "chunk_offset": 20059272,
+          "length": 16207876
+        },
+        {
+          "file": "movies/GTAtitlesGER.mpg",
+          "file_offset": 0,
+          "chunk_offset": 36267148,
+          "length": 16207876
+        },
+        {
+          "file": "movies/Logo.mpg",
+          "file_offset": 0,
+          "chunk_offset": 52475024,
+          "length": 6428676
+        },
+        {
+          "file": "mp3/MP3Report.txt",
+          "file_offset": 0,
+          "chunk_offset": 58903700,
+          "length": 179
+        },
+        {
+          "file": "mss/Mp3dec.asi",
+          "file_offset": 0,
+          "chunk_offset": 58903879,
+          "length": 125952
+        },
+        {
+          "file": "mss/Mssa3d.m3d",
+          "file_offset": 0,
+          "chunk_offset": 59029831,
+          "length": 51200
+        },
+        {
+          "file": "mss/Mssa3d2.m3d",
+          "file_offset": 0,
+          "chunk_offset": 59081031,
+          "length": 60928
+        },
+        {
+          "file": "mss/Mssds3dh.m3d",
+          "file_offset": 0,
+          "chunk_offset": 59141959,
+          "length": 50688
+        },
+        {
+          "file": "mss/Mssds3ds.m3d",
+          "file_offset": 0,
+          "chunk_offset": 59192647,
+          "length": 50688
+        },
+        {
+          "file": "mss/Msseax.m3d",
+          "file_offset": 0,
+          "chunk_offset": 59243335,
+          "length": 53760
+        },
+        {
+          "file": "mss/msseax3.m3d",
+          "file_offset": 0,
+          "chunk_offset": 59297095,
+          "length": 72704
+        },
+        {
+          "file": "mss/Mssfast.m3d",
+          "file_offset": 0,
+          "chunk_offset": 59369799,
+          "length": 62976
+        },
+        {
+          "file": "mss/Mssrsx.m3d",
+          "file_offset": 0,
+          "chunk_offset": 59432775,
+          "length": 352768
+        },
+        {
+          "file": "mss/Reverb3.flt",
+          "file_offset": 0,
+          "chunk_offset": 59785543,
+          "length": 56832
+        },
+        {
+          "file": "Mss32.dll",
+          "file_offset": 0,
+          "chunk_offset": 59842375,
+          "length": 338432
+        },
+        {
+          "file": "ReadMe/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 60180807,
+          "length": 9975
+        },
+        {
+          "file": "ReadMe/ReadMe_FRENCH.txt",
+          "file_offset": 0,
+          "chunk_offset": 60190782,
+          "length": 11015
+        },
+        {
+          "file": "ReadMe/ReadMe_GERMAN.txt",
+          "file_offset": 0,
+          "chunk_offset": 60201797,
+          "length": 10441
+        },
+        {
+          "file": "ReadMe/Readme_ITALIAN.txt",
+          "file_offset": 0,
+          "chunk_offset": 60212238,
+          "length": 10215
+        },
+        {
+          "file": "ReadMe/ReadMe_SPANISH.txt",
+          "file_offset": 0,
+          "chunk_offset": 60222453,
+          "length": 11089
+        },
+        {
+          "file": "SilentPatchIII.asi",
+          "file_offset": 0,
+          "chunk_offset": 60233542,
+          "length": 189440
+        },
+        {
+          "file": "SilentPatchIII.ini",
+          "file_offset": 0,
+          "chunk_offset": 60422982,
+          "length": 1188
+        },
+        {
+          "file": "skins/playa2.bmp",
+          "file_offset": 0,
+          "chunk_offset": 60424170,
+          "length": 66612
+        },
+        {
+          "file": "skins/player.bmp",
+          "file_offset": 0,
+          "chunk_offset": 60490782,
+          "length": 196662
+        },
+        {
+          "file": "testapp.exe",
+          "file_offset": 0,
+          "chunk_offset": 60687444,
+          "length": 2801664
+        },
+        {
+          "file": "testapp_o.exe",
+          "file_offset": 0,
+          "chunk_offset": 63489108,
+          "length": 2801664
+        },
+        {
+          "file": "TEXT/american.gxt",
+          "file_offset": 0,
+          "chunk_offset": 66290772,
+          "length": 218592
+        },
+        {
+          "file": "TEXT/english.gxt",
+          "file_offset": 0,
+          "chunk_offset": 66509364,
+          "length": 204494
+        },
+        {
+          "file": "TEXT/french.gxt",
+          "file_offset": 0,
+          "chunk_offset": 66713858,
+          "length": 244510
+        },
+        {
+          "file": "TEXT/german.gxt",
+          "file_offset": 0,
+          "chunk_offset": 66958368,
+          "length": 240454
+        },
+        {
+          "file": "TEXT/italian.gxt",
+          "file_offset": 0,
+          "chunk_offset": 67198822,
+          "length": 239928
+        },
+        {
+          "file": "TEXT/spanish.gxt",
+          "file_offset": 0,
+          "chunk_offset": 67438750,
+          "length": 246104
+        },
+        {
+          "file": "txd/LOADSC0.TXD",
+          "file_offset": 0,
+          "chunk_offset": 67684854,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC1.TXD",
+          "file_offset": 0,
+          "chunk_offset": 67948190,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC10.TXD",
+          "file_offset": 0,
+          "chunk_offset": 68211526,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC11.TXD",
+          "file_offset": 0,
+          "chunk_offset": 68474862,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC12.TXD",
+          "file_offset": 0,
+          "chunk_offset": 68738198,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC13.TXD",
+          "file_offset": 0,
+          "chunk_offset": 69001534,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC14.TXD",
+          "file_offset": 0,
+          "chunk_offset": 69264870,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC15.TXD",
+          "file_offset": 0,
+          "chunk_offset": 69528206,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC16.TXD",
+          "file_offset": 0,
+          "chunk_offset": 69791542,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC17.TXD",
+          "file_offset": 0,
+          "chunk_offset": 70054878,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC18.TXD",
+          "file_offset": 0,
+          "chunk_offset": 70318214,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC19.TXD",
+          "file_offset": 0,
+          "chunk_offset": 70581550,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC2.TXD",
+          "file_offset": 0,
+          "chunk_offset": 70844886,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC20.TXD",
+          "file_offset": 0,
+          "chunk_offset": 71108222,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC21.TXD",
+          "file_offset": 0,
+          "chunk_offset": 71371558,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC22.TXD",
+          "file_offset": 0,
+          "chunk_offset": 71634894,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC23.TXD",
+          "file_offset": 0,
+          "chunk_offset": 71898230,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC24.TXD",
+          "file_offset": 0,
+          "chunk_offset": 72161566,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC25.TXD",
+          "file_offset": 0,
+          "chunk_offset": 72424902,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC3.TXD",
+          "file_offset": 0,
+          "chunk_offset": 72688238,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC4.TXD",
+          "file_offset": 0,
+          "chunk_offset": 72951574,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC5.TXD",
+          "file_offset": 0,
+          "chunk_offset": 73214910,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC6.TXD",
+          "file_offset": 0,
+          "chunk_offset": 73478246,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC7.TXD",
+          "file_offset": 0,
+          "chunk_offset": 73741582,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC8.TXD",
+          "file_offset": 0,
+          "chunk_offset": 74004918,
+          "length": 263336
+        },
+        {
+          "file": "txd/LOADSC9.TXD",
+          "file_offset": 0,
+          "chunk_offset": 74268254,
+          "length": 263336
+        },
+        {
+          "file": "txd/mainsc1.txd",
+          "file_offset": 0,
+          "chunk_offset": 74531590,
+          "length": 1049768
+        },
+        {
+          "file": "txd/mainsc2.txd",
+          "file_offset": 0,
+          "chunk_offset": 75581358,
+          "length": 1049768
+        },
+        {
+          "file": "txd/NEWS.TXD",
+          "file_offset": 0,
+          "chunk_offset": 76631126,
+          "length": 263336
+        },
+        {
+          "file": "txd/SPLASH1.TXD",
+          "file_offset": 0,
+          "chunk_offset": 76894462,
+          "length": 132264
+        },
+        {
+          "file": "txd/SPLASH2.TXD",
+          "file_offset": 0,
+          "chunk_offset": 77026726,
+          "length": 132264
+        },
+        {
+          "file": "txd/SPLASH3.TXD",
+          "file_offset": 0,
+          "chunk_offset": 77158990,
+          "length": 132264
+        },
+        {
+          "file": "Website/website.url",
+          "file_offset": 0,
+          "chunk_offset": 77291254,
+          "length": 84
+        }
+      ]
+    }
+  ]
+}
