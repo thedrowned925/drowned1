@@ -80,5 +80,21 @@ class DeletionTests(unittest.TestCase):
         self.assertEqual(set(c.catalog['games'][0]['channels']),{'stable'})
         self.assertNotIn('pc-demo-v1.1.0-beta',c.tags)
 
+    def test_shared_resources_are_retained_for_other_catalog_entries(self):
+        catalog=sample_catalog(); original=catalog['games'][0]
+        shared_tag=original['channels']['stable']['tag']; shared_manifest=original['channels']['stable']['manifest_path']; shared_art=original['artwork']['hero']
+        catalog['games'].append({
+            'id':'other','title':'Other Game','platform':'pc','description':'',
+            'artwork':{'hero':shared_art},
+            'channels':{'stable':{'version':'1.0.0','tag':shared_tag,'manifest_path':shared_manifest,'manifest_url':'x','size':10}}
+        })
+        c=FakeClient(catalog); c.releases={shared_tag:{'id':1},'pc-demo-v1.1.0-beta':{'id':2}}; c.tags=set(c.releases)
+        c.files={shared_manifest,'manifests/pc/demo/beta/1.1.0.json','artwork/pc/demo/hero.png'}
+        delete_game(c,'demo','pc',log=lambda _:None)
+        self.assertEqual([g['id'] for g in c.catalog['games']],['other'])
+        self.assertIn(shared_tag,c.releases); self.assertIn(shared_tag,c.tags)
+        self.assertIn(shared_manifest,c.files); self.assertIn('artwork/pc/demo/hero.png',c.files)
+        self.assertNotIn('pc-demo-v1.1.0-beta',c.releases)
+
 
 if __name__=='__main__': unittest.main()
