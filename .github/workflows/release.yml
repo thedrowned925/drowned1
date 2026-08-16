@@ -19,7 +19,7 @@ jobs:
             entry: app_v3.py
           - name: Drowned-Launcher
             dir: windows/launcher
-            entry: app_v8.py
+            entry: app_v9.py
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
