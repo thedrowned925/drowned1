@@ -58,12 +58,13 @@ jobs:
         run: |
           $archive = "dist/${{ matrix.app.name }}/${{ matrix.app.name }}.exe"
           if (!(Test-Path $archive)) { throw "Built executable was not found: $archive" }
-          python -m PyInstaller.utils.cliutils.archive_viewer -l $archive | Out-File -Encoding utf8 archive-contents.txt
+          python -m PyInstaller.utils.cliutils.archive_viewer -r $archive | Out-File -Encoding utf8 archive-contents.txt
           if (-not (Select-String -Path archive-contents.txt -Pattern "drowned_shared" -Quiet)) {
             throw "PyInstaller archive does not contain drowned_shared"
           }
 
-      # Catch startup-time packaging failures such as missing Python modules.
+      # This catches most immediate startup failures. The recursive archive check
+      # above specifically guards the missing drowned_shared failure reported on Windows.
       - name: Launch smoke test
         shell: pwsh
         run: |
