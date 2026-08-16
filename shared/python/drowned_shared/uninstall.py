@@ -63,8 +63,13 @@ def _make_writable_and_retry(func, path, excinfo):
     try:
         os.chmod(path, stat.S_IWRITE)
         func(path)
+        return
     except Exception:
-        raise excinfo[1]
+        if isinstance(excinfo, BaseException):
+            raise excinfo
+        if isinstance(excinfo, tuple) and len(excinfo) > 1 and isinstance(excinfo[1], BaseException):
+            raise excinfo[1]
+        raise
 
 
 def remove_install_tree(root: Path | str, expected_tag: str | None = None) -> Path:
