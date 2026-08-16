@@ -1,3 +1,4 @@
+# Central protocol and GitHub release limits
 CHUNK_SIZE_MIB = 1900
 CHUNK_SIZE_BYTES = CHUNK_SIZE_MIB * 1024 * 1024
 MAX_RELEASE_ASSETS = 1000
