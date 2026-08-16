@@ -36,3 +36,4 @@ jobs:
           python -m py_compile windows/launcher/app_v5.py
           python -m py_compile windows/launcher/app_v6.py
           python -m py_compile windows/launcher/app_v7.py
+          python -m py_compile windows/launcher/app_v8.py
