@@ -7,12 +7,15 @@
       "title": "Sample Game",
       "platform": "pc",
       "description": "Example catalog entry",
-      "artwork": {},
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/example/distribution/main/artwork/pc/sample-game/hero.webp"
+      },
       "channels": {
         "stable": {
           "version": "1.0.0",
           "tag": "pc-sample-game-v1.0.0-stable",
-          "manifest_url": "https://example.invalid/manifest.json",
+          "manifest_path": "manifests/pc/sample-game/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/example/distribution/main/manifests/pc/sample-game/stable/1.0.0.json",
           "size": 123456789,
           "published_at": "2026-08-16T12:00:00Z"
         }
