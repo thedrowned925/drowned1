@@ -1,9 +1,0 @@
-<resources>
-    <style name="Theme.Drowned" parent="android:style/Theme.Material.NoActionBar">
-        <item name="android:fontFamily">sans</item>
-        <item name="android:windowLightStatusBar">false</item>
-        <item name="android:statusBarColor">#070A10</item>
-        <item name="android:navigationBarColor">#070A10</item>
-        <item name="android:windowActionModeOverlay">true</item>
-    </style>
-</resources>
