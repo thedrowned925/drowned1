@@ -1,6 +1,13 @@
 # Central protocol and GitHub release limits
 CHUNK_SIZE_MIB = 1900
 CHUNK_SIZE_BYTES = CHUNK_SIZE_MIB * 1024 * 1024
+
+# Fast-start publishing: the first asset is intentionally smaller so network
+# upload starts quickly. Following assets keep the large 1900 MiB size to
+# minimize the number of mutating GitHub API requests.
+STARTER_CHUNK_SIZE_MIB = 256
+STARTER_CHUNK_SIZE_BYTES = STARTER_CHUNK_SIZE_MIB * 1024 * 1024
+
 MAX_RELEASE_ASSETS = 1000
 RESERVED_RELEASE_ASSETS = 1
 MAX_DATA_ASSETS = MAX_RELEASE_ASSETS - RESERVED_RELEASE_ASSETS
