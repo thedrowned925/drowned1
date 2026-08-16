@@ -1,27 +1,78 @@
 from __future__ import annotations
-import json,tempfile
+import json,tempfile,time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 from .chunking import ChunkBuilder
-from .constants import MANIFEST_NAME,CATALOG_NAME,CHUNK_SIZE_BYTES
+from .constants import MANIFEST_NAME,CATALOG_NAME,CHUNK_SIZE_BYTES,STARTER_CHUNK_SIZE_BYTES
 from .metadata import load_catalog, manifest_repo_path
 from .util import slugify
 
 
 def publish_project(client, source:Path, title:str, platform:str, channel:str, version:str, description:str="", artwork:dict|None=None, progress=None, log=print, cancelled=lambda:False):
     game_id=slugify(title); platform=slugify(platform); channel=slugify(channel); tag=f"{platform}-{game_id}-v{version}-{channel}"
-    builder=ChunkBuilder(source); builder.validate_capacity(); prerelease=channel in {"beta","dev","nightly"}
+    builder=ChunkBuilder(source,starter_chunk_size=STARTER_CHUNK_SIZE_BYTES); builder.validate_capacity(); prerelease=channel in {"beta","dev","nightly"}
     rel=client.create_release(tag,f"{title} {version} [{platform.upper()} / {channel}]",description or title,prerelease); rid=rel["id"]
     chunk_meta=[]
+
     with tempfile.TemporaryDirectory(prefix="drowned-") as td:
         gen=builder.build(Path(td))
-        while True:
-            if cancelled(): raise RuntimeError("cancelled")
-            try: built=next(gen)
-            except StopIteration as stop: result=stop.value; break
-            log(f"Uploading {built.meta['name']}")
-            client.upload_asset(rid,built.meta["name"],built.path,progress=progress); chunk_meta.append(built.meta); built.path.unlink(missing_ok=True)
-        manifest={"schema_version":1,"game":{"id":game_id,"title":title,"platform":platform,"channel":channel,"version":version,"description":description},"release":{"owner":client.owner,"repo":client.repo,"tag":tag},"chunk_size":CHUNK_SIZE_BYTES,"total_size":result["total_size"],"files":result["files"],"chunks":chunk_meta}
+        current_future=None
+        current_chunk=None
+        uploaded_bytes=0
+
+        def submit_upload(pool,built,base_bytes):
+            last_emit=[0.0]
+            def upload_progress(sent,total):
+                if not progress: return
+                now=time.monotonic()
+                # PyInstaller/PySide apps can emit thousands of progress signals
+                # during one large upload. Throttle them to ~4 updates/second.
+                if sent == total or now-last_emit[0] >= 0.25:
+                    last_emit[0]=now
+                    progress(base_bytes+sent,builder.total_size)
+            log(f"Uploading {built.meta['name']} ({built.meta['size']} bytes)")
+            return pool.submit(client.upload_asset,rid,built.meta["name"],built.path,"application/octet-stream",upload_progress)
+
+        # GitHub recommends avoiding concurrent mutating REST requests. We keep
+        # exactly one upload POST active, but build the NEXT chunk at the same
+        # time. This hides most disk/hash preparation time without increasing
+        # secondary-rate-limit pressure.
+        with ThreadPoolExecutor(max_workers=1,thread_name_prefix="drowned-upload") as pool:
+            while True:
+                if cancelled(): raise RuntimeError("cancelled")
+                try:
+                    built=next(gen)
+                except StopIteration as stop:
+                    result=stop.value
+                    break
+
+                if current_future is None:
+                    current_chunk=built
+                    current_future=submit_upload(pool,built,uploaded_bytes)
+                    continue
+
+                # While the previous asset was uploading, the generator above
+                # prepared this new chunk. Only wait here if the network is
+                # slower than local chunk preparation.
+                current_future.result()
+                uploaded_bytes+=current_chunk.meta["size"]
+                chunk_meta.append(current_chunk.meta)
+                current_chunk.path.unlink(missing_ok=True)
+                if progress: progress(uploaded_bytes,builder.total_size)
+                if cancelled(): raise RuntimeError("cancelled")
+
+                current_chunk=built
+                current_future=submit_upload(pool,built,uploaded_bytes)
+
+            if current_future is not None:
+                current_future.result()
+                uploaded_bytes+=current_chunk.meta["size"]
+                chunk_meta.append(current_chunk.meta)
+                current_chunk.path.unlink(missing_ok=True)
+                if progress: progress(uploaded_bytes,builder.total_size)
+
+        manifest={"schema_version":1,"game":{"id":game_id,"title":title,"platform":platform,"channel":channel,"version":version,"description":description},"release":{"owner":client.owner,"repo":client.repo,"tag":tag},"chunk_size":CHUNK_SIZE_BYTES,"starter_chunk_size":STARTER_CHUNK_SIZE_BYTES,"total_size":result["total_size"],"files":result["files"],"chunks":chunk_meta}
         manifest_text=json.dumps(manifest,ensure_ascii=False,indent=2)
         mp=Path(td)/MANIFEST_NAME; mp.write_text(manifest_text,encoding="utf-8"); client.upload_asset(rid,MANIFEST_NAME,mp,"application/json")
 
