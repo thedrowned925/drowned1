@@ -1,0 +1,4917 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "grand-theft-auto-san-andreas",
+    "title": "Grand Theft Auto: San Andreas",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Five years ago Carl Johnson escaped from the pressures of life in Los Santos, San Andreas... a city tearing itself apart with gang trouble, drugs and corruption. Where filmstars and millionaires do their best to avoid the dealers and gangbangers. Now, it's"
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-grand-theft-auto-san-andreas-v1.0.0-stable"
+  },
+  "chunk_size": 268435456,
+  "upload_workers": 8,
+  "total_size": 4975287510,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "anim/anim.img",
+      "size": 10942464,
+      "sha256": "bdde1f918fb12e4b4b9e46927f8a0281b6d80b85551b716e74cca68c6c9138ae"
+    },
+    {
+      "path": "anim/cuts.img",
+      "size": 270096384,
+      "sha256": "28d9b9002ac5479106c06ce0fc390120f24e0ac2a2395517badbcbd0adf502cb"
+    },
+    {
+      "path": "anim/ped.ifp",
+      "size": 1433248,
+      "sha256": "f7483f49080a0f833dc73ef09aa2224f99a9e90757fa5c2b7db5505cbef33eac"
+    },
+    {
+      "path": "audio/CONFIG/AudioEventHistory.txt",
+      "size": 114056,
+      "sha256": "bdc80c1cb520ae10c7952af4d402e0a3802901eb724f44e9de6007fc8b810dc0"
+    },
+    {
+      "path": "audio/CONFIG/BankLkup.dat",
+      "size": 8520,
+      "sha256": "b89a66ddef4e5da74c4c13abb38a9aa7985397bee45b00e080da89f07a1eee50"
+    },
+    {
+      "path": "audio/CONFIG/BankSlot.dat",
+      "size": 216902,
+      "sha256": "aa7035f9c914cd3b73f9535b2794a10febeebfbcdb166d340d875093eab71e72"
+    },
+    {
+      "path": "audio/CONFIG/EventVol.dat",
+      "size": 45402,
+      "sha256": "ad8bab3deff68a93787566dab34b33d37876ba9e15308386e2166837024059a8"
+    },
+    {
+      "path": "audio/CONFIG/PakFiles.dat",
+      "size": 468,
+      "sha256": "36bc8f4814d4ef4dc3b7c43ae5c26f0de1feeda1bc15cdf2250456d2927bc57c"
+    },
+    {
+      "path": "audio/CONFIG/StrmPaks.dat",
+      "size": 272,
+      "sha256": "03e32ee0efb3505d0cea13952370d24a417799b085946087c851060d4120dea0"
+    },
+    {
+      "path": "audio/CONFIG/TrakLkup.dat",
+      "size": 23064,
+      "sha256": "a0c644f82ff24626303d7e1f0e8d60a0dfeed0977859e23306571433d9caed29"
+    },
+    {
+      "path": "audio/sfx/FEET",
+      "size": 354020,
+      "sha256": "57eeebdf4205f6db6ff388f8b2099a60ce507ee07a5d8b3defad0383d55e31d0"
+    },
+    {
+      "path": "audio/sfx/GENRL",
+      "size": 25170572,
+      "sha256": "d8aa28b90743176e440f651ca3270d578bfde41359dfb524743f41a24e2d22fd"
+    },
+    {
+      "path": "audio/sfx/PAIN_A",
+      "size": 6704240,
+      "sha256": "5b4873832891207c3686e1faf0207b656668e6539964ba8b8bc5331a4eaf1f3c"
+    },
+    {
+      "path": "audio/sfx/SCRIPT",
+      "size": 319687888,
+      "sha256": "4acd9b0c49232d66a0fd0037897bc39160fadf673f84594195dc45c2ec3bc335"
+    },
+    {
+      "path": "audio/sfx/SPC_EA",
+      "size": 125118208,
+      "sha256": "69bc8029171d647676c8a66eb6a732862d0008c23c5fbd36552150f757cdabc4"
+    },
+    {
+      "path": "audio/sfx/SPC_FA",
+      "size": 106793248,
+      "sha256": "e660c9ec64d8ebcd975f42721a5ee03ca34fbcd5d9551b4e52030361a32f51e5"
+    },
+    {
+      "path": "audio/sfx/SPC_GA",
+      "size": 1103880528,
+      "sha256": "c6703cdb146e17dc89c3895e154ae2bfbcaa3e8a361b36e756f93e0a6406a6e0"
+    },
+    {
+      "path": "audio/sfx/SPC_NA",
+      "size": 428281720,
+      "sha256": "22803d97a2df59fff1b6454c08da9a99b19335815769e6c43a006fd16387f1f5"
+    },
+    {
+      "path": "audio/sfx/SPC_PA",
+      "size": 175482308,
+      "sha256": "71b1484c7f7eacbab4848c960a627c2ec781ea682cccfc319ad603afaef60c68"
+    },
+    {
+      "path": "audio/streams/AA",
+      "size": 4987207,
+      "sha256": "e8e854b3155d20ab8e71920618f53ba9f6d62251bf48766ead123b3d876dbfd4"
+    },
+    {
+      "path": "audio/streams/ADVERTS",
+      "size": 55208406,
+      "sha256": "63a857c8496dff6ceb3c3e0ae47592dd8f2bc6c4a1cd8d4c8cc2cc0aa703625d"
+    },
+    {
+      "path": "audio/streams/AMBIENCE",
+      "size": 46514719,
+      "sha256": "5eeb6b23fc5eca95501f5e28264e4964fcd70a6eac0607221ca1bccfac1a3026"
+    },
+    {
+      "path": "audio/streams/BEATS",
+      "size": 26331855,
+      "sha256": "f02cda63cd3a0bd55c2c2a18efa7db775593df20c915edad18084a1878fd12bf"
+    },
+    {
+      "path": "audio/streams/CH",
+      "size": 59067556,
+      "sha256": "a0356897879b439788bf91ce39e6b113419d4aee546c00d074906bbc9cce184f"
+    },
+    {
+      "path": "audio/streams/CO",
+      "size": 72004665,
+      "sha256": "19af125c9775fe7f7b5dcc663604559957d6fbf8a514a232abaa3a35a4024477"
+    },
+    {
+      "path": "audio/streams/CR",
+      "size": 80102036,
+      "sha256": "2743d59e4b86ab0044c2f7902be2ffb3499bd83cc4e185142d868008372ea871"
+    },
+    {
+      "path": "audio/streams/CUTSCENE",
+      "size": 133544649,
+      "sha256": "dd44b17b81d9fe28164d9a0ce6c8b0e7a715e1a90cc4787e5b2645bb5b16d35c"
+    },
+    {
+      "path": "audio/streams/DS",
+      "size": 81453706,
+      "sha256": "53140291ae8af076ea9b2035867f12dffbad0fca4212ed18fdb585330fb62343"
+    },
+    {
+      "path": "audio/streams/HC",
+      "size": 82748246,
+      "sha256": "674a4bc3dea227ed52a1cd18e9a963a33f789b96ca5a95a0bd94afc6fdc9ce42"
+    },
+    {
+      "path": "audio/streams/MH",
+      "size": 76758910,
+      "sha256": "6cf25bfe5dc286d30979596ce6a2af78ecea3c15823ddf5342c1c733fe386550"
+    },
+    {
+      "path": "audio/streams/MR",
+      "size": 70701424,
+      "sha256": "8d4ea5439465d74f4dd482927b9e17822579a5249e4c4a2be9296f1a06744e60"
+    },
+    {
+      "path": "audio/streams/NJ",
+      "size": 68702632,
+      "sha256": "514099442ce68412e01a64bc4b3631a889c78c44b10c2d9cf72f96471620a177"
+    },
+    {
+      "path": "audio/streams/RE",
+      "size": 73921864,
+      "sha256": "eabc34ed12300be694d95bd409f48ed23920722730f3bce0f89162b50d26c7be"
+    },
+    {
+      "path": "audio/streams/RG",
+      "size": 64457447,
+      "sha256": "d93087fc77ea633772d557c825b016f346077e380625640bece0d1798eb81d57"
+    },
+    {
+      "path": "audio/streams/TK",
+      "size": 96114412,
+      "sha256": "c6c8eef91103b098653f7e6e471f704debb2c1245b25b455c8eb2156e0277315"
+    },
+    {
+      "path": "data/animgrp.dat",
+      "size": 3096,
+      "sha256": "012b10d891840c48e0f282fdef7700673a12fe6c568a7ac9127c21095808aef8"
+    },
+    {
+      "path": "data/animviewer.dat",
+      "size": 1807,
+      "sha256": "76615e54227deb0fc2b36213b09711bbd63916de0949096c9f11bb938326a7fe"
+    },
+    {
+      "path": "data/ar_stats.dat",
+      "size": 3593,
+      "sha256": "3f8a184d088dc25e166ff0bb067286b5dcac2398de21d3bb4e00b43956d31d25"
+    },
+    {
+      "path": "data/AudioEvents.txt",
+      "size": 166161,
+      "sha256": "bf21595eeeea4769fbeb16df608377e068f22e4f97de22609d748bdf9483fc00"
+    },
+    {
+      "path": "data/carcols.dat",
+      "size": 15361,
+      "sha256": "4d43183de25aeb1b02ceb370883ac4ea8bbd3fc3fb9167418f8fbfd005ea7219"
+    },
+    {
+      "path": "data/cargrp.dat",
+      "size": 3963,
+      "sha256": "40670294c436e9d96ae30095cc720eba1655615be9a8810a079b81ebe64b6124"
+    },
+    {
+      "path": "data/carmods.dat",
+      "size": 9110,
+      "sha256": "64f8811b676094f62157272e41f8ccf017082ca31993f2ec8ac4dc29e731d40f"
+    },
+    {
+      "path": "data/clothes.dat",
+      "size": 5317,
+      "sha256": "5fff15c81a5f8c32f4d3dff22ad6748c9b8c0a45af7b9f67e22fb2b9ae05c593"
+    },
+    {
+      "path": "data/Decision/Allowed/Cop.ped",
+      "size": 4908,
+      "sha256": "d91e13fb6aaf0be786e32fd37a68cf0425cef9fbc23742222d31d1ff312a8150"
+    },
+    {
+      "path": "data/Decision/Allowed/Fireman.ped",
+      "size": 4435,
+      "sha256": "cb9a75b87d6960e51a12a4d896f099e5ed1576d76d7946a0570f10e98872de54"
+    },
+    {
+      "path": "data/Decision/Allowed/GangMbr.ped",
+      "size": 6194,
+      "sha256": "c2653aba07c5c04017b44797cc4f1d2899da9e4d36ac6420ca22b5600172f57d"
+    },
+    {
+      "path": "data/Decision/Allowed/Indoors.ped",
+      "size": 2809,
+      "sha256": "53dc5665a42bd47d9dc8be8d7a2440b5722b10940186c000235213cb8c1d8fe1"
+    },
+    {
+      "path": "data/Decision/Allowed/m_empty.ped",
+      "size": 982,
+      "sha256": "df0e18f0148152c98132381927b617140fc6e8967a68085cc630cbe734e0c9b5"
+    },
+    {
+      "path": "data/Decision/Allowed/m_norm.ped",
+      "size": 4142,
+      "sha256": "fa99612c55e6b8ffc76170fc56567f57a7153f47173c1b2a065d4ef4b8299bfe"
+    },
+    {
+      "path": "data/Decision/Allowed/m_plyr.ped",
+      "size": 2000,
+      "sha256": "261b87d08b49ce72c3f9d02201bae15889f2a9ff65798e704fcf53098fbd304e"
+    },
+    {
+      "path": "data/Decision/Allowed/m_steal.ped",
+      "size": 3663,
+      "sha256": "635372cb7c36134f4bfdd1ae343763ad3d814db7b19fef7eb34a2ca48ed48ec4"
+    },
+    {
+      "path": "data/Decision/Allowed/m_tough.ped",
+      "size": 3980,
+      "sha256": "99129a3281653e428cea13b6fb626d21bed6381849f92e11b5638f1f3c23687d"
+    },
+    {
+      "path": "data/Decision/Allowed/m_weak.ped",
+      "size": 4062,
+      "sha256": "5e97f56b79986532d76d401a1929c1c3879bcae6377face62f0ed9976b28a6d6"
+    },
+    {
+      "path": "data/Decision/Allowed/MISSION.grp",
+      "size": 2758,
+      "sha256": "1a97a3018d9a852b699beb1904af4ae8ed1b7aab5fe1742e59917fb29eda2af6"
+    },
+    {
+      "path": "data/Decision/Allowed/R_Norm.ped",
+      "size": 6450,
+      "sha256": "33175de3da4445186551bf2aeadacd4f706879cbbe47411c73fd228d41fdb30c"
+    },
+    {
+      "path": "data/Decision/Allowed/R_Tough.ped",
+      "size": 6378,
+      "sha256": "fd8d95ea1b3915983380eb48efa124883fecd5069157c8673d0a111e7ecdb1c9"
+    },
+    {
+      "path": "data/Decision/Allowed/R_Weak.ped",
+      "size": 6289,
+      "sha256": "41f15594c0c639475f904b3ee09474f8ceac9f504345f421cf6f740f8287e60d"
+    },
+    {
+      "path": "data/Decision/Allowed/RANDOM.grp",
+      "size": 4623,
+      "sha256": "d4848b45f3fa6b8c9fb15b4bee0c7ee8b42a1a8ccc9e6bdfa01f1d5ab0522265"
+    },
+    {
+      "path": "data/Decision/Allowed/RANDOM.ped",
+      "size": 4142,
+      "sha256": "fa99612c55e6b8ffc76170fc56567f57a7153f47173c1b2a065d4ef4b8299bfe"
+    },
+    {
+      "path": "data/Decision/Allowed/RANDOM2.grp",
+      "size": 4623,
+      "sha256": "4a3f855271adb3dc41a91a7595281fd534d64768596195037ccd1cd01318352a"
+    },
+    {
+      "path": "data/Decision/andyd/ADgrp.grp",
+      "size": 2063,
+      "sha256": "00f7ddc28f0aeb99d4b5f2946222d9b93275cde808c0df5a50ff546534931357"
+    },
+    {
+      "path": "data/Decision/andyd/ADtemp.ped",
+      "size": 3725,
+      "sha256": "094efcda2df378dbc1d5131291a016cfac958e1ef7f43da04bd0aeb9cb1b571f"
+    },
+    {
+      "path": "data/Decision/BLANK.ped",
+      "size": 621,
+      "sha256": "7828c3a093dcb953a90ee37ca640a8125fcad8bacf4b3073dd45b40a0b62f668"
+    },
+    {
+      "path": "data/Decision/chris/maf5.ped",
+      "size": 1130,
+      "sha256": "2a60cf03343eca761883c1445d485002c23f8788216df3ee987696975620122a"
+    },
+    {
+      "path": "data/Decision/chris/ryder3.ped",
+      "size": 1170,
+      "sha256": "b21daacb11c75ea46dd4522fe16613efb54c39aaefd752d31adb465ecc808114"
+    },
+    {
+      "path": "data/Decision/ChrisM/CMblnk.ped",
+      "size": 397,
+      "sha256": "bacc54a11cdd29d229581c821b16ff7d45433c00e2ac82d22cb8c4104d0643b8"
+    },
+    {
+      "path": "data/Decision/ChrisM/m_std_cm.ped",
+      "size": 1071,
+      "sha256": "b7b849ddc68303ab5d1f4c9c6111b03d2e1afb7ef106ac161e62e26fe64514fa"
+    },
+    {
+      "path": "data/Decision/Cop.ped",
+      "size": 2354,
+      "sha256": "b6c19dc8d8d1c9831cc2b38c3538b0a0098ec1fce99d129466db13e2b9bceb75"
+    },
+    {
+      "path": "data/Decision/Craig/crack1.ped",
+      "size": 796,
+      "sha256": "0023de0e8ce38af9f5c805c7d4972e5f8656cbd556b375324f557a5a0162e261"
+    },
+    {
+      "path": "data/Decision/david/dam_sec.ped",
+      "size": 677,
+      "sha256": "6d3c14b75a7fe5df59ece7c40b8893e6307225025f7366eeffa6b4b6020b4172"
+    },
+    {
+      "path": "data/Decision/david/hei2_sc.ped",
+      "size": 403,
+      "sha256": "3bd6d8410df4228f0a3bc3399b44fbb7949f032a966b341b8120d6b7f92736d3"
+    },
+    {
+      "path": "data/Decision/FLAT.ped",
+      "size": 399,
+      "sha256": "b1317fbade90d1482fd3b41914971e195c85e803dd7fbc7aee6c3f0bfb7e704f"
+    },
+    {
+      "path": "data/Decision/GangMbr.ped",
+      "size": 3067,
+      "sha256": "ea96edd37a4cc4ba46694ac0923c91cb1f320ba70855aebc058cdc503f230435"
+    },
+    {
+      "path": "data/Decision/GROVE.ped",
+      "size": 393,
+      "sha256": "17606c7556763d5572136bfb6c6d8d0b0b065fda07c26bc069c8656bc1f9b9f9"
+    },
+    {
+      "path": "data/Decision/Imran/sci1_is.ped",
+      "size": 672,
+      "sha256": "6ac5f83440efcfe7d878a96c0496de8504e8f1ddccc45ff2b036d268dadf077b"
+    },
+    {
+      "path": "data/Decision/Imran/std1_is.ped",
+      "size": 383,
+      "sha256": "bb22da08d0b1cc30c2a1f445f87b5cca0ad8fbed66073837fce304d48b876ff9"
+    },
+    {
+      "path": "data/Decision/Imran/std2_is.ped",
+      "size": 633,
+      "sha256": "f50642fdd88c779ee792dc27424a9fc99ef6daf3452637a62a54483b8f9b69bd"
+    },
+    {
+      "path": "data/Decision/Indoors.ped",
+      "size": 1928,
+      "sha256": "7cc219aff058042e35f12c332199fb6ff7abb36cc079d233399871b45cad2c15"
+    },
+    {
+      "path": "data/Decision/m_empty.ped",
+      "size": 654,
+      "sha256": "48dff95c987f7a86c0eeef82f54d29ba9ec6cb6426b2aa3ea9e458490c1994c7"
+    },
+    {
+      "path": "data/Decision/m_infrm.ped",
+      "size": 1539,
+      "sha256": "31bad7e674d174ec0105b54b5c4f1c5bcf0b73da29f6fe2b69d45dcd7193ef52"
+    },
+    {
+      "path": "data/Decision/m_norm.ped",
+      "size": 2085,
+      "sha256": "26fc955b2ff4f0fbc83ba75ddbd14b5ec347775ce2088e7066a389ea2e409d41"
+    },
+    {
+      "path": "data/Decision/m_std.ped",
+      "size": 1487,
+      "sha256": "201b5338d20c12df35c946c2feeb95d487ceedb6a0838f202f1f2399e85d24c7"
+    },
+    {
+      "path": "data/Decision/m_tough.ped",
+      "size": 2085,
+      "sha256": "26fc955b2ff4f0fbc83ba75ddbd14b5ec347775ce2088e7066a389ea2e409d41"
+    },
+    {
+      "path": "data/Decision/m_weak.ped",
+      "size": 2085,
+      "sha256": "26fc955b2ff4f0fbc83ba75ddbd14b5ec347775ce2088e7066a389ea2e409d41"
+    },
+    {
+      "path": "data/Decision/MISSION.grp",
+      "size": 530,
+      "sha256": "9097253f8868c6370b949d3b061c4030e38a316fb92122583880efb626e27b93"
+    },
+    {
+      "path": "data/Decision/MISSION.ped",
+      "size": 891,
+      "sha256": "6845282cb85da9504ad245bfb153faf37c35552cef69d2c789953a1189657cb2"
+    },
+    {
+      "path": "data/Decision/PedEvent.txt",
+      "size": 1298,
+      "sha256": "c61a077262a419b15a14961341144a96795f45d49014deb6fa98aa0e180400be"
+    },
+    {
+      "path": "data/default.dat",
+      "size": 577,
+      "sha256": "3abbdd89a94c73c93efa95b1657e339ba25f51e84787ff63e5b5c443951fecab"
+    },
+    {
+      "path": "data/default.ide",
+      "size": 4679,
+      "sha256": "3aea4d74891f77602e1e7e32e3dfd6716fcccf257e87f7ab43c57f64339ff8c2"
+    },
+    {
+      "path": "data/fonts.dat",
+      "size": 3576,
+      "sha256": "0b6ecb4493b0261eece4b025e31aa7b55ae68ca8529c4f7064b5b3b7297c913c"
+    },
+    {
+      "path": "data/furnitur.dat",
+      "size": 16480,
+      "sha256": "d7184e6ced806097582e38605f7f860e0070d05e8a2bdb84d6d6b0df8a92791a"
+    },
+    {
+      "path": "data/gridref.dat",
+      "size": 1498,
+      "sha256": "62108eed8a03f4e61f16f83f750e54cbb894660a5c2ad104a086919dfbe13188"
+    },
+    {
+      "path": "data/gta.dat",
+      "size": 3776,
+      "sha256": "391881940700b84d9d4a263374a9543e04ec816f3f76f54fdbcabe533f094c01"
+    },
+    {
+      "path": "data/gta_quick.dat",
+      "size": 1079,
+      "sha256": "9109f6240d291663ade75827cdd554cd5aaa98b78d0573d36833146bccf91f5f"
+    },
+    {
+      "path": "data/handling.cfg",
+      "size": 64532,
+      "sha256": "b6d06109441c342a000e8bec367ffac1bd949cd12690372dc01a2c025d6c0240"
+    },
+    {
+      "path": "data/Icons/bin.ico",
+      "size": 766,
+      "sha256": "d7e17fc21092d380fad45a9562db27b44d856379528beb6c60156d5d25d77d57"
+    },
+    {
+      "path": "data/Icons/saicon.ICN",
+      "size": 65800,
+      "sha256": "9b94c7f077ead920a87071ea51822b4c3c43c90ba46ea8bfe3647bed909661e5"
+    },
+    {
+      "path": "data/Icons/saicon2.ICN",
+      "size": 65800,
+      "sha256": "9b94c7f077ead920a87071ea51822b4c3c43c90ba46ea8bfe3647bed909661e5"
+    },
+    {
+      "path": "data/Icons/saicon3.ICN",
+      "size": 65800,
+      "sha256": "9b94c7f077ead920a87071ea51822b4c3c43c90ba46ea8bfe3647bed909661e5"
+    },
+    {
+      "path": "data/info.zon",
+      "size": 28139,
+      "sha256": "9396cf9b7bec5a797fa4614ee7ab578d910ed5cdd9d475adfb35801612ec8058"
+    },
+    {
+      "path": "data/main.sc",
+      "size": 6020,
+      "sha256": "f95b3472ad4f0614fbdf52da0eefc1ca13ae86cabaab6f0b713f77f68817b50e"
+    },
+    {
+      "path": "data/map.zon",
+      "size": 436,
+      "sha256": "4f78672e3ee70a1f5e09cd9acebe23f0597a39e275bf493a1f1c29ccfd268775"
+    },
+    {
+      "path": "data/maps/Audiozon.ipl",
+      "size": 10802,
+      "sha256": "43c552f2da0491b476778edaa6f233076fa6c35cf31773d30e9033b450c8d421"
+    },
+    {
+      "path": "data/maps/country/countn2.ide",
+      "size": 35439,
+      "sha256": "aa29bd7e83ebd7d2e8dddec602e111ba3e5dad2e7da6ad92c0bb4e7364603bc0"
+    },
+    {
+      "path": "data/maps/country/countn2.ipl",
+      "size": 41665,
+      "sha256": "3afc8a78a31cb41299136687debcf69740cf8bd965bbd17762ecbe9345bef9ab"
+    },
+    {
+      "path": "data/maps/country/countrye.ide",
+      "size": 34529,
+      "sha256": "640e7e2ba96ffb385cd313045cd74298641a045d782ceacc1903cc883a24be46"
+    },
+    {
+      "path": "data/maps/country/countrye.ipl",
+      "size": 49301,
+      "sha256": "d611734b0e0260870c9a46d33121650ca306a35f7b152bee27ff97a422ae4748"
+    },
+    {
+      "path": "data/maps/country/countryN.ide",
+      "size": 11308,
+      "sha256": "0e29f8d6ef0294e3e430109a0fcb27fff783de16b8877d81370ad348ba1397ff"
+    },
+    {
+      "path": "data/maps/country/countryN.ipl",
+      "size": 14407,
+      "sha256": "b5367cea8b049e11c1069b1a0bde8435ebc36a1f589fa36624a81f373ab6bbde"
+    },
+    {
+      "path": "data/maps/country/countryS.ide",
+      "size": 18450,
+      "sha256": "5180fe4fce5401a86d9060fd1f375ab145af799cdf1e4eb0f5e7433563b4146f"
+    },
+    {
+      "path": "data/maps/country/countryS.ipl",
+      "size": 33835,
+      "sha256": "4237ab09567168a36564f55217c26c637460d6df9c2326180f7cab7d366afed1"
+    },
+    {
+      "path": "data/maps/country/countryW.ide",
+      "size": 19704,
+      "sha256": "92f33d1807a2f2c6a4c3cd96fea229d8c15ec17bae35aca320034ddf9364e760"
+    },
+    {
+      "path": "data/maps/country/countryw.ipl",
+      "size": 35057,
+      "sha256": "fe7b91f9136f931dd1b295b594cac1248883143c7dcfc5a2d298c6ab9f020008"
+    },
+    {
+      "path": "data/maps/country/counxref.ide",
+      "size": 8493,
+      "sha256": "0afc45d5f6a0892d395e80fb5746da97e79cbc29ef309fe6dc0bcffca301f96f"
+    },
+    {
+      "path": "data/maps/cull.ipl",
+      "size": 104318,
+      "sha256": "a75be13e83f5255e5cc013302b2233b7059499095b06acfe3f66d72f6fa8413e"
+    },
+    {
+      "path": "data/maps/generic/barriers.ide",
+      "size": 1437,
+      "sha256": "5b69700e5dd563e6b8b120f881e459cd7eb10550ecf5e8c1cd57b47577378223"
+    },
+    {
+      "path": "data/maps/generic/dynamic.ide",
+      "size": 4611,
+      "sha256": "fdc45477f05b63bb4df3d65ea0bbb5c82fa3ad85cc799976266f7f7cebc6410a"
+    },
+    {
+      "path": "data/maps/generic/dynamic2.ide",
+      "size": 10509,
+      "sha256": "332f90cc90e8583985410b196e5f990bfb97911d4f8c11621f0394276fcba3d4"
+    },
+    {
+      "path": "data/maps/generic/multiobj.ide",
+      "size": 5020,
+      "sha256": "521445080cb80e11bd17576c70fca9023c69007581f65b78e437ae843e8f78f1"
+    },
+    {
+      "path": "data/maps/generic/procobj.ide",
+      "size": 4755,
+      "sha256": "38b1b15e73891d130a85730d7ebfb0e3b649ff2ee5b8e414eccd68318b9246a0"
+    },
+    {
+      "path": "data/maps/generic/vegepart.ide",
+      "size": 8062,
+      "sha256": "db7827eafd3499b0d738bac83e972776ee6cacb364a2181fc6f479242577eb3a"
+    },
+    {
+      "path": "data/maps/interior/gen_int1.ide",
+      "size": 2747,
+      "sha256": "470d6c371015631075458870438953f1f581a5e3aadda6d6760bfb0cecd830a1"
+    },
+    {
+      "path": "data/maps/interior/gen_int1.ipl",
+      "size": 21074,
+      "sha256": "33129ba14fa76515909906c0dc2cb08f5aed921643c39814638ad9267ab0a614"
+    },
+    {
+      "path": "data/maps/interior/gen_int2.ide",
+      "size": 10941,
+      "sha256": "e1d8a2247ba9da1d242baeff95169b4982ef7289cff626692c25a2785e308544"
+    },
+    {
+      "path": "data/maps/interior/gen_int2.ipl",
+      "size": 1683,
+      "sha256": "a779e8c280cad2fc2d8a0a107336a7ca8e87007c2d1db36f6c62c07eece1e799"
+    },
+    {
+      "path": "data/maps/interior/gen_int3.ide",
+      "size": 3252,
+      "sha256": "a0762a373a240c6278aeb624eadde85312e7f39ecf14891df07042972d0553aa"
+    },
+    {
+      "path": "data/maps/interior/gen_int3.ipl",
+      "size": 2091,
+      "sha256": "eacf70fbd06fe19c9dc028f81eedbf582a2694db0a73d33b5f34ecd70e8b7afb"
+    },
+    {
+      "path": "data/maps/interior/gen_int4.ide",
+      "size": 2323,
+      "sha256": "50e9826c69e68258966068aa37f7185ef76776c276f61f1285bcbeda4d8c6e0e"
+    },
+    {
+      "path": "data/maps/interior/gen_int4.ipl",
+      "size": 1185,
+      "sha256": "5769ca2f39579ee0c43b31658e41b7af3264e4b54e76c70229a4b4fe5916e6e0"
+    },
+    {
+      "path": "data/maps/interior/gen_int5.ide",
+      "size": 4682,
+      "sha256": "88ba64416b2c8c430761790ff080ebf43077ba338188c94a78cee5e4f73d2d38"
+    },
+    {
+      "path": "data/maps/interior/gen_int5.ipl",
+      "size": 2988,
+      "sha256": "192ba7b31a68ae86a9767d40f7b3918b5da70dbb4445dfe780ac135ae94221a1"
+    },
+    {
+      "path": "data/maps/interior/gen_intb.ide",
+      "size": 5459,
+      "sha256": "bd694f4c11fb8ca6171d8e7e61a3b71ebdd3e7885667d8e77ae240dcf0c6ef6a"
+    },
+    {
+      "path": "data/maps/interior/gen_intb.ipl",
+      "size": 1626,
+      "sha256": "76facdeb795adfcd9642c3beaa0d931d90682d12630f2b7ef242b09c4ac14cbe"
+    },
+    {
+      "path": "data/maps/interior/int_cont.ide",
+      "size": 385,
+      "sha256": "715a381b2e4455594733639ef7a7a0fcde15c0f6d5ac6d8951705fe6e0eef7dd"
+    },
+    {
+      "path": "data/maps/interior/int_cont.ipl",
+      "size": 910,
+      "sha256": "01d68d96bfbfda67102141a9411ccb64499a8f7a50a641220ce7b22012a540a7"
+    },
+    {
+      "path": "data/maps/interior/int_LA.ide",
+      "size": 6002,
+      "sha256": "b4c26e3f22f320cd15d37abf63b9756c87c4901193d1e79738bed798e2347427"
+    },
+    {
+      "path": "data/maps/interior/int_LA.ipl",
+      "size": 1312,
+      "sha256": "6daed19fdfa6f325468668a00065999bef9a8e4fff03039e552b8f4533a74d2d"
+    },
+    {
+      "path": "data/maps/interior/int_SF.ide",
+      "size": 1260,
+      "sha256": "384d9de6e3a8ff1c4248fa11261863dee3748b3553f7722ed946a4d8aca2a806"
+    },
+    {
+      "path": "data/maps/interior/int_SF.ipl",
+      "size": 1334,
+      "sha256": "ae36a8df0e4c502af96c661a105b28a7e08cf8a71774d07fdc0b63a0ab924fe2"
+    },
+    {
+      "path": "data/maps/interior/int_veg.ide",
+      "size": 4684,
+      "sha256": "c3ad8ecb96b83f2c728ee62f61f4bdcb92dc9ba65f4d1c876704167c07ccef34"
+    },
+    {
+      "path": "data/maps/interior/int_veg.ipl",
+      "size": 5299,
+      "sha256": "115974e58e84ac9772806c8f16a2e322b8b7ce14198480e27f0505872e943f2d"
+    },
+    {
+      "path": "data/maps/interior/propext.ide",
+      "size": 2340,
+      "sha256": "07ff34faa2883f97fb1c538e45e92b7951463eeb8eba6d053432984f4e9abe99"
+    },
+    {
+      "path": "data/maps/interior/props.ide",
+      "size": 26326,
+      "sha256": "5ba09718a9c248f83b82d306efbe95b7be5b7f7cdce6b2b17d5a5a11aa0a6b3e"
+    },
+    {
+      "path": "data/maps/interior/props2.ide",
+      "size": 21174,
+      "sha256": "0e1f4ac0e3cd41af8d8ea83ea37473e91091c63bfdeff836bec40d9dacfbd5a6"
+    },
+    {
+      "path": "data/maps/interior/savehous.ide",
+      "size": 1724,
+      "sha256": "48d840b6e18dee698982158f70f30b3c0eb406286ae9e7e70744061c86abf19a"
+    },
+    {
+      "path": "data/maps/interior/savehous.ipl",
+      "size": 2959,
+      "sha256": "eb7b018ba03f934b14fa9ac11f7e151173e669d1c7f69a4d162c0a88a092ec38"
+    },
+    {
+      "path": "data/maps/interior/stadint.ide",
+      "size": 2851,
+      "sha256": "e2d66db082e7d439472e71ad995bde42b91a9a382eb53f6369e46c1179778307"
+    },
+    {
+      "path": "data/maps/interior/stadint.ipl",
+      "size": 6299,
+      "sha256": "f0720fd785069839b9b28a87ce80ede2cf8d4beb58bb009bcd50195ee54a962a"
+    },
+    {
+      "path": "data/maps/LA/LAe.ide",
+      "size": 12249,
+      "sha256": "cc114af79b56e2cce26d61d5d8c68211c057d0dd7a61b32cd0ecc582853b22eb"
+    },
+    {
+      "path": "data/maps/LA/LAe.ipl",
+      "size": 27328,
+      "sha256": "356c7c7812ae16de67ea816177e802500fc93024cda877d2d20dbd1a9f0f9596"
+    },
+    {
+      "path": "data/maps/LA/LAe2.ide",
+      "size": 21906,
+      "sha256": "9d873781ec89a712915b57bc0e098312aea57ab0e7dad11934a1af662a8fa86d"
+    },
+    {
+      "path": "data/maps/LA/LAe2.ipl",
+      "size": 33651,
+      "sha256": "0e0b143e3fd217b41dc79cb390627eba2e8d508054d10bc14d38b499a1ddd818"
+    },
+    {
+      "path": "data/maps/LA/LAhills.ide",
+      "size": 10601,
+      "sha256": "2cb585a103cd40701c742beec319055b722f10f3f3558e60438b5325e490f2dd"
+    },
+    {
+      "path": "data/maps/LA/LAhills.ipl",
+      "size": 34506,
+      "sha256": "eadb547f99169093c1ba2596ec79a4574d178f1832066391cb37d08a04e831fb"
+    },
+    {
+      "path": "data/maps/LA/LAn.ide",
+      "size": 11107,
+      "sha256": "4b2d4cb5d602486382d306c4bf2c22e994142b3e9b27f1409ed7b6e480921bd6"
+    },
+    {
+      "path": "data/maps/LA/LAn.ipl",
+      "size": 14264,
+      "sha256": "5552050a2a13f273569ac50f7a518a79eee5589b1c3858487b46c0baac7aee5c"
+    },
+    {
+      "path": "data/maps/LA/LAn2.ide",
+      "size": 9565,
+      "sha256": "55539a689c5f0ad5371aa26153566064ad452d7e44f1b149b847650a0a4f5413"
+    },
+    {
+      "path": "data/maps/LA/LAn2.ipl",
+      "size": 13185,
+      "sha256": "aa255df62b7182d939deab0e49c08aa93fd920d6a80eb44587b01d30a09cffe9"
+    },
+    {
+      "path": "data/maps/LA/LAs.ide",
+      "size": 12575,
+      "sha256": "c5873baebb10ea25d1c6067f4f83316af22109722efe1f88a0e4d21e3e834164"
+    },
+    {
+      "path": "data/maps/LA/LAs.ipl",
+      "size": 22414,
+      "sha256": "70d0b22da567a271ed9658675378bdbc14adda507ba59f58a280375d98d0211a"
+    },
+    {
+      "path": "data/maps/LA/LAs2.ide",
+      "size": 12364,
+      "sha256": "79c6508be5ce34d9c29631ef4b5014db73c5fc46ca161ee9a37f6b40e867457f"
+    },
+    {
+      "path": "data/maps/LA/LAs2.ipl",
+      "size": 38441,
+      "sha256": "6028feed65f354037c7c32478d23da46b4f72d91b6d5cbf21600807d8895abeb"
+    },
+    {
+      "path": "data/maps/LA/LAw.ide",
+      "size": 9411,
+      "sha256": "48cb3f4bdfafd8c949b9ffd08627353850f9effca670b9fad8b4d3961dd5d062"
+    },
+    {
+      "path": "data/maps/LA/LAw.ipl",
+      "size": 15105,
+      "sha256": "00b70d30638e0054695d9628e299fcc778a0c6959ad28b252d3a4388aac4233a"
+    },
+    {
+      "path": "data/maps/LA/LAw2.ide",
+      "size": 11060,
+      "sha256": "a9c0b8a67b3d56157735a9f652c37e2a060104f4d05b6e099a7fb46a0766e1fa"
+    },
+    {
+      "path": "data/maps/LA/LAw2.ipl",
+      "size": 18232,
+      "sha256": "90dd7ed249acb2a5da8b1261f7ddd91d6c5bfc960599a09f4c0043c1dd2b7407"
+    },
+    {
+      "path": "data/maps/LA/LaWn.ide",
+      "size": 13092,
+      "sha256": "3c5e12e83a8fb39c45961dcb02a183522b00166f87a8e97caccffb4298daf2da"
+    },
+    {
+      "path": "data/maps/LA/LaWn.ipl",
+      "size": 24330,
+      "sha256": "b34a1e49bf3b2b4569fdcf69e5f1525394ec49e6cdcc13d6ede7b99468272c94"
+    },
+    {
+      "path": "data/maps/LA/LAxref.ide",
+      "size": 10473,
+      "sha256": "594ec1f0c3d2388fd3fd126442f5aa5dbfed1a35ae75cd5b73f250abbdb9f1b9"
+    },
+    {
+      "path": "data/maps/leveldes/leveldes.ide",
+      "size": 360,
+      "sha256": "5c4cda0261a8302acd997679b3bbe604754423a7b0ce30707bfb81d7f1d569d4"
+    },
+    {
+      "path": "data/maps/leveldes/leveldes.ipl",
+      "size": 165,
+      "sha256": "a023d0150ceb2b0d571901ca1d22a2a1377337ac874d593a574eb7426bed65f2"
+    },
+    {
+      "path": "data/maps/leveldes/levelmap.ide",
+      "size": 3194,
+      "sha256": "c5d635c1ebd2fdd9f85c990dcf51e37f73ad8bc2e759dd5daa8ab13f45dad74d"
+    },
+    {
+      "path": "data/maps/leveldes/levelmap.ipl",
+      "size": 4675,
+      "sha256": "2bacd4d04c78e17e9f34368352c5220e09cbabc45d080d3cd7005097f9d4c7d5"
+    },
+    {
+      "path": "data/maps/leveldes/levelxre.ide",
+      "size": 9897,
+      "sha256": "330612dcd0250927a6931629c78d899891f7462306058637a2ea71bd2981fce2"
+    },
+    {
+      "path": "data/maps/leveldes/seabed.ide",
+      "size": 12039,
+      "sha256": "5c57137733b59ec7455e821947c9fa5fb1051f69c9499a2c916ef72b77e01256"
+    },
+    {
+      "path": "data/maps/leveldes/seabed.ipl",
+      "size": 23342,
+      "sha256": "4f8c7c66864c454a8546257beb54a34a1397d2d637b2c77c70cd16925ec2ab21"
+    },
+    {
+      "path": "data/maps/occlu.ipl",
+      "size": 1012,
+      "sha256": "b79d16581e954255ec06394b4c1ad6303ec6ed9eeb79a44ae51764f8d9a708c7"
+    },
+    {
+      "path": "data/maps/occluint.ipl",
+      "size": 2338,
+      "sha256": "23d5054e2f69d052c305c21b860c40cc135b4509d3b1aa84ca974716b25fefe0"
+    },
+    {
+      "path": "data/maps/occluLA.ipl",
+      "size": 35956,
+      "sha256": "92f9a47f2cf09be813f5cbb94152fad4afdad66da85d0834b5c54179391d09eb"
+    },
+    {
+      "path": "data/maps/occlusf.ipl",
+      "size": 16114,
+      "sha256": "c547a2eab51fcaa8c100ba7d6a12cf5e32d9c547756494e2fa664589450eacc3"
+    },
+    {
+      "path": "data/maps/occluveg.ipl",
+      "size": 17944,
+      "sha256": "d5c59492e23c14b56409ddeaa20ee95e2c57d4225829b3c94519b52b8d6d8427"
+    },
+    {
+      "path": "data/maps/paths.ipl",
+      "size": 2658607,
+      "sha256": "1b8b896eda941aaf31391af571c52d371f5d7617cb2ccf44d148f80e464142ea"
+    },
+    {
+      "path": "data/maps/paths2.ipl",
+      "size": 2292241,
+      "sha256": "70a6488bf2c39e486262c6396164c7135b3966797d978d49dcc4788d6242bb1d"
+    },
+    {
+      "path": "data/maps/paths3.ipl",
+      "size": 2428066,
+      "sha256": "50a8a882a36c6a39fdbe417000e27579d0f37541df3a0d54bc306c5a70316c5a"
+    },
+    {
+      "path": "data/maps/paths4.ipl",
+      "size": 253014,
+      "sha256": "9e770e5ce9724b94ca74dd9256534e233f0b37b0ff72d0001dd1cf93fe5f9f25"
+    },
+    {
+      "path": "data/maps/paths5.ipl",
+      "size": 457678,
+      "sha256": "67fc1be4e28dd4837d7d3f369e0d8b1ceae67f1e507959fd2c38cbce4e15949c"
+    },
+    {
+      "path": "data/maps/SF/SFe.ide",
+      "size": 16223,
+      "sha256": "c7a52ee49f7fe029817493795e2e8e0da5acb7d406330909b3f310b4b4b82fe8"
+    },
+    {
+      "path": "data/maps/SF/SFe.ipl",
+      "size": 26707,
+      "sha256": "0b8bb34c554b247c8aed8e309b710be27bcee66ca029323215ed6efe10eedd1c"
+    },
+    {
+      "path": "data/maps/SF/SFn.ide",
+      "size": 11219,
+      "sha256": "e54fe3b0043d8265c8c4d130c0d9fcf16ada6f02a1d5063e82097b6e042fbe55"
+    },
+    {
+      "path": "data/maps/SF/SFn.ipl",
+      "size": 26201,
+      "sha256": "cc169fe857e1da974d3605ba112452d7de0832455582e317d75ff8619fd4f73a"
+    },
+    {
+      "path": "data/maps/SF/SFs.ide",
+      "size": 18948,
+      "sha256": "24e1f55c8259b6200bb832789616d54fdd95dba11d91d2aef220bfd2fc299078"
+    },
+    {
+      "path": "data/maps/SF/SFs.ipl",
+      "size": 37969,
+      "sha256": "c0e6be2722cde673af3e20d827fd16d145d0a6e21fac80644aef01c2610357f3"
+    },
+    {
+      "path": "data/maps/SF/SFSe.ide",
+      "size": 30227,
+      "sha256": "0a2c54ce2ba7aeda78a3f24ae11e5ccba5cd6849e6abcdeaacac4ef3553a6b14"
+    },
+    {
+      "path": "data/maps/SF/SFSe.ipl",
+      "size": 53359,
+      "sha256": "a04ff8e238acd0de906d903225741b779a73ce8206a13ff034fcdfa2a768ebd5"
+    },
+    {
+      "path": "data/maps/SF/SFw.ide",
+      "size": 16473,
+      "sha256": "9b2cea3761c5f95326d77c8989cf0f14f0755c483f667819e01e32f7733b0d0e"
+    },
+    {
+      "path": "data/maps/SF/SFw.ipl",
+      "size": 29247,
+      "sha256": "b9da860c8d35d2326c2f6fdaf4bc49f16f5b2844256ba3b0d0541bdfacce8e69"
+    },
+    {
+      "path": "data/maps/SF/SFxref.ide",
+      "size": 4631,
+      "sha256": "efdbdbfff67a9b8a71d4b8b250505911966708e15a3627fa8550a7063085de00"
+    },
+    {
+      "path": "data/maps/tunnels.ipl",
+      "size": 3230,
+      "sha256": "62479143348a7fb579ebd8d45271afe07aed7b639a90c4933036f12d90853dfc"
+    },
+    {
+      "path": "data/maps/txd.ide",
+      "size": 323,
+      "sha256": "539b23649662671a8a6a73e5d1a2e797da645069e595ea592698009798aee92c"
+    },
+    {
+      "path": "data/maps/vegas/vegasE.ide",
+      "size": 35542,
+      "sha256": "a55ac1c6e995c14442f6a34672d1769f6fcfd8c5875dc985a2cefb892825ed9d"
+    },
+    {
+      "path": "data/maps/vegas/vegasE.ipl",
+      "size": 61084,
+      "sha256": "09b34e42e353b20a3ebf39d1c305a00d5de5fb7cb532da92e7d7cd122f189c47"
+    },
+    {
+      "path": "data/maps/vegas/VegasN.ide",
+      "size": 23715,
+      "sha256": "394aa4049796756c6773075f5954b9c93ab6963f05c29afd781d556638c6f53a"
+    },
+    {
+      "path": "data/maps/vegas/vegasN.ipl",
+      "size": 36651,
+      "sha256": "a2a67b14a3ccab29c9ca4cc2a579b286ff7c1364b8448bc910e4ed6d1bbde4a7"
+    },
+    {
+      "path": "data/maps/vegas/VegasS.ide",
+      "size": 18656,
+      "sha256": "5a10346606025e6793e670ad3b5ff0f4e96f59961951c80a27462cc704823ad9"
+    },
+    {
+      "path": "data/maps/vegas/vegasS.ipl",
+      "size": 30343,
+      "sha256": "8608f4bcc70927fc50928a3189a9f4d96320f85db052c7e15f6fea6d40f8cec4"
+    },
+    {
+      "path": "data/maps/vegas/VegasW.ide",
+      "size": 25456,
+      "sha256": "6499b130002d706e7808c63d7570b35030d4af89d211c43e5dc1ee1b9c9ea238"
+    },
+    {
+      "path": "data/maps/vegas/vegasW.ipl",
+      "size": 49867,
+      "sha256": "8772cd91905a1374886376d7f0a508c666fd8b91478c5f3afc87673ae4e78abc"
+    },
+    {
+      "path": "data/maps/vegas/vegaxref.ide",
+      "size": 5751,
+      "sha256": "b52b2622a39a25f62b25960e69e30a96ac43f2e76a2a428aa9d49ee51eca93ed"
+    },
+    {
+      "path": "data/maps/vegas/vegaxref.ipl",
+      "size": 3661,
+      "sha256": "45a15259f02a25fcbd3a575ae2a0846a688aafc5bda2c525fa59626e1006557e"
+    },
+    {
+      "path": "data/maps/veh_mods/veh_mods.ide",
+      "size": 7323,
+      "sha256": "0338813d49e3c1d92d7f660357d0ab6a6778e65a2e05b0c9cb1f99ffd29c3edc"
+    },
+    {
+      "path": "data/melee.dat",
+      "size": 6306,
+      "sha256": "d82430a32f31c239c38e1db8c83589307fb221fce417962993a8c63cb1d3da4b"
+    },
+    {
+      "path": "data/numplate.dat",
+      "size": 1145,
+      "sha256": "342902a4e6f5bafdf518f163128c24b3b20f207ac5ed7327eb122540313abc1b"
+    },
+    {
+      "path": "data/object.dat",
+      "size": 126118,
+      "sha256": "c963c980d90891cbb4ab81a6a8daa294a5813cba46fae4b1302951c32ca472d8"
+    },
+    {
+      "path": "data/Paths/carrec.img",
+      "size": 2357248,
+      "sha256": "58d91faf86f367e7fae5432e36ff7bdcbe5d8815cd05d779b4aa4f6ec96fe074"
+    },
+    {
+      "path": "data/Paths/NODES0.DAT",
+      "size": 13458,
+      "sha256": "f4910a9fa0100984bdd48f0e1d8161fe5b702081d37c66316b2d667f942fa2f2"
+    },
+    {
+      "path": "data/Paths/NODES1.DAT",
+      "size": 35996,
+      "sha256": "dd63cdb01f365b38edb4e69829cb09bb7d39d2105886e3e9f80e7aca05ec47ae"
+    },
+    {
+      "path": "data/Paths/NODES10.DAT",
+      "size": 15100,
+      "sha256": "e84c9ffb3a263f269a0c58f528111d6c6035789b6ba200bb744d791ebead8bda"
+    },
+    {
+      "path": "data/Paths/NODES11.DAT",
+      "size": 28886,
+      "sha256": "d51daa7922f70aab0d2dd4530a9258b40b7f4c6201863ef1eeb5c054109620db"
+    },
+    {
+      "path": "data/Paths/NODES12.DAT",
+      "size": 110342,
+      "sha256": "7afa915d07860ee1d02dd3d70cb28c49adf14b97206cbe330c5eee14ec78f7c3"
+    },
+    {
+      "path": "data/Paths/NODES13.DAT",
+      "size": 117488,
+      "sha256": "0fb989f674da4651b87c1bfc56a6bcbfd7ddd7c9a579e55bc52e1f7458898c11"
+    },
+    {
+      "path": "data/Paths/NODES14.DAT",
+      "size": 121566,
+      "sha256": "99eddfd66abcda9d389a432416ec3b09a5660227fc0104210b316caf18896a79"
+    },
+    {
+      "path": "data/Paths/NODES15.DAT",
+      "size": 93802,
+      "sha256": "eb4a82a8e6863eb2c704549603409f76ade298bdec972ce9f7fea7e84c41109a"
+    },
+    {
+      "path": "data/Paths/NODES16.DAT",
+      "size": 19250,
+      "sha256": "140b62bd53b0e406f11dcbe94c8e0767f562f2e4bea58ded12339eb288fc3ea5"
+    },
+    {
+      "path": "data/Paths/NODES17.DAT",
+      "size": 36952,
+      "sha256": "dd060d61c1ecc45c2aaa8be501c7f41fe29f136b1a5aae67d34dcfd9924c5e64"
+    },
+    {
+      "path": "data/Paths/NODES18.DAT",
+      "size": 17234,
+      "sha256": "8ac84c5c1188b7ea86086ad4c2a462654e46fd771907fbf7f50d43787e20cfe0"
+    },
+    {
+      "path": "data/Paths/NODES19.DAT",
+      "size": 39862,
+      "sha256": "bb4f72c64af33659e43c28f5f344a78a61877a6350977b92e7031735f3adda25"
+    },
+    {
+      "path": "data/Paths/NODES2.DAT",
+      "size": 11396,
+      "sha256": "3fc680950c483dda376f25abe375c39ae825df4671990de245e887ad259ccee0"
+    },
+    {
+      "path": "data/Paths/NODES20.DAT",
+      "size": 76652,
+      "sha256": "86351503a91e923f138d38a65cd74fdc964853d6c4ab340974a643c0bad93fc3"
+    },
+    {
+      "path": "data/Paths/NODES21.DAT",
+      "size": 138482,
+      "sha256": "9fbcf4123097b02e12047195c0d70b4ea67943dd4ef5a535ae177c6b0b9fff37"
+    },
+    {
+      "path": "data/Paths/NODES22.DAT",
+      "size": 120014,
+      "sha256": "831e6e888ff8c77c493abe4d3dffd9c0f96b6dfffaea91ac3cb881b60b608310"
+    },
+    {
+      "path": "data/Paths/NODES23.DAT",
+      "size": 87652,
+      "sha256": "fb3b028a987933691014ecd5826e82629fd0aa2133d7d8730e413bb5ac27b5e1"
+    },
+    {
+      "path": "data/Paths/NODES24.DAT",
+      "size": 94334,
+      "sha256": "76853143b04ef1f35d7db038e5939c048ff88ccd468fbff5344b011313ec9575"
+    },
+    {
+      "path": "data/Paths/NODES25.DAT",
+      "size": 95160,
+      "sha256": "ba42f7d159a5989eb1f94acdaef1e84839585a5c8d641717ae44f611450f77d8"
+    },
+    {
+      "path": "data/Paths/NODES26.DAT",
+      "size": 55378,
+      "sha256": "37d8919fc006e9724dc6dbc5d929384df8e3a4f3e27822597e8e994499fedb12"
+    },
+    {
+      "path": "data/Paths/NODES27.DAT",
+      "size": 26342,
+      "sha256": "59ddaa917fb5372f1e4e77264e3cb4ba6268ae8648498246fe6ade7128c6b6f7"
+    },
+    {
+      "path": "data/Paths/NODES28.DAT",
+      "size": 84224,
+      "sha256": "2be659500dc780deeaf65333bd2078fde056c6e1dec17e084d118e016256a5bc"
+    },
+    {
+      "path": "data/Paths/NODES29.DAT",
+      "size": 36556,
+      "sha256": "6a056c0d9da1750530086489c52952a9dd9f7c3fa04d51c73bdc863beaa415dc"
+    },
+    {
+      "path": "data/Paths/NODES3.DAT",
+      "size": 12438,
+      "sha256": "7a4534acc4bb66f20825966389daa197ed33a72dae3568239672ea268ba5d4b5"
+    },
+    {
+      "path": "data/Paths/NODES30.DAT",
+      "size": 20098,
+      "sha256": "5634a075f755fdc5abc5a3456f4199aaaccc8c4b7213f75c8e0dd8122d5535f3"
+    },
+    {
+      "path": "data/Paths/NODES31.DAT",
+      "size": 22552,
+      "sha256": "7aea61e71070977a590a85979fb92b5f74a415b72a870340e8f4e7349720a2e1"
+    },
+    {
+      "path": "data/Paths/NODES32.DAT",
+      "size": 126744,
+      "sha256": "b35ef3ea7682eb7d15e31429ec4dbca1b7a64029a71740ab8d29ed9562c536b6"
+    },
+    {
+      "path": "data/Paths/NODES33.DAT",
+      "size": 113784,
+      "sha256": "b25515ff4e85595b6c4f47d8d98eb9d2931cc8ab57b6ee69ca910f1fab5b61e9"
+    },
+    {
+      "path": "data/Paths/NODES34.DAT",
+      "size": 50594,
+      "sha256": "2acb931cf1f7675cb7573dd40441edc7ca1351742ea55c568a8c98f34fefe20d"
+    },
+    {
+      "path": "data/Paths/NODES35.DAT",
+      "size": 28442,
+      "sha256": "8ce944836df80b3ce795b54b19d9e96f3c050b0a4386796924f9cc13fbb3045c"
+    },
+    {
+      "path": "data/Paths/NODES36.DAT",
+      "size": 52546,
+      "sha256": "16956c21544e406e6f4e5f47d626712f47ad1519b5bc637ece7c22b6cb68bde8"
+    },
+    {
+      "path": "data/Paths/NODES37.DAT",
+      "size": 46690,
+      "sha256": "26e5849ce3512a532702abd259928055390a69c0bd08990ddd7b521312e37f8b"
+    },
+    {
+      "path": "data/Paths/NODES38.DAT",
+      "size": 59616,
+      "sha256": "4cf2a28bae2d8db6cff8ecdc8e191ecb24e1e7ceb6a379a6611e4538442a27ea"
+    },
+    {
+      "path": "data/Paths/NODES39.DAT",
+      "size": 42486,
+      "sha256": "17b40f6654df1ea1ef491a16d647c34b57f9fd32d23ffa41529bce478a57ef4b"
+    },
+    {
+      "path": "data/Paths/NODES4.DAT",
+      "size": 5402,
+      "sha256": "a6e9a13fa25257c0c0cad5e515dedadc988993fb80d22beb210e734d517f5f26"
+    },
+    {
+      "path": "data/Paths/NODES40.DAT",
+      "size": 115172,
+      "sha256": "7f42619b94223a4e187e416594b4877921dc813cd37cab78d865a6d3b006e96a"
+    },
+    {
+      "path": "data/Paths/NODES41.DAT",
+      "size": 141844,
+      "sha256": "b382756d8379a85090726fe59302bbda844bec3c5664fee682de84c66b645912"
+    },
+    {
+      "path": "data/Paths/NODES42.DAT",
+      "size": 35716,
+      "sha256": "cfaf6d7bbbc6887fa090af63f770273104d927662c2b912a618b7fda39ffbdce"
+    },
+    {
+      "path": "data/Paths/NODES43.DAT",
+      "size": 45006,
+      "sha256": "83a617dc3f1a33e85d66e12226132fb595cce81a94800e76f568f81aff9834ea"
+    },
+    {
+      "path": "data/Paths/NODES44.DAT",
+      "size": 49032,
+      "sha256": "69e80ccd3960b93595f57a0daebc793badcb869007a203902c2a56bbc17cb4ce"
+    },
+    {
+      "path": "data/Paths/NODES45.DAT",
+      "size": 40270,
+      "sha256": "e045bff56ed6c4ee229c6e16020c61eaf7d54b40cb076b3b12ea722e36e29e75"
+    },
+    {
+      "path": "data/Paths/NODES46.DAT",
+      "size": 123954,
+      "sha256": "945d2854bc5db396dbd32f9b316c4e0a51deced64e3aff4fb7b1367c2c2423eb"
+    },
+    {
+      "path": "data/Paths/NODES47.DAT",
+      "size": 85050,
+      "sha256": "dd8a085e90871f0ff0f6ce0511782376bf94456e777ff3af6ebaaaadd4b5ad74"
+    },
+    {
+      "path": "data/Paths/NODES48.DAT",
+      "size": 26170,
+      "sha256": "8b20d271c6aee0d586fff29d931bb48b50a1b8f09dda9ef20b74b5333b561d83"
+    },
+    {
+      "path": "data/Paths/NODES49.DAT",
+      "size": 14948,
+      "sha256": "2d8a806d58bc6cb29897d9b6f82029c595adcb6f49cde795bbe155e20744f2cc"
+    },
+    {
+      "path": "data/Paths/NODES5.DAT",
+      "size": 16804,
+      "sha256": "26c8008564bb70332058e5a6e3a4c1a5006c12e84979f174754c9ed9a7489114"
+    },
+    {
+      "path": "data/Paths/NODES50.DAT",
+      "size": 32076,
+      "sha256": "8411bf12e12afd59c3beb11ec0f939fd8cc4cec447e80bd2679265236b11708f"
+    },
+    {
+      "path": "data/Paths/NODES51.DAT",
+      "size": 18704,
+      "sha256": "5d6f0af1bdbf837810a1c1055e25b6548bcafd66a3a864516d0f86b5e37c8fbe"
+    },
+    {
+      "path": "data/Paths/NODES52.DAT",
+      "size": 37934,
+      "sha256": "3fbac1bcff5f1098472dcfe309cb43b199c38fd6b1fdbe1e8b5c526c8228fb77"
+    },
+    {
+      "path": "data/Paths/NODES53.DAT",
+      "size": 65650,
+      "sha256": "af395d4fbc7f5aacb84a949b48e4f32ed5a19600597e422fb838c8f5cfdc3ec8"
+    },
+    {
+      "path": "data/Paths/NODES54.DAT",
+      "size": 127874,
+      "sha256": "209d1b5474b2a030bda032e19cda449c038fbe89796f41016499b580c39e6331"
+    },
+    {
+      "path": "data/Paths/NODES55.DAT",
+      "size": 84904,
+      "sha256": "db3f7ec70518e6ddd13871ad0bcb96e401b0f605965a1faf085ddc464d8b9ea6"
+    },
+    {
+      "path": "data/Paths/NODES56.DAT",
+      "size": 33350,
+      "sha256": "b6d6708e050ab07b88a1ff75319fa41cfc23e298527e4a886a17704fbb5f68d5"
+    },
+    {
+      "path": "data/Paths/NODES57.DAT",
+      "size": 19212,
+      "sha256": "e3c430ac3a21b3abc31d7840ad2d50df1f07c704bc0f9c7dddadb5c898de9862"
+    },
+    {
+      "path": "data/Paths/NODES58.DAT",
+      "size": 18858,
+      "sha256": "e25f71bfe6683da82219ffb516b00c8ccc68350c920ea9271657ad8071b31b7d"
+    },
+    {
+      "path": "data/Paths/NODES59.DAT",
+      "size": 28114,
+      "sha256": "9c5cc3d536f9359f89b2e195d4de1511c51eebe96a082a875e77f1825526d138"
+    },
+    {
+      "path": "data/Paths/NODES6.DAT",
+      "size": 50642,
+      "sha256": "a3d751c73023b202d3df67d8c903614db4e816fdc241b89efd2184cfd1179839"
+    },
+    {
+      "path": "data/Paths/NODES60.DAT",
+      "size": 14464,
+      "sha256": "e66b0e32b2a1ea95af5f81faa6735216115cb13026984760739416666bd0fead"
+    },
+    {
+      "path": "data/Paths/NODES61.DAT",
+      "size": 60284,
+      "sha256": "e292dbe2c0f4678e03235f4d557dcffb3842798e7c8f7b7a5c73609f66203965"
+    },
+    {
+      "path": "data/Paths/NODES62.DAT",
+      "size": 70972,
+      "sha256": "1dbc30784b71ba42dd742d07b0a3a991b2de75f2c0e5523ab0abe7b2716a3edc"
+    },
+    {
+      "path": "data/Paths/NODES63.DAT",
+      "size": 71530,
+      "sha256": "96fe84fc7225551ab8b7ad734fe425ceec2b984d21b511c819688b86c70653c5"
+    },
+    {
+      "path": "data/Paths/NODES7.DAT",
+      "size": 24464,
+      "sha256": "2e39c0e99b86d1716b8fc52bfc295de712c446d3a71081b609645ff2bbb7e6c9"
+    },
+    {
+      "path": "data/Paths/NODES8.DAT",
+      "size": 32112,
+      "sha256": "19d5d3d503364bfdd883dcd1d46280a579447c260513eb4f4af15cca418e877e"
+    },
+    {
+      "path": "data/Paths/NODES9.DAT",
+      "size": 32516,
+      "sha256": "9ad49ac7fcb2c501902a89a0196cea62fe9319f01fc965580331459e40dadc3d"
+    },
+    {
+      "path": "data/Paths/ROADBLOX.DAT",
+      "size": 1304,
+      "sha256": "2da412adc28eefd4b406df53e0ab2693eb564d8dfeb73f31ca771022280342ef"
+    },
+    {
+      "path": "data/Paths/spath0.dat",
+      "size": 1886,
+      "sha256": "327fcfa5b3c12d2f72dfdd9a8338ad837a6b750446b631ffcd5d831c843c6762"
+    },
+    {
+      "path": "data/Paths/tracks.dat",
+      "size": 25474,
+      "sha256": "9f3509865baa1424cedce8c9185f93bf575eb1d6cb2e114f1c704f07f92d0f55"
+    },
+    {
+      "path": "data/Paths/tracks2.dat",
+      "size": 1892,
+      "sha256": "f30af4dd0b7948321db633d4964898961b4ae97f5c29b6ca1cdcb9b77e6f4985"
+    },
+    {
+      "path": "data/Paths/tracks3.dat",
+      "size": 8328,
+      "sha256": "b8ed468ae2aa953250f5f9bcf1ff34ec7a413cfca63357a6a531f37dfb9b5767"
+    },
+    {
+      "path": "data/Paths/tracks4.dat",
+      "size": 18347,
+      "sha256": "e8decea200f701498cf1414a4d6accb1dc6fdeb147ac30cd3500e0ae27cdcd69"
+    },
+    {
+      "path": "data/Paths/train.dat",
+      "size": 2476,
+      "sha256": "53f0b4b2c01a82522d37a3e3d09e14217bca2d91ced525b45bf9fabfd1a1bfb0"
+    },
+    {
+      "path": "data/Paths/train2.dat",
+      "size": 4232,
+      "sha256": "0dd3a51310bbaf649de2a97267d27d6ce8fa9e3930139fa1fdafdf5b8db9bea6"
+    },
+    {
+      "path": "data/ped.dat",
+      "size": 1276,
+      "sha256": "fa4a2636ba772080c75d0986379a862c4c2f7cf7bf6c1550557f3557236b450e"
+    },
+    {
+      "path": "data/pedgrp.dat",
+      "size": 5792,
+      "sha256": "157f429231421f37d44b2b4890b14ee0537f7f32a8bdf71a140340ac04770222"
+    },
+    {
+      "path": "data/peds.ide",
+      "size": 33401,
+      "sha256": "ec16c488c40f2c563c475130eb7ef633a024ac6bc0f01e8bfb248972a241af92"
+    },
+    {
+      "path": "data/pedstats.dat",
+      "size": 3604,
+      "sha256": "280c12e4f8b36f6e68b68323fb3d01d853b9a91bf4497964ce5159abfd84d684"
+    },
+    {
+      "path": "data/plants.dat",
+      "size": 9887,
+      "sha256": "d989d13c540be6e8c7e381ac1785a61a99ca8dc97002ed9013a0312b5dab08a8"
+    },
+    {
+      "path": "data/polydensity.dat",
+      "size": 288020,
+      "sha256": "975a9b23dcfc195dc9d2722a50774d4a739f4d0c2bba4f7c24be9ae05161c94a"
+    },
+    {
+      "path": "data/popcycle.dat",
+      "size": 127108,
+      "sha256": "7adf28ff336d652a0d85cd8c9cb37379755e7f68a00b3637ea4afc4d4184aac7"
+    },
+    {
+      "path": "data/procobj.dat",
+      "size": 10019,
+      "sha256": "b41895965d087b90aa8b11a66849002a08256a27010209b2b534e0f4438d95c5"
+    },
+    {
+      "path": "data/script/main.scm",
+      "size": 3079599,
+      "sha256": "601def3baae766ce6a23e2f0b9b48f6b33c9a64e2fc32eb4f22ddea8b868b0fa"
+    },
+    {
+      "path": "data/script/script.img",
+      "size": 581632,
+      "sha256": "582b2ad47aafa9867238aff2d2b07cce5cc85496612157e759a4f25aa9e83187"
+    },
+    {
+      "path": "data/shopping.dat",
+      "size": 46875,
+      "sha256": "93e640e29049ee9985185b7aaf1b2f3d11f8540ff8791a751632d6ba90d0bd4d"
+    },
+    {
+      "path": "data/statdisp.dat",
+      "size": 7333,
+      "sha256": "e16ec576f165882c82524e12d05a3ca42f321a17f53675f44ef031a6f2613f72"
+    },
+    {
+      "path": "data/surface.dat",
+      "size": 576,
+      "sha256": "09cf086c44c2409f6d5f40f58d7a753f0384d227b7f8c27fec7fe5dbe56c4a90"
+    },
+    {
+      "path": "data/surfaud.dat",
+      "size": 6530,
+      "sha256": "5a25dfb38743e42b46f7979941f9fa8a1201788e91f991975dfed997aa4db605"
+    },
+    {
+      "path": "data/surfinfo.dat",
+      "size": 28106,
+      "sha256": "431b95d4dcb20ce5258f7d939902c56d50fb4ee68b30ed7a044919c666291b55"
+    },
+    {
+      "path": "data/timecyc.dat",
+      "size": 40037,
+      "sha256": "0efce1a3d36aac22bf5276f65f7a8aa411ce34bdcbe5128cef4c800f82d5754b"
+    },
+    {
+      "path": "data/timecycp.dat",
+      "size": 40520,
+      "sha256": "34989779a9868a0e54f64edb2b5813d65eabe18f1ecf01bcbb9188a5a6964584"
+    },
+    {
+      "path": "data/txdcut.ide",
+      "size": 478,
+      "sha256": "68299b02ec1f00da7a93a400742c9f8edf3b776cf339431228af969f95249055"
+    },
+    {
+      "path": "data/vehicles.ide",
+      "size": 21093,
+      "sha256": "2d70455cda1ed89da9cc1a995ccb2539899b84360a2411c887d88617365ead37"
+    },
+    {
+      "path": "data/water.dat",
+      "size": 70099,
+      "sha256": "1562bc86766ce595d7513f3ca3ae3fc4147b574c8c4e703fe6a76678507969bf"
+    },
+    {
+      "path": "data/water1.dat",
+      "size": 60063,
+      "sha256": "c43d750c3a9b1d645235f0c987fac3b1f2fa20aafd78449e831f2aea36de5f68"
+    },
+    {
+      "path": "data/weapon.dat",
+      "size": 11585,
+      "sha256": "033b3db45a00464fd95cb28870c97b45b0712f0ac53f3e8c586c88aaa0a420f8"
+    },
+    {
+      "path": "eax.dll",
+      "size": 188416,
+      "sha256": "b2da4f1e47ef8054c8390ead0b97d1fbb0c547245b79b8861cfa92ce9ef153fb"
+    },
+    {
+      "path": "gta-sa.exe",
+      "size": 5971456,
+      "sha256": "aa07fcdc8723a2831f77a35491dea6cdd58f6733e3ac69a10ddf5cdf95034fe3"
+    },
+    {
+      "path": "installscript.vdf",
+      "size": 504,
+      "sha256": "6e2e2be98151b7872171a781fde03094666357fdca5030b8ee2fd0ab2b737acd"
+    },
+    {
+      "path": "models/coll/peds.col",
+      "size": 21477,
+      "sha256": "d6faa88b9227e6f6fe286f69cfd8d7348229bda267b21125b7daea4d3dd23d10"
+    },
+    {
+      "path": "models/coll/vehicles.col",
+      "size": 1096,
+      "sha256": "4b6fa3aacf7d8be7aabf2e7048b5d7bd9bc89991b13f4f3d7334047a4f5359cf"
+    },
+    {
+      "path": "models/coll/weapons.col",
+      "size": 560,
+      "sha256": "389a5656e0496486e1c546e1e8ffd5399c1563c717f8238dcfdee3b6756903e6"
+    },
+    {
+      "path": "models/cutscene.img",
+      "size": 26947584,
+      "sha256": "e065f1b47ec81736e19762d1fa50ae207e51f782acb74778b80efba931092643"
+    },
+    {
+      "path": "models/effects.fxp",
+      "size": 616708,
+      "sha256": "23000555e825e31f92aac477eacd11e9e87cbb525504862433a8f5e879d08eb4"
+    },
+    {
+      "path": "models/effectsPC.txd",
+      "size": 407080,
+      "sha256": "a2f11535f09e7645372b78c439aad44b6ab5c2ec4c1a85cb3d497bfe81faf0d9"
+    },
+    {
+      "path": "models/fonts.txd",
+      "size": 524584,
+      "sha256": "5ca77cddb15f96de29b3786cb5620492dbc310d29af2d1374e644d74f1a61cbf"
+    },
+    {
+      "path": "models/fronten1.txd",
+      "size": 108200,
+      "sha256": "9d64c08f416c628b99009677eb1250aebf5723e1b3cafad183b08213695cb2af"
+    },
+    {
+      "path": "models/fronten2.txd",
+      "size": 984104,
+      "sha256": "426d50375dd08be14ae7ea964fe994110f0d13d1055d32b3eaba8c8c88787472"
+    },
+    {
+      "path": "models/fronten3.txd",
+      "size": 9512,
+      "sha256": "7032f7e4603a397a142d6887dc9601fbdb614e419f5afd8d75f1cca5c1c567b8"
+    },
+    {
+      "path": "models/fronten_pc.txd",
+      "size": 2344,
+      "sha256": "042139b4228d57daac2fe4f0a6e30c0ac9ed4324e875e3dde82aa9e62e0392d5"
+    },
+    {
+      "path": "models/generic/air_vlo.DFF",
+      "size": 7100,
+      "sha256": "e992428a9b9f256eaf1d59b0a43862ce3d734f43e2b95c2897409644a4c2933d"
+    },
+    {
+      "path": "models/generic/arrow.DFF",
+      "size": 4849,
+      "sha256": "c49c2c695225e7d722acdd0066156f6e22ef47e40a82f3be1b579704af501388"
+    },
+    {
+      "path": "models/generic/hoop.dff",
+      "size": 3701,
+      "sha256": "b393449e429aa5a1ab5bba81707035153c5a3743041a4b4c2ad8212e07699ef5"
+    },
+    {
+      "path": "models/generic/vehicle.txd",
+      "size": 1360296,
+      "sha256": "71f6557a304e49521c44f8111736f69bd958b84477e8296403975c03824e951f"
+    },
+    {
+      "path": "models/generic/wheels.DFF",
+      "size": 129843,
+      "sha256": "5d5fab1336f6d35a64d10082fe98a4f9e220f36b12d82cb2b177dc755c762539"
+    },
+    {
+      "path": "models/generic/wheels.txd",
+      "size": 23976,
+      "sha256": "5167ad31c2b13ac502c829a6b7c544c28a38e974ec278e0c6f24585bcacc4a78"
+    },
+    {
+      "path": "models/generic/zonecylb.DFF",
+      "size": 2260,
+      "sha256": "6603e892e35a1a2f3d7336ad2a0cfbea4952b4e0deaff15903b869522a5f92ce"
+    },
+    {
+      "path": "models/grass/grass0_1.dff",
+      "size": 1596,
+      "sha256": "6dbf7bd3cb0047d3dd35bbbc0a9829b56cc6f0edd81eb886fbb907e0705f9049"
+    },
+    {
+      "path": "models/grass/grass0_2.dff",
+      "size": 1596,
+      "sha256": "61edc4446ccee5ea9cb55ac8b572abb541a23ebdd69ca509c2190e97fd0fb37e"
+    },
+    {
+      "path": "models/grass/grass0_3.dff",
+      "size": 1600,
+      "sha256": "11bbfc04b755576bebd266c05a8ea2aca96fcc09f19999ba8b292813eb66df08"
+    },
+    {
+      "path": "models/grass/grass0_4.dff",
+      "size": 1601,
+      "sha256": "97754167c1bb12ca7da5b781c1cd09e3e490d77f710e8cf2a4a82638a15256e9"
+    },
+    {
+      "path": "models/grass/grass1_1.dff",
+      "size": 1981,
+      "sha256": "ae0d950738f9abb5d327c413a62a76479a1d686b090d7ba84e51542cc98e264c"
+    },
+    {
+      "path": "models/grass/grass1_2.dff",
+      "size": 1981,
+      "sha256": "ae0d950738f9abb5d327c413a62a76479a1d686b090d7ba84e51542cc98e264c"
+    },
+    {
+      "path": "models/grass/grass1_3.dff",
+      "size": 1981,
+      "sha256": "ae0d950738f9abb5d327c413a62a76479a1d686b090d7ba84e51542cc98e264c"
+    },
+    {
+      "path": "models/grass/grass1_4.dff",
+      "size": 1981,
+      "sha256": "ae0d950738f9abb5d327c413a62a76479a1d686b090d7ba84e51542cc98e264c"
+    },
+    {
+      "path": "models/grass/grass2_1.dff",
+      "size": 1981,
+      "sha256": "ae0d950738f9abb5d327c413a62a76479a1d686b090d7ba84e51542cc98e264c"
+    },
+    {
+      "path": "models/grass/grass2_2.dff",
+      "size": 1981,
+      "sha256": "ae0d950738f9abb5d327c413a62a76479a1d686b090d7ba84e51542cc98e264c"
+    },
+    {
+      "path": "models/grass/grass2_3.dff",
+      "size": 1981,
+      "sha256": "ae0d950738f9abb5d327c413a62a76479a1d686b090d7ba84e51542cc98e264c"
+    },
+    {
+      "path": "models/grass/grass2_4.dff",
+      "size": 1981,
+      "sha256": "ae0d950738f9abb5d327c413a62a76479a1d686b090d7ba84e51542cc98e264c"
+    },
+    {
+      "path": "models/grass/grass3_1.dff",
+      "size": 1981,
+      "sha256": "ae0d950738f9abb5d327c413a62a76479a1d686b090d7ba84e51542cc98e264c"
+    },
+    {
+      "path": "models/grass/grass3_2.dff",
+      "size": 1981,
+      "sha256": "ae0d950738f9abb5d327c413a62a76479a1d686b090d7ba84e51542cc98e264c"
+    },
+    {
+      "path": "models/grass/grass3_3.dff",
+      "size": 1981,
+      "sha256": "ae0d950738f9abb5d327c413a62a76479a1d686b090d7ba84e51542cc98e264c"
+    },
+    {
+      "path": "models/grass/grass3_4.dff",
+      "size": 1981,
+      "sha256": "ae0d950738f9abb5d327c413a62a76479a1d686b090d7ba84e51542cc98e264c"
+    },
+    {
+      "path": "models/grass/plant1.dff",
+      "size": 2072,
+      "sha256": "fb07d65f05f997d366d926f5c7609fde28ef293d4adbe1c9f3288486476c6f55"
+    },
+    {
+      "path": "models/grass/plant1.txd",
+      "size": 42152,
+      "sha256": "68feced6f3e905da93881f222fcd77c7dbc59d384686d542a30b87b42092e494"
+    },
+    {
+      "path": "models/gta3.img",
+      "size": 940064768,
+      "sha256": "ff7c6608d3e2590be660803fbd13a782bfee4896345cf04af5017805040c0b4f"
+    },
+    {
+      "path": "models/gta_int.img",
+      "size": 150024192,
+      "sha256": "134f6c6a5ec1a866ad5e0f139b89dda69538ad277ac53fb04421e76518a2263b"
+    },
+    {
+      "path": "models/hud.txd",
+      "size": 51624,
+      "sha256": "de3d9f867ccd3a7cc7d35f1cb6c43659d8abec7cbd68991f09dd30b872aab4f2"
+    },
+    {
+      "path": "models/misc.txd",
+      "size": 23976,
+      "sha256": "72a542baf687e9ee97b2b906a434c98c95b5ba08f908f846fccdc0b327e1aaaa"
+    },
+    {
+      "path": "models/particle.txd",
+      "size": 650536,
+      "sha256": "307f1e9c6d8f842c01bcc8d0fb406d1012072aa65d7e9a7d1144edc09cad44fd"
+    },
+    {
+      "path": "models/pcbtns.txd",
+      "size": 4648,
+      "sha256": "9b8349ec2b29df9fd92a7f102e1ec0adc92397e3d0f08a1adada391733a83689"
+    },
+    {
+      "path": "models/player.img",
+      "size": 66738176,
+      "sha256": "bd6d43c065fd7767958c5c363e67fdaa92f203d7c766419524d9f220eec98256"
+    },
+    {
+      "path": "models/txd/intro1.txd",
+      "size": 131240,
+      "sha256": "f1889db182a8f69e6b43dcd3709381fd15bcc6338cfe2ad9206aaab672bdde4d"
+    },
+    {
+      "path": "models/txd/intro2.txd",
+      "size": 131240,
+      "sha256": "2e7b8a9ef73932dd8446288d021a1e311ec40e50e6bcb1d96c8e96e7915a3c36"
+    },
+    {
+      "path": "models/txd/INTRO3.TXD",
+      "size": 131240,
+      "sha256": "800ffcbcc5267d27126d3d54241c48e6168d275aa9372cb700388c0d3e3b8733"
+    },
+    {
+      "path": "models/txd/intro4.txd",
+      "size": 131240,
+      "sha256": "890edfb64d889c273cd6001c06313c222d3a4ecc72e448b5d52c3807e78fa2ae"
+    },
+    {
+      "path": "models/txd/LD_BEAT.txd",
+      "size": 22312,
+      "sha256": "3a5ae6968726bb0565fd5ad9bc19b3779d36b4104fa6c238893a76da95eef528"
+    },
+    {
+      "path": "models/txd/LD_BUM.txd",
+      "size": 16816,
+      "sha256": "c4585d209d6a80426f607dc36a8de92ae650982915b8c74a1409b016852a7150"
+    },
+    {
+      "path": "models/txd/LD_CARD.txd",
+      "size": 441000,
+      "sha256": "fb96e3e0f956a34d5e021c1e93ba6bd33cd1f0bcddfc85ebbfa4326819cf6fad"
+    },
+    {
+      "path": "models/txd/LD_CHAT.txd",
+      "size": 5928,
+      "sha256": "a3b2d6c1d984034b2cb1003ad81736df943d2c2f86f7bb1aea690beceba7ff7b"
+    },
+    {
+      "path": "models/txd/LD_DRV.txd",
+      "size": 258096,
+      "sha256": "2c3c2167a5e2ceba18229ec73670a6c3f1d629eb65602c65429107b4fb1afd2d"
+    },
+    {
+      "path": "models/txd/LD_DUAL.txd",
+      "size": 186312,
+      "sha256": "fa8f69e3464a3cec0d51113173c44a300d3a1ddda98da09ca153f83bfc011785"
+    },
+    {
+      "path": "models/txd/ld_grav.txd",
+      "size": 262440,
+      "sha256": "f4141bff49ca4bc9cb1283b030a2044f3095e043647889c97fc14c2ce073a5a7"
+    },
+    {
+      "path": "models/txd/LD_NONE.txd",
+      "size": 113864,
+      "sha256": "6e256a70f3ca4652766b5c466d92043bbb25b4611136ba54756a67b0b6fbffbe"
+    },
+    {
+      "path": "models/txd/LD_OTB.txd",
+      "size": 605368,
+      "sha256": "8477e90baf6ee8dc638a3ef8817b5514db6683030d52b83db3c50fb0c025f85b"
+    },
+    {
+      "path": "models/txd/LD_OTB2.txd",
+      "size": 198056,
+      "sha256": "f7eb78ef352f7146b1749e85d6c4d1936a910c1aaf4a86c6942594cead6a2641"
+    },
+    {
+      "path": "models/txd/LD_PLAN.txd",
+      "size": 84528,
+      "sha256": "e522d021f8891689404814670d033d29eaca8a9561c8264b63d463ba9b85b4a5"
+    },
+    {
+      "path": "models/txd/LD_POKE.txd",
+      "size": 480936,
+      "sha256": "f73bad52fd697047ae0544ddc8390db8cdc2c47026650e0a77631b1c71d65f61"
+    },
+    {
+      "path": "models/txd/LD_POOL.txd",
+      "size": 9000,
+      "sha256": "e0d87af9154478cd66edd4f36feaf099d849655fe3bf39cab65f81f934ef1c86"
+    },
+    {
+      "path": "models/txd/LD_RACE.txd",
+      "size": 427688,
+      "sha256": "4c2a4eb5b5a95d54e54ff94c6ba63d1d62492b6db2da8f6d096874ace104678c"
+    },
+    {
+      "path": "models/txd/LD_RCE1.txd",
+      "size": 197416,
+      "sha256": "a6c338db957cfb8584aa18c73ee29a81d48d90412745ce451d07efe7a9935af7"
+    },
+    {
+      "path": "models/txd/LD_RCE2.txd",
+      "size": 197416,
+      "sha256": "4afb003eab1a3491a0743372152802fd30d57d1b3134d8f52affb620f3d41ebe"
+    },
+    {
+      "path": "models/txd/LD_RCE3.txd",
+      "size": 197416,
+      "sha256": "ce07ba6d83f7ffa479febbab8654befa33a9ad8698a469e47c65676598b6a586"
+    },
+    {
+      "path": "models/txd/LD_RCE4.txd",
+      "size": 197416,
+      "sha256": "c211ab08aacc4d5838b9ff122707b8fd53de8f339be98596761bc555df6621f9"
+    },
+    {
+      "path": "models/txd/LD_RCE5.txd",
+      "size": 32936,
+      "sha256": "738c4f52c6119a5b9dbf5c7b73b3d3d3af9bd4e608e2ccfa596647f277d5ce27"
+    },
+    {
+      "path": "models/txd/LD_ROUL.txd",
+      "size": 6568,
+      "sha256": "19a583d2a4baed63189745c9deb7cbb72ef09de735178150615d0b716fb4a76c"
+    },
+    {
+      "path": "models/txd/ld_shtr.txd",
+      "size": 277544,
+      "sha256": "e30327864e16d8c3c42f953dc69fd4ac593fcaf97e20f139e780e5143ef43934"
+    },
+    {
+      "path": "models/txd/LD_SLOT.txd",
+      "size": 13096,
+      "sha256": "5be3cd59265b9310aa5c86c67abcdd24c9e2fdbb2c3db63ad7ff686b3d877182"
+    },
+    {
+      "path": "models/txd/LD_SPAC.txd",
+      "size": 186312,
+      "sha256": "89f5837f9bc52f6a616b56e41b057a4870d0398491394c793aa817692215fce1"
+    },
+    {
+      "path": "models/txd/LD_TATT.txd",
+      "size": 104488,
+      "sha256": "fc1d56c1f30258475a6636dfcd7a95e25fbb9547295583377b0923f6dd97895f"
+    },
+    {
+      "path": "models/txd/load0uk.txd",
+      "size": 131240,
+      "sha256": "02144241532d782848b4c5b3d832b72363370184dad69f56825461f8787ad347"
+    },
+    {
+      "path": "models/txd/loadsc0.txd",
+      "size": 131240,
+      "sha256": "0abd9f536bf4d758d856cedefafcf9e43f2464017338140b19c54da3c7346b42"
+    },
+    {
+      "path": "models/txd/loadsc1.txd",
+      "size": 131240,
+      "sha256": "f6847156bdea69381f5a8228c396721cc9f511a67a9bfbdf7edaa1225c8ad653"
+    },
+    {
+      "path": "models/txd/loadsc10.txd",
+      "size": 131240,
+      "sha256": "8cb5e8b2db2a2cccf5d33ec103ee05f6d7309389520ce648150884136dd762e8"
+    },
+    {
+      "path": "models/txd/loadsc11.txd",
+      "size": 131240,
+      "sha256": "fdb1ecb7d70368686231703613f412f6ae6a573fe61f7f7b431973ccfb7a11d1"
+    },
+    {
+      "path": "models/txd/loadsc12.txd",
+      "size": 131240,
+      "sha256": "c8a98dabd0cd2e7eb774c821dcdbd45630e4d3b9e5334cf7360f98a3fbc4eee7"
+    },
+    {
+      "path": "models/txd/loadsc13.txd",
+      "size": 131240,
+      "sha256": "fd3f9ef480bcad52389be39626db0e0d8c833cb8b8801cff051c9eea362a7b7e"
+    },
+    {
+      "path": "models/txd/loadsc14.txd",
+      "size": 131240,
+      "sha256": "f2989161708b144f589f03b31ba98d9c627908c4bb99fbb21e1189726383dd76"
+    },
+    {
+      "path": "models/txd/loadsc2.txd",
+      "size": 131240,
+      "sha256": "89a1875ccf90d1a58a73996b40ada9c8daa143bba95ddd082a110d04b8c4f945"
+    },
+    {
+      "path": "models/txd/loadsc3.txd",
+      "size": 131240,
+      "sha256": "dacf08bf12bdb7dd7ad5b96f6f6ddd2ff250987a3298b6c699e4b7aa97f34abe"
+    },
+    {
+      "path": "models/txd/loadsc4.txd",
+      "size": 131240,
+      "sha256": "6b4204a091da56ff95f0e2a5750cf857f8dfc63f61bc8beb2b1ce5587a3bdac2"
+    },
+    {
+      "path": "models/txd/loadsc5.txd",
+      "size": 131240,
+      "sha256": "5a68c26c5c1f76e656242612b0d23322d877df453c472b30d40a8be8619feef4"
+    },
+    {
+      "path": "models/txd/loadsc6.txd",
+      "size": 131240,
+      "sha256": "fcbb3f9d5df8983d7d36158de1562092fc9dc0291b56a0ff22ac4cc25572c7e0"
+    },
+    {
+      "path": "models/txd/loadsc7.txd",
+      "size": 131240,
+      "sha256": "e285c3641e20cacfeba5dee1f5edb044751d09f884e858c1d3e31c2589bb1a8e"
+    },
+    {
+      "path": "models/txd/loadsc8.txd",
+      "size": 131240,
+      "sha256": "e8e5432ea450617568258a5b6f19195b65c161a6073a8871c4041a61e84d5a92"
+    },
+    {
+      "path": "models/txd/loadsc9.txd",
+      "size": 131240,
+      "sha256": "8610ffe789c1acf87f0760e0a5c4d84b44096e54673b25797cd0c564a796cf56"
+    },
+    {
+      "path": "models/txd/LOADSCS.txd",
+      "size": 3279272,
+      "sha256": "e1eeaa9f1960207d2b70a9342c4f8eb95ae29fa0da66570cc10546b470ee1c3c"
+    },
+    {
+      "path": "models/txd/LOADSUK.txd",
+      "size": 1968040,
+      "sha256": "97582ba0fee4226419eaad5d37cd718b3b8837b6788ce9dfd8fe05f104658255"
+    },
+    {
+      "path": "models/txd/outro.txd",
+      "size": 263336,
+      "sha256": "c7fe54f2f2ea2ee5e452db5882f7c2c6a628925cbfbb8dbbeef030cbfa736f04"
+    },
+    {
+      "path": "models/txd/splash1.txd",
+      "size": 65704,
+      "sha256": "0774ce2e618fcac2f284983a3e2a4b929689082c0986d610bcd11478dc453146"
+    },
+    {
+      "path": "models/txd/splash2.txd",
+      "size": 65704,
+      "sha256": "15c1be66f2588ea0112a7687796c0e6b3e0e1dad9b71826389ed4b5873622a91"
+    },
+    {
+      "path": "models/txd/splash3.txd",
+      "size": 40,
+      "sha256": "842f5e7cf0c8e1b47c4baac45ea9f283224c3825c95be30468b4055cb70ef233"
+    },
+    {
+      "path": "movies/GTAtitles.mpg",
+      "size": 21577541,
+      "sha256": "ea7721a8a6ed4592f59bad8e49ed8619202288dcb47a5b03e2c080f88cd4a09c"
+    },
+    {
+      "path": "movies/Logo.mpg",
+      "size": 3740427,
+      "sha256": "b230fe90e9c687351560e84f5961fa54d7c5eb5cd5251666ad6dbe5bc16a6531"
+    },
+    {
+      "path": "ogg.dll",
+      "size": 36864,
+      "sha256": "4a4f65427e016b3c5ae0d2517a69db5f1cdc7a43d2c0a7957e8da5d6f378f063"
+    },
+    {
+      "path": "stream.ini",
+      "size": 197,
+      "sha256": "e5b4ac3e7797a271660a091bdc0e4663beedcab43acaee2473086ca8f925a148"
+    },
+    {
+      "path": "text/american.gxt",
+      "size": 738256,
+      "sha256": "d6e2566d7b85d1b6f913938bf672c0915dfc5db08d6ec826eecffda2ba21589f"
+    },
+    {
+      "path": "text/french.gxt",
+      "size": 798974,
+      "sha256": "fc9df5d446c1429edf03072ab5c1bd86700525be5e130aad79da2f67997778b8"
+    },
+    {
+      "path": "text/german.gxt",
+      "size": 812934,
+      "sha256": "1de67ca9fdf82a7907e69c1f6977971cd68e3c30849aa2d53115ca1047eb2e9e"
+    },
+    {
+      "path": "text/italian.gxt",
+      "size": 751379,
+      "sha256": "a109b0cb3d2c7105428add8d3162cf9366f5724ebc6dbb5beff75bc1809eca7a"
+    },
+    {
+      "path": "text/spanish.gxt",
+      "size": 763917,
+      "sha256": "bc38bf9bf8973f49627d3b4d5595d6f523044a5903a7853f5b098d0d94c921de"
+    },
+    {
+      "path": "vorbis.dll",
+      "size": 1060864,
+      "sha256": "fefda850b69e007fceba644483c7616bc07e9f177fc634fb74e114f0d15b0db0"
+    },
+    {
+      "path": "vorbisFile.dll",
+      "size": 65536,
+      "sha256": "a08923479000cec366967fb8259e0920b7aa18859722c7dda1415726bed4774f"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 268435456,
+      "sha256": "870fbe33b40863d6bd5fbfebbf1cc5fc28bc70deb275a09fc121282c3cba3b5b",
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "anim/anim.img",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 10942464
+        },
+        {
+          "file": "anim/cuts.img",
+          "file_offset": 0,
+          "chunk_offset": 60162240,
+          "length": 208273216
+        }
+      ]
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 268435456,
+      "sha256": "85445a4856a1678c9c241357fa0a58ea4b2c924525739ce09dc0d9a34d0b29c3",
+      "segments": [
+        {
+          "file": "anim/cuts.img",
+          "file_offset": 208273216,
+          "chunk_offset": 0,
+          "length": 61823168
+        },
+        {
+          "file": "anim/ped.ifp",
+          "file_offset": 0,
+          "chunk_offset": 61823168,
+          "length": 1433248
+        },
+        {
+          "file": "audio/CONFIG/AudioEventHistory.txt",
+          "file_offset": 0,
+          "chunk_offset": 63256416,
+          "length": 114056
+        },
+        {
+          "file": "audio/CONFIG/BankLkup.dat",
+          "file_offset": 0,
+          "chunk_offset": 63370472,
+          "length": 8520
+        },
+        {
+          "file": "audio/CONFIG/BankSlot.dat",
+          "file_offset": 0,
+          "chunk_offset": 63378992,
+          "length": 216902
+        },
+        {
+          "file": "audio/CONFIG/EventVol.dat",
+          "file_offset": 0,
+          "chunk_offset": 63595894,
+          "length": 45402
+        },
+        {
+          "file": "audio/CONFIG/PakFiles.dat",
+          "file_offset": 0,
+          "chunk_offset": 63641296,
+          "length": 468
+        },
+        {
+          "file": "audio/CONFIG/StrmPaks.dat",
+          "file_offset": 0,
+          "chunk_offset": 63641764,
+          "length": 272
+        },
+        {
+          "file": "audio/CONFIG/TrakLkup.dat",
+          "file_offset": 0,
+          "chunk_offset": 63642036,
+          "length": 23064
+        },
+        {
+          "file": "audio/sfx/FEET",
+          "file_offset": 0,
+          "chunk_offset": 63665100,
+          "length": 354020
+        },
+        {
+          "file": "audio/sfx/GENRL",
+          "file_offset": 0,
+          "chunk_offset": 64019120,
+          "length": 25170572
+        },
+        {
+          "file": "audio/sfx/PAIN_A",
+          "file_offset": 0,
+          "chunk_offset": 89189692,
+          "length": 6704240
+        },
+        {
+          "file": "audio/sfx/SCRIPT",
+          "file_offset": 0,
+          "chunk_offset": 95893932,
+          "length": 172541524
+        }
+      ]
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 268435456,
+      "sha256": "a3a44271099b4672025bc71a211d8cf898c7dd9ddef8e07a137bc20151d5aba4",
+      "segments": [
+        {
+          "file": "audio/sfx/SCRIPT",
+          "file_offset": 172541524,
+          "chunk_offset": 0,
+          "length": 147146364
+        },
+        {
+          "file": "audio/sfx/SPC_EA",
+          "file_offset": 0,
+          "chunk_offset": 147146364,
+          "length": 121289092
+        }
+      ]
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 268435456,
+      "sha256": "4c6d55736f3a5638db57cc8df6c916a8c2de5bdd6170786bf1ec3041b0a44a06",
+      "segments": [
+        {
+          "file": "audio/sfx/SPC_EA",
+          "file_offset": 121289092,
+          "chunk_offset": 0,
+          "length": 3829116
+        },
+        {
+          "file": "audio/sfx/SPC_FA",
+          "file_offset": 0,
+          "chunk_offset": 3829116,
+          "length": 106793248
+        },
+        {
+          "file": "audio/sfx/SPC_GA",
+          "file_offset": 0,
+          "chunk_offset": 110622364,
+          "length": 157813092
+        }
+      ]
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 268435456,
+      "sha256": "d69febe8e1a7fa0ac13506b856980d9913563919fdcf03fb14e50af1a79084d5",
+      "segments": [
+        {
+          "file": "audio/sfx/SPC_GA",
+          "file_offset": 157813092,
+          "chunk_offset": 0,
+          "length": 268435456
+        }
+      ]
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 268435456,
+      "sha256": "2ec3f49ad9bfa9e77ff726b3f94ecde3e8d00a742e0a370cab46d89d21e71e4d",
+      "segments": [
+        {
+          "file": "audio/sfx/SPC_GA",
+          "file_offset": 426248548,
+          "chunk_offset": 0,
+          "length": 268435456
+        }
+      ]
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 268435456,
+      "sha256": "5cc015df3e2a746a97024db024e44a0a7c12f986e7f4f6aaf491aeb4bed5ebd4",
+      "segments": [
+        {
+          "file": "audio/sfx/SPC_GA",
+          "file_offset": 694684004,
+          "chunk_offset": 0,
+          "length": 268435456
+        }
+      ]
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 268435456,
+      "sha256": "4efcee16f634414de8184ba43ea9094d50837f256a5e667ae590f2064788ad5d",
+      "segments": [
+        {
+          "file": "audio/sfx/SPC_GA",
+          "file_offset": 963119460,
+          "chunk_offset": 0,
+          "length": 140761068
+        },
+        {
+          "file": "audio/sfx/SPC_NA",
+          "file_offset": 0,
+          "chunk_offset": 140761068,
+          "length": 127674388
+        }
+      ]
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 268435456,
+      "sha256": "c7444ea6f0c7f72869e834270f0b8687cbfd3c3dc2ff5430e88c658c5d08cfa1",
+      "segments": [
+        {
+          "file": "audio/sfx/SPC_NA",
+          "file_offset": 127674388,
+          "chunk_offset": 0,
+          "length": 268435456
+        }
+      ]
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 268435456,
+      "sha256": "0a8ba175c31ce36791c6dfe540bbc56fcd168ae64ff65ece980e371a04b1964e",
+      "segments": [
+        {
+          "file": "audio/sfx/SPC_NA",
+          "file_offset": 396109844,
+          "chunk_offset": 0,
+          "length": 32171876
+        },
+        {
+          "file": "audio/sfx/SPC_PA",
+          "file_offset": 0,
+          "chunk_offset": 32171876,
+          "length": 175482308
+        },
+        {
+          "file": "audio/streams/AA",
+          "file_offset": 0,
+          "chunk_offset": 207654184,
+          "length": 4987207
+        },
+        {
+          "file": "audio/streams/ADVERTS",
+          "file_offset": 0,
+          "chunk_offset": 212641391,
+          "length": 55208406
+        },
+        {
+          "file": "audio/streams/AMBIENCE",
+          "file_offset": 0,
+          "chunk_offset": 267849797,
+          "length": 585659
+        }
+      ]
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 268435456,
+      "sha256": "9649d35b4b3964189cdfbcbd01181396836b24348e841cccecc5386dd506a828",
+      "segments": [
+        {
+          "file": "audio/streams/AMBIENCE",
+          "file_offset": 585659,
+          "chunk_offset": 0,
+          "length": 45929060
+        },
+        {
+          "file": "audio/streams/BEATS",
+          "file_offset": 0,
+          "chunk_offset": 45929060,
+          "length": 26331855
+        },
+        {
+          "file": "audio/streams/CH",
+          "file_offset": 0,
+          "chunk_offset": 72260915,
+          "length": 59067556
+        },
+        {
+          "file": "audio/streams/CO",
+          "file_offset": 0,
+          "chunk_offset": 131328471,
+          "length": 72004665
+        },
+        {
+          "file": "audio/streams/CR",
+          "file_offset": 0,
+          "chunk_offset": 203333136,
+          "length": 65102320
+        }
+      ]
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 268435456,
+      "sha256": "ef2bde75fa878dd630a7c54f8b73808691e419af717ac4afbfb899cde9ff23d3",
+      "segments": [
+        {
+          "file": "audio/streams/CR",
+          "file_offset": 65102320,
+          "chunk_offset": 0,
+          "length": 14999716
+        },
+        {
+          "file": "audio/streams/CUTSCENE",
+          "file_offset": 0,
+          "chunk_offset": 14999716,
+          "length": 133544649
+        },
+        {
+          "file": "audio/streams/DS",
+          "file_offset": 0,
+          "chunk_offset": 148544365,
+          "length": 81453706
+        },
+        {
+          "file": "audio/streams/HC",
+          "file_offset": 0,
+          "chunk_offset": 229998071,
+          "length": 38437385
+        }
+      ]
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 268435456,
+      "sha256": "58322f569a8c8600fc54f8bccf3fb9e031e6c79daede555b295ce58ff3635409",
+      "segments": [
+        {
+          "file": "audio/streams/HC",
+          "file_offset": 38437385,
+          "chunk_offset": 0,
+          "length": 44310861
+        },
+        {
+          "file": "audio/streams/MH",
+          "file_offset": 0,
+          "chunk_offset": 44310861,
+          "length": 76758910
+        },
+        {
+          "file": "audio/streams/MR",
+          "file_offset": 0,
+          "chunk_offset": 121069771,
+          "length": 70701424
+        },
+        {
+          "file": "audio/streams/NJ",
+          "file_offset": 0,
+          "chunk_offset": 191771195,
+          "length": 68702632
+        },
+        {
+          "file": "audio/streams/RE",
+          "file_offset": 0,
+          "chunk_offset": 260473827,
+          "length": 7961629
+        }
+      ]
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 268435456,
+      "sha256": "7f588d10f5fdf2290c13874a7ee99720c701d7aa2670f34b13235d143d61ee7d",
+      "segments": [
+        {
+          "file": "audio/streams/RE",
+          "file_offset": 7961629,
+          "chunk_offset": 0,
+          "length": 65960235
+        },
+        {
+          "file": "audio/streams/RG",
+          "file_offset": 0,
+          "chunk_offset": 65960235,
+          "length": 64457447
+        },
+        {
+          "file": "audio/streams/TK",
+          "file_offset": 0,
+          "chunk_offset": 130417682,
+          "length": 96114412
+        },
+        {
+          "file": "data/animgrp.dat",
+          "file_offset": 0,
+          "chunk_offset": 226532094,
+          "length": 3096
+        },
+        {
+          "file": "data/animviewer.dat",
+          "file_offset": 0,
+          "chunk_offset": 226535190,
+          "length": 1807
+        },
+        {
+          "file": "data/ar_stats.dat",
+          "file_offset": 0,
+          "chunk_offset": 226536997,
+          "length": 3593
+        },
+        {
+          "file": "data/AudioEvents.txt",
+          "file_offset": 0,
+          "chunk_offset": 226540590,
+          "length": 166161
+        },
+        {
+          "file": "data/carcols.dat",
+          "file_offset": 0,
+          "chunk_offset": 226706751,
+          "length": 15361
+        },
+        {
+          "file": "data/cargrp.dat",
+          "file_offset": 0,
+          "chunk_offset": 226722112,
+          "length": 3963
+        },
+        {
+          "file": "data/carmods.dat",
+          "file_offset": 0,
+          "chunk_offset": 226726075,
+          "length": 9110
+        },
+        {
+          "file": "data/clothes.dat",
+          "file_offset": 0,
+          "chunk_offset": 226735185,
+          "length": 5317
+        },
+        {
+          "file": "data/Decision/Allowed/Cop.ped",
+          "file_offset": 0,
+          "chunk_offset": 226740502,
+          "length": 4908
+        },
+        {
+          "file": "data/Decision/Allowed/Fireman.ped",
+          "file_offset": 0,
+          "chunk_offset": 226745410,
+          "length": 4435
+        },
+        {
+          "file": "data/Decision/Allowed/GangMbr.ped",
+          "file_offset": 0,
+          "chunk_offset": 226749845,
+          "length": 6194
+        },
+        {
+          "file": "data/Decision/Allowed/Indoors.ped",
+          "file_offset": 0,
+          "chunk_offset": 226756039,
+          "length": 2809
+        },
+        {
+          "file": "data/Decision/Allowed/m_empty.ped",
+          "file_offset": 0,
+          "chunk_offset": 226758848,
+          "length": 982
+        },
+        {
+          "file": "data/Decision/Allowed/m_norm.ped",
+          "file_offset": 0,
+          "chunk_offset": 226759830,
+          "length": 4142
+        },
+        {
+          "file": "data/Decision/Allowed/m_plyr.ped",
+          "file_offset": 0,
+          "chunk_offset": 226763972,
+          "length": 2000
+        },
+        {
+          "file": "data/Decision/Allowed/m_steal.ped",
+          "file_offset": 0,
+          "chunk_offset": 226765972,
+          "length": 3663
+        },
+        {
+          "file": "data/Decision/Allowed/m_tough.ped",
+          "file_offset": 0,
+          "chunk_offset": 226769635,
+          "length": 3980
+        },
+        {
+          "file": "data/Decision/Allowed/m_weak.ped",
+          "file_offset": 0,
+          "chunk_offset": 226773615,
+          "length": 4062
+        },
+        {
+          "file": "data/Decision/Allowed/MISSION.grp",
+          "file_offset": 0,
+          "chunk_offset": 226777677,
+          "length": 2758
+        },
+        {
+          "file": "data/Decision/Allowed/R_Norm.ped",
+          "file_offset": 0,
+          "chunk_offset": 226780435,
+          "length": 6450
+        },
+        {
+          "file": "data/Decision/Allowed/R_Tough.ped",
+          "file_offset": 0,
+          "chunk_offset": 226786885,
+          "length": 6378
+        },
+        {
+          "file": "data/Decision/Allowed/R_Weak.ped",
+          "file_offset": 0,
+          "chunk_offset": 226793263,
+          "length": 6289
+        },
+        {
+          "file": "data/Decision/Allowed/RANDOM.grp",
+          "file_offset": 0,
+          "chunk_offset": 226799552,
+          "length": 4623
+        },
+        {
+          "file": "data/Decision/Allowed/RANDOM.ped",
+          "file_offset": 0,
+          "chunk_offset": 226804175,
+          "length": 4142
+        },
+        {
+          "file": "data/Decision/Allowed/RANDOM2.grp",
+          "file_offset": 0,
+          "chunk_offset": 226808317,
+          "length": 4623
+        },
+        {
+          "file": "data/Decision/andyd/ADgrp.grp",
+          "file_offset": 0,
+          "chunk_offset": 226812940,
+          "length": 2063
+        },
+        {
+          "file": "data/Decision/andyd/ADtemp.ped",
+          "file_offset": 0,
+          "chunk_offset": 226815003,
+          "length": 3725
+        },
+        {
+          "file": "data/Decision/BLANK.ped",
+          "file_offset": 0,
+          "chunk_offset": 226818728,
+          "length": 621
+        },
+        {
+          "file": "data/Decision/chris/maf5.ped",
+          "file_offset": 0,
+          "chunk_offset": 226819349,
+          "length": 1130
+        },
+        {
+          "file": "data/Decision/chris/ryder3.ped",
+          "file_offset": 0,
+          "chunk_offset": 226820479,
+          "length": 1170
+        },
+        {
+          "file": "data/Decision/ChrisM/CMblnk.ped",
+          "file_offset": 0,
+          "chunk_offset": 226821649,
+          "length": 397
+        },
+        {
+          "file": "data/Decision/ChrisM/m_std_cm.ped",
+          "file_offset": 0,
+          "chunk_offset": 226822046,
+          "length": 1071
+        },
+        {
+          "file": "data/Decision/Cop.ped",
+          "file_offset": 0,
+          "chunk_offset": 226823117,
+          "length": 2354
+        },
+        {
+          "file": "data/Decision/Craig/crack1.ped",
+          "file_offset": 0,
+          "chunk_offset": 226825471,
+          "length": 796
+        },
+        {
+          "file": "data/Decision/david/dam_sec.ped",
+          "file_offset": 0,
+          "chunk_offset": 226826267,
+          "length": 677
+        },
+        {
+          "file": "data/Decision/david/hei2_sc.ped",
+          "file_offset": 0,
+          "chunk_offset": 226826944,
+          "length": 403
+        },
+        {
+          "file": "data/Decision/FLAT.ped",
+          "file_offset": 0,
+          "chunk_offset": 226827347,
+          "length": 399
+        },
+        {
+          "file": "data/Decision/GangMbr.ped",
+          "file_offset": 0,
+          "chunk_offset": 226827746,
+          "length": 3067
+        },
+        {
+          "file": "data/Decision/GROVE.ped",
+          "file_offset": 0,
+          "chunk_offset": 226830813,
+          "length": 393
+        },
+        {
+          "file": "data/Decision/Imran/sci1_is.ped",
+          "file_offset": 0,
+          "chunk_offset": 226831206,
+          "length": 672
+        },
+        {
+          "file": "data/Decision/Imran/std1_is.ped",
+          "file_offset": 0,
+          "chunk_offset": 226831878,
+          "length": 383
+        },
+        {
+          "file": "data/Decision/Imran/std2_is.ped",
+          "file_offset": 0,
+          "chunk_offset": 226832261,
+          "length": 633
+        },
+        {
+          "file": "data/Decision/Indoors.ped",
+          "file_offset": 0,
+          "chunk_offset": 226832894,
+          "length": 1928
+        },
+        {
+          "file": "data/Decision/m_empty.ped",
+          "file_offset": 0,
+          "chunk_offset": 226834822,
+          "length": 654
+        },
+        {
+          "file": "data/Decision/m_infrm.ped",
+          "file_offset": 0,
+          "chunk_offset": 226835476,
+          "length": 1539
+        },
+        {
+          "file": "data/Decision/m_norm.ped",
+          "file_offset": 0,
+          "chunk_offset": 226837015,
+          "length": 2085
+        },
+        {
+          "file": "data/Decision/m_std.ped",
+          "file_offset": 0,
+          "chunk_offset": 226839100,
+          "length": 1487
+        },
+        {
+          "file": "data/Decision/m_tough.ped",
+          "file_offset": 0,
+          "chunk_offset": 226840587,
+          "length": 2085
+        },
+        {
+          "file": "data/Decision/m_weak.ped",
+          "file_offset": 0,
+          "chunk_offset": 226842672,
+          "length": 2085
+        },
+        {
+          "file": "data/Decision/MISSION.grp",
+          "file_offset": 0,
+          "chunk_offset": 226844757,
+          "length": 530
+        },
+        {
+          "file": "data/Decision/MISSION.ped",
+          "file_offset": 0,
+          "chunk_offset": 226845287,
+          "length": 891
+        },
+        {
+          "file": "data/Decision/PedEvent.txt",
+          "file_offset": 0,
+          "chunk_offset": 226846178,
+          "length": 1298
+        },
+        {
+          "file": "data/default.dat",
+          "file_offset": 0,
+          "chunk_offset": 226847476,
+          "length": 577
+        },
+        {
+          "file": "data/default.ide",
+          "file_offset": 0,
+          "chunk_offset": 226848053,
+          "length": 4679
+        },
+        {
+          "file": "data/fonts.dat",
+          "file_offset": 0,
+          "chunk_offset": 226852732,
+          "length": 3576
+        },
+        {
+          "file": "data/furnitur.dat",
+          "file_offset": 0,
+          "chunk_offset": 226856308,
+          "length": 16480
+        },
+        {
+          "file": "data/gridref.dat",
+          "file_offset": 0,
+          "chunk_offset": 226872788,
+          "length": 1498
+        },
+        {
+          "file": "data/gta.dat",
+          "file_offset": 0,
+          "chunk_offset": 226874286,
+          "length": 3776
+        },
+        {
+          "file": "data/gta_quick.dat",
+          "file_offset": 0,
+          "chunk_offset": 226878062,
+          "length": 1079
+        },
+        {
+          "file": "data/handling.cfg",
+          "file_offset": 0,
+          "chunk_offset": 226879141,
+          "length": 64532
+        },
+        {
+          "file": "data/Icons/bin.ico",
+          "file_offset": 0,
+          "chunk_offset": 226943673,
+          "length": 766
+        },
+        {
+          "file": "data/Icons/saicon.ICN",
+          "file_offset": 0,
+          "chunk_offset": 226944439,
+          "length": 65800
+        },
+        {
+          "file": "data/Icons/saicon2.ICN",
+          "file_offset": 0,
+          "chunk_offset": 227010239,
+          "length": 65800
+        },
+        {
+          "file": "data/Icons/saicon3.ICN",
+          "file_offset": 0,
+          "chunk_offset": 227076039,
+          "length": 65800
+        },
+        {
+          "file": "data/info.zon",
+          "file_offset": 0,
+          "chunk_offset": 227141839,
+          "length": 28139
+        },
+        {
+          "file": "data/main.sc",
+          "file_offset": 0,
+          "chunk_offset": 227169978,
+          "length": 6020
+        },
+        {
+          "file": "data/map.zon",
+          "file_offset": 0,
+          "chunk_offset": 227175998,
+          "length": 436
+        },
+        {
+          "file": "data/maps/Audiozon.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227176434,
+          "length": 10802
+        },
+        {
+          "file": "data/maps/country/countn2.ide",
+          "file_offset": 0,
+          "chunk_offset": 227187236,
+          "length": 35439
+        },
+        {
+          "file": "data/maps/country/countn2.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227222675,
+          "length": 41665
+        },
+        {
+          "file": "data/maps/country/countrye.ide",
+          "file_offset": 0,
+          "chunk_offset": 227264340,
+          "length": 34529
+        },
+        {
+          "file": "data/maps/country/countrye.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227298869,
+          "length": 49301
+        },
+        {
+          "file": "data/maps/country/countryN.ide",
+          "file_offset": 0,
+          "chunk_offset": 227348170,
+          "length": 11308
+        },
+        {
+          "file": "data/maps/country/countryN.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227359478,
+          "length": 14407
+        },
+        {
+          "file": "data/maps/country/countryS.ide",
+          "file_offset": 0,
+          "chunk_offset": 227373885,
+          "length": 18450
+        },
+        {
+          "file": "data/maps/country/countryS.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227392335,
+          "length": 33835
+        },
+        {
+          "file": "data/maps/country/countryW.ide",
+          "file_offset": 0,
+          "chunk_offset": 227426170,
+          "length": 19704
+        },
+        {
+          "file": "data/maps/country/countryw.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227445874,
+          "length": 35057
+        },
+        {
+          "file": "data/maps/country/counxref.ide",
+          "file_offset": 0,
+          "chunk_offset": 227480931,
+          "length": 8493
+        },
+        {
+          "file": "data/maps/cull.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227489424,
+          "length": 104318
+        },
+        {
+          "file": "data/maps/generic/barriers.ide",
+          "file_offset": 0,
+          "chunk_offset": 227593742,
+          "length": 1437
+        },
+        {
+          "file": "data/maps/generic/dynamic.ide",
+          "file_offset": 0,
+          "chunk_offset": 227595179,
+          "length": 4611
+        },
+        {
+          "file": "data/maps/generic/dynamic2.ide",
+          "file_offset": 0,
+          "chunk_offset": 227599790,
+          "length": 10509
+        },
+        {
+          "file": "data/maps/generic/multiobj.ide",
+          "file_offset": 0,
+          "chunk_offset": 227610299,
+          "length": 5020
+        },
+        {
+          "file": "data/maps/generic/procobj.ide",
+          "file_offset": 0,
+          "chunk_offset": 227615319,
+          "length": 4755
+        },
+        {
+          "file": "data/maps/generic/vegepart.ide",
+          "file_offset": 0,
+          "chunk_offset": 227620074,
+          "length": 8062
+        },
+        {
+          "file": "data/maps/interior/gen_int1.ide",
+          "file_offset": 0,
+          "chunk_offset": 227628136,
+          "length": 2747
+        },
+        {
+          "file": "data/maps/interior/gen_int1.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227630883,
+          "length": 21074
+        },
+        {
+          "file": "data/maps/interior/gen_int2.ide",
+          "file_offset": 0,
+          "chunk_offset": 227651957,
+          "length": 10941
+        },
+        {
+          "file": "data/maps/interior/gen_int2.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227662898,
+          "length": 1683
+        },
+        {
+          "file": "data/maps/interior/gen_int3.ide",
+          "file_offset": 0,
+          "chunk_offset": 227664581,
+          "length": 3252
+        },
+        {
+          "file": "data/maps/interior/gen_int3.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227667833,
+          "length": 2091
+        },
+        {
+          "file": "data/maps/interior/gen_int4.ide",
+          "file_offset": 0,
+          "chunk_offset": 227669924,
+          "length": 2323
+        },
+        {
+          "file": "data/maps/interior/gen_int4.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227672247,
+          "length": 1185
+        },
+        {
+          "file": "data/maps/interior/gen_int5.ide",
+          "file_offset": 0,
+          "chunk_offset": 227673432,
+          "length": 4682
+        },
+        {
+          "file": "data/maps/interior/gen_int5.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227678114,
+          "length": 2988
+        },
+        {
+          "file": "data/maps/interior/gen_intb.ide",
+          "file_offset": 0,
+          "chunk_offset": 227681102,
+          "length": 5459
+        },
+        {
+          "file": "data/maps/interior/gen_intb.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227686561,
+          "length": 1626
+        },
+        {
+          "file": "data/maps/interior/int_cont.ide",
+          "file_offset": 0,
+          "chunk_offset": 227688187,
+          "length": 385
+        },
+        {
+          "file": "data/maps/interior/int_cont.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227688572,
+          "length": 910
+        },
+        {
+          "file": "data/maps/interior/int_LA.ide",
+          "file_offset": 0,
+          "chunk_offset": 227689482,
+          "length": 6002
+        },
+        {
+          "file": "data/maps/interior/int_LA.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227695484,
+          "length": 1312
+        },
+        {
+          "file": "data/maps/interior/int_SF.ide",
+          "file_offset": 0,
+          "chunk_offset": 227696796,
+          "length": 1260
+        },
+        {
+          "file": "data/maps/interior/int_SF.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227698056,
+          "length": 1334
+        },
+        {
+          "file": "data/maps/interior/int_veg.ide",
+          "file_offset": 0,
+          "chunk_offset": 227699390,
+          "length": 4684
+        },
+        {
+          "file": "data/maps/interior/int_veg.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227704074,
+          "length": 5299
+        },
+        {
+          "file": "data/maps/interior/propext.ide",
+          "file_offset": 0,
+          "chunk_offset": 227709373,
+          "length": 2340
+        },
+        {
+          "file": "data/maps/interior/props.ide",
+          "file_offset": 0,
+          "chunk_offset": 227711713,
+          "length": 26326
+        },
+        {
+          "file": "data/maps/interior/props2.ide",
+          "file_offset": 0,
+          "chunk_offset": 227738039,
+          "length": 21174
+        },
+        {
+          "file": "data/maps/interior/savehous.ide",
+          "file_offset": 0,
+          "chunk_offset": 227759213,
+          "length": 1724
+        },
+        {
+          "file": "data/maps/interior/savehous.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227760937,
+          "length": 2959
+        },
+        {
+          "file": "data/maps/interior/stadint.ide",
+          "file_offset": 0,
+          "chunk_offset": 227763896,
+          "length": 2851
+        },
+        {
+          "file": "data/maps/interior/stadint.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227766747,
+          "length": 6299
+        },
+        {
+          "file": "data/maps/LA/LAe.ide",
+          "file_offset": 0,
+          "chunk_offset": 227773046,
+          "length": 12249
+        },
+        {
+          "file": "data/maps/LA/LAe.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227785295,
+          "length": 27328
+        },
+        {
+          "file": "data/maps/LA/LAe2.ide",
+          "file_offset": 0,
+          "chunk_offset": 227812623,
+          "length": 21906
+        },
+        {
+          "file": "data/maps/LA/LAe2.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227834529,
+          "length": 33651
+        },
+        {
+          "file": "data/maps/LA/LAhills.ide",
+          "file_offset": 0,
+          "chunk_offset": 227868180,
+          "length": 10601
+        },
+        {
+          "file": "data/maps/LA/LAhills.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227878781,
+          "length": 34506
+        },
+        {
+          "file": "data/maps/LA/LAn.ide",
+          "file_offset": 0,
+          "chunk_offset": 227913287,
+          "length": 11107
+        },
+        {
+          "file": "data/maps/LA/LAn.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227924394,
+          "length": 14264
+        },
+        {
+          "file": "data/maps/LA/LAn2.ide",
+          "file_offset": 0,
+          "chunk_offset": 227938658,
+          "length": 9565
+        },
+        {
+          "file": "data/maps/LA/LAn2.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227948223,
+          "length": 13185
+        },
+        {
+          "file": "data/maps/LA/LAs.ide",
+          "file_offset": 0,
+          "chunk_offset": 227961408,
+          "length": 12575
+        },
+        {
+          "file": "data/maps/LA/LAs.ipl",
+          "file_offset": 0,
+          "chunk_offset": 227973983,
+          "length": 22414
+        },
+        {
+          "file": "data/maps/LA/LAs2.ide",
+          "file_offset": 0,
+          "chunk_offset": 227996397,
+          "length": 12364
+        },
+        {
+          "file": "data/maps/LA/LAs2.ipl",
+          "file_offset": 0,
+          "chunk_offset": 228008761,
+          "length": 38441
+        },
+        {
+          "file": "data/maps/LA/LAw.ide",
+          "file_offset": 0,
+          "chunk_offset": 228047202,
+          "length": 9411
+        },
+        {
+          "file": "data/maps/LA/LAw.ipl",
+          "file_offset": 0,
+          "chunk_offset": 228056613,
+          "length": 15105
+        },
+        {
+          "file": "data/maps/LA/LAw2.ide",
+          "file_offset": 0,
+          "chunk_offset": 228071718,
+          "length": 11060
+        },
+        {
+          "file": "data/maps/LA/LAw2.ipl",
+          "file_offset": 0,
+          "chunk_offset": 228082778,
+          "length": 18232
+        },
+        {
+          "file": "data/maps/LA/LaWn.ide",
+          "file_offset": 0,
+          "chunk_offset": 228101010,
+          "length": 13092
+        },
+        {
+          "file": "data/maps/LA/LaWn.ipl",
+          "file_offset": 0,
+          "chunk_offset": 228114102,
+          "length": 24330
+        },
+        {
+          "file": "data/maps/LA/LAxref.ide",
+          "file_offset": 0,
+          "chunk_offset": 228138432,
+          "length": 10473
+        },
+        {
+          "file": "data/maps/leveldes/leveldes.ide",
+          "file_offset": 0,
+          "chunk_offset": 228148905,
+          "length": 360
+        },
+        {
+          "file": "data/maps/leveldes/leveldes.ipl",
+          "file_offset": 0,
+          "chunk_offset": 228149265,
+          "length": 165
+        },
+        {
+          "file": "data/maps/leveldes/levelmap.ide",
+          "file_offset": 0,
+          "chunk_offset": 228149430,
+          "length": 3194
+        },
+        {
+          "file": "data/maps/leveldes/levelmap.ipl",
+          "file_offset": 0,
+          "chunk_offset": 228152624,
+          "length": 4675
+        },
+        {
+          "file": "data/maps/leveldes/levelxre.ide",
+          "file_offset": 0,
+          "chunk_offset": 228157299,
+          "length": 9897
+        },
+        {
+          "file": "data/maps/leveldes/seabed.ide",
+          "file_offset": 0,
+          "chunk_offset": 228167196,
+          "length": 12039
+        },
+        {
+          "file": "data/maps/leveldes/seabed.ipl",
+          "file_offset": 0,
+          "chunk_offset": 228179235,
+          "length": 23342
+        },
+        {
+          "file": "data/maps/occlu.ipl",
+          "file_offset": 0,
+          "chunk_offset": 228202577,
+          "length": 1012
+        },
+        {
+          "file": "data/maps/occluint.ipl",
+          "file_offset": 0,
+          "chunk_offset": 228203589,
+          "length": 2338
+        },
+        {
+          "file": "data/maps/occluLA.ipl",
+          "file_offset": 0,
+          "chunk_offset": 228205927,
+          "length": 35956
+        },
+        {
+          "file": "data/maps/occlusf.ipl",
+          "file_offset": 0,
+          "chunk_offset": 228241883,
+          "length": 16114
+        },
+        {
+          "file": "data/maps/occluveg.ipl",
+          "file_offset": 0,
+          "chunk_offset": 228257997,
+          "length": 17944
+        },
+        {
+          "file": "data/maps/paths.ipl",
+          "file_offset": 0,
+          "chunk_offset": 228275941,
+          "length": 2658607
+        },
+        {
+          "file": "data/maps/paths2.ipl",
+          "file_offset": 0,
+          "chunk_offset": 230934548,
+          "length": 2292241
+        },
+        {
+          "file": "data/maps/paths3.ipl",
+          "file_offset": 0,
+          "chunk_offset": 233226789,
+          "length": 2428066
+        },
+        {
+          "file": "data/maps/paths4.ipl",
+          "file_offset": 0,
+          "chunk_offset": 235654855,
+          "length": 253014
+        },
+        {
+          "file": "data/maps/paths5.ipl",
+          "file_offset": 0,
+          "chunk_offset": 235907869,
+          "length": 457678
+        },
+        {
+          "file": "data/maps/SF/SFe.ide",
+          "file_offset": 0,
+          "chunk_offset": 236365547,
+          "length": 16223
+        },
+        {
+          "file": "data/maps/SF/SFe.ipl",
+          "file_offset": 0,
+          "chunk_offset": 236381770,
+          "length": 26707
+        },
+        {
+          "file": "data/maps/SF/SFn.ide",
+          "file_offset": 0,
+          "chunk_offset": 236408477,
+          "length": 11219
+        },
+        {
+          "file": "data/maps/SF/SFn.ipl",
+          "file_offset": 0,
+          "chunk_offset": 236419696,
+          "length": 26201
+        },
+        {
+          "file": "data/maps/SF/SFs.ide",
+          "file_offset": 0,
+          "chunk_offset": 236445897,
+          "length": 18948
+        },
+        {
+          "file": "data/maps/SF/SFs.ipl",
+          "file_offset": 0,
+          "chunk_offset": 236464845,
+          "length": 37969
+        },
+        {
+          "file": "data/maps/SF/SFSe.ide",
+          "file_offset": 0,
+          "chunk_offset": 236502814,
+          "length": 30227
+        },
+        {
+          "file": "data/maps/SF/SFSe.ipl",
+          "file_offset": 0,
+          "chunk_offset": 236533041,
+          "length": 53359
+        },
+        {
+          "file": "data/maps/SF/SFw.ide",
+          "file_offset": 0,
+          "chunk_offset": 236586400,
+          "length": 16473
+        },
+        {
+          "file": "data/maps/SF/SFw.ipl",
+          "file_offset": 0,
+          "chunk_offset": 236602873,
+          "length": 29247
+        },
+        {
+          "file": "data/maps/SF/SFxref.ide",
+          "file_offset": 0,
+          "chunk_offset": 236632120,
+          "length": 4631
+        },
+        {
+          "file": "data/maps/tunnels.ipl",
+          "file_offset": 0,
+          "chunk_offset": 236636751,
+          "length": 3230
+        },
+        {
+          "file": "data/maps/txd.ide",
+          "file_offset": 0,
+          "chunk_offset": 236639981,
+          "length": 323
+        },
+        {
+          "file": "data/maps/vegas/vegasE.ide",
+          "file_offset": 0,
+          "chunk_offset": 236640304,
+          "length": 35542
+        },
+        {
+          "file": "data/maps/vegas/vegasE.ipl",
+          "file_offset": 0,
+          "chunk_offset": 236675846,
+          "length": 61084
+        },
+        {
+          "file": "data/maps/vegas/VegasN.ide",
+          "file_offset": 0,
+          "chunk_offset": 236736930,
+          "length": 23715
+        },
+        {
+          "file": "data/maps/vegas/vegasN.ipl",
+          "file_offset": 0,
+          "chunk_offset": 236760645,
+          "length": 36651
+        },
+        {
+          "file": "data/maps/vegas/VegasS.ide",
+          "file_offset": 0,
+          "chunk_offset": 236797296,
+          "length": 18656
+        },
+        {
+          "file": "data/maps/vegas/vegasS.ipl",
+          "file_offset": 0,
+          "chunk_offset": 236815952,
+          "length": 30343
+        },
+        {
+          "file": "data/maps/vegas/VegasW.ide",
+          "file_offset": 0,
+          "chunk_offset": 236846295,
+          "length": 25456
+        },
+        {
+          "file": "data/maps/vegas/vegasW.ipl",
+          "file_offset": 0,
+          "chunk_offset": 236871751,
+          "length": 49867
+        },
+        {
+          "file": "data/maps/vegas/vegaxref.ide",
+          "file_offset": 0,
+          "chunk_offset": 236921618,
+          "length": 5751
+        },
+        {
+          "file": "data/maps/vegas/vegaxref.ipl",
+          "file_offset": 0,
+          "chunk_offset": 236927369,
+          "length": 3661
+        },
+        {
+          "file": "data/maps/veh_mods/veh_mods.ide",
+          "file_offset": 0,
+          "chunk_offset": 236931030,
+          "length": 7323
+        },
+        {
+          "file": "data/melee.dat",
+          "file_offset": 0,
+          "chunk_offset": 236938353,
+          "length": 6306
+        },
+        {
+          "file": "data/numplate.dat",
+          "file_offset": 0,
+          "chunk_offset": 236944659,
+          "length": 1145
+        },
+        {
+          "file": "data/object.dat",
+          "file_offset": 0,
+          "chunk_offset": 236945804,
+          "length": 126118
+        },
+        {
+          "file": "data/Paths/carrec.img",
+          "file_offset": 0,
+          "chunk_offset": 237071922,
+          "length": 2357248
+        },
+        {
+          "file": "data/Paths/NODES0.DAT",
+          "file_offset": 0,
+          "chunk_offset": 239429170,
+          "length": 13458
+        },
+        {
+          "file": "data/Paths/NODES1.DAT",
+          "file_offset": 0,
+          "chunk_offset": 239442628,
+          "length": 35996
+        },
+        {
+          "file": "data/Paths/NODES10.DAT",
+          "file_offset": 0,
+          "chunk_offset": 239478624,
+          "length": 15100
+        },
+        {
+          "file": "data/Paths/NODES11.DAT",
+          "file_offset": 0,
+          "chunk_offset": 239493724,
+          "length": 28886
+        },
+        {
+          "file": "data/Paths/NODES12.DAT",
+          "file_offset": 0,
+          "chunk_offset": 239522610,
+          "length": 110342
+        },
+        {
+          "file": "data/Paths/NODES13.DAT",
+          "file_offset": 0,
+          "chunk_offset": 239632952,
+          "length": 117488
+        },
+        {
+          "file": "data/Paths/NODES14.DAT",
+          "file_offset": 0,
+          "chunk_offset": 239750440,
+          "length": 121566
+        },
+        {
+          "file": "data/Paths/NODES15.DAT",
+          "file_offset": 0,
+          "chunk_offset": 239872006,
+          "length": 93802
+        },
+        {
+          "file": "data/Paths/NODES16.DAT",
+          "file_offset": 0,
+          "chunk_offset": 239965808,
+          "length": 19250
+        },
+        {
+          "file": "data/Paths/NODES17.DAT",
+          "file_offset": 0,
+          "chunk_offset": 239985058,
+          "length": 36952
+        },
+        {
+          "file": "data/Paths/NODES18.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240022010,
+          "length": 17234
+        },
+        {
+          "file": "data/Paths/NODES19.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240039244,
+          "length": 39862
+        },
+        {
+          "file": "data/Paths/NODES2.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240079106,
+          "length": 11396
+        },
+        {
+          "file": "data/Paths/NODES20.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240090502,
+          "length": 76652
+        },
+        {
+          "file": "data/Paths/NODES21.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240167154,
+          "length": 138482
+        },
+        {
+          "file": "data/Paths/NODES22.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240305636,
+          "length": 120014
+        },
+        {
+          "file": "data/Paths/NODES23.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240425650,
+          "length": 87652
+        },
+        {
+          "file": "data/Paths/NODES24.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240513302,
+          "length": 94334
+        },
+        {
+          "file": "data/Paths/NODES25.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240607636,
+          "length": 95160
+        },
+        {
+          "file": "data/Paths/NODES26.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240702796,
+          "length": 55378
+        },
+        {
+          "file": "data/Paths/NODES27.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240758174,
+          "length": 26342
+        },
+        {
+          "file": "data/Paths/NODES28.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240784516,
+          "length": 84224
+        },
+        {
+          "file": "data/Paths/NODES29.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240868740,
+          "length": 36556
+        },
+        {
+          "file": "data/Paths/NODES3.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240905296,
+          "length": 12438
+        },
+        {
+          "file": "data/Paths/NODES30.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240917734,
+          "length": 20098
+        },
+        {
+          "file": "data/Paths/NODES31.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240937832,
+          "length": 22552
+        },
+        {
+          "file": "data/Paths/NODES32.DAT",
+          "file_offset": 0,
+          "chunk_offset": 240960384,
+          "length": 126744
+        },
+        {
+          "file": "data/Paths/NODES33.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241087128,
+          "length": 113784
+        },
+        {
+          "file": "data/Paths/NODES34.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241200912,
+          "length": 50594
+        },
+        {
+          "file": "data/Paths/NODES35.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241251506,
+          "length": 28442
+        },
+        {
+          "file": "data/Paths/NODES36.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241279948,
+          "length": 52546
+        },
+        {
+          "file": "data/Paths/NODES37.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241332494,
+          "length": 46690
+        },
+        {
+          "file": "data/Paths/NODES38.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241379184,
+          "length": 59616
+        },
+        {
+          "file": "data/Paths/NODES39.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241438800,
+          "length": 42486
+        },
+        {
+          "file": "data/Paths/NODES4.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241481286,
+          "length": 5402
+        },
+        {
+          "file": "data/Paths/NODES40.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241486688,
+          "length": 115172
+        },
+        {
+          "file": "data/Paths/NODES41.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241601860,
+          "length": 141844
+        },
+        {
+          "file": "data/Paths/NODES42.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241743704,
+          "length": 35716
+        },
+        {
+          "file": "data/Paths/NODES43.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241779420,
+          "length": 45006
+        },
+        {
+          "file": "data/Paths/NODES44.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241824426,
+          "length": 49032
+        },
+        {
+          "file": "data/Paths/NODES45.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241873458,
+          "length": 40270
+        },
+        {
+          "file": "data/Paths/NODES46.DAT",
+          "file_offset": 0,
+          "chunk_offset": 241913728,
+          "length": 123954
+        },
+        {
+          "file": "data/Paths/NODES47.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242037682,
+          "length": 85050
+        },
+        {
+          "file": "data/Paths/NODES48.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242122732,
+          "length": 26170
+        },
+        {
+          "file": "data/Paths/NODES49.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242148902,
+          "length": 14948
+        },
+        {
+          "file": "data/Paths/NODES5.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242163850,
+          "length": 16804
+        },
+        {
+          "file": "data/Paths/NODES50.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242180654,
+          "length": 32076
+        },
+        {
+          "file": "data/Paths/NODES51.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242212730,
+          "length": 18704
+        },
+        {
+          "file": "data/Paths/NODES52.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242231434,
+          "length": 37934
+        },
+        {
+          "file": "data/Paths/NODES53.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242269368,
+          "length": 65650
+        },
+        {
+          "file": "data/Paths/NODES54.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242335018,
+          "length": 127874
+        },
+        {
+          "file": "data/Paths/NODES55.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242462892,
+          "length": 84904
+        },
+        {
+          "file": "data/Paths/NODES56.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242547796,
+          "length": 33350
+        },
+        {
+          "file": "data/Paths/NODES57.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242581146,
+          "length": 19212
+        },
+        {
+          "file": "data/Paths/NODES58.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242600358,
+          "length": 18858
+        },
+        {
+          "file": "data/Paths/NODES59.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242619216,
+          "length": 28114
+        },
+        {
+          "file": "data/Paths/NODES6.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242647330,
+          "length": 50642
+        },
+        {
+          "file": "data/Paths/NODES60.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242697972,
+          "length": 14464
+        },
+        {
+          "file": "data/Paths/NODES61.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242712436,
+          "length": 60284
+        },
+        {
+          "file": "data/Paths/NODES62.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242772720,
+          "length": 70972
+        },
+        {
+          "file": "data/Paths/NODES63.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242843692,
+          "length": 71530
+        },
+        {
+          "file": "data/Paths/NODES7.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242915222,
+          "length": 24464
+        },
+        {
+          "file": "data/Paths/NODES8.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242939686,
+          "length": 32112
+        },
+        {
+          "file": "data/Paths/NODES9.DAT",
+          "file_offset": 0,
+          "chunk_offset": 242971798,
+          "length": 32516
+        },
+        {
+          "file": "data/Paths/ROADBLOX.DAT",
+          "file_offset": 0,
+          "chunk_offset": 243004314,
+          "length": 1304
+        },
+        {
+          "file": "data/Paths/spath0.dat",
+          "file_offset": 0,
+          "chunk_offset": 243005618,
+          "length": 1886
+        },
+        {
+          "file": "data/Paths/tracks.dat",
+          "file_offset": 0,
+          "chunk_offset": 243007504,
+          "length": 25474
+        },
+        {
+          "file": "data/Paths/tracks2.dat",
+          "file_offset": 0,
+          "chunk_offset": 243032978,
+          "length": 1892
+        },
+        {
+          "file": "data/Paths/tracks3.dat",
+          "file_offset": 0,
+          "chunk_offset": 243034870,
+          "length": 8328
+        },
+        {
+          "file": "data/Paths/tracks4.dat",
+          "file_offset": 0,
+          "chunk_offset": 243043198,
+          "length": 18347
+        },
+        {
+          "file": "data/Paths/train.dat",
+          "file_offset": 0,
+          "chunk_offset": 243061545,
+          "length": 2476
+        },
+        {
+          "file": "data/Paths/train2.dat",
+          "file_offset": 0,
+          "chunk_offset": 243064021,
+          "length": 4232
+        },
+        {
+          "file": "data/ped.dat",
+          "file_offset": 0,
+          "chunk_offset": 243068253,
+          "length": 1276
+        },
+        {
+          "file": "data/pedgrp.dat",
+          "file_offset": 0,
+          "chunk_offset": 243069529,
+          "length": 5792
+        },
+        {
+          "file": "data/peds.ide",
+          "file_offset": 0,
+          "chunk_offset": 243075321,
+          "length": 33401
+        },
+        {
+          "file": "data/pedstats.dat",
+          "file_offset": 0,
+          "chunk_offset": 243108722,
+          "length": 3604
+        },
+        {
+          "file": "data/plants.dat",
+          "file_offset": 0,
+          "chunk_offset": 243112326,
+          "length": 9887
+        },
+        {
+          "file": "data/polydensity.dat",
+          "file_offset": 0,
+          "chunk_offset": 243122213,
+          "length": 288020
+        },
+        {
+          "file": "data/popcycle.dat",
+          "file_offset": 0,
+          "chunk_offset": 243410233,
+          "length": 127108
+        },
+        {
+          "file": "data/procobj.dat",
+          "file_offset": 0,
+          "chunk_offset": 243537341,
+          "length": 10019
+        },
+        {
+          "file": "data/script/main.scm",
+          "file_offset": 0,
+          "chunk_offset": 243547360,
+          "length": 3079599
+        },
+        {
+          "file": "data/script/script.img",
+          "file_offset": 0,
+          "chunk_offset": 246626959,
+          "length": 581632
+        },
+        {
+          "file": "data/shopping.dat",
+          "file_offset": 0,
+          "chunk_offset": 247208591,
+          "length": 46875
+        },
+        {
+          "file": "data/statdisp.dat",
+          "file_offset": 0,
+          "chunk_offset": 247255466,
+          "length": 7333
+        },
+        {
+          "file": "data/surface.dat",
+          "file_offset": 0,
+          "chunk_offset": 247262799,
+          "length": 576
+        },
+        {
+          "file": "data/surfaud.dat",
+          "file_offset": 0,
+          "chunk_offset": 247263375,
+          "length": 6530
+        },
+        {
+          "file": "data/surfinfo.dat",
+          "file_offset": 0,
+          "chunk_offset": 247269905,
+          "length": 28106
+        },
+        {
+          "file": "data/timecyc.dat",
+          "file_offset": 0,
+          "chunk_offset": 247298011,
+          "length": 40037
+        },
+        {
+          "file": "data/timecycp.dat",
+          "file_offset": 0,
+          "chunk_offset": 247338048,
+          "length": 40520
+        },
+        {
+          "file": "data/txdcut.ide",
+          "file_offset": 0,
+          "chunk_offset": 247378568,
+          "length": 478
+        },
+        {
+          "file": "data/vehicles.ide",
+          "file_offset": 0,
+          "chunk_offset": 247379046,
+          "length": 21093
+        },
+        {
+          "file": "data/water.dat",
+          "file_offset": 0,
+          "chunk_offset": 247400139,
+          "length": 70099
+        },
+        {
+          "file": "data/water1.dat",
+          "file_offset": 0,
+          "chunk_offset": 247470238,
+          "length": 60063
+        },
+        {
+          "file": "data/weapon.dat",
+          "file_offset": 0,
+          "chunk_offset": 247530301,
+          "length": 11585
+        },
+        {
+          "file": "eax.dll",
+          "file_offset": 0,
+          "chunk_offset": 247541886,
+          "length": 188416
+        },
+        {
+          "file": "gta-sa.exe",
+          "file_offset": 0,
+          "chunk_offset": 247730302,
+          "length": 5971456
+        },
+        {
+          "file": "installscript.vdf",
+          "file_offset": 0,
+          "chunk_offset": 253701758,
+          "length": 504
+        },
+        {
+          "file": "models/coll/peds.col",
+          "file_offset": 0,
+          "chunk_offset": 253702262,
+          "length": 21477
+        },
+        {
+          "file": "models/coll/vehicles.col",
+          "file_offset": 0,
+          "chunk_offset": 253723739,
+          "length": 1096
+        },
+        {
+          "file": "models/coll/weapons.col",
+          "file_offset": 0,
+          "chunk_offset": 253724835,
+          "length": 560
+        },
+        {
+          "file": "models/cutscene.img",
+          "file_offset": 0,
+          "chunk_offset": 253725395,
+          "length": 14710061
+        }
+      ]
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 268435456,
+      "sha256": "82426340df1a74b4079e2d93dc3605a2c5be40fa820300f2f0b4bb3a7b8e0ce9",
+      "segments": [
+        {
+          "file": "models/cutscene.img",
+          "file_offset": 14710061,
+          "chunk_offset": 0,
+          "length": 12237523
+        },
+        {
+          "file": "models/effects.fxp",
+          "file_offset": 0,
+          "chunk_offset": 12237523,
+          "length": 616708
+        },
+        {
+          "file": "models/effectsPC.txd",
+          "file_offset": 0,
+          "chunk_offset": 12854231,
+          "length": 407080
+        },
+        {
+          "file": "models/fonts.txd",
+          "file_offset": 0,
+          "chunk_offset": 13261311,
+          "length": 524584
+        },
+        {
+          "file": "models/fronten1.txd",
+          "file_offset": 0,
+          "chunk_offset": 13785895,
+          "length": 108200
+        },
+        {
+          "file": "models/fronten2.txd",
+          "file_offset": 0,
+          "chunk_offset": 13894095,
+          "length": 984104
+        },
+        {
+          "file": "models/fronten3.txd",
+          "file_offset": 0,
+          "chunk_offset": 14878199,
+          "length": 9512
+        },
+        {
+          "file": "models/fronten_pc.txd",
+          "file_offset": 0,
+          "chunk_offset": 14887711,
+          "length": 2344
+        },
+        {
+          "file": "models/generic/air_vlo.DFF",
+          "file_offset": 0,
+          "chunk_offset": 14890055,
+          "length": 7100
+        },
+        {
+          "file": "models/generic/arrow.DFF",
+          "file_offset": 0,
+          "chunk_offset": 14897155,
+          "length": 4849
+        },
+        {
+          "file": "models/generic/hoop.dff",
+          "file_offset": 0,
+          "chunk_offset": 14902004,
+          "length": 3701
+        },
+        {
+          "file": "models/generic/vehicle.txd",
+          "file_offset": 0,
+          "chunk_offset": 14905705,
+          "length": 1360296
+        },
+        {
+          "file": "models/generic/wheels.DFF",
+          "file_offset": 0,
+          "chunk_offset": 16266001,
+          "length": 129843
+        },
+        {
+          "file": "models/generic/wheels.txd",
+          "file_offset": 0,
+          "chunk_offset": 16395844,
+          "length": 23976
+        },
+        {
+          "file": "models/generic/zonecylb.DFF",
+          "file_offset": 0,
+          "chunk_offset": 16419820,
+          "length": 2260
+        },
+        {
+          "file": "models/grass/grass0_1.dff",
+          "file_offset": 0,
+          "chunk_offset": 16422080,
+          "length": 1596
+        },
+        {
+          "file": "models/grass/grass0_2.dff",
+          "file_offset": 0,
+          "chunk_offset": 16423676,
+          "length": 1596
+        },
+        {
+          "file": "models/grass/grass0_3.dff",
+          "file_offset": 0,
+          "chunk_offset": 16425272,
+          "length": 1600
+        },
+        {
+          "file": "models/grass/grass0_4.dff",
+          "file_offset": 0,
+          "chunk_offset": 16426872,
+          "length": 1601
+        },
+        {
+          "file": "models/grass/grass1_1.dff",
+          "file_offset": 0,
+          "chunk_offset": 16428473,
+          "length": 1981
+        },
+        {
+          "file": "models/grass/grass1_2.dff",
+          "file_offset": 0,
+          "chunk_offset": 16430454,
+          "length": 1981
+        },
+        {
+          "file": "models/grass/grass1_3.dff",
+          "file_offset": 0,
+          "chunk_offset": 16432435,
+          "length": 1981
+        },
+        {
+          "file": "models/grass/grass1_4.dff",
+          "file_offset": 0,
+          "chunk_offset": 16434416,
+          "length": 1981
+        },
+        {
+          "file": "models/grass/grass2_1.dff",
+          "file_offset": 0,
+          "chunk_offset": 16436397,
+          "length": 1981
+        },
+        {
+          "file": "models/grass/grass2_2.dff",
+          "file_offset": 0,
+          "chunk_offset": 16438378,
+          "length": 1981
+        },
+        {
+          "file": "models/grass/grass2_3.dff",
+          "file_offset": 0,
+          "chunk_offset": 16440359,
+          "length": 1981
+        },
+        {
+          "file": "models/grass/grass2_4.dff",
+          "file_offset": 0,
+          "chunk_offset": 16442340,
+          "length": 1981
+        },
+        {
+          "file": "models/grass/grass3_1.dff",
+          "file_offset": 0,
+          "chunk_offset": 16444321,
+          "length": 1981
+        },
+        {
+          "file": "models/grass/grass3_2.dff",
+          "file_offset": 0,
+          "chunk_offset": 16446302,
+          "length": 1981
+        },
+        {
+          "file": "models/grass/grass3_3.dff",
+          "file_offset": 0,
+          "chunk_offset": 16448283,
+          "length": 1981
+        },
+        {
+          "file": "models/grass/grass3_4.dff",
+          "file_offset": 0,
+          "chunk_offset": 16450264,
+          "length": 1981
+        },
+        {
+          "file": "models/grass/plant1.dff",
+          "file_offset": 0,
+          "chunk_offset": 16452245,
+          "length": 2072
+        },
+        {
+          "file": "models/grass/plant1.txd",
+          "file_offset": 0,
+          "chunk_offset": 16454317,
+          "length": 42152
+        },
+        {
+          "file": "models/gta3.img",
+          "file_offset": 0,
+          "chunk_offset": 16496469,
+          "length": 251938987
+        }
+      ]
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 268435456,
+      "sha256": "c80fc68dddb8bd374476be57759bf2150ed1d3c94aa820fabf782b454456467f",
+      "segments": [
+        {
+          "file": "models/gta3.img",
+          "file_offset": 251938987,
+          "chunk_offset": 0,
+          "length": 268435456
+        }
+      ]
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 268435456,
+      "sha256": "abff671ca906f496529b2df49ba0282e298f9593c0c3e87c03da17428d36f72d",
+      "segments": [
+        {
+          "file": "models/gta3.img",
+          "file_offset": 520374443,
+          "chunk_offset": 0,
+          "length": 268435456
+        }
+      ]
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 268435456,
+      "sha256": "2773f9401ab15748331fd0f30c7f56690791ac06d286fed6fce7012176ff4970",
+      "segments": [
+        {
+          "file": "models/gta3.img",
+          "file_offset": 788809899,
+          "chunk_offset": 0,
+          "length": 151254869
+        },
+        {
+          "file": "models/gta_int.img",
+          "file_offset": 0,
+          "chunk_offset": 151254869,
+          "length": 117180587
+        }
+      ]
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 143449302,
+      "sha256": "ead5b8872646d82b86d23d3776c5ef5910cd65623fcf57e30bf0a0c7d1fa5171",
+      "segments": [
+        {
+          "file": "models/gta_int.img",
+          "file_offset": 117180587,
+          "chunk_offset": 0,
+          "length": 32843605
+        },
+        {
+          "file": "models/hud.txd",
+          "file_offset": 0,
+          "chunk_offset": 32843605,
+          "length": 51624
+        },
+        {
+          "file": "models/misc.txd",
+          "file_offset": 0,
+          "chunk_offset": 32895229,
+          "length": 23976
+        },
+        {
+          "file": "models/particle.txd",
+          "file_offset": 0,
+          "chunk_offset": 32919205,
+          "length": 650536
+        },
+        {
+          "file": "models/pcbtns.txd",
+          "file_offset": 0,
+          "chunk_offset": 33569741,
+          "length": 4648
+        },
+        {
+          "file": "models/player.img",
+          "file_offset": 0,
+          "chunk_offset": 33574389,
+          "length": 66738176
+        },
+        {
+          "file": "models/txd/intro1.txd",
+          "file_offset": 0,
+          "chunk_offset": 100312565,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/intro2.txd",
+          "file_offset": 0,
+          "chunk_offset": 100443805,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/INTRO3.TXD",
+          "file_offset": 0,
+          "chunk_offset": 100575045,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/intro4.txd",
+          "file_offset": 0,
+          "chunk_offset": 100706285,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/LD_BEAT.txd",
+          "file_offset": 0,
+          "chunk_offset": 100837525,
+          "length": 22312
+        },
+        {
+          "file": "models/txd/LD_BUM.txd",
+          "file_offset": 0,
+          "chunk_offset": 100859837,
+          "length": 16816
+        },
+        {
+          "file": "models/txd/LD_CARD.txd",
+          "file_offset": 0,
+          "chunk_offset": 100876653,
+          "length": 441000
+        },
+        {
+          "file": "models/txd/LD_CHAT.txd",
+          "file_offset": 0,
+          "chunk_offset": 101317653,
+          "length": 5928
+        },
+        {
+          "file": "models/txd/LD_DRV.txd",
+          "file_offset": 0,
+          "chunk_offset": 101323581,
+          "length": 258096
+        },
+        {
+          "file": "models/txd/LD_DUAL.txd",
+          "file_offset": 0,
+          "chunk_offset": 101581677,
+          "length": 186312
+        },
+        {
+          "file": "models/txd/ld_grav.txd",
+          "file_offset": 0,
+          "chunk_offset": 101767989,
+          "length": 262440
+        },
+        {
+          "file": "models/txd/LD_NONE.txd",
+          "file_offset": 0,
+          "chunk_offset": 102030429,
+          "length": 113864
+        },
+        {
+          "file": "models/txd/LD_OTB.txd",
+          "file_offset": 0,
+          "chunk_offset": 102144293,
+          "length": 605368
+        },
+        {
+          "file": "models/txd/LD_OTB2.txd",
+          "file_offset": 0,
+          "chunk_offset": 102749661,
+          "length": 198056
+        },
+        {
+          "file": "models/txd/LD_PLAN.txd",
+          "file_offset": 0,
+          "chunk_offset": 102947717,
+          "length": 84528
+        },
+        {
+          "file": "models/txd/LD_POKE.txd",
+          "file_offset": 0,
+          "chunk_offset": 103032245,
+          "length": 480936
+        },
+        {
+          "file": "models/txd/LD_POOL.txd",
+          "file_offset": 0,
+          "chunk_offset": 103513181,
+          "length": 9000
+        },
+        {
+          "file": "models/txd/LD_RACE.txd",
+          "file_offset": 0,
+          "chunk_offset": 103522181,
+          "length": 427688
+        },
+        {
+          "file": "models/txd/LD_RCE1.txd",
+          "file_offset": 0,
+          "chunk_offset": 103949869,
+          "length": 197416
+        },
+        {
+          "file": "models/txd/LD_RCE2.txd",
+          "file_offset": 0,
+          "chunk_offset": 104147285,
+          "length": 197416
+        },
+        {
+          "file": "models/txd/LD_RCE3.txd",
+          "file_offset": 0,
+          "chunk_offset": 104344701,
+          "length": 197416
+        },
+        {
+          "file": "models/txd/LD_RCE4.txd",
+          "file_offset": 0,
+          "chunk_offset": 104542117,
+          "length": 197416
+        },
+        {
+          "file": "models/txd/LD_RCE5.txd",
+          "file_offset": 0,
+          "chunk_offset": 104739533,
+          "length": 32936
+        },
+        {
+          "file": "models/txd/LD_ROUL.txd",
+          "file_offset": 0,
+          "chunk_offset": 104772469,
+          "length": 6568
+        },
+        {
+          "file": "models/txd/ld_shtr.txd",
+          "file_offset": 0,
+          "chunk_offset": 104779037,
+          "length": 277544
+        },
+        {
+          "file": "models/txd/LD_SLOT.txd",
+          "file_offset": 0,
+          "chunk_offset": 105056581,
+          "length": 13096
+        },
+        {
+          "file": "models/txd/LD_SPAC.txd",
+          "file_offset": 0,
+          "chunk_offset": 105069677,
+          "length": 186312
+        },
+        {
+          "file": "models/txd/LD_TATT.txd",
+          "file_offset": 0,
+          "chunk_offset": 105255989,
+          "length": 104488
+        },
+        {
+          "file": "models/txd/load0uk.txd",
+          "file_offset": 0,
+          "chunk_offset": 105360477,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc0.txd",
+          "file_offset": 0,
+          "chunk_offset": 105491717,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc1.txd",
+          "file_offset": 0,
+          "chunk_offset": 105622957,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc10.txd",
+          "file_offset": 0,
+          "chunk_offset": 105754197,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc11.txd",
+          "file_offset": 0,
+          "chunk_offset": 105885437,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc12.txd",
+          "file_offset": 0,
+          "chunk_offset": 106016677,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc13.txd",
+          "file_offset": 0,
+          "chunk_offset": 106147917,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc14.txd",
+          "file_offset": 0,
+          "chunk_offset": 106279157,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc2.txd",
+          "file_offset": 0,
+          "chunk_offset": 106410397,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc3.txd",
+          "file_offset": 0,
+          "chunk_offset": 106541637,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc4.txd",
+          "file_offset": 0,
+          "chunk_offset": 106672877,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc5.txd",
+          "file_offset": 0,
+          "chunk_offset": 106804117,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc6.txd",
+          "file_offset": 0,
+          "chunk_offset": 106935357,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc7.txd",
+          "file_offset": 0,
+          "chunk_offset": 107066597,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc8.txd",
+          "file_offset": 0,
+          "chunk_offset": 107197837,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/loadsc9.txd",
+          "file_offset": 0,
+          "chunk_offset": 107329077,
+          "length": 131240
+        },
+        {
+          "file": "models/txd/LOADSCS.txd",
+          "file_offset": 0,
+          "chunk_offset": 107460317,
+          "length": 3279272
+        },
+        {
+          "file": "models/txd/LOADSUK.txd",
+          "file_offset": 0,
+          "chunk_offset": 110739589,
+          "length": 1968040
+        },
+        {
+          "file": "models/txd/outro.txd",
+          "file_offset": 0,
+          "chunk_offset": 112707629,
+          "length": 263336
+        },
+        {
+          "file": "models/txd/splash1.txd",
+          "file_offset": 0,
+          "chunk_offset": 112970965,
+          "length": 65704
+        },
+        {
+          "file": "models/txd/splash2.txd",
+          "file_offset": 0,
+          "chunk_offset": 113036669,
+          "length": 65704
+        },
+        {
+          "file": "models/txd/splash3.txd",
+          "file_offset": 0,
+          "chunk_offset": 113102373,
+          "length": 40
+        },
+        {
+          "file": "movies/GTAtitles.mpg",
+          "file_offset": 0,
+          "chunk_offset": 113102413,
+          "length": 21577541
+        },
+        {
+          "file": "movies/Logo.mpg",
+          "file_offset": 0,
+          "chunk_offset": 134679954,
+          "length": 3740427
+        },
+        {
+          "file": "ogg.dll",
+          "file_offset": 0,
+          "chunk_offset": 138420381,
+          "length": 36864
+        },
+        {
+          "file": "stream.ini",
+          "file_offset": 0,
+          "chunk_offset": 138457245,
+          "length": 197
+        },
+        {
+          "file": "text/american.gxt",
+          "file_offset": 0,
+          "chunk_offset": 138457442,
+          "length": 738256
+        },
+        {
+          "file": "text/french.gxt",
+          "file_offset": 0,
+          "chunk_offset": 139195698,
+          "length": 798974
+        },
+        {
+          "file": "text/german.gxt",
+          "file_offset": 0,
+          "chunk_offset": 139994672,
+          "length": 812934
+        },
+        {
+          "file": "text/italian.gxt",
+          "file_offset": 0,
+          "chunk_offset": 140807606,
+          "length": 751379
+        },
+        {
+          "file": "text/spanish.gxt",
+          "file_offset": 0,
+          "chunk_offset": 141558985,
+          "length": 763917
+        },
+        {
+          "file": "vorbis.dll",
+          "file_offset": 0,
+          "chunk_offset": 142322902,
+          "length": 1060864
+        },
+        {
+          "file": "vorbisFile.dll",
+          "file_offset": 0,
+          "chunk_offset": 143383766,
+          "length": 65536
+        }
+      ]
+    }
+  ]
+}
