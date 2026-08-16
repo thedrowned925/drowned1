@@ -1,4 +1,5 @@
 name: Build Windows
+
 on:
   workflow_dispatch:
   push:
@@ -8,10 +9,15 @@ on:
       - 'shared/python/**'
       - '.github/workflows/build-windows.yml'
 
+concurrency:
+  group: windows-build-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: windows-latest
     strategy:
+      fail-fast: false
       matrix:
         app:
           - name: Drowned-Release-Manager
@@ -19,27 +25,29 @@ jobs:
             entry: app_v3.py
           - name: Drowned-Launcher
             dir: windows/launcher
-            entry: app_v3.py
+            entry: app_v4.py
     steps:
       - uses: actions/checkout@v6
+
       - uses: actions/setup-python@v6
         with:
           python-version: '3.13'
+          cache: 'pip'
+          cache-dependency-path: |
+            shared/python/pyproject.toml
+            windows/release-manager/requirements.txt
+            windows/launcher/requirements.txt
 
       - name: Install build dependencies
-        run: python -m pip install --upgrade pip pyinstaller
+        run: |
+          python -m pip install pyinstaller
+          python -m pip install shared/python
+          python -m pip install -r ${{ matrix.app.dir }}/requirements.txt
 
-      - name: Install shared core
-        run: python -m pip install shared/python
-
-      - name: Install app dependencies
-        run: python -m pip install -r ${{ matrix.app.dir }}/requirements.txt
-
-      - name: Verify shared core import before packaging
-        run: python -c "import drowned_shared; print('drowned_shared:', drowned_shared.__file__)"
-
-      - name: Compile application source
-        run: python -m py_compile "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
+      - name: Compile and verify imports
+        run: |
+          python -c "import drowned_shared; print('drowned_shared:', drowned_shared.__file__)"
+          python -m py_compile "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
 
       - name: Build Windows application
         shell: pwsh
@@ -68,7 +76,7 @@ jobs:
         run: |
           $exe = Resolve-Path "dist/${{ matrix.app.name }}/${{ matrix.app.name }}.exe"
           $process = Start-Process -FilePath $exe -PassThru
-          Start-Sleep -Seconds 5
+          Start-Sleep -Seconds 8
           $process.Refresh()
           if ($process.HasExited) {
             throw "${{ matrix.app.name }} exited during startup smoke test with code $($process.ExitCode)"
@@ -79,3 +87,4 @@ jobs:
         with:
           name: ${{ matrix.app.name }}-Windows
           path: dist/${{ matrix.app.name }}/
+          compression-level: 0
