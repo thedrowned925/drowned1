@@ -29,6 +29,20 @@ class CoreTests(unittest.TestCase):
                         fp.seek(s['file_offset']); fp.write(blob[s['chunk_offset']:s['chunk_offset']+s['length']])
             for name,blob in data.items(): self.assertEqual((out/name).read_bytes(),blob)
 
+    def test_fast_starter_chunk(self):
+        with tempfile.TemporaryDirectory() as td:
+            base=Path(td); src=base/'src'; chunks=base/'chunks'; src.mkdir()
+            (src/'big.bin').write_bytes(bytes(range(251))*20)
+            builder=ChunkBuilder(src,chunk_size=1000,starter_chunk_size=200)
+            self.assertEqual(builder.chunk_count,6)
+            gen=builder.build(chunks); built=[]
+            while True:
+                try: built.append(next(gen))
+                except StopIteration as stop: result=stop.value; break
+            self.assertEqual(built[0].meta['size'],200)
+            self.assertTrue(all(item.meta['size'] <= 1000 for item in built[1:]))
+            self.assertEqual(sum(item.meta['size'] for item in built),result['total_size'])
+
     def test_path_traversal_rejected(self):
         m={'schema_version':1,'game':{},'release':{'owner':'x','repo':'y','tag':'z'},'chunk_size':1,'total_size':1,'files':[{'path':'../evil.exe','size':1,'sha256':'0'*64}],'chunks':[]}
         with self.assertRaises(ManifestError): validate_manifest(m)
