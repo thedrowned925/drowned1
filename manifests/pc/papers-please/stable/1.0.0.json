@@ -1,0 +1,767 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "papers-please",
+    "title": "Papers, Please",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Congratulations. The October labor lottery is complete. Your name was pulled. For immediate placement, report to the Ministry of Admission at Grestin Border Checkpoint. An apartment will be provided for you and your family in East Grestin."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-papers-please-v1.0.0-stable"
+  },
+  "chunk_size": 1992294400,
+  "starter_chunk_size": 268435456,
+  "total_size": 94151373,
+  "files": [
+    {
+      "path": "baselib.dll",
+      "size": 499848,
+      "sha256": "271399e447f652ed37e1e534ffdafbdc2ca3ef155db5919fee5c506309bac75e"
+    },
+    {
+      "path": "EULA.txt",
+      "size": 38181,
+      "sha256": "ffe7a27bcbd466962ac68c69b99e6ee5600af531c9e22f053a50bf0a098bf4f5"
+    },
+    {
+      "path": "GameAssembly.dll",
+      "size": 13838848,
+      "sha256": "2a815dde6361553c1b66dc765af02d650717082d62ebafaaece4d8ce3b85a48f"
+    },
+    {
+      "path": "gog.ico",
+      "size": 69248,
+      "sha256": "f6a71321521ba89713f0bd38b21f809e87e8a789cb172e8e4693f9479e30b1e4"
+    },
+    {
+      "path": "goggame-1207659209.hashdb",
+      "size": 1971,
+      "sha256": "1c430af0ec950dc9681bffd89006c879859383adeb8249e8c55a504d1a7d7387"
+    },
+    {
+      "path": "goggame-1207659209.ico",
+      "size": 123308,
+      "sha256": "218d58bd6a09b336afbd2b1d75f2a3a7e35e2a8a81d34d00f7b5337db4b2ae43"
+    },
+    {
+      "path": "goggame-1207659209.info",
+      "size": 536,
+      "sha256": "e0c5c76c2019831e9e6f4aee74099e74fad836293051518d53a02b82dc217286"
+    },
+    {
+      "path": "goggame-galaxyFileList.ini",
+      "size": 67,
+      "sha256": "1bf232c871a0fd2dd5e0ce6109b1f15465c85d09397bfccc5e11d1142b93a10c"
+    },
+    {
+      "path": "Launch Papers, Please.lnk",
+      "size": 741,
+      "sha256": "71e9f2a7a838e74e6821ef78ba9836e37bc8699ab41d9164eab0c59c65400937"
+    },
+    {
+      "path": "PapersPlease.exe",
+      "size": 653824,
+      "sha256": "9451692a33540d96352c290e1fb5fdade29b2b112206ccd40d711e271d2886b7"
+    },
+    {
+      "path": "PapersPlease_Data/app.info",
+      "size": 17,
+      "sha256": "c895735dae7c222f39ed357a23876a2218d2392278cf7a2c8356382c91026fd2"
+    },
+    {
+      "path": "PapersPlease_Data/boot.config",
+      "size": 69,
+      "sha256": "25202c8f0caa8139d220c1db829ac0445de52047059b03c920c7d145ddfeb4ba"
+    },
+    {
+      "path": "PapersPlease_Data/globalgamemanagers",
+      "size": 47364,
+      "sha256": "84dd3ad5ce4488d6e16e83f93041c61822522372bffe670eba9d045c64867467"
+    },
+    {
+      "path": "PapersPlease_Data/globalgamemanagers.assets",
+      "size": 60040,
+      "sha256": "d9d1f5b770e058bdd03b61805f0e9907c9aa18df6835a1ebf76949d38a429028"
+    },
+    {
+      "path": "PapersPlease_Data/globalgamemanagers.assets.resS",
+      "size": 6220800,
+      "sha256": "3526cc96219f6a94cc5280335fe0d26b369d569dc3ca7b73b2406faf3f343d36"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/2.0/Browsers/Compat.browser",
+      "size": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "size": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/2.0/machine.config",
+      "size": 29116,
+      "sha256": "edc5bcf685d930a607bc097927260a3f9ac7f52dd809db68158298bfd934b7ce"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/2.0/settings.map",
+      "size": 2622,
+      "sha256": "49c6160f9d54af4270a3b4e997fc4a8301f79b9e2070118fa46ddbcbbc44f9a2"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/2.0/web.config",
+      "size": 11686,
+      "sha256": "3c1a76a5849074b437d297656a208a3bef6d84b982153542b9c797046c601dfc"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/4.0/Browsers/Compat.browser",
+      "size": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "size": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/4.0/machine.config",
+      "size": 33648,
+      "sha256": "6919d5af506aae0d93e91bd83418a81895a5554b9f54cf94aad20d025a4db664"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/4.0/settings.map",
+      "size": 2622,
+      "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/4.0/web.config",
+      "size": 18848,
+      "sha256": "f1a6416eeedd9d040387fd85dcf7d6e074b6644c6829d08be220ff9fc32efb31"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/4.5/Browsers/Compat.browser",
+      "size": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "size": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/4.5/machine.config",
+      "size": 34106,
+      "sha256": "ef9b9387168fd1dd6c996f96c134d9c44f8eb06f9587004bf997252a520182d6"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/4.5/settings.map",
+      "size": 2622,
+      "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/4.5/web.config",
+      "size": 18857,
+      "sha256": "15a2c7a9242bf54d3ccb3e07fa6d8f84ba8b303d8877243787a1103009941bdb"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/browscap.ini",
+      "size": 311984,
+      "sha256": "4ddd50f31fb968f30bedefc253a46dc3f2890192d05cdaa9e0a64a056eee807e"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/config",
+      "size": 3276,
+      "sha256": "60099cf91bb1a5717fc1f2d23cf36a61d3bfb70d9489fbb6f4bae98c560bf3d5"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/etc/mono/mconfig/config.xml",
+      "size": 25817,
+      "sha256": "0c56e34c69124510fa8c19e7b4c2ca6c1c4ff460ae19f798dd0ca035809e396d"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/Metadata/global-metadata.dat",
+      "size": 3247268,
+      "sha256": "9032b4d6d22cdf9527cb6483353d20f48f9182c961c5d712733e4a0ae48d3da3"
+    },
+    {
+      "path": "PapersPlease_Data/il2cpp_data/Resources/mscorlib.dll-resources.dat",
+      "size": 337563,
+      "sha256": "c5baa176a5b72cd545266340e42102d393a5e43d38c95796bc828918bb95277f"
+    },
+    {
+      "path": "PapersPlease_Data/level0",
+      "size": 9644,
+      "sha256": "1697ac8bffd3c0382846f456e87e5d082bf21e41f857f2f70bdbf3119dcb01d9"
+    },
+    {
+      "path": "PapersPlease_Data/Resources/unity default resources",
+      "size": 4844872,
+      "sha256": "458713a9e0aca9b787f40e355055a9e8f8193d0a203058b21164035fc573ad4a"
+    },
+    {
+      "path": "PapersPlease_Data/Resources/unity_builtin_extra",
+      "size": 386948,
+      "sha256": "c26c38abb45c86c9f5b57e463d3434ecb44b988f35197cdc39eaf06b63bf6d73"
+    },
+    {
+      "path": "PapersPlease_Data/RuntimeInitializeOnLoads.json",
+      "size": 154,
+      "sha256": "8d4b6ed55a16cf8b9392e8d3187617ea0913da8fdb7e11d81f7d2d2f448b04ee"
+    },
+    {
+      "path": "PapersPlease_Data/ScriptingAssemblies.json",
+      "size": 2561,
+      "sha256": "58ebefeb07b7117327fe4cb8b9d4db72fd9d1283548f66d71ef6feb77030700d"
+    },
+    {
+      "path": "PapersPlease_Data/sharedassets0.assets",
+      "size": 3341200,
+      "sha256": "92c633ebd2e34bb7988fc543fcc7a4821ebf013c535a647bce321436d1e0b70b"
+    },
+    {
+      "path": "PapersPlease_Data/sharedassets0.resource",
+      "size": 12272544,
+      "sha256": "ec55f4287080bf944446431a27fc977aa62685e632e55c9f4d44199a8c699648"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/cs.zip",
+      "size": 1055268,
+      "sha256": "f796fd59f67f7af90593d828436f2b573af2c161331cda5468350139c120451e"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/de.zip",
+      "size": 677077,
+      "sha256": "7cae83bd9a37951c0e5f1730b4a68447c0e9ca38a4a73b07687210b750e27528"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/en.zip",
+      "size": 641422,
+      "sha256": "3e054d19d947ee73e7b09701c1cb957198ade82191126107651aba39342f65ce"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/es.zip",
+      "size": 668728,
+      "sha256": "771dd0641f536a6438e519ecc3c4c985935704af5cf529fed118c96e464200aa"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/eu.zip",
+      "size": 659098,
+      "sha256": "77014be0a62a0232197f57206a4fbe4c5f8e5c3e2170e9687056e7a7058da16c"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/fr.zip",
+      "size": 679468,
+      "sha256": "7c60f0d096ba8ffc559d90c92b8cddc8c18fb6eeb76e36dcffbf5e5786f2ca99"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/id.zip",
+      "size": 655305,
+      "sha256": "02f2dba8e210810714f7e2040d7a596ea924a49349138e0c281d14443fc33876"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/it.zip",
+      "size": 653195,
+      "sha256": "b6d0c65abc8be2adc18caa2cb9b3c046855d494f96947a8b3a7ef0ffe444d6d0"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/ja.zip",
+      "size": 687222,
+      "sha256": "d27a7b31a0c45d0bd94911451060a4f24703589421c3466efb40074fda7d0827"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/ko.zip",
+      "size": 2209046,
+      "sha256": "d2af242f10503dc429ade60afd30fb675bcb0747cc49b65a58fd9b6f41b760b6"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/pl.zip",
+      "size": 671437,
+      "sha256": "0d064dfdf6cdafd3398fb93f1be6c85e5dc9aacc50559c70ba54123e998ffb09"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/pt-BR.zip",
+      "size": 662703,
+      "sha256": "cd87f0ef96823502b0eba3ec5196c654eaa81005a8195255684097e0ff6cc67c"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/ru.zip",
+      "size": 710359,
+      "sha256": "49735919ea8fbe8d24304b74c83d5a90db921a5dac682a311efa6cf174748116"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/tr.zip",
+      "size": 992462,
+      "sha256": "32331dab193613a01c9016947814d72b20da86b956d03548ac7e2f19a9c21e6c"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/ukr.zip",
+      "size": 714846,
+      "sha256": "8ee6b1321faa747e2e8e6d740f534de7103029a1d863fd24a3b6b2b9ecab34c9"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/loc/zh.zip",
+      "size": 2147571,
+      "sha256": "10a7c2d894b89addb83f5d538ac1f616dfb87dd86d915aa816f088709658e1da"
+    },
+    {
+      "path": "PapersPlease_Data/StreamingAssets/Version.txt",
+      "size": 10,
+      "sha256": "cbaae463a1850e390ea7ba9dfd8e0e23e0f874b5fe8ad76662321a38ad2a5a0f"
+    },
+    {
+      "path": "support.ico",
+      "size": 62895,
+      "sha256": "05fe749ef47d1ec862d6c55be78e66d1011226bf1f78409acf57cb79cec5eb20"
+    },
+    {
+      "path": "unins000.dat",
+      "size": 1701142,
+      "sha256": "1b76381fe86542f569c89c88692182dd440ee44c346c8e313cb97fdbc6621f6c"
+    },
+    {
+      "path": "unins000.exe",
+      "size": 1343048,
+      "sha256": "5761e7789d813626cd68ee1e62429cfeb92bdd814cd29ef12fc4ae9ec1dbaff3"
+    },
+    {
+      "path": "unins000.ini",
+      "size": 41,
+      "sha256": "49713c49dc69daa74a5652ae5afca10029244690275e04194607de84539215c0"
+    },
+    {
+      "path": "unins000.msg",
+      "size": 23147,
+      "sha256": "e43d06ec2b3dbe3d81bcd6b7880d28d074dac54b38646a605cfc5c809939da16"
+    },
+    {
+      "path": "UnityCrashHandler64.exe",
+      "size": 1234568,
+      "sha256": "10199a7392e8cef04330be0d01ee55dfb9ce95052ed741937fe4bec808511539"
+    },
+    {
+      "path": "UnityPlayer.dll",
+      "size": 28262024,
+      "sha256": "081370faf9eee028c662e48683525b7c431c22f4dac9923edd03aa480376cbf4"
+    },
+    {
+      "path": "webcache.zip",
+      "size": 359931,
+      "sha256": "54602603a7924c67ee3aab2659ce0accf08ac74c165918a6b9e39d997741aeb5"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 94151373,
+      "sha256": "8901be4ec35262c054e714450b06903d6741628cfb7a993608f35337fb17332e",
+      "segments": [
+        {
+          "file": "baselib.dll",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 499848
+        },
+        {
+          "file": "EULA.txt",
+          "file_offset": 0,
+          "chunk_offset": 499848,
+          "length": 38181
+        },
+        {
+          "file": "GameAssembly.dll",
+          "file_offset": 0,
+          "chunk_offset": 538029,
+          "length": 13838848
+        },
+        {
+          "file": "gog.ico",
+          "file_offset": 0,
+          "chunk_offset": 14376877,
+          "length": 69248
+        },
+        {
+          "file": "goggame-1207659209.hashdb",
+          "file_offset": 0,
+          "chunk_offset": 14446125,
+          "length": 1971
+        },
+        {
+          "file": "goggame-1207659209.ico",
+          "file_offset": 0,
+          "chunk_offset": 14448096,
+          "length": 123308
+        },
+        {
+          "file": "goggame-1207659209.info",
+          "file_offset": 0,
+          "chunk_offset": 14571404,
+          "length": 536
+        },
+        {
+          "file": "goggame-galaxyFileList.ini",
+          "file_offset": 0,
+          "chunk_offset": 14571940,
+          "length": 67
+        },
+        {
+          "file": "Launch Papers, Please.lnk",
+          "file_offset": 0,
+          "chunk_offset": 14572007,
+          "length": 741
+        },
+        {
+          "file": "PapersPlease.exe",
+          "file_offset": 0,
+          "chunk_offset": 14572748,
+          "length": 653824
+        },
+        {
+          "file": "PapersPlease_Data/app.info",
+          "file_offset": 0,
+          "chunk_offset": 15226572,
+          "length": 17
+        },
+        {
+          "file": "PapersPlease_Data/boot.config",
+          "file_offset": 0,
+          "chunk_offset": 15226589,
+          "length": 69
+        },
+        {
+          "file": "PapersPlease_Data/globalgamemanagers",
+          "file_offset": 0,
+          "chunk_offset": 15226658,
+          "length": 47364
+        },
+        {
+          "file": "PapersPlease_Data/globalgamemanagers.assets",
+          "file_offset": 0,
+          "chunk_offset": 15274022,
+          "length": 60040
+        },
+        {
+          "file": "PapersPlease_Data/globalgamemanagers.assets.resS",
+          "file_offset": 0,
+          "chunk_offset": 15334062,
+          "length": 6220800
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/2.0/Browsers/Compat.browser",
+          "file_offset": 0,
+          "chunk_offset": 21554862,
+          "length": 1605
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+          "file_offset": 0,
+          "chunk_offset": 21556467,
+          "length": 60575
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/2.0/machine.config",
+          "file_offset": 0,
+          "chunk_offset": 21617042,
+          "length": 29116
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/2.0/settings.map",
+          "file_offset": 0,
+          "chunk_offset": 21646158,
+          "length": 2622
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/2.0/web.config",
+          "file_offset": 0,
+          "chunk_offset": 21648780,
+          "length": 11686
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/4.0/Browsers/Compat.browser",
+          "file_offset": 0,
+          "chunk_offset": 21660466,
+          "length": 1605
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+          "file_offset": 0,
+          "chunk_offset": 21662071,
+          "length": 60575
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/4.0/machine.config",
+          "file_offset": 0,
+          "chunk_offset": 21722646,
+          "length": 33648
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/4.0/settings.map",
+          "file_offset": 0,
+          "chunk_offset": 21756294,
+          "length": 2622
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/4.0/web.config",
+          "file_offset": 0,
+          "chunk_offset": 21758916,
+          "length": 18848
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/4.5/Browsers/Compat.browser",
+          "file_offset": 0,
+          "chunk_offset": 21777764,
+          "length": 1605
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+          "file_offset": 0,
+          "chunk_offset": 21779369,
+          "length": 60575
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/4.5/machine.config",
+          "file_offset": 0,
+          "chunk_offset": 21839944,
+          "length": 34106
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/4.5/settings.map",
+          "file_offset": 0,
+          "chunk_offset": 21874050,
+          "length": 2622
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/4.5/web.config",
+          "file_offset": 0,
+          "chunk_offset": 21876672,
+          "length": 18857
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/browscap.ini",
+          "file_offset": 0,
+          "chunk_offset": 21895529,
+          "length": 311984
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/config",
+          "file_offset": 0,
+          "chunk_offset": 22207513,
+          "length": 3276
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/etc/mono/mconfig/config.xml",
+          "file_offset": 0,
+          "chunk_offset": 22210789,
+          "length": 25817
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/Metadata/global-metadata.dat",
+          "file_offset": 0,
+          "chunk_offset": 22236606,
+          "length": 3247268
+        },
+        {
+          "file": "PapersPlease_Data/il2cpp_data/Resources/mscorlib.dll-resources.dat",
+          "file_offset": 0,
+          "chunk_offset": 25483874,
+          "length": 337563
+        },
+        {
+          "file": "PapersPlease_Data/level0",
+          "file_offset": 0,
+          "chunk_offset": 25821437,
+          "length": 9644
+        },
+        {
+          "file": "PapersPlease_Data/Resources/unity default resources",
+          "file_offset": 0,
+          "chunk_offset": 25831081,
+          "length": 4844872
+        },
+        {
+          "file": "PapersPlease_Data/Resources/unity_builtin_extra",
+          "file_offset": 0,
+          "chunk_offset": 30675953,
+          "length": 386948
+        },
+        {
+          "file": "PapersPlease_Data/RuntimeInitializeOnLoads.json",
+          "file_offset": 0,
+          "chunk_offset": 31062901,
+          "length": 154
+        },
+        {
+          "file": "PapersPlease_Data/ScriptingAssemblies.json",
+          "file_offset": 0,
+          "chunk_offset": 31063055,
+          "length": 2561
+        },
+        {
+          "file": "PapersPlease_Data/sharedassets0.assets",
+          "file_offset": 0,
+          "chunk_offset": 31065616,
+          "length": 3341200
+        },
+        {
+          "file": "PapersPlease_Data/sharedassets0.resource",
+          "file_offset": 0,
+          "chunk_offset": 34406816,
+          "length": 12272544
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/cs.zip",
+          "file_offset": 0,
+          "chunk_offset": 46679360,
+          "length": 1055268
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/de.zip",
+          "file_offset": 0,
+          "chunk_offset": 47734628,
+          "length": 677077
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/en.zip",
+          "file_offset": 0,
+          "chunk_offset": 48411705,
+          "length": 641422
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/es.zip",
+          "file_offset": 0,
+          "chunk_offset": 49053127,
+          "length": 668728
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/eu.zip",
+          "file_offset": 0,
+          "chunk_offset": 49721855,
+          "length": 659098
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/fr.zip",
+          "file_offset": 0,
+          "chunk_offset": 50380953,
+          "length": 679468
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/id.zip",
+          "file_offset": 0,
+          "chunk_offset": 51060421,
+          "length": 655305
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/it.zip",
+          "file_offset": 0,
+          "chunk_offset": 51715726,
+          "length": 653195
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/ja.zip",
+          "file_offset": 0,
+          "chunk_offset": 52368921,
+          "length": 687222
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/ko.zip",
+          "file_offset": 0,
+          "chunk_offset": 53056143,
+          "length": 2209046
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/pl.zip",
+          "file_offset": 0,
+          "chunk_offset": 55265189,
+          "length": 671437
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/pt-BR.zip",
+          "file_offset": 0,
+          "chunk_offset": 55936626,
+          "length": 662703
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/ru.zip",
+          "file_offset": 0,
+          "chunk_offset": 56599329,
+          "length": 710359
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/tr.zip",
+          "file_offset": 0,
+          "chunk_offset": 57309688,
+          "length": 992462
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/ukr.zip",
+          "file_offset": 0,
+          "chunk_offset": 58302150,
+          "length": 714846
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/loc/zh.zip",
+          "file_offset": 0,
+          "chunk_offset": 59016996,
+          "length": 2147571
+        },
+        {
+          "file": "PapersPlease_Data/StreamingAssets/Version.txt",
+          "file_offset": 0,
+          "chunk_offset": 61164567,
+          "length": 10
+        },
+        {
+          "file": "support.ico",
+          "file_offset": 0,
+          "chunk_offset": 61164577,
+          "length": 62895
+        },
+        {
+          "file": "unins000.dat",
+          "file_offset": 0,
+          "chunk_offset": 61227472,
+          "length": 1701142
+        },
+        {
+          "file": "unins000.exe",
+          "file_offset": 0,
+          "chunk_offset": 62928614,
+          "length": 1343048
+        },
+        {
+          "file": "unins000.ini",
+          "file_offset": 0,
+          "chunk_offset": 64271662,
+          "length": 41
+        },
+        {
+          "file": "unins000.msg",
+          "file_offset": 0,
+          "chunk_offset": 64271703,
+          "length": 23147
+        },
+        {
+          "file": "UnityCrashHandler64.exe",
+          "file_offset": 0,
+          "chunk_offset": 64294850,
+          "length": 1234568
+        },
+        {
+          "file": "UnityPlayer.dll",
+          "file_offset": 0,
+          "chunk_offset": 65529418,
+          "length": 28262024
+        },
+        {
+          "file": "webcache.zip",
+          "file_offset": 0,
+          "chunk_offset": 93791442,
+          "length": 359931
+        }
+      ]
+    }
+  ]
+}
