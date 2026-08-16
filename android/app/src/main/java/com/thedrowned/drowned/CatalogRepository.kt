@@ -6,7 +6,6 @@ import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
 import java.net.URLEncoder
-import java.nio.charset.StandardCharsets
 
 class CatalogRepository {
     suspend fun load(owner: String, repo: String, branch: String): Catalog = withContext(Dispatchers.IO) {
@@ -23,7 +22,8 @@ class CatalogRepository {
         } finally { connection.disconnect() }
     }
 
-    private fun encodeSegment(value: String): String = URLEncoder.encode(value, StandardCharsets.UTF_8).replace("+", "%20")
+    @Suppress("DEPRECATION")
+    private fun encodeSegment(value: String): String = URLEncoder.encode(value, "UTF-8").replace("+", "%20")
 
     private fun rawUrl(owner: String, repo: String, branch: String, path: String): String {
         val encodedPath = path.trim('/').split('/').joinToString("/") { encodeSegment(it) }
