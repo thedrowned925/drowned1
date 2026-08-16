@@ -1,0 +1,995 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "assassin-s-creed-director-s-cut-edition",
+    "title": "Assassin's Creed™: Director's Cut Edition",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Assassin's Creed™ is the next-gen game developed by Ubisoft Montreal that redefines the action genre. While other games claim to be next-gen with impressive graphics and physics, Assassin's Creed merges technology, game design, theme and emotions into a world where you instigate chaos and become a vulnerable, yet powerful, agent of..."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-assassin-s-creed-director-s-cut-edition-v1.0.0-stable"
+  },
+  "chunk_size": 450887680,
+  "upload_workers": 16,
+  "total_size": 7201399454,
+  "files": [
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "AssassinsCreed_Dx10.exe",
+      "size": 24183432,
+      "sha256": "576a04841c37be5a819974abd59ea3ecd818f0bc36acab71c62ee0313dca0129"
+    },
+    {
+      "path": "AssassinsCreed_Dx9.exe",
+      "size": 24666760,
+      "sha256": "2fa8d50c60398cc249c6d908de46b15f48e445dd0c605b5956e94fa2f445a713"
+    },
+    {
+      "path": "AssassinsCreed_Game.exe",
+      "size": 438272,
+      "sha256": "d21c43d9752f220c356146732b21220a2759e37130dfcb448aa351e9fad34d32"
+    },
+    {
+      "path": "AssassinsCreed_Launcher.exe",
+      "size": 619144,
+      "sha256": "1b1918f1b729dc981486f4f69a02fdd9c844aab4f6e006ed09f1f0b3c2dc6f0f"
+    },
+    {
+      "path": "binkw32.dll",
+      "size": 193024,
+      "sha256": "603d0a96d1f27422f88d78b20ca525975ebe5e0d7667e62b98a3db80766702b4"
+    },
+    {
+      "path": "d3dx10_36.dll",
+      "size": 444776,
+      "sha256": "aee0248f18dfef8194451a22c69adda1cca38c03ae9aa776114da9d8851d4c38"
+    },
+    {
+      "path": "d3dx9_36.dll",
+      "size": 3734536,
+      "sha256": "c12f0ab0338eb5031d3d04beaf7208ac848f7e037d21ff963d2af90221cbe935"
+    },
+    {
+      "path": "DataPC.forge",
+      "size": 203259904,
+      "sha256": "7c6859d231528174eb08b9e2493b9c1b40c23babf95d84065e462a4b225b2483"
+    },
+    {
+      "path": "DataPC_Acre.forge",
+      "size": 848396288,
+      "sha256": "bb36c397b4bb3bfc941f072a04945bf6c8a14a6e2379d7cbbe35a9223390e884"
+    },
+    {
+      "path": "DataPC_Arsuf.forge",
+      "size": 386433024,
+      "sha256": "22a8c13cf61288f592bed616567075d1cd116f132f3cbb7a93596159627c32a1"
+    },
+    {
+      "path": "DataPC_Assassination_Talal.forge",
+      "size": 106168320,
+      "sha256": "7fcce8bb6fc1977abc84ab9585d0bd0a86384485df5cf44ae81e11df7bec09ce"
+    },
+    {
+      "path": "DataPC_Common.forge",
+      "size": 699138048,
+      "sha256": "9339e99b6825d999898ab914b064b512c99f38271bd2a4c326bd19a541ea4d30"
+    },
+    {
+      "path": "DataPC_Damascus.forge",
+      "size": 812744704,
+      "sha256": "d1b7158c188867a3185cdc971bf80718f1896a67c347a20fa92fa939a01d8d0f"
+    },
+    {
+      "path": "DataPC_Extra.forge",
+      "size": 25362432,
+      "sha256": "624cb6f1a86ad9747c28f75aa237b81ada43ccf4339dfc2ca3c9b0c5c9d1e57b"
+    },
+    {
+      "path": "DataPC_Flashback_Paradise.forge",
+      "size": 206340096,
+      "sha256": "47ea89a1874e0318994bff65a826bef9f58372fc241b8e9cdd5657f0134e0800"
+    },
+    {
+      "path": "DataPC_Jerusalem.forge",
+      "size": 823623680,
+      "sha256": "beba87d94818968b519be04895ad3bbf5ca53254d23bca04dac4fe42d1b324e9"
+    },
+    {
+      "path": "DataPC_Kingdom.forge",
+      "size": 735215616,
+      "sha256": "e37ae8fd3abd265cbf5c29f8581ddd7300648325fdb8ddbbe0bb7d9d8392260b"
+    },
+    {
+      "path": "DataPC_LoadingRoom2.forge",
+      "size": 10780672,
+      "sha256": "49747d9764623327849f8c6f1375adb95134bcff3157c73f08f4b5670d4cfee8"
+    },
+    {
+      "path": "DataPC_Map_Menu.forge",
+      "size": 1605632,
+      "sha256": "7e65d950b544fec1d9317c61dfdec5cd068345a46dd5f5dfb4bfcf321b9fa83b"
+    },
+    {
+      "path": "DataPC_Masyaf.forge",
+      "size": 753696768,
+      "sha256": "4c30ae79c4701d4c036c671d131ee60e7c9f478ecf416e09f9ddd839c2ac66da"
+    },
+    {
+      "path": "DataPC_Memory_Corridor.forge",
+      "size": 150110208,
+      "sha256": "9e4a5390d72b228dae1cb6d3ea8d91357b1e14360874df039fd33c75f3fc9e1d"
+    },
+    {
+      "path": "DataPC_Present_Room.forge",
+      "size": 300122112,
+      "sha256": "dc6be727b35b0d8f9b9a957ccd20cd7ac6e867c99488c6746f78bd08c9b3f1e8"
+    },
+    {
+      "path": "DataPC_SolomonTemple.forge",
+      "size": 257261568,
+      "sha256": "13203566d43a648229734debf460430e822ce73d4be7fd6d35611b220d414228"
+    },
+    {
+      "path": "DataPC_StreamedSounds.forge",
+      "size": 472186880,
+      "sha256": "b6a1e39033eb1bf39c1f9081d0db3a73d245519e0fd62d5186cda85916c87788"
+    },
+    {
+      "path": "DataPC_StreamedSoundseng.forge",
+      "size": 130940928,
+      "sha256": "ea68f7e60834aea05508b4d5f5a54f66a38b9e257ad7e1bc1ff823db42543ace"
+    },
+    {
+      "path": "DefaultBindings.map",
+      "size": 13019,
+      "sha256": "42d0144cc991c3a1db3377f23c6cd4cfb345e6eaafefd0228b691623707d5199"
+    },
+    {
+      "path": "Detection/Detection.exe",
+      "size": 225280,
+      "sha256": "5363a6649614c2adb24a494f7b9f2dad52ee932ae509ea8f347f4242d91c55fd"
+    },
+    {
+      "path": "Detection/detectionapi_rd.dll",
+      "size": 167936,
+      "sha256": "c58c21c679890510d3440bebd89ca8deacf8feeaa0a2f6b7a64255ea756fe681"
+    },
+    {
+      "path": "Detection/directx10tests_rd.dll",
+      "size": 155648,
+      "sha256": "093bd69c3dfa02251004df726162731ebf753a0f0575335fedf2a20b4685b106"
+    },
+    {
+      "path": "Detection/directx9tests_rd.dll",
+      "size": 26624,
+      "sha256": "7dedc7f9feed66363ffb84b12ffbc8e0cd154c5e14d40ad284a13950eb46f02c"
+    },
+    {
+      "path": "Detection/directxtests_rd.tst",
+      "size": 13824,
+      "sha256": "d620b5e6c6373f2662fc56a241f60dc65a19630d9ea5737ee263ad13b6dd9a0e"
+    },
+    {
+      "path": "Detection/gameinterpreters_rd.intr",
+      "size": 151552,
+      "sha256": "8e14e031bd98c6d5f01e545adc794f46a34c04d5ffa91932b27786fac1905c80"
+    },
+    {
+      "path": "Detection/local.dll",
+      "size": 5591040,
+      "sha256": "3f8fcb3cc2ee9ebbcf293d4928f295e2e32ce62b094992bf1b0f94d3928a1e83"
+    },
+    {
+      "path": "Detection/localization/CZ/interpreter_local.ini",
+      "size": 8226,
+      "sha256": "32067e517098e88bf129b26c48ecd425d6c97e929692f100001fce47067f8140"
+    },
+    {
+      "path": "Detection/localization/DEU/interpreter_local.ini",
+      "size": 9064,
+      "sha256": "0c1c519c8cf09571068ab052b00d9229f720b9c201491db0615b2e2d83373694"
+    },
+    {
+      "path": "Detection/localization/EN/interpreter_local.ini",
+      "size": 7718,
+      "sha256": "b9f9e8b69426cdb1454d49cd31b5c4b2408ebf48e55b9bdb69f65da4f93371f8"
+    },
+    {
+      "path": "Detection/localization/ESM/interpreter_local.ini",
+      "size": 8658,
+      "sha256": "2fee8b6e47965637059d342d17edd5ce903d0517a38548df6b120bdb668092dc"
+    },
+    {
+      "path": "Detection/localization/FR/interpreter_local.ini",
+      "size": 8784,
+      "sha256": "6b01918d703129d81efad46e24603c7d78c5e9fdacf9407e34a37f0dc5450386"
+    },
+    {
+      "path": "Detection/localization/ITA/interpreter_local.ini",
+      "size": 8474,
+      "sha256": "68ca17a0a23482dff67ea29155182ab0c55e35eba59844f9638048f3f8ca0706"
+    },
+    {
+      "path": "Detection/localization/PO/interpreter_local.ini",
+      "size": 8584,
+      "sha256": "017da7c1305e4c3d538237544c275398f531b0ef789ea4295378c13f885c5dcd"
+    },
+    {
+      "path": "Detection/localization/RU/interpreter_local.ini",
+      "size": 7926,
+      "sha256": "67010f67677a96cc08a332d7db0f03045fe4911b76d3108727d64d617640678d"
+    },
+    {
+      "path": "Detection/MFC71.dll",
+      "size": 1060864,
+      "sha256": "4da5efdc46d126b45daeee8bc69c0ba2aa243589046b7dfd12a7e21b9bee6a32"
+    },
+    {
+      "path": "Detection/MFC71u.dll",
+      "size": 1047552,
+      "sha256": "0c58f682e1b3af064963dd616e80609006e9317f2fcb0f3a51ed32fef13b1081"
+    },
+    {
+      "path": "Detection/msvcp71.dll",
+      "size": 499712,
+      "sha256": "df96156f6a548fd6fe5672918de5ae4509d3c810a57bffd2a91de45a3ed5b23b"
+    },
+    {
+      "path": "Detection/msvcr71.dll",
+      "size": 348160,
+      "sha256": "8094af5ee310714caebccaeee7769ffb08048503ba478b879edfef5f1a24fefe"
+    },
+    {
+      "path": "Detection/systemtests_rd.tst",
+      "size": 499712,
+      "sha256": "2acc10a927d78115a170478952d55d613f56cbcc297cf3f15c755a6bb07390a8"
+    },
+    {
+      "path": "eax.dll",
+      "size": 192512,
+      "sha256": "70c38f00d9fb722bcee85e4de6b30edbe580adefb49925c641978deb01a2601b"
+    },
+    {
+      "path": "installscript.vdf",
+      "size": 2912,
+      "sha256": "e9a0f0ba5e430639327e70a654248f0ae53b03224b09b6ba482981f36dedc393"
+    },
+    {
+      "path": "Register/RegistrationReminder.exe",
+      "size": 967304,
+      "sha256": "2e4672625b79d7a7c2272594b49fc637669aee4f749baa036efe94692db0e5b6"
+    },
+    {
+      "path": "Resources/de/GameUpdate.de",
+      "size": 7201,
+      "sha256": "49e6ed48ed03deffee7e137491bb11529ff0ed982ed1f39983d35a1c5eca6a3d"
+    },
+    {
+      "path": "Resources/es/GameUpdate.es",
+      "size": 8105,
+      "sha256": "4fb00c24475d5b58a8325b834aa556c9173ef7e0450d2cd8a8915e53e69b6ab2"
+    },
+    {
+      "path": "Resources/fr/GameUpdate.fr",
+      "size": 7968,
+      "sha256": "cc5f82600942fe7217cb0659ac7f308aed23369e66b076662a2098628684f95e"
+    },
+    {
+      "path": "Resources/it/GameUpdate.it",
+      "size": 7371,
+      "sha256": "6ae8b4a4a0ba7795a9d44590116e5d7da4adc9bb07d36fd21c2694bbc187f20e"
+    },
+    {
+      "path": "Resources/uk/GameUpdate.uk",
+      "size": 6294,
+      "sha256": "c1da45cb2742623cbb0f93d2aafbd1281e8c94ed47b6f7f9c659a6b2b9e4a128"
+    },
+    {
+      "path": "Resources/us/GameUpdate.us",
+      "size": 6303,
+      "sha256": "1763840008f9e151f9df8f967171e1c8c8148cf38c690a898a4eccade399785f"
+    },
+    {
+      "path": "Support/Manual/AssassinsCreed.pdf",
+      "size": 3606650,
+      "sha256": "d6de0e7a9e00ce06a7e111e3fa5bd86090d254306f11b5ed5864ffe902dd4fe8"
+    },
+    {
+      "path": "Support/Readme/ReadMe.txt",
+      "size": 9401,
+      "sha256": "e2f27a3ffbff238995b55ff654048228b82cfedacb19cd0fec6e75c0a3e6644d"
+    },
+    {
+      "path": "testapp.exe",
+      "size": 438272,
+      "sha256": "d21c43d9752f220c356146732b21220a2759e37130dfcb448aa351e9fad34d32"
+    },
+    {
+      "path": "Videos/DemoIntro.bik",
+      "size": 150164976,
+      "sha256": "c0f405be5ee4cb8176261542990042c4066e528dee807f924122a43a8dfa3b98"
+    },
+    {
+      "path": "Videos/LoadingScreen.bik",
+      "size": 1380832,
+      "sha256": "10d365f3ee525651cc3a8af81ea906da353b2fadfbce769f79313b9f073e9aba"
+    },
+    {
+      "path": "Videos/UBI_LOGO.bik",
+      "size": 8674328,
+      "sha256": "2baaf48254c5eed18c9c145d06025b55c9e34386d7cafab6f6d690f9c98d255b"
+    },
+    {
+      "path": "Videos/Ubisoft_Presents.bik",
+      "size": 12504,
+      "sha256": "6c62a0448d105f1e1ca7c42106bceedfbaf95dbadec2063b539d933f0962b361"
+    },
+    {
+      "path": "Videos/Warning_Disclaimer.bik",
+      "size": 40980,
+      "sha256": "854ead0a61b3480920963848a704850b41287b7507847facf02abd475251e03c"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 450887680,
+      "sha256": "5fdc2ee4fe0451382804d58cedd3b623987d8c0b798065b1ed4454811ce81d1f",
+      "segments": [
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 288088,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1097584,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16071608,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 30483912,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 36202784,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 41276024,
+          "length": 7054336
+        },
+        {
+          "file": "AssassinsCreed_Dx10.exe",
+          "file_offset": 0,
+          "chunk_offset": 48330360,
+          "length": 24183432
+        },
+        {
+          "file": "AssassinsCreed_Dx9.exe",
+          "file_offset": 0,
+          "chunk_offset": 72513792,
+          "length": 24666760
+        },
+        {
+          "file": "AssassinsCreed_Game.exe",
+          "file_offset": 0,
+          "chunk_offset": 97180552,
+          "length": 438272
+        },
+        {
+          "file": "AssassinsCreed_Launcher.exe",
+          "file_offset": 0,
+          "chunk_offset": 97618824,
+          "length": 619144
+        },
+        {
+          "file": "binkw32.dll",
+          "file_offset": 0,
+          "chunk_offset": 98237968,
+          "length": 193024
+        },
+        {
+          "file": "d3dx10_36.dll",
+          "file_offset": 0,
+          "chunk_offset": 98430992,
+          "length": 444776
+        },
+        {
+          "file": "d3dx9_36.dll",
+          "file_offset": 0,
+          "chunk_offset": 98875768,
+          "length": 3734536
+        },
+        {
+          "file": "DataPC.forge",
+          "file_offset": 0,
+          "chunk_offset": 102610304,
+          "length": 203259904
+        },
+        {
+          "file": "DataPC_Acre.forge",
+          "file_offset": 0,
+          "chunk_offset": 305870208,
+          "length": 145017472
+        }
+      ]
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 450887680,
+      "sha256": "4aee8e71dc0a59212ae9e0fd3bf817e7643e548b5280080c408f9b1db0785384",
+      "segments": [
+        {
+          "file": "DataPC_Acre.forge",
+          "file_offset": 145017472,
+          "chunk_offset": 0,
+          "length": 450887680
+        }
+      ]
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 450887680,
+      "sha256": "76fb77d269bda537ca7d28d83a927a93e9081c0ed5f775d29cd119e19bb9593c",
+      "segments": [
+        {
+          "file": "DataPC_Acre.forge",
+          "file_offset": 595905152,
+          "chunk_offset": 0,
+          "length": 252491136
+        },
+        {
+          "file": "DataPC_Arsuf.forge",
+          "file_offset": 0,
+          "chunk_offset": 252491136,
+          "length": 198396544
+        }
+      ]
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 450887680,
+      "sha256": "da8930b82fedcc99221b9b4ec864b1094850586619ab60a4f226cf3051967e4a",
+      "segments": [
+        {
+          "file": "DataPC_Arsuf.forge",
+          "file_offset": 198396544,
+          "chunk_offset": 0,
+          "length": 188036480
+        },
+        {
+          "file": "DataPC_Assassination_Talal.forge",
+          "file_offset": 0,
+          "chunk_offset": 188036480,
+          "length": 106168320
+        },
+        {
+          "file": "DataPC_Common.forge",
+          "file_offset": 0,
+          "chunk_offset": 294204800,
+          "length": 156682880
+        }
+      ]
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 450887680,
+      "sha256": "a42e5541e679fe8ea7fcc11052729527596c3314aca289f6f6a20db879bed7b6",
+      "segments": [
+        {
+          "file": "DataPC_Common.forge",
+          "file_offset": 156682880,
+          "chunk_offset": 0,
+          "length": 450887680
+        }
+      ]
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 450887680,
+      "sha256": "eba74749d49e6061c66c075b4548d219aa6768e1b170e5d57770b7a52e7f39ae",
+      "segments": [
+        {
+          "file": "DataPC_Common.forge",
+          "file_offset": 607570560,
+          "chunk_offset": 0,
+          "length": 91567488
+        },
+        {
+          "file": "DataPC_Damascus.forge",
+          "file_offset": 0,
+          "chunk_offset": 91567488,
+          "length": 359320192
+        }
+      ]
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 450887680,
+      "sha256": "5b2d3af2ddc2ef069bf607fccc15f1aa4fb4898b9caf9216f16bcc4357413606",
+      "segments": [
+        {
+          "file": "DataPC_Damascus.forge",
+          "file_offset": 359320192,
+          "chunk_offset": 0,
+          "length": 450887680
+        }
+      ]
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 450887680,
+      "sha256": "38a394facad775799f182fd3fbfb2757e4e6256352be908cd7cd590d7a3f7698",
+      "segments": [
+        {
+          "file": "DataPC_Damascus.forge",
+          "file_offset": 810207872,
+          "chunk_offset": 0,
+          "length": 2536832
+        },
+        {
+          "file": "DataPC_Extra.forge",
+          "file_offset": 0,
+          "chunk_offset": 2536832,
+          "length": 25362432
+        },
+        {
+          "file": "DataPC_Flashback_Paradise.forge",
+          "file_offset": 0,
+          "chunk_offset": 27899264,
+          "length": 206340096
+        },
+        {
+          "file": "DataPC_Jerusalem.forge",
+          "file_offset": 0,
+          "chunk_offset": 234239360,
+          "length": 216648320
+        }
+      ]
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 450887680,
+      "sha256": "5402d98f642e384234a4df63ffb0497e456dafaf515f70a051b78b2a122ca9f2",
+      "segments": [
+        {
+          "file": "DataPC_Jerusalem.forge",
+          "file_offset": 216648320,
+          "chunk_offset": 0,
+          "length": 450887680
+        }
+      ]
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 450887680,
+      "sha256": "25c04f86a5ec4b6b72c5ffe9795167fd1d422fb86f7b1a4d2813c0833a9a53fd",
+      "segments": [
+        {
+          "file": "DataPC_Jerusalem.forge",
+          "file_offset": 667536000,
+          "chunk_offset": 0,
+          "length": 156087680
+        },
+        {
+          "file": "DataPC_Kingdom.forge",
+          "file_offset": 0,
+          "chunk_offset": 156087680,
+          "length": 294800000
+        }
+      ]
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 450887680,
+      "sha256": "f6fe6eeb5ce6092818a16f9eebd73c72801b6892c510ddf6b657bfb89c086e3c",
+      "segments": [
+        {
+          "file": "DataPC_Kingdom.forge",
+          "file_offset": 294800000,
+          "chunk_offset": 0,
+          "length": 440415616
+        },
+        {
+          "file": "DataPC_LoadingRoom2.forge",
+          "file_offset": 0,
+          "chunk_offset": 440415616,
+          "length": 10472064
+        }
+      ]
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 450887680,
+      "sha256": "29c9d8f1a521856876a540ba9ebc45cb81539d7244f1a5313c4b4df742a9ab2e",
+      "segments": [
+        {
+          "file": "DataPC_LoadingRoom2.forge",
+          "file_offset": 10472064,
+          "chunk_offset": 0,
+          "length": 308608
+        },
+        {
+          "file": "DataPC_Map_Menu.forge",
+          "file_offset": 0,
+          "chunk_offset": 308608,
+          "length": 1605632
+        },
+        {
+          "file": "DataPC_Masyaf.forge",
+          "file_offset": 0,
+          "chunk_offset": 1914240,
+          "length": 448973440
+        }
+      ]
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 450887680,
+      "sha256": "cb7cb5ca28f7efe8e22840fc5ec794675a432c0fd2bdf4377e27560bd48c8d32",
+      "segments": [
+        {
+          "file": "DataPC_Masyaf.forge",
+          "file_offset": 448973440,
+          "chunk_offset": 0,
+          "length": 304723328
+        },
+        {
+          "file": "DataPC_Memory_Corridor.forge",
+          "file_offset": 0,
+          "chunk_offset": 304723328,
+          "length": 146164352
+        }
+      ]
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 450887680,
+      "sha256": "5f553e8b4f5e3e2276fcfd371267ea0fe0f950508b3d4a54ef3c12a68bbe0eaf",
+      "segments": [
+        {
+          "file": "DataPC_Memory_Corridor.forge",
+          "file_offset": 146164352,
+          "chunk_offset": 0,
+          "length": 3945856
+        },
+        {
+          "file": "DataPC_Present_Room.forge",
+          "file_offset": 0,
+          "chunk_offset": 3945856,
+          "length": 300122112
+        },
+        {
+          "file": "DataPC_SolomonTemple.forge",
+          "file_offset": 0,
+          "chunk_offset": 304067968,
+          "length": 146819712
+        }
+      ]
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 450887680,
+      "sha256": "fac026d86b828b3a4eb574cfe6da80022c0706d7bb4209473b8f626b3a30930c",
+      "segments": [
+        {
+          "file": "DataPC_SolomonTemple.forge",
+          "file_offset": 146819712,
+          "chunk_offset": 0,
+          "length": 110441856
+        },
+        {
+          "file": "DataPC_StreamedSounds.forge",
+          "file_offset": 0,
+          "chunk_offset": 110441856,
+          "length": 340445824
+        }
+      ]
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 438084254,
+      "sha256": "57d35a5d81f0a799fed2e4cb0e6cb4e34e5f1a619781c69f37b9ed5c2d35475a",
+      "segments": [
+        {
+          "file": "DataPC_StreamedSounds.forge",
+          "file_offset": 340445824,
+          "chunk_offset": 0,
+          "length": 131741056
+        },
+        {
+          "file": "DataPC_StreamedSoundseng.forge",
+          "file_offset": 0,
+          "chunk_offset": 131741056,
+          "length": 130940928
+        },
+        {
+          "file": "DefaultBindings.map",
+          "file_offset": 0,
+          "chunk_offset": 262681984,
+          "length": 13019
+        },
+        {
+          "file": "Detection/Detection.exe",
+          "file_offset": 0,
+          "chunk_offset": 262695003,
+          "length": 225280
+        },
+        {
+          "file": "Detection/detectionapi_rd.dll",
+          "file_offset": 0,
+          "chunk_offset": 262920283,
+          "length": 167936
+        },
+        {
+          "file": "Detection/directx10tests_rd.dll",
+          "file_offset": 0,
+          "chunk_offset": 263088219,
+          "length": 155648
+        },
+        {
+          "file": "Detection/directx9tests_rd.dll",
+          "file_offset": 0,
+          "chunk_offset": 263243867,
+          "length": 26624
+        },
+        {
+          "file": "Detection/directxtests_rd.tst",
+          "file_offset": 0,
+          "chunk_offset": 263270491,
+          "length": 13824
+        },
+        {
+          "file": "Detection/gameinterpreters_rd.intr",
+          "file_offset": 0,
+          "chunk_offset": 263284315,
+          "length": 151552
+        },
+        {
+          "file": "Detection/local.dll",
+          "file_offset": 0,
+          "chunk_offset": 263435867,
+          "length": 5591040
+        },
+        {
+          "file": "Detection/localization/CZ/interpreter_local.ini",
+          "file_offset": 0,
+          "chunk_offset": 269026907,
+          "length": 8226
+        },
+        {
+          "file": "Detection/localization/DEU/interpreter_local.ini",
+          "file_offset": 0,
+          "chunk_offset": 269035133,
+          "length": 9064
+        },
+        {
+          "file": "Detection/localization/EN/interpreter_local.ini",
+          "file_offset": 0,
+          "chunk_offset": 269044197,
+          "length": 7718
+        },
+        {
+          "file": "Detection/localization/ESM/interpreter_local.ini",
+          "file_offset": 0,
+          "chunk_offset": 269051915,
+          "length": 8658
+        },
+        {
+          "file": "Detection/localization/FR/interpreter_local.ini",
+          "file_offset": 0,
+          "chunk_offset": 269060573,
+          "length": 8784
+        },
+        {
+          "file": "Detection/localization/ITA/interpreter_local.ini",
+          "file_offset": 0,
+          "chunk_offset": 269069357,
+          "length": 8474
+        },
+        {
+          "file": "Detection/localization/PO/interpreter_local.ini",
+          "file_offset": 0,
+          "chunk_offset": 269077831,
+          "length": 8584
+        },
+        {
+          "file": "Detection/localization/RU/interpreter_local.ini",
+          "file_offset": 0,
+          "chunk_offset": 269086415,
+          "length": 7926
+        },
+        {
+          "file": "Detection/MFC71.dll",
+          "file_offset": 0,
+          "chunk_offset": 269094341,
+          "length": 1060864
+        },
+        {
+          "file": "Detection/MFC71u.dll",
+          "file_offset": 0,
+          "chunk_offset": 270155205,
+          "length": 1047552
+        },
+        {
+          "file": "Detection/msvcp71.dll",
+          "file_offset": 0,
+          "chunk_offset": 271202757,
+          "length": 499712
+        },
+        {
+          "file": "Detection/msvcr71.dll",
+          "file_offset": 0,
+          "chunk_offset": 271702469,
+          "length": 348160
+        },
+        {
+          "file": "Detection/systemtests_rd.tst",
+          "file_offset": 0,
+          "chunk_offset": 272050629,
+          "length": 499712
+        },
+        {
+          "file": "eax.dll",
+          "file_offset": 0,
+          "chunk_offset": 272550341,
+          "length": 192512
+        },
+        {
+          "file": "installscript.vdf",
+          "file_offset": 0,
+          "chunk_offset": 272742853,
+          "length": 2912
+        },
+        {
+          "file": "Register/RegistrationReminder.exe",
+          "file_offset": 0,
+          "chunk_offset": 272745765,
+          "length": 967304
+        },
+        {
+          "file": "Resources/de/GameUpdate.de",
+          "file_offset": 0,
+          "chunk_offset": 273713069,
+          "length": 7201
+        },
+        {
+          "file": "Resources/es/GameUpdate.es",
+          "file_offset": 0,
+          "chunk_offset": 273720270,
+          "length": 8105
+        },
+        {
+          "file": "Resources/fr/GameUpdate.fr",
+          "file_offset": 0,
+          "chunk_offset": 273728375,
+          "length": 7968
+        },
+        {
+          "file": "Resources/it/GameUpdate.it",
+          "file_offset": 0,
+          "chunk_offset": 273736343,
+          "length": 7371
+        },
+        {
+          "file": "Resources/uk/GameUpdate.uk",
+          "file_offset": 0,
+          "chunk_offset": 273743714,
+          "length": 6294
+        },
+        {
+          "file": "Resources/us/GameUpdate.us",
+          "file_offset": 0,
+          "chunk_offset": 273750008,
+          "length": 6303
+        },
+        {
+          "file": "Support/Manual/AssassinsCreed.pdf",
+          "file_offset": 0,
+          "chunk_offset": 273756311,
+          "length": 3606650
+        },
+        {
+          "file": "Support/Readme/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 277362961,
+          "length": 9401
+        },
+        {
+          "file": "testapp.exe",
+          "file_offset": 0,
+          "chunk_offset": 277372362,
+          "length": 438272
+        },
+        {
+          "file": "Videos/DemoIntro.bik",
+          "file_offset": 0,
+          "chunk_offset": 277810634,
+          "length": 150164976
+        },
+        {
+          "file": "Videos/LoadingScreen.bik",
+          "file_offset": 0,
+          "chunk_offset": 427975610,
+          "length": 1380832
+        },
+        {
+          "file": "Videos/UBI_LOGO.bik",
+          "file_offset": 0,
+          "chunk_offset": 429356442,
+          "length": 8674328
+        },
+        {
+          "file": "Videos/Ubisoft_Presents.bik",
+          "file_offset": 0,
+          "chunk_offset": 438030770,
+          "length": 12504
+        },
+        {
+          "file": "Videos/Warning_Disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 438043274,
+          "length": 40980
+        }
+      ]
+    }
+  ]
+}
