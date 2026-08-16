@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-16T18:27:46.358061+00:00",
+  "updated_at": "2026-08-16T19:09:55.025885+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -20,6 +20,27 @@
           "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/papers-please/stable/1.0.0.json",
           "size": 94151373,
           "published_at": "2026-08-16T18:27:46.358051+00:00"
+        }
+      }
+    },
+    {
+      "id": "grand-theft-auto-san-andreas",
+      "title": "Grand Theft Auto: San Andreas",
+      "platform": "pc",
+      "description": "Five years ago Carl Johnson escaped from the pressures of life in Los Santos, San Andreas... a city tearing itself apart with gang trouble, drugs and corruption. Where filmstars and millionaires do their best to avoid the dealers and gangbangers. Now, it's",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/grand-theft-auto-san-andreas/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/grand-theft-auto-san-andreas/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/grand-theft-auto-san-andreas/logo.png"
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-grand-theft-auto-san-andreas-v1.0.0-stable",
+          "manifest_path": "manifests/pc/grand-theft-auto-san-andreas/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/grand-theft-auto-san-andreas/stable/1.0.0.json",
+          "size": 4975287510,
+          "published_at": "2026-08-16T19:09:55.025876+00:00"
         }
       }
     }
