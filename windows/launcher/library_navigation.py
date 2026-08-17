@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from PySide6.QtCore import Qt, Signal
+from PySide6.QtCore import QEvent, Qt, Signal
 
 from library_grid import GameGridView as BaseGameGridView
 from library_grid import GameListView as BaseGameListView
@@ -18,6 +18,15 @@ class _NavigationMixin:
 
     selectionChanged = Signal(int)
     gameActivated = Signal(int)
+
+    def set_items(self, rows):
+        super().set_items(rows)
+        # The visual capsule/row itself normally owns keyboard focus. Install
+        # the view as an event filter so physical arrow keys follow the exact
+        # same path as controller navigation instead of getting swallowed by
+        # QFrame's default focus handling.
+        for widget in self._items.values():
+            widget.installEventFilter(self)
 
     def _source_row(self, key: str) -> int | None:
         widget = self._items.get(key)
@@ -43,7 +52,10 @@ class _NavigationMixin:
         self.gameActivated.emit(row)
 
     def _move_selection_by(self, delta: int) -> None:
-        ordered = sorted(self._items.values(), key=lambda widget: widget.row)
+        ordered = sorted(
+            (widget for key, widget in self._items.items() if not key.startswith("__skeleton_")),
+            key=lambda widget: widget.row,
+        )
         if not ordered:
             return
         index = next(
@@ -62,7 +74,10 @@ class _NavigationMixin:
                 widget.row = int(mapping[key])
 
     def contains_source_row(self, row: int) -> bool:
-        return any(int(widget.row) == int(row) for widget in self._items.values())
+        return any(
+            not key.startswith("__skeleton_") and int(widget.row) == int(row)
+            for key, widget in self._items.items()
+        )
 
     def first_source_row(self) -> int | None:
         real = [
@@ -79,7 +94,10 @@ class _NavigationMixin:
             if first is None:
                 return False
             target = next(
-                (widget for widget in self._items.values() if int(widget.row) == first),
+                (
+                    widget for key, widget in self._items.items()
+                    if not key.startswith("__skeleton_") and int(widget.row) == first
+                ),
                 None,
             )
             if target is None:
@@ -100,6 +118,27 @@ class _NavigationMixin:
             return False
         self._move_selection_by(delta)
         return True
+
+    def eventFilter(self, watched, event):
+        if watched in self._items.values() and event.type() == QEvent.KeyPress:
+            key = event.key()
+            if key in (Qt.Key_Return, Qt.Key_Enter, Qt.Key_Space):
+                if hasattr(watched, "key"):
+                    self._current_key = watched.key
+                self.activate_current()
+                return True
+            direction = {
+                Qt.Key_Left: "left",
+                Qt.Key_Right: "right",
+                Qt.Key_Up: "up",
+                Qt.Key_Down: "down",
+            }.get(key)
+            if direction is not None:
+                if hasattr(watched, "key"):
+                    self._current_key = watched.key
+                self.move_direction(direction)
+                return True
+        return super().eventFilter(watched, event)
 
     def keyPressEvent(self, event):
         key = event.key()
