@@ -1,0 +1,30 @@
+name: Apply Source Upload
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.source-upload/claude-source-update.tgz'
+      - '.github/workflows/apply-source-upload.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Apply uploaded source changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          tar -xzf .source-upload/claude-source-update.tgz -C .
+          rm -f .source-upload/claude-source-update.tgz
+          rmdir .source-upload 2>/dev/null || true
+          rm -f .github/workflows/apply-source-upload.yml
+          git config user.name "thedrowned925"
+          git config user.email "chatgpticib1@gmail.com"
+          git add -A
+          git commit -m "apply uploaded Claude source update"
+          git push
