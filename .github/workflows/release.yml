@@ -16,10 +16,10 @@ jobs:
         app:
           - name: Drowned-Release-Manager
             dir: windows/release-manager
-            entry: app_v4.py
+            entry: app_v5.py
           - name: Drowned-Launcher
             dir: windows/launcher
-            entry: app_v9.py
+            entry: app_v10.py
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
