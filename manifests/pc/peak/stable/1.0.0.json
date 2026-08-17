@@ -1,0 +1,3558 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "peak",
+    "title": "PEAK",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "PEAK is a co-op climbing game where the slightest mistake can spell your doom. Either solo or as a group of lost nature scouts, your only hope of rescue from a mysterious island is to scale the mountain at its center. Do you have what it takes to reach the PEAK?"
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-peak-v1.0.0-stable"
+  },
+  "chunk_size": 279969792,
+  "upload_workers": 16,
+  "total_size": 4466213669,
+  "files": [
+    {
+      "path": "_CommonRedist/_redist_readme.txt",
+      "size": 2038,
+      "sha256": "b9ff3c3422e06fb509f4d9ea3ae4493ee804a7efdd1297fbff8eceed40b6c403"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 295320,
+      "sha256": "2cf71d098c608c56e07f4655855a886c3102553f648df88458df616b26fd612f"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+      "size": 31533074,
+      "sha256": "3c188e4651bcc07df2bdb06d69585158797b1bafb91557b09217621628cd5b23"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054848,
+      "sha256": "47260420773a20443fb1e38a89b7f39c5237a80a842de598e6c8f7f90a3bbd6d"
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Preloader.dll",
+      "size": 43008,
+      "sha256": "ea594e7141298d4216dd77c3db15ad1cef7a12417502758561766247b02477f2"
+    },
+    {
+      "path": "Custom.dll",
+      "size": 2202624,
+      "sha256": "8308061a7c6f18c59f36baadef297ee7ac7382ef4668238c61b2a953eeee58e7"
+    },
+    {
+      "path": "D3D12/D3D12Core.dll",
+      "size": 4725304,
+      "sha256": "625bd40005b1c3708695d5256ecf230d278e6b8edba5a88af70f3d91324f3052"
+    },
+    {
+      "path": "dlllist.txt",
+      "size": 199,
+      "sha256": "e6893dbf284d9b8eaf4e3d04dfc6933be466e0e1b0c898926023ac90c5c72205"
+    },
+    {
+      "path": "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+      "size": 7828912,
+      "sha256": "3bc2fec271ee6cda35e5ac5c39aae41a15d3ec46d69bafd0b1644059181d7c30"
+    },
+    {
+      "path": "MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+      "size": 611248,
+      "sha256": "54b6025a450f13fdc8b00ba9fd0e035702aa54582021b2eeeb4ddc930085ec0f"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+      "size": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "size": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/2.0/machine.config",
+      "size": 29066,
+      "sha256": "e91782a27fa39fc6c1d6ee8b08529f5d35052310d0006034b878eb04b8f2af30"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/2.0/settings.map",
+      "size": 2622,
+      "sha256": "49c6160f9d54af4270a3b4e997fc4a8301f79b9e2070118fa46ddbcbbc44f9a2"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/2.0/web.config",
+      "size": 11635,
+      "sha256": "cf2b54339e069b9e42f7d6795eecbf562c50c1011f4ca8f65f578fe52d97ff92"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+      "size": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "size": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.0/machine.config",
+      "size": 33598,
+      "sha256": "e60aec2c5115d65b3acb3c55ea21576dbd770f579166c017125571e46ae560ed"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.0/settings.map",
+      "size": 2622,
+      "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.0/web.config",
+      "size": 18802,
+      "sha256": "e38bb8cc68fe5b4edecdfd288d094b9e8ced7629039b2a347682aba0d8bd7492"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+      "size": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "size": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.5/machine.config",
+      "size": 34056,
+      "sha256": "ee950004b576fb28dc85f4b0435ed04bf96612de2e8b53be84d07afe85a0de6c"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.5/settings.map",
+      "size": 2622,
+      "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.5/web.config",
+      "size": 18811,
+      "sha256": "c4cbddd4fd9347b58cc5a72b36dc4ba1ad2bb699e65869d05cd3fb9865f0d824"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/browscap.ini",
+      "size": 311984,
+      "sha256": "4ddd50f31fb968f30bedefc253a46dc3f2890192d05cdaa9e0a64a056eee807e"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/config",
+      "size": 3815,
+      "sha256": "5776169973a26a387b8b3e5c0f2301a7ab9a6dd7c7d3efa22a96abc47fbf8662"
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/mconfig/config.xml",
+      "size": 25817,
+      "sha256": "0c56e34c69124510fa8c19e7b4c2ca6c1c4ff460ae19f798dd0ca035809e396d"
+    },
+    {
+      "path": "OnlineFix.ini",
+      "size": 607,
+      "sha256": "0995d621cdbd4faf9930cb751e8916db4188a96e0332c84a1394b34498e06443"
+    },
+    {
+      "path": "OnlineFix.url",
+      "size": 46,
+      "sha256": "3cb526cccccc54af4c006fff00d1f48f830d08cdd4a2f21213856065666ef38e"
+    },
+    {
+      "path": "OnlineFix64.dll",
+      "size": 11944448,
+      "sha256": "54a65b4e133c6a4ff7107b4b9c868e10c3ba606bb42d8c687054b0a64fafa944"
+    },
+    {
+      "path": "PEAK.exe",
+      "size": 667648,
+      "sha256": "94361ef7f017412e1d03038e5175bc182733fab41f5439e1421d1f24b6d47b44"
+    },
+    {
+      "path": "PEAK_Data/app.info",
+      "size": 13,
+      "sha256": "0289521934aced952068b167b858b80fe5a96b7c319bd636f41e0b073e28a118"
+    },
+    {
+      "path": "PEAK_Data/boot.config",
+      "size": 136,
+      "sha256": "7c308519ecc522e534c17483ff00c36982d7ff0a245b25e830ba47165c4186cc"
+    },
+    {
+      "path": "PEAK_Data/globalgamemanagers",
+      "size": 1900900,
+      "sha256": "1d469be6e1742af079543631dc9165d2371225cb214c673f46559ecf46c82e82"
+    },
+    {
+      "path": "PEAK_Data/globalgamemanagers.assets",
+      "size": 48957784,
+      "sha256": "b683f3094cdb38f5f168fa1ca6ddce4ca07a1598eafcc3c33e691a25c35579e7"
+    },
+    {
+      "path": "PEAK_Data/globalgamemanagers.assets.resS",
+      "size": 18491360,
+      "sha256": "28596f35410dc04e9fe0d2b6f2b8809e68f3575c70f05271397a1375e1d5bbb7"
+    },
+    {
+      "path": "PEAK_Data/level0",
+      "size": 40856,
+      "sha256": "aa8cfa350840fb2ede2cade47759254c6a2313d56c42e3da1ce6d8c69898baba"
+    },
+    {
+      "path": "PEAK_Data/level1",
+      "size": 33017780,
+      "sha256": "df1aae4dfbe3413ff401460206392c23791e20bf3dfd3f205576016667e2c525"
+    },
+    {
+      "path": "PEAK_Data/level10",
+      "size": 180664996,
+      "sha256": "bcf66c3b544093456ac796d1d44a9f27f347a8affaf214ca16342469d0b4e69a"
+    },
+    {
+      "path": "PEAK_Data/level11",
+      "size": 182182356,
+      "sha256": "9c4c1ba014aa77ca21a2fa7ff4c212089c58e4d53648921ae2c76b2af342fd47"
+    },
+    {
+      "path": "PEAK_Data/level12",
+      "size": 181623156,
+      "sha256": "87dbdfafd687b5c6e193bd09b112953d6e9bfb8a1fdcd6ea9f98828131cbf2d7"
+    },
+    {
+      "path": "PEAK_Data/level13",
+      "size": 178029716,
+      "sha256": "f3758c73272f8b947b2cd25a20da1832772d583915bb8bee6206cad802bad25b"
+    },
+    {
+      "path": "PEAK_Data/level14",
+      "size": 185878404,
+      "sha256": "611cd6d187cbf83da47a052c699eab4b86b5e69a7e733fb65e0f2a711ad60a5e"
+    },
+    {
+      "path": "PEAK_Data/level15",
+      "size": 178798836,
+      "sha256": "7f211d841fc6a74f42db4d22a70ae8e205c44a1566cd82d0ecb406e22fe911d1"
+    },
+    {
+      "path": "PEAK_Data/level16",
+      "size": 173340100,
+      "sha256": "45b031a88f0c1cb32462d6c406f93d16a43b75eb5c608fec9569ed3ccdddbac1"
+    },
+    {
+      "path": "PEAK_Data/level2",
+      "size": 18488,
+      "sha256": "50357573967e583207b173207ec81246247686ec2c7381691cf68006f8624026"
+    },
+    {
+      "path": "PEAK_Data/level3",
+      "size": 14943972,
+      "sha256": "89a82c23e1d04f872e1c1a7558147bcf8fe7efb8da94b4d6dc91dec4376d976f"
+    },
+    {
+      "path": "PEAK_Data/level4",
+      "size": 218834324,
+      "sha256": "5bdcd21ae24b91aa733a8e3a7561454b36ba50f5fea71efa261761f62bd15fd0"
+    },
+    {
+      "path": "PEAK_Data/level5",
+      "size": 177086708,
+      "sha256": "c1903d47045df9151f2e1f76d559ab55f65f4f1798852e089e1b6674da301334"
+    },
+    {
+      "path": "PEAK_Data/level6",
+      "size": 186403508,
+      "sha256": "937621d59b1c639e2beb654cf5d902cfbdd091463ca7ae6ae1252021cd4e0a66"
+    },
+    {
+      "path": "PEAK_Data/level7",
+      "size": 172187476,
+      "sha256": "43937cc6c6ddf77434864cd4513a952f3c9343a777c6013a7295d69366ff1aa3"
+    },
+    {
+      "path": "PEAK_Data/level8",
+      "size": 184103348,
+      "sha256": "dab6ff25d0e3941ee8abfdc5225b14c82495d86d0debf6c3a5d278db9605eb67"
+    },
+    {
+      "path": "PEAK_Data/level9",
+      "size": 173335444,
+      "sha256": "c55cd015c6d713f7e36eb10b9f80b5ee478aeb5b5fe1aa1f974e3a15fc0c747c"
+    },
+    {
+      "path": "PEAK_Data/Managed/Ashley.MeshSplitter.dll",
+      "size": 4608,
+      "sha256": "4794c7410472a10fac425709f31fd282f67a56cb5c5a99cf7d7be5c3a95d1a9c"
+    },
+    {
+      "path": "PEAK_Data/Managed/Assembly-CSharp-firstpass.dll",
+      "size": 79872,
+      "sha256": "b1bc3dc419da22e28eeb12dc4b2c668367699669bcdbac8a7a3e05cf50afd9a5"
+    },
+    {
+      "path": "PEAK_Data/Managed/Assembly-CSharp.dll",
+      "size": 1562112,
+      "sha256": "cad8ef0702f512f0ad4595f9c169d4025eb8fa351083b64fd4e9fd6f78d5d14c"
+    },
+    {
+      "path": "PEAK_Data/Managed/com.rlabrecque.steamworks.net.dll",
+      "size": 417280,
+      "sha256": "29b3ee80d218c0e3dfb1696336d2def4d219e2a8aca49088d9265dc946751730"
+    },
+    {
+      "path": "PEAK_Data/Managed/DemiLib.dll",
+      "size": 14848,
+      "sha256": "924b7530120c080c6acefd20dbab1947c631278836c58f1b466899ad6cd02be2"
+    },
+    {
+      "path": "PEAK_Data/Managed/DOTween.dll",
+      "size": 175616,
+      "sha256": "8e90fc43ab564a5a51424af56531ab074a5a2e9cab271b2d653d287954237b83"
+    },
+    {
+      "path": "PEAK_Data/Managed/DOTweenPro.dll",
+      "size": 16384,
+      "sha256": "db5225f6db87969a03b48a56e2dc3828b38384adca44da0f89248a2bb483b056"
+    },
+    {
+      "path": "PEAK_Data/Managed/HBAO.Runtime.dll",
+      "size": 40960,
+      "sha256": "a71187a9e4b105f24ddabf2b150fdbb56eda656b90f97298a0dcd086e091685d"
+    },
+    {
+      "path": "PEAK_Data/Managed/HBAO.Universal.Runtime.dll",
+      "size": 54784,
+      "sha256": "c44e5fdc97bd30634427fb63fca2aad7b8e4c54804c3317c1e5cb09f7b6d9093"
+    },
+    {
+      "path": "PEAK_Data/Managed/LightVolume.Runtime.dll",
+      "size": 31744,
+      "sha256": "918bb7578de14121a4569f06495b7b70104d8103a68e5c564068576902ef503a"
+    },
+    {
+      "path": "PEAK_Data/Managed/Mono.Security.dll",
+      "size": 241152,
+      "sha256": "618009319dbf3ae374f9b5dc0d0522e1e1bdd172200c120a5471747b7991a584"
+    },
+    {
+      "path": "PEAK_Data/Managed/mscorlib.dll",
+      "size": 4632064,
+      "sha256": "6c76e06e6d44cf0f39bf59e6a90770968b70093ad4c1572dfbc5e46e431c5fbf"
+    },
+    {
+      "path": "PEAK_Data/Managed/netstandard.dll",
+      "size": 90112,
+      "sha256": "6ae62e082dc494a2433984177f60ca4db5fae69b1f360a8b33754172b310b8c5"
+    },
+    {
+      "path": "PEAK_Data/Managed/Newtonsoft.Json.dll",
+      "size": 691712,
+      "sha256": "a56146202232958f46bd6a28b5a7da166aea123ee0d646735a46e5c341dfbf1f"
+    },
+    {
+      "path": "PEAK_Data/Managed/Photon3Unity3D.dll",
+      "size": 239616,
+      "sha256": "f9f0be8f90301fc32193169a2b84f6748a6f52193a6d487e2cff2c73d7d11da0"
+    },
+    {
+      "path": "PEAK_Data/Managed/PhotonChat.dll",
+      "size": 35328,
+      "sha256": "a86afe8cd6b9eb8d83810430b82352ed8aa8813b2ca830418b46359d6431379d"
+    },
+    {
+      "path": "PEAK_Data/Managed/PhotonRealtime.dll",
+      "size": 112640,
+      "sha256": "4baab6e9145607cc20aaab81df680401275a6c03e1705e0ea876891d4bd37c46"
+    },
+    {
+      "path": "PEAK_Data/Managed/PhotonUnityNetworking.dll",
+      "size": 113664,
+      "sha256": "7d47fd8a1734e5430dafae53f38e6af5cc0e2dc0148b0e266546c5344240def6"
+    },
+    {
+      "path": "PEAK_Data/Managed/PhotonUnityNetworking.Utilities.dll",
+      "size": 60416,
+      "sha256": "b8ba67b8793f8dc65339b8905cf8ac395ca58a730d8f21beb19440b94b21ce5d"
+    },
+    {
+      "path": "PEAK_Data/Managed/PhotonVoice.API.dll",
+      "size": 160768,
+      "sha256": "317b9a85800922b62d0e3e4a162b02154eb0a475c13c3bbec462294e5b28ef8d"
+    },
+    {
+      "path": "PEAK_Data/Managed/PhotonVoice.dll",
+      "size": 78336,
+      "sha256": "02372ea1e7f32b3c5e1c4734b5b5a1d7b80f3d9dca06b108a1440d6c15d31f3b"
+    },
+    {
+      "path": "PEAK_Data/Managed/PhotonVoice.PUN.dll",
+      "size": 14336,
+      "sha256": "4e8672a5e1e375cf6cedb392cadfc38cb066c3281c3f82d72f5364687154db11"
+    },
+    {
+      "path": "PEAK_Data/Managed/pworld.dll",
+      "size": 142336,
+      "sha256": "72bc6f2dca47b5ad7d3b56f3949e3ebe281fb8fe41065fb447c7348e4326396d"
+    },
+    {
+      "path": "PEAK_Data/Managed/sc.posteffects.runtime.dll",
+      "size": 143360,
+      "sha256": "6ac2eb630d7c3689a79c1e8a314071595ba9ce3ec81664c83eaf2874e1ac1f8b"
+    },
+    {
+      "path": "PEAK_Data/Managed/Sirenix.OdinInspector.Attributes.dll",
+      "size": 105472,
+      "sha256": "15c63028daf3f7f2e77433f6eea2ba6e45691c97573b37fe95c03bc43319088f"
+    },
+    {
+      "path": "PEAK_Data/Managed/Sirenix.OdinInspector.Modules.Unity.Addressables.dll",
+      "size": 5632,
+      "sha256": "3d67de245070f648b120386d43cd82476a53021d6824481ba176cc95b2adc321"
+    },
+    {
+      "path": "PEAK_Data/Managed/Sirenix.OdinInspector.Modules.UnityLocalization.dll",
+      "size": 6656,
+      "sha256": "534fa1745db048f10f44f078d5f9a78f33ead7dca71dd5be52a51f5cdd4cc933"
+    },
+    {
+      "path": "PEAK_Data/Managed/Sirenix.Serialization.Config.dll",
+      "size": 17920,
+      "sha256": "35576f767d0909c13539c4b56c3119eb7e4a016be78937b98fe2a22ddfbbc6ea"
+    },
+    {
+      "path": "PEAK_Data/Managed/Sirenix.Serialization.dll",
+      "size": 348160,
+      "sha256": "9d42532f8f0a527de228eeedaa33ba49e9caf3269bb05509f393e24f8f74f466"
+    },
+    {
+      "path": "PEAK_Data/Managed/Sirenix.Utilities.dll",
+      "size": 150016,
+      "sha256": "2353031e222164972c3d139be74a6d95ceafcf885251569b480e33ba2604fe6b"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.ComponentModel.Composition.dll",
+      "size": 257024,
+      "sha256": "0c3e81771a5fe9657bea02887996de72606c3cb247e4fbe413f743f40e2af244"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Configuration.dll",
+      "size": 124928,
+      "sha256": "04907729e87a101e62d3a5c93cfa16688bee745d05440d6daa0c541964be27ab"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Core.dll",
+      "size": 1113088,
+      "sha256": "a5e7d47313da0eca0b92a901a30498f5e970916faf63b70b74dd62b09760ed72"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Data.DataSetExtensions.dll",
+      "size": 29696,
+      "sha256": "498f14c37d83f946a47a79e01de777e62f269ee9c3820f2026b59ab1c1b9222f"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Data.dll",
+      "size": 2125312,
+      "sha256": "427478545ce66b632414ca838088ea073f250ed16b21c70005f48cb571350e47"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.dll",
+      "size": 2641920,
+      "sha256": "7019d6b6dbfa07cf30f62e7d3ccb969f70cbf001fd72112938ffb535c7f75d81"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Drawing.dll",
+      "size": 489984,
+      "sha256": "e182e688223acedb8135227e8fbff17d5ed22f47f81141aa9cb96ef1ab9926fc"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.EnterpriseServices.dll",
+      "size": 44544,
+      "sha256": "84af394ad863e31407eb2b9555ca7e96a9f1966630f5d7f0eec54f0011f6babc"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.IO.Compression.dll",
+      "size": 114688,
+      "sha256": "80421a67b4162a5f1b4aad6a8327c6d1fb4b04dedd39dae14a770b812594fae2"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.IO.Compression.FileSystem.dll",
+      "size": 18432,
+      "sha256": "2730d2a27f9362259a406ea14727e5f0a71bc21a6825be94f8623a84bd9f9c79"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.IO.Hashing.dll",
+      "size": 50488,
+      "sha256": "ac7ac3e83805b0b621c48b90543dc733c9a89106835278618357d6187e3da74e"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Memory.dll",
+      "size": 4608,
+      "sha256": "c4f030a2cba7da7cdcf493257c24560e203d355904aee490d645a935842f834a"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Net.Http.dll",
+      "size": 122880,
+      "sha256": "3cd3ac19050d5031c13644cd87958ad8029b79ce16c7747faf3d0542e7fb45a3"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Numerics.dll",
+      "size": 119296,
+      "sha256": "ac9224b32355a09f09b706cab568384f64cf8116825c5911cef1e13221c61c38"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll",
+      "size": 18024,
+      "sha256": "01748200f2400c742aa689f1f5101bd6298efdfd92c00c18f4fa473847235ba9"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Runtime.dll",
+      "size": 12288,
+      "sha256": "e0a7334b7ba419aaab6bd3bb6992d693e689341a9178172c9bf99c2aa6a085bd"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Runtime.Serialization.dll",
+      "size": 934400,
+      "sha256": "1152ef687dbe39e0ccb6b9a68f6501004415a729072df29abab3bc7c66840217"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Security.dll",
+      "size": 320000,
+      "sha256": "2101a4dd4475285f96b1ac3ba1715a52aa8067690709e675cc49a9eb8ed901a4"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.ServiceModel.Internals.dll",
+      "size": 215040,
+      "sha256": "888ec94a59c127854871b76afa49fdcefdf723c0f0b6fd78e87f73a8495b63b5"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Transactions.dll",
+      "size": 35328,
+      "sha256": "f65dbc257d26a361dcc01edd58bf3e542d186c8ee492a4f7a62b0dd7d59f7050"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Xml.dll",
+      "size": 3160064,
+      "sha256": "79194220adfcf027a334c87b1adcc6d07b9660a4061e04b3d9500c10d30f7d49"
+    },
+    {
+      "path": "PEAK_Data/Managed/System.Xml.Linq.dll",
+      "size": 136704,
+      "sha256": "4f5d6bf313cbf091e7bff83d07dd03ed93d0ecb3ddb025ae786aadd6b5f477fb"
+    },
+    {
+      "path": "PEAK_Data/Managed/Tayx.Graphy.dll",
+      "size": 53760,
+      "sha256": "857c5d7b488d9def19bb7ea3a466446fb90cbff0937efd3579ca54521ea08b57"
+    },
+    {
+      "path": "PEAK_Data/Managed/unity-websocket-sharp.dll",
+      "size": 223744,
+      "sha256": "89deb5ae70b9857d0bf80584adbfbfa15f3876e38aec18f723c2b764cd9d8c6a"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Addressables.dll",
+      "size": 116736,
+      "sha256": "cfa162e30df6c265f5c80f5a3db0059b410a7eb9c27bd4f1d80db10955f27d49"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.AI.Navigation.dll",
+      "size": 24576,
+      "sha256": "75ac5781eaf4a7623139c3ade013baba58666790a999b5ff01813f2ec9580c2f"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Animation.Rigging.dll",
+      "size": 114176,
+      "sha256": "ae1471d0564f8602b8d1106c4ff1990608e3ada8973540f0805b0e62260e0b4c"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll",
+      "size": 6144,
+      "sha256": "99eda57d33146c2f7e354b477ad4fa0bbf36fd17c627444bbaf5cc7502e7b209"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Burst.dll",
+      "size": 304640,
+      "sha256": "3725fe0b3b27e6c2680a9a8d0619f25f1ee45d4858e2629f97fc1c99a68b777f"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Burst.Unsafe.dll",
+      "size": 5632,
+      "sha256": "9d9c1ff52411decbee5d9f0d1cd61ebeaa222077aa77a52101ea3debafae98e2"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Cinemachine.dll",
+      "size": 485376,
+      "sha256": "c4289fcdd7d2d6d05dab7d7d44b57609d6e1444f99d3249ee8ca2b160bf4a60c"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Collections.dll",
+      "size": 453632,
+      "sha256": "9b4e1aa7b6e093706088687d6cc76110a3dcf4ab565d899ede0d42b82ba4d789"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
+      "size": 5120,
+      "sha256": "ff50383f807f9692e4913b97e47d86fefcb8faa33d6d48cd3e3fd6fc7ffb448d"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.InputSystem.dll",
+      "size": 1137152,
+      "sha256": "c34d3b59cf0da7fcd832ca9905960aeddad9f74980c7bfa9be344be0b072b041"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.InputSystem.ForUI.dll",
+      "size": 16384,
+      "sha256": "eb25005c82dd4e516ecdf1898f1ba0253db857c730a6e2ea41bb394a80bc9804"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.InputSystem.RebindingUI.dll",
+      "size": 15360,
+      "sha256": "5d3b2a6a32a53efb0c39b72b031ce00a5f993de52a16871692688071d3fa4ca2"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.InternalAPIEngineBridge.004.dll",
+      "size": 4608,
+      "sha256": "57b2739a2971131f0407cbe149bf64d33015926e2e6a3965b1af25e9e224ced1"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.InternalAPIEngineBridge.013.dll",
+      "size": 5632,
+      "sha256": "4574090d0cd545a9a5433f6658dd39c594bd9061da0088ab876a0b02c58ff201"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Localization.dll",
+      "size": 314880,
+      "sha256": "3f6b607ba91832cf1e3e13374872f94735ce595ca37f3dedb3166d4d99df4b98"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Mathematics.dll",
+      "size": 752640,
+      "sha256": "5242bcee11ac1f379cb8222000a7b0246e7079dcab904eb8c1d500bad28a7aa6"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.MemoryProfiler.dll",
+      "size": 7168,
+      "sha256": "4570299ffd9bb9300ef913c82e1ee304991fce1443ea36d9cd7edc142f00b7b7"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Multiplayer.Center.Common.dll",
+      "size": 10752,
+      "sha256": "bc26c99e1f9fab2c56e8829b5f6504693b3d2636b0f5da3375322b2b320e8769"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Networking.Transport.dll",
+      "size": 242688,
+      "sha256": "20e8e1ad90b3857b1cd30ecb3a4c50e4628e511923136efa5ce82234f643d9f4"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Profiling.Core.dll",
+      "size": 10240,
+      "sha256": "0c1d707686fb2bf9972c64da4feff5eea1766e4bcf376b98ccb449c2103fe4ef"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+      "size": 9216,
+      "sha256": "4976f43721c420073b06664bc071416f096b9294d1805978fae6f4806bcaad35"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+      "size": 1201152,
+      "sha256": "1596fb75b840b7345bf1843530b1ca75faade9d78ac13aa8c500e981e4dcfdb6"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll",
+      "size": 5632,
+      "sha256": "4f94fdbe24e11901ebd257cbb31cc475d4eda6f5f613fc4cd0b652afec719fd5"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+      "size": 4608,
+      "sha256": "604d8a05a68a6a9a4571dbecd8132a406d06278ac8397f8f9f58d6da4657ab7d"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll",
+      "size": 235008,
+      "sha256": "09283a958737c1cc7b998b6e1a4ed468024175723d98b50453eb7ed3d944c32e"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+      "size": 4608,
+      "sha256": "ead8da868091bd3c9c0ef231a180ec8f3e637c3343bbfa997b3353045c2f54b5"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll",
+      "size": 233472,
+      "sha256": "b345b9552faa67277fdba4c5fc0cc37e0bb41460981f6990793552b528244de8"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+      "size": 5632,
+      "sha256": "8cc733885865d1b56925a32c6187329ea575f86b87e6214d5c6ca43ba551afa1"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
+      "size": 765952,
+      "sha256": "01acc42d30b83f3ac4f9309e59862464a987612316d5e690989c1e57a26ce2d7"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
+      "size": 4608,
+      "sha256": "e18095696d08cf198c54c24a335cf01e5f5c834e33a320eab1d9b4180d71da62"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.ResourceManager.dll",
+      "size": 143360,
+      "sha256": "574e11422c0b434de55aea2788abe4f12d50bae8ba97dcd29d4e204b5134443b"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.ScriptableBuildPipeline.dll",
+      "size": 9216,
+      "sha256": "ce5731d95ee06975f51e01f96fa07a5b9b3d9f99664ffcf299560980c40c05ba"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Authentication.dll",
+      "size": 146944,
+      "sha256": "7d25bc6e6b0cb832bbacdb587ee05ef1fe8268bea924b9c797662b674ed88d02"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Authentication.PlayerAccounts.dll",
+      "size": 43520,
+      "sha256": "f91f146411e5b0bb8f4e8074e50b50fb0c1756089a836ee123ab5d4b5cd62aa5"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Core.Analytics.dll",
+      "size": 5632,
+      "sha256": "6e2a79067164e966d589d6ab5c985454dc4586f291fd1910a4ae318ff9aaf297"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Core.Components.dll",
+      "size": 10752,
+      "sha256": "07d231d28def422984de382b9ee9be466300850ab7c85ba5f8daf3c7d7020f89"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Core.Configuration.dll",
+      "size": 14336,
+      "sha256": "1f4edc0b31b84031d739aa0b6ad97a5e76b8816554519ef0aff8008e1fd438bc"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Core.Device.dll",
+      "size": 7168,
+      "sha256": "b761c6f578d98024141ee6959aec41c0104d5fcb27b6511aa465f5d0a5889423"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Core.dll",
+      "size": 17920,
+      "sha256": "9c9d07c90334fe10b3442f2e88aceafb8b23d47b800636492a0246e3da616d3a"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Core.Environments.dll",
+      "size": 5632,
+      "sha256": "eedb353033e5e37a96da727157380b4b1c0dc70b462dc928c759cf4c171ad2ad"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Core.Environments.Internal.dll",
+      "size": 5120,
+      "sha256": "94538e5af5e51162849336230796251417e209452a9e44c43b3bf17135a49c4a"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Core.Internal.dll",
+      "size": 75264,
+      "sha256": "a558e32ea718c24ea92f4d8aa873b2fb71c50f758f2880aeace373feb78ee055"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Core.Networking.dll",
+      "size": 8192,
+      "sha256": "56e9ffab1ca4392506165a6de64405cf430f5b0e2cfafcbe06e4eb6f23c1cc5c"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Core.Registration.dll",
+      "size": 18432,
+      "sha256": "b59402084fc2a12365694fbbabe49f7a74305e0b27aedbd512f67b26710456b3"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Core.Scheduler.dll",
+      "size": 12800,
+      "sha256": "f1bd38fa6af58ee8f661ad20e3ab8c29aa84cd85fb98e28b027aca88516af69b"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Core.Telemetry.dll",
+      "size": 8704,
+      "sha256": "e82881b9e743d9cce8a2909b2fb4f8cd7deb7f3036b05d83c7548e06e6171185"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Core.Threading.dll",
+      "size": 7168,
+      "sha256": "5603740590bddb905673f9a0833192e08390a897fbb5ccf09e063597e425b024"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Multiplayer.dll",
+      "size": 695296,
+      "sha256": "91fbf55f2062cab2cedbe32adb1f4f3430cdf441e6d112f2b52cd26619126357"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.QoS.dll",
+      "size": 137216,
+      "sha256": "e3577b736c499d0883718971509f02a6ddec998d8ef23bc8ea94156990cd16bf"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Services.Wire.Internal.dll",
+      "size": 59392,
+      "sha256": "940677bb19f18f12aa5f08e85d9bc508b079c437af64c14ac934c448df373302"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Splines.dll",
+      "size": 152064,
+      "sha256": "69031fc56af5f477702db5bfe66907ff1e5f474b4f7af2a7e720bda23861008b"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.TextMeshPro.dll",
+      "size": 445952,
+      "sha256": "c88061eee531f8a0f6476187e06f09a762fdf7a684c4226f8322df6fd46b45d9"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.Timeline.dll",
+      "size": 134656,
+      "sha256": "a1d101dc633d0290242ffafffc4a3f3712fa8123bb8845aebb0e4320ae3bdb95"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.UnifiedRayTracing.Runtime.dll",
+      "size": 101376,
+      "sha256": "30091f42b89b7b7f6d741283d60a2a8a3d2b39c349023c1bb509c0fe2b3e2c4d"
+    },
+    {
+      "path": "PEAK_Data/Managed/Unity.VisualEffectGraph.Runtime.dll",
+      "size": 104448,
+      "sha256": "b81a52d7b16589ef159c464a9b7a5a351d22b3002684c6f55220367a0e007d9b"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.AccessibilityModule.dll",
+      "size": 51632,
+      "sha256": "1daaf8dfd3ad508f891f01f568201951fae15f345e6211c3fbbf23a45d3780f2"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll",
+      "size": 124848,
+      "sha256": "9ec6faabe2250ef1c6b1b099d0668d32b88c439c784398c7ecdbc577eddf3c4a"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.AIModule.dll",
+      "size": 77224,
+      "sha256": "22f7da9b651fa4358615292af1503e1dfac0d15809ce516fe8f643052ac90dcc"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.AMDModule.dll",
+      "size": 21928,
+      "sha256": "7b7eb09e4745329f363fdaa204767681b5328382a3885c7585cd4a6fdf47d87a"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "size": 121256,
+      "sha256": "29ae421d3f0699607e8d60a45777a59e02393874348af6059d65b40fcffb173e"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.AnimationModule.dll",
+      "size": 225200,
+      "sha256": "305e0395c6fe28d36b0612c12f3bc83f7a93a3dbe1997b085a5a416bc9e80f12"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.ARModule.dll",
+      "size": 25520,
+      "sha256": "0815bdf4daf32973fc5d2e26b6bd4992f079a34844322fc602b9aec591d0b71b"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "size": 41904,
+      "sha256": "77dbae6b1e55492495461824f42e85e97688064323a02513b5bdee590787e048"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.AudioModule.dll",
+      "size": 142760,
+      "sha256": "0c9403922ee3a23a1c4c7f1321345a6c6783813bb948816ddcbd6dfe03bb2913"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.ClothModule.dll",
+      "size": 36272,
+      "sha256": "e9808fcf7d0b84e92d2d0365e57df3aafdedd3ba95a38f2806f06368e0a81036"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.ClusterInputModule.dll",
+      "size": 28072,
+      "sha256": "6d91347698ab87d05a015e2564c64f8039db6e8cf5b90b1e13a6b57c7b6b946f"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+      "size": 26536,
+      "sha256": "a5ff9c78ed25164a3f990b87ea191358ccae54eca2f3caac5d7b62730129458a"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.ContentLoadModule.dll",
+      "size": 32688,
+      "sha256": "e36779491d3d2b10443d5ef365e600325f2245e28987f2baf9aa8a6440658c76"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.CoreModule.dll",
+      "size": 1983920,
+      "sha256": "df9540eb156c2966b56e559d3803d1003e0abb15b09ccc2bc9122fe654518bb5"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.CrashReportingModule.dll",
+      "size": 26536,
+      "sha256": "d5a17b34f42cde7ce305e0377031b619676a45b1f6ebfc856729e38696318766"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.DirectorModule.dll",
+      "size": 41384,
+      "sha256": "db20d18fe6c2f04e758d04b07f37621a0e19028b67809471c328e9e3ffb38b14"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.dll",
+      "size": 197040,
+      "sha256": "04bf18c4ec5c60fcc6dace257a67847c899a689e01dbb7f571ed64057ebd6b4e"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.DSPGraphModule.dll",
+      "size": 31656,
+      "sha256": "a4636c01fcdb4dc4589e2b57efb8566b76e00af030b82c9d1198be122eccae08"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.GameCenterModule.dll",
+      "size": 45480,
+      "sha256": "0b27af7fac0d4f3b100368ffe295de597cd865b3e7199fe13d85969aa88876a7"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.GIModule.dll",
+      "size": 24496,
+      "sha256": "936c18fda53a4c60d503943f056bc7144d71243ce503465e105a04be1021799e"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+      "size": 14248,
+      "sha256": "99f4dba4a84fb8afdfe21fe1e2fb4effff7586035dcde81cd370012541da33f4"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.GridModule.dll",
+      "size": 30128,
+      "sha256": "71c485fdb9c5209406a0ec25c6a8c34ad5b069e93965086de4f980c620c9e7ee"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.HierarchyCoreModule.dll",
+      "size": 109488,
+      "sha256": "17e0314e5f5f62870a6ab8c3795789000d1bafc1531c827f6245c27f8838b150"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.HierarchyModule.dll",
+      "size": 102320,
+      "sha256": "390e2c9f9f60cf170582faa20c3781545e4a8fe86ccd1687dd786dbce5686891"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.HotReloadModule.dll",
+      "size": 24496,
+      "sha256": "c07777fd05bddcad097115963aa6db36a95a23ca02f0f101322fdc44a8de5ae3"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.IdentifiersModule.dll",
+      "size": 14768,
+      "sha256": "3c4076fc02f3decb19c0dc1f35e4b33eb85c3b66959fdd3eed5862b0c318fd2d"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.ImageConversionModule.dll",
+      "size": 31144,
+      "sha256": "e3647086fbdeb3810459c0ba377de6d2b1f4502f07c5fd6687b8855ca6edd19c"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.IMGUIModule.dll",
+      "size": 214448,
+      "sha256": "6d58f9e4e0ad8bc73f5e37ade14952eea08779b5d581e0df457cb30d263352b6"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.InputForUIModule.dll",
+      "size": 57768,
+      "sha256": "5f0960f89647f17a7be79581a55e9b256a11ed2d3dba886ded56f97e795fa5f1"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "size": 45480,
+      "sha256": "fbe9427925ca2f9d15606f470e795d592a7a476d44f4d81606c91649992073cc"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.InputModule.dll",
+      "size": 28072,
+      "sha256": "d0297a3505218668a129a7c8c05cf3df390a273d181670cf91d8134e330c27de"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.InsightsModule.dll",
+      "size": 14248,
+      "sha256": "d6b459437a11ab4c33f1d704d83c4018d906ddafc46a35d4e17842ba76f184cf"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+      "size": 27048,
+      "sha256": "d252fa1f00b65845f5d1fc6fe8da339f85f4910947fe8b476fa0d3b11f441795"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.LocalizationModule.dll",
+      "size": 27056,
+      "sha256": "e91822decdbcc1e1101fec43b8ea3fa28e869b14d8befa323de3566770544b97"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.MarshallingModule.dll",
+      "size": 83376,
+      "sha256": "591bba4241afe20b23f314660aa9734067a15f5b27b4f8dc78b6f280c323541e"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.MultiplayerModule.dll",
+      "size": 17840,
+      "sha256": "df7031eb4de8566944b45e02f7b7de2a27206a3adb6b6402a732872398617492"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.NVIDIAModule.dll",
+      "size": 40872,
+      "sha256": "08cfeff90193268d07a7ec8d75a251924082024d6972ccfaffb1a79a6ea9d726"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "size": 171432,
+      "sha256": "0f6f15a8096e47f718162c87e90c88bb7940e149f70dd0f4082e8684cfe0bd2a"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+      "size": 25000,
+      "sha256": "44309f07717acb0b1ec011bb466cf27fdee839ab8c5c1629f43cb7ab000c0679"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.Physics2DModule.dll",
+      "size": 584104,
+      "sha256": "ed1454cb5bb05f6a93216fbdba0aaeb0dfe9e422443c1e89db1db593eec33909"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll",
+      "size": 14248,
+      "sha256": "62fc876dc2eacb5dc9fc2c153c1f717d9798a95366ae32789ea20e045baa67db"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.PhysicsModule.dll",
+      "size": 183208,
+      "sha256": "1d0dbdeb820a3a975afc49c936e3663b477109ea8e18af9f6344d415e7113d6d"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.PropertiesModule.dll",
+      "size": 133544,
+      "sha256": "c8e21e141a1654afb1ad95e442ed371ea6d7e5c0540f0103baee5a852bcf6af6"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.RenderAs2DModule.dll",
+      "size": 25512,
+      "sha256": "6150cc2e3949368d993270aac6fbc3783a24ae8347c4ebf0cf88f9e02355b9b3"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "size": 24488,
+      "sha256": "3d6f77aeee5880dee59ad441355cb4582df4e095e46b6cbc3cd3f2654a04df4a"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+      "size": 26032,
+      "sha256": "63cf37b3700ad041260b40841135020ff10b816ad4e1d9a12dd40d94badce30c"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.ShaderRuntimeModule.dll",
+      "size": 25512,
+      "sha256": "0e2fd551c422c8d20e96564b4129a198a9fb09a863ecd9fc95a2cb4eb5b45076"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll",
+      "size": 24488,
+      "sha256": "7d212ec73f7298d48cd27d19fabd1781d1092afe85cca215281cdfbeed2ccbba"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "size": 37800,
+      "sha256": "ba69b1474188c6acd401c77218c79c346b6f825989c68ae081ebf9042b80d0b5"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+      "size": 28592,
+      "sha256": "c75ab7cdbdca36ef5f63d582d2f3c1361e79878f997353e2c0f84f67a45e91d7"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+      "size": 32176,
+      "sha256": "ffa6a2e8ef9bf892027baa7a688f548e48d6d80b6b18361575fa2a0555de4129"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.StreamingModule.dll",
+      "size": 25512,
+      "sha256": "bde6e239bfefcdc2225b884e5ca76bdf8cb46091e82485aafff3b6e93d768357"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.SubstanceModule.dll",
+      "size": 29104,
+      "sha256": "f2998781131d948bd98149912f6420bcc0668b0c68f73d8bb3ff6989516d9c2e"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "size": 41896,
+      "sha256": "aa8ad0b1592ad46e52e5558f01331559d646a17382b74e828e169de9d016427c"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.TerrainModule.dll",
+      "size": 133552,
+      "sha256": "0f731241631f1dd68a77e2dd153c0b8878f1c094a3393438f365629bbf7400c1"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+      "size": 25512,
+      "sha256": "35917cb9d1b2854afcde5b7901bc6f4f81770134f79ddbed8218ed9564fb56ed"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+      "size": 81832,
+      "sha256": "d99ba357e8847c16d6bfec6d743ad795575418b37e5b04fc23c7a516aee04b86"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+      "size": 333232,
+      "sha256": "c7c2e20cfa66586cf4e79b1545ec9867d37c5ec8a5ed135b870999b5c795c24c"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "size": 39344,
+      "sha256": "f42642c91cb3175656b39ca7fdaccc990ad0351a2c265f30210eb2fd935b8f06"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.TilemapModule.dll",
+      "size": 58792,
+      "sha256": "e2f730b2c040a51d0f49a44c2cdc66ba127194dabdc38126479f490f1ba569aa"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.TLSModule.dll",
+      "size": 31144,
+      "sha256": "2dc8206823c20a3a4f3b8a746144fb48fd22b04bcf4dc7bab60c058ebdfa362a"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.UI.dll",
+      "size": 276480,
+      "sha256": "0283f863f4f391b7e6aa8a94d53b1935ae47c8bba9d47821fb372549cc3cf951"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.UIElementsModule.dll",
+      "size": 2448304,
+      "sha256": "49039e5250e69741ac652999027027b9ee83aaab9c7fbf3d5e648bd48ac83acf"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.UIModule.dll",
+      "size": 49576,
+      "sha256": "7b564ec6e0de85446107f1eab1c9d6f77bfb042b81672af12320398f236a04a0"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.UmbraModule.dll",
+      "size": 24496,
+      "sha256": "ab59c7781b830808e783662c32bbc370d75d18a400234148df4187e764a3c4cf"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+      "size": 35752,
+      "sha256": "a27518fbce9808a0989959ce890189cb3f304f607341e45c90d2640f7df33e50"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "size": 60848,
+      "sha256": "daad59a2c5afed0f83b05dceb35880c09adbe1bbc31a21ecaa895d8e36c9d5e4"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.UnityConnectModule.dll",
+      "size": 27568,
+      "sha256": "f18272bcfb97f7dce7113da509e6a0f8385b10d8bd4d0d69a7337c7cc760ab55"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.UnityConsentModule.dll",
+      "size": 16296,
+      "sha256": "e6ff1ce8afefb6dd8721205140a870d07182ad6df1aa55934198aa7f54a7bc50"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.UnityCurlModule.dll",
+      "size": 26032,
+      "sha256": "409990e730402160a97e93b5e05892480c4f39186668ad0bb2493a58432fa529"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "size": 28592,
+      "sha256": "28190efe5c4c17fdd67c147e6941d4607cd4618b8f90223a3717ca50830f8c9a"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+      "size": 28072,
+      "sha256": "ada7fda906f8860b5540b48a0bb4a0efb4ee6108160b9c4b39cccf1ab844be6c"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "size": 70064,
+      "sha256": "ef90aa8e6065aa19b0588836c96bfe10bf23ae05c168f172c030ed56d8cff016"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+      "size": 27560,
+      "sha256": "6bb4510725b81b9b632b882ae5784c4e693736371cb7116c8d3c08109adfa02d"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+      "size": 36264,
+      "sha256": "987c89b687b16de4dea765139b3c65df84b2e80f919301f1aec787ff883f14fd"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.VectorGraphicsModule.dll",
+      "size": 253352,
+      "sha256": "48e83de6aadac3c931f5ddffe5df680f305108cf0e786f29d1275ae8b9bebb0a"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.VehiclesModule.dll",
+      "size": 31144,
+      "sha256": "3e23c50e6f3ad96c3e13cc17706e09acb09796a6ed6f104c51c34bb61462fde3"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.VFXModule.dll",
+      "size": 78248,
+      "sha256": "b3ea9b515afe1a6a60707e27394465e19397ddab111d0ec72988844966c9596a"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.VideoModule.dll",
+      "size": 49072,
+      "sha256": "05cf8d7072eddc572189229731237c6942f616dbd4ce100ff01f79cadb3c4854"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+      "size": 42928,
+      "sha256": "b78f802b4adb38b0e0a121f1d14a11a2447d191e05e542cbbb722b01ff5811cc"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.VRModule.dll",
+      "size": 31664,
+      "sha256": "18df41ba6c219702e71dce22c330de3ced52846f583118499ae8400213fe9457"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.WindModule.dll",
+      "size": 26536,
+      "sha256": "324dff755a9acebe8dbfac19076627c0a22502249697247e3a8e5bde1bd28429"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityEngine.XRModule.dll",
+      "size": 88496,
+      "sha256": "58070ce044b20f06740c9b348117b0c4dc17a00a2098e64fb68cfb34ac02248b"
+    },
+    {
+      "path": "PEAK_Data/Managed/UnityUIExtensions.dll",
+      "size": 358400,
+      "sha256": "23a28aff2d1c5f1e1c6d3ce72b3ac59994bcbe1db23c98b108482e2363027ba1"
+    },
+    {
+      "path": "PEAK_Data/Managed/websocket-sharp.dll",
+      "size": 248320,
+      "sha256": "0113ac17878d4fe992fa487c4fd9a8fa3850d4fa4b64cab45ecf782a3d6fef7a"
+    },
+    {
+      "path": "PEAK_Data/Managed/Whinarn.UnityMeshSimplifier.Runtime.dll",
+      "size": 72192,
+      "sha256": "7b4b1b6d358720bfce39edc1ad47c92759dceac6581790444ca301ec49c3aab8"
+    },
+    {
+      "path": "PEAK_Data/Managed/Zorro.AutoLOD.dll",
+      "size": 5632,
+      "sha256": "60aca48d07c06fad95b519b7d99d835de690145ba4e215a55e5d5ab75851e714"
+    },
+    {
+      "path": "PEAK_Data/Managed/Zorro.ControllerSupport.dll",
+      "size": 29696,
+      "sha256": "7aa2662a1e1d37dc4754ea5cb09e2ba05fc36665e05985494ee41a2e44bf4a1d"
+    },
+    {
+      "path": "PEAK_Data/Managed/Zorro.Core.Runtime.dll",
+      "size": 131584,
+      "sha256": "5841c049b3ce61f1080dc244d3db8f446852c39d65a7094e08e986973afe91c1"
+    },
+    {
+      "path": "PEAK_Data/Managed/Zorro.JiggleBones.dll",
+      "size": 14336,
+      "sha256": "f041ea39bcf3271454941839e747e912d3e57730b0ed6611d5f010d0cbe5f325"
+    },
+    {
+      "path": "PEAK_Data/Managed/Zorro.PhotonUtility.dll",
+      "size": 10752,
+      "sha256": "58a4d0d2fb62b417fdb0b45174aa7741c81c169042163ae00e6f788772648f16"
+    },
+    {
+      "path": "PEAK_Data/Managed/Zorro.Settings.Runtime.dll",
+      "size": 29184,
+      "sha256": "d9f8405dec37de8084ac0a9312e17236bde7fa56f1c6c63af6a6c32691ac484a"
+    },
+    {
+      "path": "PEAK_Data/Managed/Zorro.UI.Runtime.dll",
+      "size": 22528,
+      "sha256": "4d269ef97844eff5d7e5ff4e9e42a2b5e93b8a4f971913cee1c956e6b20deb36"
+    },
+    {
+      "path": "PEAK_Data/Plugins/Steamworks.NET.txt",
+      "size": 241,
+      "sha256": "60da9f94fd56b61f2ca839a5da16a552b9264f584137ebdc917709e33e059b46"
+    },
+    {
+      "path": "PEAK_Data/Plugins/x86_64/AudioIn.dll",
+      "size": 145920,
+      "sha256": "50f8407d6cd5625d2a8811885a1917989c92186e8106b1dad8e39cc4f7f9a62e"
+    },
+    {
+      "path": "PEAK_Data/Plugins/x86_64/lib_burst_generated.dll",
+      "size": 1244672,
+      "sha256": "d0703f27d1dc4c680e73642abdcec817c90bb5cbe1446370eedd391dee9afae2"
+    },
+    {
+      "path": "PEAK_Data/Plugins/x86_64/opus_egpv.dll",
+      "size": 440832,
+      "sha256": "4f74f4a21512f4cc13bee08c043cf98e0a4c92c02d265283058a19f7c70d7ee7"
+    },
+    {
+      "path": "PEAK_Data/Plugins/x86_64/steam_api64.dll",
+      "size": 319584,
+      "sha256": "670d654aa3255c5061cf0236a1cdbb2f5076cbd5ae44f613b6f4921558e83e2d"
+    },
+    {
+      "path": "PEAK_Data/Plugins/x86_64/webrtc-audio.dll",
+      "size": 830464,
+      "sha256": "589ce036d3e426597a785b9632dc08c1299e4d4455eb1d498787418ccb78687d"
+    },
+    {
+      "path": "PEAK_Data/resources.assets",
+      "size": 58466956,
+      "sha256": "fb87b5c1b4edde30b8a32ce51242d471b6137d841116a6a0847db88f9c986e60"
+    },
+    {
+      "path": "PEAK_Data/resources.assets.resS",
+      "size": 496044720,
+      "sha256": "d465a7749a3106be2e37522ce569992361471c80c42ec8e5330a1466141e7851"
+    },
+    {
+      "path": "PEAK_Data/resources.resource",
+      "size": 174236256,
+      "sha256": "8fe41a1a66be38fb07ed61305ea2b0133446be39b1d3b2966c5881560c270d33"
+    },
+    {
+      "path": "PEAK_Data/Resources/unity default resources",
+      "size": 5923140,
+      "sha256": "fb2492cd1ad7c38dda8a4ce5f1a1fb57edcff44e3ae250b263e44beae3660ec4"
+    },
+    {
+      "path": "PEAK_Data/Resources/unity_builtin_extra",
+      "size": 1199536,
+      "sha256": "1b7bb40a07c793671d6c83fca08a32be6db4fb123c421e8cc343aa5a41e9cb05"
+    },
+    {
+      "path": "PEAK_Data/RuntimeInitializeOnLoads.json",
+      "size": 12135,
+      "sha256": "fe697831243b347da001a5eb937f39a269dc331e55c321d4a44a2543c0552e07"
+    },
+    {
+      "path": "PEAK_Data/ScriptingAssemblies.json",
+      "size": 6505,
+      "sha256": "05377366552a29f0c65d69877a2e916f73ced35daa2d0e3d78ee3384113ee79f"
+    },
+    {
+      "path": "PEAK_Data/sharedassets0.assets",
+      "size": 170960,
+      "sha256": "cfac9e2890b6b6f59daede86c07f7eed62e0d885f350e34a1f68ac151490b4f3"
+    },
+    {
+      "path": "PEAK_Data/sharedassets0.assets.resS",
+      "size": 31403488,
+      "sha256": "7b223d5e8a7d7450df487913eb046dab4cf452dbd788abb58a222e8a029aa9f2"
+    },
+    {
+      "path": "PEAK_Data/sharedassets0.resource",
+      "size": 500000,
+      "sha256": "ea95b758e97a62600345ed0a0a566f03b021e8722e0bb4b483627da3508b5817"
+    },
+    {
+      "path": "PEAK_Data/sharedassets1.assets",
+      "size": 23208044,
+      "sha256": "5134d39971275a32a6fc0babb5d35d345917907b57cdc3b0ecc640f49e64fdc5"
+    },
+    {
+      "path": "PEAK_Data/sharedassets1.assets.resS",
+      "size": 170233824,
+      "sha256": "04aaddd60634daa34ff6d92090800d62e868b93bf092bfc3a20171fb23fca3c3"
+    },
+    {
+      "path": "PEAK_Data/sharedassets1.resource",
+      "size": 10565888,
+      "sha256": "eb92e28611ed8ca9eff7876da74d49a9a88c3bc05ba030c67437cc17ed587cfc"
+    },
+    {
+      "path": "PEAK_Data/sharedassets10.assets",
+      "size": 479009,
+      "sha256": "0d1eca542804c54b463316c30e1780bf2f85aada880cd7f2cc6dc80ec019ad4f"
+    },
+    {
+      "path": "PEAK_Data/sharedassets11.assets",
+      "size": 534005,
+      "sha256": "ce46356eff3edcc1f6d36ba850415bff5e13f474a940b3a96dd95533305e3d6f"
+    },
+    {
+      "path": "PEAK_Data/sharedassets12.assets",
+      "size": 584093,
+      "sha256": "d04ae67d1aac45bbe3327829c1e66aa8ba1e7d8e99be4e63dd0dd4ec8dfe2b35"
+    },
+    {
+      "path": "PEAK_Data/sharedassets13.assets",
+      "size": 529817,
+      "sha256": "19316376c10cb45ce47f0d2b74e147d2c9871881f600cc3d920dac5f6cd9b46d"
+    },
+    {
+      "path": "PEAK_Data/sharedassets14.assets",
+      "size": 536285,
+      "sha256": "17a6c3f97016fc9c8f4c323c7693d9e8f9f68ac2dc2df9a9b8ed47d23e9a6e03"
+    },
+    {
+      "path": "PEAK_Data/sharedassets15.assets",
+      "size": 584129,
+      "sha256": "8aa56b3bf9a2033a8d29a0b0d8a24ee6397583ca8d525b0ff861750fc26cf224"
+    },
+    {
+      "path": "PEAK_Data/sharedassets16.assets",
+      "size": 479009,
+      "sha256": "0d1eca542804c54b463316c30e1780bf2f85aada880cd7f2cc6dc80ec019ad4f"
+    },
+    {
+      "path": "PEAK_Data/sharedassets2.assets",
+      "size": 2032,
+      "sha256": "5d1a3c2a6805b8feb34e5530311044f09b4626ebbecf5323435014f0dfc08cb7"
+    },
+    {
+      "path": "PEAK_Data/sharedassets2.assets.resS",
+      "size": 1036800,
+      "sha256": "fe4eda9e0e8b603361d235830385726cae5b75e5c1190c856d5ed1f6fa04e234"
+    },
+    {
+      "path": "PEAK_Data/sharedassets3.assets",
+      "size": 29513752,
+      "sha256": "949c45719018293fd63e4a87351caac3e467df65bab0fc0435ac8797b7c19e9f"
+    },
+    {
+      "path": "PEAK_Data/sharedassets3.assets.resS",
+      "size": 537550976,
+      "sha256": "2237b5ab2837a3e96ac02699c4a101f420ed1960a180cc2317678139bd8e6b56"
+    },
+    {
+      "path": "PEAK_Data/sharedassets3.resource",
+      "size": 11733472,
+      "sha256": "5ebca685980d02a134bb9b4d2ba893a27c732c061ff8114aa54125bd7c2f12fa"
+    },
+    {
+      "path": "PEAK_Data/sharedassets4.assets",
+      "size": 74816160,
+      "sha256": "c7ce2f52e32eba036297568af7f313ff91b2bd9e648ac2bae0e50b228e03aa68"
+    },
+    {
+      "path": "PEAK_Data/sharedassets4.assets.resS",
+      "size": 99474256,
+      "sha256": "902a1c69a6f30af6b878a4caeb5f87624f7a1d46491cee3f4a9268c2dd010695"
+    },
+    {
+      "path": "PEAK_Data/sharedassets4.resource",
+      "size": 91005440,
+      "sha256": "cefac668cc5327da67a17107ded876e30c936e2c06873b98e88ebed63fda429d"
+    },
+    {
+      "path": "PEAK_Data/sharedassets5.assets",
+      "size": 470333,
+      "sha256": "693d9982e9659dde1b79e303013ef9fec3feb196340203e273207db731a7c721"
+    },
+    {
+      "path": "PEAK_Data/sharedassets6.assets",
+      "size": 584213,
+      "sha256": "dc04ceae263ebe26d5a31ab79f56f130fb6ebf390c04d15b7656a1d24eb0fd0a"
+    },
+    {
+      "path": "PEAK_Data/sharedassets7.assets",
+      "size": 529817,
+      "sha256": "19316376c10cb45ce47f0d2b74e147d2c9871881f600cc3d920dac5f6cd9b46d"
+    },
+    {
+      "path": "PEAK_Data/sharedassets8.assets",
+      "size": 536285,
+      "sha256": "17a6c3f97016fc9c8f4c323c7693d9e8f9f68ac2dc2df9a9b8ed47d23e9a6e03"
+    },
+    {
+      "path": "PEAK_Data/sharedassets9.assets",
+      "size": 520685,
+      "sha256": "a11021b43c0d341ce36d5e584e2965745d17b9267118ef4c7c3eb9fa32af60e5"
+    },
+    {
+      "path": "PEAK_Data/StreamingAssets/UnityServicesProjectConfiguration.json",
+      "size": 2335,
+      "sha256": "41796c9cbadb6efdd5fb15691a1590f9b9284cf1f6c3df2a10914320ae64b5d3"
+    },
+    {
+      "path": "SteamOverlay64.dll",
+      "size": 117248,
+      "sha256": "f784b4b85b627c7ea541bd2a90c9fc6e9736a0731707c31265aa86fe684dc2df"
+    },
+    {
+      "path": "UnityCrashHandler64.exe",
+      "size": 1621416,
+      "sha256": "95c730f3efc0b499922b6402d02673b0c08b3f2b9e527a44ca8b3d0f563df9fc"
+    },
+    {
+      "path": "UnityPlayer.dll",
+      "size": 36349360,
+      "sha256": "8069e155cecac6cbd8d2ec4bdb4c97301004b340184b1bb1e3570309509e7042"
+    },
+    {
+      "path": "version.txt",
+      "size": 18,
+      "sha256": "dfda90426ee766418e417ab5650c303d82c9d56af028eff574ef2c26bedf9d91"
+    },
+    {
+      "path": "winmm.dll",
+      "size": 506368,
+      "sha256": "cb8baaa2054a11628b96e474e1428a430c95321f8ac3b89764255cbd6628a9d6"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 279969792,
+      "sha256": "c603329c9cca836d0301e69beb207b173800a91532fcfbd668f8952bf4c4b23e",
+      "segments": [
+        {
+          "file": "_CommonRedist/_redist_readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 2038
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 2038,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 891454,
+          "length": 295320
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1186774,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1996270,
+          "length": 31533074
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 33529344,
+          "length": 7054848
+        },
+        {
+          "file": "BepInEx/core/BepInEx.Preloader.dll",
+          "file_offset": 0,
+          "chunk_offset": 40584192,
+          "length": 43008
+        },
+        {
+          "file": "Custom.dll",
+          "file_offset": 0,
+          "chunk_offset": 40627200,
+          "length": 2202624
+        },
+        {
+          "file": "D3D12/D3D12Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 42829824,
+          "length": 4725304
+        },
+        {
+          "file": "dlllist.txt",
+          "file_offset": 0,
+          "chunk_offset": 47555128,
+          "length": 199
+        },
+        {
+          "file": "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+          "file_offset": 0,
+          "chunk_offset": 47555327,
+          "length": 7828912
+        },
+        {
+          "file": "MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+          "file_offset": 0,
+          "chunk_offset": 55384239,
+          "length": 611248
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+          "file_offset": 0,
+          "chunk_offset": 55995487,
+          "length": 1605
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+          "file_offset": 0,
+          "chunk_offset": 55997092,
+          "length": 60575
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/2.0/machine.config",
+          "file_offset": 0,
+          "chunk_offset": 56057667,
+          "length": 29066
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/2.0/settings.map",
+          "file_offset": 0,
+          "chunk_offset": 56086733,
+          "length": 2622
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/2.0/web.config",
+          "file_offset": 0,
+          "chunk_offset": 56089355,
+          "length": 11635
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+          "file_offset": 0,
+          "chunk_offset": 56100990,
+          "length": 1605
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+          "file_offset": 0,
+          "chunk_offset": 56102595,
+          "length": 60575
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/4.0/machine.config",
+          "file_offset": 0,
+          "chunk_offset": 56163170,
+          "length": 33598
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/4.0/settings.map",
+          "file_offset": 0,
+          "chunk_offset": 56196768,
+          "length": 2622
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/4.0/web.config",
+          "file_offset": 0,
+          "chunk_offset": 56199390,
+          "length": 18802
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+          "file_offset": 0,
+          "chunk_offset": 56218192,
+          "length": 1605
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+          "file_offset": 0,
+          "chunk_offset": 56219797,
+          "length": 60575
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/4.5/machine.config",
+          "file_offset": 0,
+          "chunk_offset": 56280372,
+          "length": 34056
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/4.5/settings.map",
+          "file_offset": 0,
+          "chunk_offset": 56314428,
+          "length": 2622
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/4.5/web.config",
+          "file_offset": 0,
+          "chunk_offset": 56317050,
+          "length": 18811
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/browscap.ini",
+          "file_offset": 0,
+          "chunk_offset": 56335861,
+          "length": 311984
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/config",
+          "file_offset": 0,
+          "chunk_offset": 56647845,
+          "length": 3815
+        },
+        {
+          "file": "MonoBleedingEdge/etc/mono/mconfig/config.xml",
+          "file_offset": 0,
+          "chunk_offset": 56651660,
+          "length": 25817
+        },
+        {
+          "file": "OnlineFix.ini",
+          "file_offset": 0,
+          "chunk_offset": 56677477,
+          "length": 607
+        },
+        {
+          "file": "OnlineFix.url",
+          "file_offset": 0,
+          "chunk_offset": 56678084,
+          "length": 46
+        },
+        {
+          "file": "OnlineFix64.dll",
+          "file_offset": 0,
+          "chunk_offset": 56678130,
+          "length": 11944448
+        },
+        {
+          "file": "PEAK.exe",
+          "file_offset": 0,
+          "chunk_offset": 68622578,
+          "length": 667648
+        },
+        {
+          "file": "PEAK_Data/app.info",
+          "file_offset": 0,
+          "chunk_offset": 69290226,
+          "length": 13
+        },
+        {
+          "file": "PEAK_Data/boot.config",
+          "file_offset": 0,
+          "chunk_offset": 69290239,
+          "length": 136
+        },
+        {
+          "file": "PEAK_Data/globalgamemanagers",
+          "file_offset": 0,
+          "chunk_offset": 69290375,
+          "length": 1900900
+        },
+        {
+          "file": "PEAK_Data/globalgamemanagers.assets",
+          "file_offset": 0,
+          "chunk_offset": 71191275,
+          "length": 48957784
+        },
+        {
+          "file": "PEAK_Data/globalgamemanagers.assets.resS",
+          "file_offset": 0,
+          "chunk_offset": 120149059,
+          "length": 18491360
+        },
+        {
+          "file": "PEAK_Data/level0",
+          "file_offset": 0,
+          "chunk_offset": 138640419,
+          "length": 40856
+        },
+        {
+          "file": "PEAK_Data/level1",
+          "file_offset": 0,
+          "chunk_offset": 138681275,
+          "length": 33017780
+        },
+        {
+          "file": "PEAK_Data/level10",
+          "file_offset": 0,
+          "chunk_offset": 171699055,
+          "length": 108270737
+        }
+      ]
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 279969792,
+      "sha256": "239a0c23e76e857534eafccf28c693a5595b05e7c9f44845e08b0172397c6431",
+      "segments": [
+        {
+          "file": "PEAK_Data/level10",
+          "file_offset": 108270737,
+          "chunk_offset": 0,
+          "length": 72394259
+        },
+        {
+          "file": "PEAK_Data/level11",
+          "file_offset": 0,
+          "chunk_offset": 72394259,
+          "length": 182182356
+        },
+        {
+          "file": "PEAK_Data/level12",
+          "file_offset": 0,
+          "chunk_offset": 254576615,
+          "length": 25393177
+        }
+      ]
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 279969792,
+      "sha256": "6f78c1ce3d37cc4cd9081698261afe6753ef17bae5d68405586a9adb0655afc0",
+      "segments": [
+        {
+          "file": "PEAK_Data/level12",
+          "file_offset": 25393177,
+          "chunk_offset": 0,
+          "length": 156229979
+        },
+        {
+          "file": "PEAK_Data/level13",
+          "file_offset": 0,
+          "chunk_offset": 156229979,
+          "length": 123739813
+        }
+      ]
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 279969792,
+      "sha256": "af01237ea18139f2cd0a7c8727d45d642e94aa8d734c0110cc1719c8119e4ee1",
+      "segments": [
+        {
+          "file": "PEAK_Data/level13",
+          "file_offset": 123739813,
+          "chunk_offset": 0,
+          "length": 54289903
+        },
+        {
+          "file": "PEAK_Data/level14",
+          "file_offset": 0,
+          "chunk_offset": 54289903,
+          "length": 185878404
+        },
+        {
+          "file": "PEAK_Data/level15",
+          "file_offset": 0,
+          "chunk_offset": 240168307,
+          "length": 39801485
+        }
+      ]
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 279969792,
+      "sha256": "f2ae0e464a47103a113634f4454d264396bfc0a6e984f59e6b58101374619b56",
+      "segments": [
+        {
+          "file": "PEAK_Data/level15",
+          "file_offset": 39801485,
+          "chunk_offset": 0,
+          "length": 138997351
+        },
+        {
+          "file": "PEAK_Data/level16",
+          "file_offset": 0,
+          "chunk_offset": 138997351,
+          "length": 140972441
+        }
+      ]
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 279969792,
+      "sha256": "8e68bf0113f5dfa7304f8880b9c6dabe0a03753cf42427cbbdd847d0355c9a63",
+      "segments": [
+        {
+          "file": "PEAK_Data/level16",
+          "file_offset": 140972441,
+          "chunk_offset": 0,
+          "length": 32367659
+        },
+        {
+          "file": "PEAK_Data/level2",
+          "file_offset": 0,
+          "chunk_offset": 32367659,
+          "length": 18488
+        },
+        {
+          "file": "PEAK_Data/level3",
+          "file_offset": 0,
+          "chunk_offset": 32386147,
+          "length": 14943972
+        },
+        {
+          "file": "PEAK_Data/level4",
+          "file_offset": 0,
+          "chunk_offset": 47330119,
+          "length": 218834324
+        },
+        {
+          "file": "PEAK_Data/level5",
+          "file_offset": 0,
+          "chunk_offset": 266164443,
+          "length": 13805349
+        }
+      ]
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 279969792,
+      "sha256": "050931708886b830909d534a6dc39e8845787b888e3aadef4e5f47cf8f1623e4",
+      "segments": [
+        {
+          "file": "PEAK_Data/level5",
+          "file_offset": 13805349,
+          "chunk_offset": 0,
+          "length": 163281359
+        },
+        {
+          "file": "PEAK_Data/level6",
+          "file_offset": 0,
+          "chunk_offset": 163281359,
+          "length": 116688433
+        }
+      ]
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 279969792,
+      "sha256": "36ecc6fc6f8055fe8117d68e33f3dddc662f977500abc50a02a83fce49394bab",
+      "segments": [
+        {
+          "file": "PEAK_Data/level6",
+          "file_offset": 116688433,
+          "chunk_offset": 0,
+          "length": 69715075
+        },
+        {
+          "file": "PEAK_Data/level7",
+          "file_offset": 0,
+          "chunk_offset": 69715075,
+          "length": 172187476
+        },
+        {
+          "file": "PEAK_Data/level8",
+          "file_offset": 0,
+          "chunk_offset": 241902551,
+          "length": 38067241
+        }
+      ]
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 279969792,
+      "sha256": "56987bbcbaeb9a70fe957869c14d96be3430c2ff8641d1a4cc4c54c77039e5f7",
+      "segments": [
+        {
+          "file": "PEAK_Data/level8",
+          "file_offset": 38067241,
+          "chunk_offset": 0,
+          "length": 146036107
+        },
+        {
+          "file": "PEAK_Data/level9",
+          "file_offset": 0,
+          "chunk_offset": 146036107,
+          "length": 133933685
+        }
+      ]
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 279969792,
+      "sha256": "c380ccead90df339f3ca1c3cf86c76ce25955f9d70ed3c312954606bd3ec63a4",
+      "segments": [
+        {
+          "file": "PEAK_Data/level9",
+          "file_offset": 133933685,
+          "chunk_offset": 0,
+          "length": 39401759
+        },
+        {
+          "file": "PEAK_Data/Managed/Ashley.MeshSplitter.dll",
+          "file_offset": 0,
+          "chunk_offset": 39401759,
+          "length": 4608
+        },
+        {
+          "file": "PEAK_Data/Managed/Assembly-CSharp-firstpass.dll",
+          "file_offset": 0,
+          "chunk_offset": 39406367,
+          "length": 79872
+        },
+        {
+          "file": "PEAK_Data/Managed/Assembly-CSharp.dll",
+          "file_offset": 0,
+          "chunk_offset": 39486239,
+          "length": 1562112
+        },
+        {
+          "file": "PEAK_Data/Managed/com.rlabrecque.steamworks.net.dll",
+          "file_offset": 0,
+          "chunk_offset": 41048351,
+          "length": 417280
+        },
+        {
+          "file": "PEAK_Data/Managed/DemiLib.dll",
+          "file_offset": 0,
+          "chunk_offset": 41465631,
+          "length": 14848
+        },
+        {
+          "file": "PEAK_Data/Managed/DOTween.dll",
+          "file_offset": 0,
+          "chunk_offset": 41480479,
+          "length": 175616
+        },
+        {
+          "file": "PEAK_Data/Managed/DOTweenPro.dll",
+          "file_offset": 0,
+          "chunk_offset": 41656095,
+          "length": 16384
+        },
+        {
+          "file": "PEAK_Data/Managed/HBAO.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 41672479,
+          "length": 40960
+        },
+        {
+          "file": "PEAK_Data/Managed/HBAO.Universal.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 41713439,
+          "length": 54784
+        },
+        {
+          "file": "PEAK_Data/Managed/LightVolume.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 41768223,
+          "length": 31744
+        },
+        {
+          "file": "PEAK_Data/Managed/Mono.Security.dll",
+          "file_offset": 0,
+          "chunk_offset": 41799967,
+          "length": 241152
+        },
+        {
+          "file": "PEAK_Data/Managed/mscorlib.dll",
+          "file_offset": 0,
+          "chunk_offset": 42041119,
+          "length": 4632064
+        },
+        {
+          "file": "PEAK_Data/Managed/netstandard.dll",
+          "file_offset": 0,
+          "chunk_offset": 46673183,
+          "length": 90112
+        },
+        {
+          "file": "PEAK_Data/Managed/Newtonsoft.Json.dll",
+          "file_offset": 0,
+          "chunk_offset": 46763295,
+          "length": 691712
+        },
+        {
+          "file": "PEAK_Data/Managed/Photon3Unity3D.dll",
+          "file_offset": 0,
+          "chunk_offset": 47455007,
+          "length": 239616
+        },
+        {
+          "file": "PEAK_Data/Managed/PhotonChat.dll",
+          "file_offset": 0,
+          "chunk_offset": 47694623,
+          "length": 35328
+        },
+        {
+          "file": "PEAK_Data/Managed/PhotonRealtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 47729951,
+          "length": 112640
+        },
+        {
+          "file": "PEAK_Data/Managed/PhotonUnityNetworking.dll",
+          "file_offset": 0,
+          "chunk_offset": 47842591,
+          "length": 113664
+        },
+        {
+          "file": "PEAK_Data/Managed/PhotonUnityNetworking.Utilities.dll",
+          "file_offset": 0,
+          "chunk_offset": 47956255,
+          "length": 60416
+        },
+        {
+          "file": "PEAK_Data/Managed/PhotonVoice.API.dll",
+          "file_offset": 0,
+          "chunk_offset": 48016671,
+          "length": 160768
+        },
+        {
+          "file": "PEAK_Data/Managed/PhotonVoice.dll",
+          "file_offset": 0,
+          "chunk_offset": 48177439,
+          "length": 78336
+        },
+        {
+          "file": "PEAK_Data/Managed/PhotonVoice.PUN.dll",
+          "file_offset": 0,
+          "chunk_offset": 48255775,
+          "length": 14336
+        },
+        {
+          "file": "PEAK_Data/Managed/pworld.dll",
+          "file_offset": 0,
+          "chunk_offset": 48270111,
+          "length": 142336
+        },
+        {
+          "file": "PEAK_Data/Managed/sc.posteffects.runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 48412447,
+          "length": 143360
+        },
+        {
+          "file": "PEAK_Data/Managed/Sirenix.OdinInspector.Attributes.dll",
+          "file_offset": 0,
+          "chunk_offset": 48555807,
+          "length": 105472
+        },
+        {
+          "file": "PEAK_Data/Managed/Sirenix.OdinInspector.Modules.Unity.Addressables.dll",
+          "file_offset": 0,
+          "chunk_offset": 48661279,
+          "length": 5632
+        },
+        {
+          "file": "PEAK_Data/Managed/Sirenix.OdinInspector.Modules.UnityLocalization.dll",
+          "file_offset": 0,
+          "chunk_offset": 48666911,
+          "length": 6656
+        },
+        {
+          "file": "PEAK_Data/Managed/Sirenix.Serialization.Config.dll",
+          "file_offset": 0,
+          "chunk_offset": 48673567,
+          "length": 17920
+        },
+        {
+          "file": "PEAK_Data/Managed/Sirenix.Serialization.dll",
+          "file_offset": 0,
+          "chunk_offset": 48691487,
+          "length": 348160
+        },
+        {
+          "file": "PEAK_Data/Managed/Sirenix.Utilities.dll",
+          "file_offset": 0,
+          "chunk_offset": 49039647,
+          "length": 150016
+        },
+        {
+          "file": "PEAK_Data/Managed/System.ComponentModel.Composition.dll",
+          "file_offset": 0,
+          "chunk_offset": 49189663,
+          "length": 257024
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Configuration.dll",
+          "file_offset": 0,
+          "chunk_offset": 49446687,
+          "length": 124928
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 49571615,
+          "length": 1113088
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Data.DataSetExtensions.dll",
+          "file_offset": 0,
+          "chunk_offset": 50684703,
+          "length": 29696
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Data.dll",
+          "file_offset": 0,
+          "chunk_offset": 50714399,
+          "length": 2125312
+        },
+        {
+          "file": "PEAK_Data/Managed/System.dll",
+          "file_offset": 0,
+          "chunk_offset": 52839711,
+          "length": 2641920
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Drawing.dll",
+          "file_offset": 0,
+          "chunk_offset": 55481631,
+          "length": 489984
+        },
+        {
+          "file": "PEAK_Data/Managed/System.EnterpriseServices.dll",
+          "file_offset": 0,
+          "chunk_offset": 55971615,
+          "length": 44544
+        },
+        {
+          "file": "PEAK_Data/Managed/System.IO.Compression.dll",
+          "file_offset": 0,
+          "chunk_offset": 56016159,
+          "length": 114688
+        },
+        {
+          "file": "PEAK_Data/Managed/System.IO.Compression.FileSystem.dll",
+          "file_offset": 0,
+          "chunk_offset": 56130847,
+          "length": 18432
+        },
+        {
+          "file": "PEAK_Data/Managed/System.IO.Hashing.dll",
+          "file_offset": 0,
+          "chunk_offset": 56149279,
+          "length": 50488
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Memory.dll",
+          "file_offset": 0,
+          "chunk_offset": 56199767,
+          "length": 4608
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Net.Http.dll",
+          "file_offset": 0,
+          "chunk_offset": 56204375,
+          "length": 122880
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Numerics.dll",
+          "file_offset": 0,
+          "chunk_offset": 56327255,
+          "length": 119296
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll",
+          "file_offset": 0,
+          "chunk_offset": 56446551,
+          "length": 18024
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 56464575,
+          "length": 12288
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Runtime.Serialization.dll",
+          "file_offset": 0,
+          "chunk_offset": 56476863,
+          "length": 934400
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Security.dll",
+          "file_offset": 0,
+          "chunk_offset": 57411263,
+          "length": 320000
+        },
+        {
+          "file": "PEAK_Data/Managed/System.ServiceModel.Internals.dll",
+          "file_offset": 0,
+          "chunk_offset": 57731263,
+          "length": 215040
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Transactions.dll",
+          "file_offset": 0,
+          "chunk_offset": 57946303,
+          "length": 35328
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Xml.dll",
+          "file_offset": 0,
+          "chunk_offset": 57981631,
+          "length": 3160064
+        },
+        {
+          "file": "PEAK_Data/Managed/System.Xml.Linq.dll",
+          "file_offset": 0,
+          "chunk_offset": 61141695,
+          "length": 136704
+        },
+        {
+          "file": "PEAK_Data/Managed/Tayx.Graphy.dll",
+          "file_offset": 0,
+          "chunk_offset": 61278399,
+          "length": 53760
+        },
+        {
+          "file": "PEAK_Data/Managed/unity-websocket-sharp.dll",
+          "file_offset": 0,
+          "chunk_offset": 61332159,
+          "length": 223744
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Addressables.dll",
+          "file_offset": 0,
+          "chunk_offset": 61555903,
+          "length": 116736
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.AI.Navigation.dll",
+          "file_offset": 0,
+          "chunk_offset": 61672639,
+          "length": 24576
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Animation.Rigging.dll",
+          "file_offset": 0,
+          "chunk_offset": 61697215,
+          "length": 114176
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll",
+          "file_offset": 0,
+          "chunk_offset": 61811391,
+          "length": 6144
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Burst.dll",
+          "file_offset": 0,
+          "chunk_offset": 61817535,
+          "length": 304640
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Burst.Unsafe.dll",
+          "file_offset": 0,
+          "chunk_offset": 62122175,
+          "length": 5632
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Cinemachine.dll",
+          "file_offset": 0,
+          "chunk_offset": 62127807,
+          "length": 485376
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Collections.dll",
+          "file_offset": 0,
+          "chunk_offset": 62613183,
+          "length": 453632
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
+          "file_offset": 0,
+          "chunk_offset": 63066815,
+          "length": 5120
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.InputSystem.dll",
+          "file_offset": 0,
+          "chunk_offset": 63071935,
+          "length": 1137152
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.InputSystem.ForUI.dll",
+          "file_offset": 0,
+          "chunk_offset": 64209087,
+          "length": 16384
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.InputSystem.RebindingUI.dll",
+          "file_offset": 0,
+          "chunk_offset": 64225471,
+          "length": 15360
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.InternalAPIEngineBridge.004.dll",
+          "file_offset": 0,
+          "chunk_offset": 64240831,
+          "length": 4608
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.InternalAPIEngineBridge.013.dll",
+          "file_offset": 0,
+          "chunk_offset": 64245439,
+          "length": 5632
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Localization.dll",
+          "file_offset": 0,
+          "chunk_offset": 64251071,
+          "length": 314880
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Mathematics.dll",
+          "file_offset": 0,
+          "chunk_offset": 64565951,
+          "length": 752640
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.MemoryProfiler.dll",
+          "file_offset": 0,
+          "chunk_offset": 65318591,
+          "length": 7168
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Multiplayer.Center.Common.dll",
+          "file_offset": 0,
+          "chunk_offset": 65325759,
+          "length": 10752
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Networking.Transport.dll",
+          "file_offset": 0,
+          "chunk_offset": 65336511,
+          "length": 242688
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Profiling.Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 65579199,
+          "length": 10240
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+          "file_offset": 0,
+          "chunk_offset": 65589439,
+          "length": 9216
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 65598655,
+          "length": 1201152
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll",
+          "file_offset": 0,
+          "chunk_offset": 66799807,
+          "length": 5632
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+          "file_offset": 0,
+          "chunk_offset": 66805439,
+          "length": 4608
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 66810047,
+          "length": 235008
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+          "file_offset": 0,
+          "chunk_offset": 67045055,
+          "length": 4608
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 67049663,
+          "length": 233472
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 67283135,
+          "length": 5632
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 67288767,
+          "length": 765952
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
+          "file_offset": 0,
+          "chunk_offset": 68054719,
+          "length": 4608
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.ResourceManager.dll",
+          "file_offset": 0,
+          "chunk_offset": 68059327,
+          "length": 143360
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.ScriptableBuildPipeline.dll",
+          "file_offset": 0,
+          "chunk_offset": 68202687,
+          "length": 9216
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Authentication.dll",
+          "file_offset": 0,
+          "chunk_offset": 68211903,
+          "length": 146944
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Authentication.PlayerAccounts.dll",
+          "file_offset": 0,
+          "chunk_offset": 68358847,
+          "length": 43520
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Core.Analytics.dll",
+          "file_offset": 0,
+          "chunk_offset": 68402367,
+          "length": 5632
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Core.Components.dll",
+          "file_offset": 0,
+          "chunk_offset": 68407999,
+          "length": 10752
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Core.Configuration.dll",
+          "file_offset": 0,
+          "chunk_offset": 68418751,
+          "length": 14336
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Core.Device.dll",
+          "file_offset": 0,
+          "chunk_offset": 68433087,
+          "length": 7168
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 68440255,
+          "length": 17920
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Core.Environments.dll",
+          "file_offset": 0,
+          "chunk_offset": 68458175,
+          "length": 5632
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Core.Environments.Internal.dll",
+          "file_offset": 0,
+          "chunk_offset": 68463807,
+          "length": 5120
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Core.Internal.dll",
+          "file_offset": 0,
+          "chunk_offset": 68468927,
+          "length": 75264
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Core.Networking.dll",
+          "file_offset": 0,
+          "chunk_offset": 68544191,
+          "length": 8192
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Core.Registration.dll",
+          "file_offset": 0,
+          "chunk_offset": 68552383,
+          "length": 18432
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Core.Scheduler.dll",
+          "file_offset": 0,
+          "chunk_offset": 68570815,
+          "length": 12800
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Core.Telemetry.dll",
+          "file_offset": 0,
+          "chunk_offset": 68583615,
+          "length": 8704
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Core.Threading.dll",
+          "file_offset": 0,
+          "chunk_offset": 68592319,
+          "length": 7168
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Multiplayer.dll",
+          "file_offset": 0,
+          "chunk_offset": 68599487,
+          "length": 695296
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.QoS.dll",
+          "file_offset": 0,
+          "chunk_offset": 69294783,
+          "length": 137216
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Services.Wire.Internal.dll",
+          "file_offset": 0,
+          "chunk_offset": 69431999,
+          "length": 59392
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Splines.dll",
+          "file_offset": 0,
+          "chunk_offset": 69491391,
+          "length": 152064
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.TextMeshPro.dll",
+          "file_offset": 0,
+          "chunk_offset": 69643455,
+          "length": 445952
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.Timeline.dll",
+          "file_offset": 0,
+          "chunk_offset": 70089407,
+          "length": 134656
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.UnifiedRayTracing.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 70224063,
+          "length": 101376
+        },
+        {
+          "file": "PEAK_Data/Managed/Unity.VisualEffectGraph.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 70325439,
+          "length": 104448
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.AccessibilityModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 70429887,
+          "length": 51632
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 70481519,
+          "length": 124848
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.AIModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 70606367,
+          "length": 77224
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.AMDModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 70683591,
+          "length": 21928
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 70705519,
+          "length": 121256
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.AnimationModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 70826775,
+          "length": 225200
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.ARModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 71051975,
+          "length": 25520
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.AssetBundleModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 71077495,
+          "length": 41904
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.AudioModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 71119399,
+          "length": 142760
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.ClothModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 71262159,
+          "length": 36272
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.ClusterInputModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 71298431,
+          "length": 28072
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 71326503,
+          "length": 26536
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.ContentLoadModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 71353039,
+          "length": 32688
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.CoreModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 71385727,
+          "length": 1983920
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.CrashReportingModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 73369647,
+          "length": 26536
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.DirectorModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 73396183,
+          "length": 41384
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.dll",
+          "file_offset": 0,
+          "chunk_offset": 73437567,
+          "length": 197040
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.DSPGraphModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 73634607,
+          "length": 31656
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.GameCenterModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 73666263,
+          "length": 45480
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.GIModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 73711743,
+          "length": 24496
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 73736239,
+          "length": 14248
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.GridModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 73750487,
+          "length": 30128
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.HierarchyCoreModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 73780615,
+          "length": 109488
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.HierarchyModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 73890103,
+          "length": 102320
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.HotReloadModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 73992423,
+          "length": 24496
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.IdentifiersModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74016919,
+          "length": 14768
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.ImageConversionModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74031687,
+          "length": 31144
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.IMGUIModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74062831,
+          "length": 214448
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.InputForUIModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74277279,
+          "length": 57768
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.InputLegacyModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74335047,
+          "length": 45480
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.InputModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74380527,
+          "length": 28072
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.InsightsModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74408599,
+          "length": 14248
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74422847,
+          "length": 27048
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.LocalizationModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74449895,
+          "length": 27056
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.MarshallingModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74476951,
+          "length": 83376
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.MultiplayerModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74560327,
+          "length": 17840
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.NVIDIAModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74578167,
+          "length": 40872
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74619039,
+          "length": 171432
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74790471,
+          "length": 25000
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.Physics2DModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 74815471,
+          "length": 584104
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 75399575,
+          "length": 14248
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.PhysicsModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 75413823,
+          "length": 183208
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.PropertiesModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 75597031,
+          "length": 133544
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.RenderAs2DModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 75730575,
+          "length": 25512
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 75756087,
+          "length": 24488
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 75780575,
+          "length": 26032
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.ShaderRuntimeModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 75806607,
+          "length": 25512
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 75832119,
+          "length": 24488
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 75856607,
+          "length": 37800
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 75894407,
+          "length": 28592
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 75922999,
+          "length": 32176
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.StreamingModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 75955175,
+          "length": 25512
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.SubstanceModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 75980687,
+          "length": 29104
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.SubsystemsModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 76009791,
+          "length": 41896
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.TerrainModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 76051687,
+          "length": 133552
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 76185239,
+          "length": 25512
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 76210751,
+          "length": 81832
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 76292583,
+          "length": 333232
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.TextRenderingModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 76625815,
+          "length": 39344
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.TilemapModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 76665159,
+          "length": 58792
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.TLSModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 76723951,
+          "length": 31144
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.UI.dll",
+          "file_offset": 0,
+          "chunk_offset": 76755095,
+          "length": 276480
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.UIElementsModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 77031575,
+          "length": 2448304
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.UIModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 79479879,
+          "length": 49576
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.UmbraModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 79529455,
+          "length": 24496
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 79553951,
+          "length": 35752
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 79589703,
+          "length": 60848
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.UnityConnectModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 79650551,
+          "length": 27568
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.UnityConsentModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 79678119,
+          "length": 16296
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.UnityCurlModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 79694415,
+          "length": 26032
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 79720447,
+          "length": 28592
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 79749039,
+          "length": 28072
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 79777111,
+          "length": 70064
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 79847175,
+          "length": 27560
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 79874735,
+          "length": 36264
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.VectorGraphicsModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 79910999,
+          "length": 253352
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.VehiclesModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 80164351,
+          "length": 31144
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.VFXModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 80195495,
+          "length": 78248
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.VideoModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 80273743,
+          "length": 49072
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 80322815,
+          "length": 42928
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.VRModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 80365743,
+          "length": 31664
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.WindModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 80397407,
+          "length": 26536
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityEngine.XRModule.dll",
+          "file_offset": 0,
+          "chunk_offset": 80423943,
+          "length": 88496
+        },
+        {
+          "file": "PEAK_Data/Managed/UnityUIExtensions.dll",
+          "file_offset": 0,
+          "chunk_offset": 80512439,
+          "length": 358400
+        },
+        {
+          "file": "PEAK_Data/Managed/websocket-sharp.dll",
+          "file_offset": 0,
+          "chunk_offset": 80870839,
+          "length": 248320
+        },
+        {
+          "file": "PEAK_Data/Managed/Whinarn.UnityMeshSimplifier.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 81119159,
+          "length": 72192
+        },
+        {
+          "file": "PEAK_Data/Managed/Zorro.AutoLOD.dll",
+          "file_offset": 0,
+          "chunk_offset": 81191351,
+          "length": 5632
+        },
+        {
+          "file": "PEAK_Data/Managed/Zorro.ControllerSupport.dll",
+          "file_offset": 0,
+          "chunk_offset": 81196983,
+          "length": 29696
+        },
+        {
+          "file": "PEAK_Data/Managed/Zorro.Core.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 81226679,
+          "length": 131584
+        },
+        {
+          "file": "PEAK_Data/Managed/Zorro.JiggleBones.dll",
+          "file_offset": 0,
+          "chunk_offset": 81358263,
+          "length": 14336
+        },
+        {
+          "file": "PEAK_Data/Managed/Zorro.PhotonUtility.dll",
+          "file_offset": 0,
+          "chunk_offset": 81372599,
+          "length": 10752
+        },
+        {
+          "file": "PEAK_Data/Managed/Zorro.Settings.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 81383351,
+          "length": 29184
+        },
+        {
+          "file": "PEAK_Data/Managed/Zorro.UI.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 81412535,
+          "length": 22528
+        },
+        {
+          "file": "PEAK_Data/Plugins/Steamworks.NET.txt",
+          "file_offset": 0,
+          "chunk_offset": 81435063,
+          "length": 241
+        },
+        {
+          "file": "PEAK_Data/Plugins/x86_64/AudioIn.dll",
+          "file_offset": 0,
+          "chunk_offset": 81435304,
+          "length": 145920
+        },
+        {
+          "file": "PEAK_Data/Plugins/x86_64/lib_burst_generated.dll",
+          "file_offset": 0,
+          "chunk_offset": 81581224,
+          "length": 1244672
+        },
+        {
+          "file": "PEAK_Data/Plugins/x86_64/opus_egpv.dll",
+          "file_offset": 0,
+          "chunk_offset": 82825896,
+          "length": 440832
+        },
+        {
+          "file": "PEAK_Data/Plugins/x86_64/steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 83266728,
+          "length": 319584
+        },
+        {
+          "file": "PEAK_Data/Plugins/x86_64/webrtc-audio.dll",
+          "file_offset": 0,
+          "chunk_offset": 83586312,
+          "length": 830464
+        },
+        {
+          "file": "PEAK_Data/resources.assets",
+          "file_offset": 0,
+          "chunk_offset": 84416776,
+          "length": 58466956
+        },
+        {
+          "file": "PEAK_Data/resources.assets.resS",
+          "file_offset": 0,
+          "chunk_offset": 142883732,
+          "length": 137086060
+        }
+      ]
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 279969792,
+      "sha256": "40ebb0af339b0c212f4587ab5b2c3a5e04cc383878a5ceed71642c53187b2b9b",
+      "segments": [
+        {
+          "file": "PEAK_Data/resources.assets.resS",
+          "file_offset": 137086060,
+          "chunk_offset": 0,
+          "length": 279969792
+        }
+      ]
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 279969792,
+      "sha256": "2a3539f081c04e1660c1663e693ad28e338502e8755872ae7e91afd964db6735",
+      "segments": [
+        {
+          "file": "PEAK_Data/resources.assets.resS",
+          "file_offset": 417055852,
+          "chunk_offset": 0,
+          "length": 78988868
+        },
+        {
+          "file": "PEAK_Data/resources.resource",
+          "file_offset": 0,
+          "chunk_offset": 78988868,
+          "length": 174236256
+        },
+        {
+          "file": "PEAK_Data/Resources/unity default resources",
+          "file_offset": 0,
+          "chunk_offset": 253225124,
+          "length": 5923140
+        },
+        {
+          "file": "PEAK_Data/Resources/unity_builtin_extra",
+          "file_offset": 0,
+          "chunk_offset": 259148264,
+          "length": 1199536
+        },
+        {
+          "file": "PEAK_Data/RuntimeInitializeOnLoads.json",
+          "file_offset": 0,
+          "chunk_offset": 260347800,
+          "length": 12135
+        },
+        {
+          "file": "PEAK_Data/ScriptingAssemblies.json",
+          "file_offset": 0,
+          "chunk_offset": 260359935,
+          "length": 6505
+        },
+        {
+          "file": "PEAK_Data/sharedassets0.assets",
+          "file_offset": 0,
+          "chunk_offset": 260366440,
+          "length": 170960
+        },
+        {
+          "file": "PEAK_Data/sharedassets0.assets.resS",
+          "file_offset": 0,
+          "chunk_offset": 260537400,
+          "length": 19432392
+        }
+      ]
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 279969792,
+      "sha256": "c973f1b515985651fb0281afe98aaa3d4c19d3758f8e29fe5226f3ecf3eea1c4",
+      "segments": [
+        {
+          "file": "PEAK_Data/sharedassets0.assets.resS",
+          "file_offset": 19432392,
+          "chunk_offset": 0,
+          "length": 11971096
+        },
+        {
+          "file": "PEAK_Data/sharedassets0.resource",
+          "file_offset": 0,
+          "chunk_offset": 11971096,
+          "length": 500000
+        },
+        {
+          "file": "PEAK_Data/sharedassets1.assets",
+          "file_offset": 0,
+          "chunk_offset": 12471096,
+          "length": 23208044
+        },
+        {
+          "file": "PEAK_Data/sharedassets1.assets.resS",
+          "file_offset": 0,
+          "chunk_offset": 35679140,
+          "length": 170233824
+        },
+        {
+          "file": "PEAK_Data/sharedassets1.resource",
+          "file_offset": 0,
+          "chunk_offset": 205912964,
+          "length": 10565888
+        },
+        {
+          "file": "PEAK_Data/sharedassets10.assets",
+          "file_offset": 0,
+          "chunk_offset": 216478852,
+          "length": 479009
+        },
+        {
+          "file": "PEAK_Data/sharedassets11.assets",
+          "file_offset": 0,
+          "chunk_offset": 216957861,
+          "length": 534005
+        },
+        {
+          "file": "PEAK_Data/sharedassets12.assets",
+          "file_offset": 0,
+          "chunk_offset": 217491866,
+          "length": 584093
+        },
+        {
+          "file": "PEAK_Data/sharedassets13.assets",
+          "file_offset": 0,
+          "chunk_offset": 218075959,
+          "length": 529817
+        },
+        {
+          "file": "PEAK_Data/sharedassets14.assets",
+          "file_offset": 0,
+          "chunk_offset": 218605776,
+          "length": 536285
+        },
+        {
+          "file": "PEAK_Data/sharedassets15.assets",
+          "file_offset": 0,
+          "chunk_offset": 219142061,
+          "length": 584129
+        },
+        {
+          "file": "PEAK_Data/sharedassets16.assets",
+          "file_offset": 0,
+          "chunk_offset": 219726190,
+          "length": 479009
+        },
+        {
+          "file": "PEAK_Data/sharedassets2.assets",
+          "file_offset": 0,
+          "chunk_offset": 220205199,
+          "length": 2032
+        },
+        {
+          "file": "PEAK_Data/sharedassets2.assets.resS",
+          "file_offset": 0,
+          "chunk_offset": 220207231,
+          "length": 1036800
+        },
+        {
+          "file": "PEAK_Data/sharedassets3.assets",
+          "file_offset": 0,
+          "chunk_offset": 221244031,
+          "length": 29513752
+        },
+        {
+          "file": "PEAK_Data/sharedassets3.assets.resS",
+          "file_offset": 0,
+          "chunk_offset": 250757783,
+          "length": 29212009
+        }
+      ]
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 279969792,
+      "sha256": "9fc8640d11de7ffc545cb1d1a1ef836e3b63f7f0133aaebf6f34d62701227db2",
+      "segments": [
+        {
+          "file": "PEAK_Data/sharedassets3.assets.resS",
+          "file_offset": 29212009,
+          "chunk_offset": 0,
+          "length": 279969792
+        }
+      ]
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 279969792,
+      "sha256": "93854070f9698eac17220b6c30cf46c7cbc2c75b3bca9d520f01cdee47be51d8",
+      "segments": [
+        {
+          "file": "PEAK_Data/sharedassets3.assets.resS",
+          "file_offset": 309181801,
+          "chunk_offset": 0,
+          "length": 228369175
+        },
+        {
+          "file": "PEAK_Data/sharedassets3.resource",
+          "file_offset": 0,
+          "chunk_offset": 228369175,
+          "length": 11733472
+        },
+        {
+          "file": "PEAK_Data/sharedassets4.assets",
+          "file_offset": 0,
+          "chunk_offset": 240102647,
+          "length": 39867145
+        }
+      ]
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 266666789,
+      "sha256": "f15dcd0d1dc26afa7b8dc9001e3872bb8e4767f042f30cb26baa06cc9f22f2f9",
+      "segments": [
+        {
+          "file": "PEAK_Data/sharedassets4.assets",
+          "file_offset": 39867145,
+          "chunk_offset": 0,
+          "length": 34949015
+        },
+        {
+          "file": "PEAK_Data/sharedassets4.assets.resS",
+          "file_offset": 0,
+          "chunk_offset": 34949015,
+          "length": 99474256
+        },
+        {
+          "file": "PEAK_Data/sharedassets4.resource",
+          "file_offset": 0,
+          "chunk_offset": 134423271,
+          "length": 91005440
+        },
+        {
+          "file": "PEAK_Data/sharedassets5.assets",
+          "file_offset": 0,
+          "chunk_offset": 225428711,
+          "length": 470333
+        },
+        {
+          "file": "PEAK_Data/sharedassets6.assets",
+          "file_offset": 0,
+          "chunk_offset": 225899044,
+          "length": 584213
+        },
+        {
+          "file": "PEAK_Data/sharedassets7.assets",
+          "file_offset": 0,
+          "chunk_offset": 226483257,
+          "length": 529817
+        },
+        {
+          "file": "PEAK_Data/sharedassets8.assets",
+          "file_offset": 0,
+          "chunk_offset": 227013074,
+          "length": 536285
+        },
+        {
+          "file": "PEAK_Data/sharedassets9.assets",
+          "file_offset": 0,
+          "chunk_offset": 227549359,
+          "length": 520685
+        },
+        {
+          "file": "PEAK_Data/StreamingAssets/UnityServicesProjectConfiguration.json",
+          "file_offset": 0,
+          "chunk_offset": 228070044,
+          "length": 2335
+        },
+        {
+          "file": "SteamOverlay64.dll",
+          "file_offset": 0,
+          "chunk_offset": 228072379,
+          "length": 117248
+        },
+        {
+          "file": "UnityCrashHandler64.exe",
+          "file_offset": 0,
+          "chunk_offset": 228189627,
+          "length": 1621416
+        },
+        {
+          "file": "UnityPlayer.dll",
+          "file_offset": 0,
+          "chunk_offset": 229811043,
+          "length": 36349360
+        },
+        {
+          "file": "version.txt",
+          "file_offset": 0,
+          "chunk_offset": 266160403,
+          "length": 18
+        },
+        {
+          "file": "winmm.dll",
+          "file_offset": 0,
+          "chunk_offset": 266160421,
+          "length": 506368
+        }
+      ]
+    }
+  ]
+}
