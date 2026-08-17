@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - '.source-upload/claude-source-update.tgz'
+      - '.source-upload/**'
       - '.github/workflows/apply-source-upload.yml'
 
 permissions:
@@ -19,9 +19,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          tar -xzf .source-upload/claude-source-update.tgz -C .
-          rm -f .source-upload/claude-source-update.tgz
-          rmdir .source-upload 2>/dev/null || true
+          cat .source-upload/part-* > /tmp/source-update.b64
+          base64 -d /tmp/source-update.b64 > /tmp/source-update.tgz
+          tar -xzf /tmp/source-update.tgz -C .
+          rm -rf .source-upload
           rm -f .github/workflows/apply-source-upload.yml
           git config user.name "thedrowned925"
           git config user.email "chatgpticib1@gmail.com"
