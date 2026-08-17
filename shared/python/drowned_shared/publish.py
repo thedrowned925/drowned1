@@ -33,6 +33,7 @@ def publish_project(
     log=print,
     cancelled=lambda: False,
     upload_workers: int = DEFAULT_TURBO_WORKERS,
+    media: dict | None = None,
 ):
     game_id = slugify(title)
     platform = slugify(platform)
@@ -173,6 +174,18 @@ def publish_project(
     for kind, raw in (artwork or {}).items():
         if not raw:
             continue
+        if kind == "screenshots":
+            urls = []
+            for index, shot in enumerate(raw):
+                if not shot:
+                    continue
+                p = Path(shot)
+                repo_path = f"artwork/{platform}/{game_id}/screenshots/{index:02d}{p.suffix.lower()}"
+                client.upsert_bytes(repo_path, p.read_bytes(), f"Update {title} screenshot {index + 1}")
+                urls.append(client.raw_url(repo_path))
+            if urls:
+                art_urls["screenshots"] = urls
+            continue
         p = Path(raw)
         repo_path = f"artwork/{platform}/{game_id}/{kind}{p.suffix.lower()}"
         client.upsert_bytes(repo_path, p.read_bytes(), f"Update {title} {kind}")
@@ -201,6 +214,11 @@ def publish_project(
     game["title"] = title
     game["description"] = description
     game["artwork"].update(art_urls)
+    # Trailers and other streamed media stay as external Steam CDN links
+    # rather than repository files, so they live outside `artwork` (which the
+    # deletion pass treats as "files this repo owns and may remove").
+    if media:
+        game.setdefault("media", {}).update(media)
     game["channels"][channel] = {
         "version": version,
         "tag": tag,

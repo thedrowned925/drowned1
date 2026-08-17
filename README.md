@@ -4,8 +4,8 @@ Windows odaklı GitHub Releases dağıtım sistemi.
 
 ## Uygulamalar
 
-- **Drowned Release Manager** — oyun/proje yayınlama, katalog yönetimi ve güvenli silme.
-- **Drowned Launcher** — Steam benzeri kütüphane, raw katalog/artwork okuma, indirme ve SHA-256 doğrulama.
+- **Drowned Release Manager** — oyun/proje yayınlama, katalog yönetimi, ekran görüntüsü galerisi ve güvenli silme.
+- **Drowned Launcher** — Steam benzeri kapak-grid kütüphane, geniş ekran (Big Picture) modu, Xbox/XInput kolla tam gezinme, raw katalog/artwork okuma, indirme ve SHA-256 doğrulama.
 
 Android uygulaması ve Android build pipeline'ı projeden tamamen kaldırılmıştır.
 
@@ -102,7 +102,7 @@ Release Manager:
 ```bash
 python -m pip install shared/python
 python -m pip install -r windows/release-manager/requirements.txt
-python windows/release-manager/app_v3.py
+python windows/release-manager/app_v5.py
 ```
 
 Launcher:
@@ -110,7 +110,7 @@ Launcher:
 ```bash
 python -m pip install shared/python
 python -m pip install -r windows/launcher/requirements.txt
-python windows/launcher/app_v4.py
+python windows/launcher/app_v10.py
 ```
 
 ## Test

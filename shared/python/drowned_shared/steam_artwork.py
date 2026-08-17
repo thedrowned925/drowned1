@@ -51,10 +51,52 @@ def _image_extension(url: str, content_type: str) -> str:
         return ".png"
     if "webp" in content_type:
         return ".webp"
+    if "icon" in content_type:
+        return ".ico"
     suffix = Path(urlparse(url).path).suffix.lower()
-    if suffix in {".jpg", ".jpeg", ".png", ".webp"}:
+    if suffix in {".jpg", ".jpeg", ".png", ".webp", ".ico"}:
         return ".jpg" if suffix == ".jpeg" else suffix
     return ".jpg"
+
+
+def collect_steam_trailers(details: dict, limit: int = 8) -> list[dict]:
+    """Turn the store `movies` array into plain trailer link records.
+
+    Trailer files are large and Steam already serves them from its own CDN,
+    so these stay as external links instead of being downloaded and
+    re-uploaded to the distribution repository.
+    """
+    trailers: list[dict] = []
+    for movie in (details.get("movies") or []):
+        if len(trailers) >= limit:
+            break
+        if not isinstance(movie, dict):
+            continue
+        webm = movie.get("webm") or {}
+        mp4 = movie.get("mp4") or {}
+        record = {
+            "name": str(movie.get("name") or "").strip(),
+            "thumbnail": str(movie.get("thumbnail") or ""),
+            "webm": str(webm.get("max") or webm.get("480") or ""),
+            "mp4": str(mp4.get("max") or mp4.get("480") or ""),
+        }
+        if not record["webm"] and not record["mp4"]:
+            continue
+        trailers.append(record)
+    return trailers
+
+
+def collect_steam_screenshot_urls(details: dict, limit: int = 8) -> list[str]:
+    urls: list[str] = []
+    for shot in (details.get("screenshots") or []):
+        if len(urls) >= limit:
+            break
+        if not isinstance(shot, dict):
+            continue
+        url = str(shot.get("path_full") or shot.get("path_thumbnail") or "")
+        if url:
+            urls.append(url)
+    return urls
 
 
 def _download_image(session: requests.Session, url: str, timeout=(12, 60)) -> tuple[bytes, str] | None:
@@ -110,11 +152,21 @@ def download_steam_artwork(
     steamdb_url_or_appid: str,
     target_dir: Path | str,
     session: requests.Session | None = None,
+    *,
+    max_screenshots: int = 8,
 ) -> dict:
     """Resolve a SteamDB URL/AppID and download the best available Steam artwork.
 
     SteamDB is used only as the convenient AppID input. Artwork is fetched from
     Steam's own store/CDN endpoints, avoiding SteamDB scraping and bot protection.
+
+    Returns hero/cover/logo/icon image paths, downloaded screenshot paths, and
+    trailer links. Trailers stay as links because Steam already hosts them.
+
+    Note on the icon: Steam does not publish a per-app `.ico` through any
+    public REST endpoint (the client icon hash lives in internal app info), so
+    the small store capsule is downloaded as the icon source. The Release
+    Manager lets the user replace it with a real `.ico` file.
     """
     app_id = parse_steam_app_id(steamdb_url_or_appid)
     target = Path(target_dir)
@@ -150,6 +202,13 @@ def download_steam_artwork(
             f"{base}/library_logo.png",
             f"{legacy}/logo.png",
         ]
+        icon_candidates = [
+            f"{base}/capsule_231x87_2x.jpg",
+            f"{base}/capsule_231x87.jpg",
+            f"{legacy}/capsule_231x87.jpg",
+            str(details.get("capsule_image") or ""),
+            str(details.get("capsule_imagev5") or ""),
+        ]
 
         paths: dict[str, str] = {}
         sources: dict[str, str] = {}
@@ -157,6 +216,7 @@ def download_steam_artwork(
             ("hero", hero_candidates),
             ("cover", cover_candidates),
             ("logo", logo_candidates),
+            ("icon", icon_candidates),
         ):
             found = _first_image(session, candidates)
             if not found:
@@ -167,7 +227,20 @@ def download_steam_artwork(
             paths[kind] = str(out)
             sources[kind] = source_url
 
-        if not paths:
+        screenshot_paths: list[str] = []
+        screenshot_sources = collect_steam_screenshot_urls(details, limit=max_screenshots)
+        for index, url in enumerate(screenshot_sources):
+            result = _download_image(session, url)
+            if not result:
+                continue
+            payload, extension = result
+            out = target / f"screenshot-{index:02d}{extension}"
+            out.write_bytes(payload)
+            screenshot_paths.append(str(out))
+
+        trailers = collect_steam_trailers(details)
+
+        if not paths and not screenshot_paths:
             raise SteamArtworkError(
                 f"Steam AppID {app_id} için kullanılabilir artwork bulunamadı."
             )
@@ -178,6 +251,8 @@ def download_steam_artwork(
             "description": _clean_description(str(details.get("short_description") or "")),
             "paths": paths,
             "sources": sources,
+            "screenshots": screenshot_paths,
+            "trailers": trailers,
         }
     finally:
         if own_session:

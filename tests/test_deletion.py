@@ -96,5 +96,42 @@ class DeletionTests(unittest.TestCase):
         self.assertIn(shared_manifest,c.files); self.assertIn('artwork/pc/demo/hero.png',c.files)
         self.assertNotIn('pc-demo-v1.1.0-beta',c.releases)
 
+    def test_delete_game_with_screenshots_list_artwork(self):
+        # Regression test: artwork.screenshots is a list, not a single URL
+        # string. Before the fix, _other_artwork_urls() crashed with
+        # "TypeError: unhashable type: 'list'" as soon as it scanned any
+        # OTHER catalog entry's list-valued artwork field while building the
+        # shared/protected-URL set -- even when deleting an unrelated game.
+        catalog=sample_catalog()
+        catalog['games'][0]['artwork']['screenshots']=[
+            'https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/demo/screenshots/00.jpg',
+            'https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/demo/screenshots/01.jpg',
+        ]
+        catalog['games'].append({
+            'id':'other','title':'Other Game','platform':'pc','description':'',
+            'artwork':{
+                'hero':'https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/other/hero.png',
+                'screenshots':['https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/other/screenshots/00.jpg'],
+            },
+            'channels':{'stable':{'version':'1.0.0','tag':'pc-other-v1.0.0-stable','manifest_path':'manifests/pc/other/stable/1.0.0.json','manifest_url':'x','size':5}},
+        })
+        c=FakeClient(catalog)
+        c.releases={'pc-demo-v1.0.0-stable':{'id':1},'pc-demo-v1.1.0-beta':{'id':2},'pc-other-v1.0.0-stable':{'id':3}}
+        c.tags=set(c.releases)
+        c.files={
+            'manifests/pc/demo/stable/1.0.0.json','manifests/pc/demo/beta/1.1.0.json',
+            'artwork/pc/demo/hero.png','artwork/pc/demo/screenshots/00.jpg','artwork/pc/demo/screenshots/01.jpg',
+            'manifests/pc/other/stable/1.0.0.json',
+            'artwork/pc/other/hero.png','artwork/pc/other/screenshots/00.jpg',
+        }
+        result=delete_game(c,'demo','pc',log=lambda _:None)
+        self.assertEqual([g['id'] for g in c.catalog['games']],['other'])
+        self.assertIn('artwork/pc/demo/screenshots/00.jpg',result['artwork_deleted'])
+        self.assertIn('artwork/pc/demo/screenshots/01.jpg',result['artwork_deleted'])
+        self.assertNotIn('artwork/pc/demo/screenshots/00.jpg',c.files)
+        self.assertNotIn('artwork/pc/demo/screenshots/01.jpg',c.files)
+        self.assertIn('artwork/pc/other/hero.png',c.files)
+        self.assertIn('artwork/pc/other/screenshots/00.jpg',c.files)
+
 
 if __name__=='__main__': unittest.main()

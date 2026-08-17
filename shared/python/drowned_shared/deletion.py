@@ -25,12 +25,25 @@ def _other_channel_refs(catalog:dict, target_game:dict, removed_channels:set[str
     return tags,manifests
 
 
+def _flatten_artwork_value(value)->list[str]:
+    """Normalize an artwork entry to a flat list of URL strings.
+
+    Single kinds (hero/cover/logo/icon) hold one string; screenshots hold a
+    list. Anything that is not a string is dropped rather than carried
+    forward, so a non-URL value can never reach the protected-URL set (which
+    is a set, and would raise TypeError on an unhashable value).
+    """
+    values=value if isinstance(value,list) else [value]
+    return [item for item in values if isinstance(item,str) and item]
+
+
 def _other_artwork_urls(catalog:dict,target_game:dict)->set[str]:
     urls=set()
     for game in catalog.get("games",[]):
         if game is target_game: continue
-        for url in (game.get("artwork") or {}).values():
-            if url: urls.add(url)
+        for value in (game.get("artwork") or {}).values():
+            for url in _flatten_artwork_value(value):
+                if url: urls.add(url)
     return urls
 
 
@@ -69,18 +82,21 @@ def _delete_manifest(client, game:dict, channel:str, data:dict, log, protected_p
 
 def _delete_artwork(client, catalog:dict, game:dict, log):
     deleted=[]; protected_urls=_other_artwork_urls(catalog,game)
-    for kind,url in list((game.get("artwork") or {}).items()):
-        if url in protected_urls:
-            log(f"Shared artwork retained because another catalog entry still references it ({kind})")
-            continue
-        path=repo_path_from_raw_url(client,url)
-        if not path:
-            log(f"Skipping non-repository artwork URL ({kind})")
-            continue
-        if client.delete_repo_file(path,f"Delete {game['title']} {kind} artwork"):
-            deleted.append(path); log(f"Deleted artwork: {path}")
-        else:
-            log(f"Artwork already absent: {path}")
+    for kind,value in list((game.get("artwork") or {}).items()):
+        for url in _flatten_artwork_value(value):
+            if not url:
+                continue
+            if url in protected_urls:
+                log(f"Shared artwork retained because another catalog entry still references it ({kind})")
+                continue
+            path=repo_path_from_raw_url(client,url)
+            if not path:
+                log(f"Skipping non-repository artwork URL ({kind})")
+                continue
+            if client.delete_repo_file(path,f"Delete {game['title']} {kind} artwork"):
+                deleted.append(path); log(f"Deleted artwork: {path}")
+            else:
+                log(f"Artwork already absent: {path}")
     return deleted
 
 
