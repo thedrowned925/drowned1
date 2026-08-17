@@ -33,9 +33,13 @@ jobs:
       - run: |
           python -m py_compile windows/release-manager/app_v3.py
           python -m py_compile windows/release-manager/app_v4.py
+          python -m py_compile windows/release-manager/app_v5.py
           python -m py_compile windows/launcher/app_v4.py
           python -m py_compile windows/launcher/app_v5.py
           python -m py_compile windows/launcher/app_v6.py
           python -m py_compile windows/launcher/app_v7.py
           python -m py_compile windows/launcher/app_v8.py
           python -m py_compile windows/launcher/app_v9.py
+          python -m py_compile windows/launcher/app_v10.py
+          python -m py_compile windows/launcher/library_grid.py
+          python -m py_compile windows/launcher/xinput.py
