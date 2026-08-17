@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-16T20:48:16.478579+00:00",
+  "updated_at": "2026-08-17T09:29:15.558224+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -104,6 +104,41 @@
           "size": 7201399454,
           "published_at": "2026-08-16T20:48:16.478569+00:00"
         }
+      }
+    },
+    {
+      "id": "assassin-s-creed-2",
+      "title": "Assassin's Creed 2",
+      "platform": "pc",
+      "description": "An epic story of family, vengeance and conspiracy set in the pristine, yet brutal, backdrop of a Renaissance Italy. New low price!",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-2/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-2/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-2/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-2/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-2/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-2/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-2/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-2/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-2/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-2/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-2/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-2/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.1",
+          "tag": "pc-assassin-s-creed-2-v1.0.1-stable",
+          "manifest_path": "manifests/pc/assassin-s-creed-2/stable/1.0.1.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/assassin-s-creed-2/stable/1.0.1.json",
+          "size": 7276478040,
+          "published_at": "2026-08-17T09:29:15.558214+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 33230
       }
     }
   ]
