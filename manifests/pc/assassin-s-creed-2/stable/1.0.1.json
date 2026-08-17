@@ -1,0 +1,1897 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "assassin-s-creed-2",
+    "title": "Assassin's Creed 2",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.1",
+    "description": "An epic story of family, vengeance and conspiracy set in the pristine, yet brutal, backdrop of a Renaissance Italy. New low price!"
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-assassin-s-creed-2-v1.0.1-stable"
+  },
+  "chunk_size": 455081984,
+  "upload_workers": 16,
+  "total_size": 7276478040,
+  "files": [
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "AC2.ico",
+      "size": 184993,
+      "sha256": "78adc5c312f54b09f4173464c2724cf572ac7656de2a84a4bd0d3efa7a3fbb34"
+    },
+    {
+      "path": "AssassinsCreedII.exe",
+      "size": 48640,
+      "sha256": "ebf588dac04e43aaf081e27bd4c055877874d7f5640f66b78c1ec42170da805a"
+    },
+    {
+      "path": "AssassinsCreedIIGame.exe",
+      "size": 34693768,
+      "sha256": "23a73e5f2d035973ebe4afc056e5c56bad982d27142294fa44e7cd11732c8b92"
+    },
+    {
+      "path": "binkw32.dll",
+      "size": 174080,
+      "sha256": "ad55ec64a893f233ac648ac974562f53736003b17bfd14527e66b3ffc8c2cdcb"
+    },
+    {
+      "path": "DataPC.forge",
+      "size": 88997888,
+      "sha256": "42f473572911b18c65c0df34858ed7f0799db82ee8090c72c881fe7ebcc46d6c"
+    },
+    {
+      "path": "DataPC_Abstergo.forge",
+      "size": 83492864,
+      "sha256": "16c1afdbc47366b2b20aeae7dfb5c2b03061dccf788ff87f9ac68f089af90f00"
+    },
+    {
+      "path": "DataPC_Altair_Memory.forge",
+      "size": 118849536,
+      "sha256": "a2bd950c3be685f747fa65e60ff75eacb84c75a0ba5973b9f5d7292fc8513fcd"
+    },
+    {
+      "path": "DataPC_extra.forge",
+      "size": 91619328,
+      "sha256": "0eb2415659ddf61beff459f00b81bc15eb8b30feb0ae507b232859129b83118d"
+    },
+    {
+      "path": "DataPC_extra_dlc.forge",
+      "size": 91619328,
+      "sha256": "105933be910bf131a0a69f4c56f98e916055659cbb01d80a29c1ff7e1a26d97b"
+    },
+    {
+      "path": "DataPC_Firenze.forge",
+      "size": 790888448,
+      "sha256": "66f3a5af8332e132b89a8908ffbacb925f0f7621ff3053ddce62441b8130a46f"
+    },
+    {
+      "path": "DataPC_Hideout.forge",
+      "size": 95846400,
+      "sha256": "73660901007fa0d4cb826db53590b8e88ad24bbb007a54543b9e54d135179f7c"
+    },
+    {
+      "path": "DataPC_LGS01_Duomo.forge",
+      "size": 58195968,
+      "sha256": "492ee42ef3963a3af3ab167677807b53d5dc5a774ef6636b661280d6e54bb575"
+    },
+    {
+      "path": "DataPC_LGS02_Palazzo_Medic.forge",
+      "size": 69074944,
+      "sha256": "b0bacf0e199a0fbbe8ae181c9970fc681e2f90acc63358e54c8850e12010d6ea"
+    },
+    {
+      "path": "DataPC_LGS03_Gimignano.forge",
+      "size": 53805056,
+      "sha256": "a135aa347dbbcaeaf795fb0cff908f6cf534c9ceb9873767709fb6984128fedb"
+    },
+    {
+      "path": "DataPC_LGS04_Novella.forge",
+      "size": 88702976,
+      "sha256": "7a6cbcca9db64d8860d41f8069ed811e022d6bbba9d2bdd641aa35aaee98f0a4"
+    },
+    {
+      "path": "DataPC_LGS05_Forli_Citadel.forge",
+      "size": 63143936,
+      "sha256": "dd104e660f1b3bec14fc99cc627499067b26ddf8ab7a9a4fe9333752e437ef89"
+    },
+    {
+      "path": "DataPC_LGS06_Frari.forge",
+      "size": 41353216,
+      "sha256": "e306bae7a70a2a863807298acafd2338e7f9ab00eb15ee199e408a17a6f9dac4"
+    },
+    {
+      "path": "DataPC_LGS07_San_Marco.forge",
+      "size": 42991616,
+      "sha256": "b13ebe227f8869caf0e86a980c2e3f9fa26c1bc53e99ff22ec540eafe20b3f21"
+    },
+    {
+      "path": "DataPC_LGS08_ArsenalShipya.forge",
+      "size": 64978944,
+      "sha256": "bfead9d35ff9935f2f2be9e2b14c994c21221e6e1376eed455860adbaa0e9cae"
+    },
+    {
+      "path": "DataPC_LGS09_Monteregionni.forge",
+      "size": 33619968,
+      "sha256": "3294469934582817071b2ae416e6062cb0950b815fcb7aa07a49a74fc869e8be"
+    },
+    {
+      "path": "DataPC_LGS10_Visitazione.forge",
+      "size": 65765376,
+      "sha256": "dddbea6b1f3f6b38b8485cf14ff81e2f2de62f03cb953302748337333dbb7396"
+    },
+    {
+      "path": "DataPC_Mountains.forge",
+      "size": 120061952,
+      "sha256": "49a5d20b36c9013c4932a3a26a15370119bb49a44c062843907183420b58b92a"
+    },
+    {
+      "path": "DataPC_Roma.forge",
+      "size": 158695424,
+      "sha256": "042a465e062bf9358895b9b2c8fbfc84b5f2c8bb984fce6a51ca7a077fefd495"
+    },
+    {
+      "path": "DataPC_TitleScreen.forge",
+      "size": 2031616,
+      "sha256": "3a1cc4fa4ea65c929b42fb64788f2fce79f043613081359bec3081953e459fa0"
+    },
+    {
+      "path": "DataPC_Toscana.forge",
+      "size": 303136768,
+      "sha256": "07b52edf4f5f0b0cfacffa2b39eab03b6f41222fab2af2d267cc250a7d0d4156"
+    },
+    {
+      "path": "DataPC_Venezia.forge",
+      "size": 698089472,
+      "sha256": "6652ed710caff161ba75de28474f77c4700df569f27fd061b457a4c4b8038f24"
+    },
+    {
+      "path": "DataPC_Villa.forge",
+      "size": 262045696,
+      "sha256": "6af89cf62de7505f1eb3de8e6b35bb306ca7c802b9cbed5f5c4ee5a412d6b613"
+    },
+    {
+      "path": "DataPC_Wetlands.forge",
+      "size": 390987776,
+      "sha256": "ce078867a07e20bcc611850df2270e7cae013641257cf4e93a73f105f27120a0"
+    },
+    {
+      "path": "DataPC_WhiteRoom.forge",
+      "size": 95813632,
+      "sha256": "9f3c0d4bfd8c724bed871f67fe19e0d170b34f5e6e4cbb3bb7756feef027195d"
+    },
+    {
+      "path": "DefaultBindings.map",
+      "size": 16868,
+      "sha256": "142f71af00508882d9eadd190a537b9d9c6bcc082b2b07a7beccdefaaa46561c"
+    },
+    {
+      "path": "FirewallInstallHelper.dll",
+      "size": 54280,
+      "sha256": "5e3771440b30abf9594a04ad1dff41d609a72d654f16bb036931576afa079574"
+    },
+    {
+      "path": "GameuxInstallHelper.dll",
+      "size": 96264,
+      "sha256": "b07ffcd0af80f6b9fba09abe816ba2f0ff0d336639f1768fc317291bc635ece6"
+    },
+    {
+      "path": "media/Movies/bink_uplaysplash.bik",
+      "size": 2715456,
+      "sha256": "e44bdf378c56c6388fd1c496acabb1ed54735bacc6e016d6130b7d10880a7954"
+    },
+    {
+      "path": "media/resource/uPlayBrowserLng_da-DK.xml",
+      "size": 5142,
+      "sha256": "33fb19b42949b81f35c87988f20323b3e77429b49d6cbb8647b7ebbffc10d37a"
+    },
+    {
+      "path": "media/resource/uPlayBrowserLng_de-DE.xml",
+      "size": 5220,
+      "sha256": "44654bd19531df23d40c982f7b9fd9b72e81b69c84a65a506e0feab551fc8510"
+    },
+    {
+      "path": "media/resource/uPlayBrowserLng_en-AU.xml",
+      "size": 5066,
+      "sha256": "16be91c7d94dabbf8d3db0f1e97c752ac6993c00e7e221b3ac1bdcb03f402b38"
+    },
+    {
+      "path": "media/resource/uPlayBrowserLng_en-CA.xml",
+      "size": 5066,
+      "sha256": "16be91c7d94dabbf8d3db0f1e97c752ac6993c00e7e221b3ac1bdcb03f402b38"
+    },
+    {
+      "path": "media/resource/uPlayBrowserLng_en-GB.xml",
+      "size": 5066,
+      "sha256": "16be91c7d94dabbf8d3db0f1e97c752ac6993c00e7e221b3ac1bdcb03f402b38"
+    },
+    {
+      "path": "media/resource/uPlayBrowserLng_en-US.xml",
+      "size": 5066,
+      "sha256": "16be91c7d94dabbf8d3db0f1e97c752ac6993c00e7e221b3ac1bdcb03f402b38"
+    },
+    {
+      "path": "media/resource/uPlayBrowserLng_es-ES.xml",
+      "size": 5128,
+      "sha256": "e19a62b81b1972883ca677c1549521b987c050620298602243aa54b7c0b690d8"
+    },
+    {
+      "path": "media/resource/uPlayBrowserLng_fi-FI.xml",
+      "size": 4888,
+      "sha256": "013ed5fd265d871b17f97a275e99e932b4736b2f0a31be681e7eb294b466199e"
+    },
+    {
+      "path": "media/resource/uPlayBrowserLng_fr-CA.xml",
+      "size": 5166,
+      "sha256": "8f21177576eb935c81cea1a00371dba50b565753dacc6051fd555dea86225f83"
+    },
+    {
+      "path": "media/resource/uPlayBrowserLng_fr-FR.xml",
+      "size": 5166,
+      "sha256": "8f21177576eb935c81cea1a00371dba50b565753dacc6051fd555dea86225f83"
+    },
+    {
+      "path": "media/resource/uPlayBrowserLng_it-IT.xml",
+      "size": 5040,
+      "sha256": "1c4c3088ea1a65cebf1b9f20cb517e63668f30d92f3aa7ea6b8f043c1e2ac9e9"
+    },
+    {
+      "path": "media/resource/uPlayBrowserLng_nl-NL.xml",
+      "size": 5176,
+      "sha256": "6ed24f9bf0ea9a344407f9c36ca1ea536bde5e96ca4535eb531efa81a7ce2e94"
+    },
+    {
+      "path": "media/resource/uPlayBrowserLng_no-NO.xml",
+      "size": 5186,
+      "sha256": "8917473adf08491d607fcef3419b18ee0b76a432037a5834c21b248d4a2950ae"
+    },
+    {
+      "path": "media/resource/uPlayBrowserLng_se-SE.xml",
+      "size": 5066,
+      "sha256": "a449a5a302bf536c9fd70b4b9acb98364872e879d4686874322161e224b21d65"
+    },
+    {
+      "path": "media/Splash/bink_uplaysplash.png",
+      "size": 20877,
+      "sha256": "192af263404dd378c1ce084341ce681a373a9a74127559928985a0ef51dcc693"
+    },
+    {
+      "path": "media/Splash/Bitmaps/buySelector.png",
+      "size": 11649,
+      "sha256": "4bfbea9022dcdab8ddaf3eba7bbf772aeff753181574fa7afca42369c304da50"
+    },
+    {
+      "path": "media/Splash/Bitmaps/error_icon.png",
+      "size": 4161,
+      "sha256": "d4d27cdb6908e410fb8a333808554c835c9ac9bf04a5803d98b3fbb81d701e58"
+    },
+    {
+      "path": "media/Splash/Bitmaps/error_panel_bg.png",
+      "size": 21576,
+      "sha256": "1f82b8e1bf81e474c8f0dac21d45511be39ae495cb0da507283f9d9a1da5df82"
+    },
+    {
+      "path": "media/Splash/Bitmaps/important_icon.png",
+      "size": 2080,
+      "sha256": "ec41d7711ced920ea7ff8d70f1320e6cb8658d9a6523159e37fac3ecb85ca9e4"
+    },
+    {
+      "path": "media/Splash/Bitmaps/main_white.png",
+      "size": 1204,
+      "sha256": "30a44b3e38fbede52f279b4027504730bc1d3267dd0d0993022dd33b65e29d2c"
+    },
+    {
+      "path": "media/Splash/Bitmaps/ubiLogo.png",
+      "size": 19942,
+      "sha256": "e99a899f856663d2bf79878075bb5b86dfbd267482fc2b5409e8e883749b3cb9"
+    },
+    {
+      "path": "media/Splash/Splash.feu",
+      "size": 624618,
+      "sha256": "ee79c383ec7e5f50e775b28a40a361f33408febfceff4e0e48031689ae2a1539"
+    },
+    {
+      "path": "media/StartLoadingPage/Bitmaps/beta.png",
+      "size": 1689,
+      "sha256": "070a7219449d91b253f410151a1bd2b3bf0af812244fd78846cf57c834aec872"
+    },
+    {
+      "path": "media/StartLoadingPage/Bitmaps/beta_glow.png",
+      "size": 7113,
+      "sha256": "74e73453ed817281de173cd793eab84ae1cddd3dd3025d28da01e00c35d6c3e9"
+    },
+    {
+      "path": "media/StartLoadingPage/Bitmaps/blue.png",
+      "size": 632,
+      "sha256": "b504ad26a5996c68f2ba978f93cf5cd842fe1c17d8f4f74124ebd5efc191dc6e"
+    },
+    {
+      "path": "media/StartLoadingPage/Bitmaps/blue_glowmore.png",
+      "size": 1006,
+      "sha256": "21bc235483fe87fc4e9c5fdbc3650dd338ad735ce89cf0160ed9caebe18be6af"
+    },
+    {
+      "path": "media/StartLoadingPage/Bitmaps/error_icon.png",
+      "size": 4161,
+      "sha256": "d4d27cdb6908e410fb8a333808554c835c9ac9bf04a5803d98b3fbb81d701e58"
+    },
+    {
+      "path": "media/StartLoadingPage/Bitmaps/error_panel_bg.png",
+      "size": 21576,
+      "sha256": "1f82b8e1bf81e474c8f0dac21d45511be39ae495cb0da507283f9d9a1da5df82"
+    },
+    {
+      "path": "media/StartLoadingPage/Bitmaps/glow.png",
+      "size": 878,
+      "sha256": "4520033609cae628cb872e3f78f0edbef31e4ae8b477ce59b5c2b89f24333ff2"
+    },
+    {
+      "path": "media/StartLoadingPage/Bitmaps/grey.png",
+      "size": 269,
+      "sha256": "335ae7aed560623c88df0d2519257eee530155d1bf41015f5abdca260f840640"
+    },
+    {
+      "path": "media/StartLoadingPage/Bitmaps/important_icon.png",
+      "size": 2080,
+      "sha256": "ec41d7711ced920ea7ff8d70f1320e6cb8658d9a6523159e37fac3ecb85ca9e4"
+    },
+    {
+      "path": "media/StartLoadingPage/Bitmaps/main_white.png",
+      "size": 1204,
+      "sha256": "30a44b3e38fbede52f279b4027504730bc1d3267dd0d0993022dd33b65e29d2c"
+    },
+    {
+      "path": "media/StartLoadingPage/Bitmaps/selecctor_sBG.png",
+      "size": 10541,
+      "sha256": "7f13db744f9b3cfb95241cf882e37660e85fb7d3e34c62858b81386a0c680f80"
+    },
+    {
+      "path": "media/StartLoadingPage/Bitmaps/splashImg.jpg",
+      "size": 239180,
+      "sha256": "7b4e94907494976c3e54b2318f94df1e000f126b25f9c8008a51cc827327d842"
+    },
+    {
+      "path": "media/StartLoadingPage/Bitmaps/white.png",
+      "size": 854,
+      "sha256": "a79c431d0c36643c2549c0ad9baba5326c6f828cdbc181fa922c11f7053c06ee"
+    },
+    {
+      "path": "media/StartLoadingPage/StartLoadingPage.feu",
+      "size": 587960,
+      "sha256": "bc9ffefe6d16ee683b6ddb49e84c3c59f9b9ab3462a682035ffbf84c97539587"
+    },
+    {
+      "path": "media/UplayFonts/Arial.ffd",
+      "size": 32159,
+      "sha256": "d503f4c18c3b81d52b5b9425b33fb3bf3e5623dbe9e671cc3d4b2a648b0c61af"
+    },
+    {
+      "path": "media/UplayFonts/Arial_1.png",
+      "size": 36562,
+      "sha256": "fce27a2ff154cc22598a89ddd577a25fa8a919c51beabdbe993085681150333e"
+    },
+    {
+      "path": "media/UplayFonts/Arial_Medium.ffd",
+      "size": 31727,
+      "sha256": "3b7c59d46806fb1604690d0d9591078ad05a4b9784e9a5c0b05e1f64a6ec0bf8"
+    },
+    {
+      "path": "media/UplayFonts/Arial_Medium_1.png",
+      "size": 36790,
+      "sha256": "1081737363263e69b42bcab698584f90b5ac4d0c26d4d89a0732c2e8dca823b4"
+    },
+    {
+      "path": "media/UplayFonts/ArialSmall.ffd",
+      "size": 32163,
+      "sha256": "590b873b39a8db64ec372fe67dee23dc2461ef17f6cb5387b28b058b0899c00a"
+    },
+    {
+      "path": "media/UplayFonts/ArialSmall_1.png",
+      "size": 24411,
+      "sha256": "5654d66bb3add3ca469470be8d0aabdf718e756ed10d9eca879d275728f4103e"
+    },
+    {
+      "path": "media/Win/controllers_rollOver.png",
+      "size": 662,
+      "sha256": "64d656cc8f6c61506eabac433ca84864efdeed841f53b86326936719b1f41ff6"
+    },
+    {
+      "path": "media/Win/left_arrow.png",
+      "size": 1302,
+      "sha256": "5d7c74d8523f4ed2e28cbeb8bb16279758ba8ecec791a71efdc75a4474c6937a"
+    },
+    {
+      "path": "media/Win/pc_A.png",
+      "size": 1421,
+      "sha256": "2091a7af16726a9e9cfe039df1fdbd1e66dd801836dd96619230c978eafafd26"
+    },
+    {
+      "path": "media/Win/pc_B.png",
+      "size": 1373,
+      "sha256": "fe0f36aea2e944ed2c7e602d5c2a0e8f5e96302472e17922d06b3af1c5ad4c63"
+    },
+    {
+      "path": "media/Win/pc_X.png",
+      "size": 1425,
+      "sha256": "98b952b65ae2860ff2f1f55b4bf0ffe31bf0a0bddc22f27a5c19f8d869819427"
+    },
+    {
+      "path": "media/Win/pc_Y.png",
+      "size": 1352,
+      "sha256": "fbb4f6faf97911ef4ffd3a7c9c592957b757fecc236bc398ec42bad62f5479d0"
+    },
+    {
+      "path": "media/Win/WaveBank.xwb",
+      "size": 11489428,
+      "sha256": "1d203d66aa62e9d9a636a7c5fad160449acb4113baa84568762bad8a793278c2"
+    },
+    {
+      "path": "Resources/de/GameUpdate.de",
+      "size": 5742,
+      "sha256": "51246adf16e9cc8c5dcda1c56609030433ec43edaf599995a1522ac811555bd4"
+    },
+    {
+      "path": "Resources/es/GameUpdate.es",
+      "size": 6297,
+      "sha256": "e7eaeb372423cf79ac9862e3653807be25cf2cb6364a504d122aa6f47726c2c0"
+    },
+    {
+      "path": "Resources/fr/GameUpdate.fr",
+      "size": 6229,
+      "sha256": "4e6aa84df5c56dd95a8a704ee58195d41dfa4ebe356d1afd37b4be6ec0334f58"
+    },
+    {
+      "path": "Resources/it/GameUpdate.it",
+      "size": 5812,
+      "sha256": "0b5efffa8ce882f1358ef93204ca0ebf4aea83f2a6fd1301b097c5aaaaa84391"
+    },
+    {
+      "path": "Resources/nl/GameUpdate.nl",
+      "size": 5549,
+      "sha256": "e1a822b277428abfd3dab13d5e4f8697356e73029ada889b403b0fd79e373989"
+    },
+    {
+      "path": "Resources/uk/GameUpdate.uk",
+      "size": 5016,
+      "sha256": "10b5195940af54b4f88ce7306ef7cecdea813aedf2425c782d3e6a930c9ebfe8"
+    },
+    {
+      "path": "Resources/us/GameUpdate.us",
+      "size": 5016,
+      "sha256": "10b5195940af54b4f88ce7306ef7cecdea813aedf2425c782d3e6a930c9ebfe8"
+    },
+    {
+      "path": "Skidrow.ini",
+      "size": 522,
+      "sha256": "7cf0ee61bd8157c151b69fe0d521c0e26e541a4b90e084d57a9638cf5ac5397c"
+    },
+    {
+      "path": "SoundData/pc/sounds_eng.pck",
+      "size": 245208708,
+      "sha256": "f2997055a0cee878c00b181fa04f9aef3cb437c8666a8be2f7ddcfee58170ebf"
+    },
+    {
+      "path": "SoundData/pc/sounds_fre.pck",
+      "size": 239185541,
+      "sha256": "7d457ab609a66f1e5d93c96971119a83a488ef5e3c5b707b89c97a63c546c21a"
+    },
+    {
+      "path": "SoundData/pc/sounds_ger.pck",
+      "size": 254155416,
+      "sha256": "b97a9aa734984ddd4fa5925dc8fbad6fa99f0b12572fc40fda9d987c1f620268"
+    },
+    {
+      "path": "SoundData/pc/sounds_ita.pck",
+      "size": 251339055,
+      "sha256": "ee98a50d05a7c3add0449b5e294b04fd7100375460b3d2b7dd8a7f53b25eb2a8"
+    },
+    {
+      "path": "SoundData/pc/sounds_sfx.pck",
+      "size": 554694991,
+      "sha256": "682f17b9f485a7e577d953ca128fbe6d01891a41eba6963fff0ef455146f1d79"
+    },
+    {
+      "path": "SoundData/pc/sounds_spa.pck",
+      "size": 244635746,
+      "sha256": "25fc2b73157cd34b181aa27af063cdacec4f8331ea253b4e07088a9b992da266"
+    },
+    {
+      "path": "Support/Manual/AssassinsCreed.pdf",
+      "size": 2147191,
+      "sha256": "6204395593a52daab59d01683355f0019a6cd1f1f66faeadbfa7835f017e4b84"
+    },
+    {
+      "path": "Support/Readme/Leeme.txt",
+      "size": 10237,
+      "sha256": "14c50d68e90ddfe47c5e572f68e5e12b0ea53998f4fb97d6d830ba82356c54af"
+    },
+    {
+      "path": "Support/Readme/LeesMij.txt",
+      "size": 11047,
+      "sha256": "b070c2ef0cb70a10f54a717f16f86ebc00ba87d69223fcca940438e4ff88cf4d"
+    },
+    {
+      "path": "Support/Readme/Liesmich.txt",
+      "size": 9072,
+      "sha256": "b9b7028c72b90ff4f5a7ef1f938c3f7ce48b797358fe92068efe5ecbf96e9d0f"
+    },
+    {
+      "path": "Support/Readme/LisezMoi.txt",
+      "size": 8504,
+      "sha256": "dc4b66da66a4e8fad9d9896471e008bd8b3a13b02c4d7bfe07ce72103bd684a0"
+    },
+    {
+      "path": "Support/Readme/ReadMe.txt",
+      "size": 10048,
+      "sha256": "ef800a3e3e55fa7f2617b9bbdc13808dd087d606f79cef47f76cf777059ef2b1"
+    },
+    {
+      "path": "Support/Readme/Viktig.txt",
+      "size": 9837,
+      "sha256": "ef9802b3ca615b71c54bc783476d20f42a3697347c671b0586704aa934a69514"
+    },
+    {
+      "path": "ubiorbitapi_r2.dll",
+      "size": 766976,
+      "sha256": "79e6323661385f527d3774ec3abc002e402c4e2870ae0d6412c825c7d4556675"
+    },
+    {
+      "path": "UPlayBrowser.exe",
+      "size": 1680008,
+      "sha256": "48917e10164e552b526c67a11088bc1bb9f0cec8d3341d8186aeac58807660df"
+    },
+    {
+      "path": "Videos/ADB_Carlo.bik",
+      "size": 61367864,
+      "sha256": "abe219b37042aa640f797a4e706c69e663a9a709d8cbf83966eadaf30b52e985"
+    },
+    {
+      "path": "Videos/adb_elephant.bik",
+      "size": 4242380,
+      "sha256": "35df3b25726560feb69d1eabfe89958fe772db8dbe9cce43faa3de3bd8c3ef96"
+    },
+    {
+      "path": "Videos/ADB_Emilio.bik",
+      "size": 33526200,
+      "sha256": "a085f57b06e9bfeaa2a47177b67f42d7ef85947127bca1616c20d51e27bf0209"
+    },
+    {
+      "path": "Videos/ADB_Francesco.bik",
+      "size": 37614644,
+      "sha256": "34d82c6d6717967a08bb9c9f8167a63ddefe17239e80589e659ba231aea3accb"
+    },
+    {
+      "path": "Videos/adb_glyph16.bik",
+      "size": 2789652,
+      "sha256": "21819b9c821fc403b9c4e15f9b10ef0c77da6664f3b7c2fc0d8fa30fb60468a4"
+    },
+    {
+      "path": "Videos/ADB_Marco.bik",
+      "size": 67813808,
+      "sha256": "e593390a64542b53aa151e4bdc67bf90bb8584059d546d804e90414e4bef99d2"
+    },
+    {
+      "path": "Videos/ADB_OrsiBrothers.bik",
+      "size": 52278100,
+      "sha256": "b1a8b216f0f74d86c2b6565a5be7d6be85a9b9b23f8e268b0cbab17f77108cca"
+    },
+    {
+      "path": "Videos/ADB_Pazzi.bik",
+      "size": 69551676,
+      "sha256": "709d0ca744e8c7fd0d1a3a7c11047041b14c4738e19ea93543d0f509592a88c6"
+    },
+    {
+      "path": "Videos/ADB_Rodrigo.bik",
+      "size": 51971340,
+      "sha256": "b8d326b8f83fbaa37b292cf2392401c216621b454ace7ba535a347c082829035"
+    },
+    {
+      "path": "Videos/ADB_Savonarola.bik",
+      "size": 44881328,
+      "sha256": "ea37e09e1a72cc1acf4222ea549380b78f81d7d23893452c97149c79d8b5af27"
+    },
+    {
+      "path": "Videos/ADB_Silvio.bik",
+      "size": 54318628,
+      "sha256": "c234ba6dddf1e505052f844ecf0c27a3ff126e4cf0a3483f209f6c007c85726b"
+    },
+    {
+      "path": "Videos/adb_trinity.bik",
+      "size": 2796208,
+      "sha256": "c8410bc9edd8288cea518214537d3b34106cd01e0b2c1aa078e8fa6f5f5ad359"
+    },
+    {
+      "path": "Videos/ADB_UmbertoAlberti.bik",
+      "size": 48973304,
+      "sha256": "bf50f01d4628ce0bf32c6595806567f1cf893b28557996b38bf7c21722c6662d"
+    },
+    {
+      "path": "Videos/ADB_Vieri.bik",
+      "size": 34670992,
+      "sha256": "c1873fabf7e42c4ab269ea4aa838f4fe00d704485e4f78b22942533fb7c10ec6"
+    },
+    {
+      "path": "Videos/AVTR_DAY_TRAILER.bik",
+      "size": 96839592,
+      "sha256": "185f632a22dc40b40848888b2a5a3d92821c00be9a0f7983976ee4f41c610459"
+    },
+    {
+      "path": "Videos/cz/warning_disclaimer.bik",
+      "size": 164116,
+      "sha256": "1588a6ed91c3ccfb668fd9a179b70d93fc1aa1181b850ed23686d65b43ceca7e"
+    },
+    {
+      "path": "Videos/de/warning_disclaimer.bik",
+      "size": 165096,
+      "sha256": "52837f0208f9c3ba9e46838321683754d8475d6e543ca472a4fc87122d53bbd4"
+    },
+    {
+      "path": "Videos/DemoIntro.bik",
+      "size": 244206892,
+      "sha256": "305a7a0e1e534d000e84aa2811233abfd32f08047c3f672f0286f8196848132f"
+    },
+    {
+      "path": "Videos/dn/Previously_On.bik",
+      "size": 82812248,
+      "sha256": "9e6fd5e3be7a280368ca1ee083ffc51b7bc255a82d3337f11742ad096003b72b"
+    },
+    {
+      "path": "Videos/dn/warning_disclaimer.bik",
+      "size": 164108,
+      "sha256": "60d52f269240a962b0c3ef95fa88ad4fa70e2eefccbaa9d3d73ae822a0c026c5"
+    },
+    {
+      "path": "Videos/du/Previously_On.bik",
+      "size": 82812356,
+      "sha256": "5186a4d85bf55124fc1442373c85213cb3b5dfbbae7513389edd0003e14bb792"
+    },
+    {
+      "path": "Videos/du/warning_disclaimer.bik",
+      "size": 164720,
+      "sha256": "89ae45f5f8e7fc91f511562271a532f16725daaca38167a947046f060aea59ae"
+    },
+    {
+      "path": "Videos/en/warning_disclaimer.bik",
+      "size": 164116,
+      "sha256": "1588a6ed91c3ccfb668fd9a179b70d93fc1aa1181b850ed23686d65b43ceca7e"
+    },
+    {
+      "path": "Videos/Epilepsy_Test.bik",
+      "size": 452332,
+      "sha256": "1d2010a7ae0d0e9cd9caa24bb7f8be91e4486fb4f558ae63bca4ebf5eb7090fe"
+    },
+    {
+      "path": "Videos/ESRB_Warning.bik",
+      "size": 1048564,
+      "sha256": "53d61a48d747f43fb77cfc0534130b0d4cd202005cd84c76c6bd8728ebb89510"
+    },
+    {
+      "path": "Videos/fr/warning_disclaimer.bik",
+      "size": 164552,
+      "sha256": "5f7f7f2f63e5efe317ba7d504f30f6c3a657a164e30446b98ba43bb06fa114b7"
+    },
+    {
+      "path": "Videos/Havok.bik",
+      "size": 44392,
+      "sha256": "e01144507ea69402885a657687bec20730241a11c071ca377f829a74c43d14b4"
+    },
+    {
+      "path": "Videos/it/warning_disclaimer.bik",
+      "size": 164228,
+      "sha256": "1b0cbd98c66bc41d05faacaa07a39a66167d5b9c1716570ea0e98211e81f1c74"
+    },
+    {
+      "path": "Videos/nw/Previously_On.bik",
+      "size": 82812116,
+      "sha256": "e5dcdac67082624f4ef1b9a3d4c181b11dff154ceadfa74eac6b763da4e5db01"
+    },
+    {
+      "path": "Videos/nw/warning_disclaimer.bik",
+      "size": 163784,
+      "sha256": "870df369772eda22a1b358f6276b9e265661372d871a75daf734d6142dc63e60"
+    },
+    {
+      "path": "Videos/pl/warning_disclaimer.bik",
+      "size": 165044,
+      "sha256": "26e0da8e45b6237468e1be03cc97c9838353cc694e9aa76cb78f9fcca0251f4d"
+    },
+    {
+      "path": "Videos/Previously_On.bik",
+      "size": 83040420,
+      "sha256": "7d54599b2a84129d886548fe9aaba5571e583f2b56957c83522035f48800dc3f"
+    },
+    {
+      "path": "Videos/Previously_On_End_Loop.bik",
+      "size": 4498768,
+      "sha256": "5f51a9ff8be157505dc71f4eef4213d6df586e07478b78dac2aa5294f065cb2c"
+    },
+    {
+      "path": "Videos/Previously_On_End_Loop_ja.bik",
+      "size": 3778212,
+      "sha256": "6e245ce85881e279bed41296143e6f40f4daffc78233a41dd95314d5f94cddc9"
+    },
+    {
+      "path": "Videos/sp/warning_disclaimer.bik",
+      "size": 164424,
+      "sha256": "ae93ddc8dc2896814712f70f4db14bbf1c919220a27dc3311b06c9e5ddf97677"
+    },
+    {
+      "path": "Videos/sw/Previously_On.bik",
+      "size": 82812028,
+      "sha256": "59fd7bb7a3cb04ec3c12fad60d4c9731f4330700f5bba3fb4631c0e584aed8ea"
+    },
+    {
+      "path": "Videos/sw/warning_disclaimer.bik",
+      "size": 164624,
+      "sha256": "83f450e20501bcb491f784bc117eb4b7416d49c9842a7979f3c519c0c8198315"
+    },
+    {
+      "path": "Videos/TheTruthVideo.bik",
+      "size": 59670164,
+      "sha256": "2e0d83889e6f994f6b09bbd49793c045197c720f58397eae6592be00da7af565"
+    },
+    {
+      "path": "Videos/TheTruthVideoSmall.bik",
+      "size": 10401024,
+      "sha256": "4b579b96295f887ba2aae4dd4aea9fe2482ea622dec7df62dbc18fc475d91665"
+    },
+    {
+      "path": "Videos/UBI_LOGO.bik",
+      "size": 5261132,
+      "sha256": "a5ec619fd478c1ee79816e6326d7ea271018fd50c8693a3a021ed5d1d7c4c6af"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 455081984,
+      "sha256": "16cbe758e79eb2d58fd74822e75d30242f1b585325a247a408870b45bb1ec887",
+      "segments": [
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 288088,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1097584,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16071608,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 30483912,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 36202784,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 41276024,
+          "length": 7054336
+        },
+        {
+          "file": "AC2.ico",
+          "file_offset": 0,
+          "chunk_offset": 48330360,
+          "length": 184993
+        },
+        {
+          "file": "AssassinsCreedII.exe",
+          "file_offset": 0,
+          "chunk_offset": 48515353,
+          "length": 48640
+        },
+        {
+          "file": "AssassinsCreedIIGame.exe",
+          "file_offset": 0,
+          "chunk_offset": 48563993,
+          "length": 34693768
+        },
+        {
+          "file": "binkw32.dll",
+          "file_offset": 0,
+          "chunk_offset": 83257761,
+          "length": 174080
+        },
+        {
+          "file": "DataPC.forge",
+          "file_offset": 0,
+          "chunk_offset": 83431841,
+          "length": 88997888
+        },
+        {
+          "file": "DataPC_Abstergo.forge",
+          "file_offset": 0,
+          "chunk_offset": 172429729,
+          "length": 83492864
+        },
+        {
+          "file": "DataPC_Altair_Memory.forge",
+          "file_offset": 0,
+          "chunk_offset": 255922593,
+          "length": 118849536
+        },
+        {
+          "file": "DataPC_extra.forge",
+          "file_offset": 0,
+          "chunk_offset": 374772129,
+          "length": 80309855
+        }
+      ]
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 455081984,
+      "sha256": "4f871a33e257ddce604948c793db5a4adda574bacb2903cede59146e3a7a29db",
+      "segments": [
+        {
+          "file": "DataPC_extra.forge",
+          "file_offset": 80309855,
+          "chunk_offset": 0,
+          "length": 11309473
+        },
+        {
+          "file": "DataPC_extra_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 11309473,
+          "length": 91619328
+        },
+        {
+          "file": "DataPC_Firenze.forge",
+          "file_offset": 0,
+          "chunk_offset": 102928801,
+          "length": 352153183
+        }
+      ]
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 455081984,
+      "sha256": "1290023bf4e753f3dc90d466713652f96dacf6102fb94920695e8daa20828b79",
+      "segments": [
+        {
+          "file": "DataPC_Firenze.forge",
+          "file_offset": 352153183,
+          "chunk_offset": 0,
+          "length": 438735265
+        },
+        {
+          "file": "DataPC_Hideout.forge",
+          "file_offset": 0,
+          "chunk_offset": 438735265,
+          "length": 16346719
+        }
+      ]
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 455081984,
+      "sha256": "6dbd059c58e27e21ea1af61289efb14cbb8aeb6c50bb55735b250903bfa132f2",
+      "segments": [
+        {
+          "file": "DataPC_Hideout.forge",
+          "file_offset": 16346719,
+          "chunk_offset": 0,
+          "length": 79499681
+        },
+        {
+          "file": "DataPC_LGS01_Duomo.forge",
+          "file_offset": 0,
+          "chunk_offset": 79499681,
+          "length": 58195968
+        },
+        {
+          "file": "DataPC_LGS02_Palazzo_Medic.forge",
+          "file_offset": 0,
+          "chunk_offset": 137695649,
+          "length": 69074944
+        },
+        {
+          "file": "DataPC_LGS03_Gimignano.forge",
+          "file_offset": 0,
+          "chunk_offset": 206770593,
+          "length": 53805056
+        },
+        {
+          "file": "DataPC_LGS04_Novella.forge",
+          "file_offset": 0,
+          "chunk_offset": 260575649,
+          "length": 88702976
+        },
+        {
+          "file": "DataPC_LGS05_Forli_Citadel.forge",
+          "file_offset": 0,
+          "chunk_offset": 349278625,
+          "length": 63143936
+        },
+        {
+          "file": "DataPC_LGS06_Frari.forge",
+          "file_offset": 0,
+          "chunk_offset": 412422561,
+          "length": 41353216
+        },
+        {
+          "file": "DataPC_LGS07_San_Marco.forge",
+          "file_offset": 0,
+          "chunk_offset": 453775777,
+          "length": 1306207
+        }
+      ]
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 455081984,
+      "sha256": "4726debf748eb543cae1ba3b8374d05331352d00ed6de55815ab8bf0fa2dc735",
+      "segments": [
+        {
+          "file": "DataPC_LGS07_San_Marco.forge",
+          "file_offset": 1306207,
+          "chunk_offset": 0,
+          "length": 41685409
+        },
+        {
+          "file": "DataPC_LGS08_ArsenalShipya.forge",
+          "file_offset": 0,
+          "chunk_offset": 41685409,
+          "length": 64978944
+        },
+        {
+          "file": "DataPC_LGS09_Monteregionni.forge",
+          "file_offset": 0,
+          "chunk_offset": 106664353,
+          "length": 33619968
+        },
+        {
+          "file": "DataPC_LGS10_Visitazione.forge",
+          "file_offset": 0,
+          "chunk_offset": 140284321,
+          "length": 65765376
+        },
+        {
+          "file": "DataPC_Mountains.forge",
+          "file_offset": 0,
+          "chunk_offset": 206049697,
+          "length": 120061952
+        },
+        {
+          "file": "DataPC_Roma.forge",
+          "file_offset": 0,
+          "chunk_offset": 326111649,
+          "length": 128970335
+        }
+      ]
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 455081984,
+      "sha256": "0a2c514f715801e1c2a3aee5e28aa03698e35f8e8a67777b5997fd339afdc2b0",
+      "segments": [
+        {
+          "file": "DataPC_Roma.forge",
+          "file_offset": 128970335,
+          "chunk_offset": 0,
+          "length": 29725089
+        },
+        {
+          "file": "DataPC_TitleScreen.forge",
+          "file_offset": 0,
+          "chunk_offset": 29725089,
+          "length": 2031616
+        },
+        {
+          "file": "DataPC_Toscana.forge",
+          "file_offset": 0,
+          "chunk_offset": 31756705,
+          "length": 303136768
+        },
+        {
+          "file": "DataPC_Venezia.forge",
+          "file_offset": 0,
+          "chunk_offset": 334893473,
+          "length": 120188511
+        }
+      ]
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 455081984,
+      "sha256": "62915bd0e4cd924047066f946fe493b4151d3411922addb7557c629c5d857241",
+      "segments": [
+        {
+          "file": "DataPC_Venezia.forge",
+          "file_offset": 120188511,
+          "chunk_offset": 0,
+          "length": 455081984
+        }
+      ]
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 455081984,
+      "sha256": "be439e92cdab2c8e402b6fe5736bcbee867215c8f3d808752b68c3943438bdbd",
+      "segments": [
+        {
+          "file": "DataPC_Venezia.forge",
+          "file_offset": 575270495,
+          "chunk_offset": 0,
+          "length": 122818977
+        },
+        {
+          "file": "DataPC_Villa.forge",
+          "file_offset": 0,
+          "chunk_offset": 122818977,
+          "length": 262045696
+        },
+        {
+          "file": "DataPC_Wetlands.forge",
+          "file_offset": 0,
+          "chunk_offset": 384864673,
+          "length": 70217311
+        }
+      ]
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 455081984,
+      "sha256": "7c8b93cbff900d5d304f5509b1a1d90407885d7ad83bc17b10264590f0897f8a",
+      "segments": [
+        {
+          "file": "DataPC_Wetlands.forge",
+          "file_offset": 70217311,
+          "chunk_offset": 0,
+          "length": 320770465
+        },
+        {
+          "file": "DataPC_WhiteRoom.forge",
+          "file_offset": 0,
+          "chunk_offset": 320770465,
+          "length": 95813632
+        },
+        {
+          "file": "DefaultBindings.map",
+          "file_offset": 0,
+          "chunk_offset": 416584097,
+          "length": 16868
+        },
+        {
+          "file": "FirewallInstallHelper.dll",
+          "file_offset": 0,
+          "chunk_offset": 416600965,
+          "length": 54280
+        },
+        {
+          "file": "GameuxInstallHelper.dll",
+          "file_offset": 0,
+          "chunk_offset": 416655245,
+          "length": 96264
+        },
+        {
+          "file": "media/Movies/bink_uplaysplash.bik",
+          "file_offset": 0,
+          "chunk_offset": 416751509,
+          "length": 2715456
+        },
+        {
+          "file": "media/resource/uPlayBrowserLng_da-DK.xml",
+          "file_offset": 0,
+          "chunk_offset": 419466965,
+          "length": 5142
+        },
+        {
+          "file": "media/resource/uPlayBrowserLng_de-DE.xml",
+          "file_offset": 0,
+          "chunk_offset": 419472107,
+          "length": 5220
+        },
+        {
+          "file": "media/resource/uPlayBrowserLng_en-AU.xml",
+          "file_offset": 0,
+          "chunk_offset": 419477327,
+          "length": 5066
+        },
+        {
+          "file": "media/resource/uPlayBrowserLng_en-CA.xml",
+          "file_offset": 0,
+          "chunk_offset": 419482393,
+          "length": 5066
+        },
+        {
+          "file": "media/resource/uPlayBrowserLng_en-GB.xml",
+          "file_offset": 0,
+          "chunk_offset": 419487459,
+          "length": 5066
+        },
+        {
+          "file": "media/resource/uPlayBrowserLng_en-US.xml",
+          "file_offset": 0,
+          "chunk_offset": 419492525,
+          "length": 5066
+        },
+        {
+          "file": "media/resource/uPlayBrowserLng_es-ES.xml",
+          "file_offset": 0,
+          "chunk_offset": 419497591,
+          "length": 5128
+        },
+        {
+          "file": "media/resource/uPlayBrowserLng_fi-FI.xml",
+          "file_offset": 0,
+          "chunk_offset": 419502719,
+          "length": 4888
+        },
+        {
+          "file": "media/resource/uPlayBrowserLng_fr-CA.xml",
+          "file_offset": 0,
+          "chunk_offset": 419507607,
+          "length": 5166
+        },
+        {
+          "file": "media/resource/uPlayBrowserLng_fr-FR.xml",
+          "file_offset": 0,
+          "chunk_offset": 419512773,
+          "length": 5166
+        },
+        {
+          "file": "media/resource/uPlayBrowserLng_it-IT.xml",
+          "file_offset": 0,
+          "chunk_offset": 419517939,
+          "length": 5040
+        },
+        {
+          "file": "media/resource/uPlayBrowserLng_nl-NL.xml",
+          "file_offset": 0,
+          "chunk_offset": 419522979,
+          "length": 5176
+        },
+        {
+          "file": "media/resource/uPlayBrowserLng_no-NO.xml",
+          "file_offset": 0,
+          "chunk_offset": 419528155,
+          "length": 5186
+        },
+        {
+          "file": "media/resource/uPlayBrowserLng_se-SE.xml",
+          "file_offset": 0,
+          "chunk_offset": 419533341,
+          "length": 5066
+        },
+        {
+          "file": "media/Splash/bink_uplaysplash.png",
+          "file_offset": 0,
+          "chunk_offset": 419538407,
+          "length": 20877
+        },
+        {
+          "file": "media/Splash/Bitmaps/buySelector.png",
+          "file_offset": 0,
+          "chunk_offset": 419559284,
+          "length": 11649
+        },
+        {
+          "file": "media/Splash/Bitmaps/error_icon.png",
+          "file_offset": 0,
+          "chunk_offset": 419570933,
+          "length": 4161
+        },
+        {
+          "file": "media/Splash/Bitmaps/error_panel_bg.png",
+          "file_offset": 0,
+          "chunk_offset": 419575094,
+          "length": 21576
+        },
+        {
+          "file": "media/Splash/Bitmaps/important_icon.png",
+          "file_offset": 0,
+          "chunk_offset": 419596670,
+          "length": 2080
+        },
+        {
+          "file": "media/Splash/Bitmaps/main_white.png",
+          "file_offset": 0,
+          "chunk_offset": 419598750,
+          "length": 1204
+        },
+        {
+          "file": "media/Splash/Bitmaps/ubiLogo.png",
+          "file_offset": 0,
+          "chunk_offset": 419599954,
+          "length": 19942
+        },
+        {
+          "file": "media/Splash/Splash.feu",
+          "file_offset": 0,
+          "chunk_offset": 419619896,
+          "length": 624618
+        },
+        {
+          "file": "media/StartLoadingPage/Bitmaps/beta.png",
+          "file_offset": 0,
+          "chunk_offset": 420244514,
+          "length": 1689
+        },
+        {
+          "file": "media/StartLoadingPage/Bitmaps/beta_glow.png",
+          "file_offset": 0,
+          "chunk_offset": 420246203,
+          "length": 7113
+        },
+        {
+          "file": "media/StartLoadingPage/Bitmaps/blue.png",
+          "file_offset": 0,
+          "chunk_offset": 420253316,
+          "length": 632
+        },
+        {
+          "file": "media/StartLoadingPage/Bitmaps/blue_glowmore.png",
+          "file_offset": 0,
+          "chunk_offset": 420253948,
+          "length": 1006
+        },
+        {
+          "file": "media/StartLoadingPage/Bitmaps/error_icon.png",
+          "file_offset": 0,
+          "chunk_offset": 420254954,
+          "length": 4161
+        },
+        {
+          "file": "media/StartLoadingPage/Bitmaps/error_panel_bg.png",
+          "file_offset": 0,
+          "chunk_offset": 420259115,
+          "length": 21576
+        },
+        {
+          "file": "media/StartLoadingPage/Bitmaps/glow.png",
+          "file_offset": 0,
+          "chunk_offset": 420280691,
+          "length": 878
+        },
+        {
+          "file": "media/StartLoadingPage/Bitmaps/grey.png",
+          "file_offset": 0,
+          "chunk_offset": 420281569,
+          "length": 269
+        },
+        {
+          "file": "media/StartLoadingPage/Bitmaps/important_icon.png",
+          "file_offset": 0,
+          "chunk_offset": 420281838,
+          "length": 2080
+        },
+        {
+          "file": "media/StartLoadingPage/Bitmaps/main_white.png",
+          "file_offset": 0,
+          "chunk_offset": 420283918,
+          "length": 1204
+        },
+        {
+          "file": "media/StartLoadingPage/Bitmaps/selecctor_sBG.png",
+          "file_offset": 0,
+          "chunk_offset": 420285122,
+          "length": 10541
+        },
+        {
+          "file": "media/StartLoadingPage/Bitmaps/splashImg.jpg",
+          "file_offset": 0,
+          "chunk_offset": 420295663,
+          "length": 239180
+        },
+        {
+          "file": "media/StartLoadingPage/Bitmaps/white.png",
+          "file_offset": 0,
+          "chunk_offset": 420534843,
+          "length": 854
+        },
+        {
+          "file": "media/StartLoadingPage/StartLoadingPage.feu",
+          "file_offset": 0,
+          "chunk_offset": 420535697,
+          "length": 587960
+        },
+        {
+          "file": "media/UplayFonts/Arial.ffd",
+          "file_offset": 0,
+          "chunk_offset": 421123657,
+          "length": 32159
+        },
+        {
+          "file": "media/UplayFonts/Arial_1.png",
+          "file_offset": 0,
+          "chunk_offset": 421155816,
+          "length": 36562
+        },
+        {
+          "file": "media/UplayFonts/Arial_Medium.ffd",
+          "file_offset": 0,
+          "chunk_offset": 421192378,
+          "length": 31727
+        },
+        {
+          "file": "media/UplayFonts/Arial_Medium_1.png",
+          "file_offset": 0,
+          "chunk_offset": 421224105,
+          "length": 36790
+        },
+        {
+          "file": "media/UplayFonts/ArialSmall.ffd",
+          "file_offset": 0,
+          "chunk_offset": 421260895,
+          "length": 32163
+        },
+        {
+          "file": "media/UplayFonts/ArialSmall_1.png",
+          "file_offset": 0,
+          "chunk_offset": 421293058,
+          "length": 24411
+        },
+        {
+          "file": "media/Win/controllers_rollOver.png",
+          "file_offset": 0,
+          "chunk_offset": 421317469,
+          "length": 662
+        },
+        {
+          "file": "media/Win/left_arrow.png",
+          "file_offset": 0,
+          "chunk_offset": 421318131,
+          "length": 1302
+        },
+        {
+          "file": "media/Win/pc_A.png",
+          "file_offset": 0,
+          "chunk_offset": 421319433,
+          "length": 1421
+        },
+        {
+          "file": "media/Win/pc_B.png",
+          "file_offset": 0,
+          "chunk_offset": 421320854,
+          "length": 1373
+        },
+        {
+          "file": "media/Win/pc_X.png",
+          "file_offset": 0,
+          "chunk_offset": 421322227,
+          "length": 1425
+        },
+        {
+          "file": "media/Win/pc_Y.png",
+          "file_offset": 0,
+          "chunk_offset": 421323652,
+          "length": 1352
+        },
+        {
+          "file": "media/Win/WaveBank.xwb",
+          "file_offset": 0,
+          "chunk_offset": 421325004,
+          "length": 11489428
+        },
+        {
+          "file": "Resources/de/GameUpdate.de",
+          "file_offset": 0,
+          "chunk_offset": 432814432,
+          "length": 5742
+        },
+        {
+          "file": "Resources/es/GameUpdate.es",
+          "file_offset": 0,
+          "chunk_offset": 432820174,
+          "length": 6297
+        },
+        {
+          "file": "Resources/fr/GameUpdate.fr",
+          "file_offset": 0,
+          "chunk_offset": 432826471,
+          "length": 6229
+        },
+        {
+          "file": "Resources/it/GameUpdate.it",
+          "file_offset": 0,
+          "chunk_offset": 432832700,
+          "length": 5812
+        },
+        {
+          "file": "Resources/nl/GameUpdate.nl",
+          "file_offset": 0,
+          "chunk_offset": 432838512,
+          "length": 5549
+        },
+        {
+          "file": "Resources/uk/GameUpdate.uk",
+          "file_offset": 0,
+          "chunk_offset": 432844061,
+          "length": 5016
+        },
+        {
+          "file": "Resources/us/GameUpdate.us",
+          "file_offset": 0,
+          "chunk_offset": 432849077,
+          "length": 5016
+        },
+        {
+          "file": "Skidrow.ini",
+          "file_offset": 0,
+          "chunk_offset": 432854093,
+          "length": 522
+        },
+        {
+          "file": "SoundData/pc/sounds_eng.pck",
+          "file_offset": 0,
+          "chunk_offset": 432854615,
+          "length": 22227369
+        }
+      ]
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 455081984,
+      "sha256": "077607f41632b62ceeac0c356ac577752fc6b6fb362d24f477d65969135d8ce6",
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_eng.pck",
+          "file_offset": 22227369,
+          "chunk_offset": 0,
+          "length": 222981339
+        },
+        {
+          "file": "SoundData/pc/sounds_fre.pck",
+          "file_offset": 0,
+          "chunk_offset": 222981339,
+          "length": 232100645
+        }
+      ]
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 455081984,
+      "sha256": "14aa3d61049eb6530e5dc10909d5f1fe6dc0fc843729e122d9aaeef5081a8df5",
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_fre.pck",
+          "file_offset": 232100645,
+          "chunk_offset": 0,
+          "length": 7084896
+        },
+        {
+          "file": "SoundData/pc/sounds_ger.pck",
+          "file_offset": 0,
+          "chunk_offset": 7084896,
+          "length": 254155416
+        },
+        {
+          "file": "SoundData/pc/sounds_ita.pck",
+          "file_offset": 0,
+          "chunk_offset": 261240312,
+          "length": 193841672
+        }
+      ]
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 455081984,
+      "sha256": "72d87b9428f13df393a1c64dfad3f3af7ebd282619058b55d1696daf2b0a8dff",
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_ita.pck",
+          "file_offset": 193841672,
+          "chunk_offset": 0,
+          "length": 57497383
+        },
+        {
+          "file": "SoundData/pc/sounds_sfx.pck",
+          "file_offset": 0,
+          "chunk_offset": 57497383,
+          "length": 397584601
+        }
+      ]
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 455081984,
+      "sha256": "170390c982fc238ae7548c54a203ea13afe640aa4c9a05747f3df638f4f9696d",
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_sfx.pck",
+          "file_offset": 397584601,
+          "chunk_offset": 0,
+          "length": 157110390
+        },
+        {
+          "file": "SoundData/pc/sounds_spa.pck",
+          "file_offset": 0,
+          "chunk_offset": 157110390,
+          "length": 244635746
+        },
+        {
+          "file": "Support/Manual/AssassinsCreed.pdf",
+          "file_offset": 0,
+          "chunk_offset": 401746136,
+          "length": 2147191
+        },
+        {
+          "file": "Support/Readme/Leeme.txt",
+          "file_offset": 0,
+          "chunk_offset": 403893327,
+          "length": 10237
+        },
+        {
+          "file": "Support/Readme/LeesMij.txt",
+          "file_offset": 0,
+          "chunk_offset": 403903564,
+          "length": 11047
+        },
+        {
+          "file": "Support/Readme/Liesmich.txt",
+          "file_offset": 0,
+          "chunk_offset": 403914611,
+          "length": 9072
+        },
+        {
+          "file": "Support/Readme/LisezMoi.txt",
+          "file_offset": 0,
+          "chunk_offset": 403923683,
+          "length": 8504
+        },
+        {
+          "file": "Support/Readme/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 403932187,
+          "length": 10048
+        },
+        {
+          "file": "Support/Readme/Viktig.txt",
+          "file_offset": 0,
+          "chunk_offset": 403942235,
+          "length": 9837
+        },
+        {
+          "file": "ubiorbitapi_r2.dll",
+          "file_offset": 0,
+          "chunk_offset": 403952072,
+          "length": 766976
+        },
+        {
+          "file": "UPlayBrowser.exe",
+          "file_offset": 0,
+          "chunk_offset": 404719048,
+          "length": 1680008
+        },
+        {
+          "file": "Videos/ADB_Carlo.bik",
+          "file_offset": 0,
+          "chunk_offset": 406399056,
+          "length": 48682928
+        }
+      ]
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 455081984,
+      "sha256": "8bcc319d9d57b63f537cd776f7493c39041bca96b51a243cd5b4f876b760186c",
+      "segments": [
+        {
+          "file": "Videos/ADB_Carlo.bik",
+          "file_offset": 48682928,
+          "chunk_offset": 0,
+          "length": 12684936
+        },
+        {
+          "file": "Videos/adb_elephant.bik",
+          "file_offset": 0,
+          "chunk_offset": 12684936,
+          "length": 4242380
+        },
+        {
+          "file": "Videos/ADB_Emilio.bik",
+          "file_offset": 0,
+          "chunk_offset": 16927316,
+          "length": 33526200
+        },
+        {
+          "file": "Videos/ADB_Francesco.bik",
+          "file_offset": 0,
+          "chunk_offset": 50453516,
+          "length": 37614644
+        },
+        {
+          "file": "Videos/adb_glyph16.bik",
+          "file_offset": 0,
+          "chunk_offset": 88068160,
+          "length": 2789652
+        },
+        {
+          "file": "Videos/ADB_Marco.bik",
+          "file_offset": 0,
+          "chunk_offset": 90857812,
+          "length": 67813808
+        },
+        {
+          "file": "Videos/ADB_OrsiBrothers.bik",
+          "file_offset": 0,
+          "chunk_offset": 158671620,
+          "length": 52278100
+        },
+        {
+          "file": "Videos/ADB_Pazzi.bik",
+          "file_offset": 0,
+          "chunk_offset": 210949720,
+          "length": 69551676
+        },
+        {
+          "file": "Videos/ADB_Rodrigo.bik",
+          "file_offset": 0,
+          "chunk_offset": 280501396,
+          "length": 51971340
+        },
+        {
+          "file": "Videos/ADB_Savonarola.bik",
+          "file_offset": 0,
+          "chunk_offset": 332472736,
+          "length": 44881328
+        },
+        {
+          "file": "Videos/ADB_Silvio.bik",
+          "file_offset": 0,
+          "chunk_offset": 377354064,
+          "length": 54318628
+        },
+        {
+          "file": "Videos/adb_trinity.bik",
+          "file_offset": 0,
+          "chunk_offset": 431672692,
+          "length": 2796208
+        },
+        {
+          "file": "Videos/ADB_UmbertoAlberti.bik",
+          "file_offset": 0,
+          "chunk_offset": 434468900,
+          "length": 20613084
+        }
+      ]
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 455081984,
+      "sha256": "5cbaef85fc7f0ee08786f38d9d7a50adb8343aa3f177adf92843f691949a1f47",
+      "segments": [
+        {
+          "file": "Videos/ADB_UmbertoAlberti.bik",
+          "file_offset": 20613084,
+          "chunk_offset": 0,
+          "length": 28360220
+        },
+        {
+          "file": "Videos/ADB_Vieri.bik",
+          "file_offset": 0,
+          "chunk_offset": 28360220,
+          "length": 34670992
+        },
+        {
+          "file": "Videos/AVTR_DAY_TRAILER.bik",
+          "file_offset": 0,
+          "chunk_offset": 63031212,
+          "length": 96839592
+        },
+        {
+          "file": "Videos/cz/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 159870804,
+          "length": 164116
+        },
+        {
+          "file": "Videos/de/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 160034920,
+          "length": 165096
+        },
+        {
+          "file": "Videos/DemoIntro.bik",
+          "file_offset": 0,
+          "chunk_offset": 160200016,
+          "length": 244206892
+        },
+        {
+          "file": "Videos/dn/Previously_On.bik",
+          "file_offset": 0,
+          "chunk_offset": 404406908,
+          "length": 50675076
+        }
+      ]
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 450248280,
+      "sha256": "3507998df45a83751082837ff4cf86645cf5dbabf50fdf68ad4c1f23be4331c4",
+      "segments": [
+        {
+          "file": "Videos/dn/Previously_On.bik",
+          "file_offset": 50675076,
+          "chunk_offset": 0,
+          "length": 32137172
+        },
+        {
+          "file": "Videos/dn/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 32137172,
+          "length": 164108
+        },
+        {
+          "file": "Videos/du/Previously_On.bik",
+          "file_offset": 0,
+          "chunk_offset": 32301280,
+          "length": 82812356
+        },
+        {
+          "file": "Videos/du/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 115113636,
+          "length": 164720
+        },
+        {
+          "file": "Videos/en/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 115278356,
+          "length": 164116
+        },
+        {
+          "file": "Videos/Epilepsy_Test.bik",
+          "file_offset": 0,
+          "chunk_offset": 115442472,
+          "length": 452332
+        },
+        {
+          "file": "Videos/ESRB_Warning.bik",
+          "file_offset": 0,
+          "chunk_offset": 115894804,
+          "length": 1048564
+        },
+        {
+          "file": "Videos/fr/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 116943368,
+          "length": 164552
+        },
+        {
+          "file": "Videos/Havok.bik",
+          "file_offset": 0,
+          "chunk_offset": 117107920,
+          "length": 44392
+        },
+        {
+          "file": "Videos/it/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 117152312,
+          "length": 164228
+        },
+        {
+          "file": "Videos/nw/Previously_On.bik",
+          "file_offset": 0,
+          "chunk_offset": 117316540,
+          "length": 82812116
+        },
+        {
+          "file": "Videos/nw/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 200128656,
+          "length": 163784
+        },
+        {
+          "file": "Videos/pl/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 200292440,
+          "length": 165044
+        },
+        {
+          "file": "Videos/Previously_On.bik",
+          "file_offset": 0,
+          "chunk_offset": 200457484,
+          "length": 83040420
+        },
+        {
+          "file": "Videos/Previously_On_End_Loop.bik",
+          "file_offset": 0,
+          "chunk_offset": 283497904,
+          "length": 4498768
+        },
+        {
+          "file": "Videos/Previously_On_End_Loop_ja.bik",
+          "file_offset": 0,
+          "chunk_offset": 287996672,
+          "length": 3778212
+        },
+        {
+          "file": "Videos/sp/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 291774884,
+          "length": 164424
+        },
+        {
+          "file": "Videos/sw/Previously_On.bik",
+          "file_offset": 0,
+          "chunk_offset": 291939308,
+          "length": 82812028
+        },
+        {
+          "file": "Videos/sw/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 374751336,
+          "length": 164624
+        },
+        {
+          "file": "Videos/TheTruthVideo.bik",
+          "file_offset": 0,
+          "chunk_offset": 374915960,
+          "length": 59670164
+        },
+        {
+          "file": "Videos/TheTruthVideoSmall.bik",
+          "file_offset": 0,
+          "chunk_offset": 434586124,
+          "length": 10401024
+        },
+        {
+          "file": "Videos/UBI_LOGO.bik",
+          "file_offset": 0,
+          "chunk_offset": 444987148,
+          "length": 5261132
+        }
+      ]
+    }
+  ]
+}
