@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 9
-- **Toplam aktif sürüm/kanal:** 9
-- **Toplam aktif boyut:** 55.513 GB (51.701 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-19 17:45:05 UTC
+- **Toplam oyun:** 10
+- **Toplam aktif sürüm/kanal:** 10
+- **Toplam aktif boyut:** 60.749 GB (56.577 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-19 18:01:24 UTC
 
 ## PC
 
-**9 oyun · 9 aktif sürüm/kanal · 55.513 GB (51.701 GiB)**
+**10 oyun · 10 aktif sürüm/kanal · 60.749 GB (56.577 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -21,6 +21,7 @@
 | Grand Theft Auto: Vice City | 1.0.0 | stable | 1.619 | 1.508 | `pc-grand-theft-auto-vice-city-v1.0.0-stable` |
 | Papers, Please | 1.0.0 | stable | 0.094 | 0.088 | `pc-papers-please-v1.0.0-stable` |
 | PEAK | 1.0.0 | stable | 4.466 | 4.159 | `pc-peak-v1.0.0-stable` |
+| Portal | 1.0.0 | stable | 5.235 | 4.876 | `pc-portal-v1.0.0-stable` |
 | Portal 2 | 1.0.0 | stable | 13.071 | 12.174 | `pc-portal-2-v1.0.0-stable` |
 
 ---
