@@ -1,0 +1,50 @@
+name: Update Game List
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'catalog.json'
+      - 'scripts/generate_game_list.py'
+      - '.github/workflows/update-game-list.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-game-list-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update-game-list:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Generate game-list.md
+        run: python scripts/generate_game_list.py
+
+      - name: Commit updated game list
+        shell: bash
+        run: |
+          if git diff --quiet -- game-list.md; then
+            echo "game-list.md is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add game-list.md
+          git commit -m "Update generated game list"
+          git push
