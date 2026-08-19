@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 11
-- **Toplam aktif sürüm/kanal:** 11
-- **Toplam aktif boyut:** 78.389 GB (73.006 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-19 20:11:46 UTC
+- **Toplam oyun:** 12
+- **Toplam aktif sürüm/kanal:** 12
+- **Toplam aktif boyut:** 181.664 GB (169.187 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-19 22:07:28 UTC
 
 ## PC
 
-**11 oyun · 11 aktif sürüm/kanal · 78.389 GB (73.006 GiB)**
+**12 oyun · 12 aktif sürüm/kanal · 181.664 GB (169.187 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -17,6 +17,7 @@
 | Assassin's Creed™: Director's Cut Edition | 1.0.0 | stable | 7.201 | 6.707 | `pc-assassin-s-creed-director-s-cut-edition-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 14.396 | `pc-captured-2-v1.0.0-stable` |
 | Grand Theft Auto III | 1.0.0 | stable | 1.351 | 1.259 | `pc-grand-theft-auto-iii-v1.0.0-stable` |
+| Grand Theft Auto V Enhanced | 1.0.0 | stable | 103.274 | 96.182 | `pc-grand-theft-auto-v-enhanced-v1.0.0-stable` |
 | Grand Theft Auto: San Andreas | 1.0.0 | stable | 4.975 | 4.634 | `pc-grand-theft-auto-san-andreas-v1.0.0-stable` |
 | Grand Theft Auto: Vice City | 1.0.0 | stable | 1.619 | 1.508 | `pc-grand-theft-auto-vice-city-v1.0.0-stable` |
 | Half Life 2 | 1.0.0 | stable | 17.641 | 16.429 | `pc-half-life-2-v1.0.0-stable` |
