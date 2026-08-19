@@ -1,0 +1,4217 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "grand-theft-auto-v-enhanced",
+    "title": "Grand Theft Auto V Enhanced",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "The \"Perpetual Testing Initiative\" has been expanded to allow you to design co-op puzzles for you and your friends!"
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-grand-theft-auto-v-enhanced-v1.0.0-stable"
+  },
+  "chunk_size": 1610612736,
+  "upload_workers": 16,
+  "total_size": 103274431957,
+  "files": [
+    {
+      "path": "_CommonRedist/_redist_readme.txt",
+      "size": 2038,
+      "sha256": "b9ff3c3422e06fb509f4d9ea3ae4493ee804a7efdd1297fbff8eceed40b6c403"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 295320,
+      "sha256": "2cf71d098c608c56e07f4655855a886c3102553f648df88458df616b26fd612f"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+      "size": 31533074,
+      "sha256": "3c188e4651bcc07df2bdb06d69585158797b1bafb91557b09217621628cd5b23"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054848,
+      "sha256": "47260420773a20443fb1e38a89b7f39c5237a80a842de598e6c8f7f90a3bbd6d"
+    },
+    {
+      "path": "amd_ags_x64.dll",
+      "size": 177128,
+      "sha256": "9faeead3a037a724c16a354b30a7ac3f60ecefd0b43058863c061acc31a1cf7f"
+    },
+    {
+      "path": "amd_fidelityfx_dx12.dll",
+      "size": 6675664,
+      "sha256": "12a5081257ec95b0b53ad51b4a87fb3c03f97fe0bbb59f9496968f8d50ef93a6"
+    },
+    {
+      "path": "BattlEye/BEClient_x64.cfg",
+      "size": 41,
+      "sha256": "eac9d1e3eabbfbcdc2d9388aa74f7b8f8774c4681b64629c8e8316704d8a066d"
+    },
+    {
+      "path": "BattlEye/BEClient_x64.dll",
+      "size": 10312488,
+      "sha256": "87c13eafe7fcd831df5834749e68cb9fbf57896074263c93f7c7392451dc21eb"
+    },
+    {
+      "path": "BattlEye/BELauncher.ini",
+      "size": 111,
+      "sha256": "1874f57ac81bc09f9b895c2e37b5b4d4dfb604f96fdbc5d1458e32e04779d941"
+    },
+    {
+      "path": "BattlEye/BEServer_x64.cfg",
+      "size": 41,
+      "sha256": "eac9d1e3eabbfbcdc2d9388aa74f7b8f8774c4681b64629c8e8316704d8a066d"
+    },
+    {
+      "path": "BattlEye/BEServer_x64.dll",
+      "size": 402216,
+      "sha256": "b84591d8763ba845337da8926d27a2f3a74b5c3bc4e9474b9e0431295127a9d5"
+    },
+    {
+      "path": "BattlEye/BEService_x64.exe",
+      "size": 18663720,
+      "sha256": "1d325b52b55fe35997a5669ed609d1c8877b7fb1edf599aa736a0fd86704395a"
+    },
+    {
+      "path": "BattlEye/EULA/cs.txt",
+      "size": 3368,
+      "sha256": "d90f549fce55c4f64c13e5c1921f920338ccf3806fee987888632bca6f3ae5d0"
+    },
+    {
+      "path": "BattlEye/EULA/de.txt",
+      "size": 3417,
+      "sha256": "e6ef6041e9ad0d4cd6e6f300a32c17ee877cc45cf556579079a86180d258cfef"
+    },
+    {
+      "path": "BattlEye/EULA/en.txt",
+      "size": 2758,
+      "sha256": "160cf73c53860a72b6c4aaf9617f27721bc535064dba63125281bbf6d4cd03f2"
+    },
+    {
+      "path": "BattlEye/EULA/es.txt",
+      "size": 3260,
+      "sha256": "1ffe31a0a0fe62a92751c3c6eb102d2c14bf41ae3276eee5ee36b368c8f9306e"
+    },
+    {
+      "path": "BattlEye/EULA/fr.txt",
+      "size": 3390,
+      "sha256": "0d146c9c38c22ae292f8f7b68994dd595bcbf1f832e831ffc38dbde65b428bf6"
+    },
+    {
+      "path": "BattlEye/EULA/it.txt",
+      "size": 3158,
+      "sha256": "5d529c2f0572c2c147325a6f49ac1f0987671b08b56bed2884058ff2b01224e8"
+    },
+    {
+      "path": "BattlEye/EULA/ja.txt",
+      "size": 4036,
+      "sha256": "2a7d5666c41335b970634782eb97dbb22ec9ec0f08e1c829dd7e5827756e5351"
+    },
+    {
+      "path": "BattlEye/EULA/ko.txt",
+      "size": 3618,
+      "sha256": "abc5cc57f549e3ea479413ee2fc46c1be10c32f095e666097eb97ff48e460005"
+    },
+    {
+      "path": "BattlEye/EULA/nl.txt",
+      "size": 3363,
+      "sha256": "8f9bc6625f88b9cdc21f039c130cb9c6f582b06a96ee9906a1da91ffe893efdd"
+    },
+    {
+      "path": "BattlEye/EULA/pl.txt",
+      "size": 3332,
+      "sha256": "2eff6616956761372e2a38f64450c7cd6bac28a10895faf869860cea0a0be59e"
+    },
+    {
+      "path": "BattlEye/EULA/pt.txt",
+      "size": 3152,
+      "sha256": "57b92735230b28524ad02322003cd65b39bfa74cb31004e6a598a1318b3c0ca7"
+    },
+    {
+      "path": "BattlEye/EULA/ru.txt",
+      "size": 5543,
+      "sha256": "d0fc14bbe99ea48b330a2b17983031bd78f9055a87f4c4a3bcc3b3d2dce29fb9"
+    },
+    {
+      "path": "BattlEye/EULA/tr.txt",
+      "size": 3272,
+      "sha256": "f55c868489f492daf2b7c80e89c7a22f979236f95477cdced3ea95b1a1907b46"
+    },
+    {
+      "path": "BattlEye/EULA/zh-TW.txt",
+      "size": 2440,
+      "sha256": "c3c40b41b648e0f352a9cf9dc4958036db010025e6e2e2daa338081cae013652"
+    },
+    {
+      "path": "BattlEye/EULA/zh.txt",
+      "size": 2488,
+      "sha256": "717558c07052f99da0ef0ad1e03660f8692c73df9d203bc0f4a88c91388af140"
+    },
+    {
+      "path": "BattlEye/Licenses.txt",
+      "size": 1128,
+      "sha256": "dc205020ac6d3b4e50c864f23e1453fc543218cc357d2016bf18b4b68df6b3ea"
+    },
+    {
+      "path": "BattlEye/Privacy/cs.txt",
+      "size": 1549,
+      "sha256": "e62b426c97fabbaa9112f05dd938c8a975ababf8d372d96cb50dc0d33a9f7edc"
+    },
+    {
+      "path": "BattlEye/Privacy/de.txt",
+      "size": 1479,
+      "sha256": "a06a4c134034f3534eed1c821685fa1e93ea8b713059c8d06656b20eb8a1228b"
+    },
+    {
+      "path": "BattlEye/Privacy/en.txt",
+      "size": 1318,
+      "sha256": "73847510dacd5c4196d52651d1a4d867c6b8918784bb8ec09b70c1bb8e7f95de"
+    },
+    {
+      "path": "BattlEye/Privacy/es.txt",
+      "size": 1578,
+      "sha256": "b916db9c2cef426aa8dcbe629e1e020a119b0176ebc24c46d910416497aeba4b"
+    },
+    {
+      "path": "BattlEye/Privacy/fr.txt",
+      "size": 1601,
+      "sha256": "ace3ff76bd671f7257599df8bf47bf38572e6f284b87aec922e4b5be5efbf7b9"
+    },
+    {
+      "path": "BattlEye/Privacy/it.txt",
+      "size": 1473,
+      "sha256": "984e5c00705ff8180528d79389461e51830e619ff747f75603eeb5c9d0dfdd28"
+    },
+    {
+      "path": "BattlEye/Privacy/ja.txt",
+      "size": 1720,
+      "sha256": "e3f12d52bb501c671bc86e130442ddcbef498909b5066fe371d59da2792c7401"
+    },
+    {
+      "path": "BattlEye/Privacy/ko.txt",
+      "size": 1510,
+      "sha256": "c888f6b1a416eb8c1567ebce64103057ebfb98a30a88a05e692d028fbe5c7a45"
+    },
+    {
+      "path": "BattlEye/Privacy/nl.txt",
+      "size": 1403,
+      "sha256": "cd868b3d5f2065e94ef0983063478a8ff182e5147a48ad1a43e9c309bcfc25e9"
+    },
+    {
+      "path": "BattlEye/Privacy/pl.txt",
+      "size": 1539,
+      "sha256": "abfed8e1da9866c3ee16e1d15f93679c300d6ca97a395f2fadae983e608f3110"
+    },
+    {
+      "path": "BattlEye/Privacy/pt.txt",
+      "size": 1565,
+      "sha256": "d2a2423d1485626f6cf75c74e0170a3c71ae9c55a22f799e6eeb2bc6f8db6286"
+    },
+    {
+      "path": "BattlEye/Privacy/ru.txt",
+      "size": 2500,
+      "sha256": "b6e93df760391b198c301a207b5bf7db9efaf30aef68305bef142cb0dd1609a6"
+    },
+    {
+      "path": "BattlEye/Privacy/tr.txt",
+      "size": 1422,
+      "sha256": "4d2d4c709108ade995fc79f95b64fa91c918235288c844e2d89808c3f1adac98"
+    },
+    {
+      "path": "BattlEye/Privacy/zh-TW.txt",
+      "size": 1115,
+      "sha256": "758041c2f5a7e515f2069afead821bbd61ff9264a6cbc478b20eaeafcfd88952"
+    },
+    {
+      "path": "BattlEye/Privacy/zh.txt",
+      "size": 1109,
+      "sha256": "e92a498947066037cba7cff45296641a70621803ef94e0545b76ae5a208dddb2"
+    },
+    {
+      "path": "BattlEye/Text/cs.ini",
+      "size": 3192,
+      "sha256": "9c1a43cfe67a367b7462a3b43f964feb6406c93fd37324ef85eb3511da5e27f1"
+    },
+    {
+      "path": "BattlEye/Text/de.ini",
+      "size": 3283,
+      "sha256": "fcc1bf3aecab2a7f259f247cc8af4f7436ab6f966408f81de2c6ef315f57fdfa"
+    },
+    {
+      "path": "BattlEye/Text/en.ini",
+      "size": 2748,
+      "sha256": "ecbf28daba8fb16515ea349e4eecb362bfd4a0b4c33edee0e8e98e37adecebd0"
+    },
+    {
+      "path": "BattlEye/Text/es.ini",
+      "size": 3082,
+      "sha256": "8b9fe0d5dc427b7262b569e2f3359c5bc7f4a897ca08d50294ca0e7654b45924"
+    },
+    {
+      "path": "BattlEye/Text/fr.ini",
+      "size": 3245,
+      "sha256": "8669beb8c18485f1d9563853f90db170d3259f3e8da24c639df049275daa5167"
+    },
+    {
+      "path": "BattlEye/Text/it.ini",
+      "size": 3014,
+      "sha256": "b0c634996131d9cf1a6000dc2592265688a3071cce7f909429870cfc70937032"
+    },
+    {
+      "path": "BattlEye/Text/ja.ini",
+      "size": 4122,
+      "sha256": "a40cd51abb3d2b1dca8beab83a57deaa3cf00833d34a8c3fec8d03b2d046aa6c"
+    },
+    {
+      "path": "BattlEye/Text/ko.ini",
+      "size": 3358,
+      "sha256": "103592abb3db4c259edb52c38d7377ebe278aa431b69ce4dada7ea69d6730e2a"
+    },
+    {
+      "path": "BattlEye/Text/nl.ini",
+      "size": 3004,
+      "sha256": "763e25bc1f28be5901b8692cf614cdc305a4d87989229a6f964dd6eb2f3853e2"
+    },
+    {
+      "path": "BattlEye/Text/pl.ini",
+      "size": 3170,
+      "sha256": "f590f86b924e4b889365018b1b3d03f135ad75acd468861882193199d361569d"
+    },
+    {
+      "path": "BattlEye/Text/pt.ini",
+      "size": 2978,
+      "sha256": "7ccfd7020500f8a4ccf2919778821bcad67def2a15d816f4cb0090e929108b2d"
+    },
+    {
+      "path": "BattlEye/Text/ru.ini",
+      "size": 4814,
+      "sha256": "be623574e9f5ca52c6cc75acf76fb4da88e4f5b7958f3b85427428daa143cb31"
+    },
+    {
+      "path": "BattlEye/Text/tr.ini",
+      "size": 2990,
+      "sha256": "45a31e07913e88213d7dc4134d5fb5c12cf97b8ed44aa79636730c8c8b0b23a1"
+    },
+    {
+      "path": "BattlEye/Text/zh-TW.ini",
+      "size": 2684,
+      "sha256": "bd10ebc03c908936415f16b57e1ee6402eb40fef02427b5b1b7135ae70b20bbd"
+    },
+    {
+      "path": "BattlEye/Text/zh.ini",
+      "size": 2631,
+      "sha256": "7b909bf625b6dccf94f10b52681ce7835f56212d3db5b3cda257ae900f74b688"
+    },
+    {
+      "path": "bink2w64.dll",
+      "size": 394960,
+      "sha256": "3a324d128477d09eb318c65ee74a68708d5a0804ebc99912e89922a6b29e748a"
+    },
+    {
+      "path": "common.rpf",
+      "size": 19351552,
+      "sha256": "fc4d22f8a715ac492e67975254cb92fc8d6dc615b28417744f7822735d2a355c"
+    },
+    {
+      "path": "D3D12-REDIST/D3D12Core.dll",
+      "size": 5889984,
+      "sha256": "458cae10d4787bbe1b71caa5c4e8982b28ac223b011f23bec9fd97ad3b27c69e"
+    },
+    {
+      "path": "D3D12-REDIST/d3d12SDKLayers.dll",
+      "size": 9522216,
+      "sha256": "10cb07ecafe72fc109292d0b7fdad5575b5611ffbfdd8d72e03876f866581d34"
+    },
+    {
+      "path": "dstorage.dll",
+      "size": 206880,
+      "sha256": "8a7f9809b4630d22796445ab9aa44181458d0f73f03705b1dfafd79410e07334"
+    },
+    {
+      "path": "dstoragecore.dll",
+      "size": 1468960,
+      "sha256": "77c7b3acf5b5a9acec6ad3ed7aa3c33e1ad43e73116b437adfcd26965a079b2b"
+    },
+    {
+      "path": "fvad.dll",
+      "size": 34280,
+      "sha256": "2211110f2b9aec1d11f0bf010b3d9473e18114133bd493a171ef9f2ffd1d4a12"
+    },
+    {
+      "path": "GFSDK_Aftermath_Lib.x64.dll",
+      "size": 5148256,
+      "sha256": "71977f42be7a99785b262a2da351c47da2c1608dbc6539a49ce37c523a6efc45"
+    },
+    {
+      "path": "GTA5_Enhanced.exe",
+      "size": 56064632,
+      "sha256": "0c52864d4521d9c9d441348aa1156958792dde8825d0297c851753f167336401"
+    },
+    {
+      "path": "GTA5_Enhanced_BE.exe",
+      "size": 1473144,
+      "sha256": "b6ee6d696ac95c8cbc6a4156fa4e025285026e897d9e3d2eeaee2104fb92a909"
+    },
+    {
+      "path": "installscript.vdf",
+      "size": 600,
+      "sha256": "950319f641987bac9fee55e753bedc0b15febb18d9f4e8519db6fa76a1d8cced"
+    },
+    {
+      "path": "installscript_sdk.vdf",
+      "size": 829,
+      "sha256": "0e51de8304cce1989e4cf0660c0a51a2fdb1523c16151eb9ea0d341b46fa9ad3"
+    },
+    {
+      "path": "libcurl.dll",
+      "size": 545256,
+      "sha256": "92865fe41b747455f7b7ee36da0c29082a5be62936791e4b1b0e9e8e022d6816"
+    },
+    {
+      "path": "libtox.dll",
+      "size": 269800,
+      "sha256": "0442c5a0a3bb7d2261520fc7c2d1bd77537b3a17f63ecc64c7d5647661ddb6ad"
+    },
+    {
+      "path": "nvngx_dlss.dll",
+      "size": 29981808,
+      "sha256": "e88a27b9629c1cd3a51bf25c605def1798c44d038267c520830e23d5959c985b"
+    },
+    {
+      "path": "nvngx_dlssg.dll",
+      "size": 7509024,
+      "sha256": "fa7b99551ef8e089d2573d936ebc560855d2868323a791859d5f2cf94235a6ed"
+    },
+    {
+      "path": "oo2core_5_win64.dll",
+      "size": 945640,
+      "sha256": "d245bd988b2756b28dfa30143aeb261317d531c06fd5b0d0dcb874b201b63322"
+    },
+    {
+      "path": "opus.dll",
+      "size": 407016,
+      "sha256": "f01c713cdd9a09320a1945b53c038597db1c0803fc6f61381c025e805681e7ad"
+    },
+    {
+      "path": "opusenc.dll",
+      "size": 59368,
+      "sha256": "dcb88ce5b7d12cde2d0d0765e914276b104fe28df32813cd144239973dbabd8b"
+    },
+    {
+      "path": "PlayGTAV.exe",
+      "size": 1214464,
+      "sha256": "3a3c712a350a06e83fd1380cf79d9d909f7ac23b8f5df61ed2b8ceb3b86364c6"
+    },
+    {
+      "path": "PlayGTAV.rne",
+      "size": 572536,
+      "sha256": "da21b92b968d5b6a52feee483e7de15500813f27f345c4d170490f0c17b1dddc"
+    },
+    {
+      "path": "Redistributables/Rockstar-Games-Launcher.exe",
+      "size": 112072312,
+      "sha256": "c70131cb0427d146c9489297822e99ad87d4d5e141fd999d19f00975ab1a31f2"
+    },
+    {
+      "path": "Redistributables/Social-Club-Setup.exe",
+      "size": 127445112,
+      "sha256": "366f01a0bf875ccdf4d169affe00b176729c0af037478caa20523f1224d7c014"
+    },
+    {
+      "path": "rpf.cache",
+      "size": 16129254,
+      "sha256": "555efd356a6078458839b67230de61edb07272c1dc3dcf3d107ef901a299e29e"
+    },
+    {
+      "path": "RUNE64.dll",
+      "size": 2817024,
+      "sha256": "5f9ad44355a9bde22e9f0e0a58ee41034f597ca4ca4531a0b034599023ebd754"
+    },
+    {
+      "path": "sl.common.dll",
+      "size": 674432,
+      "sha256": "752218c5559c857e21923b6965fcabef67ec3113fd1c92abbb2326f5c26284d8"
+    },
+    {
+      "path": "sl.dlss.dll",
+      "size": 240256,
+      "sha256": "e42b0dbbff6797a0eba75ca140f56b7571d036d7fb79df176ff3cb368f53392d"
+    },
+    {
+      "path": "sl.dlss_g.dll",
+      "size": 456320,
+      "sha256": "992f1b442406cf63ad8300ef3863474e307482e4c45a58f3da8bb92e2bd06764"
+    },
+    {
+      "path": "sl.interposer.dll",
+      "size": 557184,
+      "sha256": "cb23f17d8360d42d323b457dfe621bb6da0ff0012333966e7e796804550557db"
+    },
+    {
+      "path": "sl.pcl.dll",
+      "size": 176256,
+      "sha256": "1ec44fa023f30de1e3bf82b0771bda31ed0790571e0c701f93a29a7a5a252c79"
+    },
+    {
+      "path": "sl.reflex.dll",
+      "size": 200320,
+      "sha256": "0128460876f169306b1b25e689efba7c3974016d5a1cc41cc61dfe7835963cca"
+    },
+    {
+      "path": "socialclub.dll",
+      "size": 5073016,
+      "sha256": "d25f240979b24f1676f7fb1c4e555305f197ae2f94bda0479f25dceadf151e68"
+    },
+    {
+      "path": "socialclub_emu.ini",
+      "size": 224,
+      "sha256": "bf3094b500a51ef542f24de592d827a89a62e85234fcb298934bcb074d656a45"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 300392,
+      "sha256": "1add7f151fa644870a735ae86e68d1f019f296130d8e7c0a7ed3ecc7482dccbc"
+    },
+    {
+      "path": "title.rgl",
+      "size": 2144,
+      "sha256": "2dc137c2d7ac5681cf22c18b9ee2934839e5ac1a522e2142cf4c6721ed77264d"
+    },
+    {
+      "path": "update/update.rpf",
+      "size": 3122239488,
+      "sha256": "aae1703738dcd45400292804aac5126357e0d2cac5a240b392f682d5a82b2450"
+    },
+    {
+      "path": "update/update2.rpf",
+      "size": 656189440,
+      "sha256": "0057a4aba514c8458c435fe69de1d567bd3e3cacc4f73a36b1c29f3cfb9ad9e4"
+    },
+    {
+      "path": "update/x64/data/errorcodes/american.txt",
+      "size": 29298,
+      "sha256": "330059a5eb5d272b0cd7f31efbd7a73d9e54e7924497c2f6e20772affbe7cb3c"
+    },
+    {
+      "path": "update/x64/data/errorcodes/chinese.txt",
+      "size": 53083,
+      "sha256": "8680f5ec7e185437f0bb5fcacf9d4b46e9ee0d8a4ce8ff6567421d2dce33abb2"
+    },
+    {
+      "path": "update/x64/data/errorcodes/chinesesimp.txt",
+      "size": 52230,
+      "sha256": "1c9f112e1905d8d7f2f0a6b73ce0723cd73df640c70dc33650603dc8850b461c"
+    },
+    {
+      "path": "update/x64/data/errorcodes/french.txt",
+      "size": 56566,
+      "sha256": "15ebd0ddef204d22d6ff7f1541a22b3a7d4a5f50811e538f44b3f8bdbfb2f7fe"
+    },
+    {
+      "path": "update/x64/data/errorcodes/german.txt",
+      "size": 56916,
+      "sha256": "1d93355d4038805b6c734742b886f8aaf57e6d02f94377022b5f9eafee120114"
+    },
+    {
+      "path": "update/x64/data/errorcodes/GLOBAL.txt",
+      "size": 28581,
+      "sha256": "01f646ad9e6efe3a040a1eb07e9dd3fd362869344e6fe3e11b0c2589e8e71bad"
+    },
+    {
+      "path": "update/x64/data/errorcodes/italian.txt",
+      "size": 55268,
+      "sha256": "f733570f1ea3d9748956f1f293d18ef15ae657b3bc7c67b5dac32ba373441768"
+    },
+    {
+      "path": "update/x64/data/errorcodes/japanese.txt",
+      "size": 68698,
+      "sha256": "f2a139369632bbd98711a20dd64e68fa0294f6e9b9c76e35b476a0761f6f2fbf"
+    },
+    {
+      "path": "update/x64/data/errorcodes/korean.txt",
+      "size": 63191,
+      "sha256": "f108d2cca00aa2ebff543bd2e00615bf56afefadeb97a656b5fdcaaf56fdfa91"
+    },
+    {
+      "path": "update/x64/data/errorcodes/mexican.txt",
+      "size": 55225,
+      "sha256": "cb70e53d4d7587c5f20b2ab581abd581f7d1bce68876b4ad22eadace782fe3d3"
+    },
+    {
+      "path": "update/x64/data/errorcodes/polish.txt",
+      "size": 54299,
+      "sha256": "a73cb5a5d1672f517989aa3d593cabbdd9b170c03c359df01cb9c22cf607df42"
+    },
+    {
+      "path": "update/x64/data/errorcodes/portuguese.txt",
+      "size": 57094,
+      "sha256": "0f24d65e68d18d9d3a87c05da353021b279ed3bbed716d43eb17451cc67c8019"
+    },
+    {
+      "path": "update/x64/data/errorcodes/russian.txt",
+      "size": 80533,
+      "sha256": "b537e77d56cf1b7d1d1d52107597bd8026dfd641cf233f81dd0cb9b4bd02bf10"
+    },
+    {
+      "path": "update/x64/data/errorcodes/spanish.txt",
+      "size": 57930,
+      "sha256": "cb275b638ebb725145901d83c864b1f2284e166b85ee18967b226cc0c9fd22d9"
+    },
+    {
+      "path": "update/x64/dlcpacks/mp2023_01/dlc.rpf",
+      "size": 726145024,
+      "sha256": "8f5f442467a8614819af67a6d46067c18640f69df22f9c21c5489791c9d962a3"
+    },
+    {
+      "path": "update/x64/dlcpacks/mp2023_01_g9ec/dlc.rpf",
+      "size": 43253760,
+      "sha256": "5fa432739b877ddb5b91812577a69c19a82e90c54c2623098b69e4fc6f6ba1ed"
+    },
+    {
+      "path": "update/x64/dlcpacks/mp2023_02/dlc.rpf",
+      "size": 1254557696,
+      "sha256": "b74a18c2f2fcc5b8188a6487cb3be374512a97adf140d44cc24468935b703338"
+    },
+    {
+      "path": "update/x64/dlcpacks/mp2023_02_g9ec/dlc.rpf",
+      "size": 50159616,
+      "sha256": "920c401c3dba8c0afa7af784d4e53d7dbb70e9adbf5f16ab67d9d46e799dcc32"
+    },
+    {
+      "path": "update/x64/dlcpacks/mp2024_01/dlc.rpf",
+      "size": 962050048,
+      "sha256": "0bb5a149b6468079b2a81eb93f4385bc701104c3b743c4267e40ad0de15447e2"
+    },
+    {
+      "path": "update/x64/dlcpacks/mp2024_01_g9ec/dlc.rpf",
+      "size": 27115520,
+      "sha256": "36b48e83f4c95c038a18d6f65796a5b2352234cbdf5f3a75ff37b9b657eebdc0"
+    },
+    {
+      "path": "update/x64/dlcpacks/mp2024_02/dlc.rpf",
+      "size": 878538752,
+      "sha256": "fe14fab1bf094f9c3022941ad75f5ae6178754b495c8340994cc92d8679a8ccd"
+    },
+    {
+      "path": "update/x64/dlcpacks/mp2024_02_G9EC/dlc.rpf",
+      "size": 18855936,
+      "sha256": "b9aa311ac0e3e4598937200cc3fe34031c1aa3bcc361b93aefb8aeaccb0223b8"
+    },
+    {
+      "path": "update/x64/dlcpacks/mp2025_01/dlc.rpf",
+      "size": 1103048704,
+      "sha256": "f72df1323adb913fa3260f585d9d603c1b661a5793ce1ed95fa79140cd185b1a"
+    },
+    {
+      "path": "update/x64/dlcpacks/mp2025_01_G9EC/dlc.rpf",
+      "size": 22784000,
+      "sha256": "df6bf380f92e90a0b83c30c9a641a21b3f3af3f3cb42154506ecf4cae4d38408"
+    },
+    {
+      "path": "update/x64/dlcpacks/mp2025_02/dlc.rpf",
+      "size": 1128505344,
+      "sha256": "53fb02e854af1a63cc6576317aaab616ef01d2b869b9969a82be19c1d2b6498c"
+    },
+    {
+      "path": "update/x64/dlcpacks/mp2025_02_g9ec/dlc.rpf",
+      "size": 17782784,
+      "sha256": "5d938a428748b4955038f3d17303f6d7ac68ddf3c99497ef989bbdb53c645d3c"
+    },
+    {
+      "path": "update/x64/dlcpacks/mp2026_01/dlc.rpf",
+      "size": 643246080,
+      "sha256": "e69594395962a6a38aa842439ca8b782c2fab6040577857522653e928de543f0"
+    },
+    {
+      "path": "update/x64/dlcpacks/mp2026_01_G9EC/dlc.rpf",
+      "size": 28653568,
+      "sha256": "1a4e64c0ab83a685a2d3f80cacd634af9865210e6654182238d69f5ee4a27411"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpairraces/dlc.rpf",
+      "size": 67823616,
+      "sha256": "60a5934de5f0517c4eff25a2dd9c9b742268ef88efe83b7af0ea0e4e309a9a07"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpapartment/dlc.rpf",
+      "size": 520589312,
+      "sha256": "29b506a169cc839aefb520f4163dfd2c97e6c93a0bf9ac32530bbf68c8f951e7"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpassault/dlc.rpf",
+      "size": 289947648,
+      "sha256": "e16b0271457436ee41a3cdfe4cf75cf66c5437900f9567227e5dd72ca6e87789"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpbattle/dlc.rpf",
+      "size": 1625075712,
+      "sha256": "fdeeccea56f297159ee00223a5caa1888269f61356cf900b98e14ff444bf5597"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpbattle/dlc1.rpf",
+      "size": 1153142784,
+      "sha256": "d5a561a1fedf4fd672911741a4613444b3870b92913b0eafa2cf3d1cee14ead4"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpbiker/dlc.rpf",
+      "size": 1541324800,
+      "sha256": "bba97b80c2b7fc6423de61d70de4ca8d648e700932fb5f2763b102eb23057ca0"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpchristmas2/dlc.rpf",
+      "size": 59267072,
+      "sha256": "5bc7b428bd72837936f72d5587264b494d3a9790eb6c9fa34c01088cc8fc81ee"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpchristmas2017/dlc.rpf",
+      "size": 1944444928,
+      "sha256": "7d3d94cce75ad3597c7e652a6d24aa9ab24b0efb2dde75949ead4432781964d3"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpchristmas2018/dlc.rpf",
+      "size": 2900039680,
+      "sha256": "fadcf763478bda9b3d0386fc57f3d759682eaf2cd90997017bceb1e32471c94a"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpchristmas3/dlc.rpf",
+      "size": 1410299904,
+      "sha256": "6062d6b8ac06f198ca213c86240fb96a62a535b31a55e8579239862ecab420c7"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpchristmas3_g9ec/dlc.rpf",
+      "size": 65601536,
+      "sha256": "740613634f79e235ee9a9fcbb41b5b6c74b8551b5c1b6382a0de26bee68f83c3"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpexecutive/dlc.rpf",
+      "size": 611624960,
+      "sha256": "ffb98f1ed76a420e098599b2cae6a06f9bffdc3c261d4bf8f4c9cf73911f8d8a"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpg9ec/dlc.rpf",
+      "size": 164663296,
+      "sha256": "a07eec16811d44dec72380f67be71b221ecf88fe52cd6ddc01ed028adf8acc42"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpgunrunning/dlc.rpf",
+      "size": 1715116032,
+      "sha256": "806a86236bce29058055a9724a7361256ce6ecd34656cda58fde65d03203e98d"
+    },
+    {
+      "path": "update/x64/dlcpacks/mphalloween/dlc.rpf",
+      "size": 94490624,
+      "sha256": "ec5df8758d53bbc3acb267040a1b29294f13f4e9567c06623e6e3c65e9f0bb36"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpheist/dlc.rpf",
+      "size": 2438424576,
+      "sha256": "15305fe726c938ffa0ab64355267635fa002453a7a895f310d78f8b3214883ac"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpheist3/dlc.rpf",
+      "size": 1607426048,
+      "sha256": "31f32b9a981d744e7906e8e6841df41eb7deea947ce32c3df59211df929c716e"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpheist4/dlc.rpf",
+      "size": 2027569152,
+      "sha256": "2122a6ecdf9bd4e3e576f1aa8a1ce710f2cab29a3b192aad6030f6eddde9b244"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpheist4/dlc1.rpf",
+      "size": 2039289856,
+      "sha256": "14a0ab8c2ae5e84e567b47ce186e2689d9c7a1b5fedba2af9e64d4bc21e84800"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpheist4/dlc2.rpf",
+      "size": 1310058496,
+      "sha256": "9114e8c7cccba32c9b48ef334f385c7bacedb91567b8855828eaaecf0e4479db"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpimportexport/dlc.rpf",
+      "size": 803790848,
+      "sha256": "a55e27b000bfec5c3df4f8adddbdf2e486b5b41e20f5c9022fc0afc3390dd831"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpjanuary2016/dlc.rpf",
+      "size": 149553152,
+      "sha256": "5ec8d286f60ee2f550b40e65c19f6715b56df5545c77d62993d506ea0e1b43d5"
+    },
+    {
+      "path": "update/x64/dlcpacks/mplowrider/dlc.rpf",
+      "size": 863016960,
+      "sha256": "21345f8cc565637b01218aab8d27825aff82971970b09f2c608e7ee7c9a1a869"
+    },
+    {
+      "path": "update/x64/dlcpacks/mplowrider2/dlc.rpf",
+      "size": 323579904,
+      "sha256": "9ffb9ac662e1fb1f8bb952472ae8ee0a22b6e0e05d3a6b57ebb82f1cc27b8c51"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpluxe/dlc.rpf",
+      "size": 183494656,
+      "sha256": "3e76e9bf4e0282579eb5794f61ce8b899f79495b87696f17c1af55dae9ec3063"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpluxe2/dlc.rpf",
+      "size": 262643712,
+      "sha256": "d408b7eabf03a759be5b92a74501a8808e9e4f1e6b6b622981d7fb3b259f69cd"
+    },
+    {
+      "path": "update/x64/dlcpacks/mppatchesng/dlc.rpf",
+      "size": 482383872,
+      "sha256": "f52f9c3d8cfa53f38f18dc187f2577663a6e14337358e4074e0931847990460d"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpreplay/dlc.rpf",
+      "size": 226906112,
+      "sha256": "8a4d96a918437879c807a3e15ee63fe0d9ce4231687818c13e82971eb6c73481"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpsecurity/dlc.rpf",
+      "size": 1546426368,
+      "sha256": "28561369e9c1ff62830aadf840e01809239a8cf4eaf84c0ac1af2900d167e115"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpsecurity/dlc1.rpf",
+      "size": 1061971968,
+      "sha256": "210d4752a6b7f94715cf7a40bfc1e23cee4fac3e2a3b3bc8c4bf3902707d3197"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpsmuggler/dlc.rpf",
+      "size": 930809856,
+      "sha256": "2c19d675ed48c086031550ebc64b8730c55fc54dea4067b2112fae1749ba6c9e"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpspecialraces/dlc.rpf",
+      "size": 73021440,
+      "sha256": "c94c56abd13befc9e0aa639e8bfa51d750191f4d5231386b241e178ef3dd6eb4"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpstunt/dlc.rpf",
+      "size": 328601600,
+      "sha256": "83b926cf0df38ad963fad14695264d5433465636c3f6d6bd37ab7d4e87c145b8"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpsum/dlc.rpf",
+      "size": 909754368,
+      "sha256": "496f00d0f79945197e78ad511dc208f80ad9a46b6538bd945b8224e035c536ad"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpsum2/dlc.rpf",
+      "size": 1196195840,
+      "sha256": "ecad9feed21ea87914d8882d8057a567c4fc17e4744efd3a75cbead20c44e31d"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpSum2_G9EC/dlc.rpf",
+      "size": 39528448,
+      "sha256": "f41dc70e07814b29c42d4364739bdeafc38af085c1e0e8583542b0082f41af3a"
+    },
+    {
+      "path": "update/x64/dlcpacks/mptuner/dlc.rpf",
+      "size": 1430607872,
+      "sha256": "2b3842fd5990a9d48348b3e09afed630b991ba94ea4e7c2b4d9f324a5eaff97f"
+    },
+    {
+      "path": "update/x64/dlcpacks/mptuner/dlc1.rpf",
+      "size": 938035200,
+      "sha256": "c5f11668947e1005297b5f1e9e0d6b44fcc9032cc3406f2722a452267702f4f5"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpvalentines2/dlc.rpf",
+      "size": 25157632,
+      "sha256": "aa22b9853cacb90ffa840e2a7a380d488c9e6a18ff19795edfbf0efd4bdf7386"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpvinewood/dlc.rpf",
+      "size": 1542258688,
+      "sha256": "924e6db4a4992fd2a37c11fc1aad2dc9a875473122204a6efa9e95c17a5e5bd6"
+    },
+    {
+      "path": "update/x64/dlcpacks/mpxmas_604490/dlc.rpf",
+      "size": 46075904,
+      "sha256": "23cfde911152054a671a21337aa7a076028e1e798a67f6dbe752cd196215705d"
+    },
+    {
+      "path": "update/x64/dlcpacks/patch2023_01/dlc.rpf",
+      "size": 138958848,
+      "sha256": "e736e7cdd0f38fe4cd88e1302ff3750dea3b4426b517e0c1942291bd8203f232"
+    },
+    {
+      "path": "update/x64/dlcpacks/patch2023_01_g9ec/dlc.rpf",
+      "size": 2015232,
+      "sha256": "caecc4b985b1c369e81ccb491cee2107db5dd2c9aac7b9bc535431665424f31f"
+    },
+    {
+      "path": "update/x64/dlcpacks/patch2023_02/dlc.rpf",
+      "size": 12337152,
+      "sha256": "93138cfa1e5d5f81fdb540ad0dc690d6eab57111b6f1e7f045f304a02a60c60e"
+    },
+    {
+      "path": "update/x64/dlcpacks/patch2024_01/dlc.rpf",
+      "size": 339249152,
+      "sha256": "abad5be9ed3f707947604821a915cbfb043b604d9d146966f443dcc9dda14064"
+    },
+    {
+      "path": "update/x64/dlcpacks/patch2024_01_g9ec/dlc.rpf",
+      "size": 14557184,
+      "sha256": "f82090af6d6d3973d00eacf2f714a5dc1668354ff85381726b853fcb3fa0ac46"
+    },
+    {
+      "path": "update/x64/dlcpacks/patch2024_02/dlc.rpf",
+      "size": 239439872,
+      "sha256": "f4c034122d6d75f6f98c8d4d691b519b436b0a012fd85a114dfdea3858551171"
+    },
+    {
+      "path": "update/x64/dlcpacks/patch2025_01/dlc.rpf",
+      "size": 584841216,
+      "sha256": "44792bf98841e2f76261ae75d9d7df9ec068c5378e0f8952f5cb72e2ac56ab44"
+    },
+    {
+      "path": "update/x64/dlcpacks/patch2025_02/dlc.rpf",
+      "size": 330504192,
+      "sha256": "848ad8b48a0a718e907b7595fbf9ac8807388193687c2b32c9a2c94179b84895"
+    },
+    {
+      "path": "update/x64/dlcpacks/patch2025_02_g9ec/dlc.rpf",
+      "size": 49786880,
+      "sha256": "bbabdc472f7a57690f230d5978175db1d7a7013dd6df1325e18a466da27fed53"
+    },
+    {
+      "path": "update/x64/dlcpacks/patch2026_01/dlc.rpf",
+      "size": 226430976,
+      "sha256": "8bbad030c399e6797cb8155d487eba5ac0dd2f65c7ff36a848a7ad528a66bc96"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday10ng/dlc.rpf",
+      "size": 91332608,
+      "sha256": "18360274e60a3224c68392cc7fd1f9ab8308a6871d2a43716d9af9472e375906"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday11ng/dlc.rpf",
+      "size": 9971712,
+      "sha256": "c8f912372940d5646afbd5773a1eb291229d695e9cc805d8a134d85f60ab359d"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday12ng/dlc.rpf",
+      "size": 155611136,
+      "sha256": "d8f019cea52a68cfb405adb41ad7b0224033538602e5fecd5f4ef45bd830eacc"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday13ng/dlc.rpf",
+      "size": 144959488,
+      "sha256": "77b2552b7e1dac91b93a8ca0d9d5509249ebb5c4d619b46bca7227c6cba94233"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday14ng/dlc.rpf",
+      "size": 92295168,
+      "sha256": "9874b0812dea77c9c439912da578e40b396f97abc68487a5c81a5a0bf94167ae"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday15ng/dlc.rpf",
+      "size": 47585280,
+      "sha256": "5e77b688956f5d844f839c501431ef3784a991eda02fcd63f3b811cb7148eb96"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday16ng/dlc.rpf",
+      "size": 12095488,
+      "sha256": "8bc4e090c34b6ac02a163b950cc93aed17c1c231ff4bcfde3298e83ba23a333b"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday17ng/dlc.rpf",
+      "size": 59971584,
+      "sha256": "bb2d0d8d9e031c388a1f9a47cf2a12e7dbe3c21bc440ed293b3e066967494f66"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday18ng/dlc.rpf",
+      "size": 4421632,
+      "sha256": "dff620201a64bda4d8c47d3af9e51128234f5dfd6e8da8f45cc069be15560341"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday19ng/dlc.rpf",
+      "size": 766709760,
+      "sha256": "c216c1fa3f78914b707943c324f0466da0aeed2be1323f82cb5e15424603f879"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday1ng/dlc.rpf",
+      "size": 418295808,
+      "sha256": "54511b8b0d189afacaa3e3c1161745f97971258a8b31492532aee8ac2a481004"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday20ng/dlc.rpf",
+      "size": 457187328,
+      "sha256": "529f7b4377310629f4633d909e3ebf12ea65e37182a573c377f1b533e757d08a"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday21ng/dlc.rpf",
+      "size": 1121652736,
+      "sha256": "bcef61dc01fba58ea76b046450659d9b6e6ccc91d5f83a3492e302b140185bbf"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday22ng/dlc.rpf",
+      "size": 694579200,
+      "sha256": "3c7f592e53b9a1dfb5bff4cb7a9e5ac188ad2ea0cd6a582aa540a442366a8ef8"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday23ng/dlc.rpf",
+      "size": 90945536,
+      "sha256": "7846f92ff794df18d6a306ce36a9f496481de73f1f650d1316f7e7cefcfa6366"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday24ng/dlc.rpf",
+      "size": 392112128,
+      "sha256": "f5926b9dfabaf3a71ad27f4bfee82486b22055005be629f3be5c5a37cd57124b"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday25ng/dlc.rpf",
+      "size": 95232000,
+      "sha256": "ee194d5e65e5e61b5994c3b727d259522478f72ab33884e2adfaa119694e1231"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday26ng/dlc.rpf",
+      "size": 530845696,
+      "sha256": "4a6668020a46294591d02edad9c22393304e0cb2e8bf795c42cc39d0771d9040"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday27g9ecng/dlc.rpf",
+      "size": 34981888,
+      "sha256": "394018cad1251ba3a36dc3a87392420e66cac9f0bd8f8c1f0af54bdfbaa11e59"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday27ng/dlc.rpf",
+      "size": 317534208,
+      "sha256": "b093ed1cc131147d0a23db27f52306bf979e654ac1b18bcb19b58e635712958a"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday28g9ecng/dlc.rpf",
+      "size": 3880960,
+      "sha256": "84b28bf66982b845be1d15cfce6c47894ab2a4ae2559821a2d1ff8e2f3a55f29"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday28ng/dlc.rpf",
+      "size": 177139712,
+      "sha256": "ee1df02a29c4ece4d92b12b5295b3596795463b40a2042062efe115916ebc7ee"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday2bng/dlc.rpf",
+      "size": 24428544,
+      "sha256": "37503a35e2de5f0977ef7fec77dacb3319e3da671a1a97c310afc19fd8ca3029"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday2ng/dlc.rpf",
+      "size": 738998272,
+      "sha256": "b488a760256da27a85b02cf03d7ad85f8ebe913113dad2e7553c29b48e58f9d1"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday3ng/dlc.rpf",
+      "size": 1684379648,
+      "sha256": "0938199df3d9f7e58dcb79a39291a550e18eece7dfc4f5f628046206bf673b0e"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday4ng/dlc.rpf",
+      "size": 301434880,
+      "sha256": "af79f3de2f7f60beaed294c1f3378f2d6fb1a4f96e2c51456fa503740fb85097"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday5ng/dlc.rpf",
+      "size": 8056832,
+      "sha256": "760c6e74648317b9ea1af841bdd7977178887c0f24b5aa345821869c3a3d1e02"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday6ng/dlc.rpf",
+      "size": 31911936,
+      "sha256": "a6314d1f082d2eca57b7bd558c14d8d4cf7d4817bdaf5d959ed49b29dc2f1e48"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday7ng/dlc.rpf",
+      "size": 42227712,
+      "sha256": "27e9ca86903f15479c84746a3a2f25bdf884e2709f0fe09c1726d39ebabb0acb"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday8ng/dlc.rpf",
+      "size": 364943360,
+      "sha256": "5f22dbbefe4e4a3db278f0a3e7fc7c28d368947db8e8a01324d6ffe116797325"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchday9ng/dlc.rpf",
+      "size": 160800768,
+      "sha256": "0ca74bd1945e2514f586328c16fdda8e0383ade27024725c09fd31c6eb6925ad"
+    },
+    {
+      "path": "update/x64/dlcpacks/patchdayg9ecng/dlc.rpf",
+      "size": 772112384,
+      "sha256": "544d0d48089588c6a9f859f6bb2eaf271e3f4517e24e4463968897bb50a10713"
+    },
+    {
+      "path": "update/x64/metadata.dat",
+      "size": 1075109,
+      "sha256": "ca4310dd7a07c50ac5051b36b3f9984390e074ddd119b8e98627a164beecbdee"
+    },
+    {
+      "path": "version.dll",
+      "size": 388072,
+      "sha256": "7bf3d961cb035021302cbdb980a8d0abea0e6fe27b722aaf8c667b8f26665c6a"
+    },
+    {
+      "path": "x64/audio/audio_rel.rpf",
+      "size": 3196928,
+      "sha256": "fbfc8457f494c54eb1a8cfa070c3baee9f6631cca39f2c7dbe211c1ad46ae347"
+    },
+    {
+      "path": "x64/audio/occlusion.rpf",
+      "size": 710656,
+      "sha256": "0380d9e3f170f7157a3da0cdeafd1b020abdc2c33d0546fe5f7a89564055e9dd"
+    },
+    {
+      "path": "x64/audio/sfx/ANIMALS.rpf",
+      "size": 661504,
+      "sha256": "a574744efd42c9c331299c2a806fd57ad2279b2a151a9e4cff3fdbfb864857d3"
+    },
+    {
+      "path": "x64/audio/sfx/ANIMALS_FAR.rpf",
+      "size": 22233088,
+      "sha256": "d014b326fc85c0c1c7f3a5f371564ecde38a1d710d7d87f16210bc4fefc298e1"
+    },
+    {
+      "path": "x64/audio/sfx/ANIMALS_NEAR.rpf",
+      "size": 64845824,
+      "sha256": "772fd9cc8cc99052eba3162d1e1f6d6d8fa1a59515f77bfc5d713c71d087d2e4"
+    },
+    {
+      "path": "x64/audio/sfx/CUTSCENE_MASTERED_ONLY.rpf",
+      "size": 668479488,
+      "sha256": "b34e9deb58649e53575fafb0d768d7f27c3be63ab950b3de9ad25098f3ac2bdb"
+    },
+    {
+      "path": "x64/audio/sfx/DLC_GTAO.rpf",
+      "size": 2998272,
+      "sha256": "3acecad1e484456fadb86ed506d19d0ec2c1141b667638de1cf3a587dad5236a"
+    },
+    {
+      "path": "x64/audio/sfx/INTERACTIVE_MUSIC.rpf",
+      "size": 1302747136,
+      "sha256": "ffacaaac39ce58a910d9f2aecc3e0fa3d41535d35549d54d90e13cf91ea8e6bc"
+    },
+    {
+      "path": "x64/audio/sfx/ONESHOT_AMBIENCE.rpf",
+      "size": 69648384,
+      "sha256": "85491e9056823480fd0e18bce6cadcba9f8c6826eb523f1059f317dfb4a36907"
+    },
+    {
+      "path": "x64/audio/sfx/PAIN.rpf",
+      "size": 42629120,
+      "sha256": "c3c161ed74e9eee13a89a5287a2700bf83849481ba85ac69eb58c20d99470575"
+    },
+    {
+      "path": "x64/audio/sfx/POLICE_SCANNER.rpf",
+      "size": 68509696,
+      "sha256": "7cfd7f18a24b1a8221490ba9016179ffefc55f8ca481b60cd3ba2e1ffc69190b"
+    },
+    {
+      "path": "x64/audio/sfx/PROLOGUE.rpf",
+      "size": 20891648,
+      "sha256": "9f68c8442f636cacc370ead3703dceddf02f330dff838c077d9cc93754bbc455"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_01_CLASS_ROCK.rpf",
+      "size": 201703424,
+      "sha256": "570b0b8aea274c1f65f735527072bb4571f6a394ed8e0e6c3cbb45d52f1a48b1"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_02_POP.rpf",
+      "size": 213118976,
+      "sha256": "0486ab1361e292d35c21517b059e342e94845e24d10ba648055a4f428c4c6947"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_03_HIPHOP_NEW.rpf",
+      "size": 152463360,
+      "sha256": "97bc062aaf9503e20a964319610c2c5d13e22dce748f38c4d261e2dbd1059432"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_04_PUNK.rpf",
+      "size": 60669952,
+      "sha256": "c266d443860df02058f3eda8741d46d33ba0ed03f0b3f4152dbfbf846ba7162b"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_05_TALK_01.rpf",
+      "size": 61075456,
+      "sha256": "8a30ef883355ef9857a44d41550718de7077d87d0b67afc5f130f8340c356f1b"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_06_COUNTRY.rpf",
+      "size": 71409664,
+      "sha256": "d05553577c8dd4459be6a4ef48df90244b07bf06c508c92d732e688af138e8b4"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_07_DANCE_01.rpf",
+      "size": 55183360,
+      "sha256": "405daa6c620bb1c3911df31308516f33b30a2d0531988f4611c077a2fa396a02"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_08_MEXICAN.rpf",
+      "size": 53006336,
+      "sha256": "82024b4e8ae21f4b232a33879875468a17f4ea8cb7be24c241c8594255e3daef"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_09_HIPHOP_OLD.rpf",
+      "size": 153858048,
+      "sha256": "0303ddfe254fd6b6e2fbcc61926b87b7ebb9d0da53d9f636acd62fb614b579d5"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_11_TALK_02.rpf",
+      "size": 54034432,
+      "sha256": "767d58205f04466358fc145b60daa45fd2964427d5aaa10607d7da0b79a3b6d9"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_12_REGGAE.rpf",
+      "size": 103510016,
+      "sha256": "96b3bdf387b6f6e11119d03e629a3530128b877f9457182ed64e6b5c30740331"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_13_JAZZ.rpf",
+      "size": 163555328,
+      "sha256": "cfccece4b323d28b0f3790a581690fc345d133ad639abd77dfad858ef254b69b"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_14_DANCE_02.rpf",
+      "size": 97224704,
+      "sha256": "1a00e2614f8ec9da76469151453b2198e8b64e9ad5f6421698f7abec16ec994b"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_15_MOTOWN.rpf",
+      "size": 95492096,
+      "sha256": "826ba1a76ea78336217ff5f6c415a505412e815efdb3f391a47584e78743125c"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_16_SILVERLAKE.rpf",
+      "size": 197795840,
+      "sha256": "081dc53fff7d93e5e3e026c21e87c353306bb90987b80abb8891491c59d6aa0b"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_17_FUNK.rpf",
+      "size": 116545536,
+      "sha256": "492ed38d5b40affd6b5ac0e3ab1f33f4e5f5dfb5c9d33013f3f4894665edf8d7"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_18_90S_ROCK.rpf",
+      "size": 88092672,
+      "sha256": "a2d390552a0a9d17bfd68621e70ea35ce8c8f2f91e6fb48632d0a955295e51c8"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_ADVERTS.rpf",
+      "size": 95027200,
+      "sha256": "fbdc85c28baee3eed0ff4a0453b35e0c3b768df496f194b15c6b76bab5066617"
+    },
+    {
+      "path": "x64/audio/sfx/RADIO_NEWS.rpf",
+      "size": 85831680,
+      "sha256": "916dd7c3cd4b67afd27b12859819fcd0d4c6abbf8313870b089c29f884df7a29"
+    },
+    {
+      "path": "x64/audio/sfx/RESIDENT.rpf",
+      "size": 112785408,
+      "sha256": "5b3313e01f71bca0d1f5258ab1a95899752e54a996e5d11676fc38f0159e785e"
+    },
+    {
+      "path": "x64/audio/sfx/S_FULL_AMB_F.rpf",
+      "size": 199186432,
+      "sha256": "0a811539dc94031b402a12dad399b41cf80c50fbf4a202bb14e686b71a2b71ea"
+    },
+    {
+      "path": "x64/audio/sfx/S_FULL_AMB_M.rpf",
+      "size": 307007488,
+      "sha256": "2f6e689208c1473e478a38d411695c04e49c9952f7c9101c9356e24b883f09d4"
+    },
+    {
+      "path": "x64/audio/sfx/S_FULL_GAN.rpf",
+      "size": 127801344,
+      "sha256": "7dc4145b2db5cfa8c24c023260327e46eb1c2cb37d9dcbc452e6228002d1853d"
+    },
+    {
+      "path": "x64/audio/sfx/S_FULL_SER.rpf",
+      "size": 240799744,
+      "sha256": "a99821d2eb67c09933a5f29ec95fc254d9632a7f355b8cde8e2d11d04aef755d"
+    },
+    {
+      "path": "x64/audio/sfx/S_MINI_AMB.rpf",
+      "size": 286803968,
+      "sha256": "a24d6026d854eaaaee1f866f4492bf5fd56758aa885974c6b6e866944e408f42"
+    },
+    {
+      "path": "x64/audio/sfx/S_MINI_GAN.rpf",
+      "size": 347924480,
+      "sha256": "1812220bd1568677806ab009a724ddc627ab23583f4d6b70d26ca2a8c414b04a"
+    },
+    {
+      "path": "x64/audio/sfx/S_MINI_SER.rpf",
+      "size": 215773184,
+      "sha256": "67f54d9ad350438b46736c81c823c64c141917d611deffd36769d981a66a0195"
+    },
+    {
+      "path": "x64/audio/sfx/S_MISC.rpf",
+      "size": 341921792,
+      "sha256": "5c72452f06950fe863fa1793233396b026c2c892d47bc8336f781d4aff2639a1"
+    },
+    {
+      "path": "x64/audio/sfx/SCRIPT.rpf",
+      "size": 237871104,
+      "sha256": "406124651269dca045577192e5072e0d06089d683f7236e235a8eafe7ebeb5f4"
+    },
+    {
+      "path": "x64/audio/sfx/SS_AC.rpf",
+      "size": 288010240,
+      "sha256": "424018c8381c37ff0462f26918610881c4dfe3fce7f2cd32c437eb941e2ed2ad"
+    },
+    {
+      "path": "x64/audio/sfx/SS_DE.rpf",
+      "size": 100837376,
+      "sha256": "59dedd1d49d8e3e7cf8090c26f8644ce32279a4394fabd840caa3b040403d9b2"
+    },
+    {
+      "path": "x64/audio/sfx/SS_FF.rpf",
+      "size": 497778688,
+      "sha256": "ca18bdc264ca8e2c0aee8bd58d63477cb0181cfd5cc04c4ad2f5628b7dab1560"
+    },
+    {
+      "path": "x64/audio/sfx/SS_GM.rpf",
+      "size": 265234432,
+      "sha256": "2344f0c630ddb7c9f99b1119e7f5f136d72f4d2a49ba5fbcd503acb2029816a1"
+    },
+    {
+      "path": "x64/audio/sfx/SS_NP.rpf",
+      "size": 144775168,
+      "sha256": "257a5e29018a1d86891c8d222b3b130150e5a540a14d759d5c873bdb89535aa2"
+    },
+    {
+      "path": "x64/audio/sfx/SS_QR.rpf",
+      "size": 125306880,
+      "sha256": "4d6b7ca6942f961e0ba908cef9474475340dfb37ccbf6dd1df47f621692c837b"
+    },
+    {
+      "path": "x64/audio/sfx/SS_ST.rpf",
+      "size": 178001920,
+      "sha256": "acb74d3b3f82f22b0a0e18f73ab7435c09b2b64c7a66748522076edb696729de"
+    },
+    {
+      "path": "x64/audio/sfx/SS_UZ.rpf",
+      "size": 4855808,
+      "sha256": "779014d9c9794d6a9a9af9b4298bec045fd0753e49838bf8378de6ec6feaa316"
+    },
+    {
+      "path": "x64/audio/sfx/STREAMED_AMBIENCE.rpf",
+      "size": 29767680,
+      "sha256": "a9434c8db31e1bc0784f568c466b48282ba564622d6c38034101ee8f97188363"
+    },
+    {
+      "path": "x64/audio/sfx/STREAMED_VEHICLES.rpf",
+      "size": 43388928,
+      "sha256": "2657636111f4cd7bba2a78b9cd2cfc6d27df033c2a8d463061a7538633cbf316"
+    },
+    {
+      "path": "x64/audio/sfx/STREAMED_VEHICLES_GRANULAR.rpf",
+      "size": 207796224,
+      "sha256": "f31cc031e06d1cfe5e863e8307857ab3c59b0736739e824277368ebee5df7eef"
+    },
+    {
+      "path": "x64/audio/sfx/STREAMED_VEHICLES_GRANULAR_NPC.rpf",
+      "size": 42283008,
+      "sha256": "9ee025daa5839720ab24914bcb79bbd2db17e6fd26df963b82fc90e43e7ef3e7"
+    },
+    {
+      "path": "x64/audio/sfx/STREAMED_VEHICLES_LOW_LATENCY.rpf",
+      "size": 569344,
+      "sha256": "caf9c9f9178c46e1bbec73809562be1e14eac0719da858158312b7e0c63b6952"
+    },
+    {
+      "path": "x64/audio/sfx/STREAMS.rpf",
+      "size": 422133760,
+      "sha256": "aea075c83aaccb6feb4c28db3358fde95b808e91951e257239ae33c9dc6ea3ae"
+    },
+    {
+      "path": "x64/audio/sfx/WEAPONS_PLAYER.rpf",
+      "size": 3883008,
+      "sha256": "e1b45a90ca538e0dc540aedbc174fc8a9e9faafb24ed56e4d01eccefcfbd9916"
+    },
+    {
+      "path": "x64/data/errorcodes/american.txt",
+      "size": 25384,
+      "sha256": "2d635148af7477c9edb6f15518d6ae33e8b07d859622ea8f2b48dc1d3953b23b"
+    },
+    {
+      "path": "x64/data/errorcodes/chinese.txt",
+      "size": 46582,
+      "sha256": "7db51c8c68a4f372672e5c388eb67926bab8956643af8deeb79babc7bde8795d"
+    },
+    {
+      "path": "x64/data/errorcodes/chinesesimp.txt",
+      "size": 45758,
+      "sha256": "2a2e92d12075ae697c346c744b9fb622f8e6ec4e0d6d2849dab326ef54a1089c"
+    },
+    {
+      "path": "x64/data/errorcodes/french.txt",
+      "size": 48770,
+      "sha256": "f147fe667cb04515cd3f7af9679c755c13b19c1d9ea115aa0b6fa4926d31b8c6"
+    },
+    {
+      "path": "x64/data/errorcodes/german.txt",
+      "size": 49398,
+      "sha256": "a0378b529be1300ffd80a6669cbd1ae27a137db3cdbc43eaecde5fa3f1fe5032"
+    },
+    {
+      "path": "x64/data/errorcodes/italian.txt",
+      "size": 47896,
+      "sha256": "0c2a139d563cf3496d40dbf30ec4a39f16d6be4b3799ace1fdfb1d4d183d917c"
+    },
+    {
+      "path": "x64/data/errorcodes/japanese.txt",
+      "size": 60216,
+      "sha256": "7cf6756a8bde1cbcc9258922062d66e6d1ccb5b9dea67a187ec34ffa8f742a6c"
+    },
+    {
+      "path": "x64/data/errorcodes/korean.txt",
+      "size": 55352,
+      "sha256": "22495a13814f74642379ba4846c1233b82a79861e52e196242f7950848765ef6"
+    },
+    {
+      "path": "x64/data/errorcodes/mexican.txt",
+      "size": 47880,
+      "sha256": "2a6694f1380a53ca073931a454a489300266f80661eb794ad3ed837d64e015a4"
+    },
+    {
+      "path": "x64/data/errorcodes/polish.txt",
+      "size": 47355,
+      "sha256": "ceb7aac0c23819d13acb5c44cef97bc153f7b56d8d162903f67ed20ec9126c36"
+    },
+    {
+      "path": "x64/data/errorcodes/portuguese.txt",
+      "size": 49591,
+      "sha256": "d3c1632ed9e72a77f17cc4d795787176deae750c80364a12930826d3d00453b6"
+    },
+    {
+      "path": "x64/data/errorcodes/russian.txt",
+      "size": 70822,
+      "sha256": "c57d05c82d41c4f08390056446ef98482f7a10488b7d18fa9781c045bcbcc667"
+    },
+    {
+      "path": "x64/data/errorcodes/spanish.txt",
+      "size": 50476,
+      "sha256": "5d49316d809a90796518c75c8e857ff156657bbf576d79a97204a84eac709373"
+    },
+    {
+      "path": "x64/metadata.dat",
+      "size": 1075109,
+      "sha256": "ca4310dd7a07c50ac5051b36b3f9984390e074ddd119b8e98627a164beecbdee"
+    },
+    {
+      "path": "x64a.rpf",
+      "size": 101433344,
+      "sha256": "9350f1a5a0fe14feda0f56f651cd4c2bd61310cdd169ea4427e0859d23611111"
+    },
+    {
+      "path": "x64b.rpf",
+      "size": 205651968,
+      "sha256": "d41040213ec06c7314a9efe7f1010fc00547137502c20c4cf8fc08633ded27cd"
+    },
+    {
+      "path": "x64c.rpf",
+      "size": 1845954560,
+      "sha256": "ca030a2bdd730b1aa8098a5fc00eba4ce0197200f52a21ebed72e07dc52dcc97"
+    },
+    {
+      "path": "x64d.rpf",
+      "size": 1794203648,
+      "sha256": "f64c1e612c66cf374a4ba472efe6bacf9fb1f93db4dd7dd36c48a086081edb76"
+    },
+    {
+      "path": "x64e.rpf",
+      "size": 2067353600,
+      "sha256": "01d5a2e73b69f7f90ce0c6163b1a89b6c91cb2558442b4442486aee8a8871572"
+    },
+    {
+      "path": "x64f.rpf",
+      "size": 834557952,
+      "sha256": "7322e6ac71b64abb7a487030dad1e9f4e5a6cf167ad6df7b6781db4b74b6c1cd"
+    },
+    {
+      "path": "x64g.rpf",
+      "size": 2276556800,
+      "sha256": "f6f84d8f5c25b449b571eb2c9edb2ecfb29f831fb7f687ea341b9ae4589ad55e"
+    },
+    {
+      "path": "x64h.rpf",
+      "size": 1214193664,
+      "sha256": "a93224a61e48184d04ac497ecc398a4a50e64e7696ef6596fac5d63319c57bcb"
+    },
+    {
+      "path": "x64i.rpf",
+      "size": 1384208384,
+      "sha256": "01dbfcf878f6e7ccecfe364ea52490809b37d691df36650174a9097d9fca49ed"
+    },
+    {
+      "path": "x64j.rpf",
+      "size": 1678678016,
+      "sha256": "75ba4bc1b9044d4905b5c4ff0cfefeeaadc8fb207f1d854e7f14e126b409be44"
+    },
+    {
+      "path": "x64k.rpf",
+      "size": 1899888640,
+      "sha256": "43062d13f1c991e19515ea5e01d968f5af47df64bd36c940b048cd892ccd6ff0"
+    },
+    {
+      "path": "x64l.rpf",
+      "size": 2050156544,
+      "sha256": "4ab562faafb77b3641c29e56516c3d26de90b3321b49fbccc202d705b11940dd"
+    },
+    {
+      "path": "x64m.rpf",
+      "size": 1461764096,
+      "sha256": "40a36a8fff5765d7d7bc32340dc381ccda9bad1caaaf3934bbcade522d4dcb32"
+    },
+    {
+      "path": "x64n.rpf",
+      "size": 1444841472,
+      "sha256": "e12179f5e381b87bc1cbb9f3e37aba9e96d36e533567e561491b2e4a547b8f89"
+    },
+    {
+      "path": "x64o.rpf",
+      "size": 1533937664,
+      "sha256": "ced6c72b5ec14fcd51a644c2a80154aca945eb7509ee01452f90460c73431709"
+    },
+    {
+      "path": "x64p.rpf",
+      "size": 1301690368,
+      "sha256": "5b78c9947bfdd8b5a346c344704e0127fb5f677c57848b10aabcf484f5b2857f"
+    },
+    {
+      "path": "x64q.rpf",
+      "size": 2482229248,
+      "sha256": "8e7fe9f5c18e8a4882118e52cecafa8f633238aa5dc753088793dfa55d0ab12c"
+    },
+    {
+      "path": "x64r.rpf",
+      "size": 1534547968,
+      "sha256": "70bce459476893451f0c47d26ff0f374367dc677721aa9a1f54c20b9f43aaa16"
+    },
+    {
+      "path": "x64s.rpf",
+      "size": 1471709184,
+      "sha256": "739e3721a676405f991df81390f5a40f28fe6772526646bd2aabab772f529498"
+    },
+    {
+      "path": "x64t.rpf",
+      "size": 1644965888,
+      "sha256": "1e25372495a63638c7085be12f9b96cf7049041a87d18857027561406a9dc5d2"
+    },
+    {
+      "path": "x64u.rpf",
+      "size": 1173688320,
+      "sha256": "552ea4ed2e36e7e2fc2fe48ed7033799e329940b777164b19788702ba1fca388"
+    },
+    {
+      "path": "x64v.rpf",
+      "size": 1940961280,
+      "sha256": "edb14830c0f869b2b0d811748e4d9e7261fb7652d8d8959f0f56ac60aad9fa42"
+    },
+    {
+      "path": "x64w.rpf",
+      "size": 863301632,
+      "sha256": "e145b452b46f07d60182700a42f0102659618f4b66cf8d56a6c3d9c6a9f5f406"
+    },
+    {
+      "path": "XCurl.dll",
+      "size": 198240,
+      "sha256": "736218b8e504f7c8cce1111c41f79b2608fd85f614b758aaf7b8e9095536b819"
+    },
+    {
+      "path": "zlib1.dll",
+      "size": 99304,
+      "sha256": "3efbe55f0486b7eb90e73dd19c2bf0d01ef63b771a09860f930be38a6a4b9d27"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 1610612736,
+      "sha256": "f9257d039de87930dd0987c3c897941a3ed0b5c08daeb64ce42132839ea01afc",
+      "segments": [
+        {
+          "file": "_CommonRedist/_redist_readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 2038
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 2038,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 891454,
+          "length": 295320
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1186774,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1996270,
+          "length": 31533074
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 33529344,
+          "length": 7054848
+        },
+        {
+          "file": "amd_ags_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 40584192,
+          "length": 177128
+        },
+        {
+          "file": "amd_fidelityfx_dx12.dll",
+          "file_offset": 0,
+          "chunk_offset": 40761320,
+          "length": 6675664
+        },
+        {
+          "file": "BattlEye/BEClient_x64.cfg",
+          "file_offset": 0,
+          "chunk_offset": 47436984,
+          "length": 41
+        },
+        {
+          "file": "BattlEye/BEClient_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 47437025,
+          "length": 10312488
+        },
+        {
+          "file": "BattlEye/BELauncher.ini",
+          "file_offset": 0,
+          "chunk_offset": 57749513,
+          "length": 111
+        },
+        {
+          "file": "BattlEye/BEServer_x64.cfg",
+          "file_offset": 0,
+          "chunk_offset": 57749624,
+          "length": 41
+        },
+        {
+          "file": "BattlEye/BEServer_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 57749665,
+          "length": 402216
+        },
+        {
+          "file": "BattlEye/BEService_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 58151881,
+          "length": 18663720
+        },
+        {
+          "file": "BattlEye/EULA/cs.txt",
+          "file_offset": 0,
+          "chunk_offset": 76815601,
+          "length": 3368
+        },
+        {
+          "file": "BattlEye/EULA/de.txt",
+          "file_offset": 0,
+          "chunk_offset": 76818969,
+          "length": 3417
+        },
+        {
+          "file": "BattlEye/EULA/en.txt",
+          "file_offset": 0,
+          "chunk_offset": 76822386,
+          "length": 2758
+        },
+        {
+          "file": "BattlEye/EULA/es.txt",
+          "file_offset": 0,
+          "chunk_offset": 76825144,
+          "length": 3260
+        },
+        {
+          "file": "BattlEye/EULA/fr.txt",
+          "file_offset": 0,
+          "chunk_offset": 76828404,
+          "length": 3390
+        },
+        {
+          "file": "BattlEye/EULA/it.txt",
+          "file_offset": 0,
+          "chunk_offset": 76831794,
+          "length": 3158
+        },
+        {
+          "file": "BattlEye/EULA/ja.txt",
+          "file_offset": 0,
+          "chunk_offset": 76834952,
+          "length": 4036
+        },
+        {
+          "file": "BattlEye/EULA/ko.txt",
+          "file_offset": 0,
+          "chunk_offset": 76838988,
+          "length": 3618
+        },
+        {
+          "file": "BattlEye/EULA/nl.txt",
+          "file_offset": 0,
+          "chunk_offset": 76842606,
+          "length": 3363
+        },
+        {
+          "file": "BattlEye/EULA/pl.txt",
+          "file_offset": 0,
+          "chunk_offset": 76845969,
+          "length": 3332
+        },
+        {
+          "file": "BattlEye/EULA/pt.txt",
+          "file_offset": 0,
+          "chunk_offset": 76849301,
+          "length": 3152
+        },
+        {
+          "file": "BattlEye/EULA/ru.txt",
+          "file_offset": 0,
+          "chunk_offset": 76852453,
+          "length": 5543
+        },
+        {
+          "file": "BattlEye/EULA/tr.txt",
+          "file_offset": 0,
+          "chunk_offset": 76857996,
+          "length": 3272
+        },
+        {
+          "file": "BattlEye/EULA/zh-TW.txt",
+          "file_offset": 0,
+          "chunk_offset": 76861268,
+          "length": 2440
+        },
+        {
+          "file": "BattlEye/EULA/zh.txt",
+          "file_offset": 0,
+          "chunk_offset": 76863708,
+          "length": 2488
+        },
+        {
+          "file": "BattlEye/Licenses.txt",
+          "file_offset": 0,
+          "chunk_offset": 76866196,
+          "length": 1128
+        },
+        {
+          "file": "BattlEye/Privacy/cs.txt",
+          "file_offset": 0,
+          "chunk_offset": 76867324,
+          "length": 1549
+        },
+        {
+          "file": "BattlEye/Privacy/de.txt",
+          "file_offset": 0,
+          "chunk_offset": 76868873,
+          "length": 1479
+        },
+        {
+          "file": "BattlEye/Privacy/en.txt",
+          "file_offset": 0,
+          "chunk_offset": 76870352,
+          "length": 1318
+        },
+        {
+          "file": "BattlEye/Privacy/es.txt",
+          "file_offset": 0,
+          "chunk_offset": 76871670,
+          "length": 1578
+        },
+        {
+          "file": "BattlEye/Privacy/fr.txt",
+          "file_offset": 0,
+          "chunk_offset": 76873248,
+          "length": 1601
+        },
+        {
+          "file": "BattlEye/Privacy/it.txt",
+          "file_offset": 0,
+          "chunk_offset": 76874849,
+          "length": 1473
+        },
+        {
+          "file": "BattlEye/Privacy/ja.txt",
+          "file_offset": 0,
+          "chunk_offset": 76876322,
+          "length": 1720
+        },
+        {
+          "file": "BattlEye/Privacy/ko.txt",
+          "file_offset": 0,
+          "chunk_offset": 76878042,
+          "length": 1510
+        },
+        {
+          "file": "BattlEye/Privacy/nl.txt",
+          "file_offset": 0,
+          "chunk_offset": 76879552,
+          "length": 1403
+        },
+        {
+          "file": "BattlEye/Privacy/pl.txt",
+          "file_offset": 0,
+          "chunk_offset": 76880955,
+          "length": 1539
+        },
+        {
+          "file": "BattlEye/Privacy/pt.txt",
+          "file_offset": 0,
+          "chunk_offset": 76882494,
+          "length": 1565
+        },
+        {
+          "file": "BattlEye/Privacy/ru.txt",
+          "file_offset": 0,
+          "chunk_offset": 76884059,
+          "length": 2500
+        },
+        {
+          "file": "BattlEye/Privacy/tr.txt",
+          "file_offset": 0,
+          "chunk_offset": 76886559,
+          "length": 1422
+        },
+        {
+          "file": "BattlEye/Privacy/zh-TW.txt",
+          "file_offset": 0,
+          "chunk_offset": 76887981,
+          "length": 1115
+        },
+        {
+          "file": "BattlEye/Privacy/zh.txt",
+          "file_offset": 0,
+          "chunk_offset": 76889096,
+          "length": 1109
+        },
+        {
+          "file": "BattlEye/Text/cs.ini",
+          "file_offset": 0,
+          "chunk_offset": 76890205,
+          "length": 3192
+        },
+        {
+          "file": "BattlEye/Text/de.ini",
+          "file_offset": 0,
+          "chunk_offset": 76893397,
+          "length": 3283
+        },
+        {
+          "file": "BattlEye/Text/en.ini",
+          "file_offset": 0,
+          "chunk_offset": 76896680,
+          "length": 2748
+        },
+        {
+          "file": "BattlEye/Text/es.ini",
+          "file_offset": 0,
+          "chunk_offset": 76899428,
+          "length": 3082
+        },
+        {
+          "file": "BattlEye/Text/fr.ini",
+          "file_offset": 0,
+          "chunk_offset": 76902510,
+          "length": 3245
+        },
+        {
+          "file": "BattlEye/Text/it.ini",
+          "file_offset": 0,
+          "chunk_offset": 76905755,
+          "length": 3014
+        },
+        {
+          "file": "BattlEye/Text/ja.ini",
+          "file_offset": 0,
+          "chunk_offset": 76908769,
+          "length": 4122
+        },
+        {
+          "file": "BattlEye/Text/ko.ini",
+          "file_offset": 0,
+          "chunk_offset": 76912891,
+          "length": 3358
+        },
+        {
+          "file": "BattlEye/Text/nl.ini",
+          "file_offset": 0,
+          "chunk_offset": 76916249,
+          "length": 3004
+        },
+        {
+          "file": "BattlEye/Text/pl.ini",
+          "file_offset": 0,
+          "chunk_offset": 76919253,
+          "length": 3170
+        },
+        {
+          "file": "BattlEye/Text/pt.ini",
+          "file_offset": 0,
+          "chunk_offset": 76922423,
+          "length": 2978
+        },
+        {
+          "file": "BattlEye/Text/ru.ini",
+          "file_offset": 0,
+          "chunk_offset": 76925401,
+          "length": 4814
+        },
+        {
+          "file": "BattlEye/Text/tr.ini",
+          "file_offset": 0,
+          "chunk_offset": 76930215,
+          "length": 2990
+        },
+        {
+          "file": "BattlEye/Text/zh-TW.ini",
+          "file_offset": 0,
+          "chunk_offset": 76933205,
+          "length": 2684
+        },
+        {
+          "file": "BattlEye/Text/zh.ini",
+          "file_offset": 0,
+          "chunk_offset": 76935889,
+          "length": 2631
+        },
+        {
+          "file": "bink2w64.dll",
+          "file_offset": 0,
+          "chunk_offset": 76938520,
+          "length": 394960
+        },
+        {
+          "file": "common.rpf",
+          "file_offset": 0,
+          "chunk_offset": 77333480,
+          "length": 19351552
+        },
+        {
+          "file": "D3D12-REDIST/D3D12Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 96685032,
+          "length": 5889984
+        },
+        {
+          "file": "D3D12-REDIST/d3d12SDKLayers.dll",
+          "file_offset": 0,
+          "chunk_offset": 102575016,
+          "length": 9522216
+        },
+        {
+          "file": "dstorage.dll",
+          "file_offset": 0,
+          "chunk_offset": 112097232,
+          "length": 206880
+        },
+        {
+          "file": "dstoragecore.dll",
+          "file_offset": 0,
+          "chunk_offset": 112304112,
+          "length": 1468960
+        },
+        {
+          "file": "fvad.dll",
+          "file_offset": 0,
+          "chunk_offset": 113773072,
+          "length": 34280
+        },
+        {
+          "file": "GFSDK_Aftermath_Lib.x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 113807352,
+          "length": 5148256
+        },
+        {
+          "file": "GTA5_Enhanced.exe",
+          "file_offset": 0,
+          "chunk_offset": 118955608,
+          "length": 56064632
+        },
+        {
+          "file": "GTA5_Enhanced_BE.exe",
+          "file_offset": 0,
+          "chunk_offset": 175020240,
+          "length": 1473144
+        },
+        {
+          "file": "installscript.vdf",
+          "file_offset": 0,
+          "chunk_offset": 176493384,
+          "length": 600
+        },
+        {
+          "file": "installscript_sdk.vdf",
+          "file_offset": 0,
+          "chunk_offset": 176493984,
+          "length": 829
+        },
+        {
+          "file": "libcurl.dll",
+          "file_offset": 0,
+          "chunk_offset": 176494813,
+          "length": 545256
+        },
+        {
+          "file": "libtox.dll",
+          "file_offset": 0,
+          "chunk_offset": 177040069,
+          "length": 269800
+        },
+        {
+          "file": "nvngx_dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 177309869,
+          "length": 29981808
+        },
+        {
+          "file": "nvngx_dlssg.dll",
+          "file_offset": 0,
+          "chunk_offset": 207291677,
+          "length": 7509024
+        },
+        {
+          "file": "oo2core_5_win64.dll",
+          "file_offset": 0,
+          "chunk_offset": 214800701,
+          "length": 945640
+        },
+        {
+          "file": "opus.dll",
+          "file_offset": 0,
+          "chunk_offset": 215746341,
+          "length": 407016
+        },
+        {
+          "file": "opusenc.dll",
+          "file_offset": 0,
+          "chunk_offset": 216153357,
+          "length": 59368
+        },
+        {
+          "file": "PlayGTAV.exe",
+          "file_offset": 0,
+          "chunk_offset": 216212725,
+          "length": 1214464
+        },
+        {
+          "file": "PlayGTAV.rne",
+          "file_offset": 0,
+          "chunk_offset": 217427189,
+          "length": 572536
+        },
+        {
+          "file": "Redistributables/Rockstar-Games-Launcher.exe",
+          "file_offset": 0,
+          "chunk_offset": 217999725,
+          "length": 112072312
+        },
+        {
+          "file": "Redistributables/Social-Club-Setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 330072037,
+          "length": 127445112
+        },
+        {
+          "file": "rpf.cache",
+          "file_offset": 0,
+          "chunk_offset": 457517149,
+          "length": 16129254
+        },
+        {
+          "file": "RUNE64.dll",
+          "file_offset": 0,
+          "chunk_offset": 473646403,
+          "length": 2817024
+        },
+        {
+          "file": "sl.common.dll",
+          "file_offset": 0,
+          "chunk_offset": 476463427,
+          "length": 674432
+        },
+        {
+          "file": "sl.dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 477137859,
+          "length": 240256
+        },
+        {
+          "file": "sl.dlss_g.dll",
+          "file_offset": 0,
+          "chunk_offset": 477378115,
+          "length": 456320
+        },
+        {
+          "file": "sl.interposer.dll",
+          "file_offset": 0,
+          "chunk_offset": 477834435,
+          "length": 557184
+        },
+        {
+          "file": "sl.pcl.dll",
+          "file_offset": 0,
+          "chunk_offset": 478391619,
+          "length": 176256
+        },
+        {
+          "file": "sl.reflex.dll",
+          "file_offset": 0,
+          "chunk_offset": 478567875,
+          "length": 200320
+        },
+        {
+          "file": "socialclub.dll",
+          "file_offset": 0,
+          "chunk_offset": 478768195,
+          "length": 5073016
+        },
+        {
+          "file": "socialclub_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 483841211,
+          "length": 224
+        },
+        {
+          "file": "steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 483841435,
+          "length": 300392
+        },
+        {
+          "file": "title.rgl",
+          "file_offset": 0,
+          "chunk_offset": 484141827,
+          "length": 2144
+        },
+        {
+          "file": "update/update.rpf",
+          "file_offset": 0,
+          "chunk_offset": 484143971,
+          "length": 1126468765
+        }
+      ]
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 1610612736,
+      "sha256": "7e4f5e2db3d582f74a6bd26d7aa1e5128f5c76a93eaa7798ad3fb9723ccf5776",
+      "segments": [
+        {
+          "file": "update/update.rpf",
+          "file_offset": 1126468765,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ]
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 1610612736,
+      "sha256": "f3c5d52ed3cc7eff56ba016160192db36b21a5fceb41ab5ded94f0a10009e7b7",
+      "segments": [
+        {
+          "file": "update/update.rpf",
+          "file_offset": 2737081501,
+          "chunk_offset": 0,
+          "length": 385157987
+        },
+        {
+          "file": "update/update2.rpf",
+          "file_offset": 0,
+          "chunk_offset": 385157987,
+          "length": 656189440
+        },
+        {
+          "file": "update/x64/data/errorcodes/american.txt",
+          "file_offset": 0,
+          "chunk_offset": 1041347427,
+          "length": 29298
+        },
+        {
+          "file": "update/x64/data/errorcodes/chinese.txt",
+          "file_offset": 0,
+          "chunk_offset": 1041376725,
+          "length": 53083
+        },
+        {
+          "file": "update/x64/data/errorcodes/chinesesimp.txt",
+          "file_offset": 0,
+          "chunk_offset": 1041429808,
+          "length": 52230
+        },
+        {
+          "file": "update/x64/data/errorcodes/french.txt",
+          "file_offset": 0,
+          "chunk_offset": 1041482038,
+          "length": 56566
+        },
+        {
+          "file": "update/x64/data/errorcodes/german.txt",
+          "file_offset": 0,
+          "chunk_offset": 1041538604,
+          "length": 56916
+        },
+        {
+          "file": "update/x64/data/errorcodes/GLOBAL.txt",
+          "file_offset": 0,
+          "chunk_offset": 1041595520,
+          "length": 28581
+        },
+        {
+          "file": "update/x64/data/errorcodes/italian.txt",
+          "file_offset": 0,
+          "chunk_offset": 1041624101,
+          "length": 55268
+        },
+        {
+          "file": "update/x64/data/errorcodes/japanese.txt",
+          "file_offset": 0,
+          "chunk_offset": 1041679369,
+          "length": 68698
+        },
+        {
+          "file": "update/x64/data/errorcodes/korean.txt",
+          "file_offset": 0,
+          "chunk_offset": 1041748067,
+          "length": 63191
+        },
+        {
+          "file": "update/x64/data/errorcodes/mexican.txt",
+          "file_offset": 0,
+          "chunk_offset": 1041811258,
+          "length": 55225
+        },
+        {
+          "file": "update/x64/data/errorcodes/polish.txt",
+          "file_offset": 0,
+          "chunk_offset": 1041866483,
+          "length": 54299
+        },
+        {
+          "file": "update/x64/data/errorcodes/portuguese.txt",
+          "file_offset": 0,
+          "chunk_offset": 1041920782,
+          "length": 57094
+        },
+        {
+          "file": "update/x64/data/errorcodes/russian.txt",
+          "file_offset": 0,
+          "chunk_offset": 1041977876,
+          "length": 80533
+        },
+        {
+          "file": "update/x64/data/errorcodes/spanish.txt",
+          "file_offset": 0,
+          "chunk_offset": 1042058409,
+          "length": 57930
+        },
+        {
+          "file": "update/x64/dlcpacks/mp2023_01/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1042116339,
+          "length": 568496397
+        }
+      ]
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 1610612736,
+      "sha256": "e26c54e6ee5333ad7ad3cfd4ab16a52f5a5deeab9ddc0e043e4d500473e5e9d0",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mp2023_01/dlc.rpf",
+          "file_offset": 568496397,
+          "chunk_offset": 0,
+          "length": 157648627
+        },
+        {
+          "file": "update/x64/dlcpacks/mp2023_01_g9ec/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 157648627,
+          "length": 43253760
+        },
+        {
+          "file": "update/x64/dlcpacks/mp2023_02/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 200902387,
+          "length": 1254557696
+        },
+        {
+          "file": "update/x64/dlcpacks/mp2023_02_g9ec/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1455460083,
+          "length": 50159616
+        },
+        {
+          "file": "update/x64/dlcpacks/mp2024_01/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1505619699,
+          "length": 104993037
+        }
+      ]
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 1610612736,
+      "sha256": "fc6a48f27d395c65d352fc3980dc412b575111f9ae60c224223db81cf6a05c01",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mp2024_01/dlc.rpf",
+          "file_offset": 104993037,
+          "chunk_offset": 0,
+          "length": 857057011
+        },
+        {
+          "file": "update/x64/dlcpacks/mp2024_01_g9ec/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 857057011,
+          "length": 27115520
+        },
+        {
+          "file": "update/x64/dlcpacks/mp2024_02/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 884172531,
+          "length": 726440205
+        }
+      ]
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 1610612736,
+      "sha256": "5a65eafc739326dc44e0ed1aca90f2772584b42c751d54652c30e1b55d01db51",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mp2024_02/dlc.rpf",
+          "file_offset": 726440205,
+          "chunk_offset": 0,
+          "length": 152098547
+        },
+        {
+          "file": "update/x64/dlcpacks/mp2024_02_G9EC/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 152098547,
+          "length": 18855936
+        },
+        {
+          "file": "update/x64/dlcpacks/mp2025_01/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 170954483,
+          "length": 1103048704
+        },
+        {
+          "file": "update/x64/dlcpacks/mp2025_01_G9EC/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1274003187,
+          "length": 22784000
+        },
+        {
+          "file": "update/x64/dlcpacks/mp2025_02/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1296787187,
+          "length": 313825549
+        }
+      ]
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 1610612736,
+      "sha256": "c75adb1829ea80419fc65a9682a87c8a4c236ea314c46b809457301890e551a1",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mp2025_02/dlc.rpf",
+          "file_offset": 313825549,
+          "chunk_offset": 0,
+          "length": 814679795
+        },
+        {
+          "file": "update/x64/dlcpacks/mp2025_02_g9ec/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 814679795,
+          "length": 17782784
+        },
+        {
+          "file": "update/x64/dlcpacks/mp2026_01/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 832462579,
+          "length": 643246080
+        },
+        {
+          "file": "update/x64/dlcpacks/mp2026_01_G9EC/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1475708659,
+          "length": 28653568
+        },
+        {
+          "file": "update/x64/dlcpacks/mpairraces/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1504362227,
+          "length": 67823616
+        },
+        {
+          "file": "update/x64/dlcpacks/mpapartment/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1572185843,
+          "length": 38426893
+        }
+      ]
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 1610612736,
+      "sha256": "d151a749f26a639b4e8b1d85948c4f073ddd62181ece0110aef38a9cb367c499",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpapartment/dlc.rpf",
+          "file_offset": 38426893,
+          "chunk_offset": 0,
+          "length": 482162419
+        },
+        {
+          "file": "update/x64/dlcpacks/mpassault/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 482162419,
+          "length": 289947648
+        },
+        {
+          "file": "update/x64/dlcpacks/mpbattle/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 772110067,
+          "length": 838502669
+        }
+      ]
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 1610612736,
+      "sha256": "08f3b5c82eae764b6cd24e02c23811770e46f76ac367d114f72bf3735781efc3",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpbattle/dlc.rpf",
+          "file_offset": 838502669,
+          "chunk_offset": 0,
+          "length": 786573043
+        },
+        {
+          "file": "update/x64/dlcpacks/mpbattle/dlc1.rpf",
+          "file_offset": 0,
+          "chunk_offset": 786573043,
+          "length": 824039693
+        }
+      ]
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 1610612736,
+      "sha256": "b1c518350eb4a5edb760992c0a250a0353dba9856c472065bc72ada0e6110618",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpbattle/dlc1.rpf",
+          "file_offset": 824039693,
+          "chunk_offset": 0,
+          "length": 329103091
+        },
+        {
+          "file": "update/x64/dlcpacks/mpbiker/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 329103091,
+          "length": 1281509645
+        }
+      ]
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 1610612736,
+      "sha256": "f9f75412ba7ad3936e0d0721c0313cd25e7fbce29848b38da5267164589325c3",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpbiker/dlc.rpf",
+          "file_offset": 1281509645,
+          "chunk_offset": 0,
+          "length": 259815155
+        },
+        {
+          "file": "update/x64/dlcpacks/mpchristmas2/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 259815155,
+          "length": 59267072
+        },
+        {
+          "file": "update/x64/dlcpacks/mpchristmas2017/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 319082227,
+          "length": 1291530509
+        }
+      ]
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 1610612736,
+      "sha256": "1ee1b0cc09915181b5380519433bb5e1d8f4485dee80f224bf1fc6eec8ad2314",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpchristmas2017/dlc.rpf",
+          "file_offset": 1291530509,
+          "chunk_offset": 0,
+          "length": 652914419
+        },
+        {
+          "file": "update/x64/dlcpacks/mpchristmas2018/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 652914419,
+          "length": 957698317
+        }
+      ]
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 1610612736,
+      "sha256": "a1f72d6682b7c68ebfe791feb4cca2a79381ee996f971c77355a4ff248f3f2df",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpchristmas2018/dlc.rpf",
+          "file_offset": 957698317,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ]
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 1610612736,
+      "sha256": "3df07a1ca6c3fb7ced01a71e4d70895228d8b8f69a03bba3a5aaa7453a88122b",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpchristmas2018/dlc.rpf",
+          "file_offset": 2568311053,
+          "chunk_offset": 0,
+          "length": 331728627
+        },
+        {
+          "file": "update/x64/dlcpacks/mpchristmas3/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 331728627,
+          "length": 1278884109
+        }
+      ]
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 1610612736,
+      "sha256": "01d7ec68ff5c233d77f3523b864de94dec9ed915afe55e5e1ee173c2c2690fda",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpchristmas3/dlc.rpf",
+          "file_offset": 1278884109,
+          "chunk_offset": 0,
+          "length": 131415795
+        },
+        {
+          "file": "update/x64/dlcpacks/mpchristmas3_g9ec/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 131415795,
+          "length": 65601536
+        },
+        {
+          "file": "update/x64/dlcpacks/mpexecutive/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 197017331,
+          "length": 611624960
+        },
+        {
+          "file": "update/x64/dlcpacks/mpg9ec/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 808642291,
+          "length": 164663296
+        },
+        {
+          "file": "update/x64/dlcpacks/mpgunrunning/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 973305587,
+          "length": 637307149
+        }
+      ]
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 1610612736,
+      "sha256": "d5e5ae739b326f2c9356e1de8f835af9eba391d385032c46e6f4af71a97c88bb",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpgunrunning/dlc.rpf",
+          "file_offset": 637307149,
+          "chunk_offset": 0,
+          "length": 1077808883
+        },
+        {
+          "file": "update/x64/dlcpacks/mphalloween/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1077808883,
+          "length": 94490624
+        },
+        {
+          "file": "update/x64/dlcpacks/mpheist/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1172299507,
+          "length": 438313229
+        }
+      ]
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 1610612736,
+      "sha256": "c8fca8967f8c8191d516d579dea108cc94d150babb6e6b99a2a5f8ac0ac6ffe7",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpheist/dlc.rpf",
+          "file_offset": 438313229,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ]
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 1610612736,
+      "sha256": "7ae13f572f1f0d0d4207bc20d709de9eebc094a1002a6aac5cc92262ca8d1174",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpheist/dlc.rpf",
+          "file_offset": 2048925965,
+          "chunk_offset": 0,
+          "length": 389498611
+        },
+        {
+          "file": "update/x64/dlcpacks/mpheist3/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 389498611,
+          "length": 1221114125
+        }
+      ]
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 1610612736,
+      "sha256": "c123a1fffd79eff6268017104a722d051275914f044ac6d4698515a7576cc959",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpheist3/dlc.rpf",
+          "file_offset": 1221114125,
+          "chunk_offset": 0,
+          "length": 386311923
+        },
+        {
+          "file": "update/x64/dlcpacks/mpheist4/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 386311923,
+          "length": 1224300813
+        }
+      ]
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 1610612736,
+      "sha256": "f86cbac0c826f83caab78a2c0ae239794f8c09a7401e23d975d38f943d14b2a6",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpheist4/dlc.rpf",
+          "file_offset": 1224300813,
+          "chunk_offset": 0,
+          "length": 803268339
+        },
+        {
+          "file": "update/x64/dlcpacks/mpheist4/dlc1.rpf",
+          "file_offset": 0,
+          "chunk_offset": 803268339,
+          "length": 807344397
+        }
+      ]
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 1610612736,
+      "sha256": "840f30185a1ffd9302ffba4ebffda5c78a76e2791b7b4a0daa185e74b5e687c7",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpheist4/dlc1.rpf",
+          "file_offset": 807344397,
+          "chunk_offset": 0,
+          "length": 1231945459
+        },
+        {
+          "file": "update/x64/dlcpacks/mpheist4/dlc2.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1231945459,
+          "length": 378667277
+        }
+      ]
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 1610612736,
+      "sha256": "3e2406bddcbadf9970ba6c88df58f012a2f1ac043760f6ac72a82301a00c9171",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpheist4/dlc2.rpf",
+          "file_offset": 378667277,
+          "chunk_offset": 0,
+          "length": 931391219
+        },
+        {
+          "file": "update/x64/dlcpacks/mpimportexport/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 931391219,
+          "length": 679221517
+        }
+      ]
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 1610612736,
+      "sha256": "66a05d845527214e9f7a4f6a8b6927da7288ea3b473b4b5254d6e0821171a863",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpimportexport/dlc.rpf",
+          "file_offset": 679221517,
+          "chunk_offset": 0,
+          "length": 124569331
+        },
+        {
+          "file": "update/x64/dlcpacks/mpjanuary2016/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 124569331,
+          "length": 149553152
+        },
+        {
+          "file": "update/x64/dlcpacks/mplowrider/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 274122483,
+          "length": 863016960
+        },
+        {
+          "file": "update/x64/dlcpacks/mplowrider2/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1137139443,
+          "length": 323579904
+        },
+        {
+          "file": "update/x64/dlcpacks/mpluxe/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1460719347,
+          "length": 149893389
+        }
+      ]
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 1610612736,
+      "sha256": "5989ff126be242935862720aba315700ab2653ce038ad810ff7f0d56d44d2405",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpluxe/dlc.rpf",
+          "file_offset": 149893389,
+          "chunk_offset": 0,
+          "length": 33601267
+        },
+        {
+          "file": "update/x64/dlcpacks/mpluxe2/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 33601267,
+          "length": 262643712
+        },
+        {
+          "file": "update/x64/dlcpacks/mppatchesng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 296244979,
+          "length": 482383872
+        },
+        {
+          "file": "update/x64/dlcpacks/mpreplay/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 778628851,
+          "length": 226906112
+        },
+        {
+          "file": "update/x64/dlcpacks/mpsecurity/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1005534963,
+          "length": 605077773
+        }
+      ]
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 1610612736,
+      "sha256": "69a3612ba97fe2ca8a70bdb30647debfb07de1e786b4c8aac05480d1b46cc54f",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpsecurity/dlc.rpf",
+          "file_offset": 605077773,
+          "chunk_offset": 0,
+          "length": 941348595
+        },
+        {
+          "file": "update/x64/dlcpacks/mpsecurity/dlc1.rpf",
+          "file_offset": 0,
+          "chunk_offset": 941348595,
+          "length": 669264141
+        }
+      ]
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 1610612736,
+      "sha256": "d748c1fc3d4658871510add4e4199f2a512017280e8bedf571c271d6148cd124",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpsecurity/dlc1.rpf",
+          "file_offset": 669264141,
+          "chunk_offset": 0,
+          "length": 392707827
+        },
+        {
+          "file": "update/x64/dlcpacks/mpsmuggler/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 392707827,
+          "length": 930809856
+        },
+        {
+          "file": "update/x64/dlcpacks/mpspecialraces/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1323517683,
+          "length": 73021440
+        },
+        {
+          "file": "update/x64/dlcpacks/mpstunt/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1396539123,
+          "length": 214073613
+        }
+      ]
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 1610612736,
+      "sha256": "6ef9f5d08abe7838e49451dbbce1f77246f4cd739d3e26ae278d0c4e7364e513",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpstunt/dlc.rpf",
+          "file_offset": 214073613,
+          "chunk_offset": 0,
+          "length": 114527987
+        },
+        {
+          "file": "update/x64/dlcpacks/mpsum/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 114527987,
+          "length": 909754368
+        },
+        {
+          "file": "update/x64/dlcpacks/mpsum2/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1024282355,
+          "length": 586330381
+        }
+      ]
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 1610612736,
+      "sha256": "7171d115a2001f5bc9a48a491bb0c79d1b211753137c0cafb6c947b543867e52",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpsum2/dlc.rpf",
+          "file_offset": 586330381,
+          "chunk_offset": 0,
+          "length": 609865459
+        },
+        {
+          "file": "update/x64/dlcpacks/mpSum2_G9EC/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 609865459,
+          "length": 39528448
+        },
+        {
+          "file": "update/x64/dlcpacks/mptuner/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 649393907,
+          "length": 961218829
+        }
+      ]
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 1610612736,
+      "sha256": "3ee3a324f19a7e2dfb74bff849f3532e27c590249ddbde8a1fce673cb901aa77",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mptuner/dlc.rpf",
+          "file_offset": 961218829,
+          "chunk_offset": 0,
+          "length": 469389043
+        },
+        {
+          "file": "update/x64/dlcpacks/mptuner/dlc1.rpf",
+          "file_offset": 0,
+          "chunk_offset": 469389043,
+          "length": 938035200
+        },
+        {
+          "file": "update/x64/dlcpacks/mpvalentines2/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1407424243,
+          "length": 25157632
+        },
+        {
+          "file": "update/x64/dlcpacks/mpvinewood/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1432581875,
+          "length": 178030861
+        }
+      ]
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 1610612736,
+      "sha256": "693b9df5fcdaf191704fd89962ff4253d65bc0db19b299ffa88542dcc0785335",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/mpvinewood/dlc.rpf",
+          "file_offset": 178030861,
+          "chunk_offset": 0,
+          "length": 1364227827
+        },
+        {
+          "file": "update/x64/dlcpacks/mpxmas_604490/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1364227827,
+          "length": 46075904
+        },
+        {
+          "file": "update/x64/dlcpacks/patch2023_01/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1410303731,
+          "length": 138958848
+        },
+        {
+          "file": "update/x64/dlcpacks/patch2023_01_g9ec/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1549262579,
+          "length": 2015232
+        },
+        {
+          "file": "update/x64/dlcpacks/patch2023_02/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1551277811,
+          "length": 12337152
+        },
+        {
+          "file": "update/x64/dlcpacks/patch2024_01/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1563614963,
+          "length": 46997773
+        }
+      ]
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 1610612736,
+      "sha256": "e4ec85d49c9370445e159d96004a6f92ca165ade96b83e161f8c4c3233ec7c42",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/patch2024_01/dlc.rpf",
+          "file_offset": 46997773,
+          "chunk_offset": 0,
+          "length": 292251379
+        },
+        {
+          "file": "update/x64/dlcpacks/patch2024_01_g9ec/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 292251379,
+          "length": 14557184
+        },
+        {
+          "file": "update/x64/dlcpacks/patch2024_02/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 306808563,
+          "length": 239439872
+        },
+        {
+          "file": "update/x64/dlcpacks/patch2025_01/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 546248435,
+          "length": 584841216
+        },
+        {
+          "file": "update/x64/dlcpacks/patch2025_02/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1131089651,
+          "length": 330504192
+        },
+        {
+          "file": "update/x64/dlcpacks/patch2025_02_g9ec/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1461593843,
+          "length": 49786880
+        },
+        {
+          "file": "update/x64/dlcpacks/patch2026_01/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1511380723,
+          "length": 99232013
+        }
+      ]
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 1610612736,
+      "sha256": "cb4a5e0a98f277a85930cd86dca8c6e2be12846fad731e5b04b6fa7abbee32df",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/patch2026_01/dlc.rpf",
+          "file_offset": 99232013,
+          "chunk_offset": 0,
+          "length": 127198963
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday10ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 127198963,
+          "length": 91332608
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday11ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 218531571,
+          "length": 9971712
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday12ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 228503283,
+          "length": 155611136
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday13ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 384114419,
+          "length": 144959488
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday14ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 529073907,
+          "length": 92295168
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday15ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 621369075,
+          "length": 47585280
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday16ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 668954355,
+          "length": 12095488
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday17ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 681049843,
+          "length": 59971584
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday18ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 741021427,
+          "length": 4421632
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday19ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 745443059,
+          "length": 766709760
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday1ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1512152819,
+          "length": 98459917
+        }
+      ]
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 1610612736,
+      "sha256": "d6683080b6ac6279eb59abcfd74d47b5d224f76fe04e624d0e9ea2e66c4fea60",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/patchday1ng/dlc.rpf",
+          "file_offset": 98459917,
+          "chunk_offset": 0,
+          "length": 319835891
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday20ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 319835891,
+          "length": 457187328
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday21ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 777023219,
+          "length": 833589517
+        }
+      ]
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 1610612736,
+      "sha256": "56fac68d63da9b47e043965bb305ee346386112f3d7b82c1552881eda328115d",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/patchday21ng/dlc.rpf",
+          "file_offset": 833589517,
+          "chunk_offset": 0,
+          "length": 288063219
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday22ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 288063219,
+          "length": 694579200
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday23ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 982642419,
+          "length": 90945536
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday24ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1073587955,
+          "length": 392112128
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday25ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1465700083,
+          "length": 95232000
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday26ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1560932083,
+          "length": 49680653
+        }
+      ]
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 1610612736,
+      "sha256": "45cb580c4f8952d6e0943fdf97bbb00ca427d3ffdbf807757eebe41b932ed4a3",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/patchday26ng/dlc.rpf",
+          "file_offset": 49680653,
+          "chunk_offset": 0,
+          "length": 481165043
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday27g9ecng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 481165043,
+          "length": 34981888
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday27ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 516146931,
+          "length": 317534208
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday28g9ecng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 833681139,
+          "length": 3880960
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday28ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 837562099,
+          "length": 177139712
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday2bng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1014701811,
+          "length": 24428544
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday2ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1039130355,
+          "length": 571482381
+        }
+      ]
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 1610612736,
+      "sha256": "50884197bd5e82e19177f14add2c31a802a88c815df4b617e2fc220006786c10",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/patchday2ng/dlc.rpf",
+          "file_offset": 571482381,
+          "chunk_offset": 0,
+          "length": 167515891
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday3ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 167515891,
+          "length": 1443096845
+        }
+      ]
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 1610612736,
+      "sha256": "387e429c085569a6d4a790cce0fd02fec287868f1489e37cdd438f2a082f5878",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/patchday3ng/dlc.rpf",
+          "file_offset": 1443096845,
+          "chunk_offset": 0,
+          "length": 241282803
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday4ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 241282803,
+          "length": 301434880
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday5ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 542717683,
+          "length": 8056832
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday6ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 550774515,
+          "length": 31911936
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday7ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 582686451,
+          "length": 42227712
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday8ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 624914163,
+          "length": 364943360
+        },
+        {
+          "file": "update/x64/dlcpacks/patchday9ng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 989857523,
+          "length": 160800768
+        },
+        {
+          "file": "update/x64/dlcpacks/patchdayg9ecng/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1150658291,
+          "length": 459954445
+        }
+      ]
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 1610612736,
+      "sha256": "52fd33e867ee7b2ffa45e1ea8e3c35aa791b63bc79314be7c17b906c905ad6dd",
+      "segments": [
+        {
+          "file": "update/x64/dlcpacks/patchdayg9ecng/dlc.rpf",
+          "file_offset": 459954445,
+          "chunk_offset": 0,
+          "length": 312157939
+        },
+        {
+          "file": "update/x64/metadata.dat",
+          "file_offset": 0,
+          "chunk_offset": 312157939,
+          "length": 1075109
+        },
+        {
+          "file": "version.dll",
+          "file_offset": 0,
+          "chunk_offset": 313233048,
+          "length": 388072
+        },
+        {
+          "file": "x64/audio/audio_rel.rpf",
+          "file_offset": 0,
+          "chunk_offset": 313621120,
+          "length": 3196928
+        },
+        {
+          "file": "x64/audio/occlusion.rpf",
+          "file_offset": 0,
+          "chunk_offset": 316818048,
+          "length": 710656
+        },
+        {
+          "file": "x64/audio/sfx/ANIMALS.rpf",
+          "file_offset": 0,
+          "chunk_offset": 317528704,
+          "length": 661504
+        },
+        {
+          "file": "x64/audio/sfx/ANIMALS_FAR.rpf",
+          "file_offset": 0,
+          "chunk_offset": 318190208,
+          "length": 22233088
+        },
+        {
+          "file": "x64/audio/sfx/ANIMALS_NEAR.rpf",
+          "file_offset": 0,
+          "chunk_offset": 340423296,
+          "length": 64845824
+        },
+        {
+          "file": "x64/audio/sfx/CUTSCENE_MASTERED_ONLY.rpf",
+          "file_offset": 0,
+          "chunk_offset": 405269120,
+          "length": 668479488
+        },
+        {
+          "file": "x64/audio/sfx/DLC_GTAO.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1073748608,
+          "length": 2998272
+        },
+        {
+          "file": "x64/audio/sfx/INTERACTIVE_MUSIC.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1076746880,
+          "length": 533865856
+        }
+      ]
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 1610612736,
+      "sha256": "cf0a2aa891307d7017b2fab5faaf68810f08323c21701bf151a6589b5a4d03ac",
+      "segments": [
+        {
+          "file": "x64/audio/sfx/INTERACTIVE_MUSIC.rpf",
+          "file_offset": 533865856,
+          "chunk_offset": 0,
+          "length": 768881280
+        },
+        {
+          "file": "x64/audio/sfx/ONESHOT_AMBIENCE.rpf",
+          "file_offset": 0,
+          "chunk_offset": 768881280,
+          "length": 69648384
+        },
+        {
+          "file": "x64/audio/sfx/PAIN.rpf",
+          "file_offset": 0,
+          "chunk_offset": 838529664,
+          "length": 42629120
+        },
+        {
+          "file": "x64/audio/sfx/POLICE_SCANNER.rpf",
+          "file_offset": 0,
+          "chunk_offset": 881158784,
+          "length": 68509696
+        },
+        {
+          "file": "x64/audio/sfx/PROLOGUE.rpf",
+          "file_offset": 0,
+          "chunk_offset": 949668480,
+          "length": 20891648
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_01_CLASS_ROCK.rpf",
+          "file_offset": 0,
+          "chunk_offset": 970560128,
+          "length": 201703424
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_02_POP.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1172263552,
+          "length": 213118976
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_03_HIPHOP_NEW.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1385382528,
+          "length": 152463360
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_04_PUNK.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1537845888,
+          "length": 60669952
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_05_TALK_01.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1598515840,
+          "length": 12096896
+        }
+      ]
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 1610612736,
+      "sha256": "522f65b292b9771688fc3c68007cd08301f864b69d3824ecc91c12bbb8618f12",
+      "segments": [
+        {
+          "file": "x64/audio/sfx/RADIO_05_TALK_01.rpf",
+          "file_offset": 12096896,
+          "chunk_offset": 0,
+          "length": 48978560
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_06_COUNTRY.rpf",
+          "file_offset": 0,
+          "chunk_offset": 48978560,
+          "length": 71409664
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_07_DANCE_01.rpf",
+          "file_offset": 0,
+          "chunk_offset": 120388224,
+          "length": 55183360
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_08_MEXICAN.rpf",
+          "file_offset": 0,
+          "chunk_offset": 175571584,
+          "length": 53006336
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_09_HIPHOP_OLD.rpf",
+          "file_offset": 0,
+          "chunk_offset": 228577920,
+          "length": 153858048
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_11_TALK_02.rpf",
+          "file_offset": 0,
+          "chunk_offset": 382435968,
+          "length": 54034432
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_12_REGGAE.rpf",
+          "file_offset": 0,
+          "chunk_offset": 436470400,
+          "length": 103510016
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_13_JAZZ.rpf",
+          "file_offset": 0,
+          "chunk_offset": 539980416,
+          "length": 163555328
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_14_DANCE_02.rpf",
+          "file_offset": 0,
+          "chunk_offset": 703535744,
+          "length": 97224704
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_15_MOTOWN.rpf",
+          "file_offset": 0,
+          "chunk_offset": 800760448,
+          "length": 95492096
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_16_SILVERLAKE.rpf",
+          "file_offset": 0,
+          "chunk_offset": 896252544,
+          "length": 197795840
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_17_FUNK.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1094048384,
+          "length": 116545536
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_18_90S_ROCK.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1210593920,
+          "length": 88092672
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_ADVERTS.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1298686592,
+          "length": 95027200
+        },
+        {
+          "file": "x64/audio/sfx/RADIO_NEWS.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1393713792,
+          "length": 85831680
+        },
+        {
+          "file": "x64/audio/sfx/RESIDENT.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1479545472,
+          "length": 112785408
+        },
+        {
+          "file": "x64/audio/sfx/S_FULL_AMB_F.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1592330880,
+          "length": 18281856
+        }
+      ]
+    },
+    {
+      "name": "chunk-000041.bin",
+      "size": 1610612736,
+      "sha256": "1dde786d3bd5e306cc70dc3063d38ffabd3bc473b22e1ca59502789fec3474df",
+      "segments": [
+        {
+          "file": "x64/audio/sfx/S_FULL_AMB_F.rpf",
+          "file_offset": 18281856,
+          "chunk_offset": 0,
+          "length": 180904576
+        },
+        {
+          "file": "x64/audio/sfx/S_FULL_AMB_M.rpf",
+          "file_offset": 0,
+          "chunk_offset": 180904576,
+          "length": 307007488
+        },
+        {
+          "file": "x64/audio/sfx/S_FULL_GAN.rpf",
+          "file_offset": 0,
+          "chunk_offset": 487912064,
+          "length": 127801344
+        },
+        {
+          "file": "x64/audio/sfx/S_FULL_SER.rpf",
+          "file_offset": 0,
+          "chunk_offset": 615713408,
+          "length": 240799744
+        },
+        {
+          "file": "x64/audio/sfx/S_MINI_AMB.rpf",
+          "file_offset": 0,
+          "chunk_offset": 856513152,
+          "length": 286803968
+        },
+        {
+          "file": "x64/audio/sfx/S_MINI_GAN.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1143317120,
+          "length": 347924480
+        },
+        {
+          "file": "x64/audio/sfx/S_MINI_SER.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1491241600,
+          "length": 119371136
+        }
+      ]
+    },
+    {
+      "name": "chunk-000042.bin",
+      "size": 1610612736,
+      "sha256": "7b73b4533a313cd204d588a9a841ad551787d771617cb496861e6feef17ab808",
+      "segments": [
+        {
+          "file": "x64/audio/sfx/S_MINI_SER.rpf",
+          "file_offset": 119371136,
+          "chunk_offset": 0,
+          "length": 96402048
+        },
+        {
+          "file": "x64/audio/sfx/S_MISC.rpf",
+          "file_offset": 0,
+          "chunk_offset": 96402048,
+          "length": 341921792
+        },
+        {
+          "file": "x64/audio/sfx/SCRIPT.rpf",
+          "file_offset": 0,
+          "chunk_offset": 438323840,
+          "length": 237871104
+        },
+        {
+          "file": "x64/audio/sfx/SS_AC.rpf",
+          "file_offset": 0,
+          "chunk_offset": 676194944,
+          "length": 288010240
+        },
+        {
+          "file": "x64/audio/sfx/SS_DE.rpf",
+          "file_offset": 0,
+          "chunk_offset": 964205184,
+          "length": 100837376
+        },
+        {
+          "file": "x64/audio/sfx/SS_FF.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1065042560,
+          "length": 497778688
+        },
+        {
+          "file": "x64/audio/sfx/SS_GM.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1562821248,
+          "length": 47791488
+        }
+      ]
+    },
+    {
+      "name": "chunk-000043.bin",
+      "size": 1610612736,
+      "sha256": "bdde6e5fcba9c8769c03122d5857e9cdfc9e8763d02eadfefd0e222dbb262d17",
+      "segments": [
+        {
+          "file": "x64/audio/sfx/SS_GM.rpf",
+          "file_offset": 47791488,
+          "chunk_offset": 0,
+          "length": 217442944
+        },
+        {
+          "file": "x64/audio/sfx/SS_NP.rpf",
+          "file_offset": 0,
+          "chunk_offset": 217442944,
+          "length": 144775168
+        },
+        {
+          "file": "x64/audio/sfx/SS_QR.rpf",
+          "file_offset": 0,
+          "chunk_offset": 362218112,
+          "length": 125306880
+        },
+        {
+          "file": "x64/audio/sfx/SS_ST.rpf",
+          "file_offset": 0,
+          "chunk_offset": 487524992,
+          "length": 178001920
+        },
+        {
+          "file": "x64/audio/sfx/SS_UZ.rpf",
+          "file_offset": 0,
+          "chunk_offset": 665526912,
+          "length": 4855808
+        },
+        {
+          "file": "x64/audio/sfx/STREAMED_AMBIENCE.rpf",
+          "file_offset": 0,
+          "chunk_offset": 670382720,
+          "length": 29767680
+        },
+        {
+          "file": "x64/audio/sfx/STREAMED_VEHICLES.rpf",
+          "file_offset": 0,
+          "chunk_offset": 700150400,
+          "length": 43388928
+        },
+        {
+          "file": "x64/audio/sfx/STREAMED_VEHICLES_GRANULAR.rpf",
+          "file_offset": 0,
+          "chunk_offset": 743539328,
+          "length": 207796224
+        },
+        {
+          "file": "x64/audio/sfx/STREAMED_VEHICLES_GRANULAR_NPC.rpf",
+          "file_offset": 0,
+          "chunk_offset": 951335552,
+          "length": 42283008
+        },
+        {
+          "file": "x64/audio/sfx/STREAMED_VEHICLES_LOW_LATENCY.rpf",
+          "file_offset": 0,
+          "chunk_offset": 993618560,
+          "length": 569344
+        },
+        {
+          "file": "x64/audio/sfx/STREAMS.rpf",
+          "file_offset": 0,
+          "chunk_offset": 994187904,
+          "length": 422133760
+        },
+        {
+          "file": "x64/audio/sfx/WEAPONS_PLAYER.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1416321664,
+          "length": 3883008
+        },
+        {
+          "file": "x64/data/errorcodes/american.txt",
+          "file_offset": 0,
+          "chunk_offset": 1420204672,
+          "length": 25384
+        },
+        {
+          "file": "x64/data/errorcodes/chinese.txt",
+          "file_offset": 0,
+          "chunk_offset": 1420230056,
+          "length": 46582
+        },
+        {
+          "file": "x64/data/errorcodes/chinesesimp.txt",
+          "file_offset": 0,
+          "chunk_offset": 1420276638,
+          "length": 45758
+        },
+        {
+          "file": "x64/data/errorcodes/french.txt",
+          "file_offset": 0,
+          "chunk_offset": 1420322396,
+          "length": 48770
+        },
+        {
+          "file": "x64/data/errorcodes/german.txt",
+          "file_offset": 0,
+          "chunk_offset": 1420371166,
+          "length": 49398
+        },
+        {
+          "file": "x64/data/errorcodes/italian.txt",
+          "file_offset": 0,
+          "chunk_offset": 1420420564,
+          "length": 47896
+        },
+        {
+          "file": "x64/data/errorcodes/japanese.txt",
+          "file_offset": 0,
+          "chunk_offset": 1420468460,
+          "length": 60216
+        },
+        {
+          "file": "x64/data/errorcodes/korean.txt",
+          "file_offset": 0,
+          "chunk_offset": 1420528676,
+          "length": 55352
+        },
+        {
+          "file": "x64/data/errorcodes/mexican.txt",
+          "file_offset": 0,
+          "chunk_offset": 1420584028,
+          "length": 47880
+        },
+        {
+          "file": "x64/data/errorcodes/polish.txt",
+          "file_offset": 0,
+          "chunk_offset": 1420631908,
+          "length": 47355
+        },
+        {
+          "file": "x64/data/errorcodes/portuguese.txt",
+          "file_offset": 0,
+          "chunk_offset": 1420679263,
+          "length": 49591
+        },
+        {
+          "file": "x64/data/errorcodes/russian.txt",
+          "file_offset": 0,
+          "chunk_offset": 1420728854,
+          "length": 70822
+        },
+        {
+          "file": "x64/data/errorcodes/spanish.txt",
+          "file_offset": 0,
+          "chunk_offset": 1420799676,
+          "length": 50476
+        },
+        {
+          "file": "x64/metadata.dat",
+          "file_offset": 0,
+          "chunk_offset": 1420850152,
+          "length": 1075109
+        },
+        {
+          "file": "x64a.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1421925261,
+          "length": 101433344
+        },
+        {
+          "file": "x64b.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1523358605,
+          "length": 87254131
+        }
+      ]
+    },
+    {
+      "name": "chunk-000044.bin",
+      "size": 1610612736,
+      "sha256": "24d2a7a1b2959d24695f573f6dae6cd589106df97f0387132ff613f70b001134",
+      "segments": [
+        {
+          "file": "x64b.rpf",
+          "file_offset": 87254131,
+          "chunk_offset": 0,
+          "length": 118397837
+        },
+        {
+          "file": "x64c.rpf",
+          "file_offset": 0,
+          "chunk_offset": 118397837,
+          "length": 1492214899
+        }
+      ]
+    },
+    {
+      "name": "chunk-000045.bin",
+      "size": 1610612736,
+      "sha256": "66dbfedb98e628238ec8b8f4f86bf7300446c86a50b74ef54d3a7d84e673eb1f",
+      "segments": [
+        {
+          "file": "x64c.rpf",
+          "file_offset": 1492214899,
+          "chunk_offset": 0,
+          "length": 353739661
+        },
+        {
+          "file": "x64d.rpf",
+          "file_offset": 0,
+          "chunk_offset": 353739661,
+          "length": 1256873075
+        }
+      ]
+    },
+    {
+      "name": "chunk-000046.bin",
+      "size": 1610612736,
+      "sha256": "f77008eb72532addcd6a0a949458c444503302a5901f9d415083663890ab3bda",
+      "segments": [
+        {
+          "file": "x64d.rpf",
+          "file_offset": 1256873075,
+          "chunk_offset": 0,
+          "length": 537330573
+        },
+        {
+          "file": "x64e.rpf",
+          "file_offset": 0,
+          "chunk_offset": 537330573,
+          "length": 1073282163
+        }
+      ]
+    },
+    {
+      "name": "chunk-000047.bin",
+      "size": 1610612736,
+      "sha256": "4adb7e9fc72866e36c2121d6f8dd4e3c8872885e172ed932e47ff41af1992990",
+      "segments": [
+        {
+          "file": "x64e.rpf",
+          "file_offset": 1073282163,
+          "chunk_offset": 0,
+          "length": 994071437
+        },
+        {
+          "file": "x64f.rpf",
+          "file_offset": 0,
+          "chunk_offset": 994071437,
+          "length": 616541299
+        }
+      ]
+    },
+    {
+      "name": "chunk-000048.bin",
+      "size": 1610612736,
+      "sha256": "7e5bd7c178b80e12d8283ac6319d4ea33dd7cbd9382a7516690d9c73b2e5153e",
+      "segments": [
+        {
+          "file": "x64f.rpf",
+          "file_offset": 616541299,
+          "chunk_offset": 0,
+          "length": 218016653
+        },
+        {
+          "file": "x64g.rpf",
+          "file_offset": 0,
+          "chunk_offset": 218016653,
+          "length": 1392596083
+        }
+      ]
+    },
+    {
+      "name": "chunk-000049.bin",
+      "size": 1610612736,
+      "sha256": "ff3a526de8b6570126c4c92aef349558a9f90b9144c8bf7cd286bfca22f8fd16",
+      "segments": [
+        {
+          "file": "x64g.rpf",
+          "file_offset": 1392596083,
+          "chunk_offset": 0,
+          "length": 883960717
+        },
+        {
+          "file": "x64h.rpf",
+          "file_offset": 0,
+          "chunk_offset": 883960717,
+          "length": 726652019
+        }
+      ]
+    },
+    {
+      "name": "chunk-000050.bin",
+      "size": 1610612736,
+      "sha256": "0cc07f2bb5de34e68b917d3a8caac48f2308757a82ae56f09ffd19d24b1693d8",
+      "segments": [
+        {
+          "file": "x64h.rpf",
+          "file_offset": 726652019,
+          "chunk_offset": 0,
+          "length": 487541645
+        },
+        {
+          "file": "x64i.rpf",
+          "file_offset": 0,
+          "chunk_offset": 487541645,
+          "length": 1123071091
+        }
+      ]
+    },
+    {
+      "name": "chunk-000051.bin",
+      "size": 1610612736,
+      "sha256": "3947aafe8c7c3e1942f8577e3bef7f0f49f5e33be8b534dcf26676c6a923846f",
+      "segments": [
+        {
+          "file": "x64i.rpf",
+          "file_offset": 1123071091,
+          "chunk_offset": 0,
+          "length": 261137293
+        },
+        {
+          "file": "x64j.rpf",
+          "file_offset": 0,
+          "chunk_offset": 261137293,
+          "length": 1349475443
+        }
+      ]
+    },
+    {
+      "name": "chunk-000052.bin",
+      "size": 1610612736,
+      "sha256": "35b2b4e0fb33671d251b3c38696ae36aa9f0dec4c956d406387a4a31a11b9813",
+      "segments": [
+        {
+          "file": "x64j.rpf",
+          "file_offset": 1349475443,
+          "chunk_offset": 0,
+          "length": 329202573
+        },
+        {
+          "file": "x64k.rpf",
+          "file_offset": 0,
+          "chunk_offset": 329202573,
+          "length": 1281410163
+        }
+      ]
+    },
+    {
+      "name": "chunk-000053.bin",
+      "size": 1610612736,
+      "sha256": "c9dd7db28749fc6af554b990c2f6400f9bcf8535c7e7610906138507dc0a473b",
+      "segments": [
+        {
+          "file": "x64k.rpf",
+          "file_offset": 1281410163,
+          "chunk_offset": 0,
+          "length": 618478477
+        },
+        {
+          "file": "x64l.rpf",
+          "file_offset": 0,
+          "chunk_offset": 618478477,
+          "length": 992134259
+        }
+      ]
+    },
+    {
+      "name": "chunk-000054.bin",
+      "size": 1610612736,
+      "sha256": "c4354c93d5908dcd35083c219f493e93f64a8b3b6ec9ab590092b982675c14ec",
+      "segments": [
+        {
+          "file": "x64l.rpf",
+          "file_offset": 992134259,
+          "chunk_offset": 0,
+          "length": 1058022285
+        },
+        {
+          "file": "x64m.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1058022285,
+          "length": 552590451
+        }
+      ]
+    },
+    {
+      "name": "chunk-000055.bin",
+      "size": 1610612736,
+      "sha256": "a24abe7402b261a5cb3b3e2eacc38b99ba44773a1b213fe385adeb65fc00721a",
+      "segments": [
+        {
+          "file": "x64m.rpf",
+          "file_offset": 552590451,
+          "chunk_offset": 0,
+          "length": 909173645
+        },
+        {
+          "file": "x64n.rpf",
+          "file_offset": 0,
+          "chunk_offset": 909173645,
+          "length": 701439091
+        }
+      ]
+    },
+    {
+      "name": "chunk-000056.bin",
+      "size": 1610612736,
+      "sha256": "151276297fe00538546bf0b0d204ee8cda3b4beb8562d71bf12ba8d9b15d622d",
+      "segments": [
+        {
+          "file": "x64n.rpf",
+          "file_offset": 701439091,
+          "chunk_offset": 0,
+          "length": 743402381
+        },
+        {
+          "file": "x64o.rpf",
+          "file_offset": 0,
+          "chunk_offset": 743402381,
+          "length": 867210355
+        }
+      ]
+    },
+    {
+      "name": "chunk-000057.bin",
+      "size": 1610612736,
+      "sha256": "6c97f68e44a2eb904410fd72bb8dc04f2f5f8f0449f7cefa6305907d063a3909",
+      "segments": [
+        {
+          "file": "x64o.rpf",
+          "file_offset": 867210355,
+          "chunk_offset": 0,
+          "length": 666727309
+        },
+        {
+          "file": "x64p.rpf",
+          "file_offset": 0,
+          "chunk_offset": 666727309,
+          "length": 943885427
+        }
+      ]
+    },
+    {
+      "name": "chunk-000058.bin",
+      "size": 1610612736,
+      "sha256": "a39e13a6f578edea8b89685c671d092778792876426e9993ddfbb6be5d6d0ce9",
+      "segments": [
+        {
+          "file": "x64p.rpf",
+          "file_offset": 943885427,
+          "chunk_offset": 0,
+          "length": 357804941
+        },
+        {
+          "file": "x64q.rpf",
+          "file_offset": 0,
+          "chunk_offset": 357804941,
+          "length": 1252807795
+        }
+      ]
+    },
+    {
+      "name": "chunk-000059.bin",
+      "size": 1610612736,
+      "sha256": "bf3ba9339027100533faa7962f3ee2c8eb5811877ebff842e1ed17c82196920a",
+      "segments": [
+        {
+          "file": "x64q.rpf",
+          "file_offset": 1252807795,
+          "chunk_offset": 0,
+          "length": 1229421453
+        },
+        {
+          "file": "x64r.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1229421453,
+          "length": 381191283
+        }
+      ]
+    },
+    {
+      "name": "chunk-000060.bin",
+      "size": 1610612736,
+      "sha256": "ab0bfbca3bf93f156e595654d682a52b7be5ceffb83ce22df5c50845886227fb",
+      "segments": [
+        {
+          "file": "x64r.rpf",
+          "file_offset": 381191283,
+          "chunk_offset": 0,
+          "length": 1153356685
+        },
+        {
+          "file": "x64s.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1153356685,
+          "length": 457256051
+        }
+      ]
+    },
+    {
+      "name": "chunk-000061.bin",
+      "size": 1610612736,
+      "sha256": "7620c4125046c7da84e2b9a3b9cd2144ec3b8e2ad612aa1c26ea2e97d35c962c",
+      "segments": [
+        {
+          "file": "x64s.rpf",
+          "file_offset": 457256051,
+          "chunk_offset": 0,
+          "length": 1014453133
+        },
+        {
+          "file": "x64t.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1014453133,
+          "length": 596159603
+        }
+      ]
+    },
+    {
+      "name": "chunk-000062.bin",
+      "size": 1610612736,
+      "sha256": "28a08bc4c889ea92b29824fcf2a9b6ce45564fbea5c39553acbd1cf16721e081",
+      "segments": [
+        {
+          "file": "x64t.rpf",
+          "file_offset": 596159603,
+          "chunk_offset": 0,
+          "length": 1048806285
+        },
+        {
+          "file": "x64u.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1048806285,
+          "length": 561806451
+        }
+      ]
+    },
+    {
+      "name": "chunk-000063.bin",
+      "size": 1610612736,
+      "sha256": "c48abcdc75c017d3d831a3f3f3041dc0d2962c4715c8c8c632fd1645f666f26f",
+      "segments": [
+        {
+          "file": "x64u.rpf",
+          "file_offset": 561806451,
+          "chunk_offset": 0,
+          "length": 611881869
+        },
+        {
+          "file": "x64v.rpf",
+          "file_offset": 0,
+          "chunk_offset": 611881869,
+          "length": 998730867
+        }
+      ]
+    },
+    {
+      "name": "chunk-000064.bin",
+      "size": 1610612736,
+      "sha256": "74d66b083b0abde773c446314c3090a25c34b69726aa84dfaa95194f914058c0",
+      "segments": [
+        {
+          "file": "x64v.rpf",
+          "file_offset": 998730867,
+          "chunk_offset": 0,
+          "length": 942230413
+        },
+        {
+          "file": "x64w.rpf",
+          "file_offset": 0,
+          "chunk_offset": 942230413,
+          "length": 668382323
+        }
+      ]
+    },
+    {
+      "name": "chunk-000065.bin",
+      "size": 195216853,
+      "sha256": "6347b31a006f9b2b827790ff0b993eed38eb9e5aa124266432cb26f6e0ff6528",
+      "segments": [
+        {
+          "file": "x64w.rpf",
+          "file_offset": 668382323,
+          "chunk_offset": 0,
+          "length": 194919309
+        },
+        {
+          "file": "XCurl.dll",
+          "file_offset": 0,
+          "chunk_offset": 194919309,
+          "length": 198240
+        },
+        {
+          "file": "zlib1.dll",
+          "file_offset": 0,
+          "chunk_offset": 195117549,
+          "length": 99304
+        }
+      ]
+    }
+  ]
+}
