@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 12
-- **Toplam aktif sürüm/kanal:** 12
-- **Toplam aktif boyut:** 181.664 GB (169.187 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-19 22:07:28 UTC
+- **Toplam oyun:** 13
+- **Toplam aktif sürüm/kanal:** 13
+- **Toplam aktif boyut:** 182.540 GB (170.003 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-20 02:39:39 UTC
 
 ## PC
 
-**12 oyun · 12 aktif sürüm/kanal · 181.664 GB (169.187 GiB)**
+**13 oyun · 13 aktif sürüm/kanal · 182.540 GB (170.003 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -21,6 +21,7 @@
 | Grand Theft Auto: San Andreas | 1.0.0 | stable | 4.975 | 4.634 | `pc-grand-theft-auto-san-andreas-v1.0.0-stable` |
 | Grand Theft Auto: Vice City | 1.0.0 | stable | 1.619 | 1.508 | `pc-grand-theft-auto-vice-city-v1.0.0-stable` |
 | Half Life 2 | 1.0.0 | stable | 17.641 | 16.429 | `pc-half-life-2-v1.0.0-stable` |
+| Hans | 1.0.0 | stable | 0.876 | 0.816 | `pc-hans-v1.0.0-stable` |
 | Papers, Please | 1.0.0 | stable | 0.094 | 0.088 | `pc-papers-please-v1.0.0-stable` |
 | PEAK | 1.0.0 | stable | 4.466 | 4.159 | `pc-peak-v1.0.0-stable` |
 | Portal | 1.0.0 | stable | 5.235 | 4.876 | `pc-portal-v1.0.0-stable` |
