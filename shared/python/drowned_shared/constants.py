@@ -1,14 +1,13 @@
 # Central protocol and GitHub release limits
 #
-# Release assets must remain under GitHub's 2 GiB per-file limit. 1536 MiB
-# leaves a comfortable safety margin while still allowing high-throughput
-# parallel uploads and keeping the number of assets reasonable.
-CHUNK_SIZE_MIB = 1536
+# GitHub Release assets must stay below the 2 GiB per-file limit. 1900 MiB
+# leaves 148 MiB of safety margin while giving the balanced upload planner room
+# to avoid short final waves.
+CHUNK_SIZE_MIB = 1900
 CHUNK_SIZE_BYTES = CHUNK_SIZE_MIB * 1024 * 1024
 
 # Legacy fast-start constants kept for manifest/backward compatibility. The
-# gigabit uploader now chooses an adaptive chunk size and may use a smaller
-# size when necessary to keep all upload workers busy.
+# Direct Stream uploader now chooses a balanced chunk size dynamically.
 STARTER_CHUNK_SIZE_MIB = 256
 STARTER_CHUNK_SIZE_BYTES = STARTER_CHUNK_SIZE_MIB * 1024 * 1024
 
