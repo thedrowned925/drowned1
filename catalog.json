@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-20T07:26:43.624203+00:00",
+  "updated_at": "2026-08-20T08:10:33.900339+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -489,6 +489,41 @@
       },
       "media": {
         "steam_app_id": 2668510
+      }
+    },
+    {
+      "id": "the-elder-scrolls-v-skyrim",
+      "title": "The Elder Scrolls V: Skyrim",
+      "platform": "pc",
+      "description": "EPIC FANTASY REBORN The next chapter in the highly anticipated Elder Scrolls saga arrives from the makers of the 2006 and 2008 Games of the Year, Bethesda Game Studios. Skyrim reimagines and revolutionizes the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-v-skyrim/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-v-skyrim/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-v-skyrim/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-v-skyrim/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-v-skyrim/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-v-skyrim/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-v-skyrim/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-v-skyrim/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-v-skyrim/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-v-skyrim/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-v-skyrim/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-v-skyrim/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-the-elder-scrolls-v-skyrim-v1.0.0-stable",
+          "manifest_path": "manifests/pc/the-elder-scrolls-v-skyrim/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/the-elder-scrolls-v-skyrim/stable/1.0.0.json",
+          "size": 13902468474,
+          "published_at": "2026-08-20T08:10:33.900327+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 72850
       }
     }
   ]
