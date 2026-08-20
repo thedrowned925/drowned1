@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import shutil
 import tempfile
 import threading
 import time
@@ -13,6 +14,7 @@ from .constants import CATALOG_NAME, MANIFEST_NAME
 from .metadata import load_catalog, manifest_repo_path
 from .turbo_upload import (
     DEFAULT_TURBO_WORKERS,
+    TEMP_RESERVE_BYTES,
     TurboAssetUploader,
     choose_upload_chunk_size,
     effective_worker_count,
@@ -46,7 +48,26 @@ def publish_project(
     chunk_size = choose_upload_chunk_size(probe.total_size, upload_workers)
     builder = ChunkBuilder(source, chunk_size=chunk_size)
     builder.validate_capacity()
-    workers = effective_worker_count(chunk_size, upload_workers)
+
+    # Temporary chunks live in the system temp directory. Keep an 8 GiB safety
+    # reserve and automatically lower concurrency if 32 x chunk_size would be
+    # unsafe. Chunk size/count are not changed by this safety decision.
+    temp_root = Path(tempfile.gettempdir())
+    free_temp_bytes = shutil.disk_usage(temp_root).free
+    if builder.total_size and free_temp_bytes < chunk_size + TEMP_RESERVE_BYTES:
+        raise ValueError(
+            "Not enough free space on the temporary drive for one upload chunk "
+            "plus the 8 GiB safety reserve."
+        )
+    requested_workers = max(1, int(upload_workers or 1))
+    workers = effective_worker_count(
+        chunk_size,
+        requested_workers,
+        free_temp_bytes=free_temp_bytes,
+    )
+    if builder.chunk_count:
+        workers = min(workers, builder.chunk_count)
+    workers = max(1, workers)
     prerelease = channel in {"beta", "dev", "nightly"}
 
     file_sizes = {
@@ -59,6 +80,11 @@ def publish_project(
         f"{workers} parallel stream • chunk {chunk_size / 1024 / 1024:.0f} MiB • "
         f"{builder.chunk_count} data asset"
     )
+    if workers < min(requested_workers, max(builder.chunk_count, 1)):
+        log(
+            "Upload concurrency was reduced automatically to protect free space "
+            f"on the temporary drive ({temp_root})."
+        )
 
     if detailed_progress:
         detailed_progress({
@@ -225,9 +251,9 @@ def publish_project(
         pending = set()
         result = None
 
-        # Keep at most one temporary chunk per active stream. With the 16-stream
-        # / 1.5 GiB profile this caps upload scratch space at about 24 GiB instead
-        # of building dozens of chunks ahead of the network.
+        # Keep at most one temporary chunk per active stream. The worker count
+        # is already capped against both the 48 GiB scratch ceiling and actual
+        # free space on the temporary drive.
         queue_limit = max(1, workers)
 
         with ThreadPoolExecutor(max_workers=workers, thread_name_prefix="drowned-turbo") as pool:
@@ -242,8 +268,6 @@ def publish_project(
 
                 pending.add(pool.submit(upload_one, built))
 
-                # Once every stream has one chunk, wait for the first completed
-                # upload before building another temporary chunk.
                 if len(pending) >= queue_limit:
                     done, pending = wait(pending, return_when=FIRST_COMPLETED)
                     for future in done:
@@ -299,8 +323,6 @@ def publish_project(
         manifest_file.write_text(manifest_text, encoding="utf-8")
         client.upload_asset(rid, MANIFEST_NAME, manifest_file, "application/json")
 
-    # Small metadata lives in the repository so clients read it through raw.githubusercontent.com
-    # instead of spending REST API quota. Release assets remain the large binary transport.
     manifest_path = manifest_repo_path(platform, game_id, channel, version)
     client.upsert_text(manifest_path, manifest_text, f"Publish {title} {version} manifest")
     manifest_url = client.raw_url(manifest_path)
@@ -349,9 +371,6 @@ def publish_project(
     game["title"] = title
     game["description"] = description
     game["artwork"].update(art_urls)
-    # Trailers and other streamed media stay as external Steam CDN links
-    # rather than repository files, so they live outside `artwork` (which the
-    # deletion pass treats as "files this repo owns and may remove").
     if media:
         game.setdefault("media", {}).update(media)
     game["channels"][channel] = {
