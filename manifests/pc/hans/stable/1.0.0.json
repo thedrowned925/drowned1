@@ -1,0 +1,2546 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "hans",
+    "title": "Hans",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Hans is a physics-driven, parkour adventure. Ascend to the sky with our lonely watermelon hero. Navigate treacherous platforms, defy physics by slowing down time, try not to fall and chase the dream of reuniting with humanity. No saves. Bounce, fail, adapt, and bounce again."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-hans-v1.0.0-stable"
+  },
+  "chunk_size": 55574528,
+  "upload_workers": 16,
+  "total_size": 876176814,
+  "files": [
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Apr2005_d3dx9_25_x64.cab",
+      "size": 1347354,
+      "sha256": "b4188ce988af9c4771ae0abcc7edc42a091133f9f20196564f51755dc55ea85d"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Apr2005_d3dx9_25_x86.cab",
+      "size": 1078962,
+      "sha256": "6ebfb6ed6ac0b69502a5b74e2edca188872fe767269c4ebf62f174157d198de4"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Apr2006_d3dx9_30_x64.cab",
+      "size": 1397830,
+      "sha256": "079f61e155695a61a0ce009ee00cf76fbf6b2b9b412c1a5b4a2035d4b5c90a5b"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Apr2006_d3dx9_30_x86.cab",
+      "size": 1115221,
+      "sha256": "4b5da79e14ef58f2608fc5ccedfc7c6c6f782291aa5573f36af76f2903173db5"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Apr2006_MDX1_x86.cab",
+      "size": 916430,
+      "sha256": "0e3b4b9d5a45884620820d0e9cfed852b03dfb44e443179a35e93f3183384db3"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Apr2006_MDX1_x86_Archive.cab",
+      "size": 4162630,
+      "sha256": "0a051a9b50f58dc631254102ac885942ced67c2911950de0cdd93cd1cd9453ec"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Apr2006_XACT_x64.cab",
+      "size": 179133,
+      "sha256": "002f45af20e43a24abee7a79c5add11987c88140b84e2ecd33c0c67259c7f71b"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Apr2006_XACT_x86.cab",
+      "size": 133103,
+      "sha256": "875662d0fc1fe865bf43e7279fd391e88f96b3141c1a829ab3080d547501ff8f"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Apr2006_xinput_x64.cab",
+      "size": 87101,
+      "sha256": "48da57aa045a877053a481802fdb3ec5782615d9ad85a8c06612bd80272e75d7"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Apr2006_xinput_x86.cab",
+      "size": 46010,
+      "sha256": "a9b3dd45926364d79b42b75d8064c814ff428437143c59b1c703ec8323305fbb"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/APR2007_d3dx10_33_x64.cab",
+      "size": 698612,
+      "sha256": "1bed02f304d495c2769debff315ae3f017c7e9907d85138996554e8e61a61e91"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/APR2007_d3dx10_33_x86.cab",
+      "size": 695865,
+      "sha256": "6aca96d6aa400d8ad07d2fb1c4aa94c62d261b9370cbf01d2acce24e489038ba"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/APR2007_d3dx9_33_x64.cab",
+      "size": 1607358,
+      "sha256": "387c63928479e0ad138fa154f9f291821275f6fdf122aac8ace87f0d2033e77c"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/APR2007_d3dx9_33_x86.cab",
+      "size": 1606039,
+      "sha256": "9a7e65d97910b2038bb01a640a86c2ebf62ab7b36a50f349e71ec901b206f0ee"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/APR2007_XACT_x64.cab",
+      "size": 195766,
+      "sha256": "0e1042d91b755a36e7dfca480bb3f868cb23f5438dd1415fd3fcfb13b27d761e"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/APR2007_XACT_x86.cab",
+      "size": 151225,
+      "sha256": "9dee9f2b720b0fc90b8ebdac22d20f2008e58f16f354b9a967526c439bf0b9a3"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/APR2007_xinput_x64.cab",
+      "size": 96817,
+      "sha256": "e7a09f8235cc587cc63f583e39fbc75008d9677c8bb4dcc11cb8d0178a5153ac"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/APR2007_xinput_x86.cab",
+      "size": 53302,
+      "sha256": "2acea6c8b9f6f7f89ec51365a1e49fbd0d8c42c53418bd0783dbf3f74a744e6d"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2005_d3dx9_27_x64.cab",
+      "size": 1350542,
+      "sha256": "281d20c56caa3a2851199c028d4d20ef0a862cc3f84b165eb200da573d9e4401"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2005_d3dx9_27_x86.cab",
+      "size": 1077644,
+      "sha256": "7a10900872ecd9bdbc8f7beb7869a260fa4b25e34084f237f1b096df5371c273"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/AUG2006_XACT_x64.cab",
+      "size": 182903,
+      "sha256": "beaac99fd17bc9fa85a2a220a13d8c13bd90f66eee595cbd27ab9aaadc234b03"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/AUG2006_XACT_x86.cab",
+      "size": 137235,
+      "sha256": "cd2e1256efa1723eb77c77440f7b72f0eed8c0df17677cd4cc5a95a65a0f4849"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/AUG2006_xinput_x64.cab",
+      "size": 87142,
+      "sha256": "a54c7820f37b5e70068b801263c7efcc26b6404555a968094227e8bbaf5c22c5"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/AUG2006_xinput_x86.cab",
+      "size": 46058,
+      "sha256": "ad2b521d1a7abca6314eaeacb23690b63b2a17adbb2a47d3d69cc4660c7d2152"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/AUG2007_d3dx10_35_x64.cab",
+      "size": 852286,
+      "sha256": "edbdcb1fa651ec3c8a505a0bb8570b6147ed89ca372e3e6ea86dc6876d6a72f5"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/AUG2007_d3dx10_35_x86.cab",
+      "size": 796867,
+      "sha256": "a574ecb764861fc40301ebb65fb0bde10fc904ac6eea0580c325dd0c561ff35b"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/AUG2007_d3dx9_35_x64.cab",
+      "size": 1800160,
+      "sha256": "6a637ef67615722156fe3fd57ef7581d4ac85ee237d445975b6a20c7a76bd7e3"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/AUG2007_d3dx9_35_x86.cab",
+      "size": 1708152,
+      "sha256": "6891a70890d5b0bed82a41c47211690a73b24b6df331b83135ed647ff13b1aca"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/AUG2007_XACT_x64.cab",
+      "size": 198096,
+      "sha256": "35f09b0727ee1ab9116166c512c08886623a67939b2e0d841efdee689b6e0f84"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/AUG2007_XACT_x86.cab",
+      "size": 153012,
+      "sha256": "b39c1b8483111be11cd4c10ef2d18ec8f0b23ff13b628482507076ede9fa9bd1"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2008_d3dx10_39_x64.cab",
+      "size": 867612,
+      "sha256": "ae64328b9a02a47c5ad429b9fba47b9228ab1a1e7d4e00e5d24087f2772d0b80"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2008_d3dx10_39_x86.cab",
+      "size": 849167,
+      "sha256": "8c0643efa8d113fc5ef0a0e98d9a2cc0e32cb8d4219ca0bc7e57cf710fd4fdad"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2008_d3dx9_39_x64.cab",
+      "size": 1794084,
+      "sha256": "e0c5dc6a375a70ac6c8cea9193b76db241dad8e754702d57fd20765b55b30798"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2008_d3dx9_39_x86.cab",
+      "size": 1464672,
+      "sha256": "87d672f2ea01ef2123fe5c92da82a988cd964ca55ad660cc073d78d8151a7d84"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2008_XACT_x64.cab",
+      "size": 121772,
+      "sha256": "c49e261887fefc13cc914590e33faec10316641bf683a121901c302a7a9efab4"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2008_XACT_x86.cab",
+      "size": 92996,
+      "sha256": "913f67e5daeb61d872392f2951e13ecfacef572ad4bb1731f7bbefa1ab314a24"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2008_XAudio_x64.cab",
+      "size": 271412,
+      "sha256": "5320967b14b8f7ad95973a26d3cb9de645acc663d3c3d1fce7d6464abe7e0d78"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2008_XAudio_x86.cab",
+      "size": 271038,
+      "sha256": "d26eff418f73c878a174c69a12dff08323df617526e8c5d8439e975f083db63b"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2009_D3DCompiler_42_x64.cab",
+      "size": 919044,
+      "sha256": "d2e14fc8cb9410caad5bd17c4acff2b6e060c552c432d11946a6905aee216931"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2009_D3DCompiler_42_x86.cab",
+      "size": 900598,
+      "sha256": "36c9be8c55f721c38110d56a6ccada672e7566d89f77c738c94fcdf1a584ecf4"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dcsx_42_x64.cab",
+      "size": 3112111,
+      "sha256": "b53bb3ed6f56702672f9f0201f6399b28f8c012ac7f1a604fb13b32a10a40dab"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dcsx_42_x86.cab",
+      "size": 3319740,
+      "sha256": "a66fd98a1f746698848a4a7eb5ae69dac8ff2654b56c7decebb03cdca8dc7c85"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dx10_42_x64.cab",
+      "size": 232635,
+      "sha256": "2cfd51f0115c048ed432522d387167e46b2a2929524dcbd08b91c07705d5da27"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dx10_42_x86.cab",
+      "size": 192131,
+      "sha256": "eef0244674e44a4131f12243a11badf3e9c7a24efdca73dd26cf75f24d902597"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dx11_42_x64.cab",
+      "size": 136301,
+      "sha256": "0b91a568769bf0f89658ffb4eff9eacdc5debbe4ddc2d94da6f7068237c94c86"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dx11_42_x86.cab",
+      "size": 105044,
+      "sha256": "e8c845fc2cf746ba07f8921a09dc533973621d6f8a015342e2b078d11815b121"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dx9_42_x64.cab",
+      "size": 930116,
+      "sha256": "832f6a4415c873ed8acca0d5c9e65fe163d9567f0ce29fb3fda11d7afd1e11c7"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dx9_42_x86.cab",
+      "size": 728456,
+      "sha256": "0adc71e37869f12b4806321f40c25dad3d5f8ad372eb35e0bcbaacf60408eb45"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2009_XACT_x64.cab",
+      "size": 122408,
+      "sha256": "69dab3f80a58912fbee51934d1e6da8d0432efa7577810600dfd168d4a52d637"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2009_XACT_x86.cab",
+      "size": 93106,
+      "sha256": "7c4bab445d4666965019b6084c23e4b9ae9e34b14898d01debc0101ddb9e12e4"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2009_XAudio_x64.cab",
+      "size": 273264,
+      "sha256": "1269f085046694d1466a4b75386ec30dd0564949db4fa90df366983f860acb97"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Aug2009_XAudio_x86.cab",
+      "size": 272642,
+      "sha256": "b8e0c1022a42156c4239aea081f3abb0bf45ef61f30413df182e422e26435714"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Dec2005_d3dx9_28_x64.cab",
+      "size": 1357976,
+      "sha256": "8231b38a0ab70018f15d7239ed96e5f2bc89ddae6cf9650c9d7bd052b96877e3"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Dec2005_d3dx9_28_x86.cab",
+      "size": 1079456,
+      "sha256": "bdee0708db956a4ce59220626106a2df70ede2e1e32f29e432254b04876fa7b9"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/DEC2006_d3dx10_00_x64.cab",
+      "size": 212807,
+      "sha256": "d926d1381f1949754f5e6d597c4ab49e3f350312b2e426effafeed22ba9ced91"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/DEC2006_d3dx10_00_x86.cab",
+      "size": 191720,
+      "sha256": "07fe66373868c32de3f4a4097bd3834ac98018f490f5bf08f02f559c48dbf985"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/DEC2006_d3dx9_32_x64.cab",
+      "size": 1571154,
+      "sha256": "473c0111f5a1efb6791575c5f769431fa2affd76813aaf9d476a571e26cd3fed"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/DEC2006_d3dx9_32_x86.cab",
+      "size": 1574376,
+      "sha256": "81251ebd8ee94f108807e32e04dea544c3937a5f870bc6ccb917d059e70b1838"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/DEC2006_XACT_x64.cab",
+      "size": 192475,
+      "sha256": "b3f65d918e4dc0e84ce5d0add6d0d46425c58de19fddfbc7b996ff357caac3b2"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/DEC2006_XACT_x86.cab",
+      "size": 145599,
+      "sha256": "3d9b905fce31b42c47be263165d71c346b5d47abdabbfe6e9a87fd5a89b0b9f5"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/DSETUP.dll",
+      "size": 95576,
+      "sha256": "2a61679eeedabf7d0d0ac14e5447486575622d6b7cfa56f136c1576ff96da21f"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/dsetup32.dll",
+      "size": 1566040,
+      "sha256": "fb0e534f9b0926e518f1c2980640dfd29f14217cdfa37cf3a0c13349127ed9a8"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/dxdllreg_x86.cab",
+      "size": 44624,
+      "sha256": "4afe0249a13868b7c4a92b4d53c998adf6053eb5e2c47fd81020fd8d4bb11150"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/DXSETUP.exe",
+      "size": 517976,
+      "sha256": "8f47d7121ef6532ad9ad9901e44e237f5c30448b752028c58a9d19521414e40d"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/dxupdate.cab",
+      "size": 97152,
+      "sha256": "e18a5404b612e88fa8b403c9b33f064c0a89528db7ef9a79aa116908d0e6afed"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Feb2005_d3dx9_24_x64.cab",
+      "size": 1247499,
+      "sha256": "48eeeecd6411039b23f32b7b22c8d40bce45280af5f8b066edd6cf30284b90ca"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Feb2005_d3dx9_24_x86.cab",
+      "size": 1013225,
+      "sha256": "12e2aab3dbaee503724a5505a6f6951f07306578801a4b5b6b9b54514275ce79"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Feb2006_d3dx9_29_x64.cab",
+      "size": 1362796,
+      "sha256": "405bd17fe25128a91693807a6008031d87c005ba93d016cbab6276891d3bc6bb"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Feb2006_d3dx9_29_x86.cab",
+      "size": 1084720,
+      "sha256": "20231448d5d74b7df1e43d796d76381d563699f81944c7ad9ccbcc1a77a5591e"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Feb2006_XACT_x64.cab",
+      "size": 178359,
+      "sha256": "ea39caab8e071df53c2f44c19fb2ff6e2f6af4ef47f0c66d8e7b1b0918d6745f"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Feb2006_XACT_x86.cab",
+      "size": 132409,
+      "sha256": "633a1fe357e57bbb8e058e1e029f61f379ab936a85c5d30ee442d804a1806868"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/FEB2007_XACT_x64.cab",
+      "size": 194675,
+      "sha256": "85d3279df02904f161f62f7a529911e135439ae26f4aa4984be439a4ac1768ab"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/FEB2007_XACT_x86.cab",
+      "size": 147983,
+      "sha256": "d2446c0478d0087250c2f4f4cbdec7bdc9aec7ac92ca37b874c96aa3a3275dcd"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Feb2010_X3DAudio_x64.cab",
+      "size": 54678,
+      "sha256": "832b6d48e169b4725ae482ea4d1c3360a09631a89b2fac3aba81a50805a50adc"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Feb2010_X3DAudio_x86.cab",
+      "size": 20713,
+      "sha256": "acba5c4d4ac90e1df1c8404be5ff780e24238153cb410af909cd4364d213f2a9"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Feb2010_XACT_x64.cab",
+      "size": 122446,
+      "sha256": "42d7936ca7520a8092ccb82612d0217c755ecf619251fd2aa0c37ccfd8c49807"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Feb2010_XACT_x86.cab",
+      "size": 93180,
+      "sha256": "d168fcdd6b63c24f6f6d2851ad1d0d977146edd9f6377b46d8f87bf5a92a0693"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Feb2010_XAudio_x64.cab",
+      "size": 276960,
+      "sha256": "038a01a9b3ba4ceb4df4726a5704a5b325871c07e3714913c3a9ff4184a50df6"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Feb2010_XAudio_x86.cab",
+      "size": 277191,
+      "sha256": "86a653d6a77bad77df48a19669eb41dc402297b42d6f9ee239b39735be409d31"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/installscript.vdf",
+      "size": 596,
+      "sha256": "66a16410fb82c61b70cb8369b4643457fae6ecec553014fcf738173dbac7a958"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2005_d3dx9_26_x64.cab",
+      "size": 1336002,
+      "sha256": "7237630b897ce760948d9144151ef27c0699fb76150b5f157676fa2d220a236f"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2005_d3dx9_26_x86.cab",
+      "size": 1064925,
+      "sha256": "b448d7ba5b6fe1dc27639d42eb6ba0a997a793135678c729ba6756cfe4efc38b"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2006_XACT_x64.cab",
+      "size": 180785,
+      "sha256": "e7bddd9db994cbb19671d45216edf40ffb3a77068cc97fbeb4c4e41e0d073501"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2006_XACT_x86.cab",
+      "size": 133671,
+      "sha256": "c1a1348611259756b5921d43f9fd9f2a5b40a48af88ea679a40263a2aca029ec"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2007_d3dx10_34_x64.cab",
+      "size": 699044,
+      "sha256": "3ef426fdd89840ead821ee8fe7a6f470ad8bf06dbcf2ac7cc8e8a0dd0a55622d"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2007_d3dx10_34_x86.cab",
+      "size": 698472,
+      "sha256": "47b355fb5324776370e2bd27ca2df982a516611fc1e702d75a829b207b3b80f6"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2007_d3dx9_34_x64.cab",
+      "size": 1607774,
+      "sha256": "c28c2018fcc72a9548a752e2917284320fc1a8848ae9d92bf3513aa312cafc29"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2007_d3dx9_34_x86.cab",
+      "size": 1607286,
+      "sha256": "9c3507b1dd4a81651a5013cb7ecb552932ce5989cbaadd4024f02918f55276ac"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2007_XACT_x64.cab",
+      "size": 197122,
+      "sha256": "0e08de538c217d80b19bd56066a269ca9b388e63ff6f3807b369d7b6a7fe794f"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2007_XACT_x86.cab",
+      "size": 152909,
+      "sha256": "e28d18ef520ca81ff7d33dad80b6144771cb82516f01739cef8d3b813c74643d"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2008_d3dx10_38_x64.cab",
+      "size": 867828,
+      "sha256": "781eb9276ea0d737d82dc60753c6d6ff89e92d016b48a60e9b21d1a66b8eb545"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2008_d3dx10_38_x86.cab",
+      "size": 849919,
+      "sha256": "b9b4110bd8004f83c0bfcef378071fd49c895294f4583e0b164317a692d9783c"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2008_d3dx9_38_x64.cab",
+      "size": 1792608,
+      "sha256": "72e7f92c20462c4746ce000bc909ed6b3f71467f9e5593ba7c074be47553596d"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2008_d3dx9_38_x86.cab",
+      "size": 1463878,
+      "sha256": "5906932933e363acb1651a6b1f252662fb3512ed54dd6b0b87baa141ed6fb21a"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2008_X3DAudio_x64.cab",
+      "size": 55154,
+      "sha256": "627c66ed6f3b82c8a90f549584c324e33f039f397f196ce9eccb86de76efb574"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2008_X3DAudio_x86.cab",
+      "size": 21905,
+      "sha256": "151d0be9d3fa6ce37f7aa8e047b8cc449e86398ed0623c3cc0e203ec221ebc2a"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2008_XACT_x64.cab",
+      "size": 121054,
+      "sha256": "f0736b0ab6eb8c91682f6934c9d4306fc134c65066f70f7f5f80031a927baa8d"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2008_XACT_x86.cab",
+      "size": 93128,
+      "sha256": "f06de1eef8043f7919a50972df7d0653f9439b725769dae93536dea749b8e2d6"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2008_XAudio_x64.cab",
+      "size": 269628,
+      "sha256": "9b15a27080204b3c36b787f919cefbf9d441f0b0b616f8b944feb42dc4eb2ff1"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/JUN2008_XAudio_x86.cab",
+      "size": 269024,
+      "sha256": "564696443875b094baafb5f4a151c25876ca537c1834356eddb979be0ca247ac"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2010_D3DCompiler_43_x64.cab",
+      "size": 944460,
+      "sha256": "213ad66ab9e469db1e6a49a646d082bfc3700db94172984e7e36801612af50c6"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2010_D3DCompiler_43_x86.cab",
+      "size": 931471,
+      "sha256": "417eebd5b19f45c67c94c2d2ba8b774c0fc6d958b896d7b1ac12cf5a0ea06e0e"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dcsx_43_x64.cab",
+      "size": 752783,
+      "sha256": "cdbec7e3a5a0fef016eb294b036f93c75e45c6ead8d99397f859a32d23fe20cc"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dcsx_43_x86.cab",
+      "size": 762188,
+      "sha256": "e2c5a2cbba7f211b6ca72ff8e5f69cba1f83be06357311b19e64f582fd3d14e4"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dx10_43_x64.cab",
+      "size": 235955,
+      "sha256": "efce48d425c07f1faad4a55d7061a01ed6245aac17f43163cf2a23cbc9a3054b"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dx10_43_x86.cab",
+      "size": 197283,
+      "sha256": "a8cf71ffb80b683616d0621be96d3795b0ffda3877ed2d80cd958bfa393ddcfc"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dx11_43_x64.cab",
+      "size": 138205,
+      "sha256": "c1d0d56b83bfb09a5e1a89e1898bb74446a847b30a968f3664ec2d87368eb63e"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dx11_43_x86.cab",
+      "size": 109445,
+      "sha256": "a58cefe822e371d078eaf89319f832693352ba7d62079320074397f0f3425961"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dx9_43_x64.cab",
+      "size": 937246,
+      "sha256": "9b98a1269af7f3a0007bfdc73206a47a6ee158d34ba8a87009396c18186bb06a"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dx9_43_x86.cab",
+      "size": 768036,
+      "sha256": "fcc6cf0966b4853d6fa3d32ab299cde5a9824feaecb0d4f34ea452fb9fd1c867"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2010_XACT_x64.cab",
+      "size": 124596,
+      "sha256": "06251ab76450feb7dc2ffb9be7615f5eb56960cefa4c990ef560f2c6f2a7551b"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2010_XACT_x86.cab",
+      "size": 93686,
+      "sha256": "354c2e579ed00b391dd5d8be91b0f45115e7c232ed1b842747830be0fd26e915"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2010_XAudio_x64.cab",
+      "size": 277338,
+      "sha256": "51500283f69e97f5beddb073ba2a9017de3d30379c0dcc4d11dd2236ce07b317"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Jun2010_XAudio_x86.cab",
+      "size": 278060,
+      "sha256": "7b4332207563beba1103744b6db5399ad150e9e6838f9d5a71497e7eb3645ebf"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2008_d3dx10_37_x64.cab",
+      "size": 844884,
+      "sha256": "9eaba54ab5392802bee889982c585707797ae7810c1e7a66f98903fc963a9eab"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2008_d3dx10_37_x86.cab",
+      "size": 818260,
+      "sha256": "de438d52b5f1141be26f7d06f283699d96827129da524a412e1605bd9c8e6b6a"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2008_d3dx9_37_x64.cab",
+      "size": 1769862,
+      "sha256": "33ed3e21fe9118bad3e11ee13a3f0b31c52ae7e22378ebf96de590b114c2ca02"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2008_d3dx9_37_x86.cab",
+      "size": 1443282,
+      "sha256": "0be4fe173c7becbab42a25421f28d54629479e240a3378b37ac4b657bf60e128"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2008_X3DAudio_x64.cab",
+      "size": 55058,
+      "sha256": "b0209ae7c140b3b3a7635a00d7364591d6b3d017d6bb007f9e347767b00b1671"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2008_X3DAudio_x86.cab",
+      "size": 21867,
+      "sha256": "15e0dcefc22fb6a09e3d8724fa5c17c23db01f10879f343e7da22938f568abd7"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2008_XACT_x64.cab",
+      "size": 122336,
+      "sha256": "221a6a70898c8d513fac732dfa0ada137b268cffc90875c05d1049ba8f2e3e5b"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2008_XACT_x86.cab",
+      "size": 93734,
+      "sha256": "d1a429a0725765a5b302b83af062d2780859f0a52369b200d1b031e14f030ea0"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2008_XAudio_x64.cab",
+      "size": 251194,
+      "sha256": "35d20903b1b246afda8c5205bfa3b253fbad5d3255ce14b5a8d5aaa6b6909dbc"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2008_XAudio_x86.cab",
+      "size": 226250,
+      "sha256": "786e6417d105b1dedcb502a799d7cd30a65cbe59a2b41a411781bdafa7fb1917"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2009_d3dx10_41_x64.cab",
+      "size": 1067160,
+      "sha256": "4e78a01a3a5d236f27cda4a66a9d8a59c06e8a9779fd2f2a3e1f9b416d2c4213"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2009_d3dx10_41_x86.cab",
+      "size": 1040745,
+      "sha256": "80736b3fe97947507a32bf7cd744e01a86424c4cc9977f7b4a7404268e83f8c1"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2009_d3dx9_41_x64.cab",
+      "size": 1973702,
+      "sha256": "218929568334f78c93d3a111ad268ff56ed4a6fee83ce26dce0a2619a092f46b"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2009_d3dx9_41_x86.cab",
+      "size": 1612446,
+      "sha256": "74ff3ac77380b3a7271f22b21e019c50f6caa8585f0b59cca094e76ce170a28b"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2009_X3DAudio_x64.cab",
+      "size": 54600,
+      "sha256": "5fcb6f2d1dbf278c14813812448026a8d2bf2179bb4c2e807b9167fdb7966290"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2009_X3DAudio_x86.cab",
+      "size": 21298,
+      "sha256": "fd713dc9d50cb72508f0c416f6861588f1227bb9f2e1a40a6f0e774be248bb8d"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2009_XACT_x64.cab",
+      "size": 121506,
+      "sha256": "63721ba32053e4f2b0905aab8e68fe63eadaae53543be89b2d5f082b10edf6a2"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2009_XACT_x86.cab",
+      "size": 92740,
+      "sha256": "ba7f2b4e34c355dae4ca2aeae585985f2626c69e4cf857b9db009d50a23b620c"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2009_XAudio_x64.cab",
+      "size": 275044,
+      "sha256": "e470186155459daf0674a30450a4887f941ca7dbdf9aa311fc4d4c87352529ba"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Mar2009_XAudio_x86.cab",
+      "size": 273018,
+      "sha256": "7c360b93d3e799d3502f0b6acf4139c058d7d47e63d41f4af0f2bff59b4742b2"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Nov2007_d3dx10_36_x64.cab",
+      "size": 864600,
+      "sha256": "0847e4034d70ccbea527e04d14d8d60c9854ecc89cb29b3e07139e65962fbce9"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Nov2007_d3dx10_36_x86.cab",
+      "size": 803884,
+      "sha256": "0da883c82456a5340411f222af5891fd370bf7efd919e90a48aec0f67f01ec80"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Nov2007_d3dx9_36_x64.cab",
+      "size": 1802058,
+      "sha256": "39afab1a89bcf46806b422837da35ddc1b8eedf0393d875a89b47cde5fed79d4"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Nov2007_d3dx9_36_x86.cab",
+      "size": 1709360,
+      "sha256": "89026e7e14fff8164de3c13a774d539e789637104d7bc84b8bb4e059b76a9679"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/NOV2007_X3DAudio_x64.cab",
+      "size": 46144,
+      "sha256": "f954abaf7966b409d3db339f5dc491e103365f47b23faffca25d85ea3728f12f"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/NOV2007_X3DAudio_x86.cab",
+      "size": 18496,
+      "sha256": "74a6d31a4c54d8c0fb2dcde922409c05db3219b7dcffa44c16f603ba054fb922"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/NOV2007_XACT_x64.cab",
+      "size": 196762,
+      "sha256": "d01b468ec66b36bea0e20503c01b93ac64d9e001c20d28cf7c71293e9f874af0"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/NOV2007_XACT_x86.cab",
+      "size": 148264,
+      "sha256": "c888a8a79249ab284a918c371f2fe6da81fdf432e65d3da3cd24fecede267aed"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Nov2008_d3dx10_40_x64.cab",
+      "size": 994154,
+      "sha256": "a318a71b953f87ef0f5fad91a153f7ee251c8f895581950022f38f63d5f66cba"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Nov2008_d3dx10_40_x86.cab",
+      "size": 965421,
+      "sha256": "4d7805c3db9fe72978fdd4c0c8ff973eed07ca6619d1c988cd01e08b70e1d137"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Nov2008_d3dx9_40_x64.cab",
+      "size": 1906878,
+      "sha256": "723e8fcfe969493e6c4f79d2634c052eed9cd1e7051cfbf4466643b964fea29c"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Nov2008_d3dx9_40_x86.cab",
+      "size": 1550796,
+      "sha256": "a259dd75611610bc0fd9c874e68ec89bbae4ac5f8db0857705a35de616604641"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Nov2008_X3DAudio_x64.cab",
+      "size": 54522,
+      "sha256": "8de7aedf7f823e455c663cec42b158f6d5308efd356a9cf9295ae49f7c8a3fdb"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Nov2008_X3DAudio_x86.cab",
+      "size": 21851,
+      "sha256": "f2264f092313682f4e274ad71030248fa2e23d202abc2d46ab09c7d6b580b81b"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Nov2008_XACT_x64.cab",
+      "size": 121794,
+      "sha256": "9dda7b01517451b9ca53abc3a4e61277481c4e8a6404d15450b5a416416b8016"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Nov2008_XACT_x86.cab",
+      "size": 92684,
+      "sha256": "7b5594c1146a7753e8aeb0d235a060360b3072ba7b0fa122536d85b42df73a2e"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Nov2008_XAudio_x64.cab",
+      "size": 273960,
+      "sha256": "980e6bb91d20d90225405887ebec47a7b1deee21faab4c561faae323007f6c98"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Nov2008_XAudio_x86.cab",
+      "size": 272611,
+      "sha256": "00c28cd39034f7e1d434adc0bd39e4be29eabe8b73a2f3eaca6de11d2d22be95"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Oct2005_xinput_x64.cab",
+      "size": 86037,
+      "sha256": "10f2bcfcc38d3150bc80eb0030a1cd40084f1ec028dc927543c485d54ec35022"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/Oct2005_xinput_x86.cab",
+      "size": 45359,
+      "sha256": "f2d475864e34409fb586093f92390e1f47403867c39ac30918941f19f3fccb0f"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/OCT2006_d3dx9_31_x64.cab",
+      "size": 1412902,
+      "sha256": "3cf78eeedcddddaf131af35cc68c218685c133326ff2876cb821096ed7ebf0c8"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/OCT2006_d3dx9_31_x86.cab",
+      "size": 1127217,
+      "sha256": "fd8c9c23aea007aa92eca130446913ef04d9fc78e0e6fc3c49c25d210889de61"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/OCT2006_XACT_x64.cab",
+      "size": 182361,
+      "sha256": "db037f2b07f00a7aa481b12ed35d52e3b7c18bb786590eb444b27cf69a675f0f"
+    },
+    {
+      "path": "_CommonRedist/DirectX/Jun2010/OCT2006_XACT_x86.cab",
+      "size": 138017,
+      "sha256": "65916ca9db2d3eeb6a44f19a19c4254ca4fc1795bad81fda35e028d9b62e1d3d"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist/2022/installscript.vdf",
+      "size": 881,
+      "sha256": "9746d06b0cb67b819c0b23ef91dd34c07a7e41406934ede531f9131d9f3b1074"
+    },
+    {
+      "path": "_CommonRedist/vcredist/2022/installscript.vdf.bak",
+      "size": 881,
+      "sha256": "e2deec70da049ec3ea7c88f66b7865ae7f33a31b6a3c1dbf600bacedb3e5b73a"
+    },
+    {
+      "path": "_CommonRedist/vcredist/2022/Microsoft Visual C++ 2022 x64.cmd",
+      "size": 121,
+      "sha256": "c39c8d1d2065c790e39ec9dbd242d64340774e12db6ef90dbe2933106b46864a"
+    },
+    {
+      "path": "_CommonRedist/vcredist/2022/Microsoft Visual C++ 2022 x86.cmd",
+      "size": 121,
+      "sha256": "8098ebcc001ca152aec47352e9b7d8f086512519cc430a8ec9c82f67fa9c29a5"
+    },
+    {
+      "path": "_CommonRedist/vcredist/2022/VC_redist.x64.exe",
+      "size": 25355496,
+      "sha256": "917c37d816488545b70affd77d6e486e4dd27e2ece63f6bbaaf486b178b2b888"
+    },
+    {
+      "path": "_CommonRedist/vcredist/2022/VC_redist.x86.exe",
+      "size": 13837672,
+      "sha256": "5365a927487945ecb040e143ea770adbb296074ece4021b1d14213bde538c490"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5737472,
+      "sha256": "a0364e3fe704ae23d8df0045ad8b24c70559057a871c9bdbe95719dc8d18696f"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5091840,
+      "sha256": "28bd16ba82824461d8799c4775bee55269b9a687905527fb219c48f5c8a5f278"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+      "size": 1885072,
+      "sha256": "e728908137ccf8326a1e955656fc8b5b2ee57d130aa7d9fb47d9fea77366ffb4"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+      "size": 1881544,
+      "sha256": "6c0918fb5d68831c33136805a772e6250c1111a9769240994ce991ed38808870"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+      "size": 65480,
+      "sha256": "c1cb9c6b7c1b46f47200b2943f7fbcc30088e9bec36e1ba047d639bc487432f2"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Steamworks/Steamv153/Win64/icons.zip",
+      "size": 681058,
+      "sha256": "5abf2dd4e7632904f8355710f2b89b6831893d5f73843af9120a4873e884a362"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Steamworks/Steamv153/Win64/steam_api64.dll",
+      "size": 1139200,
+      "sha256": "5aef547135a0fd99ac2d15045b274bc6b4616b3ff4e92be950aef422b192d8f0"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Steamworks/Steamv153/Win64/tenoke.ini",
+      "size": 8221,
+      "sha256": "966d9c6d0b72b6d84472c269aa5d24058789828103d43293ec98f66cb73c5c19"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+      "size": 1730504,
+      "sha256": "fd31d4dd32474d5d0ef7d571d70a7907f5a477b2c8dbfbbfc371c5481dfa5419"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+      "size": 54216,
+      "sha256": "34d2ef246fe32838dedfddcece02172a13efa29ebda0c02b75ecc72b26d30007"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+      "size": 863776,
+      "sha256": "e34d1250d42d5c8eb368c78d5b179db86a91eaee4443b17c265f53c619aed465"
+    },
+    {
+      "path": "Engine/Binaries/Win64/CrashReportClient.exe",
+      "size": 23166408,
+      "sha256": "c5cbad3a3dda180eb5e1861cd51e9e55a50a0a6cba077db64a215fa20067c19b"
+    },
+    {
+      "path": "Engine/Binaries/Win64/tbb.dll",
+      "size": 399816,
+      "sha256": "88ddc3af059db4b4e6abff0c0ddab1dc2a3f20c912e122be1c1254396cb50c6e"
+    },
+    {
+      "path": "Engine/Binaries/Win64/tbb.pdb",
+      "size": 831488,
+      "sha256": "b91df4574c815a31df508e487491ad7a6e7e4b421f7bb1348af75aafe3ce9e5c"
+    },
+    {
+      "path": "Engine/Extras/Redist/en-us/UEPrereqSetup_x64.exe",
+      "size": 50596640,
+      "sha256": "ef1ac9b2347702667e6a2a280bf2bcd55462882444a7c6981be74ac34df971f0"
+    },
+    {
+      "path": "Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak",
+      "size": 21927682,
+      "sha256": "7f5e45c152f20650bd08cb8e1ec6d259e877f6a3a7163f870ddfd177781a8d29"
+    },
+    {
+      "path": "Hans.exe",
+      "size": 147968,
+      "sha256": "d40e3e084b4ea3b5f19aaaefddd0934ab0946d92806568776a47a1674c3014c2"
+    },
+    {
+      "path": "Hans/Binaries/Win64/boost_atomic-mt-x64.dll",
+      "size": 33736,
+      "sha256": "606fceb0fbbb1e9ca953dbe9b9c320af8c6572d9c2d147aa72cdd6e596e8ba25"
+    },
+    {
+      "path": "Hans/Binaries/Win64/boost_chrono-mt-x64.dll",
+      "size": 52680,
+      "sha256": "dbeecc29646dafcd2b6d930b33290b5edfd7fc6b1cc87e3ea71d54083a4782c7"
+    },
+    {
+      "path": "Hans/Binaries/Win64/boost_filesystem-mt-x64.dll",
+      "size": 157128,
+      "sha256": "ec5b976cafea739a8a0c747ccf33225def32e83255b41adeb4d14b8e5e718c0f"
+    },
+    {
+      "path": "Hans/Binaries/Win64/boost_iostreams-mt-x64.dll",
+      "size": 63944,
+      "sha256": "970084ed7c784542e7793574aee0febca214472568fabae3f086bd9c034a2c9f"
+    },
+    {
+      "path": "Hans/Binaries/Win64/boost_program_options-mt-x64.dll",
+      "size": 356808,
+      "sha256": "61d48946d97285436840a3ceaac1949e15306b14bfc9d04e15434de23554284d"
+    },
+    {
+      "path": "Hans/Binaries/Win64/boost_python39-mt-x64.dll",
+      "size": 208328,
+      "sha256": "5daf42ec764d2b9a624a466b0ecdbdff98306558319b992a308d2b26684ac708"
+    },
+    {
+      "path": "Hans/Binaries/Win64/boost_regex-mt-x64.dll",
+      "size": 244168,
+      "sha256": "7bfa1f6e8ba039b129ba920553700684bc97fe16f87906bb3a5d50785fdb5299"
+    },
+    {
+      "path": "Hans/Binaries/Win64/boost_system-mt-x64.dll",
+      "size": 26056,
+      "sha256": "ce8b6e249ea35ea436f3ee04c5f49619b78698fb594d4c1cc536fa97c704179b"
+    },
+    {
+      "path": "Hans/Binaries/Win64/boost_thread-mt-x64.dll",
+      "size": 92104,
+      "sha256": "0adb49fc4070f859b4cc6044fcade7ef68759b7cac488b93734ab6489d6ba257"
+    },
+    {
+      "path": "Hans/Binaries/Win64/D3D12/D3D12Core.dll",
+      "size": 5508496,
+      "sha256": "c6b78379aa99185b0e48e65fd63ed2ec25b5a227f1a74afba4b5d93ae76a4475"
+    },
+    {
+      "path": "Hans/Binaries/Win64/Hans-Win64-Shipping.exe",
+      "size": 118054912,
+      "sha256": "886f621347a7ee98edb3005ed519745fe308f2dbd4c3499a9dbfe5ee94c9073a"
+    },
+    {
+      "path": "Hans/Binaries/Win64/OpenImageDenoise.dll",
+      "size": 49787744,
+      "sha256": "fb216867cd83c061ae446694d540ec0f27ecb35223c9acd0bb4de93d172f69f7"
+    },
+    {
+      "path": "Hans/Binaries/Win64/steam_appid.txt",
+      "size": 7,
+      "sha256": "6000f8a6f19942d75faa7bffa58da798e48b4bfc83c928f2099298f2010b1130"
+    },
+    {
+      "path": "Hans/Binaries/Win64/tbb.dll",
+      "size": 399816,
+      "sha256": "b8219802103894307697677c2fa693d323a2acd66ca6f8b79c08b1cc7fee8b9d"
+    },
+    {
+      "path": "Hans/Binaries/Win64/tbb.pdb",
+      "size": 6230016,
+      "sha256": "e2dc5c1533d5dbfe27920c3eb8d9ff051b4c00bcdc205f6fcad8ce17e0b0ac4d"
+    },
+    {
+      "path": "Hans/Binaries/Win64/tbb12.dll",
+      "size": 309704,
+      "sha256": "0c5121c6c5448aac00abb35b020e61e5879d51382ec1c934cd66b21c8f4ceef7"
+    },
+    {
+      "path": "Hans/Content/Paks/global.ucas",
+      "size": 1963408,
+      "sha256": "9107570f2786b1ddbc36e59c3b943b050a98a3aa31ed2a7a6b4b0380c7a948e6"
+    },
+    {
+      "path": "Hans/Content/Paks/global.utoc",
+      "size": 563,
+      "sha256": "964e1a32034d84897c07ffd6d4d627525320e01aa696f39a882141887140d9a2"
+    },
+    {
+      "path": "Hans/Content/Paks/Hans-Windows.pak",
+      "size": 31320635,
+      "sha256": "1601fcc971c76bcab39e67ed5302092b9548ae6efeda221833b523edfccf35e7"
+    },
+    {
+      "path": "Hans/Content/Paks/Hans-Windows.ucas",
+      "size": 362480896,
+      "sha256": "4b553a3dd79c448346a00dec0f445aab6ca639de2526652fcd070c107204f700"
+    },
+    {
+      "path": "Hans/Content/Paks/Hans-Windows.utoc",
+      "size": 770619,
+      "sha256": "3c628df16bf7a80510ee0c8225c23e7a4797072974054dfea6c68a13a725d449"
+    },
+    {
+      "path": "Manifest_NonUFSFiles_Win64.txt",
+      "size": 1944,
+      "sha256": "a9e65cc11448d95f10185f99b06d7499719614d2c376f44b1a3f3fa6adcc2424"
+    },
+    {
+      "path": "Manifest_UFSFiles_Win64.txt",
+      "size": 867014,
+      "sha256": "1131ba5c3e2108378ab4106d136e13ae2b03c2d962a1bf7bd8f85115122cc50d"
+    },
+    {
+      "path": "UNINSTALL.exe",
+      "size": 483316,
+      "sha256": "bafdb716226fd0a420ec3707d3484e01db2009f37229b1790ec587c35bbc3eb9"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 55574528,
+      "sha256": "70ed272d4dfaf65cd4371797ad3e315922b146b21a904ed178fdd611b03f1bc5",
+      "segments": [
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Apr2005_d3dx9_25_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 1347354
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Apr2005_d3dx9_25_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 1347354,
+          "length": 1078962
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Apr2006_d3dx9_30_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 2426316,
+          "length": 1397830
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Apr2006_d3dx9_30_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 3824146,
+          "length": 1115221
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Apr2006_MDX1_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 4939367,
+          "length": 916430
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Apr2006_MDX1_x86_Archive.cab",
+          "file_offset": 0,
+          "chunk_offset": 5855797,
+          "length": 4162630
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Apr2006_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 10018427,
+          "length": 179133
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Apr2006_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 10197560,
+          "length": 133103
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Apr2006_xinput_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 10330663,
+          "length": 87101
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Apr2006_xinput_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 10417764,
+          "length": 46010
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/APR2007_d3dx10_33_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 10463774,
+          "length": 698612
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/APR2007_d3dx10_33_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 11162386,
+          "length": 695865
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/APR2007_d3dx9_33_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 11858251,
+          "length": 1607358
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/APR2007_d3dx9_33_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 13465609,
+          "length": 1606039
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/APR2007_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 15071648,
+          "length": 195766
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/APR2007_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 15267414,
+          "length": 151225
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/APR2007_xinput_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 15418639,
+          "length": 96817
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/APR2007_xinput_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 15515456,
+          "length": 53302
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2005_d3dx9_27_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 15568758,
+          "length": 1350542
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2005_d3dx9_27_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 16919300,
+          "length": 1077644
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/AUG2006_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 17996944,
+          "length": 182903
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/AUG2006_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 18179847,
+          "length": 137235
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/AUG2006_xinput_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 18317082,
+          "length": 87142
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/AUG2006_xinput_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 18404224,
+          "length": 46058
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/AUG2007_d3dx10_35_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 18450282,
+          "length": 852286
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/AUG2007_d3dx10_35_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 19302568,
+          "length": 796867
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/AUG2007_d3dx9_35_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 20099435,
+          "length": 1800160
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/AUG2007_d3dx9_35_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 21899595,
+          "length": 1708152
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/AUG2007_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 23607747,
+          "length": 198096
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/AUG2007_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 23805843,
+          "length": 153012
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2008_d3dx10_39_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 23958855,
+          "length": 867612
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2008_d3dx10_39_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 24826467,
+          "length": 849167
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2008_d3dx9_39_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 25675634,
+          "length": 1794084
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2008_d3dx9_39_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 27469718,
+          "length": 1464672
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2008_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 28934390,
+          "length": 121772
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2008_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 29056162,
+          "length": 92996
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2008_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 29149158,
+          "length": 271412
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2008_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 29420570,
+          "length": 271038
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2009_D3DCompiler_42_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 29691608,
+          "length": 919044
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2009_D3DCompiler_42_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 30610652,
+          "length": 900598
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dcsx_42_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 31511250,
+          "length": 3112111
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dcsx_42_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 34623361,
+          "length": 3319740
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dx10_42_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 37943101,
+          "length": 232635
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dx10_42_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 38175736,
+          "length": 192131
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dx11_42_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 38367867,
+          "length": 136301
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dx11_42_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 38504168,
+          "length": 105044
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dx9_42_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 38609212,
+          "length": 930116
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2009_d3dx9_42_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 39539328,
+          "length": 728456
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2009_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 40267784,
+          "length": 122408
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2009_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 40390192,
+          "length": 93106
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2009_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 40483298,
+          "length": 273264
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Aug2009_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 40756562,
+          "length": 272642
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Dec2005_d3dx9_28_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 41029204,
+          "length": 1357976
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Dec2005_d3dx9_28_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 42387180,
+          "length": 1079456
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/DEC2006_d3dx10_00_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 43466636,
+          "length": 212807
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/DEC2006_d3dx10_00_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 43679443,
+          "length": 191720
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/DEC2006_d3dx9_32_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 43871163,
+          "length": 1571154
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/DEC2006_d3dx9_32_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 45442317,
+          "length": 1574376
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/DEC2006_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 47016693,
+          "length": 192475
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/DEC2006_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 47209168,
+          "length": 145599
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/DSETUP.dll",
+          "file_offset": 0,
+          "chunk_offset": 47354767,
+          "length": 95576
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/dsetup32.dll",
+          "file_offset": 0,
+          "chunk_offset": 47450343,
+          "length": 1566040
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/dxdllreg_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 49016383,
+          "length": 44624
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/DXSETUP.exe",
+          "file_offset": 0,
+          "chunk_offset": 49061007,
+          "length": 517976
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/dxupdate.cab",
+          "file_offset": 0,
+          "chunk_offset": 49578983,
+          "length": 97152
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Feb2005_d3dx9_24_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 49676135,
+          "length": 1247499
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Feb2005_d3dx9_24_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 50923634,
+          "length": 1013225
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Feb2006_d3dx9_29_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 51936859,
+          "length": 1362796
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Feb2006_d3dx9_29_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 53299655,
+          "length": 1084720
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Feb2006_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 54384375,
+          "length": 178359
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Feb2006_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 54562734,
+          "length": 132409
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/FEB2007_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 54695143,
+          "length": 194675
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/FEB2007_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 54889818,
+          "length": 147983
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Feb2010_X3DAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 55037801,
+          "length": 54678
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Feb2010_X3DAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 55092479,
+          "length": 20713
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Feb2010_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 55113192,
+          "length": 122446
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Feb2010_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 55235638,
+          "length": 93180
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Feb2010_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 55328818,
+          "length": 245710
+        }
+      ]
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 55574528,
+      "sha256": "dccce9d624e93898c73520724127f1f656e511460f6460494f988fdde904ab76",
+      "segments": [
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Feb2010_XAudio_x64.cab",
+          "file_offset": 245710,
+          "chunk_offset": 0,
+          "length": 31250
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Feb2010_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 31250,
+          "length": 277191
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/installscript.vdf",
+          "file_offset": 0,
+          "chunk_offset": 308441,
+          "length": 596
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2005_d3dx9_26_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 309037,
+          "length": 1336002
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2005_d3dx9_26_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 1645039,
+          "length": 1064925
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2006_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 2709964,
+          "length": 180785
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2006_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 2890749,
+          "length": 133671
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2007_d3dx10_34_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 3024420,
+          "length": 699044
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2007_d3dx10_34_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 3723464,
+          "length": 698472
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2007_d3dx9_34_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 4421936,
+          "length": 1607774
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2007_d3dx9_34_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 6029710,
+          "length": 1607286
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2007_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 7636996,
+          "length": 197122
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2007_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 7834118,
+          "length": 152909
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2008_d3dx10_38_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 7987027,
+          "length": 867828
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2008_d3dx10_38_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 8854855,
+          "length": 849919
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2008_d3dx9_38_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 9704774,
+          "length": 1792608
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2008_d3dx9_38_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 11497382,
+          "length": 1463878
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2008_X3DAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 12961260,
+          "length": 55154
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2008_X3DAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 13016414,
+          "length": 21905
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2008_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 13038319,
+          "length": 121054
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2008_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 13159373,
+          "length": 93128
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2008_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 13252501,
+          "length": 269628
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/JUN2008_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 13522129,
+          "length": 269024
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2010_D3DCompiler_43_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 13791153,
+          "length": 944460
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2010_D3DCompiler_43_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 14735613,
+          "length": 931471
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dcsx_43_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 15667084,
+          "length": 752783
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dcsx_43_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 16419867,
+          "length": 762188
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dx10_43_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 17182055,
+          "length": 235955
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dx10_43_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 17418010,
+          "length": 197283
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dx11_43_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 17615293,
+          "length": 138205
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dx11_43_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 17753498,
+          "length": 109445
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dx9_43_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 17862943,
+          "length": 937246
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2010_d3dx9_43_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 18800189,
+          "length": 768036
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2010_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 19568225,
+          "length": 124596
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2010_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 19692821,
+          "length": 93686
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2010_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 19786507,
+          "length": 277338
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Jun2010_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 20063845,
+          "length": 278060
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2008_d3dx10_37_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 20341905,
+          "length": 844884
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2008_d3dx10_37_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 21186789,
+          "length": 818260
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2008_d3dx9_37_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 22005049,
+          "length": 1769862
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2008_d3dx9_37_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 23774911,
+          "length": 1443282
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2008_X3DAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 25218193,
+          "length": 55058
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2008_X3DAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 25273251,
+          "length": 21867
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2008_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 25295118,
+          "length": 122336
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2008_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 25417454,
+          "length": 93734
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2008_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 25511188,
+          "length": 251194
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2008_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 25762382,
+          "length": 226250
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2009_d3dx10_41_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 25988632,
+          "length": 1067160
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2009_d3dx10_41_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 27055792,
+          "length": 1040745
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2009_d3dx9_41_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 28096537,
+          "length": 1973702
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2009_d3dx9_41_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 30070239,
+          "length": 1612446
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2009_X3DAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 31682685,
+          "length": 54600
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2009_X3DAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 31737285,
+          "length": 21298
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2009_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 31758583,
+          "length": 121506
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2009_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 31880089,
+          "length": 92740
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2009_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 31972829,
+          "length": 275044
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Mar2009_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 32247873,
+          "length": 273018
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Nov2007_d3dx10_36_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 32520891,
+          "length": 864600
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Nov2007_d3dx10_36_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 33385491,
+          "length": 803884
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Nov2007_d3dx9_36_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 34189375,
+          "length": 1802058
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Nov2007_d3dx9_36_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 35991433,
+          "length": 1709360
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/NOV2007_X3DAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 37700793,
+          "length": 46144
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/NOV2007_X3DAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 37746937,
+          "length": 18496
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/NOV2007_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 37765433,
+          "length": 196762
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/NOV2007_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 37962195,
+          "length": 148264
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Nov2008_d3dx10_40_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 38110459,
+          "length": 994154
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Nov2008_d3dx10_40_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 39104613,
+          "length": 965421
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Nov2008_d3dx9_40_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 40070034,
+          "length": 1906878
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Nov2008_d3dx9_40_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 41976912,
+          "length": 1550796
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Nov2008_X3DAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 43527708,
+          "length": 54522
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Nov2008_X3DAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 43582230,
+          "length": 21851
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Nov2008_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 43604081,
+          "length": 121794
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Nov2008_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 43725875,
+          "length": 92684
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Nov2008_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 43818559,
+          "length": 273960
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Nov2008_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 44092519,
+          "length": 272611
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Oct2005_xinput_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 44365130,
+          "length": 86037
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/Oct2005_xinput_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 44451167,
+          "length": 45359
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/OCT2006_d3dx9_31_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 44496526,
+          "length": 1412902
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/OCT2006_d3dx9_31_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 45909428,
+          "length": 1127217
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/OCT2006_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 47036645,
+          "length": 182361
+        },
+        {
+          "file": "_CommonRedist/DirectX/Jun2010/OCT2006_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 47219006,
+          "length": 138017
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 47357023,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 48246439,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 48534527,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist/2022/installscript.vdf",
+          "file_offset": 0,
+          "chunk_offset": 49344023,
+          "length": 881
+        },
+        {
+          "file": "_CommonRedist/vcredist/2022/installscript.vdf.bak",
+          "file_offset": 0,
+          "chunk_offset": 49344904,
+          "length": 881
+        },
+        {
+          "file": "_CommonRedist/vcredist/2022/Microsoft Visual C++ 2022 x64.cmd",
+          "file_offset": 0,
+          "chunk_offset": 49345785,
+          "length": 121
+        },
+        {
+          "file": "_CommonRedist/vcredist/2022/Microsoft Visual C++ 2022 x86.cmd",
+          "file_offset": 0,
+          "chunk_offset": 49345906,
+          "length": 121
+        },
+        {
+          "file": "_CommonRedist/vcredist/2022/VC_redist.x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 49346027,
+          "length": 6228501
+        }
+      ]
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 55574528,
+      "sha256": "2d2a237f60000e8cfeccb36edd8a0f64e685a571a3ab506525ec6cdf305ea819",
+      "segments": [
+        {
+          "file": "_CommonRedist/vcredist/2022/VC_redist.x64.exe",
+          "file_offset": 6228501,
+          "chunk_offset": 0,
+          "length": 19126995
+        },
+        {
+          "file": "_CommonRedist/vcredist/2022/VC_redist.x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 19126995,
+          "length": 13837672
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 32964667,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 47938691,
+          "length": 7635837
+        }
+      ]
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 55574528,
+      "sha256": "eaf81bf0df55608bd0fc5731b90abacb6575047f01aa347504cb6b2bdd8e8cad",
+      "segments": [
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 7635837,
+          "chunk_offset": 0,
+          "length": 6776467
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 6776467,
+          "length": 5737472
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 12513939,
+          "length": 5091840
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 17605779,
+          "length": 7054336
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+          "file_offset": 0,
+          "chunk_offset": 24660115,
+          "length": 1885072
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 26545187,
+          "length": 1881544
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 28426731,
+          "length": 65480
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Steamworks/Steamv153/Win64/icons.zip",
+          "file_offset": 0,
+          "chunk_offset": 28492211,
+          "length": 681058
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Steamworks/Steamv153/Win64/steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 29173269,
+          "length": 1139200
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Steamworks/Steamv153/Win64/tenoke.ini",
+          "file_offset": 0,
+          "chunk_offset": 30312469,
+          "length": 8221
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 30320690,
+          "length": 1730504
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 32051194,
+          "length": 54216
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+          "file_offset": 0,
+          "chunk_offset": 32105410,
+          "length": 863776
+        },
+        {
+          "file": "Engine/Binaries/Win64/CrashReportClient.exe",
+          "file_offset": 0,
+          "chunk_offset": 32969186,
+          "length": 22605342
+        }
+      ]
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 55574528,
+      "sha256": "619b6769830afa48f494dcf5bce51da4fdb604d9aa8293c0d8dad90acd44b300",
+      "segments": [
+        {
+          "file": "Engine/Binaries/Win64/CrashReportClient.exe",
+          "file_offset": 22605342,
+          "chunk_offset": 0,
+          "length": 561066
+        },
+        {
+          "file": "Engine/Binaries/Win64/tbb.dll",
+          "file_offset": 0,
+          "chunk_offset": 561066,
+          "length": 399816
+        },
+        {
+          "file": "Engine/Binaries/Win64/tbb.pdb",
+          "file_offset": 0,
+          "chunk_offset": 960882,
+          "length": 831488
+        },
+        {
+          "file": "Engine/Extras/Redist/en-us/UEPrereqSetup_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1792370,
+          "length": 50596640
+        },
+        {
+          "file": "Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak",
+          "file_offset": 0,
+          "chunk_offset": 52389010,
+          "length": 3185518
+        }
+      ]
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 55574528,
+      "sha256": "ea901ca2ae71178b26d974e404f2d8980ad5fb535900fe5bf19a1d96b6bb1b66",
+      "segments": [
+        {
+          "file": "Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak",
+          "file_offset": 3185518,
+          "chunk_offset": 0,
+          "length": 18742164
+        },
+        {
+          "file": "Hans.exe",
+          "file_offset": 0,
+          "chunk_offset": 18742164,
+          "length": 147968
+        },
+        {
+          "file": "Hans/Binaries/Win64/boost_atomic-mt-x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 18890132,
+          "length": 33736
+        },
+        {
+          "file": "Hans/Binaries/Win64/boost_chrono-mt-x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 18923868,
+          "length": 52680
+        },
+        {
+          "file": "Hans/Binaries/Win64/boost_filesystem-mt-x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 18976548,
+          "length": 157128
+        },
+        {
+          "file": "Hans/Binaries/Win64/boost_iostreams-mt-x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 19133676,
+          "length": 63944
+        },
+        {
+          "file": "Hans/Binaries/Win64/boost_program_options-mt-x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 19197620,
+          "length": 356808
+        },
+        {
+          "file": "Hans/Binaries/Win64/boost_python39-mt-x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 19554428,
+          "length": 208328
+        },
+        {
+          "file": "Hans/Binaries/Win64/boost_regex-mt-x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 19762756,
+          "length": 244168
+        },
+        {
+          "file": "Hans/Binaries/Win64/boost_system-mt-x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 20006924,
+          "length": 26056
+        },
+        {
+          "file": "Hans/Binaries/Win64/boost_thread-mt-x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 20032980,
+          "length": 92104
+        },
+        {
+          "file": "Hans/Binaries/Win64/D3D12/D3D12Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 20125084,
+          "length": 5508496
+        },
+        {
+          "file": "Hans/Binaries/Win64/Hans-Win64-Shipping.exe",
+          "file_offset": 0,
+          "chunk_offset": 25633580,
+          "length": 29940948
+        }
+      ]
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 55574528,
+      "sha256": "768339cc852fcea94bc2fcbe8fd1c70248734148463aae2bf55ef634bf78a4c1",
+      "segments": [
+        {
+          "file": "Hans/Binaries/Win64/Hans-Win64-Shipping.exe",
+          "file_offset": 29940948,
+          "chunk_offset": 0,
+          "length": 55574528
+        }
+      ]
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 55574528,
+      "sha256": "bd99f267e996fc3225b7daa119d5fd0b0e0b081d4d88a70d37e8c627a2994d87",
+      "segments": [
+        {
+          "file": "Hans/Binaries/Win64/Hans-Win64-Shipping.exe",
+          "file_offset": 85515476,
+          "chunk_offset": 0,
+          "length": 32539436
+        },
+        {
+          "file": "Hans/Binaries/Win64/OpenImageDenoise.dll",
+          "file_offset": 0,
+          "chunk_offset": 32539436,
+          "length": 23035092
+        }
+      ]
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 55574528,
+      "sha256": "020639818288694531877e93a1d8ba2d157b7717764cf078a876c7c531997a66",
+      "segments": [
+        {
+          "file": "Hans/Binaries/Win64/OpenImageDenoise.dll",
+          "file_offset": 23035092,
+          "chunk_offset": 0,
+          "length": 26752652
+        },
+        {
+          "file": "Hans/Binaries/Win64/steam_appid.txt",
+          "file_offset": 0,
+          "chunk_offset": 26752652,
+          "length": 7
+        },
+        {
+          "file": "Hans/Binaries/Win64/tbb.dll",
+          "file_offset": 0,
+          "chunk_offset": 26752659,
+          "length": 399816
+        },
+        {
+          "file": "Hans/Binaries/Win64/tbb.pdb",
+          "file_offset": 0,
+          "chunk_offset": 27152475,
+          "length": 6230016
+        },
+        {
+          "file": "Hans/Binaries/Win64/tbb12.dll",
+          "file_offset": 0,
+          "chunk_offset": 33382491,
+          "length": 309704
+        },
+        {
+          "file": "Hans/Content/Paks/global.ucas",
+          "file_offset": 0,
+          "chunk_offset": 33692195,
+          "length": 1963408
+        },
+        {
+          "file": "Hans/Content/Paks/global.utoc",
+          "file_offset": 0,
+          "chunk_offset": 35655603,
+          "length": 563
+        },
+        {
+          "file": "Hans/Content/Paks/Hans-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 35656166,
+          "length": 19918362
+        }
+      ]
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 55574528,
+      "sha256": "6128a9dfd4f63438ce10b09fb7bb66951d8333e628eb609be1fed87f5e44e6e4",
+      "segments": [
+        {
+          "file": "Hans/Content/Paks/Hans-Windows.pak",
+          "file_offset": 19918362,
+          "chunk_offset": 0,
+          "length": 11402273
+        },
+        {
+          "file": "Hans/Content/Paks/Hans-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 11402273,
+          "length": 44172255
+        }
+      ]
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 55574528,
+      "sha256": "2bfe825c72ff745b949cbd23867dae8a808114c975c3f6ce7e3b80dbe414ca18",
+      "segments": [
+        {
+          "file": "Hans/Content/Paks/Hans-Windows.ucas",
+          "file_offset": 44172255,
+          "chunk_offset": 0,
+          "length": 55574528
+        }
+      ]
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 55574528,
+      "sha256": "f9c8a7195f5bad0e8b72f8273911aabbc55d9798d47bc89a50a59c9034ac59da",
+      "segments": [
+        {
+          "file": "Hans/Content/Paks/Hans-Windows.ucas",
+          "file_offset": 99746783,
+          "chunk_offset": 0,
+          "length": 55574528
+        }
+      ]
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 55574528,
+      "sha256": "08d7bc4d8b33bd84510449a4ec063cb90c0222d271572834a9299a197b367e36",
+      "segments": [
+        {
+          "file": "Hans/Content/Paks/Hans-Windows.ucas",
+          "file_offset": 155321311,
+          "chunk_offset": 0,
+          "length": 55574528
+        }
+      ]
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 55574528,
+      "sha256": "b9343af01a8dd68157ed26b6fe5dc18ecb0a94e893b03a12e645398b4ce2e9ba",
+      "segments": [
+        {
+          "file": "Hans/Content/Paks/Hans-Windows.ucas",
+          "file_offset": 210895839,
+          "chunk_offset": 0,
+          "length": 55574528
+        }
+      ]
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 55574528,
+      "sha256": "3e0eefb0bda9bfd5736dcb7601ca4ea577fc2c535e2fd8e86da3a5d775250e6c",
+      "segments": [
+        {
+          "file": "Hans/Content/Paks/Hans-Windows.ucas",
+          "file_offset": 266470367,
+          "chunk_offset": 0,
+          "length": 55574528
+        }
+      ]
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 42558894,
+      "sha256": "ef03723c447b6098b14ee0b13ac028492b22f8870b71ec90def0c9af14efd553",
+      "segments": [
+        {
+          "file": "Hans/Content/Paks/Hans-Windows.ucas",
+          "file_offset": 322044895,
+          "chunk_offset": 0,
+          "length": 40436001
+        },
+        {
+          "file": "Hans/Content/Paks/Hans-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 40436001,
+          "length": 770619
+        },
+        {
+          "file": "Manifest_NonUFSFiles_Win64.txt",
+          "file_offset": 0,
+          "chunk_offset": 41206620,
+          "length": 1944
+        },
+        {
+          "file": "Manifest_UFSFiles_Win64.txt",
+          "file_offset": 0,
+          "chunk_offset": 41208564,
+          "length": 867014
+        },
+        {
+          "file": "UNINSTALL.exe",
+          "file_offset": 0,
+          "chunk_offset": 42075578,
+          "length": 483316
+        }
+      ]
+    }
+  ]
+}
