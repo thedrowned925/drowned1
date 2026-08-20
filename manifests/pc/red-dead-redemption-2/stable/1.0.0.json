@@ -1,0 +1,2784 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "red-dead-redemption-2",
+    "title": "Red Dead Redemption 2",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Arthur Morgan and the Van der Linde Gang are outlaws on the run. With federal agents and bounty hunters massing on their heels, the gang must rob, steal, and fight their way across the rugged heartland in order to survive."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-red-dead-redemption-2-v1.0.0-stable"
+  },
+  "chunk_size": 1610612736,
+  "upload_workers": 40,
+  "total_size": 128092833732,
+  "files": [
+    {
+      "path": "12on7/d3d12.dll",
+      "size": 1913416,
+      "sha256": "2a6d249014852b6d8e631598daadd5cf26ded9fc918deba740620659aed23071"
+    },
+    {
+      "path": "1911.dll",
+      "size": 2525696,
+      "sha256": "8377cec57369df051cd4de71b7acc0c55148c261d9575fa3ec97461c2773d85d"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "_Unlocker/Open Saves Location.bat",
+      "size": 63,
+      "sha256": "b1d622c94ed3753edce08f74913dc07b262655ea53905072c3a8130ca840e145"
+    },
+    {
+      "path": "_Unlocker/Player",
+      "size": 112,
+      "sha256": "4e805f20007326a9573e04c8d7fa012935def7a5af9ca464f53dbcbb9f365b0b"
+    },
+    {
+      "path": "_Unlocker/readme.txt",
+      "size": 768,
+      "sha256": "af2188e3507a48ebbe7c26d15eec457a1206a719c7080269e2d4451bebb71612"
+    },
+    {
+      "path": "amd_ags_x64.dll",
+      "size": 175600,
+      "sha256": "0b2c206a1355323b4a792876bfaf22e5ca6219e3651c2eeb172e481c8c3621dd"
+    },
+    {
+      "path": "anim_0.rpf",
+      "size": 4156570401,
+      "sha256": "dff3b67d7732e640c1effc2b24de67ffcbda04ef11ed493aced757a2cf8fdc99"
+    },
+    {
+      "path": "appdata0_update.rpf",
+      "size": 3164623,
+      "sha256": "fb309a135a804a116349bcd0755df1f03bccf6f735cb16751583ec2bc21d389f"
+    },
+    {
+      "path": "bink2w64.dll",
+      "size": 396272,
+      "sha256": "f6f8e7fe35251fbaa921d07ace3f06d53d27a270377578961226858ae23865dc"
+    },
+    {
+      "path": "common_0.rpf",
+      "size": 8445425,
+      "sha256": "0d4c522b7c468a4f983496b4477c977020002cc3f0f7c892bf6f8d6aeb73ef4d"
+    },
+    {
+      "path": "data_0.rpf",
+      "size": 287467561,
+      "sha256": "5632914aa36142172aca4726261abe243d30bdc0872a52370d25c0044ea533d3"
+    },
+    {
+      "path": "dxilconv7.dll",
+      "size": 1459272,
+      "sha256": "d59a96833ba612152615cd0af888b4ada00dfebd90b0a297e5fd8cc8e6be2f1f"
+    },
+    {
+      "path": "ffx_fsr2_api_dx12_x64.dll",
+      "size": 2932208,
+      "sha256": "80e1382981d85794ba2cf19bee23464a75b1fb0253b1ddcd0875862838ccdeae"
+    },
+    {
+      "path": "ffx_fsr2_api_vk_x64.dll",
+      "size": 2398704,
+      "sha256": "60116ac13bee13eaedee734d5bb64e65db3cd667dbdbd9c68e91196ed4d11f6f"
+    },
+    {
+      "path": "ffx_fsr2_api_x64.dll",
+      "size": 51184,
+      "sha256": "887d11aaef717aa2d4713f4b6fb56b3d4c75737af51042de22f70f0a3fb89f83"
+    },
+    {
+      "path": "Force Chinese Simplified.bat",
+      "size": 55,
+      "sha256": "5a80825eece05ba9347a8d2806dcb109a8b3f0816547d6a53ffe15446f3ca4cf"
+    },
+    {
+      "path": "Force Chinese Traditional.bat",
+      "size": 55,
+      "sha256": "936b5c8df7a2f8f8db493d808e4b8367ce1699ccc5d4c4b8abff90dd0d145523"
+    },
+    {
+      "path": "Force English.bat",
+      "size": 55,
+      "sha256": "b84b61971c55339818000091796a7467eba49c3d0e55b1f87f6d2c9255814aca"
+    },
+    {
+      "path": "Force French.bat",
+      "size": 55,
+      "sha256": "4bd57f28ccbafd8a68dc6d9971cb701e06496108dd1940098d8fc2cf1e889a33"
+    },
+    {
+      "path": "Force German.bat",
+      "size": 55,
+      "sha256": "59d40cd6db3044ec66981338c65edf0a443aa0d1ccd710e797eff2de26b4c79b"
+    },
+    {
+      "path": "Force Italian.bat",
+      "size": 55,
+      "sha256": "d4ecd975643f6959e5ef75efb50f3a7f78f3a2b334122d15212c87d8be1aefba"
+    },
+    {
+      "path": "Force Japanese.bat",
+      "size": 55,
+      "sha256": "6282a84aa423415e58f041405191583cb0fcbbaf297db76a668f73b034bff64e"
+    },
+    {
+      "path": "Force Korean.bat",
+      "size": 55,
+      "sha256": "bc91138b942ce157450a1a9fec841fb7346af8526dc94518c2dc35df5c491afe"
+    },
+    {
+      "path": "Force Polish.bat",
+      "size": 55,
+      "sha256": "9b156bee9eeee68a5ad3c7cbe22bb3c28f1e13da14263f2d52ee9d23626e4246"
+    },
+    {
+      "path": "Force Portuguese-Brazil.bat",
+      "size": 55,
+      "sha256": "631e299b588da4dba569bce253ce6f5223a44a52455b49125443e69a437523e9"
+    },
+    {
+      "path": "Force Russian.bat",
+      "size": 55,
+      "sha256": "55cacac7eaec5b5e01e5097f2ca42bb96200eb5fd7ff7762bbdf08ddfb16d332"
+    },
+    {
+      "path": "Force Spanish Latin America.bat",
+      "size": 55,
+      "sha256": "fd97231e94a5de4ad0d54633906cea90b67375224a9856432d957c47e2806f2d"
+    },
+    {
+      "path": "Force Spanish.bat",
+      "size": 55,
+      "sha256": "f21d14f146540451d29a797e4525d80775521fc34d2dd4262ead9bd48adab7f9"
+    },
+    {
+      "path": "hd_0.rpf",
+      "size": 1032863429,
+      "sha256": "cf66870c6b28d4a50e63c240e92adc854faf89e57a9c43b9f1e29bdc27a8d38d"
+    },
+    {
+      "path": "index.bin",
+      "size": 50192,
+      "sha256": "d64d13fde1372d6b977f7109914be7089a4f295049a0bc2eff11db3172ce417f"
+    },
+    {
+      "path": "Language Changer/commandline.bra",
+      "size": 18,
+      "sha256": "8a3f1932f7ef49d342b3753971d6c5b53d031d40070ffb3934c5e115f81af3ec"
+    },
+    {
+      "path": "Language Changer/commandline.chs",
+      "size": 18,
+      "sha256": "25f06b32d36c0c3149d7dedfc01f1c2ace6e4c438c9fa2d07b9f8d34753e27fb"
+    },
+    {
+      "path": "Language Changer/commandline.cht",
+      "size": 18,
+      "sha256": "6f040427282054c8b4b8d3aa78a2524dec8a2e1dad0b74255cf4f3dc60573277"
+    },
+    {
+      "path": "Language Changer/commandline.eng",
+      "size": 18,
+      "sha256": "64549f9043c8eda33714ad49db5bc94cb2c13cb99f76bf3ac1470abf1b656d1d"
+    },
+    {
+      "path": "Language Changer/commandline.esp",
+      "size": 18,
+      "sha256": "32d22271c180e687beddbfe2c8adfcf8709309676f9cb57b259402c26a5df0e8"
+    },
+    {
+      "path": "Language Changer/commandline.fra",
+      "size": 18,
+      "sha256": "967ed3219687ea980e30d40668451f580e06adaa70078fafeeebae04b1734a1c"
+    },
+    {
+      "path": "Language Changer/commandline.ger",
+      "size": 18,
+      "sha256": "a1623130dc75eed8c1a731e89b470da2ff630f604e9a95f41407684a12d93cdf"
+    },
+    {
+      "path": "Language Changer/commandline.ita",
+      "size": 18,
+      "sha256": "4aec0bbd6f40246abf870c404f0e5b78eac583a06a40df03e4f8ebd7ef2c0903"
+    },
+    {
+      "path": "Language Changer/commandline.jap",
+      "size": 18,
+      "sha256": "c140298c4d5782caf4779339a497a06c8ba620e7a5bd97a2aa2b462226b36e03"
+    },
+    {
+      "path": "Language Changer/commandline.kor",
+      "size": 18,
+      "sha256": "bbf346684f0fb00c5f455b2a583f7eb3f518bf3ec2e7ee1fb0d980e22e0ee9f1"
+    },
+    {
+      "path": "Language Changer/commandline.mex",
+      "size": 18,
+      "sha256": "bffe1ee3ba8754c46152e0b98db65cc6e692dc8edc4e31d5ec8b3e87e56d54c3"
+    },
+    {
+      "path": "Language Changer/commandline.pol",
+      "size": 18,
+      "sha256": "22b8c0d36bd4cdc1bac18a5762a08d8c261092a0eb0db2bc790545776d5d9430"
+    },
+    {
+      "path": "Language Changer/commandline.rus",
+      "size": 18,
+      "sha256": "0d9b32f811aecc6314c5323fc6bb10de74af597501cc8cdb6b4aa7a404c327a3"
+    },
+    {
+      "path": "Launcher.exe",
+      "size": 591872,
+      "sha256": "6bc80774f25d4c32242a44c0cf18b5e4e94c4558b46c03ac9b6f4ea6b66b95f9"
+    },
+    {
+      "path": "Launcher_with_cracktro.exe",
+      "size": 591872,
+      "sha256": "ffcd210c6a1cbabb289bfeaaa4239f5c2be022f076cef58664448d2c4833263e"
+    },
+    {
+      "path": "levels_0.rpf",
+      "size": 345491054,
+      "sha256": "902b0560ecaef1e077a658ce301d6fc8f4a2dec6eb3c3ca457959d763e2426da"
+    },
+    {
+      "path": "levels_1.rpf",
+      "size": 8527381965,
+      "sha256": "85d5db197a307c91bb1cbfe70e69d343e35ffb3bc6f86138ed069c96cf969e7d"
+    },
+    {
+      "path": "levels_2.rpf",
+      "size": 8537129694,
+      "sha256": "9c34006817ed4143245eda25bc7fe47a6f544773371a7488551c1d89fddf31f8"
+    },
+    {
+      "path": "levels_3.rpf",
+      "size": 8547713634,
+      "sha256": "7ad17018bc544030110d45bdb063169ce34dad30cfd638b5c4bc8e982864de55"
+    },
+    {
+      "path": "levels_4.rpf",
+      "size": 8539435686,
+      "sha256": "3dd48daa2d25b1104ef52319360d701ade4f82e6709dfb7c39d150c9ff4bbe71"
+    },
+    {
+      "path": "levels_5.rpf",
+      "size": 8537629034,
+      "sha256": "6e2e6ff5ddc311b8a9fdda2eea560e93b04c30d23b922e95ed611875497e63b8"
+    },
+    {
+      "path": "levels_6.rpf",
+      "size": 8499373946,
+      "sha256": "dbbdc46ec89fe3ee05aaf36161da4c8ed683240659a0b6023cede9c65bbfe2b8"
+    },
+    {
+      "path": "levels_7.rpf",
+      "size": 7069735505,
+      "sha256": "a781a424e9a78ac2096f0fad1c4b3c1cebae990fbc794bb7c570f82dfd0188b8"
+    },
+    {
+      "path": "movies_0.rpf",
+      "size": 2084356526,
+      "sha256": "2ae6c506de91248b67868645c95dbcc007c76899b2c1e8221ae7d3c7c29a2f82"
+    },
+    {
+      "path": "NvLowLatencyVk.dll",
+      "size": 48952,
+      "sha256": "d9f2d20f25082b1cc6b702a710609fe32ed827e61d2db5ab3ca14b65371dfcc6"
+    },
+    {
+      "path": "nvngx_dlss.dll",
+      "size": 14445424,
+      "sha256": "864a4cdd495cb499e28ddb8bf9b3e5fc67ccf365436a9548bc43a634a8baa1ff"
+    },
+    {
+      "path": "oo2core_5_win64.dll",
+      "size": 945648,
+      "sha256": "3d93de36c473413110e4bf65174445790f469401a6d77db3a53858527088f611"
+    },
+    {
+      "path": "packs_0.rpf",
+      "size": 1018142190,
+      "sha256": "c42c701751fef3c5e0bec3ab49804da74dcb33b793db7bfd4e442ff41f83b69f"
+    },
+    {
+      "path": "packs_1.rpf",
+      "size": 4328447109,
+      "sha256": "cde2f84a65c2671c1ce7e5ccc62ad0eb53c70d0884841126852bb1e7b5aca06d"
+    },
+    {
+      "path": "RDR2.exe",
+      "size": 89562608,
+      "sha256": "9b8b8454616a6ef91c8d5655b231e5cd21aa2236ab8cb04c34fce09248a55fdc"
+    },
+    {
+      "path": "rowpack_0.rpf",
+      "size": 370039418,
+      "sha256": "74dbfe5d42a2a45569324586980061fb5d4120533ea7e4e74140aed34022d88f"
+    },
+    {
+      "path": "shaders_x64.rpf",
+      "size": 233921358,
+      "sha256": "ae7139ef2d5ef52c3cc0461a0bffbce36d44c425c126b61757404a131cb9e3e4"
+    },
+    {
+      "path": "textures_0.rpf",
+      "size": 3280046696,
+      "sha256": "03796686e405823e7764f9064ee0b6f163aa602e9564a87eb1b5f6cf9a958299"
+    },
+    {
+      "path": "textures_1.rpf",
+      "size": 3605039412,
+      "sha256": "ceacc81ef250660a696c47acce9d7e240cf21687ada2ed4f25e6e50d37edf8ee"
+    },
+    {
+      "path": "title.rgl",
+      "size": 2000,
+      "sha256": "5711101ffea8da72ddca25566f85e02ecced9325b59b11163718e96eba8c7c84"
+    },
+    {
+      "path": "update_1.rpf",
+      "size": 2833741450,
+      "sha256": "5da40f342f54ce49cd3eea34a717bc6947d269b154433a2883a5b07ee6a654b6"
+    },
+    {
+      "path": "update_2.rpf",
+      "size": 152046254,
+      "sha256": "53c7b55b1acecec77a760cb2af7f029a8f643a3c985f3c5f8d39ebc6c117d077"
+    },
+    {
+      "path": "update_3.rpf",
+      "size": 132374684,
+      "sha256": "46cecd28c2c1fe7bc80476ba0bb07e4ec5064672f30dc4b352710956a939b970"
+    },
+    {
+      "path": "update_4.rpf",
+      "size": 2015028563,
+      "sha256": "575817d08b7fa09e0addb5f5bbdbde1e5a770f25d85a9e53fcb72459e0191da1"
+    },
+    {
+      "path": "x64/audio/audio_rel.rpf",
+      "size": 6102578,
+      "sha256": "a2787e69429a7bc3bcce5f4bc439159ac929b68e16fcb71ec091bd0a1491adb8"
+    },
+    {
+      "path": "x64/audio/sfx/ANIMALS_FAR.rpf",
+      "size": 70906591,
+      "sha256": "cb1c252a97328fd6b030483701a2c3b07e4c60ef56941ee775186dca45414e62"
+    },
+    {
+      "path": "x64/audio/sfx/ANIMALS_HORSES.rpf",
+      "size": 17585791,
+      "sha256": "107ab34c7eab2145b8320fbc77f51ed89f3b00f10715f15f28dd90a6afc7ab91"
+    },
+    {
+      "path": "x64/audio/sfx/ANIMALS_NEAR.rpf",
+      "size": 225291916,
+      "sha256": "157da07a3859bd17378f78d2e1cad2ec231a6edf9212174d83d8df147f167343"
+    },
+    {
+      "path": "x64/audio/sfx/CUTSCENE_MASTERED_ONLY.rpf",
+      "size": 2345775931,
+      "sha256": "82b6666d1c26eb59351afe36b16a2418aeb86b3c745b04cbea338fde5fe61638"
+    },
+    {
+      "path": "x64/audio/sfx/INTERACTIVE_MUSIC.rpf",
+      "size": 6955531,
+      "sha256": "d469e23e2d7fc2f2358bbe580568a8e85b6bfd5063e2bfcee024421f9dbd99ac"
+    },
+    {
+      "path": "x64/audio/sfx/MUSIC_2T.rpf",
+      "size": 220465673,
+      "sha256": "d9fae76bbb7b262bc48a43219bb364a95303f5529cde64aa900116d41d3b2e38"
+    },
+    {
+      "path": "x64/audio/sfx/ONESHOT_AMBIENCE.rpf",
+      "size": 70586170,
+      "sha256": "f001b50fad043fdfac68051953b7a749036fd917ef6e82262e77685ad29e8736"
+    },
+    {
+      "path": "x64/audio/sfx/PEDS_00.rpf",
+      "size": 374272884,
+      "sha256": "c4f1970c107e68cb1579968d7007dca18dcaaebdba8d72b7f97d1548dbf47d5f"
+    },
+    {
+      "path": "x64/audio/sfx/PEDS_01.rpf",
+      "size": 371457529,
+      "sha256": "dac5d9fbc30255051b13d19b4778ad9398d50c86f3c40d3d93128a68515d47b8"
+    },
+    {
+      "path": "x64/audio/sfx/PEDS_02.rpf",
+      "size": 371381244,
+      "sha256": "9ddef8269994b8bc25dd6ed62b1c126594c5c2357cc15cc36f863c4dfe0c52ba"
+    },
+    {
+      "path": "x64/audio/sfx/PEDS_03.rpf",
+      "size": 454014111,
+      "sha256": "759e385a1c0e7b70bf536cb270fe990476ac0ccdb3f4cb6c48554573bc228bc2"
+    },
+    {
+      "path": "x64/audio/sfx/PEDS_04.rpf",
+      "size": 617595459,
+      "sha256": "3afa0de1df33b1f1d302670e98b99962c9af9fd507680086dba5de58fd8fcaea"
+    },
+    {
+      "path": "x64/audio/sfx/PEDS_05.rpf",
+      "size": 235640409,
+      "sha256": "9174a152690a3fc920357e1051eb7abbeaee2caf71e410562618c107fa40d225"
+    },
+    {
+      "path": "x64/audio/sfx/PEDS_06.rpf",
+      "size": 268420774,
+      "sha256": "e9c1bce97208540d0e49186e32bc9e2c03af475ea75876f2dac6d9366d71c114"
+    },
+    {
+      "path": "x64/audio/sfx/PEDS_07.rpf",
+      "size": 672746998,
+      "sha256": "4fec06f1a8ffd2d97b89427659ef1a0c49002b86583f9b8f478c990d0dcf24d0"
+    },
+    {
+      "path": "x64/audio/sfx/PEDS_08.rpf",
+      "size": 811330824,
+      "sha256": "37cdd6d9b0375526464681a7091d220f1a48c9935aa1d96edbe92c8ec0a91849"
+    },
+    {
+      "path": "x64/audio/sfx/PEDS_09.rpf",
+      "size": 664993280,
+      "sha256": "37fef3a1f3d5297190da680706e25cdafe6e46652f0e6b12866d34b6d30fb99c"
+    },
+    {
+      "path": "x64/audio/sfx/PEDS_10.rpf",
+      "size": 1630541260,
+      "sha256": "afaaca5e36635a4bf383f50b1b088f0b8d08ca2339f1e52bdd5f97d407242a13"
+    },
+    {
+      "path": "x64/audio/sfx/RDR3.Resident.rpf",
+      "size": 330210453,
+      "sha256": "085c41daab5abbaf24511f76ddb6ad6742999bac24e89c44352603e59b14475d"
+    },
+    {
+      "path": "x64/audio/sfx/RESIDENT.rpf",
+      "size": 517658744,
+      "sha256": "e8a9e20a80d718b81563a25d6082a50ff0c8a7318e8f00327020498f48a9deb7"
+    },
+    {
+      "path": "x64/audio/sfx/S_MISC.rpf",
+      "size": 3430427526,
+      "sha256": "384419100da945164271f6f245d8d730f2792953be8738e9b7d0d1feb49fdf05"
+    },
+    {
+      "path": "x64/audio/sfx/S_RE.rpf",
+      "size": 717558171,
+      "sha256": "c584ee3f167c2ee631a5753439534fe4465dcc7473fdbb5be02dde6e93568272"
+    },
+    {
+      "path": "x64/audio/sfx/S_VOFX.rpf",
+      "size": 76013925,
+      "sha256": "9478771f3464268df7d23910e14fd0951529c7a682f95ba194b15ced077897eb"
+    },
+    {
+      "path": "x64/audio/sfx/SCORE_01.rpf",
+      "size": 1287802058,
+      "sha256": "bb8fba6465cf000696f2aff74522df4b5bba62179f0b4414bd47c83fad013207"
+    },
+    {
+      "path": "x64/audio/sfx/SCORE_02.rpf",
+      "size": 1246561840,
+      "sha256": "77d017adc26606d03c763ba676743118a1c06e81608210020f9834e5518c1ea2"
+    },
+    {
+      "path": "x64/audio/sfx/SCORE_03.rpf",
+      "size": 937259565,
+      "sha256": "180f7aa9eacacdfeee0f73a47fdc21334b89c7278b801536d6cf9fb8ce05ca47"
+    },
+    {
+      "path": "x64/audio/sfx/SCORE_04.rpf",
+      "size": 1062586665,
+      "sha256": "8043e5182bee6977e2e5d01b620716e4b9070b86ce84640c3e1754ad8d80f72a"
+    },
+    {
+      "path": "x64/audio/sfx/SCORE_05.rpf",
+      "size": 1160340059,
+      "sha256": "7398dd8252f66b21e85860c0c83ad016fc52a67258c94748829c23e0efcef9b5"
+    },
+    {
+      "path": "x64/audio/sfx/SCORE_06.rpf",
+      "size": 491441179,
+      "sha256": "ce6ea9a5da497f88a4f999e1bb48622fc05ca0e3e6a7521732303a0c49cbcabd"
+    },
+    {
+      "path": "x64/audio/sfx/SCRIPT.rpf",
+      "size": 505997764,
+      "sha256": "750cb1c26e165791e902b1c367e8143fe445ef4512eb9a4d3a2afae17bc8a65a"
+    },
+    {
+      "path": "x64/audio/sfx/SS_AM.rpf",
+      "size": 1402726039,
+      "sha256": "bdbaefe7a117c1e5ed1b66fdbf882e918d865d9865f6c713b3a4be5faab5a8e8"
+    },
+    {
+      "path": "x64/audio/sfx/SS_NZ.rpf",
+      "size": 1550442771,
+      "sha256": "038dac7fc0088f3934f01383af340eef0a4e12a6cb6c0b1cc083c43d4aeffcd5"
+    },
+    {
+      "path": "x64/audio/sfx/STREAMED_AMBIENCE.rpf",
+      "size": 418574201,
+      "sha256": "3343e0b1270e8e13e0448546ab85011441ddd87aa413883c7650232aaa62e571"
+    },
+    {
+      "path": "x64/audio/sfx/STREAMS.rpf",
+      "size": 875208173,
+      "sha256": "00094a8333c271af2407a1bdd538c7547a92ef3ffd6ce6489c673ddb46690f74"
+    },
+    {
+      "path": "x64/audio/sfx/STREAMS_AS.rpf",
+      "size": 389061506,
+      "sha256": "14b12dae6828729e0a0f57ad476edd68c01e60f00dcb26cb8521b5a7f46248f7"
+    },
+    {
+      "path": "x64/audio/sfx/THUNDER.rpf",
+      "size": 32974371,
+      "sha256": "cac361e0b534d8c3d79074faa7e51a78df23b31b2dfa93389b00a517c8c87b9c"
+    },
+    {
+      "path": "x64/audio/sfx/VEHICLES.rpf",
+      "size": 78198959,
+      "sha256": "278a69aaafe94369d3ff09697577c13d06680899ee4da09f4cd9ddb310eab1a4"
+    },
+    {
+      "path": "x64/audio/sfx/WALLA.rpf",
+      "size": 19203584,
+      "sha256": "2a29db2e2b5903c743e98e217ed40b5ed9f1691cbce0cb8394cf436c3a645b8b"
+    },
+    {
+      "path": "x64/audio/sfx/WEAPONS_PLAYER.rpf",
+      "size": 42844424,
+      "sha256": "2f2e4eaf0d1a379ff902b4e1136792f5430b2491e1c8b4ac5874ffa41aa0351c"
+    },
+    {
+      "path": "x64/crashpad/release/crashpad_handler.exe",
+      "size": 743424,
+      "sha256": "a3b7782d06941bcef457ff952eab334566f2442686ac503df28d317b6ef0a32e"
+    },
+    {
+      "path": "x64/data/errorcodes/american.txt",
+      "size": 27478,
+      "sha256": "c5564d6ac5f217d121bb651d2a6f9c106c28c06e1fd4a1fa36fa333472de479e"
+    },
+    {
+      "path": "x64/data/errorcodes/chinese.txt",
+      "size": 50837,
+      "sha256": "7c3a77b46d95f7f8e85253f1df4d6ab443e878a6805c7e26e1c29eac6cf106f2"
+    },
+    {
+      "path": "x64/data/errorcodes/chinesesimp.txt",
+      "size": 50018,
+      "sha256": "395530ae6b00f034718bdfc201367888a61ac2aee3192383a61ff81c6b301f20"
+    },
+    {
+      "path": "x64/data/errorcodes/french.txt",
+      "size": 53360,
+      "sha256": "677d795d95005ea91c549447236f578b72e4a3338fbd038be95c349553ba370a"
+    },
+    {
+      "path": "x64/data/errorcodes/german.txt",
+      "size": 53057,
+      "sha256": "5b1af9aeee931fe4e3b2e904a23d7ab8626ac601fae54193d203be8eab4a6520"
+    },
+    {
+      "path": "x64/data/errorcodes/italian.txt",
+      "size": 52360,
+      "sha256": "516e7b95783b296b29e9acb78ec6b4050a809cf4c5b43d617b5f90c336b4b5e5"
+    },
+    {
+      "path": "x64/data/errorcodes/japanese.txt",
+      "size": 64948,
+      "sha256": "966c5f6197462b591775a25d785b0a08824fda61898f989ae6780ac021e977a4"
+    },
+    {
+      "path": "x64/data/errorcodes/korean.txt",
+      "size": 59988,
+      "sha256": "761672eeb37c5ad2f27821419b5fc9c11a76f7552827f59063ad78b86446b8b5"
+    },
+    {
+      "path": "x64/data/errorcodes/mexican.txt",
+      "size": 52247,
+      "sha256": "77c6ee64c037f3b2757949bc1a4c98f6f4dcfaee51ef0886819503de1c624c20"
+    },
+    {
+      "path": "x64/data/errorcodes/polish.txt",
+      "size": 53999,
+      "sha256": "2eaf31cd9987fadf6127f9c23e3787b014beae5393a5dac6472905c1481186f1"
+    },
+    {
+      "path": "x64/data/errorcodes/portuguese.txt",
+      "size": 52657,
+      "sha256": "651c64979e35168290000957318c98799569ac28004839434b3cb8358e0136de"
+    },
+    {
+      "path": "x64/data/errorcodes/russian.txt",
+      "size": 75871,
+      "sha256": "0cfa140544acbf83b84f27141a0a2f1a7f46a392d21829e96644306740399a7f"
+    },
+    {
+      "path": "x64/data/errorcodes/spanish.txt",
+      "size": 54875,
+      "sha256": "c995a155ee594bdf91bb28adf50aea5ef89a2de68b00ad094b334c9a125350ad"
+    },
+    {
+      "path": "x64/dlcpacks/dlc_content_extra/dlc.rpf",
+      "size": 119898862,
+      "sha256": "d7faeb90e296db9bda26eb62cf8cf596eb125e434d660ed50ca40c3a14aba7bc"
+    },
+    {
+      "path": "x64/dlcpacks/mp001/dlc.rpf",
+      "size": 2809677865,
+      "sha256": "2fe1b8af65b737360336cf600087b1f1e5b42c6ea5f7e97ef6c8979a10777adc"
+    },
+    {
+      "path": "x64/dlcpacks/mp003/dlc.rpf",
+      "size": 489661242,
+      "sha256": "b940c5a4364e710dedfc19e13c2a24d8cdbbf11d5810e0c2aeed298d2b6a152a"
+    },
+    {
+      "path": "x64/dlcpacks/mp004/dlc.rpf",
+      "size": 996718107,
+      "sha256": "6c856346d08137e887d99d14811ae7bd91497b14869de664bc3b5df36cff7a5d"
+    },
+    {
+      "path": "x64/dlcpacks/mp005/dlc.rpf",
+      "size": 2877667266,
+      "sha256": "3971b06180cad2f589d70dc6f31712b293e07cf550bff126cab1bdd63ee28ef4"
+    },
+    {
+      "path": "x64/dlcpacks/mp006/dlc.rpf",
+      "size": 2082956352,
+      "sha256": "3cbdff5fda04c8c994e86ed4f1ae6bfa074f343ee8fe97a6a93fe2807505b9b8"
+    },
+    {
+      "path": "x64/dlcpacks/mp007/dlc.rpf",
+      "size": 1425958473,
+      "sha256": "4dba0a7da704458eeaee997307071772b1e2335c8245ce678c3fe241551d4dda"
+    },
+    {
+      "path": "x64/dlcpacks/mp008/dlc.rpf",
+      "size": 487150980,
+      "sha256": "d20933fc158960490e55d1af50c18e3aac93c51e467edf60a25fc93810545f93"
+    },
+    {
+      "path": "x64/dlcpacks/mp009/dlc.rpf",
+      "size": 494360763,
+      "sha256": "17d62abc5616fc0f0a6dd743bb10bb6a444d7a6a358803c41406d75bf563f84d"
+    },
+    {
+      "path": "x64/dlcpacks/opt001/dlc.rpf",
+      "size": 310260288,
+      "sha256": "70c3d5e184fff2e0cc2cc08d22326e9d240f347f42937652cc450761a00864cf"
+    },
+    {
+      "path": "x64/dlcpacks/patchpack001/dlc.rpf",
+      "size": 2735201379,
+      "sha256": "d77d8430ce7c4f9ff77f71e61553410658edd637972d6431fe47ecfd05e71cc1"
+    },
+    {
+      "path": "x64/dlcpacks/patchpack002/dlc.rpf",
+      "size": 1060477032,
+      "sha256": "42482905af9d3540caf4a7144b219e01a6450d4d4bc49a6ad85fba69d81694b0"
+    },
+    {
+      "path": "x64/dlcpacks/patchpack003/dlc.rpf",
+      "size": 295922570,
+      "sha256": "f75b74ea28f81d2815b0ea62fc19b91db6e7c83ceeb27ba33bdc51ad9d332845"
+    },
+    {
+      "path": "x64/dlcpacks/patchpack004/dlc.rpf",
+      "size": 403507536,
+      "sha256": "eb8c0b0532d84da605bbeef890dd1f108b0bbda077ad30f05d4c4b1f2850121c"
+    },
+    {
+      "path": "x64/dlcpacks/patchpack005/dlc.rpf",
+      "size": 127972677,
+      "sha256": "2101aa076aef2cd7a1b59eb4a18c3ad6364ea89fc9cffea9762d739a2244f558"
+    },
+    {
+      "path": "x64/dlcpacks/patchpack006/dlc.rpf",
+      "size": 330106906,
+      "sha256": "31062247e1a937813781f2a5eda1f8e7d0dc85bb218c01ee9d7a822af1508770"
+    },
+    {
+      "path": "x64/dlcpacks/patchpack007/dlc.rpf",
+      "size": 58027818,
+      "sha256": "60d2468c3d31bfc3f0ba2905309d72af2212759e4dd5f532f0f90ac3d4026446"
+    },
+    {
+      "path": "x64/dlcpacks/patchpack008/dlc.rpf",
+      "size": 24081245,
+      "sha256": "6c1960c28c378c15b40d355c80aef76d03f905aa468a4933e1485e6e4f2364b8"
+    },
+    {
+      "path": "x64/dlcpacks/patchpack009/dlc.rpf",
+      "size": 6188787,
+      "sha256": "ffab681e2880ad8ab3599a5a349e33d988f93224e036d2b568446361480c396a"
+    },
+    {
+      "path": "x64/dlcpacks/patchpack_mp001/dlc.rpf",
+      "size": 112365590,
+      "sha256": "04263ff868fd0244c2717b55b04b0e554c054ed310a556065f11a97fea8a8a2c"
+    },
+    {
+      "path": "x64/dlcpacks/patchpack_mp003/dlc.rpf",
+      "size": 1244933,
+      "sha256": "0d92143a58c3c9863cd64e732649a2e90d32fbe35771a60947fa4ea9390976fa"
+    },
+    {
+      "path": "x64/dlcpacks/patchpack_mp006/dlc.rpf",
+      "size": 106340550,
+      "sha256": "643f77c16aa1456b98acf50819102aa3768b39431083f0a80e9dd2f0d7cd1102"
+    },
+    {
+      "path": "x64/dlcpacks/row_patchpack002/dlc.rpf",
+      "size": 403958359,
+      "sha256": "f978482f9e68072f002b5b1f301a3bb7cd78e6cb9be728731f269c52d694b568"
+    },
+    {
+      "path": "x64/dlcpacks/row_patchpack005/dlc.rpf",
+      "size": 3454809,
+      "sha256": "e1e31ab54c4e5266111ebc7a288644fe5fc7dd185befe75f2cc19be568b62234"
+    },
+    {
+      "path": "x64/dlcpacks/row_patchpack008/dlc.rpf",
+      "size": 4243798,
+      "sha256": "3db1165d907d9621210c31b689896809da56755598a2477a83b99769dfb61834"
+    },
+    {
+      "path": "x64/metadata.dat",
+      "size": 1929291,
+      "sha256": "ff0ad900417ce41821e651230993ef766c0f83a1f7da147079b36836fe6ecd14"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "12on7/d3d12.dll",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 1913416
+        },
+        {
+          "file": "1911.dll",
+          "file_offset": 0,
+          "chunk_offset": 1913416,
+          "length": 2525696
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 4439112,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 5328528,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 5616616,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 6426112,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 21400136,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 35812440,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 41531312,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 46604552,
+          "length": 7054336
+        },
+        {
+          "file": "_Unlocker/Open Saves Location.bat",
+          "file_offset": 0,
+          "chunk_offset": 53658888,
+          "length": 63
+        },
+        {
+          "file": "_Unlocker/Player",
+          "file_offset": 0,
+          "chunk_offset": 53658951,
+          "length": 112
+        },
+        {
+          "file": "_Unlocker/readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 53659063,
+          "length": 768
+        },
+        {
+          "file": "amd_ags_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 53659831,
+          "length": 175600
+        },
+        {
+          "file": "anim_0.rpf",
+          "file_offset": 0,
+          "chunk_offset": 53835431,
+          "length": 1556777305
+        }
+      ],
+      "sha256": "a90bd30813a2b7c2409a9223538ef938b954130533eaf6e578288b0db17f3e05"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "anim_0.rpf",
+          "file_offset": 1556777305,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "9ecce3b94446d55f1483b1cf17d24c9e7036e03b83c54ac03f839bcccafbafe2"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "anim_0.rpf",
+          "file_offset": 3167390041,
+          "chunk_offset": 0,
+          "length": 989180360
+        },
+        {
+          "file": "appdata0_update.rpf",
+          "file_offset": 0,
+          "chunk_offset": 989180360,
+          "length": 3164623
+        },
+        {
+          "file": "bink2w64.dll",
+          "file_offset": 0,
+          "chunk_offset": 992344983,
+          "length": 396272
+        },
+        {
+          "file": "common_0.rpf",
+          "file_offset": 0,
+          "chunk_offset": 992741255,
+          "length": 8445425
+        },
+        {
+          "file": "data_0.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1001186680,
+          "length": 287467561
+        },
+        {
+          "file": "dxilconv7.dll",
+          "file_offset": 0,
+          "chunk_offset": 1288654241,
+          "length": 1459272
+        },
+        {
+          "file": "ffx_fsr2_api_dx12_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1290113513,
+          "length": 2932208
+        },
+        {
+          "file": "ffx_fsr2_api_vk_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1293045721,
+          "length": 2398704
+        },
+        {
+          "file": "ffx_fsr2_api_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1295444425,
+          "length": 51184
+        },
+        {
+          "file": "Force Chinese Simplified.bat",
+          "file_offset": 0,
+          "chunk_offset": 1295495609,
+          "length": 55
+        },
+        {
+          "file": "Force Chinese Traditional.bat",
+          "file_offset": 0,
+          "chunk_offset": 1295495664,
+          "length": 55
+        },
+        {
+          "file": "Force English.bat",
+          "file_offset": 0,
+          "chunk_offset": 1295495719,
+          "length": 55
+        },
+        {
+          "file": "Force French.bat",
+          "file_offset": 0,
+          "chunk_offset": 1295495774,
+          "length": 55
+        },
+        {
+          "file": "Force German.bat",
+          "file_offset": 0,
+          "chunk_offset": 1295495829,
+          "length": 55
+        },
+        {
+          "file": "Force Italian.bat",
+          "file_offset": 0,
+          "chunk_offset": 1295495884,
+          "length": 55
+        },
+        {
+          "file": "Force Japanese.bat",
+          "file_offset": 0,
+          "chunk_offset": 1295495939,
+          "length": 55
+        },
+        {
+          "file": "Force Korean.bat",
+          "file_offset": 0,
+          "chunk_offset": 1295495994,
+          "length": 55
+        },
+        {
+          "file": "Force Polish.bat",
+          "file_offset": 0,
+          "chunk_offset": 1295496049,
+          "length": 55
+        },
+        {
+          "file": "Force Portuguese-Brazil.bat",
+          "file_offset": 0,
+          "chunk_offset": 1295496104,
+          "length": 55
+        },
+        {
+          "file": "Force Russian.bat",
+          "file_offset": 0,
+          "chunk_offset": 1295496159,
+          "length": 55
+        },
+        {
+          "file": "Force Spanish Latin America.bat",
+          "file_offset": 0,
+          "chunk_offset": 1295496214,
+          "length": 55
+        },
+        {
+          "file": "Force Spanish.bat",
+          "file_offset": 0,
+          "chunk_offset": 1295496269,
+          "length": 55
+        },
+        {
+          "file": "hd_0.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1295496324,
+          "length": 315116412
+        }
+      ],
+      "sha256": "a4c17575b218910e60a62983fe741bd85996b6f4690a90134933677678243a5e"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "hd_0.rpf",
+          "file_offset": 315116412,
+          "chunk_offset": 0,
+          "length": 717747017
+        },
+        {
+          "file": "index.bin",
+          "file_offset": 0,
+          "chunk_offset": 717747017,
+          "length": 50192
+        },
+        {
+          "file": "Language Changer/commandline.bra",
+          "file_offset": 0,
+          "chunk_offset": 717797209,
+          "length": 18
+        },
+        {
+          "file": "Language Changer/commandline.chs",
+          "file_offset": 0,
+          "chunk_offset": 717797227,
+          "length": 18
+        },
+        {
+          "file": "Language Changer/commandline.cht",
+          "file_offset": 0,
+          "chunk_offset": 717797245,
+          "length": 18
+        },
+        {
+          "file": "Language Changer/commandline.eng",
+          "file_offset": 0,
+          "chunk_offset": 717797263,
+          "length": 18
+        },
+        {
+          "file": "Language Changer/commandline.esp",
+          "file_offset": 0,
+          "chunk_offset": 717797281,
+          "length": 18
+        },
+        {
+          "file": "Language Changer/commandline.fra",
+          "file_offset": 0,
+          "chunk_offset": 717797299,
+          "length": 18
+        },
+        {
+          "file": "Language Changer/commandline.ger",
+          "file_offset": 0,
+          "chunk_offset": 717797317,
+          "length": 18
+        },
+        {
+          "file": "Language Changer/commandline.ita",
+          "file_offset": 0,
+          "chunk_offset": 717797335,
+          "length": 18
+        },
+        {
+          "file": "Language Changer/commandline.jap",
+          "file_offset": 0,
+          "chunk_offset": 717797353,
+          "length": 18
+        },
+        {
+          "file": "Language Changer/commandline.kor",
+          "file_offset": 0,
+          "chunk_offset": 717797371,
+          "length": 18
+        },
+        {
+          "file": "Language Changer/commandline.mex",
+          "file_offset": 0,
+          "chunk_offset": 717797389,
+          "length": 18
+        },
+        {
+          "file": "Language Changer/commandline.pol",
+          "file_offset": 0,
+          "chunk_offset": 717797407,
+          "length": 18
+        },
+        {
+          "file": "Language Changer/commandline.rus",
+          "file_offset": 0,
+          "chunk_offset": 717797425,
+          "length": 18
+        },
+        {
+          "file": "Launcher.exe",
+          "file_offset": 0,
+          "chunk_offset": 717797443,
+          "length": 591872
+        },
+        {
+          "file": "Launcher_with_cracktro.exe",
+          "file_offset": 0,
+          "chunk_offset": 718389315,
+          "length": 591872
+        },
+        {
+          "file": "levels_0.rpf",
+          "file_offset": 0,
+          "chunk_offset": 718981187,
+          "length": 345491054
+        },
+        {
+          "file": "levels_1.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1064472241,
+          "length": 546140495
+        }
+      ],
+      "sha256": "7e2f51563697991c41014d82a3aa95833f4efb7f6d7c2af6b7df5e25e25e1d16"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_1.rpf",
+          "file_offset": 546140495,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "b5287406c65e2011b5867ce31811bf183f52b7504d24abc224ae580bfd8dfb07"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_1.rpf",
+          "file_offset": 2156753231,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "ffa3d39af2044df1565e5da3e3fe3edfed5a1ec8b85938500eafa5fccb8f41e1"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_1.rpf",
+          "file_offset": 3767365967,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "48cbed2a50ac87413210ef4646b760e65955d38637cfd98a89fe4156dd679cdb"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_1.rpf",
+          "file_offset": 5377978703,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "d09049e041913960ec5365152c6be1d27895770abbe27b3808310c14f1e062be"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_1.rpf",
+          "file_offset": 6988591439,
+          "chunk_offset": 0,
+          "length": 1538790526
+        },
+        {
+          "file": "levels_2.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1538790526,
+          "length": 71822210
+        }
+      ],
+      "sha256": "30e669f72ebc75c1ad9332c6654574cc7c4534b1e38b00900e0d59b916bde277"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_2.rpf",
+          "file_offset": 71822210,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "193a0917553bf7b814332dbf7787c8f659bd7444ec183e7f39e6c730aa4363be"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_2.rpf",
+          "file_offset": 1682434946,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "3050d6ac59c4e53ba6dfdcd1a79e257fa83fbfbd6e457bd51b14ad28bd602d3a"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_2.rpf",
+          "file_offset": 3293047682,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "c26ccc9c1d4a43ff72558ef82a1f5e12e92eb8248496a57e206304471466d222"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_2.rpf",
+          "file_offset": 4903660418,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "d5f48d2d441cd81f55a3d4da76a5e931f79e8449a03be8e093c8bbd2f220c8f7"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_2.rpf",
+          "file_offset": 6514273154,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "66e76e067e8e78754234d30b83164e12a9089d22e7b835bc2d74f7f088d49f1c"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_2.rpf",
+          "file_offset": 8124885890,
+          "chunk_offset": 0,
+          "length": 412243804
+        },
+        {
+          "file": "levels_3.rpf",
+          "file_offset": 0,
+          "chunk_offset": 412243804,
+          "length": 1198368932
+        }
+      ],
+      "sha256": "7bd63702a6ff0d795db538ed9a5dda4da809e47b1380aa6bec786035ec1206d2"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_3.rpf",
+          "file_offset": 1198368932,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "4f4eaf0f65e7487baa86f20542a86021ae1adcc16a84e2e10480f95228921598"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_3.rpf",
+          "file_offset": 2808981668,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "282e40e9fcfe984b3098ab75737c091da38140f392c3eb48a66c4d2193fdc94e"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_3.rpf",
+          "file_offset": 4419594404,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "7af6686bb51c9d9a4616497d138b4ce3ec82ec76710fbc809353eb16b1063ce2"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_3.rpf",
+          "file_offset": 6030207140,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "56b184fe9efdf3dbdfddc6d77f6c07fdb7e7e1fec15f045a68e5438fe7db9892"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_3.rpf",
+          "file_offset": 7640819876,
+          "chunk_offset": 0,
+          "length": 906893758
+        },
+        {
+          "file": "levels_4.rpf",
+          "file_offset": 0,
+          "chunk_offset": 906893758,
+          "length": 703718978
+        }
+      ],
+      "sha256": "081777ce1aa540c067902c5de2dcd9368c8e614493a4f595367a4cece9d3c4a4"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_4.rpf",
+          "file_offset": 703718978,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "bceb0a8e79a1ed8abb3ad7a0a11987516395b7161c3aa3047d801433e2378fc6"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_4.rpf",
+          "file_offset": 2314331714,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "433f334b6b8af9663e8d4937d2800922f11e91e4c0e58c73954c1350e5a183e1"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_4.rpf",
+          "file_offset": 3924944450,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "3a9134c4909d0a2c2e1e39c1ec6003da06b4fc1cb7fff80b6bef903793ffa782"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_4.rpf",
+          "file_offset": 5535557186,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "abb7b6201d8e9a7a4e2388b6d891fa9e5931f7f0de25b2cbe54ff1e52d56ecdf"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_4.rpf",
+          "file_offset": 7146169922,
+          "chunk_offset": 0,
+          "length": 1393265764
+        },
+        {
+          "file": "levels_5.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1393265764,
+          "length": 217346972
+        }
+      ],
+      "sha256": "082d8802feee320067ea42da24b341c8e5e253f083ed0bb6f3ae3c8d4a0f28fd"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_5.rpf",
+          "file_offset": 217346972,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "67e26b60d0af8f69fd5ecd5a9e327a964cc0404cf8c7eb321224053cb84bf0da"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_5.rpf",
+          "file_offset": 1827959708,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "62d38fe4e86008074d2e6e5bbba4361594b6ca7a83c92e72bba3b95b18284fdb"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_5.rpf",
+          "file_offset": 3438572444,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "932d74d4e0489bd08cdbb4d546de4565f84506b9236430bd1df2dc16f9378d45"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_5.rpf",
+          "file_offset": 5049185180,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "77d81adf8f841752eb6004d75a2dfc58318aa1171e78052ef4e0e5e5a9f8f14f"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_5.rpf",
+          "file_offset": 6659797916,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "49d42b4599145fbb5c0db84ae52ff090f04561e1f3895c034bd044ae0bb7305e"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_5.rpf",
+          "file_offset": 8270410652,
+          "chunk_offset": 0,
+          "length": 267218382
+        },
+        {
+          "file": "levels_6.rpf",
+          "file_offset": 0,
+          "chunk_offset": 267218382,
+          "length": 1343394354
+        }
+      ],
+      "sha256": "2c232282fd363698062e2878dd5c74560dd49497c9a71cad31b1d8fe5d7d7553"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_6.rpf",
+          "file_offset": 1343394354,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "8225f099a4e6afcf12f4f7f64fed8720faa3b3ff2289b5840411ef058b094de6"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_6.rpf",
+          "file_offset": 2954007090,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "94acaab90199383f03470b863abfcbd89f4ff0e253e73c49a7cf981fbd047198"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_6.rpf",
+          "file_offset": 4564619826,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "4732851c37c0e8ca289868af565ad2e33cc1efb76c2d1e70c1b9998a17103336"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_6.rpf",
+          "file_offset": 6175232562,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "84a9bd2bdec5c66c197b7833999ab91a9ca4b1fc313e30aa457c5a4a361da095"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_6.rpf",
+          "file_offset": 7785845298,
+          "chunk_offset": 0,
+          "length": 713528648
+        },
+        {
+          "file": "levels_7.rpf",
+          "file_offset": 0,
+          "chunk_offset": 713528648,
+          "length": 897084088
+        }
+      ],
+      "sha256": "96ff40ef2b8b90cc73ad62ae09a5f9652a152ab167d6afc19c8242bb723966ef"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_7.rpf",
+          "file_offset": 897084088,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "e86a2245f1a21cb51da0b3c08be08f2d7075ca00fc4b2750753d45e0ead270ee"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_7.rpf",
+          "file_offset": 2507696824,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "d7275a763a90acb6466fe5be2518c370b56d6b47b593d0937140d2ac973f8089"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_7.rpf",
+          "file_offset": 4118309560,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "c86e6c82f67b27f4c7a7f7a75cc98f3dcaeb9190389a0fc232f0841a7fcd801e"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "levels_7.rpf",
+          "file_offset": 5728922296,
+          "chunk_offset": 0,
+          "length": 1340813209
+        },
+        {
+          "file": "movies_0.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1340813209,
+          "length": 269799527
+        }
+      ],
+      "sha256": "cf362ca4b40d99caaf8634f309285ef1e751fb993bd98747aec70b3f049e6861"
+    },
+    {
+      "name": "chunk-000041.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "movies_0.rpf",
+          "file_offset": 269799527,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "f004e4d30aeebde302617acb10f7c13f70f43aa88ec14c3f8964027c5ebf74f3"
+    },
+    {
+      "name": "chunk-000042.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "movies_0.rpf",
+          "file_offset": 1880412263,
+          "chunk_offset": 0,
+          "length": 203944263
+        },
+        {
+          "file": "NvLowLatencyVk.dll",
+          "file_offset": 0,
+          "chunk_offset": 203944263,
+          "length": 48952
+        },
+        {
+          "file": "nvngx_dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 203993215,
+          "length": 14445424
+        },
+        {
+          "file": "oo2core_5_win64.dll",
+          "file_offset": 0,
+          "chunk_offset": 218438639,
+          "length": 945648
+        },
+        {
+          "file": "packs_0.rpf",
+          "file_offset": 0,
+          "chunk_offset": 219384287,
+          "length": 1018142190
+        },
+        {
+          "file": "packs_1.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1237526477,
+          "length": 373086259
+        }
+      ],
+      "sha256": "ca5362952c2ad23c9b67784ae8314bacdc8ac3f60d09a860e7551375bcd21e4c"
+    },
+    {
+      "name": "chunk-000043.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "packs_1.rpf",
+          "file_offset": 373086259,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "250283db4fa128b0a952e80677dee8bc331a1a030e65391b580ecc376053890e"
+    },
+    {
+      "name": "chunk-000044.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "packs_1.rpf",
+          "file_offset": 1983698995,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "624caa452844027839548e43b710134084828576acc71d6808f99658d945d811"
+    },
+    {
+      "name": "chunk-000045.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "packs_1.rpf",
+          "file_offset": 3594311731,
+          "chunk_offset": 0,
+          "length": 734135378
+        },
+        {
+          "file": "RDR2.exe",
+          "file_offset": 0,
+          "chunk_offset": 734135378,
+          "length": 89562608
+        },
+        {
+          "file": "rowpack_0.rpf",
+          "file_offset": 0,
+          "chunk_offset": 823697986,
+          "length": 370039418
+        },
+        {
+          "file": "shaders_x64.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1193737404,
+          "length": 233921358
+        },
+        {
+          "file": "textures_0.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1427658762,
+          "length": 182953974
+        }
+      ],
+      "sha256": "5f6812e34a499603a0a34f140741248d4b8816bc3283172f4ec3cb24b149455c"
+    },
+    {
+      "name": "chunk-000046.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "textures_0.rpf",
+          "file_offset": 182953974,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "33593d65e28848b81b876684e6d2f33ed7397e019d3caa08d702759dae7a1137"
+    },
+    {
+      "name": "chunk-000047.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "textures_0.rpf",
+          "file_offset": 1793566710,
+          "chunk_offset": 0,
+          "length": 1486479986
+        },
+        {
+          "file": "textures_1.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1486479986,
+          "length": 124132750
+        }
+      ],
+      "sha256": "ed6c9e4000a7e51fb5d4952df639faa86d2317d213b94297a2dffb17f59a3014"
+    },
+    {
+      "name": "chunk-000048.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "textures_1.rpf",
+          "file_offset": 124132750,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "b407ea611fafab4cdcc1a071e6504b153873075320c81fa504aa529641cd35f7"
+    },
+    {
+      "name": "chunk-000049.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "textures_1.rpf",
+          "file_offset": 1734745486,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "d085cd3acb26db196eb11278409ef6cae2bc23a20f96b5743b761ce1520b2156"
+    },
+    {
+      "name": "chunk-000050.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "textures_1.rpf",
+          "file_offset": 3345358222,
+          "chunk_offset": 0,
+          "length": 259681190
+        },
+        {
+          "file": "title.rgl",
+          "file_offset": 0,
+          "chunk_offset": 259681190,
+          "length": 2000
+        },
+        {
+          "file": "update_1.rpf",
+          "file_offset": 0,
+          "chunk_offset": 259683190,
+          "length": 1350929546
+        }
+      ],
+      "sha256": "53cf3b2573661b43a5c75d220e294677ab7eb0337e2d08a3e1bb91f5b2e3f15f"
+    },
+    {
+      "name": "chunk-000051.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "update_1.rpf",
+          "file_offset": 1350929546,
+          "chunk_offset": 0,
+          "length": 1482811904
+        },
+        {
+          "file": "update_2.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1482811904,
+          "length": 127800832
+        }
+      ],
+      "sha256": "395fd20c8b2635e2c21c3a5dee2d5ed9687836aff3d4bd28fd52f295e6b4f3a2"
+    },
+    {
+      "name": "chunk-000052.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "update_2.rpf",
+          "file_offset": 127800832,
+          "chunk_offset": 0,
+          "length": 24245422
+        },
+        {
+          "file": "update_3.rpf",
+          "file_offset": 0,
+          "chunk_offset": 24245422,
+          "length": 132374684
+        },
+        {
+          "file": "update_4.rpf",
+          "file_offset": 0,
+          "chunk_offset": 156620106,
+          "length": 1453992630
+        }
+      ],
+      "sha256": "14b731f77ac2852918f8b6dee8c1730dc149e6ca617ae532e9af3b2075226ec2"
+    },
+    {
+      "name": "chunk-000053.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "update_4.rpf",
+          "file_offset": 1453992630,
+          "chunk_offset": 0,
+          "length": 561035933
+        },
+        {
+          "file": "x64/audio/audio_rel.rpf",
+          "file_offset": 0,
+          "chunk_offset": 561035933,
+          "length": 6102578
+        },
+        {
+          "file": "x64/audio/sfx/ANIMALS_FAR.rpf",
+          "file_offset": 0,
+          "chunk_offset": 567138511,
+          "length": 70906591
+        },
+        {
+          "file": "x64/audio/sfx/ANIMALS_HORSES.rpf",
+          "file_offset": 0,
+          "chunk_offset": 638045102,
+          "length": 17585791
+        },
+        {
+          "file": "x64/audio/sfx/ANIMALS_NEAR.rpf",
+          "file_offset": 0,
+          "chunk_offset": 655630893,
+          "length": 225291916
+        },
+        {
+          "file": "x64/audio/sfx/CUTSCENE_MASTERED_ONLY.rpf",
+          "file_offset": 0,
+          "chunk_offset": 880922809,
+          "length": 729689927
+        }
+      ],
+      "sha256": "fa5694b663327b73892bcf6b581aa6f1e4310e4f6f272a3ad1456bce3b971284"
+    },
+    {
+      "name": "chunk-000054.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/CUTSCENE_MASTERED_ONLY.rpf",
+          "file_offset": 729689927,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "9c48f2e1c7ff9f51d95c1d0dd106d5eeaeb32ba47228515b24219a7db8f5fa9a"
+    },
+    {
+      "name": "chunk-000055.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/CUTSCENE_MASTERED_ONLY.rpf",
+          "file_offset": 2340302663,
+          "chunk_offset": 0,
+          "length": 5473268
+        },
+        {
+          "file": "x64/audio/sfx/INTERACTIVE_MUSIC.rpf",
+          "file_offset": 0,
+          "chunk_offset": 5473268,
+          "length": 6955531
+        },
+        {
+          "file": "x64/audio/sfx/MUSIC_2T.rpf",
+          "file_offset": 0,
+          "chunk_offset": 12428799,
+          "length": 220465673
+        },
+        {
+          "file": "x64/audio/sfx/ONESHOT_AMBIENCE.rpf",
+          "file_offset": 0,
+          "chunk_offset": 232894472,
+          "length": 70586170
+        },
+        {
+          "file": "x64/audio/sfx/PEDS_00.rpf",
+          "file_offset": 0,
+          "chunk_offset": 303480642,
+          "length": 374272884
+        },
+        {
+          "file": "x64/audio/sfx/PEDS_01.rpf",
+          "file_offset": 0,
+          "chunk_offset": 677753526,
+          "length": 371457529
+        },
+        {
+          "file": "x64/audio/sfx/PEDS_02.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1049211055,
+          "length": 371381244
+        },
+        {
+          "file": "x64/audio/sfx/PEDS_03.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1420592299,
+          "length": 190020437
+        }
+      ],
+      "sha256": "e14364a1914fa9a29cc806ee52da9adfa1dc4727af4fa0172570266af7389af1"
+    },
+    {
+      "name": "chunk-000056.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/PEDS_03.rpf",
+          "file_offset": 190020437,
+          "chunk_offset": 0,
+          "length": 263993674
+        },
+        {
+          "file": "x64/audio/sfx/PEDS_04.rpf",
+          "file_offset": 0,
+          "chunk_offset": 263993674,
+          "length": 617595459
+        },
+        {
+          "file": "x64/audio/sfx/PEDS_05.rpf",
+          "file_offset": 0,
+          "chunk_offset": 881589133,
+          "length": 235640409
+        },
+        {
+          "file": "x64/audio/sfx/PEDS_06.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1117229542,
+          "length": 268420774
+        },
+        {
+          "file": "x64/audio/sfx/PEDS_07.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1385650316,
+          "length": 224962420
+        }
+      ],
+      "sha256": "7fdd983493fc86e3e776d3b7303deed3ef4894e49074d97f8b16dba826907920"
+    },
+    {
+      "name": "chunk-000057.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/PEDS_07.rpf",
+          "file_offset": 224962420,
+          "chunk_offset": 0,
+          "length": 447784578
+        },
+        {
+          "file": "x64/audio/sfx/PEDS_08.rpf",
+          "file_offset": 0,
+          "chunk_offset": 447784578,
+          "length": 811330824
+        },
+        {
+          "file": "x64/audio/sfx/PEDS_09.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1259115402,
+          "length": 351497334
+        }
+      ],
+      "sha256": "297d2eb0afa2d08a6f74a0bfab2403b5678f36e30fac324c9d4c9ce39b95b98d"
+    },
+    {
+      "name": "chunk-000058.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/PEDS_09.rpf",
+          "file_offset": 351497334,
+          "chunk_offset": 0,
+          "length": 313495946
+        },
+        {
+          "file": "x64/audio/sfx/PEDS_10.rpf",
+          "file_offset": 0,
+          "chunk_offset": 313495946,
+          "length": 1297116790
+        }
+      ],
+      "sha256": "257a7fdc5f9a97575a88f46f2861549ef0728645acbf3508e75175308f2c8398"
+    },
+    {
+      "name": "chunk-000059.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/PEDS_10.rpf",
+          "file_offset": 1297116790,
+          "chunk_offset": 0,
+          "length": 333424470
+        },
+        {
+          "file": "x64/audio/sfx/RDR3.Resident.rpf",
+          "file_offset": 0,
+          "chunk_offset": 333424470,
+          "length": 330210453
+        },
+        {
+          "file": "x64/audio/sfx/RESIDENT.rpf",
+          "file_offset": 0,
+          "chunk_offset": 663634923,
+          "length": 517658744
+        },
+        {
+          "file": "x64/audio/sfx/S_MISC.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1181293667,
+          "length": 429319069
+        }
+      ],
+      "sha256": "c09007b590c2759aa9db0dd2f5fbee9d537deb5afef45d48fbd1390e98fff374"
+    },
+    {
+      "name": "chunk-000060.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/S_MISC.rpf",
+          "file_offset": 429319069,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "47e7fdd235d6d0ad8661e57c0fcb61bb74160013f06bcb23cfb737a3734d6dbb"
+    },
+    {
+      "name": "chunk-000061.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/S_MISC.rpf",
+          "file_offset": 2039931805,
+          "chunk_offset": 0,
+          "length": 1390495721
+        },
+        {
+          "file": "x64/audio/sfx/S_RE.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1390495721,
+          "length": 220117015
+        }
+      ],
+      "sha256": "094230855afc0435788a6f94eadc18eec202da76ea4a5ca98e11c9f9688a2631"
+    },
+    {
+      "name": "chunk-000062.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/S_RE.rpf",
+          "file_offset": 220117015,
+          "chunk_offset": 0,
+          "length": 497441156
+        },
+        {
+          "file": "x64/audio/sfx/S_VOFX.rpf",
+          "file_offset": 0,
+          "chunk_offset": 497441156,
+          "length": 76013925
+        },
+        {
+          "file": "x64/audio/sfx/SCORE_01.rpf",
+          "file_offset": 0,
+          "chunk_offset": 573455081,
+          "length": 1037157655
+        }
+      ],
+      "sha256": "b32e480b3558e6660b970340eee35cdd2e7569c692256dae7d855f25a98ad268"
+    },
+    {
+      "name": "chunk-000063.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/SCORE_01.rpf",
+          "file_offset": 1037157655,
+          "chunk_offset": 0,
+          "length": 250644403
+        },
+        {
+          "file": "x64/audio/sfx/SCORE_02.rpf",
+          "file_offset": 0,
+          "chunk_offset": 250644403,
+          "length": 1246561840
+        },
+        {
+          "file": "x64/audio/sfx/SCORE_03.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1497206243,
+          "length": 113406493
+        }
+      ],
+      "sha256": "66d75691afa33e52cac27da167eb1fab2dbdfed40566601983a247fbf4a20086"
+    },
+    {
+      "name": "chunk-000064.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/SCORE_03.rpf",
+          "file_offset": 113406493,
+          "chunk_offset": 0,
+          "length": 823853072
+        },
+        {
+          "file": "x64/audio/sfx/SCORE_04.rpf",
+          "file_offset": 0,
+          "chunk_offset": 823853072,
+          "length": 786759664
+        }
+      ],
+      "sha256": "760a2429ad26628addd19b5bf21bde85071e541104977b0874f02672b2c30a5c"
+    },
+    {
+      "name": "chunk-000065.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/SCORE_04.rpf",
+          "file_offset": 786759664,
+          "chunk_offset": 0,
+          "length": 275827001
+        },
+        {
+          "file": "x64/audio/sfx/SCORE_05.rpf",
+          "file_offset": 0,
+          "chunk_offset": 275827001,
+          "length": 1160340059
+        },
+        {
+          "file": "x64/audio/sfx/SCORE_06.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1436167060,
+          "length": 174445676
+        }
+      ],
+      "sha256": "b0a56a30033a65717d47b278be7b6dcd14324962a6d5644a83a74ceaed81b72f"
+    },
+    {
+      "name": "chunk-000066.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/SCORE_06.rpf",
+          "file_offset": 174445676,
+          "chunk_offset": 0,
+          "length": 316995503
+        },
+        {
+          "file": "x64/audio/sfx/SCRIPT.rpf",
+          "file_offset": 0,
+          "chunk_offset": 316995503,
+          "length": 505997764
+        },
+        {
+          "file": "x64/audio/sfx/SS_AM.rpf",
+          "file_offset": 0,
+          "chunk_offset": 822993267,
+          "length": 787619469
+        }
+      ],
+      "sha256": "ba586406dc810ff162623e9885ae398751a3b7ba20c105787b820615ce405254"
+    },
+    {
+      "name": "chunk-000067.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/SS_AM.rpf",
+          "file_offset": 787619469,
+          "chunk_offset": 0,
+          "length": 615106570
+        },
+        {
+          "file": "x64/audio/sfx/SS_NZ.rpf",
+          "file_offset": 0,
+          "chunk_offset": 615106570,
+          "length": 995506166
+        }
+      ],
+      "sha256": "06f30c86ec5dcd340aa26044e0172c85280c13d2aac7b753b93f4b4c5d93c329"
+    },
+    {
+      "name": "chunk-000068.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/SS_NZ.rpf",
+          "file_offset": 995506166,
+          "chunk_offset": 0,
+          "length": 554936605
+        },
+        {
+          "file": "x64/audio/sfx/STREAMED_AMBIENCE.rpf",
+          "file_offset": 0,
+          "chunk_offset": 554936605,
+          "length": 418574201
+        },
+        {
+          "file": "x64/audio/sfx/STREAMS.rpf",
+          "file_offset": 0,
+          "chunk_offset": 973510806,
+          "length": 637101930
+        }
+      ],
+      "sha256": "341fdef79c6a61a31c5260dc774c4f36b32fb00b80146f2ce29ca23f01440389"
+    },
+    {
+      "name": "chunk-000069.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/audio/sfx/STREAMS.rpf",
+          "file_offset": 637101930,
+          "chunk_offset": 0,
+          "length": 238106243
+        },
+        {
+          "file": "x64/audio/sfx/STREAMS_AS.rpf",
+          "file_offset": 0,
+          "chunk_offset": 238106243,
+          "length": 389061506
+        },
+        {
+          "file": "x64/audio/sfx/THUNDER.rpf",
+          "file_offset": 0,
+          "chunk_offset": 627167749,
+          "length": 32974371
+        },
+        {
+          "file": "x64/audio/sfx/VEHICLES.rpf",
+          "file_offset": 0,
+          "chunk_offset": 660142120,
+          "length": 78198959
+        },
+        {
+          "file": "x64/audio/sfx/WALLA.rpf",
+          "file_offset": 0,
+          "chunk_offset": 738341079,
+          "length": 19203584
+        },
+        {
+          "file": "x64/audio/sfx/WEAPONS_PLAYER.rpf",
+          "file_offset": 0,
+          "chunk_offset": 757544663,
+          "length": 42844424
+        },
+        {
+          "file": "x64/crashpad/release/crashpad_handler.exe",
+          "file_offset": 0,
+          "chunk_offset": 800389087,
+          "length": 743424
+        },
+        {
+          "file": "x64/data/errorcodes/american.txt",
+          "file_offset": 0,
+          "chunk_offset": 801132511,
+          "length": 27478
+        },
+        {
+          "file": "x64/data/errorcodes/chinese.txt",
+          "file_offset": 0,
+          "chunk_offset": 801159989,
+          "length": 50837
+        },
+        {
+          "file": "x64/data/errorcodes/chinesesimp.txt",
+          "file_offset": 0,
+          "chunk_offset": 801210826,
+          "length": 50018
+        },
+        {
+          "file": "x64/data/errorcodes/french.txt",
+          "file_offset": 0,
+          "chunk_offset": 801260844,
+          "length": 53360
+        },
+        {
+          "file": "x64/data/errorcodes/german.txt",
+          "file_offset": 0,
+          "chunk_offset": 801314204,
+          "length": 53057
+        },
+        {
+          "file": "x64/data/errorcodes/italian.txt",
+          "file_offset": 0,
+          "chunk_offset": 801367261,
+          "length": 52360
+        },
+        {
+          "file": "x64/data/errorcodes/japanese.txt",
+          "file_offset": 0,
+          "chunk_offset": 801419621,
+          "length": 64948
+        },
+        {
+          "file": "x64/data/errorcodes/korean.txt",
+          "file_offset": 0,
+          "chunk_offset": 801484569,
+          "length": 59988
+        },
+        {
+          "file": "x64/data/errorcodes/mexican.txt",
+          "file_offset": 0,
+          "chunk_offset": 801544557,
+          "length": 52247
+        },
+        {
+          "file": "x64/data/errorcodes/polish.txt",
+          "file_offset": 0,
+          "chunk_offset": 801596804,
+          "length": 53999
+        },
+        {
+          "file": "x64/data/errorcodes/portuguese.txt",
+          "file_offset": 0,
+          "chunk_offset": 801650803,
+          "length": 52657
+        },
+        {
+          "file": "x64/data/errorcodes/russian.txt",
+          "file_offset": 0,
+          "chunk_offset": 801703460,
+          "length": 75871
+        },
+        {
+          "file": "x64/data/errorcodes/spanish.txt",
+          "file_offset": 0,
+          "chunk_offset": 801779331,
+          "length": 54875
+        },
+        {
+          "file": "x64/dlcpacks/dlc_content_extra/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 801834206,
+          "length": 119898862
+        },
+        {
+          "file": "x64/dlcpacks/mp001/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 921733068,
+          "length": 688879668
+        }
+      ],
+      "sha256": "223e779a6a601f0fe412e78c1191659857dcfb1737866c1cd1d5d6cef45c2c40"
+    },
+    {
+      "name": "chunk-000070.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/dlcpacks/mp001/dlc.rpf",
+          "file_offset": 688879668,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "a1e82286aec06a06f1310ce3b3efdf41d1479cb784757c98479c3e37fc0051a6"
+    },
+    {
+      "name": "chunk-000071.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/dlcpacks/mp001/dlc.rpf",
+          "file_offset": 2299492404,
+          "chunk_offset": 0,
+          "length": 510185461
+        },
+        {
+          "file": "x64/dlcpacks/mp003/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 510185461,
+          "length": 489661242
+        },
+        {
+          "file": "x64/dlcpacks/mp004/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 999846703,
+          "length": 610766033
+        }
+      ],
+      "sha256": "1a956bd3ed66d142e9d1dc967883bf5a530c7fd5a0dea1fe66a299a6a2e9e9ef"
+    },
+    {
+      "name": "chunk-000072.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/dlcpacks/mp004/dlc.rpf",
+          "file_offset": 610766033,
+          "chunk_offset": 0,
+          "length": 385952074
+        },
+        {
+          "file": "x64/dlcpacks/mp005/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 385952074,
+          "length": 1224660662
+        }
+      ],
+      "sha256": "bebbaf03e3fac1bdfff39b0a8303e86944286d18e211b312696eaf53f11af0f2"
+    },
+    {
+      "name": "chunk-000073.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/dlcpacks/mp005/dlc.rpf",
+          "file_offset": 1224660662,
+          "chunk_offset": 0,
+          "length": 1610612736
+        }
+      ],
+      "sha256": "393ebc619122dd8cabbb7272521d6304343407234ab5cff8ca9c25cf30fda960"
+    },
+    {
+      "name": "chunk-000074.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/dlcpacks/mp005/dlc.rpf",
+          "file_offset": 2835273398,
+          "chunk_offset": 0,
+          "length": 42393868
+        },
+        {
+          "file": "x64/dlcpacks/mp006/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 42393868,
+          "length": 1568218868
+        }
+      ],
+      "sha256": "15b7f321cfac528f8ba9dc2973c935135b084c6a1b1998b0da541bb479acf183"
+    },
+    {
+      "name": "chunk-000075.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/dlcpacks/mp006/dlc.rpf",
+          "file_offset": 1568218868,
+          "chunk_offset": 0,
+          "length": 514737484
+        },
+        {
+          "file": "x64/dlcpacks/mp007/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 514737484,
+          "length": 1095875252
+        }
+      ],
+      "sha256": "faaeff03bbcbd7fb420aad7fba15a6021e2234d87d597c1864ac22dd4a6111b8"
+    },
+    {
+      "name": "chunk-000076.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/dlcpacks/mp007/dlc.rpf",
+          "file_offset": 1095875252,
+          "chunk_offset": 0,
+          "length": 330083221
+        },
+        {
+          "file": "x64/dlcpacks/mp008/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 330083221,
+          "length": 487150980
+        },
+        {
+          "file": "x64/dlcpacks/mp009/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 817234201,
+          "length": 494360763
+        },
+        {
+          "file": "x64/dlcpacks/opt001/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1311594964,
+          "length": 299017772
+        }
+      ],
+      "sha256": "9334fbfc1eb7150cfb05f6a78444c9cf71718147d0fc18b0bc857441d6fb73c5"
+    },
+    {
+      "name": "chunk-000077.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/dlcpacks/opt001/dlc.rpf",
+          "file_offset": 299017772,
+          "chunk_offset": 0,
+          "length": 11242516
+        },
+        {
+          "file": "x64/dlcpacks/patchpack001/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 11242516,
+          "length": 1599370220
+        }
+      ],
+      "sha256": "58c89b5b3cb2799e7e47ae03732f1cabcd54a3838a1fedd2f8970a0d2e05d23c"
+    },
+    {
+      "name": "chunk-000078.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/dlcpacks/patchpack001/dlc.rpf",
+          "file_offset": 1599370220,
+          "chunk_offset": 0,
+          "length": 1135831159
+        },
+        {
+          "file": "x64/dlcpacks/patchpack002/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1135831159,
+          "length": 474781577
+        }
+      ],
+      "sha256": "e5e0268b1d7eadd681982dcf3e718306a8b429d4b872239f7f775c9c4bab05ec"
+    },
+    {
+      "name": "chunk-000079.bin",
+      "size": 1610612736,
+      "segments": [
+        {
+          "file": "x64/dlcpacks/patchpack002/dlc.rpf",
+          "file_offset": 474781577,
+          "chunk_offset": 0,
+          "length": 585695455
+        },
+        {
+          "file": "x64/dlcpacks/patchpack003/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 585695455,
+          "length": 295922570
+        },
+        {
+          "file": "x64/dlcpacks/patchpack004/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 881618025,
+          "length": 403507536
+        },
+        {
+          "file": "x64/dlcpacks/patchpack005/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1285125561,
+          "length": 127972677
+        },
+        {
+          "file": "x64/dlcpacks/patchpack006/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 1413098238,
+          "length": 197514498
+        }
+      ],
+      "sha256": "c4653be84351268fa28c54d9d9f224c614476b2b9a21fec45cad4798ff3fcbb8"
+    },
+    {
+      "name": "chunk-000080.bin",
+      "size": 854427588,
+      "segments": [
+        {
+          "file": "x64/dlcpacks/patchpack006/dlc.rpf",
+          "file_offset": 197514498,
+          "chunk_offset": 0,
+          "length": 132592408
+        },
+        {
+          "file": "x64/dlcpacks/patchpack007/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 132592408,
+          "length": 58027818
+        },
+        {
+          "file": "x64/dlcpacks/patchpack008/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 190620226,
+          "length": 24081245
+        },
+        {
+          "file": "x64/dlcpacks/patchpack009/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 214701471,
+          "length": 6188787
+        },
+        {
+          "file": "x64/dlcpacks/patchpack_mp001/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 220890258,
+          "length": 112365590
+        },
+        {
+          "file": "x64/dlcpacks/patchpack_mp003/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 333255848,
+          "length": 1244933
+        },
+        {
+          "file": "x64/dlcpacks/patchpack_mp006/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 334500781,
+          "length": 106340550
+        },
+        {
+          "file": "x64/dlcpacks/row_patchpack002/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 440841331,
+          "length": 403958359
+        },
+        {
+          "file": "x64/dlcpacks/row_patchpack005/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 844799690,
+          "length": 3454809
+        },
+        {
+          "file": "x64/dlcpacks/row_patchpack008/dlc.rpf",
+          "file_offset": 0,
+          "chunk_offset": 848254499,
+          "length": 4243798
+        },
+        {
+          "file": "x64/metadata.dat",
+          "file_offset": 0,
+          "chunk_offset": 852498297,
+          "length": 1929291
+        }
+      ],
+      "sha256": "1948df5af6fc52bb29d26a2003f78d2825bfd61ba150ef5a9dc6bf9ada0188a8"
+    }
+  ]
+}
