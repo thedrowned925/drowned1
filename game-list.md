@@ -2,20 +2,21 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 18
-- **Toplam aktif sürüm/kanal:** 18
-- **Toplam aktif boyut:** 391.453 GB (364.569 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-20 09:28:15 UTC
+- **Toplam oyun:** 19
+- **Toplam aktif sürüm/kanal:** 19
+- **Toplam aktif boyut:** 457.840 GB (426.397 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-20 13:20:52 UTC
 
 ## PC
 
-**18 oyun · 18 aktif sürüm/kanal · 391.453 GB (364.569 GiB)**
+**19 oyun · 19 aktif sürüm/kanal · 457.840 GB (426.397 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
 | Assassin's Creed 2 | 1.0.1 | stable | 7.276 | 6.777 | `pc-assassin-s-creed-2-v1.0.1-stable` |
 | Assassin's Creed™: Director's Cut Edition | 1.0.0 | stable | 7.201 | 6.707 | `pc-assassin-s-creed-director-s-cut-edition-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 14.396 | `pc-captured-2-v1.0.0-stable` |
+| God of War | 1.0.0 | stable | 66.388 | 61.828 | `pc-god-of-war-v1.0.0-stable` |
 | Grand Theft Auto III | 1.0.0 | stable | 1.351 | 1.259 | `pc-grand-theft-auto-iii-v1.0.0-stable` |
 | Grand Theft Auto V Enhanced | 1.0.0 | stable | 103.274 | 96.182 | `pc-grand-theft-auto-v-enhanced-v1.0.0-stable` |
 | Grand Theft Auto: San Andreas | 1.0.0 | stable | 4.975 | 4.634 | `pc-grand-theft-auto-san-andreas-v1.0.0-stable` |
