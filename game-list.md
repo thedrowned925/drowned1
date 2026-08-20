@@ -2,19 +2,20 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 19
-- **Toplam aktif sürüm/kanal:** 19
-- **Toplam aktif boyut:** 457.840 GB (426.397 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-20 13:20:52 UTC
+- **Toplam oyun:** 20
+- **Toplam aktif sürüm/kanal:** 20
+- **Toplam aktif boyut:** 463.880 GB (432.022 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-20 13:49:52 UTC
 
 ## PC
 
-**19 oyun · 19 aktif sürüm/kanal · 457.840 GB (426.397 GiB)**
+**20 oyun · 20 aktif sürüm/kanal · 463.880 GB (432.022 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
 | Assassin's Creed 2 | 1.0.1 | stable | 7.276 | 6.777 | `pc-assassin-s-creed-2-v1.0.1-stable` |
 | Assassin's Creed™: Director's Cut Edition | 1.0.0 | stable | 7.201 | 6.707 | `pc-assassin-s-creed-director-s-cut-edition-v1.0.0-stable` |
+| BioShock™ | 1.0.0 | stable | 6.039 | 5.625 | `pc-bioshock-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 14.396 | `pc-captured-2-v1.0.0-stable` |
 | God of War | 1.0.0 | stable | 66.388 | 61.828 | `pc-god-of-war-v1.0.0-stable` |
 | Grand Theft Auto III | 1.0.0 | stable | 1.351 | 1.259 | `pc-grand-theft-auto-iii-v1.0.0-stable` |
