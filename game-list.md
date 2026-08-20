@@ -2,19 +2,20 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 22
-- **Toplam aktif sürüm/kanal:** 22
-- **Toplam aktif boyut:** 541.605 GB (504.409 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-20 15:57:33 UTC
+- **Toplam oyun:** 23
+- **Toplam aktif sürüm/kanal:** 23
+- **Toplam aktif boyut:** 559.837 GB (521.389 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-20 22:01:46 UTC
 
 ## PC
 
-**22 oyun · 22 aktif sürüm/kanal · 541.605 GB (504.409 GiB)**
+**23 oyun · 23 aktif sürüm/kanal · 559.837 GB (521.389 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
 | Assassin's Creed 2 | 1.0.1 | stable | 7.276 | 6.777 | `pc-assassin-s-creed-2-v1.0.1-stable` |
 | Assassin's Creed™: Director's Cut Edition | 1.0.0 | stable | 7.201 | 6.707 | `pc-assassin-s-creed-director-s-cut-edition-v1.0.0-stable` |
+| Batman: Arkham City - Game of the Year Edition | 1.0.0 | stable | 18.232 | 16.980 | `pc-batman-arkham-city-game-of-the-year-edition-v1.0.0-stable` |
 | BioShock Infinite | 1.0.0 | stable | 47.811 | 44.528 | `pc-bioshock-infinite-v1.0.0-stable` |
 | BioShock™ | 1.0.0 | stable | 6.039 | 5.625 | `pc-bioshock-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 14.396 | `pc-captured-2-v1.0.0-stable` |
