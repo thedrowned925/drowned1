@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 16
-- **Toplam aktif sürüm/kanal:** 16
-- **Toplam aktif boyut:** 249.457 GB (232.325 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-20 07:26:43 UTC
+- **Toplam oyun:** 17
+- **Toplam aktif sürüm/kanal:** 17
+- **Toplam aktif boyut:** 263.360 GB (245.273 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-20 08:10:33 UTC
 
 ## PC
 
-**16 oyun · 16 aktif sürüm/kanal · 249.457 GB (232.325 GiB)**
+**17 oyun · 17 aktif sürüm/kanal · 263.360 GB (245.273 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -28,6 +28,7 @@
 | Portal | 1.0.0 | stable | 5.235 | 4.876 | `pc-portal-v1.0.0-stable` |
 | Portal 2 | 1.0.0 | stable | 13.071 | 12.174 | `pc-portal-2-v1.0.0-stable` |
 | Red Dead Redemption | 1.0.0 | stable | 10.225 | 9.522 | `pc-red-dead-redemption-v1.0.0-stable` |
+| The Elder Scrolls V: Skyrim | 1.0.0 | stable | 13.902 | 12.948 | `pc-the-elder-scrolls-v-skyrim-v1.0.0-stable` |
 | The Witcher 3: Wild Hunt | 1.0.0 | stable | 56.143 | 52.287 | `pc-the-witcher-3-wild-hunt-v1.0.0-stable` |
 
 ---
