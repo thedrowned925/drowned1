@@ -15,8 +15,7 @@ from .metadata import load_catalog, manifest_repo_path
 from .turbo_upload import (
     DEFAULT_TURBO_WORKERS,
     TurboAssetUploader,
-    choose_upload_chunk_size,
-    effective_worker_count,
+    choose_upload_plan,
 )
 from .util import slugify
 
@@ -44,16 +43,24 @@ def publish_project(
 
     source = Path(source)
     probe = ChunkBuilder(source)
-    chunk_size = choose_upload_chunk_size(probe.total_size, upload_workers)
+    balanced = choose_upload_plan(probe.total_size, upload_workers)
+    chunk_size = int(balanced["chunk_size"])
     builder = ChunkBuilder(source, chunk_size=chunk_size)
     builder.validate_capacity()
 
-    # Direct Stream creates only a lightweight segment map. No 1.5 GiB staging
+    # Direct Stream creates only a lightweight segment map. No large staging
     # files are materialized on disk.
     plan = plan_direct_stream(builder)
     planned_chunks = list(plan["chunks"])
-    requested_workers = max(1, int(upload_workers or 1))
-    workers = effective_worker_count(chunk_size, requested_workers)
+    expected_chunks = int(balanced["chunk_count"])
+    if len(planned_chunks) != expected_chunks:
+        raise RuntimeError(
+            f"balanced planner mismatch: expected {expected_chunks} chunks, "
+            f"direct planner produced {len(planned_chunks)}"
+        )
+
+    workers = int(balanced["workers"])
+    waves = int(balanced["waves"])
     if planned_chunks:
         workers = min(workers, len(planned_chunks))
     workers = max(1, workers)
@@ -62,8 +69,9 @@ def publish_project(
     file_sizes = {item.rel: item.size for item in plan["snapshots"]}
 
     log(
-        "Direct Stream upload: "
-        f"{workers} parallel stream • chunk {chunk_size / 1024 / 1024:.0f} MiB • "
+        "Balanced Direct Stream: "
+        f"{workers} parallel stream • {waves} full wave • "
+        f"chunk {chunk_size / 1024 / 1024:.1f} MiB • "
         f"{len(planned_chunks)} data asset • temp BIN 0 B"
     )
 
@@ -73,6 +81,7 @@ def publish_project(
             "total_sent": 0,
             "total_size": builder.total_size,
             "workers": workers,
+            "waves": waves,
             "chunk_size": chunk_size,
             "chunk_count": len(planned_chunks),
             "completed_chunks": 0,
@@ -152,6 +161,7 @@ def publish_project(
             "total_sent": aggregate,
             "total_size": builder.total_size,
             "workers": workers,
+            "waves": waves,
             "chunk_size": chunk_size,
             "chunk_count": len(planned_chunks),
             "completed_chunks": len(chunk_meta),
@@ -274,6 +284,7 @@ def publish_project(
             "total_sent": builder.total_size,
             "total_size": builder.total_size,
             "workers": workers,
+            "waves": waves,
             "chunk_size": chunk_size,
             "chunk_count": len(planned_chunks),
             "completed_chunks": len(ordered_chunks),
@@ -297,6 +308,7 @@ def publish_project(
         },
         "chunk_size": chunk_size,
         "upload_workers": workers,
+        "upload_waves": waves,
         "total_size": builder.total_size,
         "files": files_meta,
         "chunks": ordered_chunks,
