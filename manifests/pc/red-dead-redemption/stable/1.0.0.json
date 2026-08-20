@@ -1,0 +1,2150 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "red-dead-redemption",
+    "title": "Red Dead Redemption",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Experience the story of former outlaw John Marston as he tracks down the last remaining members of the notorious Van der Linde Gang in the PC debut of the critically acclaimed predecessor to Red Dead Redemption 2."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-red-dead-redemption-v1.0.0-stable"
+  },
+  "chunk_size": 639631360,
+  "upload_workers": 16,
+  "total_size": 10224622581,
+  "files": [
+    {
+      "path": "1911.dll",
+      "size": 13109760,
+      "sha256": "1fccba4cbfbf3e79e02661f6febf0d57eaef33336b4d02ac2e98c6cebdf837ed"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "bink2w64.dll",
+      "size": 421352,
+      "sha256": "a83762b614cfd65422c220001bb8cdb9c6f821025a372f37de5c2e2051155339"
+    },
+    {
+      "path": "crashpad_handler.exe",
+      "size": 1129960,
+      "sha256": "0989bd2b7e3cce97560ac61539ec6a9b398e56914450b98ac627a9598e5c8a66"
+    },
+    {
+      "path": "d11steamutilities.dll",
+      "size": 23528,
+      "sha256": "30ba34728bc4a9f36de8b08f0ca00ca64c001aca4be8330fa5e70a26d568f1ee"
+    },
+    {
+      "path": "dxcompiler.dll",
+      "size": 12603368,
+      "sha256": "a8447ea0935701143dac071341ee13d367ba6189a3a58a08ccb1733ecaa8c7fd"
+    },
+    {
+      "path": "game/act.rpf",
+      "size": 3410960,
+      "sha256": "b0d8642d7f757871f13ecabf7143be7cbd3e159c608ebe78d48af32d16ba6781"
+    },
+    {
+      "path": "game/animationres.rpf",
+      "size": 157971232,
+      "sha256": "7b0ca25ef3d3b5d39538d979a456e103858200c017e143d248dc612f945cd138"
+    },
+    {
+      "path": "game/arm00.bk2",
+      "size": 194626700,
+      "sha256": "3a8d0b0e28d7e3de3bc45535bf37a984864069f4ab02a35131799ab27d392f15"
+    },
+    {
+      "path": "game/audio_d11generic.rpf",
+      "size": 3898789728,
+      "sha256": "d25a21c3c6c1d8facbd97dc4bee1dcd8ce0537159578fab0d6fc227683f0e8bb"
+    },
+    {
+      "path": "game/base/content.rpf",
+      "size": 166032,
+      "sha256": "6abe1b614de8901f404f3d3923f2264b3198bbb5f834f5d330ddd7b5981c1c23"
+    },
+    {
+      "path": "game/base/cutscene.rpf",
+      "size": 2214096,
+      "sha256": "48aabb051c5c9867f079c3fb8b0d8ecb2d625fa7a102ffc634a2f2e60726d2c7"
+    },
+    {
+      "path": "game/base/fragments.rpf",
+      "size": 1017984,
+      "sha256": "a8eca9dafe6f5cdf7d722707cc4854a5172420d20988817793fa82933aa9e818"
+    },
+    {
+      "path": "game/base/mapres.rpf",
+      "size": 194624,
+      "sha256": "8e5a71c0f95889602b8f7d8cd97a813d871aaab37b5698b97c743beab6806630"
+    },
+    {
+      "path": "game/blk00.bk2",
+      "size": 177932056,
+      "sha256": "b47ee4135b47ff73c93d67ee8637d83f216be61fe7cee458d0cd32fdb58292da"
+    },
+    {
+      "path": "game/camera.rpf",
+      "size": 629600,
+      "sha256": "55b021846de120c5a5d589487a5efcc109046be84747ea30ae2343408859c0de"
+    },
+    {
+      "path": "game/content.rpf",
+      "size": 21523696,
+      "sha256": "6a01b88d2b1eb1dc589ccf9676b3e3a90e9799315cfe69a9b001dfc6fea8432b"
+    },
+    {
+      "path": "game/cutscene.rpf",
+      "size": 515038480,
+      "sha256": "df2545bb0b3005d19a49858ab917b6fe73475832dab45378f221822ae7ed6b87"
+    },
+    {
+      "path": "game/d11extra/langselect.pkdwin",
+      "size": 3672739,
+      "sha256": "94735983ba6bc2b50851e3f79a18ed75a72f4d671d344d76a95c9ec0b29c74f5"
+    },
+    {
+      "path": "game/d11extra/langselect.pkiwin",
+      "size": 2416,
+      "sha256": "b0b5db07e81c9c19b4555ce470e547d0ac063cac90124d198a2593ec82c91cfe"
+    },
+    {
+      "path": "game/flash.rpf",
+      "size": 207725248,
+      "sha256": "04caa1e9349c0f139bb05ca4e4f2d5d90652daddeb35ffaba87fb1bdbe2ed15e"
+    },
+    {
+      "path": "game/fonts.rpf",
+      "size": 1275376,
+      "sha256": "6f2acc272c829b0ee94506aaa08687bb7370ff168db835edb48cb71e1f86a3a5"
+    },
+    {
+      "path": "game/fragments.rpf",
+      "size": 2009600704,
+      "sha256": "997db2dc111356295144dabf8db45ab459ed34adf111e75f9a186db3d604f61f"
+    },
+    {
+      "path": "game/fragments2.rpf",
+      "size": 55087872,
+      "sha256": "2baac68746568d6c181ba2fe6d9a1584a226094ce27226c5bf91438e5662dabe"
+    },
+    {
+      "path": "game/grassres.rpf",
+      "size": 78370496,
+      "sha256": "f97c213a12bb42c61429e5285e8cc9c4f2d8da79fc9d3f5d0ed7427dc81b16fd"
+    },
+    {
+      "path": "game/gringores.rpf",
+      "size": 369680,
+      "sha256": "225c2a13dcbb8b8a1e4c9d7e822fe79cd73d5a85abd4cc429696f786816c7a32"
+    },
+    {
+      "path": "game/mapres.rpf",
+      "size": 324068912,
+      "sha256": "c24f7589ec8a26b9ae15b2ca2700da59c67a255b14403573639280e211a2809e"
+    },
+    {
+      "path": "game/naturalmotion.rpf",
+      "size": 96544,
+      "sha256": "7d9762dbc04f3a547ad3e7dd163b8e8a72ea7aac5dd4907ce44e9f9c14f4eec7"
+    },
+    {
+      "path": "game/navres.rpf",
+      "size": 225172944,
+      "sha256": "cc26523d69aba90a74eddfd5460acb6a44b063d03acaf57077cf9a4d9b3c4bcf"
+    },
+    {
+      "path": "game/psocache.rpf",
+      "size": 2210912,
+      "sha256": "a185ff4745c3cb12ef6280ffc7785685c027046687d94de6535ba11a0ed9da1e"
+    },
+    {
+      "path": "game/redemption/territory_swall/agaveviejo.rpf",
+      "size": 20178240,
+      "sha256": "cb2dbcbb89c13596d5c50cf297948db66482d4aff0fa0256de787be16abfc9a9"
+    },
+    {
+      "path": "game/redemption/territory_swall/armadillo.rpf",
+      "size": 36161760,
+      "sha256": "a888213f778b4793a5b8a822f4d60a356cf9c9b08c4232f05baa82cc3a0993aa"
+    },
+    {
+      "path": "game/redemption/territory_swall/aurorabasin.rpf",
+      "size": 4028848,
+      "sha256": "155d93bdf6efc6b93618da22c7611df9c93eb0a6f8a878df159c4ebcc16c981c"
+    },
+    {
+      "path": "game/redemption/territory_swall/bacchusplace.rpf",
+      "size": 2587104,
+      "sha256": "0c7799bbde45075c473a0f38740c5a8e9a72596c42cd56cbf10aecd77d4a163a"
+    },
+    {
+      "path": "game/redemption/territory_swall/barranca.rpf",
+      "size": 1753536,
+      "sha256": "7d787de9527e7ec15090de9564edf1fbf7b3de0df427a76e684fc9225bca9930"
+    },
+    {
+      "path": "game/redemption/territory_swall/battlefieldruins.rpf",
+      "size": 3353088,
+      "sha256": "476b7edb314a6126e734025cb9af65936a8ed56e97902f42e086cf88ac04fd84"
+    },
+    {
+      "path": "game/redemption/territory_swall/bearclaw.rpf",
+      "size": 4308160,
+      "sha256": "42b218f60595c05a124019b689e1194ab87d3691a34d504f074cdba79a7ee4e4"
+    },
+    {
+      "path": "game/redemption/territory_swall/beechershope.rpf",
+      "size": 21684816,
+      "sha256": "2596320b3e634fcc4314cb87e8405e107a4b77f75c8b0a6bfed38078f1fcdacf"
+    },
+    {
+      "path": "game/redemption/territory_swall/benedictpass.rpf",
+      "size": 895280,
+      "sha256": "d27fe97e39694283226e28b6dbd99fb7aeec8a19d3534a72d757378ce5935e4d"
+    },
+    {
+      "path": "game/redemption/territory_swall/benedictpoint.rpf",
+      "size": 6143392,
+      "sha256": "f237e91011edc92223767ca6648743e8d9e5548b7526c6aa8c5471cce451c3ba"
+    },
+    {
+      "path": "game/redemption/territory_swall/blackwater.rpf",
+      "size": 75734960,
+      "sha256": "4769725a721711d31d624621ba85a22655ea33cc80bc3d2c37509892edaf6deb"
+    },
+    {
+      "path": "game/redemption/territory_swall/brittlebushtrawl.rpf",
+      "size": 3992304,
+      "sha256": "4c254782fb7c50b462e4b348250e75497007504a13148b84af141a75e7b67527"
+    },
+    {
+      "path": "game/redemption/territory_swall/brokentree.rpf",
+      "size": 770240,
+      "sha256": "918ed206d9af078f959a0722a5c599a406526fd907ac40b63c779d3adc15c4ea"
+    },
+    {
+      "path": "game/redemption/territory_swall/butterbridgea.rpf",
+      "size": 2533824,
+      "sha256": "ffefa89ae95ca7e43b2d5a8fb3e465ad4fcce7e131ddb599895a91654a1ff82d"
+    },
+    {
+      "path": "game/redemption/territory_swall/butterbridgeb.rpf",
+      "size": 1790272,
+      "sha256": "a73cddeda7b62ef0c3c25123ebd08401b35a914ed0c888861c4c0113d790d7f4"
+    },
+    {
+      "path": "game/redemption/territory_swall/butterbridgec.rpf",
+      "size": 227520,
+      "sha256": "a394813107c17f0b3a957c171ad710317cdf94d5405de6ffa96b59a147086c1c"
+    },
+    {
+      "path": "game/redemption/territory_swall/butterbridged.rpf",
+      "size": 1225024,
+      "sha256": "ac85ad5dae01ed2b49b972cac9d42918ccd972d1e342bac056a042307b8922ea"
+    },
+    {
+      "path": "game/redemption/territory_swall/campomiradaafter.rpf",
+      "size": 4532832,
+      "sha256": "97471a51051df0a85e03e436d9aca654770d7c2f6a5f314bd2e125fd35b68cb1"
+    },
+    {
+      "path": "game/redemption/territory_swall/campomiradabefore.rpf",
+      "size": 5786160,
+      "sha256": "dc554aa5a961f2e81252cdc5d181d9305c104cfa8388806a22e3155a96a17d16"
+    },
+    {
+      "path": "game/redemption/territory_swall/casamadrugada.rpf",
+      "size": 30552240,
+      "sha256": "771e35c606297395842899febeaed54a63da7c1cf6510b5b9832b8ae2eba8749"
+    },
+    {
+      "path": "game/redemption/territory_swall/chuparosa.rpf",
+      "size": 35970128,
+      "sha256": "eabbae4114b5c32e36027ba9de80fa7ca66160eb58cee1471b1739b3a36376e0"
+    },
+    {
+      "path": "game/redemption/territory_swall/cochinay.rpf",
+      "size": 36785856,
+      "sha256": "3ea47ea32fa9517a914b468af9137fd0476bddaaeeda83913821c98c52fe9b65"
+    },
+    {
+      "path": "game/redemption/territory_swall/coots.rpf",
+      "size": 9432448,
+      "sha256": "a600311460e254d87284539b655118eae9c4c61fbe8fa62ab62a6a42292ddbf7"
+    },
+    {
+      "path": "game/redemption/territory_swall/critchleyranch.rpf",
+      "size": 6021968,
+      "sha256": "ce549525b65a34451f481e08072f5742fe580a7786330edf25dc72e894fb5f51"
+    },
+    {
+      "path": "game/redemption/territory_swall/cslighting.rpf",
+      "size": 174208,
+      "sha256": "4b71e7df0b1298af5500fba6fdbc1d0a9f2f4e236c6442909c66a510b60bbf13"
+    },
+    {
+      "path": "game/redemption/territory_swall/cuevaseco.rpf",
+      "size": 598192,
+      "sha256": "69083528e8c1ced417350d2e2ea768c8f80c1bf010e6cc950fd816ae08e6b169"
+    },
+    {
+      "path": "game/redemption/territory_swall/dellobohouse.rpf",
+      "size": 1601936,
+      "sha256": "af40ad4599778d8a89429b3923b0d758d002946b0e79aff8bece711d4b43d4c6"
+    },
+    {
+      "path": "game/redemption/territory_swall/dixoncrossingafter.rpf",
+      "size": 594128,
+      "sha256": "8ec438e84124bd0aa3ed70129af57349e9e9d49e057ecc5892ba39807c580f3f"
+    },
+    {
+      "path": "game/redemption/territory_swall/dixoncrossingbefore.rpf",
+      "size": 1565008,
+      "sha256": "11e1288efac6c5919880cbc3cb52ff01b4e045dc01752969b351d5816ea3e01a"
+    },
+    {
+      "path": "game/redemption/territory_swall/dlc01x.rpf",
+      "size": 1260288,
+      "sha256": "f6f99c40c282d7d0db7ee3586dbd4247ed4ce39b6a437528f4ad91e87e3f3a84"
+    },
+    {
+      "path": "game/redemption/territory_swall/dlc02x.rpf",
+      "size": 6966128,
+      "sha256": "6f4f2a06bbba2608b7ca32100fa6a60765b8cdc72530d9acdd576f6c4a7887cf"
+    },
+    {
+      "path": "game/redemption/territory_swall/dlc03x.rpf",
+      "size": 6208,
+      "sha256": "5ebbe52932fa90f52e4d87d8a85cbffae4d4dfc616e0ba7e3ab5036e90f81f44"
+    },
+    {
+      "path": "game/redemption/territory_swall/dlc04x.rpf",
+      "size": 6208,
+      "sha256": "4f8b84b57e1aba6b83f430936ac4bac5bd8bea55b6cb4d2279d59b08096599e3"
+    },
+    {
+      "path": "game/redemption/territory_swall/dlc05x.rpf",
+      "size": 2262656,
+      "sha256": "784c498feb7e170f4293ba3d97b4a0006704493189f5d8a0e83550fe6ebafa8e"
+    },
+    {
+      "path": "game/redemption/territory_swall/dlc06x.rpf",
+      "size": 31570912,
+      "sha256": "181b06afeb66e1281f7847304d9381fbec7d061cf54563c6951a4fccaf9a1aad"
+    },
+    {
+      "path": "game/redemption/territory_swall/dlc07x.rpf",
+      "size": 6208,
+      "sha256": "b875a1072ef8b3e154e367ec863fa1ce1d4a8c0422c9fe35cc4c1b848314fa48"
+    },
+    {
+      "path": "game/redemption/territory_swall/dlc08x.rpf",
+      "size": 36928,
+      "sha256": "3880697f14b89a606578bfdf02422553431e49082f78d987b8f64433438c0ed7"
+    },
+    {
+      "path": "game/redemption/territory_swall/dlc09x.rpf",
+      "size": 6208,
+      "sha256": "431d38473ce020809fb9148f99b50bf223442f7e8ba7ce93527ff9c54f44ed98"
+    },
+    {
+      "path": "game/redemption/territory_swall/dlc10x.rpf",
+      "size": 6208,
+      "sha256": "51d8a2964fb9a471f14cd8d558125d2c7912adef262580e0356b82ae8003bb75"
+    },
+    {
+      "path": "game/redemption/territory_swall/elmatadero.rpf",
+      "size": 30444112,
+      "sha256": "f442d60a930721baafdf968d18f22d388fde5c013643e71ecbd1b2973f85b7ac"
+    },
+    {
+      "path": "game/redemption/territory_swall/escalara.rpf",
+      "size": 43959072,
+      "sha256": "179dfef1f11a5bafda59017952ccd2c0e25d3944bf713f7c0c01d755f7311f73"
+    },
+    {
+      "path": "game/redemption/territory_swall/fillmoretunnel.rpf",
+      "size": 3029472,
+      "sha256": "42b2d37f31de378cefffe45e47611c2b871edeb0fc619cb082fe47cccaf85d41"
+    },
+    {
+      "path": "game/redemption/territory_swall/fortdiego.rpf",
+      "size": 21319488,
+      "sha256": "5993e9e2af2bd1171fa2d9d6bf242d0cdc94808b1f032e687191ec9f79716f71"
+    },
+    {
+      "path": "game/redemption/territory_swall/fortmercer.rpf",
+      "size": 23013600,
+      "sha256": "492b4db83cbc7b164522ecbb20badd16095f4a5468f2eeaa33766dc1ae5d9b5f"
+    },
+    {
+      "path": "game/redemption/territory_swall/fronterabridgeafter.rpf",
+      "size": 2566544,
+      "sha256": "439bb5b0ece5d0d29645e08a2dee39d6ac5c037a220aafe8dc5498b649da328b"
+    },
+    {
+      "path": "game/redemption/territory_swall/fronterabridgebefore.rpf",
+      "size": 3125808,
+      "sha256": "527304064fe3041f1183be901e374d57dddfdfbd90c8ac19e104046ce6e44a75"
+    },
+    {
+      "path": "game/redemption/territory_swall/gaptoothbreach.rpf",
+      "size": 18630592,
+      "sha256": "7360a4abe0ea4aad885a856fcdccde553b9ddaabf3318f8a77ebbf894447b82f"
+    },
+    {
+      "path": "game/redemption/territory_swall/graverobbercamp.rpf",
+      "size": 8352,
+      "sha256": "25c139d70c8af3f9d44959d45593efd9ab5e50f2bcc06db8fc4baa5bf0a87882"
+    },
+    {
+      "path": "game/redemption/territory_swall/greenhollow.rpf",
+      "size": 4926016,
+      "sha256": "c2e300d7e4ee1bd2b14425073fe73ec7747ec2ed002531a61affb188f45d62e7"
+    },
+    {
+      "path": "game/redemption/territory_swall/hamlinspassing.rpf",
+      "size": 936272,
+      "sha256": "b66fdb5d7d23cb2a7e5db751df3916da4ae11a1b364ae44a507a4bcdd12b6c66"
+    },
+    {
+      "path": "game/redemption/territory_swall/hangingrock.rpf",
+      "size": 155888,
+      "sha256": "032555bed58a7233939701ea04c69a166ede9d34fdf265ef01b1050938a07023"
+    },
+    {
+      "path": "game/redemption/territory_swall/hendiduragrande.rpf",
+      "size": 6240,
+      "sha256": "17ce0b7e37659dd16c9ee8e7e82878988155c1a9eb45c69fe0c9c6cce3568bfc"
+    },
+    {
+      "path": "game/redemption/territory_swall/hennigansranch.rpf",
+      "size": 32827232,
+      "sha256": "8e274559ff3757d3e821be26aabbbd5a9d1ebd55bbf7e8a59581e31107157591"
+    },
+    {
+      "path": "game/redemption/territory_swall/lagunaborrego.rpf",
+      "size": 2197840,
+      "sha256": "70fb856ec74659ac7b25623fab178fa69e7703a565d469a29c48ebfc35c0ff23"
+    },
+    {
+      "path": "game/redemption/territory_swall/lakedonjulio.rpf",
+      "size": 3666352,
+      "sha256": "168d6125aaf29c3ad8584c0285ef8206f0fca2346b9fde8a226669b33bc7acb6"
+    },
+    {
+      "path": "game/redemption/territory_swall/lashermanas.rpf",
+      "size": 21811728,
+      "sha256": "e75b3cf6aa415ff4d9db129202c61ae4a77120473a833f8e7c72ff9f8562b5c1"
+    },
+    {
+      "path": "game/redemption/territory_swall/lowermontanaford.rpf",
+      "size": 860384,
+      "sha256": "208ac687a42e16f74b5d71b19e1d2db4c9d64acc38920ea153110c7cd35e24fa"
+    },
+    {
+      "path": "game/redemption/territory_swall/manzanita.rpf",
+      "size": 15523472,
+      "sha256": "fa84a358bdbdf1691e303a14e24e8ddc1eac172fd3b6d75b8ea8fd45981a0ac1"
+    },
+    {
+      "path": "game/redemption/territory_swall/masonbridgeafter.rpf",
+      "size": 1575120,
+      "sha256": "ba6b941d7d847112ddb24c1c36172d569548c23bf1661e4aa1ff257e1cdf7773"
+    },
+    {
+      "path": "game/redemption/territory_swall/masonbridgebefore.rpf",
+      "size": 2736464,
+      "sha256": "9d2443f27eafeaea6eea3bff265017f97513ca686284ab53bcc6324191c2815d"
+    },
+    {
+      "path": "game/redemption/territory_swall/mercerstation.rpf",
+      "size": 1618480,
+      "sha256": "e79c80fc693c3467ae2b74e1c92155b224d8ac4141e8e3016dfde45d291fcb62"
+    },
+    {
+      "path": "game/redemption/territory_swall/merchantcamp.rpf",
+      "size": 713008,
+      "sha256": "7f1b8c2eea4f268663175403e68eeb8055a3a161c382ea0589741c28b0178aa4"
+    },
+    {
+      "path": "game/redemption/territory_swall/mescalero.rpf",
+      "size": 4713808,
+      "sha256": "cd781daaf54a4f35125a19dca025f4bbce2cde29347444228f754d6a56642056"
+    },
+    {
+      "path": "game/redemption/territory_swall/mission.rpf",
+      "size": 6208,
+      "sha256": "1192377af34390885235245e884ee302780c1c07048a7d82444f9f0965ae4f28"
+    },
+    {
+      "path": "game/redemption/territory_swall/morningstar.rpf",
+      "size": 3975616,
+      "sha256": "38972eb07ee02e9bc80bea681eeba5b57d9d364039258a406065cf42f9d149ec"
+    },
+    {
+      "path": "game/redemption/territory_swall/nosalida.rpf",
+      "size": 16711392,
+      "sha256": "c0296b732ca763fb90fb4ee7181a34145ea7d4fe6b420a6252e4d3f8ebf75fa7"
+    },
+    {
+      "path": "game/redemption/territory_swall/oddfellowsrest.rpf",
+      "size": 852160,
+      "sha256": "a99c993ff519d848c2b186f6b7a35d94acf0eca2458f853f76660cc46942ad5d"
+    },
+    {
+      "path": "game/redemption/territory_swall/pikesbasin.rpf",
+      "size": 13507824,
+      "sha256": "cdb475619569372e038e30e9ebf88f22a1830eaf1813eaa93ad6f85764cafa5b"
+    },
+    {
+      "path": "game/redemption/territory_swall/plainview.rpf",
+      "size": 5940608,
+      "sha256": "9ac1b8ae5f7e8328becfbdcf9e098e579c38649ff4d084fedfb6e1c1b9cc6424"
+    },
+    {
+      "path": "game/redemption/territory_swall/platagrande.rpf",
+      "size": 2607536,
+      "sha256": "0d292afb5ed03e8c8c186bd3754ad01a1277a3c56061281105666d2c0efaadf7"
+    },
+    {
+      "path": "game/redemption/territory_swall/pleasancehouse.rpf",
+      "size": 2292160,
+      "sha256": "b99345b43f84a04d26ef10d0ac5f38f45381c97bc3cc01818182e8b6e73736ee"
+    },
+    {
+      "path": "game/redemption/territory_swall/primeroquebrada.rpf",
+      "size": 3213696,
+      "sha256": "986ff09b82504bffcc4bf24e25bca71bb1e83b7702e5e26e5291390509c0e76c"
+    },
+    {
+      "path": "game/redemption/territory_swall/puertocuchillo.rpf",
+      "size": 1237312,
+      "sha256": "69318a0900b7ec14254251a10f9072b5fe20401c89af36600ac5c943366567c8"
+    },
+    {
+      "path": "game/redemption/territory_swall/ramitabayaafter.rpf",
+      "size": 1528256,
+      "sha256": "e5204c62a01da1b50d52c486fc3093e860decd86294fea8c7421bd7c7a599fbf"
+    },
+    {
+      "path": "game/redemption/territory_swall/ramitabayabefore.rpf",
+      "size": 2689568,
+      "sha256": "0ea404cf1b90ce4aa3a999bcb52fdf44736d76921b28005be18ef34a9910ac00"
+    },
+    {
+      "path": "game/redemption/territory_swall/ranchopolvo.rpf",
+      "size": 4884848,
+      "sha256": "d1faf183aa9952ec9cd5259cf6b8a275548cdfe50827b774bffda52017bec285"
+    },
+    {
+      "path": "game/redemption/territory_swall/rathskellerfork.rpf",
+      "size": 18093616,
+      "sha256": "07d9056821c8f8f6affb2c88a9080b4939df87b74871463ebb4d62c6c369cbb3"
+    },
+    {
+      "path": "game/redemption/territory_swall/ridgewoodfarm.rpf",
+      "size": 13320112,
+      "sha256": "154b1da413fcbd47963a01827694aadf8931d9027ba77ca590ddd5a3ee467618"
+    },
+    {
+      "path": "game/redemption/territory_swall/riodeltoro.rpf",
+      "size": 792752,
+      "sha256": "060735133a7f7e4538aff22bcb6f92767019a3b6612e8c9621979cd3f7871516"
+    },
+    {
+      "path": "game/redemption/territory_swall/rocamadera.rpf",
+      "size": 225488,
+      "sha256": "9f616deba6fc573d182689d0eeb21e07d6ee327d342800122e2442db6ce9e01e"
+    },
+    {
+      "path": "game/redemption/territory_swall/scratchingpost.rpf",
+      "size": 3973728,
+      "sha256": "2ee17ac5cde00b7850bb34455f9527f130fa5ee47bf149b208a411bc623010b4"
+    },
+    {
+      "path": "game/redemption/territory_swall/sepulcro.rpf",
+      "size": 8172576,
+      "sha256": "8cfd17a95c5606be4a1f14be658c50301391815593cf622a4be708edd71e5650"
+    },
+    {
+      "path": "game/redemption/territory_swall/sidewindergulch.rpf",
+      "size": 1398944,
+      "sha256": "75f917434bef761607a789c0777653bc3f20297563d43cc9ea4508b2645ca842"
+    },
+    {
+      "path": "game/redemption/territory_swall/silentstead.rpf",
+      "size": 3207632,
+      "sha256": "a80795b7a859296340138ac21c0c57d0fa34d15dacdd56bbc61daaf78cfda75d"
+    },
+    {
+      "path": "game/redemption/territory_swall/solomonsfolly.rpf",
+      "size": 6236864,
+      "sha256": "fdbb60a6f0abb7439dd06a72818dc145cab02bd12e9d5aa0df1bfe6ba9bb0a4d"
+    },
+    {
+      "path": "game/redemption/territory_swall/stillwatercreek.rpf",
+      "size": 5174656,
+      "sha256": "1b20d9204e9c0f2542a27d777355f1463410e5615cea85309dbd888840d2f527"
+    },
+    {
+      "path": "game/redemption/territory_swall/swaicurves.rpf",
+      "size": 184496,
+      "sha256": "2b5a1c18fb2a9dcb243fa77605e3b837554f79c237d436ad39389c5b318f3999"
+    },
+    {
+      "path": "game/redemption/territory_swall/swall.rpf",
+      "size": 10304,
+      "sha256": "c4007c930a73be4584cb65091a4a39ff2f45af6a5bd35ab5632cb42202168a36"
+    },
+    {
+      "path": "game/redemption/territory_swall/swhorsecurves.rpf",
+      "size": 867392,
+      "sha256": "a33b858d83c0f1a128393d1c7bfd2c481bf67ee1ae6cf4abff63137b77ec5957"
+    },
+    {
+      "path": "game/redemption/territory_swall/swrailroad.rpf",
+      "size": 34992,
+      "sha256": "33ffd379ca44a0e07b09283e18dab3f4ed11dea59af4515f80fe25b9dc51c691"
+    },
+    {
+      "path": "game/redemption/territory_swall/swterrain.rpf",
+      "size": 18057024,
+      "sha256": "d07f7945c48e4d6cab0b8eb9ede8cbe66bd4f4a6bb2470fa7f910743bce817fb"
+    },
+    {
+      "path": "game/redemption/territory_swall/swwater.rpf",
+      "size": 221792,
+      "sha256": "4a7b60405c4091d52eef10a236fc1fd5ccc89db98e9eaf994cad9e9d79cd871a"
+    },
+    {
+      "path": "game/redemption/territory_swall/tannersreach.rpf",
+      "size": 4340176,
+      "sha256": "4c3869ac8104ded3a36290b0c1500ca0f51a5fabfeee91c55fbaba612e8df583"
+    },
+    {
+      "path": "game/redemption/territory_swall/tannersspanafter.rpf",
+      "size": 1114320,
+      "sha256": "ed397793bcd38c0ec50b63491e2cae325fb8f357f4dbafc9ebfb080df086dff6"
+    },
+    {
+      "path": "game/redemption/territory_swall/tannersspanbefore.rpf",
+      "size": 1696048,
+      "sha256": "ed3c1f4441346076d0aafd3b2aa5fcd2348899b9231467dd314df179eb08578e"
+    },
+    {
+      "path": "game/redemption/territory_swall/tesoroazul.rpf",
+      "size": 23958464,
+      "sha256": "72bfaff353137c952518d86fe32a032dae0779bc8baf7c8ebf85a7db01957839"
+    },
+    {
+      "path": "game/redemption/territory_swall/theceliawastes.rpf",
+      "size": 663872,
+      "sha256": "1e02e5eba5985ebe4eee28589927fd27db10cafa168a65a5a719fb9174206366"
+    },
+    {
+      "path": "game/redemption/territory_swall/thieveslanding.rpf",
+      "size": 48597360,
+      "sha256": "fa310465e47ef15aa05a0f9b30b22eb5798aacbfe79b2522f4ce994748a7cc8a"
+    },
+    {
+      "path": "game/redemption/territory_swall/torquemada.rpf",
+      "size": 19802288,
+      "sha256": "17d3ea2a6ca506301bf83598ea240f51690f29de8a0834df8dbfb7c58669c07f"
+    },
+    {
+      "path": "game/redemption/territory_swall/tumbleweed.rpf",
+      "size": 37996112,
+      "sha256": "f53e3b8bf6b6dc5f61225321d9415770c0e4bad229e49fe10970f909da126a84"
+    },
+    {
+      "path": "game/redemption/territory_swall/twinrocks.rpf",
+      "size": 7973824,
+      "sha256": "cb9432a95f06bd084ecf992986e9a0103d018225fdbb1253fa18208f4bdde977"
+    },
+    {
+      "path": "game/redemption/territory_swall/twocrows.rpf",
+      "size": 1597808,
+      "sha256": "8fdd0ab66195e41b14f5eb7017d2884b3bdd4e164f165bcb4142f2cba99dcefd"
+    },
+    {
+      "path": "game/redemption/territory_swall/unionpacific.rpf",
+      "size": 28477664,
+      "sha256": "d7aa4dbcc589cd6f149b221f898b00c97129b6b7ce6aef002a8d44ad00782562"
+    },
+    {
+      "path": "game/redemption/territory_swall/ventersplace.rpf",
+      "size": 2812704,
+      "sha256": "e186f6a9e267f8fa69b65cae89e5919d3e258e70a58a6c15540ac3d1c9aedc18"
+    },
+    {
+      "path": "game/redemption/territory_swall/warthingtons.rpf",
+      "size": 4655680,
+      "sha256": "f68736666071661eaaf9a5f95927d4af8e8b6c86bb0a3ea9bcd7da459f440739"
+    },
+    {
+      "path": "game/redemption/territory_swall/wilderness.rpf",
+      "size": 30848,
+      "sha256": "d323f4eba24d51dafbee5da40c3a19f19edfdd6c57b364db4a6e867409e214df"
+    },
+    {
+      "path": "game/redemption/territory_swall/wreckserendipity.rpf",
+      "size": 12434208,
+      "sha256": "175120f19a819a464445a10a8bfed29e76dfab42dd7750add3123cc3b1f1cb6b"
+    },
+    {
+      "path": "game/shaders.rpf",
+      "size": 8496160,
+      "sha256": "b770627388fbc8629df73411ad7377145a0fa6744e176c38f71fc2740a3bc13f"
+    },
+    {
+      "path": "game/strings_d11generic.rpf",
+      "size": 99669984,
+      "sha256": "a79e4daf5a84e0da61816180f36e1329ddebdd209a6e5aeddf304cb39eb62815"
+    },
+    {
+      "path": "game/terrainboundres.rpf",
+      "size": 212549008,
+      "sha256": "7048422d08102fd16380e058e2e4e52ec18dadebead6e0b5902d2e1a6c63fa4e"
+    },
+    {
+      "path": "game/terrainlodres.rpf",
+      "size": 581062464,
+      "sha256": "38e1927fb0738a7a7e7610d6b49dc216538bfa655eb5a90c7109aa48c20af877"
+    },
+    {
+      "path": "game/textures.rpf",
+      "size": 17769552,
+      "sha256": "f9a7fa3ec24022addb7190a4e89679b53d64ed8b021762659228d9453117d586"
+    },
+    {
+      "path": "game/treeres.rpf",
+      "size": 9021696,
+      "sha256": "68048a6c90ac13dd9f8c40ddf26dbb20f317dcbb5fd28efaca68db2724433110"
+    },
+    {
+      "path": "game/tune_d11generic.rpf",
+      "size": 19247616,
+      "sha256": "0519616f82a2e83708f9fc088a7b2be79b18076cd8560fadee826d9f9b7b6d33"
+    },
+    {
+      "path": "game/vfx.rpf",
+      "size": 3606464,
+      "sha256": "df3822c1ce0e6976a35d382878d744cd7c175ee1e503cfd617acc24e38ed4ab7"
+    },
+    {
+      "path": "installscript.vdf",
+      "size": 479,
+      "sha256": "49251f3ceed2c8cd367c7a3a6913460c7d0dd1bc9625d62becfcdff02f2f2831"
+    },
+    {
+      "path": "installscript_sdk.vdf",
+      "size": 829,
+      "sha256": "74511266b81b627bd63a8aea500e9eba0ba6a912c8c34ede26f80641ede265a7"
+    },
+    {
+      "path": "metadata.dat",
+      "size": 991042,
+      "sha256": "e7b2b4393d1cd9a270d0ce5ecf8b8f8416ca19bb9f2743b848970b0557c0944d"
+    },
+    {
+      "path": "MTLX.dll",
+      "size": 1453544,
+      "sha256": "c654d5f1717fafe03b972bab684062ac4bafc5429862faa99600b52aa7c94ae4"
+    },
+    {
+      "path": "nvngx_dlss.dll",
+      "size": 51256376,
+      "sha256": "d29969a073953b9ebd4634a7837dd62bbc139531f9efc4967224ee92fd1357b6"
+    },
+    {
+      "path": "nvngx_dlssg.dll",
+      "size": 11778088,
+      "sha256": "a362b115f717b739c098123b3e54713946f032f2c40dad41d6398d9a09acd59e"
+    },
+    {
+      "path": "PlayRDR.exe",
+      "size": 422400,
+      "sha256": "36a1de8a4204c67e98f9cb801064e2d8edd9ab1ba70daf14d9474a5c091f88c6"
+    },
+    {
+      "path": "PlayRDR.exe.rzr",
+      "size": 454120,
+      "sha256": "dd2a879b4f32518292eea709c0c4186cfb7ef1cde440e9f802499f450477d036"
+    },
+    {
+      "path": "RDR.exe",
+      "size": 39745512,
+      "sha256": "4d3f7a26cd22b3ead541f37f278f2d8ad905f0321d21e33e696be62c475913d7"
+    },
+    {
+      "path": "RDR.exe.rzr",
+      "size": 39745512,
+      "sha256": "cc27983d9b9183ad32bf9f12d234a3b76ced27d32cce054279895d65e765b2c5"
+    },
+    {
+      "path": "RDRMessage.exe",
+      "size": 219624,
+      "sha256": "c2a36f14217711f4b2de979d1895e52f5c628de7144ea27056da5a34cee7c0ff"
+    },
+    {
+      "path": "Redistributables/Rockstar-Games-Launcher.exe",
+      "size": 140093928,
+      "sha256": "16156873087fd8731b53f3cc9a713393a63278ac9c38606b09716ef6cbb86a57"
+    },
+    {
+      "path": "Redistributables/Social-Club-Setup.exe",
+      "size": 85099504,
+      "sha256": "f73a5656d9e157486ae0517dd6fe57062106dedb03db16001a40cbbee9ad6c80"
+    },
+    {
+      "path": "sl.common.dll",
+      "size": 655840,
+      "sha256": "ce3cee16ecbbe2ff15fd17ab0f394c68527a7f1eefca5aa410dccea209ba44fb"
+    },
+    {
+      "path": "sl.dlss.dll",
+      "size": 241112,
+      "sha256": "90b26123446412ff6604859df9e35ee1e9047a32065da72e64a11d5d2d19679c"
+    },
+    {
+      "path": "sl.dlss_g.dll",
+      "size": 435680,
+      "sha256": "83068ea138aa794e3cb87eb88658436ae10242d7a7bb837d7304333cec7c2218"
+    },
+    {
+      "path": "sl.interposer.dll",
+      "size": 532960,
+      "sha256": "78c1696ba125f5c7656510481b38035a4f1e9d7a8928705dba45933075608260"
+    },
+    {
+      "path": "sl.pcl.dll",
+      "size": 167904,
+      "sha256": "fdf56e4463051a8f4396fcdebf9ef3bdfc90962e7abf2573261b3a9a5d6e8b43"
+    },
+    {
+      "path": "sl.reflex.dll",
+      "size": 177120,
+      "sha256": "bb11d3b0ca9ad48c2e75bd2c220608ed8b7be50f088dcea50944918f6d84d6c8"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 1872896,
+      "sha256": "11bbccf94fa5a8e9ac4ab06853d5ef15aae0295f6f8096891fb1ed0df56c2dc1"
+    },
+    {
+      "path": "steam_api64.dll.rzr",
+      "size": 301928,
+      "sha256": "9d6d2972c1571a2a058d79a8376e26a33d33813f29d93c3ca6e35adaddcd56de"
+    },
+    {
+      "path": "title.rgl",
+      "size": 1392,
+      "sha256": "bd7cde952f5da7f18d3675fef1b4de63d57d3c191b072b85ce0c557989e84365"
+    },
+    {
+      "path": "uninstall.exe",
+      "size": 827376,
+      "sha256": "66ea0ccc59bb848baa10bf19a84bcd468d8e498bb729534014d2c027d28ce90d"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "1911.dll",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 13109760
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 13109760,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 13999176,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 14287264,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 15096760,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 30070784,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 44483088,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 50201960,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 55275200,
+          "length": 7054336
+        },
+        {
+          "file": "bink2w64.dll",
+          "file_offset": 0,
+          "chunk_offset": 62329536,
+          "length": 421352
+        },
+        {
+          "file": "crashpad_handler.exe",
+          "file_offset": 0,
+          "chunk_offset": 62750888,
+          "length": 1129960
+        },
+        {
+          "file": "d11steamutilities.dll",
+          "file_offset": 0,
+          "chunk_offset": 63880848,
+          "length": 23528
+        },
+        {
+          "file": "dxcompiler.dll",
+          "file_offset": 0,
+          "chunk_offset": 63904376,
+          "length": 12603368
+        },
+        {
+          "file": "game/act.rpf",
+          "file_offset": 0,
+          "chunk_offset": 76507744,
+          "length": 3410960
+        },
+        {
+          "file": "game/animationres.rpf",
+          "file_offset": 0,
+          "chunk_offset": 79918704,
+          "length": 157971232
+        },
+        {
+          "file": "game/arm00.bk2",
+          "file_offset": 0,
+          "chunk_offset": 237889936,
+          "length": 194626700
+        },
+        {
+          "file": "game/audio_d11generic.rpf",
+          "file_offset": 0,
+          "chunk_offset": 432516636,
+          "length": 207114724
+        }
+      ],
+      "sha256": "050d803f0b986d4b5e3ee159cdb92664ed1e78f4d18f73a79c83a368ae1823f5"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "game/audio_d11generic.rpf",
+          "file_offset": 207114724,
+          "chunk_offset": 0,
+          "length": 639631360
+        }
+      ],
+      "sha256": "0554371ad302be8ac75b41f84dc1c8a21eeb26465b754c689be9dc5e49541148"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "game/audio_d11generic.rpf",
+          "file_offset": 846746084,
+          "chunk_offset": 0,
+          "length": 639631360
+        }
+      ],
+      "sha256": "11b6930e590a4c921f10561da75d73ddff3bf391362568558be1291685f3e91a"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "game/audio_d11generic.rpf",
+          "file_offset": 1486377444,
+          "chunk_offset": 0,
+          "length": 639631360
+        }
+      ],
+      "sha256": "69e808f28a1ce777e6e7db4d0a3c9b903dd2a2ba9d73004cf297a557a3d430f3"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "game/audio_d11generic.rpf",
+          "file_offset": 2126008804,
+          "chunk_offset": 0,
+          "length": 639631360
+        }
+      ],
+      "sha256": "6702eb5b9b50297206e625bda79e39071d2dae79e18c84321b46c4db4e9c2e90"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "game/audio_d11generic.rpf",
+          "file_offset": 2765640164,
+          "chunk_offset": 0,
+          "length": 639631360
+        }
+      ],
+      "sha256": "a5f8c6dd378eb1b585e4cdc61a55e963f510bbdc84b7795275165c079b0c6a69"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "game/audio_d11generic.rpf",
+          "file_offset": 3405271524,
+          "chunk_offset": 0,
+          "length": 493518204
+        },
+        {
+          "file": "game/base/content.rpf",
+          "file_offset": 0,
+          "chunk_offset": 493518204,
+          "length": 166032
+        },
+        {
+          "file": "game/base/cutscene.rpf",
+          "file_offset": 0,
+          "chunk_offset": 493684236,
+          "length": 2214096
+        },
+        {
+          "file": "game/base/fragments.rpf",
+          "file_offset": 0,
+          "chunk_offset": 495898332,
+          "length": 1017984
+        },
+        {
+          "file": "game/base/mapres.rpf",
+          "file_offset": 0,
+          "chunk_offset": 496916316,
+          "length": 194624
+        },
+        {
+          "file": "game/blk00.bk2",
+          "file_offset": 0,
+          "chunk_offset": 497110940,
+          "length": 142520420
+        }
+      ],
+      "sha256": "646d39890e3b5b6d38027aad22abfc01ec94ab979fa9b72b4c2a8d7852765fb4"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "game/blk00.bk2",
+          "file_offset": 142520420,
+          "chunk_offset": 0,
+          "length": 35411636
+        },
+        {
+          "file": "game/camera.rpf",
+          "file_offset": 0,
+          "chunk_offset": 35411636,
+          "length": 629600
+        },
+        {
+          "file": "game/content.rpf",
+          "file_offset": 0,
+          "chunk_offset": 36041236,
+          "length": 21523696
+        },
+        {
+          "file": "game/cutscene.rpf",
+          "file_offset": 0,
+          "chunk_offset": 57564932,
+          "length": 515038480
+        },
+        {
+          "file": "game/d11extra/langselect.pkdwin",
+          "file_offset": 0,
+          "chunk_offset": 572603412,
+          "length": 3672739
+        },
+        {
+          "file": "game/d11extra/langselect.pkiwin",
+          "file_offset": 0,
+          "chunk_offset": 576276151,
+          "length": 2416
+        },
+        {
+          "file": "game/flash.rpf",
+          "file_offset": 0,
+          "chunk_offset": 576278567,
+          "length": 63352793
+        }
+      ],
+      "sha256": "283c1798561379d78eb889b822420d23d91d5c2a60b9fda06d7e74c68e4a0297"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "game/flash.rpf",
+          "file_offset": 63352793,
+          "chunk_offset": 0,
+          "length": 144372455
+        },
+        {
+          "file": "game/fonts.rpf",
+          "file_offset": 0,
+          "chunk_offset": 144372455,
+          "length": 1275376
+        },
+        {
+          "file": "game/fragments.rpf",
+          "file_offset": 0,
+          "chunk_offset": 145647831,
+          "length": 493983529
+        }
+      ],
+      "sha256": "373434a236ae084f1b73c1d612050551436ef49242379758198155182105a5b5"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "game/fragments.rpf",
+          "file_offset": 493983529,
+          "chunk_offset": 0,
+          "length": 639631360
+        }
+      ],
+      "sha256": "e87a72a18a9b0f9177895d0a62535622ed5c75496283489188816ffead3375fd"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "game/fragments.rpf",
+          "file_offset": 1133614889,
+          "chunk_offset": 0,
+          "length": 639631360
+        }
+      ],
+      "sha256": "80bb1c5551c740e0bfe7d4b71cb4dcdd10c6bd77f04c8e650211f0a1e24c995e"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "game/fragments.rpf",
+          "file_offset": 1773246249,
+          "chunk_offset": 0,
+          "length": 236354455
+        },
+        {
+          "file": "game/fragments2.rpf",
+          "file_offset": 0,
+          "chunk_offset": 236354455,
+          "length": 55087872
+        },
+        {
+          "file": "game/grassres.rpf",
+          "file_offset": 0,
+          "chunk_offset": 291442327,
+          "length": 78370496
+        },
+        {
+          "file": "game/gringores.rpf",
+          "file_offset": 0,
+          "chunk_offset": 369812823,
+          "length": 369680
+        },
+        {
+          "file": "game/mapres.rpf",
+          "file_offset": 0,
+          "chunk_offset": 370182503,
+          "length": 269448857
+        }
+      ],
+      "sha256": "c12797726e3fc3d364ac2ee9b2e33d4884d9b01a056497f5b8f5fba9c2351990"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "game/mapres.rpf",
+          "file_offset": 269448857,
+          "chunk_offset": 0,
+          "length": 54620055
+        },
+        {
+          "file": "game/naturalmotion.rpf",
+          "file_offset": 0,
+          "chunk_offset": 54620055,
+          "length": 96544
+        },
+        {
+          "file": "game/navres.rpf",
+          "file_offset": 0,
+          "chunk_offset": 54716599,
+          "length": 225172944
+        },
+        {
+          "file": "game/psocache.rpf",
+          "file_offset": 0,
+          "chunk_offset": 279889543,
+          "length": 2210912
+        },
+        {
+          "file": "game/redemption/territory_swall/agaveviejo.rpf",
+          "file_offset": 0,
+          "chunk_offset": 282100455,
+          "length": 20178240
+        },
+        {
+          "file": "game/redemption/territory_swall/armadillo.rpf",
+          "file_offset": 0,
+          "chunk_offset": 302278695,
+          "length": 36161760
+        },
+        {
+          "file": "game/redemption/territory_swall/aurorabasin.rpf",
+          "file_offset": 0,
+          "chunk_offset": 338440455,
+          "length": 4028848
+        },
+        {
+          "file": "game/redemption/territory_swall/bacchusplace.rpf",
+          "file_offset": 0,
+          "chunk_offset": 342469303,
+          "length": 2587104
+        },
+        {
+          "file": "game/redemption/territory_swall/barranca.rpf",
+          "file_offset": 0,
+          "chunk_offset": 345056407,
+          "length": 1753536
+        },
+        {
+          "file": "game/redemption/territory_swall/battlefieldruins.rpf",
+          "file_offset": 0,
+          "chunk_offset": 346809943,
+          "length": 3353088
+        },
+        {
+          "file": "game/redemption/territory_swall/bearclaw.rpf",
+          "file_offset": 0,
+          "chunk_offset": 350163031,
+          "length": 4308160
+        },
+        {
+          "file": "game/redemption/territory_swall/beechershope.rpf",
+          "file_offset": 0,
+          "chunk_offset": 354471191,
+          "length": 21684816
+        },
+        {
+          "file": "game/redemption/territory_swall/benedictpass.rpf",
+          "file_offset": 0,
+          "chunk_offset": 376156007,
+          "length": 895280
+        },
+        {
+          "file": "game/redemption/territory_swall/benedictpoint.rpf",
+          "file_offset": 0,
+          "chunk_offset": 377051287,
+          "length": 6143392
+        },
+        {
+          "file": "game/redemption/territory_swall/blackwater.rpf",
+          "file_offset": 0,
+          "chunk_offset": 383194679,
+          "length": 75734960
+        },
+        {
+          "file": "game/redemption/territory_swall/brittlebushtrawl.rpf",
+          "file_offset": 0,
+          "chunk_offset": 458929639,
+          "length": 3992304
+        },
+        {
+          "file": "game/redemption/territory_swall/brokentree.rpf",
+          "file_offset": 0,
+          "chunk_offset": 462921943,
+          "length": 770240
+        },
+        {
+          "file": "game/redemption/territory_swall/butterbridgea.rpf",
+          "file_offset": 0,
+          "chunk_offset": 463692183,
+          "length": 2533824
+        },
+        {
+          "file": "game/redemption/territory_swall/butterbridgeb.rpf",
+          "file_offset": 0,
+          "chunk_offset": 466226007,
+          "length": 1790272
+        },
+        {
+          "file": "game/redemption/territory_swall/butterbridgec.rpf",
+          "file_offset": 0,
+          "chunk_offset": 468016279,
+          "length": 227520
+        },
+        {
+          "file": "game/redemption/territory_swall/butterbridged.rpf",
+          "file_offset": 0,
+          "chunk_offset": 468243799,
+          "length": 1225024
+        },
+        {
+          "file": "game/redemption/territory_swall/campomiradaafter.rpf",
+          "file_offset": 0,
+          "chunk_offset": 469468823,
+          "length": 4532832
+        },
+        {
+          "file": "game/redemption/territory_swall/campomiradabefore.rpf",
+          "file_offset": 0,
+          "chunk_offset": 474001655,
+          "length": 5786160
+        },
+        {
+          "file": "game/redemption/territory_swall/casamadrugada.rpf",
+          "file_offset": 0,
+          "chunk_offset": 479787815,
+          "length": 30552240
+        },
+        {
+          "file": "game/redemption/territory_swall/chuparosa.rpf",
+          "file_offset": 0,
+          "chunk_offset": 510340055,
+          "length": 35970128
+        },
+        {
+          "file": "game/redemption/territory_swall/cochinay.rpf",
+          "file_offset": 0,
+          "chunk_offset": 546310183,
+          "length": 36785856
+        },
+        {
+          "file": "game/redemption/territory_swall/coots.rpf",
+          "file_offset": 0,
+          "chunk_offset": 583096039,
+          "length": 9432448
+        },
+        {
+          "file": "game/redemption/territory_swall/critchleyranch.rpf",
+          "file_offset": 0,
+          "chunk_offset": 592528487,
+          "length": 6021968
+        },
+        {
+          "file": "game/redemption/territory_swall/cslighting.rpf",
+          "file_offset": 0,
+          "chunk_offset": 598550455,
+          "length": 174208
+        },
+        {
+          "file": "game/redemption/territory_swall/cuevaseco.rpf",
+          "file_offset": 0,
+          "chunk_offset": 598724663,
+          "length": 598192
+        },
+        {
+          "file": "game/redemption/territory_swall/dellobohouse.rpf",
+          "file_offset": 0,
+          "chunk_offset": 599322855,
+          "length": 1601936
+        },
+        {
+          "file": "game/redemption/territory_swall/dixoncrossingafter.rpf",
+          "file_offset": 0,
+          "chunk_offset": 600924791,
+          "length": 594128
+        },
+        {
+          "file": "game/redemption/territory_swall/dixoncrossingbefore.rpf",
+          "file_offset": 0,
+          "chunk_offset": 601518919,
+          "length": 1565008
+        },
+        {
+          "file": "game/redemption/territory_swall/dlc01x.rpf",
+          "file_offset": 0,
+          "chunk_offset": 603083927,
+          "length": 1260288
+        },
+        {
+          "file": "game/redemption/territory_swall/dlc02x.rpf",
+          "file_offset": 0,
+          "chunk_offset": 604344215,
+          "length": 6966128
+        },
+        {
+          "file": "game/redemption/territory_swall/dlc03x.rpf",
+          "file_offset": 0,
+          "chunk_offset": 611310343,
+          "length": 6208
+        },
+        {
+          "file": "game/redemption/territory_swall/dlc04x.rpf",
+          "file_offset": 0,
+          "chunk_offset": 611316551,
+          "length": 6208
+        },
+        {
+          "file": "game/redemption/territory_swall/dlc05x.rpf",
+          "file_offset": 0,
+          "chunk_offset": 611322759,
+          "length": 2262656
+        },
+        {
+          "file": "game/redemption/territory_swall/dlc06x.rpf",
+          "file_offset": 0,
+          "chunk_offset": 613585415,
+          "length": 26045945
+        }
+      ],
+      "sha256": "648026b3ced52d91a093c4c0e29a3b66dfc2c7c3fde855addacf00e092047b3d"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "game/redemption/territory_swall/dlc06x.rpf",
+          "file_offset": 26045945,
+          "chunk_offset": 0,
+          "length": 5524967
+        },
+        {
+          "file": "game/redemption/territory_swall/dlc07x.rpf",
+          "file_offset": 0,
+          "chunk_offset": 5524967,
+          "length": 6208
+        },
+        {
+          "file": "game/redemption/territory_swall/dlc08x.rpf",
+          "file_offset": 0,
+          "chunk_offset": 5531175,
+          "length": 36928
+        },
+        {
+          "file": "game/redemption/territory_swall/dlc09x.rpf",
+          "file_offset": 0,
+          "chunk_offset": 5568103,
+          "length": 6208
+        },
+        {
+          "file": "game/redemption/territory_swall/dlc10x.rpf",
+          "file_offset": 0,
+          "chunk_offset": 5574311,
+          "length": 6208
+        },
+        {
+          "file": "game/redemption/territory_swall/elmatadero.rpf",
+          "file_offset": 0,
+          "chunk_offset": 5580519,
+          "length": 30444112
+        },
+        {
+          "file": "game/redemption/territory_swall/escalara.rpf",
+          "file_offset": 0,
+          "chunk_offset": 36024631,
+          "length": 43959072
+        },
+        {
+          "file": "game/redemption/territory_swall/fillmoretunnel.rpf",
+          "file_offset": 0,
+          "chunk_offset": 79983703,
+          "length": 3029472
+        },
+        {
+          "file": "game/redemption/territory_swall/fortdiego.rpf",
+          "file_offset": 0,
+          "chunk_offset": 83013175,
+          "length": 21319488
+        },
+        {
+          "file": "game/redemption/territory_swall/fortmercer.rpf",
+          "file_offset": 0,
+          "chunk_offset": 104332663,
+          "length": 23013600
+        },
+        {
+          "file": "game/redemption/territory_swall/fronterabridgeafter.rpf",
+          "file_offset": 0,
+          "chunk_offset": 127346263,
+          "length": 2566544
+        },
+        {
+          "file": "game/redemption/territory_swall/fronterabridgebefore.rpf",
+          "file_offset": 0,
+          "chunk_offset": 129912807,
+          "length": 3125808
+        },
+        {
+          "file": "game/redemption/territory_swall/gaptoothbreach.rpf",
+          "file_offset": 0,
+          "chunk_offset": 133038615,
+          "length": 18630592
+        },
+        {
+          "file": "game/redemption/territory_swall/graverobbercamp.rpf",
+          "file_offset": 0,
+          "chunk_offset": 151669207,
+          "length": 8352
+        },
+        {
+          "file": "game/redemption/territory_swall/greenhollow.rpf",
+          "file_offset": 0,
+          "chunk_offset": 151677559,
+          "length": 4926016
+        },
+        {
+          "file": "game/redemption/territory_swall/hamlinspassing.rpf",
+          "file_offset": 0,
+          "chunk_offset": 156603575,
+          "length": 936272
+        },
+        {
+          "file": "game/redemption/territory_swall/hangingrock.rpf",
+          "file_offset": 0,
+          "chunk_offset": 157539847,
+          "length": 155888
+        },
+        {
+          "file": "game/redemption/territory_swall/hendiduragrande.rpf",
+          "file_offset": 0,
+          "chunk_offset": 157695735,
+          "length": 6240
+        },
+        {
+          "file": "game/redemption/territory_swall/hennigansranch.rpf",
+          "file_offset": 0,
+          "chunk_offset": 157701975,
+          "length": 32827232
+        },
+        {
+          "file": "game/redemption/territory_swall/lagunaborrego.rpf",
+          "file_offset": 0,
+          "chunk_offset": 190529207,
+          "length": 2197840
+        },
+        {
+          "file": "game/redemption/territory_swall/lakedonjulio.rpf",
+          "file_offset": 0,
+          "chunk_offset": 192727047,
+          "length": 3666352
+        },
+        {
+          "file": "game/redemption/territory_swall/lashermanas.rpf",
+          "file_offset": 0,
+          "chunk_offset": 196393399,
+          "length": 21811728
+        },
+        {
+          "file": "game/redemption/territory_swall/lowermontanaford.rpf",
+          "file_offset": 0,
+          "chunk_offset": 218205127,
+          "length": 860384
+        },
+        {
+          "file": "game/redemption/territory_swall/manzanita.rpf",
+          "file_offset": 0,
+          "chunk_offset": 219065511,
+          "length": 15523472
+        },
+        {
+          "file": "game/redemption/territory_swall/masonbridgeafter.rpf",
+          "file_offset": 0,
+          "chunk_offset": 234588983,
+          "length": 1575120
+        },
+        {
+          "file": "game/redemption/territory_swall/masonbridgebefore.rpf",
+          "file_offset": 0,
+          "chunk_offset": 236164103,
+          "length": 2736464
+        },
+        {
+          "file": "game/redemption/territory_swall/mercerstation.rpf",
+          "file_offset": 0,
+          "chunk_offset": 238900567,
+          "length": 1618480
+        },
+        {
+          "file": "game/redemption/territory_swall/merchantcamp.rpf",
+          "file_offset": 0,
+          "chunk_offset": 240519047,
+          "length": 713008
+        },
+        {
+          "file": "game/redemption/territory_swall/mescalero.rpf",
+          "file_offset": 0,
+          "chunk_offset": 241232055,
+          "length": 4713808
+        },
+        {
+          "file": "game/redemption/territory_swall/mission.rpf",
+          "file_offset": 0,
+          "chunk_offset": 245945863,
+          "length": 6208
+        },
+        {
+          "file": "game/redemption/territory_swall/morningstar.rpf",
+          "file_offset": 0,
+          "chunk_offset": 245952071,
+          "length": 3975616
+        },
+        {
+          "file": "game/redemption/territory_swall/nosalida.rpf",
+          "file_offset": 0,
+          "chunk_offset": 249927687,
+          "length": 16711392
+        },
+        {
+          "file": "game/redemption/territory_swall/oddfellowsrest.rpf",
+          "file_offset": 0,
+          "chunk_offset": 266639079,
+          "length": 852160
+        },
+        {
+          "file": "game/redemption/territory_swall/pikesbasin.rpf",
+          "file_offset": 0,
+          "chunk_offset": 267491239,
+          "length": 13507824
+        },
+        {
+          "file": "game/redemption/territory_swall/plainview.rpf",
+          "file_offset": 0,
+          "chunk_offset": 280999063,
+          "length": 5940608
+        },
+        {
+          "file": "game/redemption/territory_swall/platagrande.rpf",
+          "file_offset": 0,
+          "chunk_offset": 286939671,
+          "length": 2607536
+        },
+        {
+          "file": "game/redemption/territory_swall/pleasancehouse.rpf",
+          "file_offset": 0,
+          "chunk_offset": 289547207,
+          "length": 2292160
+        },
+        {
+          "file": "game/redemption/territory_swall/primeroquebrada.rpf",
+          "file_offset": 0,
+          "chunk_offset": 291839367,
+          "length": 3213696
+        },
+        {
+          "file": "game/redemption/territory_swall/puertocuchillo.rpf",
+          "file_offset": 0,
+          "chunk_offset": 295053063,
+          "length": 1237312
+        },
+        {
+          "file": "game/redemption/territory_swall/ramitabayaafter.rpf",
+          "file_offset": 0,
+          "chunk_offset": 296290375,
+          "length": 1528256
+        },
+        {
+          "file": "game/redemption/territory_swall/ramitabayabefore.rpf",
+          "file_offset": 0,
+          "chunk_offset": 297818631,
+          "length": 2689568
+        },
+        {
+          "file": "game/redemption/territory_swall/ranchopolvo.rpf",
+          "file_offset": 0,
+          "chunk_offset": 300508199,
+          "length": 4884848
+        },
+        {
+          "file": "game/redemption/territory_swall/rathskellerfork.rpf",
+          "file_offset": 0,
+          "chunk_offset": 305393047,
+          "length": 18093616
+        },
+        {
+          "file": "game/redemption/territory_swall/ridgewoodfarm.rpf",
+          "file_offset": 0,
+          "chunk_offset": 323486663,
+          "length": 13320112
+        },
+        {
+          "file": "game/redemption/territory_swall/riodeltoro.rpf",
+          "file_offset": 0,
+          "chunk_offset": 336806775,
+          "length": 792752
+        },
+        {
+          "file": "game/redemption/territory_swall/rocamadera.rpf",
+          "file_offset": 0,
+          "chunk_offset": 337599527,
+          "length": 225488
+        },
+        {
+          "file": "game/redemption/territory_swall/scratchingpost.rpf",
+          "file_offset": 0,
+          "chunk_offset": 337825015,
+          "length": 3973728
+        },
+        {
+          "file": "game/redemption/territory_swall/sepulcro.rpf",
+          "file_offset": 0,
+          "chunk_offset": 341798743,
+          "length": 8172576
+        },
+        {
+          "file": "game/redemption/territory_swall/sidewindergulch.rpf",
+          "file_offset": 0,
+          "chunk_offset": 349971319,
+          "length": 1398944
+        },
+        {
+          "file": "game/redemption/territory_swall/silentstead.rpf",
+          "file_offset": 0,
+          "chunk_offset": 351370263,
+          "length": 3207632
+        },
+        {
+          "file": "game/redemption/territory_swall/solomonsfolly.rpf",
+          "file_offset": 0,
+          "chunk_offset": 354577895,
+          "length": 6236864
+        },
+        {
+          "file": "game/redemption/territory_swall/stillwatercreek.rpf",
+          "file_offset": 0,
+          "chunk_offset": 360814759,
+          "length": 5174656
+        },
+        {
+          "file": "game/redemption/territory_swall/swaicurves.rpf",
+          "file_offset": 0,
+          "chunk_offset": 365989415,
+          "length": 184496
+        },
+        {
+          "file": "game/redemption/territory_swall/swall.rpf",
+          "file_offset": 0,
+          "chunk_offset": 366173911,
+          "length": 10304
+        },
+        {
+          "file": "game/redemption/territory_swall/swhorsecurves.rpf",
+          "file_offset": 0,
+          "chunk_offset": 366184215,
+          "length": 867392
+        },
+        {
+          "file": "game/redemption/territory_swall/swrailroad.rpf",
+          "file_offset": 0,
+          "chunk_offset": 367051607,
+          "length": 34992
+        },
+        {
+          "file": "game/redemption/territory_swall/swterrain.rpf",
+          "file_offset": 0,
+          "chunk_offset": 367086599,
+          "length": 18057024
+        },
+        {
+          "file": "game/redemption/territory_swall/swwater.rpf",
+          "file_offset": 0,
+          "chunk_offset": 385143623,
+          "length": 221792
+        },
+        {
+          "file": "game/redemption/territory_swall/tannersreach.rpf",
+          "file_offset": 0,
+          "chunk_offset": 385365415,
+          "length": 4340176
+        },
+        {
+          "file": "game/redemption/territory_swall/tannersspanafter.rpf",
+          "file_offset": 0,
+          "chunk_offset": 389705591,
+          "length": 1114320
+        },
+        {
+          "file": "game/redemption/territory_swall/tannersspanbefore.rpf",
+          "file_offset": 0,
+          "chunk_offset": 390819911,
+          "length": 1696048
+        },
+        {
+          "file": "game/redemption/territory_swall/tesoroazul.rpf",
+          "file_offset": 0,
+          "chunk_offset": 392515959,
+          "length": 23958464
+        },
+        {
+          "file": "game/redemption/territory_swall/theceliawastes.rpf",
+          "file_offset": 0,
+          "chunk_offset": 416474423,
+          "length": 663872
+        },
+        {
+          "file": "game/redemption/territory_swall/thieveslanding.rpf",
+          "file_offset": 0,
+          "chunk_offset": 417138295,
+          "length": 48597360
+        },
+        {
+          "file": "game/redemption/territory_swall/torquemada.rpf",
+          "file_offset": 0,
+          "chunk_offset": 465735655,
+          "length": 19802288
+        },
+        {
+          "file": "game/redemption/territory_swall/tumbleweed.rpf",
+          "file_offset": 0,
+          "chunk_offset": 485537943,
+          "length": 37996112
+        },
+        {
+          "file": "game/redemption/territory_swall/twinrocks.rpf",
+          "file_offset": 0,
+          "chunk_offset": 523534055,
+          "length": 7973824
+        },
+        {
+          "file": "game/redemption/territory_swall/twocrows.rpf",
+          "file_offset": 0,
+          "chunk_offset": 531507879,
+          "length": 1597808
+        },
+        {
+          "file": "game/redemption/territory_swall/unionpacific.rpf",
+          "file_offset": 0,
+          "chunk_offset": 533105687,
+          "length": 28477664
+        },
+        {
+          "file": "game/redemption/territory_swall/ventersplace.rpf",
+          "file_offset": 0,
+          "chunk_offset": 561583351,
+          "length": 2812704
+        },
+        {
+          "file": "game/redemption/territory_swall/warthingtons.rpf",
+          "file_offset": 0,
+          "chunk_offset": 564396055,
+          "length": 4655680
+        },
+        {
+          "file": "game/redemption/territory_swall/wilderness.rpf",
+          "file_offset": 0,
+          "chunk_offset": 569051735,
+          "length": 30848
+        },
+        {
+          "file": "game/redemption/territory_swall/wreckserendipity.rpf",
+          "file_offset": 0,
+          "chunk_offset": 569082583,
+          "length": 12434208
+        },
+        {
+          "file": "game/shaders.rpf",
+          "file_offset": 0,
+          "chunk_offset": 581516791,
+          "length": 8496160
+        },
+        {
+          "file": "game/strings_d11generic.rpf",
+          "file_offset": 0,
+          "chunk_offset": 590012951,
+          "length": 49618409
+        }
+      ],
+      "sha256": "635f5f5ebb69bef353f620948f1c5fbceeb727c15a38b43c1c31dfd32430c203"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 639631360,
+      "segments": [
+        {
+          "file": "game/strings_d11generic.rpf",
+          "file_offset": 49618409,
+          "chunk_offset": 0,
+          "length": 50051575
+        },
+        {
+          "file": "game/terrainboundres.rpf",
+          "file_offset": 0,
+          "chunk_offset": 50051575,
+          "length": 212549008
+        },
+        {
+          "file": "game/terrainlodres.rpf",
+          "file_offset": 0,
+          "chunk_offset": 262600583,
+          "length": 377030777
+        }
+      ],
+      "sha256": "1ef4d1e565dd8e0138cb01286e2451758ce9e8e7b61e56310b9f0474de9fd007"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 630152181,
+      "segments": [
+        {
+          "file": "game/terrainlodres.rpf",
+          "file_offset": 377030777,
+          "chunk_offset": 0,
+          "length": 204031687
+        },
+        {
+          "file": "game/textures.rpf",
+          "file_offset": 0,
+          "chunk_offset": 204031687,
+          "length": 17769552
+        },
+        {
+          "file": "game/treeres.rpf",
+          "file_offset": 0,
+          "chunk_offset": 221801239,
+          "length": 9021696
+        },
+        {
+          "file": "game/tune_d11generic.rpf",
+          "file_offset": 0,
+          "chunk_offset": 230822935,
+          "length": 19247616
+        },
+        {
+          "file": "game/vfx.rpf",
+          "file_offset": 0,
+          "chunk_offset": 250070551,
+          "length": 3606464
+        },
+        {
+          "file": "installscript.vdf",
+          "file_offset": 0,
+          "chunk_offset": 253677015,
+          "length": 479
+        },
+        {
+          "file": "installscript_sdk.vdf",
+          "file_offset": 0,
+          "chunk_offset": 253677494,
+          "length": 829
+        },
+        {
+          "file": "metadata.dat",
+          "file_offset": 0,
+          "chunk_offset": 253678323,
+          "length": 991042
+        },
+        {
+          "file": "MTLX.dll",
+          "file_offset": 0,
+          "chunk_offset": 254669365,
+          "length": 1453544
+        },
+        {
+          "file": "nvngx_dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 256122909,
+          "length": 51256376
+        },
+        {
+          "file": "nvngx_dlssg.dll",
+          "file_offset": 0,
+          "chunk_offset": 307379285,
+          "length": 11778088
+        },
+        {
+          "file": "PlayRDR.exe",
+          "file_offset": 0,
+          "chunk_offset": 319157373,
+          "length": 422400
+        },
+        {
+          "file": "PlayRDR.exe.rzr",
+          "file_offset": 0,
+          "chunk_offset": 319579773,
+          "length": 454120
+        },
+        {
+          "file": "RDR.exe",
+          "file_offset": 0,
+          "chunk_offset": 320033893,
+          "length": 39745512
+        },
+        {
+          "file": "RDR.exe.rzr",
+          "file_offset": 0,
+          "chunk_offset": 359779405,
+          "length": 39745512
+        },
+        {
+          "file": "RDRMessage.exe",
+          "file_offset": 0,
+          "chunk_offset": 399524917,
+          "length": 219624
+        },
+        {
+          "file": "Redistributables/Rockstar-Games-Launcher.exe",
+          "file_offset": 0,
+          "chunk_offset": 399744541,
+          "length": 140093928
+        },
+        {
+          "file": "Redistributables/Social-Club-Setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 539838469,
+          "length": 85099504
+        },
+        {
+          "file": "sl.common.dll",
+          "file_offset": 0,
+          "chunk_offset": 624937973,
+          "length": 655840
+        },
+        {
+          "file": "sl.dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 625593813,
+          "length": 241112
+        },
+        {
+          "file": "sl.dlss_g.dll",
+          "file_offset": 0,
+          "chunk_offset": 625834925,
+          "length": 435680
+        },
+        {
+          "file": "sl.interposer.dll",
+          "file_offset": 0,
+          "chunk_offset": 626270605,
+          "length": 532960
+        },
+        {
+          "file": "sl.pcl.dll",
+          "file_offset": 0,
+          "chunk_offset": 626803565,
+          "length": 167904
+        },
+        {
+          "file": "sl.reflex.dll",
+          "file_offset": 0,
+          "chunk_offset": 626971469,
+          "length": 177120
+        },
+        {
+          "file": "steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 627148589,
+          "length": 1872896
+        },
+        {
+          "file": "steam_api64.dll.rzr",
+          "file_offset": 0,
+          "chunk_offset": 629021485,
+          "length": 301928
+        },
+        {
+          "file": "title.rgl",
+          "file_offset": 0,
+          "chunk_offset": 629323413,
+          "length": 1392
+        },
+        {
+          "file": "uninstall.exe",
+          "file_offset": 0,
+          "chunk_offset": 629324805,
+          "length": 827376
+        }
+      ],
+      "sha256": "1b897e324a9f4af147c050e6f051a7c8e2a42deeb6f05ad88dfbbdfe953d797c"
+    }
+  ]
+}
