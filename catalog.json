@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-20T06:25:48.937526+00:00",
+  "updated_at": "2026-08-20T07:26:43.624203+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -454,6 +454,41 @@
       },
       "media": {
         "steam_app_id": 70
+      }
+    },
+    {
+      "id": "red-dead-redemption",
+      "title": "Red Dead Redemption",
+      "platform": "pc",
+      "description": "Experience the story of former outlaw John Marston as he tracks down the last remaining members of the notorious Van der Linde Gang in the PC debut of the critically acclaimed predecessor to Red Dead Redemption 2.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-red-dead-redemption-v1.0.0-stable",
+          "manifest_path": "manifests/pc/red-dead-redemption/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/red-dead-redemption/stable/1.0.0.json",
+          "size": 10224622581,
+          "published_at": "2026-08-20T07:26:43.624191+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 2668510
       }
     }
   ]
