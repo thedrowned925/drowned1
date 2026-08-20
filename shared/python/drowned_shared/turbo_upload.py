@@ -12,12 +12,19 @@ from .errors import AuthenticationError, NetworkError
 
 MIB = 1024 * 1024
 GIB = 1024 * MIB
-DEFAULT_TURBO_WORKERS = 16
-MAX_TURBO_WORKERS = 16
 
-# 16 x 1.5 GiB lets all streams remain active even for maximum-sized chunks.
-# This is still far below making a second full copy of a large game.
-TEMP_BUDGET_BYTES = 24 * GIB
+# Keep the established chunk plan exactly as before. Upload concurrency may go
+# higher, but chunk sizing still targets the old 16-stream layout so existing
+# 1.5 GiB large-game chunks and manifest behaviour do not change.
+CHUNK_PLANNING_WORKERS = 16
+DEFAULT_TURBO_WORKERS = 32
+MAX_TURBO_WORKERS = 32
+
+# 32 x 1.5 GiB is the absolute scratch ceiling for the aggressive profile.
+# publish.py also checks actual free space and keeps an 8 GiB safety reserve,
+# automatically reducing the worker count when the temp drive is smaller.
+TEMP_BUDGET_BYTES = 48 * GIB
+TEMP_RESERVE_BYTES = 8 * GIB
 
 
 def _align_up(value: int, alignment: int = MIB) -> int:
@@ -25,30 +32,18 @@ def _align_up(value: int, alignment: int = MIB) -> int:
 
 
 def choose_upload_chunk_size(total_size: int, requested_workers: int = DEFAULT_TURBO_WORKERS) -> int:
-    """Choose an adaptive chunk size for high-bandwidth parallel uploads.
+    """Choose the established adaptive chunk size without changing chunk layout.
 
-    Goals:
-      * Keep roughly all requested workers busy for small/medium projects.
-      * Never exceed the configured 1.5 GiB maximum chunk size.
-      * Automatically grow chunks when needed to remain below the release asset limit.
-
-    Examples with 16 workers:
-      * ~90 MiB  -> ~6 MiB chunks (about 15 parallel assets)
-      * 1 GiB    -> ~64 MiB chunks (about 16 assets)
-      * 10 GiB   -> ~640 MiB chunks (about 16 assets)
-      * >=24 GiB -> up to 1536 MiB chunks
+    Upload concurrency can now reach 32, but chunk planning intentionally caps
+    itself at 16 workers. That preserves the existing chunk sizes/counts while
+    allowing more already-planned chunks to upload at once on large projects.
     """
     total_size = max(0, int(total_size))
-    workers = max(1, min(int(requested_workers or 1), MAX_TURBO_WORKERS))
+    workers = max(1, min(int(requested_workers or 1), CHUNK_PLANNING_WORKERS))
     if total_size <= 0:
         return CHUNK_SIZE_BYTES
 
-    # Target at least roughly one asset per active worker so one slow GitHub
-    # connection cannot cap the whole transfer. 4 MiB is the practical floor.
     target_for_parallelism = max(4 * MIB, math.ceil(total_size / workers))
-
-    # Stay comfortably below the 999 data-asset ceiling. The normal planner
-    # aims at <=900 assets, leaving margin for protocol changes/extra metadata.
     required_for_asset_budget = math.ceil(total_size / min(900, MAX_DATA_ASSETS))
 
     chosen = max(target_for_parallelism, required_for_asset_budget)
@@ -56,9 +51,18 @@ def choose_upload_chunk_size(total_size: int, requested_workers: int = DEFAULT_T
     return min(CHUNK_SIZE_BYTES, _align_up(chosen, MIB))
 
 
-def effective_worker_count(chunk_size: int, requested_workers: int) -> int:
+def effective_worker_count(
+    chunk_size: int,
+    requested_workers: int,
+    free_temp_bytes: int | None = None,
+) -> int:
+    """Return a safe upload concurrency for the current scratch-space budget."""
     requested = max(1, min(int(requested_workers or 1), MAX_TURBO_WORKERS))
-    by_temp_space = max(1, TEMP_BUDGET_BYTES // max(int(chunk_size), 1))
+    budget = TEMP_BUDGET_BYTES
+    if free_temp_bytes is not None:
+        usable = max(0, int(free_temp_bytes) - TEMP_RESERVE_BYTES)
+        budget = min(budget, usable)
+    by_temp_space = budget // max(int(chunk_size), 1)
     return max(1, min(requested, int(by_temp_space)))
 
 
@@ -82,7 +86,7 @@ class TurboAssetUploader:
             session.headers.update({
                 "Accept": "application/vnd.github+json",
                 "X-GitHub-Api-Version": GITHUB_API_VERSION,
-                "User-Agent": "Drowned-Distribution-Suite/0.6-gigabit16",
+                "User-Agent": "Drowned-Distribution-Suite/0.8-gigabit32",
                 "Authorization": f"Bearer {self.client.token}",
             })
             self._thread_local.session = session
@@ -169,8 +173,8 @@ class TurboAssetUploader:
                 retry_after = response.headers.get("Retry-After")
                 wait = float(retry_after) if retry_after and retry_after.isdigit() else min(60, 5 * (2 ** attempt))
                 last_error = NetworkError(f"GitHub secondary rate limit: HTTP {response.status_code}")
-                # One worker hitting secondary limits pauses new starts for every
-                # worker instead of allowing 15 others to keep hammering GitHub.
+                # One worker hitting secondary limits pauses new starts for all
+                # workers instead of allowing the rest to keep hammering GitHub.
                 self._set_global_backoff(wait)
                 continue
 
