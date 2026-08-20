@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-19T22:07:28.637978+00:00",
+  "updated_at": "2026-08-20T02:39:39.579797+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -349,6 +349,41 @@
       },
       "media": {
         "steam_app_id": 3240220
+      }
+    },
+    {
+      "id": "hans",
+      "title": "Hans",
+      "platform": "pc",
+      "description": "Hans is a physics-driven, parkour adventure. Ascend to the sky with our lonely watermelon hero. Navigate treacherous platforms, defy physics by slowing down time, try not to fall and chase the dream of reuniting with humanity. No saves. Bounce, fail, adapt, and bounce again.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hans/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hans/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hans/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hans/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hans/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hans/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hans/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hans/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hans/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hans/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hans/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hans/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-hans-v1.0.0-stable",
+          "manifest_path": "manifests/pc/hans/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/hans/stable/1.0.0.json",
+          "size": 876176814,
+          "published_at": "2026-08-20T02:39:39.579784+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 2616420
       }
     }
   ]
