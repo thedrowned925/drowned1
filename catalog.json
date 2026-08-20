@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-20T02:39:39.579797+00:00",
+  "updated_at": "2026-08-20T06:18:20.355136+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -384,6 +384,41 @@
       },
       "media": {
         "steam_app_id": 2616420
+      }
+    },
+    {
+      "id": "the-witcher-3-wild-hunt",
+      "title": "The Witcher 3: Wild Hunt",
+      "platform": "pc",
+      "description": "Efsanevi kiralık canavar avcısı Rivialı Geralt rolüne bürünün. Savaştan harap olmuş, dört bir yanı canavarlarla kaplı bir kıta, keşfedilmek üzere sizi bekliyor. Sıradaki sözleşmenizse, dünyayı yeniden şekillendirebilecek güçte bir canlı silahı, Kehanetin Çocuğu Ciri'yi bulmak.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-3-wild-hunt/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-3-wild-hunt/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-3-wild-hunt/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-3-wild-hunt/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-3-wild-hunt/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-3-wild-hunt/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-3-wild-hunt/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-3-wild-hunt/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-3-wild-hunt/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-3-wild-hunt/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-3-wild-hunt/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-3-wild-hunt/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-the-witcher-3-wild-hunt-v1.0.0-stable",
+          "manifest_path": "manifests/pc/the-witcher-3-wild-hunt/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/the-witcher-3-wild-hunt/stable/1.0.0.json",
+          "size": 56142818741,
+          "published_at": "2026-08-20T06:18:20.355123+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 292030
       }
     }
   ]
