@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-20T15:13:44.816423+00:00",
+  "updated_at": "2026-08-20T15:57:33.877636+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -661,6 +661,41 @@
       },
       "media": {
         "steam_app_id": 24980
+      }
+    },
+    {
+      "id": "bioshock-infinite",
+      "title": "BioShock Infinite",
+      "platform": "pc",
+      "description": "Indebted to the wrong people, with his life on the line, veteran of the U.S. Cavalry and now hired gun, Booker DeWitt has only one opportunity to wipe his slate clean. He must rescue Elizabeth, a mysterious girl imprisoned since childhood and locked up in the flying city of Columbia.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/bioshock-infinite/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/bioshock-infinite/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/bioshock-infinite/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/bioshock-infinite/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/bioshock-infinite/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/bioshock-infinite/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/bioshock-infinite/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/bioshock-infinite/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/bioshock-infinite/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/bioshock-infinite/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/bioshock-infinite/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/bioshock-infinite/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-bioshock-infinite-v1.0.0-stable",
+          "manifest_path": "manifests/pc/bioshock-infinite/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/bioshock-infinite/stable/1.0.0.json",
+          "size": 47811058871,
+          "published_at": "2026-08-20T15:57:33.877622+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 8870
       }
     }
   ]
