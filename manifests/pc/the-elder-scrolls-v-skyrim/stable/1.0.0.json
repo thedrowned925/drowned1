@@ -1,0 +1,808 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "the-elder-scrolls-v-skyrim",
+    "title": "The Elder Scrolls V: Skyrim",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "EPIC FANTASY REBORN The next chapter in the highly anticipated Elder Scrolls saga arrives from the makers of the 2006 and 2008 Games of the Year, Bethesda Game Studios. Skyrim reimagines and revolutionizes the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-the-elder-scrolls-v-skyrim-v1.0.0-stable"
+  },
+  "chunk_size": 869269504,
+  "upload_workers": 16,
+  "total_size": 13902468474,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "atimgpud.dll",
+      "size": 165304,
+      "sha256": "15c87bdc99674cee4e4c609b5fb6ac52297b46d228e7a9ea3ff9c7fbd4695912"
+    },
+    {
+      "path": "binkw32.dll",
+      "size": 214016,
+      "sha256": "13a57401c477be421af3679e3c1f0e851b31cd54e52d6ae53981a090c5723d2f"
+    },
+    {
+      "path": "Data/Dawnguard.bsa",
+      "size": 1187540597,
+      "sha256": "9c24e0730d3cf59fc740e2c042729031741e7d1262eab72c948833e1ca27ee75"
+    },
+    {
+      "path": "Data/Dawnguard.esm",
+      "size": 25056932,
+      "sha256": "f0d8207cac29e3b0563764b1b933390dee02bc9dd2173c2a47ef05d72acfd2bc"
+    },
+    {
+      "path": "Data/Dragonborn.bsa",
+      "size": 1803105365,
+      "sha256": "270787ac9bae776ba0a2d88b45b153e06a9aaaea0131c2c7f4d252a1c2b2669c"
+    },
+    {
+      "path": "Data/Dragonborn.esm",
+      "size": 64510413,
+      "sha256": "43a7493768929f7244c5a12a91f11d7b65a0852a475cb1833ecfb1b234e0b569"
+    },
+    {
+      "path": "Data/HearthFires.bsa",
+      "size": 140252452,
+      "sha256": "b10856ba0d9fd13e70bdc8d0db7434ea313c901bd1b14ca3dacf1a596169fd02"
+    },
+    {
+      "path": "Data/HearthFires.esm",
+      "size": 3565491,
+      "sha256": "ba8e1c846202f6ebba78bf0bac24e71ee6b4239ed4b34bd7ad21d0223f06d486"
+    },
+    {
+      "path": "Data/HighResTexturePack01.bsa",
+      "size": 1640626582,
+      "sha256": "7496e094bc375e37dad595dd10445cc21f84faad0ba9281552825ebfa1a74cfb"
+    },
+    {
+      "path": "Data/HighResTexturePack01.esp",
+      "size": 66,
+      "sha256": "ab4beb443260f4b7e98d43a7307496d2e5deb7e4fcca68c8b6527f133093f4e4"
+    },
+    {
+      "path": "Data/HighResTexturePack02.bsa",
+      "size": 1875868906,
+      "sha256": "fd3a0566d8c658b8aa1f623316d64324b58a068ba59cd7838b8710d4a09c7cca"
+    },
+    {
+      "path": "Data/HighResTexturePack02.esp",
+      "size": 66,
+      "sha256": "ab4beb443260f4b7e98d43a7307496d2e5deb7e4fcca68c8b6527f133093f4e4"
+    },
+    {
+      "path": "Data/HighResTexturePack03.bsa",
+      "size": 1201576510,
+      "sha256": "bebf1d63824209eb3703b2ebdfad94506df6d54e0556387499b54ad8bd6c4cb9"
+    },
+    {
+      "path": "Data/HighResTexturePack03.esp",
+      "size": 66,
+      "sha256": "ab4beb443260f4b7e98d43a7307496d2e5deb7e4fcca68c8b6527f133093f4e4"
+    },
+    {
+      "path": "Data/Interface/Translate_ENGLISH.txt",
+      "size": 20356,
+      "sha256": "e59f31c5f3a217ac8abb78f4e45c742e07f61c38e18e39ef65e23d3275bccc20"
+    },
+    {
+      "path": "Data/Skyrim - Animations.bsa",
+      "size": 42365780,
+      "sha256": "3464095a0a083d03a1d2a3bf1badb90e2090c7c1d9465472fc90943190583f03"
+    },
+    {
+      "path": "Data/Skyrim - Interface.bsa",
+      "size": 34708888,
+      "sha256": "2c40c10d4722e5fca727ed40b39c769002cdb470a75a0f4817fdcfd16de436ce"
+    },
+    {
+      "path": "Data/Skyrim - Meshes.bsa",
+      "size": 1520899887,
+      "sha256": "373a313802643f66d510ec8c4dd8478bf4bb8d25957ffda673d82c32a11b303a"
+    },
+    {
+      "path": "Data/Skyrim - Misc.bsa",
+      "size": 177490631,
+      "sha256": "f8929f185078d37bcc40d04a7723d7d6669917962c87cee480fb709ee0a9044d"
+    },
+    {
+      "path": "Data/Skyrim - Shaders.bsa",
+      "size": 25690987,
+      "sha256": "e570fa0ad8c7c6690b645a5ccfc51571a093f58040c63a1f8e2c9c2bc176fb6f"
+    },
+    {
+      "path": "Data/Skyrim - Sounds.bsa",
+      "size": 953785521,
+      "sha256": "9a96b8a82846193d91cfbac5204a999785a4b864d7e99eb5071c80e16e96880f"
+    },
+    {
+      "path": "Data/Skyrim - Textures.bsa",
+      "size": 1388866502,
+      "sha256": "7f3b4bd9fbd0c2482a02548d08cffc92f3a5413359ab5ea707aa94272b7769d6"
+    },
+    {
+      "path": "Data/Skyrim - Voices.bsa",
+      "size": 1458554685,
+      "sha256": "803da878f815102ef2b63020080cda5f20fc2ff710ae5d97619c9c4b327aefe7"
+    },
+    {
+      "path": "Data/Skyrim - VoicesExtra.bsa",
+      "size": 13016190,
+      "sha256": "f4e8e03b23ccddb7ad4c694e1ba46bb584628a9c7feb7a55898c6725e995b60d"
+    },
+    {
+      "path": "Data/Skyrim.esm",
+      "size": 249371467,
+      "sha256": "bc84992ac392672ae38dfa400307baef1e5c84d7c19aea3a7caf552916a5b6ed"
+    },
+    {
+      "path": "Data/Strings/Skyrim_English.DLSTRINGS",
+      "size": 2442981,
+      "sha256": "2dcde8ac70c533fc147f2e6ff2a718c669f213578be1d894fabcedfc21a7191e"
+    },
+    {
+      "path": "Data/Strings/Skyrim_English.ILSTRINGS",
+      "size": 2711842,
+      "sha256": "fee1f4586b51071d5a99531a658109147b57a129d7d305577b8f2137bef1e727"
+    },
+    {
+      "path": "Data/Strings/Skyrim_English.STRINGS",
+      "size": 833753,
+      "sha256": "368306c797c48939b710a801cb76c3b1e092ab85b8a50e876595e7b76d234ef1"
+    },
+    {
+      "path": "Data/Strings/Update_English.DLSTRINGS",
+      "size": 44864,
+      "sha256": "745ae03f1b3fc788b8fe2106c3b6b6fdc6150390fdc1bc0829eefbd9d5b3719d"
+    },
+    {
+      "path": "Data/Strings/Update_English.ILSTRINGS",
+      "size": 13055,
+      "sha256": "235f619b9272ebae3b36f91cffc0616626ea766f008fdb8ef274941a25a672bb"
+    },
+    {
+      "path": "Data/Strings/Update_English.STRINGS",
+      "size": 20312,
+      "sha256": "c4f94af29699c3f47f26bc2dea68d5232ee9aa058a9720ba8012935e2d5a86a1"
+    },
+    {
+      "path": "Data/Update.bsa",
+      "size": 17428297,
+      "sha256": "7c829871f19911a8fcab88e2d8290214765a14e8697b5a72980232eeeef29d58"
+    },
+    {
+      "path": "Data/Update.esm",
+      "size": 1518686,
+      "sha256": "b033d2820f129af34b134b79b925318cbc48dd5510a58aaee9d5de2e0b0ba0f4"
+    },
+    {
+      "path": "Data/Video/BGS_Logo.bik",
+      "size": 1809540,
+      "sha256": "c50e733edc0a86b8ed2b7a3359e7bad89129abdbe62d9776b217e1f9cc815adb"
+    },
+    {
+      "path": "high.ini",
+      "size": 1159,
+      "sha256": "fb3503c9008e55d3c203b5df71c08ee5f2411670bde20915f6c935796bdd0f87"
+    },
+    {
+      "path": "low.ini",
+      "size": 1132,
+      "sha256": "44d3ffcb4286dbd354b6048d932dfcacf180e70c2cfd756565e8545c86ca3ab6"
+    },
+    {
+      "path": "medium.ini",
+      "size": 1150,
+      "sha256": "a826f1b078780ef4211ca21fd40f82fe9ecbd49b13e8dc28749781703739d246"
+    },
+    {
+      "path": "readme.txt",
+      "size": 3877,
+      "sha256": "31a717e728fa9f6ef47e841a2fef8dd3d0d80dc1a1c8d8a2a74af4c72b96fa24"
+    },
+    {
+      "path": "Skyrim/SkyrimPrefs.ini",
+      "size": 2940,
+      "sha256": "93b2e8a75015f3ae184a0c71c2a5a1ca44a03299c7c896c687d8c81e66538f34"
+    },
+    {
+      "path": "Skyrim_default.ini",
+      "size": 1056,
+      "sha256": "c6f6278cb22006b4c9507585578fa944a12bdeaa75a10083b3abf09a7b33edf5"
+    },
+    {
+      "path": "SkyrimLauncher.exe",
+      "size": 1524224,
+      "sha256": "ab3d0337de11573f72be0acb66596ea21ad4060f1601323275c38100bd4d70c0"
+    },
+    {
+      "path": "steam_api.dll",
+      "size": 178688,
+      "sha256": "5fd5a9dfa514609a2bd6764d04a119a245eaf4b991b0a8db437fd75c80efaf9a"
+    },
+    {
+      "path": "steam_rld.ini",
+      "size": 685,
+      "sha256": "51f936ddaf181daf10260b75a265dd10e68ac57e10e4cfb30e5ac501d189733e"
+    },
+    {
+      "path": "TESV.exe",
+      "size": 17455616,
+      "sha256": "d43f3de477ee751caf36c26ee0a20a06225c29c08dfd13c827b537b9ac56cbf2"
+    },
+    {
+      "path": "VeryHigh.ini",
+      "size": 1181,
+      "sha256": "2c7b1aff1e6de057f8af32e5aacdc58c4f75b2b00ae20b3ea126ae8f482899ca"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "atimgpud.dll",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 165304
+        },
+        {
+          "file": "binkw32.dll",
+          "file_offset": 0,
+          "chunk_offset": 49385080,
+          "length": 214016
+        },
+        {
+          "file": "Data/Dawnguard.bsa",
+          "file_offset": 0,
+          "chunk_offset": 49599096,
+          "length": 819670408
+        }
+      ],
+      "sha256": "1e986e7f178aa894fdcfafcce6a15cfa11c216fff860cef19104d673126d312c"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "Data/Dawnguard.bsa",
+          "file_offset": 819670408,
+          "chunk_offset": 0,
+          "length": 367870189
+        },
+        {
+          "file": "Data/Dawnguard.esm",
+          "file_offset": 0,
+          "chunk_offset": 367870189,
+          "length": 25056932
+        },
+        {
+          "file": "Data/Dragonborn.bsa",
+          "file_offset": 0,
+          "chunk_offset": 392927121,
+          "length": 476342383
+        }
+      ],
+      "sha256": "49893d782a74d17ca9eaca271eac4ce5e3bf2c889fa640fbfaffb71577fa8135"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "Data/Dragonborn.bsa",
+          "file_offset": 476342383,
+          "chunk_offset": 0,
+          "length": 869269504
+        }
+      ],
+      "sha256": "7cb267c4c3886fbf2c285bf64d38a74d5c90a0a1888b81ba2b2fda8463196b0c"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "Data/Dragonborn.bsa",
+          "file_offset": 1345611887,
+          "chunk_offset": 0,
+          "length": 457493478
+        },
+        {
+          "file": "Data/Dragonborn.esm",
+          "file_offset": 0,
+          "chunk_offset": 457493478,
+          "length": 64510413
+        },
+        {
+          "file": "Data/HearthFires.bsa",
+          "file_offset": 0,
+          "chunk_offset": 522003891,
+          "length": 140252452
+        },
+        {
+          "file": "Data/HearthFires.esm",
+          "file_offset": 0,
+          "chunk_offset": 662256343,
+          "length": 3565491
+        },
+        {
+          "file": "Data/HighResTexturePack01.bsa",
+          "file_offset": 0,
+          "chunk_offset": 665821834,
+          "length": 203447670
+        }
+      ],
+      "sha256": "6f6fda78c9a0ea8373b27dc31098d960bc4665d9cebaac5ab503a477a123de1f"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "Data/HighResTexturePack01.bsa",
+          "file_offset": 203447670,
+          "chunk_offset": 0,
+          "length": 869269504
+        }
+      ],
+      "sha256": "3bbda36167d28b01dac4ba7645f0ac67306869806da6e36f9530eec4cbc652ba"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "Data/HighResTexturePack01.bsa",
+          "file_offset": 1072717174,
+          "chunk_offset": 0,
+          "length": 567909408
+        },
+        {
+          "file": "Data/HighResTexturePack01.esp",
+          "file_offset": 0,
+          "chunk_offset": 567909408,
+          "length": 66
+        },
+        {
+          "file": "Data/HighResTexturePack02.bsa",
+          "file_offset": 0,
+          "chunk_offset": 567909474,
+          "length": 301360030
+        }
+      ],
+      "sha256": "ce08347f292df135ad4caedebebc60a6f38716f4d890ba06f30a273a9d4d91fe"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "Data/HighResTexturePack02.bsa",
+          "file_offset": 301360030,
+          "chunk_offset": 0,
+          "length": 869269504
+        }
+      ],
+      "sha256": "2dcb6e628f7cdeb63a99bcac35eb015d1a5e32f7c0aa27e152741b63d50a7680"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "Data/HighResTexturePack02.bsa",
+          "file_offset": 1170629534,
+          "chunk_offset": 0,
+          "length": 705239372
+        },
+        {
+          "file": "Data/HighResTexturePack02.esp",
+          "file_offset": 0,
+          "chunk_offset": 705239372,
+          "length": 66
+        },
+        {
+          "file": "Data/HighResTexturePack03.bsa",
+          "file_offset": 0,
+          "chunk_offset": 705239438,
+          "length": 164030066
+        }
+      ],
+      "sha256": "da4bd5e29bf24d275bbe717d6d537ad0c70cbcdd91231de309009408362280bd"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "Data/HighResTexturePack03.bsa",
+          "file_offset": 164030066,
+          "chunk_offset": 0,
+          "length": 869269504
+        }
+      ],
+      "sha256": "bc3d703ce7ba55c60d6ea1e26108a0d45a7adb82afc6109ffafce7e5fe34368e"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "Data/HighResTexturePack03.bsa",
+          "file_offset": 1033299570,
+          "chunk_offset": 0,
+          "length": 168276940
+        },
+        {
+          "file": "Data/HighResTexturePack03.esp",
+          "file_offset": 0,
+          "chunk_offset": 168276940,
+          "length": 66
+        },
+        {
+          "file": "Data/Interface/Translate_ENGLISH.txt",
+          "file_offset": 0,
+          "chunk_offset": 168277006,
+          "length": 20356
+        },
+        {
+          "file": "Data/Skyrim - Animations.bsa",
+          "file_offset": 0,
+          "chunk_offset": 168297362,
+          "length": 42365780
+        },
+        {
+          "file": "Data/Skyrim - Interface.bsa",
+          "file_offset": 0,
+          "chunk_offset": 210663142,
+          "length": 34708888
+        },
+        {
+          "file": "Data/Skyrim - Meshes.bsa",
+          "file_offset": 0,
+          "chunk_offset": 245372030,
+          "length": 623897474
+        }
+      ],
+      "sha256": "3c175c08d0ef238c3ad43e19df1531f53b09b28d2acd4d486faf5f95cd5aff88"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "Data/Skyrim - Meshes.bsa",
+          "file_offset": 623897474,
+          "chunk_offset": 0,
+          "length": 869269504
+        }
+      ],
+      "sha256": "e4a4a5a6700bf97cafcebd3ff06792df28356ce0fb5860c2bf0278b649f3aa37"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "Data/Skyrim - Meshes.bsa",
+          "file_offset": 1493166978,
+          "chunk_offset": 0,
+          "length": 27732909
+        },
+        {
+          "file": "Data/Skyrim - Misc.bsa",
+          "file_offset": 0,
+          "chunk_offset": 27732909,
+          "length": 177490631
+        },
+        {
+          "file": "Data/Skyrim - Shaders.bsa",
+          "file_offset": 0,
+          "chunk_offset": 205223540,
+          "length": 25690987
+        },
+        {
+          "file": "Data/Skyrim - Sounds.bsa",
+          "file_offset": 0,
+          "chunk_offset": 230914527,
+          "length": 638354977
+        }
+      ],
+      "sha256": "4e32ecad7e7f6b3342cf60973f93987e2ccdae363d35b2f1b8b77b72e1c28279"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "Data/Skyrim - Sounds.bsa",
+          "file_offset": 638354977,
+          "chunk_offset": 0,
+          "length": 315430544
+        },
+        {
+          "file": "Data/Skyrim - Textures.bsa",
+          "file_offset": 0,
+          "chunk_offset": 315430544,
+          "length": 553838960
+        }
+      ],
+      "sha256": "e3cba6f57fc5f18ce27390ed6a5879996eb3fe09070f30cb3962014ea9703c0c"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "Data/Skyrim - Textures.bsa",
+          "file_offset": 553838960,
+          "chunk_offset": 0,
+          "length": 835027542
+        },
+        {
+          "file": "Data/Skyrim - Voices.bsa",
+          "file_offset": 0,
+          "chunk_offset": 835027542,
+          "length": 34241962
+        }
+      ],
+      "sha256": "8bf8da24326837e4f742f73dea5180ec6e35b55f319718a46d9c6b87ac7c1993"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 869269504,
+      "segments": [
+        {
+          "file": "Data/Skyrim - Voices.bsa",
+          "file_offset": 34241962,
+          "chunk_offset": 0,
+          "length": 869269504
+        }
+      ],
+      "sha256": "eafdfcb1c7472f4b04e2210d5f8b67496c9203b87fdff15fb21ba67fe409c00b"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 863425914,
+      "segments": [
+        {
+          "file": "Data/Skyrim - Voices.bsa",
+          "file_offset": 903511466,
+          "chunk_offset": 0,
+          "length": 555043219
+        },
+        {
+          "file": "Data/Skyrim - VoicesExtra.bsa",
+          "file_offset": 0,
+          "chunk_offset": 555043219,
+          "length": 13016190
+        },
+        {
+          "file": "Data/Skyrim.esm",
+          "file_offset": 0,
+          "chunk_offset": 568059409,
+          "length": 249371467
+        },
+        {
+          "file": "Data/Strings/Skyrim_English.DLSTRINGS",
+          "file_offset": 0,
+          "chunk_offset": 817430876,
+          "length": 2442981
+        },
+        {
+          "file": "Data/Strings/Skyrim_English.ILSTRINGS",
+          "file_offset": 0,
+          "chunk_offset": 819873857,
+          "length": 2711842
+        },
+        {
+          "file": "Data/Strings/Skyrim_English.STRINGS",
+          "file_offset": 0,
+          "chunk_offset": 822585699,
+          "length": 833753
+        },
+        {
+          "file": "Data/Strings/Update_English.DLSTRINGS",
+          "file_offset": 0,
+          "chunk_offset": 823419452,
+          "length": 44864
+        },
+        {
+          "file": "Data/Strings/Update_English.ILSTRINGS",
+          "file_offset": 0,
+          "chunk_offset": 823464316,
+          "length": 13055
+        },
+        {
+          "file": "Data/Strings/Update_English.STRINGS",
+          "file_offset": 0,
+          "chunk_offset": 823477371,
+          "length": 20312
+        },
+        {
+          "file": "Data/Update.bsa",
+          "file_offset": 0,
+          "chunk_offset": 823497683,
+          "length": 17428297
+        },
+        {
+          "file": "Data/Update.esm",
+          "file_offset": 0,
+          "chunk_offset": 840925980,
+          "length": 1518686
+        },
+        {
+          "file": "Data/Video/BGS_Logo.bik",
+          "file_offset": 0,
+          "chunk_offset": 842444666,
+          "length": 1809540
+        },
+        {
+          "file": "high.ini",
+          "file_offset": 0,
+          "chunk_offset": 844254206,
+          "length": 1159
+        },
+        {
+          "file": "low.ini",
+          "file_offset": 0,
+          "chunk_offset": 844255365,
+          "length": 1132
+        },
+        {
+          "file": "medium.ini",
+          "file_offset": 0,
+          "chunk_offset": 844256497,
+          "length": 1150
+        },
+        {
+          "file": "readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 844257647,
+          "length": 3877
+        },
+        {
+          "file": "Skyrim/SkyrimPrefs.ini",
+          "file_offset": 0,
+          "chunk_offset": 844261524,
+          "length": 2940
+        },
+        {
+          "file": "Skyrim_default.ini",
+          "file_offset": 0,
+          "chunk_offset": 844264464,
+          "length": 1056
+        },
+        {
+          "file": "SkyrimLauncher.exe",
+          "file_offset": 0,
+          "chunk_offset": 844265520,
+          "length": 1524224
+        },
+        {
+          "file": "steam_api.dll",
+          "file_offset": 0,
+          "chunk_offset": 845789744,
+          "length": 178688
+        },
+        {
+          "file": "steam_rld.ini",
+          "file_offset": 0,
+          "chunk_offset": 845968432,
+          "length": 685
+        },
+        {
+          "file": "TESV.exe",
+          "file_offset": 0,
+          "chunk_offset": 845969117,
+          "length": 17455616
+        },
+        {
+          "file": "VeryHigh.ini",
+          "file_offset": 0,
+          "chunk_offset": 863424733,
+          "length": 1181
+        }
+      ],
+      "sha256": "eee74e04aced363cf854bfc0ef12f47472b62c437d38160ed7a8e0880f731dce"
+    }
+  ]
+}
