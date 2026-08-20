@@ -1,0 +1,76 @@
+name: Build Release Manager 32 Stream
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-release-manager-32stream-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: contains(github.event.head_commit.message, 'build release manager 32-stream package')
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+          cache-dependency-path: |
+            shared/python/pyproject.toml
+            windows/release-manager/requirements.txt
+
+      - name: Install build dependencies
+        run: |
+          python -m pip install pyinstaller
+          python -m pip install shared/python
+          python -m pip install -r windows/release-manager/requirements.txt
+
+      - name: Compile
+        run: |
+          python -m py_compile windows/release-manager/app_v7.py
+          python -m py_compile shared/python/drowned_shared/turbo_upload.py
+          python -m py_compile shared/python/drowned_shared/publish.py
+
+      - name: Build Windows application
+        shell: pwsh
+        run: >-
+          pyinstaller
+          --noconfirm
+          --clean
+          --windowed
+          --paths "shared/python"
+          --collect-all drowned_shared
+          --name "Drowned-Release-Manager"
+          "windows/release-manager/app_v7.py"
+
+      - name: Launch smoke test
+        shell: pwsh
+        run: |
+          $exe = Resolve-Path "dist/Drowned-Release-Manager/Drowned-Release-Manager.exe"
+          $process = Start-Process -FilePath $exe -PassThru
+          Start-Sleep -Seconds 8
+          $process.Refresh()
+          if ($process.HasExited) {
+            throw "Drowned Release Manager exited during startup smoke test with code $($process.ExitCode)"
+          }
+          Stop-Process -Id $process.Id -Force
+
+      - name: Package
+        shell: pwsh
+        run: |
+          Compress-Archive -Path "dist/Drowned-Release-Manager/*" -DestinationPath "Drowned-Release-Manager-v0.7.0-32Stream-Windows.zip"
+
+      - name: Publish GitHub Release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "release-manager-32stream-20260820" `
+            --title "Drowned Release Manager v0.7.0 - 32 Stream" `
+            --notes "Responsive Release Manager build with the existing 1.5 GiB chunk plan preserved and safe upload concurrency increased up to 32 streams. Existing Windows Credential Manager/keyring settings are unchanged." `
+            "Drowned-Release-Manager-v0.7.0-32Stream-Windows.zip"
