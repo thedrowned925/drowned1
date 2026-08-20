@@ -22,7 +22,7 @@ jobs:
         app:
           - name: Drowned-Release-Manager
             dir: windows/release-manager
-            entry: app_v7.py
+            entry: app_v8.py
           - name: Drowned-Launcher
             dir: windows/launcher
             entry: app_v11.py
