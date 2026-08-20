@@ -22,7 +22,7 @@ jobs:
         app:
           - name: Drowned-Release-Manager
             dir: windows/release-manager
-            entry: app_v8.py
+            entry: app_v9.py
           - name: Drowned-Launcher
             dir: windows/launcher
             entry: app_v11.py
@@ -48,6 +48,10 @@ jobs:
         run: |
           python -c "import drowned_shared; print('drowned_shared:', drowned_shared.__file__)"
           python -m py_compile "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
+
+      - name: Test balanced uploader
+        if: matrix.app.name == 'Drowned-Release-Manager'
+        run: python tests/test_turbo_upload.py
 
       - name: Build Windows application
         shell: pwsh
