@@ -13,29 +13,105 @@ from .errors import AuthenticationError, NetworkError
 MIB = 1024 * 1024
 GIB = 1024 * MIB
 
-# Preserve the established chunk layout: concurrency can rise without changing
-# the adaptive chunk sizes that the 16-stream planner historically produced.
-CHUNK_PLANNING_WORKERS = 16
-DEFAULT_TURBO_WORKERS = 40
-MAX_TURBO_WORKERS = 40
+# Balanced Direct Stream profile.
+# - 40 streams is the normal high-throughput target.
+# - The planner may rise only as far as 64 when one complete wave needs it.
+# - Small projects use fewer streams so we do not create dozens of tiny assets.
+MIN_BALANCED_STREAMS = 40
+DEFAULT_TURBO_WORKERS = 64
+MAX_TURBO_WORKERS = 64
+MIN_TARGET_CHUNK_BYTES = 64 * MIB
+MAX_BALANCED_CHUNK_BYTES = CHUNK_SIZE_BYTES  # 1900 MiB; safely below GitHub's 2 GiB limit.
 
 
-def _align_up(value: int, alignment: int = MIB) -> int:
-    return max(alignment, ((int(value) + alignment - 1) // alignment) * alignment)
+def _ceil_div(value: int, divisor: int) -> int:
+    value = int(value)
+    divisor = max(1, int(divisor))
+    return (value + divisor - 1) // divisor
+
+
+def choose_upload_plan(total_size: int, requested_workers: int = DEFAULT_TURBO_WORKERS) -> dict:
+    """Choose a tail-resistant upload plan with complete, equal-sized waves.
+
+    The planner prefers 40 concurrent uploads once a project is large enough to
+    benefit from them. It raises concurrency only when the 1900 MiB per-asset
+    ceiling requires more streams, up to 64. For larger projects it creates an
+    integer number of complete waves (for example 40+40 or 54+54) so a tiny
+    final wave such as 40+2 is not created by the planner.
+
+    Small projects stay below 40 streams until they reach roughly 2.5 GiB; this
+    avoids turning a few hundred MiB into dozens of tiny GitHub assets.
+    """
+    total_size = max(0, int(total_size))
+    worker_cap = max(1, min(int(requested_workers or 1), MAX_TURBO_WORKERS))
+
+    if total_size <= 0:
+        return {
+            "chunk_size": MAX_BALANCED_CHUNK_BYTES,
+            "chunk_count": 0,
+            "workers": 1,
+            "waves": 0,
+        }
+
+    # Explicit callers that request fewer than 40 workers still get balanced
+    # full waves at their requested concurrency.
+    baseline = min(MIN_BALANCED_STREAMS, worker_cap)
+
+    # Tiny/small projects: target about 64 MiB per asset and use only as many
+    # streams as are useful. At ~2.5 GiB this naturally reaches 40 streams.
+    small_threshold = MIN_BALANCED_STREAMS * MIN_TARGET_CHUNK_BYTES
+    if worker_cap >= MIN_BALANCED_STREAMS and total_size < small_threshold:
+        chunk_count = max(1, min(worker_cap, _ceil_div(total_size, MIN_TARGET_CHUNK_BYTES)))
+        chunk_size = _ceil_div(total_size, chunk_count)
+        return {
+            "chunk_size": chunk_size,
+            "chunk_count": chunk_count,
+            "workers": chunk_count,
+            "waves": 1,
+        }
+
+    max_waves = max(1, MAX_DATA_ASSETS // max(1, baseline))
+    for waves in range(1, max_waves + 1):
+        required_streams = _ceil_div(
+            total_size,
+            waves * MAX_BALANCED_CHUNK_BYTES,
+        )
+        streams = max(baseline, required_streams)
+        if streams > worker_cap:
+            continue
+
+        chunk_count = streams * waves
+        if chunk_count > MAX_DATA_ASSETS:
+            break
+
+        # No MiB rounding here: exact byte sizing keeps the requested chunk
+        # count intact and guarantees that every chunk remains <= 1900 MiB.
+        chunk_size = _ceil_div(total_size, chunk_count)
+        actual_count = _ceil_div(total_size, chunk_size)
+        if actual_count != chunk_count:
+            # This is only realistically possible for extremely tiny integer
+            # inputs; production game sizes are many orders of magnitude larger.
+            continue
+        if chunk_size > MAX_BALANCED_CHUNK_BYTES:
+            continue
+
+        return {
+            "chunk_size": chunk_size,
+            "chunk_count": chunk_count,
+            "workers": streams,
+            "waves": waves,
+        }
+
+    required = _ceil_div(total_size, MAX_BALANCED_CHUNK_BYTES)
+    raise ValueError(
+        "Project is too large for one GitHub Release with the balanced upload "
+        f"profile: needs at least {required} data assets; max is {MAX_DATA_ASSETS}."
+    )
 
 
 def choose_upload_chunk_size(total_size: int, requested_workers: int = DEFAULT_TURBO_WORKERS) -> int:
-    """Choose the established adaptive chunk size without changing chunk layout."""
-    total_size = max(0, int(total_size))
-    workers = max(1, min(int(requested_workers or 1), CHUNK_PLANNING_WORKERS))
-    if total_size <= 0:
-        return CHUNK_SIZE_BYTES
-
-    target_for_parallelism = max(4 * MIB, math.ceil(total_size / workers))
-    required_for_asset_budget = math.ceil(total_size / min(900, MAX_DATA_ASSETS))
-    chosen = max(target_for_parallelism, required_for_asset_budget)
-    chosen = min(CHUNK_SIZE_BYTES, chosen)
-    return min(CHUNK_SIZE_BYTES, _align_up(chosen, MIB))
+    """Compatibility wrapper returning the balanced plan's chunk size."""
+    return int(choose_upload_plan(total_size, requested_workers)["chunk_size"])
 
 
 def effective_worker_count(
@@ -68,7 +144,7 @@ class TurboAssetUploader:
             session.headers.update({
                 "Accept": "application/vnd.github+json",
                 "X-GitHub-Api-Version": GITHUB_API_VERSION,
-                "User-Agent": "Drowned-Distribution-Suite/0.8-direct40",
+                "User-Agent": "Drowned-Distribution-Suite/0.9-balanced64",
                 "Authorization": f"Bearer {self.client.token}",
             })
             self._thread_local.session = session
