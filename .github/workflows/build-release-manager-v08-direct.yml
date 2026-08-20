@@ -1,0 +1,100 @@
+name: Build Release Manager v0.8 Direct Stream
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-release-manager-v08-direct.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build-test-release:
+    if: contains(github.event.head_commit.message, 'release manager v0.8 direct stream package')
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+          cache-dependency-path: |
+            shared/python/pyproject.toml
+            windows/release-manager/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install pyinstaller
+          python -m pip install shared/python
+          python -m pip install -r windows/release-manager/requirements.txt
+
+      - name: Direct Stream unit tests
+        run: |
+          python -m unittest discover -s tests -p "test_turbo_upload.py" -v
+          python -m unittest discover -s tests -p "test_direct_stream.py" -v
+
+      - name: Compile critical modules
+        run: |
+          python -m py_compile shared/python/drowned_shared/direct_stream.py
+          python -m py_compile shared/python/drowned_shared/turbo_upload.py
+          python -m py_compile shared/python/drowned_shared/publish.py
+          python -m py_compile windows/release-manager/app_v8.py
+
+      - name: Build Windows application
+        shell: pwsh
+        run: >-
+          pyinstaller
+          --noconfirm
+          --clean
+          --windowed
+          --paths "shared/python"
+          --collect-all drowned_shared
+          --name "Drowned-Release-Manager"
+          "windows/release-manager/app_v8.py"
+
+      - name: Verify packaged Direct Stream module
+        shell: pwsh
+        run: |
+          $exe = "dist/Drowned-Release-Manager/Drowned-Release-Manager.exe"
+          if (!(Test-Path $exe)) { throw "Built executable was not found: $exe" }
+          python -m PyInstaller.utils.cliutils.archive_viewer -r $exe | Out-File -Encoding utf8 archive-contents.txt
+          if (-not (Select-String -Path archive-contents.txt -Pattern "drowned_shared.direct_stream" -Quiet)) {
+            throw "Packaged executable does not contain drowned_shared.direct_stream"
+          }
+
+      - name: Launch smoke test
+        shell: pwsh
+        run: |
+          $exe = Resolve-Path "dist/Drowned-Release-Manager/Drowned-Release-Manager.exe"
+          $process = Start-Process -FilePath $exe -PassThru
+          Start-Sleep -Seconds 8
+          $process.Refresh()
+          if ($process.HasExited) {
+            throw "Drowned Release Manager exited during startup smoke test with code $($process.ExitCode)"
+          }
+          Stop-Process -Id $process.Id -Force
+
+      - name: Package
+        shell: pwsh
+        run: |
+          Compress-Archive -Path "dist/Drowned-Release-Manager/*" -DestinationPath "Drowned-Release-Manager-v0.8.0-Direct-Stream-Windows.zip"
+          Get-FileHash "Drowned-Release-Manager-v0.8.0-Direct-Stream-Windows.zip" -Algorithm SHA256 | Format-List
+
+      - name: Publish GitHub Release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "release-manager-direct-v0.8.0" `
+            --title "Drowned Release Manager v0.8.0 - Direct Stream" `
+            --notes "Direct Stream uploader: existing adaptive chunk layout and 1.5 GiB maximum preserved; game-data temp BIN staging removed; source ranges stream directly to GitHub Release Assets; up to 40 concurrent chunk uploads; SHA-256 verification and retry protection preserved; Windows Credential Manager/keyring identifiers unchanged." `
+            "Drowned-Release-Manager-v0.8.0-Direct-Stream-Windows.zip"
+
+      - name: Verify published release asset
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view "release-manager-direct-v0.8.0" --json tagName,assets
