@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-20T08:10:33.900339+00:00",
+  "updated_at": "2026-08-20T09:28:15.379404+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -524,6 +524,38 @@
       },
       "media": {
         "steam_app_id": 72850
+      }
+    },
+    {
+      "id": "red-dead-redemption-2",
+      "title": "Red Dead Redemption 2",
+      "platform": "pc",
+      "description": "Arthur Morgan and the Van der Linde Gang are outlaws on the run. With federal agents and bounty hunters massing on their heels, the gang must rob, steal, and fight their way across the rugged heartland in order to survive.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption-2/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption-2/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption-2/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption-2/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption-2/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption-2/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption-2/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption-2/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/red-dead-redemption-2/screenshots/04.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-red-dead-redemption-2-v1.0.0-stable",
+          "manifest_path": "manifests/pc/red-dead-redemption-2/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/red-dead-redemption-2/stable/1.0.0.json",
+          "size": 128092833732,
+          "published_at": "2026-08-20T09:28:15.378799+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 1174180
       }
     }
   ]
