@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import shutil
 import tempfile
 import threading
 import time
@@ -11,10 +10,10 @@ from pathlib import Path
 
 from .chunking import ChunkBuilder
 from .constants import CATALOG_NAME, MANIFEST_NAME
+from .direct_stream import DirectChunkReader, hash_source_files, plan_direct_stream
 from .metadata import load_catalog, manifest_repo_path
 from .turbo_upload import (
     DEFAULT_TURBO_WORKERS,
-    TEMP_RESERVE_BYTES,
     TurboAssetUploader,
     choose_upload_chunk_size,
     effective_worker_count,
@@ -49,42 +48,24 @@ def publish_project(
     builder = ChunkBuilder(source, chunk_size=chunk_size)
     builder.validate_capacity()
 
-    # Temporary chunks live in the system temp directory. Keep an 8 GiB safety
-    # reserve and automatically lower concurrency if 32 x chunk_size would be
-    # unsafe. Chunk size/count are not changed by this safety decision.
-    temp_root = Path(tempfile.gettempdir())
-    free_temp_bytes = shutil.disk_usage(temp_root).free
-    if builder.total_size and free_temp_bytes < chunk_size + TEMP_RESERVE_BYTES:
-        raise ValueError(
-            "Not enough free space on the temporary drive for one upload chunk "
-            "plus the 8 GiB safety reserve."
-        )
+    # Direct Stream creates only a lightweight segment map. No 1.5 GiB staging
+    # files are materialized on disk.
+    plan = plan_direct_stream(builder)
+    planned_chunks = list(plan["chunks"])
     requested_workers = max(1, int(upload_workers or 1))
-    workers = effective_worker_count(
-        chunk_size,
-        requested_workers,
-        free_temp_bytes=free_temp_bytes,
-    )
-    if builder.chunk_count:
-        workers = min(workers, builder.chunk_count)
+    workers = effective_worker_count(chunk_size, requested_workers)
+    if planned_chunks:
+        workers = min(workers, len(planned_chunks))
     workers = max(1, workers)
     prerelease = channel in {"beta", "dev", "nightly"}
 
-    file_sizes = {
-        path.relative_to(builder.root).as_posix(): path.stat().st_size
-        for path in builder.files
-    }
+    file_sizes = {item.rel: item.size for item in plan["snapshots"]}
 
     log(
-        "Turbo upload: "
+        "Direct Stream upload: "
         f"{workers} parallel stream • chunk {chunk_size / 1024 / 1024:.0f} MiB • "
-        f"{builder.chunk_count} data asset"
+        f"{len(planned_chunks)} data asset • temp BIN 0 B"
     )
-    if workers < min(requested_workers, max(builder.chunk_count, 1)):
-        log(
-            "Upload concurrency was reduced automatically to protect free space "
-            f"on the temporary drive ({temp_root})."
-        )
 
     if detailed_progress:
         detailed_progress({
@@ -93,7 +74,7 @@ def publish_project(
             "total_size": builder.total_size,
             "workers": workers,
             "chunk_size": chunk_size,
-            "chunk_count": builder.chunk_count,
+            "chunk_count": len(planned_chunks),
             "completed_chunks": 0,
             "active": [],
         })
@@ -113,6 +94,10 @@ def publish_project(
     active_segments: dict[int, dict[str, dict]] = {}
     completed_file_bytes: dict[str, int] = {}
     last_progress_emit = [0.0]
+    abort = threading.Event()
+
+    def is_cancelled():
+        return bool(cancelled()) or abort.is_set()
 
     def _segment_prefix_bytes(segment: dict, sent: int) -> int:
         start = int(segment.get("chunk_offset") or 0)
@@ -142,7 +127,7 @@ def publish_project(
             file_size = int(file_sizes.get(file_path, 0))
             file_sent = int(completed_file_bytes.get(file_path, 0))
             if file_path:
-                for other_index, other_state in active_chunks.items():
+                for other_index in active_chunks:
                     other_segment = active_segments.get(other_index, {}).get(file_path)
                     if other_segment is None:
                         continue
@@ -168,157 +153,159 @@ def publish_project(
             "total_size": builder.total_size,
             "workers": workers,
             "chunk_size": chunk_size,
-            "chunk_count": builder.chunk_count,
+            "chunk_count": len(planned_chunks),
             "completed_chunks": len(chunk_meta),
             "active": active_rows,
         }
 
-    def _emit_snapshot(phase: str = "upload"):
-        if not detailed_progress:
-            return
+    def report_chunk_progress(index: int, sent: int):
+        now = time.monotonic()
+        snapshot = None
+        aggregate = 0
+        emit = False
         with progress_lock:
-            snapshot = _snapshot_locked(phase)
-        detailed_progress(snapshot)
+            sent_by_chunk[index] = max(0, int(sent))
+            if now - last_progress_emit[0] >= 0.25:
+                last_progress_emit[0] = now
+                aggregate = min(sum(sent_by_chunk.values()), builder.total_size)
+                emit = True
+                if detailed_progress:
+                    snapshot = _snapshot_locked("upload")
+        if not emit:
+            return
+        if progress:
+            progress(aggregate, builder.total_size)
+        if detailed_progress and snapshot is not None:
+            detailed_progress(snapshot)
 
-    with tempfile.TemporaryDirectory(prefix="drowned-") as td:
-        gen = builder.build(Path(td))
-        uploader = TurboAssetUploader(client, rid)
+    uploader = TurboAssetUploader(client, rid)
 
-        def report_chunk_progress(index: int, sent: int):
-            now = time.monotonic()
-            emit = False
-            aggregate = 0
-            snapshot = None
+    def upload_one(index: int, meta: dict):
+        if is_cancelled():
+            raise RuntimeError("cancelled")
+
+        log(
+            f"Direct uploading {meta['name']} • "
+            f"{meta['size'] / 1024 / 1024:.1f} MiB"
+        )
+        with progress_lock:
+            active_chunks[index] = {"meta": meta}
+            active_segments[index] = {
+                str(segment.get("file") or ""): segment
+                for segment in (meta.get("segments") or [])
+                if segment.get("file")
+            }
+            sent_by_chunk[index] = 0
+            start_snapshot = _snapshot_locked("upload") if detailed_progress else None
+        if detailed_progress and start_snapshot is not None:
+            detailed_progress(start_snapshot)
+
+        _, chunk_sha = uploader.upload_stream(
+            meta["name"],
+            int(meta.get("size") or 0),
+            reader_factory=lambda: DirectChunkReader(
+                meta,
+                plan["snapshot_map"],
+                progress=lambda sent, total, idx=index: report_chunk_progress(idx, sent),
+                cancelled=is_cancelled,
+            ),
+            progress=lambda sent, total, idx=index: report_chunk_progress(idx, sent),
+        )
+
+        completed_meta = dict(meta)
+        completed_meta["sha256"] = chunk_sha
+
+        with progress_lock:
+            sent_by_chunk[index] = int(meta.get("size") or 0)
+            for segment in meta.get("segments") or []:
+                file_path = str(segment.get("file") or "")
+                if not file_path:
+                    continue
+                completed_file_bytes[file_path] = (
+                    int(completed_file_bytes.get(file_path, 0))
+                    + int(segment.get("length") or 0)
+                )
+            active_chunks.pop(index, None)
+            active_segments.pop(index, None)
+            completed_snapshot = _snapshot_locked("upload") if detailed_progress else None
+
+        if progress:
             with progress_lock:
-                sent_by_chunk[index] = max(0, int(sent))
-                if now - last_progress_emit[0] >= 0.25 or sent >= builder.total_size:
-                    last_progress_emit[0] = now
-                    aggregate = min(sum(sent_by_chunk.values()), builder.total_size)
-                    emit = True
-                    if detailed_progress:
-                        snapshot = _snapshot_locked("upload")
-            if not emit:
-                return
-            if progress:
-                progress(aggregate, builder.total_size)
-            if detailed_progress and snapshot is not None:
-                detailed_progress(snapshot)
+                aggregate = min(sum(sent_by_chunk.values()), builder.total_size)
+            progress(aggregate, builder.total_size)
+        if detailed_progress and completed_snapshot is not None:
+            detailed_progress(completed_snapshot)
+        return index, completed_meta
 
-        def upload_one(built):
-            if cancelled():
-                raise RuntimeError("cancelled")
-            log(
-                f"Uploading {built.meta['name']} • "
-                f"{built.meta['size'] / 1024 / 1024:.1f} MiB"
-            )
-            with progress_lock:
-                active_chunks[built.index] = {"meta": built.meta}
-                active_segments[built.index] = {
-                    str(segment.get("file") or ""): segment
-                    for segment in (built.meta.get("segments") or [])
-                    if segment.get("file")
-                }
-                sent_by_chunk[built.index] = 0
-                start_snapshot = _snapshot_locked("upload") if detailed_progress else None
-            if detailed_progress and start_snapshot is not None:
-                detailed_progress(start_snapshot)
+    # File SHA-256 is calculated sequentially in one background reader while the
+    # network workers upload logical chunks. On SSD/NVMe the extra read is hidden
+    # behind the much slower network transfer.
+    file_hash_pool = ThreadPoolExecutor(max_workers=1, thread_name_prefix="drowned-filehash")
+    files_future = file_hash_pool.submit(hash_source_files, plan["snapshots"], is_cancelled)
 
-            uploader.upload(
-                built.meta["name"],
-                built.path,
-                progress=lambda sent, total, idx=built.index: report_chunk_progress(idx, sent),
-            )
-
-            with progress_lock:
-                sent_by_chunk[built.index] = int(built.meta.get("size") or 0)
-                for segment in built.meta.get("segments") or []:
-                    file_path = str(segment.get("file") or "")
-                    if not file_path:
-                        continue
-                    completed_file_bytes[file_path] = (
-                        int(completed_file_bytes.get(file_path, 0))
-                        + int(segment.get("length") or 0)
-                    )
-                active_chunks.pop(built.index, None)
-                active_segments.pop(built.index, None)
-                completed_snapshot = _snapshot_locked("upload") if detailed_progress else None
-            if detailed_progress and completed_snapshot is not None:
-                detailed_progress(completed_snapshot)
-
-            built.path.unlink(missing_ok=True)
-            return built.index, built.meta
-
+    try:
         pending = set()
-        result = None
-
-        # Keep at most one temporary chunk per active stream. The worker count
-        # is already capped against both the 48 GiB scratch ceiling and actual
-        # free space on the temporary drive.
-        queue_limit = max(1, workers)
-
-        with ThreadPoolExecutor(max_workers=workers, thread_name_prefix="drowned-turbo") as pool:
-            while True:
-                if cancelled():
+        with ThreadPoolExecutor(max_workers=workers, thread_name_prefix="drowned-direct") as pool:
+            for index, meta in enumerate(planned_chunks, start=1):
+                if is_cancelled():
                     raise RuntimeError("cancelled")
-                try:
-                    built = next(gen)
-                except StopIteration as stop:
-                    result = stop.value
-                    break
-
-                pending.add(pool.submit(upload_one, built))
-
-                if len(pending) >= queue_limit:
-                    done, pending = wait(pending, return_when=FIRST_COMPLETED)
-                    for future in done:
-                        chunk_meta.append(future.result())
+                pending.add(pool.submit(upload_one, index, meta))
 
             while pending:
                 done, pending = wait(pending, return_when=FIRST_COMPLETED)
                 for future in done:
                     chunk_meta.append(future.result())
 
-        if result is None:
-            result = {"total_size": builder.total_size, "files": [], "chunks": []}
+        files_meta = files_future.result()
+    except Exception:
+        abort.set()
+        raise
+    finally:
+        file_hash_pool.shutdown(wait=True, cancel_futures=True)
 
-        chunk_meta.sort(key=lambda pair: pair[0])
-        ordered_chunks = [meta for _, meta in chunk_meta]
-        if progress:
-            progress(builder.total_size, builder.total_size)
-        if detailed_progress:
-            detailed_progress({
-                "phase": "metadata",
-                "total_sent": builder.total_size,
-                "total_size": builder.total_size,
-                "workers": workers,
-                "chunk_size": chunk_size,
-                "chunk_count": builder.chunk_count,
-                "completed_chunks": len(ordered_chunks),
-                "active": [],
-            })
+    chunk_meta.sort(key=lambda pair: pair[0])
+    ordered_chunks = [meta for _, meta in chunk_meta]
 
-        manifest = {
-            "schema_version": 1,
-            "game": {
-                "id": game_id,
-                "title": title,
-                "platform": platform,
-                "channel": channel,
-                "version": version,
-                "description": description,
-            },
-            "release": {
-                "owner": client.owner,
-                "repo": client.repo,
-                "tag": tag,
-            },
+    if progress:
+        progress(builder.total_size, builder.total_size)
+    if detailed_progress:
+        detailed_progress({
+            "phase": "metadata",
+            "total_sent": builder.total_size,
+            "total_size": builder.total_size,
+            "workers": workers,
             "chunk_size": chunk_size,
-            "upload_workers": workers,
-            "total_size": result["total_size"],
-            "files": result["files"],
-            "chunks": ordered_chunks,
-        }
-        manifest_text = json.dumps(manifest, ensure_ascii=False, indent=2)
+            "chunk_count": len(planned_chunks),
+            "completed_chunks": len(ordered_chunks),
+            "active": [],
+        })
+
+    manifest = {
+        "schema_version": 1,
+        "game": {
+            "id": game_id,
+            "title": title,
+            "platform": platform,
+            "channel": channel,
+            "version": version,
+            "description": description,
+        },
+        "release": {
+            "owner": client.owner,
+            "repo": client.repo,
+            "tag": tag,
+        },
+        "chunk_size": chunk_size,
+        "upload_workers": workers,
+        "total_size": builder.total_size,
+        "files": files_meta,
+        "chunks": ordered_chunks,
+    }
+    manifest_text = json.dumps(manifest, ensure_ascii=False, indent=2)
+
+    # Only the tiny JSON manifest needs a temporary file because the metadata
+    # helper accepts a path. No game data is staged on disk.
+    with tempfile.TemporaryDirectory(prefix="drowned-meta-") as td:
         manifest_file = Path(td) / MANIFEST_NAME
         manifest_file.write_text(manifest_text, encoding="utf-8")
         client.upload_asset(rid, MANIFEST_NAME, manifest_file, "application/json")
@@ -378,7 +365,7 @@ def publish_project(
         "tag": tag,
         "manifest_path": manifest_path,
         "manifest_url": manifest_url,
-        "size": result["total_size"],
+        "size": builder.total_size,
         "published_at": datetime.now(timezone.utc).isoformat(),
     }
     catalog["updated_at"] = datetime.now(timezone.utc).isoformat()
