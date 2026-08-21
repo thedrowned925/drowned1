@@ -1,0 +1,3556 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "horizon-zero-dawn-complete-edition",
+    "title": "Horizon Zero Dawn™ Complete Edition",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Experience Aloy’s legendary quest to unravel the mysteries of a future Earth ruled by Machines. Use devastating tactical attacks against your prey and explore a majestic open world in this award-winning action RPG!"
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-horizon-zero-dawn-complete-edition-v1.0.0-stable"
+  },
+  "chunk_size": 1692988990,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 67719559571,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/openvr_api.dll",
+      "size": 818904,
+      "sha256": "c3314d8822729fb7550d070f75c3efdd2d099965e53416b2901996fc6cee744f"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealConfig.bat",
+      "size": 7851,
+      "sha256": "8ad8472b507bf6fe90a35ecba17e4944866e6bc29cbdd1df2c0ed15cd3753679"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/CP2077/S0.dxbc",
+      "size": 9255,
+      "sha256": "16d3158153e494f974defae2bdeaad5f44eeb3687df5a43e6dfccb6e5e18ae78"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/CP2077/S1.dxbc",
+      "size": 9923,
+      "sha256": "c2d5f0e68184f519e50bd497ff2faf46a82526c83ca6d4a691727245e3244c58"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/CP2077/settings/option.replace",
+      "size": 1368,
+      "sha256": "462303dfac0d6d4892dc38820940bbe2c9da9fe6d73fa162c868e37d9e4ab886"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/dbghelp.dll",
+      "size": 1866240,
+      "sha256": "72fcd4053c92cf8369997c2d1afae74e2ff53050a51f47813d849eae41f8d38a"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/DSR/BackupSaves.bat",
+      "size": 1087,
+      "sha256": "be9b345002cd9d5ef80e88a9a9f8b4cfc5e3e46bc2844f5c16b894430f82fbbf"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/DSR/Settings/DarkSouls.ini",
+      "size": 331,
+      "sha256": "cb2625aa6236b4afcac18ffba8afb709d95deb7e876efe1ae565b9f904329b0d"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/ELDEN/BackupSaves.bat",
+      "size": 1024,
+      "sha256": "42529cc1dcfc88a8899d2d0178b0e241e5684a4dd982ced15686cf3b21eaf2ec"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/ELDEN/Settings/GraphicsConfig_1ultra.xml",
+      "size": 2388,
+      "sha256": "d52466b9d5ac0a082a298886070feaf8fbd2d59c45f9484dad99b6104f85a689"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/ELDEN/Settings/GraphicsConfig_2high.xml",
+      "size": 2408,
+      "sha256": "0300b19228719d5e3066cc9163ddd998575c3e2f5c0352bb63f063c0169153d2"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/ELDEN/Settings/GraphicsConfig_3medium.xml",
+      "size": 2430,
+      "sha256": "f44713992dec3944d62c3c19dbee72d5edf7d0d5a17dc84aab03863d04d1ae8c"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/ELDEN/Settings/GraphicsConfig_4low.xml",
+      "size": 2410,
+      "sha256": "80a8503a932c75b1433261fbe855f5c43bf944e15460a25048b775385870faa7"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/ELDEN/start_protected_game.exe",
+      "size": 240640,
+      "sha256": "87ba5a7088ebc6d2e6142ba554159841a794528f82317dc45e367bd3c924910b"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/elevate.exe",
+      "size": 6144,
+      "sha256": "43f1e45ae07715619eaad705765b58e6de969ccbd5e94f23d0d616070f188142"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/HZD/settings/graphicsconfig.ini",
+      "size": 1606,
+      "sha256": "b1cf3b2aa7fa8091e63401fc05c7e07b28e229dfb1e769ee6a41730d272cbf4e"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/RealFluid.exe",
+      "size": 18432,
+      "sha256": "86a1810326093a62d707bde2c48739399ffa2c7262c847e8922d95fe8504a2ec"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/RealVR.ini",
+      "size": 7,
+      "sha256": "9f6b43a1d1186d45b6266b658294910bec6452cf1945435fb80be994b536883e"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/RealVR64.dll",
+      "size": 5243904,
+      "sha256": "7cd0d3dd1217a06beb601aadb6d0ea276f8f0439b119b2d53de4bbc52ab4f44d"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/ReplaceJSON.exe",
+      "size": 13312,
+      "sha256": "253d87f2052b6df4eeeae230e27d4f0671a1d518ce16242d1844c31e5df31f96"
+    },
+    {
+      "path": "_REAL_mod_by_LukeRoss/RealRepo/xrsetruntime.exe",
+      "size": 16896,
+      "sha256": "079162033e31405fee2c7ad376cc806048ac54ff6c6ce9f93fc2ed3a13aef333"
+    },
+    {
+      "path": "amd_ags_x64.dll",
+      "size": 166400,
+      "sha256": "d83b74a48103332b089149bd951b74078a6e7e1b9bb647b0327c1440d2cd9442"
+    },
+    {
+      "path": "coredumps/metadata",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "coredumps/settings.dat",
+      "size": 40,
+      "sha256": "a4a9177b3ca5e689802847775191099ed59cfcee8c445a09a0fbeb13bb2eb646"
+    },
+    {
+      "path": "Digital Art Book/HZD_DigitalArtBook.pdf",
+      "size": 46613995,
+      "sha256": "a28cd9fa630a3e6459ba7d47b66f0456b234f791878ffd1bed601a89f248d5e0"
+    },
+    {
+      "path": "Galaxy64.dll",
+      "size": 15274496,
+      "sha256": "cdc1dd81e6287b169b0921c5011add80bcd5512d0b9e5f977e178ef16d0d924a"
+    },
+    {
+      "path": "goggame-1209025141.info",
+      "size": 670,
+      "sha256": "23f1bd795fa8ccc019b11f8eb4fa6a346ae4f8afbde718ea09929c6975930c6d"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/01 - Joris de Man - Prologue (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+      "size": 13183395,
+      "sha256": "767a4e98b74916cfc3daeda6ed6cddd296a485a44ec720bf03533a49b1e971f1"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/02 - Joris de Man - Aloy's Theme (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+      "size": 6052267,
+      "sha256": "3c947baae4e55a4863c5a73c58fd345c85eaa74c077acb71b3d66a3594bfb37d"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/03 - Joris de Man - Motherless (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+      "size": 4045223,
+      "sha256": "530745a2bd61288c41e13f774afe79e6a288dabda764ea3a6953e6eaf9193d92"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/04 - Joris de Man - Vanished Voices (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+      "size": 3410353,
+      "sha256": "c5f11bf5bcebd83da1afb9cf521cbbf418d125fc5c7b4959af5c9e98d21562f0"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/05 - Joris de Man - Seal Your Lips (Part 1 - Motherland).mp3",
+      "size": 3678599,
+      "sha256": "91f97f6974d96e9b8474f0b8d99abeb512904ed79f199848deab0d09876e4760"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/06 - Joris de Man - The Welcome Of Stones (Part 1 - Motherland).mp3",
+      "size": 3250581,
+      "sha256": "82f2ead633447893b1f29d9a6e26ba5f90a7e99f22e4af79cbbca4a55305be57"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/07 - Joris de Man - Tell Me (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+      "size": 5058977,
+      "sha256": "fd76f28ec4bf4e4defc1b858ad34b42a7e0ab83926635e8edd86d20ac84db5ea"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/08 - Joris de Man - The Point Of The Spear (Part 1 - Motherland).mp3",
+      "size": 4180375,
+      "sha256": "f3b49021bb91876b61389b4ab8a62454a1d0f0510a76be3ec972446584114201"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/09 - The Flight - Years Of Training (Part 1 - Motherland).mp3",
+      "size": 5718409,
+      "sha256": "20110969e0866f2536d16b4cad17eb49127e38198791eb75d5c8478c15dec7e9"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/10 - The Flight - The Blessing (Part 1 - Motherland).mp3",
+      "size": 4542848,
+      "sha256": "a025b8844f1a949b3af4c4a7cbc198a3c54cc8c9c18c012ea0635ee0b44a1bf0"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/11 - Joris de Man - The Proving (feat_ Julie Elven & Circle Percussion) (Part 1 - Motherland).mp3",
+      "size": 4137426,
+      "sha256": "8e1c9c6f99030d7af820bd744bb113f08e05ec9be6c15179f7970844cd000cd6"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/12 - Joris de Man - A Boon (Part 1 - Motherland).mp3",
+      "size": 3924344,
+      "sha256": "563a8b86315dabf7c78c2a505f7314e6fbf292df0a7bdf9d98e972f632b417c8"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/13 - Joris de Man - Where You Came From (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+      "size": 5773754,
+      "sha256": "82b0b4534235b64449affb9ff3d4f339bff38ca796f78c1ea4c6fe54447d6659"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/14 - The Flight - Identification (Part 1 - Motherland).mp3",
+      "size": 2498948,
+      "sha256": "eb710f69cf4f84cc72a3e2e7dbfb89d87b511038f9cacf3b11fff1a7c394d414"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/15 - Joris de Man - What The Seeker Had Sought (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+      "size": 3258824,
+      "sha256": "cebb511d35c4d5643cfd768bf39ca3c518f3ea67f654c04faca2a613c632e800"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/16 - Joris de Man - Anointed (Part 1 - Motherland).mp3",
+      "size": 5839228,
+      "sha256": "6de8300cad4591844a4f0306f1a4268ba581ca748497d09d43a6bc67c7950080"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/17 - Joris de Man - Seized From The Depths (Part 1 - Motherland).mp3",
+      "size": 4805016,
+      "sha256": "a3e318ffc6cc70fdea6ddd12b5a5191743f5b069d9b38796f300841cef042197"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/18 - Joris de Man - Hologram Myth (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+      "size": 8638894,
+      "sha256": "817531d888108951504d034d1621a44b14df8bfed35d06238ede221f88623849"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/19 - Joris de Man - The Bad News (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+      "size": 7391660,
+      "sha256": "44518aad8151d190e9f23360d26e890bc4ae980f1badc06ca953b8e7b8e8d77c"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/20 - Joris de Man - The Good News (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+      "size": 9077166,
+      "sha256": "f112bc1a8dcab1e5e650355edcf9c1f3325221762cfec4e413d4feed3c0d3438"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/21 - Joris de Man - The Cavalry Breaks Through (feat_ Julie Elven_ Circle Percussion) (Part 1 - Motherland).mp3",
+      "size": 4258286,
+      "sha256": "20149dd23453a84c99f184109f72bb3cc3a2dbde75f01b18d49a42296c0ad132"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/22 - Joris de Man - Victory (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+      "size": 7319970,
+      "sha256": "7cc994485dc4a2c4846fe636789d09a45ed8ee592a3201347f1f589566958d63"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/23 - Joris de Man - Homecoming (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+      "size": 7070120,
+      "sha256": "5a8cbc23607272bbcc013f1fb0e6ef8d0d051f82c4d8d6cc68845e173e8878e7"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/24 - Niels van der Leest - To The Hunt! (feat_ Circle Percussion) (Part 1 - Motherland).mp3",
+      "size": 10768838,
+      "sha256": "8c90047357106197a81ea3a8d3088ab52c53e8d6661f00c2dcfbaa2e8ed461f1"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/25 - Joris de Man - Prologue (Early Style Sketch) (Part 1 - Motherland).mp3",
+      "size": 3606950,
+      "sha256": "dd966bd62757cb58b50b49df2082931ef9b9f5e13b6f5e4daa859e41137407c4"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/26 - Joris de Man - Song For Aloy (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+      "size": 3418542,
+      "sha256": "76bd39d2af2f3d6fb158f1b73fc313457f422f9ef290a89009b1daf18893f9b6"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/27 - Joris de Man - Within The Embrace (Part 2 - Out Of The Embrace).mp3",
+      "size": 10459552,
+      "sha256": "96cee3300708fae8aa2fe30a84d7684bd808170d03047451ff330d59c4428c82"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/28 - Joris de Man - In Great Strides (Part 2 - Out Of The Embrace).mp3",
+      "size": 10566044,
+      "sha256": "34562e40f6fba3891261a15369ad1ffb4d2f66bcce9a1feb6a460713291336a7"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/29 - Joris de Man - Her Breath_ Her Land (Part 2 - Out Of The Embrace).mp3",
+      "size": 11960740,
+      "sha256": "659d9312694b98ce63973d2e4b3efe14fdbc65578f2fc9ae3c02f69497f34928"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/30 - Joris de Man - On Our Mother's Shoulders (Part 2 - Out Of The Embrace).mp3",
+      "size": 11452846,
+      "sha256": "1dcaa6f519828f086780428bd5f443b5a145df9b8b0325ed6442643428fa2174"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/31 - The Flight - Haze And Renewal (Part 2 - Out Of The Embrace).mp3",
+      "size": 2736536,
+      "sha256": "ac406c91c7581c12d4712b371ebbd58ff25cac7e2db0503ad00e58308bfcdb6a"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/32 - Joris de Man - A Truth Whispered At Night (Part 2 - Out Of The Embrace).mp3",
+      "size": 9818544,
+      "sha256": "113a94e81fcfd74d027e3a121ce49bb979e256425156aba5407cb825337e8906"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/33 - Joris de Man - Trails In The Darkness (Part 2 - Out Of The Embrace).mp3",
+      "size": 10535336,
+      "sha256": "097acc3ae1d4395e291edd7f9d1480ce59134e5d22f1f2c6293830579a0c03ef"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/34 - Joris de Man - Machine Dreams (Part 2 - Out Of The Embrace).mp3",
+      "size": 11633048,
+      "sha256": "56d21d9ffd212a838aeda147ee1d34167a7d42af62f3f56ec9353f44bb70fa46"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/35 - The Flight - Cloudpart (Part 2 - Out Of The Embrace).mp3",
+      "size": 2023818,
+      "sha256": "9f99d921fd5a92d58e9991981a717231764cf48aa459ec4f472a13c8c3680caa"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/36 - Joris de Man - The World And All Its Lessons (Part 2 - Out Of The Embrace).mp3",
+      "size": 8765878,
+      "sha256": "9080ae77126a04ce011af83fd0b4420c615a74abdc2438b98126717ce8757752"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/37 - Joris de Man - This New Wilderness (Part 2 - Out Of The Embrace).mp3",
+      "size": 12892578,
+      "sha256": "28869bc50ffad0fde25ab21e5bafbc509a9e0ce61c1281ed11e9b7587f59e59e"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/38 - The Flight - Territory Of None (Part 2 - Out Of The Embrace).mp3",
+      "size": 16140698,
+      "sha256": "0e979ed3103c6d7851bd6994e9919fd236b03abce9e082ecfd2b1f3d5dd9f203"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/39 - The Flight - A Wanderer's Work (Part 2 - Out Of The Embrace).mp3",
+      "size": 15765914,
+      "sha256": "fc025599c5385baa36aaaf1497a27564043721fb2e9da514c95f458b88647eb1"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/40 - The Flight - Brave_ New (Part 2 - Out Of The Embrace).mp3",
+      "size": 12816780,
+      "sha256": "7551514e7b9a2dbfb1d56044610c111c60f429170b1efc94b9043914e61dcda1"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/41 - The Flight - The Memory Of Old Walls (Part 2 - Out Of The Embrace).mp3",
+      "size": 10836390,
+      "sha256": "e530cb43aba5f9fb890144ccb9e381217cc75b949316c904009fd8fbae2595c8"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/42 - Joris de Man - Aloy's Journey (feat_ Julie Elven) (Part 3 - Onwards To Meridian).mp3",
+      "size": 7322050,
+      "sha256": "72c3f0610cf23d5154d7433b27d0e84e20dfb251f18a55ba92a7a3a58b3540f4"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/43 - Joris de Man - Meridian_ Shining (Part 3 - Onwards To Meridian).mp3",
+      "size": 9605536,
+      "sha256": "27123a02cd396cc8f5e7964cfe276e7060081c001ca8cd99d1f735ad3842460e"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/44 - Joris de Man - City On The Mesa (Part 3 - Onwards To Meridian).mp3",
+      "size": 9902494,
+      "sha256": "8651be6da1b2d075bd4caa3a51f09ed040de98911fd8e80a16c09d6c0447029b"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/45 - Joris de Man - Envoys (Part 3 - Onwards To Meridian).mp3",
+      "size": 5568906,
+      "sha256": "c436ffcb60dcd63796aa1b859b0aab9e806c1102c4162e0a6b1f898ceafb719f"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/46 - The Flight - Beads Fallen On Bronze (Part 3 - Onwards To Meridian).mp3",
+      "size": 2019750,
+      "sha256": "6369da7d3266c5ad1623752493a1ca809d8466dd4392dac3ad47a59cba44b583"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/47 - The Flight - All That The Light Reaches (Part 3 - Onwards To Meridian).mp3",
+      "size": 17285550,
+      "sha256": "0e29b7a9a376e3e100169cc0218ba6f6e42704de4da808d76f80e784aa60191a"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/48 - The Flight - A Resplendent Soil (Part 3 - Onwards To Meridian).mp3",
+      "size": 12429726,
+      "sha256": "0ee47191304e0a5e9b3d30db2d9baa6a80fa97f73acd7dd0b24fd2bd3f5defc4"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/49 - The Flight - Another Day Rusts (Part 3 - Onwards To Meridian).mp3",
+      "size": 3070364,
+      "sha256": "4ce21e20af5e92e56e29a2caca3fcbab75fda96deb636e6aa2a7919ac88a4293"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/50 - The Flight - Across The Daybrink (Part 3 - Onwards To Meridian).mp3",
+      "size": 3365280,
+      "sha256": "dfebc54b50ced21ac84451e04656f302f538d503f7ee8fbeb0ff6b9cb8ac66be"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/51 - The Flight - Delver's Hymnal (Part 3 - Onwards To Meridian).mp3",
+      "size": 9757080,
+      "sha256": "ab8840b70e457c91d32aa59880515bc4f12b504467e1219af2bb83e959141cd5"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/52 - Joris de Man - To Call Our Own (Part 3 - Onwards To Meridian).mp3",
+      "size": 11088284,
+      "sha256": "735597127d3163d9ad11931d7bd80d32b6487c97b9effdf79db7bb79788f20d5"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/53 - The Flight - Your Hand Of Sun and Jewels (Carja traditional) (Part 3 - Onwards To Meridian).mp3",
+      "size": 5177816,
+      "sha256": "d107ad6caeb03d86bb2bfea7d434dfe8847af9c2366f0879e49e268a8e5dc118"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/54 - The Flight - KunaBass Solo (Part 3 - Onwards To Meridian).mp3",
+      "size": 2443668,
+      "sha256": "9f568b5f40e12ac8e1d781a07c26afbff8aad0b7e896da9be54d79c90363a147"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/55 - The Flight - Iron Pendulum Solo (Part 3 - Onwards To Meridian).mp3",
+      "size": 1182110,
+      "sha256": "aec45a3ebc6feff8f8386a342bc0c2b8931ea20c1da7861f06ea5e232e1a635a"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/56 - The Flight - Braumdrum Solo (Part 3 - Onwards To Meridian).mp3",
+      "size": 2034070,
+      "sha256": "e4a0f2443cd4aab7588864b079c95d8b2aa777d896049f8b5ce781289c818006"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/57 - Niels van der Leest - Go Like Time Around An Arrow (feat_ Circle Percussion) (Part 3 - Onwards To Meridian).mp3",
+      "size": 13523448,
+      "sha256": "0c0e4a3a2e16bdbc061333072f80e075973dd9e1ef49233878c9fbe1de9d2c20"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/58 - Jonathan Williams - Song to the Sun - Dawning (Part 3 - Onwards To Meridian).mp3",
+      "size": 5542330,
+      "sha256": "0d65142a0f35ae46039ff4dc25e283be424bcc69f631acc6d0d3f7a6e08aad2c"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/59 - Jonathan Williams - Song To The Sun - Midday (Part 3 - Onwards To Meridian).mp3",
+      "size": 8112568,
+      "sha256": "0a719c32a608a490150914a3477e21d0289fbf1e857a2523af7ed39f7698db87"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/60 - Jonathan Williams - Song To The Sun - Evening (Part 3 - Onwards To Meridian).mp3",
+      "size": 9372090,
+      "sha256": "a8659603b4b8ef556a52930aa3b2bde091e839da2c4c1a710fb14349e409b988"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/61 - Jonathan Williams - Nora u Norawea (Part 3 - Onwards To Meridian).mp3",
+      "size": 5304740,
+      "sha256": "d82ed5ec55aebc9c0578cce9e81a45458581eac3fe79968b00069720f4c4fd01"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/62 - The Flight - The Spreading Eclipse (Part 4 - Secrets Of The Earth).mp3",
+      "size": 13445542,
+      "sha256": "6cb209fa22f4b9e33934110642a3abe2680fe1cc416448a94e14de9500f070ea"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/63 - The Flight - The Demon Remade (Part 4 - Secrets Of The Earth).mp3",
+      "size": 3447196,
+      "sha256": "e7df87e7099fc741738a251a767be66f05fd0fe418fad5aa4dfdfd6af98cc51b"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/64 - Joris de Man - Force Multiplication (Part 4 - Secrets Of The Earth).mp3",
+      "size": 9605544,
+      "sha256": "a3035a3a65c8c4f540579fc1f921a6e8f3219e1ecb519484a4b7a053994959bb"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/65 - The Flight - Buried Shadow (Part 4 - Secrets Of The Earth).mp3",
+      "size": 2285974,
+      "sha256": "2d146445fb52a8bcdf8ebf3360bddf8037a766071a2fcdfb90096eef5a7b3220"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/66 - The Flight - Battle Begins (Part 4 - Secrets Of The Earth).mp3",
+      "size": 4524438,
+      "sha256": "9cb26a9427cd26ea93a0f64cda164c2087d2cb2cfab23232fcf6d15ae876a540"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/67 - The Flight - The Future By Its Throat (Part 4 - Secrets Of The Earth).mp3",
+      "size": 7741868,
+      "sha256": "3d320fa6992f8f547caf703ca65d38e22c8e982df1f5bac3df891ced9b4aaa94"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/68 - The Flight - Hold The Ridge (Part 4 - Secrets Of The Earth).mp3",
+      "size": 9349528,
+      "sha256": "0f1fa68f72c044d31640ea0d5671683e930855903fbd9a5ebcd97f867973b2fc"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/69 - The Flight - Overrun (Part 4 - Secrets Of The Earth).mp3",
+      "size": 3641738,
+      "sha256": "3215bc9b915d03323877a0429f5848a26ba932000aaea689312be6c6af87d0a8"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/70 - The Flight - Countdown To Zero (Part 4 - Secrets Of The Earth).mp3",
+      "size": 3416478,
+      "sha256": "925880d9f53eb89f06112504ccbcfb11b1d3e361dbbeec3616d7b58c322ceb6c"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/71 - The Flight - Planned Obsolescence (Part 4 - Secrets Of The Earth).mp3",
+      "size": 8180132,
+      "sha256": "da922b81e6fec7749d67ac5bc538031b95f2f3ca3880154906f08a4fad632f61"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/72 - Joris de Man - Colossal (Part 4 - Secrets Of The Earth).mp3",
+      "size": 10215824,
+      "sha256": "d7401527a323b3ab9faebd83e3f926ca3ef50baa73c47d71df65ab672fe2fdad"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/73 - The Flight - Threat Assessment (Part 4 - Secrets Of The Earth).mp3",
+      "size": 4247966,
+      "sha256": "b27d57268ef18a510b5ed6e1afd419f9d179639f9387e6eba92e0c50b2ad54e7"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/74 - The Flight - Will Against Will (feat_ Julie Elven) (Part 4 - Secrets Of The Earth).mp3",
+      "size": 7449030,
+      "sha256": "56119b4d21fddf6b7d6a48b5f6bf5e95a859d3adf2268d1da6288209e5753910"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/75 - Joris de Man - Drawn To Strife (Part 4 - Secrets Of The Earth).mp3",
+      "size": 6597022,
+      "sha256": "7f708d602e35c3ed10a1a99d49b23e424a44ba2c23e55d255af9578cbf9a7925"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/76 - The Flight - Little Ones (Part 4 - Secrets Of The Earth).mp3",
+      "size": 8716690,
+      "sha256": "0d103d099d82cfa5baebcb04907b0ed84c3c79a75ce04bc56b75f95a9e4a3c8d"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/77 - Joris de Man - Beasts Of Steel (Part 4 - Secrets Of The Earth).mp3",
+      "size": 6588830,
+      "sha256": "51aa1f385c31147f3bbae4cbbb585c6beace070cf1b0a45f2e0ee07a16712a15"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/78 - Niels van der Leest - Drums in The Sun-Ring (feat_ Circle Percussion) (Part 4 - Secrets Of The Earth).mp3",
+      "size": 14684652,
+      "sha256": "09cb686bc8ec54a192d78593436d776a7b188296b4fad8e623a157cbfcef4e9c"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/79 - The Flight - Death and Rebirth (Part 4 - Secrets Of The Earth).mp3",
+      "size": 2939294,
+      "sha256": "cdc7c313a4fceba62192eafcd749e5627bbbf30796174d007685d1bca35aa9f3"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/80 - The Flight - A Storm In The West (Part 4 - Secrets Of The Earth).mp3",
+      "size": 3156386,
+      "sha256": "d382e410105837bbc6883ae1ce9428a4ee6baac26a6b47cc660962d44812c7b3"
+    },
+    {
+      "path": "Horizon Zero Dawn OST/cover.jpg",
+      "size": 2932928,
+      "sha256": "1a04ecbac35987c16426b30268f5c37510ca0216fc2444932444160d6d3a7721"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/1. Into The Frozen Wilds.mp3",
+      "size": 3220856,
+      "sha256": "381b982477140f6d4308816fdfd5bb40b203f474abd4b0e99fc518fcc83edaed"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/10. Night Hushes Song.mp3",
+      "size": 10560885,
+      "sha256": "ef6bd4169b6b2419e4323dbe70e04f7224881fc2da7658875c6132c684dab4bd"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/11. Not Up_ Through.mp3",
+      "size": 5047665,
+      "sha256": "91a6ed7cc0f5d51fd76ec36c5097c89365f2d7d3d1d5d49b7ca0ac4955e49a6e"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/12. Threshold.mp3",
+      "size": 3411307,
+      "sha256": "078f610308f491e304992557336d620b328c6143f4ae65d849d8145c87cf35ea"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/13. CYAN.mp3",
+      "size": 6915430,
+      "sha256": "b4924e48e212ba59a9b2bb948dbea30f35ed220d81ae8794a1c04abf7207a6e2"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/14. Spirits Released.mp3",
+      "size": 7038322,
+      "sha256": "533f071eeab2cf16e9707713b82db7c45244ac9292ec9f1b75f1bd4bf4e128ca"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/15. The Light Of Her Voice.mp3",
+      "size": 4386170,
+      "sha256": "656ffa497d876a1fcc828bda29352989e1380a8df4d9b9b784f43da32af45482"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/16. Out From Thunder.mp3",
+      "size": 5713268,
+      "sha256": "0eb0378bb751a4aa159d0431e33593d21a06b8a851b63ed3057914e0879ab64a"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/17. Breathstill.mp3",
+      "size": 3345775,
+      "sha256": "e6176b54b9307fab489e0a271118f81d5d5d44cde5c27843ff1688609d187d1f"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/18. Exposure.mp3",
+      "size": 2497898,
+      "sha256": "444604a50f0a3df918ef1aa2ec338c2926c17ae44663e3ab7edb736bf3a17e13"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/19. The Delve.mp3",
+      "size": 2000237,
+      "sha256": "15ab82848ed3a41441fb8862961674d814d0554de1475616247365cfedee1546"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/2. The Fate We Long For.mp3",
+      "size": 3351927,
+      "sha256": "0741226f5b487dbc4a611d149ddcafc1d608218814d9b58660e9e74743fec25b"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/20. Not Alone.mp3",
+      "size": 3745133,
+      "sha256": "fd2d7d1a01c1fb22cf110885ab6809ef70adfcfe9353d464f17704ad2bc6dc28"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/21. On A Cold Trail.mp3",
+      "size": 10593651,
+      "sha256": "15a9ee9f27d170c651270f21b98dc1e96513bd32fe54b5c6e8f4c0135d611f0c"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/22. Running The Frost.mp3",
+      "size": 11171196,
+      "sha256": "049ae1dcc519db7bf6de1325c8cce06d09b28d857f13360a8f590cbbc149dea5"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/23. Heat Trace.mp3",
+      "size": 7202156,
+      "sha256": "8901c30dd991e96dedb33b7a3220f3c0f34fc61627acde6cbeb9c03027561d04"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/3. To Be Banuk.mp3",
+      "size": 5746030,
+      "sha256": "b05d4c3837c7784c589e56b904f4b0ab2e9c123cedd3b8b99a1cf8a17f76ea64"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/4. White Falls.mp3",
+      "size": 9895278,
+      "sha256": "71cd7b6bfc231443565478ac8dc2d01b3adbeb53935b62ae22ba11e429efa2e0"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/5. A New Hunter.mp3",
+      "size": 1791341,
+      "sha256": "3efa27cd1d169ca276cb48917b9110ba4a8d6be094b0536672655f3fa8d729ff"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/6. For The Werak.mp3",
+      "size": 4240752,
+      "sha256": "274ee9f696bbf56cd6cf1ae4b9229db6fae1312aa6d8d435d74ea0beb9523be1"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/7. Shadow On The Snow.mp3",
+      "size": 4959605,
+      "sha256": "e28e1f00fc78fd167ba9e2b6a064c673739abf814e0d28c5483daaa878611576"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/8. The Frostclaws.mp3",
+      "size": 2067823,
+      "sha256": "bd4174c38b635d68ac06c624169f8040dd8d756d9b5ff84a046bb298b6e84183"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/9. Survive_ Prevail.mp3",
+      "size": 6229363,
+      "sha256": "d9646057df8f22b8bf8126771a0bd73b698f5866e164a7e38784e74182a44968"
+    },
+    {
+      "path": "Horizon Zero Dawn The Frozen Wilds OST/cover.jpg",
+      "size": 361683,
+      "sha256": "8c54e828fc3a8eaccb55f9a58bad713fcce7d33758d2021c1d3b71411f078880"
+    },
+    {
+      "path": "HorizonZeroDawn.exe",
+      "size": 46938624,
+      "sha256": "706ba0c319fcc62f9221d310d1a4fd178214ecc0f9030a62029ff70cf15522d1"
+    },
+    {
+      "path": "LocalCacheDX12/fullgame.dll",
+      "size": 162268160,
+      "sha256": "ed2f2ab56dd057565f3e1bd692f2a76dafa2b08a8965d464e91dd77f29e84edb"
+    },
+    {
+      "path": "LocalCacheDX12/HashDB.bin",
+      "size": 11203958,
+      "sha256": "ad3c6f907059d7d68e056cb5ea88f43eafbb7487472893b5cc15ef814814cb48"
+    },
+    {
+      "path": "LocalCacheDX12/ShaderLocationDB.bin",
+      "size": 1538044,
+      "sha256": "2e22900c9f5d79817958d24806f1a706f08ec8ced3d062b1db9253ebd519c85f"
+    },
+    {
+      "path": "LocalCacheDX12/UserHashDB.bin",
+      "size": 260,
+      "sha256": "a79d28cfca3a5c0ef1119e51a198a55ae8ca8dd2d5933eb79df3175256b77c16"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC1_BetterLooting.bk2",
+      "size": 8212676,
+      "sha256": "28a9481de030dccefbd3da55f269a7b8da07eb11627ecfc2c53c458911212418"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC1_BetterPacking.bk2",
+      "size": 4044304,
+      "sha256": "78e99ecdea7205481dd8981e04dfa09bd1c4a851027a46d248e4dc30f3894258"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC1_ItemDeconstruction.bk2",
+      "size": 5391800,
+      "sha256": "4f960ed66cc4bdbba16a1a7ddfb6d955459082df8208a2920a2b7db8ce899b9e"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC1_MountedPickup.bk2",
+      "size": 9000864,
+      "sha256": "504240969cb6966b85921e049862db738d3ec4a8ec2005d760f811af3963580e"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC1_MountedStrikeFromAbove.bk2",
+      "size": 10680648,
+      "sha256": "02fae83f4753d5c4afbd34bfdb83e16ac4a7e884ce0f7377390efb2191286675"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC1_RepairAllRobots.bk2",
+      "size": 6351404,
+      "sha256": "8ef331c8906f80e4f97d47d3065039dcb55361d4a56acfd7037566435c001768"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC1_RepairMount.bk2",
+      "size": 7518060,
+      "sha256": "68d09e117e8545bfe71f2d8e56bc1b0b6aca94e1e85e41e7b3ce3aa7fc8444ad"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC1_RepairMountPlus.bk2",
+      "size": 8865816,
+      "sha256": "b6658ebc5a92d99419bb5cc631c260d76d7a2db1b09fc7a5d2f2e19691998753"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC_BanukHB_01.bk2",
+      "size": 8191912,
+      "sha256": "b94e3a89c120de25b4a09f4c69b7cdd5cdeddb0ceec2659c1b3c7d05744a4efd"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC_BanukSB_01.bk2",
+      "size": 5677512,
+      "sha256": "91e24bb2b390548d46cf727b8d14a7eff5d15a20611486262d5770308d8e2fa7"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC_BanukWB_01.bk2",
+      "size": 7518100,
+      "sha256": "09f01ff816772ad7d0662e82a0cc842a945b8fd26069b4b5872862a69edd586c"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC_Forgefire_01.bk2",
+      "size": 6247960,
+      "sha256": "043489f984fd2fb6df53fc9f233f8c2f01fd1d148e938bd5898497a82f28f536"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC_Forgefire_02.bk2",
+      "size": 7958420,
+      "sha256": "e8293996c28f5c91f5912a9f3bd66fdfa27d3fea8cbfbfa645395f5f8deef0a4"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC_Icethrower_01.bk2",
+      "size": 9331272,
+      "sha256": "e430192e1c7c349e53b0ecbeb8ecfeb60a89f5cab515b049960dda24b94ed6ba"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC_Icethrower_02.bk2",
+      "size": 9083944,
+      "sha256": "a97188d530e961845e1c29aa19cc5b6a9e4c51648cf72ee561b4dabda6512afb"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC_Stormslinger_01.bk2",
+      "size": 7232472,
+      "sha256": "cdadeb001225b11eab590ec3d89177fcac2645043e19a42933b1b19b1f549a6b"
+    },
+    {
+      "path": "Movies/DLC1/Mono/DLC_Stormslinger_02.bk2",
+      "size": 6532876,
+      "sha256": "e8e82f7c97e97f62400e969946561c21efccb2f9bb964cab14765d438aa380e9"
+    },
+    {
+      "path": "Movies/Mono/Ammo_Crafter_Final.bk2",
+      "size": 3100796,
+      "sha256": "ea3d9f31b8a501c365ad9855631d29b27fe9b9faa3ba8df80e48787edce71c54"
+    },
+    {
+      "path": "Movies/Mono/Balanced_Aim_Final.bk2",
+      "size": 4080604,
+      "sha256": "2452672403f0e9b6209cc5691c0fa10dd1d6b1e56d8e738880133e990ddf03df"
+    },
+    {
+      "path": "Movies/Mono/BlastBomb_Final.bk2",
+      "size": 6360904,
+      "sha256": "3b33bd2551ca62905f4962370fcee6210e83309cd20a7b5c9b9ea4554fe2f76f"
+    },
+    {
+      "path": "Movies/Mono/Blastwire_Final.bk2",
+      "size": 12222532,
+      "sha256": "e4666614e961b01ee8cd433c17f1e9516e5a2ac9373102b253d979c74ddc78bd"
+    },
+    {
+      "path": "Movies/Mono/Bolts_Final.bk2",
+      "size": 3942324,
+      "sha256": "6e54bfda080edd26c9fbabd9a669430a6f61637a42c4775c4b70b8eb8b05e83b"
+    },
+    {
+      "path": "Movies/Mono/Call_Mount_Final.bk2",
+      "size": 6840752,
+      "sha256": "68f6a2c9e3eed69004047ac33dd367881d918de45b5d1c079d4cbec52dd4667a"
+    },
+    {
+      "path": "Movies/Mono/Combat_Override_Final.bk2",
+      "size": 4201516,
+      "sha256": "533374461a361999bf6a38302769222f0cb00c7997811635dce4a528ffe058b1"
+    },
+    {
+      "path": "Movies/Mono/Concentration_Final.bk2",
+      "size": 3780724,
+      "sha256": "e384cd010bbc35b83d273f23fb88e7a7feedb40e2d297a68d78110a4e556cf27"
+    },
+    {
+      "path": "Movies/Mono/CorruptionArrow_Final.bk2",
+      "size": 10101488,
+      "sha256": "bb400e370aaabde50a414417f743b4327c5898609b4fecd5944bba3f8c5568ef"
+    },
+    {
+      "path": "Movies/Mono/CriticalHit_Final.bk2",
+      "size": 3699288,
+      "sha256": "3b53e410228d5c37ea38e5d5e3754eeaadaeebcf70c3a52fd3d37292d7195641"
+    },
+    {
+      "path": "Movies/Mono/CriticalHit_Plus_Final.bk2",
+      "size": 3544764,
+      "sha256": "88ce879c8c6f78c86bbd2097fd193302e142df55a140654d94544f3fc37bc8b8"
+    },
+    {
+      "path": "Movies/Mono/DisarmTraps_Final.bk2",
+      "size": 2319676,
+      "sha256": "bd68932a441284425faeaa0f5858bce074e7529d069611ff4392f103b32bea3a"
+    },
+    {
+      "path": "Movies/Mono/distraction_rock.bk2",
+      "size": 1993876,
+      "sha256": "b4ad5971c7b68fc9f2b6e39849f14747819b028d00b93fc339b86a1477786383"
+    },
+    {
+      "path": "Movies/Mono/DodgeProwess_Final.bk2",
+      "size": 4679272,
+      "sha256": "1c42ac9e4689baa7e87fcfc62d764b40a3d2164f217b79198d39fae9cb3f5c5f"
+    },
+    {
+      "path": "Movies/Mono/DoubleShot_Final.bk2",
+      "size": 3800948,
+      "sha256": "00e88d70f2a3c59d938124c7d6af9c2bf3220ca3e5453500655e1449d7e0624e"
+    },
+    {
+      "path": "Movies/Mono/Fast_Reload_Final.bk2",
+      "size": 5400220,
+      "sha256": "a1046f877a2f65e87472c05646c4693f26ba66e6cdf0236be8ab84c924d34479"
+    },
+    {
+      "path": "Movies/Mono/Fighting_Back_Final.bk2",
+      "size": 6859488,
+      "sha256": "5d7bd7b2169d4bf41b1e3e7ccae3349489a02783df3849f9eb3de5a1a89ff628"
+    },
+    {
+      "path": "Movies/Mono/FireArrow_Final.bk2",
+      "size": 11161948,
+      "sha256": "8e1051eaa71029fc9b8f5de7d034e56ff7c26f5f6d90229f65ca08b293565512"
+    },
+    {
+      "path": "Movies/Mono/FireBomb_Final.bk2",
+      "size": 5181536,
+      "sha256": "997d56675f85824322ee2e0ab6a47e382ff4bc92eba2e1e41dfbe7e107d060cf"
+    },
+    {
+      "path": "Movies/Mono/FireWire_Final.bk2",
+      "size": 10082888,
+      "sha256": "25126fe929d0c0b41f1d0da04fea80da076f118b4e722b2cf838f2004be71761"
+    },
+    {
+      "path": "Movies/Mono/FreezeArrow_Final.bk2",
+      "size": 9404040,
+      "sha256": "59a363446ec822ed09817d78f9449bc9a6717e651f983fe819c4e396f27c03cf"
+    },
+    {
+      "path": "Movies/Mono/FreezeBolts_Final.bk2",
+      "size": 5581704,
+      "sha256": "c768341d229928d4bcce74c53a7497a05438e01cdba264c959d5e213f719f22b"
+    },
+    {
+      "path": "Movies/Mono/FreezeBomb_Final.bk2",
+      "size": 6021416,
+      "sha256": "9f3187cd217c20bf71423150137957631cdf13b041a0c4d62257068d7b79fc1e"
+    },
+    {
+      "path": "Movies/Mono/Gatherer_Final.bk2",
+      "size": 4979312,
+      "sha256": "c0f6d628428ff5e7b21f1ce9a8e64502b36810957bc33ecceab9ca9ab73da3bb"
+    },
+    {
+      "path": "Movies/Mono/HardpointArrow_Final.bk2",
+      "size": 2859744,
+      "sha256": "ed283f0862808fe55d161c9e690069fa2e3a208495aefad9079ecd26520d858f"
+    },
+    {
+      "path": "Movies/Mono/Harvest_Arrow_Final.bk2",
+      "size": 7520688,
+      "sha256": "7e3356108768066494c7d5ab05ab2214941b8f4fc5f2be7c983f8222c1d78e29"
+    },
+    {
+      "path": "Movies/Mono/Healer_Final.bk2",
+      "size": 3021672,
+      "sha256": "4e59220de06ce9f872eed9812263edaf191fc65b1671416c29f7201ae1447ff9"
+    },
+    {
+      "path": "Movies/Mono/HeavyLifter_Final.bk2",
+      "size": 7580452,
+      "sha256": "a2118decfc306ed2ec70d0ff3ae3e62ed70b02d71d09cb8a44f8ca40df8455d5"
+    },
+    {
+      "path": "Movies/Mono/Herbalist_Final_Mask.bk2",
+      "size": 2520176,
+      "sha256": "769ed48252c4ad7dc2cde590b41021be948f46df2e064699ff15b502f999c44a"
+    },
+    {
+      "path": "Movies/Mono/Hunter_Reflexes_Final.bk2",
+      "size": 7020628,
+      "sha256": "c0d7fe1f92e7f569cccb3130c80d52b42ccb6eda655a14b5d2240faf0b3c81b1"
+    },
+    {
+      "path": "Movies/Mono/Knock_Down_Final.bk2",
+      "size": 3260496,
+      "sha256": "95fb2e21d5b72be72aee147e28f57c1b6640307819e92b9d67fd3dfd7c287ee7"
+    },
+    {
+      "path": "Movies/Mono/LeaderStrike_Final.bk2",
+      "size": 4120920,
+      "sha256": "5fa899d1f06181b14812fee0adbdec432df91f10899fd9f66731d90b9163084d"
+    },
+    {
+      "path": "Movies/Mono/Logo.bk2",
+      "size": 3853812,
+      "sha256": "44f893dcf51fd4386e0f1d0ed743d23485d349e49b18b8ac2308d9ba863b6d64"
+    },
+    {
+      "path": "Movies/Mono/Low Profile_Final.bk2",
+      "size": 3200968,
+      "sha256": "91e77dc8a979543a7ff1b15b4693a57f2d2cdd1886f876eb5b33a047c9b6d8a8"
+    },
+    {
+      "path": "Movies/Mono/Lure Call_Final.bk2",
+      "size": 7760364,
+      "sha256": "e5b78237a232f7278c6df689584090a0eef2789dc4786ff23143d5e9840f1e19"
+    },
+    {
+      "path": "Movies/Mono/mq02_prepare.bk2",
+      "size": 239818792,
+      "sha256": "f3cce91e5d65798e0bfed2e231aba990a674a169324d292904116fa675aead00"
+    },
+    {
+      "path": "Movies/Mono/MQ030_YearsOfTraining.bk2",
+      "size": 709310912,
+      "sha256": "6c836abb1bc619d324360be13d352851d8e61a33a74516cdcc9e08d9acdfff0f"
+    },
+    {
+      "path": "Movies/Mono/MQ050_ProvingCllimb.bk2",
+      "size": 393666108,
+      "sha256": "b2720fd0d37130e6e49e308b22a121275ee483f35cf25e4fe4414ec069c98ae0"
+    },
+    {
+      "path": "Movies/Mono/MQ06_07_DeathAndRebirth.bk2",
+      "size": 558077320,
+      "sha256": "59cc92b2c92d707a3f30fae6a8495f3def6a662516421a4271fe28f23bc46d7a"
+    },
+    {
+      "path": "Movies/Mono/MQ12_TheBadNews.bk2",
+      "size": 856648004,
+      "sha256": "8615557363b2ffa3805e8bbb73388ac018b6f43384d14a7eccc0e96e898c07a5"
+    },
+    {
+      "path": "Movies/Mono/MQ12_TheGoodNews.bk2",
+      "size": 1175731180,
+      "sha256": "74b0dc2894bd96c75512bd959a6374720fd292020fc8f2cd7b42668986c88dd8"
+    },
+    {
+      "path": "Movies/Mono/MQ160_Transmission_Part2.bk2",
+      "size": 399690968,
+      "sha256": "e7962651cda506ef3518bd85fc81fbad42b8aca138638192f2aa217d9ccadaef"
+    },
+    {
+      "path": "Movies/Mono/MQ16_Epilogue1.bk2",
+      "size": 847636800,
+      "sha256": "7bff1ac142317529213c88e509ab51fb61299baf7bc1e2a42ef85225ff7bd491"
+    },
+    {
+      "path": "Movies/Mono/MQ16_Epilogue2.bk2",
+      "size": 370046592,
+      "sha256": "957805b0f8673405663edc9a2eadb45e972d53b3b7c43fa91437fa659cc824ce"
+    },
+    {
+      "path": "Movies/Mono/MQ16_Victory.bk2",
+      "size": 887851004,
+      "sha256": "4fbe6649f1dbc56d060468828ebc14ee4374228abaf4c21c939477eec99ef5dd"
+    },
+    {
+      "path": "Movies/Mono/MQ1_Intro_at_the_Hovel.bk2",
+      "size": 1814240716,
+      "sha256": "a4a718a56db3e4498e7a0ceb728172788fcbf370dda9fb44c7b3c990274a3a5d"
+    },
+    {
+      "path": "Movies/Mono/Precision_precisionplus_Final.bk2",
+      "size": 2241020,
+      "sha256": "fcfea49682f4241f183392bb831d8e2f0edbdd6c797b4e43db5f010d7088218a"
+    },
+    {
+      "path": "Movies/Mono/PrecisionArrow_Final.bk2",
+      "size": 4282000,
+      "sha256": "777146f7a44432e883906e7b297311688220e3db66907dda2928ec977123a946"
+    },
+    {
+      "path": "Movies/Mono/ProximityBomb_Final.bk2",
+      "size": 10942080,
+      "sha256": "a923acdc8232921c0ce69aceef0cab52a63e344f7348914f81c74df21ff3774c"
+    },
+    {
+      "path": "Movies/Mono/Quiet_Sprint_Final.bk2",
+      "size": 4242756,
+      "sha256": "23074e6f10f285df09047e2e4d4be9b4d362b08c100174cf38095096937cf3be"
+    },
+    {
+      "path": "Movies/Mono/Scavenger_Final.bk2",
+      "size": 6221012,
+      "sha256": "af40f2a95c47446bb0db7f88f770dc8b82b0e5c085b69c778c93c803145e18b5"
+    },
+    {
+      "path": "Movies/Mono/ShockArrow_Final.bk2",
+      "size": 11882224,
+      "sha256": "d50f26ddaf861330c59bfdc99b0ca9d4460aebaefcccf365fd030aafc92282c1"
+    },
+    {
+      "path": "Movies/Mono/ShockBolts_Final.bk2",
+      "size": 8421540,
+      "sha256": "195c702f9c570ba47d6efc444b55726f39cde3be703191ac7b29b03d835f8577"
+    },
+    {
+      "path": "Movies/Mono/ShockBomb_Final.bk2",
+      "size": 5803068,
+      "sha256": "7ae301aa69d73de7ee515f4ee5817ee532a1240503c0e8d805b1e59b504f8041"
+    },
+    {
+      "path": "Movies/Mono/ShockWire_Final.bk2",
+      "size": 12322264,
+      "sha256": "534aaa6bb65cd5f3f654403ae7d476046d526bcc519e38fec4872f9c92fdc7c5"
+    },
+    {
+      "path": "Movies/Mono/Silent_Drop_Final.bk2",
+      "size": 2821496,
+      "sha256": "28854fb57b6f51cce3cd2dcdd1c583c97def87094413ce44bb4d26f2ae662c1f"
+    },
+    {
+      "path": "Movies/Mono/Silent_Strike_Final.bk2",
+      "size": 5382620,
+      "sha256": "43e8182b637e5154d09b734e49bd4cd875a3ad809ae1f7bd696371ce9a539217"
+    },
+    {
+      "path": "Movies/Mono/StickyBomb_Final.bk2",
+      "size": 10503304,
+      "sha256": "02e65297b8c8964e0659d03773aea8c855077d7f5f195e3f1f9784c85cb1cd85"
+    },
+    {
+      "path": "Movies/Mono/Strike_From_Above_Final.bk2",
+      "size": 7121320,
+      "sha256": "e1166f970936a8424c12d196dd555d680491bdcde928164be420a50a2343e63b"
+    },
+    {
+      "path": "Movies/Mono/Strikefrombelow_Final.bk2",
+      "size": 5059640,
+      "sha256": "0292d409303955078d85a29a2cc281fbd2b3350959fe812325c688b0b9108acb"
+    },
+    {
+      "path": "Movies/Mono/Strong_Strike_Final.bk2",
+      "size": 3780452,
+      "sha256": "5f2662a6519b0044b898889d5cdb9a65861fd4e961017ecb2a4e4d6dd9a1fc2e"
+    },
+    {
+      "path": "Movies/Mono/TearblastArrow_Final.bk2",
+      "size": 5962364,
+      "sha256": "8f3a9b0e36fa0b7d1bd1998fd03fb35eca174821eee274ba387391743282fd23"
+    },
+    {
+      "path": "Movies/Mono/TieRopeLarge_Final.bk2",
+      "size": 9463200,
+      "sha256": "3fd543fe5ffd2c392dc5388d422861981da0f2aec884192f2ea1d9ede6adc965"
+    },
+    {
+      "path": "Movies/Mono/TieRopeMedium_Final.bk2",
+      "size": 9262572,
+      "sha256": "abfb3e48a9d176e9053c59f11e494a4f5faba8cdf4ce747380c0379448fcb4ec"
+    },
+    {
+      "path": "Movies/Mono/TieRopeSmall_Final.bk2",
+      "size": 6321800,
+      "sha256": "260cef6516af1dc1c869960c3a8dea49c66a41cb8a034bb9730bb3204ba2ee5c"
+    },
+    {
+      "path": "Movies/Mono/Tinker_Final.bk2",
+      "size": 4220132,
+      "sha256": "f6facca23f53dee705254711fbc40d9a42002cb1ee94addc68b818dff3f29907"
+    },
+    {
+      "path": "Movies/Mono/TripleShot_Final.bk2",
+      "size": 3522164,
+      "sha256": "14a098721455fc97eae65db5da99c7c81d6832e1587a2a1dd068d30844a6b135"
+    },
+    {
+      "path": "NoDVD/Epic Store (CODEX)/CODEX64.dll",
+      "size": 670208,
+      "sha256": "f231bbe436aef9066f3f69128489ff4ee3e04683ba4065dfbcdcbde51bf8d054"
+    },
+    {
+      "path": "NoDVD/Epic Store (CODEX)/EOSSDK-Win64-Shipping.dll",
+      "size": 12847872,
+      "sha256": "708fbc5e731af6f1508fbd1ca878ee0bd28c347aec575fe4cf3704a61d0870d7"
+    },
+    {
+      "path": "NoDVD/Epic Store (CODEX)/epic_emu.ini",
+      "size": 1286,
+      "sha256": "32dcc5aca6f2e2359d22bf20d99efda7295e2afbfe768045ff6495382f838b24"
+    },
+    {
+      "path": "NoDVD/Epic Store (CODEX)/HorizonZeroDawn.exe",
+      "size": 46941696,
+      "sha256": "6d4f3d04ee6eee5b41c66a30600e3028d5342557dd848ba06ae75f950fbe9ca7"
+    },
+    {
+      "path": "NoDVD/Epic Store (Nemertingas)/EOSSDK-Win64-Shipping.dll",
+      "size": 12847872,
+      "sha256": "708fbc5e731af6f1508fbd1ca878ee0bd28c347aec575fe4cf3704a61d0870d7"
+    },
+    {
+      "path": "NoDVD/Epic Store (Nemertingas)/HorizonZeroDawn.exe",
+      "size": 46937088,
+      "sha256": "4adb283f944b3b5680b52f4b3327647c05accae6eddc9bef1f2fb19207e4784a"
+    },
+    {
+      "path": "NoDVD/Epic Store (Nemertingas)/RUN GAME.bat",
+      "size": 66,
+      "sha256": "afcde1fc6153ba122d8c60f8e8a4b17ed01492d96d111537de1263a3dbc2a72f"
+    },
+    {
+      "path": "NoDVD/GOG/Galaxy64.dll",
+      "size": 15274496,
+      "sha256": "cdc1dd81e6287b169b0921c5011add80bcd5512d0b9e5f977e178ef16d0d924a"
+    },
+    {
+      "path": "NoDVD/GOG/goggame-1209025141.info",
+      "size": 670,
+      "sha256": "23f1bd795fa8ccc019b11f8eb4fa6a346ae4f8afbde718ea09929c6975930c6d"
+    },
+    {
+      "path": "NoDVD/GOG/HorizonZeroDawn.exe",
+      "size": 46938624,
+      "sha256": "706ba0c319fcc62f9221d310d1a4fd178214ecc0f9030a62029ff70cf15522d1"
+    },
+    {
+      "path": "NoDVD/Steam (Goldberg)/HorizonZeroDawn.exe",
+      "size": 46959616,
+      "sha256": "866c131c0bbe6e60dbf4332618bbc2109e60f6620106cff925d7a5399220aeca"
+    },
+    {
+      "path": "NoDVD/Steam (Goldberg)/steam_api64.dll",
+      "size": 2762240,
+      "sha256": "e992d09bae52a4e4aa5261966bd6aafab205f1205b2507809465d77ee387a573"
+    },
+    {
+      "path": "NoDVD/Steam (Goldberg)/steam_settings/achievements.json",
+      "size": 20510,
+      "sha256": "32dce10cb28fad63371575cd45f835fc53395d2c781667a600ea0aca82b7cedc"
+    },
+    {
+      "path": "NoDVD/Steam (Goldberg)/steam_settings/controller/gamepadsetting.txt",
+      "size": 376,
+      "sha256": "40afe5289733048880830a7922898916e5e9a3f73021a6a167afcacfadfacdf3"
+    },
+    {
+      "path": "NoDVD/Steam (Goldberg)/steam_settings/disable_networking.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "NoDVD/Steam (Goldberg)/steam_settings/disable_overlay.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "NoDVD/Steam (Goldberg)/steam_settings/steam_appid.txt",
+      "size": 7,
+      "sha256": "3c153b6caa6c8768900ce1aa56a4312f97510a45bcee54d4d1bef597d0902cdf"
+    },
+    {
+      "path": "nvngx_dlss.dll",
+      "size": 14467280,
+      "sha256": "aa8f8ce1a4b18bed1a2b139bbf1ddfab5fce3d5777703de0f4de37e09634c84f"
+    },
+    {
+      "path": "oo2core_3_win64.dll",
+      "size": 879104,
+      "sha256": "205e34a75c796ded46127d472a80adb0eb848ead6184e5eba71c8e37906046e5"
+    },
+    {
+      "path": "Packed_DX12/DLC1.bin",
+      "size": 7192497204,
+      "sha256": "06d86788fd6468d3dc125c442bc9dbec638ea54897f8775e0e131ac52709ae27"
+    },
+    {
+      "path": "Packed_DX12/DLC1_English.bin",
+      "size": 227948395,
+      "sha256": "d2ac86309ef96a185cf5819f0533e58a84416113101239f9a92f53b1b9ebd954"
+    },
+    {
+      "path": "Packed_DX12/DLC1_French.bin",
+      "size": 194162948,
+      "sha256": "cf1210cac98e932f0927d670cdda84240a9b136ed92c3a50c2a751afe72a77d7"
+    },
+    {
+      "path": "Packed_DX12/DLC1_German.bin",
+      "size": 223325564,
+      "sha256": "fef23c0a8e927ddfb863325b2fa94b238764bd5fa3a8cd12604a9bb055728a33"
+    },
+    {
+      "path": "Packed_DX12/DLC1_Italian.bin",
+      "size": 211892809,
+      "sha256": "500ee931ecf3694f0a3e5d0b81d7d9605cb135bd886866474f78df1a61f2d8a6"
+    },
+    {
+      "path": "Packed_DX12/FGRWin32.bin",
+      "size": 18039994,
+      "sha256": "daec4b407b302470c58512a92bec202bc93bb969fff43a8cd35ff7b160c49b86"
+    },
+    {
+      "path": "Packed_DX12/Initial.bin",
+      "size": 17032866843,
+      "sha256": "6f9f41ddeaafa1a3dec9515680f3fbc82ee7715dacb7956b9410c5ed14d10d03"
+    },
+    {
+      "path": "Packed_DX12/Initial_English.bin",
+      "size": 663571639,
+      "sha256": "639d40a93addc221895fffef51b5d0ed0a1da5f3295bdd5e2b8749ba28c2a44a"
+    },
+    {
+      "path": "Packed_DX12/Initial_French.bin",
+      "size": 576940341,
+      "sha256": "a682bb03b87e46f817752c4b1822f930d45da96d80167c2a8b5752462439e9b3"
+    },
+    {
+      "path": "Packed_DX12/Initial_German.bin",
+      "size": 664823941,
+      "sha256": "1b29d9b7849b60fb16765f3d8782804ef80dad158ea2db058681517e98981c21"
+    },
+    {
+      "path": "Packed_DX12/Initial_Italian.bin",
+      "size": 624520942,
+      "sha256": "e3af1c0d3ee229a8e033541b10f3e4cb86cdda2f73bd829cc7b858262ebfdcba"
+    },
+    {
+      "path": "Packed_DX12/Patch.bin",
+      "size": 5434479154,
+      "sha256": "d08e4d02e613ca78fefeec5b05d762eee735b21c51fe4a5a115ff194417ca416"
+    },
+    {
+      "path": "Packed_DX12/Remainder.bin",
+      "size": 21657324425,
+      "sha256": "eb28e2fe0103c094092374642c625e511c1a5ffac5c89ecb6a7681d57c945619"
+    },
+    {
+      "path": "Packed_DX12/Remainder_English.bin",
+      "size": 755008443,
+      "sha256": "7fe42a3b1eb0d4ae453162d09f5525cfe62cb24948e7aed5af187abdcad17a64"
+    },
+    {
+      "path": "Packed_DX12/Remainder_French.bin",
+      "size": 694934122,
+      "sha256": "9fc0cc514de9deb33ad3d40dc261988325173e352d2990495a87d39a0f3336e1"
+    },
+    {
+      "path": "Packed_DX12/Remainder_German.bin",
+      "size": 771204371,
+      "sha256": "52ce97a4447a1ff757f024c9be5bf51882acee71c6ac9a971776fcc8c76d263a"
+    },
+    {
+      "path": "Packed_DX12/Remainder_Italian.bin",
+      "size": 743843592,
+      "sha256": "5125fe353801dd7ee1d0e23d84585f99d6d6d732a2642b46c48833b365387b4b"
+    },
+    {
+      "path": "Packed_DX12/Remainder_Swedish.bin",
+      "size": 217,
+      "sha256": "9eb37c12ee4ef98a1618fdb3f20365adb4ac00be59ab914744626d9fe1c19b9b"
+    },
+    {
+      "path": "Switch to Epic Store CODEX.bat",
+      "size": 478,
+      "sha256": "6fdae069e4100800067b79a567e478095c34149cc5c50201dd0994fb5ebd8e5b"
+    },
+    {
+      "path": "Switch to Epic Store NEMERTINGAS.bat",
+      "size": 441,
+      "sha256": "57671e5532d82085c69e57a73a53c4bac926396629ee5b5433d61a53e45d4f02"
+    },
+    {
+      "path": "Switch to GOG Version.bat",
+      "size": 370,
+      "sha256": "908e4bba9d80ba8255c1edee398357fc8b133cb9cfd5d627023581b5a1fbcddd"
+    },
+    {
+      "path": "Switch to Steam Version.bat",
+      "size": 522,
+      "sha256": "82af0780f7772fc3063940d417c0cc6b23eed3a045e83b346a88f6468027b672"
+    },
+    {
+      "path": "Tools/bin/bink2w64.dll",
+      "size": 375296,
+      "sha256": "1da6e673b8c356ab0cb923a02c61d3eb417464c17047f3cb9ede2831abd8b0d2"
+    },
+    {
+      "path": "Tools/bin/WinPixEventRuntime.dll",
+      "size": 33360,
+      "sha256": "23ef5b23f1cf6f1b7132542c4063b5e9da532572634afa41f27139bbf02468fc"
+    },
+    {
+      "path": "Tools/bin/x64/crashpad_handler.exe",
+      "size": 800256,
+      "sha256": "e1eb08309dd8fb388431304f351b5a41c8740d6542b6390807fdaf43d5edf941"
+    },
+    {
+      "path": "Tools/ShaderCompiler/PC/1.0.2595/x64/dxcompiler.dll",
+      "size": 18915840,
+      "sha256": "b5eb861fc371ca8fd6c343055193353d2133a61423531c4986a42ba95dc1bbca"
+    },
+    {
+      "path": "Tools/ShaderCompiler/PC/10.0.18362.0/x64/d3dcompiler_47.dll",
+      "size": 4481984,
+      "sha256": "4e3b814dd01cfb8657c35bd122c6e79867b044b1cb56d989a577d28c38b3e251"
+    },
+    {
+      "path": "vcruntime140_1.dll",
+      "size": 44320,
+      "sha256": "8c9bc7e02827382fa654215c7b77a94db404f2c243528052a53b600c6e4dfa3b"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/openvr_api.dll",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 818904
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealConfig.bat",
+          "file_offset": 0,
+          "chunk_offset": 50038680,
+          "length": 7851
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/CP2077/S0.dxbc",
+          "file_offset": 0,
+          "chunk_offset": 50046531,
+          "length": 9255
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/CP2077/S1.dxbc",
+          "file_offset": 0,
+          "chunk_offset": 50055786,
+          "length": 9923
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/CP2077/settings/option.replace",
+          "file_offset": 0,
+          "chunk_offset": 50065709,
+          "length": 1368
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/dbghelp.dll",
+          "file_offset": 0,
+          "chunk_offset": 50067077,
+          "length": 1866240
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/DSR/BackupSaves.bat",
+          "file_offset": 0,
+          "chunk_offset": 51933317,
+          "length": 1087
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/DSR/Settings/DarkSouls.ini",
+          "file_offset": 0,
+          "chunk_offset": 51934404,
+          "length": 331
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/ELDEN/BackupSaves.bat",
+          "file_offset": 0,
+          "chunk_offset": 51934735,
+          "length": 1024
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/ELDEN/Settings/GraphicsConfig_1ultra.xml",
+          "file_offset": 0,
+          "chunk_offset": 51935759,
+          "length": 2388
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/ELDEN/Settings/GraphicsConfig_2high.xml",
+          "file_offset": 0,
+          "chunk_offset": 51938147,
+          "length": 2408
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/ELDEN/Settings/GraphicsConfig_3medium.xml",
+          "file_offset": 0,
+          "chunk_offset": 51940555,
+          "length": 2430
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/ELDEN/Settings/GraphicsConfig_4low.xml",
+          "file_offset": 0,
+          "chunk_offset": 51942985,
+          "length": 2410
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/ELDEN/start_protected_game.exe",
+          "file_offset": 0,
+          "chunk_offset": 51945395,
+          "length": 240640
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/elevate.exe",
+          "file_offset": 0,
+          "chunk_offset": 52186035,
+          "length": 6144
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/HZD/settings/graphicsconfig.ini",
+          "file_offset": 0,
+          "chunk_offset": 52192179,
+          "length": 1606
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/RealFluid.exe",
+          "file_offset": 0,
+          "chunk_offset": 52193785,
+          "length": 18432
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/RealVR.ini",
+          "file_offset": 0,
+          "chunk_offset": 52212217,
+          "length": 7
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/RealVR64.dll",
+          "file_offset": 0,
+          "chunk_offset": 52212224,
+          "length": 5243904
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/ReplaceJSON.exe",
+          "file_offset": 0,
+          "chunk_offset": 57456128,
+          "length": 13312
+        },
+        {
+          "file": "_REAL_mod_by_LukeRoss/RealRepo/xrsetruntime.exe",
+          "file_offset": 0,
+          "chunk_offset": 57469440,
+          "length": 16896
+        },
+        {
+          "file": "amd_ags_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 57486336,
+          "length": 166400
+        },
+        {
+          "file": "coredumps/settings.dat",
+          "file_offset": 0,
+          "chunk_offset": 57652736,
+          "length": 40
+        },
+        {
+          "file": "Digital Art Book/HZD_DigitalArtBook.pdf",
+          "file_offset": 0,
+          "chunk_offset": 57652776,
+          "length": 46613995
+        },
+        {
+          "file": "Galaxy64.dll",
+          "file_offset": 0,
+          "chunk_offset": 104266771,
+          "length": 15274496
+        },
+        {
+          "file": "goggame-1209025141.info",
+          "file_offset": 0,
+          "chunk_offset": 119541267,
+          "length": 670
+        },
+        {
+          "file": "Horizon Zero Dawn OST/01 - Joris de Man - Prologue (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 119541937,
+          "length": 13183395
+        },
+        {
+          "file": "Horizon Zero Dawn OST/02 - Joris de Man - Aloy's Theme (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 132725332,
+          "length": 6052267
+        },
+        {
+          "file": "Horizon Zero Dawn OST/03 - Joris de Man - Motherless (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 138777599,
+          "length": 4045223
+        },
+        {
+          "file": "Horizon Zero Dawn OST/04 - Joris de Man - Vanished Voices (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 142822822,
+          "length": 3410353
+        },
+        {
+          "file": "Horizon Zero Dawn OST/05 - Joris de Man - Seal Your Lips (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 146233175,
+          "length": 3678599
+        },
+        {
+          "file": "Horizon Zero Dawn OST/06 - Joris de Man - The Welcome Of Stones (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 149911774,
+          "length": 3250581
+        },
+        {
+          "file": "Horizon Zero Dawn OST/07 - Joris de Man - Tell Me (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 153162355,
+          "length": 5058977
+        },
+        {
+          "file": "Horizon Zero Dawn OST/08 - Joris de Man - The Point Of The Spear (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 158221332,
+          "length": 4180375
+        },
+        {
+          "file": "Horizon Zero Dawn OST/09 - The Flight - Years Of Training (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 162401707,
+          "length": 5718409
+        },
+        {
+          "file": "Horizon Zero Dawn OST/10 - The Flight - The Blessing (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 168120116,
+          "length": 4542848
+        },
+        {
+          "file": "Horizon Zero Dawn OST/11 - Joris de Man - The Proving (feat_ Julie Elven & Circle Percussion) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 172662964,
+          "length": 4137426
+        },
+        {
+          "file": "Horizon Zero Dawn OST/12 - Joris de Man - A Boon (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 176800390,
+          "length": 3924344
+        },
+        {
+          "file": "Horizon Zero Dawn OST/13 - Joris de Man - Where You Came From (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 180724734,
+          "length": 5773754
+        },
+        {
+          "file": "Horizon Zero Dawn OST/14 - The Flight - Identification (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 186498488,
+          "length": 2498948
+        },
+        {
+          "file": "Horizon Zero Dawn OST/15 - Joris de Man - What The Seeker Had Sought (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 188997436,
+          "length": 3258824
+        },
+        {
+          "file": "Horizon Zero Dawn OST/16 - Joris de Man - Anointed (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 192256260,
+          "length": 5839228
+        },
+        {
+          "file": "Horizon Zero Dawn OST/17 - Joris de Man - Seized From The Depths (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 198095488,
+          "length": 4805016
+        },
+        {
+          "file": "Horizon Zero Dawn OST/18 - Joris de Man - Hologram Myth (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 202900504,
+          "length": 8638894
+        },
+        {
+          "file": "Horizon Zero Dawn OST/19 - Joris de Man - The Bad News (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 211539398,
+          "length": 7391660
+        },
+        {
+          "file": "Horizon Zero Dawn OST/20 - Joris de Man - The Good News (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 218931058,
+          "length": 9077166
+        },
+        {
+          "file": "Horizon Zero Dawn OST/21 - Joris de Man - The Cavalry Breaks Through (feat_ Julie Elven_ Circle Percussion) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 228008224,
+          "length": 4258286
+        },
+        {
+          "file": "Horizon Zero Dawn OST/22 - Joris de Man - Victory (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 232266510,
+          "length": 7319970
+        },
+        {
+          "file": "Horizon Zero Dawn OST/23 - Joris de Man - Homecoming (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 239586480,
+          "length": 7070120
+        },
+        {
+          "file": "Horizon Zero Dawn OST/24 - Niels van der Leest - To The Hunt! (feat_ Circle Percussion) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 246656600,
+          "length": 10768838
+        },
+        {
+          "file": "Horizon Zero Dawn OST/25 - Joris de Man - Prologue (Early Style Sketch) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 257425438,
+          "length": 3606950
+        },
+        {
+          "file": "Horizon Zero Dawn OST/26 - Joris de Man - Song For Aloy (feat_ Julie Elven) (Part 1 - Motherland).mp3",
+          "file_offset": 0,
+          "chunk_offset": 261032388,
+          "length": 3418542
+        },
+        {
+          "file": "Horizon Zero Dawn OST/27 - Joris de Man - Within The Embrace (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 264450930,
+          "length": 10459552
+        },
+        {
+          "file": "Horizon Zero Dawn OST/28 - Joris de Man - In Great Strides (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 274910482,
+          "length": 10566044
+        },
+        {
+          "file": "Horizon Zero Dawn OST/29 - Joris de Man - Her Breath_ Her Land (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 285476526,
+          "length": 11960740
+        },
+        {
+          "file": "Horizon Zero Dawn OST/30 - Joris de Man - On Our Mother's Shoulders (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 297437266,
+          "length": 11452846
+        },
+        {
+          "file": "Horizon Zero Dawn OST/31 - The Flight - Haze And Renewal (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 308890112,
+          "length": 2736536
+        },
+        {
+          "file": "Horizon Zero Dawn OST/32 - Joris de Man - A Truth Whispered At Night (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 311626648,
+          "length": 9818544
+        },
+        {
+          "file": "Horizon Zero Dawn OST/33 - Joris de Man - Trails In The Darkness (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 321445192,
+          "length": 10535336
+        },
+        {
+          "file": "Horizon Zero Dawn OST/34 - Joris de Man - Machine Dreams (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 331980528,
+          "length": 11633048
+        },
+        {
+          "file": "Horizon Zero Dawn OST/35 - The Flight - Cloudpart (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 343613576,
+          "length": 2023818
+        },
+        {
+          "file": "Horizon Zero Dawn OST/36 - Joris de Man - The World And All Its Lessons (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 345637394,
+          "length": 8765878
+        },
+        {
+          "file": "Horizon Zero Dawn OST/37 - Joris de Man - This New Wilderness (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 354403272,
+          "length": 12892578
+        },
+        {
+          "file": "Horizon Zero Dawn OST/38 - The Flight - Territory Of None (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 367295850,
+          "length": 16140698
+        },
+        {
+          "file": "Horizon Zero Dawn OST/39 - The Flight - A Wanderer's Work (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 383436548,
+          "length": 15765914
+        },
+        {
+          "file": "Horizon Zero Dawn OST/40 - The Flight - Brave_ New (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 399202462,
+          "length": 12816780
+        },
+        {
+          "file": "Horizon Zero Dawn OST/41 - The Flight - The Memory Of Old Walls (Part 2 - Out Of The Embrace).mp3",
+          "file_offset": 0,
+          "chunk_offset": 412019242,
+          "length": 10836390
+        },
+        {
+          "file": "Horizon Zero Dawn OST/42 - Joris de Man - Aloy's Journey (feat_ Julie Elven) (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 422855632,
+          "length": 7322050
+        },
+        {
+          "file": "Horizon Zero Dawn OST/43 - Joris de Man - Meridian_ Shining (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 430177682,
+          "length": 9605536
+        },
+        {
+          "file": "Horizon Zero Dawn OST/44 - Joris de Man - City On The Mesa (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 439783218,
+          "length": 9902494
+        },
+        {
+          "file": "Horizon Zero Dawn OST/45 - Joris de Man - Envoys (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 449685712,
+          "length": 5568906
+        },
+        {
+          "file": "Horizon Zero Dawn OST/46 - The Flight - Beads Fallen On Bronze (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 455254618,
+          "length": 2019750
+        },
+        {
+          "file": "Horizon Zero Dawn OST/47 - The Flight - All That The Light Reaches (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 457274368,
+          "length": 17285550
+        },
+        {
+          "file": "Horizon Zero Dawn OST/48 - The Flight - A Resplendent Soil (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 474559918,
+          "length": 12429726
+        },
+        {
+          "file": "Horizon Zero Dawn OST/49 - The Flight - Another Day Rusts (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 486989644,
+          "length": 3070364
+        },
+        {
+          "file": "Horizon Zero Dawn OST/50 - The Flight - Across The Daybrink (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 490060008,
+          "length": 3365280
+        },
+        {
+          "file": "Horizon Zero Dawn OST/51 - The Flight - Delver's Hymnal (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 493425288,
+          "length": 9757080
+        },
+        {
+          "file": "Horizon Zero Dawn OST/52 - Joris de Man - To Call Our Own (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 503182368,
+          "length": 11088284
+        },
+        {
+          "file": "Horizon Zero Dawn OST/53 - The Flight - Your Hand Of Sun and Jewels (Carja traditional) (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 514270652,
+          "length": 5177816
+        },
+        {
+          "file": "Horizon Zero Dawn OST/54 - The Flight - KunaBass Solo (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 519448468,
+          "length": 2443668
+        },
+        {
+          "file": "Horizon Zero Dawn OST/55 - The Flight - Iron Pendulum Solo (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 521892136,
+          "length": 1182110
+        },
+        {
+          "file": "Horizon Zero Dawn OST/56 - The Flight - Braumdrum Solo (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 523074246,
+          "length": 2034070
+        },
+        {
+          "file": "Horizon Zero Dawn OST/57 - Niels van der Leest - Go Like Time Around An Arrow (feat_ Circle Percussion) (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 525108316,
+          "length": 13523448
+        },
+        {
+          "file": "Horizon Zero Dawn OST/58 - Jonathan Williams - Song to the Sun - Dawning (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 538631764,
+          "length": 5542330
+        },
+        {
+          "file": "Horizon Zero Dawn OST/59 - Jonathan Williams - Song To The Sun - Midday (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 544174094,
+          "length": 8112568
+        },
+        {
+          "file": "Horizon Zero Dawn OST/60 - Jonathan Williams - Song To The Sun - Evening (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 552286662,
+          "length": 9372090
+        },
+        {
+          "file": "Horizon Zero Dawn OST/61 - Jonathan Williams - Nora u Norawea (Part 3 - Onwards To Meridian).mp3",
+          "file_offset": 0,
+          "chunk_offset": 561658752,
+          "length": 5304740
+        },
+        {
+          "file": "Horizon Zero Dawn OST/62 - The Flight - The Spreading Eclipse (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 566963492,
+          "length": 13445542
+        },
+        {
+          "file": "Horizon Zero Dawn OST/63 - The Flight - The Demon Remade (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 580409034,
+          "length": 3447196
+        },
+        {
+          "file": "Horizon Zero Dawn OST/64 - Joris de Man - Force Multiplication (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 583856230,
+          "length": 9605544
+        },
+        {
+          "file": "Horizon Zero Dawn OST/65 - The Flight - Buried Shadow (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 593461774,
+          "length": 2285974
+        },
+        {
+          "file": "Horizon Zero Dawn OST/66 - The Flight - Battle Begins (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 595747748,
+          "length": 4524438
+        },
+        {
+          "file": "Horizon Zero Dawn OST/67 - The Flight - The Future By Its Throat (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 600272186,
+          "length": 7741868
+        },
+        {
+          "file": "Horizon Zero Dawn OST/68 - The Flight - Hold The Ridge (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 608014054,
+          "length": 9349528
+        },
+        {
+          "file": "Horizon Zero Dawn OST/69 - The Flight - Overrun (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 617363582,
+          "length": 3641738
+        },
+        {
+          "file": "Horizon Zero Dawn OST/70 - The Flight - Countdown To Zero (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 621005320,
+          "length": 3416478
+        },
+        {
+          "file": "Horizon Zero Dawn OST/71 - The Flight - Planned Obsolescence (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 624421798,
+          "length": 8180132
+        },
+        {
+          "file": "Horizon Zero Dawn OST/72 - Joris de Man - Colossal (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 632601930,
+          "length": 10215824
+        },
+        {
+          "file": "Horizon Zero Dawn OST/73 - The Flight - Threat Assessment (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 642817754,
+          "length": 4247966
+        },
+        {
+          "file": "Horizon Zero Dawn OST/74 - The Flight - Will Against Will (feat_ Julie Elven) (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 647065720,
+          "length": 7449030
+        },
+        {
+          "file": "Horizon Zero Dawn OST/75 - Joris de Man - Drawn To Strife (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 654514750,
+          "length": 6597022
+        },
+        {
+          "file": "Horizon Zero Dawn OST/76 - The Flight - Little Ones (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 661111772,
+          "length": 8716690
+        },
+        {
+          "file": "Horizon Zero Dawn OST/77 - Joris de Man - Beasts Of Steel (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 669828462,
+          "length": 6588830
+        },
+        {
+          "file": "Horizon Zero Dawn OST/78 - Niels van der Leest - Drums in The Sun-Ring (feat_ Circle Percussion) (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 676417292,
+          "length": 14684652
+        },
+        {
+          "file": "Horizon Zero Dawn OST/79 - The Flight - Death and Rebirth (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 691101944,
+          "length": 2939294
+        },
+        {
+          "file": "Horizon Zero Dawn OST/80 - The Flight - A Storm In The West (Part 4 - Secrets Of The Earth).mp3",
+          "file_offset": 0,
+          "chunk_offset": 694041238,
+          "length": 3156386
+        },
+        {
+          "file": "Horizon Zero Dawn OST/cover.jpg",
+          "file_offset": 0,
+          "chunk_offset": 697197624,
+          "length": 2932928
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/1. Into The Frozen Wilds.mp3",
+          "file_offset": 0,
+          "chunk_offset": 700130552,
+          "length": 3220856
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/10. Night Hushes Song.mp3",
+          "file_offset": 0,
+          "chunk_offset": 703351408,
+          "length": 10560885
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/11. Not Up_ Through.mp3",
+          "file_offset": 0,
+          "chunk_offset": 713912293,
+          "length": 5047665
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/12. Threshold.mp3",
+          "file_offset": 0,
+          "chunk_offset": 718959958,
+          "length": 3411307
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/13. CYAN.mp3",
+          "file_offset": 0,
+          "chunk_offset": 722371265,
+          "length": 6915430
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/14. Spirits Released.mp3",
+          "file_offset": 0,
+          "chunk_offset": 729286695,
+          "length": 7038322
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/15. The Light Of Her Voice.mp3",
+          "file_offset": 0,
+          "chunk_offset": 736325017,
+          "length": 4386170
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/16. Out From Thunder.mp3",
+          "file_offset": 0,
+          "chunk_offset": 740711187,
+          "length": 5713268
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/17. Breathstill.mp3",
+          "file_offset": 0,
+          "chunk_offset": 746424455,
+          "length": 3345775
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/18. Exposure.mp3",
+          "file_offset": 0,
+          "chunk_offset": 749770230,
+          "length": 2497898
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/19. The Delve.mp3",
+          "file_offset": 0,
+          "chunk_offset": 752268128,
+          "length": 2000237
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/2. The Fate We Long For.mp3",
+          "file_offset": 0,
+          "chunk_offset": 754268365,
+          "length": 3351927
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/20. Not Alone.mp3",
+          "file_offset": 0,
+          "chunk_offset": 757620292,
+          "length": 3745133
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/21. On A Cold Trail.mp3",
+          "file_offset": 0,
+          "chunk_offset": 761365425,
+          "length": 10593651
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/22. Running The Frost.mp3",
+          "file_offset": 0,
+          "chunk_offset": 771959076,
+          "length": 11171196
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/23. Heat Trace.mp3",
+          "file_offset": 0,
+          "chunk_offset": 783130272,
+          "length": 7202156
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/3. To Be Banuk.mp3",
+          "file_offset": 0,
+          "chunk_offset": 790332428,
+          "length": 5746030
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/4. White Falls.mp3",
+          "file_offset": 0,
+          "chunk_offset": 796078458,
+          "length": 9895278
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/5. A New Hunter.mp3",
+          "file_offset": 0,
+          "chunk_offset": 805973736,
+          "length": 1791341
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/6. For The Werak.mp3",
+          "file_offset": 0,
+          "chunk_offset": 807765077,
+          "length": 4240752
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/7. Shadow On The Snow.mp3",
+          "file_offset": 0,
+          "chunk_offset": 812005829,
+          "length": 4959605
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/8. The Frostclaws.mp3",
+          "file_offset": 0,
+          "chunk_offset": 816965434,
+          "length": 2067823
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/9. Survive_ Prevail.mp3",
+          "file_offset": 0,
+          "chunk_offset": 819033257,
+          "length": 6229363
+        },
+        {
+          "file": "Horizon Zero Dawn The Frozen Wilds OST/cover.jpg",
+          "file_offset": 0,
+          "chunk_offset": 825262620,
+          "length": 361683
+        },
+        {
+          "file": "HorizonZeroDawn.exe",
+          "file_offset": 0,
+          "chunk_offset": 825624303,
+          "length": 46938624
+        },
+        {
+          "file": "LocalCacheDX12/fullgame.dll",
+          "file_offset": 0,
+          "chunk_offset": 872562927,
+          "length": 162268160
+        },
+        {
+          "file": "LocalCacheDX12/HashDB.bin",
+          "file_offset": 0,
+          "chunk_offset": 1034831087,
+          "length": 11203958
+        },
+        {
+          "file": "LocalCacheDX12/ShaderLocationDB.bin",
+          "file_offset": 0,
+          "chunk_offset": 1046035045,
+          "length": 1538044
+        },
+        {
+          "file": "LocalCacheDX12/UserHashDB.bin",
+          "file_offset": 0,
+          "chunk_offset": 1047573089,
+          "length": 260
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC1_BetterLooting.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1047573349,
+          "length": 8212676
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC1_BetterPacking.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1055786025,
+          "length": 4044304
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC1_ItemDeconstruction.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1059830329,
+          "length": 5391800
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC1_MountedPickup.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1065222129,
+          "length": 9000864
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC1_MountedStrikeFromAbove.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1074222993,
+          "length": 10680648
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC1_RepairAllRobots.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1084903641,
+          "length": 6351404
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC1_RepairMount.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1091255045,
+          "length": 7518060
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC1_RepairMountPlus.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1098773105,
+          "length": 8865816
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC_BanukHB_01.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1107638921,
+          "length": 8191912
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC_BanukSB_01.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1115830833,
+          "length": 5677512
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC_BanukWB_01.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1121508345,
+          "length": 7518100
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC_Forgefire_01.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1129026445,
+          "length": 6247960
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC_Forgefire_02.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1135274405,
+          "length": 7958420
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC_Icethrower_01.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1143232825,
+          "length": 9331272
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC_Icethrower_02.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1152564097,
+          "length": 9083944
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC_Stormslinger_01.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1161648041,
+          "length": 7232472
+        },
+        {
+          "file": "Movies/DLC1/Mono/DLC_Stormslinger_02.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1168880513,
+          "length": 6532876
+        },
+        {
+          "file": "Movies/Mono/Ammo_Crafter_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1175413389,
+          "length": 3100796
+        },
+        {
+          "file": "Movies/Mono/Balanced_Aim_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1178514185,
+          "length": 4080604
+        },
+        {
+          "file": "Movies/Mono/BlastBomb_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1182594789,
+          "length": 6360904
+        },
+        {
+          "file": "Movies/Mono/Blastwire_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1188955693,
+          "length": 12222532
+        },
+        {
+          "file": "Movies/Mono/Bolts_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1201178225,
+          "length": 3942324
+        },
+        {
+          "file": "Movies/Mono/Call_Mount_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1205120549,
+          "length": 6840752
+        },
+        {
+          "file": "Movies/Mono/Combat_Override_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1211961301,
+          "length": 4201516
+        },
+        {
+          "file": "Movies/Mono/Concentration_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1216162817,
+          "length": 3780724
+        },
+        {
+          "file": "Movies/Mono/CorruptionArrow_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1219943541,
+          "length": 10101488
+        },
+        {
+          "file": "Movies/Mono/CriticalHit_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1230045029,
+          "length": 3699288
+        },
+        {
+          "file": "Movies/Mono/CriticalHit_Plus_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1233744317,
+          "length": 3544764
+        },
+        {
+          "file": "Movies/Mono/DisarmTraps_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1237289081,
+          "length": 2319676
+        },
+        {
+          "file": "Movies/Mono/distraction_rock.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1239608757,
+          "length": 1993876
+        },
+        {
+          "file": "Movies/Mono/DodgeProwess_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1241602633,
+          "length": 4679272
+        },
+        {
+          "file": "Movies/Mono/DoubleShot_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1246281905,
+          "length": 3800948
+        },
+        {
+          "file": "Movies/Mono/Fast_Reload_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1250082853,
+          "length": 5400220
+        },
+        {
+          "file": "Movies/Mono/Fighting_Back_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1255483073,
+          "length": 6859488
+        },
+        {
+          "file": "Movies/Mono/FireArrow_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1262342561,
+          "length": 11161948
+        },
+        {
+          "file": "Movies/Mono/FireBomb_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1273504509,
+          "length": 5181536
+        },
+        {
+          "file": "Movies/Mono/FireWire_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1278686045,
+          "length": 10082888
+        },
+        {
+          "file": "Movies/Mono/FreezeArrow_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1288768933,
+          "length": 9404040
+        },
+        {
+          "file": "Movies/Mono/FreezeBolts_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1298172973,
+          "length": 5581704
+        },
+        {
+          "file": "Movies/Mono/FreezeBomb_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1303754677,
+          "length": 6021416
+        },
+        {
+          "file": "Movies/Mono/Gatherer_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1309776093,
+          "length": 4979312
+        },
+        {
+          "file": "Movies/Mono/HardpointArrow_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1314755405,
+          "length": 2859744
+        },
+        {
+          "file": "Movies/Mono/Harvest_Arrow_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1317615149,
+          "length": 7520688
+        },
+        {
+          "file": "Movies/Mono/Healer_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1325135837,
+          "length": 3021672
+        },
+        {
+          "file": "Movies/Mono/HeavyLifter_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1328157509,
+          "length": 7580452
+        },
+        {
+          "file": "Movies/Mono/Herbalist_Final_Mask.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1335737961,
+          "length": 2520176
+        },
+        {
+          "file": "Movies/Mono/Hunter_Reflexes_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1338258137,
+          "length": 7020628
+        },
+        {
+          "file": "Movies/Mono/Knock_Down_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1345278765,
+          "length": 3260496
+        },
+        {
+          "file": "Movies/Mono/LeaderStrike_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1348539261,
+          "length": 4120920
+        },
+        {
+          "file": "Movies/Mono/Logo.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1352660181,
+          "length": 3853812
+        },
+        {
+          "file": "Movies/Mono/Low Profile_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1356513993,
+          "length": 3200968
+        },
+        {
+          "file": "Movies/Mono/Lure Call_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1359714961,
+          "length": 7760364
+        },
+        {
+          "file": "Movies/Mono/mq02_prepare.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1367475325,
+          "length": 239818792
+        },
+        {
+          "file": "Movies/Mono/MQ030_YearsOfTraining.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1607294117,
+          "length": 85694873
+        }
+      ],
+      "sha256": "2957ecc5f193b777e64e5f58d7df3e6706252bf29f160f598ef931d40c5b9006"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Movies/Mono/MQ030_YearsOfTraining.bk2",
+          "file_offset": 85694873,
+          "chunk_offset": 0,
+          "length": 623616039
+        },
+        {
+          "file": "Movies/Mono/MQ050_ProvingCllimb.bk2",
+          "file_offset": 0,
+          "chunk_offset": 623616039,
+          "length": 393666108
+        },
+        {
+          "file": "Movies/Mono/MQ06_07_DeathAndRebirth.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1017282147,
+          "length": 558077320
+        },
+        {
+          "file": "Movies/Mono/MQ12_TheBadNews.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1575359467,
+          "length": 117629523
+        }
+      ],
+      "sha256": "37c724364e457863797733476d8c619538da1c96bfac4dc95c0bccc31632f908"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Movies/Mono/MQ12_TheBadNews.bk2",
+          "file_offset": 117629523,
+          "chunk_offset": 0,
+          "length": 739018481
+        },
+        {
+          "file": "Movies/Mono/MQ12_TheGoodNews.bk2",
+          "file_offset": 0,
+          "chunk_offset": 739018481,
+          "length": 953970509
+        }
+      ],
+      "sha256": "e3e8aa6bc1e564c201f7990d8f4d5458a3c5aaa6fb3262bbca520d04dea7b542"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Movies/Mono/MQ12_TheGoodNews.bk2",
+          "file_offset": 953970509,
+          "chunk_offset": 0,
+          "length": 221760671
+        },
+        {
+          "file": "Movies/Mono/MQ160_Transmission_Part2.bk2",
+          "file_offset": 0,
+          "chunk_offset": 221760671,
+          "length": 399690968
+        },
+        {
+          "file": "Movies/Mono/MQ16_Epilogue1.bk2",
+          "file_offset": 0,
+          "chunk_offset": 621451639,
+          "length": 847636800
+        },
+        {
+          "file": "Movies/Mono/MQ16_Epilogue2.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1469088439,
+          "length": 223900551
+        }
+      ],
+      "sha256": "f0a190da7e8b8d3ca23e854c01ee13e713d29013a23071a134b83831d641727e"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Movies/Mono/MQ16_Epilogue2.bk2",
+          "file_offset": 223900551,
+          "chunk_offset": 0,
+          "length": 146146041
+        },
+        {
+          "file": "Movies/Mono/MQ16_Victory.bk2",
+          "file_offset": 0,
+          "chunk_offset": 146146041,
+          "length": 887851004
+        },
+        {
+          "file": "Movies/Mono/MQ1_Intro_at_the_Hovel.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1033997045,
+          "length": 658991945
+        }
+      ],
+      "sha256": "befb1495682c8e7ff328ee32c9591f3c4a234e46abc0f4b6932dcd369ae456c9"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Movies/Mono/MQ1_Intro_at_the_Hovel.bk2",
+          "file_offset": 658991945,
+          "chunk_offset": 0,
+          "length": 1155248771
+        },
+        {
+          "file": "Movies/Mono/Precision_precisionplus_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1155248771,
+          "length": 2241020
+        },
+        {
+          "file": "Movies/Mono/PrecisionArrow_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1157489791,
+          "length": 4282000
+        },
+        {
+          "file": "Movies/Mono/ProximityBomb_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1161771791,
+          "length": 10942080
+        },
+        {
+          "file": "Movies/Mono/Quiet_Sprint_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1172713871,
+          "length": 4242756
+        },
+        {
+          "file": "Movies/Mono/Scavenger_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1176956627,
+          "length": 6221012
+        },
+        {
+          "file": "Movies/Mono/ShockArrow_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1183177639,
+          "length": 11882224
+        },
+        {
+          "file": "Movies/Mono/ShockBolts_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1195059863,
+          "length": 8421540
+        },
+        {
+          "file": "Movies/Mono/ShockBomb_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1203481403,
+          "length": 5803068
+        },
+        {
+          "file": "Movies/Mono/ShockWire_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1209284471,
+          "length": 12322264
+        },
+        {
+          "file": "Movies/Mono/Silent_Drop_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1221606735,
+          "length": 2821496
+        },
+        {
+          "file": "Movies/Mono/Silent_Strike_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1224428231,
+          "length": 5382620
+        },
+        {
+          "file": "Movies/Mono/StickyBomb_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1229810851,
+          "length": 10503304
+        },
+        {
+          "file": "Movies/Mono/Strike_From_Above_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1240314155,
+          "length": 7121320
+        },
+        {
+          "file": "Movies/Mono/Strikefrombelow_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1247435475,
+          "length": 5059640
+        },
+        {
+          "file": "Movies/Mono/Strong_Strike_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1252495115,
+          "length": 3780452
+        },
+        {
+          "file": "Movies/Mono/TearblastArrow_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1256275567,
+          "length": 5962364
+        },
+        {
+          "file": "Movies/Mono/TieRopeLarge_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1262237931,
+          "length": 9463200
+        },
+        {
+          "file": "Movies/Mono/TieRopeMedium_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1271701131,
+          "length": 9262572
+        },
+        {
+          "file": "Movies/Mono/TieRopeSmall_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1280963703,
+          "length": 6321800
+        },
+        {
+          "file": "Movies/Mono/Tinker_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1287285503,
+          "length": 4220132
+        },
+        {
+          "file": "Movies/Mono/TripleShot_Final.bk2",
+          "file_offset": 0,
+          "chunk_offset": 1291505635,
+          "length": 3522164
+        },
+        {
+          "file": "NoDVD/Epic Store (CODEX)/CODEX64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1295027799,
+          "length": 670208
+        },
+        {
+          "file": "NoDVD/Epic Store (CODEX)/EOSSDK-Win64-Shipping.dll",
+          "file_offset": 0,
+          "chunk_offset": 1295698007,
+          "length": 12847872
+        },
+        {
+          "file": "NoDVD/Epic Store (CODEX)/epic_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 1308545879,
+          "length": 1286
+        },
+        {
+          "file": "NoDVD/Epic Store (CODEX)/HorizonZeroDawn.exe",
+          "file_offset": 0,
+          "chunk_offset": 1308547165,
+          "length": 46941696
+        },
+        {
+          "file": "NoDVD/Epic Store (Nemertingas)/EOSSDK-Win64-Shipping.dll",
+          "file_offset": 0,
+          "chunk_offset": 1355488861,
+          "length": 12847872
+        },
+        {
+          "file": "NoDVD/Epic Store (Nemertingas)/HorizonZeroDawn.exe",
+          "file_offset": 0,
+          "chunk_offset": 1368336733,
+          "length": 46937088
+        },
+        {
+          "file": "NoDVD/Epic Store (Nemertingas)/RUN GAME.bat",
+          "file_offset": 0,
+          "chunk_offset": 1415273821,
+          "length": 66
+        },
+        {
+          "file": "NoDVD/GOG/Galaxy64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1415273887,
+          "length": 15274496
+        },
+        {
+          "file": "NoDVD/GOG/goggame-1209025141.info",
+          "file_offset": 0,
+          "chunk_offset": 1430548383,
+          "length": 670
+        },
+        {
+          "file": "NoDVD/GOG/HorizonZeroDawn.exe",
+          "file_offset": 0,
+          "chunk_offset": 1430549053,
+          "length": 46938624
+        },
+        {
+          "file": "NoDVD/Steam (Goldberg)/HorizonZeroDawn.exe",
+          "file_offset": 0,
+          "chunk_offset": 1477487677,
+          "length": 46959616
+        },
+        {
+          "file": "NoDVD/Steam (Goldberg)/steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1524447293,
+          "length": 2762240
+        },
+        {
+          "file": "NoDVD/Steam (Goldberg)/steam_settings/achievements.json",
+          "file_offset": 0,
+          "chunk_offset": 1527209533,
+          "length": 20510
+        },
+        {
+          "file": "NoDVD/Steam (Goldberg)/steam_settings/controller/gamepadsetting.txt",
+          "file_offset": 0,
+          "chunk_offset": 1527230043,
+          "length": 376
+        },
+        {
+          "file": "NoDVD/Steam (Goldberg)/steam_settings/steam_appid.txt",
+          "file_offset": 0,
+          "chunk_offset": 1527230419,
+          "length": 7
+        },
+        {
+          "file": "nvngx_dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 1527230426,
+          "length": 14467280
+        },
+        {
+          "file": "oo2core_3_win64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1541697706,
+          "length": 879104
+        },
+        {
+          "file": "Packed_DX12/DLC1.bin",
+          "file_offset": 0,
+          "chunk_offset": 1542576810,
+          "length": 150412180
+        }
+      ],
+      "sha256": "7fb4208e388a9de18713c821357b4e8843bfe0c971f34f91f5e1c4db6511942b"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/DLC1.bin",
+          "file_offset": 150412180,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "652c9f7be35ce0284866f105ed245bbe4856bbd610e1a95bb2f83663cec9ebc9"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/DLC1.bin",
+          "file_offset": 1843401170,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "ec1809f42fe1977bea000154afd7ff9c97150988d837ec665e620c638bcb8eaa"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/DLC1.bin",
+          "file_offset": 3536390160,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "81339fdd3de0ac4e68479eb579f7b2fbc6882a0e81717d3cc902b1fa8dfed963"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/DLC1.bin",
+          "file_offset": 5229379150,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "b8d67764ca30b2fa9f79051c4f3b68c4465ae08876500361d97b5c8acdb8bf2c"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/DLC1.bin",
+          "file_offset": 6922368140,
+          "chunk_offset": 0,
+          "length": 270129064
+        },
+        {
+          "file": "Packed_DX12/DLC1_English.bin",
+          "file_offset": 0,
+          "chunk_offset": 270129064,
+          "length": 227948395
+        },
+        {
+          "file": "Packed_DX12/DLC1_French.bin",
+          "file_offset": 0,
+          "chunk_offset": 498077459,
+          "length": 194162948
+        },
+        {
+          "file": "Packed_DX12/DLC1_German.bin",
+          "file_offset": 0,
+          "chunk_offset": 692240407,
+          "length": 223325564
+        },
+        {
+          "file": "Packed_DX12/DLC1_Italian.bin",
+          "file_offset": 0,
+          "chunk_offset": 915565971,
+          "length": 211892809
+        },
+        {
+          "file": "Packed_DX12/FGRWin32.bin",
+          "file_offset": 0,
+          "chunk_offset": 1127458780,
+          "length": 18039994
+        },
+        {
+          "file": "Packed_DX12/Initial.bin",
+          "file_offset": 0,
+          "chunk_offset": 1145498774,
+          "length": 547490216
+        }
+      ],
+      "sha256": "6c69303195543456f379ac515413b7ae0e7caa85a439aa814afc513614d9c9f1"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Initial.bin",
+          "file_offset": 547490216,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "28d8ef7e66fc86d6d643826ea89f12cb002016cc242667b2f256ea8e0129157d"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Initial.bin",
+          "file_offset": 2240479206,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "10337d693eba0f87909c2468991dbf4d101a521c737a56c9b78cde3ddcc021e3"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Initial.bin",
+          "file_offset": 3933468196,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "dff15a4c345fb18e1765aa964964c9dca5f306f355f661e75c43c6157630d48b"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Initial.bin",
+          "file_offset": 5626457186,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "c3bb87cd710bd10fbdb5e544403d50dfe782cdafb3514ef6f519949a58467462"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Initial.bin",
+          "file_offset": 7319446176,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "8d8c63b0b00cad53b92fd3ad3dc0ac0eb6791dc90808e87503614acf42f0078a"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Initial.bin",
+          "file_offset": 9012435166,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "a5bc10f947dac36145fb737909b79ae1ddd38ce822ed9fc3e73f7e3e84c8db94"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Initial.bin",
+          "file_offset": 10705424156,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "d5770a0e6e49179e9f8b52bcefdadd7ccb5a4761786f937503d560432e9ce4af"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Initial.bin",
+          "file_offset": 12398413146,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "f4f8f21a152ef116f267a8e204889bb6fe0f05837d838101d2706fcbfeceac40"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Initial.bin",
+          "file_offset": 14091402136,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "c8c4f8840846940949aa1ad17d2eb4d10fab2f8eaf6f78d2869603adf34fd5b5"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Initial.bin",
+          "file_offset": 15784391126,
+          "chunk_offset": 0,
+          "length": 1248475717
+        },
+        {
+          "file": "Packed_DX12/Initial_English.bin",
+          "file_offset": 0,
+          "chunk_offset": 1248475717,
+          "length": 444513273
+        }
+      ],
+      "sha256": "5ef5b64c0eb81dfd3fa018dbb77a2ff70afbb6476ae3221c32dcc609ccc4fdca"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Initial_English.bin",
+          "file_offset": 444513273,
+          "chunk_offset": 0,
+          "length": 219058366
+        },
+        {
+          "file": "Packed_DX12/Initial_French.bin",
+          "file_offset": 0,
+          "chunk_offset": 219058366,
+          "length": 576940341
+        },
+        {
+          "file": "Packed_DX12/Initial_German.bin",
+          "file_offset": 0,
+          "chunk_offset": 795998707,
+          "length": 664823941
+        },
+        {
+          "file": "Packed_DX12/Initial_Italian.bin",
+          "file_offset": 0,
+          "chunk_offset": 1460822648,
+          "length": 232166342
+        }
+      ],
+      "sha256": "a59ab19a4088273c6b2036248737fdd36763fd3d70952ce9320cbb28ddd4121d"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Initial_Italian.bin",
+          "file_offset": 232166342,
+          "chunk_offset": 0,
+          "length": 392354600
+        },
+        {
+          "file": "Packed_DX12/Patch.bin",
+          "file_offset": 0,
+          "chunk_offset": 392354600,
+          "length": 1300634390
+        }
+      ],
+      "sha256": "ab5140b6a61b8c3ebdf5bf9398be8953c4cd1ea8d5be98722596e5ff841c9fbc"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Patch.bin",
+          "file_offset": 1300634390,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "347c92b9380b79b0a3c823677255fb67abfc1ade5f23f74b36ee16a38065826a"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Patch.bin",
+          "file_offset": 2993623380,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "2bb29e39755cda72f471b96dd3355f809ef3646ee0f32c4a195e1af0af9d293e"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Patch.bin",
+          "file_offset": 4686612370,
+          "chunk_offset": 0,
+          "length": 747866784
+        },
+        {
+          "file": "Packed_DX12/Remainder.bin",
+          "file_offset": 0,
+          "chunk_offset": 747866784,
+          "length": 945122206
+        }
+      ],
+      "sha256": "e42f2b68099727dc3d49076d495ad419b2a2a9f47998fbca016a694403dd357e"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Remainder.bin",
+          "file_offset": 945122206,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "330dbb1f6311e203e630ef227747b9ace16f71fa31d41e5b310361461b3bc04f"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Remainder.bin",
+          "file_offset": 2638111196,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "71418ee4563bb5fd45f1c0cfc8bec0e569e67c49c8eaa0ebbf08276325e2d032"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Remainder.bin",
+          "file_offset": 4331100186,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "d8604f7290f69897a0775170db8c7a5d52cc9d4305da4bc32fc5732cf2d0358f"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Remainder.bin",
+          "file_offset": 6024089176,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "67ad2672aa4e760b324499e92b17d9170178c86558d3c3271110290e1c1f1e03"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Remainder.bin",
+          "file_offset": 7717078166,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "835d1ce5e17c1a5230a4253115c02c0d6f0810d6e89e360cd2634f1b3061e450"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Remainder.bin",
+          "file_offset": 9410067156,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "89572cf7dae16211642f84fcf067b3fd70278d81cf5fa64c3f8fbceeb0d264d1"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Remainder.bin",
+          "file_offset": 11103056146,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "70e222e4355a48276f74d6f03c9f562246744088a75db33fb630c7884fc5ada5"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Remainder.bin",
+          "file_offset": 12796045136,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "553a4f513eedd4e184e6be1de256f1c36d4731df02e3ef593c76331eb3a10445"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Remainder.bin",
+          "file_offset": 14489034126,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "a9e3d9dcc777b9e7cdcc0e88aa300ded4af903254c75e337244308a4955849df"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Remainder.bin",
+          "file_offset": 16182023116,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "c2f31f0a7963ee68cf64db0387afdde349b662a4c76dfed9a5cd3a36afa7aa52"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Remainder.bin",
+          "file_offset": 17875012106,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "374eeadc0e8e292079e3baa4c930d62503475fb429858a2e1b797664420a29c2"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Remainder.bin",
+          "file_offset": 19568001096,
+          "chunk_offset": 0,
+          "length": 1692988990
+        }
+      ],
+      "sha256": "a88a785b6b5fc77d9b6a31eb79f241a7ecec3cbb364cb3993876392103acccd6"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 1692988990,
+      "segments": [
+        {
+          "file": "Packed_DX12/Remainder.bin",
+          "file_offset": 21260990086,
+          "chunk_offset": 0,
+          "length": 396334339
+        },
+        {
+          "file": "Packed_DX12/Remainder_English.bin",
+          "file_offset": 0,
+          "chunk_offset": 396334339,
+          "length": 755008443
+        },
+        {
+          "file": "Packed_DX12/Remainder_French.bin",
+          "file_offset": 0,
+          "chunk_offset": 1151342782,
+          "length": 541646208
+        }
+      ],
+      "sha256": "ceca5479d4e2fbc0f827ac0f39fbf54f83808c24396ef94c33167b593295a3cc"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 1692988961,
+      "segments": [
+        {
+          "file": "Packed_DX12/Remainder_French.bin",
+          "file_offset": 541646208,
+          "chunk_offset": 0,
+          "length": 153287914
+        },
+        {
+          "file": "Packed_DX12/Remainder_German.bin",
+          "file_offset": 0,
+          "chunk_offset": 153287914,
+          "length": 771204371
+        },
+        {
+          "file": "Packed_DX12/Remainder_Italian.bin",
+          "file_offset": 0,
+          "chunk_offset": 924492285,
+          "length": 743843592
+        },
+        {
+          "file": "Packed_DX12/Remainder_Swedish.bin",
+          "file_offset": 0,
+          "chunk_offset": 1668335877,
+          "length": 217
+        },
+        {
+          "file": "Switch to Epic Store CODEX.bat",
+          "file_offset": 0,
+          "chunk_offset": 1668336094,
+          "length": 478
+        },
+        {
+          "file": "Switch to Epic Store NEMERTINGAS.bat",
+          "file_offset": 0,
+          "chunk_offset": 1668336572,
+          "length": 441
+        },
+        {
+          "file": "Switch to GOG Version.bat",
+          "file_offset": 0,
+          "chunk_offset": 1668337013,
+          "length": 370
+        },
+        {
+          "file": "Switch to Steam Version.bat",
+          "file_offset": 0,
+          "chunk_offset": 1668337383,
+          "length": 522
+        },
+        {
+          "file": "Tools/bin/bink2w64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1668337905,
+          "length": 375296
+        },
+        {
+          "file": "Tools/bin/WinPixEventRuntime.dll",
+          "file_offset": 0,
+          "chunk_offset": 1668713201,
+          "length": 33360
+        },
+        {
+          "file": "Tools/bin/x64/crashpad_handler.exe",
+          "file_offset": 0,
+          "chunk_offset": 1668746561,
+          "length": 800256
+        },
+        {
+          "file": "Tools/ShaderCompiler/PC/1.0.2595/x64/dxcompiler.dll",
+          "file_offset": 0,
+          "chunk_offset": 1669546817,
+          "length": 18915840
+        },
+        {
+          "file": "Tools/ShaderCompiler/PC/10.0.18362.0/x64/d3dcompiler_47.dll",
+          "file_offset": 0,
+          "chunk_offset": 1688462657,
+          "length": 4481984
+        },
+        {
+          "file": "vcruntime140_1.dll",
+          "file_offset": 0,
+          "chunk_offset": 1692944641,
+          "length": 44320
+        }
+      ],
+      "sha256": "b23ce2241c272b7c66c1f42aeb86e5947cdbba4cdd065a83f224fba631c53447"
+    }
+  ]
+}
