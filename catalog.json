@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-21T11:59:17.286618+00:00",
+  "updated_at": "2026-08-21T15:09:00.261167+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -1043,6 +1043,41 @@
       },
       "media": {
         "steam_app_id": 374320
+      }
+    },
+    {
+      "id": "doom",
+      "title": "DOOM",
+      "platform": "pc",
+      "description": "Now includes all three premium DLC packs (Unto the Evil, Hell Followed, and Bloodfall), maps, modes, and weapons, as well as all feature updates including Arcade Mode, Photo Mode, and the latest Update 6.66, which brings further multiplayer improvements as well as revamps multiplayer progression.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/doom/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/doom/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/doom/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/doom/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/doom/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/doom/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/doom/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/doom/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/doom/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/doom/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/doom/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/doom/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-doom-v1.0.0-stable",
+          "manifest_path": "manifests/pc/doom/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/doom/stable/1.0.0.json",
+          "size": 73983567108,
+          "published_at": "2026-08-21T15:09:00.261154+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 379720
       }
     }
   ]
