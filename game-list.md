@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 25
-- **Toplam aktif sürüm/kanal:** 25
-- **Toplam aktif boyut:** 592.785 GB (552.074 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-21 08:10:15 UTC
+- **Toplam oyun:** 26
+- **Toplam aktif sürüm/kanal:** 26
+- **Toplam aktif boyut:** 660.504 GB (615.142 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-21 09:29:15 UTC
 
 ## PC
 
-**25 oyun · 25 aktif sürüm/kanal · 592.785 GB (552.074 GiB)**
+**26 oyun · 26 aktif sürüm/kanal · 660.504 GB (615.142 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -28,6 +28,7 @@
 | Half Life 2 | 1.0.0 | stable | 17.641 | 16.429 | `pc-half-life-2-v1.0.0-stable` |
 | Half-Life | 1.0.0 | stable | 0.550 | 0.512 | `pc-half-life-v1.0.0-stable` |
 | Hans | 1.0.0 | stable | 0.876 | 0.816 | `pc-hans-v1.0.0-stable` |
+| Horizon Zero Dawn™ Complete Edition | 1.0.0 | stable | 67.720 | 63.069 | `pc-horizon-zero-dawn-complete-edition-v1.0.0-stable` |
 | Mass Effect (2007) | 1.0.0 | stable | 24.338 | 22.667 | `pc-mass-effect-2007-v1.0.0-stable` |
 | Mass Effect 2 (2010 Edition) | 1.0.0 | stable | 29.915 | 27.860 | `pc-mass-effect-2-2010-edition-v1.0.0-stable` |
 | Papers, Please | 1.0.0 | stable | 0.094 | 0.088 | `pc-papers-please-v1.0.0-stable` |
