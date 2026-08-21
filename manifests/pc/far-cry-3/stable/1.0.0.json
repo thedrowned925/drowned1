@@ -1,0 +1,1905 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "far-cry-3",
+    "title": "Far Cry 3",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Stranded on the Rook Islands as Jason Brody, fight your way through a lawless tropical open world using a powerful arsenal to save your friends and escape the madness of this acclaimed visceral FPS."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-far-cry-3-v1.0.0-stable"
+  },
+  "chunk_size": 249412868,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 9976514686,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "bin/binkw32.dll",
+      "size": 231504,
+      "sha256": "716257772f93f1cd0fcc6f1da7bea8f5bb354adbd7efc4b7cceae85c2b6212ee"
+    },
+    {
+      "path": "bin/farcry3.exe",
+      "size": 200720,
+      "sha256": "84a5748a1ce9d924907d13e3ff2b9b3b3217aab99ab0902a3808d8cf43859b35"
+    },
+    {
+      "path": "bin/farcry3.ico",
+      "size": 185871,
+      "sha256": "a380d81d9ecd6c2226223090a0a600d8a36f697d0abd4467bc4e02c107c450c1"
+    },
+    {
+      "path": "bin/farcry3_d3d11.exe",
+      "size": 200720,
+      "sha256": "e261260ca489bf042f3ae4cedd536104a2e027b030bf4f4ad7eba986e4769e09"
+    },
+    {
+      "path": "bin/FC3.dll",
+      "size": 29987344,
+      "sha256": "32fbb31887ff9743032971d1ffc48bd2d0d68b69dd5998a1fa4cdc3a411ecc6c"
+    },
+    {
+      "path": "bin/FC3_d3d11.dll",
+      "size": 30050320,
+      "sha256": "8292cf7dca5be1482f8e03d901d7aec70cf7fab35dd6ef5bb7f34192b9e4a2ad"
+    },
+    {
+      "path": "bin/FC3Editor.Core.dll",
+      "size": 1900560,
+      "sha256": "83e10c75abc26f0811dfa0813cc04a7512fcdd7580dce2347e5f6ac19f245bdf"
+    },
+    {
+      "path": "bin/FC3Editor.exe",
+      "size": 203280,
+      "sha256": "fe63174d5333e38ebd3b250e520487038fb6e191375ed12a688df2bf95b4ee16"
+    },
+    {
+      "path": "bin/FC3Editor.exe.config",
+      "size": 235,
+      "sha256": "4aa11d47fe63bfd9e092288567a0e4603eaa93d36c639c63ea53f897accace87"
+    },
+    {
+      "path": "bin/FC3Updater.exe",
+      "size": 1011728,
+      "sha256": "9ac0b63e7bd8704f4e11671c2e9adc7d6d24141c48b2f024ce7452b9d5e263d8"
+    },
+    {
+      "path": "bin/GameuxInstallHelper.dll",
+      "size": 91728,
+      "sha256": "da02a6b5c3568ec2f49655bd7c7d6cdb8e9d354b652661e5edaa0f9961c24b77"
+    },
+    {
+      "path": "bin/GDFInstall.exe",
+      "size": 92240,
+      "sha256": "6768dc8a512ace3a954142744dc1030f8f92cf2cf9bb3f6273bc28cdd92fe860"
+    },
+    {
+      "path": "bin/GDFWin8.dll",
+      "size": 3374096,
+      "sha256": "8d3be483ebe5286832dad3b160ce6582bdbdae675882d771cdb1a2a56882294c"
+    },
+    {
+      "path": "bin/gpudatabase.dll",
+      "size": 12880,
+      "sha256": "19e38b86c40c0a5667f37b47880c26841e264aa8fd586f0dc8f9df3b4b5a8df1"
+    },
+    {
+      "path": "bin/orbit_api.ini",
+      "size": 22,
+      "sha256": "2bc2eccdbdf6a0c1a2b353ddfd8f87c7ebd4d3b35da9487d800d6908dfb1245a"
+    },
+    {
+      "path": "bin/pb/dll/wa001383.dll",
+      "size": 57344,
+      "sha256": "2c40a8bfccbcf7cd4ab44cd21b1763431ea6948e9a536ba4bc73ddcecf11ca46"
+    },
+    {
+      "path": "bin/pb/dll/wc002312.dll",
+      "size": 953886,
+      "sha256": "6d5e2cd4a7a43eb00b600ba783ad3bee6b817c030a40600d40367173a6eceb13"
+    },
+    {
+      "path": "bin/pb/dll/ws001853.dll",
+      "size": 421888,
+      "sha256": "7aced60e04ef78b0e16b0b89927b96e1470a3cec63bcb2b3460ef3fe45ecd742"
+    },
+    {
+      "path": "bin/pb/htm/wa001383.htm",
+      "size": 50644,
+      "sha256": "17ad4eb49fb8112dc614bd0a889863ae39fa808c5a13487b5dcf6f8d09d37ee0"
+    },
+    {
+      "path": "bin/pb/htm/wc002312.htm",
+      "size": 1438404,
+      "sha256": "fbf59189c373a796097399aeeb2494f6f3df8cd68820d1b99b6906b6fd8ce10f"
+    },
+    {
+      "path": "bin/pb/htm/ws001853.htm",
+      "size": 462437,
+      "sha256": "64cecdea3e829a556f955a683721016647970732f9cfd5e422d59d95ecad9a89"
+    },
+    {
+      "path": "bin/pb/pbag.dll",
+      "size": 57344,
+      "sha256": "2c40a8bfccbcf7cd4ab44cd21b1763431ea6948e9a536ba4bc73ddcecf11ca46"
+    },
+    {
+      "path": "bin/pb/pbags.dll",
+      "size": 57344,
+      "sha256": "2c40a8bfccbcf7cd4ab44cd21b1763431ea6948e9a536ba4bc73ddcecf11ca46"
+    },
+    {
+      "path": "bin/pb/pbcl.db",
+      "size": 211,
+      "sha256": "42b0c9cda6fa24172cb3243f1bae5c60c0440d2c7e3056f8fdaf9c8ae31c8a7a"
+    },
+    {
+      "path": "bin/pb/pbcl.dll",
+      "size": 953886,
+      "sha256": "6d5e2cd4a7a43eb00b600ba783ad3bee6b817c030a40600d40367173a6eceb13"
+    },
+    {
+      "path": "bin/pb/pbclgame.cfg",
+      "size": 17,
+      "sha256": "86cfaf968d0227da0d4c46e36e54b8f6f4f668eb6334ddae7ae2ee25f07bad2d"
+    },
+    {
+      "path": "bin/pb/pbcls.dll",
+      "size": 953886,
+      "sha256": "6d5e2cd4a7a43eb00b600ba783ad3bee6b817c030a40600d40367173a6eceb13"
+    },
+    {
+      "path": "bin/pb/pbns_c.dat",
+      "size": 104,
+      "sha256": "e606cc3278637caf56da1e55ea64f463213b6d6becbb220c542a9cdd5dd5a226"
+    },
+    {
+      "path": "bin/pb/pbsv.dat",
+      "size": 38,
+      "sha256": "2d783fb4926966f649ea7873cea971cc690103c7ebe90566f3d4ad9439bfa08d"
+    },
+    {
+      "path": "bin/pb/pbsv.dll",
+      "size": 421888,
+      "sha256": "7aced60e04ef78b0e16b0b89927b96e1470a3cec63bcb2b3460ef3fe45ecd742"
+    },
+    {
+      "path": "bin/pb/pbsvgame.cfg",
+      "size": 17,
+      "sha256": "fe2d76e3c68618548cdd258473fb0fc4d313a214cbb7df1e4380aa7bc329e38b"
+    },
+    {
+      "path": "bin/pbsvc_fc3.exe",
+      "size": 3190168,
+      "sha256": "14b83921a599c312f7ac56da25f683adeb23297f74b32807521cfeff928f29d7"
+    },
+    {
+      "path": "bin/Resources/de/GameUpdate.de",
+      "size": 5897,
+      "sha256": "deb054e2980db54fdc1e29404caf33a5d7f00b877669886e43874bc71efb0b6e"
+    },
+    {
+      "path": "bin/Resources/es/GameUpdate.es",
+      "size": 5848,
+      "sha256": "b7790a9827b64fd76b9d86e175cb05611fd0f945ce56a5d6a54b9fbb08275983"
+    },
+    {
+      "path": "bin/Resources/fr/GameUpdate.fr",
+      "size": 5934,
+      "sha256": "4e7c0002d13a5f3c15f154c1f92026536932e9e9cfa885823a2df5c7a2442430"
+    },
+    {
+      "path": "bin/Resources/it/GameUpdate.it",
+      "size": 5533,
+      "sha256": "aa6717faeeee65824d5099486a05e27f7ae80b2a758c1cf6b9d5bc813782c0a9"
+    },
+    {
+      "path": "bin/Resources/nl/GameUpdate.nl",
+      "size": 5663,
+      "sha256": "241591fde3321beb6ec4af1758259dd72c682ff1f9ff0dfd88dc7f677300e635"
+    },
+    {
+      "path": "bin/Resources/uk/GameUpdate.uk",
+      "size": 5140,
+      "sha256": "aa07c2ffbf6b63045e4ace576432e08ab48950857f787143f148e618b1c3dac3"
+    },
+    {
+      "path": "bin/Resources/us/GameUpdate.us",
+      "size": 5140,
+      "sha256": "aa07c2ffbf6b63045e4ace576432e08ab48950857f787143f148e618b1c3dac3"
+    },
+    {
+      "path": "bin/SandBar.dll",
+      "size": 263248,
+      "sha256": "c5f659f011652847b5fc00f01b1f0b3af0f9574b065712b9016ebb2e86ce5471"
+    },
+    {
+      "path": "bin/SandDock.dll",
+      "size": 242768,
+      "sha256": "428007d2a72fa064982f5f4889673e812bde9a29e32b3b47870dd6fd966f8eeb"
+    },
+    {
+      "path": "bin/systemdetection.dll",
+      "size": 1012752,
+      "sha256": "2eb05f33f782df52aa5fd5f2cfc91cefb9663dfdb7608fb5afe46d90a3137578"
+    },
+    {
+      "path": "bin/ubiorbitapi_r2_loader.dll",
+      "size": 209920,
+      "sha256": "90dae1224651208a6814158a5af9874066da17c32cdc6d8174163f1c9cf4acf6"
+    },
+    {
+      "path": "bin/uplay_r1_loader.dll",
+      "size": 3584,
+      "sha256": "bb510bba63e8491548f0b753cc66c74f8f96367c036a9e1019958fe5f017a761"
+    },
+    {
+      "path": "data_win32/common.dat",
+      "size": 192292619,
+      "sha256": "6ed2f0d1d5f5bbf25840c1130b94ca61cd0812cbde3181940717de1c194ed6fb"
+    },
+    {
+      "path": "data_win32/common.fat",
+      "size": 61312,
+      "sha256": "a2ee3df546e2a22371dda1f2048c50e60894d9e2b31c1a368a3ff51d44a11b47"
+    },
+    {
+      "path": "data_win32/engine/shaders/obj/index.cso",
+      "size": 530588,
+      "sha256": "5bcf6be81f227c582909e10ce307cf01263ade8b35b6c8d473b07b34113ed80f"
+    },
+    {
+      "path": "data_win32/engine/shaders/obj/index.dep",
+      "size": 28,
+      "sha256": "1ef6317372b3fac3d57cc5aac5b125aba321a74b1406005a01c9e22f2a994e6d"
+    },
+    {
+      "path": "data_win32/engine/shaders/obj/index.dso",
+      "size": 530588,
+      "sha256": "ebc0c847b90f4d2b187c0ead8fdb6e463a359e8b7535046fb6082892c6509b52"
+    },
+    {
+      "path": "data_win32/engine/shaders/obj/index.hso",
+      "size": 530588,
+      "sha256": "6d0899ff4026d3a9cea866f820f4e401e26076bd2a7ea527f25708f4d92a7b34"
+    },
+    {
+      "path": "data_win32/engine/shaders/obj/index.pds",
+      "size": 530588,
+      "sha256": "7d2377cecc3094494f59ff7632539393825e3672811a05f920bb00e12aaf5247"
+    },
+    {
+      "path": "data_win32/engine/shaders/obj/index.pso",
+      "size": 530588,
+      "sha256": "f3ae579d48369cd6ac8eb3af7aaa6f7d524c1131aa8566f6194360e7c52753c2"
+    },
+    {
+      "path": "data_win32/engine/shaders/obj/index.rs",
+      "size": 319028,
+      "sha256": "9107baa6aef95e850e859785dbd700f8e13e92ab0e852662110821fc3656538f"
+    },
+    {
+      "path": "data_win32/engine/shaders/obj/index.vds",
+      "size": 530588,
+      "sha256": "0dce6c5cf16c49c94f3f6597d71884694fc2d57b6e94e8e9d165786a8643a2b9"
+    },
+    {
+      "path": "data_win32/engine/shaders/obj/index.vso",
+      "size": 530588,
+      "sha256": "a05839a5ec5ae949729c5c7f795c6cb76d71ccadf0b65410545a9581821e6b4f"
+    },
+    {
+      "path": "data_win32/engine/shaders/obj/timestamp__100.ts",
+      "size": 8,
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+    },
+    {
+      "path": "data_win32/ige.dat",
+      "size": 432239930,
+      "sha256": "571a733048041e7db1c4a4a73b07f5c9dbee58a6a7125b257e3b4b60eb2fd6a7"
+    },
+    {
+      "path": "data_win32/ige.fat",
+      "size": 275332,
+      "sha256": "e1d199a33e9f0abfb00edad1b72bf468d62334400ccf1a3c40366e1ac6ba4c01"
+    },
+    {
+      "path": "data_win32/igepatch.dat",
+      "size": 421525,
+      "sha256": "4f66187c3a712aef23b6f2c39b751b6a2922204e353ba5f3a1ced0504eb349a7"
+    },
+    {
+      "path": "data_win32/igepatch.fat",
+      "size": 312,
+      "sha256": "345829cda97b31d757c4f3d5f60a14741274452bc45e479659565ef19ae1db11"
+    },
+    {
+      "path": "data_win32/patch.dat",
+      "size": 2687342,
+      "sha256": "7d3a0ab1da69def96d3fd096e2c6c1c9a5389f144a2d0ab702341e858d1a4692"
+    },
+    {
+      "path": "data_win32/patch.fat",
+      "size": 8492,
+      "sha256": "8402cc9987943276145fe92a1465aa1269d8f0d6093fa8605980595be829ecdd"
+    },
+    {
+      "path": "data_win32/patch_german.dat",
+      "size": 321826,
+      "sha256": "4051285ff85b1e0a7dd66c7fb8dd78ad9532fd95207fb25aa238f041efc0e38b"
+    },
+    {
+      "path": "data_win32/patch_german.fat",
+      "size": 312,
+      "sha256": "8590045985fd8178e442b10088b58f20450d8129e640122d7db79183a18fbf1e"
+    },
+    {
+      "path": "data_win32/shadersobj.dat",
+      "size": 71791330,
+      "sha256": "eb05fc962068f9e760fbe313d69398fa89c2adcabdd2f7f4154fa5a9998919d7"
+    },
+    {
+      "path": "data_win32/shadersobj.fat",
+      "size": 691152,
+      "sha256": "95ecdb7c25f303e284e04a5cedd1e5935a6c64bc26c1f1ee877d932d48a27cb3"
+    },
+    {
+      "path": "data_win32/sound.dat",
+      "size": 429372130,
+      "sha256": "bc2a1438a6e089b8cc7018a8d97789021efcc696ec22d8ac52049bed274d4e54"
+    },
+    {
+      "path": "data_win32/sound.fat",
+      "size": 8692,
+      "sha256": "18081ed705bdf54489fe4641ef02046ced86196640442748f515f1dd916a1ea1"
+    },
+    {
+      "path": "data_win32/sound_english.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/sound_english.fat",
+      "size": 32,
+      "sha256": "eeb7555ede54bec555f70fd7f50fe19ac41ac29c517b1c16404746882f382f8d"
+    },
+    {
+      "path": "data_win32/sound_french.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/sound_french.fat",
+      "size": 32,
+      "sha256": "eeb7555ede54bec555f70fd7f50fe19ac41ac29c517b1c16404746882f382f8d"
+    },
+    {
+      "path": "data_win32/sound_german.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/sound_german.fat",
+      "size": 32,
+      "sha256": "eeb7555ede54bec555f70fd7f50fe19ac41ac29c517b1c16404746882f382f8d"
+    },
+    {
+      "path": "data_win32/sound_italian.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/sound_italian.fat",
+      "size": 32,
+      "sha256": "eeb7555ede54bec555f70fd7f50fe19ac41ac29c517b1c16404746882f382f8d"
+    },
+    {
+      "path": "data_win32/sound_spanish.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/sound_spanish.fat",
+      "size": 32,
+      "sha256": "eeb7555ede54bec555f70fd7f50fe19ac41ac29c517b1c16404746882f382f8d"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1.dat",
+      "size": 200518816,
+      "sha256": "33dc1f5ea3491f0e4300f48545f8e350ef37b3d24019ba2c42f5983cbffdac9c"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1.fat",
+      "size": 364232,
+      "sha256": "000cf4c52a2e02324dd2449ce31de259908de9f46d141ad9693d8642efed3a2d"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_english.dat",
+      "size": 9178937,
+      "sha256": "21630f7832607ac70ea4bc0a6a1956b9ac94ae940e6230a341278ae72ee9a8da"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_english.fat",
+      "size": 9452,
+      "sha256": "23de8eec82cfa20d34b65535c5d19e732778d2973cfff4394bfe8721b7884d30"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_entitylibrary.dat",
+      "size": 9360,
+      "sha256": "e1bba17243415a898af783e814fdc91b5bf41f3955bed2cbd3b084cd2af8d069"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_entitylibrary.fat",
+      "size": 132,
+      "sha256": "6f58f2250c79150e66c39bf5810c4d60af4286a7c32bc422043166070583540c"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_french.dat",
+      "size": 8525044,
+      "sha256": "8f05a9821bfa12b3efddfb676d9880893ffc49f51bdf00bc8849d29fd88c1e61"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_french.fat",
+      "size": 9392,
+      "sha256": "bd1cb97154f56be8d4c56e719c4fd67619a8a9ff54523307d2fe00d2bdaa3250"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_german.dat",
+      "size": 9010856,
+      "sha256": "eda327f805088f53faf220213178aa9a6340403638f1d6c07e47f0996a849ebf"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_german.fat",
+      "size": 9392,
+      "sha256": "8d7441e36a9bcaab32b96fddf8e16bf36c99295bbe1b699b7e32dca393ee5b76"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_italian.dat",
+      "size": 9209139,
+      "sha256": "be68f6f8f01e3462973169caa635b66c42c5e6511089816c85fc32c5f8fbdc24"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_italian.fat",
+      "size": 9392,
+      "sha256": "7ef32d72ac3a257865613c0d201c0dac5598bb9ebe4c34fd6c21f1680a483afa"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_menus.dat",
+      "size": 2067327,
+      "sha256": "f548b912f517ce3d0ee804e0255385f080a9a5de3400aa5508b7aba1f68a4d7a"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_menus.fat",
+      "size": 1032,
+      "sha256": "430fa8e16dd4327d9f01a2b4ac0047bab595fdaa4c2ece0237741e56bc0ded45"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/mp_dlc1/toc.rml",
+      "size": 1989,
+      "sha256": "8c7ae11f321cfe19d9b94ff6d0c616f4f8ff720004483cbea586230f685fe00c"
+    },
+    {
+      "path": "data_win32/worlds/fc3_main/fc3_main.dat",
+      "size": 3496061837,
+      "sha256": "bad694b1d554a70dac2064710f17bd676627b7d65ac22ddfbc79412daefd3a51"
+    },
+    {
+      "path": "data_win32/worlds/fc3_main/fc3_main.fat",
+      "size": 3633372,
+      "sha256": "17634a0240882792c39c05f345f274a8600d6797596b2711e24df87bc97976d2"
+    },
+    {
+      "path": "data_win32/worlds/fc3_main/fc3_main_english.dat",
+      "size": 212112231,
+      "sha256": "b5bff4fa6f6f30ed976adbd698718dd3848009ad23c7766b7e4f613bbb586583"
+    },
+    {
+      "path": "data_win32/worlds/fc3_main/fc3_main_english.fat",
+      "size": 215132,
+      "sha256": "69679ebe2f60abea5025d63c9b125e90da4aca2da417d97d58b8186a542ffe5b"
+    },
+    {
+      "path": "data_win32/worlds/fc3_main/fc3_main_french.dat",
+      "size": 201251584,
+      "sha256": "b0a6c730e7757543ed4be1132efc2c7a9ae59d81a355dadb406072333d1e7b93"
+    },
+    {
+      "path": "data_win32/worlds/fc3_main/fc3_main_french.fat",
+      "size": 215132,
+      "sha256": "e775d6fcaf78a2f892b2a334243bdae0ed1d6ef99e8d087e738de231da27738d"
+    },
+    {
+      "path": "data_win32/worlds/fc3_main/fc3_main_german.dat",
+      "size": 211310459,
+      "sha256": "35ef9ebb480b44f395f97990187809e148f3b9583d1491dd3916076919dfbbd1"
+    },
+    {
+      "path": "data_win32/worlds/fc3_main/fc3_main_german.fat",
+      "size": 215132,
+      "sha256": "71f1c5108e51c36139489a1d0b916a81e65ed274f77c3d642e57abc568b8a70d"
+    },
+    {
+      "path": "data_win32/worlds/fc3_main/fc3_main_italian.dat",
+      "size": 212714542,
+      "sha256": "a76d8e5b3e6d0ea8120cb4ce513544f0d01c7e20d5bbb3d87fa9eaf57cb77fc4"
+    },
+    {
+      "path": "data_win32/worlds/fc3_main/fc3_main_italian.fat",
+      "size": 215132,
+      "sha256": "343d90b49b5ce8d2eca7b3aca1bc39f4b3bba18e3cdae76f0f866cea0521a518"
+    },
+    {
+      "path": "data_win32/worlds/fc3_main/fc3_main_vistas.dat",
+      "size": 152925506,
+      "sha256": "604b59ce1956bb1aa3bf48ee54a9adcaf72994903e2916f2ed6192798904f311"
+    },
+    {
+      "path": "data_win32/worlds/fc3_main/fc3_main_vistas.fat",
+      "size": 265252,
+      "sha256": "c6b89c82fee881e09a8b43c06fc5083a8cbd8e80a9fb8fbcd9b25bee48900b83"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon.dat",
+      "size": 2659758674,
+      "sha256": "05422a60da58b04670ac7157e3560466cbcfbb00705158098020cfdfb42d1e87"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon.fat",
+      "size": 2445132,
+      "sha256": "ee8201df227b0479bda7b1adc28719fc1d700e28083950ca32637d0d140fcd6f"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_english.dat",
+      "size": 245893347,
+      "sha256": "bdc43d48e927b612b595b16aa130c98908d558861b98c93e7652d8e022d17a69"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_english.fat",
+      "size": 286212,
+      "sha256": "1875bb009799f8d99f654e31ec34e131116a6a55a5ba16902f2aafdea3ee227e"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_french.dat",
+      "size": 230703230,
+      "sha256": "e425799f73eda0843d50ff0b2395b97b2a2fd1116343f977c55c484e2e9cdc22"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_french.fat",
+      "size": 286212,
+      "sha256": "f86f6b774a1e456e67311ce89a1eee7a2e112cc6c4bb68fbe1911c32f83de5e3"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_german.dat",
+      "size": 241169182,
+      "sha256": "e4d6e1337be97b7d809fb1fdc10c6f1b3dd8ced96ccef6c7a4caaa308381d544"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_german.fat",
+      "size": 286212,
+      "sha256": "6960d4d514038784637403b926e6b226178f1a95b65747a72e2aac5627f3838f"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_italian.dat",
+      "size": 244683016,
+      "sha256": "40ad32d511cd418940c5bcce96b33c228f7eafa19320866e3db743ff5b05b92e"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_italian.fat",
+      "size": 286212,
+      "sha256": "cff5e4f91196f051779e52bd24fed58e37761f079514e5f518ea5d5c272e31ba"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_vistas.dat",
+      "size": 357877876,
+      "sha256": "ff146bd5b52c6747d8348f4aad20577fb119eff99f528079b3dd421b4603618c"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_vistas.fat",
+      "size": 625652,
+      "sha256": "ad9d47e15b58f53928199d1685ca7453e54db1b5dae358b3f0d26cb50070e84b"
+    },
+    {
+      "path": "FarCry3.ico",
+      "size": 370070,
+      "sha256": "bd67fd1dc82443277aceaada9e48f55e1550ce1275fad7ec10ca10d66b948516"
+    },
+    {
+      "path": "Support/Readme/ReadMe.txt",
+      "size": 24253,
+      "sha256": "a4390460b84702fd255b67969272a8a8dfe37046726daabd8aecae6a8ec4dfac"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "bin/binkw32.dll",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 231504
+        },
+        {
+          "file": "bin/farcry3.exe",
+          "file_offset": 0,
+          "chunk_offset": 49451280,
+          "length": 200720
+        },
+        {
+          "file": "bin/farcry3.ico",
+          "file_offset": 0,
+          "chunk_offset": 49652000,
+          "length": 185871
+        },
+        {
+          "file": "bin/farcry3_d3d11.exe",
+          "file_offset": 0,
+          "chunk_offset": 49837871,
+          "length": 200720
+        },
+        {
+          "file": "bin/FC3.dll",
+          "file_offset": 0,
+          "chunk_offset": 50038591,
+          "length": 29987344
+        },
+        {
+          "file": "bin/FC3_d3d11.dll",
+          "file_offset": 0,
+          "chunk_offset": 80025935,
+          "length": 30050320
+        },
+        {
+          "file": "bin/FC3Editor.Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 110076255,
+          "length": 1900560
+        },
+        {
+          "file": "bin/FC3Editor.exe",
+          "file_offset": 0,
+          "chunk_offset": 111976815,
+          "length": 203280
+        },
+        {
+          "file": "bin/FC3Editor.exe.config",
+          "file_offset": 0,
+          "chunk_offset": 112180095,
+          "length": 235
+        },
+        {
+          "file": "bin/FC3Updater.exe",
+          "file_offset": 0,
+          "chunk_offset": 112180330,
+          "length": 1011728
+        },
+        {
+          "file": "bin/GameuxInstallHelper.dll",
+          "file_offset": 0,
+          "chunk_offset": 113192058,
+          "length": 91728
+        },
+        {
+          "file": "bin/GDFInstall.exe",
+          "file_offset": 0,
+          "chunk_offset": 113283786,
+          "length": 92240
+        },
+        {
+          "file": "bin/GDFWin8.dll",
+          "file_offset": 0,
+          "chunk_offset": 113376026,
+          "length": 3374096
+        },
+        {
+          "file": "bin/gpudatabase.dll",
+          "file_offset": 0,
+          "chunk_offset": 116750122,
+          "length": 12880
+        },
+        {
+          "file": "bin/orbit_api.ini",
+          "file_offset": 0,
+          "chunk_offset": 116763002,
+          "length": 22
+        },
+        {
+          "file": "bin/pb/dll/wa001383.dll",
+          "file_offset": 0,
+          "chunk_offset": 116763024,
+          "length": 57344
+        },
+        {
+          "file": "bin/pb/dll/wc002312.dll",
+          "file_offset": 0,
+          "chunk_offset": 116820368,
+          "length": 953886
+        },
+        {
+          "file": "bin/pb/dll/ws001853.dll",
+          "file_offset": 0,
+          "chunk_offset": 117774254,
+          "length": 421888
+        },
+        {
+          "file": "bin/pb/htm/wa001383.htm",
+          "file_offset": 0,
+          "chunk_offset": 118196142,
+          "length": 50644
+        },
+        {
+          "file": "bin/pb/htm/wc002312.htm",
+          "file_offset": 0,
+          "chunk_offset": 118246786,
+          "length": 1438404
+        },
+        {
+          "file": "bin/pb/htm/ws001853.htm",
+          "file_offset": 0,
+          "chunk_offset": 119685190,
+          "length": 462437
+        },
+        {
+          "file": "bin/pb/pbag.dll",
+          "file_offset": 0,
+          "chunk_offset": 120147627,
+          "length": 57344
+        },
+        {
+          "file": "bin/pb/pbags.dll",
+          "file_offset": 0,
+          "chunk_offset": 120204971,
+          "length": 57344
+        },
+        {
+          "file": "bin/pb/pbcl.db",
+          "file_offset": 0,
+          "chunk_offset": 120262315,
+          "length": 211
+        },
+        {
+          "file": "bin/pb/pbcl.dll",
+          "file_offset": 0,
+          "chunk_offset": 120262526,
+          "length": 953886
+        },
+        {
+          "file": "bin/pb/pbclgame.cfg",
+          "file_offset": 0,
+          "chunk_offset": 121216412,
+          "length": 17
+        },
+        {
+          "file": "bin/pb/pbcls.dll",
+          "file_offset": 0,
+          "chunk_offset": 121216429,
+          "length": 953886
+        },
+        {
+          "file": "bin/pb/pbns_c.dat",
+          "file_offset": 0,
+          "chunk_offset": 122170315,
+          "length": 104
+        },
+        {
+          "file": "bin/pb/pbsv.dat",
+          "file_offset": 0,
+          "chunk_offset": 122170419,
+          "length": 38
+        },
+        {
+          "file": "bin/pb/pbsv.dll",
+          "file_offset": 0,
+          "chunk_offset": 122170457,
+          "length": 421888
+        },
+        {
+          "file": "bin/pb/pbsvgame.cfg",
+          "file_offset": 0,
+          "chunk_offset": 122592345,
+          "length": 17
+        },
+        {
+          "file": "bin/pbsvc_fc3.exe",
+          "file_offset": 0,
+          "chunk_offset": 122592362,
+          "length": 3190168
+        },
+        {
+          "file": "bin/Resources/de/GameUpdate.de",
+          "file_offset": 0,
+          "chunk_offset": 125782530,
+          "length": 5897
+        },
+        {
+          "file": "bin/Resources/es/GameUpdate.es",
+          "file_offset": 0,
+          "chunk_offset": 125788427,
+          "length": 5848
+        },
+        {
+          "file": "bin/Resources/fr/GameUpdate.fr",
+          "file_offset": 0,
+          "chunk_offset": 125794275,
+          "length": 5934
+        },
+        {
+          "file": "bin/Resources/it/GameUpdate.it",
+          "file_offset": 0,
+          "chunk_offset": 125800209,
+          "length": 5533
+        },
+        {
+          "file": "bin/Resources/nl/GameUpdate.nl",
+          "file_offset": 0,
+          "chunk_offset": 125805742,
+          "length": 5663
+        },
+        {
+          "file": "bin/Resources/uk/GameUpdate.uk",
+          "file_offset": 0,
+          "chunk_offset": 125811405,
+          "length": 5140
+        },
+        {
+          "file": "bin/Resources/us/GameUpdate.us",
+          "file_offset": 0,
+          "chunk_offset": 125816545,
+          "length": 5140
+        },
+        {
+          "file": "bin/SandBar.dll",
+          "file_offset": 0,
+          "chunk_offset": 125821685,
+          "length": 263248
+        },
+        {
+          "file": "bin/SandDock.dll",
+          "file_offset": 0,
+          "chunk_offset": 126084933,
+          "length": 242768
+        },
+        {
+          "file": "bin/systemdetection.dll",
+          "file_offset": 0,
+          "chunk_offset": 126327701,
+          "length": 1012752
+        },
+        {
+          "file": "bin/ubiorbitapi_r2_loader.dll",
+          "file_offset": 0,
+          "chunk_offset": 127340453,
+          "length": 209920
+        },
+        {
+          "file": "bin/uplay_r1_loader.dll",
+          "file_offset": 0,
+          "chunk_offset": 127550373,
+          "length": 3584
+        },
+        {
+          "file": "data_win32/common.dat",
+          "file_offset": 0,
+          "chunk_offset": 127553957,
+          "length": 121858911
+        }
+      ],
+      "sha256": "97bea093f494314755ea11418c68df035fff7b5d9b7e13d92d3cbeae32c1a59c"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/common.dat",
+          "file_offset": 121858911,
+          "chunk_offset": 0,
+          "length": 70433708
+        },
+        {
+          "file": "data_win32/common.fat",
+          "file_offset": 0,
+          "chunk_offset": 70433708,
+          "length": 61312
+        },
+        {
+          "file": "data_win32/engine/shaders/obj/index.cso",
+          "file_offset": 0,
+          "chunk_offset": 70495020,
+          "length": 530588
+        },
+        {
+          "file": "data_win32/engine/shaders/obj/index.dep",
+          "file_offset": 0,
+          "chunk_offset": 71025608,
+          "length": 28
+        },
+        {
+          "file": "data_win32/engine/shaders/obj/index.dso",
+          "file_offset": 0,
+          "chunk_offset": 71025636,
+          "length": 530588
+        },
+        {
+          "file": "data_win32/engine/shaders/obj/index.hso",
+          "file_offset": 0,
+          "chunk_offset": 71556224,
+          "length": 530588
+        },
+        {
+          "file": "data_win32/engine/shaders/obj/index.pds",
+          "file_offset": 0,
+          "chunk_offset": 72086812,
+          "length": 530588
+        },
+        {
+          "file": "data_win32/engine/shaders/obj/index.pso",
+          "file_offset": 0,
+          "chunk_offset": 72617400,
+          "length": 530588
+        },
+        {
+          "file": "data_win32/engine/shaders/obj/index.rs",
+          "file_offset": 0,
+          "chunk_offset": 73147988,
+          "length": 319028
+        },
+        {
+          "file": "data_win32/engine/shaders/obj/index.vds",
+          "file_offset": 0,
+          "chunk_offset": 73467016,
+          "length": 530588
+        },
+        {
+          "file": "data_win32/engine/shaders/obj/index.vso",
+          "file_offset": 0,
+          "chunk_offset": 73997604,
+          "length": 530588
+        },
+        {
+          "file": "data_win32/engine/shaders/obj/timestamp__100.ts",
+          "file_offset": 0,
+          "chunk_offset": 74528192,
+          "length": 8
+        },
+        {
+          "file": "data_win32/ige.dat",
+          "file_offset": 0,
+          "chunk_offset": 74528200,
+          "length": 174884668
+        }
+      ],
+      "sha256": "a3d99fc91fc197bcc2d4472fea6282bb1db3f2a227aaa25b9b3915544844217e"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/ige.dat",
+          "file_offset": 174884668,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "a1003fb9a00ca2d80628f71462fb98d90b3cc20cf56f2226144eed4b8e9f6169"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/ige.dat",
+          "file_offset": 424297536,
+          "chunk_offset": 0,
+          "length": 7942394
+        },
+        {
+          "file": "data_win32/ige.fat",
+          "file_offset": 0,
+          "chunk_offset": 7942394,
+          "length": 275332
+        },
+        {
+          "file": "data_win32/igepatch.dat",
+          "file_offset": 0,
+          "chunk_offset": 8217726,
+          "length": 421525
+        },
+        {
+          "file": "data_win32/igepatch.fat",
+          "file_offset": 0,
+          "chunk_offset": 8639251,
+          "length": 312
+        },
+        {
+          "file": "data_win32/patch.dat",
+          "file_offset": 0,
+          "chunk_offset": 8639563,
+          "length": 2687342
+        },
+        {
+          "file": "data_win32/patch.fat",
+          "file_offset": 0,
+          "chunk_offset": 11326905,
+          "length": 8492
+        },
+        {
+          "file": "data_win32/patch_german.dat",
+          "file_offset": 0,
+          "chunk_offset": 11335397,
+          "length": 321826
+        },
+        {
+          "file": "data_win32/patch_german.fat",
+          "file_offset": 0,
+          "chunk_offset": 11657223,
+          "length": 312
+        },
+        {
+          "file": "data_win32/shadersobj.dat",
+          "file_offset": 0,
+          "chunk_offset": 11657535,
+          "length": 71791330
+        },
+        {
+          "file": "data_win32/shadersobj.fat",
+          "file_offset": 0,
+          "chunk_offset": 83448865,
+          "length": 691152
+        },
+        {
+          "file": "data_win32/sound.dat",
+          "file_offset": 0,
+          "chunk_offset": 84140017,
+          "length": 165272851
+        }
+      ],
+      "sha256": "165c2dcd95bf3f48a49c02f39da0a869a3f6a106130eb3f26f3d9cf66fd1ba46"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/sound.dat",
+          "file_offset": 165272851,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "8b92419b25fb6a4ade68da24c850e49243e668f661b731369aa50880913c6c9d"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/sound.dat",
+          "file_offset": 414685719,
+          "chunk_offset": 0,
+          "length": 14686411
+        },
+        {
+          "file": "data_win32/sound.fat",
+          "file_offset": 0,
+          "chunk_offset": 14686411,
+          "length": 8692
+        },
+        {
+          "file": "data_win32/sound_english.fat",
+          "file_offset": 0,
+          "chunk_offset": 14695103,
+          "length": 32
+        },
+        {
+          "file": "data_win32/sound_french.fat",
+          "file_offset": 0,
+          "chunk_offset": 14695135,
+          "length": 32
+        },
+        {
+          "file": "data_win32/sound_german.fat",
+          "file_offset": 0,
+          "chunk_offset": 14695167,
+          "length": 32
+        },
+        {
+          "file": "data_win32/sound_italian.fat",
+          "file_offset": 0,
+          "chunk_offset": 14695199,
+          "length": 32
+        },
+        {
+          "file": "data_win32/sound_spanish.fat",
+          "file_offset": 0,
+          "chunk_offset": 14695231,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1.dat",
+          "file_offset": 0,
+          "chunk_offset": 14695263,
+          "length": 200518816
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1.fat",
+          "file_offset": 0,
+          "chunk_offset": 215214079,
+          "length": 364232
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_english.dat",
+          "file_offset": 0,
+          "chunk_offset": 215578311,
+          "length": 9178937
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_english.fat",
+          "file_offset": 0,
+          "chunk_offset": 224757248,
+          "length": 9452
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_entitylibrary.dat",
+          "file_offset": 0,
+          "chunk_offset": 224766700,
+          "length": 9360
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_entitylibrary.fat",
+          "file_offset": 0,
+          "chunk_offset": 224776060,
+          "length": 132
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_french.dat",
+          "file_offset": 0,
+          "chunk_offset": 224776192,
+          "length": 8525044
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_french.fat",
+          "file_offset": 0,
+          "chunk_offset": 233301236,
+          "length": 9392
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_german.dat",
+          "file_offset": 0,
+          "chunk_offset": 233310628,
+          "length": 9010856
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_german.fat",
+          "file_offset": 0,
+          "chunk_offset": 242321484,
+          "length": 9392
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_italian.dat",
+          "file_offset": 0,
+          "chunk_offset": 242330876,
+          "length": 7081992
+        }
+      ],
+      "sha256": "4082867b466ba51f9932a725477e4c4d141a01d059e9c8eacaaf74139c905627"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_italian.dat",
+          "file_offset": 7081992,
+          "chunk_offset": 0,
+          "length": 2127147
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_italian.fat",
+          "file_offset": 0,
+          "chunk_offset": 2127147,
+          "length": 9392
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_menus.dat",
+          "file_offset": 0,
+          "chunk_offset": 2136539,
+          "length": 2067327
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/mp_dlc1_menus.fat",
+          "file_offset": 0,
+          "chunk_offset": 4203866,
+          "length": 1032
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/mp_dlc1/toc.rml",
+          "file_offset": 0,
+          "chunk_offset": 4204898,
+          "length": 1989
+        },
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 0,
+          "chunk_offset": 4206887,
+          "length": 245205981
+        }
+      ],
+      "sha256": "a468405e269f6fea0bde6d6a82ac87ee976172f2b1737a23f719865635648c9e"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 245205981,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "26dd20cb39b41482b1327f3c299fdf1a84a3b1f28e7b0b5c7debd9d318da5cf8"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 494618849,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "74ce32bb83ba8df977bbf72e587fd7300d981502e514ddf2cbddc6f69008ee05"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 744031717,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "d3642dbb22030c1d475818e0c4dbaa3d2a094f6098f83a53e5161c206ee67d07"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 993444585,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "b1b9cda39d6d2fa22649d5eee57e9871f7ecff9310c0b1636aa3e93c93d6243d"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 1242857453,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "d01fdf748af1b715af42116fe11a9ae8858164497add412891fa4ba5768fb307"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 1492270321,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "c0cf16a15315637fe6de03a90b03d15439582fa0475c94810a745093389f6464"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 1741683189,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "ce32cf44bb5395e754ec7562cab43229647f19b73835b329f766e62c2362e841"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 1991096057,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "c77509ed02b93b480c25596e6b7ea0ab2d4eb0fea56303afd190fd8f9109b1b4"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 2240508925,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "d4c49b43389928fb984e7c727d373fba6fd9a9da369473b1af0b7864139f5938"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 2489921793,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "5c08ce9533dd12958bd44b65a79e6811f76f539d703b61eafe2bd26211e07b4a"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 2739334661,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "0809f1614343d595481c9c901e19fd6a50b65dfaf0257cc8cd977c404db99fc0"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 2988747529,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "110806bb97fe066a10e156ebaa85e948f5dee95f2e32de305f9b75e4d1635606"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 3238160397,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "f948a78514dc309b77ac6c4ac90c608077c7b1bd38a6704661f310b3ae5b08d0"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.dat",
+          "file_offset": 3487573265,
+          "chunk_offset": 0,
+          "length": 8488572
+        },
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main.fat",
+          "file_offset": 0,
+          "chunk_offset": 8488572,
+          "length": 3633372
+        },
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main_english.dat",
+          "file_offset": 0,
+          "chunk_offset": 12121944,
+          "length": 212112231
+        },
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main_english.fat",
+          "file_offset": 0,
+          "chunk_offset": 224234175,
+          "length": 215132
+        },
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main_french.dat",
+          "file_offset": 0,
+          "chunk_offset": 224449307,
+          "length": 24963561
+        }
+      ],
+      "sha256": "3e18d9366d6763b253a223703e57f8a08244cc5195e9accb57e6183c55eb0d8c"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main_french.dat",
+          "file_offset": 24963561,
+          "chunk_offset": 0,
+          "length": 176288023
+        },
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main_french.fat",
+          "file_offset": 0,
+          "chunk_offset": 176288023,
+          "length": 215132
+        },
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main_german.dat",
+          "file_offset": 0,
+          "chunk_offset": 176503155,
+          "length": 72909713
+        }
+      ],
+      "sha256": "33a939def9002224e87006a29438df1eb1398dea97b64bf5c0ad92ff21960e3a"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main_german.dat",
+          "file_offset": 72909713,
+          "chunk_offset": 0,
+          "length": 138400746
+        },
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main_german.fat",
+          "file_offset": 0,
+          "chunk_offset": 138400746,
+          "length": 215132
+        },
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main_italian.dat",
+          "file_offset": 0,
+          "chunk_offset": 138615878,
+          "length": 110796990
+        }
+      ],
+      "sha256": "6a814372ec80fa74d4f184b5ec5254257c1b2c29725c0b69cb984e3ebba8da21"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main_italian.dat",
+          "file_offset": 110796990,
+          "chunk_offset": 0,
+          "length": 101917552
+        },
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main_italian.fat",
+          "file_offset": 0,
+          "chunk_offset": 101917552,
+          "length": 215132
+        },
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main_vistas.dat",
+          "file_offset": 0,
+          "chunk_offset": 102132684,
+          "length": 147280184
+        }
+      ],
+      "sha256": "ba859b277be360f3ce43dbace986d760690cb67b6a28e5dca1ffcac42f1a3539"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main_vistas.dat",
+          "file_offset": 147280184,
+          "chunk_offset": 0,
+          "length": 5645322
+        },
+        {
+          "file": "data_win32/worlds/fc3_main/fc3_main_vistas.fat",
+          "file_offset": 0,
+          "chunk_offset": 5645322,
+          "length": 265252
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 0,
+          "chunk_offset": 5910574,
+          "length": 243502294
+        }
+      ],
+      "sha256": "157fa210e3510274a709e6741188700999cb61ebd7769eadbb5ba836bb02fa8a"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 243502294,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "1c8cf8414e40b4c279ffa908eec7645bd1abdfc30615e29623e374849b1b86b7"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 492915162,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "15578aa914adde919f53bd096e00b66c72cb895bfa8467d65c04f773bbc79e8c"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 742328030,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "c44463ea1dfa36a2b8a367e8a6ba7a2c7088408eaebe94ed24e0c15c245aa75b"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 991740898,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "5b2fb78cf15b134fbf7c3533ea8959ec3fb3282e9024cccc8ce7cb4ec001f6b3"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 1241153766,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "5df03534c287d3a6eacc858e161cde0d80f65a7e83dfe96eed9e6511a543e52d"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 1490566634,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "464da60d0c87eed0ad94242a2aa8e6b8b029bc038ef3dc46af6db5ee25de76e8"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 1739979502,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "6a64f63c1cba250cee67ae7d7aa8ef43ee8783ac0d0aaba2de86b595bc667800"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 1989392370,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "2ff62e0b2766be13bc03cd662a9992130ad4fa06bfa7723069027ad921aa75dc"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 2238805238,
+          "chunk_offset": 0,
+          "length": 249412868
+        }
+      ],
+      "sha256": "0b9a4a0cc5b8b2a2f30462f78355f8114bac720f14137dcdbd98abd570cd49cc"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 2488218106,
+          "chunk_offset": 0,
+          "length": 171540568
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.fat",
+          "file_offset": 0,
+          "chunk_offset": 171540568,
+          "length": 2445132
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_english.dat",
+          "file_offset": 0,
+          "chunk_offset": 173985700,
+          "length": 75427168
+        }
+      ],
+      "sha256": "c8a9911a09c2c26b0a57cc53489347ded38a1120b213d7f066cb86628793fa2c"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_english.dat",
+          "file_offset": 75427168,
+          "chunk_offset": 0,
+          "length": 170466179
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_english.fat",
+          "file_offset": 0,
+          "chunk_offset": 170466179,
+          "length": 286212
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_french.dat",
+          "file_offset": 0,
+          "chunk_offset": 170752391,
+          "length": 78660477
+        }
+      ],
+      "sha256": "1262e22fcdbe5af28f3d6f7f1e14467201687982974bee9cffb897427fd1ee2c"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_french.dat",
+          "file_offset": 78660477,
+          "chunk_offset": 0,
+          "length": 152042753
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_french.fat",
+          "file_offset": 0,
+          "chunk_offset": 152042753,
+          "length": 286212
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_german.dat",
+          "file_offset": 0,
+          "chunk_offset": 152328965,
+          "length": 97083903
+        }
+      ],
+      "sha256": "ecc2505277ba92a2ca8f48e433122a111247cbc4fad024ab76e121f0a2dbc25d"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_german.dat",
+          "file_offset": 97083903,
+          "chunk_offset": 0,
+          "length": 144085279
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_german.fat",
+          "file_offset": 0,
+          "chunk_offset": 144085279,
+          "length": 286212
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_italian.dat",
+          "file_offset": 0,
+          "chunk_offset": 144371491,
+          "length": 105041377
+        }
+      ],
+      "sha256": "1539dc2f0f6283a3828ecdd25e51a64fccf32b42c1fc37b17389b7da3e862fd2"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 249412868,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_italian.dat",
+          "file_offset": 105041377,
+          "chunk_offset": 0,
+          "length": 139641639
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_italian.fat",
+          "file_offset": 0,
+          "chunk_offset": 139641639,
+          "length": 286212
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_vistas.dat",
+          "file_offset": 0,
+          "chunk_offset": 139927851,
+          "length": 109485017
+        }
+      ],
+      "sha256": "9134f2323892ac3a716d1be54ac4ccbd3d14cb08c59b1c6fb71d9b7932e0a639"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 249412834,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_vistas.dat",
+          "file_offset": 109485017,
+          "chunk_offset": 0,
+          "length": 248392859
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_vistas.fat",
+          "file_offset": 0,
+          "chunk_offset": 248392859,
+          "length": 625652
+        },
+        {
+          "file": "FarCry3.ico",
+          "file_offset": 0,
+          "chunk_offset": 249018511,
+          "length": 370070
+        },
+        {
+          "file": "Support/Readme/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249388581,
+          "length": 24253
+        }
+      ],
+      "sha256": "25c4d47632567085ce4de876f2a6a23714456d3b89076d152f41247a37cc7267"
+    }
+  ]
+}
