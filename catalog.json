@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-21T06:09:18.130517+00:00",
+  "updated_at": "2026-08-21T08:10:15.138120+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -766,6 +766,41 @@
       },
       "media": {
         "steam_app_id": 35140
+      }
+    },
+    {
+      "id": "mass-effect-2007",
+      "title": "Mass Effect (2007)",
+      "platform": "pc",
+      "description": "As Commander Shepard, you lead an elite squad on a heroic, action-packed adventure throughout the galaxy.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mass-effect-2007/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mass-effect-2007/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mass-effect-2007/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mass-effect-2007/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mass-effect-2007/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mass-effect-2007/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mass-effect-2007/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mass-effect-2007/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mass-effect-2007/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mass-effect-2007/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mass-effect-2007/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mass-effect-2007/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-mass-effect-2007-v1.0.0-stable",
+          "manifest_path": "manifests/pc/mass-effect-2007/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/mass-effect-2007/stable/1.0.0.json",
+          "size": 24338479215,
+          "published_at": "2026-08-21T08:10:15.138107+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 17460
       }
     }
   ]
