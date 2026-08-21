@@ -1,0 +1,4833 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "fallout-new-vegas",
+    "title": "Fallout: New Vegas",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Welcome to Vegas. New Vegas. Enjoy your stay!"
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-fallout-new-vegas-v1.0.0-stable"
+  },
+  "chunk_size": 247851790,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 9914071578,
+  "files": [
+    {
+      "path": "atimgpud.dll",
+      "size": 165304,
+      "sha256": "15c87bdc99674cee4e4c609b5fb6ac52297b46d228e7a9ea3ff9c7fbd4695912"
+    },
+    {
+      "path": "binkw32.dll",
+      "size": 338944,
+      "sha256": "c6c06e2d21f2179f0b7fbe829a4b17a7b371440d2c679253ec86b64d421185bd"
+    },
+    {
+      "path": "Data/CaravanPack - Main.bsa",
+      "size": 4235371,
+      "sha256": "c4ee871e4c5dcc6fe2206b81c85fb0d8715d060260b9d37738bbbafcd723fcea"
+    },
+    {
+      "path": "Data/CaravanPack.esm",
+      "size": 3007,
+      "sha256": "0473cff52d375a77d6585f203a914445fa5a9e6ba726818aa7d8d48cb177ec82"
+    },
+    {
+      "path": "Data/CaravanPack.nam",
+      "size": 12,
+      "sha256": "945d7e4a6e14855245aa4340d9fbe5042d5222107c2b0b5a0996ead915878c80"
+    },
+    {
+      "path": "Data/ClassicPack - Main.bsa",
+      "size": 8445542,
+      "sha256": "2d87957a795107eeaf9b4811a7ba29505ff0b7a0d03ec3e5dc2a928def0b78bd"
+    },
+    {
+      "path": "Data/ClassicPack.esm",
+      "size": 6523,
+      "sha256": "3b31928dfdac46028f2e12f25b0dbdd0e809d4d74ac04fb7783e0063e912760b"
+    },
+    {
+      "path": "Data/ClassicPack.nam",
+      "size": 12,
+      "sha256": "1617200663bbec8a044df3cbe1621fb0d802fbfd29d09fe21320a0b37d1f9b1a"
+    },
+    {
+      "path": "Data/Credits.txt",
+      "size": 52417,
+      "sha256": "2b328d4d1d06d117e5bab0d9a8c4b5c7f246ed07640331b1f7809180fd7da76c"
+    },
+    {
+      "path": "Data/CreditsWacky.txt",
+      "size": 57300,
+      "sha256": "7825fa082b1259a0894c49a904a5e6eb76de4e05ef58a0fab5dbe0bee7752973"
+    },
+    {
+      "path": "Data/DeadMoney - Main.bsa",
+      "size": 358888134,
+      "sha256": "6a40698ea28c380b883a0a06ed42a4a6acd7b3c2513785e038d75d844d56a3a5"
+    },
+    {
+      "path": "Data/DeadMoney - Sounds.bsa",
+      "size": 105097622,
+      "sha256": "8a1c458106fb230a98b4b3e913aafc85e6d91a99471e4ef7220987ad8a8123a8"
+    },
+    {
+      "path": "Data/DeadMoney.esm",
+      "size": 6274851,
+      "sha256": "31ede9c21ae6960ec868bf60879c602bf7a13879b2f47e7cfd1ac30b4d4de329"
+    },
+    {
+      "path": "Data/DEADMONEY.NAM",
+      "size": 10,
+      "sha256": "a1a38ca11c911e037ed09ed7399f39864ae550d9dba80f186c131b31a5b7c122"
+    },
+    {
+      "path": "Data/Fallout - Meshes.bsa",
+      "size": 1061624491,
+      "sha256": "054e299829ff24fd4bd4edf69f6424346b400c87379cee39bec02e4d082bf85a"
+    },
+    {
+      "path": "Data/Fallout - Misc.bsa",
+      "size": 1905069,
+      "sha256": "61a2fdcff07eda5a19ceea6bb9cf661b250d36a231818e33d3d23be94f9299c2"
+    },
+    {
+      "path": "Data/Fallout - Sound.bsa",
+      "size": 850985572,
+      "sha256": "b134e1e2381473e9a803fd3631b3de51184294b912e6120bc53dd3cde1c3d561"
+    },
+    {
+      "path": "Data/Fallout - Textures.bsa",
+      "size": 1196767196,
+      "sha256": "68c0f4beb00e07cc06361e3a5be0909873220731db3bd43bc013e85544b67578"
+    },
+    {
+      "path": "Data/Fallout - Textures2.bsa",
+      "size": 961249657,
+      "sha256": "bdaa85989b30a68c2c9ce79a07b167ecd72942df47f2e58c4a0299b016410dc2"
+    },
+    {
+      "path": "Data/Fallout - Voices1.bsa",
+      "size": 1602331889,
+      "sha256": "e6e24f4e4201fd1a31a5a00db492dfdf82274406660c2ecbfb1ade9b93e45460"
+    },
+    {
+      "path": "Data/FalloutNV.esm",
+      "size": 245650747,
+      "sha256": "50991d36804b7d1e70df1afd7471b72f0e29d1b456ee2516a9717c002564e7c1"
+    },
+    {
+      "path": "Data/FalloutNV_lang.esp",
+      "size": 56,
+      "sha256": "ee1a30823460a1475b271bcc6552d3f5662be4dadcb5e1a5f6f8244956ff0a62"
+    },
+    {
+      "path": "Data/GunRunnersArsenal - Main.bsa",
+      "size": 122572765,
+      "sha256": "b118999f87827c353664f8a99440fcea40d20a17eaffdcc1e78543d81fb51bc4"
+    },
+    {
+      "path": "Data/GunRunnersArsenal - Sounds.bsa",
+      "size": 9715305,
+      "sha256": "1c96ccadce4bccad61ba994dc1999609725b8dbe8eadaefe40901ff3eb975f3b"
+    },
+    {
+      "path": "Data/GunRunnersArsenal.esm",
+      "size": 252445,
+      "sha256": "aee27930699494f0626d24a3a8ae947fe447e33edc0ed46762e54faab4c05a1e"
+    },
+    {
+      "path": "Data/GUNRUNNERSARSENAL.NAM",
+      "size": 20,
+      "sha256": "c476491c66249cd0dcabf3e2407dd4b7265ecc5c7eb7103e230de79f87459dc8"
+    },
+    {
+      "path": "Data/HonestHearts - Main.bsa",
+      "size": 393526429,
+      "sha256": "282ef809845c09e08bdf0d49d8c3aa0f08ad64ba759d245fdfad35215c7f45df"
+    },
+    {
+      "path": "Data/HonestHearts - Sounds.bsa",
+      "size": 14267595,
+      "sha256": "4271b3fa8768def50613aa002711d0383082a73e0d2bad2cc2ea9df5830e82db"
+    },
+    {
+      "path": "Data/HonestHearts.esm",
+      "size": 17308500,
+      "sha256": "4341d1a35eaac7d9e7097ebac8f31a13264ca6dcb33443408bd97e5ddd5d8368"
+    },
+    {
+      "path": "Data/HONESTHEARTS.NAM",
+      "size": 13,
+      "sha256": "763ed067c77d5a90dd26c97dd6f948e8e0105f73f1448bcc06f44b19f46b6465"
+    },
+    {
+      "path": "Data/LonesomeRoad - Main.bsa",
+      "size": 767192969,
+      "sha256": "7a97c20e0356a58347928da010d06ff61698baac937775b63bc39c444994e8f4"
+    },
+    {
+      "path": "Data/LonesomeRoad - Sounds.bsa",
+      "size": 28827118,
+      "sha256": "e6e3676c0a9379317eb2ed4f8f490fc8054aef9e8733f418119d8e119960fe30"
+    },
+    {
+      "path": "Data/LonesomeRoad.esm",
+      "size": 25676818,
+      "sha256": "41bf457c1ed313834407840d2b60447f74264e33b372590454ead8ac663b0516"
+    },
+    {
+      "path": "Data/LONESOMEROAD.NAM",
+      "size": 13,
+      "sha256": "5fbf595abc037c4d7b121688a8bd80fc7e196207bc228e0b33339d437ce87072"
+    },
+    {
+      "path": "Data/MercenaryPack - Main.bsa",
+      "size": 1835388,
+      "sha256": "75fa2a35d28fc6f124dc3ee9d49cf3810cbcc92ac3276dd2db59c6f48edb2325"
+    },
+    {
+      "path": "Data/MercenaryPack.esm",
+      "size": 3064,
+      "sha256": "73e76bcadbf326818af7b58c315773a2d86fe3a8186a778e84a68916cb830c59"
+    },
+    {
+      "path": "Data/MercenaryPack.nam",
+      "size": 14,
+      "sha256": "137649a06b2d606e8964d950a3ae59eb629451821477674cec4fcae391ee59d4"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil1/mus_BTTL_Lp_Evil1_City_Full.mp3",
+      "size": 879552,
+      "sha256": "2174fffd83976dab5776cf377b5c81c2ae8fe96d08b7fae9a91b038dad2eb23a"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil1/mus_BTTL_Lp_Evil1_City_Perc.mp3",
+      "size": 879552,
+      "sha256": "447e8cd53911d7c1e0c068b2ba8d8360f39ad18b4199ae48821d6e04f63762c0"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil1/mus_BTTL_Lp_Evil1_Rural_Full(alt1).mp3",
+      "size": 879552,
+      "sha256": "e688b9464c081e9c6eb86137478c443de81c5126c438bcea9fd1c4f1de50e752"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil1/mus_BTTL_Lp_Evil1_Rural_Full.mp3",
+      "size": 879552,
+      "sha256": "239ce11833e0698af4a46debc219b72932314e6e914fd3c8f9ab70de483c2c96"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil1/mus_BTTL_Lp_Evil1_Rural_Perc(alt1).mp3",
+      "size": 1098432,
+      "sha256": "4f7c8c3cd2a46099b38bc292a6529583cc64b6b86d8e4e38c7ad9074bee97612"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil1/mus_BTTL_Lp_Evil1_Rural_Perc(alt2).mp3",
+      "size": 1098432,
+      "sha256": "86e3a48147a8efaf91732250edcff3f6f3d9ee81c8a648518fe7a84aef8f4753"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil1/mus_BTTL_Lp_Evil1_Rural_Perc.mp3",
+      "size": 1098432,
+      "sha256": "f10c92872952ea68f79a9081377c0547111edb659b5aa21197c2893e1318b2b2"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil2/mus_BTTL_Lp_Evil2_City_Full.mp3",
+      "size": 893952,
+      "sha256": "72c6d1355ec04b667d6339bb83ca3d7887336c91c8868b5f7fba0c3a132a0786"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil2/mus_BTTL_Lp_Evil2_City_Perc.mp3",
+      "size": 893952,
+      "sha256": "bfe18b43ee1560660c35f7a800197ac5b4d6524cddb3456b7327699a5eef927c"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil2/mus_BTTL_Lp_Evil2_Rural_Full(alt1).mp3",
+      "size": 893952,
+      "sha256": "28cb97c86da17dd9a20a2a030c1c9b30ee15a6d2747c6bf3dfa7f1443af971d5"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil2/mus_BTTL_Lp_Evil2_Rural_Full.mp3",
+      "size": 893952,
+      "sha256": "e75881b23ccf849773b36037aef064f19865881f7b89a632e709dfcb284b5af4"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil2/mus_BTTL_Lp_Evil2_Rural_Perc(alt1).mp3",
+      "size": 893952,
+      "sha256": "42045fcd718d2f16d80db60fb9b47132074c26c6332b471d628a59afcdf9d352"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil2/mus_BTTL_Lp_Evil2_Rural_Perc.mp3",
+      "size": 891648,
+      "sha256": "2822c2ce4e5d213c14c0a41cfe9c7cbf12caa7ef1d55db1559a7f71c92bb106c"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil3/mus_BTTL_Lp_Evil3_City_Full.mp3",
+      "size": 855360,
+      "sha256": "c39467b28d3f5cf8a5ac85e812cc2862a2cee7a8a08ea07c21c6ed08daf63f55"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil3/mus_BTTL_Lp_Evil3_City_Perc.mp3",
+      "size": 832320,
+      "sha256": "ee3a512b330580d1fbfa1fb55c206bd041327cf5a3e9e9e0d05828054b20b42b"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil3/mus_BTTL_Lp_Evil3_Rural_Full.mp3",
+      "size": 869184,
+      "sha256": "71acbc37e39a8b48dee667d4bc7956e316ad4b972c8637ab83716902fbeed9ab"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil3/mus_BTTL_Lp_Evil3_Rural_Perc.mp3",
+      "size": 869760,
+      "sha256": "98d47ada02654ee16836cb163ab2f054bd288ce12c63e69a2f137d769f4bde7b"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil4/mus_BTTL_Lp_Evil4_City_Full.mp3",
+      "size": 1045440,
+      "sha256": "243d3d7348354133ff4c465ea80784c3ad69f357830d2debd9d454bb0f9e1713"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil4/mus_BTTL_Lp_Evil4_City_Perc.mp3",
+      "size": 1045440,
+      "sha256": "f06802713af2a394689a4e7fb2ea40e042d63ffecd36b3350554430eb30cd1a8"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil4/mus_BTTL_Lp_Evil4_Rural_Full.mp3",
+      "size": 1044864,
+      "sha256": "71fed63ef72e70a00bf46fdea7490779cc6636c0ebb371564e118ad00bb47c7e"
+    },
+    {
+      "path": "Data/Music/BTTL/Evil4/mus_BTTL_Lp_Evil4_Rural_Perc.mp3",
+      "size": 1046016,
+      "sha256": "03d11e07734bed6255fffdd5a53a1cb3c9caa8dea0f8fb6086e0cf6d9e838c67"
+    },
+    {
+      "path": "Data/Music/BTTL/Good1/mus_BTTL_Lp_Good1_City_Full.mp3",
+      "size": 957888,
+      "sha256": "7a041a3c854d267ae1b8c2ec6812c7708e3c2283298369385c26f2e191dc44ec"
+    },
+    {
+      "path": "Data/Music/BTTL/Good1/mus_BTTL_Lp_Good1_City_Perc.mp3",
+      "size": 972864,
+      "sha256": "a61df3c5b9e8c99918f5f9bc04b81d8122374b34da89794b5a45cba871238a50"
+    },
+    {
+      "path": "Data/Music/BTTL/Good1/mus_BTTL_Lp_Good1_Rural_Full.mp3",
+      "size": 1215360,
+      "sha256": "1ea7b4edc417d69f1ea54b1dd63f56e0fcef65a81f1249962dc77cf6aab8058f"
+    },
+    {
+      "path": "Data/Music/BTTL/Good1/mus_BTTL_Lp_Good1_Rural_Perc.mp3",
+      "size": 1215360,
+      "sha256": "bdffe8a5e3af28a392fedcc0225264727d32f654c013783bd3d77cdc3875fba2"
+    },
+    {
+      "path": "Data/Music/BTTL/Good2/mus_BTTL_Lp_Good2_City_Full.mp3",
+      "size": 991296,
+      "sha256": "3de0ca3788d69fac979091bcb1adbe50c49a88883cf5cae4b28f3513d3766124"
+    },
+    {
+      "path": "Data/Music/BTTL/Good2/mus_BTTL_Lp_Good2_City_Perc.mp3",
+      "size": 991296,
+      "sha256": "7e3d22d3354252143021c2a4625586068a5e47dd61f39773d49dec65760b0fe4"
+    },
+    {
+      "path": "Data/Music/BTTL/Good2/mus_BTTL_Lp_Good2_Rural_Full(alt1).mp3",
+      "size": 991296,
+      "sha256": "10f32a6206e02c962f69578225ce702f77da63c19e01e83365872919e179b893"
+    },
+    {
+      "path": "Data/Music/BTTL/Good2/mus_BTTL_Lp_Good2_Rural_Full.mp3",
+      "size": 977472,
+      "sha256": "ceeda4add93830d6ebe402aeb013f5754625086bd8c23893e7b5dc431121be60"
+    },
+    {
+      "path": "Data/Music/BTTL/Good2/mus_BTTL_Lp_Good2_Rural_Perc(alt1).mp3",
+      "size": 991296,
+      "sha256": "a0e131a03ac8af75a16af9a08d602eed322a400ce430d84f9de2e5ca133cb5ea"
+    },
+    {
+      "path": "Data/Music/BTTL/Good2/mus_BTTL_Lp_Good2_Rural_Perc.mp3",
+      "size": 977472,
+      "sha256": "f851af72cf67267d38bf4a5997e0bf359e81b1000ac6032a3bf94abc36ceb86e"
+    },
+    {
+      "path": "Data/Music/BTTL/Good3/mus_BTTL_Lp_Good3_City_Full.mp3",
+      "size": 1615104,
+      "sha256": "c8cc2e39201040701a88dd7cf2cc0b3cc984a2bcdcb36d843bccd35eaa396b5b"
+    },
+    {
+      "path": "Data/Music/BTTL/Good3/mus_BTTL_Lp_Good3_City_Perc.mp3",
+      "size": 1615680,
+      "sha256": "0d63def985411e1d39ed39609c8f509018486ae13e0c7a4d6a00071e990935a5"
+    },
+    {
+      "path": "Data/Music/BTTL/Good3/mus_BTTL_Lp_Good3_Rural_Full.mp3",
+      "size": 1615104,
+      "sha256": "1a5e694568f698064da08040a247962b39d463581c2e76cf3ccdba9575aa3930"
+    },
+    {
+      "path": "Data/Music/BTTL/Good3/mus_BTTL_Lp_Good3_Rural_Perc.mp3",
+      "size": 1615104,
+      "sha256": "f6c80e760f71730655ed7a6d78a4461f4c44a743713d62742b9f357b25ea180a"
+    },
+    {
+      "path": "Data/Music/BTTL/Good4/mus_BTTL_Lp_Good4_City_Full.mp3",
+      "size": 1207296,
+      "sha256": "e1863715cb86c1f11f52f31517a4948281c4437f03bb2651994f9c961c0f6433"
+    },
+    {
+      "path": "Data/Music/BTTL/Good4/mus_BTTL_Lp_Good4_City_Perc.mp3",
+      "size": 1206144,
+      "sha256": "3e1bfcb8c83f364ab1177472a117659a40703ffa3355f9c6458e6d80bd1f1f79"
+    },
+    {
+      "path": "Data/Music/BTTL/Good4/mus_BTTL_Lp_Good4_Rural_Full.mp3",
+      "size": 1206144,
+      "sha256": "25b4fedf006b33c34a83d156d167d83733655ea136ecadd2ad64b66219eab250"
+    },
+    {
+      "path": "Data/Music/BTTL/Good4/mus_BTTL_Lp_Good4_Rural_Perc.mp3",
+      "size": 1206720,
+      "sha256": "cbe62a29fb9d98b610a4537e8f8bd44de28251ede327428053ff2888b795dc34"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon1/mus_DNGN_One_1Low(alt).mp3",
+      "size": 3070080,
+      "sha256": "cc8e2345c6a7f7c485ed0716a64d5692681d60bd6791e7255a349aa2a9b837b1"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon1/mus_DNGN_One_1Low.mp3",
+      "size": 2924928,
+      "sha256": "d7ab6fe4f8d792633ec3a35844ac55fae57861e88b1f38d49511e6e4b89eb4f3"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon1/mus_DNGN_One_2Mid.mp3",
+      "size": 2924928,
+      "sha256": "8b66afb21d95b2f68884c182293043283149b19a8aa32363f5abca81cf8c8fd5"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon1/mus_DNGN_One_3High.mp3",
+      "size": 2924928,
+      "sha256": "8f03336856fdb42fe8e3e81674d87e6743fe03868a2472f5730f995266d79629"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon2/mus_DNGN_Two_1Low(alt1).mp3",
+      "size": 3123072,
+      "sha256": "cd401c4145e70c1dc5a7725cdc3687be9c8890f8125554607dd10b66e989b390"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon2/mus_DNGN_Two_1Low.mp3",
+      "size": 3075264,
+      "sha256": "b013b7b06dcc40f43b5880cb1dec98d0be0b94eefed96ea439d83580bdd04594"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon2/mus_DNGN_Two_2Mid.mp3",
+      "size": 3075264,
+      "sha256": "2bf0e41e10d7df0c68c4ea7eaf153ae19d78cac25c4aa8097ca4216aa0347c21"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon2/mus_DNGN_Two_3High.mp3",
+      "size": 3075264,
+      "sha256": "28907f9a2ef794ed68c7d53f4081e1dc4ce994c1d1ce22ab580a4517d449bb87"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon3/mus_DNGN_Three_1Low.mp3",
+      "size": 2984832,
+      "sha256": "b32843203c4821c487c9907736e6f8ffdad6d2220c1d858ffa6139b1c80e9961"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon3/mus_DNGN_Three_2Mid(alt1).mp3",
+      "size": 3070080,
+      "sha256": "6f2bb9e06ed952bd91548a50357026d85925bea501d5afe738b42cc6ef99019c"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon3/mus_DNGN_Three_2Mid.mp3",
+      "size": 2984832,
+      "sha256": "6dc1f2996d80f57f756b395f91a7775f47be09e3d6b5e8ea2c3b713c084b35c6"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon3/mus_DNGN_Three_3High.mp3",
+      "size": 2984832,
+      "sha256": "cd3506d8b3eac72d678c6e64fc54819b5429a139bdf6edba0bc08037bc834757"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon4/mus_DNGN_Four_1Low.mp3",
+      "size": 3113280,
+      "sha256": "c06322c8b6766ef3658441fed66cdaaf89f73cfe02dc2f601ba6259b469d7b6d"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon4/mus_DNGN_Four_2Mid.mp3",
+      "size": 3113280,
+      "sha256": "f73c5b2f07a99928a88893c82760084556ae1af307d98e41d2605d2702ca8e3f"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon4/mus_DNGN_Four_3High.mp3",
+      "size": 3113280,
+      "sha256": "db8ad33950af5f7931ff032918f9ffe0e2dd02afe4c9028cd39be2ddc39acb71"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon5/mus_DNGN_Five_1Low.mp3",
+      "size": 3123648,
+      "sha256": "e93ee64ff0d3d1ec3fcc9da29fca1cc9b8b793fc003130f534a6fe19c1b38045"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon5/mus_DNGN_Five_2Mid(alt1).mp3",
+      "size": 3135168,
+      "sha256": "a662bdbc0c9fadfc16e3e106ef60738f93ea71de01330f28f02eb77ed11d5825"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon5/mus_DNGN_Five_2Mid.mp3",
+      "size": 3123648,
+      "sha256": "ae01dd322c0ed893e4ebc6cec1ada2843f1390efe2e66e955d407dc91b551fae"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon5/mus_DNGN_Five_3High.mp3",
+      "size": 3123648,
+      "sha256": "a201a1302244a40b7627bc9e208b07d7956007d18cf6ca1cbc326934ea92aacc"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon6/mus_DNGN_Six_1Low.mp3",
+      "size": 3074112,
+      "sha256": "7b71d08c67fed3cf6b1d8036ddcf913682de5810de6e45741989927ec460b1df"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon6/mus_DNGN_Six_2Mid.mp3",
+      "size": 3074112,
+      "sha256": "2815501db3d6367e22fca7e74d645c85f284cfaba61de9638d21ce1ea9d517ff"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon6/mus_DNGN_Six_3High.mp3",
+      "size": 3074112,
+      "sha256": "05602aa9bdc61656d1fbf1ab3c496d51f143e5379e955da9b8272180f3b8f44c"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon7/mus_DNGN_Seven_1Low.mp3",
+      "size": 2875392,
+      "sha256": "b6d4544cc950eb35e9ac873e7211fa5bea9517bb3833c26394b66bbb743eb3b6"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon7/mus_DNGN_Seven_2Mid.mp3",
+      "size": 2875392,
+      "sha256": "1104585c75850a97d787d995f260f15bf8340b8cf1a3c2e3fb773abf507228aa"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon7/mus_DNGN_Seven_3High.mp3",
+      "size": 2875392,
+      "sha256": "61fc3bf3364145d45faa686cfbb3105e69f5d3d3ea17139e7cea86875a1e1717"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon8/mus_DNGN_Eight_1Low.mp3",
+      "size": 3218112,
+      "sha256": "85337ffe854ad920fdcefe422e33132c2a550f8ceb0efe6b67c0b34cf6495294"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon8/mus_DNGN_Eight_2Mid.mp3",
+      "size": 3218112,
+      "sha256": "f4e8cf7b69f4cac21087a83cb40315f4e894f3775b078ced5e5aa257cff1f46e"
+    },
+    {
+      "path": "Data/Music/DNGN/Dungeon8/mus_DNGN_Eight_3High.mp3",
+      "size": 3218112,
+      "sha256": "2046d068a4289cbe23fe7bdb71e94aad85c033fdeb13b6b18aad5af25ccd2fae"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/01MetallicMonks.mp3",
+      "size": 3275929,
+      "sha256": "17b15f7aa17916564463e7f8e0f6f9be0b5d3271d6a8061edae570c37a8139c0"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/02DesertWind.mp3",
+      "size": 3217832,
+      "sha256": "e467ef05a615002b55792cc31f9e3d14231d8212454b463392cc7bce747f3fbc"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/03ATradersLife.mp3",
+      "size": 3904121,
+      "sha256": "6c462e976ad5e284cac68c21b04505200b5d3cbb0e256b81786d4c4adfc895a2"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/04TheVaultoftheFuture.mp3",
+      "size": 3865669,
+      "sha256": "17d4bbb998eb9edd44bf911ec1eb84a416d7a5a100134a11aa29ab4e381c07f9"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/05IndustrialJunk.mp3",
+      "size": 3271331,
+      "sha256": "454e7f4f63aac4fd24c342c8444dc4bee4a209e200151db0c77f8337e1a461da"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/06MoribundWorld.mp3",
+      "size": 2940725,
+      "sha256": "44c8d9a3d6cd5157c810530d676ba5906a937617315edc1b30e3c1e2eb258537"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/07VatsofGoo.mp3",
+      "size": 3173947,
+      "sha256": "10ed8a34f8902442f3fed001035de266f3df3a3aced94828f8250953383ac42e"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/08CityoftheDead.mp3",
+      "size": 3274675,
+      "sha256": "2a56e7c6291b9c8424415fc01ed2569158237d6703503859cbc01f3cee63b143"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/09SecondChance.mp3",
+      "size": 3912063,
+      "sha256": "8b5f66dd81d7d257da4a15f5eb0a031450d78432724ff165ce50e1a117593534"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/10UndergroundTroubles.mp3",
+      "size": 3736520,
+      "sha256": "59f6661dfebf6653147892c20cd559b67c563791bf753db0b49749720db1b1b7"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/11CityofLostAngels.mp3",
+      "size": 3629522,
+      "sha256": "d9d8f28c97a2e1b006bf32761b8ea091fecf8e281a55dc69c3d2d5488732d1db"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/12FollowersCredo.mp3",
+      "size": 2868836,
+      "sha256": "7f6039b70cb711faef47acd655acf852dfe2a43539a06ed221cfaf2fff6341fb"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/13RadiationStorm.mp3",
+      "size": 3807155,
+      "sha256": "2cb1b1ffe0704ab65f57afab7609757c834d889235732eecb90552987154ee93"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/14AcolytesoftheNewgod.mp3",
+      "size": 3167259,
+      "sha256": "0d24822ad3ce7b70895dc5aa52d5941a8162b28aaa5e4a3cd33f52cea7c55be7"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/15FlameoftheAncientWorld.mp3",
+      "size": 3015122,
+      "sha256": "dc629cc573950d6831609cd597bb1da85e250e4c00493cb48c30e8629e49b14c"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout/16KhansofNewCalifornia.mp3",
+      "size": 3201114,
+      "sha256": "14146dc57f86c53f98ffd0fd6599bd53c19d6aa4acd4c223667d0bc876d09c56"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout2/Arroyo.mp3",
+      "size": 3368225,
+      "sha256": "a4cb312b1d6f02ac5db70dcf018d8ebf98e873e778c9309924ac32d9daa8d357"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout2/Modoc.mp3",
+      "size": 3304694,
+      "sha256": "6a2d051806b636831649813216697921f54c0808291e47c27b8c288cd8fe95be"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout2/NewReno.mp3",
+      "size": 3193520,
+      "sha256": "5a4e36ac63b484582d4ababb4720fde054342bc89309f710e0fbcc979aa9c357"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout2/Redding.mp3",
+      "size": 3464774,
+      "sha256": "63d51b78a582c1207f9ecf8ca8df3a5132eed5323861c93536f14cdcf3339f88"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout2/SanFrancisco.mp3",
+      "size": 3976362,
+      "sha256": "c8d2175a586db45e02f5a18c7811b3973eb28d15d3ceb14561ddc60022cc16d5"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout2/VaultCity.mp3",
+      "size": 3226540,
+      "sha256": "9429a7f29cf5443896568b4aa1de56889e06edb212719d6712e86d2746772b28"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout2/Worldmap1.mp3",
+      "size": 1640385,
+      "sha256": "c39e137fa50127ea3f42bdd4f44abfb86275ce6f8b7f97c982c09069565dfc69"
+    },
+    {
+      "path": "Data/Music/Fallout1and2/Fallout2/Worldmap2.mp3",
+      "size": 1224516,
+      "sha256": "752f1d3b45b880dac82dc3d515d41bca415471faeebd566205eccd903c7a525f"
+    },
+    {
+      "path": "Data/Music/LOC/CaesarsLegion/mus_LOC_Caesar_Day_1Low.mp3",
+      "size": 3194496,
+      "sha256": "a7c8ebbb586956588de700d464d13e62464fc30547d882d20417992d90005dff"
+    },
+    {
+      "path": "Data/Music/LOC/CaesarsLegion/mus_LOC_Caesar_Day_2Mid.mp3",
+      "size": 3194496,
+      "sha256": "89cde6af5c114636e2fcdec016d0a53ca3d70998ffa30c297111b3a7ea319a7c"
+    },
+    {
+      "path": "Data/Music/LOC/CaesarsLegion/mus_LOC_Caesar_Day_3High.mp3",
+      "size": 3194496,
+      "sha256": "57d76f185ff0238acc3fc79854563b22122785f9146ec3a2b61d9c63612ae40d"
+    },
+    {
+      "path": "Data/Music/LOC/CaesarsLegion/mus_LOC_Caesar_Night_1Low.mp3",
+      "size": 3210624,
+      "sha256": "6faefc38580e3086a3a38bf7ff22a390bab54ddf935a78ec416aceda2db26145"
+    },
+    {
+      "path": "Data/Music/LOC/CaesarsLegion/mus_LOC_Caesar_Night_2Mid.mp3",
+      "size": 3210624,
+      "sha256": "bfe9fa917e86ffe977f4ed2d435255c166ec1ede94c41a801e74dd473f057efc"
+    },
+    {
+      "path": "Data/Music/LOC/CaesarsLegion/mus_LOC_Caesar_Night_3High.mp3",
+      "size": 3210624,
+      "sha256": "fcab7d6c7d0fca04fa2e9c789037c980c401445bd387e400234aee6f4fe2648e"
+    },
+    {
+      "path": "Data/Music/LOC/CorporateRuins/mus_LOC_CorpRuins_Day_1Low.mp3",
+      "size": 2920320,
+      "sha256": "c94dd5ad10c18f2c8b19435cdc94fb5813f82b9ec69699262136f7fb360b11f4"
+    },
+    {
+      "path": "Data/Music/LOC/CorporateRuins/mus_LOC_CorpRuins_Day_2Mid.mp3",
+      "size": 2920320,
+      "sha256": "89e912b7109eb5fb79d8ae0991180a90f1c0bb2065d2ae2566a7d8faecdf3890"
+    },
+    {
+      "path": "Data/Music/LOC/CorporateRuins/mus_LOC_CorpRuins_Day_3High.mp3",
+      "size": 2920320,
+      "sha256": "98b4a84aaaa9b2b74c10a2e031d9ce92f514acc9a23dcc80830c567092ef7541"
+    },
+    {
+      "path": "Data/Music/LOC/CorporateRuins/mus_LOC_CorpRuins_Night_1Low.mp3",
+      "size": 2910528,
+      "sha256": "bcff1e14ad9ddfae75584eb60b44ac4f4cdfa6e57c8cdb18dc25365460f7b61f"
+    },
+    {
+      "path": "Data/Music/LOC/CorporateRuins/mus_LOC_CorpRuins_Night_2Mid.mp3",
+      "size": 2910528,
+      "sha256": "2b3b6e2ffdce72fd398cbe3b2419cb0a771c0b7b3c6ad9fff9edf83ec3e9f077"
+    },
+    {
+      "path": "Data/Music/LOC/CorporateRuins/mus_LOC_CorpRuins_Night_3High.mp3",
+      "size": 2910528,
+      "sha256": "b094d9a2d610f6ce819009fe918e1efb4adf6f9833d1188b4270493dfa7e22e5"
+    },
+    {
+      "path": "Data/Music/LOC/DesertExploration/mus_LOC_DesExpl_Day_1Low.mp3",
+      "size": 3184128,
+      "sha256": "1282c4c23666e64f547ca80c00c3dcd455d282b3127ded3c10734b57474e5efc"
+    },
+    {
+      "path": "Data/Music/LOC/DesertExploration/mus_LOC_DesExpl_Day_2Mid.mp3",
+      "size": 3184128,
+      "sha256": "cbd178c11f9c3d038d6a5a59dcbbf9b080c7654c2b2b505dd60f61e7b22cd0bb"
+    },
+    {
+      "path": "Data/Music/LOC/DesertExploration/mus_LOC_DesExpl_Day_3High.mp3",
+      "size": 3184128,
+      "sha256": "a1c48c701f62615b5d51f88c0d849780bfb8f0e4d7d97edca0000b1142142d14"
+    },
+    {
+      "path": "Data/Music/LOC/DesertExploration/mus_LOC_DesExpl_Night_1Low.mp3",
+      "size": 3086208,
+      "sha256": "9da2aaa599a2545cfa3be0d007b9b6337efe497e49d76063d6f325dab02bd527"
+    },
+    {
+      "path": "Data/Music/LOC/DesertExploration/mus_LOC_DesExpl_Night_2Mid.mp3",
+      "size": 3086208,
+      "sha256": "285bf3475cc6eaa85f449d6b8e43669a17708c2cbf0511b98ba83f7aebbe66be"
+    },
+    {
+      "path": "Data/Music/LOC/DesertExploration/mus_LOC_DesExpl_Night_3High.mp3",
+      "size": 3086208,
+      "sha256": "1d670b20431bb0053a5934e54f36fe3c5db055fe730a81a836b1c2471eb4e40d"
+    },
+    {
+      "path": "Data/Music/LOC/DesertSettlement/mus_LOC_DesSttl_Day_1Low.mp3",
+      "size": 2950848,
+      "sha256": "1be98e0e7bdb37222f9503f47d1b6fdf325c61d43d5108a24faffad4929d7a32"
+    },
+    {
+      "path": "Data/Music/LOC/DesertSettlement/mus_LOC_DesSttl_Day_2Mid.mp3",
+      "size": 2950848,
+      "sha256": "db1e213fc6b2864956bddb8417c4024b4c574765146179eba6d2030f42509e8c"
+    },
+    {
+      "path": "Data/Music/LOC/DesertSettlement/mus_LOC_DesSttl_Day_3High.mp3",
+      "size": 2950848,
+      "sha256": "337653b8808cbe6a1a8cb8247d3d770859368258ff846c25cee192eeaddc45da"
+    },
+    {
+      "path": "Data/Music/LOC/DesertSettlement/mus_LOC_DesSttl_Night_1Low.mp3",
+      "size": 2962944,
+      "sha256": "540cb33f833ca4757ba180a0f0a2d0ce0b0571aa73ea05ccec9d4e92eb7e4893"
+    },
+    {
+      "path": "Data/Music/LOC/DesertSettlement/mus_LOC_DesSttl_Night_2Mid.mp3",
+      "size": 2962944,
+      "sha256": "c5b8e8ee0afe6be7197b0b1ee4f32684837358fe28ead38a4a7fecd8f682deef"
+    },
+    {
+      "path": "Data/Music/LOC/DesertSettlement/mus_LOC_DesSttl_Night_3High.mp3",
+      "size": 2962944,
+      "sha256": "9566a72ec4041e570f571694e76283f8e4d53caecd1c12c034ddcba47e9236be"
+    },
+    {
+      "path": "Data/Music/LOC/Freeside/mus_LOC_Freeside_Day_1Low.mp3",
+      "size": 3093696,
+      "sha256": "8d62c447ff31efa3f61ed0e2eea123d5448acb1c0bafb6ba814843edd68e6539"
+    },
+    {
+      "path": "Data/Music/LOC/Freeside/mus_LOC_Freeside_Day_2Mid.mp3",
+      "size": 3093696,
+      "sha256": "dd7a4d3b9dc00f2c1ad7dfa1f6f7ec986a35b6f7652438eeef0baec1446f1af8"
+    },
+    {
+      "path": "Data/Music/LOC/Freeside/mus_LOC_Freeside_Day_3High.mp3",
+      "size": 3093696,
+      "sha256": "0733e6fda3c2879686a8ca0a67f1c4c0865b1e04449fbbfb4a3d12678b2d91ad"
+    },
+    {
+      "path": "Data/Music/LOC/Freeside/mus_LOC_Freeside_Night_1Low.mp3",
+      "size": 3031488,
+      "sha256": "d5de3cbb69f39540d150c9ea96b920ce0f5d40ea4ec8de8c5c9d8d98f0fcec3f"
+    },
+    {
+      "path": "Data/Music/LOC/Freeside/mus_LOC_Freeside_Night_2Mid.mp3",
+      "size": 3031488,
+      "sha256": "04c61652f993cad2519f898ae0fefcaf3243144d4afcf265b79be626d1af5799"
+    },
+    {
+      "path": "Data/Music/LOC/Freeside/mus_LOC_Freeside_Night_3High.mp3",
+      "size": 3031488,
+      "sha256": "dfd5f159510b430156e4b044c6d8336602d4b4f5bf878f007627b282900b803a"
+    },
+    {
+      "path": "Data/Music/LOC/HooverDam/mus_LOC_Hoover_Caesar_1Low.mp3",
+      "size": 2971008,
+      "sha256": "b055b7376c192e96af99cc0d90efb745fafea183106a239e0100e405d672ac19"
+    },
+    {
+      "path": "Data/Music/LOC/HooverDam/mus_LOC_Hoover_Caesar_2Mid.mp3",
+      "size": 2971008,
+      "sha256": "e441bb87d28df24faf10b807f09dd0893b5f29343817963c29eaae469105e741"
+    },
+    {
+      "path": "Data/Music/LOC/HooverDam/mus_LOC_Hoover_Caesar_3High.mp3",
+      "size": 2971008,
+      "sha256": "e1577ccbc1e7c585cad1defd1d481cc4c0d20feec036686b3d0cad6e4a83652a"
+    },
+    {
+      "path": "Data/Music/LOC/HooverDam/mus_LOC_Hoover_NCR_1Low.mp3",
+      "size": 2979072,
+      "sha256": "69c3eb0f7490eddc799356857b331d6a70bfe2cc8788e21e0a53c533ec88ea77"
+    },
+    {
+      "path": "Data/Music/LOC/HooverDam/mus_LOC_Hoover_NCR_2Mid.mp3",
+      "size": 2979072,
+      "sha256": "3ae27b60e0380ec0b8821f8130832e5583f2b43065351e20697255fa0716a1f1"
+    },
+    {
+      "path": "Data/Music/LOC/HooverDam/mus_LOC_Hoover_NCR_3High.mp3",
+      "size": 2979072,
+      "sha256": "0a0cde04b0f408d705d219fd894ba466e4080f19d99149c5a916f77918aa06de"
+    },
+    {
+      "path": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Day_1Low.mp3",
+      "size": 2931840,
+      "sha256": "fe3465b2dc523debfec07aa792d4a78c8cc3a4942e2455c18b6ab1e1af4d5d96"
+    },
+    {
+      "path": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Day_2Mid.mp3",
+      "size": 2936448,
+      "sha256": "7a4d98c1bb04f0c53aa5b1cc9c2a38cb6d47edc59350480e292d97741f785a2c"
+    },
+    {
+      "path": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Day_3High(alt1).mp3",
+      "size": 2979648,
+      "sha256": "8d5461b44fe2177986c922c9347cc5219737e274e5e03e6e0ba2c6c25bd78faa"
+    },
+    {
+      "path": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Day_3High.mp3",
+      "size": 2936448,
+      "sha256": "22fe484a4d5d2d7988f0c4454463427740829ce4bcdc7e10881d23c1b65790ae"
+    },
+    {
+      "path": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Night_1Low.mp3",
+      "size": 2922624,
+      "sha256": "3ad8b6fac881121c67b133811b33cd052addf53e35e11a33ea9ba7268b0d5d68"
+    },
+    {
+      "path": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Night_2Mid.mp3",
+      "size": 2922624,
+      "sha256": "1b30158c88a29ab70e7b46d340f065fd534d0d74803c8a9feb5d72320985bea5"
+    },
+    {
+      "path": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Night_3High(alt1).mp3",
+      "size": 3065472,
+      "sha256": "3b16d3ad522a1fd7b6948189cca09a7fcda9f0dc12d0d6487284b8fdc3afd189"
+    },
+    {
+      "path": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Night_3High.mp3",
+      "size": 2922624,
+      "sha256": "31f09be2f156ef23f9c5be1dd97293267712d8bbe6d375f521a8e8c08049dfce"
+    },
+    {
+      "path": "Data/Music/LOC/Jacobstown/mus_LOC_Jacobstown_Day_1Low.mp3",
+      "size": 2932992,
+      "sha256": "611e53c69865339ee6b86a7d8485839727eb190eb67ed321e3943ed37fc0fdaa"
+    },
+    {
+      "path": "Data/Music/LOC/Jacobstown/mus_LOC_Jacobstown_Day_2Mid.mp3",
+      "size": 2932992,
+      "sha256": "1df0efb0bab869013923346ecad4ecf4632250dd8cbb1f9c9b472b2b08695e3d"
+    },
+    {
+      "path": "Data/Music/LOC/Jacobstown/mus_LOC_Jacobstown_Day_3High.mp3",
+      "size": 2932992,
+      "sha256": "d161bf777dcfcecdc7a1e2a0b55c72d34c80243cfdd7aa6be54cfe68abdfeede"
+    },
+    {
+      "path": "Data/Music/LOC/Jacobstown/mus_LOC_Jacobstown_Night_1Low.mp3",
+      "size": 2884032,
+      "sha256": "2b159cfac585cc9830d30bf1ec275161eb72a71b1d1c0e894ce99929e027c77c"
+    },
+    {
+      "path": "Data/Music/LOC/Jacobstown/mus_LOC_Jacobstown_Night_2Mid.mp3",
+      "size": 2884032,
+      "sha256": "c5bc285d177e95ad79048b5b96f6486568f5b17dda7044feaa3d89448c9ce648"
+    },
+    {
+      "path": "Data/Music/LOC/Jacobstown/mus_LOC_Jacobstown_Night_3High.mp3",
+      "size": 2884032,
+      "sha256": "72af6d26c89a6094f40617743020b8847146e1f8b24a59f910232e337bc9a1ac"
+    },
+    {
+      "path": "Data/Music/LOC/LargerTown/mus_LOC_LrgTown_Day_1Low.mp3",
+      "size": 2983680,
+      "sha256": "c92cf7e4025be5403e3c9f111e460a7eb1cf99644d5dd186b5c5ba61fb7881c2"
+    },
+    {
+      "path": "Data/Music/LOC/LargerTown/mus_LOC_LrgTown_Day_2Mid.mp3",
+      "size": 2983680,
+      "sha256": "416eefbafc374118e989ea924db46f62546f2b6eaaf6413991489a605c4b1275"
+    },
+    {
+      "path": "Data/Music/LOC/LargerTown/mus_LOC_LrgTown_Day_3High(alt1).mp3",
+      "size": 3173760,
+      "sha256": "ce446f2a41ee2a5d42cd8fa4d16c7e16103600c3e0f38305a5ab02d6e4284658"
+    },
+    {
+      "path": "Data/Music/LOC/LargerTown/mus_LOC_LrgTown_Day_3High.mp3",
+      "size": 2983680,
+      "sha256": "9c05c12c50b5a9a33a331eed2d9bd3edbfe271a3e8bf2b7f9c6ecd303de09698"
+    },
+    {
+      "path": "Data/Music/LOC/LargerTown/mus_LOC_LrgTown_Night_1Low.mp3",
+      "size": 2956032,
+      "sha256": "7981ff2ddbe9bd94018ceaf2937ef7c01b4a56ab0118e025c792e8ed6312cc88"
+    },
+    {
+      "path": "Data/Music/LOC/LargerTown/mus_LOC_LrgTown_Night_2Mid.mp3",
+      "size": 2956032,
+      "sha256": "0b958d7f330a8f8966d4e2852771952b1d8225969b08eaed36dafd32c890ab2b"
+    },
+    {
+      "path": "Data/Music/LOC/LargerTown/mus_LOC_LrgTown_Night_3High.mp3",
+      "size": 2956032,
+      "sha256": "6f192154a2b4c5d201bae09491c3681895877d72efc671723d42b98376ea21c4"
+    },
+    {
+      "path": "Data/Music/LOC/Mountain/mus_LOC_Mountain_Day_1Low.mp3",
+      "size": 2960640,
+      "sha256": "b2545f8fc823186812cc52db535c3f44bc0b07c9e71ce506e93bde222b57a8ce"
+    },
+    {
+      "path": "Data/Music/LOC/Mountain/mus_LOC_Mountain_Day_2Mid.mp3",
+      "size": 2960640,
+      "sha256": "e46479cf20d3abe9c4cb44ef4b024a22873b54cfa1ce845bf264058e54ca2e98"
+    },
+    {
+      "path": "Data/Music/LOC/Mountain/mus_LOC_Mountain_Day_3High.mp3",
+      "size": 2960640,
+      "sha256": "4f99b0ece7488fed236b43a937eb17d16a5cd0d3da592cbdf81f5f8135e60c24"
+    },
+    {
+      "path": "Data/Music/LOC/Mountain/mus_LOC_Mountain_Night_1Low.mp3",
+      "size": 2960640,
+      "sha256": "bbbfeb3f288527b370a72a28367309471d4be96e335287a0273ca1b49ae021c7"
+    },
+    {
+      "path": "Data/Music/LOC/Mountain/mus_LOC_Mountain_Night_2Mid.mp3",
+      "size": 2960640,
+      "sha256": "217ecf3f845cca4c797408822e074e87165f5d7e97b26bf4a4edf066173ad529"
+    },
+    {
+      "path": "Data/Music/LOC/Mountain/mus_LOC_Mountain_Night_3High.mp3",
+      "size": 2960640,
+      "sha256": "1384cf912e3858b0e510b28d6e1f2fd045ea84e0505602429a58ae8c06526199"
+    },
+    {
+      "path": "Data/Music/LOC/NewCaliforniaRepublic/mus_LOC_CalRepublic_Day_1Low.mp3",
+      "size": 2916288,
+      "sha256": "e7ca93eb8ff15b7b446295655348976bc15ab6c34c6ad76cd1d888403b5eea93"
+    },
+    {
+      "path": "Data/Music/LOC/NewCaliforniaRepublic/mus_LOC_CalRepublic_Day_2Mid.mp3",
+      "size": 2916288,
+      "sha256": "541bbbf061eaf254745018882ece4c13d093d5fa56499e31b233eb8b2e151bc9"
+    },
+    {
+      "path": "Data/Music/LOC/NewCaliforniaRepublic/mus_LOC_CalRepublic_Day_3High.mp3",
+      "size": 2916288,
+      "sha256": "57574750e71ea8316d841e801f26b5aa3a0bdb2646bace9b4d6612775cd6c5c2"
+    },
+    {
+      "path": "Data/Music/LOC/NewCaliforniaRepublic/mus_LOC_CalRepublic_Night_1Low.mp3",
+      "size": 2987712,
+      "sha256": "40b996e22047922ce98524ac811136a56c2068fed4cc85216653b391a4e50f19"
+    },
+    {
+      "path": "Data/Music/LOC/NewCaliforniaRepublic/mus_LOC_CalRepublic_Night_2Mid.mp3",
+      "size": 2987712,
+      "sha256": "cc26566b98776c595f1a6db62dfea0155937e7bfda4e492d157b8145b9187b32"
+    },
+    {
+      "path": "Data/Music/LOC/NewCaliforniaRepublic/mus_LOC_CalRepublic_Night_3High.mp3",
+      "size": 2987712,
+      "sha256": "b58d45a3536a90114a773f8706a9a25519a615cb9a09dd5e638ec86739abd85d"
+    },
+    {
+      "path": "Data/Music/OLD/FO1/mus_FO1_AcolytesOfTheNewGod.mp3",
+      "size": 4729536,
+      "sha256": "cb13820d317c194c34991230208ad71a7b4946917155307eeda61f3a7e0b5e34"
+    },
+    {
+      "path": "Data/Music/OLD/FO1/mus_FO1_CityOfLostAngels.mp3",
+      "size": 5428800,
+      "sha256": "804bdd5ea304ae15c5b7f31fa21cb9cee99648ecacab748698c69f85a6e665dd"
+    },
+    {
+      "path": "Data/Music/OLD/FO1/mus_FO1_CityOfTheDead.mp3",
+      "size": 4891392,
+      "sha256": "4ec824eb472c0ef0576fa79e0c027966e5f98d4ff54361bc7485d44535f68f9f"
+    },
+    {
+      "path": "Data/Music/OLD/FO1/mus_FO1_DesertWind.mp3",
+      "size": 4820544,
+      "sha256": "a0a1b9645d390bbeb91ae85df9eaf3e558e179c3416c22c9f8a9d973bae770c5"
+    },
+    {
+      "path": "Data/Music/OLD/FO1/mus_FO1_FlameOfTheAncientWorld.mp3",
+      "size": 4500864,
+      "sha256": "9efe1d711dc98ebd6b286aa111bfc2d7c4f8db49bfeace10885ee592cf8d475e"
+    },
+    {
+      "path": "Data/Music/OLD/FO1/mus_FO1_IndustrialJunk.mp3",
+      "size": 4910400,
+      "sha256": "1e8973fca5f3b643faffc3d70a61769e2d683fb51e166ecb2d10bb5640abb893"
+    },
+    {
+      "path": "Data/Music/OLD/FO1/mus_FO1_MetallicMonks.mp3",
+      "size": 4902912,
+      "sha256": "b3fb1f491dd2c081485df0984827dbe3bcfb06e88edb18741cf6d809af42368c"
+    },
+    {
+      "path": "Data/Music/OLD/FO1/mus_FO1_RadiationStorm.mp3",
+      "size": 5700672,
+      "sha256": "9243c4ec3716909329e1f8819982ad5353d2ca21c9461a5ac9fbcccfe766e547"
+    },
+    {
+      "path": "Data/Music/OLD/FO1/mus_FO1_SecondChance.mp3",
+      "size": 5851584,
+      "sha256": "b65481798e9a127881eb05fe3835ae68fc403447600d7ac6aafe27e9181de258"
+    },
+    {
+      "path": "Data/Music/OLD/FO1/mus_FO1_TheVaultOfTheFuture.mp3",
+      "size": 5800320,
+      "sha256": "338d10e7ed2733d9e06673e5e379fb2fcbfd6f934b9163b04ef3b67f8226413f"
+    },
+    {
+      "path": "Data/Music/OLD/FO1/mus_FO1_UndergroundTrouble.mp3",
+      "size": 5607360,
+      "sha256": "cd1cb74a31f70bf8aba346fda82672db5d72aa6b92eeecb8aef3d2646a070e80"
+    },
+    {
+      "path": "Data/Music/OLD/FO2/mus_FO2_Modoc.mp3",
+      "size": 4848192,
+      "sha256": "5e1b92f4c2026ccb1413fe39d434cfd46d3f9d70d07f462a44c242e5c64fb107"
+    },
+    {
+      "path": "Data/Music/OLD/FO2/mus_FO2_Redding.mp3",
+      "size": 5058432,
+      "sha256": "4067657903ba43f7ec3677d8f65b6f8c0690a87d99eb056417b2bc4c7e10f0ce"
+    },
+    {
+      "path": "Data/Music/OLD/FO3/mus_FO3_Base2.mp3",
+      "size": 2346624,
+      "sha256": "869afd975ff156f61a0d5bce4c7bb3b50d85a4b77779f5bc0add424a91589b16"
+    },
+    {
+      "path": "Data/Music/OLD/FO3/mus_FO3_Base3.mp3",
+      "size": 2411712,
+      "sha256": "2064ed42d026f6763c1d2578a77e9a1b7c668b6b16ecaae19d446f70495afb6f"
+    },
+    {
+      "path": "Data/Music/OLD/FO3/mus_FO3_Base5.mp3",
+      "size": 2483136,
+      "sha256": "988d3d3cce622acfb4e74fc5e00bf985446758ccd72f8baad7daacd5726a34ff"
+    },
+    {
+      "path": "Data/Music/OLD/FO3/mus_FO3_Death.mp3",
+      "size": 382464,
+      "sha256": "8d687b7c8177f505e72ed3bc8ab87d6ebf3adc348cd0d372d26bbd07d11c4890"
+    },
+    {
+      "path": "Data/Music/OLD/FO3/mus_FO3_Dungeon1.mp3",
+      "size": 5244480,
+      "sha256": "99b47bd3101f773f66bef94e77744391920dfb1eea9bdca3703f9e22a1504064"
+    },
+    {
+      "path": "Data/Music/OLD/FO3/mus_FO3_Dungeon2.mp3",
+      "size": 4927680,
+      "sha256": "dc4ffc76cd82fcd5267cb307d4f418509822a344378d997de1ff32009a327a77"
+    },
+    {
+      "path": "Data/Music/OLD/FO3/mus_FO3_Dungeon3.mp3",
+      "size": 5244480,
+      "sha256": "9e87721d4da699991c153784dc86c6ec6a07c09e008648dfb571bbade9a2a954"
+    },
+    {
+      "path": "Data/Music/OLD/FO3/mus_FO3_Explore1.mp3",
+      "size": 4999680,
+      "sha256": "2d3ed994fa1e55bf809e91b47fcdb27f7f8f3dfa092e2667d986be093571490d"
+    },
+    {
+      "path": "Data/Music/OLD/FO3/mus_FO3_Explore3.mp3",
+      "size": 5878080,
+      "sha256": "665e02bc32997f7b6d26697e8666cc9d9dd7f6396fef5615da67b947f14b8cd8"
+    },
+    {
+      "path": "Data/Music/OLD/FO3/mus_FO3_Explore4.mp3",
+      "size": 4956480,
+      "sha256": "5c695d4cd208014e37bbdb86e224b456cba52d31c8e27bb3d76bdf9c1b5dd640"
+    },
+    {
+      "path": "Data/Music/OLD/FO3/mus_FO3_Explore5.mp3",
+      "size": 4048128,
+      "sha256": "33531aa980defb81633620388230b5b209fcbf2a16eca2572e86374f397df6ec"
+    },
+    {
+      "path": "Data/Music/OLD/FO3/mus_FO3_Explore6.mp3",
+      "size": 5090688,
+      "sha256": "85a89e64444749bc526b7e679606ad92640d44dfa7bf6d536b048e60490d3769"
+    },
+    {
+      "path": "Data/Music/SCR/mus_SCR_DeathStinger.mp3",
+      "size": 387072,
+      "sha256": "f3aa4d8602930b7e816aaf0033037bf1cc63bd9a697c7bb586dbe6344d0919cf"
+    },
+    {
+      "path": "Data/Music/SCR/mus_SCR_DocMitchell.mp3",
+      "size": 2911680,
+      "sha256": "78cfef9868bba393bd43f68eb9d63efbd4575ebd36973ebc1daa47c4fb30251a"
+    },
+    {
+      "path": "Data/Music/SCR/mus_SCR_GoodspringsStinger.mp3",
+      "size": 715392,
+      "sha256": "5643fd850b9176d9a4a38f2a845699df563e07eb9206e46ab7d9cc9a1f62e925"
+    },
+    {
+      "path": "Data/Music/SCR/mus_SCR_Muzak.mp3",
+      "size": 759168,
+      "sha256": "59678fb70f8fe95c811b7c988321f4f6d08f37e04d4a49b37dbefc72ad97ce46"
+    },
+    {
+      "path": "Data/Music/SCR/mus_SCR_MuzakRadio.mp3",
+      "size": 759168,
+      "sha256": "f9cb69223d8407cd021259f4edbded68f1b9ab5aeddc8087e0c22a9c8b61d51b"
+    },
+    {
+      "path": "Data/Music/SCR/mus_SCR_VegasStinger.mp3",
+      "size": 1851264,
+      "sha256": "92a2941f013e27e1ed3e845a4815046c03376c331ea4a08560f6a5674069f311"
+    },
+    {
+      "path": "Data/Music/SCR/mus_SCR_VictorySinger(alt1).mp3",
+      "size": 399168,
+      "sha256": "2073ece84929f406e38d1bc748a72bd9f89afcb9f16a8ea91309e501a252c842"
+    },
+    {
+      "path": "Data/Music/SCR/mus_SCR_VictorySinger(alt2).mp3",
+      "size": 302976,
+      "sha256": "3e0f8fe797b0b337c2e53084c8d3ab4ca67cdbeeef269375222a47ee51e4e32a"
+    },
+    {
+      "path": "Data/Music/SCR/mus_SCR_VictorySinger.mp3",
+      "size": 302976,
+      "sha256": "826789cef3855255cb8a2f4956bca0b459ea8018b0825b5e357ceeb03c1e6d67"
+    },
+    {
+      "path": "Data/Music/Special/EndCredits.mp3",
+      "size": 5179776,
+      "sha256": "04839159c77266f558390884b84027ed8d7043e88f3f08baf286148be27ea225"
+    },
+    {
+      "path": "Data/Music/Special/MainTitle.mp3",
+      "size": 4012416,
+      "sha256": "4d68a69ce7add17f23303829725eee6596357aea1ce30fac0ec1c8e12cc25f38"
+    },
+    {
+      "path": "Data/Music/Special/mus_endgameslideshow.mp3",
+      "size": 2319744,
+      "sha256": "70b9738503b524e38592d32e8d8b7b5d3a922241c6906b4abdade967a09588a2"
+    },
+    {
+      "path": "Data/Music/Special/mus_endgametransitionstinger.mp3",
+      "size": 74880,
+      "sha256": "f723a2041e0358802442ef211e95f82a8eaa012b2e3c01b5d51fc4f9eac186d5"
+    },
+    {
+      "path": "Data/Music/Special/mus_hailchief.mp3",
+      "size": 1018752,
+      "sha256": "0389e12fbbbb7dc50e9c450f75992156869162999ff133647b4d514373ffca67"
+    },
+    {
+      "path": "Data/OldWorldBlues - Main.bsa",
+      "size": 680808222,
+      "sha256": "09ce146ae06e382916dcb9fada5236e149e96991eaa3f677b083c862ee9f5cb3"
+    },
+    {
+      "path": "Data/OldWorldBlues - Sounds.bsa",
+      "size": 67207292,
+      "sha256": "9cc9902b838945ee700511b32405875e074590b7cb1dfa7fcf4e2962b410d045"
+    },
+    {
+      "path": "Data/OldWorldBlues.esm",
+      "size": 16202800,
+      "sha256": "fd6cc6e582582ec035277150e106d12b6d78c7c60cbb506545e06d1fa7212295"
+    },
+    {
+      "path": "Data/OLDWORLDBLUES.NAM",
+      "size": 15,
+      "sha256": "5f321c7450b67764a51e45d16d811ef9198c5c92549e92efa8944429f9617f88"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage002.sdp",
+      "size": 1001568,
+      "sha256": "d4834aeb56cbfe9bd96bf8ddfa7ae88084ba4820b33d2156d182ee3aabcdc74e"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage003.sdp",
+      "size": 1332844,
+      "sha256": "7c17adb38ee7e7c771b975e401c9fc91f70298f06cc7fac8321dab93b3aeeaff"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage004.sdp",
+      "size": 1375792,
+      "sha256": "54ef0c9852561e96781ceb1ba78bbb8af3ea6c57fa09073269a5b915f80bdb30"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage006.sdp",
+      "size": 1346644,
+      "sha256": "e0c80f7f710ec0eb7ac27e633251381b24701e1e651bd1c5d69627b8575ef541"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage007.sdp",
+      "size": 1388744,
+      "sha256": "0ffa9a0abe6e6e913070f41c2f897b9464db57449ae0abef93000c20650c9f76"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage009.sdp",
+      "size": 1359440,
+      "sha256": "23603210e4d8a1f60e276ae8913bb7a0887711709bb0f61530c0619c97d6a078"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage010.sdp",
+      "size": 1337124,
+      "sha256": "423bc74cfcfbca4afa7704a01290911a401e73a4e5ec11423e0d34eb2ae0036e"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage011.sdp",
+      "size": 1337124,
+      "sha256": "423bc74cfcfbca4afa7704a01290911a401e73a4e5ec11423e0d34eb2ae0036e"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage012.sdp",
+      "size": 1380772,
+      "sha256": "5c125c320572e34f56904608ee31888a2401538417ef69218c3944b466864476"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage013.sdp",
+      "size": 1380772,
+      "sha256": "5c125c320572e34f56904608ee31888a2401538417ef69218c3944b466864476"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage014.sdp",
+      "size": 1351036,
+      "sha256": "c7fba4147e4cec6066629ae23bddccdc2ece9e5ef05ea0d3b65e1d06e165d7f2"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage015.sdp",
+      "size": 1351036,
+      "sha256": "c7fba4147e4cec6066629ae23bddccdc2ece9e5ef05ea0d3b65e1d06e165d7f2"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage016.sdp",
+      "size": 1393812,
+      "sha256": "ddcde4439d4f254c791f00a05fdb7e31caf6c3cc3cae0816646ad7be38d895fa"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage017.sdp",
+      "size": 1393812,
+      "sha256": "ddcde4439d4f254c791f00a05fdb7e31caf6c3cc3cae0816646ad7be38d895fa"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage018.sdp",
+      "size": 1367052,
+      "sha256": "31f7f53020692172f837207023f0f471a5097b453bf3ee35070081c774ada0c8"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage019.sdp",
+      "size": 1367052,
+      "sha256": "31f7f53020692172f837207023f0f471a5097b453bf3ee35070081c774ada0c8"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Aint_That_A_Kick_In_the_Head.mp3",
+      "size": 4673100,
+      "sha256": "4452a3be2fe6953352dc44f947ed606db0d6b186e07e72879a53b28793651cc1"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Aint_That_A_Kick_In_the_Head_mono.mp3",
+      "size": 1751616,
+      "sha256": "7410f9be6a2ada1a929eb8d6c635fb7054d179867964546f3731086a180f1de1"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_American_Swing.mp3",
+      "size": 3037208,
+      "sha256": "2d79de8b3b46a75398588e325c39715cb4c8c88b0460afe994502d446d5f5ce9"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_American_Swing_mono.mp3",
+      "size": 1137024,
+      "sha256": "d9e66aece31f0348f41e14edbe2a2221f2b2227f9692ff94d21c930c08935654"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Big_Iron.mp3",
+      "size": 7628907,
+      "sha256": "6852ea0c0131536eb151ed1aedd70a61994bea5bcaf87fadc8ad441146cdd822"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Big_Iron_mono.mp3",
+      "size": 2860128,
+      "sha256": "6337af393cf37d751985e3ad6c174bbfc92d8277f30cd1bbf8f3681a1ecc280b"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Blue_Moon.mp3",
+      "size": 5493136,
+      "sha256": "099c5a5c44d394795cf5b5ceef6a1ae9bb253a876200a3f06ed64efa66bd6b02"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Blue_Moon_mono.mp3",
+      "size": 2059200,
+      "sha256": "a48d7b753408473c60ca18caf4f77ef5ef02999ab3a1795df05fbab06c3fa7e4"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Blues_For_You.mp3",
+      "size": 4660561,
+      "sha256": "0ff69cf120b6acd48eb6a1507d80ee96e7d12eb7111b2605a919b6b9af7cd9a9"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Blues_For_You_mono.mp3",
+      "size": 1745712,
+      "sha256": "f33286932b36729dbbd094c1b8f562ddcd07c94f8bb6c2d7848ed4e452a753ca"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Cobwebs_and_Rainbows.mp3",
+      "size": 5448832,
+      "sha256": "e39121a90d3c9fb976e83854dacf8138601750a5ad2570bd6633f59a7e603c2f"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Cobwebs_and_Rainbows_mono.mp3",
+      "size": 2043216,
+      "sha256": "0d5fa819ed44ed17220586488bcc2b475716567ef03c9ba18cbc2773670ad690"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Concerto_For_2_Vl_Str_In_D_Minor.mp3",
+      "size": 13316496,
+      "sha256": "f2f9bd7bd605f2994946f6c12093643bcf534ec1273a8850855c72021a478432"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Concerto_For_2_Vl_Str_In_D_Minor_mono.mp3",
+      "size": 4992912,
+      "sha256": "92dcc1c580fa32b12d390e3c77bdd4a15b3025271ec319a2ce66ab81d57ad461"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Concerto_Grosso_In_B_Minor_Allegro_01.mp3",
+      "size": 8199839,
+      "sha256": "5a00e3f8b5bb2634fe4e9c708c73f0ea809782cae34a58320e5e6f2d9c38d6aa"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Concerto_Grosso_In_B_Minor_Allegro_01_mono.mp3",
+      "size": 3073968,
+      "sha256": "abea6e2692ca6aa06f51e0a110be69da61bebfb99f9f77408ac7c25cb7261e3c"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Concerto_Grosso_In_B_Minor_Allegro_02.mp3",
+      "size": 6887448,
+      "sha256": "9418db9a20fb6f3a28b9c3697ddada46af7bdaa408b8046be89ffac23cca3649"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Concerto_Grosso_In_B_Minor_Allegro_02_mono.mp3",
+      "size": 2581920,
+      "sha256": "c4d78cd20d2c249ac2d13cc87c494f7718cad02084e6bcb03de9b59081d42cc7"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_EddyArnold_Rca_ItsASin.mp3",
+      "size": 4683131,
+      "sha256": "190f1618bf831838ba5f037a05b6feb8ba02a5041558638ceca4e1b74f43128f"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_EddyArnold_Rca_ItsASin_mono.mp3",
+      "size": 1755072,
+      "sha256": "36ae8c24ad774178356cf410e5d6ffb5879b81f380674595b1b9b4e103992ac1"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Flower_Duet_Lakm_KPM.mp3",
+      "size": 3012966,
+      "sha256": "5a7d9d57625b128caacaec4c42e65908528a0928f3189edd0c26848411fb9cf2"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Flower_Duet_Lakm_KPM_mono.mp3",
+      "size": 1083744,
+      "sha256": "319ac61592bcce01a72b54656202e2c59edb0d704f21d346fcc1d0e1a4d2afbc"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Four_Seasons_No_4_The_Winter.mp3",
+      "size": 4546876,
+      "sha256": "80290aff34cd5581e1980faa0afb7a05fa5d915234b0a41e32df33da870d5928"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Four_Seasons_No_4_The_Winter_mono.mp3",
+      "size": 1704096,
+      "sha256": "d0d4b3067a528eeda198a863a5bdd1aae66d6347b14213ccae3020f82b1ec4db"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Goin_Under.mp3",
+      "size": 5672022,
+      "sha256": "fcc0d5e57a9113af5ca063f34bd9463a80cb4b48a24a7b47b63b80ff362aa9c2"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Goin_Under_mono.mp3",
+      "size": 2125008,
+      "sha256": "585c5eb66655fc7304e9f9c92adc7003b46381808b8e9b7c8e3181602881885e"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Hallo_Mister_X.mp3",
+      "size": 4146471,
+      "sha256": "05907ddd113887131a2e97cc48268f19a39562a15385d835dd71afac3dd70447"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Hallo_Mister_X_mono.mp3",
+      "size": 1553040,
+      "sha256": "39e39fe9bc8c8283e56211fdf6d8e827c26733bad2f40573fa810405b674bf5e"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Happy_Times.mp3",
+      "size": 3752754,
+      "sha256": "c548160cf3e7d1dbd4cb90127ba09f53a24b05aaa797d3ad321c3c00e2d718a1"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Happy_Times_mono.mp3",
+      "size": 1405296,
+      "sha256": "c75fb4ee45cab36698a8f0a2c332e2ec3fa8b0dc58a3b9044ef442c3a40f839a"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Heartaches_by_the_Number.mp3",
+      "size": 4930563,
+      "sha256": "475d5c173d7a74962da4ed578e895bfe17574e6ce9596d1b2661ef08d6749e2e"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Heartaches_by_the_Number_mono.mp3",
+      "size": 1847952,
+      "sha256": "f24749e9e5d59b1a60eae9d5c25d46dbb450920d775320f881dac73b7fa8867c"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_HomeOnTheWastes.mp3",
+      "size": 4857002,
+      "sha256": "e81630978aa6f6c7428cf8f958c65de9f98cd769058f99fed9e97f4c58bb0b31"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_HomeOnTheWastes_mono.mp3",
+      "size": 1821600,
+      "sha256": "b9ae57fed8dde6fe378b8311c9c484140310995bc210f0e4ae668f02f6a4e523"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_I_m_Movin_Out.mp3",
+      "size": 5605149,
+      "sha256": "66e6a7c680ede2a6b2e7adb3d34e439fa1421dc297fd7df88cac479d761601b6"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_I_m_Movin_Out_mono.mp3",
+      "size": 2099520,
+      "sha256": "91dc87194dc9f9175659a498f40651212e1c2f8907f0326b28011204e11378b1"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_I_m_So_Blue.mp3",
+      "size": 6937603,
+      "sha256": "6c1c51017db4b66f08ef2e06f85f27d2549e43f3df754c8f3a476ad18bfdf29f"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_I_m_So_Blue_mono.mp3",
+      "size": 2599776,
+      "sha256": "47a1429e979d1fbf71c753143c15ce96e77881c1759d98833a14139814993ee1"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_In_The_Shadow_Of_The_Valley.mp3",
+      "size": 5988835,
+      "sha256": "39451c375a8427cb1648a8b1594eb9a8210117dbad4da9f3122c044c30a080bb"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_In_The_Shadow_Of_The_Valley_mono.mp3",
+      "size": 2243376,
+      "sha256": "d811ca3b54aa328e877dbcab54e9f65d66051b2a5e595ad28ec1039ea0812e18"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Its_A_Sin_To_Tell_A_Lie.mp3",
+      "size": 4518455,
+      "sha256": "c754982046587e054eabc4e71f3a7867e55c75c68f8675acc338579baae4fa74"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Its_A_Sin_To_Tell_A_Lie_mono.mp3",
+      "size": 1693728,
+      "sha256": "1217a873193dcfc4fd1e2660dbdbdec8f0793851e272ad1385c5a622a38aa86f"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Jazz_Blues_GT.mp3",
+      "size": 9543996,
+      "sha256": "f6bc81c0f3f5ed8230255b2ea9b272bdb1de5a2b1d68d440f61ce4f813ddf07a"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Jazz_Blues_GT_mono.mp3",
+      "size": 3576960,
+      "sha256": "e81ff7f99008d06322cab6662f163d13343321dbfeaadaebf45da5fdc0d66c8f"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Jazz_Club_Blues_CAS.mp3",
+      "size": 7018687,
+      "sha256": "6d8553b7621297e239e700b797e3ffca3c0605ba334d0358e115a36c25aa973d"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Jazz_Club_Blues_CAS_mono.mp3",
+      "size": 2630016,
+      "sha256": "b6450c938d9bf5af1e34a3186d40211f805bd632d82eddba7ac6882194ca3a6e"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Jingle_Jangle_Jingle.mp3",
+      "size": 6410138,
+      "sha256": "b52e9a19ea415fa0f55940ddcf6f9c9515d6ad65b64a8d11cc15ce11ad89c8c6"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Jingle_Jangle_Jingle_mono.mp3",
+      "size": 2402640,
+      "sha256": "fa7a2121e726fdcc4a98384370647afa298c9085cb58112c5d698228f803679b"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Joe_Cool_CAS.mp3",
+      "size": 4668920,
+      "sha256": "13ff46efa1659fb3274dbb9f9c91cd6a25f127f7e9afebbb5bed5f991de574ec"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Joe_Cool_CAS_mono.mp3",
+      "size": 1748736,
+      "sha256": "63f223698c6b9ca1b0857c0e060f216d1d0e892549b4e9f45aec3a4f648a1f8c"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Johnny_Guitar.mp3",
+      "size": 5860104,
+      "sha256": "ad9aec3878835aac9f1f96cf6ad37f08d5f56e01931967febbfd0b050a3ec49c"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Johnny_Guitar_mono.mp3",
+      "size": 2196576,
+      "sha256": "e836a9a1b53d209e244d8b62fe850a872d405266951930fe7080f7f2747e05c3"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Lazy_Day_Blues.mp3",
+      "size": 5392825,
+      "sha256": "73dee00b81f0831b9a1b64202ca51d9e436e121003f0229e1af2b93762a81cd4"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Lazy_Day_Blues_mono.mp3",
+      "size": 2020032,
+      "sha256": "2047eb3ed237496f6754872841522ca50b4557100dcd35bc43bf6129e78ce9c4"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Let_s_Ride_Into_The_Sunset_Together.mp3",
+      "size": 5881002,
+      "sha256": "e506b1110e9cf523e3de775a72b234087d0617f97a6cd96b0e9b5db101cff201"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Let_s_Ride_Into_The_Sunset_Together_mono.mp3",
+      "size": 2203200,
+      "sha256": "8d8025c4b8f83337d8adb28b0e34289ca0df40cbed3f31de2d3d473e556d40f9"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Lone_Star.mp3",
+      "size": 4814370,
+      "sha256": "b73e951ab8a780ef7e6b70601ca1f86b9fa35f7ff2caac749f3bbb684269d12a"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Lone_Star_mono.mp3",
+      "size": 1803168,
+      "sha256": "95c197e58a90d1925e5bdebee84d89c8d66713b23e121c7a5d18e55c84f748eb"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Love_Me_As_Though_No_Tomorrow.mp3",
+      "size": 4976538,
+      "sha256": "44b668700fdbdd64722575ded745b663fa63b3b1a7083daf82d97f47feb65cda"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Love_Me_As_Though_No_Tomorrow_mono.mp3",
+      "size": 1865232,
+      "sha256": "1e36675a722f46e23a56ad521aea54d0764386c7279fe012dbd5d8c6bf111f06"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Mad_About_The_Boy.mp3",
+      "size": 4118886,
+      "sha256": "fac94bce30cef0133ff39acce5819b323b54832ccda72943501b6a1c39898942"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Mad_About_The_Boy_mono.mp3",
+      "size": 1543392,
+      "sha256": "d00a113663819bb1fdf89c4eb81e41ee94b3f6798772f5290446d53b612e72ac"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Manhattan.mp3",
+      "size": 2610889,
+      "sha256": "13442671d64e7d8ea8fd97d8655b29a2c77946eb94121481a8cbe977612cb57a"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Manhattan_mono.mp3",
+      "size": 976752,
+      "sha256": "2cea0011f5a547c60e047c348147329c2104d231c11e794ae53fc0f7a5201d46"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_NewVegasValley.mp3",
+      "size": 3822971,
+      "sha256": "a5dd5eddc96b8f19a3da5133267ad4f9e28d13abde5d75b5db434f34e4373725"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_NewVegasValley_mono.mp3",
+      "size": 1433664,
+      "sha256": "e19cd4a806e01f470f736dc4bcc5aba5f294d95398cb51a85c05c9e8d2862c61"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Piano_Concerto_No_21__Elvira_Madigan.mp3",
+      "size": 10811248,
+      "sha256": "3a536bbc1c43ec5ce4845866016f8bcc44956b83030899a0fe728398f47f956e"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Piano_Concerto_No_21__Elvira_Madigan_mono.mp3",
+      "size": 4053312,
+      "sha256": "71f5860cd9f81087e22b66f8b71d6db4fe73dd1399355774a97ccc98c9db23b2"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Ride_Of_The_Valkyries_01.mp3",
+      "size": 11507568,
+      "sha256": "41e43909890fa055114c0205b0e17c9ea1586f82aed739c3486918fdf60f7049"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Ride_Of_The_Valkyries_01_mono.mp3",
+      "size": 4314672,
+      "sha256": "ed9b4917ea79f75871c401228db5d9777e370290af5d76521603cb942e617c98"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Roundhouse_Rock.mp3",
+      "size": 5379451,
+      "sha256": "df270bf766fffe5ded06570814c55cfd577d1b188aef8ed3f2935d8458f2f86d"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Roundhouse_Rock_mono.mp3",
+      "size": 2015280,
+      "sha256": "3f2c016d808a4a2df01029aff4d600a02f48aa1ef3144c348c93c7cfc218f36b"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Sit_And_Dream.mp3",
+      "size": 2877547,
+      "sha256": "bd7aabf0a4a30a003ed7ce6870edab77cf8276be2a2e2babdab5c6bf16e9c9c4"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Sit_And_Dream_mono.mp3",
+      "size": 1076976,
+      "sha256": "78f89bbdcfb04f31e479eb4c62857ff84c0f76c71c03a8ceb41210c53d81f802"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Sleepy_Town_Blues_CAS.mp3",
+      "size": 5096910,
+      "sha256": "2bd73450696600b1a986856d3c074fb5fc9f8d977967caa2e5802a2fdd87ea4c"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Sleepy_Town_Blues_CAS_mono.mp3",
+      "size": 1909008,
+      "sha256": "6736711617a428495803340cb58a050dea6229aeb33cd76fd2063dea8774ff6e"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Slow_Bounce.mp3",
+      "size": 3986811,
+      "sha256": "4627f5f59190065af949b71762a0f618a95230f90a7a53a9b1246b228aecb869"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Slow_Bounce_mono.mp3",
+      "size": 1492992,
+      "sha256": "1b548a55c60ba0a005f9470565f97001c1ea22b1a6a9de3b6afcefaff38a4161"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Slow_Sax_KOS.mp3",
+      "size": 5118644,
+      "sha256": "bca6b69844dc4357c99effb1bed2fdb92b8bbc7c5df3c1b920cad7cff02ef680"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Slow_Sax_KOS_mono.mp3",
+      "size": 1917216,
+      "sha256": "2d6ffc063cddff36b94fb3978b24804c0534ebb01fa0b958d9b891df35139f35"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Somethings_Gotta_Give.mp3",
+      "size": 3913250,
+      "sha256": "c441b96341a9694f91004ec23c39123e6ccf10e4da40a0cd9bb3f54d928fbb4f"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Somethings_Gotta_Give_mono.mp3",
+      "size": 1466496,
+      "sha256": "e76fe4cc6f2bfbf77161077e555da35836b36b273602ec86b604771a66ba4646"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Spring_Song_KPMC.mp3",
+      "size": 5247376,
+      "sha256": "130692eb036425082a3e25e71f0763387e783d888b0b45602029f8d895463e54"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Spring_Song_KPMC_mono.mp3",
+      "size": 1966752,
+      "sha256": "713f771dd236a6fe2e6efcb067c8efeba766e2965fe0555b6cf5c3aebb84df93"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Stars_Of_The_Midnight_Range.mp3",
+      "size": 5544127,
+      "sha256": "e921e92a12b476e8a61172eadd54d4956416b85815161d198c5e911c0a2933ca"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Stars_Of_The_Midnight_Range_mono.mp3",
+      "size": 2078208,
+      "sha256": "e5a0cec3eceff05c6b259e6e905375843cc97df75dbe6ddabcc4d93837976e4a"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Strahlende_Trompete.mp3",
+      "size": 5975461,
+      "sha256": "5c4855bca656b5e6da31dc32660776b2f5ea55c9b860685724b19b1c1b8ca360"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Strahlende_Trompete_mono.mp3",
+      "size": 2238624,
+      "sha256": "c08d6d38e14c0204744d0477df47e3f5138b114f96ca4928475b571191cfcd31"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_StreetsOfNewReno.mp3",
+      "size": 4439879,
+      "sha256": "95dec8243bdc39dd08912d76bb22f83e27a14589a1e3276651f49942bea3489e"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_StreetsOfNewReno_mono.mp3",
+      "size": 1665216,
+      "sha256": "8249cb28521957040bad02b2083bc782b4fa147422ac599b599d98f49fb8f966"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Von_Spanien_Nach_S_damerika.mp3",
+      "size": 3384114,
+      "sha256": "b263f113917bcb748eac842e498c2515439f82a8316f92d3f6d227b93f120002"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Von_Spanien_Nach_S_damerika_mono.mp3",
+      "size": 1267056,
+      "sha256": "2b9032898a7e206918d430f10cf906ac30b7dbb00e406b5fdea8d2edc5e4ccf0"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Where_Have_You_Been_All_My_Life.mp3",
+      "size": 5661155,
+      "sha256": "2bab667aa49721b9413b11bc5647d6879996824ef356e17244d7f6d7eae997f7"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Where_Have_You_Been_All_My_Life_mono.mp3",
+      "size": 2120688,
+      "sha256": "f6fd75af90d7c71e22492f4a33166cc1489042e79ec71e2d34c1c8a5ed0588c5"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Why_Dont_You_Do_Right.mp3",
+      "size": 6476176,
+      "sha256": "9d9f80aa6d7ba9f600b2f1a13e551d7ebbb0f43e1297399dbe59ec3be8fedf68"
+    },
+    {
+      "path": "Data/Sound/songs/radionv/MUS_Why_Dont_You_Do_Right_mono.mp3",
+      "size": 2427696,
+      "sha256": "1b0977392b9dcf49d9d89e39414600e6f7ff200f2a12f5f301ea43d26564caf2"
+    },
+    {
+      "path": "Data/TribalPack - Main.bsa",
+      "size": 5840168,
+      "sha256": "12e8f8bfef320374e054a7ebed6e3369696d65dd7ed39c6c19823c5adf864b4b"
+    },
+    {
+      "path": "Data/TribalPack.esm",
+      "size": 2323,
+      "sha256": "342f42ce9835f57ee19be09f12ad0ba2c6182e86740338202fcea9011d62f328"
+    },
+    {
+      "path": "Data/TribalPack.nam",
+      "size": 11,
+      "sha256": "d2c81b6783205d7a3f5fdf1b10b6dce3a8890cdf87045042b1a3c26aaaa42e17"
+    },
+    {
+      "path": "Data/Update.bsa",
+      "size": 17250402,
+      "sha256": "8cbc13e9b47a73396b9c620a636da27dca6e8c715f6e98b4f263347baea4d92e"
+    },
+    {
+      "path": "Data/Video/FNVIntro.bik",
+      "size": 353301852,
+      "sha256": "eba73eef381d5c9a3dd1e7a923e9d77772cd17aa20bbeae04263227c655ea9f2"
+    },
+    {
+      "path": "EULA.txt",
+      "size": 79028,
+      "sha256": "c5eed606d03041500bf37de053c944e031e98e94122cbd03f0c3344365175fbc"
+    },
+    {
+      "path": "ExitData.mhd",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Fallout_default.ini",
+      "size": 20020,
+      "sha256": "988235eed2f12e983264d462b9938dc1c585c56e55a6d370d72fb55b8d3172f4"
+    },
+    {
+      "path": "FalloutNV.exe",
+      "size": 16084808,
+      "sha256": "89e7020487e80f20ddc92ea641c4433b2c6839a82f45a076e414d167d11dd0fe"
+    },
+    {
+      "path": "FalloutNV.ico",
+      "size": 168879,
+      "sha256": "5e660a691618a97588a2b6c7ef4acb2061f93f38ee064218e6f50319f37b7cdc"
+    },
+    {
+      "path": "FalloutNVLauncher.exe",
+      "size": 1713992,
+      "sha256": "1679e66744457154155813e266bbbeaf52a582929437737302ce1092154da9fc"
+    },
+    {
+      "path": "Galaxy.dll",
+      "size": 4414976,
+      "sha256": "3e4cf46e298d269a369c4aaf0632e033683c8f09aa7125947ac05fe01a0be89f"
+    },
+    {
+      "path": "GalaxyWrp.dll",
+      "size": 444928,
+      "sha256": "5598147f9a380e113f27e20b84bbd393f50c7ced23e0f9ffbdc1ae5c4c973162"
+    },
+    {
+      "path": "GDFFalloutNV.dll",
+      "size": 1963176,
+      "sha256": "0dfabb6c7d089c4f6b806af6a2888b39212c29504e9974a25bb4d4174f10e1b0"
+    },
+    {
+      "path": "Geck.exe",
+      "size": 12949504,
+      "sha256": "f66a3625e3f65c5cf1eca1470c6e3b7a9ce1b11adcef6c0e8b04c4644fe4e8c7"
+    },
+    {
+      "path": "GECKicon.ico",
+      "size": 300318,
+      "sha256": "2fea46d702b764a11054a360c497d1441d8a95173e40cf36996052ad4c6652ac"
+    },
+    {
+      "path": "GECKReadme.txt",
+      "size": 2587,
+      "sha256": "bbeb4c92bd7f146720f298da5288fbd05f3b348adc8ed52b815e55e7115e7423"
+    },
+    {
+      "path": "gog.ico",
+      "size": 69248,
+      "sha256": "f6a71321521ba89713f0bd38b21f809e87e8a789cb172e8e4693f9479e30b1e4"
+    },
+    {
+      "path": "goggame-1454587428.hashdb",
+      "size": 875,
+      "sha256": "3a52052a637b5c2fc1ef7cc2078e8fb84a68845119241d0f1d4e5d4e608ebc99"
+    },
+    {
+      "path": "goggame-1454587428.ico",
+      "size": 142360,
+      "sha256": "03f280f651cf557e908f38c25077a9c01d26b1ab87cf9c2e5fd69ab586853448"
+    },
+    {
+      "path": "goggame-1454587428.info",
+      "size": 1311,
+      "sha256": "0cd2fce81ff10788548822a6dc05f24add6532202043c6453204ff42045e3098"
+    },
+    {
+      "path": "goggame-1454587428.script",
+      "size": 910,
+      "sha256": "feb27643aaaf1aa5f553360ea2d449b1a18d5c6b5f94a6e37b886a8c4ceb7ae2"
+    },
+    {
+      "path": "goglog.ini",
+      "size": 286,
+      "sha256": "4e9da1925957db305de01d72c0347f775d3b49bbdb7d6f35b9712143a87aed42"
+    },
+    {
+      "path": "high.ini",
+      "size": 1116,
+      "sha256": "5c317777a65472e970b20364c2eeed4a2850fe485945015fdbb6c3d13aa3bc71"
+    },
+    {
+      "path": "Launch Fallout - New Vegas.lnk",
+      "size": 893,
+      "sha256": "aae6d933d890856b0d82917e3f50c82f3963e97ec6d26ce018666f46eb63f180"
+    },
+    {
+      "path": "libvorbis.dll",
+      "size": 1241528,
+      "sha256": "a34f3b4ee26cf093d096c574aba26c6e9fe0ce3dbfa073f92378fe1dffa01f0d"
+    },
+    {
+      "path": "libvorbisfile.dll",
+      "size": 120248,
+      "sha256": "6fc78d8abf8683a91d25166732085d5f934003150087b3d435bbc19e532a7994"
+    },
+    {
+      "path": "low.ini",
+      "size": 1107,
+      "sha256": "517b627d288d18be4844b08ad888422bf3b792f19b715345f61e557058cbe1db"
+    },
+    {
+      "path": "MainTitle.wav",
+      "size": 6158306,
+      "sha256": "24349746a24c5b99a48460d358faf62ce01cc92bf6e2f0770878f14b43c9a768"
+    },
+    {
+      "path": "medium.ini",
+      "size": 1115,
+      "sha256": "a4023fa88e0381c896eab87e04f18955542201609e1ce97524cb2a93d1d0991d"
+    },
+    {
+      "path": "Readme.txt",
+      "size": 4086,
+      "sha256": "441706a513f8b06486361064b027f2309d799f0ca1f0687bc9f5881dd24be806"
+    },
+    {
+      "path": "ssce5432.dll",
+      "size": 212992,
+      "sha256": "85cc9596032518ebfb4bf4e4f879553c0b1a25b24bc9b6104f57637c22439059"
+    },
+    {
+      "path": "support.ico",
+      "size": 62895,
+      "sha256": "05fe749ef47d1ec862d6c55be78e66d1011226bf1f78409acf57cb79cec5eb20"
+    },
+    {
+      "path": "unins000.dat",
+      "size": 2115148,
+      "sha256": "de38fdf2b050223c4ad1dbbd2d825fe65e0d3a434a139c7eb3782b06618252ed"
+    },
+    {
+      "path": "unins000.exe",
+      "size": 1343048,
+      "sha256": "5761e7789d813626cd68ee1e62429cfeb92bdd814cd29ef12fc4ae9ec1dbaff3"
+    },
+    {
+      "path": "unins000.ini",
+      "size": 41,
+      "sha256": "611bf46fc3c0936c10088cd44be3db038a6960710fed29eada652b4200296123"
+    },
+    {
+      "path": "unins000.msg",
+      "size": 23147,
+      "sha256": "e43d06ec2b3dbe3d81bcd6b7880d28d074dac54b38646a605cfc5c809939da16"
+    },
+    {
+      "path": "VeryHigh.ini",
+      "size": 1134,
+      "sha256": "6f0dbf1f5238cc6822ccf7e1ef37bab5fed233505df18502f9a2a2ae526340d5"
+    },
+    {
+      "path": "webcache.zip",
+      "size": 303996,
+      "sha256": "d9e1ad978c0e3fb42316f3bc605e98a55354248e969cc79919b9518d92edb61a"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "atimgpud.dll",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 165304
+        },
+        {
+          "file": "binkw32.dll",
+          "file_offset": 0,
+          "chunk_offset": 165304,
+          "length": 338944
+        },
+        {
+          "file": "Data/CaravanPack - Main.bsa",
+          "file_offset": 0,
+          "chunk_offset": 504248,
+          "length": 4235371
+        },
+        {
+          "file": "Data/CaravanPack.esm",
+          "file_offset": 0,
+          "chunk_offset": 4739619,
+          "length": 3007
+        },
+        {
+          "file": "Data/CaravanPack.nam",
+          "file_offset": 0,
+          "chunk_offset": 4742626,
+          "length": 12
+        },
+        {
+          "file": "Data/ClassicPack - Main.bsa",
+          "file_offset": 0,
+          "chunk_offset": 4742638,
+          "length": 8445542
+        },
+        {
+          "file": "Data/ClassicPack.esm",
+          "file_offset": 0,
+          "chunk_offset": 13188180,
+          "length": 6523
+        },
+        {
+          "file": "Data/ClassicPack.nam",
+          "file_offset": 0,
+          "chunk_offset": 13194703,
+          "length": 12
+        },
+        {
+          "file": "Data/Credits.txt",
+          "file_offset": 0,
+          "chunk_offset": 13194715,
+          "length": 52417
+        },
+        {
+          "file": "Data/CreditsWacky.txt",
+          "file_offset": 0,
+          "chunk_offset": 13247132,
+          "length": 57300
+        },
+        {
+          "file": "Data/DeadMoney - Main.bsa",
+          "file_offset": 0,
+          "chunk_offset": 13304432,
+          "length": 234547358
+        }
+      ],
+      "sha256": "36cb0a3322e964e016a06cbd8f14964ea9b81edf74eeef9d5745beb03bfdeb36"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/DeadMoney - Main.bsa",
+          "file_offset": 234547358,
+          "chunk_offset": 0,
+          "length": 124340776
+        },
+        {
+          "file": "Data/DeadMoney - Sounds.bsa",
+          "file_offset": 0,
+          "chunk_offset": 124340776,
+          "length": 105097622
+        },
+        {
+          "file": "Data/DeadMoney.esm",
+          "file_offset": 0,
+          "chunk_offset": 229438398,
+          "length": 6274851
+        },
+        {
+          "file": "Data/DEADMONEY.NAM",
+          "file_offset": 0,
+          "chunk_offset": 235713249,
+          "length": 10
+        },
+        {
+          "file": "Data/Fallout - Meshes.bsa",
+          "file_offset": 0,
+          "chunk_offset": 235713259,
+          "length": 12138531
+        }
+      ],
+      "sha256": "bfcd2200fc26da98a64cb7c3b1819cb0895931fa333a52e04e23908bfca10eed"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Meshes.bsa",
+          "file_offset": 12138531,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "72eb6b198e97250e0f60fe8d3155d9f2464fc358607478917ebcd1bd9b904b18"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Meshes.bsa",
+          "file_offset": 259990321,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "a66cab788ccf820a6e0122fa464d3d1786d22c0b9c3e9874cab9a8731d77a0c9"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Meshes.bsa",
+          "file_offset": 507842111,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "0b98f42ae411bd017cc4330379ad4ab2e72be0624c69a1947f0162778d1d665e"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Meshes.bsa",
+          "file_offset": 755693901,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "518e70a989856b94d31f4ad3ba569c31653b640a63b38747d843e5189614d7e0"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Meshes.bsa",
+          "file_offset": 1003545691,
+          "chunk_offset": 0,
+          "length": 58078800
+        },
+        {
+          "file": "Data/Fallout - Misc.bsa",
+          "file_offset": 0,
+          "chunk_offset": 58078800,
+          "length": 1905069
+        },
+        {
+          "file": "Data/Fallout - Sound.bsa",
+          "file_offset": 0,
+          "chunk_offset": 59983869,
+          "length": 187867921
+        }
+      ],
+      "sha256": "3a9a7bba3204d9de41b39e6bc0ae92bf7e6823e6735f2a1cbd5335c02a9bd4f4"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Sound.bsa",
+          "file_offset": 187867921,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "cffbbb47026a8a3fddc19fa77fe5d55d5831b643ad1e8c716220db1df25627f5"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Sound.bsa",
+          "file_offset": 435719711,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "242720ed543e9630f77514d3ab8f9472041f95d2a816bb3ce38e955ebef79f35"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Sound.bsa",
+          "file_offset": 683571501,
+          "chunk_offset": 0,
+          "length": 167414071
+        },
+        {
+          "file": "Data/Fallout - Textures.bsa",
+          "file_offset": 0,
+          "chunk_offset": 167414071,
+          "length": 80437719
+        }
+      ],
+      "sha256": "dcbd834399e5b63330098b15c7f1354e789a2cc475f0354140bbb71d4ae456e2"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Textures.bsa",
+          "file_offset": 80437719,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "f8b0dbae43994438cceff7abf39b0dccae72610862b06e5e00ccbed607ea67f9"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Textures.bsa",
+          "file_offset": 328289509,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "72b5b2b086058db4a4fbce07a25bb742958538ef3e9645d9d72d009ddc3b29ab"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Textures.bsa",
+          "file_offset": 576141299,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "9f33cc2a190286ca36f0ab7a5a7f5e523f866434c3b39adcda146cf2db624cc9"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Textures.bsa",
+          "file_offset": 823993089,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "11ee7a5647db31f2427a10bdd653f53913e5262586c6d5db9ec8e76d3ba4b42b"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Textures.bsa",
+          "file_offset": 1071844879,
+          "chunk_offset": 0,
+          "length": 124922317
+        },
+        {
+          "file": "Data/Fallout - Textures2.bsa",
+          "file_offset": 0,
+          "chunk_offset": 124922317,
+          "length": 122929473
+        }
+      ],
+      "sha256": "59ff0b315495822934e97019cd901cbce362b5201b6894cf277923fb6fb0e4e3"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Textures2.bsa",
+          "file_offset": 122929473,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "f5eb8cb6306f85ca96d0c47c4bf334982019b697b8c7f2f9e55b6aab1bf062a7"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Textures2.bsa",
+          "file_offset": 370781263,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "ad9ea8677eded0e0f1a0f6812604ddc4c631d6bdc01357b9e7c8a00f33724b92"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Textures2.bsa",
+          "file_offset": 618633053,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "e8363371e09476fc9cb06b647809d4ceaeb2f8925be8c37ddd54b0ef31473a10"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Textures2.bsa",
+          "file_offset": 866484843,
+          "chunk_offset": 0,
+          "length": 94764814
+        },
+        {
+          "file": "Data/Fallout - Voices1.bsa",
+          "file_offset": 0,
+          "chunk_offset": 94764814,
+          "length": 153086976
+        }
+      ],
+      "sha256": "a697615c9010bcfd8ef74c09418247019563bf00a917da91598ed2ee839f595f"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Voices1.bsa",
+          "file_offset": 153086976,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "26bc7eef2c97c5da8ce3e9254aed308e77bc5e002ffba92d21abe2466d5ec697"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Voices1.bsa",
+          "file_offset": 400938766,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "6e28651b592f1175e302b8ce969ba41ff9ffce7b6d905dfedbb413a850d0d633"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Voices1.bsa",
+          "file_offset": 648790556,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "9d5ebee7fd19bc7843adb6098d1145939a30714d03887fedcdc081e9e34996bd"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Voices1.bsa",
+          "file_offset": 896642346,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "a26420e706c13cd36885fdb991f0f41df6dd63c5ea09e1c5346fb27a1593029a"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Voices1.bsa",
+          "file_offset": 1144494136,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "c441d72baed0ccf87fc834a95da7ecebc09c63cd44a1c8e31912e74485b37cfb"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Fallout - Voices1.bsa",
+          "file_offset": 1392345926,
+          "chunk_offset": 0,
+          "length": 209985963
+        },
+        {
+          "file": "Data/FalloutNV.esm",
+          "file_offset": 0,
+          "chunk_offset": 209985963,
+          "length": 37865827
+        }
+      ],
+      "sha256": "836bdd3e7a9c215f278863201d9c818b13799ad8070701d9ee8f63466a2f484d"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/FalloutNV.esm",
+          "file_offset": 37865827,
+          "chunk_offset": 0,
+          "length": 207784920
+        },
+        {
+          "file": "Data/FalloutNV_lang.esp",
+          "file_offset": 0,
+          "chunk_offset": 207784920,
+          "length": 56
+        },
+        {
+          "file": "Data/GunRunnersArsenal - Main.bsa",
+          "file_offset": 0,
+          "chunk_offset": 207784976,
+          "length": 40066814
+        }
+      ],
+      "sha256": "e274887f07b5ccd77c8f9c57364038917177f6db59c1201b7bb3c0f1d0a108e9"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/GunRunnersArsenal - Main.bsa",
+          "file_offset": 40066814,
+          "chunk_offset": 0,
+          "length": 82505951
+        },
+        {
+          "file": "Data/GunRunnersArsenal - Sounds.bsa",
+          "file_offset": 0,
+          "chunk_offset": 82505951,
+          "length": 9715305
+        },
+        {
+          "file": "Data/GunRunnersArsenal.esm",
+          "file_offset": 0,
+          "chunk_offset": 92221256,
+          "length": 252445
+        },
+        {
+          "file": "Data/GUNRUNNERSARSENAL.NAM",
+          "file_offset": 0,
+          "chunk_offset": 92473701,
+          "length": 20
+        },
+        {
+          "file": "Data/HonestHearts - Main.bsa",
+          "file_offset": 0,
+          "chunk_offset": 92473721,
+          "length": 155378069
+        }
+      ],
+      "sha256": "39b73d42a7a2d80ef120a0cc01fa1676b014635bb01e844a2518b305794b0213"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/HonestHearts - Main.bsa",
+          "file_offset": 155378069,
+          "chunk_offset": 0,
+          "length": 238148360
+        },
+        {
+          "file": "Data/HonestHearts - Sounds.bsa",
+          "file_offset": 0,
+          "chunk_offset": 238148360,
+          "length": 9703430
+        }
+      ],
+      "sha256": "9149f51f955c9e3570a3802c18e805198ce5d387dec46862d8d6e3bdabeff8b7"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/HonestHearts - Sounds.bsa",
+          "file_offset": 9703430,
+          "chunk_offset": 0,
+          "length": 4564165
+        },
+        {
+          "file": "Data/HonestHearts.esm",
+          "file_offset": 0,
+          "chunk_offset": 4564165,
+          "length": 17308500
+        },
+        {
+          "file": "Data/HONESTHEARTS.NAM",
+          "file_offset": 0,
+          "chunk_offset": 21872665,
+          "length": 13
+        },
+        {
+          "file": "Data/LonesomeRoad - Main.bsa",
+          "file_offset": 0,
+          "chunk_offset": 21872678,
+          "length": 225979112
+        }
+      ],
+      "sha256": "d38248117d5ff609764af799d7b8c77ec1df2a60e45b9c12c5b6ba030efd23b3"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/LonesomeRoad - Main.bsa",
+          "file_offset": 225979112,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "901449178526f4102cd83a554ec464c0bfa56e21018ce1066631e76c9f79a1bb"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/LonesomeRoad - Main.bsa",
+          "file_offset": 473830902,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "27840d0b4dfdfd88f6cfa980f16c310474eaa3848871a4563e137c8ba79e199d"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/LonesomeRoad - Main.bsa",
+          "file_offset": 721682692,
+          "chunk_offset": 0,
+          "length": 45510277
+        },
+        {
+          "file": "Data/LonesomeRoad - Sounds.bsa",
+          "file_offset": 0,
+          "chunk_offset": 45510277,
+          "length": 28827118
+        },
+        {
+          "file": "Data/LonesomeRoad.esm",
+          "file_offset": 0,
+          "chunk_offset": 74337395,
+          "length": 25676818
+        },
+        {
+          "file": "Data/LONESOMEROAD.NAM",
+          "file_offset": 0,
+          "chunk_offset": 100014213,
+          "length": 13
+        },
+        {
+          "file": "Data/MercenaryPack - Main.bsa",
+          "file_offset": 0,
+          "chunk_offset": 100014226,
+          "length": 1835388
+        },
+        {
+          "file": "Data/MercenaryPack.esm",
+          "file_offset": 0,
+          "chunk_offset": 101849614,
+          "length": 3064
+        },
+        {
+          "file": "Data/MercenaryPack.nam",
+          "file_offset": 0,
+          "chunk_offset": 101852678,
+          "length": 14
+        },
+        {
+          "file": "Data/Music/BTTL/Evil1/mus_BTTL_Lp_Evil1_City_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 101852692,
+          "length": 879552
+        },
+        {
+          "file": "Data/Music/BTTL/Evil1/mus_BTTL_Lp_Evil1_City_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 102732244,
+          "length": 879552
+        },
+        {
+          "file": "Data/Music/BTTL/Evil1/mus_BTTL_Lp_Evil1_Rural_Full(alt1).mp3",
+          "file_offset": 0,
+          "chunk_offset": 103611796,
+          "length": 879552
+        },
+        {
+          "file": "Data/Music/BTTL/Evil1/mus_BTTL_Lp_Evil1_Rural_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 104491348,
+          "length": 879552
+        },
+        {
+          "file": "Data/Music/BTTL/Evil1/mus_BTTL_Lp_Evil1_Rural_Perc(alt1).mp3",
+          "file_offset": 0,
+          "chunk_offset": 105370900,
+          "length": 1098432
+        },
+        {
+          "file": "Data/Music/BTTL/Evil1/mus_BTTL_Lp_Evil1_Rural_Perc(alt2).mp3",
+          "file_offset": 0,
+          "chunk_offset": 106469332,
+          "length": 1098432
+        },
+        {
+          "file": "Data/Music/BTTL/Evil1/mus_BTTL_Lp_Evil1_Rural_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 107567764,
+          "length": 1098432
+        },
+        {
+          "file": "Data/Music/BTTL/Evil2/mus_BTTL_Lp_Evil2_City_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 108666196,
+          "length": 893952
+        },
+        {
+          "file": "Data/Music/BTTL/Evil2/mus_BTTL_Lp_Evil2_City_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 109560148,
+          "length": 893952
+        },
+        {
+          "file": "Data/Music/BTTL/Evil2/mus_BTTL_Lp_Evil2_Rural_Full(alt1).mp3",
+          "file_offset": 0,
+          "chunk_offset": 110454100,
+          "length": 893952
+        },
+        {
+          "file": "Data/Music/BTTL/Evil2/mus_BTTL_Lp_Evil2_Rural_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 111348052,
+          "length": 893952
+        },
+        {
+          "file": "Data/Music/BTTL/Evil2/mus_BTTL_Lp_Evil2_Rural_Perc(alt1).mp3",
+          "file_offset": 0,
+          "chunk_offset": 112242004,
+          "length": 893952
+        },
+        {
+          "file": "Data/Music/BTTL/Evil2/mus_BTTL_Lp_Evil2_Rural_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 113135956,
+          "length": 891648
+        },
+        {
+          "file": "Data/Music/BTTL/Evil3/mus_BTTL_Lp_Evil3_City_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 114027604,
+          "length": 855360
+        },
+        {
+          "file": "Data/Music/BTTL/Evil3/mus_BTTL_Lp_Evil3_City_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 114882964,
+          "length": 832320
+        },
+        {
+          "file": "Data/Music/BTTL/Evil3/mus_BTTL_Lp_Evil3_Rural_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 115715284,
+          "length": 869184
+        },
+        {
+          "file": "Data/Music/BTTL/Evil3/mus_BTTL_Lp_Evil3_Rural_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 116584468,
+          "length": 869760
+        },
+        {
+          "file": "Data/Music/BTTL/Evil4/mus_BTTL_Lp_Evil4_City_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 117454228,
+          "length": 1045440
+        },
+        {
+          "file": "Data/Music/BTTL/Evil4/mus_BTTL_Lp_Evil4_City_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 118499668,
+          "length": 1045440
+        },
+        {
+          "file": "Data/Music/BTTL/Evil4/mus_BTTL_Lp_Evil4_Rural_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 119545108,
+          "length": 1044864
+        },
+        {
+          "file": "Data/Music/BTTL/Evil4/mus_BTTL_Lp_Evil4_Rural_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 120589972,
+          "length": 1046016
+        },
+        {
+          "file": "Data/Music/BTTL/Good1/mus_BTTL_Lp_Good1_City_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 121635988,
+          "length": 957888
+        },
+        {
+          "file": "Data/Music/BTTL/Good1/mus_BTTL_Lp_Good1_City_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 122593876,
+          "length": 972864
+        },
+        {
+          "file": "Data/Music/BTTL/Good1/mus_BTTL_Lp_Good1_Rural_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 123566740,
+          "length": 1215360
+        },
+        {
+          "file": "Data/Music/BTTL/Good1/mus_BTTL_Lp_Good1_Rural_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 124782100,
+          "length": 1215360
+        },
+        {
+          "file": "Data/Music/BTTL/Good2/mus_BTTL_Lp_Good2_City_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 125997460,
+          "length": 991296
+        },
+        {
+          "file": "Data/Music/BTTL/Good2/mus_BTTL_Lp_Good2_City_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 126988756,
+          "length": 991296
+        },
+        {
+          "file": "Data/Music/BTTL/Good2/mus_BTTL_Lp_Good2_Rural_Full(alt1).mp3",
+          "file_offset": 0,
+          "chunk_offset": 127980052,
+          "length": 991296
+        },
+        {
+          "file": "Data/Music/BTTL/Good2/mus_BTTL_Lp_Good2_Rural_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 128971348,
+          "length": 977472
+        },
+        {
+          "file": "Data/Music/BTTL/Good2/mus_BTTL_Lp_Good2_Rural_Perc(alt1).mp3",
+          "file_offset": 0,
+          "chunk_offset": 129948820,
+          "length": 991296
+        },
+        {
+          "file": "Data/Music/BTTL/Good2/mus_BTTL_Lp_Good2_Rural_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 130940116,
+          "length": 977472
+        },
+        {
+          "file": "Data/Music/BTTL/Good3/mus_BTTL_Lp_Good3_City_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 131917588,
+          "length": 1615104
+        },
+        {
+          "file": "Data/Music/BTTL/Good3/mus_BTTL_Lp_Good3_City_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 133532692,
+          "length": 1615680
+        },
+        {
+          "file": "Data/Music/BTTL/Good3/mus_BTTL_Lp_Good3_Rural_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 135148372,
+          "length": 1615104
+        },
+        {
+          "file": "Data/Music/BTTL/Good3/mus_BTTL_Lp_Good3_Rural_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 136763476,
+          "length": 1615104
+        },
+        {
+          "file": "Data/Music/BTTL/Good4/mus_BTTL_Lp_Good4_City_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 138378580,
+          "length": 1207296
+        },
+        {
+          "file": "Data/Music/BTTL/Good4/mus_BTTL_Lp_Good4_City_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 139585876,
+          "length": 1206144
+        },
+        {
+          "file": "Data/Music/BTTL/Good4/mus_BTTL_Lp_Good4_Rural_Full.mp3",
+          "file_offset": 0,
+          "chunk_offset": 140792020,
+          "length": 1206144
+        },
+        {
+          "file": "Data/Music/BTTL/Good4/mus_BTTL_Lp_Good4_Rural_Perc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 141998164,
+          "length": 1206720
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon1/mus_DNGN_One_1Low(alt).mp3",
+          "file_offset": 0,
+          "chunk_offset": 143204884,
+          "length": 3070080
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon1/mus_DNGN_One_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 146274964,
+          "length": 2924928
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon1/mus_DNGN_One_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 149199892,
+          "length": 2924928
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon1/mus_DNGN_One_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 152124820,
+          "length": 2924928
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon2/mus_DNGN_Two_1Low(alt1).mp3",
+          "file_offset": 0,
+          "chunk_offset": 155049748,
+          "length": 3123072
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon2/mus_DNGN_Two_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 158172820,
+          "length": 3075264
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon2/mus_DNGN_Two_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 161248084,
+          "length": 3075264
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon2/mus_DNGN_Two_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 164323348,
+          "length": 3075264
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon3/mus_DNGN_Three_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 167398612,
+          "length": 2984832
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon3/mus_DNGN_Three_2Mid(alt1).mp3",
+          "file_offset": 0,
+          "chunk_offset": 170383444,
+          "length": 3070080
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon3/mus_DNGN_Three_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 173453524,
+          "length": 2984832
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon3/mus_DNGN_Three_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 176438356,
+          "length": 2984832
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon4/mus_DNGN_Four_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 179423188,
+          "length": 3113280
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon4/mus_DNGN_Four_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 182536468,
+          "length": 3113280
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon4/mus_DNGN_Four_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 185649748,
+          "length": 3113280
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon5/mus_DNGN_Five_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 188763028,
+          "length": 3123648
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon5/mus_DNGN_Five_2Mid(alt1).mp3",
+          "file_offset": 0,
+          "chunk_offset": 191886676,
+          "length": 3135168
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon5/mus_DNGN_Five_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 195021844,
+          "length": 3123648
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon5/mus_DNGN_Five_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 198145492,
+          "length": 3123648
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon6/mus_DNGN_Six_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 201269140,
+          "length": 3074112
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon6/mus_DNGN_Six_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 204343252,
+          "length": 3074112
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon6/mus_DNGN_Six_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 207417364,
+          "length": 3074112
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon7/mus_DNGN_Seven_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 210491476,
+          "length": 2875392
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon7/mus_DNGN_Seven_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 213366868,
+          "length": 2875392
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon7/mus_DNGN_Seven_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 216242260,
+          "length": 2875392
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon8/mus_DNGN_Eight_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 219117652,
+          "length": 3218112
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon8/mus_DNGN_Eight_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 222335764,
+          "length": 3218112
+        },
+        {
+          "file": "Data/Music/DNGN/Dungeon8/mus_DNGN_Eight_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 225553876,
+          "length": 3218112
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/01MetallicMonks.mp3",
+          "file_offset": 0,
+          "chunk_offset": 228771988,
+          "length": 3275929
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/02DesertWind.mp3",
+          "file_offset": 0,
+          "chunk_offset": 232047917,
+          "length": 3217832
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/03ATradersLife.mp3",
+          "file_offset": 0,
+          "chunk_offset": 235265749,
+          "length": 3904121
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/04TheVaultoftheFuture.mp3",
+          "file_offset": 0,
+          "chunk_offset": 239169870,
+          "length": 3865669
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/05IndustrialJunk.mp3",
+          "file_offset": 0,
+          "chunk_offset": 243035539,
+          "length": 3271331
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/06MoribundWorld.mp3",
+          "file_offset": 0,
+          "chunk_offset": 246306870,
+          "length": 1544920
+        }
+      ],
+      "sha256": "1de11c4c7596b2d742c19d5b5d16ebcddb5b3fdb8a0b77b542db79530b99ee17"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/06MoribundWorld.mp3",
+          "file_offset": 1544920,
+          "chunk_offset": 0,
+          "length": 1395805
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/07VatsofGoo.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1395805,
+          "length": 3173947
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/08CityoftheDead.mp3",
+          "file_offset": 0,
+          "chunk_offset": 4569752,
+          "length": 3274675
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/09SecondChance.mp3",
+          "file_offset": 0,
+          "chunk_offset": 7844427,
+          "length": 3912063
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/10UndergroundTroubles.mp3",
+          "file_offset": 0,
+          "chunk_offset": 11756490,
+          "length": 3736520
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/11CityofLostAngels.mp3",
+          "file_offset": 0,
+          "chunk_offset": 15493010,
+          "length": 3629522
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/12FollowersCredo.mp3",
+          "file_offset": 0,
+          "chunk_offset": 19122532,
+          "length": 2868836
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/13RadiationStorm.mp3",
+          "file_offset": 0,
+          "chunk_offset": 21991368,
+          "length": 3807155
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/14AcolytesoftheNewgod.mp3",
+          "file_offset": 0,
+          "chunk_offset": 25798523,
+          "length": 3167259
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/15FlameoftheAncientWorld.mp3",
+          "file_offset": 0,
+          "chunk_offset": 28965782,
+          "length": 3015122
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout/16KhansofNewCalifornia.mp3",
+          "file_offset": 0,
+          "chunk_offset": 31980904,
+          "length": 3201114
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout2/Arroyo.mp3",
+          "file_offset": 0,
+          "chunk_offset": 35182018,
+          "length": 3368225
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout2/Modoc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 38550243,
+          "length": 3304694
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout2/NewReno.mp3",
+          "file_offset": 0,
+          "chunk_offset": 41854937,
+          "length": 3193520
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout2/Redding.mp3",
+          "file_offset": 0,
+          "chunk_offset": 45048457,
+          "length": 3464774
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout2/SanFrancisco.mp3",
+          "file_offset": 0,
+          "chunk_offset": 48513231,
+          "length": 3976362
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout2/VaultCity.mp3",
+          "file_offset": 0,
+          "chunk_offset": 52489593,
+          "length": 3226540
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout2/Worldmap1.mp3",
+          "file_offset": 0,
+          "chunk_offset": 55716133,
+          "length": 1640385
+        },
+        {
+          "file": "Data/Music/Fallout1and2/Fallout2/Worldmap2.mp3",
+          "file_offset": 0,
+          "chunk_offset": 57356518,
+          "length": 1224516
+        },
+        {
+          "file": "Data/Music/LOC/CaesarsLegion/mus_LOC_Caesar_Day_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 58581034,
+          "length": 3194496
+        },
+        {
+          "file": "Data/Music/LOC/CaesarsLegion/mus_LOC_Caesar_Day_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 61775530,
+          "length": 3194496
+        },
+        {
+          "file": "Data/Music/LOC/CaesarsLegion/mus_LOC_Caesar_Day_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 64970026,
+          "length": 3194496
+        },
+        {
+          "file": "Data/Music/LOC/CaesarsLegion/mus_LOC_Caesar_Night_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 68164522,
+          "length": 3210624
+        },
+        {
+          "file": "Data/Music/LOC/CaesarsLegion/mus_LOC_Caesar_Night_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 71375146,
+          "length": 3210624
+        },
+        {
+          "file": "Data/Music/LOC/CaesarsLegion/mus_LOC_Caesar_Night_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 74585770,
+          "length": 3210624
+        },
+        {
+          "file": "Data/Music/LOC/CorporateRuins/mus_LOC_CorpRuins_Day_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 77796394,
+          "length": 2920320
+        },
+        {
+          "file": "Data/Music/LOC/CorporateRuins/mus_LOC_CorpRuins_Day_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 80716714,
+          "length": 2920320
+        },
+        {
+          "file": "Data/Music/LOC/CorporateRuins/mus_LOC_CorpRuins_Day_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 83637034,
+          "length": 2920320
+        },
+        {
+          "file": "Data/Music/LOC/CorporateRuins/mus_LOC_CorpRuins_Night_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 86557354,
+          "length": 2910528
+        },
+        {
+          "file": "Data/Music/LOC/CorporateRuins/mus_LOC_CorpRuins_Night_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 89467882,
+          "length": 2910528
+        },
+        {
+          "file": "Data/Music/LOC/CorporateRuins/mus_LOC_CorpRuins_Night_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 92378410,
+          "length": 2910528
+        },
+        {
+          "file": "Data/Music/LOC/DesertExploration/mus_LOC_DesExpl_Day_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 95288938,
+          "length": 3184128
+        },
+        {
+          "file": "Data/Music/LOC/DesertExploration/mus_LOC_DesExpl_Day_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 98473066,
+          "length": 3184128
+        },
+        {
+          "file": "Data/Music/LOC/DesertExploration/mus_LOC_DesExpl_Day_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 101657194,
+          "length": 3184128
+        },
+        {
+          "file": "Data/Music/LOC/DesertExploration/mus_LOC_DesExpl_Night_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 104841322,
+          "length": 3086208
+        },
+        {
+          "file": "Data/Music/LOC/DesertExploration/mus_LOC_DesExpl_Night_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 107927530,
+          "length": 3086208
+        },
+        {
+          "file": "Data/Music/LOC/DesertExploration/mus_LOC_DesExpl_Night_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 111013738,
+          "length": 3086208
+        },
+        {
+          "file": "Data/Music/LOC/DesertSettlement/mus_LOC_DesSttl_Day_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 114099946,
+          "length": 2950848
+        },
+        {
+          "file": "Data/Music/LOC/DesertSettlement/mus_LOC_DesSttl_Day_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 117050794,
+          "length": 2950848
+        },
+        {
+          "file": "Data/Music/LOC/DesertSettlement/mus_LOC_DesSttl_Day_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 120001642,
+          "length": 2950848
+        },
+        {
+          "file": "Data/Music/LOC/DesertSettlement/mus_LOC_DesSttl_Night_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 122952490,
+          "length": 2962944
+        },
+        {
+          "file": "Data/Music/LOC/DesertSettlement/mus_LOC_DesSttl_Night_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 125915434,
+          "length": 2962944
+        },
+        {
+          "file": "Data/Music/LOC/DesertSettlement/mus_LOC_DesSttl_Night_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 128878378,
+          "length": 2962944
+        },
+        {
+          "file": "Data/Music/LOC/Freeside/mus_LOC_Freeside_Day_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 131841322,
+          "length": 3093696
+        },
+        {
+          "file": "Data/Music/LOC/Freeside/mus_LOC_Freeside_Day_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 134935018,
+          "length": 3093696
+        },
+        {
+          "file": "Data/Music/LOC/Freeside/mus_LOC_Freeside_Day_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 138028714,
+          "length": 3093696
+        },
+        {
+          "file": "Data/Music/LOC/Freeside/mus_LOC_Freeside_Night_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 141122410,
+          "length": 3031488
+        },
+        {
+          "file": "Data/Music/LOC/Freeside/mus_LOC_Freeside_Night_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 144153898,
+          "length": 3031488
+        },
+        {
+          "file": "Data/Music/LOC/Freeside/mus_LOC_Freeside_Night_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 147185386,
+          "length": 3031488
+        },
+        {
+          "file": "Data/Music/LOC/HooverDam/mus_LOC_Hoover_Caesar_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 150216874,
+          "length": 2971008
+        },
+        {
+          "file": "Data/Music/LOC/HooverDam/mus_LOC_Hoover_Caesar_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 153187882,
+          "length": 2971008
+        },
+        {
+          "file": "Data/Music/LOC/HooverDam/mus_LOC_Hoover_Caesar_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 156158890,
+          "length": 2971008
+        },
+        {
+          "file": "Data/Music/LOC/HooverDam/mus_LOC_Hoover_NCR_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 159129898,
+          "length": 2979072
+        },
+        {
+          "file": "Data/Music/LOC/HooverDam/mus_LOC_Hoover_NCR_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 162108970,
+          "length": 2979072
+        },
+        {
+          "file": "Data/Music/LOC/HooverDam/mus_LOC_Hoover_NCR_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 165088042,
+          "length": 2979072
+        },
+        {
+          "file": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Day_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 168067114,
+          "length": 2931840
+        },
+        {
+          "file": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Day_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 170998954,
+          "length": 2936448
+        },
+        {
+          "file": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Day_3High(alt1).mp3",
+          "file_offset": 0,
+          "chunk_offset": 173935402,
+          "length": 2979648
+        },
+        {
+          "file": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Day_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 176915050,
+          "length": 2936448
+        },
+        {
+          "file": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Night_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 179851498,
+          "length": 2922624
+        },
+        {
+          "file": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Night_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 182774122,
+          "length": 2922624
+        },
+        {
+          "file": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Night_3High(alt1).mp3",
+          "file_offset": 0,
+          "chunk_offset": 185696746,
+          "length": 3065472
+        },
+        {
+          "file": "Data/Music/LOC/IndustrialCity/mus_LOC_Industrial_Night_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 188762218,
+          "length": 2922624
+        },
+        {
+          "file": "Data/Music/LOC/Jacobstown/mus_LOC_Jacobstown_Day_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 191684842,
+          "length": 2932992
+        },
+        {
+          "file": "Data/Music/LOC/Jacobstown/mus_LOC_Jacobstown_Day_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 194617834,
+          "length": 2932992
+        },
+        {
+          "file": "Data/Music/LOC/Jacobstown/mus_LOC_Jacobstown_Day_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 197550826,
+          "length": 2932992
+        },
+        {
+          "file": "Data/Music/LOC/Jacobstown/mus_LOC_Jacobstown_Night_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 200483818,
+          "length": 2884032
+        },
+        {
+          "file": "Data/Music/LOC/Jacobstown/mus_LOC_Jacobstown_Night_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 203367850,
+          "length": 2884032
+        },
+        {
+          "file": "Data/Music/LOC/Jacobstown/mus_LOC_Jacobstown_Night_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 206251882,
+          "length": 2884032
+        },
+        {
+          "file": "Data/Music/LOC/LargerTown/mus_LOC_LrgTown_Day_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 209135914,
+          "length": 2983680
+        },
+        {
+          "file": "Data/Music/LOC/LargerTown/mus_LOC_LrgTown_Day_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 212119594,
+          "length": 2983680
+        },
+        {
+          "file": "Data/Music/LOC/LargerTown/mus_LOC_LrgTown_Day_3High(alt1).mp3",
+          "file_offset": 0,
+          "chunk_offset": 215103274,
+          "length": 3173760
+        },
+        {
+          "file": "Data/Music/LOC/LargerTown/mus_LOC_LrgTown_Day_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 218277034,
+          "length": 2983680
+        },
+        {
+          "file": "Data/Music/LOC/LargerTown/mus_LOC_LrgTown_Night_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 221260714,
+          "length": 2956032
+        },
+        {
+          "file": "Data/Music/LOC/LargerTown/mus_LOC_LrgTown_Night_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 224216746,
+          "length": 2956032
+        },
+        {
+          "file": "Data/Music/LOC/LargerTown/mus_LOC_LrgTown_Night_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 227172778,
+          "length": 2956032
+        },
+        {
+          "file": "Data/Music/LOC/Mountain/mus_LOC_Mountain_Day_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 230128810,
+          "length": 2960640
+        },
+        {
+          "file": "Data/Music/LOC/Mountain/mus_LOC_Mountain_Day_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 233089450,
+          "length": 2960640
+        },
+        {
+          "file": "Data/Music/LOC/Mountain/mus_LOC_Mountain_Day_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 236050090,
+          "length": 2960640
+        },
+        {
+          "file": "Data/Music/LOC/Mountain/mus_LOC_Mountain_Night_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 239010730,
+          "length": 2960640
+        },
+        {
+          "file": "Data/Music/LOC/Mountain/mus_LOC_Mountain_Night_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 241971370,
+          "length": 2960640
+        },
+        {
+          "file": "Data/Music/LOC/Mountain/mus_LOC_Mountain_Night_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 244932010,
+          "length": 2919780
+        }
+      ],
+      "sha256": "9bd7efd9c1896f2cd7e7c8ed9ac5d5f58d9bdfdac53591ad42056278793cb2e8"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Music/LOC/Mountain/mus_LOC_Mountain_Night_3High.mp3",
+          "file_offset": 2919780,
+          "chunk_offset": 0,
+          "length": 40860
+        },
+        {
+          "file": "Data/Music/LOC/NewCaliforniaRepublic/mus_LOC_CalRepublic_Day_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 40860,
+          "length": 2916288
+        },
+        {
+          "file": "Data/Music/LOC/NewCaliforniaRepublic/mus_LOC_CalRepublic_Day_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 2957148,
+          "length": 2916288
+        },
+        {
+          "file": "Data/Music/LOC/NewCaliforniaRepublic/mus_LOC_CalRepublic_Day_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 5873436,
+          "length": 2916288
+        },
+        {
+          "file": "Data/Music/LOC/NewCaliforniaRepublic/mus_LOC_CalRepublic_Night_1Low.mp3",
+          "file_offset": 0,
+          "chunk_offset": 8789724,
+          "length": 2987712
+        },
+        {
+          "file": "Data/Music/LOC/NewCaliforniaRepublic/mus_LOC_CalRepublic_Night_2Mid.mp3",
+          "file_offset": 0,
+          "chunk_offset": 11777436,
+          "length": 2987712
+        },
+        {
+          "file": "Data/Music/LOC/NewCaliforniaRepublic/mus_LOC_CalRepublic_Night_3High.mp3",
+          "file_offset": 0,
+          "chunk_offset": 14765148,
+          "length": 2987712
+        },
+        {
+          "file": "Data/Music/OLD/FO1/mus_FO1_AcolytesOfTheNewGod.mp3",
+          "file_offset": 0,
+          "chunk_offset": 17752860,
+          "length": 4729536
+        },
+        {
+          "file": "Data/Music/OLD/FO1/mus_FO1_CityOfLostAngels.mp3",
+          "file_offset": 0,
+          "chunk_offset": 22482396,
+          "length": 5428800
+        },
+        {
+          "file": "Data/Music/OLD/FO1/mus_FO1_CityOfTheDead.mp3",
+          "file_offset": 0,
+          "chunk_offset": 27911196,
+          "length": 4891392
+        },
+        {
+          "file": "Data/Music/OLD/FO1/mus_FO1_DesertWind.mp3",
+          "file_offset": 0,
+          "chunk_offset": 32802588,
+          "length": 4820544
+        },
+        {
+          "file": "Data/Music/OLD/FO1/mus_FO1_FlameOfTheAncientWorld.mp3",
+          "file_offset": 0,
+          "chunk_offset": 37623132,
+          "length": 4500864
+        },
+        {
+          "file": "Data/Music/OLD/FO1/mus_FO1_IndustrialJunk.mp3",
+          "file_offset": 0,
+          "chunk_offset": 42123996,
+          "length": 4910400
+        },
+        {
+          "file": "Data/Music/OLD/FO1/mus_FO1_MetallicMonks.mp3",
+          "file_offset": 0,
+          "chunk_offset": 47034396,
+          "length": 4902912
+        },
+        {
+          "file": "Data/Music/OLD/FO1/mus_FO1_RadiationStorm.mp3",
+          "file_offset": 0,
+          "chunk_offset": 51937308,
+          "length": 5700672
+        },
+        {
+          "file": "Data/Music/OLD/FO1/mus_FO1_SecondChance.mp3",
+          "file_offset": 0,
+          "chunk_offset": 57637980,
+          "length": 5851584
+        },
+        {
+          "file": "Data/Music/OLD/FO1/mus_FO1_TheVaultOfTheFuture.mp3",
+          "file_offset": 0,
+          "chunk_offset": 63489564,
+          "length": 5800320
+        },
+        {
+          "file": "Data/Music/OLD/FO1/mus_FO1_UndergroundTrouble.mp3",
+          "file_offset": 0,
+          "chunk_offset": 69289884,
+          "length": 5607360
+        },
+        {
+          "file": "Data/Music/OLD/FO2/mus_FO2_Modoc.mp3",
+          "file_offset": 0,
+          "chunk_offset": 74897244,
+          "length": 4848192
+        },
+        {
+          "file": "Data/Music/OLD/FO2/mus_FO2_Redding.mp3",
+          "file_offset": 0,
+          "chunk_offset": 79745436,
+          "length": 5058432
+        },
+        {
+          "file": "Data/Music/OLD/FO3/mus_FO3_Base2.mp3",
+          "file_offset": 0,
+          "chunk_offset": 84803868,
+          "length": 2346624
+        },
+        {
+          "file": "Data/Music/OLD/FO3/mus_FO3_Base3.mp3",
+          "file_offset": 0,
+          "chunk_offset": 87150492,
+          "length": 2411712
+        },
+        {
+          "file": "Data/Music/OLD/FO3/mus_FO3_Base5.mp3",
+          "file_offset": 0,
+          "chunk_offset": 89562204,
+          "length": 2483136
+        },
+        {
+          "file": "Data/Music/OLD/FO3/mus_FO3_Death.mp3",
+          "file_offset": 0,
+          "chunk_offset": 92045340,
+          "length": 382464
+        },
+        {
+          "file": "Data/Music/OLD/FO3/mus_FO3_Dungeon1.mp3",
+          "file_offset": 0,
+          "chunk_offset": 92427804,
+          "length": 5244480
+        },
+        {
+          "file": "Data/Music/OLD/FO3/mus_FO3_Dungeon2.mp3",
+          "file_offset": 0,
+          "chunk_offset": 97672284,
+          "length": 4927680
+        },
+        {
+          "file": "Data/Music/OLD/FO3/mus_FO3_Dungeon3.mp3",
+          "file_offset": 0,
+          "chunk_offset": 102599964,
+          "length": 5244480
+        },
+        {
+          "file": "Data/Music/OLD/FO3/mus_FO3_Explore1.mp3",
+          "file_offset": 0,
+          "chunk_offset": 107844444,
+          "length": 4999680
+        },
+        {
+          "file": "Data/Music/OLD/FO3/mus_FO3_Explore3.mp3",
+          "file_offset": 0,
+          "chunk_offset": 112844124,
+          "length": 5878080
+        },
+        {
+          "file": "Data/Music/OLD/FO3/mus_FO3_Explore4.mp3",
+          "file_offset": 0,
+          "chunk_offset": 118722204,
+          "length": 4956480
+        },
+        {
+          "file": "Data/Music/OLD/FO3/mus_FO3_Explore5.mp3",
+          "file_offset": 0,
+          "chunk_offset": 123678684,
+          "length": 4048128
+        },
+        {
+          "file": "Data/Music/OLD/FO3/mus_FO3_Explore6.mp3",
+          "file_offset": 0,
+          "chunk_offset": 127726812,
+          "length": 5090688
+        },
+        {
+          "file": "Data/Music/SCR/mus_SCR_DeathStinger.mp3",
+          "file_offset": 0,
+          "chunk_offset": 132817500,
+          "length": 387072
+        },
+        {
+          "file": "Data/Music/SCR/mus_SCR_DocMitchell.mp3",
+          "file_offset": 0,
+          "chunk_offset": 133204572,
+          "length": 2911680
+        },
+        {
+          "file": "Data/Music/SCR/mus_SCR_GoodspringsStinger.mp3",
+          "file_offset": 0,
+          "chunk_offset": 136116252,
+          "length": 715392
+        },
+        {
+          "file": "Data/Music/SCR/mus_SCR_Muzak.mp3",
+          "file_offset": 0,
+          "chunk_offset": 136831644,
+          "length": 759168
+        },
+        {
+          "file": "Data/Music/SCR/mus_SCR_MuzakRadio.mp3",
+          "file_offset": 0,
+          "chunk_offset": 137590812,
+          "length": 759168
+        },
+        {
+          "file": "Data/Music/SCR/mus_SCR_VegasStinger.mp3",
+          "file_offset": 0,
+          "chunk_offset": 138349980,
+          "length": 1851264
+        },
+        {
+          "file": "Data/Music/SCR/mus_SCR_VictorySinger(alt1).mp3",
+          "file_offset": 0,
+          "chunk_offset": 140201244,
+          "length": 399168
+        },
+        {
+          "file": "Data/Music/SCR/mus_SCR_VictorySinger(alt2).mp3",
+          "file_offset": 0,
+          "chunk_offset": 140600412,
+          "length": 302976
+        },
+        {
+          "file": "Data/Music/SCR/mus_SCR_VictorySinger.mp3",
+          "file_offset": 0,
+          "chunk_offset": 140903388,
+          "length": 302976
+        },
+        {
+          "file": "Data/Music/Special/EndCredits.mp3",
+          "file_offset": 0,
+          "chunk_offset": 141206364,
+          "length": 5179776
+        },
+        {
+          "file": "Data/Music/Special/MainTitle.mp3",
+          "file_offset": 0,
+          "chunk_offset": 146386140,
+          "length": 4012416
+        },
+        {
+          "file": "Data/Music/Special/mus_endgameslideshow.mp3",
+          "file_offset": 0,
+          "chunk_offset": 150398556,
+          "length": 2319744
+        },
+        {
+          "file": "Data/Music/Special/mus_endgametransitionstinger.mp3",
+          "file_offset": 0,
+          "chunk_offset": 152718300,
+          "length": 74880
+        },
+        {
+          "file": "Data/Music/Special/mus_hailchief.mp3",
+          "file_offset": 0,
+          "chunk_offset": 152793180,
+          "length": 1018752
+        },
+        {
+          "file": "Data/OldWorldBlues - Main.bsa",
+          "file_offset": 0,
+          "chunk_offset": 153811932,
+          "length": 94039858
+        }
+      ],
+      "sha256": "7371f3625abab01fcd1e6af3b226b11a308601f3c0464111aa6328596a38deec"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/OldWorldBlues - Main.bsa",
+          "file_offset": 94039858,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "b7106cc30121604c0d1c2e68704ffdeab94068c4f5476406e78cc474a0c7b0b3"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/OldWorldBlues - Main.bsa",
+          "file_offset": 341891648,
+          "chunk_offset": 0,
+          "length": 247851790
+        }
+      ],
+      "sha256": "8afea26a4f26b1fcc1c9e9e16fc1d9a03f3b659ffb0847e43ecaed020a37347a"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/OldWorldBlues - Main.bsa",
+          "file_offset": 589743438,
+          "chunk_offset": 0,
+          "length": 91064784
+        },
+        {
+          "file": "Data/OldWorldBlues - Sounds.bsa",
+          "file_offset": 0,
+          "chunk_offset": 91064784,
+          "length": 67207292
+        },
+        {
+          "file": "Data/OldWorldBlues.esm",
+          "file_offset": 0,
+          "chunk_offset": 158272076,
+          "length": 16202800
+        },
+        {
+          "file": "Data/OLDWORLDBLUES.NAM",
+          "file_offset": 0,
+          "chunk_offset": 174474876,
+          "length": 15
+        },
+        {
+          "file": "Data/Shaders/shaderpackage002.sdp",
+          "file_offset": 0,
+          "chunk_offset": 174474891,
+          "length": 1001568
+        },
+        {
+          "file": "Data/Shaders/shaderpackage003.sdp",
+          "file_offset": 0,
+          "chunk_offset": 175476459,
+          "length": 1332844
+        },
+        {
+          "file": "Data/Shaders/shaderpackage004.sdp",
+          "file_offset": 0,
+          "chunk_offset": 176809303,
+          "length": 1375792
+        },
+        {
+          "file": "Data/Shaders/shaderpackage006.sdp",
+          "file_offset": 0,
+          "chunk_offset": 178185095,
+          "length": 1346644
+        },
+        {
+          "file": "Data/Shaders/shaderpackage007.sdp",
+          "file_offset": 0,
+          "chunk_offset": 179531739,
+          "length": 1388744
+        },
+        {
+          "file": "Data/Shaders/shaderpackage009.sdp",
+          "file_offset": 0,
+          "chunk_offset": 180920483,
+          "length": 1359440
+        },
+        {
+          "file": "Data/Shaders/shaderpackage010.sdp",
+          "file_offset": 0,
+          "chunk_offset": 182279923,
+          "length": 1337124
+        },
+        {
+          "file": "Data/Shaders/shaderpackage011.sdp",
+          "file_offset": 0,
+          "chunk_offset": 183617047,
+          "length": 1337124
+        },
+        {
+          "file": "Data/Shaders/shaderpackage012.sdp",
+          "file_offset": 0,
+          "chunk_offset": 184954171,
+          "length": 1380772
+        },
+        {
+          "file": "Data/Shaders/shaderpackage013.sdp",
+          "file_offset": 0,
+          "chunk_offset": 186334943,
+          "length": 1380772
+        },
+        {
+          "file": "Data/Shaders/shaderpackage014.sdp",
+          "file_offset": 0,
+          "chunk_offset": 187715715,
+          "length": 1351036
+        },
+        {
+          "file": "Data/Shaders/shaderpackage015.sdp",
+          "file_offset": 0,
+          "chunk_offset": 189066751,
+          "length": 1351036
+        },
+        {
+          "file": "Data/Shaders/shaderpackage016.sdp",
+          "file_offset": 0,
+          "chunk_offset": 190417787,
+          "length": 1393812
+        },
+        {
+          "file": "Data/Shaders/shaderpackage017.sdp",
+          "file_offset": 0,
+          "chunk_offset": 191811599,
+          "length": 1393812
+        },
+        {
+          "file": "Data/Shaders/shaderpackage018.sdp",
+          "file_offset": 0,
+          "chunk_offset": 193205411,
+          "length": 1367052
+        },
+        {
+          "file": "Data/Shaders/shaderpackage019.sdp",
+          "file_offset": 0,
+          "chunk_offset": 194572463,
+          "length": 1367052
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Aint_That_A_Kick_In_the_Head.mp3",
+          "file_offset": 0,
+          "chunk_offset": 195939515,
+          "length": 4673100
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Aint_That_A_Kick_In_the_Head_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 200612615,
+          "length": 1751616
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_American_Swing.mp3",
+          "file_offset": 0,
+          "chunk_offset": 202364231,
+          "length": 3037208
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_American_Swing_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 205401439,
+          "length": 1137024
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Big_Iron.mp3",
+          "file_offset": 0,
+          "chunk_offset": 206538463,
+          "length": 7628907
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Big_Iron_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 214167370,
+          "length": 2860128
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Blue_Moon.mp3",
+          "file_offset": 0,
+          "chunk_offset": 217027498,
+          "length": 5493136
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Blue_Moon_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 222520634,
+          "length": 2059200
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Blues_For_You.mp3",
+          "file_offset": 0,
+          "chunk_offset": 224579834,
+          "length": 4660561
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Blues_For_You_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 229240395,
+          "length": 1745712
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Cobwebs_and_Rainbows.mp3",
+          "file_offset": 0,
+          "chunk_offset": 230986107,
+          "length": 5448832
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Cobwebs_and_Rainbows_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 236434939,
+          "length": 2043216
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Concerto_For_2_Vl_Str_In_D_Minor.mp3",
+          "file_offset": 0,
+          "chunk_offset": 238478155,
+          "length": 9373635
+        }
+      ],
+      "sha256": "42f4b6107014e4510b4a0ed4c81d9ad1d3fef92be160ada6df5539a9e849f909"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Concerto_For_2_Vl_Str_In_D_Minor.mp3",
+          "file_offset": 9373635,
+          "chunk_offset": 0,
+          "length": 3942861
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Concerto_For_2_Vl_Str_In_D_Minor_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 3942861,
+          "length": 4992912
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Concerto_Grosso_In_B_Minor_Allegro_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 8935773,
+          "length": 8199839
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Concerto_Grosso_In_B_Minor_Allegro_01_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 17135612,
+          "length": 3073968
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Concerto_Grosso_In_B_Minor_Allegro_02.mp3",
+          "file_offset": 0,
+          "chunk_offset": 20209580,
+          "length": 6887448
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Concerto_Grosso_In_B_Minor_Allegro_02_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 27097028,
+          "length": 2581920
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_EddyArnold_Rca_ItsASin.mp3",
+          "file_offset": 0,
+          "chunk_offset": 29678948,
+          "length": 4683131
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_EddyArnold_Rca_ItsASin_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 34362079,
+          "length": 1755072
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Flower_Duet_Lakm_KPM.mp3",
+          "file_offset": 0,
+          "chunk_offset": 36117151,
+          "length": 3012966
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Flower_Duet_Lakm_KPM_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 39130117,
+          "length": 1083744
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Four_Seasons_No_4_The_Winter.mp3",
+          "file_offset": 0,
+          "chunk_offset": 40213861,
+          "length": 4546876
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Four_Seasons_No_4_The_Winter_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 44760737,
+          "length": 1704096
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Goin_Under.mp3",
+          "file_offset": 0,
+          "chunk_offset": 46464833,
+          "length": 5672022
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Goin_Under_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 52136855,
+          "length": 2125008
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Hallo_Mister_X.mp3",
+          "file_offset": 0,
+          "chunk_offset": 54261863,
+          "length": 4146471
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Hallo_Mister_X_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 58408334,
+          "length": 1553040
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Happy_Times.mp3",
+          "file_offset": 0,
+          "chunk_offset": 59961374,
+          "length": 3752754
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Happy_Times_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 63714128,
+          "length": 1405296
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Heartaches_by_the_Number.mp3",
+          "file_offset": 0,
+          "chunk_offset": 65119424,
+          "length": 4930563
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Heartaches_by_the_Number_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 70049987,
+          "length": 1847952
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_HomeOnTheWastes.mp3",
+          "file_offset": 0,
+          "chunk_offset": 71897939,
+          "length": 4857002
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_HomeOnTheWastes_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 76754941,
+          "length": 1821600
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_I_m_Movin_Out.mp3",
+          "file_offset": 0,
+          "chunk_offset": 78576541,
+          "length": 5605149
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_I_m_Movin_Out_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 84181690,
+          "length": 2099520
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_I_m_So_Blue.mp3",
+          "file_offset": 0,
+          "chunk_offset": 86281210,
+          "length": 6937603
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_I_m_So_Blue_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 93218813,
+          "length": 2599776
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_In_The_Shadow_Of_The_Valley.mp3",
+          "file_offset": 0,
+          "chunk_offset": 95818589,
+          "length": 5988835
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_In_The_Shadow_Of_The_Valley_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 101807424,
+          "length": 2243376
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Its_A_Sin_To_Tell_A_Lie.mp3",
+          "file_offset": 0,
+          "chunk_offset": 104050800,
+          "length": 4518455
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Its_A_Sin_To_Tell_A_Lie_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 108569255,
+          "length": 1693728
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Jazz_Blues_GT.mp3",
+          "file_offset": 0,
+          "chunk_offset": 110262983,
+          "length": 9543996
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Jazz_Blues_GT_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 119806979,
+          "length": 3576960
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Jazz_Club_Blues_CAS.mp3",
+          "file_offset": 0,
+          "chunk_offset": 123383939,
+          "length": 7018687
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Jazz_Club_Blues_CAS_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 130402626,
+          "length": 2630016
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Jingle_Jangle_Jingle.mp3",
+          "file_offset": 0,
+          "chunk_offset": 133032642,
+          "length": 6410138
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Jingle_Jangle_Jingle_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 139442780,
+          "length": 2402640
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Joe_Cool_CAS.mp3",
+          "file_offset": 0,
+          "chunk_offset": 141845420,
+          "length": 4668920
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Joe_Cool_CAS_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 146514340,
+          "length": 1748736
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Johnny_Guitar.mp3",
+          "file_offset": 0,
+          "chunk_offset": 148263076,
+          "length": 5860104
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Johnny_Guitar_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 154123180,
+          "length": 2196576
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Lazy_Day_Blues.mp3",
+          "file_offset": 0,
+          "chunk_offset": 156319756,
+          "length": 5392825
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Lazy_Day_Blues_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 161712581,
+          "length": 2020032
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Let_s_Ride_Into_The_Sunset_Together.mp3",
+          "file_offset": 0,
+          "chunk_offset": 163732613,
+          "length": 5881002
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Let_s_Ride_Into_The_Sunset_Together_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 169613615,
+          "length": 2203200
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Lone_Star.mp3",
+          "file_offset": 0,
+          "chunk_offset": 171816815,
+          "length": 4814370
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Lone_Star_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 176631185,
+          "length": 1803168
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Love_Me_As_Though_No_Tomorrow.mp3",
+          "file_offset": 0,
+          "chunk_offset": 178434353,
+          "length": 4976538
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Love_Me_As_Though_No_Tomorrow_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 183410891,
+          "length": 1865232
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Mad_About_The_Boy.mp3",
+          "file_offset": 0,
+          "chunk_offset": 185276123,
+          "length": 4118886
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Mad_About_The_Boy_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 189395009,
+          "length": 1543392
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Manhattan.mp3",
+          "file_offset": 0,
+          "chunk_offset": 190938401,
+          "length": 2610889
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Manhattan_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 193549290,
+          "length": 976752
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_NewVegasValley.mp3",
+          "file_offset": 0,
+          "chunk_offset": 194526042,
+          "length": 3822971
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_NewVegasValley_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 198349013,
+          "length": 1433664
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Piano_Concerto_No_21__Elvira_Madigan.mp3",
+          "file_offset": 0,
+          "chunk_offset": 199782677,
+          "length": 10811248
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Piano_Concerto_No_21__Elvira_Madigan_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 210593925,
+          "length": 4053312
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Ride_Of_The_Valkyries_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 214647237,
+          "length": 11507568
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Ride_Of_The_Valkyries_01_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 226154805,
+          "length": 4314672
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Roundhouse_Rock.mp3",
+          "file_offset": 0,
+          "chunk_offset": 230469477,
+          "length": 5379451
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Roundhouse_Rock_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 235848928,
+          "length": 2015280
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Sit_And_Dream.mp3",
+          "file_offset": 0,
+          "chunk_offset": 237864208,
+          "length": 2877547
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Sit_And_Dream_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 240741755,
+          "length": 1076976
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Sleepy_Town_Blues_CAS.mp3",
+          "file_offset": 0,
+          "chunk_offset": 241818731,
+          "length": 5096910
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Sleepy_Town_Blues_CAS_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 246915641,
+          "length": 936149
+        }
+      ],
+      "sha256": "7ca1916bc32f84b14975c2c45585a555134b72e7f03e77eb95b27b73c6c95ae3"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 247851790,
+      "segments": [
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Sleepy_Town_Blues_CAS_mono.mp3",
+          "file_offset": 936149,
+          "chunk_offset": 0,
+          "length": 972859
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Slow_Bounce.mp3",
+          "file_offset": 0,
+          "chunk_offset": 972859,
+          "length": 3986811
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Slow_Bounce_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 4959670,
+          "length": 1492992
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Slow_Sax_KOS.mp3",
+          "file_offset": 0,
+          "chunk_offset": 6452662,
+          "length": 5118644
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Slow_Sax_KOS_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 11571306,
+          "length": 1917216
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Somethings_Gotta_Give.mp3",
+          "file_offset": 0,
+          "chunk_offset": 13488522,
+          "length": 3913250
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Somethings_Gotta_Give_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 17401772,
+          "length": 1466496
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Spring_Song_KPMC.mp3",
+          "file_offset": 0,
+          "chunk_offset": 18868268,
+          "length": 5247376
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Spring_Song_KPMC_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 24115644,
+          "length": 1966752
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Stars_Of_The_Midnight_Range.mp3",
+          "file_offset": 0,
+          "chunk_offset": 26082396,
+          "length": 5544127
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Stars_Of_The_Midnight_Range_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 31626523,
+          "length": 2078208
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Strahlende_Trompete.mp3",
+          "file_offset": 0,
+          "chunk_offset": 33704731,
+          "length": 5975461
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Strahlende_Trompete_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 39680192,
+          "length": 2238624
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_StreetsOfNewReno.mp3",
+          "file_offset": 0,
+          "chunk_offset": 41918816,
+          "length": 4439879
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_StreetsOfNewReno_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 46358695,
+          "length": 1665216
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Von_Spanien_Nach_S_damerika.mp3",
+          "file_offset": 0,
+          "chunk_offset": 48023911,
+          "length": 3384114
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Von_Spanien_Nach_S_damerika_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 51408025,
+          "length": 1267056
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Where_Have_You_Been_All_My_Life.mp3",
+          "file_offset": 0,
+          "chunk_offset": 52675081,
+          "length": 5661155
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Where_Have_You_Been_All_My_Life_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 58336236,
+          "length": 2120688
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Why_Dont_You_Do_Right.mp3",
+          "file_offset": 0,
+          "chunk_offset": 60456924,
+          "length": 6476176
+        },
+        {
+          "file": "Data/Sound/songs/radionv/MUS_Why_Dont_You_Do_Right_mono.mp3",
+          "file_offset": 0,
+          "chunk_offset": 66933100,
+          "length": 2427696
+        },
+        {
+          "file": "Data/TribalPack - Main.bsa",
+          "file_offset": 0,
+          "chunk_offset": 69360796,
+          "length": 5840168
+        },
+        {
+          "file": "Data/TribalPack.esm",
+          "file_offset": 0,
+          "chunk_offset": 75200964,
+          "length": 2323
+        },
+        {
+          "file": "Data/TribalPack.nam",
+          "file_offset": 0,
+          "chunk_offset": 75203287,
+          "length": 11
+        },
+        {
+          "file": "Data/Update.bsa",
+          "file_offset": 0,
+          "chunk_offset": 75203298,
+          "length": 17250402
+        },
+        {
+          "file": "Data/Video/FNVIntro.bik",
+          "file_offset": 0,
+          "chunk_offset": 92453700,
+          "length": 155398090
+        }
+      ],
+      "sha256": "84eb29ed58c6b7802a86ffc626670f5ea6a3829d037cefddab6062581acdf0a5"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 247851768,
+      "segments": [
+        {
+          "file": "Data/Video/FNVIntro.bik",
+          "file_offset": 155398090,
+          "chunk_offset": 0,
+          "length": 197903762
+        },
+        {
+          "file": "EULA.txt",
+          "file_offset": 0,
+          "chunk_offset": 197903762,
+          "length": 79028
+        },
+        {
+          "file": "Fallout_default.ini",
+          "file_offset": 0,
+          "chunk_offset": 197982790,
+          "length": 20020
+        },
+        {
+          "file": "FalloutNV.exe",
+          "file_offset": 0,
+          "chunk_offset": 198002810,
+          "length": 16084808
+        },
+        {
+          "file": "FalloutNV.ico",
+          "file_offset": 0,
+          "chunk_offset": 214087618,
+          "length": 168879
+        },
+        {
+          "file": "FalloutNVLauncher.exe",
+          "file_offset": 0,
+          "chunk_offset": 214256497,
+          "length": 1713992
+        },
+        {
+          "file": "Galaxy.dll",
+          "file_offset": 0,
+          "chunk_offset": 215970489,
+          "length": 4414976
+        },
+        {
+          "file": "GalaxyWrp.dll",
+          "file_offset": 0,
+          "chunk_offset": 220385465,
+          "length": 444928
+        },
+        {
+          "file": "GDFFalloutNV.dll",
+          "file_offset": 0,
+          "chunk_offset": 220830393,
+          "length": 1963176
+        },
+        {
+          "file": "Geck.exe",
+          "file_offset": 0,
+          "chunk_offset": 222793569,
+          "length": 12949504
+        },
+        {
+          "file": "GECKicon.ico",
+          "file_offset": 0,
+          "chunk_offset": 235743073,
+          "length": 300318
+        },
+        {
+          "file": "GECKReadme.txt",
+          "file_offset": 0,
+          "chunk_offset": 236043391,
+          "length": 2587
+        },
+        {
+          "file": "gog.ico",
+          "file_offset": 0,
+          "chunk_offset": 236045978,
+          "length": 69248
+        },
+        {
+          "file": "goggame-1454587428.hashdb",
+          "file_offset": 0,
+          "chunk_offset": 236115226,
+          "length": 875
+        },
+        {
+          "file": "goggame-1454587428.ico",
+          "file_offset": 0,
+          "chunk_offset": 236116101,
+          "length": 142360
+        },
+        {
+          "file": "goggame-1454587428.info",
+          "file_offset": 0,
+          "chunk_offset": 236258461,
+          "length": 1311
+        },
+        {
+          "file": "goggame-1454587428.script",
+          "file_offset": 0,
+          "chunk_offset": 236259772,
+          "length": 910
+        },
+        {
+          "file": "goglog.ini",
+          "file_offset": 0,
+          "chunk_offset": 236260682,
+          "length": 286
+        },
+        {
+          "file": "high.ini",
+          "file_offset": 0,
+          "chunk_offset": 236260968,
+          "length": 1116
+        },
+        {
+          "file": "Launch Fallout - New Vegas.lnk",
+          "file_offset": 0,
+          "chunk_offset": 236262084,
+          "length": 893
+        },
+        {
+          "file": "libvorbis.dll",
+          "file_offset": 0,
+          "chunk_offset": 236262977,
+          "length": 1241528
+        },
+        {
+          "file": "libvorbisfile.dll",
+          "file_offset": 0,
+          "chunk_offset": 237504505,
+          "length": 120248
+        },
+        {
+          "file": "low.ini",
+          "file_offset": 0,
+          "chunk_offset": 237624753,
+          "length": 1107
+        },
+        {
+          "file": "MainTitle.wav",
+          "file_offset": 0,
+          "chunk_offset": 237625860,
+          "length": 6158306
+        },
+        {
+          "file": "medium.ini",
+          "file_offset": 0,
+          "chunk_offset": 243784166,
+          "length": 1115
+        },
+        {
+          "file": "Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 243785281,
+          "length": 4086
+        },
+        {
+          "file": "ssce5432.dll",
+          "file_offset": 0,
+          "chunk_offset": 243789367,
+          "length": 212992
+        },
+        {
+          "file": "support.ico",
+          "file_offset": 0,
+          "chunk_offset": 244002359,
+          "length": 62895
+        },
+        {
+          "file": "unins000.dat",
+          "file_offset": 0,
+          "chunk_offset": 244065254,
+          "length": 2115148
+        },
+        {
+          "file": "unins000.exe",
+          "file_offset": 0,
+          "chunk_offset": 246180402,
+          "length": 1343048
+        },
+        {
+          "file": "unins000.ini",
+          "file_offset": 0,
+          "chunk_offset": 247523450,
+          "length": 41
+        },
+        {
+          "file": "unins000.msg",
+          "file_offset": 0,
+          "chunk_offset": 247523491,
+          "length": 23147
+        },
+        {
+          "file": "VeryHigh.ini",
+          "file_offset": 0,
+          "chunk_offset": 247546638,
+          "length": 1134
+        },
+        {
+          "file": "webcache.zip",
+          "file_offset": 0,
+          "chunk_offset": 247547772,
+          "length": 303996
+        }
+      ],
+      "sha256": "f3236d7dddd098add6691be4590a5fe4e3605826be95a36d47f99c56c1352527"
+    }
+  ]
+}
