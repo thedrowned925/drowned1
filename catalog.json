@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-21T19:54:27.068270+00:00",
+  "updated_at": "2026-08-21T20:06:23.198903+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -1180,6 +1180,41 @@
       },
       "media": {
         "steam_app_id": 12210
+      }
+    },
+    {
+      "id": "life-is-strange-episode-1",
+      "title": "Life is Strange - Episode 1",
+      "platform": "pc",
+      "description": "Episode 1 now FREE! Life is Strange is an award-winning and critically acclaimed episodic adventure game that allows the player to rewind time and affect the past, present and future.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/life-is-strange-episode-1/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/life-is-strange-episode-1/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/life-is-strange-episode-1/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/life-is-strange-episode-1/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/life-is-strange-episode-1/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/life-is-strange-episode-1/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/life-is-strange-episode-1/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/life-is-strange-episode-1/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/life-is-strange-episode-1/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/life-is-strange-episode-1/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/life-is-strange-episode-1/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/life-is-strange-episode-1/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-life-is-strange-episode-1-v1.0.0-stable",
+          "manifest_path": "manifests/pc/life-is-strange-episode-1/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/life-is-strange-episode-1/stable/1.0.0.json",
+          "size": 15073443104,
+          "published_at": "2026-08-21T20:06:23.198889+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 319630
       }
     }
   ]
