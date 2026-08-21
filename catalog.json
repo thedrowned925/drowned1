@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-21T09:29:15.103275+00:00",
+  "updated_at": "2026-08-21T09:54:19.888499+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -833,6 +833,41 @@
       },
       "media": {
         "steam_app_id": 1151640
+      }
+    },
+    {
+      "id": "fallout-new-vegas",
+      "title": "Fallout: New Vegas",
+      "platform": "pc",
+      "description": "Welcome to Vegas. New Vegas. Enjoy your stay!",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-new-vegas/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-new-vegas/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-new-vegas/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-new-vegas/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-new-vegas/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-new-vegas/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-new-vegas/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-new-vegas/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-new-vegas/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-new-vegas/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-new-vegas/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-new-vegas/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-fallout-new-vegas-v1.0.0-stable",
+          "manifest_path": "manifests/pc/fallout-new-vegas/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/fallout-new-vegas/stable/1.0.0.json",
+          "size": 9914071578,
+          "published_at": "2026-08-21T09:54:19.888487+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 22380
       }
     }
   ]
