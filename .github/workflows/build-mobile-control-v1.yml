@@ -1,9 +1,11 @@
 name: Build Drowned Control v1.0.0
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
+      - 'mobile/control-app/**'
       - '.github/workflows/build-mobile-control-v1.yml'
 
 permissions:
@@ -42,7 +44,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "drowned-control-v1.0.0" \
-            --title "Drowned Control v1.0.0 - Android" \
-            --notes "Read-only Android dashboard for Drowned releases. Shows game artwork, versions/channels, per-game size, total catalog storage, search/filter and cached offline viewing. Contains no GitHub PAT and has no write/delete/publish capability." \
-            Drowned-Control-v1.0.0.apk
+          if gh release view "drowned-control-v1.0.0" >/dev/null 2>&1; then
+            gh release upload "drowned-control-v1.0.0" Drowned-Control-v1.0.0.apk --clobber
+          else
+            gh release create "drowned-control-v1.0.0" \
+              --title "Drowned Control v1.0.0 - Android" \
+              --notes "Read-only Android dashboard for Drowned releases. Shows game artwork, versions/channels, per-game size, total catalog storage, search/filter and cached offline viewing. Contains no GitHub PAT and has no write/delete/publish capability." \
+              Drowned-Control-v1.0.0.apk
+          fi
