@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-21T20:06:23.198903+00:00",
+  "updated_at": "2026-08-21T20:47:53.414837+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -1215,6 +1215,41 @@
       },
       "media": {
         "steam_app_id": 319630
+      }
+    },
+    {
+      "id": "borderlands-2",
+      "title": "Borderlands 2",
+      "platform": "pc",
+      "description": "The Ultimate Vault Hunter’s Upgrade lets you get the most out of the Borderlands 2 experience.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-2/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-2/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-2/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-2/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-2/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-2/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-2/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-2/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-2/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-2/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-2/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-2/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-borderlands-2-v1.0.0-stable",
+          "manifest_path": "manifests/pc/borderlands-2/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/borderlands-2/stable/1.0.0.json",
+          "size": 36051455502,
+          "published_at": "2026-08-21T20:47:53.414825+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 49520
       }
     }
   ]
