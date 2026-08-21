@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 36
-- **Toplam aktif sürüm/kanal:** 36
-- **Toplam aktif boyut:** 928.703 GB (864.922 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-21 19:54:27 UTC
+- **Toplam oyun:** 37
+- **Toplam aktif sürüm/kanal:** 37
+- **Toplam aktif boyut:** 943.777 GB (878.960 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-21 20:06:23 UTC
 
 ## PC
 
-**36 oyun · 36 aktif sürüm/kanal · 928.703 GB (864.922 GiB)**
+**37 oyun · 37 aktif sürüm/kanal · 943.777 GB (878.960 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -37,6 +37,7 @@
 | Hans | 1.0.0 | stable | 0.876 | 0.816 | `pc-hans-v1.0.0-stable` |
 | Hollow Knight | 1.0.0 | stable | 5.284 | 4.921 | `pc-hollow-knight-v1.0.0-stable` |
 | Horizon Zero Dawn™ Complete Edition | 1.0.0 | stable | 67.720 | 63.069 | `pc-horizon-zero-dawn-complete-edition-v1.0.0-stable` |
+| Life is Strange - Episode 1 | 1.0.0 | stable | 15.073 | 14.038 | `pc-life-is-strange-episode-1-v1.0.0-stable` |
 | Mass Effect (2007) | 1.0.0 | stable | 24.338 | 22.667 | `pc-mass-effect-2007-v1.0.0-stable` |
 | Mass Effect 2 (2010 Edition) | 1.0.0 | stable | 29.915 | 27.860 | `pc-mass-effect-2-2010-edition-v1.0.0-stable` |
 | Papers, Please | 1.0.0 | stable | 0.094 | 0.088 | `pc-papers-please-v1.0.0-stable` |
