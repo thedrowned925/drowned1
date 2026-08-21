@@ -1,0 +1,2611 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "undertale",
+    "title": "Undertale",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "UNDERTALE! The RPG game where you don't have to destroy anyone."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-undertale-v1.0.0-stable"
+  },
+  "chunk_size": 53330354,
+  "upload_workers": 4,
+  "upload_waves": 1,
+  "total_size": 213321413,
+  "files": [
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "abc_123_a.ogg",
+      "size": 41445,
+      "sha256": "a2f4db480e9dbecdb0ca3d38b64787cb06517768c68726b002828a9168a49a63"
+    },
+    {
+      "path": "codex.dll",
+      "size": 106272,
+      "sha256": "382a95940910172335a3f6356671e3cf6e514ec95b98faf5d943b23870164afc"
+    },
+    {
+      "path": "credits.txt",
+      "size": 12162,
+      "sha256": "5e5ab1852c4734a547e6143ef643b43d211e3cee334e949cb59fffb51bf04098"
+    },
+    {
+      "path": "D3DX9_43.dll",
+      "size": 1998168,
+      "sha256": "0b28546be22c71834501f7d7185ede5d79742457331c7ee09efc14490dd64f5f"
+    },
+    {
+      "path": "data.win",
+      "size": 62921978,
+      "sha256": "b718f8223a5bb31979ffeed10be6140c857b882fc0d0462b89d6287ae38c81c7"
+    },
+    {
+      "path": "GameOverlayRenderer.dll",
+      "size": 1309472,
+      "sha256": "ad143640b71a36b45dadbe1b68096e9ca6e4fd0af69b6e3e50b90ea98bab5700"
+    },
+    {
+      "path": "mus_a2.ogg",
+      "size": 190508,
+      "sha256": "48e6ea6b0e5c5e52c54c3d93150f0d7952d04de982403fdaf05030ece41461b9"
+    },
+    {
+      "path": "mus_alphysfix.ogg",
+      "size": 37336,
+      "sha256": "26c16ea3bd1f416ab1cdf078bd52263f3d10a78b4a209a44533a0d3767b1b4aa"
+    },
+    {
+      "path": "mus_amalgam.ogg",
+      "size": 925215,
+      "sha256": "6d4c338830a7287e2baeb91b73557b66f3ba03b97d89a542c4713d1c5cfcb02c"
+    },
+    {
+      "path": "mus_ambientwater.ogg",
+      "size": 25226,
+      "sha256": "2d413bca82f599ec37556fc8201065b9e2c3d46f76278679285629cc1caf7509"
+    },
+    {
+      "path": "mus_anothermedium.ogg",
+      "size": 1631371,
+      "sha256": "90c658a788c25b8474216a544068e589fafebbb735cdee47faf195578cdf03cb"
+    },
+    {
+      "path": "mus_bad.ogg",
+      "size": 15367,
+      "sha256": "dcde5d552cc34c64ec5a7993d646c637be596c8a477ad63765429b8a27585cac"
+    },
+    {
+      "path": "mus_barrier.ogg",
+      "size": 294861,
+      "sha256": "fcf4fc4ba69ce23537b985c531f599241b33c9859a96dd4c6d3ea4628edc4f8c"
+    },
+    {
+      "path": "mus_battle1.ogg",
+      "size": 658044,
+      "sha256": "b71af14aae6e817239a3255296e1a764a4fe4ee25ef67f5540577f5c0d37cea3"
+    },
+    {
+      "path": "mus_battle2.ogg",
+      "size": 723437,
+      "sha256": "7a5d68eeab84740cb61a01d94274be7e5a1902183d340ea915e16d9d48b16a7d"
+    },
+    {
+      "path": "mus_bergentruckung.ogg",
+      "size": 138547,
+      "sha256": "38390e04d25a2b45b5520d11475769fd372e50046e9607a0c6fa9c7dab4ffaa4"
+    },
+    {
+      "path": "mus_bgflameA.ogg",
+      "size": 55087,
+      "sha256": "0fa89a8b8d65c7201d02bb5d080871e312e7321614f181fb9b2387ebb4d43bbd"
+    },
+    {
+      "path": "mus_birdnoise.ogg",
+      "size": 339872,
+      "sha256": "1dc3b122d9853efad045dc56d25f7cdcb54298d2124d3caebdadbb286ed742d2"
+    },
+    {
+      "path": "mus_birdsong.ogg",
+      "size": 257060,
+      "sha256": "20d634ec2af47c1aba5fe216330c4eeb67762b2ace6af2c802cd76c9ad3db54d"
+    },
+    {
+      "path": "mus_boss1.ogg",
+      "size": 1268539,
+      "sha256": "e84c15bdac1556793cf31df6d43dea0616dbbdfbb399a75ef01e4fc895ee8050"
+    },
+    {
+      "path": "mus_cast_1.ogg",
+      "size": 421829,
+      "sha256": "b97162cc17e8a85a6daf9e8f8a4a54b2e24a3546986644c59e1f0f1123bc101f"
+    },
+    {
+      "path": "mus_cast_2.ogg",
+      "size": 218377,
+      "sha256": "0c713f2ca1149a584b72cc84166a0020cf3587d6653530633cac4c39116b5609"
+    },
+    {
+      "path": "mus_cast_3.ogg",
+      "size": 419039,
+      "sha256": "a8ec1c67f30f7e09145587a9e9f09f917e6a1b1770f973ce42d83cf2670a03d1"
+    },
+    {
+      "path": "mus_cast_4.ogg",
+      "size": 543714,
+      "sha256": "c1aa1d938d4774d317ef8572265382d4dc0d27fda0d30b649924fa4a6fb6dc3e"
+    },
+    {
+      "path": "mus_cast_5.ogg",
+      "size": 835097,
+      "sha256": "77a85150221962dc956cfd3b07eedef1ebb4fac2952be90593aa18ea04df0ba9"
+    },
+    {
+      "path": "mus_cast_6.ogg",
+      "size": 213067,
+      "sha256": "c3c7c67d80d107fd7cc40a19f3489a92dfbab6e970c5e53289fe501ce0332bce"
+    },
+    {
+      "path": "mus_cast_7.ogg",
+      "size": 188078,
+      "sha256": "4c2c17e8ed2a8d29a08534e858166b0450bff94cf5f1a805c369731647fc4711"
+    },
+    {
+      "path": "mus_chokedup.ogg",
+      "size": 1663093,
+      "sha256": "81711704443c8dbb444877344991179637eac68ac4d373e434f276de9a3defdf"
+    },
+    {
+      "path": "mus_churchbell.ogg",
+      "size": 78897,
+      "sha256": "de982ca75a3d6ba289a631763c434fa6bb508344240de8f9e890cb4061112cda"
+    },
+    {
+      "path": "mus_computer.ogg",
+      "size": 18155,
+      "sha256": "bcbafd00a09f3fa8f0d51cb5b7bf8ff25eb65c28d9e637e601b531267c2eb6ef"
+    },
+    {
+      "path": "mus_confession.ogg",
+      "size": 215747,
+      "sha256": "7db1a507c192075c2ee29d7d307bc95e1e485d9f56bf9afb84e8dff242700426"
+    },
+    {
+      "path": "mus_coolbeat.ogg",
+      "size": 24348,
+      "sha256": "025171650f64ab32e877975797c158cc6b2be2cf1f30a196f436bdc4a8a2e2d1"
+    },
+    {
+      "path": "mus_core.ogg",
+      "size": 2019126,
+      "sha256": "b3da2b94c458369882cfc6281b173dbb489f13a3cd53836da72f4b29df3b9c1a"
+    },
+    {
+      "path": "mus_core_ambience.ogg",
+      "size": 62347,
+      "sha256": "a36be02482d28e5a74143d34b2280e5b82a74c8325b3bcb79b2caa5a2928c64e"
+    },
+    {
+      "path": "mus_coretransition.ogg",
+      "size": 122526,
+      "sha256": "7d28c9716677da9c7b7ca42b2de21f9c6a64fadb00c6276c03ab4ef4724937af"
+    },
+    {
+      "path": "mus_creepy_ambience.ogg",
+      "size": 142854,
+      "sha256": "b2a41d56a06a919b1aa75b352ad6405e9c5b8271409d66aa95bfd0a412dd560e"
+    },
+    {
+      "path": "mus_crickets.ogg",
+      "size": 522004,
+      "sha256": "477521068df0d48ce14594dbf1c77b8a3c7838bbf33263f54046922cc72f6ebd"
+    },
+    {
+      "path": "mus_cymbal.ogg",
+      "size": 54298,
+      "sha256": "ffa15c5c3a6bf803fce0a0d9e268bfa6d7f573b7b91985ac5a5c252b3c4a7a3e"
+    },
+    {
+      "path": "mus_dance_of_dog.ogg",
+      "size": 115895,
+      "sha256": "fcea5ba61852a876ab70595d60f504c72f16fa51166ee2425f0ae92897237e35"
+    },
+    {
+      "path": "mus_date.ogg",
+      "size": 1315019,
+      "sha256": "8163f174e6adcddf6cd086f42b16f21c177079746fa4cc4b713528bdea72c4ac"
+    },
+    {
+      "path": "mus_date_fight.ogg",
+      "size": 389822,
+      "sha256": "74f07cbaf33ac499e125a7b52e980e281928693b16bdc31ac2e923a765f6f143"
+    },
+    {
+      "path": "mus_date_tense.ogg",
+      "size": 294740,
+      "sha256": "6d42943b35c93309cea1820bf1fbbe45f78753ee4fe7ef9740a0afa3e92afd54"
+    },
+    {
+      "path": "mus_deeploop2.ogg",
+      "size": 72441,
+      "sha256": "5e58d496bc0daadeeef56b1ab232704021aa35887676cc4a955156108017d512"
+    },
+    {
+      "path": "mus_disturbing.ogg",
+      "size": 84660,
+      "sha256": "125934e85b061dbf18d408b171e93e7eb1c10d0f204007cde73ecdd5989b300d"
+    },
+    {
+      "path": "mus_dogappear.ogg",
+      "size": 25150,
+      "sha256": "9cbe031d32c3646c73c28586fd57cd196659798fb8dde5f237bf1108f5db0fea"
+    },
+    {
+      "path": "mus_dogmeander.ogg",
+      "size": 88021,
+      "sha256": "82e3ff1db3a34fb237fc3ba622049e31e1a7755869b9fc20ad52d72ea4ce80ed"
+    },
+    {
+      "path": "mus_dogroom.ogg",
+      "size": 353905,
+      "sha256": "56e4cb91fe197bbfa09c25c59cfc28a2c87ff31ed7c454a3aeeb1b504020628b"
+    },
+    {
+      "path": "mus_dogshrine_1.ogg",
+      "size": 569729,
+      "sha256": "1e385472d4074765392808c43f4cdcf9f69753d578c8581e5ccda27317304acc"
+    },
+    {
+      "path": "mus_dogshrine_2.ogg",
+      "size": 179728,
+      "sha256": "02eb09a8725d00fc0e55ef428ba4bf82d63404863f1d5fb383da9935aaacda19"
+    },
+    {
+      "path": "mus_dogsong.ogg",
+      "size": 386793,
+      "sha256": "183e672e984a05b7ba1f0916c4f2bc13a34495407e598b67be151ac7c4706dcc"
+    },
+    {
+      "path": "mus_dontgiveup.ogg",
+      "size": 1424917,
+      "sha256": "421a92ec8e44b6e69aa2990e309ef192d94e599937e76c6b92c6125ffb3b1f3b"
+    },
+    {
+      "path": "mus_doorclose.ogg",
+      "size": 13942,
+      "sha256": "36bfe04691551527f3492a014110b3958db64ea924759e99d31dfdda285ec78f"
+    },
+    {
+      "path": "mus_dooropen.ogg",
+      "size": 9233,
+      "sha256": "db886dc9f3ee4ba6a25d97e584cd0e05d7e7e9132d38324c8d0fdc443bd9cd5d"
+    },
+    {
+      "path": "mus_drone.ogg",
+      "size": 20373,
+      "sha256": "9147bd4274b265f49fad8732b92353407a1e60657bb0170911de98c4796835ad"
+    },
+    {
+      "path": "mus_dummybattle.ogg",
+      "size": 1637070,
+      "sha256": "bdf010de6fd9d59e62e61df6138e61f93a1c613459ec9a287c4cc7987257a483"
+    },
+    {
+      "path": "mus_dununnn.ogg",
+      "size": 16185,
+      "sha256": "5d518fbef4477be20cc06573031a0ef989564eee2ccd6c1366f18e22b1ef5735"
+    },
+    {
+      "path": "mus_elevator.ogg",
+      "size": 21671,
+      "sha256": "e00634f63a1569ddb543ab6485d38f5335f015e4fdee5188242bdfd9b6e9f3e0"
+    },
+    {
+      "path": "mus_elevator_last.ogg",
+      "size": 90308,
+      "sha256": "cf8a330d6187a717e87d8ade7d00b33e3dc2716a3ad967da604a903b19b58c3e"
+    },
+    {
+      "path": "mus_endarea_parta.ogg",
+      "size": 2188141,
+      "sha256": "8e0f89e5784ea7bd3eea703fce77583920ca8127769a4128baa2fe952c65943b"
+    },
+    {
+      "path": "mus_endarea_partb.ogg",
+      "size": 2134581,
+      "sha256": "4a174e0c56700a806ac078c1b8ab0e9ea7d75782527b04ca00e949bd9466e02e"
+    },
+    {
+      "path": "mus_endingexcerpt1.ogg",
+      "size": 295592,
+      "sha256": "8c4fc81700f49d8863ec3636cbeda6110f8e8b61360b0b8824978626001b96a4"
+    },
+    {
+      "path": "mus_endingexcerpt2.ogg",
+      "size": 594893,
+      "sha256": "6f2695d87a79d1cf8d09bad03e3b63a0c96a937d1ccb3a04c52ad2fb4294b565"
+    },
+    {
+      "path": "mus_express_myself.ogg",
+      "size": 1724516,
+      "sha256": "1ab3e4bf6ab6fda74a6eb98e0eeadf1bba2bd00d20650c4521e168cee27cf79f"
+    },
+    {
+      "path": "mus_f_6s_1.ogg",
+      "size": 166063,
+      "sha256": "334a1f362db31f954cefb53774083341826c3b144b4885416b79e323351fe0bf"
+    },
+    {
+      "path": "mus_f_6s_2.ogg",
+      "size": 300803,
+      "sha256": "ff2c7f5fa566415cdefb5434b384051d31d9c9eb228619dfc456dfbccd156c80"
+    },
+    {
+      "path": "mus_f_6s_3.ogg",
+      "size": 172921,
+      "sha256": "ffc02b0dc29ddc6ee7cb41417d20add6b71bb1831940f51601d04908971eeb00"
+    },
+    {
+      "path": "mus_f_6s_4.ogg",
+      "size": 289982,
+      "sha256": "eacd823eadb269c81fcbd40f3599fe28a5e733bcbea415830ba12d52d1a9e51e"
+    },
+    {
+      "path": "mus_f_6s_5.ogg",
+      "size": 346516,
+      "sha256": "8648f3ebd04e95aa95c547441aab49f9eb1f9044160e4c3b9153b2449e07fe3d"
+    },
+    {
+      "path": "mus_f_6s_6.ogg",
+      "size": 151223,
+      "sha256": "7c5734733d8d57c0c196d6cabb1e10297061a0b3108f139619e162cfe40fa922"
+    },
+    {
+      "path": "mus_f_alarm.ogg",
+      "size": 20542,
+      "sha256": "b2d50f9a9827dcfa9fcbd9b65b31703b4b8ddae68e2bc016f8c8ec62d95ed69a"
+    },
+    {
+      "path": "mus_f_destroyed.ogg",
+      "size": 64749,
+      "sha256": "0b0e8aedb3967aa22ef74579a90e90bdf56b0feb8132061faf3275bfe49fc353"
+    },
+    {
+      "path": "mus_f_destroyed2.ogg",
+      "size": 76088,
+      "sha256": "332acf558da8cd1db612be786887fc7a6e4f185bbee9090ad1ff84d5447465a5"
+    },
+    {
+      "path": "mus_f_destroyed3.ogg",
+      "size": 36313,
+      "sha256": "b0a4c01b93490c21d9dcb9a00a721856482f90b7afa1df0d7f9da583ae6b7d6f"
+    },
+    {
+      "path": "mus_f_finale_1.ogg",
+      "size": 129927,
+      "sha256": "7d9b5119dc9cf2a1022d08440acb5b2574511288fd791e6b5381bc211603ddca"
+    },
+    {
+      "path": "mus_f_finale_1_l.ogg",
+      "size": 231568,
+      "sha256": "34dc9c130c85d899f24cb11c7f40b46192541220b789dad03e75c8c8689f9635"
+    },
+    {
+      "path": "mus_f_finale_2.ogg",
+      "size": 503821,
+      "sha256": "bd471c8641e80c752e26fecef74d168b8d5ecf6efa9feb71de78e52b64aad543"
+    },
+    {
+      "path": "mus_f_finale_3.ogg",
+      "size": 719807,
+      "sha256": "4a5efddc4fd2752595d0752cd8e8fca8266390b6feb6883690ff40446b41f691"
+    },
+    {
+      "path": "mus_f_intro.ogg",
+      "size": 202626,
+      "sha256": "24759f8dd0f651c4068ce9f68669351e96d39e19a1ca60eefc5d1a729ea60825"
+    },
+    {
+      "path": "mus_f_newlaugh.ogg",
+      "size": 37700,
+      "sha256": "e05a92030f75b96e304cc2301c4e4044355b7c86e14457af46c6d558efd13bef"
+    },
+    {
+      "path": "mus_f_newlaugh_low.ogg",
+      "size": 73118,
+      "sha256": "cae4ef9e38e05de22c590ecad028113d87055039f937810b0cfee276b1a0ef7e"
+    },
+    {
+      "path": "mus_f_part1.ogg",
+      "size": 359060,
+      "sha256": "eb179f0ddfe56a824400487bbcf926edcc21ac8308ea2d2fb9071f27d08547d3"
+    },
+    {
+      "path": "mus_f_part2.ogg",
+      "size": 328637,
+      "sha256": "08fc7f85e247fff7421576d6d132b83907d328ec279e3ddd6f625472da10752d"
+    },
+    {
+      "path": "mus_f_part3.ogg",
+      "size": 315539,
+      "sha256": "30cec8c509067bdd7f169cb6763badbb650d83550a0d6beeab502abc382fe1be"
+    },
+    {
+      "path": "mus_f_saved.ogg",
+      "size": 58182,
+      "sha256": "774d06554778804e5de5b5e35a2b7db534f9c113067a54131d47e0c6d958ddd6"
+    },
+    {
+      "path": "mus_f_wind1.ogg",
+      "size": 295335,
+      "sha256": "8537955b940276cdad415d885f930b59fa3943f69c6e0c3f4345d6fdd9551f55"
+    },
+    {
+      "path": "mus_f_wind2.ogg",
+      "size": 224153,
+      "sha256": "19dcc6c55bee661ff3a7809fb0a76208a0e707c27e84b07ac118bfa727ffefee"
+    },
+    {
+      "path": "mus_fallendown2.ogg",
+      "size": 1520179,
+      "sha256": "0bcb0f7477cc527490e0162db1c576f83f8296d96977d6d16ccdb924ac5cd52d"
+    },
+    {
+      "path": "mus_fearsting.ogg",
+      "size": 13207,
+      "sha256": "edd598be9a6949b0eba2de9f3aee5e0a31038b1fd08e5085a0ec7dc2a8252fd4"
+    },
+    {
+      "path": "mus_flowey.ogg",
+      "size": 188451,
+      "sha256": "bc7a0df715c6ab7eeafb624c20fdc211ca612cdca00f59749be1975d5aac30dd"
+    },
+    {
+      "path": "mus_gameover.ogg",
+      "size": 367721,
+      "sha256": "975a520e6e408eb379387e4ed28b5bb4e41b1a04e9ac7ad09b9ebe6ff9efd950"
+    },
+    {
+      "path": "mus_ghostbattle.ogg",
+      "size": 563673,
+      "sha256": "56c382ac9df0bde55930f08427c3aed72c5016366e03ef2a3e25a339e8dfb7eb"
+    },
+    {
+      "path": "mus_harpnoise.ogg",
+      "size": 33633,
+      "sha256": "0a4e94652abc7dd839fdca1bf0a9dee954c59cd2ad7167b98897a2a97a06fce3"
+    },
+    {
+      "path": "mus_hereweare.ogg",
+      "size": 1607956,
+      "sha256": "fd7aa07a8e0afb148c8ac515867055719693b0c389698f8d69f756bdb9ad71b9"
+    },
+    {
+      "path": "mus_hotel.ogg",
+      "size": 968920,
+      "sha256": "bf43894b9d16573485d0d780ff31654f03f5ba5444f4b7705172706cad70f9a1"
+    },
+    {
+      "path": "mus_hotel_battle.ogg",
+      "size": 766125,
+      "sha256": "09d4f1e5cfd8bc7dc9607082df0323a95dd690c6db15c70e5b2b98c0dff3b065"
+    },
+    {
+      "path": "mus_house1.ogg",
+      "size": 1188342,
+      "sha256": "20fa57292122191332448ac5b1e7260220e624e6771d0736fcd9bcdc9db93634"
+    },
+    {
+      "path": "mus_house2.ogg",
+      "size": 1311196,
+      "sha256": "217e97bfee5755e2ee13331ccf94d656d8d4b5618f5fee7b7a887c42e7f9b6d9"
+    },
+    {
+      "path": "mus_intronoise.ogg",
+      "size": 39671,
+      "sha256": "83b9d3befdf1b9fae8729ed396d7277110207a6857a72fedc7b499d26362517a"
+    },
+    {
+      "path": "mus_kingdescription.ogg",
+      "size": 697389,
+      "sha256": "253a5ba9c401b65b84e1f009f876f5fd2935200a771f9025a9fac56b5ecab37b"
+    },
+    {
+      "path": "mus_lab.ogg",
+      "size": 955109,
+      "sha256": "1d4b8b73d0eeabfd2d88ddee9db410319622d3374ebde4a53b87e2f2c575fefb"
+    },
+    {
+      "path": "mus_leave.ogg",
+      "size": 907150,
+      "sha256": "08e0fa718e33f3d138af2cb639c088a4676428bd711421167a16d7fbbfb61089"
+    },
+    {
+      "path": "mus_menu0.ogg",
+      "size": 204293,
+      "sha256": "f52bce7dca16f1631b7a6f1d51f712e7a778059cbd51908ff69c4011bd371456"
+    },
+    {
+      "path": "mus_menu1.ogg",
+      "size": 227547,
+      "sha256": "833e0add33984b144412a3300b7e219679f7865d1e42eea2f611486a2c47ad6a"
+    },
+    {
+      "path": "mus_menu2.ogg",
+      "size": 360118,
+      "sha256": "ee1e5771534fe6c03e736ec6c5d05c428f8cd7cb89aa206e5808bfea183a5964"
+    },
+    {
+      "path": "mus_menu3.ogg",
+      "size": 374733,
+      "sha256": "4eb35aa0026769f9044fcacdec387de6e9f56f0f54b82843b754adcb0dc3681a"
+    },
+    {
+      "path": "mus_menu4.ogg",
+      "size": 388076,
+      "sha256": "6f76e35ff8bdeda9a2d0a82fd75ed8c6ae8f074e97eb901b3267a59346e6e120"
+    },
+    {
+      "path": "mus_menu5.ogg",
+      "size": 376086,
+      "sha256": "aa23904b45c28bdd9a7b52a4e9d84d64c16b90fc390c32dedad5abfb6beaa169"
+    },
+    {
+      "path": "mus_menu6.ogg",
+      "size": 383516,
+      "sha256": "215eecd2e1e534866561f0a600e4018a1ccc78126e374dcea336089d2cb77bc2"
+    },
+    {
+      "path": "mus_mett_applause.ogg",
+      "size": 69155,
+      "sha256": "f408150256fc34e02f62595402fecfc85655be2ea02ed7465b553fa3a5e2661d"
+    },
+    {
+      "path": "mus_mett_cheer.ogg",
+      "size": 55195,
+      "sha256": "3ffc6e01b00d623bdd3efc42c4dfb83dde85bd7ab82493a09a345b19c8f84cfc"
+    },
+    {
+      "path": "mus_mettafly.ogg",
+      "size": 79860,
+      "sha256": "0b7dc595dea8bc9e65be57a8ee4618563c50ab54cc4220e1a9d9842e2559dcad"
+    },
+    {
+      "path": "mus_mettaton_ex.ogg",
+      "size": 1634836,
+      "sha256": "6d78f4b226e1e3461e33134e7df2eb0d53c79ccd579540af7ce3d481c6a72052"
+    },
+    {
+      "path": "mus_mettaton_neo.ogg",
+      "size": 319346,
+      "sha256": "f8f2558dbdc318cc3929f04382a40ed4a607c3190983bf8943bd2037c2b8ac61"
+    },
+    {
+      "path": "mus_mettaton_pretransform.ogg",
+      "size": 180281,
+      "sha256": "b3523a7e8fcd51fd85724ab81b68d090712837514ded1ff6cd1b17d559d0138d"
+    },
+    {
+      "path": "mus_mettatonbattle.ogg",
+      "size": 583328,
+      "sha256": "bf9e15fbab1bc7c54a843c5f3aee1ebeb111ece22e26dee9bf04d4b40d50fafb"
+    },
+    {
+      "path": "mus_mettmusical1.ogg",
+      "size": 163603,
+      "sha256": "c87853bec2733d4de516caafbb60c4f340ce5ecb0d13a215487cf81317bbff92"
+    },
+    {
+      "path": "mus_mettmusical2.ogg",
+      "size": 160930,
+      "sha256": "26ca96a3b0e597451dc01f7b0cbf5eb9758694308a3704bb1e5c3f843a219d92"
+    },
+    {
+      "path": "mus_mettmusical3.ogg",
+      "size": 149776,
+      "sha256": "922493286b00e753e875da100a975f8e68d51da362ef2dc29aa1335b4ac903f6"
+    },
+    {
+      "path": "mus_mettmusical4.ogg",
+      "size": 156332,
+      "sha256": "446b57fe714401fb2bd1fef42ebaad090af66c24bd45dd51dd3ced4d6f80fdb2"
+    },
+    {
+      "path": "mus_mettsad.ogg",
+      "size": 1005973,
+      "sha256": "00af3dcc0fb063fc88efaeca9b79b35804083d18f56a4f5845224f10ea107eac"
+    },
+    {
+      "path": "mus_mode.ogg",
+      "size": 28974,
+      "sha256": "a0dbe68c0b8525c70a11108bc99b57fb0bbf5c35986c7a5e464d5db558a298fa"
+    },
+    {
+      "path": "mus_mtgameshow.ogg",
+      "size": 563936,
+      "sha256": "a3f7a4b0f709a280b09fd9d6bb803b737e3f15eb628458c76d66b4f8f6f60427"
+    },
+    {
+      "path": "mus_muscle.ogg",
+      "size": 277334,
+      "sha256": "81a31e8335036d41ded36b832457a9783a591a6e4dd4cc4079347669666b496a"
+    },
+    {
+      "path": "mus_musicbox.ogg",
+      "size": 752037,
+      "sha256": "9bcaa5921e73aba262df97aa920504e1cf3d8c6f33a22b133efbe48ec161f888"
+    },
+    {
+      "path": "mus_myemeow.ogg",
+      "size": 7881,
+      "sha256": "17132a614e9c5ea9e97529567f01c413f02587c0642c34eed44b39dad758dc1a"
+    },
+    {
+      "path": "mus_mysteriousroom2.ogg",
+      "size": 164686,
+      "sha256": "1d6cb8b2363f126b1f29ec2584ed155fe3e668bcb72a7be759ba776e2ee301e9"
+    },
+    {
+      "path": "mus_mystery.ogg",
+      "size": 201444,
+      "sha256": "43ca1ef003351c8617573a084c08bbd6261d3bb0ea5073c4b787951f829b2a79"
+    },
+    {
+      "path": "mus_napstachords.ogg",
+      "size": 481190,
+      "sha256": "eafb3428a6ce0b64cb70921d74768187588507dba8636cbbb5cda1054a19bf8f"
+    },
+    {
+      "path": "mus_napstahouse.ogg",
+      "size": 103046,
+      "sha256": "9931302fa752456a9559815c9a5ddbcb098d2cb1d6e0324aec1b938d220c6bde"
+    },
+    {
+      "path": "mus_news.ogg",
+      "size": 174060,
+      "sha256": "f2ca7b33910308d794e5a77d82c049c342ea945eb0835029ffbc3d9e07385fdc"
+    },
+    {
+      "path": "mus_news_battle.ogg",
+      "size": 574242,
+      "sha256": "94a4685cb4c85bf674db749e829c83c9f3b247dd6992bf50a878b22162e5bb80"
+    },
+    {
+      "path": "mus_ohyes.ogg",
+      "size": 55969,
+      "sha256": "2f363c25f9be50c2233c074644cd2dfcfbc5e4e407f36730d90c6b77978c2ebe"
+    },
+    {
+      "path": "mus_oogloop.ogg",
+      "size": 140074,
+      "sha256": "351baf088fde7a2d61387fd6c7f7e70dc0d40acf23abc2398b62a0a7a1b6cbc0"
+    },
+    {
+      "path": "mus_operatile.ogg",
+      "size": 369368,
+      "sha256": "9c6b5ddea86da615fbb8a36455b08af6ffdbd74e4d6843a685ef36158290a755"
+    },
+    {
+      "path": "mus_options_fall.ogg",
+      "size": 582100,
+      "sha256": "438ae9286cd8b6333c42df94f6db2b0d405c8d0fd1d2c7c065ce3df8e8ab83e3"
+    },
+    {
+      "path": "mus_options_summer.ogg",
+      "size": 304325,
+      "sha256": "2286f9f12c9bab145cd46528c4e31dd2747fe8c5164146d8ebf3854c65df4c33"
+    },
+    {
+      "path": "mus_options_winter.ogg",
+      "size": 166565,
+      "sha256": "da495d49f9e86ca299f96f348679fd055e5042c3977333456916e5175af4ffde"
+    },
+    {
+      "path": "mus_papyrus.ogg",
+      "size": 271164,
+      "sha256": "6b1a98bdf145d8239434a4d6358d134c7e96bbba766bc33a84b8c1e17ce9b799"
+    },
+    {
+      "path": "mus_papyrusboss.ogg",
+      "size": 637752,
+      "sha256": "7c6f414cfd2adb238ba994f7c3b517d1d04bb4ec90c26e08db4dafb9ddc63f59"
+    },
+    {
+      "path": "mus_piano.ogg",
+      "size": 233861,
+      "sha256": "fb583abbbc265b104dfa06008a975f38aed555c4693da68f21d56b3e011461d8"
+    },
+    {
+      "path": "mus_prebattle1.ogg",
+      "size": 131921,
+      "sha256": "9e18b43ecb385b750776a0a33de317ea98a295d284f7033f691b409b8a1a4fbb"
+    },
+    {
+      "path": "mus_predummy.ogg",
+      "size": 63364,
+      "sha256": "1e22d09485a45c218b4ebc211584a5f041bf8f7d4539ad2ed391e2b28d6ca5d8"
+    },
+    {
+      "path": "mus_race.ogg",
+      "size": 497216,
+      "sha256": "e3e2fac9f7a92b5f5f127706dff2469cd7d9a72c42dd97dc548baa30b94427f6"
+    },
+    {
+      "path": "mus_rain.ogg",
+      "size": 98059,
+      "sha256": "af069961ec0afca721f61175b51c610b6e079bd58e0b40e9b9c7c68b62f0d474"
+    },
+    {
+      "path": "mus_rain_deep.ogg",
+      "size": 95924,
+      "sha256": "ea2b978e7e510db0e90c73dbf8e837e2c30f0dcc19bb6c7b97e9dd1fb0e9eae7"
+    },
+    {
+      "path": "mus_repeat_1.ogg",
+      "size": 66334,
+      "sha256": "f03dfa039f0a2960c1dbe728e11ecffa4ae690b556d80df3bc61beae026899eb"
+    },
+    {
+      "path": "mus_repeat_2.ogg",
+      "size": 67502,
+      "sha256": "9dff5de54c8d82551260dfd239e31131e51e6adebd54926c66a1464c57c5a08d"
+    },
+    {
+      "path": "mus_reunited.ogg",
+      "size": 3032892,
+      "sha256": "00de4d693c379b36a83ce53105241ae4d88b259681daecda95a0d92e066a5120"
+    },
+    {
+      "path": "mus_rimshot.ogg",
+      "size": 20847,
+      "sha256": "c44f40ffb91fa134e507461a096d82e426f77ccfdec64b499cfb24c13241164f"
+    },
+    {
+      "path": "mus_ruins.ogg",
+      "size": 1043131,
+      "sha256": "2d2cedf5f6acc9f2107dd1c8b01c0744032b6cf122643e4fbfe47f393112f00a"
+    },
+    {
+      "path": "mus_ruinspiano.ogg",
+      "size": 654602,
+      "sha256": "3659011ba90bfdc47da2c435cbf91af34ce2affb555e4c68d8b67c778a005664"
+    },
+    {
+      "path": "mus_sansdate.ogg",
+      "size": 2155251,
+      "sha256": "da9a75740ba748440b367ba2a1a84166a28f6fa047aa108dff5f4bf52ef1f85d"
+    },
+    {
+      "path": "mus_sfx_a_grab.ogg",
+      "size": 11623,
+      "sha256": "463754408598d7548a7969967116dc2243946f965b5e61b17d09870af8fe0cd7"
+    },
+    {
+      "path": "mus_sfx_chainsaw.ogg",
+      "size": 36071,
+      "sha256": "3a9cc4f3972fa8b808750e8155fe2456f3c5497b174f5c933b883000f74db6fd"
+    },
+    {
+      "path": "mus_sfx_hypergoner_charge.ogg",
+      "size": 145003,
+      "sha256": "a76348c6cbdbb681eb240ad553147ad5ed8acff7380032fb6cabe05b57176e11"
+    },
+    {
+      "path": "mus_sfx_hypergoner_laugh.ogg",
+      "size": 35374,
+      "sha256": "fe066bf269af80423c3120a347e88227dd9b650690f3e2f7c071a2ff3a7ba0ac"
+    },
+    {
+      "path": "mus_sfx_rainbowbeam_hold.ogg",
+      "size": 24775,
+      "sha256": "1fc2aa4a19dca8346f6a9ca2f8290fbb9466e486837e169d5aec2d5012ed8715"
+    },
+    {
+      "path": "mus_shop.ogg",
+      "size": 505692,
+      "sha256": "eb58e30b88b7d973cc98381cc7a3e20b853e08cc2f5e2c999609e1f2024bf4bc"
+    },
+    {
+      "path": "mus_sigh_of_dog.ogg",
+      "size": 228860,
+      "sha256": "fae07dfb98ca268642d50706f27c5b05c178a189b0556bf91c120b0624ad6ecc"
+    },
+    {
+      "path": "mus_silence.ogg",
+      "size": 4037,
+      "sha256": "d1c867043797cb8c4472acce8b5a696dc580d0954567c73917237ec9aae32c60"
+    },
+    {
+      "path": "mus_smallshock.ogg",
+      "size": 77774,
+      "sha256": "c9956edd5ba45df74c1a79fe5e892cb3ebb88df0f65c747ce9eddc57db25ced5"
+    },
+    {
+      "path": "mus_smile.ogg",
+      "size": 734622,
+      "sha256": "bac703950bc699a632fddc683b5f00c150baf2d04b664e14161f5502cd15473a"
+    },
+    {
+      "path": "mus_snoresymphony.ogg",
+      "size": 336887,
+      "sha256": "1d3c9a46c9fedd03cde5669cb3485dedee4228fd214f4e02b9dd12c693774c2b"
+    },
+    {
+      "path": "mus_snowwalk.ogg",
+      "size": 148063,
+      "sha256": "8e18ac64aeedbbde9a027e354bb198e18855856b63caacc0f26bd9daf471782c"
+    },
+    {
+      "path": "mus_snowy.ogg",
+      "size": 1016656,
+      "sha256": "a865726e361b2348b7d49ab2478ae74d41c7470b11f94c8d26bc67e7589eeb99"
+    },
+    {
+      "path": "mus_spider.ogg",
+      "size": 1076361,
+      "sha256": "e5e54bc8d9e56967c7a6f281810c98f8112e5d4166c63269beb2d118ac6aeeab"
+    },
+    {
+      "path": "mus_spoopy.ogg",
+      "size": 187771,
+      "sha256": "17d3a9abe0973e75ec0199de465d8f9d2404b9b09cdb27562bdb6dcb3a83adaf"
+    },
+    {
+      "path": "mus_spoopy_holiday.ogg",
+      "size": 109375,
+      "sha256": "edeb78e0f898559f6cf01a2a306facae98bdd85646422b0dd5b91d8c9d9de9fc"
+    },
+    {
+      "path": "mus_spoopy_wave.ogg",
+      "size": 263510,
+      "sha256": "a864ef33f96d5fd58b0ff2390b633070e877f02f249083ffdf25652957be57bb"
+    },
+    {
+      "path": "mus_st_happytown.ogg",
+      "size": 14348,
+      "sha256": "f6afdd8b0ffcb25e83f408689385f3e671bf422d2aa6a7bf7b88bc9602499255"
+    },
+    {
+      "path": "mus_st_him.ogg",
+      "size": 164073,
+      "sha256": "d74fc6baebb639259ace0d5775ba4c337fc4ecccd2d8a64dbf761b03775d41ed"
+    },
+    {
+      "path": "mus_st_meatfactory.ogg",
+      "size": 29761,
+      "sha256": "6cc29aa593386b9215fef24378f7b4f9b28d3d4b69a7f374959b0dded4fda3a9"
+    },
+    {
+      "path": "mus_st_troubledingle.ogg",
+      "size": 13248,
+      "sha256": "4d024d61b85cd5282ad30d54455bc1c3974f33563fea07e4e19efdf976abba75"
+    },
+    {
+      "path": "mus_star.ogg",
+      "size": 425637,
+      "sha256": "1fbc23859268b03cabd067891046910a57808fa8ff97a6a3b757469ace378c55"
+    },
+    {
+      "path": "mus_sticksnap.ogg",
+      "size": 24291,
+      "sha256": "281c8f5d97eff91ef599cb442ce8031714dc1bec9501e255cddb3565c061ef8a"
+    },
+    {
+      "path": "mus_story.ogg",
+      "size": 664113,
+      "sha256": "eb5e5463710acba3a2da93ace616cf4a4a42a93ccbc93d8815b08c038fc66463"
+    },
+    {
+      "path": "mus_story_stuck.ogg",
+      "size": 5057,
+      "sha256": "6b7f639fa222682cc8999c73fc0035c2f320a19469b9742dbb278428059ec106"
+    },
+    {
+      "path": "mus_temshop.ogg",
+      "size": 333418,
+      "sha256": "a126b9eb090524d48551e31034a21aea218db67e02a4bfc8c6d99f3b952a7369"
+    },
+    {
+      "path": "mus_temvillage.ogg",
+      "size": 666763,
+      "sha256": "51c0a6cb279a83ae05f9aaaff1a5d0f19286e1176cb45782adc3db79b2dc1870"
+    },
+    {
+      "path": "mus_tension.ogg",
+      "size": 79758,
+      "sha256": "57873fb33bdfc75ce2d4d871cda7c36678c2b012054efbe05b9d60cf8d0c92a5"
+    },
+    {
+      "path": "mus_tone2.ogg",
+      "size": 21403,
+      "sha256": "1431bc51fbbc464a15af0d79bb733526167033a772eb16f71925d4fb7c89a8c0"
+    },
+    {
+      "path": "mus_tone3.ogg",
+      "size": 13723,
+      "sha256": "bcd361aab6ba228b7f78c4e092a339cc3fef35e99d686ef41f2b96ba83498c45"
+    },
+    {
+      "path": "mus_toomuch.ogg",
+      "size": 468735,
+      "sha256": "da3047261aa35af01cdee74c15e21a86e5feb3d6ab6bbb76f8d2b621a5fef1dc"
+    },
+    {
+      "path": "mus_toriel.ogg",
+      "size": 378887,
+      "sha256": "e1a41ba199effa44a4168dde1f7184e9c368be6fad0c757d1b1ddab24b5e0db8"
+    },
+    {
+      "path": "mus_town.ogg",
+      "size": 879498,
+      "sha256": "69388dba45693cac00ce80e543a1d7f47f3aefe49a7126e35eabcf28959bc00e"
+    },
+    {
+      "path": "mus_tv.ogg",
+      "size": 104730,
+      "sha256": "9b1d00df8770ff38c68f49620c8bc08dfd14c9aca0c5c73a5fdf15eefbd3e2d0"
+    },
+    {
+      "path": "mus_undyneboss.ogg",
+      "size": 1327244,
+      "sha256": "d25539719c962d36e9b9ae66b749a6a24ec596801761990af26ed407b78c55aa"
+    },
+    {
+      "path": "mus_undynefast.ogg",
+      "size": 228138,
+      "sha256": "0878bf75fb75404fdd60463fd0c79bf804f7f00e7294a1126fba9bbb93c9a696"
+    },
+    {
+      "path": "mus_undynepiano.ogg",
+      "size": 62937,
+      "sha256": "55fdcdca677fbf96b605561140a42a9b9e7a5e54f97d537d3f7520499c537a3c"
+    },
+    {
+      "path": "mus_undynescary.ogg",
+      "size": 150736,
+      "sha256": "fb323f3edf0fcda3beff78c87bf11ddb673fbe601f496f612f5195764d6cb418"
+    },
+    {
+      "path": "mus_undynetheme.ogg",
+      "size": 432991,
+      "sha256": "ffa4665c8eb73116984fd143546454ad614f6e3017869557564ed43242f453dd"
+    },
+    {
+      "path": "mus_undynetruetheme.ogg",
+      "size": 957792,
+      "sha256": "dd98535daef622f1e1f8f513f54484740ae17a1439d16b6808d1b1f973a6bd58"
+    },
+    {
+      "path": "mus_vsasgore.ogg",
+      "size": 1757194,
+      "sha256": "f4bfdfc70ff00fb078d1ee68596393fe2682091bee8ec2a99b01a00f1a3890db"
+    },
+    {
+      "path": "mus_waterfall.ogg",
+      "size": 1479629,
+      "sha256": "7e52077ca00c217c5cee919830252782498cdfa1dab55a2fbba4b8c562da70a4"
+    },
+    {
+      "path": "mus_waterquiet.ogg",
+      "size": 242873,
+      "sha256": "deb0e6bf002b857f3ef9e5e42e82d9e9f974ca5a066f412f1dea548f7e5a2ca7"
+    },
+    {
+      "path": "mus_wawa.ogg",
+      "size": 37985,
+      "sha256": "cc48c5935a5c96fd01510043abaaa5f3f53678d7aa7aa2d11cbcf738c049aa16"
+    },
+    {
+      "path": "mus_whoopee.ogg",
+      "size": 56851,
+      "sha256": "b009e396d908ec81b56ecbe70fcf7f371dd5863bcdf4d523c79217e903d0c7ce"
+    },
+    {
+      "path": "mus_wind.ogg",
+      "size": 90923,
+      "sha256": "49f3d19d815d4bf1b6db7ecc0b7794412104e8aa1db954e198bcb66c63dbfbd7"
+    },
+    {
+      "path": "mus_woofenstein.ogg",
+      "size": 94782,
+      "sha256": "abba64f2435344abd533e01d8029d68cea5803ad4843960ce0654131f094479d"
+    },
+    {
+      "path": "mus_woofenstein_loop.ogg",
+      "size": 76883,
+      "sha256": "c10ff0bf3088e8b7fe466ba694efb2da1cd03fce2465a3dbcf9598a1a1a313c4"
+    },
+    {
+      "path": "mus_wrongnumbersong.ogg",
+      "size": 70778,
+      "sha256": "8eb4596d74142040b7dd54fa86b952444674e2454e3d8e793aba76df024011c1"
+    },
+    {
+      "path": "mus_wrongworld.ogg",
+      "size": 637481,
+      "sha256": "d397901a4651de2c668ed70da5f92a70f91b594f2eb0c16f7adcff01d50fd433"
+    },
+    {
+      "path": "mus_x_undyne.ogg",
+      "size": 1839786,
+      "sha256": "fac36aaea87989eca02f3eef0a9244a3741f09c49e320a34c2ac5a4d605b6cfb"
+    },
+    {
+      "path": "mus_x_undyne_pre.ogg",
+      "size": 173968,
+      "sha256": "a057b6f33d426da8dda1ec6457724411a192a66fa6079f1668469d0c5caa3bcd"
+    },
+    {
+      "path": "mus_xpart.ogg",
+      "size": 2070525,
+      "sha256": "8cae1f466306dd21a307f2f4ecbdb027e7e9e7aaca9fba922eff63902fd5df05"
+    },
+    {
+      "path": "mus_xpart_2.ogg",
+      "size": 1253912,
+      "sha256": "b1ae8408f57d9b1ac30290e9936e0395d9c0f1751797877d2e0cb1761d81f536"
+    },
+    {
+      "path": "mus_xpart_a.ogg",
+      "size": 708242,
+      "sha256": "9a1b511642fc50ca1ee4d215bd9add32688d74e720ac3cbfe8ce43e46c60db01"
+    },
+    {
+      "path": "mus_xpart_b.ogg",
+      "size": 508539,
+      "sha256": "5d6738445fa2175f807d20eef5c77fa01c069b2fb7d483565740bdf1ef2b9b41"
+    },
+    {
+      "path": "mus_xpart_back.ogg",
+      "size": 198691,
+      "sha256": "d0cea78e1d7993b3b8c96384ec6c0dc3c8cbeea6d9e39e81aa3e99e6e0f9eb70"
+    },
+    {
+      "path": "mus_yourbestfriend_3.ogg",
+      "size": 395020,
+      "sha256": "da16bf29b3c930167deab352885f8cb2d878b98e0ca7d802f52b4b51d93dee83"
+    },
+    {
+      "path": "mus_z_ending.ogg",
+      "size": 2115643,
+      "sha256": "b867adaa112569165a9f9dfebf5a70d0b211dd18a8ee3f9337eed096b009a5d1"
+    },
+    {
+      "path": "mus_zz_megalovania.ogg",
+      "size": 1867146,
+      "sha256": "fa73d079826fa8dab33e299f9792395a93f06e531cf1ea6807ee198d817222bd"
+    },
+    {
+      "path": "mus_zzz_c.ogg",
+      "size": 94797,
+      "sha256": "40659a3ff141c961091a5dca83e3938e0c91bda7182571621d7a17691b43c22b"
+    },
+    {
+      "path": "mus_zzz_c2.ogg",
+      "size": 57136,
+      "sha256": "161d417bc66f55dcf85c545b8ecab8df9fdd5b58298b0be648b5cb5f3d455ec3"
+    },
+    {
+      "path": "options.ini",
+      "size": 97,
+      "sha256": "52a59e5417778aac32756ac0617d5b00fd47a9015e54b3865fdc17a867b58cf9"
+    },
+    {
+      "path": "snd_ballchime.ogg",
+      "size": 36248,
+      "sha256": "83bf61fb6ee6a441367ca4e2f682c35ca5c63f53a7f8deea5f7db6dadf7a9389"
+    },
+    {
+      "path": "snd_curtgunshot.ogg",
+      "size": 5853,
+      "sha256": "35da791f2b4506e1a637300726830ac4caaad2e553206a5a12bee8b2da38ee95"
+    },
+    {
+      "path": "snd_mushroomdance.ogg",
+      "size": 14007,
+      "sha256": "762bb73a6158f511356f205065f5fe2271569b5b75d3da96250998a03818ed5e"
+    },
+    {
+      "path": "splash.png",
+      "size": 1501,
+      "sha256": "4d61c1a05b596720523f442bed39d04067d19f7c306073e2306f282e1198c554"
+    },
+    {
+      "path": "steam_api.cdx",
+      "size": 215120,
+      "sha256": "64eb5531bbee05db713dcd47e4a74c59e27bf067b0cfe9603eeaea5a4601fe90"
+    },
+    {
+      "path": "steam_api.dll",
+      "size": 215120,
+      "sha256": "dfa223f72fe3b975b5033ec03d505e5a702bf4ff632bce7ba1b8a5ff411f0245"
+    },
+    {
+      "path": "steam_emu.ini",
+      "size": 2390,
+      "sha256": "3614f25f658af9d54efb20c210a2d2e98ade6368338a3af84b54c6659b5ae5dd"
+    },
+    {
+      "path": "steamclient.dll",
+      "size": 261920,
+      "sha256": "6b8411ea4559e739995beab3f8fc26a9c590291a5338a642d7ecb2f38a833950"
+    },
+    {
+      "path": "Undertale.exe",
+      "size": 4136960,
+      "sha256": "c8c4191026bf5587a6fad120855b8b82ffb4fa0c3eaf10515be472ad84248e58"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 53330354,
+      "segments": [
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 288088,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1097584,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16071608,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 30483912,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 36202784,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 41276024,
+          "length": 7054336
+        },
+        {
+          "file": "abc_123_a.ogg",
+          "file_offset": 0,
+          "chunk_offset": 48330360,
+          "length": 41445
+        },
+        {
+          "file": "codex.dll",
+          "file_offset": 0,
+          "chunk_offset": 48371805,
+          "length": 106272
+        },
+        {
+          "file": "credits.txt",
+          "file_offset": 0,
+          "chunk_offset": 48478077,
+          "length": 12162
+        },
+        {
+          "file": "D3DX9_43.dll",
+          "file_offset": 0,
+          "chunk_offset": 48490239,
+          "length": 1998168
+        },
+        {
+          "file": "data.win",
+          "file_offset": 0,
+          "chunk_offset": 50488407,
+          "length": 2841947
+        }
+      ],
+      "sha256": "61fd8e2474b0795d0638e5a00727d9072cb2ea6f537b06e664dcfcc79fa00b31"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 53330354,
+      "segments": [
+        {
+          "file": "data.win",
+          "file_offset": 2841947,
+          "chunk_offset": 0,
+          "length": 53330354
+        }
+      ],
+      "sha256": "7ce5af89f9ae342e583eb30b78e328598b03f6c80a2ef130510d87f911b0533c"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 53330354,
+      "segments": [
+        {
+          "file": "data.win",
+          "file_offset": 56172301,
+          "chunk_offset": 0,
+          "length": 6749677
+        },
+        {
+          "file": "GameOverlayRenderer.dll",
+          "file_offset": 0,
+          "chunk_offset": 6749677,
+          "length": 1309472
+        },
+        {
+          "file": "mus_a2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 8059149,
+          "length": 190508
+        },
+        {
+          "file": "mus_alphysfix.ogg",
+          "file_offset": 0,
+          "chunk_offset": 8249657,
+          "length": 37336
+        },
+        {
+          "file": "mus_amalgam.ogg",
+          "file_offset": 0,
+          "chunk_offset": 8286993,
+          "length": 925215
+        },
+        {
+          "file": "mus_ambientwater.ogg",
+          "file_offset": 0,
+          "chunk_offset": 9212208,
+          "length": 25226
+        },
+        {
+          "file": "mus_anothermedium.ogg",
+          "file_offset": 0,
+          "chunk_offset": 9237434,
+          "length": 1631371
+        },
+        {
+          "file": "mus_bad.ogg",
+          "file_offset": 0,
+          "chunk_offset": 10868805,
+          "length": 15367
+        },
+        {
+          "file": "mus_barrier.ogg",
+          "file_offset": 0,
+          "chunk_offset": 10884172,
+          "length": 294861
+        },
+        {
+          "file": "mus_battle1.ogg",
+          "file_offset": 0,
+          "chunk_offset": 11179033,
+          "length": 658044
+        },
+        {
+          "file": "mus_battle2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 11837077,
+          "length": 723437
+        },
+        {
+          "file": "mus_bergentruckung.ogg",
+          "file_offset": 0,
+          "chunk_offset": 12560514,
+          "length": 138547
+        },
+        {
+          "file": "mus_bgflameA.ogg",
+          "file_offset": 0,
+          "chunk_offset": 12699061,
+          "length": 55087
+        },
+        {
+          "file": "mus_birdnoise.ogg",
+          "file_offset": 0,
+          "chunk_offset": 12754148,
+          "length": 339872
+        },
+        {
+          "file": "mus_birdsong.ogg",
+          "file_offset": 0,
+          "chunk_offset": 13094020,
+          "length": 257060
+        },
+        {
+          "file": "mus_boss1.ogg",
+          "file_offset": 0,
+          "chunk_offset": 13351080,
+          "length": 1268539
+        },
+        {
+          "file": "mus_cast_1.ogg",
+          "file_offset": 0,
+          "chunk_offset": 14619619,
+          "length": 421829
+        },
+        {
+          "file": "mus_cast_2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 15041448,
+          "length": 218377
+        },
+        {
+          "file": "mus_cast_3.ogg",
+          "file_offset": 0,
+          "chunk_offset": 15259825,
+          "length": 419039
+        },
+        {
+          "file": "mus_cast_4.ogg",
+          "file_offset": 0,
+          "chunk_offset": 15678864,
+          "length": 543714
+        },
+        {
+          "file": "mus_cast_5.ogg",
+          "file_offset": 0,
+          "chunk_offset": 16222578,
+          "length": 835097
+        },
+        {
+          "file": "mus_cast_6.ogg",
+          "file_offset": 0,
+          "chunk_offset": 17057675,
+          "length": 213067
+        },
+        {
+          "file": "mus_cast_7.ogg",
+          "file_offset": 0,
+          "chunk_offset": 17270742,
+          "length": 188078
+        },
+        {
+          "file": "mus_chokedup.ogg",
+          "file_offset": 0,
+          "chunk_offset": 17458820,
+          "length": 1663093
+        },
+        {
+          "file": "mus_churchbell.ogg",
+          "file_offset": 0,
+          "chunk_offset": 19121913,
+          "length": 78897
+        },
+        {
+          "file": "mus_computer.ogg",
+          "file_offset": 0,
+          "chunk_offset": 19200810,
+          "length": 18155
+        },
+        {
+          "file": "mus_confession.ogg",
+          "file_offset": 0,
+          "chunk_offset": 19218965,
+          "length": 215747
+        },
+        {
+          "file": "mus_coolbeat.ogg",
+          "file_offset": 0,
+          "chunk_offset": 19434712,
+          "length": 24348
+        },
+        {
+          "file": "mus_core.ogg",
+          "file_offset": 0,
+          "chunk_offset": 19459060,
+          "length": 2019126
+        },
+        {
+          "file": "mus_core_ambience.ogg",
+          "file_offset": 0,
+          "chunk_offset": 21478186,
+          "length": 62347
+        },
+        {
+          "file": "mus_coretransition.ogg",
+          "file_offset": 0,
+          "chunk_offset": 21540533,
+          "length": 122526
+        },
+        {
+          "file": "mus_creepy_ambience.ogg",
+          "file_offset": 0,
+          "chunk_offset": 21663059,
+          "length": 142854
+        },
+        {
+          "file": "mus_crickets.ogg",
+          "file_offset": 0,
+          "chunk_offset": 21805913,
+          "length": 522004
+        },
+        {
+          "file": "mus_cymbal.ogg",
+          "file_offset": 0,
+          "chunk_offset": 22327917,
+          "length": 54298
+        },
+        {
+          "file": "mus_dance_of_dog.ogg",
+          "file_offset": 0,
+          "chunk_offset": 22382215,
+          "length": 115895
+        },
+        {
+          "file": "mus_date.ogg",
+          "file_offset": 0,
+          "chunk_offset": 22498110,
+          "length": 1315019
+        },
+        {
+          "file": "mus_date_fight.ogg",
+          "file_offset": 0,
+          "chunk_offset": 23813129,
+          "length": 389822
+        },
+        {
+          "file": "mus_date_tense.ogg",
+          "file_offset": 0,
+          "chunk_offset": 24202951,
+          "length": 294740
+        },
+        {
+          "file": "mus_deeploop2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 24497691,
+          "length": 72441
+        },
+        {
+          "file": "mus_disturbing.ogg",
+          "file_offset": 0,
+          "chunk_offset": 24570132,
+          "length": 84660
+        },
+        {
+          "file": "mus_dogappear.ogg",
+          "file_offset": 0,
+          "chunk_offset": 24654792,
+          "length": 25150
+        },
+        {
+          "file": "mus_dogmeander.ogg",
+          "file_offset": 0,
+          "chunk_offset": 24679942,
+          "length": 88021
+        },
+        {
+          "file": "mus_dogroom.ogg",
+          "file_offset": 0,
+          "chunk_offset": 24767963,
+          "length": 353905
+        },
+        {
+          "file": "mus_dogshrine_1.ogg",
+          "file_offset": 0,
+          "chunk_offset": 25121868,
+          "length": 569729
+        },
+        {
+          "file": "mus_dogshrine_2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 25691597,
+          "length": 179728
+        },
+        {
+          "file": "mus_dogsong.ogg",
+          "file_offset": 0,
+          "chunk_offset": 25871325,
+          "length": 386793
+        },
+        {
+          "file": "mus_dontgiveup.ogg",
+          "file_offset": 0,
+          "chunk_offset": 26258118,
+          "length": 1424917
+        },
+        {
+          "file": "mus_doorclose.ogg",
+          "file_offset": 0,
+          "chunk_offset": 27683035,
+          "length": 13942
+        },
+        {
+          "file": "mus_dooropen.ogg",
+          "file_offset": 0,
+          "chunk_offset": 27696977,
+          "length": 9233
+        },
+        {
+          "file": "mus_drone.ogg",
+          "file_offset": 0,
+          "chunk_offset": 27706210,
+          "length": 20373
+        },
+        {
+          "file": "mus_dummybattle.ogg",
+          "file_offset": 0,
+          "chunk_offset": 27726583,
+          "length": 1637070
+        },
+        {
+          "file": "mus_dununnn.ogg",
+          "file_offset": 0,
+          "chunk_offset": 29363653,
+          "length": 16185
+        },
+        {
+          "file": "mus_elevator.ogg",
+          "file_offset": 0,
+          "chunk_offset": 29379838,
+          "length": 21671
+        },
+        {
+          "file": "mus_elevator_last.ogg",
+          "file_offset": 0,
+          "chunk_offset": 29401509,
+          "length": 90308
+        },
+        {
+          "file": "mus_endarea_parta.ogg",
+          "file_offset": 0,
+          "chunk_offset": 29491817,
+          "length": 2188141
+        },
+        {
+          "file": "mus_endarea_partb.ogg",
+          "file_offset": 0,
+          "chunk_offset": 31679958,
+          "length": 2134581
+        },
+        {
+          "file": "mus_endingexcerpt1.ogg",
+          "file_offset": 0,
+          "chunk_offset": 33814539,
+          "length": 295592
+        },
+        {
+          "file": "mus_endingexcerpt2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 34110131,
+          "length": 594893
+        },
+        {
+          "file": "mus_express_myself.ogg",
+          "file_offset": 0,
+          "chunk_offset": 34705024,
+          "length": 1724516
+        },
+        {
+          "file": "mus_f_6s_1.ogg",
+          "file_offset": 0,
+          "chunk_offset": 36429540,
+          "length": 166063
+        },
+        {
+          "file": "mus_f_6s_2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 36595603,
+          "length": 300803
+        },
+        {
+          "file": "mus_f_6s_3.ogg",
+          "file_offset": 0,
+          "chunk_offset": 36896406,
+          "length": 172921
+        },
+        {
+          "file": "mus_f_6s_4.ogg",
+          "file_offset": 0,
+          "chunk_offset": 37069327,
+          "length": 289982
+        },
+        {
+          "file": "mus_f_6s_5.ogg",
+          "file_offset": 0,
+          "chunk_offset": 37359309,
+          "length": 346516
+        },
+        {
+          "file": "mus_f_6s_6.ogg",
+          "file_offset": 0,
+          "chunk_offset": 37705825,
+          "length": 151223
+        },
+        {
+          "file": "mus_f_alarm.ogg",
+          "file_offset": 0,
+          "chunk_offset": 37857048,
+          "length": 20542
+        },
+        {
+          "file": "mus_f_destroyed.ogg",
+          "file_offset": 0,
+          "chunk_offset": 37877590,
+          "length": 64749
+        },
+        {
+          "file": "mus_f_destroyed2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 37942339,
+          "length": 76088
+        },
+        {
+          "file": "mus_f_destroyed3.ogg",
+          "file_offset": 0,
+          "chunk_offset": 38018427,
+          "length": 36313
+        },
+        {
+          "file": "mus_f_finale_1.ogg",
+          "file_offset": 0,
+          "chunk_offset": 38054740,
+          "length": 129927
+        },
+        {
+          "file": "mus_f_finale_1_l.ogg",
+          "file_offset": 0,
+          "chunk_offset": 38184667,
+          "length": 231568
+        },
+        {
+          "file": "mus_f_finale_2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 38416235,
+          "length": 503821
+        },
+        {
+          "file": "mus_f_finale_3.ogg",
+          "file_offset": 0,
+          "chunk_offset": 38920056,
+          "length": 719807
+        },
+        {
+          "file": "mus_f_intro.ogg",
+          "file_offset": 0,
+          "chunk_offset": 39639863,
+          "length": 202626
+        },
+        {
+          "file": "mus_f_newlaugh.ogg",
+          "file_offset": 0,
+          "chunk_offset": 39842489,
+          "length": 37700
+        },
+        {
+          "file": "mus_f_newlaugh_low.ogg",
+          "file_offset": 0,
+          "chunk_offset": 39880189,
+          "length": 73118
+        },
+        {
+          "file": "mus_f_part1.ogg",
+          "file_offset": 0,
+          "chunk_offset": 39953307,
+          "length": 359060
+        },
+        {
+          "file": "mus_f_part2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 40312367,
+          "length": 328637
+        },
+        {
+          "file": "mus_f_part3.ogg",
+          "file_offset": 0,
+          "chunk_offset": 40641004,
+          "length": 315539
+        },
+        {
+          "file": "mus_f_saved.ogg",
+          "file_offset": 0,
+          "chunk_offset": 40956543,
+          "length": 58182
+        },
+        {
+          "file": "mus_f_wind1.ogg",
+          "file_offset": 0,
+          "chunk_offset": 41014725,
+          "length": 295335
+        },
+        {
+          "file": "mus_f_wind2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 41310060,
+          "length": 224153
+        },
+        {
+          "file": "mus_fallendown2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 41534213,
+          "length": 1520179
+        },
+        {
+          "file": "mus_fearsting.ogg",
+          "file_offset": 0,
+          "chunk_offset": 43054392,
+          "length": 13207
+        },
+        {
+          "file": "mus_flowey.ogg",
+          "file_offset": 0,
+          "chunk_offset": 43067599,
+          "length": 188451
+        },
+        {
+          "file": "mus_gameover.ogg",
+          "file_offset": 0,
+          "chunk_offset": 43256050,
+          "length": 367721
+        },
+        {
+          "file": "mus_ghostbattle.ogg",
+          "file_offset": 0,
+          "chunk_offset": 43623771,
+          "length": 563673
+        },
+        {
+          "file": "mus_harpnoise.ogg",
+          "file_offset": 0,
+          "chunk_offset": 44187444,
+          "length": 33633
+        },
+        {
+          "file": "mus_hereweare.ogg",
+          "file_offset": 0,
+          "chunk_offset": 44221077,
+          "length": 1607956
+        },
+        {
+          "file": "mus_hotel.ogg",
+          "file_offset": 0,
+          "chunk_offset": 45829033,
+          "length": 968920
+        },
+        {
+          "file": "mus_hotel_battle.ogg",
+          "file_offset": 0,
+          "chunk_offset": 46797953,
+          "length": 766125
+        },
+        {
+          "file": "mus_house1.ogg",
+          "file_offset": 0,
+          "chunk_offset": 47564078,
+          "length": 1188342
+        },
+        {
+          "file": "mus_house2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 48752420,
+          "length": 1311196
+        },
+        {
+          "file": "mus_intronoise.ogg",
+          "file_offset": 0,
+          "chunk_offset": 50063616,
+          "length": 39671
+        },
+        {
+          "file": "mus_kingdescription.ogg",
+          "file_offset": 0,
+          "chunk_offset": 50103287,
+          "length": 697389
+        },
+        {
+          "file": "mus_lab.ogg",
+          "file_offset": 0,
+          "chunk_offset": 50800676,
+          "length": 955109
+        },
+        {
+          "file": "mus_leave.ogg",
+          "file_offset": 0,
+          "chunk_offset": 51755785,
+          "length": 907150
+        },
+        {
+          "file": "mus_menu0.ogg",
+          "file_offset": 0,
+          "chunk_offset": 52662935,
+          "length": 204293
+        },
+        {
+          "file": "mus_menu1.ogg",
+          "file_offset": 0,
+          "chunk_offset": 52867228,
+          "length": 227547
+        },
+        {
+          "file": "mus_menu2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 53094775,
+          "length": 235579
+        }
+      ],
+      "sha256": "0825d9e6c7d6779dbf191fda5448c277ba5b63a90891845141febe7ddba1c3d3"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 53330351,
+      "segments": [
+        {
+          "file": "mus_menu2.ogg",
+          "file_offset": 235579,
+          "chunk_offset": 0,
+          "length": 124539
+        },
+        {
+          "file": "mus_menu3.ogg",
+          "file_offset": 0,
+          "chunk_offset": 124539,
+          "length": 374733
+        },
+        {
+          "file": "mus_menu4.ogg",
+          "file_offset": 0,
+          "chunk_offset": 499272,
+          "length": 388076
+        },
+        {
+          "file": "mus_menu5.ogg",
+          "file_offset": 0,
+          "chunk_offset": 887348,
+          "length": 376086
+        },
+        {
+          "file": "mus_menu6.ogg",
+          "file_offset": 0,
+          "chunk_offset": 1263434,
+          "length": 383516
+        },
+        {
+          "file": "mus_mett_applause.ogg",
+          "file_offset": 0,
+          "chunk_offset": 1646950,
+          "length": 69155
+        },
+        {
+          "file": "mus_mett_cheer.ogg",
+          "file_offset": 0,
+          "chunk_offset": 1716105,
+          "length": 55195
+        },
+        {
+          "file": "mus_mettafly.ogg",
+          "file_offset": 0,
+          "chunk_offset": 1771300,
+          "length": 79860
+        },
+        {
+          "file": "mus_mettaton_ex.ogg",
+          "file_offset": 0,
+          "chunk_offset": 1851160,
+          "length": 1634836
+        },
+        {
+          "file": "mus_mettaton_neo.ogg",
+          "file_offset": 0,
+          "chunk_offset": 3485996,
+          "length": 319346
+        },
+        {
+          "file": "mus_mettaton_pretransform.ogg",
+          "file_offset": 0,
+          "chunk_offset": 3805342,
+          "length": 180281
+        },
+        {
+          "file": "mus_mettatonbattle.ogg",
+          "file_offset": 0,
+          "chunk_offset": 3985623,
+          "length": 583328
+        },
+        {
+          "file": "mus_mettmusical1.ogg",
+          "file_offset": 0,
+          "chunk_offset": 4568951,
+          "length": 163603
+        },
+        {
+          "file": "mus_mettmusical2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 4732554,
+          "length": 160930
+        },
+        {
+          "file": "mus_mettmusical3.ogg",
+          "file_offset": 0,
+          "chunk_offset": 4893484,
+          "length": 149776
+        },
+        {
+          "file": "mus_mettmusical4.ogg",
+          "file_offset": 0,
+          "chunk_offset": 5043260,
+          "length": 156332
+        },
+        {
+          "file": "mus_mettsad.ogg",
+          "file_offset": 0,
+          "chunk_offset": 5199592,
+          "length": 1005973
+        },
+        {
+          "file": "mus_mode.ogg",
+          "file_offset": 0,
+          "chunk_offset": 6205565,
+          "length": 28974
+        },
+        {
+          "file": "mus_mtgameshow.ogg",
+          "file_offset": 0,
+          "chunk_offset": 6234539,
+          "length": 563936
+        },
+        {
+          "file": "mus_muscle.ogg",
+          "file_offset": 0,
+          "chunk_offset": 6798475,
+          "length": 277334
+        },
+        {
+          "file": "mus_musicbox.ogg",
+          "file_offset": 0,
+          "chunk_offset": 7075809,
+          "length": 752037
+        },
+        {
+          "file": "mus_myemeow.ogg",
+          "file_offset": 0,
+          "chunk_offset": 7827846,
+          "length": 7881
+        },
+        {
+          "file": "mus_mysteriousroom2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 7835727,
+          "length": 164686
+        },
+        {
+          "file": "mus_mystery.ogg",
+          "file_offset": 0,
+          "chunk_offset": 8000413,
+          "length": 201444
+        },
+        {
+          "file": "mus_napstachords.ogg",
+          "file_offset": 0,
+          "chunk_offset": 8201857,
+          "length": 481190
+        },
+        {
+          "file": "mus_napstahouse.ogg",
+          "file_offset": 0,
+          "chunk_offset": 8683047,
+          "length": 103046
+        },
+        {
+          "file": "mus_news.ogg",
+          "file_offset": 0,
+          "chunk_offset": 8786093,
+          "length": 174060
+        },
+        {
+          "file": "mus_news_battle.ogg",
+          "file_offset": 0,
+          "chunk_offset": 8960153,
+          "length": 574242
+        },
+        {
+          "file": "mus_ohyes.ogg",
+          "file_offset": 0,
+          "chunk_offset": 9534395,
+          "length": 55969
+        },
+        {
+          "file": "mus_oogloop.ogg",
+          "file_offset": 0,
+          "chunk_offset": 9590364,
+          "length": 140074
+        },
+        {
+          "file": "mus_operatile.ogg",
+          "file_offset": 0,
+          "chunk_offset": 9730438,
+          "length": 369368
+        },
+        {
+          "file": "mus_options_fall.ogg",
+          "file_offset": 0,
+          "chunk_offset": 10099806,
+          "length": 582100
+        },
+        {
+          "file": "mus_options_summer.ogg",
+          "file_offset": 0,
+          "chunk_offset": 10681906,
+          "length": 304325
+        },
+        {
+          "file": "mus_options_winter.ogg",
+          "file_offset": 0,
+          "chunk_offset": 10986231,
+          "length": 166565
+        },
+        {
+          "file": "mus_papyrus.ogg",
+          "file_offset": 0,
+          "chunk_offset": 11152796,
+          "length": 271164
+        },
+        {
+          "file": "mus_papyrusboss.ogg",
+          "file_offset": 0,
+          "chunk_offset": 11423960,
+          "length": 637752
+        },
+        {
+          "file": "mus_piano.ogg",
+          "file_offset": 0,
+          "chunk_offset": 12061712,
+          "length": 233861
+        },
+        {
+          "file": "mus_prebattle1.ogg",
+          "file_offset": 0,
+          "chunk_offset": 12295573,
+          "length": 131921
+        },
+        {
+          "file": "mus_predummy.ogg",
+          "file_offset": 0,
+          "chunk_offset": 12427494,
+          "length": 63364
+        },
+        {
+          "file": "mus_race.ogg",
+          "file_offset": 0,
+          "chunk_offset": 12490858,
+          "length": 497216
+        },
+        {
+          "file": "mus_rain.ogg",
+          "file_offset": 0,
+          "chunk_offset": 12988074,
+          "length": 98059
+        },
+        {
+          "file": "mus_rain_deep.ogg",
+          "file_offset": 0,
+          "chunk_offset": 13086133,
+          "length": 95924
+        },
+        {
+          "file": "mus_repeat_1.ogg",
+          "file_offset": 0,
+          "chunk_offset": 13182057,
+          "length": 66334
+        },
+        {
+          "file": "mus_repeat_2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 13248391,
+          "length": 67502
+        },
+        {
+          "file": "mus_reunited.ogg",
+          "file_offset": 0,
+          "chunk_offset": 13315893,
+          "length": 3032892
+        },
+        {
+          "file": "mus_rimshot.ogg",
+          "file_offset": 0,
+          "chunk_offset": 16348785,
+          "length": 20847
+        },
+        {
+          "file": "mus_ruins.ogg",
+          "file_offset": 0,
+          "chunk_offset": 16369632,
+          "length": 1043131
+        },
+        {
+          "file": "mus_ruinspiano.ogg",
+          "file_offset": 0,
+          "chunk_offset": 17412763,
+          "length": 654602
+        },
+        {
+          "file": "mus_sansdate.ogg",
+          "file_offset": 0,
+          "chunk_offset": 18067365,
+          "length": 2155251
+        },
+        {
+          "file": "mus_sfx_a_grab.ogg",
+          "file_offset": 0,
+          "chunk_offset": 20222616,
+          "length": 11623
+        },
+        {
+          "file": "mus_sfx_chainsaw.ogg",
+          "file_offset": 0,
+          "chunk_offset": 20234239,
+          "length": 36071
+        },
+        {
+          "file": "mus_sfx_hypergoner_charge.ogg",
+          "file_offset": 0,
+          "chunk_offset": 20270310,
+          "length": 145003
+        },
+        {
+          "file": "mus_sfx_hypergoner_laugh.ogg",
+          "file_offset": 0,
+          "chunk_offset": 20415313,
+          "length": 35374
+        },
+        {
+          "file": "mus_sfx_rainbowbeam_hold.ogg",
+          "file_offset": 0,
+          "chunk_offset": 20450687,
+          "length": 24775
+        },
+        {
+          "file": "mus_shop.ogg",
+          "file_offset": 0,
+          "chunk_offset": 20475462,
+          "length": 505692
+        },
+        {
+          "file": "mus_sigh_of_dog.ogg",
+          "file_offset": 0,
+          "chunk_offset": 20981154,
+          "length": 228860
+        },
+        {
+          "file": "mus_silence.ogg",
+          "file_offset": 0,
+          "chunk_offset": 21210014,
+          "length": 4037
+        },
+        {
+          "file": "mus_smallshock.ogg",
+          "file_offset": 0,
+          "chunk_offset": 21214051,
+          "length": 77774
+        },
+        {
+          "file": "mus_smile.ogg",
+          "file_offset": 0,
+          "chunk_offset": 21291825,
+          "length": 734622
+        },
+        {
+          "file": "mus_snoresymphony.ogg",
+          "file_offset": 0,
+          "chunk_offset": 22026447,
+          "length": 336887
+        },
+        {
+          "file": "mus_snowwalk.ogg",
+          "file_offset": 0,
+          "chunk_offset": 22363334,
+          "length": 148063
+        },
+        {
+          "file": "mus_snowy.ogg",
+          "file_offset": 0,
+          "chunk_offset": 22511397,
+          "length": 1016656
+        },
+        {
+          "file": "mus_spider.ogg",
+          "file_offset": 0,
+          "chunk_offset": 23528053,
+          "length": 1076361
+        },
+        {
+          "file": "mus_spoopy.ogg",
+          "file_offset": 0,
+          "chunk_offset": 24604414,
+          "length": 187771
+        },
+        {
+          "file": "mus_spoopy_holiday.ogg",
+          "file_offset": 0,
+          "chunk_offset": 24792185,
+          "length": 109375
+        },
+        {
+          "file": "mus_spoopy_wave.ogg",
+          "file_offset": 0,
+          "chunk_offset": 24901560,
+          "length": 263510
+        },
+        {
+          "file": "mus_st_happytown.ogg",
+          "file_offset": 0,
+          "chunk_offset": 25165070,
+          "length": 14348
+        },
+        {
+          "file": "mus_st_him.ogg",
+          "file_offset": 0,
+          "chunk_offset": 25179418,
+          "length": 164073
+        },
+        {
+          "file": "mus_st_meatfactory.ogg",
+          "file_offset": 0,
+          "chunk_offset": 25343491,
+          "length": 29761
+        },
+        {
+          "file": "mus_st_troubledingle.ogg",
+          "file_offset": 0,
+          "chunk_offset": 25373252,
+          "length": 13248
+        },
+        {
+          "file": "mus_star.ogg",
+          "file_offset": 0,
+          "chunk_offset": 25386500,
+          "length": 425637
+        },
+        {
+          "file": "mus_sticksnap.ogg",
+          "file_offset": 0,
+          "chunk_offset": 25812137,
+          "length": 24291
+        },
+        {
+          "file": "mus_story.ogg",
+          "file_offset": 0,
+          "chunk_offset": 25836428,
+          "length": 664113
+        },
+        {
+          "file": "mus_story_stuck.ogg",
+          "file_offset": 0,
+          "chunk_offset": 26500541,
+          "length": 5057
+        },
+        {
+          "file": "mus_temshop.ogg",
+          "file_offset": 0,
+          "chunk_offset": 26505598,
+          "length": 333418
+        },
+        {
+          "file": "mus_temvillage.ogg",
+          "file_offset": 0,
+          "chunk_offset": 26839016,
+          "length": 666763
+        },
+        {
+          "file": "mus_tension.ogg",
+          "file_offset": 0,
+          "chunk_offset": 27505779,
+          "length": 79758
+        },
+        {
+          "file": "mus_tone2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 27585537,
+          "length": 21403
+        },
+        {
+          "file": "mus_tone3.ogg",
+          "file_offset": 0,
+          "chunk_offset": 27606940,
+          "length": 13723
+        },
+        {
+          "file": "mus_toomuch.ogg",
+          "file_offset": 0,
+          "chunk_offset": 27620663,
+          "length": 468735
+        },
+        {
+          "file": "mus_toriel.ogg",
+          "file_offset": 0,
+          "chunk_offset": 28089398,
+          "length": 378887
+        },
+        {
+          "file": "mus_town.ogg",
+          "file_offset": 0,
+          "chunk_offset": 28468285,
+          "length": 879498
+        },
+        {
+          "file": "mus_tv.ogg",
+          "file_offset": 0,
+          "chunk_offset": 29347783,
+          "length": 104730
+        },
+        {
+          "file": "mus_undyneboss.ogg",
+          "file_offset": 0,
+          "chunk_offset": 29452513,
+          "length": 1327244
+        },
+        {
+          "file": "mus_undynefast.ogg",
+          "file_offset": 0,
+          "chunk_offset": 30779757,
+          "length": 228138
+        },
+        {
+          "file": "mus_undynepiano.ogg",
+          "file_offset": 0,
+          "chunk_offset": 31007895,
+          "length": 62937
+        },
+        {
+          "file": "mus_undynescary.ogg",
+          "file_offset": 0,
+          "chunk_offset": 31070832,
+          "length": 150736
+        },
+        {
+          "file": "mus_undynetheme.ogg",
+          "file_offset": 0,
+          "chunk_offset": 31221568,
+          "length": 432991
+        },
+        {
+          "file": "mus_undynetruetheme.ogg",
+          "file_offset": 0,
+          "chunk_offset": 31654559,
+          "length": 957792
+        },
+        {
+          "file": "mus_vsasgore.ogg",
+          "file_offset": 0,
+          "chunk_offset": 32612351,
+          "length": 1757194
+        },
+        {
+          "file": "mus_waterfall.ogg",
+          "file_offset": 0,
+          "chunk_offset": 34369545,
+          "length": 1479629
+        },
+        {
+          "file": "mus_waterquiet.ogg",
+          "file_offset": 0,
+          "chunk_offset": 35849174,
+          "length": 242873
+        },
+        {
+          "file": "mus_wawa.ogg",
+          "file_offset": 0,
+          "chunk_offset": 36092047,
+          "length": 37985
+        },
+        {
+          "file": "mus_whoopee.ogg",
+          "file_offset": 0,
+          "chunk_offset": 36130032,
+          "length": 56851
+        },
+        {
+          "file": "mus_wind.ogg",
+          "file_offset": 0,
+          "chunk_offset": 36186883,
+          "length": 90923
+        },
+        {
+          "file": "mus_woofenstein.ogg",
+          "file_offset": 0,
+          "chunk_offset": 36277806,
+          "length": 94782
+        },
+        {
+          "file": "mus_woofenstein_loop.ogg",
+          "file_offset": 0,
+          "chunk_offset": 36372588,
+          "length": 76883
+        },
+        {
+          "file": "mus_wrongnumbersong.ogg",
+          "file_offset": 0,
+          "chunk_offset": 36449471,
+          "length": 70778
+        },
+        {
+          "file": "mus_wrongworld.ogg",
+          "file_offset": 0,
+          "chunk_offset": 36520249,
+          "length": 637481
+        },
+        {
+          "file": "mus_x_undyne.ogg",
+          "file_offset": 0,
+          "chunk_offset": 37157730,
+          "length": 1839786
+        },
+        {
+          "file": "mus_x_undyne_pre.ogg",
+          "file_offset": 0,
+          "chunk_offset": 38997516,
+          "length": 173968
+        },
+        {
+          "file": "mus_xpart.ogg",
+          "file_offset": 0,
+          "chunk_offset": 39171484,
+          "length": 2070525
+        },
+        {
+          "file": "mus_xpart_2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 41242009,
+          "length": 1253912
+        },
+        {
+          "file": "mus_xpart_a.ogg",
+          "file_offset": 0,
+          "chunk_offset": 42495921,
+          "length": 708242
+        },
+        {
+          "file": "mus_xpart_b.ogg",
+          "file_offset": 0,
+          "chunk_offset": 43204163,
+          "length": 508539
+        },
+        {
+          "file": "mus_xpart_back.ogg",
+          "file_offset": 0,
+          "chunk_offset": 43712702,
+          "length": 198691
+        },
+        {
+          "file": "mus_yourbestfriend_3.ogg",
+          "file_offset": 0,
+          "chunk_offset": 43911393,
+          "length": 395020
+        },
+        {
+          "file": "mus_z_ending.ogg",
+          "file_offset": 0,
+          "chunk_offset": 44306413,
+          "length": 2115643
+        },
+        {
+          "file": "mus_zz_megalovania.ogg",
+          "file_offset": 0,
+          "chunk_offset": 46422056,
+          "length": 1867146
+        },
+        {
+          "file": "mus_zzz_c.ogg",
+          "file_offset": 0,
+          "chunk_offset": 48289202,
+          "length": 94797
+        },
+        {
+          "file": "mus_zzz_c2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 48383999,
+          "length": 57136
+        },
+        {
+          "file": "options.ini",
+          "file_offset": 0,
+          "chunk_offset": 48441135,
+          "length": 97
+        },
+        {
+          "file": "snd_ballchime.ogg",
+          "file_offset": 0,
+          "chunk_offset": 48441232,
+          "length": 36248
+        },
+        {
+          "file": "snd_curtgunshot.ogg",
+          "file_offset": 0,
+          "chunk_offset": 48477480,
+          "length": 5853
+        },
+        {
+          "file": "snd_mushroomdance.ogg",
+          "file_offset": 0,
+          "chunk_offset": 48483333,
+          "length": 14007
+        },
+        {
+          "file": "splash.png",
+          "file_offset": 0,
+          "chunk_offset": 48497340,
+          "length": 1501
+        },
+        {
+          "file": "steam_api.cdx",
+          "file_offset": 0,
+          "chunk_offset": 48498841,
+          "length": 215120
+        },
+        {
+          "file": "steam_api.dll",
+          "file_offset": 0,
+          "chunk_offset": 48713961,
+          "length": 215120
+        },
+        {
+          "file": "steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 48929081,
+          "length": 2390
+        },
+        {
+          "file": "steamclient.dll",
+          "file_offset": 0,
+          "chunk_offset": 48931471,
+          "length": 261920
+        },
+        {
+          "file": "Undertale.exe",
+          "file_offset": 0,
+          "chunk_offset": 49193391,
+          "length": 4136960
+        }
+      ],
+      "sha256": "0edef42ead4f2eadb3a45219b2fb0fec125c535bfcfb8fe8cd144c2ca31cfe8f"
+    }
+  ]
+}
