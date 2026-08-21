@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 28
-- **Toplam aktif sürüm/kanal:** 28
-- **Toplam aktif boyut:** 696.344 GB (648.521 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-21 10:14:14 UTC
+- **Toplam oyun:** 29
+- **Toplam aktif sürüm/kanal:** 29
+- **Toplam aktif boyut:** 770.494 GB (717.579 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-21 11:04:27 UTC
 
 ## PC
 
-**28 oyun · 28 aktif sürüm/kanal · 696.344 GB (648.521 GiB)**
+**29 oyun · 29 aktif sürüm/kanal · 770.494 GB (717.579 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -20,6 +20,7 @@
 | BioShock Infinite | 1.0.0 | stable | 47.811 | 44.528 | `pc-bioshock-infinite-v1.0.0-stable` |
 | BioShock™ | 1.0.0 | stable | 6.039 | 5.625 | `pc-bioshock-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 14.396 | `pc-captured-2-v1.0.0-stable` |
+| ELDEN RING | 1.0.0 | stable | 74.150 | 69.058 | `pc-elden-ring-v1.0.0-stable` |
 | Fallout: New Vegas | 1.0.0 | stable | 9.914 | 9.233 | `pc-fallout-new-vegas-v1.0.0-stable` |
 | God of War | 1.0.0 | stable | 66.388 | 61.828 | `pc-god-of-war-v1.0.0-stable` |
 | Grand Theft Auto III | 1.0.0 | stable | 1.351 | 1.259 | `pc-grand-theft-auto-iii-v1.0.0-stable` |
