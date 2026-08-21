@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 38
-- **Toplam aktif sürüm/kanal:** 38
-- **Toplam aktif boyut:** 979.828 GB (912.536 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-21 20:47:53 UTC
+- **Toplam oyun:** 39
+- **Toplam aktif sürüm/kanal:** 39
+- **Toplam aktif boyut:** 986.803 GB (919.032 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-21 21:11:50 UTC
 
 ## PC
 
-**38 oyun · 38 aktif sürüm/kanal · 979.828 GB (912.536 GiB)**
+**39 oyun · 39 aktif sürüm/kanal · 986.803 GB (919.032 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -20,6 +20,7 @@
 | BioShock Infinite | 1.0.0 | stable | 47.811 | 44.528 | `pc-bioshock-infinite-v1.0.0-stable` |
 | BioShock™ | 1.0.0 | stable | 6.039 | 5.625 | `pc-bioshock-v1.0.0-stable` |
 | Borderlands 2 | 1.0.0 | stable | 36.051 | 33.576 | `pc-borderlands-2-v1.0.0-stable` |
+| Call of Duty® 4: Modern Warfare® (2007) | 1.0.0 | stable | 6.975 | 6.496 | `pc-call-of-duty-4-modern-warfare-2007-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 14.396 | `pc-captured-2-v1.0.0-stable` |
 | DARK SOULS™ III | 1.0.0 | stable | 26.890 | 25.043 | `pc-dark-souls-iii-v1.0.0-stable` |
 | Dishonored | 1.0.0 | stable | 18.079 | 16.837 | `pc-dishonored-v1.0.0-stable` |
