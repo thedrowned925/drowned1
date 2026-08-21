@@ -1,0 +1,4844 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "doom",
+    "title": "DOOM",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Now includes all three premium DLC packs (Unto the Evil, Hell Followed, and Bloodfall), maps, modes, and weapons, as well as all feature updates including Arcade Mode, Photo Mode, and the latest Update 6.66, which brings further multiplayer improvements as well as revamps multiplayer progression."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-doom-v1.0.0-stable"
+  },
+  "chunk_size": 1849589178,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 73983567108,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "base/candidate.cfg",
+      "size": 1000,
+      "sha256": "550682ecb2f72ca8a572915c7c20ff7d99fe7585d179b8d5ce8f4847db46ee6c"
+    },
+    {
+      "path": "base/chroma_effect_files/ArmorPickup_ChromaLink.chroma",
+      "size": 106,
+      "sha256": "8eef73cfba945fad3405f0f3120b440f6ef8f91fbf00ba08c57d7f3b9d234093"
+    },
+    {
+      "path": "base/chroma_effect_files/ArmorPickup_Headset.chroma",
+      "size": 106,
+      "sha256": "ca04d8a83adcbf1469e41d43d6b8e7a2d269766c1c95836389143ec92b1f866e"
+    },
+    {
+      "path": "base/chroma_effect_files/ArmorPickup_Keyboard.chroma",
+      "size": 3734,
+      "sha256": "850308d5eb8c8f4728e8e16f0fcbb1d0155f167823ea786be368dd3687bd3c8d"
+    },
+    {
+      "path": "base/chroma_effect_files/ArmorPickup_Keypad.chroma",
+      "size": 346,
+      "sha256": "ffb97cf42abc2c1d625891b1a54f461eb72c16d61e6c876b8a1e625dd833282c"
+    },
+    {
+      "path": "base/chroma_effect_files/ArmorPickup_Mouse.chroma",
+      "size": 1034,
+      "sha256": "a101bcb5602cc2840249655c1f36ff0fa0093be7d97d55f0d4744efbb63fd7b3"
+    },
+    {
+      "path": "base/chroma_effect_files/ArmorPickup_Mousepad.chroma",
+      "size": 266,
+      "sha256": "f248f7f2aff5d1dbebe6f6991a0bf49ec81692bfb143ab87d748ac00f6f6c7c2"
+    },
+    {
+      "path": "base/chroma_effect_files/Berzerk__Headset.chroma",
+      "size": 154,
+      "sha256": "e84c1c385de99e845c5a01f2544821ae184b9471cd2d880de4b68767a51bfa60"
+    },
+    {
+      "path": "base/chroma_effect_files/Berzerk_ChromaLink.chroma",
+      "size": 154,
+      "sha256": "5479b3e07069c134584ba4ea1fe7e1278125b8004a252cc3623565dec7376323"
+    },
+    {
+      "path": "base/chroma_effect_files/Berzerk_Keyboard.chroma",
+      "size": 3202,
+      "sha256": "e5401c23b5e9d078c58ab6767d95905586cf93de4e52f734e2e701c00ff4cd91"
+    },
+    {
+      "path": "base/chroma_effect_files/Berzerk_Keypad.chroma",
+      "size": 514,
+      "sha256": "bda75cc691e4066a84949acad894652bcc847964a33519a416db82b674b89e3e"
+    },
+    {
+      "path": "base/chroma_effect_files/Berzerk_Mouse.chroma",
+      "size": 1546,
+      "sha256": "b981a4da63efad427c469103aac1b5b52bf72abdb7f1a7fc5ef65d904d7bd7ff"
+    },
+    {
+      "path": "base/chroma_effect_files/Berzerk_Mousepad.chroma",
+      "size": 394,
+      "sha256": "12612f380c760af3eae580f1add8fba011666f84ccdd4d26493c80e78e8f16d4"
+    },
+    {
+      "path": "base/chroma_effect_files/BFGKill__Mouse.chroma",
+      "size": 2314,
+      "sha256": "85f97deeba174c47760587f31199b60ef307cf47335ab77d914a7d174a5766d5"
+    },
+    {
+      "path": "base/chroma_effect_files/BFGKill__Mousepad.chroma",
+      "size": 1034,
+      "sha256": "f4fa335ca1fb4b8f0e08037807614421e6af78e4b4444b8e74391332464b75b4"
+    },
+    {
+      "path": "base/chroma_effect_files/BFGKill_ChromaLink.chroma",
+      "size": 394,
+      "sha256": "23f95ca8f6b768e8916a09a17a27272be7256a25fee4783131daf8cbaa30bd0e"
+    },
+    {
+      "path": "base/chroma_effect_files/BFGKill_Headset.chroma",
+      "size": 370,
+      "sha256": "286a4ca791ad72c8fa8c3e310224e5ffd2da208baffa6ede4b9e7e43e1ef7b54"
+    },
+    {
+      "path": "base/chroma_effect_files/BFGKill_Keyboard.chroma",
+      "size": 5330,
+      "sha256": "00a8df93c9fb5f9d5fbbad60a72dd4501bdd16fadc0b7cb71454a210597e2ffd"
+    },
+    {
+      "path": "base/chroma_effect_files/BFGKill_Keypad.chroma",
+      "size": 1354,
+      "sha256": "d89323ef4d82e80d0a18d320c497c7bf07fcf1f445eee903ae5098eb8ab1dd8d"
+    },
+    {
+      "path": "base/chroma_effect_files/Blank_ChromaLink.chroma",
+      "size": 34,
+      "sha256": "f55ef90711073d52569c4d52f5e9d5cf1e4e55f9fd7f294ded4674f9a2402811"
+    },
+    {
+      "path": "base/chroma_effect_files/Blank_Headset.chroma",
+      "size": 34,
+      "sha256": "a12e87a1f1bae4074b40718bf91165f3404c6f12087df45e44a7ed8490ecbd62"
+    },
+    {
+      "path": "base/chroma_effect_files/Blank_Keyboard.chroma",
+      "size": 542,
+      "sha256": "4f663fa2e17131112c424b56f79616140716234ec0e49495e5ffe8024c07f34c"
+    },
+    {
+      "path": "base/chroma_effect_files/Blank_Keypad.chroma",
+      "size": 94,
+      "sha256": "a598b00b5ae848b81b3f7d1ddde5e6d8578c47ccbea57615fd8531c9eb668407"
+    },
+    {
+      "path": "base/chroma_effect_files/Blank_Mouse.chroma",
+      "size": 266,
+      "sha256": "24cdfb5145fcfb97a431212c20d8f21e980fc8f02c6fa97ea9af41c6c1b135f8"
+    },
+    {
+      "path": "base/chroma_effect_files/Blank_Mousepad.chroma",
+      "size": 74,
+      "sha256": "bb71f342fa239def73ec892d250b8c70cf8427c87487edc1ed6bada5de789032"
+    },
+    {
+      "path": "base/chroma_effect_files/BossKill_Keyboard.chroma",
+      "size": 26610,
+      "sha256": "1f1818e362108a21646b69bb36f567e341adac7518a88cdb1062e8b918e05115"
+    },
+    {
+      "path": "base/chroma_effect_files/ChainsawKill__Headset.chroma",
+      "size": 298,
+      "sha256": "2f18c133a3220ec80bb0694402379f95d3e0e0ca4b296bd30fa9fe6cd193a1af"
+    },
+    {
+      "path": "base/chroma_effect_files/ChainsawKill_ChromaLink.chroma",
+      "size": 298,
+      "sha256": "debc51e30bef1c2ef84cceb30300ac66a6ea17c44635768e285761a6c3219bfe"
+    },
+    {
+      "path": "base/chroma_effect_files/ChainsawKill_Keyboard.chroma",
+      "size": 15970,
+      "sha256": "34039cb3937c4d6be3bed13bba4ee120bff10d4de47088ec61b85046b813f12d"
+    },
+    {
+      "path": "base/chroma_effect_files/ChainsawKill_Keypad.chroma",
+      "size": 1018,
+      "sha256": "190cd880b8c349b3d8cea13647197dafeee8cd605d37ed01772d4c6370c06785"
+    },
+    {
+      "path": "base/chroma_effect_files/ChainsawKill_Mouse.chroma",
+      "size": 3082,
+      "sha256": "bd7e9caaab0062e41df866ca23e8773147a054b5641f3f814085ddc838170aff"
+    },
+    {
+      "path": "base/chroma_effect_files/ChainsawKill_Mousepad.chroma",
+      "size": 778,
+      "sha256": "9be07ea968b96692ae60aec89aebf824c171684f79038336c74b6a171d74e1ee"
+    },
+    {
+      "path": "base/chroma_effect_files/CrossWave.chroma",
+      "size": 12778,
+      "sha256": "f7d5ab81c2dd6997f74eecc428b97e908625623069c3ac4b2e96d0145a2d6c71"
+    },
+    {
+      "path": "base/chroma_effect_files/DamageTaken_ChromaLink.chroma",
+      "size": 58,
+      "sha256": "546141908b26905ea410fad7a151fa6caa00ca52a3ff2ca223ad7c15cdcc9ed7"
+    },
+    {
+      "path": "base/chroma_effect_files/DamageTaken_Headset.chroma",
+      "size": 58,
+      "sha256": "af1cf3669ae48811d3ba2f8311c4fca774618a771af4648c457e09c5863dfebe"
+    },
+    {
+      "path": "base/chroma_effect_files/DamageTaken_Keyboard.chroma",
+      "size": 1074,
+      "sha256": "c937a00586a12c46cbffb0db222eaa418705baedffb8e57e369862e1d156198b"
+    },
+    {
+      "path": "base/chroma_effect_files/DamageTaken_Keypad.chroma",
+      "size": 178,
+      "sha256": "c3c25f01be4383f1c98480e908f06f339a28a92c01b434525597f19532a0b7f3"
+    },
+    {
+      "path": "base/chroma_effect_files/DamageTaken_Mouse.chroma",
+      "size": 522,
+      "sha256": "b29a59d588821eb9e98c6e7c68b78f5e0a7cf77e7dc3ca9644d76e4e84a56942"
+    },
+    {
+      "path": "base/chroma_effect_files/DamageTaken_Mousepad.chroma",
+      "size": 138,
+      "sha256": "c48f9ba248a3210a58a28db022091bbb302930615fe90f7d67476242a062fe3c"
+    },
+    {
+      "path": "base/chroma_effect_files/Death_ChromaLink.chroma",
+      "size": 298,
+      "sha256": "bdb86b13977e6c4c2714c3ecb0c5f9bad8decdbfeb04de3b4380004620e131a8"
+    },
+    {
+      "path": "base/chroma_effect_files/Death_Headset.chroma",
+      "size": 298,
+      "sha256": "8a1d5b3f37dfb224e6484091e688d76975486e7276db75a847ddbf8c8e60e70d"
+    },
+    {
+      "path": "base/chroma_effect_files/Death_Keyboard.chroma",
+      "size": 6394,
+      "sha256": "3fa3430ff82bd427baae93f45ca93e2a2ccf17e5c32c8b2b5c9d930aa8e83bfb"
+    },
+    {
+      "path": "base/chroma_effect_files/Death_Keypad.chroma",
+      "size": 1018,
+      "sha256": "6ce740203876621b1eef0bdf07cf7fd5311c2eeb3a6b7d62edc45f00cdcf1b35"
+    },
+    {
+      "path": "base/chroma_effect_files/Death_Mouse.chroma",
+      "size": 3082,
+      "sha256": "54c128bab828031ab81c5759e87881f5fb3812e5122403a0629ed2572a440ae4"
+    },
+    {
+      "path": "base/chroma_effect_files/Death_Mousepad.chroma",
+      "size": 778,
+      "sha256": "4f5ee29cfe45535364af6c9f36ae2f2261e99f7fca83371af5bd958d0c8552e7"
+    },
+    {
+      "path": "base/chroma_effect_files/Doom_Base_ChromaLink.chroma",
+      "size": 34,
+      "sha256": "6c891e08d1a713cd494cf7bb6c42763191af08777cc813e46233d439166b82f9"
+    },
+    {
+      "path": "base/chroma_effect_files/Doom_Base_Headset.chroma",
+      "size": 34,
+      "sha256": "5f9a6ebd3babaf9ad3404bdf44276b150c3f63a6b1fdde67ca6c5ee48bf1f9ad"
+    },
+    {
+      "path": "base/chroma_effect_files/Doom_Base_Keyboard.chroma",
+      "size": 542,
+      "sha256": "dc908420b29dc4db93fd970a2312c38b9ce196261a92d6bbd9bc83a007e37760"
+    },
+    {
+      "path": "base/chroma_effect_files/Doom_Base_Keypad.chroma",
+      "size": 94,
+      "sha256": "9dfcc2bba0a53fcfbba04d7b7763adf853993c6e4f81045deb336e4e6c88b6a1"
+    },
+    {
+      "path": "base/chroma_effect_files/Doom_Base_Mouse.chroma",
+      "size": 266,
+      "sha256": "21c4b6dbdc5a2844caa3c9b8383073cd2f1dd5aec140d05032b03c8ae4115cc1"
+    },
+    {
+      "path": "base/chroma_effect_files/Doom_Base_Mousepad.chroma",
+      "size": 74,
+      "sha256": "3a28872d70b79d83ad47f1445636baee2b3ab6c0689505c7b56f45a59c38c382"
+    },
+    {
+      "path": "base/chroma_effect_files/GloryKill_ChromaLink.chroma",
+      "size": 130,
+      "sha256": "3892d91642ae30ed046c30e1e1d682a42fcff809b0a0cd0a4f708eef2ba907a5"
+    },
+    {
+      "path": "base/chroma_effect_files/GloryKill_Headset.chroma",
+      "size": 130,
+      "sha256": "e9da1c45dddee9236eaeb824aa0aae19ab16faf64de2c1c827e35b68167cbbdc"
+    },
+    {
+      "path": "base/chroma_effect_files/GloryKill_Keyboard.chroma",
+      "size": 7990,
+      "sha256": "e271c9b196ebc82518a73d40522c8f65c3c635f99a18135f51cc687e6abf9527"
+    },
+    {
+      "path": "base/chroma_effect_files/GloryKill_Keypad.chroma",
+      "size": 430,
+      "sha256": "f114aec858da4cab13f90325251947e407e4558ca764f4d9e69e9eae94756a1d"
+    },
+    {
+      "path": "base/chroma_effect_files/GloryKill_Mouse.chroma",
+      "size": 1290,
+      "sha256": "d68a256f9c035a66a927da22115b2efcba32b38a32a658c4a41f5fb75b130cf5"
+    },
+    {
+      "path": "base/chroma_effect_files/GloryKill_Mousepad.chroma",
+      "size": 330,
+      "sha256": "c0ba5ec526f76eda0d3b2db7ba7d1a27af86f84a21627a94b7cc0c63cf73aa4c"
+    },
+    {
+      "path": "base/chroma_effect_files/Headshot_ChromaLink.chroma",
+      "size": 154,
+      "sha256": "5f8b0548eca665ae35f8b623ff4908a7efdabf1908f280cf93f8f921b49b08f4"
+    },
+    {
+      "path": "base/chroma_effect_files/Headshot_Headset.chroma",
+      "size": 154,
+      "sha256": "a0da9583e3fb47f25e969e7c4949c8466447918fe481ec373f155c46917b3465"
+    },
+    {
+      "path": "base/chroma_effect_files/Headshot_Keyboard.chroma",
+      "size": 5330,
+      "sha256": "8c4007588cf823c09ef030615c73c9a5f2da2cb501f115f3c010c6a20c260b4f"
+    },
+    {
+      "path": "base/chroma_effect_files/Headshot_Keypad.chroma",
+      "size": 514,
+      "sha256": "bf692f561e7be923a0fbe8cc0da136af79d82a6511284448593be9c0546ad2f5"
+    },
+    {
+      "path": "base/chroma_effect_files/Headshot_Mouse.chroma",
+      "size": 1546,
+      "sha256": "bae36a30b2919d6223150a30d54119b9e8a0ca691535dd69b66d847a3484292c"
+    },
+    {
+      "path": "base/chroma_effect_files/Headshot_Mousepad.chroma",
+      "size": 394,
+      "sha256": "2c712d8559961d8a04a85ba961b2b2fc97285ac5683fe3780f9a958d592ab1f2"
+    },
+    {
+      "path": "base/chroma_effect_files/HealthPickup_ChromaLink.chroma",
+      "size": 106,
+      "sha256": "f5f9719dcd283a411deffd7861daa4fce472455b604ec6053d1e5e23dd920fdd"
+    },
+    {
+      "path": "base/chroma_effect_files/HealthPickup_Headset.chroma",
+      "size": 106,
+      "sha256": "a668d65929d3ff4f05602768583a1acf536d860d6934529f91f20504de4050c1"
+    },
+    {
+      "path": "base/chroma_effect_files/HealthPickup_Keyboard.chroma",
+      "size": 3734,
+      "sha256": "9e1e34302452dbfaacde20f308355b5c2bf926fad76eeb0120236ef3b912ab90"
+    },
+    {
+      "path": "base/chroma_effect_files/HealthPickup_Keypad.chroma",
+      "size": 346,
+      "sha256": "9832e9542e3c267b19961e6c40729126a468b1da2d0210100153fac466fd9535"
+    },
+    {
+      "path": "base/chroma_effect_files/HealthPickup_Mouse.chroma",
+      "size": 1034,
+      "sha256": "4db9202791d8ce864a9884c9ea5a80b87d2254ce1d272c21d9fa3da81c4cc6e4"
+    },
+    {
+      "path": "base/chroma_effect_files/HealthPickup_Mousepad.chroma",
+      "size": 266,
+      "sha256": "8733ceae5ad3cad52483f7e721c6ea0e35d7440db8c440df482301ec7063a189"
+    },
+    {
+      "path": "base/chroma_effect_files/Kill_ChromaLink.chroma",
+      "size": 154,
+      "sha256": "d8d94c316f9229796705871b2ef455275a932034c03cebc4d7198394ef12cf62"
+    },
+    {
+      "path": "base/chroma_effect_files/Kill_Headset.chroma",
+      "size": 154,
+      "sha256": "546cebcc993a7d376648801fe4a5fa632b4afdd9199a101eb578adc2c50ccb43"
+    },
+    {
+      "path": "base/chroma_effect_files/Kill_Keyboard.chroma",
+      "size": 4798,
+      "sha256": "63953d539babd26b1b1b4df39cd24c7377dce48aa911faef38d947f22bf85d7e"
+    },
+    {
+      "path": "base/chroma_effect_files/Kill_Keypad.chroma",
+      "size": 514,
+      "sha256": "9d3f2888a9f9f1ebedf370e39ec7435d0ca93e6ce2df7f337872da007b11f62f"
+    },
+    {
+      "path": "base/chroma_effect_files/Kill_Mouse.chroma",
+      "size": 1546,
+      "sha256": "ed84e6b4626ffed2b27653152d910591ddb6cce2fafbc43416b1fd7e22acfa6f"
+    },
+    {
+      "path": "base/chroma_effect_files/Kill_Mousepad.chroma",
+      "size": 394,
+      "sha256": "aa4c2d1a284a1f0148488f5a65e38bef99d712f78519e10bc7ce965faf0f6008"
+    },
+    {
+      "path": "base/chroma_effect_files/Loading2_Keyboard.chroma",
+      "size": 13310,
+      "sha256": "1bf1b1fd0ddb3533677c337f8c32c3d1c2f21fdedaef66af88a3fc666027702a"
+    },
+    {
+      "path": "base/chroma_effect_files/Loading3_Keyboard.chroma",
+      "size": 7990,
+      "sha256": "056463f86b732ef303d5b063e9c0d1782beaa397164363c819e204aa6171e8e7"
+    },
+    {
+      "path": "base/chroma_effect_files/Loading_Keyboard.chroma",
+      "size": 100026,
+      "sha256": "6d3aef557bc56be0670a542c7a2c60326d3acb76bf1c5171fae5ae3f4e07186b"
+    },
+    {
+      "path": "base/chroma_effect_files/LowHealth_ChromaLink.chroma",
+      "size": 154,
+      "sha256": "5479b3e07069c134584ba4ea1fe7e1278125b8004a252cc3623565dec7376323"
+    },
+    {
+      "path": "base/chroma_effect_files/LowHealth_Headset.chroma",
+      "size": 154,
+      "sha256": "e84c1c385de99e845c5a01f2544821ae184b9471cd2d880de4b68767a51bfa60"
+    },
+    {
+      "path": "base/chroma_effect_files/LowHealth_Keyboard.chroma",
+      "size": 3202,
+      "sha256": "e5401c23b5e9d078c58ab6767d95905586cf93de4e52f734e2e701c00ff4cd91"
+    },
+    {
+      "path": "base/chroma_effect_files/LowHealth_Keypad.chroma",
+      "size": 514,
+      "sha256": "bda75cc691e4066a84949acad894652bcc847964a33519a416db82b674b89e3e"
+    },
+    {
+      "path": "base/chroma_effect_files/LowHealth_Mouse.chroma",
+      "size": 1546,
+      "sha256": "b981a4da63efad427c469103aac1b5b52bf72abdb7f1a7fc5ef65d904d7bd7ff"
+    },
+    {
+      "path": "base/chroma_effect_files/LowHealth_Mousepad.chroma",
+      "size": 394,
+      "sha256": "12612f380c760af3eae580f1add8fba011666f84ccdd4d26493c80e78e8f16d4"
+    },
+    {
+      "path": "base/chroma_effect_files/LowHealthBFGKey_Keyboard.chroma",
+      "size": 1074,
+      "sha256": "40fa9f3d0e91b51025402daec2f1c5a620ad1ec3ad8799ae81622f6c5f73276e"
+    },
+    {
+      "path": "base/chroma_effect_files/Respawn_Keyboard.chroma",
+      "size": 5330,
+      "sha256": "febebcf3193d176eda6b1eee5bfd932984bae71041ae03491714f09a28e8e086"
+    },
+    {
+      "path": "base/chroma_effect_files/RespawnKey_Keyboard.chroma",
+      "size": 1074,
+      "sha256": "392e0206fd68ce85ca743518528de6401983b9cbfe8ed9b9ea4df6a8746962de"
+    },
+    {
+      "path": "base/chroma_effect_files/RippleTD_Keyboard.chroma",
+      "size": 4266,
+      "sha256": "0f1296b4a35702ffd43bee77885709ff2496096301da03463bf6343b3aef600e"
+    },
+    {
+      "path": "base/chroma_effect_files/Startup_Backup_ChromaLink.chroma",
+      "size": 154,
+      "sha256": "c9a0ba49270299fb55c3c84da6dcd1c2c842a1d76ec4acca838f84a5edfb5da6"
+    },
+    {
+      "path": "base/chroma_effect_files/Startup_Backup_Headset.chroma",
+      "size": 154,
+      "sha256": "e2e894ea2687c3e7edc914ca3a69908b544cd17ed6f9f444c3a0c69ff86cc64f"
+    },
+    {
+      "path": "base/chroma_effect_files/Startup_Backup_Keyboard.chroma",
+      "size": 3202,
+      "sha256": "846d29f0839210597f4b62be9dfca2d4042e8592a25744c3f600129b03349736"
+    },
+    {
+      "path": "base/chroma_effect_files/Startup_Backup_Keypad.chroma",
+      "size": 514,
+      "sha256": "cc15948ee7b1d965f5d70facb1be2aa1885b9d7b9f05b870c256dad2cdb3d775"
+    },
+    {
+      "path": "base/chroma_effect_files/Startup_Backup_Mouse.chroma",
+      "size": 1546,
+      "sha256": "94a1cae12120ac2c8d1e08c4765e636420547ebfe16b7049186a64081bf12ed1"
+    },
+    {
+      "path": "base/chroma_effect_files/Startup_Backup_Mousepad.chroma",
+      "size": 394,
+      "sha256": "ff3b301913f1c2de19afaf579e4def566544f717a0c70ea0394fea731af3afb9"
+    },
+    {
+      "path": "base/chroma_effect_files/Startup_ChromaLink.chroma",
+      "size": 154,
+      "sha256": "63b4125140fb91691b081fbf0e76817a3f1e81b5aad861679a6f3ed9379cb807"
+    },
+    {
+      "path": "base/chroma_effect_files/Startup_Headset.chroma",
+      "size": 154,
+      "sha256": "4a936aaf6adb2994f59e87d709e2cb773e28c167a596359bf676897e06bc4efe"
+    },
+    {
+      "path": "base/chroma_effect_files/Startup_Keyboard.chroma",
+      "size": 4266,
+      "sha256": "1f55364a70a32a5171002cb41f84c23c6c437d97d03f4a7bda6a63da2e096ab6"
+    },
+    {
+      "path": "base/chroma_effect_files/Startup_Keypad.chroma",
+      "size": 514,
+      "sha256": "d715d1553332074a172955b9ebeb5a773a2ab6c6950746c9f0de8fefcff96bd4"
+    },
+    {
+      "path": "base/chroma_effect_files/Startup_Mouse.chroma",
+      "size": 1546,
+      "sha256": "3c8bad198e78df214860d313d6ed244b960fe2acca7e69ddd5850dce13451ba8"
+    },
+    {
+      "path": "base/chroma_effect_files/Startup_Mousepad.chroma",
+      "size": 394,
+      "sha256": "f40a69c6cf0339714ea44c23a1924db32d1e4e78c9b1a0481caa9553af903413"
+    },
+    {
+      "path": "base/chroma_effect_files/WeaponUpgrade_Keyboard.chroma",
+      "size": 12778,
+      "sha256": "43bfebe2229ae9e5ec6db6146b64f89d8c304bcc0226a646561148d51499ebab"
+    },
+    {
+      "path": "base/disclayout.cfg",
+      "size": 54,
+      "sha256": "42c5aab4fc405dd6feefcb2c54ec8a44660196b92479901080af0abd78cbed6e"
+    },
+    {
+      "path": "base/gameresources.index",
+      "size": 15321603,
+      "sha256": "93bf95ac3a3f2d9c13688924c6d984a0cddd6268a189a2a7118b9e3f46f176f5"
+    },
+    {
+      "path": "base/gameresources.index.verify",
+      "size": 104,
+      "sha256": "aaf0b7ba9281533b13f55e0fb09f5553239ca95fea15128bac176d2ffe7bfc3f"
+    },
+    {
+      "path": "base/gameresources.patch",
+      "size": 1041489953,
+      "sha256": "a580291859ecb320b4cba83d0a68bc29995cacfd0f71222a4c1ecda4e602da70"
+    },
+    {
+      "path": "base/gameresources.patch.verify",
+      "size": 3240,
+      "sha256": "41fddeabc5207661f5b8c0f38cec21a534e5a644af360315dffb4c60af731082"
+    },
+    {
+      "path": "base/gameresources.pindex",
+      "size": 15321704,
+      "sha256": "94e495f65640f3b90847ae3057aedd5289212daebd9d4fd36f1963731c66080b"
+    },
+    {
+      "path": "base/gameresources.pindex.verify",
+      "size": 104,
+      "sha256": "44c67b5a5fe61a9e8651e7b8abee573c18e4bbd83bdc39554b69bd150848ba92"
+    },
+    {
+      "path": "base/gameresources.resources",
+      "size": 8845586598,
+      "sha256": "51628951d5da9f49a737c4d73c72610fc692ed6e7573e550ad7530becf6275de"
+    },
+    {
+      "path": "base/gameresources.resources.verify",
+      "size": 27048,
+      "sha256": "1bea0ba9c4a2b4e5b4240cdd7c483adeafa62b59e28cc094afb50d8a10b26daf"
+    },
+    {
+      "path": "base/master.index",
+      "size": 58,
+      "sha256": "0a9553a5d29ac290a71a586df70678242c39dabcb1be5a2601973b800d737b67"
+    },
+    {
+      "path": "base/motd/pc/compmp-motd1.png",
+      "size": 1416635,
+      "sha256": "ac95d806350bf7db5c76c4c7814e676ee18a8d5e31ea59f52a0dd59effa02304"
+    },
+    {
+      "path": "base/motd/pc/compmp-motd2.png",
+      "size": 878785,
+      "sha256": "8e17e68a4c71e70c7b4ca33092e3009f01010f2737bde1f5355d3dd5dbd36481"
+    },
+    {
+      "path": "base/motd/pc/snap-motd1.png",
+      "size": 1597322,
+      "sha256": "fcaa45b3fdfa9ab6aa7f1afe2c86751c825e57a9ad817ddd128407ded23001aa"
+    },
+    {
+      "path": "base/motd/pc/snap-motd2.png",
+      "size": 1569139,
+      "sha256": "2581a0ce1587454f99b33be16fb700fa2c596f7feec75a22a7af1f6560ab1d62"
+    },
+    {
+      "path": "base/motd/pc/snap-motd3.png",
+      "size": 1468462,
+      "sha256": "544dc7dcac2f16e8d522fc9ab0ad9a7276bad419c5d8ca2df7c661ef058e31fa"
+    },
+    {
+      "path": "base/motd/pc/snap-motd4.png",
+      "size": 1623271,
+      "sha256": "6a3b19093637c7ff4f7f78b25219f3c009a4270dc897e5069aad8862bb814e72"
+    },
+    {
+      "path": "base/snap_gameresources.index",
+      "size": 14849748,
+      "sha256": "af0c65e9e621252fb95deebb783400210a5ad97450f3f069e0b27ab66e23e646"
+    },
+    {
+      "path": "base/snap_gameresources.index.verify",
+      "size": 104,
+      "sha256": "f03eaeb64ae03e932037ab07b705506781dd4b79ee631e59e6d6dd62f40b3cbf"
+    },
+    {
+      "path": "base/snap_gameresources.patch",
+      "size": 831038505,
+      "sha256": "f683557cb5790d4d1566a327b691251df30b4b1f41da8b613c86a7e4e3e06c89"
+    },
+    {
+      "path": "base/snap_gameresources.patch.verify",
+      "size": 2600,
+      "sha256": "265ddadb01edc671b537829f8bf4c9cce9da99d440448b4caea1349ac8b5da8d"
+    },
+    {
+      "path": "base/snap_gameresources.pindex",
+      "size": 14849849,
+      "sha256": "1beef1a25c301518f2c97cbf081c2aaf13fa7e8d9e08b45af559a890b10122ab"
+    },
+    {
+      "path": "base/snap_gameresources.pindex.verify",
+      "size": 104,
+      "sha256": "16625b683e95f07139fa601fee5a714f994343562939f97eabb2b08f4f516c82"
+    },
+    {
+      "path": "base/snap_gameresources.resources",
+      "size": 2343895545,
+      "sha256": "8ee535aff07f7992b0909ab0568a0900e899eed177f59a448743eb599060a2cd"
+    },
+    {
+      "path": "base/snap_gameresources.resources.verify",
+      "size": 7208,
+      "sha256": "719589b2ede18e707ad7d3f892f7c94598b1aac8805aa034313d9c4345a427f9"
+    },
+    {
+      "path": "base/snap_models.preload",
+      "size": 2836002,
+      "sha256": "980783a6c563540f7067455f1b5210ee73533610a8412fefa2ecb26a6ea80b9a"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_ambience.bnk",
+      "size": 6991994,
+      "sha256": "306e91af12633532dd12f40bf9403afe09fcaf5ad02acd3c92ac2b9bd52f659a"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_dlc1_sfx.bnk",
+      "size": 53184279,
+      "sha256": "fe08d15387d94865af4464d55f56ecb46d2b96690cf19efcb1fe4052a73de487"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_dlc2_sfx.bnk",
+      "size": 38208705,
+      "sha256": "4b540030a9d8e1b98a28a4f0c133e11783484a73aedaa544bd0ade9bf87b3fbe"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_dlc3_sfx.bnk",
+      "size": 5733060,
+      "sha256": "032085c529bbbdd3ba5c25012601775ff6dfe99133b21e89ca3d993624b41acb"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_effects.bnk",
+      "size": 9233664,
+      "sha256": "065e58afbd205f2d5cbd32389e0424e02556bbd637d03cd89c2bd4c038d4a839"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_footsteps.bnk",
+      "size": 6776641,
+      "sha256": "802df58128b2a25da4ba42980d5d6e5fce01bebe9d9fb389319a53bb71cd4f1e"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_initial.bnk",
+      "size": 181148504,
+      "sha256": "069f31a49e5606cbf8160af6cac1b5f1366759bd11128d52d4880a326559d7c6"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_items.bnk",
+      "size": 15056842,
+      "sha256": "3e403d60407fd55f5078658c97539add532bdb88875f63d0eff67192bb3e6dfb"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_monsters.bnk",
+      "size": 18456921,
+      "sha256": "25e0cbebb9d86d17f8b58ed6967541c058365a512017154a01d93a501c3ebda0"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_movers.bnk",
+      "size": 4019241,
+      "sha256": "1eab925e63860dad4177af335d51eae57ce33833e4b27559d5bd433eaa94faf7"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_mp.bnk",
+      "size": 12239419,
+      "sha256": "66dc88ea71096863c231fb222e937fe337a1472853b21cfbe82337c6c7b2c78e"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_music.bnk",
+      "size": 2222519,
+      "sha256": "93d11327c423cb4c86625d002db1b5a5a45a8ff3853401efc31f7633a1e42ee0"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_npc.bnk",
+      "size": 237510,
+      "sha256": "a88cf492bc187f66b7f562dacbd0e3df9c1531f9e5dabee071144defb30765cf"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_player.bnk",
+      "size": 12798510,
+      "sha256": "8cd1196af883f6cd32a37b0a56b116e05a2bef0e10321384b0cdd7420b2caec9"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_projectile.bnk",
+      "size": 4588372,
+      "sha256": "cf3ef0a15cafbe0be2a032a44dd5464f9e04e43054fe3bc40c506ae29e142161"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_scripted_events.bnk",
+      "size": 42232530,
+      "sha256": "55bfe1138305904575a4cac165c2bc419beadcef24bae048f9adbbed178e61fa"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_snapmaps.bnk",
+      "size": 30923968,
+      "sha256": "db0ddacbdb70f4f189466d243845943d21da65cabdc730d5d23ca8275a11329d"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_test.bnk",
+      "size": 1636,
+      "sha256": "0d589b67dc4716c1aa399652e49f4164d7d9a336b8478d5b3aa54d604bbe9d5d"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_ui.bnk",
+      "size": 23749205,
+      "sha256": "db69719f4be0d03851d06095370b56ba612ce2c5d6e7563bc35162792b9ec5de"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_weapon_mp.bnk",
+      "size": 71840041,
+      "sha256": "d801cc3608c2520aa108c9ffdac1be8c84c8f4f1d25f014bef3ea720481219fd"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/doom_weapon_sp.bnk",
+      "size": 86775339,
+      "sha256": "604d32e645beb5804598699ba7941379cef4edf5c98434e9d3c096f9c8a7c683"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/English(US)/doom_dlc1_vo.bnk",
+      "size": 245708,
+      "sha256": "691b54179050910f216de758b37bc8b1d026b210c3d71fabcf4cb9523aeceb7e"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/English(US)/doom_dlc2_vo.bnk",
+      "size": 1229871,
+      "sha256": "755c9a9cdd89d6947cfff31b30b350809334fab355b5176929be9e6425156ce8"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/English(US)/doom_dlc3_vo.bnk",
+      "size": 191767,
+      "sha256": "3967d67d4c110bbe90c7c7e78f73e7e81a873ea03170452975382c2e09b9c168"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/English(US)/doom_vo.bnk",
+      "size": 1675766,
+      "sha256": "b920ae434e833dcbec48aedf4e98f82603afcfac9bb5f59cd1677b52fa5969be"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/English(US)/streamed_vo.pck",
+      "size": 401331464,
+      "sha256": "35c05949830de7a995e0b72d459de1139bb93349301986b80cbc66e7214a31db"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/English(US)/streamed_vo_dlc1.pck",
+      "size": 198247760,
+      "sha256": "e603366103d80c6f568ecc996d46ebd8d88d09e7e77b97239aaa018416e2847f"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/English(US)/streamed_vo_dlc2.pck",
+      "size": 69625520,
+      "sha256": "e6e4fa963689a8a00c20ffe70cb52946c43b0c7d00493b6c560486a21673dafe"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/English(US)/streamed_vo_dlc3.pck",
+      "size": 71602688,
+      "sha256": "013294b936a2a8d60cf3ac8ad31a90a5b4c26cb9527e1af37e22514231abc417"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/French(France)/doom_dlc1_vo.bnk",
+      "size": 245708,
+      "sha256": "afc8172fe36812377a57237fc38a5b77ccb12d03dd2e633e7192a3f70a981d04"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/French(France)/doom_dlc2_vo.bnk",
+      "size": 1229871,
+      "sha256": "4681144fa36c8738b3d35aef17d699fe12e9c0ab3bcec0478f282b9184702ad4"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/French(France)/doom_dlc3_vo.bnk",
+      "size": 191767,
+      "sha256": "b5f98a73573b281499dc37924ab7ce51203d47a22a4430d3a8de3ec45a4d302c"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/French(France)/doom_vo.bnk",
+      "size": 1675770,
+      "sha256": "9316eee6cf5b8fb75f065f4479d533d8ab3cca1fb92289b7961fc20de91eb083"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/French(France)/streamed_vo.pck",
+      "size": 268160640,
+      "sha256": "399cddf6e9ffbe037f096e2eb75bd1a30b724f9528d57092b19e611b8a78a859"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/French(France)/streamed_vo_dlc1.pck",
+      "size": 212371712,
+      "sha256": "ad101754073fd52755dea2a3591fb46b67a468725e0e619c120143734239a043"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/French(France)/streamed_vo_dlc2.pck",
+      "size": 62282168,
+      "sha256": "8d97eaa21892e00d5d4861681ec203658d434ab2afad95cd3d4c54b74e393477"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/French(France)/streamed_vo_dlc3.pck",
+      "size": 70865408,
+      "sha256": "f85a6a4986395e7f3900b0ab616c7fa5cfda58522799754a9995073f81155128"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/German/doom_dlc1_vo.bnk",
+      "size": 245708,
+      "sha256": "80b77143a19b1ae418a0a89a3d47ead289b04b2e47e55d3825c1cf2bd1e454ea"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/German/doom_dlc2_vo.bnk",
+      "size": 1229871,
+      "sha256": "71761d2041327e708c5af5b7d1d81d47ec89dddeaea9237a4506848b9d0fa950"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/German/doom_dlc3_vo.bnk",
+      "size": 191767,
+      "sha256": "a189cb7cf3026e698d36fc4e446872676da67aa362cfe4decbb1cbb249d9c114"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/German/doom_vo.bnk",
+      "size": 1675770,
+      "sha256": "d4302d84c318124cefd5b7c11e37c0426e3c78668b94daa0ddfa586d6d39bc03"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/German/streamed_vo.pck",
+      "size": 270651676,
+      "sha256": "a3e0290bab30a8e06871beed5299ffc948cfb02d9629d04c1994bb66547c5c81"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/German/streamed_vo_dlc1.pck",
+      "size": 168746256,
+      "sha256": "3831d9973f5503d3463eb21f078d76fa1c3e631122fb2733082e8f471fd0229f"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/German/streamed_vo_dlc2.pck",
+      "size": 62762752,
+      "sha256": "996366b949f0a7a3263dc38f393474ebc7c7ce40b12b911d69786d15be220a18"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/German/streamed_vo_dlc3.pck",
+      "size": 70828544,
+      "sha256": "902c3e6306591babc573fc962d24a1588a8d31229e600e604a7fd532f36d8aba"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Init.bnk",
+      "size": 9798,
+      "sha256": "e983c134be9eae2a6e601836787426a4c3278be9944171b9befe493ae402e6ef"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/initial.pck",
+      "size": 1173488560,
+      "sha256": "8ff37c952ea319c9ce66e9ab134f1bc26641b8fde369c28b852fc10cb0d93949"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Italian/doom_dlc1_vo.bnk",
+      "size": 245708,
+      "sha256": "ff3fc0c320785d46575fe5526810d7020c7cc8ee291acd094a8d3e55988b6336"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Italian/doom_dlc2_vo.bnk",
+      "size": 1229871,
+      "sha256": "ac438b19e48576f40847ae41275f6db30a734052eb57ca3a0e1a629ed1ad55b2"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Italian/doom_dlc3_vo.bnk",
+      "size": 191767,
+      "sha256": "30114c350f87bc739c81c0624b669a00e5e836ed7b4545a5fa2281a0b9612400"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Italian/doom_vo.bnk",
+      "size": 1675770,
+      "sha256": "ca422b8aaa7931bcb737f452cb73acf98b78585b8c874a412711db91c8740ef2"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Italian/streamed_vo.pck",
+      "size": 274663272,
+      "sha256": "4f3dd53e1f11ed6a025348218836017650ee70c77ab91d588e10add9696c606a"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Italian/streamed_vo_dlc1.pck",
+      "size": 218542112,
+      "sha256": "3b4b656ecb37d58562a6c216bb5d48f740a73cc31566356fc743c93d68ece532"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Italian/streamed_vo_dlc2.pck",
+      "size": 47814720,
+      "sha256": "e46826ca6893ebc397d63cc226021824a51fff07fd3bc6a5a0a9b332e283aaae"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Italian/streamed_vo_dlc3.pck",
+      "size": 70341120,
+      "sha256": "ed6d48c2e62f184bf7772534b35e530015582424a1af207fc4dc3c4aaf8f3511"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Japanese/doom_dlc1_vo.bnk",
+      "size": 245708,
+      "sha256": "6455bb3b92972a13daa1f11ddbc88c4889498baee8d66860600d7907441a3f46"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Japanese/doom_dlc2_vo.bnk",
+      "size": 1229871,
+      "sha256": "54d6000925b69c07ef5743e03fae7a5de9458eb31aa9e0d3bd1f6d8a17dc1067"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Japanese/doom_dlc3_vo.bnk",
+      "size": 191767,
+      "sha256": "8cb71ee68aa3695cbcbef22a7c3133f8a626f22672fe8537b79ca69aee20c73b"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Japanese/doom_vo.bnk",
+      "size": 1675770,
+      "sha256": "d97259ac1784d19108abc76fdfb7821eef136193bdc711690c05a57909cfd051"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Japanese/streamed_vo.pck",
+      "size": 261118812,
+      "sha256": "669e36df45442b1da317f267fa1739bc5f4d64af4380a7e174040351333dfa91"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Japanese/streamed_vo_dlc1.pck",
+      "size": 166030832,
+      "sha256": "2818a4b20451622b01412f6a31f35a6db72058ccacfa7cf21deb250e9929b6c4"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Japanese/streamed_vo_dlc2.pck",
+      "size": 50394368,
+      "sha256": "ca94305a02a77ee65e4f300b75b601035f6e70788e461dbfb867abf5e775ce27"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Japanese/streamed_vo_dlc3.pck",
+      "size": 70267392,
+      "sha256": "e7033465b733550f1e7495ceab95e4478ff5a355d302ee63f6b0d606c2b68667"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Polish/doom_dlc1_vo.bnk",
+      "size": 245708,
+      "sha256": "d31af50a8df97931795654c4c17ef1a9783f3174d38bedc22b5874cd5636fdc2"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Polish/doom_dlc2_vo.bnk",
+      "size": 1229871,
+      "sha256": "287d208f1efde6c9728eecbe97901f259e848cec22be070efd100d5a5ef112f9"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Polish/doom_dlc3_vo.bnk",
+      "size": 191767,
+      "sha256": "d74516f6f6b8381b8dafef60b6953741b2d868644be96cc87e28cb1189e37f9f"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Polish/doom_vo.bnk",
+      "size": 1675770,
+      "sha256": "f7f6c02a7e308d8ac5e9b621cf13f59b9f12cb34202001b688be5972bdca5f5f"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Polish/streamed_vo.pck",
+      "size": 274366208,
+      "sha256": "feeb6ad4793322ebcecb158eaecbda77caff8855732a0a40e333dcdbc4435426"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Polish/streamed_vo_dlc1.pck",
+      "size": 222770260,
+      "sha256": "54e2091e4d24e8c7e578a63ea81e63017757dbc735f8612f8b9b5e8fedd275cd"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Polish/streamed_vo_dlc2.pck",
+      "size": 63142408,
+      "sha256": "895ec48462024d8384ed25f4106a19074613373d92cdb870c5eef80bfe0c0b6f"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Polish/streamed_vo_dlc3.pck",
+      "size": 70574592,
+      "sha256": "4f6760e5cfe9f5fcd3e9b0d189a0606c2d393a80042831b0c962786527954aa9"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Portuguese(Brazil)/doom_dlc1_vo.bnk",
+      "size": 245708,
+      "sha256": "1df78689a2d3f4cc282a2e6ef7029c15371070ba83db0d2f6aa8816fd34d8d3e"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Portuguese(Brazil)/doom_dlc2_vo.bnk",
+      "size": 1229871,
+      "sha256": "cec3a18553ddc96d4e6c5e5170747a458358f7d69ae3c3c751d63b2d232d5914"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Portuguese(Brazil)/doom_dlc3_vo.bnk",
+      "size": 191767,
+      "sha256": "5a442e6d59b4f8cf0a0bed290aec8412b697f934fb12999a63b384f30727b027"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Portuguese(Brazil)/doom_vo.bnk",
+      "size": 1675770,
+      "sha256": "26f12a71c87159bde294330757d3559bc78561974cbc6da33508ec3e6c86c617"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Portuguese(Brazil)/streamed_vo.pck",
+      "size": 277230564,
+      "sha256": "68c2862a4322db97dcceac5bc9376da51f84689614f35d0e55a7a6190dea9225"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Portuguese(Brazil)/streamed_vo_dlc1.pck",
+      "size": 202743088,
+      "sha256": "aa5cb00ea161c6ee15918c4e3c211ea13fee2febf6e00d4250986d2dfecdb514"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Portuguese(Brazil)/streamed_vo_dlc2.pck",
+      "size": 61392552,
+      "sha256": "a0125d8e9a06a62d09d58a0a850fd802dfd65fabd7f4f7d3ae640d1654627a02"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Portuguese(Brazil)/streamed_vo_dlc3.pck",
+      "size": 70455808,
+      "sha256": "4c7af75e0693084279b2f5dd7bce42c34651961e1cb0359661712581ac6d73b4"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Russian/doom_dlc1_vo.bnk",
+      "size": 245708,
+      "sha256": "8ae5e0e2085cc8c02d665e4d8a73de230f84a97adf19f8fbe8206822ea8d3434"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Russian/doom_dlc2_vo.bnk",
+      "size": 1229871,
+      "sha256": "0c6231d8fefe618b333dd0dbd90cca1d87f83fb3dbea0f919b21569818d05bf3"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Russian/doom_dlc3_vo.bnk",
+      "size": 191767,
+      "sha256": "5b8794839ed6f9ca72f51e89540dcd9e78486b1cb175935f108a4d2551c455bd"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Russian/doom_vo.bnk",
+      "size": 1675770,
+      "sha256": "4e8b2865f00a083a1d8949afd7ad835b82b937c1a341f6ce010a1f6022a7cadd"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Russian/streamed_vo.pck",
+      "size": 270149484,
+      "sha256": "fb3f3795390a24bd57622ac0254c8b2a6abbb25f87dea60fd6627ca4bc42856f"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Russian/streamed_vo_dlc1.pck",
+      "size": 218150604,
+      "sha256": "02ba926f6f8f701191ca32acd9eb63910f2723020fb772691eb3be47a18d86d8"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Russian/streamed_vo_dlc2.pck",
+      "size": 44631944,
+      "sha256": "8b29fbe536567407be3a46578bc850341b362d83a8852cfa378fe182fe9532eb"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Russian/streamed_vo_dlc3.pck",
+      "size": 70275584,
+      "sha256": "14f167fd85cebdd850f09ed03656b6afa8068b2a16fc176b277a5cdd6871b577"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/soundbanksinfo.events",
+      "size": 954682,
+      "sha256": "04e3916912057e37a5a49f57d21dc4cdfae7f37067d59cb1914f40e6e80a63d4"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/soundbanksinfo.xml",
+      "size": 26345897,
+      "sha256": "1c0fc83fe7634d4fa0840a38e8f637db973f953a9f7ecc7285a9b8814eac3bbe"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Mexico)/doom_dlc1_vo.bnk",
+      "size": 245708,
+      "sha256": "564280e90b57129e5c09493111b16bf8eb3db9f20d997c5deaa54e3202a671b6"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Mexico)/doom_dlc2_vo.bnk",
+      "size": 1229871,
+      "sha256": "989211b9c1328218f3947968cd9f337981842f6e3c7f15a0f88c3179294494b5"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Mexico)/doom_dlc3_vo.bnk",
+      "size": 191767,
+      "sha256": "6ab42039538f65b885322676a81879e97d3281b5d0fd8602cb44880aa274b34d"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Mexico)/doom_vo.bnk",
+      "size": 1675770,
+      "sha256": "77c8da3825caa18b3a7ba920699abecad6857cd17e540b3a1dc74d9a2a632da4"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Mexico)/streamed_vo.pck",
+      "size": 277400144,
+      "sha256": "be6a52b34ae7541eacc4f4f08a23b3847ae2f559a927955e9bb7d80ab048540f"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Mexico)/streamed_vo_dlc1.pck",
+      "size": 203481592,
+      "sha256": "ea795ce1e052b25c1e63f6aa3b008846e22bd55de65bb9ba7756a068a8f9caba"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Mexico)/streamed_vo_dlc2.pck",
+      "size": 61244240,
+      "sha256": "87ddd577404a14a880c22931d98307a64b32425d50c371d39f6bf6bc75accf86"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Mexico)/streamed_vo_dlc3.pck",
+      "size": 71135744,
+      "sha256": "9a9593f678bfb853f152a3cb31424531e6d3ad45d925e71fbdd439500eca3ab5"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Spain)/doom_dlc1_vo.bnk",
+      "size": 245708,
+      "sha256": "e30d256488276b296430e2705c86e50fcbb065a6725eab2ee6166a5d313488c4"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Spain)/doom_dlc2_vo.bnk",
+      "size": 1229871,
+      "sha256": "3bb80c0d9960c0e7f6add21d69936d5a04d0d81b0860f87fb4345ba066a7d4eb"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Spain)/doom_dlc3_vo.bnk",
+      "size": 191767,
+      "sha256": "4b5f0052d20c872bdd2d78ad60906ae96857c7d9188bab2a14a796d67176b77d"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Spain)/doom_vo.bnk",
+      "size": 1675770,
+      "sha256": "d8241d0bddde0c07aa01bcd4318975c1de6f97e260c24a383c2a87b1ff0c1bdc"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Spain)/streamed_vo.pck",
+      "size": 275497016,
+      "sha256": "00c573e2c03b28376cbc16e73b2cf2e74f9fcb60383f85e6efc6e7e3f861e7cc"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Spain)/streamed_vo_dlc1.pck",
+      "size": 209840016,
+      "sha256": "6462358711056722be2cdc7c30d9900330a8fb887755f3a94e097d7ba9615ebd"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Spain)/streamed_vo_dlc2.pck",
+      "size": 61596128,
+      "sha256": "46e51f7ce5fef422b33cef7e725bdee7cf5f9ced534c6d3e797d0568408616ba"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/Spanish(Spain)/streamed_vo_dlc3.pck",
+      "size": 70803968,
+      "sha256": "4674517412adfb408dbebe7e60eeb0ae0d3e56567281ac3829330576c39e586c"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/streamed_sfx.pck",
+      "size": 2652233288,
+      "sha256": "8bbbfa20796a0d2eef58d146a88f90f340990df15489c810d82b1d8d3dd9d4ed"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/streamed_sfx_dlc1.pck",
+      "size": 61849520,
+      "sha256": "afe2fa871d84675bedc68cae833c2d9a6b215ca9eacfb9ec22baa0c79669ae9e"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/streamed_sfx_dlc2.pck",
+      "size": 175464064,
+      "sha256": "ecdf11dbe4086026153d99f867458796dab6ee181c4c7ab287743cc36481264d"
+    },
+    {
+      "path": "base/sound/soundbanks/pc/streamed_sfx_dlc3.pck",
+      "size": 18405888,
+      "sha256": "b9d6a8be1a546b005746beb8e303d452e8da8c7039a4b2228488204e8c428e52"
+    },
+    {
+      "path": "base/tss.bin",
+      "size": 600,
+      "sha256": "bfa0632a10a7b8e7878b82eac369709a92d12362f73d88ad03a94ee85343bc25"
+    },
+    {
+      "path": "base/video/ArcadeBG.bik",
+      "size": 71878620,
+      "sha256": "fbeec6b0d3c1963c4e5a61efb69675aa30ce2c0c89aaba47a1ef55a6bb0c71e6"
+    },
+    {
+      "path": "base/video/AshSmokeBG.bik",
+      "size": 28606316,
+      "sha256": "0820e2631d07215f1e87a2b3cb7115296d4040d77f2be0b66acd89cbbdfa9f7e"
+    },
+    {
+      "path": "base/video/boot_sequence.bik",
+      "size": 19703332,
+      "sha256": "21665c8d9d4f542ad6abc02abf3fb61f6da744ad9c051fac79ff8119fe186b78"
+    },
+    {
+      "path": "base/video/Counter.bik",
+      "size": 268880,
+      "sha256": "5b109cddc0deb75be0509a3cab8ac85b0dce1a672485cec141b20d635cb49a8e"
+    },
+    {
+      "path": "base/video/Counter_MP.bik",
+      "size": 274624,
+      "sha256": "0529baa02c760d7f6c7352fdad1675de84b78ebaaee4807ab72048a253b71787"
+    },
+    {
+      "path": "base/video/Counter_SNAP.bik",
+      "size": 277652,
+      "sha256": "e34ac1a67e2aad6e26454f6289162b3d81a5e75d98741a91bbd1af366d826c99"
+    },
+    {
+      "path": "base/video/Counter_SP.bik",
+      "size": 275008,
+      "sha256": "3f4d90b4ed17eab14b5571708ae9b3c547880efdca20ecc6ec205465e83cc8ed"
+    },
+    {
+      "path": "base/video/dossier.bik",
+      "size": 4640784,
+      "sha256": "a512b817dd6f52eddc4ad2861be4c1bbeb4b46def183eb4c8ec51cb2d6cd6aa0"
+    },
+    {
+      "path": "base/video/dossier_ember.bik",
+      "size": 6000972,
+      "sha256": "bdc1aea6917f1dad1604654e7e82cdfb66786da2ff0c05f7034322b9b236ffba"
+    },
+    {
+      "path": "base/video/echelon/echelon_bar_anim.bik",
+      "size": 493484,
+      "sha256": "04b3d48eb9135932f55a206498519dfad7def6347eb2f9e11311e57203ea359c"
+    },
+    {
+      "path": "base/video/echelon/echelon_bar_flame_anim.bik",
+      "size": 4230328,
+      "sha256": "be592ac2b349697fa502cd0085f26d1f96e510a2a9b1d7bac0f0f066388ae457"
+    },
+    {
+      "path": "base/video/FireSmokeBG.bik",
+      "size": 71878620,
+      "sha256": "fbeec6b0d3c1963c4e5a61efb69675aa30ce2c0c89aaba47a1ef55a6bb0c71e6"
+    },
+    {
+      "path": "base/video/FireSmokeBGboot.bik",
+      "size": 31065028,
+      "sha256": "f451e827b1d412146001053949b308bcc4d0bd8cf2ef6d995b7726cb7d648fa6"
+    },
+    {
+      "path": "base/video/Hell_LoadingScreen.bik",
+      "size": 70080932,
+      "sha256": "78eb308b0524f3dfe3ba59454c8b7a8731a44e7a39f4adf129b2fb9d4e828f26"
+    },
+    {
+      "path": "base/video/Map_Intro.bik",
+      "size": 1088160,
+      "sha256": "524c4e294cc93ff23d6a21d4394b47cc3197ba95ca28687a665f019e80112add"
+    },
+    {
+      "path": "base/video/map_intros/game/sp/LoadScreenArgentTower.bk2",
+      "size": 12166924,
+      "sha256": "14acb246ac97a3d0f88c91c5908bcc254eafd35058c67441c2c8d77ef0982b0c"
+    },
+    {
+      "path": "base/video/map_intros/game/sp/LoadScreenBFGdivision.bk2",
+      "size": 12165676,
+      "sha256": "2f2feaff4f63e4b3aad03766a7663f4e26ef56bf92a0aad9a4cf892b75238e44"
+    },
+    {
+      "path": "base/video/map_intros/game/sp/LoadScreenBloodKeepA.bk2",
+      "size": 24302500,
+      "sha256": "16d3130fb628ac97230eb6297155fbfe39c683a9c98fa12f929dc9a5755a1b38"
+    },
+    {
+      "path": "base/video/map_intros/game/sp/LoadScreenBloodKeepB.bk2",
+      "size": 24301340,
+      "sha256": "0f5e9bb82a7b48da7eab3e89dacdded3c65fb27995b6e914ed1c9101ef21d083"
+    },
+    {
+      "path": "base/video/map_intros/game/sp/LoadScreenBloodKeepC.bk2",
+      "size": 24296368,
+      "sha256": "f4e6be8b29dc0334a336f13cc220fb979fcbbad5b66e96b9b51fce4e78f45b79"
+    },
+    {
+      "path": "base/video/map_intros/game/sp/LoadScreenFoundry.bk2",
+      "size": 12167528,
+      "sha256": "f6ac1a2bdd38d2e3b054e9fb1d76368c6cb585b8b8bd7ccf3850d5e7080f5155"
+    },
+    {
+      "path": "base/video/map_intros/game/sp/LoadScreenIntro.bk2",
+      "size": 128356148,
+      "sha256": "4ccada4bda550f02bddbc6c0a5269f6fefe78193a59663e6df1b65708ad4c1b2"
+    },
+    {
+      "path": "base/video/map_intros/game/sp/LoadScreenLazarus.bk2",
+      "size": 12166752,
+      "sha256": "ca6e6727d131f124b64fbd49f1ad0977ebd3641dfc51f3ded888f3c58f23cbfd"
+    },
+    {
+      "path": "base/video/map_intros/game/sp/LoadScreenPolarCore.bk2",
+      "size": 12168736,
+      "sha256": "4b19d7299d8c4128c305942e78462523700418bebe33eb288473ee55d45ca96c"
+    },
+    {
+      "path": "base/video/map_intros/game/sp/LoadScreenResOps.bk2",
+      "size": 12168176,
+      "sha256": "544c02cf254e3ce60e014624717c4e0bd34c9535f40258b3d922dc182a48e375"
+    },
+    {
+      "path": "base/video/map_intros/game/sp/LoadScreenSurface.bk2",
+      "size": 12167528,
+      "sha256": "921c7afde6f6c71cf9fbd2aff13f0bf84ec0d6059ce2a58ac7d63964b7c7ec59"
+    },
+    {
+      "path": "base/video/map_intros/game/sp/LoadScreenSurfaceReturn.bk2",
+      "size": 12166224,
+      "sha256": "157754f7972b6d6bb15f9b53a8b00ea6c424bb5f2e99030a99603443fe2ac1f4"
+    },
+    {
+      "path": "base/video/map_intros/game/sp/LoadScreenTitan.bk2",
+      "size": 24296884,
+      "sha256": "a01047d8ad93f159e6ea88a1c9553a9fbcfe42ad077005d14f8cf365afd15b57"
+    },
+    {
+      "path": "base/video/modbot/Modbot_Bombburst.bik",
+      "size": 1473436,
+      "sha256": "9e015d36222605b8455e0f16122204fbd50697079221ca1bf748c457f978cddb"
+    },
+    {
+      "path": "base/video/modbot/modbot_charge.bik",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "base/video/modbot/Modbot_Gatling.bik",
+      "size": 1060708,
+      "sha256": "333e002e48a6b847de49e58e7f99d744d18566aa40768d8fd99f6066c756dc76"
+    },
+    {
+      "path": "base/video/modbot/Modbot_Heatblast.bik",
+      "size": 1351112,
+      "sha256": "d6221ac3c2a9c8cb7c40c31dde39a6ca12a2c6e87f2dc1e6331818c14e010cf6"
+    },
+    {
+      "path": "base/video/modbot/Modbot_Lockon.bik",
+      "size": 1285272,
+      "sha256": "01b4785e8f4699919fa6a5da85c9557f9be956c1ba7c78f1a336d02092c40dd6"
+    },
+    {
+      "path": "base/video/modbot/Modbot_Poprockets.bik",
+      "size": 1494404,
+      "sha256": "d44a74450b66d49ee72b894aadb4781a0eeca60dee069554374024ce2d9a3d61"
+    },
+    {
+      "path": "base/video/modbot/Modbot_RemoteDetonate.bik",
+      "size": 1430668,
+      "sha256": "2cd4580299b718af072aa13e12f3dfb218db4c5ca2c6efb9a7108547020c715d"
+    },
+    {
+      "path": "base/video/modbot/Modbot_Scope.bik",
+      "size": 960888,
+      "sha256": "876fa59749c5ad6cdb1c9228be7bc97824dea0a922bcbf5e13ff564b98e2a748"
+    },
+    {
+      "path": "base/video/modbot/Modbot_Siege.bik",
+      "size": 1216368,
+      "sha256": "0caf4aa1d0da5a3d1a5f58d05ad0a76a7d0474cdda773f61be959886c9f00ca3"
+    },
+    {
+      "path": "base/video/modbot/Modbot_Sniper.bik",
+      "size": 974996,
+      "sha256": "40cfb383438d35483fa0a6d13fe41e9cc3e6944e58e6c0feb9ed7bbf6a0059fe"
+    },
+    {
+      "path": "base/video/modbot/Modbot_Stunbomb.bik",
+      "size": 1292700,
+      "sha256": "4dc7a01e6b04a6911620928382305fc325908b2f1d6131effb66d342ce0663f9"
+    },
+    {
+      "path": "base/video/modbot/Modbot_Tripleshot.bik",
+      "size": 1329332,
+      "sha256": "a7547ca8019394767e1b7e2ab9e9cdb7551ddbe35ce711bf0c13c34ed466dfa6"
+    },
+    {
+      "path": "base/video/modbot/Modbot_Turret.bik",
+      "size": 1278104,
+      "sha256": "557f449292da2d30a2ea7eacab7c3e40bc0b900694a11e8c8ed62ffe729d43d7"
+    },
+    {
+      "path": "base/video/narative/Credits.bik",
+      "size": 409369976,
+      "sha256": "a9679c40255b6645d2dd96fb1baabe8e188bab985f4131ff9386fdd7931a2bc4"
+    },
+    {
+      "path": "base/video/narative/Credits2.bik",
+      "size": 100811284,
+      "sha256": "2d758d38ce62b9d04f1db5c13e099cac3c2513b9fece9e8d00ab1836a5260c53"
+    },
+    {
+      "path": "base/video/narative/DoomMarine.bik",
+      "size": 36003280,
+      "sha256": "c5737600e009f8facaf01e3ff1ed9dcd439fdb6ebd468a6fd4261252446b423b"
+    },
+    {
+      "path": "base/video/narative/DoomMarineSymbol.bik",
+      "size": 39939032,
+      "sha256": "6bdb203358bcfae6e2bdd25a57ee727b8a522ce805fae057795c34aeb1b2da17"
+    },
+    {
+      "path": "base/video/narative/EndGame.bik",
+      "size": 20701536,
+      "sha256": "89732471285a44cfa6feb1606793279ff1e1306a9876a47f57d78e0770220bd6"
+    },
+    {
+      "path": "base/video/narative/Intro_Ending.bik",
+      "size": 24065016,
+      "sha256": "47d7c47c6d7b60c2e3124450132aeb1972039edf900ac1ce1155f065abbca47f"
+    },
+    {
+      "path": "base/video/narative/IntroVisionNEW.bik",
+      "size": 15533332,
+      "sha256": "7c54446d11329b97fb956cc9423af1ea543201e536f3add313f6a914da65d9b3"
+    },
+    {
+      "path": "base/video/narative/OliviaVision.bik",
+      "size": 18806120,
+      "sha256": "d3aa16d11696f43c36cfb9141d0046c878d31a3c5e48f48e04bff41b8304c20d"
+    },
+    {
+      "path": "base/video/narative/projection.bik",
+      "size": 31607476,
+      "sha256": "adad5c280ed028820db79c8627af83e7b76bd2fc3b3aacd9fdf00a9f299f3dcc"
+    },
+    {
+      "path": "base/video/narative/spencer_control_center.bik",
+      "size": 184519144,
+      "sha256": "0294ce75deb6ddd76d38a55c3212c450807be91436fa96fa478b62eb50126264"
+    },
+    {
+      "path": "base/video/narative/SpiderMM_Flash.bik",
+      "size": 1862276,
+      "sha256": "69dc7c3e2c096c7dfb03d76f95cba7c7e4864d55c636d6187fabf632816ebd52"
+    },
+    {
+      "path": "base/video/UAC_LoadingScreen.bik",
+      "size": 36488332,
+      "sha256": "8867cd961235d921936e3403551ccf239f2566564e32698d4cffd898014f1bd0"
+    },
+    {
+      "path": "base/video/ui_display_test.bik",
+      "size": 76581808,
+      "sha256": "1a97c2ccd15b2365683642dca1f8bd3523bdbff739fc7a7b5a499448e1eccc17"
+    },
+    {
+      "path": "bink2w64.dll",
+      "size": 374272,
+      "sha256": "c50d3f534986cb6b3f0eb32ecc9abc036d2bb670f85280c3ec10c5fdfe4f6b97"
+    },
+    {
+      "path": "CChromaEditorLibrary.dll",
+      "size": 219136,
+      "sha256": "e1c28f166c91588a0a58ed02fb17722c0ba988135f98c546bdd7a526de91d149"
+    },
+    {
+      "path": "DOOMx64.cdx",
+      "size": 76022480,
+      "sha256": "d46ca967824da6ffc40f1ce0b6d7f4afa868fe12b795124d3e31a1bdb646a8e5"
+    },
+    {
+      "path": "DOOMx64.exe",
+      "size": 76022480,
+      "sha256": "5bc9fd12661c154c7ed7902c4bcafab286ab7586e61f9a77a49cf6dafe22c13c"
+    },
+    {
+      "path": "DOOMx64vk.cdx",
+      "size": 100128464,
+      "sha256": "139763e94f1a75b5310179f9eeeb8a949a1f53c49acbc722fcfc5dfe7bb6d323"
+    },
+    {
+      "path": "DOOMx64vk.exe",
+      "size": 100128464,
+      "sha256": "ff66097978aab8c8d6eca7314e9e90b995b5f63b28af5b97fd363bc40f2661dc"
+    },
+    {
+      "path": "Language Selector.exe",
+      "size": 36864,
+      "sha256": "68427419310dc53e862f644f8af084ee145ec3904c7e554527e1cb6c970467c4"
+    },
+    {
+      "path": "Origins.ini",
+      "size": 252,
+      "sha256": "e4d6567486d28e05ca00177d72a6579201b195294b7b5774c1dab4099220ae19"
+    },
+    {
+      "path": "steam_api64.cdx",
+      "size": 239184,
+      "sha256": "5c6dabbd723a284d6b9a70303678c60421485bceb51def107f273f0f3730ed28"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 300320,
+      "sha256": "d7d7253d8f3a8a9bc05ec5b8a4b38b1a23e501bc99500c470d4117638fd52fea"
+    },
+    {
+      "path": "steam_emu.ini",
+      "size": 2754,
+      "sha256": "72df1f82ec150b7bc735c5627d950470113626d84b2f9603c464933b94b5f9bf"
+    },
+    {
+      "path": "superscriptx64.dll",
+      "size": 1666048,
+      "sha256": "bc25f03b4b2cf2fb0123017b9e1b4ee9848f93a6c7bef024c2c59d4af7bf8056"
+    },
+    {
+      "path": "unins000.dat",
+      "size": 133735,
+      "sha256": "19226495a6af183b11e124ff93d37eaad566b2ed9e90d49054ae11f4cb965bbb"
+    },
+    {
+      "path": "unins000.exe",
+      "size": 1515889,
+      "sha256": "21cf02b72e49fd84eaf6d63a60d6eaa56921dc56e3eda2183380e257a6f6fc49"
+    },
+    {
+      "path": "virtualtextures/_vmtr.vmtr",
+      "size": 326183,
+      "sha256": "717a3c57c4a9b58afd689ec2c5217e2ff857b3ec503bda43ec34620b4797e624"
+    },
+    {
+      "path": "virtualtextures/_vmtr_dlc1.vmtr",
+      "size": 23802,
+      "sha256": "914fc6ecef40fd00231668df18c33b1a7401e3eefaa189722d67971f0e14103f"
+    },
+    {
+      "path": "virtualtextures/_vmtr_dlc2.vmtr",
+      "size": 306129,
+      "sha256": "016800a9f8038489d0c9d541267f8ec236a0f84c11824a699d9c5d9d2118ac8d"
+    },
+    {
+      "path": "virtualtextures/_vmtr_dlc3.vmtr",
+      "size": 22862,
+      "sha256": "1458d0692c3e18daf078b6fff188970a1c89d64128f3f80e5c61e9e9aa580ef3"
+    },
+    {
+      "path": "virtualtextures/_vmtr_dlc4.vmtr",
+      "size": 62245,
+      "sha256": "c76cd16428400534e1eef9d08fb34a91bc812afc38f3109923e04ce4a51448a1"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq1.mega2",
+      "size": 3045400949,
+      "sha256": "a1f34491c310d4c1d54fa2de25c3682aa23fa91034d09435f206fbe73e36c2e5"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq10.mega2",
+      "size": 1426584051,
+      "sha256": "729fa830deacade19c75e278354a521422f2d09b1b9e7e9c4f229efd2bb86cad"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq11.mega2",
+      "size": 2190810793,
+      "sha256": "1b52dc72435c9516dd76ef55c7e2dad04447a6d29b80b60631df230d63b50a4f"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq12.mega2",
+      "size": 2446579358,
+      "sha256": "2351029bd6f65fd22ba1f15f2aba055b0227c8cfc00e0295da0e4b2a7730184d"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq13.mega2",
+      "size": 1163110284,
+      "sha256": "a78c83b706466b9638d900347dd9a9d0859331bba37217ce4621a042bf9e8fae"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq14.mega2",
+      "size": 1726605324,
+      "sha256": "ddcb294b56f4dc95fe982004255002b072f788186f7a5a75ec3d73944daacc63"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq15.mega2",
+      "size": 670199637,
+      "sha256": "6059a28b2bee564e85e38e3531aafa2a2aaebe24547be21a0ef30d037a0ff91d"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq16.mega2",
+      "size": 2317864,
+      "sha256": "56ce5404cbba5e3dd530b067a5091c77493a78dd78f456c20d30585e98fa6996"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq2.mega2",
+      "size": 2981994453,
+      "sha256": "993a44f097af437879c5ae0f1231594573a9022b7909ec060d5ffd8bc60fb9ba"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq3.mega2",
+      "size": 2496756546,
+      "sha256": "2fe224bf5ee88ef12d83e7de8a0e747e6580cff6a284a9f5e0bb530a7779cdd3"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq4.mega2",
+      "size": 648829245,
+      "sha256": "9be3bfebb31a67170cae5c28f45c2928137cad4b7ac529aa53e0e64072d39ad5"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq5.mega2",
+      "size": 2949495837,
+      "sha256": "fa4fc1075371b1c479a4984f45a076358562bdb49344ad0c2397283be7a29f2d"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq6.mega2",
+      "size": 2789581764,
+      "sha256": "a38e5779fec0ff1f5f56dc643b4b84d834872adf1292b00c710aa40dc2f7d3bc"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq7.mega2",
+      "size": 4051032,
+      "sha256": "4548330d84d2f3952af4b85225ec854259d90a6946dd75dc17680dea59b88103"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq8.mega2",
+      "size": 2268024,
+      "sha256": "033d0cd7c3d92e7fe0e0c49438efdfd6d1f0822f389a9267f147ec544ca9f114"
+    },
+    {
+      "path": "virtualtextures/_vmtr_sq9.mega2",
+      "size": 1443358820,
+      "sha256": "b69daf3edad4ad592f8fb6be823d68915bd1afd62afc496a9b322db81a402770"
+    },
+    {
+      "path": "virtualtextures/maps/game/classic/d2_map_01.pages",
+      "size": 5300,
+      "sha256": "4b817607dc0804c5ad1f55dd757537f10aa78096fd25ae4f8500b98b76351df9"
+    },
+    {
+      "path": "virtualtextures/maps/game/classic/d2_map_02.pages",
+      "size": 2965,
+      "sha256": "7afe6e0bcbe686a29ea0c7731d308bf29f60e739b72acc9944fa5ad95d2b947c"
+    },
+    {
+      "path": "virtualtextures/maps/game/classic/doom_classic_e1m1.pages",
+      "size": 7995,
+      "sha256": "d7b74ac490629bff5bfad03dc5b7dc1cc945e05d905eed2220ff3ce5ed648263"
+    },
+    {
+      "path": "virtualtextures/maps/game/classic/e1m2.pages",
+      "size": 2030,
+      "sha256": "e5948336a7d6231210a4be1e59b60e87ea5aab31358e4f86963c5ed927b50bd8"
+    },
+    {
+      "path": "virtualtextures/maps/game/classic/e1m3.pages",
+      "size": 2540,
+      "sha256": "9f0b03f4ba48e5b5f9a1c1349e711f3865217d412f5b4202d968fd1efc987627"
+    },
+    {
+      "path": "virtualtextures/maps/game/classic/e1m4.pages",
+      "size": 2880,
+      "sha256": "a0764ccc9ba08ed1d05bf9ea67dc5d5c1004d587b72c52631bf553641e76e00c"
+    },
+    {
+      "path": "virtualtextures/maps/game/classic/e1m5.pages",
+      "size": 2780,
+      "sha256": "87667d9006b2011791c893fc5b80e8dff22584f41e8b7b0ca863fd49394fa685"
+    },
+    {
+      "path": "virtualtextures/maps/game/classic/e1m8.pages",
+      "size": 2540,
+      "sha256": "9f0b03f4ba48e5b5f9a1c1349e711f3865217d412f5b4202d968fd1efc987627"
+    },
+    {
+      "path": "virtualtextures/maps/game/classic/e2m6.pages",
+      "size": 9200,
+      "sha256": "e2ad89c261390a8fd15ad99c6ee438a256dfedbae7be42d9a152d40b4411197f"
+    },
+    {
+      "path": "virtualtextures/maps/game/classic/e2m8.pages",
+      "size": 7880,
+      "sha256": "f932a18914426d7cad00543cc4d816db643e086d0e78d2ee784454379d4cdb6f"
+    },
+    {
+      "path": "virtualtextures/maps/game/classic/e3m2.pages",
+      "size": 5060,
+      "sha256": "f122350a4593cec9815f8f255cddc5a10ec66f5dadfa03fa4c97b6cb73478a0e"
+    },
+    {
+      "path": "virtualtextures/maps/game/classic/e3m3.pages",
+      "size": 2455,
+      "sha256": "dbe846b6443c11f6d58e522af64ed07e6ba107bb166c68e5c75386164d8b34e0"
+    },
+    {
+      "path": "virtualtextures/maps/game/classic/e3m4.pages",
+      "size": 2540,
+      "sha256": "9f0b03f4ba48e5b5f9a1c1349e711f3865217d412f5b4202d968fd1efc987627"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_basin/mp_basin.pages",
+      "size": 222980075,
+      "sha256": "87fa72d161d1e5a7f7ddaa2e53b300e4d87b06e74f6dea5b3cad0e45c28493cb"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_bloodrun/mp_bloodrun.pages",
+      "size": 317787875,
+      "sha256": "57459db6c53aa480a26287fc47fc16247084169a5ecd3adcde3db89a6a52305f"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_boneyard/mp_boneyard.pages",
+      "size": 301526140,
+      "sha256": "83bd819c3d3a46aff01e3749a0303fa9a4559743d32c773a02c42870a5dac8bd"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_cataclysm/mp_cataclysm.pages",
+      "size": 357797975,
+      "sha256": "54ea3ab6f585a8ad366c2857ae5bf7deefd3d270b69c149d7ad204591803f234"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_concise/mp_concise.pages",
+      "size": 207610655,
+      "sha256": "a6cfa0c71107887b3088698ac8bd88d8eba4c4c9cc18a019105ccaf122cef979"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_disposal/mp_disposal.pages",
+      "size": 276424305,
+      "sha256": "a46738a1dbe86ef4f6d19d7e6c50d1142a28d2181921526d845758554e3ef244"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_graphite/mp_graphite.pages",
+      "size": 110118230,
+      "sha256": "215ac764ef3ca3d88c3e599f9110bc517f2a7a736045dfbf69a98ce2094e6aa7"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_heatwave/mp_heatwave.pages",
+      "size": 232723740,
+      "sha256": "e40613b0ad34952b9f2b95deca594a991392cb79cde1c6eab5dd6207ac14faf7"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_molten/mp_molten.pages",
+      "size": 350492640,
+      "sha256": "c84c0d5d788beeb10c3c9b3b2e99de30412f22c05592cbe8ae1a93a88ccffe52"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_offering/mp_offering.pages",
+      "size": 377724070,
+      "sha256": "c61ca35780a2728c6cddc1fea4538f82e00f688e4c305d54728fd66007b708d2"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_orbital/mp_orbital.pages",
+      "size": 446878935,
+      "sha256": "add6cb9b5eca33084f19f23cde148a8998eb133d6037aeaa81b1dcaa34c73249"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_outbreak/mp_outbreak.pages",
+      "size": 515862350,
+      "sha256": "ba3b48be135829d35b2b0d4f52f3f11b54dfab33b901f3d3e9d4b20b52491fd2"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_perdition/mp_perdition.pages",
+      "size": 316435155,
+      "sha256": "f289c4673a3ba3340a2e06e657e052a331669ce3725b9789d7616fd1425373e7"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_ritual/mp_ritual.pages",
+      "size": 288482155,
+      "sha256": "4715eba6a95420fc844c17090c2bd754512080570c4e7a29c5118a909fe40a14"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_sacrilegious/mp_sacrilegious.pages",
+      "size": 341637090,
+      "sha256": "a09d704c1b4066654bf3552c207b149ca875f329711e4b49bc4f31d362ce3904"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_templar/mp_templar.pages",
+      "size": 456389460,
+      "sha256": "2719fed28bbba3fbfe930d8836d971fafc71ea23caf628f76f68c2ad750c6f23"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_underneath/mp_underneath.pages",
+      "size": 330540835,
+      "sha256": "d620d0ec8340fbe5e7014e69862d29a3ae603205b9580757e39d339e608dbfb7"
+    },
+    {
+      "path": "virtualtextures/maps/game/mp/mp_vortex/mp_vortex.pages",
+      "size": 303153480,
+      "sha256": "a4f463fa77c5a5f4d185b2fcb31be852c7d28f58321936a848ecf36bacafe4a0"
+    },
+    {
+      "path": "virtualtextures/maps/game/shell_map.pages",
+      "size": 417910,
+      "sha256": "d796f27d3e4851b9d9083cb6b48e061b291e4f498ed12589ed09a5ccec344f65"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/argent_tower/argent_tower.pages",
+      "size": 742823360,
+      "sha256": "e1fcf7f753f9f6c98562e286df503acfd673dc67718d0a6e4bea7e8bc5718ee5"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/bfg_division/bfg_division.pages",
+      "size": 763822770,
+      "sha256": "93029b7b796c8b5316f2e4ed8f8c1013cf90c8f3b286a94e7161274d2cd00aab"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/blood_keep/blood_keep.pages",
+      "size": 1271744935,
+      "sha256": "03bf31050563dae1ba4a79e047dd6e615dc2bb649a297c19d6caace414619741"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/blood_keep_b/blood_keep_b.pages",
+      "size": 1019742615,
+      "sha256": "937bd873c1b23f014c4093b3ba75ae41c4e87573a52e626978a086f5207915b2"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/blood_keep_c/blood_keep_c.pages",
+      "size": 751022460,
+      "sha256": "abc33667c63a92f8b61bca4ef21f06b166934afcebb6dfa1ae3c21d5c0b29d2d"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/challenges/ch01b.pages",
+      "size": 22284190,
+      "sha256": "636c221a5dba93ccabdcb336a3571c537ffb37130b9fe585e1245291e1118ff2"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/challenges/ch02.pages",
+      "size": 59096150,
+      "sha256": "39c3c51102346a8206bdc7f1bbcf91e91ebe11ebf1478ffdc70c48eca647d74c"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/challenges/ch03.pages",
+      "size": 55506220,
+      "sha256": "1bd42eecb697d136cfd075801ef6b32fc2f5c814b346de41bbcdda43f1827bcf"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/challenges/ch04b.pages",
+      "size": 55515160,
+      "sha256": "747fa81f9dc630d0dcebe96b559f63f799e33875a10084cf9fb3f83bb8093127"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/challenges/ch05.pages",
+      "size": 56811340,
+      "sha256": "8bf8ab33d20f561c1baf564b0f2cad51b9b85157f88ec8b6f3e9ff907aa3444b"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/challenges/ch06.pages",
+      "size": 53261755,
+      "sha256": "6ec7d8ef52cf1a1531d7c9f8d4fa498cb192bda4a86c58c0d3276192e2fd9d42"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/challenges/ch07.pages",
+      "size": 22224645,
+      "sha256": "8621f54035879affbc2c90f302125d90b33886b37d17d8f84578c5dedaef7f04"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/challenges/ch08.pages",
+      "size": 56511655,
+      "sha256": "a56f13f5930dd5b8d0b4a16f1f1b2cbdf85585034be02384bdc5226dad01159e"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/challenges/ch09.pages",
+      "size": 56416135,
+      "sha256": "b6a8654d1aae576e314c021464418a2b7e13618842a8d94217e6a429cec549a0"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/challenges/ch10.pages",
+      "size": 22215975,
+      "sha256": "ce956ce745b383b8f319e2ca9668506100fa80b65ac19185eee04e8f32076c5a"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/challenges/ch11.pages",
+      "size": 56471475,
+      "sha256": "66136fc66df8878f55eaf36c0de7c92279d28e173c3088ea27eebe694acc3740"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/challenges/ch12.pages",
+      "size": 56431355,
+      "sha256": "6587b348ca5040749e512d5503eab42421037e50ffee2ba7360e200626d134aa"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/intro/intro.pages",
+      "size": 229694780,
+      "sha256": "fde82a45c3b3bd93f08baea109b13afe4de7b3f1ca13ccc61d50934b13d5f547"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/lazarus/lazarus.pages",
+      "size": 388507360,
+      "sha256": "2fe15cf9c167abc0a5e87141d2cfa8ab07d61e95fc5c64f1a3552e5704fb0f1a"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/lazarus_2/lazarus_2.pages",
+      "size": 250648045,
+      "sha256": "c6fe2dba19fe6828ef8c9f0b70e6c6ab1399673a726d4b4ff6c39f0669e54cf6"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/polar_core/polar_core.pages",
+      "size": 608429145,
+      "sha256": "57ad1a525c209715f155aa91d036986f1978a1549faba9044099d8ecd6727367"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/resource_ops/resource_ops.pages",
+      "size": 342917290,
+      "sha256": "301d7f9ec511d09cf322474ba793330b0fb276d3bd7b08ed5a2b540af81de641"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/resource_ops_foundry/resource_ops_foundry.pages",
+      "size": 533450345,
+      "sha256": "c1a311fcb1d3ee0a0531de133bee8d6f00d276a80386c81a03092bb5fdb98db7"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/surface1/surface1.pages",
+      "size": 452731065,
+      "sha256": "0d41e88af66f692430e61a088121a0e6be4b149e49d1d774ef3c4d4fc0d5e0c6"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/surface2/surface2.pages",
+      "size": 570303040,
+      "sha256": "f9d204171e2118fe95a648e3b9a34a4597fa9727c10086e222bb62c04b1f895e"
+    },
+    {
+      "path": "virtualtextures/maps/game/sp/titan/titan.pages",
+      "size": 701920660,
+      "sha256": "8337e66f351aad7b5f8def091c5e2d721c515360b99e4e93ad7d6823047480e0"
+    },
+    {
+      "path": "virtualtextures/maps/modules/palettes/mega_blessed/mega.pages",
+      "size": 6922024725,
+      "sha256": "9d819aaabfe36068bdaa46fbf49d0c576e05dcff382d67db73903bc3dedc9f86"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "base/candidate.cfg",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 1000
+        },
+        {
+          "file": "base/chroma_effect_files/ArmorPickup_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49220776,
+          "length": 106
+        },
+        {
+          "file": "base/chroma_effect_files/ArmorPickup_Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49220882,
+          "length": 106
+        },
+        {
+          "file": "base/chroma_effect_files/ArmorPickup_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49220988,
+          "length": 3734
+        },
+        {
+          "file": "base/chroma_effect_files/ArmorPickup_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49224722,
+          "length": 346
+        },
+        {
+          "file": "base/chroma_effect_files/ArmorPickup_Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49225068,
+          "length": 1034
+        },
+        {
+          "file": "base/chroma_effect_files/ArmorPickup_Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49226102,
+          "length": 266
+        },
+        {
+          "file": "base/chroma_effect_files/Berzerk__Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49226368,
+          "length": 154
+        },
+        {
+          "file": "base/chroma_effect_files/Berzerk_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49226522,
+          "length": 154
+        },
+        {
+          "file": "base/chroma_effect_files/Berzerk_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49226676,
+          "length": 3202
+        },
+        {
+          "file": "base/chroma_effect_files/Berzerk_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49229878,
+          "length": 514
+        },
+        {
+          "file": "base/chroma_effect_files/Berzerk_Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49230392,
+          "length": 1546
+        },
+        {
+          "file": "base/chroma_effect_files/Berzerk_Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49231938,
+          "length": 394
+        },
+        {
+          "file": "base/chroma_effect_files/BFGKill__Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49232332,
+          "length": 2314
+        },
+        {
+          "file": "base/chroma_effect_files/BFGKill__Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49234646,
+          "length": 1034
+        },
+        {
+          "file": "base/chroma_effect_files/BFGKill_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49235680,
+          "length": 394
+        },
+        {
+          "file": "base/chroma_effect_files/BFGKill_Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49236074,
+          "length": 370
+        },
+        {
+          "file": "base/chroma_effect_files/BFGKill_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49236444,
+          "length": 5330
+        },
+        {
+          "file": "base/chroma_effect_files/BFGKill_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49241774,
+          "length": 1354
+        },
+        {
+          "file": "base/chroma_effect_files/Blank_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49243128,
+          "length": 34
+        },
+        {
+          "file": "base/chroma_effect_files/Blank_Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49243162,
+          "length": 34
+        },
+        {
+          "file": "base/chroma_effect_files/Blank_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49243196,
+          "length": 542
+        },
+        {
+          "file": "base/chroma_effect_files/Blank_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49243738,
+          "length": 94
+        },
+        {
+          "file": "base/chroma_effect_files/Blank_Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49243832,
+          "length": 266
+        },
+        {
+          "file": "base/chroma_effect_files/Blank_Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49244098,
+          "length": 74
+        },
+        {
+          "file": "base/chroma_effect_files/BossKill_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49244172,
+          "length": 26610
+        },
+        {
+          "file": "base/chroma_effect_files/ChainsawKill__Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49270782,
+          "length": 298
+        },
+        {
+          "file": "base/chroma_effect_files/ChainsawKill_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49271080,
+          "length": 298
+        },
+        {
+          "file": "base/chroma_effect_files/ChainsawKill_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49271378,
+          "length": 15970
+        },
+        {
+          "file": "base/chroma_effect_files/ChainsawKill_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49287348,
+          "length": 1018
+        },
+        {
+          "file": "base/chroma_effect_files/ChainsawKill_Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49288366,
+          "length": 3082
+        },
+        {
+          "file": "base/chroma_effect_files/ChainsawKill_Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49291448,
+          "length": 778
+        },
+        {
+          "file": "base/chroma_effect_files/CrossWave.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49292226,
+          "length": 12778
+        },
+        {
+          "file": "base/chroma_effect_files/DamageTaken_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49305004,
+          "length": 58
+        },
+        {
+          "file": "base/chroma_effect_files/DamageTaken_Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49305062,
+          "length": 58
+        },
+        {
+          "file": "base/chroma_effect_files/DamageTaken_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49305120,
+          "length": 1074
+        },
+        {
+          "file": "base/chroma_effect_files/DamageTaken_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49306194,
+          "length": 178
+        },
+        {
+          "file": "base/chroma_effect_files/DamageTaken_Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49306372,
+          "length": 522
+        },
+        {
+          "file": "base/chroma_effect_files/DamageTaken_Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49306894,
+          "length": 138
+        },
+        {
+          "file": "base/chroma_effect_files/Death_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49307032,
+          "length": 298
+        },
+        {
+          "file": "base/chroma_effect_files/Death_Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49307330,
+          "length": 298
+        },
+        {
+          "file": "base/chroma_effect_files/Death_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49307628,
+          "length": 6394
+        },
+        {
+          "file": "base/chroma_effect_files/Death_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49314022,
+          "length": 1018
+        },
+        {
+          "file": "base/chroma_effect_files/Death_Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49315040,
+          "length": 3082
+        },
+        {
+          "file": "base/chroma_effect_files/Death_Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49318122,
+          "length": 778
+        },
+        {
+          "file": "base/chroma_effect_files/Doom_Base_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49318900,
+          "length": 34
+        },
+        {
+          "file": "base/chroma_effect_files/Doom_Base_Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49318934,
+          "length": 34
+        },
+        {
+          "file": "base/chroma_effect_files/Doom_Base_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49318968,
+          "length": 542
+        },
+        {
+          "file": "base/chroma_effect_files/Doom_Base_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49319510,
+          "length": 94
+        },
+        {
+          "file": "base/chroma_effect_files/Doom_Base_Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49319604,
+          "length": 266
+        },
+        {
+          "file": "base/chroma_effect_files/Doom_Base_Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49319870,
+          "length": 74
+        },
+        {
+          "file": "base/chroma_effect_files/GloryKill_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49319944,
+          "length": 130
+        },
+        {
+          "file": "base/chroma_effect_files/GloryKill_Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49320074,
+          "length": 130
+        },
+        {
+          "file": "base/chroma_effect_files/GloryKill_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49320204,
+          "length": 7990
+        },
+        {
+          "file": "base/chroma_effect_files/GloryKill_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49328194,
+          "length": 430
+        },
+        {
+          "file": "base/chroma_effect_files/GloryKill_Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49328624,
+          "length": 1290
+        },
+        {
+          "file": "base/chroma_effect_files/GloryKill_Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49329914,
+          "length": 330
+        },
+        {
+          "file": "base/chroma_effect_files/Headshot_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49330244,
+          "length": 154
+        },
+        {
+          "file": "base/chroma_effect_files/Headshot_Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49330398,
+          "length": 154
+        },
+        {
+          "file": "base/chroma_effect_files/Headshot_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49330552,
+          "length": 5330
+        },
+        {
+          "file": "base/chroma_effect_files/Headshot_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49335882,
+          "length": 514
+        },
+        {
+          "file": "base/chroma_effect_files/Headshot_Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49336396,
+          "length": 1546
+        },
+        {
+          "file": "base/chroma_effect_files/Headshot_Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49337942,
+          "length": 394
+        },
+        {
+          "file": "base/chroma_effect_files/HealthPickup_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49338336,
+          "length": 106
+        },
+        {
+          "file": "base/chroma_effect_files/HealthPickup_Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49338442,
+          "length": 106
+        },
+        {
+          "file": "base/chroma_effect_files/HealthPickup_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49338548,
+          "length": 3734
+        },
+        {
+          "file": "base/chroma_effect_files/HealthPickup_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49342282,
+          "length": 346
+        },
+        {
+          "file": "base/chroma_effect_files/HealthPickup_Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49342628,
+          "length": 1034
+        },
+        {
+          "file": "base/chroma_effect_files/HealthPickup_Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49343662,
+          "length": 266
+        },
+        {
+          "file": "base/chroma_effect_files/Kill_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49343928,
+          "length": 154
+        },
+        {
+          "file": "base/chroma_effect_files/Kill_Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49344082,
+          "length": 154
+        },
+        {
+          "file": "base/chroma_effect_files/Kill_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49344236,
+          "length": 4798
+        },
+        {
+          "file": "base/chroma_effect_files/Kill_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49349034,
+          "length": 514
+        },
+        {
+          "file": "base/chroma_effect_files/Kill_Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49349548,
+          "length": 1546
+        },
+        {
+          "file": "base/chroma_effect_files/Kill_Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49351094,
+          "length": 394
+        },
+        {
+          "file": "base/chroma_effect_files/Loading2_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49351488,
+          "length": 13310
+        },
+        {
+          "file": "base/chroma_effect_files/Loading3_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49364798,
+          "length": 7990
+        },
+        {
+          "file": "base/chroma_effect_files/Loading_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49372788,
+          "length": 100026
+        },
+        {
+          "file": "base/chroma_effect_files/LowHealth_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49472814,
+          "length": 154
+        },
+        {
+          "file": "base/chroma_effect_files/LowHealth_Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49472968,
+          "length": 154
+        },
+        {
+          "file": "base/chroma_effect_files/LowHealth_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49473122,
+          "length": 3202
+        },
+        {
+          "file": "base/chroma_effect_files/LowHealth_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49476324,
+          "length": 514
+        },
+        {
+          "file": "base/chroma_effect_files/LowHealth_Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49476838,
+          "length": 1546
+        },
+        {
+          "file": "base/chroma_effect_files/LowHealth_Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49478384,
+          "length": 394
+        },
+        {
+          "file": "base/chroma_effect_files/LowHealthBFGKey_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49478778,
+          "length": 1074
+        },
+        {
+          "file": "base/chroma_effect_files/Respawn_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49479852,
+          "length": 5330
+        },
+        {
+          "file": "base/chroma_effect_files/RespawnKey_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49485182,
+          "length": 1074
+        },
+        {
+          "file": "base/chroma_effect_files/RippleTD_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49486256,
+          "length": 4266
+        },
+        {
+          "file": "base/chroma_effect_files/Startup_Backup_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49490522,
+          "length": 154
+        },
+        {
+          "file": "base/chroma_effect_files/Startup_Backup_Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49490676,
+          "length": 154
+        },
+        {
+          "file": "base/chroma_effect_files/Startup_Backup_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49490830,
+          "length": 3202
+        },
+        {
+          "file": "base/chroma_effect_files/Startup_Backup_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49494032,
+          "length": 514
+        },
+        {
+          "file": "base/chroma_effect_files/Startup_Backup_Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49494546,
+          "length": 1546
+        },
+        {
+          "file": "base/chroma_effect_files/Startup_Backup_Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49496092,
+          "length": 394
+        },
+        {
+          "file": "base/chroma_effect_files/Startup_ChromaLink.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49496486,
+          "length": 154
+        },
+        {
+          "file": "base/chroma_effect_files/Startup_Headset.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49496640,
+          "length": 154
+        },
+        {
+          "file": "base/chroma_effect_files/Startup_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49496794,
+          "length": 4266
+        },
+        {
+          "file": "base/chroma_effect_files/Startup_Keypad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49501060,
+          "length": 514
+        },
+        {
+          "file": "base/chroma_effect_files/Startup_Mouse.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49501574,
+          "length": 1546
+        },
+        {
+          "file": "base/chroma_effect_files/Startup_Mousepad.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49503120,
+          "length": 394
+        },
+        {
+          "file": "base/chroma_effect_files/WeaponUpgrade_Keyboard.chroma",
+          "file_offset": 0,
+          "chunk_offset": 49503514,
+          "length": 12778
+        },
+        {
+          "file": "base/disclayout.cfg",
+          "file_offset": 0,
+          "chunk_offset": 49516292,
+          "length": 54
+        },
+        {
+          "file": "base/gameresources.index",
+          "file_offset": 0,
+          "chunk_offset": 49516346,
+          "length": 15321603
+        },
+        {
+          "file": "base/gameresources.index.verify",
+          "file_offset": 0,
+          "chunk_offset": 64837949,
+          "length": 104
+        },
+        {
+          "file": "base/gameresources.patch",
+          "file_offset": 0,
+          "chunk_offset": 64838053,
+          "length": 1041489953
+        },
+        {
+          "file": "base/gameresources.patch.verify",
+          "file_offset": 0,
+          "chunk_offset": 1106328006,
+          "length": 3240
+        },
+        {
+          "file": "base/gameresources.pindex",
+          "file_offset": 0,
+          "chunk_offset": 1106331246,
+          "length": 15321704
+        },
+        {
+          "file": "base/gameresources.pindex.verify",
+          "file_offset": 0,
+          "chunk_offset": 1121652950,
+          "length": 104
+        },
+        {
+          "file": "base/gameresources.resources",
+          "file_offset": 0,
+          "chunk_offset": 1121653054,
+          "length": 727936124
+        }
+      ],
+      "sha256": "2e318fb522ed7d3c778b5f2c9a33a4bd007ae56fd2941457e1c6bd1aae481986"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "base/gameresources.resources",
+          "file_offset": 727936124,
+          "chunk_offset": 0,
+          "length": 1849589178
+        }
+      ],
+      "sha256": "7fd09572eb18921c2d3277d02a7bbb350bd55c96726b83719a68f4da1d0f2927"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "base/gameresources.resources",
+          "file_offset": 2577525302,
+          "chunk_offset": 0,
+          "length": 1849589178
+        }
+      ],
+      "sha256": "a7a64ab85b155d111a60f749dad3f0c962e4c06a0883b00ca89e698d380cd5b6"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "base/gameresources.resources",
+          "file_offset": 4427114480,
+          "chunk_offset": 0,
+          "length": 1849589178
+        }
+      ],
+      "sha256": "65f973c766e473255560d50f4bca28d275e5f3db53fdb4f9e72f9432d83f6934"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "base/gameresources.resources",
+          "file_offset": 6276703658,
+          "chunk_offset": 0,
+          "length": 1849589178
+        }
+      ],
+      "sha256": "7513c967123e4ee99665002631bfe957b884c9f1fd367051cdb2263bf7abd551"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "base/gameresources.resources",
+          "file_offset": 8126292836,
+          "chunk_offset": 0,
+          "length": 719293762
+        },
+        {
+          "file": "base/gameresources.resources.verify",
+          "file_offset": 0,
+          "chunk_offset": 719293762,
+          "length": 27048
+        },
+        {
+          "file": "base/master.index",
+          "file_offset": 0,
+          "chunk_offset": 719320810,
+          "length": 58
+        },
+        {
+          "file": "base/motd/pc/compmp-motd1.png",
+          "file_offset": 0,
+          "chunk_offset": 719320868,
+          "length": 1416635
+        },
+        {
+          "file": "base/motd/pc/compmp-motd2.png",
+          "file_offset": 0,
+          "chunk_offset": 720737503,
+          "length": 878785
+        },
+        {
+          "file": "base/motd/pc/snap-motd1.png",
+          "file_offset": 0,
+          "chunk_offset": 721616288,
+          "length": 1597322
+        },
+        {
+          "file": "base/motd/pc/snap-motd2.png",
+          "file_offset": 0,
+          "chunk_offset": 723213610,
+          "length": 1569139
+        },
+        {
+          "file": "base/motd/pc/snap-motd3.png",
+          "file_offset": 0,
+          "chunk_offset": 724782749,
+          "length": 1468462
+        },
+        {
+          "file": "base/motd/pc/snap-motd4.png",
+          "file_offset": 0,
+          "chunk_offset": 726251211,
+          "length": 1623271
+        },
+        {
+          "file": "base/snap_gameresources.index",
+          "file_offset": 0,
+          "chunk_offset": 727874482,
+          "length": 14849748
+        },
+        {
+          "file": "base/snap_gameresources.index.verify",
+          "file_offset": 0,
+          "chunk_offset": 742724230,
+          "length": 104
+        },
+        {
+          "file": "base/snap_gameresources.patch",
+          "file_offset": 0,
+          "chunk_offset": 742724334,
+          "length": 831038505
+        },
+        {
+          "file": "base/snap_gameresources.patch.verify",
+          "file_offset": 0,
+          "chunk_offset": 1573762839,
+          "length": 2600
+        },
+        {
+          "file": "base/snap_gameresources.pindex",
+          "file_offset": 0,
+          "chunk_offset": 1573765439,
+          "length": 14849849
+        },
+        {
+          "file": "base/snap_gameresources.pindex.verify",
+          "file_offset": 0,
+          "chunk_offset": 1588615288,
+          "length": 104
+        },
+        {
+          "file": "base/snap_gameresources.resources",
+          "file_offset": 0,
+          "chunk_offset": 1588615392,
+          "length": 260973786
+        }
+      ],
+      "sha256": "22eeb17a3d064e2a42030ead9998fb45d1b7b96d00356830749e4bfa68b7e9e7"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "base/snap_gameresources.resources",
+          "file_offset": 260973786,
+          "chunk_offset": 0,
+          "length": 1849589178
+        }
+      ],
+      "sha256": "8404e3768a63668f937b637ead13335df1bde05fb9e2c7cceef8c9dc9981e901"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "base/snap_gameresources.resources",
+          "file_offset": 2110562964,
+          "chunk_offset": 0,
+          "length": 233332581
+        },
+        {
+          "file": "base/snap_gameresources.resources.verify",
+          "file_offset": 0,
+          "chunk_offset": 233332581,
+          "length": 7208
+        },
+        {
+          "file": "base/snap_models.preload",
+          "file_offset": 0,
+          "chunk_offset": 233339789,
+          "length": 2836002
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_ambience.bnk",
+          "file_offset": 0,
+          "chunk_offset": 236175791,
+          "length": 6991994
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_dlc1_sfx.bnk",
+          "file_offset": 0,
+          "chunk_offset": 243167785,
+          "length": 53184279
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_dlc2_sfx.bnk",
+          "file_offset": 0,
+          "chunk_offset": 296352064,
+          "length": 38208705
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_dlc3_sfx.bnk",
+          "file_offset": 0,
+          "chunk_offset": 334560769,
+          "length": 5733060
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_effects.bnk",
+          "file_offset": 0,
+          "chunk_offset": 340293829,
+          "length": 9233664
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_footsteps.bnk",
+          "file_offset": 0,
+          "chunk_offset": 349527493,
+          "length": 6776641
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_initial.bnk",
+          "file_offset": 0,
+          "chunk_offset": 356304134,
+          "length": 181148504
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_items.bnk",
+          "file_offset": 0,
+          "chunk_offset": 537452638,
+          "length": 15056842
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_monsters.bnk",
+          "file_offset": 0,
+          "chunk_offset": 552509480,
+          "length": 18456921
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_movers.bnk",
+          "file_offset": 0,
+          "chunk_offset": 570966401,
+          "length": 4019241
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_mp.bnk",
+          "file_offset": 0,
+          "chunk_offset": 574985642,
+          "length": 12239419
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_music.bnk",
+          "file_offset": 0,
+          "chunk_offset": 587225061,
+          "length": 2222519
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_npc.bnk",
+          "file_offset": 0,
+          "chunk_offset": 589447580,
+          "length": 237510
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_player.bnk",
+          "file_offset": 0,
+          "chunk_offset": 589685090,
+          "length": 12798510
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_projectile.bnk",
+          "file_offset": 0,
+          "chunk_offset": 602483600,
+          "length": 4588372
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_scripted_events.bnk",
+          "file_offset": 0,
+          "chunk_offset": 607071972,
+          "length": 42232530
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_snapmaps.bnk",
+          "file_offset": 0,
+          "chunk_offset": 649304502,
+          "length": 30923968
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_test.bnk",
+          "file_offset": 0,
+          "chunk_offset": 680228470,
+          "length": 1636
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_ui.bnk",
+          "file_offset": 0,
+          "chunk_offset": 680230106,
+          "length": 23749205
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_weapon_mp.bnk",
+          "file_offset": 0,
+          "chunk_offset": 703979311,
+          "length": 71840041
+        },
+        {
+          "file": "base/sound/soundbanks/pc/doom_weapon_sp.bnk",
+          "file_offset": 0,
+          "chunk_offset": 775819352,
+          "length": 86775339
+        },
+        {
+          "file": "base/sound/soundbanks/pc/English(US)/doom_dlc1_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 862594691,
+          "length": 245708
+        },
+        {
+          "file": "base/sound/soundbanks/pc/English(US)/doom_dlc2_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 862840399,
+          "length": 1229871
+        },
+        {
+          "file": "base/sound/soundbanks/pc/English(US)/doom_dlc3_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 864070270,
+          "length": 191767
+        },
+        {
+          "file": "base/sound/soundbanks/pc/English(US)/doom_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 864262037,
+          "length": 1675766
+        },
+        {
+          "file": "base/sound/soundbanks/pc/English(US)/streamed_vo.pck",
+          "file_offset": 0,
+          "chunk_offset": 865937803,
+          "length": 401331464
+        },
+        {
+          "file": "base/sound/soundbanks/pc/English(US)/streamed_vo_dlc1.pck",
+          "file_offset": 0,
+          "chunk_offset": 1267269267,
+          "length": 198247760
+        },
+        {
+          "file": "base/sound/soundbanks/pc/English(US)/streamed_vo_dlc2.pck",
+          "file_offset": 0,
+          "chunk_offset": 1465517027,
+          "length": 69625520
+        },
+        {
+          "file": "base/sound/soundbanks/pc/English(US)/streamed_vo_dlc3.pck",
+          "file_offset": 0,
+          "chunk_offset": 1535142547,
+          "length": 71602688
+        },
+        {
+          "file": "base/sound/soundbanks/pc/French(France)/doom_dlc1_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 1606745235,
+          "length": 245708
+        },
+        {
+          "file": "base/sound/soundbanks/pc/French(France)/doom_dlc2_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 1606990943,
+          "length": 1229871
+        },
+        {
+          "file": "base/sound/soundbanks/pc/French(France)/doom_dlc3_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 1608220814,
+          "length": 191767
+        },
+        {
+          "file": "base/sound/soundbanks/pc/French(France)/doom_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 1608412581,
+          "length": 1675770
+        },
+        {
+          "file": "base/sound/soundbanks/pc/French(France)/streamed_vo.pck",
+          "file_offset": 0,
+          "chunk_offset": 1610088351,
+          "length": 239500827
+        }
+      ],
+      "sha256": "4fab5216bb54bb5e42b1fd5804093099ef40b4b746b4ee3a3880b96fc0c1e82d"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "base/sound/soundbanks/pc/French(France)/streamed_vo.pck",
+          "file_offset": 239500827,
+          "chunk_offset": 0,
+          "length": 28659813
+        },
+        {
+          "file": "base/sound/soundbanks/pc/French(France)/streamed_vo_dlc1.pck",
+          "file_offset": 0,
+          "chunk_offset": 28659813,
+          "length": 212371712
+        },
+        {
+          "file": "base/sound/soundbanks/pc/French(France)/streamed_vo_dlc2.pck",
+          "file_offset": 0,
+          "chunk_offset": 241031525,
+          "length": 62282168
+        },
+        {
+          "file": "base/sound/soundbanks/pc/French(France)/streamed_vo_dlc3.pck",
+          "file_offset": 0,
+          "chunk_offset": 303313693,
+          "length": 70865408
+        },
+        {
+          "file": "base/sound/soundbanks/pc/German/doom_dlc1_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 374179101,
+          "length": 245708
+        },
+        {
+          "file": "base/sound/soundbanks/pc/German/doom_dlc2_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 374424809,
+          "length": 1229871
+        },
+        {
+          "file": "base/sound/soundbanks/pc/German/doom_dlc3_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 375654680,
+          "length": 191767
+        },
+        {
+          "file": "base/sound/soundbanks/pc/German/doom_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 375846447,
+          "length": 1675770
+        },
+        {
+          "file": "base/sound/soundbanks/pc/German/streamed_vo.pck",
+          "file_offset": 0,
+          "chunk_offset": 377522217,
+          "length": 270651676
+        },
+        {
+          "file": "base/sound/soundbanks/pc/German/streamed_vo_dlc1.pck",
+          "file_offset": 0,
+          "chunk_offset": 648173893,
+          "length": 168746256
+        },
+        {
+          "file": "base/sound/soundbanks/pc/German/streamed_vo_dlc2.pck",
+          "file_offset": 0,
+          "chunk_offset": 816920149,
+          "length": 62762752
+        },
+        {
+          "file": "base/sound/soundbanks/pc/German/streamed_vo_dlc3.pck",
+          "file_offset": 0,
+          "chunk_offset": 879682901,
+          "length": 70828544
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Init.bnk",
+          "file_offset": 0,
+          "chunk_offset": 950511445,
+          "length": 9798
+        },
+        {
+          "file": "base/sound/soundbanks/pc/initial.pck",
+          "file_offset": 0,
+          "chunk_offset": 950521243,
+          "length": 899067935
+        }
+      ],
+      "sha256": "747b2bd890c8d18c07f38b5f24d3225041c6fb5c5d4f73da2ac73839fe9833e2"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "base/sound/soundbanks/pc/initial.pck",
+          "file_offset": 899067935,
+          "chunk_offset": 0,
+          "length": 274420625
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Italian/doom_dlc1_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 274420625,
+          "length": 245708
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Italian/doom_dlc2_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 274666333,
+          "length": 1229871
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Italian/doom_dlc3_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 275896204,
+          "length": 191767
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Italian/doom_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 276087971,
+          "length": 1675770
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Italian/streamed_vo.pck",
+          "file_offset": 0,
+          "chunk_offset": 277763741,
+          "length": 274663272
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Italian/streamed_vo_dlc1.pck",
+          "file_offset": 0,
+          "chunk_offset": 552427013,
+          "length": 218542112
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Italian/streamed_vo_dlc2.pck",
+          "file_offset": 0,
+          "chunk_offset": 770969125,
+          "length": 47814720
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Italian/streamed_vo_dlc3.pck",
+          "file_offset": 0,
+          "chunk_offset": 818783845,
+          "length": 70341120
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Japanese/doom_dlc1_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 889124965,
+          "length": 245708
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Japanese/doom_dlc2_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 889370673,
+          "length": 1229871
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Japanese/doom_dlc3_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 890600544,
+          "length": 191767
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Japanese/doom_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 890792311,
+          "length": 1675770
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Japanese/streamed_vo.pck",
+          "file_offset": 0,
+          "chunk_offset": 892468081,
+          "length": 261118812
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Japanese/streamed_vo_dlc1.pck",
+          "file_offset": 0,
+          "chunk_offset": 1153586893,
+          "length": 166030832
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Japanese/streamed_vo_dlc2.pck",
+          "file_offset": 0,
+          "chunk_offset": 1319617725,
+          "length": 50394368
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Japanese/streamed_vo_dlc3.pck",
+          "file_offset": 0,
+          "chunk_offset": 1370012093,
+          "length": 70267392
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Polish/doom_dlc1_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 1440279485,
+          "length": 245708
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Polish/doom_dlc2_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 1440525193,
+          "length": 1229871
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Polish/doom_dlc3_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 1441755064,
+          "length": 191767
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Polish/doom_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 1441946831,
+          "length": 1675770
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Polish/streamed_vo.pck",
+          "file_offset": 0,
+          "chunk_offset": 1443622601,
+          "length": 274366208
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Polish/streamed_vo_dlc1.pck",
+          "file_offset": 0,
+          "chunk_offset": 1717988809,
+          "length": 131600369
+        }
+      ],
+      "sha256": "7a4ab1c4e6e2e529a16d96df351d8e0330d2c8e3c2f2342d34869740f03622c9"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "base/sound/soundbanks/pc/Polish/streamed_vo_dlc1.pck",
+          "file_offset": 131600369,
+          "chunk_offset": 0,
+          "length": 91169891
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Polish/streamed_vo_dlc2.pck",
+          "file_offset": 0,
+          "chunk_offset": 91169891,
+          "length": 63142408
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Polish/streamed_vo_dlc3.pck",
+          "file_offset": 0,
+          "chunk_offset": 154312299,
+          "length": 70574592
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Portuguese(Brazil)/doom_dlc1_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 224886891,
+          "length": 245708
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Portuguese(Brazil)/doom_dlc2_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 225132599,
+          "length": 1229871
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Portuguese(Brazil)/doom_dlc3_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 226362470,
+          "length": 191767
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Portuguese(Brazil)/doom_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 226554237,
+          "length": 1675770
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Portuguese(Brazil)/streamed_vo.pck",
+          "file_offset": 0,
+          "chunk_offset": 228230007,
+          "length": 277230564
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Portuguese(Brazil)/streamed_vo_dlc1.pck",
+          "file_offset": 0,
+          "chunk_offset": 505460571,
+          "length": 202743088
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Portuguese(Brazil)/streamed_vo_dlc2.pck",
+          "file_offset": 0,
+          "chunk_offset": 708203659,
+          "length": 61392552
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Portuguese(Brazil)/streamed_vo_dlc3.pck",
+          "file_offset": 0,
+          "chunk_offset": 769596211,
+          "length": 70455808
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Russian/doom_dlc1_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 840052019,
+          "length": 245708
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Russian/doom_dlc2_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 840297727,
+          "length": 1229871
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Russian/doom_dlc3_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 841527598,
+          "length": 191767
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Russian/doom_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 841719365,
+          "length": 1675770
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Russian/streamed_vo.pck",
+          "file_offset": 0,
+          "chunk_offset": 843395135,
+          "length": 270149484
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Russian/streamed_vo_dlc1.pck",
+          "file_offset": 0,
+          "chunk_offset": 1113544619,
+          "length": 218150604
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Russian/streamed_vo_dlc2.pck",
+          "file_offset": 0,
+          "chunk_offset": 1331695223,
+          "length": 44631944
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Russian/streamed_vo_dlc3.pck",
+          "file_offset": 0,
+          "chunk_offset": 1376327167,
+          "length": 70275584
+        },
+        {
+          "file": "base/sound/soundbanks/pc/soundbanksinfo.events",
+          "file_offset": 0,
+          "chunk_offset": 1446602751,
+          "length": 954682
+        },
+        {
+          "file": "base/sound/soundbanks/pc/soundbanksinfo.xml",
+          "file_offset": 0,
+          "chunk_offset": 1447557433,
+          "length": 26345897
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Mexico)/doom_dlc1_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 1473903330,
+          "length": 245708
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Mexico)/doom_dlc2_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 1474149038,
+          "length": 1229871
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Mexico)/doom_dlc3_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 1475378909,
+          "length": 191767
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Mexico)/doom_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 1475570676,
+          "length": 1675770
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Mexico)/streamed_vo.pck",
+          "file_offset": 0,
+          "chunk_offset": 1477246446,
+          "length": 277400144
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Mexico)/streamed_vo_dlc1.pck",
+          "file_offset": 0,
+          "chunk_offset": 1754646590,
+          "length": 94942588
+        }
+      ],
+      "sha256": "3eae2d7e9964cbbd10762d5cb94807ced251e7da8a981b348436aa6dd3fb1e38"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Mexico)/streamed_vo_dlc1.pck",
+          "file_offset": 94942588,
+          "chunk_offset": 0,
+          "length": 108539004
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Mexico)/streamed_vo_dlc2.pck",
+          "file_offset": 0,
+          "chunk_offset": 108539004,
+          "length": 61244240
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Mexico)/streamed_vo_dlc3.pck",
+          "file_offset": 0,
+          "chunk_offset": 169783244,
+          "length": 71135744
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Spain)/doom_dlc1_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 240918988,
+          "length": 245708
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Spain)/doom_dlc2_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 241164696,
+          "length": 1229871
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Spain)/doom_dlc3_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 242394567,
+          "length": 191767
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Spain)/doom_vo.bnk",
+          "file_offset": 0,
+          "chunk_offset": 242586334,
+          "length": 1675770
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Spain)/streamed_vo.pck",
+          "file_offset": 0,
+          "chunk_offset": 244262104,
+          "length": 275497016
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Spain)/streamed_vo_dlc1.pck",
+          "file_offset": 0,
+          "chunk_offset": 519759120,
+          "length": 209840016
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Spain)/streamed_vo_dlc2.pck",
+          "file_offset": 0,
+          "chunk_offset": 729599136,
+          "length": 61596128
+        },
+        {
+          "file": "base/sound/soundbanks/pc/Spanish(Spain)/streamed_vo_dlc3.pck",
+          "file_offset": 0,
+          "chunk_offset": 791195264,
+          "length": 70803968
+        },
+        {
+          "file": "base/sound/soundbanks/pc/streamed_sfx.pck",
+          "file_offset": 0,
+          "chunk_offset": 861999232,
+          "length": 987589946
+        }
+      ],
+      "sha256": "865d801e1ab561615e260ec99930ed54b7a69bde71ad7b3c9724ee9774ba2cb6"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "base/sound/soundbanks/pc/streamed_sfx.pck",
+          "file_offset": 987589946,
+          "chunk_offset": 0,
+          "length": 1664643342
+        },
+        {
+          "file": "base/sound/soundbanks/pc/streamed_sfx_dlc1.pck",
+          "file_offset": 0,
+          "chunk_offset": 1664643342,
+          "length": 61849520
+        },
+        {
+          "file": "base/sound/soundbanks/pc/streamed_sfx_dlc2.pck",
+          "file_offset": 0,
+          "chunk_offset": 1726492862,
+          "length": 123096316
+        }
+      ],
+      "sha256": "1088bf8805a92ebcb07c393008ef9248a24b91dc9d79e6eb0a30313f11cb380c"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "base/sound/soundbanks/pc/streamed_sfx_dlc2.pck",
+          "file_offset": 123096316,
+          "chunk_offset": 0,
+          "length": 52367748
+        },
+        {
+          "file": "base/sound/soundbanks/pc/streamed_sfx_dlc3.pck",
+          "file_offset": 0,
+          "chunk_offset": 52367748,
+          "length": 18405888
+        },
+        {
+          "file": "base/tss.bin",
+          "file_offset": 0,
+          "chunk_offset": 70773636,
+          "length": 600
+        },
+        {
+          "file": "base/video/ArcadeBG.bik",
+          "file_offset": 0,
+          "chunk_offset": 70774236,
+          "length": 71878620
+        },
+        {
+          "file": "base/video/AshSmokeBG.bik",
+          "file_offset": 0,
+          "chunk_offset": 142652856,
+          "length": 28606316
+        },
+        {
+          "file": "base/video/boot_sequence.bik",
+          "file_offset": 0,
+          "chunk_offset": 171259172,
+          "length": 19703332
+        },
+        {
+          "file": "base/video/Counter.bik",
+          "file_offset": 0,
+          "chunk_offset": 190962504,
+          "length": 268880
+        },
+        {
+          "file": "base/video/Counter_MP.bik",
+          "file_offset": 0,
+          "chunk_offset": 191231384,
+          "length": 274624
+        },
+        {
+          "file": "base/video/Counter_SNAP.bik",
+          "file_offset": 0,
+          "chunk_offset": 191506008,
+          "length": 277652
+        },
+        {
+          "file": "base/video/Counter_SP.bik",
+          "file_offset": 0,
+          "chunk_offset": 191783660,
+          "length": 275008
+        },
+        {
+          "file": "base/video/dossier.bik",
+          "file_offset": 0,
+          "chunk_offset": 192058668,
+          "length": 4640784
+        },
+        {
+          "file": "base/video/dossier_ember.bik",
+          "file_offset": 0,
+          "chunk_offset": 196699452,
+          "length": 6000972
+        },
+        {
+          "file": "base/video/echelon/echelon_bar_anim.bik",
+          "file_offset": 0,
+          "chunk_offset": 202700424,
+          "length": 493484
+        },
+        {
+          "file": "base/video/echelon/echelon_bar_flame_anim.bik",
+          "file_offset": 0,
+          "chunk_offset": 203193908,
+          "length": 4230328
+        },
+        {
+          "file": "base/video/FireSmokeBG.bik",
+          "file_offset": 0,
+          "chunk_offset": 207424236,
+          "length": 71878620
+        },
+        {
+          "file": "base/video/FireSmokeBGboot.bik",
+          "file_offset": 0,
+          "chunk_offset": 279302856,
+          "length": 31065028
+        },
+        {
+          "file": "base/video/Hell_LoadingScreen.bik",
+          "file_offset": 0,
+          "chunk_offset": 310367884,
+          "length": 70080932
+        },
+        {
+          "file": "base/video/Map_Intro.bik",
+          "file_offset": 0,
+          "chunk_offset": 380448816,
+          "length": 1088160
+        },
+        {
+          "file": "base/video/map_intros/game/sp/LoadScreenArgentTower.bk2",
+          "file_offset": 0,
+          "chunk_offset": 381536976,
+          "length": 12166924
+        },
+        {
+          "file": "base/video/map_intros/game/sp/LoadScreenBFGdivision.bk2",
+          "file_offset": 0,
+          "chunk_offset": 393703900,
+          "length": 12165676
+        },
+        {
+          "file": "base/video/map_intros/game/sp/LoadScreenBloodKeepA.bk2",
+          "file_offset": 0,
+          "chunk_offset": 405869576,
+          "length": 24302500
+        },
+        {
+          "file": "base/video/map_intros/game/sp/LoadScreenBloodKeepB.bk2",
+          "file_offset": 0,
+          "chunk_offset": 430172076,
+          "length": 24301340
+        },
+        {
+          "file": "base/video/map_intros/game/sp/LoadScreenBloodKeepC.bk2",
+          "file_offset": 0,
+          "chunk_offset": 454473416,
+          "length": 24296368
+        },
+        {
+          "file": "base/video/map_intros/game/sp/LoadScreenFoundry.bk2",
+          "file_offset": 0,
+          "chunk_offset": 478769784,
+          "length": 12167528
+        },
+        {
+          "file": "base/video/map_intros/game/sp/LoadScreenIntro.bk2",
+          "file_offset": 0,
+          "chunk_offset": 490937312,
+          "length": 128356148
+        },
+        {
+          "file": "base/video/map_intros/game/sp/LoadScreenLazarus.bk2",
+          "file_offset": 0,
+          "chunk_offset": 619293460,
+          "length": 12166752
+        },
+        {
+          "file": "base/video/map_intros/game/sp/LoadScreenPolarCore.bk2",
+          "file_offset": 0,
+          "chunk_offset": 631460212,
+          "length": 12168736
+        },
+        {
+          "file": "base/video/map_intros/game/sp/LoadScreenResOps.bk2",
+          "file_offset": 0,
+          "chunk_offset": 643628948,
+          "length": 12168176
+        },
+        {
+          "file": "base/video/map_intros/game/sp/LoadScreenSurface.bk2",
+          "file_offset": 0,
+          "chunk_offset": 655797124,
+          "length": 12167528
+        },
+        {
+          "file": "base/video/map_intros/game/sp/LoadScreenSurfaceReturn.bk2",
+          "file_offset": 0,
+          "chunk_offset": 667964652,
+          "length": 12166224
+        },
+        {
+          "file": "base/video/map_intros/game/sp/LoadScreenTitan.bk2",
+          "file_offset": 0,
+          "chunk_offset": 680130876,
+          "length": 24296884
+        },
+        {
+          "file": "base/video/modbot/Modbot_Bombburst.bik",
+          "file_offset": 0,
+          "chunk_offset": 704427760,
+          "length": 1473436
+        },
+        {
+          "file": "base/video/modbot/Modbot_Gatling.bik",
+          "file_offset": 0,
+          "chunk_offset": 705901196,
+          "length": 1060708
+        },
+        {
+          "file": "base/video/modbot/Modbot_Heatblast.bik",
+          "file_offset": 0,
+          "chunk_offset": 706961904,
+          "length": 1351112
+        },
+        {
+          "file": "base/video/modbot/Modbot_Lockon.bik",
+          "file_offset": 0,
+          "chunk_offset": 708313016,
+          "length": 1285272
+        },
+        {
+          "file": "base/video/modbot/Modbot_Poprockets.bik",
+          "file_offset": 0,
+          "chunk_offset": 709598288,
+          "length": 1494404
+        },
+        {
+          "file": "base/video/modbot/Modbot_RemoteDetonate.bik",
+          "file_offset": 0,
+          "chunk_offset": 711092692,
+          "length": 1430668
+        },
+        {
+          "file": "base/video/modbot/Modbot_Scope.bik",
+          "file_offset": 0,
+          "chunk_offset": 712523360,
+          "length": 960888
+        },
+        {
+          "file": "base/video/modbot/Modbot_Siege.bik",
+          "file_offset": 0,
+          "chunk_offset": 713484248,
+          "length": 1216368
+        },
+        {
+          "file": "base/video/modbot/Modbot_Sniper.bik",
+          "file_offset": 0,
+          "chunk_offset": 714700616,
+          "length": 974996
+        },
+        {
+          "file": "base/video/modbot/Modbot_Stunbomb.bik",
+          "file_offset": 0,
+          "chunk_offset": 715675612,
+          "length": 1292700
+        },
+        {
+          "file": "base/video/modbot/Modbot_Tripleshot.bik",
+          "file_offset": 0,
+          "chunk_offset": 716968312,
+          "length": 1329332
+        },
+        {
+          "file": "base/video/modbot/Modbot_Turret.bik",
+          "file_offset": 0,
+          "chunk_offset": 718297644,
+          "length": 1278104
+        },
+        {
+          "file": "base/video/narative/Credits.bik",
+          "file_offset": 0,
+          "chunk_offset": 719575748,
+          "length": 409369976
+        },
+        {
+          "file": "base/video/narative/Credits2.bik",
+          "file_offset": 0,
+          "chunk_offset": 1128945724,
+          "length": 100811284
+        },
+        {
+          "file": "base/video/narative/DoomMarine.bik",
+          "file_offset": 0,
+          "chunk_offset": 1229757008,
+          "length": 36003280
+        },
+        {
+          "file": "base/video/narative/DoomMarineSymbol.bik",
+          "file_offset": 0,
+          "chunk_offset": 1265760288,
+          "length": 39939032
+        },
+        {
+          "file": "base/video/narative/EndGame.bik",
+          "file_offset": 0,
+          "chunk_offset": 1305699320,
+          "length": 20701536
+        },
+        {
+          "file": "base/video/narative/Intro_Ending.bik",
+          "file_offset": 0,
+          "chunk_offset": 1326400856,
+          "length": 24065016
+        },
+        {
+          "file": "base/video/narative/IntroVisionNEW.bik",
+          "file_offset": 0,
+          "chunk_offset": 1350465872,
+          "length": 15533332
+        },
+        {
+          "file": "base/video/narative/OliviaVision.bik",
+          "file_offset": 0,
+          "chunk_offset": 1365999204,
+          "length": 18806120
+        },
+        {
+          "file": "base/video/narative/projection.bik",
+          "file_offset": 0,
+          "chunk_offset": 1384805324,
+          "length": 31607476
+        },
+        {
+          "file": "base/video/narative/spencer_control_center.bik",
+          "file_offset": 0,
+          "chunk_offset": 1416412800,
+          "length": 184519144
+        },
+        {
+          "file": "base/video/narative/SpiderMM_Flash.bik",
+          "file_offset": 0,
+          "chunk_offset": 1600931944,
+          "length": 1862276
+        },
+        {
+          "file": "base/video/UAC_LoadingScreen.bik",
+          "file_offset": 0,
+          "chunk_offset": 1602794220,
+          "length": 36488332
+        },
+        {
+          "file": "base/video/ui_display_test.bik",
+          "file_offset": 0,
+          "chunk_offset": 1639282552,
+          "length": 76581808
+        },
+        {
+          "file": "bink2w64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1715864360,
+          "length": 374272
+        },
+        {
+          "file": "CChromaEditorLibrary.dll",
+          "file_offset": 0,
+          "chunk_offset": 1716238632,
+          "length": 219136
+        },
+        {
+          "file": "DOOMx64.cdx",
+          "file_offset": 0,
+          "chunk_offset": 1716457768,
+          "length": 76022480
+        },
+        {
+          "file": "DOOMx64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1792480248,
+          "length": 57108930
+        }
+      ],
+      "sha256": "54882cfa1217859dc5a718813a2ee6a570ab259802c8f03815b0b368b5d6980f"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "DOOMx64.exe",
+          "file_offset": 57108930,
+          "chunk_offset": 0,
+          "length": 18913550
+        },
+        {
+          "file": "DOOMx64vk.cdx",
+          "file_offset": 0,
+          "chunk_offset": 18913550,
+          "length": 100128464
+        },
+        {
+          "file": "DOOMx64vk.exe",
+          "file_offset": 0,
+          "chunk_offset": 119042014,
+          "length": 100128464
+        },
+        {
+          "file": "Language Selector.exe",
+          "file_offset": 0,
+          "chunk_offset": 219170478,
+          "length": 36864
+        },
+        {
+          "file": "Origins.ini",
+          "file_offset": 0,
+          "chunk_offset": 219207342,
+          "length": 252
+        },
+        {
+          "file": "steam_api64.cdx",
+          "file_offset": 0,
+          "chunk_offset": 219207594,
+          "length": 239184
+        },
+        {
+          "file": "steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 219446778,
+          "length": 300320
+        },
+        {
+          "file": "steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 219747098,
+          "length": 2754
+        },
+        {
+          "file": "superscriptx64.dll",
+          "file_offset": 0,
+          "chunk_offset": 219749852,
+          "length": 1666048
+        },
+        {
+          "file": "unins000.dat",
+          "file_offset": 0,
+          "chunk_offset": 221415900,
+          "length": 133735
+        },
+        {
+          "file": "unins000.exe",
+          "file_offset": 0,
+          "chunk_offset": 221549635,
+          "length": 1515889
+        },
+        {
+          "file": "virtualtextures/_vmtr.vmtr",
+          "file_offset": 0,
+          "chunk_offset": 223065524,
+          "length": 326183
+        },
+        {
+          "file": "virtualtextures/_vmtr_dlc1.vmtr",
+          "file_offset": 0,
+          "chunk_offset": 223391707,
+          "length": 23802
+        },
+        {
+          "file": "virtualtextures/_vmtr_dlc2.vmtr",
+          "file_offset": 0,
+          "chunk_offset": 223415509,
+          "length": 306129
+        },
+        {
+          "file": "virtualtextures/_vmtr_dlc3.vmtr",
+          "file_offset": 0,
+          "chunk_offset": 223721638,
+          "length": 22862
+        },
+        {
+          "file": "virtualtextures/_vmtr_dlc4.vmtr",
+          "file_offset": 0,
+          "chunk_offset": 223744500,
+          "length": 62245
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq1.mega2",
+          "file_offset": 0,
+          "chunk_offset": 223806745,
+          "length": 1625782433
+        }
+      ],
+      "sha256": "1422d093ccdaa93b4d12bf83bd2239de505080520806d3b9fbc2d1ce24b6643d"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr_sq1.mega2",
+          "file_offset": 1625782433,
+          "chunk_offset": 0,
+          "length": 1419618516
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq10.mega2",
+          "file_offset": 0,
+          "chunk_offset": 1419618516,
+          "length": 429970662
+        }
+      ],
+      "sha256": "0fe68ea6137f57889ac9f143a405d02970b338d80885f426ec8ee2ed869b66c7"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr_sq10.mega2",
+          "file_offset": 429970662,
+          "chunk_offset": 0,
+          "length": 996613389
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq11.mega2",
+          "file_offset": 0,
+          "chunk_offset": 996613389,
+          "length": 852975789
+        }
+      ],
+      "sha256": "acc83587c6f4d82f7ef2f9e40b8f3d320e55d463e2d6d6e6464157f8bea0c146"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr_sq11.mega2",
+          "file_offset": 852975789,
+          "chunk_offset": 0,
+          "length": 1337835004
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq12.mega2",
+          "file_offset": 0,
+          "chunk_offset": 1337835004,
+          "length": 511754174
+        }
+      ],
+      "sha256": "c0c1715c62689795d3f41282ae466c420c20f2be7433729a79d877f66a82dc48"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr_sq12.mega2",
+          "file_offset": 511754174,
+          "chunk_offset": 0,
+          "length": 1849589178
+        }
+      ],
+      "sha256": "b093313132ce56dfb4035cd33136c7e66197f67d76b1101a17923da9ddb0cd5f"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr_sq12.mega2",
+          "file_offset": 2361343352,
+          "chunk_offset": 0,
+          "length": 85236006
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq13.mega2",
+          "file_offset": 0,
+          "chunk_offset": 85236006,
+          "length": 1163110284
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq14.mega2",
+          "file_offset": 0,
+          "chunk_offset": 1248346290,
+          "length": 601242888
+        }
+      ],
+      "sha256": "d97de09b86c8f7fde19ea4f80f721f7bc04091792c75ad391026c8d53f3f5efb"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr_sq14.mega2",
+          "file_offset": 601242888,
+          "chunk_offset": 0,
+          "length": 1125362436
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq15.mega2",
+          "file_offset": 0,
+          "chunk_offset": 1125362436,
+          "length": 670199637
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq16.mega2",
+          "file_offset": 0,
+          "chunk_offset": 1795562073,
+          "length": 2317864
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq2.mega2",
+          "file_offset": 0,
+          "chunk_offset": 1797879937,
+          "length": 51709241
+        }
+      ],
+      "sha256": "d5579ae5aac2b8fd09737ff77efeae55cfbe320b4d57185d17ed4a585433befa"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr_sq2.mega2",
+          "file_offset": 51709241,
+          "chunk_offset": 0,
+          "length": 1849589178
+        }
+      ],
+      "sha256": "a165a6ef97f19661df998e2c2c240e58951376e2194d59b49c04a01a821d52e4"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr_sq2.mega2",
+          "file_offset": 1901298419,
+          "chunk_offset": 0,
+          "length": 1080696034
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq3.mega2",
+          "file_offset": 0,
+          "chunk_offset": 1080696034,
+          "length": 768893144
+        }
+      ],
+      "sha256": "2d831e1f0a002d56432af4bd16934fd507a7d6fef015072e82b6c9531ea88aac"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr_sq3.mega2",
+          "file_offset": 768893144,
+          "chunk_offset": 0,
+          "length": 1727863402
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq4.mega2",
+          "file_offset": 0,
+          "chunk_offset": 1727863402,
+          "length": 121725776
+        }
+      ],
+      "sha256": "a93ed062e0d5c04fd343ec4c5b9175e720ab8946ac71d3adc67a31e0117ba6dc"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr_sq4.mega2",
+          "file_offset": 121725776,
+          "chunk_offset": 0,
+          "length": 527103469
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq5.mega2",
+          "file_offset": 0,
+          "chunk_offset": 527103469,
+          "length": 1322485709
+        }
+      ],
+      "sha256": "f6dc6e6b5cce34bfd7df2d835fad1e6f43baab95d1a593bc3adbf510f426e776"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr_sq5.mega2",
+          "file_offset": 1322485709,
+          "chunk_offset": 0,
+          "length": 1627010128
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq6.mega2",
+          "file_offset": 0,
+          "chunk_offset": 1627010128,
+          "length": 222579050
+        }
+      ],
+      "sha256": "69a16dcf37776ae4c0a45958628dd9fb1b9be9ea9119fd9cafad1e98090f4d9f"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr_sq6.mega2",
+          "file_offset": 222579050,
+          "chunk_offset": 0,
+          "length": 1849589178
+        }
+      ],
+      "sha256": "198f628500cc0c44bc009d0fade7c2b4359cf526683e288081c88fdd62c46b5e"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr_sq6.mega2",
+          "file_offset": 2072168228,
+          "chunk_offset": 0,
+          "length": 717413536
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq7.mega2",
+          "file_offset": 0,
+          "chunk_offset": 717413536,
+          "length": 4051032
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq8.mega2",
+          "file_offset": 0,
+          "chunk_offset": 721464568,
+          "length": 2268024
+        },
+        {
+          "file": "virtualtextures/_vmtr_sq9.mega2",
+          "file_offset": 0,
+          "chunk_offset": 723732592,
+          "length": 1125856586
+        }
+      ],
+      "sha256": "2b55bff78e64da762fe178299c3c361c07761ffddfcef054ebeaa316fd7db4c2"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr_sq9.mega2",
+          "file_offset": 1125856586,
+          "chunk_offset": 0,
+          "length": 317502234
+        },
+        {
+          "file": "virtualtextures/maps/game/classic/d2_map_01.pages",
+          "file_offset": 0,
+          "chunk_offset": 317502234,
+          "length": 5300
+        },
+        {
+          "file": "virtualtextures/maps/game/classic/d2_map_02.pages",
+          "file_offset": 0,
+          "chunk_offset": 317507534,
+          "length": 2965
+        },
+        {
+          "file": "virtualtextures/maps/game/classic/doom_classic_e1m1.pages",
+          "file_offset": 0,
+          "chunk_offset": 317510499,
+          "length": 7995
+        },
+        {
+          "file": "virtualtextures/maps/game/classic/e1m2.pages",
+          "file_offset": 0,
+          "chunk_offset": 317518494,
+          "length": 2030
+        },
+        {
+          "file": "virtualtextures/maps/game/classic/e1m3.pages",
+          "file_offset": 0,
+          "chunk_offset": 317520524,
+          "length": 2540
+        },
+        {
+          "file": "virtualtextures/maps/game/classic/e1m4.pages",
+          "file_offset": 0,
+          "chunk_offset": 317523064,
+          "length": 2880
+        },
+        {
+          "file": "virtualtextures/maps/game/classic/e1m5.pages",
+          "file_offset": 0,
+          "chunk_offset": 317525944,
+          "length": 2780
+        },
+        {
+          "file": "virtualtextures/maps/game/classic/e1m8.pages",
+          "file_offset": 0,
+          "chunk_offset": 317528724,
+          "length": 2540
+        },
+        {
+          "file": "virtualtextures/maps/game/classic/e2m6.pages",
+          "file_offset": 0,
+          "chunk_offset": 317531264,
+          "length": 9200
+        },
+        {
+          "file": "virtualtextures/maps/game/classic/e2m8.pages",
+          "file_offset": 0,
+          "chunk_offset": 317540464,
+          "length": 7880
+        },
+        {
+          "file": "virtualtextures/maps/game/classic/e3m2.pages",
+          "file_offset": 0,
+          "chunk_offset": 317548344,
+          "length": 5060
+        },
+        {
+          "file": "virtualtextures/maps/game/classic/e3m3.pages",
+          "file_offset": 0,
+          "chunk_offset": 317553404,
+          "length": 2455
+        },
+        {
+          "file": "virtualtextures/maps/game/classic/e3m4.pages",
+          "file_offset": 0,
+          "chunk_offset": 317555859,
+          "length": 2540
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_basin/mp_basin.pages",
+          "file_offset": 0,
+          "chunk_offset": 317558399,
+          "length": 222980075
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_bloodrun/mp_bloodrun.pages",
+          "file_offset": 0,
+          "chunk_offset": 540538474,
+          "length": 317787875
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_boneyard/mp_boneyard.pages",
+          "file_offset": 0,
+          "chunk_offset": 858326349,
+          "length": 301526140
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_cataclysm/mp_cataclysm.pages",
+          "file_offset": 0,
+          "chunk_offset": 1159852489,
+          "length": 357797975
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_concise/mp_concise.pages",
+          "file_offset": 0,
+          "chunk_offset": 1517650464,
+          "length": 207610655
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_disposal/mp_disposal.pages",
+          "file_offset": 0,
+          "chunk_offset": 1725261119,
+          "length": 124328059
+        }
+      ],
+      "sha256": "22b4338da8e32122ee616ca8aaf1f1fbe47cbe36c56aee9a08e1441df0910ee0"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/maps/game/mp/mp_disposal/mp_disposal.pages",
+          "file_offset": 124328059,
+          "chunk_offset": 0,
+          "length": 152096246
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_graphite/mp_graphite.pages",
+          "file_offset": 0,
+          "chunk_offset": 152096246,
+          "length": 110118230
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_heatwave/mp_heatwave.pages",
+          "file_offset": 0,
+          "chunk_offset": 262214476,
+          "length": 232723740
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_molten/mp_molten.pages",
+          "file_offset": 0,
+          "chunk_offset": 494938216,
+          "length": 350492640
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_offering/mp_offering.pages",
+          "file_offset": 0,
+          "chunk_offset": 845430856,
+          "length": 377724070
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_orbital/mp_orbital.pages",
+          "file_offset": 0,
+          "chunk_offset": 1223154926,
+          "length": 446878935
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_outbreak/mp_outbreak.pages",
+          "file_offset": 0,
+          "chunk_offset": 1670033861,
+          "length": 179555317
+        }
+      ],
+      "sha256": "680849aa1d6835bbdb084ab1ff6865f783c1dfb6a333a0645b9d648eb30ea370"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/maps/game/mp/mp_outbreak/mp_outbreak.pages",
+          "file_offset": 179555317,
+          "chunk_offset": 0,
+          "length": 336307033
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_perdition/mp_perdition.pages",
+          "file_offset": 0,
+          "chunk_offset": 336307033,
+          "length": 316435155
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_ritual/mp_ritual.pages",
+          "file_offset": 0,
+          "chunk_offset": 652742188,
+          "length": 288482155
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_sacrilegious/mp_sacrilegious.pages",
+          "file_offset": 0,
+          "chunk_offset": 941224343,
+          "length": 341637090
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_templar/mp_templar.pages",
+          "file_offset": 0,
+          "chunk_offset": 1282861433,
+          "length": 456389460
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_underneath/mp_underneath.pages",
+          "file_offset": 0,
+          "chunk_offset": 1739250893,
+          "length": 110338285
+        }
+      ],
+      "sha256": "1fa5db6a36c87db8a983db3a183cf89b958506bfaded560d171049af1a052892"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/maps/game/mp/mp_underneath/mp_underneath.pages",
+          "file_offset": 110338285,
+          "chunk_offset": 0,
+          "length": 220202550
+        },
+        {
+          "file": "virtualtextures/maps/game/mp/mp_vortex/mp_vortex.pages",
+          "file_offset": 0,
+          "chunk_offset": 220202550,
+          "length": 303153480
+        },
+        {
+          "file": "virtualtextures/maps/game/shell_map.pages",
+          "file_offset": 0,
+          "chunk_offset": 523356030,
+          "length": 417910
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/argent_tower/argent_tower.pages",
+          "file_offset": 0,
+          "chunk_offset": 523773940,
+          "length": 742823360
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/bfg_division/bfg_division.pages",
+          "file_offset": 0,
+          "chunk_offset": 1266597300,
+          "length": 582991878
+        }
+      ],
+      "sha256": "1e7016f76c66f2aa9492cd54212fabcbe7faa201fdb7ea97f437c79cd7fa55bc"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/maps/game/sp/bfg_division/bfg_division.pages",
+          "file_offset": 582991878,
+          "chunk_offset": 0,
+          "length": 180830892
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/blood_keep/blood_keep.pages",
+          "file_offset": 0,
+          "chunk_offset": 180830892,
+          "length": 1271744935
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/blood_keep_b/blood_keep_b.pages",
+          "file_offset": 0,
+          "chunk_offset": 1452575827,
+          "length": 397013351
+        }
+      ],
+      "sha256": "8684bb7ee98fe5ea06ac6e50a25bceb9b9e0509dc8c94b9011dff6593c15550a"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/maps/game/sp/blood_keep_b/blood_keep_b.pages",
+          "file_offset": 397013351,
+          "chunk_offset": 0,
+          "length": 622729264
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/blood_keep_c/blood_keep_c.pages",
+          "file_offset": 0,
+          "chunk_offset": 622729264,
+          "length": 751022460
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/challenges/ch01b.pages",
+          "file_offset": 0,
+          "chunk_offset": 1373751724,
+          "length": 22284190
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/challenges/ch02.pages",
+          "file_offset": 0,
+          "chunk_offset": 1396035914,
+          "length": 59096150
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/challenges/ch03.pages",
+          "file_offset": 0,
+          "chunk_offset": 1455132064,
+          "length": 55506220
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/challenges/ch04b.pages",
+          "file_offset": 0,
+          "chunk_offset": 1510638284,
+          "length": 55515160
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/challenges/ch05.pages",
+          "file_offset": 0,
+          "chunk_offset": 1566153444,
+          "length": 56811340
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/challenges/ch06.pages",
+          "file_offset": 0,
+          "chunk_offset": 1622964784,
+          "length": 53261755
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/challenges/ch07.pages",
+          "file_offset": 0,
+          "chunk_offset": 1676226539,
+          "length": 22224645
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/challenges/ch08.pages",
+          "file_offset": 0,
+          "chunk_offset": 1698451184,
+          "length": 56511655
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/challenges/ch09.pages",
+          "file_offset": 0,
+          "chunk_offset": 1754962839,
+          "length": 56416135
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/challenges/ch10.pages",
+          "file_offset": 0,
+          "chunk_offset": 1811378974,
+          "length": 22215975
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/challenges/ch11.pages",
+          "file_offset": 0,
+          "chunk_offset": 1833594949,
+          "length": 15994229
+        }
+      ],
+      "sha256": "c5852471e48eceba0b41e2e578a6d6649556e4d23a87bc16f4d3600d34541ad9"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/maps/game/sp/challenges/ch11.pages",
+          "file_offset": 15994229,
+          "chunk_offset": 0,
+          "length": 40477246
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/challenges/ch12.pages",
+          "file_offset": 0,
+          "chunk_offset": 40477246,
+          "length": 56431355
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/intro/intro.pages",
+          "file_offset": 0,
+          "chunk_offset": 96908601,
+          "length": 229694780
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/lazarus/lazarus.pages",
+          "file_offset": 0,
+          "chunk_offset": 326603381,
+          "length": 388507360
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/lazarus_2/lazarus_2.pages",
+          "file_offset": 0,
+          "chunk_offset": 715110741,
+          "length": 250648045
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/polar_core/polar_core.pages",
+          "file_offset": 0,
+          "chunk_offset": 965758786,
+          "length": 608429145
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/resource_ops/resource_ops.pages",
+          "file_offset": 0,
+          "chunk_offset": 1574187931,
+          "length": 275401247
+        }
+      ],
+      "sha256": "fffbbb1b2f53bf3e5be1449cef274f2c72999cc94afdcdb9943e492a00f7ea86"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/maps/game/sp/resource_ops/resource_ops.pages",
+          "file_offset": 275401247,
+          "chunk_offset": 0,
+          "length": 67516043
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/resource_ops_foundry/resource_ops_foundry.pages",
+          "file_offset": 0,
+          "chunk_offset": 67516043,
+          "length": 533450345
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/surface1/surface1.pages",
+          "file_offset": 0,
+          "chunk_offset": 600966388,
+          "length": 452731065
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/surface2/surface2.pages",
+          "file_offset": 0,
+          "chunk_offset": 1053697453,
+          "length": 570303040
+        },
+        {
+          "file": "virtualtextures/maps/game/sp/titan/titan.pages",
+          "file_offset": 0,
+          "chunk_offset": 1624000493,
+          "length": 225588685
+        }
+      ],
+      "sha256": "60dabe606bc8c97863e6c9995388b75a5dbbb1f861b365ea34030831a3cc2d02"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/maps/game/sp/titan/titan.pages",
+          "file_offset": 225588685,
+          "chunk_offset": 0,
+          "length": 476331975
+        },
+        {
+          "file": "virtualtextures/maps/modules/palettes/mega_blessed/mega.pages",
+          "file_offset": 0,
+          "chunk_offset": 476331975,
+          "length": 1373257203
+        }
+      ],
+      "sha256": "cfe41bf29499b4058c0b4039df998312ad0781389b7ed0d1b4b855c14cd2cf36"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/maps/modules/palettes/mega_blessed/mega.pages",
+          "file_offset": 1373257203,
+          "chunk_offset": 0,
+          "length": 1849589178
+        }
+      ],
+      "sha256": "42b8669ee4a68d50b406accc28275f4b32f03627f9704dce78bbdc7f21739841"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 1849589178,
+      "segments": [
+        {
+          "file": "virtualtextures/maps/modules/palettes/mega_blessed/mega.pages",
+          "file_offset": 3222846381,
+          "chunk_offset": 0,
+          "length": 1849589178
+        }
+      ],
+      "sha256": "5df90080291940e77b89503252d48a2c6777cbcc3e772f657618aec924609d0d"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 1849589166,
+      "segments": [
+        {
+          "file": "virtualtextures/maps/modules/palettes/mega_blessed/mega.pages",
+          "file_offset": 5072435559,
+          "chunk_offset": 0,
+          "length": 1849589166
+        }
+      ],
+      "sha256": "9644e9cbb8e2601676868b1d7e09636d0c5650f5fd507adbc82b7daa6348457f"
+    }
+  ]
+}
