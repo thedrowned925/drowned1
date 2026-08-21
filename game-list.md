@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 33
-- **Toplam aktif sürüm/kanal:** 33
-- **Toplam aktif boyut:** 886.628 GB (825.737 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-21 15:09:00 UTC
+- **Toplam oyun:** 34
+- **Toplam aktif sürüm/kanal:** 34
+- **Toplam aktif boyut:** 904.707 GB (842.574 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-21 18:59:50 UTC
 
 ## PC
 
-**33 oyun · 33 aktif sürüm/kanal · 886.628 GB (825.737 GiB)**
+**34 oyun · 34 aktif sürüm/kanal · 904.707 GB (842.574 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -21,6 +21,7 @@
 | BioShock™ | 1.0.0 | stable | 6.039 | 5.625 | `pc-bioshock-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 14.396 | `pc-captured-2-v1.0.0-stable` |
 | DARK SOULS™ III | 1.0.0 | stable | 26.890 | 25.043 | `pc-dark-souls-iii-v1.0.0-stable` |
+| Dishonored | 1.0.0 | stable | 18.079 | 16.837 | `pc-dishonored-v1.0.0-stable` |
 | DOOM | 1.0.0 | stable | 73.984 | 68.903 | `pc-doom-v1.0.0-stable` |
 | ELDEN RING | 1.0.0 | stable | 74.150 | 69.058 | `pc-elden-ring-v1.0.0-stable` |
 | Fallout: New Vegas | 1.0.0 | stable | 9.914 | 9.233 | `pc-fallout-new-vegas-v1.0.0-stable` |
