@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 30
-- **Toplam aktif sürüm/kanal:** 30
-- **Toplam aktif boyut:** 780.471 GB (726.870 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-21 11:28:39 UTC
+- **Toplam oyun:** 31
+- **Toplam aktif sürüm/kanal:** 31
+- **Toplam aktif boyut:** 785.755 GB (731.791 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-21 11:36:32 UTC
 
 ## PC
 
-**30 oyun · 30 aktif sürüm/kanal · 780.471 GB (726.870 GiB)**
+**31 oyun · 31 aktif sürüm/kanal · 785.755 GB (731.791 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -31,6 +31,7 @@
 | Half Life 2 | 1.0.0 | stable | 17.641 | 16.429 | `pc-half-life-2-v1.0.0-stable` |
 | Half-Life | 1.0.0 | stable | 0.550 | 0.512 | `pc-half-life-v1.0.0-stable` |
 | Hans | 1.0.0 | stable | 0.876 | 0.816 | `pc-hans-v1.0.0-stable` |
+| Hollow Knight | 1.0.0 | stable | 5.284 | 4.921 | `pc-hollow-knight-v1.0.0-stable` |
 | Horizon Zero Dawn™ Complete Edition | 1.0.0 | stable | 67.720 | 63.069 | `pc-horizon-zero-dawn-complete-edition-v1.0.0-stable` |
 | Mass Effect (2007) | 1.0.0 | stable | 24.338 | 22.667 | `pc-mass-effect-2007-v1.0.0-stable` |
 | Mass Effect 2 (2010 Edition) | 1.0.0 | stable | 29.915 | 27.860 | `pc-mass-effect-2-2010-edition-v1.0.0-stable` |
