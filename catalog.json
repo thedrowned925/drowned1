@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-21T18:59:50.164745+00:00",
+  "updated_at": "2026-08-21T19:33:16.148667+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -1111,6 +1111,40 @@
       },
       "media": {
         "steam_app_id": 205100
+      }
+    },
+    {
+      "id": "undertale",
+      "title": "Undertale",
+      "platform": "pc",
+      "description": "UNDERTALE! The RPG game where you don't have to destroy anyone.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/undertale/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/undertale/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/undertale/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/undertale/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/undertale/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/undertale/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/undertale/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/undertale/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/undertale/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/undertale/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/undertale/screenshots/06.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-undertale-v1.0.0-stable",
+          "manifest_path": "manifests/pc/undertale/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/undertale/stable/1.0.0.json",
+          "size": 213321413,
+          "published_at": "2026-08-21T19:33:16.148655+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 391540
       }
     }
   ]
