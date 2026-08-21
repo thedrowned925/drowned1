@@ -52,3 +52,24 @@ jobs:
               --notes "Read-only Android dashboard for Drowned releases. Shows game artwork, versions/channels, per-game size, total catalog storage, search/filter and cached offline viewing. Contains no GitHub PAT and has no write/delete/publish capability." \
               Drowned-Control-v1.0.0.apk
           fi
+
+      - name: Report build status
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BUILD_STATUS: ${{ job.status }}
+        shell: bash
+        run: |
+          BODY="status=${BUILD_STATUS}\nrun=${GITHUB_RUN_ID}\nsha=${GITHUB_SHA}\ntime=$(date -u +%Y-%m-%dT%H:%M:%SZ)\n"
+          CONTENT=$(printf "%b" "$BODY" | base64 -w0)
+          EXISTING_SHA=$(gh api "repos/${GITHUB_REPOSITORY}/contents/.build-status/mobile-control-v1.txt" --jq '.sha' 2>/dev/null || true)
+          if [ -n "$EXISTING_SHA" ]; then
+            gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/.build-status/mobile-control-v1.txt" \
+              -f message="Update mobile control build status" \
+              -f content="$CONTENT" \
+              -f sha="$EXISTING_SHA" >/dev/null
+          else
+            gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/.build-status/mobile-control-v1.txt" \
+              -f message="Record mobile control build status" \
+              -f content="$CONTENT" >/dev/null
+          fi
