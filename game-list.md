@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 37
-- **Toplam aktif sürüm/kanal:** 37
-- **Toplam aktif boyut:** 943.777 GB (878.960 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-21 20:06:23 UTC
+- **Toplam oyun:** 38
+- **Toplam aktif sürüm/kanal:** 38
+- **Toplam aktif boyut:** 979.828 GB (912.536 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-21 20:47:53 UTC
 
 ## PC
 
-**37 oyun · 37 aktif sürüm/kanal · 943.777 GB (878.960 GiB)**
+**38 oyun · 38 aktif sürüm/kanal · 979.828 GB (912.536 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -19,6 +19,7 @@
 | Batman: Arkham City - Game of the Year Edition | 1.0.0 | stable | 18.232 | 16.980 | `pc-batman-arkham-city-game-of-the-year-edition-v1.0.0-stable` |
 | BioShock Infinite | 1.0.0 | stable | 47.811 | 44.528 | `pc-bioshock-infinite-v1.0.0-stable` |
 | BioShock™ | 1.0.0 | stable | 6.039 | 5.625 | `pc-bioshock-v1.0.0-stable` |
+| Borderlands 2 | 1.0.0 | stable | 36.051 | 33.576 | `pc-borderlands-2-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 14.396 | `pc-captured-2-v1.0.0-stable` |
 | DARK SOULS™ III | 1.0.0 | stable | 26.890 | 25.043 | `pc-dark-souls-iii-v1.0.0-stable` |
 | Dishonored | 1.0.0 | stable | 18.079 | 16.837 | `pc-dishonored-v1.0.0-stable` |
