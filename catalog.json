@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-21T09:54:19.888499+00:00",
+  "updated_at": "2026-08-21T10:14:14.452112+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -868,6 +868,41 @@
       },
       "media": {
         "steam_app_id": 22380
+      }
+    },
+    {
+      "id": "tomb-raider-definitive-edition",
+      "title": "Tomb Raider Definitive Edition",
+      "platform": "pc",
+      "description": "Tomb Raider explores the intense origin story of Lara Croft and her ascent from a young woman to a hardened survivor.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/tomb-raider-definitive-edition/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/tomb-raider-definitive-edition/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/tomb-raider-definitive-edition/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/tomb-raider-definitive-edition/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/tomb-raider-definitive-edition/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/tomb-raider-definitive-edition/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/tomb-raider-definitive-edition/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/tomb-raider-definitive-edition/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/tomb-raider-definitive-edition/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/tomb-raider-definitive-edition/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/tomb-raider-definitive-edition/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/tomb-raider-definitive-edition/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-tomb-raider-definitive-edition-v1.0.0-stable",
+          "manifest_path": "manifests/pc/tomb-raider-definitive-edition/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/tomb-raider-definitive-edition/stable/1.0.0.json",
+          "size": 25925782686,
+          "published_at": "2026-08-21T10:14:14.452101+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 203160
       }
     }
   ]
