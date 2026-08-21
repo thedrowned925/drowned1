@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 31
-- **Toplam aktif sürüm/kanal:** 31
-- **Toplam aktif boyut:** 785.755 GB (731.791 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-21 11:36:32 UTC
+- **Toplam oyun:** 32
+- **Toplam aktif sürüm/kanal:** 32
+- **Toplam aktif boyut:** 812.644 GB (756.834 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-21 11:59:17 UTC
 
 ## PC
 
-**31 oyun · 31 aktif sürüm/kanal · 785.755 GB (731.791 GiB)**
+**32 oyun · 32 aktif sürüm/kanal · 812.644 GB (756.834 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -20,6 +20,7 @@
 | BioShock Infinite | 1.0.0 | stable | 47.811 | 44.528 | `pc-bioshock-infinite-v1.0.0-stable` |
 | BioShock™ | 1.0.0 | stable | 6.039 | 5.625 | `pc-bioshock-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 14.396 | `pc-captured-2-v1.0.0-stable` |
+| DARK SOULS™ III | 1.0.0 | stable | 26.890 | 25.043 | `pc-dark-souls-iii-v1.0.0-stable` |
 | ELDEN RING | 1.0.0 | stable | 74.150 | 69.058 | `pc-elden-ring-v1.0.0-stable` |
 | Fallout: New Vegas | 1.0.0 | stable | 9.914 | 9.233 | `pc-fallout-new-vegas-v1.0.0-stable` |
 | Far Cry 3 | 1.0.0 | stable | 9.977 | 9.291 | `pc-far-cry-3-v1.0.0-stable` |
