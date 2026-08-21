@@ -1,0 +1,1330 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "tomb-raider-definitive-edition",
+    "title": "Tomb Raider Definitive Edition",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Tomb Raider explores the intense origin story of Lara Croft and her ascent from a young woman to a hardened survivor."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-tomb-raider-definitive-edition-v1.0.0-stable"
+  },
+  "chunk_size": 648144568,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 25925782686,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "appxmanifest.xml",
+      "size": 3026,
+      "sha256": "013c628efc9ef5a392563832a888a78afb30cf50b73243ae330b398cef908680"
+    },
+    {
+      "path": "benchmark_mode.docx",
+      "size": 18840,
+      "sha256": "7199f00a3fe468a2e3e481330fb7eec74cefba057de9473990f2a3b8778cbc2c"
+    },
+    {
+      "path": "binkw64.dll",
+      "size": 298496,
+      "sha256": "152aeb57ba9a5c36cc721a61ae69878ad43c7f6c5cfb87904a1eed037496dedd"
+    },
+    {
+      "path": "fmodex64.dll",
+      "size": 1286656,
+      "sha256": "f0866c952d8294cc9901f178d922e558a743294cfe665b0c3a5fcfbb65dfec80"
+    },
+    {
+      "path": "gamelaunchhelper.exe",
+      "size": 99944,
+      "sha256": "3bcc269277b868333e1207d73e1a49f523d655c033ad564a2f04a49f8414d63e"
+    },
+    {
+      "path": "layout_115c6569-3086-8163-5b1d-ecc9444134ca.xml",
+      "size": 315,
+      "sha256": "4412e8cf5633953e036d49ec01648e9b4401451740af9814ed33ed5ad120d588"
+    },
+    {
+      "path": "MicrosoftGame.Config",
+      "size": 1609,
+      "sha256": "244e442d11bd5c9f06963c596b6a84319027fe4e6ba3c06346bb57aaf8f71a41"
+    },
+    {
+      "path": "movies/AttractMode.bik",
+      "size": 175107608,
+      "sha256": "daaff8e43e70c52df356973eea734af668b5cf5df538fe79aab228c62d333d88"
+    },
+    {
+      "path": "movies/Crossroads_Trailer.bik",
+      "size": 223810580,
+      "sha256": "d24cc3f657b2843908af331d914513d421cd2943813e44bcff90dcd3aa623729"
+    },
+    {
+      "path": "movies/japanese/NewGameIntro.bik",
+      "size": 85447648,
+      "sha256": "3e3ff10638609324b06d01bbaaed00e170fa47dba9e9cc085ef6a92cc2be2e9a"
+    },
+    {
+      "path": "movies/japanese/Sc3Snippets.bik",
+      "size": 204367272,
+      "sha256": "194187f87c3350e9ddee1fce0ca2a85b4d3812f4e3b1b70bcfee16bdc22e4e07"
+    },
+    {
+      "path": "movies/japanese/ww2sos_snippets.bik",
+      "size": 266991756,
+      "sha256": "94e11b9696311a411abebd88f96886a75c1fcdd8987832019e0e4634856bca13"
+    },
+    {
+      "path": "movies/NewGameIntro.bik",
+      "size": 96700840,
+      "sha256": "ab1fed3eb06962a57f1890b117c183d129a494dc7d493eadcc6191feefbe51db"
+    },
+    {
+      "path": "movies/PCBATCH.rlst",
+      "size": 3159,
+      "sha256": "e839747421746a7adbb38342261f29909e4f95a7d3d55e6ded30e85446c10468"
+    },
+    {
+      "path": "movies/Sc3Snippets.bik",
+      "size": 221762860,
+      "sha256": "7398c60aba28cfc6125fa9679d132d687ac4f2b2ecb4d5b096bb18678800884a"
+    },
+    {
+      "path": "movies/TRFH_1_NoSlates.bik",
+      "size": 447753644,
+      "sha256": "d06fc6a03e62604b3c4f221b21bbbc9ce368ba92c15fc46b6958daa4481b7a82"
+    },
+    {
+      "path": "movies/TRFH_2_NoSlates.bik",
+      "size": 345098028,
+      "sha256": "e149aa710d51ca743a6451cb0d59e9c48edd0c02a01649763f2d39fd8ff99bdc"
+    },
+    {
+      "path": "movies/TRFH_3_NoSlates.bik",
+      "size": 474405064,
+      "sha256": "057df74386a33f73248d75291345dbd87ffb38e69e85d5dfebebb1eff73f27c7"
+    },
+    {
+      "path": "movies/TRFH_4_NoSlates.bik",
+      "size": 1050631476,
+      "sha256": "4803217d9de0d1d1851683ee460097eb97caafc05bb32b6625ac5bfe287bd1de"
+    },
+    {
+      "path": "movies/TRFH_5_NoSlates.bik",
+      "size": 980885816,
+      "sha256": "ab43973c75237a4d0f738fc5aacfb9be37f28a1921bb8d216aa6d50edc6a5f16"
+    },
+    {
+      "path": "movies/TRFH_6_NoSlates.bik",
+      "size": 863508860,
+      "sha256": "68a256fe0551a817c71180a5437eb0441217404b0d8d65765625271c018c0288"
+    },
+    {
+      "path": "movies/ww2sos_snippets.bik",
+      "size": 289272088,
+      "sha256": "1429f0fd08d3ad766994637e6ba2459faac46741a7e0d422ab81c53cafc4c4b8"
+    },
+    {
+      "path": "ms_emu.json",
+      "size": 6869,
+      "sha256": "bcbf200b1cecdb860b49f425fea3694f48202c1c436601c222444574b7a21ba9"
+    },
+    {
+      "path": "msvcp140.dll",
+      "size": 564088,
+      "sha256": "762c1beb041e72149d605f4051695a9634c56e62a517c46d45ff97590f61403c"
+    },
+    {
+      "path": "msvcp140_1.dll",
+      "size": 23928,
+      "sha256": "298ce5d744fc49568b9faee14bc19d9821b5c131a215cee1a6160aaaccc14065"
+    },
+    {
+      "path": "Priority0.000.tiger",
+      "size": 2147442360,
+      "sha256": "1a84ca96edc519dbe15740677cbbffe0cbf9c96fd6a8cb437e102cc9254705df"
+    },
+    {
+      "path": "Priority0.001.tiger",
+      "size": 2145466600,
+      "sha256": "8bec94c41f68cd507c31118c8e831461a7f5d0c9283e09df2ad0d3a20870a0ef"
+    },
+    {
+      "path": "Priority0.002.tiger",
+      "size": 2145796392,
+      "sha256": "390af9e7e7b10d2add4c5b2a04d54f2b82cb4caafa5f3c42097bb8d44ce4380f"
+    },
+    {
+      "path": "Priority0.003.tiger",
+      "size": 2147398280,
+      "sha256": "e172315881e695f9bc1e61ccf4e5f9cf3b91a4631867a916b9a7dd74909c781f"
+    },
+    {
+      "path": "Priority0.004.tiger",
+      "size": 1388681245,
+      "sha256": "64e119dc1b9c7bfb89bda0ad40883792de94507b07205efd2cedeb7c6d894a84"
+    },
+    {
+      "path": "Priority0.manifest.bin",
+      "size": 115972,
+      "sha256": "5f037359a0a762f6bf49a8f4e4d293735cf63db1e2aff3bd9a1a0418e9c37e57"
+    },
+    {
+      "path": "Priority0_ARABIC.000.tiger",
+      "size": 1133443264,
+      "sha256": "55b109cbf34a372dafb4e94b8e8befcbebc4908952414c8992039437ceadc8c9"
+    },
+    {
+      "path": "Priority0_ARABIC.manifest.bin",
+      "size": 138372,
+      "sha256": "1a8de94d470c8320824563745e084254986a8414c4a37edf862cea6fc39394a2"
+    },
+    {
+      "path": "Priority0_ENGLISH.000.tiger",
+      "size": 1126473920,
+      "sha256": "b81068bfe543083ff76fdb0d20eca23645b5707af93836ef330846967102e5d9"
+    },
+    {
+      "path": "Priority0_ENGLISH.manifest.bin",
+      "size": 138372,
+      "sha256": "c41eae69acfc5447e172030e63bc4981243b6c3a351d00d47a59decfe512a490"
+    },
+    {
+      "path": "Priority0_FRENCH.000.tiger",
+      "size": 1114716304,
+      "sha256": "f6e5840c6366840683cae75d76d08355eaf85197e529f2536afaff2df2cae956"
+    },
+    {
+      "path": "Priority0_FRENCH.manifest.bin",
+      "size": 138372,
+      "sha256": "fc06b91ddf3432499f0f1eb66a33f32a9a609b0b1e1814212079023c20939c6e"
+    },
+    {
+      "path": "Priority0_GERMAN.000.tiger",
+      "size": 1127086272,
+      "sha256": "57d51becc3b8b508ce5e210a5452926b32f5c7c3a6931bf05177ce63fa2eb971"
+    },
+    {
+      "path": "Priority0_GERMAN.manifest.bin",
+      "size": 138372,
+      "sha256": "8cbb89ce64ab62bc277df0beaf3e58a2385c3f8944cf396373a85da28b3f3621"
+    },
+    {
+      "path": "Priority0_ITALIAN.000.tiger",
+      "size": 1110576656,
+      "sha256": "2b3ee27730647751a5dad872d9711bb7e27d583acecac824bbf6efaa0b4fb0bb"
+    },
+    {
+      "path": "Priority0_ITALIAN.manifest.bin",
+      "size": 138372,
+      "sha256": "3d9cd66f81a4ca5466e31000f59553fe721a3b9515d21075d23137a0f9195c77"
+    },
+    {
+      "path": "Priority0_JAPANESE.000.tiger",
+      "size": 1133992128,
+      "sha256": "ae2c5e218faf286279182f7e71562a7c1f3046acce5ce378654616c6f874bddd"
+    },
+    {
+      "path": "Priority0_JAPANESE.manifest.bin",
+      "size": 138388,
+      "sha256": "99dbe1cd9c60f6aef8230ee06e1106759efe849453fb99b2eea797c0dc4ee27b"
+    },
+    {
+      "path": "Priority0_POLISH.000.tiger",
+      "size": 1125656512,
+      "sha256": "0293bf4c0bf4fdca6d75ec60ad756457b411d692846348c6c1589e3b868ea14d"
+    },
+    {
+      "path": "Priority0_POLISH.manifest.bin",
+      "size": 138372,
+      "sha256": "4a4cac57c02cb493439f9e998d6297ffb2291b00e18cf8c25abc1454c54b7473"
+    },
+    {
+      "path": "Priority0_RUSSIAN.000.tiger",
+      "size": 1131553600,
+      "sha256": "f01844f910c54c3b7bd128ae0d94188e25e5cea6f4a76a1e68daa96913d555e6"
+    },
+    {
+      "path": "Priority0_RUSSIAN.manifest.bin",
+      "size": 138372,
+      "sha256": "dc40ddfd21b39e3931880b9321d5097f9a251c3da9caa46e1f8597dd7f3f936d"
+    },
+    {
+      "path": "Priority0_SPANISH.000.tiger",
+      "size": 1120133312,
+      "sha256": "cca15c5eacdd833dc65bcc804d84a993450837bbece194f95d6b77582d6c9174"
+    },
+    {
+      "path": "Priority0_SPANISH.manifest.bin",
+      "size": 138372,
+      "sha256": "75d01350d8056288885291b1359d38d7c40d2bc6ee23fbc9ec005774915c15e6"
+    },
+    {
+      "path": "RUNE_1024.png",
+      "size": 1482543,
+      "sha256": "f5445b13f26968b02cfe8fe4634ac3ce6ca4b782f098e054e5784f97066703df"
+    },
+    {
+      "path": "RUNE_208.png",
+      "size": 120498,
+      "sha256": "6cf2d25d94f95f3f0de6c91ba3720f08d35b2108d184f7630062936e1d6721bc"
+    },
+    {
+      "path": "RUNE_424.png",
+      "size": 350752,
+      "sha256": "0e7bbc07df611b8dd5b566e31ce0937cb3c2bdf219ed2268d0662be7f0128533"
+    },
+    {
+      "path": "RUNE_64.png",
+      "size": 11223,
+      "sha256": "8be24624a9170eb0cc2c2e2c6c2455adff730f794a9feb8d80c6f0e7e76f662c"
+    },
+    {
+      "path": "TombRaider.exe",
+      "size": 42281472,
+      "sha256": "5d1ad249fc991957981e62620679c142cb72a21413e7f1586f3c8184eed94715"
+    },
+    {
+      "path": "TR9-100x100.png",
+      "size": 21630,
+      "sha256": "33a2f0397a18986ecba24ab96b372af37ea039257e6ac68debb2274a7550ef5e"
+    },
+    {
+      "path": "TR9-150x150.png",
+      "size": 43976,
+      "sha256": "e9428b379d1b5800652cda4a213036f76253a620f369cb31b0c19a08a789128e"
+    },
+    {
+      "path": "TR9-44x44.png",
+      "size": 4873,
+      "sha256": "8c64ba6e95760e3076ea01757c227a898cefe7d04466e809d16d51fd22c2d176"
+    },
+    {
+      "path": "TR9-480x480.png",
+      "size": 347764,
+      "sha256": "bbac8711bf84866f402f2e74cec1e555280700f7c5ab36a557485bfcccdca136"
+    },
+    {
+      "path": "TR9-SplashScreen.png",
+      "size": 2800024,
+      "sha256": "8aa67068e71d5751302faafcdd93a432ba9130a61efc38e66742bde8eed4efde"
+    },
+    {
+      "path": "vcruntime140.dll",
+      "size": 96144,
+      "sha256": "3242739842db5f32021de2ba87b4e5c884fcf47cb97b65fe38a4f8ad28722d98"
+    },
+    {
+      "path": "vcruntime140_1.dll",
+      "size": 36728,
+      "sha256": "721831b56cbc8531802b036044610f7442397d02a58ebe82aa82fc7f9d99b2d8"
+    },
+    {
+      "path": "winmm.dll",
+      "size": 142336,
+      "sha256": "fc2bdf9aba5611959dde7569916640d52f62f1c5d9fce03ff13d229be62f5b49"
+    },
+    {
+      "path": "XCurl.dll",
+      "size": 194040,
+      "sha256": "6eb728387484e7074c89a1e91e0d5d42fa11bc53c423f7147b76694581558749"
+    },
+    {
+      "path": "xgameruntime.dll",
+      "size": 800256,
+      "sha256": "88254fce8bfe85452b2bbe76bbc681960a5da1677e66aa10c0a2c56929f27efb"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "appxmanifest.xml",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 3026
+        },
+        {
+          "file": "benchmark_mode.docx",
+          "file_offset": 0,
+          "chunk_offset": 49222802,
+          "length": 18840
+        },
+        {
+          "file": "binkw64.dll",
+          "file_offset": 0,
+          "chunk_offset": 49241642,
+          "length": 298496
+        },
+        {
+          "file": "fmodex64.dll",
+          "file_offset": 0,
+          "chunk_offset": 49540138,
+          "length": 1286656
+        },
+        {
+          "file": "gamelaunchhelper.exe",
+          "file_offset": 0,
+          "chunk_offset": 50826794,
+          "length": 99944
+        },
+        {
+          "file": "layout_115c6569-3086-8163-5b1d-ecc9444134ca.xml",
+          "file_offset": 0,
+          "chunk_offset": 50926738,
+          "length": 315
+        },
+        {
+          "file": "MicrosoftGame.Config",
+          "file_offset": 0,
+          "chunk_offset": 50927053,
+          "length": 1609
+        },
+        {
+          "file": "movies/AttractMode.bik",
+          "file_offset": 0,
+          "chunk_offset": 50928662,
+          "length": 175107608
+        },
+        {
+          "file": "movies/Crossroads_Trailer.bik",
+          "file_offset": 0,
+          "chunk_offset": 226036270,
+          "length": 223810580
+        },
+        {
+          "file": "movies/japanese/NewGameIntro.bik",
+          "file_offset": 0,
+          "chunk_offset": 449846850,
+          "length": 85447648
+        },
+        {
+          "file": "movies/japanese/Sc3Snippets.bik",
+          "file_offset": 0,
+          "chunk_offset": 535294498,
+          "length": 112850070
+        }
+      ],
+      "sha256": "c5f258a2b14e8c0045f350f8451a15856e792b1ee2ca4f77b1116a354921ec4a"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "movies/japanese/Sc3Snippets.bik",
+          "file_offset": 112850070,
+          "chunk_offset": 0,
+          "length": 91517202
+        },
+        {
+          "file": "movies/japanese/ww2sos_snippets.bik",
+          "file_offset": 0,
+          "chunk_offset": 91517202,
+          "length": 266991756
+        },
+        {
+          "file": "movies/NewGameIntro.bik",
+          "file_offset": 0,
+          "chunk_offset": 358508958,
+          "length": 96700840
+        },
+        {
+          "file": "movies/PCBATCH.rlst",
+          "file_offset": 0,
+          "chunk_offset": 455209798,
+          "length": 3159
+        },
+        {
+          "file": "movies/Sc3Snippets.bik",
+          "file_offset": 0,
+          "chunk_offset": 455212957,
+          "length": 192931611
+        }
+      ],
+      "sha256": "6bdc3e73800358acd80af42a5f36d2ac214df8d693cc1d1845bf342a6a865079"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "movies/Sc3Snippets.bik",
+          "file_offset": 192931611,
+          "chunk_offset": 0,
+          "length": 28831249
+        },
+        {
+          "file": "movies/TRFH_1_NoSlates.bik",
+          "file_offset": 0,
+          "chunk_offset": 28831249,
+          "length": 447753644
+        },
+        {
+          "file": "movies/TRFH_2_NoSlates.bik",
+          "file_offset": 0,
+          "chunk_offset": 476584893,
+          "length": 171559675
+        }
+      ],
+      "sha256": "4169a92067966a911bc4a22a6e8ab724cc3285e3a53009bae6260628bdeb5fd9"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "movies/TRFH_2_NoSlates.bik",
+          "file_offset": 171559675,
+          "chunk_offset": 0,
+          "length": 173538353
+        },
+        {
+          "file": "movies/TRFH_3_NoSlates.bik",
+          "file_offset": 0,
+          "chunk_offset": 173538353,
+          "length": 474405064
+        },
+        {
+          "file": "movies/TRFH_4_NoSlates.bik",
+          "file_offset": 0,
+          "chunk_offset": 647943417,
+          "length": 201151
+        }
+      ],
+      "sha256": "9d57652f7b6c1ae8133ecab58cecbaa39ae40e3ca4c990cd925c27aff83cc7a5"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "movies/TRFH_4_NoSlates.bik",
+          "file_offset": 201151,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "ff338f8fb8c74444727f8169c00c027a5d6d699bbe27f4fc19d471e79d2cf05c"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "movies/TRFH_4_NoSlates.bik",
+          "file_offset": 648345719,
+          "chunk_offset": 0,
+          "length": 402285757
+        },
+        {
+          "file": "movies/TRFH_5_NoSlates.bik",
+          "file_offset": 0,
+          "chunk_offset": 402285757,
+          "length": 245858811
+        }
+      ],
+      "sha256": "253eff718d4d00186e453e1f522062dff3351d7532e884c6ae4db270392ac3c2"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "movies/TRFH_5_NoSlates.bik",
+          "file_offset": 245858811,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "508e9df583d5d4c300f1f0aeef7a48b9eb031211850a7f976923fd53a5df7324"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "movies/TRFH_5_NoSlates.bik",
+          "file_offset": 894003379,
+          "chunk_offset": 0,
+          "length": 86882437
+        },
+        {
+          "file": "movies/TRFH_6_NoSlates.bik",
+          "file_offset": 0,
+          "chunk_offset": 86882437,
+          "length": 561262131
+        }
+      ],
+      "sha256": "ac5b82343a361f490c62acc796b274245f3e633f64e324a45518c5964b91a704"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "movies/TRFH_6_NoSlates.bik",
+          "file_offset": 561262131,
+          "chunk_offset": 0,
+          "length": 302246729
+        },
+        {
+          "file": "movies/ww2sos_snippets.bik",
+          "file_offset": 0,
+          "chunk_offset": 302246729,
+          "length": 289272088
+        },
+        {
+          "file": "ms_emu.json",
+          "file_offset": 0,
+          "chunk_offset": 591518817,
+          "length": 6869
+        },
+        {
+          "file": "msvcp140.dll",
+          "file_offset": 0,
+          "chunk_offset": 591525686,
+          "length": 564088
+        },
+        {
+          "file": "msvcp140_1.dll",
+          "file_offset": 0,
+          "chunk_offset": 592089774,
+          "length": 23928
+        },
+        {
+          "file": "Priority0.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 592113702,
+          "length": 56030866
+        }
+      ],
+      "sha256": "5ad0878635bba6dd6dc36c8b426abc1e54b299b8c5f60b6ca0f53b5809f7127e"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.000.tiger",
+          "file_offset": 56030866,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "c4e1e4a026116f4a8fcd968a3b3aeead67cca4495ca93552f9f6bf55cc376f13"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.000.tiger",
+          "file_offset": 704175434,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "af6d52e917618e575af0fd4efd8ba66ed2f9cb58c1d9f26e2b75cb0648430e7b"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.000.tiger",
+          "file_offset": 1352320002,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "1667c6f09c95f94c64cb2530bc11adf5f3f8213e53b315d028536becf1d787ae"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.000.tiger",
+          "file_offset": 2000464570,
+          "chunk_offset": 0,
+          "length": 146977790
+        },
+        {
+          "file": "Priority0.001.tiger",
+          "file_offset": 0,
+          "chunk_offset": 146977790,
+          "length": 501166778
+        }
+      ],
+      "sha256": "236cbd17c415de9187f7a4a56564cbab54c79babb9f582c309e7fb7931e629de"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.001.tiger",
+          "file_offset": 501166778,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "441c157e0d8d92a0f1186ba40789e332ee51f95260870bab48aab8b8cbb6c6b1"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.001.tiger",
+          "file_offset": 1149311346,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "23b4356ddb1654f3cee2ba15410b9246c55b2b8ec5e217d1f5b22b99271809dd"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.001.tiger",
+          "file_offset": 1797455914,
+          "chunk_offset": 0,
+          "length": 348010686
+        },
+        {
+          "file": "Priority0.002.tiger",
+          "file_offset": 0,
+          "chunk_offset": 348010686,
+          "length": 300133882
+        }
+      ],
+      "sha256": "d2d1ab43fd312ec195899c2f1c2a8700e13ec25efb3b224c5db37643cceb41fe"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.002.tiger",
+          "file_offset": 300133882,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "b68419bd54da5a72e85971d3ab9b3e3239a2f1107583a913e583747975335c67"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.002.tiger",
+          "file_offset": 948278450,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "30d6ef32e474ea209986e823f4752ea38dde8ffa21d5d9e4b8c4bf2546f1c937"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.002.tiger",
+          "file_offset": 1596423018,
+          "chunk_offset": 0,
+          "length": 549373374
+        },
+        {
+          "file": "Priority0.003.tiger",
+          "file_offset": 0,
+          "chunk_offset": 549373374,
+          "length": 98771194
+        }
+      ],
+      "sha256": "3f7f2e8423124439ce6199f09c330b7f021665d844a2f05f71a446856127f8b7"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.003.tiger",
+          "file_offset": 98771194,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "aad3cc2fbd5743f566ead236b18aa0f8f1780bb5a5b9664624ddb78c80bb7ad7"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.003.tiger",
+          "file_offset": 746915762,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "c3672cb9d5ede8c4cf98a2c8419c57f870ea7fce887c86119cf45bdf45d522d9"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.003.tiger",
+          "file_offset": 1395060330,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "0035df19328b844cb9db9b07c838387a8c3b54cf786c35bdf78ef583f7b093ff"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.003.tiger",
+          "file_offset": 2043204898,
+          "chunk_offset": 0,
+          "length": 104193382
+        },
+        {
+          "file": "Priority0.004.tiger",
+          "file_offset": 0,
+          "chunk_offset": 104193382,
+          "length": 543951186
+        }
+      ],
+      "sha256": "1a284f0dad8e9ffa4d982999fbb66baeae7845d79dd8149ad06b78b759e8ad98"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.004.tiger",
+          "file_offset": 543951186,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "379c63a10b8cf130a84f743c8e9a4b8dd1a3800dc93c9ce6bdc4d988be14cc9e"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0.004.tiger",
+          "file_offset": 1192095754,
+          "chunk_offset": 0,
+          "length": 196585491
+        },
+        {
+          "file": "Priority0.manifest.bin",
+          "file_offset": 0,
+          "chunk_offset": 196585491,
+          "length": 115972
+        },
+        {
+          "file": "Priority0_ARABIC.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 196701463,
+          "length": 451443105
+        }
+      ],
+      "sha256": "9d6d534c868ca41f5c83a7b41543358e61224e2c0636638f00902b26d324edd7"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0_ARABIC.000.tiger",
+          "file_offset": 451443105,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "6b3b242801a7e06a7e725714057830e9c9d8c7c32af308112b19056b76e12d8a"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0_ARABIC.000.tiger",
+          "file_offset": 1099587673,
+          "chunk_offset": 0,
+          "length": 33855591
+        },
+        {
+          "file": "Priority0_ARABIC.manifest.bin",
+          "file_offset": 0,
+          "chunk_offset": 33855591,
+          "length": 138372
+        },
+        {
+          "file": "Priority0_ENGLISH.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 33993963,
+          "length": 614150605
+        }
+      ],
+      "sha256": "4db6ec7a063ac9353f08cd926355c267c0f6e4d4269ebc97fefc349d7321ff50"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0_ENGLISH.000.tiger",
+          "file_offset": 614150605,
+          "chunk_offset": 0,
+          "length": 512323315
+        },
+        {
+          "file": "Priority0_ENGLISH.manifest.bin",
+          "file_offset": 0,
+          "chunk_offset": 512323315,
+          "length": 138372
+        },
+        {
+          "file": "Priority0_FRENCH.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 512461687,
+          "length": 135682881
+        }
+      ],
+      "sha256": "4aeb0173449a0ef54f221e4f9abe16eeb1ead277efc9ee4ecfb261e195c8fa43"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0_FRENCH.000.tiger",
+          "file_offset": 135682881,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "be25e47fa6e5f4c41084b08fd1439ff056a10fdf41de66bf0581319f287189a6"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0_FRENCH.000.tiger",
+          "file_offset": 783827449,
+          "chunk_offset": 0,
+          "length": 330888855
+        },
+        {
+          "file": "Priority0_FRENCH.manifest.bin",
+          "file_offset": 0,
+          "chunk_offset": 330888855,
+          "length": 138372
+        },
+        {
+          "file": "Priority0_GERMAN.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 331027227,
+          "length": 317117341
+        }
+      ],
+      "sha256": "752d422ec8a61a3d614aee828494f09502c36dc4c7535554c7a5da48b07d2545"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0_GERMAN.000.tiger",
+          "file_offset": 317117341,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "0355dbfb7252fd92d8e0b6f75c31cc78e3c552b718781cb4daf389f051a78293"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0_GERMAN.000.tiger",
+          "file_offset": 965261909,
+          "chunk_offset": 0,
+          "length": 161824363
+        },
+        {
+          "file": "Priority0_GERMAN.manifest.bin",
+          "file_offset": 0,
+          "chunk_offset": 161824363,
+          "length": 138372
+        },
+        {
+          "file": "Priority0_ITALIAN.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 161962735,
+          "length": 486181833
+        }
+      ],
+      "sha256": "ec4cdc2d4195e8102c63fafadf44b082a44dd95c6922de41d04e370aa14d084e"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0_ITALIAN.000.tiger",
+          "file_offset": 486181833,
+          "chunk_offset": 0,
+          "length": 624394823
+        },
+        {
+          "file": "Priority0_ITALIAN.manifest.bin",
+          "file_offset": 0,
+          "chunk_offset": 624394823,
+          "length": 138372
+        },
+        {
+          "file": "Priority0_JAPANESE.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 624533195,
+          "length": 23611373
+        }
+      ],
+      "sha256": "f54bb76ac19b3cfeb1bb631dcd5444f20325744ca607be8af8be7f8403379b52"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0_JAPANESE.000.tiger",
+          "file_offset": 23611373,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "ba9a6380abe2f8bfb57a36d90db73c26e567991c0f1327f013fd27dbeeb683fb"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0_JAPANESE.000.tiger",
+          "file_offset": 671755941,
+          "chunk_offset": 0,
+          "length": 462236187
+        },
+        {
+          "file": "Priority0_JAPANESE.manifest.bin",
+          "file_offset": 0,
+          "chunk_offset": 462236187,
+          "length": 138388
+        },
+        {
+          "file": "Priority0_POLISH.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 462374575,
+          "length": 185769993
+        }
+      ],
+      "sha256": "5314fc8f994a23bb68e07210ee845df50d7bd66b8594ec89e56d56795516cd08"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0_POLISH.000.tiger",
+          "file_offset": 185769993,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "7836040b88fe36e449857821cd960f9b23087b8250207cd3ff71f5f56f5f52ed"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0_POLISH.000.tiger",
+          "file_offset": 833914561,
+          "chunk_offset": 0,
+          "length": 291741951
+        },
+        {
+          "file": "Priority0_POLISH.manifest.bin",
+          "file_offset": 0,
+          "chunk_offset": 291741951,
+          "length": 138372
+        },
+        {
+          "file": "Priority0_RUSSIAN.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 291880323,
+          "length": 356264245
+        }
+      ],
+      "sha256": "132057287a177049b8a0de18d83188f84afe7b5e8d59579ea7bbffc1d847c466"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0_RUSSIAN.000.tiger",
+          "file_offset": 356264245,
+          "chunk_offset": 0,
+          "length": 648144568
+        }
+      ],
+      "sha256": "2a96946744e7fa542ba42ac6a4c4df3ffe8db5a82f5aa57ef8eb20891e09e467"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 648144568,
+      "segments": [
+        {
+          "file": "Priority0_RUSSIAN.000.tiger",
+          "file_offset": 1004408813,
+          "chunk_offset": 0,
+          "length": 127144787
+        },
+        {
+          "file": "Priority0_RUSSIAN.manifest.bin",
+          "file_offset": 0,
+          "chunk_offset": 127144787,
+          "length": 138372
+        },
+        {
+          "file": "Priority0_SPANISH.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 127283159,
+          "length": 520861409
+        }
+      ],
+      "sha256": "71fd83b3b0f9e3946f20a078ff71ca33025a3d112380be5ebfc85fad02c0e1d1"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 648144534,
+      "segments": [
+        {
+          "file": "Priority0_SPANISH.000.tiger",
+          "file_offset": 520861409,
+          "chunk_offset": 0,
+          "length": 599271903
+        },
+        {
+          "file": "Priority0_SPANISH.manifest.bin",
+          "file_offset": 0,
+          "chunk_offset": 599271903,
+          "length": 138372
+        },
+        {
+          "file": "RUNE_1024.png",
+          "file_offset": 0,
+          "chunk_offset": 599410275,
+          "length": 1482543
+        },
+        {
+          "file": "RUNE_208.png",
+          "file_offset": 0,
+          "chunk_offset": 600892818,
+          "length": 120498
+        },
+        {
+          "file": "RUNE_424.png",
+          "file_offset": 0,
+          "chunk_offset": 601013316,
+          "length": 350752
+        },
+        {
+          "file": "RUNE_64.png",
+          "file_offset": 0,
+          "chunk_offset": 601364068,
+          "length": 11223
+        },
+        {
+          "file": "TombRaider.exe",
+          "file_offset": 0,
+          "chunk_offset": 601375291,
+          "length": 42281472
+        },
+        {
+          "file": "TR9-100x100.png",
+          "file_offset": 0,
+          "chunk_offset": 643656763,
+          "length": 21630
+        },
+        {
+          "file": "TR9-150x150.png",
+          "file_offset": 0,
+          "chunk_offset": 643678393,
+          "length": 43976
+        },
+        {
+          "file": "TR9-44x44.png",
+          "file_offset": 0,
+          "chunk_offset": 643722369,
+          "length": 4873
+        },
+        {
+          "file": "TR9-480x480.png",
+          "file_offset": 0,
+          "chunk_offset": 643727242,
+          "length": 347764
+        },
+        {
+          "file": "TR9-SplashScreen.png",
+          "file_offset": 0,
+          "chunk_offset": 644075006,
+          "length": 2800024
+        },
+        {
+          "file": "vcruntime140.dll",
+          "file_offset": 0,
+          "chunk_offset": 646875030,
+          "length": 96144
+        },
+        {
+          "file": "vcruntime140_1.dll",
+          "file_offset": 0,
+          "chunk_offset": 646971174,
+          "length": 36728
+        },
+        {
+          "file": "winmm.dll",
+          "file_offset": 0,
+          "chunk_offset": 647007902,
+          "length": 142336
+        },
+        {
+          "file": "XCurl.dll",
+          "file_offset": 0,
+          "chunk_offset": 647150238,
+          "length": 194040
+        },
+        {
+          "file": "xgameruntime.dll",
+          "file_offset": 0,
+          "chunk_offset": 647344278,
+          "length": 800256
+        }
+      ],
+      "sha256": "b8d6346f8327a1c889675aafc05bb6d7261281eba4fee37e6985bf102bf5df77"
+    }
+  ]
+}
