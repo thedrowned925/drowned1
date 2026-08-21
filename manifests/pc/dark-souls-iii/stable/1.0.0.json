@@ -1,0 +1,1913 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "dark-souls-iii",
+    "title": "DARK SOULS™ III",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Dark Souls continues to push the boundaries with the latest, ambitious chapter in the critically-acclaimed and genre-defining series. Prepare yourself and Embrace The Darkness!"
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-dark-souls-iii-v1.0.0-stable"
+  },
+  "chunk_size": 672239036,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 26889561436,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "binkw64.dll",
+      "size": 265728,
+      "sha256": "d43ab5a4cbd84b4a41a71d5e17c049ca8f14e84ddcd4e300ed4196886de20e2e"
+    },
+    {
+      "path": "DarkSoulsIII.cdx",
+      "size": 88960032,
+      "sha256": "ef5e07c55222f14ffddecf2c724a0c2a95cef0d4da0e075b0de0bb108b69498c"
+    },
+    {
+      "path": "DarkSoulsIII.exe",
+      "size": 88753416,
+      "sha256": "b883b4250e66a177cccb9bddd19ab367b18a696b93109dfbaf8253ee0472c59b"
+    },
+    {
+      "path": "Data0.bdt",
+      "size": 815440,
+      "sha256": "955016ab940f0e3526b7ef9e29cff7b498e032939023b50b5d5a172832582b87"
+    },
+    {
+      "path": "Data0.bhd",
+      "size": 2212,
+      "sha256": "927a8959accf6cdcdb4a730179725a534eab9901e0658a45e83a6adedbcce699"
+    },
+    {
+      "path": "Data1.bdt",
+      "size": 974561667,
+      "sha256": "c367fdc68c98bb74393134f1b958bba7152b20a9a6e51a6b3da73eee4430250a"
+    },
+    {
+      "path": "Data1.bhd",
+      "size": 412928,
+      "sha256": "2443fdb7a2ca08842c3b118e0260daeda4566a566759068cf44e2e9c5ab253dd"
+    },
+    {
+      "path": "Data2.bdt",
+      "size": 2570134208,
+      "sha256": "e98c87710e4f0ceda21847d3121c38ea95915995fc845fec2314552dd5f88d15"
+    },
+    {
+      "path": "Data2.bhd",
+      "size": 454656,
+      "sha256": "2832414fedd647ea7793e1e2a5fca7bf24bd9be7a3f88214e15f0f797081046d"
+    },
+    {
+      "path": "Data3.bdt",
+      "size": 1557101044,
+      "sha256": "4258af113ddcfb880aff2b9e0b9eeffc265eea1bbcdec5df2f241d3caa2f761f"
+    },
+    {
+      "path": "Data3.bhd",
+      "size": 107008,
+      "sha256": "faec0d3646c87204c6ebc9caad4913b7723c3b6e1e6d17781811ec4f47aab2e7"
+    },
+    {
+      "path": "Data4.bdt",
+      "size": 1229026224,
+      "sha256": "86f25d3564fb7c9a85ca35759e516eaab04b6378dcc9fee41b92673d4543973b"
+    },
+    {
+      "path": "Data4.bhd",
+      "size": 186880,
+      "sha256": "87ce00370780542d5a066295b4e93994a0efcc25b5a7eea0d2bb821fa62352a4"
+    },
+    {
+      "path": "Data5.bdt",
+      "size": 13900017285,
+      "sha256": "2ad2ce649c743c61b9db21b029a68c311bd847adbe29d809ba78f185011a2987"
+    },
+    {
+      "path": "Data5.bhd",
+      "size": 1338368,
+      "sha256": "f7dc78159e99caa023a634a1865da60a5514b3fb5bb662d2f9bfd796e43359f7"
+    },
+    {
+      "path": "DLC1.bdt",
+      "size": 1627531148,
+      "sha256": "6e0f33556874f3ebc4b940419550468ed1bf3f605477f57cf38718856c091ea7"
+    },
+    {
+      "path": "DLC1.bhd",
+      "size": 143104,
+      "sha256": "d129619a5b6fcf20c194a6c650b85aefb7a85fe2d3d1f111b19c4c63dff2f80f"
+    },
+    {
+      "path": "DLC2.bdt",
+      "size": 3072193839,
+      "sha256": "439d6d4bbeb6adf5d385d7008d1bdbbd309af37b3ae16876d0bf94008fd4c521"
+    },
+    {
+      "path": "DLC2.bhd",
+      "size": 239872,
+      "sha256": "35ced86d6bb0960907044f31ef047f8f4ddbf5f8b493ee70a5986ae7ff90fa72"
+    },
+    {
+      "path": "fmod_event64.dll",
+      "size": 512000,
+      "sha256": "27008d07df0ccfa5ad66ca6820e34fe378388515fecb0c22c48daeb26379c314"
+    },
+    {
+      "path": "fmodex64.dll",
+      "size": 1559040,
+      "sha256": "3cfda68e1488c1ba7171b218da27f2feded47b958352a9240a5ce78831794468"
+    },
+    {
+      "path": "movie/fdp_endroll_ww.bik",
+      "size": 647246828,
+      "sha256": "e5a6300ea611a66603186fe5034220974ae7b20cf4e1894e5ed2a5fca0392024"
+    },
+    {
+      "path": "movie/fdp_opening.bik",
+      "size": 285696952,
+      "sha256": "28dd2bda9ab5cefcf144b993c00f68c474aa10cd910f5e5f00ca996c8b9ff39c"
+    },
+    {
+      "path": "Original Soundtrack/01 - Premonition - Yuka Kitamura.mp3",
+      "size": 2572773,
+      "sha256": "f68ba207932000cb67b377b8f49114ed1660f0a72f96d307b01c1b97c42b190c"
+    },
+    {
+      "path": "Original Soundtrack/02 - DARK SOULS III - Yuka Kitamura.mp3",
+      "size": 3386653,
+      "sha256": "535f8273dbaf5377b54bf12c51ebc9ed4586fc6613f0f7e645f3108b0de16d7d"
+    },
+    {
+      "path": "Original Soundtrack/03 - Prologue - Yuka Kitamura.mp3",
+      "size": 3867298,
+      "sha256": "a259206a9ead7fe92249d98ec21affc23004ab396233c59afebd36016951041f"
+    },
+    {
+      "path": "Original Soundtrack/04 - Firelink Shrine - Yuka Kitamura.mp3",
+      "size": 3798348,
+      "sha256": "b70e5d0f36a4c687f922c36a5da1853b2b4fd36cbd1dd19474cbab66634b2367"
+    },
+    {
+      "path": "Original Soundtrack/05 - Iudex Gundyr - Tsukasa Saitoh.mp3",
+      "size": 2829726,
+      "sha256": "7723b975b6df451371e910bb460c0b2d09f5ca4070b6993151d0ee18fc05d085"
+    },
+    {
+      "path": "Original Soundtrack/06 - Vordt of the Boreal Valley - Motoi Sakuraba.mp3",
+      "size": 3879900,
+      "sha256": "474f7f6925a07fc20a2dfe934ead6c08fc61376a23316b0813bf71b36bc92ea4"
+    },
+    {
+      "path": "Original Soundtrack/07 - Curse-rotted Greatwood - Motoi Sakuraba.mp3",
+      "size": 2411803,
+      "sha256": "8e89740795043c918b12602bf5b7cdc33535027021e3dbc28508ec5079921246"
+    },
+    {
+      "path": "Original Soundtrack/08 - Crystal Sage - Motoi Sakuraba.mp3",
+      "size": 2759718,
+      "sha256": "57b82970411cc54472d1c8e75ffa9d9a073cdc3167ad820d860e1eb1f56ed7c3"
+    },
+    {
+      "path": "Original Soundtrack/09 - Deacons of the Deep - Nobuyoshi Suzuki.mp3",
+      "size": 2927452,
+      "sha256": "65edfce84a60e7692ce918ada0ae28af880f97abb93bcced0139d445d6cfe000"
+    },
+    {
+      "path": "Original Soundtrack/10 - High Lord Wolnir - Motoi Sakuraba.mp3",
+      "size": 4222224,
+      "sha256": "7e4b4b291b97eb9ed81012c3380f36684794114903e558cc00f4d1f8e6503fd5"
+    },
+    {
+      "path": "Original Soundtrack/11 - Pontiff Sulyvahn - Yuka Kitamura.mp3",
+      "size": 3879733,
+      "sha256": "91b0fcff292f6518c30b6ea6975bb11625aa730a54dd6f34daa23ae4e6637f07"
+    },
+    {
+      "path": "Original Soundtrack/12 - Dancer of the Boreal Valley - Yuka Kitamura.mp3",
+      "size": 4403876,
+      "sha256": "0711bd83ffd856d5a7991d4a9f8d4a1a158c6c5a53a6f7dcbcd7fc304d2cb06b"
+    },
+    {
+      "path": "Original Soundtrack/13 - Dragonslayer Armour - Yuka Kitamura.mp3",
+      "size": 5007602,
+      "sha256": "67d2e9e149d15dc18c5146e20823a0b6a06223254f54489bfd66e406d3a61bc1"
+    },
+    {
+      "path": "Original Soundtrack/14 - Old Demon King - Motoi Sakuraba.mp3",
+      "size": 2989480,
+      "sha256": "5cfa3f69b57eb13882338c9a5d11f9ed834b2c5540076a63f38f847e259196c3"
+    },
+    {
+      "path": "Original Soundtrack/15 - Oceiros, the Consumed King - Yuka Kitamura.mp3",
+      "size": 4423936,
+      "sha256": "bf17fd4bb8f21f416387b7b708a88401797cc12162a510512189a389f3b39a52"
+    },
+    {
+      "path": "Original Soundtrack/16 - Ancient Wyvern - Yuka Kitamura.mp3",
+      "size": 3010165,
+      "sha256": "c2c017fe62907e3a38b84310a23019cd07984e8da20dbac76b4b354db7b7b5da"
+    },
+    {
+      "path": "Original Soundtrack/17 - Nameless King - Motoi Sakuraba.mp3",
+      "size": 3427079,
+      "sha256": "29e0c483673f98df39917b62ef6ab6198e72e4b6e88fda45e0da86905a77a805"
+    },
+    {
+      "path": "Original Soundtrack/18 - Abyss Watchers - Yuka Kitamura.mp3",
+      "size": 3572529,
+      "sha256": "d881830dc95eb80ef3fb983e286a309cb6dad3688f7d6f49a100b43ba9934d07"
+    },
+    {
+      "path": "Original Soundtrack/19 - Yhorm the Giant - Yuka Kitamura.mp3",
+      "size": 5137370,
+      "sha256": "0b976a8714fa33c5b6479e5ea58f8f64d5d35c559c43b42db1e9faedf5cf1f0d"
+    },
+    {
+      "path": "Original Soundtrack/20 - Aldrich, Devourer of Gods - Motoi Sakuraba.mp3",
+      "size": 4446534,
+      "sha256": "bbb3051c02b214e777935ab4ff5c2ceff8d1ef099f41237936e83b1f3d8e1466"
+    },
+    {
+      "path": "Original Soundtrack/21 - Lorian, Elder Prince  Lothric, Younger Prince - Yuka Kitamura.mp3",
+      "size": 3650958,
+      "sha256": "c49f1b62c7f2c685961f73cc1b1aa09a168aa3a493df6e3731961dd61b7f6455"
+    },
+    {
+      "path": "Original Soundtrack/22 - Soul of Cinder - Yuka Kitamura.mp3",
+      "size": 8501522,
+      "sha256": "7073800f8c819bfe6359acfd23b3b3ed6b331e028f52096e628bf9de1f67199d"
+    },
+    {
+      "path": "Original Soundtrack/23 - Secret Betrayal - Yuka Kitamura.mp3",
+      "size": 4092263,
+      "sha256": "436c42610c98e90061991df8896003e9001b1750ab3df2a8e29b44bd1e159e16"
+    },
+    {
+      "path": "Original Soundtrack/24 - Epilogue - Yuka Kitamura.mp3",
+      "size": 9816827,
+      "sha256": "6c4acc477e6b3dabfc058dd9db58bedb8f0495a4802f614fd668c300888f2b29"
+    },
+    {
+      "path": "Original Soundtrack/25 - Bonus Track - Yuka Kitamura.mp3",
+      "size": 3186773,
+      "sha256": "6085d19d036b7ec05b5ec87408b6807726283678ea78129fd9a130796051a104"
+    },
+    {
+      "path": "sound/fdp_mixer.fev",
+      "size": 5910,
+      "sha256": "933815bd30ee07fb5afab77805f2c7f6e764a10e2d5025e877086ddbbd3af52a"
+    },
+    {
+      "path": "sound/fdp_multich.mch",
+      "size": 96,
+      "sha256": "707b14d71021129e00385ccf3dbb1c00403de8b62c206655b43a826f207aa5cb"
+    },
+    {
+      "path": "sound/fdp_multimix.mix",
+      "size": 612,
+      "sha256": "d068228315370d44bccc1132967d1ef8ca86a19b6282d97b6aaac9a439de91c7"
+    },
+    {
+      "path": "sound/fdp_multirpc.rpc",
+      "size": 345,
+      "sha256": "0beac047bef88237339e3772c216ccfbefd8e40fb2f22273c2019db966ff9bf5"
+    },
+    {
+      "path": "sound/fdp_rm30.fsb",
+      "size": 12467552,
+      "sha256": "f6a5fa2319a75e7b75a44d36618fbea9a9cdbd829c0b463d81c6f209f63f4e5a"
+    },
+    {
+      "path": "sound/fdp_rm31.fsb",
+      "size": 8827712,
+      "sha256": "dfd962c4a21fc78e0478aef39dce9c2f6f9e2320a51a9ed30c95196fe6e5de6d"
+    },
+    {
+      "path": "sound/fdp_rm32.fsb",
+      "size": 14111520,
+      "sha256": "522a3798834e6d60bb26537db91535524fb0ce87f57ecaffca1639c559455ed2"
+    },
+    {
+      "path": "sound/fdp_rm33.fsb",
+      "size": 22829792,
+      "sha256": "fe45e2cabc1a9a56665bbf1c1f56cb1254e509e18e2a13a4d6f76414b53d9b5e"
+    },
+    {
+      "path": "sound/fdp_rm34.fsb",
+      "size": 9170816,
+      "sha256": "38ed94976f9796b1b17063dab2ff04ce908433a6d1d8b4d3e725987150ed90cc"
+    },
+    {
+      "path": "sound/fdp_rm35.fsb",
+      "size": 8865120,
+      "sha256": "cf62d349518e611993cc0ecd3c0827778077f822ac2e798884354fe74b332b10"
+    },
+    {
+      "path": "sound/fdp_rm37.fsb",
+      "size": 8562944,
+      "sha256": "3f7aedd1adce6da10228e6236cdf750f2885fd2af8012c1e28af5e689014f189"
+    },
+    {
+      "path": "sound/fdp_rm38.fsb",
+      "size": 8111584,
+      "sha256": "436ef8dac1edaa41f27223bdf37ce0136ef6cbcb9848fbbf9e0acbeb4f42b651"
+    },
+    {
+      "path": "sound/fdp_rm39.fsb",
+      "size": 8337024,
+      "sha256": "23cf54a9a77487a8aa171393f30a39d8999165f48a9b018cfe334758bf23f599"
+    },
+    {
+      "path": "sound/fdp_rm40.fsb",
+      "size": 15800128,
+      "sha256": "333144f8b430bc41a5e37427a19f8dd4bcb91840a53bba7ce259c3625de6d4dd"
+    },
+    {
+      "path": "sound/fdp_rm41.fsb",
+      "size": 25816576,
+      "sha256": "4ac369f7a30896514a62a0acf7fb98513294fa62d446f141e924b34d1b426cd7"
+    },
+    {
+      "path": "sound/fdp_rm45.fsb",
+      "size": 21786304,
+      "sha256": "4c10b7eff2ce1e2679cabd229e64b32521939cc7e94fc5dee925b44d811fe67b"
+    },
+    {
+      "path": "sound/fdp_rm50.fsb",
+      "size": 832,
+      "sha256": "85d9d048b89562782e941ae276a7958acdc3b4f99c782f97da52a15f1d4bab4c"
+    },
+    {
+      "path": "sound/fdp_rm51.fsb",
+      "size": 17813664,
+      "sha256": "cddac76d979bcb55b49987466d91bba67a73dd3bd10aa9b82533e3dbe4d3a92b"
+    },
+    {
+      "path": "sound/fdp_sm30.fsb",
+      "size": 21996320,
+      "sha256": "bd02a1ecf0fc0802bb0ca2ba88af2c79c5e91ce97f88a7c13145bf18d0f38d2c"
+    },
+    {
+      "path": "sound/fdp_sm31.fsb",
+      "size": 11389664,
+      "sha256": "2f81a1a62db3b5f013575544673f55c3093324bd50bb0614619d747b488b7647"
+    },
+    {
+      "path": "sound/fdp_sm32.fsb",
+      "size": 14577952,
+      "sha256": "488be6f401482ba7803d840ebc794dcf284e08a2b0ace1dd3fcbc5b178def81c"
+    },
+    {
+      "path": "sound/fdp_sm33.fsb",
+      "size": 12492960,
+      "sha256": "fa4e3055acba5ab3794f9d384095ffd269f35af9ffeefc59cf0bf61eeb406610"
+    },
+    {
+      "path": "sound/fdp_sm34.fsb",
+      "size": 14062656,
+      "sha256": "3d7397df4ecc605e7504ce72d87c7388e134d6cbf329b96887f9919c1c95570e"
+    },
+    {
+      "path": "sound/fdp_sm35.fsb",
+      "size": 5792160,
+      "sha256": "709a7e92cd9fa428d557b09c5381bec335aabdde4129a8201b42e747a446bc34"
+    },
+    {
+      "path": "sound/fdp_sm37.fsb",
+      "size": 11467040,
+      "sha256": "c1a54c8bd5042c2915fc1530d9fba2446fce718b2971e69629feeea4e8412391"
+    },
+    {
+      "path": "sound/fdp_sm38.fsb",
+      "size": 14303968,
+      "sha256": "5d815a8be006d995ab459956ff358718a609168cbd795122f29189c916a03dac"
+    },
+    {
+      "path": "sound/fdp_sm39.fsb",
+      "size": 8638048,
+      "sha256": "e6c09b032194618d6814801cdabd536754a42b0d77a55d414d8afe30ac4305c6"
+    },
+    {
+      "path": "sound/fdp_sm40.fsb",
+      "size": 19425920,
+      "sha256": "39633e7ca50c20d1026ccc1f92cf020005b5da923ff2c05bbe8672db80b3969a"
+    },
+    {
+      "path": "sound/fdp_sm41.fsb",
+      "size": 6199840,
+      "sha256": "a70516916d8f0801c24bb387bd3cb78397cb74b37bbffe3f4ceda76d50061116"
+    },
+    {
+      "path": "sound/fdp_sm45.fsb",
+      "size": 9603488,
+      "sha256": "599d19265793e57a858aaddac36fcfde01a40c4eb3dc0a9f59dceeabecc11d47"
+    },
+    {
+      "path": "sound/fdp_sm50.fsb",
+      "size": 7242880,
+      "sha256": "57d884ec143e8dbd0427857b7b1c936cbc31080526d16a26497b7a54e1c377ae"
+    },
+    {
+      "path": "sound/fdp_sm51.fsb",
+      "size": 16838752,
+      "sha256": "9a8be280e61eabe2a163de5e7937d9f71c0aeffe58471930812a7eee1af53bcc"
+    },
+    {
+      "path": "sound/fdp_smain.fsb",
+      "size": 6464320,
+      "sha256": "99d706419259b10d1a19bc9a20f532a600de22dfd4aab16cdf0f20fe1a3f972b"
+    },
+    {
+      "path": "sound/fdp_smain_dlc1.fsb",
+      "size": 314400,
+      "sha256": "a9f8ab964e425e7e7e0f8ad00be61670a9d7f88c18e613140336796da3343a11"
+    },
+    {
+      "path": "sound/fdp_vm30.fsb",
+      "size": 7237472,
+      "sha256": "4dfe6356a19a263b250eeb6b1cb08c7cca00ea7d6a67c3a8d742e3d13cafd283"
+    },
+    {
+      "path": "sound/fdp_vm31.fsb",
+      "size": 23978240,
+      "sha256": "1888ee21bcb83876b24de678b5537ff67d869fa8f5fbc238e2b80c02b8dfa3f5"
+    },
+    {
+      "path": "sound/fdp_vm32.fsb",
+      "size": 512,
+      "sha256": "ae9a067405c1c857a5dff23fb8f021c1ccdf0dd047ea9b592e1f9f083ae4d5cd"
+    },
+    {
+      "path": "sound/fdp_vm33.fsb",
+      "size": 15058528,
+      "sha256": "41db431de5528871d44ee9f44d52ff05d64b009e0c06c2d28c88b42e667d52d2"
+    },
+    {
+      "path": "sound/fdp_vm34.fsb",
+      "size": 1055520,
+      "sha256": "fd3ae4caf240e2b62ac0a4f8d9b56c402421d9d3144f5105f6aca1cbffbf04bf"
+    },
+    {
+      "path": "sound/fdp_vm35.fsb",
+      "size": 24244704,
+      "sha256": "9ec8b63814ace38d34fe635991805dbde08d15125cb9278238d26c4b5abb8a0c"
+    },
+    {
+      "path": "sound/fdp_vm37.fsb",
+      "size": 21346112,
+      "sha256": "f02eb445e2da02fee699fc9882ba63a061c6b982c14fed2411c6913d5ccf8d54"
+    },
+    {
+      "path": "sound/fdp_vm38.fsb",
+      "size": 6088032,
+      "sha256": "15ddb464165f07ce428c2317c63c0ff54f41e298f753c6de673ea1688cdcba35"
+    },
+    {
+      "path": "sound/fdp_vm39.fsb",
+      "size": 9269024,
+      "sha256": "9c84d9e6ec11a0e51f3de72d37ca92295bd0e7f559581763978cafea2f802c6d"
+    },
+    {
+      "path": "sound/fdp_vm40.fsb",
+      "size": 73517760,
+      "sha256": "852f1b232b78b14bb971d438db335f690230a56fe542c3ad9c125542d6cee8e6"
+    },
+    {
+      "path": "sound/fdp_vm41.fsb",
+      "size": 1356064,
+      "sha256": "bcc4f8250ba9eae49eb3ae5275a4f061391ae1c951377360e925c76807000b04"
+    },
+    {
+      "path": "sound/fdp_vm45.fsb",
+      "size": 13345120,
+      "sha256": "1840365873129d3d201a6cb67f89db904f2922267c5721e2ea7102224c201ec0"
+    },
+    {
+      "path": "sound/fdp_vm50.fsb",
+      "size": 6151872,
+      "sha256": "febedb15426395c149c5bc4cceefd8d63958db6751f3c43f51a1e274c8dc0296"
+    },
+    {
+      "path": "sound/fdp_vm51.fsb",
+      "size": 12462272,
+      "sha256": "ead843a1081254609aeae5f4e728ab72a800d493c0630abb13a097a66376d504"
+    },
+    {
+      "path": "sound/fdp_xm30.fsb",
+      "size": 8375936,
+      "sha256": "5cc44208de033f59f8abe69660eb0e0eda578bfec36d3ef5f02871c80b5d2f15"
+    },
+    {
+      "path": "sound/fdp_xm31.fsb",
+      "size": 8266432,
+      "sha256": "1b585ec9457badcbadb6b56e0de1a69f79afebbe9b4553de3f30400873108ce9"
+    },
+    {
+      "path": "sound/fdp_xm32.fsb",
+      "size": 8384256,
+      "sha256": "56353e8aeed4830a9ebde15412da790ec140f85d2d0fcc11733030672d840f9a"
+    },
+    {
+      "path": "sound/fdp_xm33.fsb",
+      "size": 3948480,
+      "sha256": "ccc06e82dd53932e2aaf10dff85248433553c7aecbe1dcd8e7b7a035f9dc3049"
+    },
+    {
+      "path": "sound/fdp_xm34.fsb",
+      "size": 8387872,
+      "sha256": "44ccc726772a5b3232bb38576a63c8a3d2f5cfc8f05e4a6c40a59fe9b3a81066"
+    },
+    {
+      "path": "sound/fdp_xm35.fsb",
+      "size": 5624000,
+      "sha256": "73dc422538cf2f8eb7f985f5abfa0e7a2aeb4aeaffd4cecbd6d737997367a750"
+    },
+    {
+      "path": "sound/fdp_xm37.fsb",
+      "size": 6045152,
+      "sha256": "7c53ee4eab6bcc2f053ad7c6c250d51b8b436d09e271309992cc2ab45b3d00c6"
+    },
+    {
+      "path": "sound/fdp_xm38.fsb",
+      "size": 2948032,
+      "sha256": "16991f43b0d4e0a759bee7f09f7123026c4ec6c44ec38645a6cbe26d59b96c68"
+    },
+    {
+      "path": "sound/fdp_xm39.fsb",
+      "size": 5524736,
+      "sha256": "2000ebb128820a69b1af958fba703ca2cfaa8b6ec933ee5af8bcdd202c089198"
+    },
+    {
+      "path": "sound/fdp_xm40.fsb",
+      "size": 6045152,
+      "sha256": "7c53ee4eab6bcc2f053ad7c6c250d51b8b436d09e271309992cc2ab45b3d00c6"
+    },
+    {
+      "path": "sound/fdp_xm41.fsb",
+      "size": 6045152,
+      "sha256": "7c53ee4eab6bcc2f053ad7c6c250d51b8b436d09e271309992cc2ab45b3d00c6"
+    },
+    {
+      "path": "sound/fdp_xm45.fsb",
+      "size": 6121312,
+      "sha256": "0e0a7925668ab53b0a7d8118705ac0e6bf234755c200c24c039c4b1c2686627b"
+    },
+    {
+      "path": "sound/fdp_xm46.fsb",
+      "size": 6057088,
+      "sha256": "1d3e7057c51f689f1dc5ea22fcfe88e397e4b0d52d39e9651701588f8e40eadd"
+    },
+    {
+      "path": "sound/fdp_xm47.fsb",
+      "size": 6045152,
+      "sha256": "7c53ee4eab6bcc2f053ad7c6c250d51b8b436d09e271309992cc2ab45b3d00c6"
+    },
+    {
+      "path": "sound/fdp_xm50.fsb",
+      "size": 6053472,
+      "sha256": "27d6e465c5d74d379671849ec5a6ccc28cb6535c3fb45f2ec71c6d9732d3f60f"
+    },
+    {
+      "path": "sound/fdp_xm51.fsb",
+      "size": 6053472,
+      "sha256": "015d8e88bd2b8f69d2caa5d75d679dc50c19d197d867f985fcfd080b1fc96514"
+    },
+    {
+      "path": "sound/fdp_xm53.fsb",
+      "size": 6045152,
+      "sha256": "7c53ee4eab6bcc2f053ad7c6c250d51b8b436d09e271309992cc2ab45b3d00c6"
+    },
+    {
+      "path": "sound/fdp_xm54.fsb",
+      "size": 6057088,
+      "sha256": "1d3e7057c51f689f1dc5ea22fcfe88e397e4b0d52d39e9651701588f8e40eadd"
+    },
+    {
+      "path": "steam_api64.cdx",
+      "size": 119720,
+      "sha256": "fc20547408a7c34f0bd4946a34c21aab48a75e3b98dce9e55969f486d37b212f"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 299296,
+      "sha256": "f9aab811a73cb09be6202f0b995f91a792dbe3fbf9d3168d8e3b1d9f61f97cba"
+    },
+    {
+      "path": "steam_emu.ini",
+      "size": 2156,
+      "sha256": "89f5b0bdfcd06aafccafc6c0c266e01c6e94420e2874ede3ec227213ec60304e"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "binkw64.dll",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 265728
+        },
+        {
+          "file": "DarkSoulsIII.cdx",
+          "file_offset": 0,
+          "chunk_offset": 49485504,
+          "length": 88960032
+        },
+        {
+          "file": "DarkSoulsIII.exe",
+          "file_offset": 0,
+          "chunk_offset": 138445536,
+          "length": 88753416
+        },
+        {
+          "file": "Data0.bdt",
+          "file_offset": 0,
+          "chunk_offset": 227198952,
+          "length": 815440
+        },
+        {
+          "file": "Data0.bhd",
+          "file_offset": 0,
+          "chunk_offset": 228014392,
+          "length": 2212
+        },
+        {
+          "file": "Data1.bdt",
+          "file_offset": 0,
+          "chunk_offset": 228016604,
+          "length": 444222432
+        }
+      ],
+      "sha256": "3b669de557d1227760834442b83ba9dc2b3b630e29369b0c4a1c678323cca126"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data1.bdt",
+          "file_offset": 444222432,
+          "chunk_offset": 0,
+          "length": 530339235
+        },
+        {
+          "file": "Data1.bhd",
+          "file_offset": 0,
+          "chunk_offset": 530339235,
+          "length": 412928
+        },
+        {
+          "file": "Data2.bdt",
+          "file_offset": 0,
+          "chunk_offset": 530752163,
+          "length": 141486873
+        }
+      ],
+      "sha256": "54805b80477dec8d4d47780953bc71cfbb8bb8c320a784fe5ec226fcf0279fb3"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data2.bdt",
+          "file_offset": 141486873,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "b5ae6b8c9fa7f1b75a9431d7abd33e9f8d3f434b5f2fd6f66c2ad88285d830df"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data2.bdt",
+          "file_offset": 813725909,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "4f3cc12acdd12302fe8fe3cb906218a6a61fb8da0361cb951b6bb1f0298b42cc"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data2.bdt",
+          "file_offset": 1485964945,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "352878e4df00ab55d60c6603bada337d43d755bcac8100d677a732679da3c5b0"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data2.bdt",
+          "file_offset": 2158203981,
+          "chunk_offset": 0,
+          "length": 411930227
+        },
+        {
+          "file": "Data2.bhd",
+          "file_offset": 0,
+          "chunk_offset": 411930227,
+          "length": 454656
+        },
+        {
+          "file": "Data3.bdt",
+          "file_offset": 0,
+          "chunk_offset": 412384883,
+          "length": 259854153
+        }
+      ],
+      "sha256": "1a28b677a6bd2fada29c00e67e70888442393deda5e2a18ca5f48e68c8880c5a"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data3.bdt",
+          "file_offset": 259854153,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "14e086b2dc17a553471f4c6c6f4d44f03a66abc9cf159379c54fc0c1c26912f0"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data3.bdt",
+          "file_offset": 932093189,
+          "chunk_offset": 0,
+          "length": 625007855
+        },
+        {
+          "file": "Data3.bhd",
+          "file_offset": 0,
+          "chunk_offset": 625007855,
+          "length": 107008
+        },
+        {
+          "file": "Data4.bdt",
+          "file_offset": 0,
+          "chunk_offset": 625114863,
+          "length": 47124173
+        }
+      ],
+      "sha256": "1a0f1d3b42f7bc7ff3bcff3ae77b7d361973e78a2151e241ea7bb6389f8a1c9c"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data4.bdt",
+          "file_offset": 47124173,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "1a583c7f437b427c35d1678caa7d17901866fa2b8a16c6555c478b74d1fabff9"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data4.bdt",
+          "file_offset": 719363209,
+          "chunk_offset": 0,
+          "length": 509663015
+        },
+        {
+          "file": "Data4.bhd",
+          "file_offset": 0,
+          "chunk_offset": 509663015,
+          "length": 186880
+        },
+        {
+          "file": "Data5.bdt",
+          "file_offset": 0,
+          "chunk_offset": 509849895,
+          "length": 162389141
+        }
+      ],
+      "sha256": "aa3879002c892909864555e3e7d5f89b8456abbde62c95c49336e7d260bb8681"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 162389141,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "133fc7f1c1cfcbf63ee8274cf7d0bd9ec20601aa3a2aaef003c3e0fe523b4b40"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 834628177,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "488fdf21e88efee340a262dd9a3ec4c06a1852c61ce5b62ca0bf57ac7919c89e"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 1506867213,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "fc9e9a2bd29c8b998f7db88fa226f17bd7f61aef20ab86a0b34b62d0b0339abb"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 2179106249,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "f72607369afedb236f7f6b94a152e9b2b048ee523f943b1f3fdf956470d30788"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 2851345285,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "92d56f1d739aeeb2db6fc149e253e8a0ee7a78a2ec4a844d1ba42a3a6363bd3d"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 3523584321,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "03cfd5373a4614736dd6236f0392b6852fd6f69eabcbd005a27643bd6a1a6d19"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 4195823357,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "d9e44ca77046fdc0e82dcbc56e3d7a8e177a0eb6c31c79e9b3f12c0ef94a04a6"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 4868062393,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "f4df54b93e176d1dc974144ab8c1dfdf587f5fa12dfe29ce2e1d71c4585ac470"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 5540301429,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "815dc7e06ad93f9ecb2692b3cfc097534bfb6572bee36310bb342475db280c81"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 6212540465,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "207e68ccc1ca471571a4d0ffa6f524f008bdbba66471e176fa0749f6058b8510"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 6884779501,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "852fbfcef99cb8dbcb35ce82a356ca9a1bf149ba70031099358ea7b0278fe4b6"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 7557018537,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "4fb45da0f5be9232956579dc5c02e137664f6431b653fd17ddb25ea2ff2fed85"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 8229257573,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "1f999ee9dadcc961fbc256da0c4d14965cd91bf301e13e00ae866834de97b4b5"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 8901496609,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "3816bae7610542b47b53709834554ca04c8994900d63bc7872996d23aacd9ff6"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 9573735645,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "c7ac1f6c27772da29af47a933b0b32e6831ce3c9572844b0dc329ba289c9b0ab"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 10245974681,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "ec79a72da07694c19d76a500b2181baf3205ed8d69cc4e803e3e361bd06c7cb6"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 10918213717,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "4df3f30837b669fcdb21d1d685b2fb2713d7396883b946a6087aa1aaf77089d0"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 11590452753,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "c0132cf800d0756ee690ef9bd54e8e740909840cf8fb42eee03cda8267d67b96"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 12262691789,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "68c1b2e3772472524563a7073ee877080600f9d8a0498faa95de44717e73e9bc"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 12934930825,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "a3ce39862a3f7fc6aa808d4754edb3c86e03b17ef95090c807f712a135d44001"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "Data5.bdt",
+          "file_offset": 13607169861,
+          "chunk_offset": 0,
+          "length": 292847424
+        },
+        {
+          "file": "Data5.bhd",
+          "file_offset": 0,
+          "chunk_offset": 292847424,
+          "length": 1338368
+        },
+        {
+          "file": "DLC1.bdt",
+          "file_offset": 0,
+          "chunk_offset": 294185792,
+          "length": 378053244
+        }
+      ],
+      "sha256": "c83475337e451d7a559452c7876f93c117fdd2b3d3c4b07318f7be012a5ce1ad"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "DLC1.bdt",
+          "file_offset": 378053244,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "caae0b9f922990d9b98882f31087bac2422052cae82a2382e3859c8b7537d35f"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "DLC1.bdt",
+          "file_offset": 1050292280,
+          "chunk_offset": 0,
+          "length": 577238868
+        },
+        {
+          "file": "DLC1.bhd",
+          "file_offset": 0,
+          "chunk_offset": 577238868,
+          "length": 143104
+        },
+        {
+          "file": "DLC2.bdt",
+          "file_offset": 0,
+          "chunk_offset": 577381972,
+          "length": 94857064
+        }
+      ],
+      "sha256": "1ccf13a754c0615eb164ecd907eb2520346bb4f7516151d51ddb02151bf484a8"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "DLC2.bdt",
+          "file_offset": 94857064,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "2a5b907fb991e8cb0ea5f642f7f2da4d17d999b36d3ba98a8e6a22eb79cf5be9"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "DLC2.bdt",
+          "file_offset": 767096100,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "d5a09e116f93e3fa1f5e2b8488638d2d484949788a2af83ac5c9bc5faf9f75d1"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "DLC2.bdt",
+          "file_offset": 1439335136,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "4afe1114a988c91de578275c23a84960effbe5bd0a6118725fad4d9c70a91501"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "DLC2.bdt",
+          "file_offset": 2111574172,
+          "chunk_offset": 0,
+          "length": 672239036
+        }
+      ],
+      "sha256": "14e663848742d8ae495d726634dbd29601e9cbae201478590267e4f647819af1"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "DLC2.bdt",
+          "file_offset": 2783813208,
+          "chunk_offset": 0,
+          "length": 288380631
+        },
+        {
+          "file": "DLC2.bhd",
+          "file_offset": 0,
+          "chunk_offset": 288380631,
+          "length": 239872
+        },
+        {
+          "file": "fmod_event64.dll",
+          "file_offset": 0,
+          "chunk_offset": 288620503,
+          "length": 512000
+        },
+        {
+          "file": "fmodex64.dll",
+          "file_offset": 0,
+          "chunk_offset": 289132503,
+          "length": 1559040
+        },
+        {
+          "file": "movie/fdp_endroll_ww.bik",
+          "file_offset": 0,
+          "chunk_offset": 290691543,
+          "length": 381547493
+        }
+      ],
+      "sha256": "eeb876c771c839d4867ca60c6e5eac8fa567b471b64b3e499ca04ce9d62e8807"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 672239036,
+      "segments": [
+        {
+          "file": "movie/fdp_endroll_ww.bik",
+          "file_offset": 381547493,
+          "chunk_offset": 0,
+          "length": 265699335
+        },
+        {
+          "file": "movie/fdp_opening.bik",
+          "file_offset": 0,
+          "chunk_offset": 265699335,
+          "length": 285696952
+        },
+        {
+          "file": "Original Soundtrack/01 - Premonition - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 551396287,
+          "length": 2572773
+        },
+        {
+          "file": "Original Soundtrack/02 - DARK SOULS III - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 553969060,
+          "length": 3386653
+        },
+        {
+          "file": "Original Soundtrack/03 - Prologue - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 557355713,
+          "length": 3867298
+        },
+        {
+          "file": "Original Soundtrack/04 - Firelink Shrine - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 561223011,
+          "length": 3798348
+        },
+        {
+          "file": "Original Soundtrack/05 - Iudex Gundyr - Tsukasa Saitoh.mp3",
+          "file_offset": 0,
+          "chunk_offset": 565021359,
+          "length": 2829726
+        },
+        {
+          "file": "Original Soundtrack/06 - Vordt of the Boreal Valley - Motoi Sakuraba.mp3",
+          "file_offset": 0,
+          "chunk_offset": 567851085,
+          "length": 3879900
+        },
+        {
+          "file": "Original Soundtrack/07 - Curse-rotted Greatwood - Motoi Sakuraba.mp3",
+          "file_offset": 0,
+          "chunk_offset": 571730985,
+          "length": 2411803
+        },
+        {
+          "file": "Original Soundtrack/08 - Crystal Sage - Motoi Sakuraba.mp3",
+          "file_offset": 0,
+          "chunk_offset": 574142788,
+          "length": 2759718
+        },
+        {
+          "file": "Original Soundtrack/09 - Deacons of the Deep - Nobuyoshi Suzuki.mp3",
+          "file_offset": 0,
+          "chunk_offset": 576902506,
+          "length": 2927452
+        },
+        {
+          "file": "Original Soundtrack/10 - High Lord Wolnir - Motoi Sakuraba.mp3",
+          "file_offset": 0,
+          "chunk_offset": 579829958,
+          "length": 4222224
+        },
+        {
+          "file": "Original Soundtrack/11 - Pontiff Sulyvahn - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 584052182,
+          "length": 3879733
+        },
+        {
+          "file": "Original Soundtrack/12 - Dancer of the Boreal Valley - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 587931915,
+          "length": 4403876
+        },
+        {
+          "file": "Original Soundtrack/13 - Dragonslayer Armour - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 592335791,
+          "length": 5007602
+        },
+        {
+          "file": "Original Soundtrack/14 - Old Demon King - Motoi Sakuraba.mp3",
+          "file_offset": 0,
+          "chunk_offset": 597343393,
+          "length": 2989480
+        },
+        {
+          "file": "Original Soundtrack/15 - Oceiros, the Consumed King - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 600332873,
+          "length": 4423936
+        },
+        {
+          "file": "Original Soundtrack/16 - Ancient Wyvern - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 604756809,
+          "length": 3010165
+        },
+        {
+          "file": "Original Soundtrack/17 - Nameless King - Motoi Sakuraba.mp3",
+          "file_offset": 0,
+          "chunk_offset": 607766974,
+          "length": 3427079
+        },
+        {
+          "file": "Original Soundtrack/18 - Abyss Watchers - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 611194053,
+          "length": 3572529
+        },
+        {
+          "file": "Original Soundtrack/19 - Yhorm the Giant - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 614766582,
+          "length": 5137370
+        },
+        {
+          "file": "Original Soundtrack/20 - Aldrich, Devourer of Gods - Motoi Sakuraba.mp3",
+          "file_offset": 0,
+          "chunk_offset": 619903952,
+          "length": 4446534
+        },
+        {
+          "file": "Original Soundtrack/21 - Lorian, Elder Prince  Lothric, Younger Prince - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 624350486,
+          "length": 3650958
+        },
+        {
+          "file": "Original Soundtrack/22 - Soul of Cinder - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 628001444,
+          "length": 8501522
+        },
+        {
+          "file": "Original Soundtrack/23 - Secret Betrayal - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 636502966,
+          "length": 4092263
+        },
+        {
+          "file": "Original Soundtrack/24 - Epilogue - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 640595229,
+          "length": 9816827
+        },
+        {
+          "file": "Original Soundtrack/25 - Bonus Track - Yuka Kitamura.mp3",
+          "file_offset": 0,
+          "chunk_offset": 650412056,
+          "length": 3186773
+        },
+        {
+          "file": "sound/fdp_mixer.fev",
+          "file_offset": 0,
+          "chunk_offset": 653598829,
+          "length": 5910
+        },
+        {
+          "file": "sound/fdp_multich.mch",
+          "file_offset": 0,
+          "chunk_offset": 653604739,
+          "length": 96
+        },
+        {
+          "file": "sound/fdp_multimix.mix",
+          "file_offset": 0,
+          "chunk_offset": 653604835,
+          "length": 612
+        },
+        {
+          "file": "sound/fdp_multirpc.rpc",
+          "file_offset": 0,
+          "chunk_offset": 653605447,
+          "length": 345
+        },
+        {
+          "file": "sound/fdp_rm30.fsb",
+          "file_offset": 0,
+          "chunk_offset": 653605792,
+          "length": 12467552
+        },
+        {
+          "file": "sound/fdp_rm31.fsb",
+          "file_offset": 0,
+          "chunk_offset": 666073344,
+          "length": 6165692
+        }
+      ],
+      "sha256": "92459ebc67382543bb230efe2ef6e8a026410cbbbf353db19f36131585c93082"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 672239032,
+      "segments": [
+        {
+          "file": "sound/fdp_rm31.fsb",
+          "file_offset": 6165692,
+          "chunk_offset": 0,
+          "length": 2662020
+        },
+        {
+          "file": "sound/fdp_rm32.fsb",
+          "file_offset": 0,
+          "chunk_offset": 2662020,
+          "length": 14111520
+        },
+        {
+          "file": "sound/fdp_rm33.fsb",
+          "file_offset": 0,
+          "chunk_offset": 16773540,
+          "length": 22829792
+        },
+        {
+          "file": "sound/fdp_rm34.fsb",
+          "file_offset": 0,
+          "chunk_offset": 39603332,
+          "length": 9170816
+        },
+        {
+          "file": "sound/fdp_rm35.fsb",
+          "file_offset": 0,
+          "chunk_offset": 48774148,
+          "length": 8865120
+        },
+        {
+          "file": "sound/fdp_rm37.fsb",
+          "file_offset": 0,
+          "chunk_offset": 57639268,
+          "length": 8562944
+        },
+        {
+          "file": "sound/fdp_rm38.fsb",
+          "file_offset": 0,
+          "chunk_offset": 66202212,
+          "length": 8111584
+        },
+        {
+          "file": "sound/fdp_rm39.fsb",
+          "file_offset": 0,
+          "chunk_offset": 74313796,
+          "length": 8337024
+        },
+        {
+          "file": "sound/fdp_rm40.fsb",
+          "file_offset": 0,
+          "chunk_offset": 82650820,
+          "length": 15800128
+        },
+        {
+          "file": "sound/fdp_rm41.fsb",
+          "file_offset": 0,
+          "chunk_offset": 98450948,
+          "length": 25816576
+        },
+        {
+          "file": "sound/fdp_rm45.fsb",
+          "file_offset": 0,
+          "chunk_offset": 124267524,
+          "length": 21786304
+        },
+        {
+          "file": "sound/fdp_rm50.fsb",
+          "file_offset": 0,
+          "chunk_offset": 146053828,
+          "length": 832
+        },
+        {
+          "file": "sound/fdp_rm51.fsb",
+          "file_offset": 0,
+          "chunk_offset": 146054660,
+          "length": 17813664
+        },
+        {
+          "file": "sound/fdp_sm30.fsb",
+          "file_offset": 0,
+          "chunk_offset": 163868324,
+          "length": 21996320
+        },
+        {
+          "file": "sound/fdp_sm31.fsb",
+          "file_offset": 0,
+          "chunk_offset": 185864644,
+          "length": 11389664
+        },
+        {
+          "file": "sound/fdp_sm32.fsb",
+          "file_offset": 0,
+          "chunk_offset": 197254308,
+          "length": 14577952
+        },
+        {
+          "file": "sound/fdp_sm33.fsb",
+          "file_offset": 0,
+          "chunk_offset": 211832260,
+          "length": 12492960
+        },
+        {
+          "file": "sound/fdp_sm34.fsb",
+          "file_offset": 0,
+          "chunk_offset": 224325220,
+          "length": 14062656
+        },
+        {
+          "file": "sound/fdp_sm35.fsb",
+          "file_offset": 0,
+          "chunk_offset": 238387876,
+          "length": 5792160
+        },
+        {
+          "file": "sound/fdp_sm37.fsb",
+          "file_offset": 0,
+          "chunk_offset": 244180036,
+          "length": 11467040
+        },
+        {
+          "file": "sound/fdp_sm38.fsb",
+          "file_offset": 0,
+          "chunk_offset": 255647076,
+          "length": 14303968
+        },
+        {
+          "file": "sound/fdp_sm39.fsb",
+          "file_offset": 0,
+          "chunk_offset": 269951044,
+          "length": 8638048
+        },
+        {
+          "file": "sound/fdp_sm40.fsb",
+          "file_offset": 0,
+          "chunk_offset": 278589092,
+          "length": 19425920
+        },
+        {
+          "file": "sound/fdp_sm41.fsb",
+          "file_offset": 0,
+          "chunk_offset": 298015012,
+          "length": 6199840
+        },
+        {
+          "file": "sound/fdp_sm45.fsb",
+          "file_offset": 0,
+          "chunk_offset": 304214852,
+          "length": 9603488
+        },
+        {
+          "file": "sound/fdp_sm50.fsb",
+          "file_offset": 0,
+          "chunk_offset": 313818340,
+          "length": 7242880
+        },
+        {
+          "file": "sound/fdp_sm51.fsb",
+          "file_offset": 0,
+          "chunk_offset": 321061220,
+          "length": 16838752
+        },
+        {
+          "file": "sound/fdp_smain.fsb",
+          "file_offset": 0,
+          "chunk_offset": 337899972,
+          "length": 6464320
+        },
+        {
+          "file": "sound/fdp_smain_dlc1.fsb",
+          "file_offset": 0,
+          "chunk_offset": 344364292,
+          "length": 314400
+        },
+        {
+          "file": "sound/fdp_vm30.fsb",
+          "file_offset": 0,
+          "chunk_offset": 344678692,
+          "length": 7237472
+        },
+        {
+          "file": "sound/fdp_vm31.fsb",
+          "file_offset": 0,
+          "chunk_offset": 351916164,
+          "length": 23978240
+        },
+        {
+          "file": "sound/fdp_vm32.fsb",
+          "file_offset": 0,
+          "chunk_offset": 375894404,
+          "length": 512
+        },
+        {
+          "file": "sound/fdp_vm33.fsb",
+          "file_offset": 0,
+          "chunk_offset": 375894916,
+          "length": 15058528
+        },
+        {
+          "file": "sound/fdp_vm34.fsb",
+          "file_offset": 0,
+          "chunk_offset": 390953444,
+          "length": 1055520
+        },
+        {
+          "file": "sound/fdp_vm35.fsb",
+          "file_offset": 0,
+          "chunk_offset": 392008964,
+          "length": 24244704
+        },
+        {
+          "file": "sound/fdp_vm37.fsb",
+          "file_offset": 0,
+          "chunk_offset": 416253668,
+          "length": 21346112
+        },
+        {
+          "file": "sound/fdp_vm38.fsb",
+          "file_offset": 0,
+          "chunk_offset": 437599780,
+          "length": 6088032
+        },
+        {
+          "file": "sound/fdp_vm39.fsb",
+          "file_offset": 0,
+          "chunk_offset": 443687812,
+          "length": 9269024
+        },
+        {
+          "file": "sound/fdp_vm40.fsb",
+          "file_offset": 0,
+          "chunk_offset": 452956836,
+          "length": 73517760
+        },
+        {
+          "file": "sound/fdp_vm41.fsb",
+          "file_offset": 0,
+          "chunk_offset": 526474596,
+          "length": 1356064
+        },
+        {
+          "file": "sound/fdp_vm45.fsb",
+          "file_offset": 0,
+          "chunk_offset": 527830660,
+          "length": 13345120
+        },
+        {
+          "file": "sound/fdp_vm50.fsb",
+          "file_offset": 0,
+          "chunk_offset": 541175780,
+          "length": 6151872
+        },
+        {
+          "file": "sound/fdp_vm51.fsb",
+          "file_offset": 0,
+          "chunk_offset": 547327652,
+          "length": 12462272
+        },
+        {
+          "file": "sound/fdp_xm30.fsb",
+          "file_offset": 0,
+          "chunk_offset": 559789924,
+          "length": 8375936
+        },
+        {
+          "file": "sound/fdp_xm31.fsb",
+          "file_offset": 0,
+          "chunk_offset": 568165860,
+          "length": 8266432
+        },
+        {
+          "file": "sound/fdp_xm32.fsb",
+          "file_offset": 0,
+          "chunk_offset": 576432292,
+          "length": 8384256
+        },
+        {
+          "file": "sound/fdp_xm33.fsb",
+          "file_offset": 0,
+          "chunk_offset": 584816548,
+          "length": 3948480
+        },
+        {
+          "file": "sound/fdp_xm34.fsb",
+          "file_offset": 0,
+          "chunk_offset": 588765028,
+          "length": 8387872
+        },
+        {
+          "file": "sound/fdp_xm35.fsb",
+          "file_offset": 0,
+          "chunk_offset": 597152900,
+          "length": 5624000
+        },
+        {
+          "file": "sound/fdp_xm37.fsb",
+          "file_offset": 0,
+          "chunk_offset": 602776900,
+          "length": 6045152
+        },
+        {
+          "file": "sound/fdp_xm38.fsb",
+          "file_offset": 0,
+          "chunk_offset": 608822052,
+          "length": 2948032
+        },
+        {
+          "file": "sound/fdp_xm39.fsb",
+          "file_offset": 0,
+          "chunk_offset": 611770084,
+          "length": 5524736
+        },
+        {
+          "file": "sound/fdp_xm40.fsb",
+          "file_offset": 0,
+          "chunk_offset": 617294820,
+          "length": 6045152
+        },
+        {
+          "file": "sound/fdp_xm41.fsb",
+          "file_offset": 0,
+          "chunk_offset": 623339972,
+          "length": 6045152
+        },
+        {
+          "file": "sound/fdp_xm45.fsb",
+          "file_offset": 0,
+          "chunk_offset": 629385124,
+          "length": 6121312
+        },
+        {
+          "file": "sound/fdp_xm46.fsb",
+          "file_offset": 0,
+          "chunk_offset": 635506436,
+          "length": 6057088
+        },
+        {
+          "file": "sound/fdp_xm47.fsb",
+          "file_offset": 0,
+          "chunk_offset": 641563524,
+          "length": 6045152
+        },
+        {
+          "file": "sound/fdp_xm50.fsb",
+          "file_offset": 0,
+          "chunk_offset": 647608676,
+          "length": 6053472
+        },
+        {
+          "file": "sound/fdp_xm51.fsb",
+          "file_offset": 0,
+          "chunk_offset": 653662148,
+          "length": 6053472
+        },
+        {
+          "file": "sound/fdp_xm53.fsb",
+          "file_offset": 0,
+          "chunk_offset": 659715620,
+          "length": 6045152
+        },
+        {
+          "file": "sound/fdp_xm54.fsb",
+          "file_offset": 0,
+          "chunk_offset": 665760772,
+          "length": 6057088
+        },
+        {
+          "file": "steam_api64.cdx",
+          "file_offset": 0,
+          "chunk_offset": 671817860,
+          "length": 119720
+        },
+        {
+          "file": "steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 671937580,
+          "length": 299296
+        },
+        {
+          "file": "steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 672236876,
+          "length": 2156
+        }
+      ],
+      "sha256": "2b2ff115126838dbd800d1d76e27cb95ccd90256fd5badc740bc77dca60b4337"
+    }
+  ]
+}
