@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 35
-- **Toplam aktif sürüm/kanal:** 35
-- **Toplam aktif boyut:** 904.920 GB (842.772 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-21 19:33:16 UTC
+- **Toplam oyun:** 36
+- **Toplam aktif sürüm/kanal:** 36
+- **Toplam aktif boyut:** 928.703 GB (864.922 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-21 19:54:27 UTC
 
 ## PC
 
-**35 oyun · 35 aktif sürüm/kanal · 904.920 GB (842.772 GiB)**
+**36 oyun · 36 aktif sürüm/kanal · 928.703 GB (864.922 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -28,6 +28,7 @@
 | Far Cry 3 | 1.0.0 | stable | 9.977 | 9.291 | `pc-far-cry-3-v1.0.0-stable` |
 | God of War | 1.0.0 | stable | 66.388 | 61.828 | `pc-god-of-war-v1.0.0-stable` |
 | Grand Theft Auto III | 1.0.0 | stable | 1.351 | 1.259 | `pc-grand-theft-auto-iii-v1.0.0-stable` |
+| Grand Theft Auto IV: The Complete Edition | 1.0.0 | stable | 23.783 | 22.150 | `pc-grand-theft-auto-iv-the-complete-edition-v1.0.0-stable` |
 | Grand Theft Auto V Enhanced | 1.0.0 | stable | 103.274 | 96.182 | `pc-grand-theft-auto-v-enhanced-v1.0.0-stable` |
 | Grand Theft Auto: San Andreas | 1.0.0 | stable | 4.975 | 4.634 | `pc-grand-theft-auto-san-andreas-v1.0.0-stable` |
 | Grand Theft Auto: Vice City | 1.0.0 | stable | 1.619 | 1.508 | `pc-grand-theft-auto-vice-city-v1.0.0-stable` |
