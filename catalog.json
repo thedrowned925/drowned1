@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-21T20:47:53.414837+00:00",
+  "updated_at": "2026-08-21T21:11:50.276316+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -1250,6 +1250,41 @@
       },
       "media": {
         "steam_app_id": 49520
+      }
+    },
+    {
+      "id": "call-of-duty-4-modern-warfare-2007",
+      "title": "Call of Duty® 4: Modern Warfare® (2007)",
+      "platform": "pc",
+      "description": "The new action-thriller from the award-winning team at Infinity Ward, the creators of the Call of Duty® series, delivers the most intense and cinematic action experience ever. Call of Duty 4: Modern Warfare arms gamers with an arsenal of advanced and powerful modern day firepower and transports them to the most treacherous hotspots...",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-4-modern-warfare-2007/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-4-modern-warfare-2007/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-4-modern-warfare-2007/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-4-modern-warfare-2007/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-4-modern-warfare-2007/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-4-modern-warfare-2007/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-4-modern-warfare-2007/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-4-modern-warfare-2007/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-4-modern-warfare-2007/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-4-modern-warfare-2007/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-4-modern-warfare-2007/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-4-modern-warfare-2007/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-call-of-duty-4-modern-warfare-2007-v1.0.0-stable",
+          "manifest_path": "manifests/pc/call-of-duty-4-modern-warfare-2007/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/call-of-duty-4-modern-warfare-2007/stable/1.0.0.json",
+          "size": 6975132867,
+          "published_at": "2026-08-21T21:11:50.276303+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 7940
       }
     }
   ]
