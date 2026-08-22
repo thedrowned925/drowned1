@@ -44,6 +44,45 @@ jobs:
       - name: Run full test suite
         run: python -X utf8 -m unittest discover -s tests -v
 
+      - name: Verify visible action controls
+        shell: pwsh
+        run: |
+          $env:QT_QPA_PLATFORM = "offscreen"
+          @'
+          import sys
+          sys.path.insert(0, "windows/launcher")
+          from PySide6.QtWidgets import QApplication
+          import app_v14
+
+          app = QApplication([])
+          win = app_v14.Launcher()
+          win.resize(1460, 900)
+          win.show()
+          for _ in range(8):
+              app.processEvents()
+
+          controls = {
+              "install": win.install_button,
+              "verify": win.verify_button,
+              "uninstall": win.uninstall_button,
+          }
+          failures = []
+          for name, widget in controls.items():
+              size = widget.size()
+              print(name, "visible=", widget.isVisibleTo(win), "size=", size.width(), "x", size.height(), "text=", widget.text())
+              if not widget.isVisibleTo(win) or size.width() < 60 or size.height() < 24:
+                  failures.append(name)
+          if failures:
+              raise SystemExit("Invisible/collapsed action controls: " + ", ".join(failures))
+
+          if win.info_card.parentWidget() is None:
+              raise SystemExit("Action info card lost its parent")
+          if not hasattr(win, "addon_panel"):
+              raise SystemExit("Optional package panel was not attached")
+          win.close()
+          app.processEvents()
+          '@ | python -X utf8 -
+
       - name: Build Launcher v0.14
         shell: pwsh
         run: >-
