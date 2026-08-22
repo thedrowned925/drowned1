@@ -2,19 +2,20 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 41
-- **Toplam aktif sürüm/kanal:** 41
-- **Toplam aktif boyut:** 1089.551 GB (1014.723 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-22 11:01:34 UTC
+- **Toplam oyun:** 42
+- **Toplam aktif sürüm/kanal:** 42
+- **Toplam aktif boyut:** 1120.970 GB (1043.985 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-22 11:25:20 UTC
 
 ## PC
 
-**41 oyun · 41 aktif sürüm/kanal · 1089.551 GB (1014.723 GiB)**
+**42 oyun · 42 aktif sürüm/kanal · 1120.970 GB (1043.985 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
 | Assassin's Creed 2 | 1.0.1 | stable | 7.276 | 6.777 | `pc-assassin-s-creed-2-v1.0.1-stable` |
 | Assassin's Creed™: Director's Cut Edition | 1.0.0 | stable | 7.201 | 6.707 | `pc-assassin-s-creed-director-s-cut-edition-v1.0.0-stable` |
+| Assassin’s Creed® IV Black Flag™ | 1.0.0 | stable | 31.420 | 29.262 | `pc-assassin-s-creed-iv-black-flag-v1.0.0-stable` |
 | Batman: Arkham Asylum Game of the Year Edition | 1.0.0 | stable | 8.609 | 8.018 | `pc-batman-arkham-asylum-game-of-the-year-edition-v1.0.0-stable` |
 | Batman: Arkham City - Game of the Year Edition | 1.0.0 | stable | 18.232 | 16.980 | `pc-batman-arkham-city-game-of-the-year-edition-v1.0.0-stable` |
 | BioShock Infinite | 1.0.0 | stable | 47.811 | 44.528 | `pc-bioshock-infinite-v1.0.0-stable` |
