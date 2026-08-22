@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-22T13:58:19.027870+00:00",
+  "updated_at": "2026-08-22T14:20:00.172300+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -1458,6 +1458,41 @@
       },
       "media": {
         "steam_app_id": 12140
+      }
+    },
+    {
+      "id": "fallout-3-game-of-the-year-edition",
+      "title": "Fallout 3: Game of the Year Edition",
+      "platform": "pc",
+      "description": "Prepare for the Future™ With Fallout 3: Game of the Year Edition, experience the most acclaimed game of 2008 like never before. Create a character of your choosing and descend into an awe-inspiring, post-apocalyptic world where every minute is a fight for survival.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-3-game-of-the-year-edition/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-3-game-of-the-year-edition/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-3-game-of-the-year-edition/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-3-game-of-the-year-edition/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-3-game-of-the-year-edition/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-3-game-of-the-year-edition/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-3-game-of-the-year-edition/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-3-game-of-the-year-edition/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-3-game-of-the-year-edition/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-3-game-of-the-year-edition/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-3-game-of-the-year-edition/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/fallout-3-game-of-the-year-edition/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-fallout-3-game-of-the-year-edition-v1.0.0-stable",
+          "manifest_path": "manifests/pc/fallout-3-game-of-the-year-edition/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/fallout-3-game-of-the-year-edition/stable/1.0.0.json",
+          "size": 9207259345,
+          "published_at": "2026-08-22T14:20:00.172288+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 22370
       }
     }
   ]
