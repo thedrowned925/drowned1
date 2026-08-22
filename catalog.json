@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-22T23:46:15.072181+00:00",
+  "updated_at": "2026-08-22T23:57:28.707671+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -1736,6 +1736,41 @@
       },
       "media": {
         "steam_app_id": 304430
+      }
+    },
+    {
+      "id": "limbo",
+      "title": "LIMBO",
+      "platform": "pc",
+      "description": "Uncertain of his sister's fate, a boy enters LIMBO",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/limbo/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/limbo/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/limbo/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/limbo/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/limbo/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/limbo/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/limbo/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/limbo/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/limbo/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/limbo/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/limbo/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/limbo/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-limbo-v1.0.0-stable",
+          "manifest_path": "manifests/pc/limbo/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/limbo/stable/1.0.0.json",
+          "size": 115055320,
+          "published_at": "2026-08-22T23:57:28.707656+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 48000
       }
     }
   ]
