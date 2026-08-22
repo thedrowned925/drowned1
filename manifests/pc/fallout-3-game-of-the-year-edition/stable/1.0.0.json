@@ -1,0 +1,2369 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "fallout-3-game-of-the-year-edition",
+    "title": "Fallout 3: Game of the Year Edition",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Prepare for the Future™ With Fallout 3: Game of the Year Edition, experience the most acclaimed game of 2008 like never before. Create a character of your choosing and descend into an awe-inspiring, post-apocalyptic world where every minute is a fight for survival."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-fallout-3-game-of-the-year-edition-v1.0.0-stable"
+  },
+  "chunk_size": 230181484,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 9207259345,
+  "files": [
+    {
+      "path": "atimgpud.dll",
+      "size": 165304,
+      "sha256": "15c87bdc99674cee4e4c609b5fb6ac52297b46d228e7a9ea3ff9c7fbd4695912"
+    },
+    {
+      "path": "binkw32.dll",
+      "size": 338944,
+      "sha256": "c6c06e2d21f2179f0b7fbe829a4b17a7b371440d2c679253ec86b64d421185bd"
+    },
+    {
+      "path": "Data/Anchorage - Main.bsa",
+      "size": 545219034,
+      "sha256": "c1528216856c2f840b98fae6a73bfcec97cb65ae3084e54055b82b31323f5ba9"
+    },
+    {
+      "path": "Data/Anchorage - Sounds.bsa",
+      "size": 35012678,
+      "sha256": "ffd8ef5a1c4ad9a7441da9cc51a513f0a8049f06ee363581690c84473256619a"
+    },
+    {
+      "path": "Data/Anchorage.esm",
+      "size": 13880961,
+      "sha256": "1abf286336e585cc2898086d03d0933c1b8e9c6dcce45b42d7faf3835f7b7f56"
+    },
+    {
+      "path": "Data/BrokenSteel - Main.bsa",
+      "size": 528150080,
+      "sha256": "4dfe379a3d5acbbfaf309f0fe203c52e13279164568a176b289eba19e021b72f"
+    },
+    {
+      "path": "Data/BrokenSteel - Sounds.bsa",
+      "size": 35527337,
+      "sha256": "d3914a68274792ad1051f1efcfcb860246107a26ff27eb7fb76a8fe0303b7ce7"
+    },
+    {
+      "path": "Data/BrokenSteel.esm",
+      "size": 11015915,
+      "sha256": "9ee6b6cca86ca9e7e9ad5dee3842ece4831a6de1cc4b97d0fe80bd282e42bd6f"
+    },
+    {
+      "path": "Data/Credits.txt",
+      "size": 27662,
+      "sha256": "376970b7089323fc2b245ebe519ed9fbf1361f79a749e82dea76c8e50aba6129"
+    },
+    {
+      "path": "Data/DLCList.txt",
+      "size": 71,
+      "sha256": "2594263bb30401efe613c9eed76affebd962ad51d18e8910ae7fdea1e080fe2c"
+    },
+    {
+      "path": "Data/Fallout - MenuVoices.bsa",
+      "size": 1072132103,
+      "sha256": "6172c9a967cbcc2b0063ad2ad71115beaeb43a6dac19e1c3d0c8ac09646e3581"
+    },
+    {
+      "path": "Data/Fallout - Meshes.bsa",
+      "size": 748571387,
+      "sha256": "afcef5fae5dc2f90f5abaefc3c1793e6b995ef1b6e3fd8877b1afde1c0d1dd6d"
+    },
+    {
+      "path": "Data/Fallout - Misc.bsa",
+      "size": 1793843,
+      "sha256": "7af60a7874ae17dd288f7795624531cfd2853b793132d6a9055325032931ae05"
+    },
+    {
+      "path": "Data/Fallout - Sound.bsa",
+      "size": 855989612,
+      "sha256": "0d4b0c2e123319dcbd3a9e7d83be594c1778ee62bf0779bb60ffba0b20ed0d81"
+    },
+    {
+      "path": "Data/Fallout - Textures.bsa",
+      "size": 1120257480,
+      "sha256": "4147b4c5eae87ff1988d586fa5724879a7beccd7092ec4b9600792d9819a9dd3"
+    },
+    {
+      "path": "Data/Fallout - Voices.bsa",
+      "size": 775540894,
+      "sha256": "67f22988b03bec6b3e9e67582de6c73768d25d06742724422d28aa82ee76d0c0"
+    },
+    {
+      "path": "Data/Fallout3.esm",
+      "size": 288771262,
+      "sha256": "d9fb0a33af495ddb43992b96ea74f2741b123fefdb1fcdcea28096f7649b0d06"
+    },
+    {
+      "path": "Data/Music/Base/Base_01.mp3",
+      "size": 3801446,
+      "sha256": "892e8742cac7ef9fb5a349e9e1b7535205b4bbcd18979d7d84262ca394f7b133"
+    },
+    {
+      "path": "Data/Music/Base/Base_02.mp3",
+      "size": 3911160,
+      "sha256": "ba16c928d20d378cafa9be9e1f4f6ed82af17e92335c24b3f7f9f31ec295f071"
+    },
+    {
+      "path": "Data/Music/Base/Base_03.mp3",
+      "size": 4019830,
+      "sha256": "0f009cd3a49b635c7c26581948553e88a467f9158a2db1901f5f2d80561e5c5f"
+    },
+    {
+      "path": "Data/Music/Base/Base_04.mp3",
+      "size": 4138948,
+      "sha256": "b9c9cf9ea33803b1a28c675dffaadbb8ab3f24fe216b2c866316aced648afa74"
+    },
+    {
+      "path": "Data/Music/Battle/Battle_01.mp3",
+      "size": 5211116,
+      "sha256": "fead6ade1922cc2d3471bcc5135f53492d640f980ff17c8e5cb32fedd4fc8b44"
+    },
+    {
+      "path": "Data/Music/Battle/Battle_02.mp3",
+      "size": 4934009,
+      "sha256": "4e22beeb4bb897cc6ca8543e879b0305ba6d5af0a11d609367d5ce2ecd0d365d"
+    },
+    {
+      "path": "Data/Music/Battle/Battle_03.mp3",
+      "size": 2937836,
+      "sha256": "ceefe304a2106e3237f2255ffcddc4fd3af0921fc184c19c2e70fd8237ac2195"
+    },
+    {
+      "path": "Data/Music/Battle/Battle_04.mp3",
+      "size": 4974133,
+      "sha256": "afd3483618e01a0794da6f5712546f8746407d336200af7983003aca28d6e92c"
+    },
+    {
+      "path": "Data/Music/Battle/Battle_05.mp3",
+      "size": 3870720,
+      "sha256": "e0039530babfec712f8f9f3e19b1295c612239dbd1dad6d311c64a7d2e1c855e"
+    },
+    {
+      "path": "Data/Music/Battle/Battle_06.mp3",
+      "size": 4303935,
+      "sha256": "811771cca1438b7b9debafac18bb446f7aec19926a9b21f2464c7f2f9ca54c2e"
+    },
+    {
+      "path": "Data/Music/Battle/Battle_07.mp3",
+      "size": 4263184,
+      "sha256": "f0d117b86a3b88373f2b2c7cdc3046ef9547a2a901a9eb3d1721a0882ff4be76"
+    },
+    {
+      "path": "Data/Music/Battle/Finale/Battle_01.mp3",
+      "size": 120373,
+      "sha256": "24321751eeaedee5a609634ea2126f22914bb2521ac49b944980deea7dd9886f"
+    },
+    {
+      "path": "Data/Music/Battle/Finale/Battle_02.mp3",
+      "size": 104699,
+      "sha256": "2231933cdfa6f0364eac6edcb5f681b3f2c18206e6dc554a981bbb0583224b22"
+    },
+    {
+      "path": "Data/Music/Battle/Finale/Battle_03.mp3",
+      "size": 72098,
+      "sha256": "6c0ea71073f40a85e05e2458cb92d504c2f1d832d7924ff5926dd952550f632d"
+    },
+    {
+      "path": "Data/Music/Battle/Finale/Battle_04.mp3",
+      "size": 101565,
+      "sha256": "9183a6b37b8d5353af1a9f260e9e85e3621e71d0905fc2a8790f84b9fb2f2a65"
+    },
+    {
+      "path": "Data/Music/Battle/Finale/Battle_05.mp3",
+      "size": 107207,
+      "sha256": "005b06b9565e4278729c887a9e4be305ccd9874a13ea764988dea1af3b4aca25"
+    },
+    {
+      "path": "Data/Music/Battle/Finale/Battle_06.mp3",
+      "size": 179305,
+      "sha256": "bfa598221f3f12abaa239bf8c9d7ac1e47bff9ab2063629904e4194cfa96bb5e"
+    },
+    {
+      "path": "Data/Music/Battle/Finale/Battle_07.mp3",
+      "size": 142316,
+      "sha256": "7acbaee851ee275b8c5fd9660d425d466291818d172d3836f1e30d236b805d61"
+    },
+    {
+      "path": "Data/Music/Dungeon/Dungeon_01.mp3",
+      "size": 6020224,
+      "sha256": "6b114f9adf32f40069f9e02b37b27acb696d07a22815ccb839427206f4f19792"
+    },
+    {
+      "path": "Data/Music/Dungeon/Dungeon_02.mp3",
+      "size": 5751058,
+      "sha256": "06e48adb984c9f338ce0e848843a0df4f9f5c77dbc976cb39f524262ea9bd1ca"
+    },
+    {
+      "path": "Data/Music/Dungeon/Dungeon_03.mp3",
+      "size": 6117065,
+      "sha256": "0d9946d57d1f15a016d4007abdb708dc09bac71a2f2b9586690d793e90547f95"
+    },
+    {
+      "path": "Data/Music/Dungeon/Dungeon_04.mp3",
+      "size": 6049774,
+      "sha256": "c55e111b8feb8ab20e5581446400b46c010622c56839342d501940fb2f80ddc3"
+    },
+    {
+      "path": "Data/Music/Dungeon/Dungeon_05.mp3",
+      "size": 5512174,
+      "sha256": "f9de7d4f60d65ecf582454c86b302c1cd85f58bee1919aae7cc87f02e9cfb159"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_01.mp3",
+      "size": 840420,
+      "sha256": "6e00b5ca58e010b837b5a656b3bd91f358a920711ced2a1e1306489f41023ce8"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_02.mp3",
+      "size": 337212,
+      "sha256": "985a377f58176cfe8e5cc39354007c02b18cef8432ca21e7e572469199ed0bf6"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_03.mp3",
+      "size": 337212,
+      "sha256": "e404c67f664ccda730e550a31b93a007202cc98b6828db4924cf556714c491f9"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_04.mp3",
+      "size": 385236,
+      "sha256": "2181923b862fe770ef4797cd2389d01155972d80b281036560b0476f79b4435e"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_05.mp3",
+      "size": 385236,
+      "sha256": "a650dc8b406f18194257b39b5c97ce809791599ceefe73c45883b6aa0548b47e"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_06.mp3",
+      "size": 481284,
+      "sha256": "dfc59440a280c225027239cb1a0fc352e8a44be1fcf79e49132587f9fbda37bd"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_07.mp3",
+      "size": 481284,
+      "sha256": "ee0ff0a5a78db92712370dcf7069ff6d9ebd1bc71cabd4d5cd68772753e991c6"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_08.mp3",
+      "size": 1200600,
+      "sha256": "7b5ac9b892848cc4a77240a475be352cb9bcdf9d700cc23e7158174182437b57"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_09.mp3",
+      "size": 1152576,
+      "sha256": "e0cd8a457111e106a467cde177f9b44abd889f1ef268d56267d3bf8db1c17c1c"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_11.mp3",
+      "size": 1248624,
+      "sha256": "d65b1c24af33babc8c76d74d99cb0ed642f8d0eba7fd0a1bf80baf55198f5bb0"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_12.mp3",
+      "size": 1396872,
+      "sha256": "ad8820a6f05dae1cbb0b53ca912ea4ea115dff3477f554c02d7714fcf913a02f"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_14.mp3",
+      "size": 1396872,
+      "sha256": "106b778c9ba5c56db30736cba9ccac7a125a18c5388784ffa824c4e485c6723f"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_15.mp3",
+      "size": 1280988,
+      "sha256": "f8a313def35ae37d17533e110eac7efa87b5411ae1281a520bb067c4c0002545"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_17.mp3",
+      "size": 1200600,
+      "sha256": "5d66497a667a18bf4225986ada9b40231c40d88ddf091901d7d38195c6b4a90a"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_18.mp3",
+      "size": 1152576,
+      "sha256": "7a8717173d78a38b7a96e22678f7c4edadd772c73435a1c5735befa82d819730"
+    },
+    {
+      "path": "Data/Music/Endgame/Endgame_19.mp3",
+      "size": 481284,
+      "sha256": "ebc02f65d8d621b47507c7346d97e83b4dbe17f138bb1f55dddf3e90bc7e93ce"
+    },
+    {
+      "path": "Data/Music/Explore/Explore_01.mp3",
+      "size": 4950771,
+      "sha256": "bd76ca4e655f0510f559f96b3bc82dffd2fad1f000b98ef413a9c3414b801c0e"
+    },
+    {
+      "path": "Data/Music/Explore/Explore_02.mp3",
+      "size": 5835173,
+      "sha256": "6010ba66ffc9f0c8183cf4a723f25c4a2fb233ccf7bfd7d0b448475db4152898"
+    },
+    {
+      "path": "Data/Music/Explore/Explore_03.mp3",
+      "size": 5746962,
+      "sha256": "1e38fd416b5040688cd5aaed351b052b4ef36f4607d8e7bd7e396196b356e9a3"
+    },
+    {
+      "path": "Data/Music/Explore/Explore_04.mp3",
+      "size": 6855808,
+      "sha256": "397cfe32df3fd56d245481ffb75d40edd91a6fcb07d97c91495a43b1e870cf87"
+    },
+    {
+      "path": "Data/Music/Explore/Explore_05.mp3",
+      "size": 5780608,
+      "sha256": "b68908a26466432b0897306821b8a92405539209be7a3ed6ca4b61500aa6ca9f"
+    },
+    {
+      "path": "Data/Music/Explore/Explore_06.mp3",
+      "size": 4720768,
+      "sha256": "88355c3bbffe777a22dd0ebfad775d411b8ec931823ba205681715d0e0adc76f"
+    },
+    {
+      "path": "Data/Music/Explore/Explore_07.mp3",
+      "size": 5937865,
+      "sha256": "a8213d74031f6fa5a590f53f7924d3c918ae3884f9f2041ef9b81a7c6eb9a47e"
+    },
+    {
+      "path": "Data/Music/Public/Public_01.mp3",
+      "size": 4403328,
+      "sha256": "0bf7dd8b7596d5e841c9cafc8829ebaeae7edea073b4869788b0703a34f6361f"
+    },
+    {
+      "path": "Data/Music/Public/Public_02.mp3",
+      "size": 6577761,
+      "sha256": "a0b13208551e303483917a9a7e3c27931a0343eac65825542e2a36a7a324ce5e"
+    },
+    {
+      "path": "Data/Music/Public/Public_03.mp3",
+      "size": 5923237,
+      "sha256": "6047fdbe6b3f9d8a6dfe91005299d4a5712152c7b64fe91702479a68b9e4ab26"
+    },
+    {
+      "path": "Data/Music/Public/Public_04.mp3",
+      "size": 5858871,
+      "sha256": "a62545bcf8a46a75e2660e464975ee8f85872b52945155bb7a51f8a9ac4e2e84"
+    },
+    {
+      "path": "Data/Music/Public/Public_05.mp3",
+      "size": 5564105,
+      "sha256": "0f5cd65875c61f227b4d0acb4e18630967af746af5ff6e6f22f3f76ccb158f64"
+    },
+    {
+      "path": "Data/Music/Special/Death.mp3",
+      "size": 292572,
+      "sha256": "57f8265200e40186f2e809bbd23c930a38d95160981f5d9d280896b26b0fc23d"
+    },
+    {
+      "path": "Data/Music/Special/ExitTheVault.mp3",
+      "size": 1345957,
+      "sha256": "0fa6e848d7a8a04b5a2056649f5f5645aa8e22de9c3eb2e7c843d445771033b8"
+    },
+    {
+      "path": "Data/Music/Special/MainTitle.mp3",
+      "size": 5004061,
+      "sha256": "08cbe964ffe3306d5dc1788d3a27f2edc2ce3523aa487ecfdd7ebb65537677fe"
+    },
+    {
+      "path": "Data/Music/Special/Success.mp3",
+      "size": 448389,
+      "sha256": "70937db9e6e13be109bbaa72d606c351ef92e3ff5eecf25d18462ed594327654"
+    },
+    {
+      "path": "Data/Music/Tension/Tension_01.mp3",
+      "size": 3959746,
+      "sha256": "14d3fcc3408172fc679846c2fedad88d742d218f54c312b030e1201938b6d72d"
+    },
+    {
+      "path": "Data/Music/TranquilityLane/MUS_TranquilityLane_01_LP.mp3",
+      "size": 2467004,
+      "sha256": "275c65d4810f187a84275995a6e122a15bb5b64686b9e96c96c20a193e0de280"
+    },
+    {
+      "path": "Data/Music/TranquilityLane/MUS_TranquilityLane_02_LP.mp3",
+      "size": 2467004,
+      "sha256": "275c65d4810f187a84275995a6e122a15bb5b64686b9e96c96c20a193e0de280"
+    },
+    {
+      "path": "Data/PointLookout - Main.bsa",
+      "size": 578858213,
+      "sha256": "999199985f9ae88f1fb41fd54ad33ae3fc94476cad3a90aa56608b034a6703ae"
+    },
+    {
+      "path": "Data/PointLookout - Sounds.bsa",
+      "size": 33250919,
+      "sha256": "b142f78e1d22c472fc59016cc989f963fc18c7363bec39d94e3d0b2968087157"
+    },
+    {
+      "path": "Data/PointLookout.esm",
+      "size": 16729184,
+      "sha256": "56bd9366ec97b2d48b2ce2fce00fcbb7372c0b0df9ffaad8716af6d1b1e926d7"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage002.sdp",
+      "size": 1001568,
+      "sha256": "d4834aeb56cbfe9bd96bf8ddfa7ae88084ba4820b33d2156d182ee3aabcdc74e"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage003.sdp",
+      "size": 1332844,
+      "sha256": "7c17adb38ee7e7c771b975e401c9fc91f70298f06cc7fac8321dab93b3aeeaff"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage004.sdp",
+      "size": 1375792,
+      "sha256": "54ef0c9852561e96781ceb1ba78bbb8af3ea6c57fa09073269a5b915f80bdb30"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage006.sdp",
+      "size": 1346644,
+      "sha256": "e0c80f7f710ec0eb7ac27e633251381b24701e1e651bd1c5d69627b8575ef541"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage007.sdp",
+      "size": 1388744,
+      "sha256": "0ffa9a0abe6e6e913070f41c2f897b9464db57449ae0abef93000c20650c9f76"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage009.sdp",
+      "size": 1359440,
+      "sha256": "23603210e4d8a1f60e276ae8913bb7a0887711709bb0f61530c0619c97d6a078"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage010.sdp",
+      "size": 1337124,
+      "sha256": "423bc74cfcfbca4afa7704a01290911a401e73a4e5ec11423e0d34eb2ae0036e"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage011.sdp",
+      "size": 1337124,
+      "sha256": "423bc74cfcfbca4afa7704a01290911a401e73a4e5ec11423e0d34eb2ae0036e"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage012.sdp",
+      "size": 1380772,
+      "sha256": "5c125c320572e34f56904608ee31888a2401538417ef69218c3944b466864476"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage013.sdp",
+      "size": 1380772,
+      "sha256": "5c125c320572e34f56904608ee31888a2401538417ef69218c3944b466864476"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage014.sdp",
+      "size": 1351036,
+      "sha256": "c7fba4147e4cec6066629ae23bddccdc2ece9e5ef05ea0d3b65e1d06e165d7f2"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage015.sdp",
+      "size": 1351036,
+      "sha256": "c7fba4147e4cec6066629ae23bddccdc2ece9e5ef05ea0d3b65e1d06e165d7f2"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage016.sdp",
+      "size": 1393812,
+      "sha256": "ddcde4439d4f254c791f00a05fdb7e31caf6c3cc3cae0816646ad7be38d895fa"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage017.sdp",
+      "size": 1393812,
+      "sha256": "ddcde4439d4f254c791f00a05fdb7e31caf6c3cc3cae0816646ad7be38d895fa"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage018.sdp",
+      "size": 1367052,
+      "sha256": "31f7f53020692172f837207023f0f471a5097b453bf3ee35070081c774ada0c8"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage019.sdp",
+      "size": 1367052,
+      "sha256": "31f7f53020692172f837207023f0f471a5097b453bf3ee35070081c774ada0c8"
+    },
+    {
+      "path": "Data/ThePitt - Main.bsa",
+      "size": 647948003,
+      "sha256": "86c44fcc1f793d92321f3922aaa8342a94d012428d54b6ee2a8d5e24a77d0c13"
+    },
+    {
+      "path": "Data/ThePitt - Sounds.bsa",
+      "size": 24915213,
+      "sha256": "fcafcf32980c773616d88a4260234a4eeb571009b2e405ff7a48375c03611209"
+    },
+    {
+      "path": "Data/ThePitt.esm",
+      "size": 8728496,
+      "sha256": "cf747f11aee781b611e688c965cb363e82e952ac4d821d46c13b9f4ca042f724"
+    },
+    {
+      "path": "Data/Video/1 year later.bik",
+      "size": 3090848,
+      "sha256": "5389afeb11dd734ee06222a23a72b9921a8eca172ffd065be40031fb2c7f5ae2"
+    },
+    {
+      "path": "Data/Video/2 weeks later.bik",
+      "size": 2101488,
+      "sha256": "9535fcdb456868fc3e21e03296588f035b562797e32f6be35a09a28a57883983"
+    },
+    {
+      "path": "Data/Video/3 years later.bik",
+      "size": 3606124,
+      "sha256": "d527ae616e115de80a773acd47251dceebe470d61fb25b3b15515da5b08cbb80"
+    },
+    {
+      "path": "Data/Video/6 years later.bik",
+      "size": 3094896,
+      "sha256": "a95d9d39c5b2228590f959bcb8c8d2eb3d4d5be11c82c15325b69f44cfd9c488"
+    },
+    {
+      "path": "Data/Video/9 years later.bik",
+      "size": 3426348,
+      "sha256": "cdc8886f93c58d344202962eedf84d130f3f189f8c170e07c897d8c5e873bb52"
+    },
+    {
+      "path": "Data/Video/B01.bik",
+      "size": 27032008,
+      "sha256": "59bbbc34d5cb1a639e44179c75c8477cea75fb14d8d7f6f15d51c817802aff66"
+    },
+    {
+      "path": "Data/Video/B02.bik",
+      "size": 11329272,
+      "sha256": "0b77d686be160b99e93e0fc9f90d5b7fb62654057e04ba5631e420f81f1360fb"
+    },
+    {
+      "path": "Data/Video/B03.bik",
+      "size": 11328528,
+      "sha256": "2d8b9c50beaeeeb69cb8f0b0a498ec9fc3c4bdc26d1e3f2c1ef38f8daf5d6962"
+    },
+    {
+      "path": "Data/Video/B04.bik",
+      "size": 10824760,
+      "sha256": "94377fff73935a73dca4c13a02302a9966064211da5ce4d3411e0790a6337211"
+    },
+    {
+      "path": "Data/Video/B05.bik",
+      "size": 12628628,
+      "sha256": "a07947a8449631aedaa88e4aef1c0b6bf28f7720d204ca995fd098d69e58b776"
+    },
+    {
+      "path": "Data/Video/B06.bik",
+      "size": 12022424,
+      "sha256": "0418337798bd7083b90a2d3ecee2e321e71f36d4d0405ccced77b7f435599201"
+    },
+    {
+      "path": "Data/Video/B07.bik",
+      "size": 12473860,
+      "sha256": "ad33581f12e5daea9ea2c24ff3f5f67b98f7000875523242c5781389430c958e"
+    },
+    {
+      "path": "Data/Video/B08.bik",
+      "size": 20809964,
+      "sha256": "133a994d277a212bd66e8d722bda1f32e61ad7e31e4d65e5c5ee6a31dd1ba5d9"
+    },
+    {
+      "path": "Data/Video/B09.bik",
+      "size": 41167272,
+      "sha256": "f88240055e1e57995971e54bcef0d7a3af5887c18669194449081b0820addd47"
+    },
+    {
+      "path": "Data/Video/B10.bik",
+      "size": 40367752,
+      "sha256": "8b81af70050f24e066b822903ee3c223456173eede92c5e4b0ab2f7c018978e9"
+    },
+    {
+      "path": "Data/Video/B11.bik",
+      "size": 23029160,
+      "sha256": "7671b436c58cddd4a41573e90d2d88840eb6852fe31251a43c782292a087735a"
+    },
+    {
+      "path": "Data/Video/B12.bik",
+      "size": 43907220,
+      "sha256": "e30b546c3f2062af9221bd3aed9ce1bf40d9bf26d83bcb7b16643c29500681f1"
+    },
+    {
+      "path": "Data/Video/B13.bik",
+      "size": 43906968,
+      "sha256": "761b6b7f31ab5bacf5b7f3c74007dbd8b9cf9c3137ad5abced307986605310ca"
+    },
+    {
+      "path": "Data/Video/B14.bik",
+      "size": 47350948,
+      "sha256": "ba946a8d0262ec2ac0b3b0e7356d963d8aabed279f059676bedde988333b4064"
+    },
+    {
+      "path": "Data/Video/B15.bik",
+      "size": 41550464,
+      "sha256": "4eac8d47ed2ba1f1cf39627ebbb28a18ab598e6ed1da15bcb9cd34289d793ac0"
+    },
+    {
+      "path": "Data/Video/B16.bik",
+      "size": 41550720,
+      "sha256": "0a969b547ecf60061946e8a9aa860dd0da6a5e177e19d2a72d5da1abf12029c7"
+    },
+    {
+      "path": "Data/Video/B17.bik",
+      "size": 41032024,
+      "sha256": "6383b23eae5eec4858c8540ad78aa3a0a39baf4aa17019dd8666e430b3520b81"
+    },
+    {
+      "path": "Data/Video/B18.bik",
+      "size": 39353508,
+      "sha256": "3ed9e61bfa5a4f94e76d13c77dc43cffda9808bf07c546ba7637a127552c01e7"
+    },
+    {
+      "path": "Data/Video/B19.bik",
+      "size": 10375640,
+      "sha256": "a2e893853a75e8b2bc12a707c4b405a66972877baf2295cccfb2164cf617f0cd"
+    },
+    {
+      "path": "Data/Video/B20.bik",
+      "size": 10375144,
+      "sha256": "582596c53a3b53434eaf899fb751d88d17800988d9ce785a330d00b4db19cb08"
+    },
+    {
+      "path": "Data/Video/B21.bik",
+      "size": 10375452,
+      "sha256": "c3bb5d53e8ff128d4bef4b5a961db1e932a0748b0ee625ceb271a4883309ccac"
+    },
+    {
+      "path": "Data/Video/B22.bik",
+      "size": 10375560,
+      "sha256": "c271139bf40001c5ec7d2dd5e9b0012449b6627d5e71f3cd705a5f52421a6e99"
+    },
+    {
+      "path": "Data/Video/B23.bik",
+      "size": 10375144,
+      "sha256": "c664d5f50cb3708bce1513df1da1f859205372d123c50716d35a0d506d066f84"
+    },
+    {
+      "path": "Data/Video/B24.bik",
+      "size": 10375508,
+      "sha256": "143b7a077817e87937c2545c0f1daeb4db770d94ab980c4f127b86af90a395da"
+    },
+    {
+      "path": "Data/Video/B25.bik",
+      "size": 10377020,
+      "sha256": "747cff8cbcab49320b9c066a94f081f32d2bda750710e22dd8c789b1880148a8"
+    },
+    {
+      "path": "Data/Video/B26.bik",
+      "size": 10376684,
+      "sha256": "0cdc14ee1aa875460aa3a3a4d89e989ee734fe221928773bbcf492670f937c5a"
+    },
+    {
+      "path": "Data/Video/B27.bik",
+      "size": 41150312,
+      "sha256": "8c916a5988094d0bded921e977cae107ed5c10450b825de36385cfd4a0a785f6"
+    },
+    {
+      "path": "Data/Video/B28.bik",
+      "size": 41150192,
+      "sha256": "38e4886fd86bf959120a90df2c54e856431213b931075d8ac4ee365a4498d041"
+    },
+    {
+      "path": "Data/Video/B29.bik",
+      "size": 41150320,
+      "sha256": "d2ca7b0d7c74087a69b20f0743890566eca16ef0b7e48d0ab1442a4596fbfa58"
+    },
+    {
+      "path": "Data/Video/Fallout INTRO Vsk.bik",
+      "size": 330884112,
+      "sha256": "718f40cc34aed31d11a88043e1e08836da3f0b374e173cace7d146f63941b612"
+    },
+    {
+      "path": "Data/Zeta - Main.bsa",
+      "size": 495761599,
+      "sha256": "148e845ca7cee64bcc2d086f4d1d31f69a5b0cf1ffc287c083342175c48bb8ce"
+    },
+    {
+      "path": "Data/Zeta - Sounds.bsa",
+      "size": 52368718,
+      "sha256": "84736a53183ed403b1f95cbefb36c2fd2a4d43a043d9972515d05a3d627153c4"
+    },
+    {
+      "path": "Data/Zeta.esm",
+      "size": 4950331,
+      "sha256": "e34bbf1123603b86696f4730cdfabd06b4ef3abc1e7aa1d5acb6c851202bed05"
+    },
+    {
+      "path": "EULA.txt",
+      "size": 56022,
+      "sha256": "5cdb063b9cbaba3766baf242d8db93c9076a681c5f9c4f4f1ddd1bfe1b37261e"
+    },
+    {
+      "path": "ExitData.mhd",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "F3icon.ico",
+      "size": 3262,
+      "sha256": "cd53774ad63fd0811a6837670927a895075a90a568aff02ff494bddd9c550292"
+    },
+    {
+      "path": "Fallout3.exe",
+      "size": 15044024,
+      "sha256": "df9f0e1ec2c5413a9cef2db2dde6d926b99707d528049af4eb15538587d55f99"
+    },
+    {
+      "path": "Fallout_default.ini",
+      "size": 20327,
+      "sha256": "89de095a4bd65f5b0df2042dd141c0b99216a270b1946f8a64e77f3e4f8285f0"
+    },
+    {
+      "path": "FalloutLauncher.exe",
+      "size": 1540608,
+      "sha256": "5e6a429f0f3dd5415c19fd0323eb76f5d32a9a3b039c99afe3912a00a5c5783b"
+    },
+    {
+      "path": "GECK.exe",
+      "size": 13881344,
+      "sha256": "85d348cb084c02acd0b1359a416ce48b84e204e5969110fc9083f725934c4c4c"
+    },
+    {
+      "path": "GECKicon.ico",
+      "size": 300318,
+      "sha256": "2fea46d702b764a11054a360c497d1441d8a95173e40cf36996052ad4c6652ac"
+    },
+    {
+      "path": "GECKReadme.txt",
+      "size": 2482,
+      "sha256": "b0641e570eed572296e9b4689ec676e81476643ebebd6a98ea54420c1b753ca3"
+    },
+    {
+      "path": "gog.ico",
+      "size": 69248,
+      "sha256": "f6a71321521ba89713f0bd38b21f809e87e8a789cb172e8e4693f9479e30b1e4"
+    },
+    {
+      "path": "goggame-1454315831.hashdb",
+      "size": 1623,
+      "sha256": "6d2a6b95a5541b845eb238660172a487bed0bf6f392fda88ca811d74fff00942"
+    },
+    {
+      "path": "goggame-1454315831.ico",
+      "size": 82519,
+      "sha256": "0e101fd356c61a0e12446371b94297d22b50a4dbbdcae15925c77fc24917a7ff"
+    },
+    {
+      "path": "goggame-1454315831.info",
+      "size": 1354,
+      "sha256": "1e7aac66e760ba80a7c052d9f0db84e38fc304afa57b95bda81c6b46ebd4bec8"
+    },
+    {
+      "path": "goggame-1454315831.script",
+      "size": 1313,
+      "sha256": "6a1dc76e5e7a84c78ae910215363e0784bf1bc2d3cf9564cc8bc2603e41c6946"
+    },
+    {
+      "path": "goglog.ini",
+      "size": 301,
+      "sha256": "b76514c387960cadce0996cb6502cea2fb6bf53dfec3067d2e6e3a0c20ff75b8"
+    },
+    {
+      "path": "high.ini",
+      "size": 1116,
+      "sha256": "5c317777a65472e970b20364c2eeed4a2850fe485945015fdbb6c3d13aa3bc71"
+    },
+    {
+      "path": "Launch Fallout 3.lnk",
+      "size": 817,
+      "sha256": "56a1d55b5810132708995ed5f8f4af079bf65ea60cc12da8e8a5b21468844319"
+    },
+    {
+      "path": "libvorbis.dll",
+      "size": 1241528,
+      "sha256": "a34f3b4ee26cf093d096c574aba26c6e9fe0ce3dbfa073f92378fe1dffa01f0d"
+    },
+    {
+      "path": "libvorbisfile.dll",
+      "size": 120248,
+      "sha256": "6fc78d8abf8683a91d25166732085d5f934003150087b3d435bbc19e532a7994"
+    },
+    {
+      "path": "low.ini",
+      "size": 1103,
+      "sha256": "af227744e7e8e523dbe41ffaeae2ca5ace346c75d7c5e4c434eb6963f0ea3b67"
+    },
+    {
+      "path": "MainTitle.wav",
+      "size": 5212104,
+      "sha256": "da91cec168ff841265d4c6620c4a55bb12341697c3d40125e3c16fa739575124"
+    },
+    {
+      "path": "medium.ini",
+      "size": 1115,
+      "sha256": "a4023fa88e0381c896eab87e04f18955542201609e1ce97524cb2a93d1d0991d"
+    },
+    {
+      "path": "Readme.txt",
+      "size": 4249,
+      "sha256": "667791db5427a08bbb45930e46d3b2c83e443d60b4cec4cce304f7fa7283ae59"
+    },
+    {
+      "path": "ssce5432.dll",
+      "size": 212992,
+      "sha256": "85cc9596032518ebfb4bf4e4f879553c0b1a25b24bc9b6104f57637c22439059"
+    },
+    {
+      "path": "support.ico",
+      "size": 62895,
+      "sha256": "05fe749ef47d1ec862d6c55be78e66d1011226bf1f78409acf57cb79cec5eb20"
+    },
+    {
+      "path": "unins000.dat",
+      "size": 1577164,
+      "sha256": "423118a1b13b8d8e772f726e6b032529fda50f5da6d4add19a5fc2e019d1b63f"
+    },
+    {
+      "path": "unins000.exe",
+      "size": 1259104,
+      "sha256": "2dc9ea60914a797288f79cf70cd2549daf1bfd6a09cb67c4a847d2cc67635f37"
+    },
+    {
+      "path": "unins000.ini",
+      "size": 41,
+      "sha256": "162abe9fe4c07e8a1ac1a2d1f8b488744f158864e8e8390a0382be1a860d2b54"
+    },
+    {
+      "path": "unins000.msg",
+      "size": 23077,
+      "sha256": "a7433647dfdf59ad56bfb900009803fab135ca83c68ad79141583ee5451afcee"
+    },
+    {
+      "path": "VeryHigh.ini",
+      "size": 1134,
+      "sha256": "6f0dbf1f5238cc6822ccf7e1ef37bab5fed233505df18502f9a2a2ae526340d5"
+    },
+    {
+      "path": "webcache.zip",
+      "size": 269597,
+      "sha256": "f7408c22f1a7c82cd538a884871491036e18af042332d8018a2e23b786486856"
+    },
+    {
+      "path": "xlive.dll",
+      "size": 27136,
+      "sha256": "e7746f234df02d763b3df00470e62e9c84dae66e1cf9a5880480b26771de656e"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "atimgpud.dll",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 165304
+        },
+        {
+          "file": "binkw32.dll",
+          "file_offset": 0,
+          "chunk_offset": 165304,
+          "length": 338944
+        },
+        {
+          "file": "Data/Anchorage - Main.bsa",
+          "file_offset": 0,
+          "chunk_offset": 504248,
+          "length": 229677236
+        }
+      ],
+      "sha256": "a1a6ddb73f66cd9aea706550e926c0f345fb08e8a7c17df9782d027a4ea5232a"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Anchorage - Main.bsa",
+          "file_offset": 229677236,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "4bb0c30a44b6dca693c9460f7ab1be9471a88feac7c8de426fcef43345f600d9"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Anchorage - Main.bsa",
+          "file_offset": 459858720,
+          "chunk_offset": 0,
+          "length": 85360314
+        },
+        {
+          "file": "Data/Anchorage - Sounds.bsa",
+          "file_offset": 0,
+          "chunk_offset": 85360314,
+          "length": 35012678
+        },
+        {
+          "file": "Data/Anchorage.esm",
+          "file_offset": 0,
+          "chunk_offset": 120372992,
+          "length": 13880961
+        },
+        {
+          "file": "Data/BrokenSteel - Main.bsa",
+          "file_offset": 0,
+          "chunk_offset": 134253953,
+          "length": 95927531
+        }
+      ],
+      "sha256": "6a91a6f4a39ca84de44eafeb4fecfb5fe0c7d8d87bc0b5f9ea041ff971839276"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/BrokenSteel - Main.bsa",
+          "file_offset": 95927531,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "8854688adae948f6313e23c14e995113e3710e3a4e42d073ffa8834ce48fbe0e"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/BrokenSteel - Main.bsa",
+          "file_offset": 326109015,
+          "chunk_offset": 0,
+          "length": 202041065
+        },
+        {
+          "file": "Data/BrokenSteel - Sounds.bsa",
+          "file_offset": 0,
+          "chunk_offset": 202041065,
+          "length": 28140419
+        }
+      ],
+      "sha256": "54b202d40b110e7a12728116f90dff836b6ffda261ff66dee2259f8b9f194e7e"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/BrokenSteel - Sounds.bsa",
+          "file_offset": 28140419,
+          "chunk_offset": 0,
+          "length": 7386918
+        },
+        {
+          "file": "Data/BrokenSteel.esm",
+          "file_offset": 0,
+          "chunk_offset": 7386918,
+          "length": 11015915
+        },
+        {
+          "file": "Data/Credits.txt",
+          "file_offset": 0,
+          "chunk_offset": 18402833,
+          "length": 27662
+        },
+        {
+          "file": "Data/DLCList.txt",
+          "file_offset": 0,
+          "chunk_offset": 18430495,
+          "length": 71
+        },
+        {
+          "file": "Data/Fallout - MenuVoices.bsa",
+          "file_offset": 0,
+          "chunk_offset": 18430566,
+          "length": 211750918
+        }
+      ],
+      "sha256": "5e99fed68d2e21289870b7dbedbb2c544e8d410a5ad59f07c49d04c472bb4cd5"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - MenuVoices.bsa",
+          "file_offset": 211750918,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "236566747830dbc76ea8eb510aff3f606f36b2976350595bd7d23a92ff0fd057"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - MenuVoices.bsa",
+          "file_offset": 441932402,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "d1e796c264b32f5646e12b3483dd8a75c9e028409692599303f340225d74537b"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - MenuVoices.bsa",
+          "file_offset": 672113886,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "a6a4470abf56229f3d349f59272e162cd22da7b6dd9a1ca9dd537a7bee8f718c"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - MenuVoices.bsa",
+          "file_offset": 902295370,
+          "chunk_offset": 0,
+          "length": 169836733
+        },
+        {
+          "file": "Data/Fallout - Meshes.bsa",
+          "file_offset": 0,
+          "chunk_offset": 169836733,
+          "length": 60344751
+        }
+      ],
+      "sha256": "353bc45ec0eb88368f3da7a9f9bd0545ea7d4d9d9dfb13790418159bf9444d72"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Meshes.bsa",
+          "file_offset": 60344751,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "49fb3b1e14c91b9464ebdd32a90fb4246ca129d5e29b7effd4fc2d5e346c41ee"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Meshes.bsa",
+          "file_offset": 290526235,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "3c2d9d1a6f98a4149c3210443f7f728f91e62313dd45c226fbfe92100584ca36"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Meshes.bsa",
+          "file_offset": 520707719,
+          "chunk_offset": 0,
+          "length": 227863668
+        },
+        {
+          "file": "Data/Fallout - Misc.bsa",
+          "file_offset": 0,
+          "chunk_offset": 227863668,
+          "length": 1793843
+        },
+        {
+          "file": "Data/Fallout - Sound.bsa",
+          "file_offset": 0,
+          "chunk_offset": 229657511,
+          "length": 523973
+        }
+      ],
+      "sha256": "a93e0b53509d41333b7a729da3eb3465dda509d4759adcf85e844da02219ace2"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Sound.bsa",
+          "file_offset": 523973,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "7eaeef571e0122ea11ddc9f37bd640fc4ce9abe42637151f420e7f9519df2881"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Sound.bsa",
+          "file_offset": 230705457,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "02f1d79126752fb646052314391d7cde55d36f8a7366533a05b02a21999d71a2"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Sound.bsa",
+          "file_offset": 460886941,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "81fb8492c8c070d9654877fe3b2d8b7f693e585130c2aaeafcc3365ba59ff38f"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Sound.bsa",
+          "file_offset": 691068425,
+          "chunk_offset": 0,
+          "length": 164921187
+        },
+        {
+          "file": "Data/Fallout - Textures.bsa",
+          "file_offset": 0,
+          "chunk_offset": 164921187,
+          "length": 65260297
+        }
+      ],
+      "sha256": "08e629ba1f9949e092e3223a10bcf4023eea49e81d45046642fd9e91729913b9"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Textures.bsa",
+          "file_offset": 65260297,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "ea4df3778e64c8d3a0e87d9b52967f447bc14bd972ad95aac5682b1323e5e0f3"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Textures.bsa",
+          "file_offset": 295441781,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "608654c426825843962ce9a4f84d61eb6227c1b1150aa1a84ef6f8c51ca8811d"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Textures.bsa",
+          "file_offset": 525623265,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "7a344889f2ef07ce99becf1077bc1bdc0e4a4a7930493b38547c704f120f1248"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Textures.bsa",
+          "file_offset": 755804749,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "6029d40728a81312dcb5cec5644e313034ebe7f8509ca142680f291860e0c157"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Textures.bsa",
+          "file_offset": 985986233,
+          "chunk_offset": 0,
+          "length": 134271247
+        },
+        {
+          "file": "Data/Fallout - Voices.bsa",
+          "file_offset": 0,
+          "chunk_offset": 134271247,
+          "length": 95910237
+        }
+      ],
+      "sha256": "5d06e02e9448434a51f67fbf5692d41800bd56bc2f8dff94b907c17a21929e5e"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Voices.bsa",
+          "file_offset": 95910237,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "790730273ab049103ee66911251c64c96cc82dff78cbf6ead90d6a23b7551d67"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Voices.bsa",
+          "file_offset": 326091721,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "01f3aa7e40632582c160a13c79a6c15a89be8f6a9f20b4e2160a1bc9852c0a93"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout - Voices.bsa",
+          "file_offset": 556273205,
+          "chunk_offset": 0,
+          "length": 219267689
+        },
+        {
+          "file": "Data/Fallout3.esm",
+          "file_offset": 0,
+          "chunk_offset": 219267689,
+          "length": 10913795
+        }
+      ],
+      "sha256": "095e7a6e04cded3cef296e4ac396d0b2851b9118b95755af018c74906c86049d"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout3.esm",
+          "file_offset": 10913795,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "5ef172cb3809e19852202d97c60a892445e54d11085f242d1385ff5db1504aed"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Fallout3.esm",
+          "file_offset": 241095279,
+          "chunk_offset": 0,
+          "length": 47675983
+        },
+        {
+          "file": "Data/Music/Base/Base_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 47675983,
+          "length": 3801446
+        },
+        {
+          "file": "Data/Music/Base/Base_02.mp3",
+          "file_offset": 0,
+          "chunk_offset": 51477429,
+          "length": 3911160
+        },
+        {
+          "file": "Data/Music/Base/Base_03.mp3",
+          "file_offset": 0,
+          "chunk_offset": 55388589,
+          "length": 4019830
+        },
+        {
+          "file": "Data/Music/Base/Base_04.mp3",
+          "file_offset": 0,
+          "chunk_offset": 59408419,
+          "length": 4138948
+        },
+        {
+          "file": "Data/Music/Battle/Battle_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 63547367,
+          "length": 5211116
+        },
+        {
+          "file": "Data/Music/Battle/Battle_02.mp3",
+          "file_offset": 0,
+          "chunk_offset": 68758483,
+          "length": 4934009
+        },
+        {
+          "file": "Data/Music/Battle/Battle_03.mp3",
+          "file_offset": 0,
+          "chunk_offset": 73692492,
+          "length": 2937836
+        },
+        {
+          "file": "Data/Music/Battle/Battle_04.mp3",
+          "file_offset": 0,
+          "chunk_offset": 76630328,
+          "length": 4974133
+        },
+        {
+          "file": "Data/Music/Battle/Battle_05.mp3",
+          "file_offset": 0,
+          "chunk_offset": 81604461,
+          "length": 3870720
+        },
+        {
+          "file": "Data/Music/Battle/Battle_06.mp3",
+          "file_offset": 0,
+          "chunk_offset": 85475181,
+          "length": 4303935
+        },
+        {
+          "file": "Data/Music/Battle/Battle_07.mp3",
+          "file_offset": 0,
+          "chunk_offset": 89779116,
+          "length": 4263184
+        },
+        {
+          "file": "Data/Music/Battle/Finale/Battle_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 94042300,
+          "length": 120373
+        },
+        {
+          "file": "Data/Music/Battle/Finale/Battle_02.mp3",
+          "file_offset": 0,
+          "chunk_offset": 94162673,
+          "length": 104699
+        },
+        {
+          "file": "Data/Music/Battle/Finale/Battle_03.mp3",
+          "file_offset": 0,
+          "chunk_offset": 94267372,
+          "length": 72098
+        },
+        {
+          "file": "Data/Music/Battle/Finale/Battle_04.mp3",
+          "file_offset": 0,
+          "chunk_offset": 94339470,
+          "length": 101565
+        },
+        {
+          "file": "Data/Music/Battle/Finale/Battle_05.mp3",
+          "file_offset": 0,
+          "chunk_offset": 94441035,
+          "length": 107207
+        },
+        {
+          "file": "Data/Music/Battle/Finale/Battle_06.mp3",
+          "file_offset": 0,
+          "chunk_offset": 94548242,
+          "length": 179305
+        },
+        {
+          "file": "Data/Music/Battle/Finale/Battle_07.mp3",
+          "file_offset": 0,
+          "chunk_offset": 94727547,
+          "length": 142316
+        },
+        {
+          "file": "Data/Music/Dungeon/Dungeon_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 94869863,
+          "length": 6020224
+        },
+        {
+          "file": "Data/Music/Dungeon/Dungeon_02.mp3",
+          "file_offset": 0,
+          "chunk_offset": 100890087,
+          "length": 5751058
+        },
+        {
+          "file": "Data/Music/Dungeon/Dungeon_03.mp3",
+          "file_offset": 0,
+          "chunk_offset": 106641145,
+          "length": 6117065
+        },
+        {
+          "file": "Data/Music/Dungeon/Dungeon_04.mp3",
+          "file_offset": 0,
+          "chunk_offset": 112758210,
+          "length": 6049774
+        },
+        {
+          "file": "Data/Music/Dungeon/Dungeon_05.mp3",
+          "file_offset": 0,
+          "chunk_offset": 118807984,
+          "length": 5512174
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 124320158,
+          "length": 840420
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_02.mp3",
+          "file_offset": 0,
+          "chunk_offset": 125160578,
+          "length": 337212
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_03.mp3",
+          "file_offset": 0,
+          "chunk_offset": 125497790,
+          "length": 337212
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_04.mp3",
+          "file_offset": 0,
+          "chunk_offset": 125835002,
+          "length": 385236
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_05.mp3",
+          "file_offset": 0,
+          "chunk_offset": 126220238,
+          "length": 385236
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_06.mp3",
+          "file_offset": 0,
+          "chunk_offset": 126605474,
+          "length": 481284
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_07.mp3",
+          "file_offset": 0,
+          "chunk_offset": 127086758,
+          "length": 481284
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_08.mp3",
+          "file_offset": 0,
+          "chunk_offset": 127568042,
+          "length": 1200600
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_09.mp3",
+          "file_offset": 0,
+          "chunk_offset": 128768642,
+          "length": 1152576
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_11.mp3",
+          "file_offset": 0,
+          "chunk_offset": 129921218,
+          "length": 1248624
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_12.mp3",
+          "file_offset": 0,
+          "chunk_offset": 131169842,
+          "length": 1396872
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_14.mp3",
+          "file_offset": 0,
+          "chunk_offset": 132566714,
+          "length": 1396872
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_15.mp3",
+          "file_offset": 0,
+          "chunk_offset": 133963586,
+          "length": 1280988
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_17.mp3",
+          "file_offset": 0,
+          "chunk_offset": 135244574,
+          "length": 1200600
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_18.mp3",
+          "file_offset": 0,
+          "chunk_offset": 136445174,
+          "length": 1152576
+        },
+        {
+          "file": "Data/Music/Endgame/Endgame_19.mp3",
+          "file_offset": 0,
+          "chunk_offset": 137597750,
+          "length": 481284
+        },
+        {
+          "file": "Data/Music/Explore/Explore_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 138079034,
+          "length": 4950771
+        },
+        {
+          "file": "Data/Music/Explore/Explore_02.mp3",
+          "file_offset": 0,
+          "chunk_offset": 143029805,
+          "length": 5835173
+        },
+        {
+          "file": "Data/Music/Explore/Explore_03.mp3",
+          "file_offset": 0,
+          "chunk_offset": 148864978,
+          "length": 5746962
+        },
+        {
+          "file": "Data/Music/Explore/Explore_04.mp3",
+          "file_offset": 0,
+          "chunk_offset": 154611940,
+          "length": 6855808
+        },
+        {
+          "file": "Data/Music/Explore/Explore_05.mp3",
+          "file_offset": 0,
+          "chunk_offset": 161467748,
+          "length": 5780608
+        },
+        {
+          "file": "Data/Music/Explore/Explore_06.mp3",
+          "file_offset": 0,
+          "chunk_offset": 167248356,
+          "length": 4720768
+        },
+        {
+          "file": "Data/Music/Explore/Explore_07.mp3",
+          "file_offset": 0,
+          "chunk_offset": 171969124,
+          "length": 5937865
+        },
+        {
+          "file": "Data/Music/Public/Public_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 177906989,
+          "length": 4403328
+        },
+        {
+          "file": "Data/Music/Public/Public_02.mp3",
+          "file_offset": 0,
+          "chunk_offset": 182310317,
+          "length": 6577761
+        },
+        {
+          "file": "Data/Music/Public/Public_03.mp3",
+          "file_offset": 0,
+          "chunk_offset": 188888078,
+          "length": 5923237
+        },
+        {
+          "file": "Data/Music/Public/Public_04.mp3",
+          "file_offset": 0,
+          "chunk_offset": 194811315,
+          "length": 5858871
+        },
+        {
+          "file": "Data/Music/Public/Public_05.mp3",
+          "file_offset": 0,
+          "chunk_offset": 200670186,
+          "length": 5564105
+        },
+        {
+          "file": "Data/Music/Special/Death.mp3",
+          "file_offset": 0,
+          "chunk_offset": 206234291,
+          "length": 292572
+        },
+        {
+          "file": "Data/Music/Special/ExitTheVault.mp3",
+          "file_offset": 0,
+          "chunk_offset": 206526863,
+          "length": 1345957
+        },
+        {
+          "file": "Data/Music/Special/MainTitle.mp3",
+          "file_offset": 0,
+          "chunk_offset": 207872820,
+          "length": 5004061
+        },
+        {
+          "file": "Data/Music/Special/Success.mp3",
+          "file_offset": 0,
+          "chunk_offset": 212876881,
+          "length": 448389
+        },
+        {
+          "file": "Data/Music/Tension/Tension_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 213325270,
+          "length": 3959746
+        },
+        {
+          "file": "Data/Music/TranquilityLane/MUS_TranquilityLane_01_LP.mp3",
+          "file_offset": 0,
+          "chunk_offset": 217285016,
+          "length": 2467004
+        },
+        {
+          "file": "Data/Music/TranquilityLane/MUS_TranquilityLane_02_LP.mp3",
+          "file_offset": 0,
+          "chunk_offset": 219752020,
+          "length": 2467004
+        },
+        {
+          "file": "Data/PointLookout - Main.bsa",
+          "file_offset": 0,
+          "chunk_offset": 222219024,
+          "length": 7962460
+        }
+      ],
+      "sha256": "f7652a2b0f0c9dac54efe1feb52aff0772d7d22dd62dabf814726ea2b02a1a56"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/PointLookout - Main.bsa",
+          "file_offset": 7962460,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "e9f8efb3458b11f5f39694cc08eb5d3297d5fa6dd455e9b0943ba3f131c62184"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/PointLookout - Main.bsa",
+          "file_offset": 238143944,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "b4bdfb046fc79cbfaf85c3f9d907b5fa05f748c15ed7a4192e81ade9a3b0143c"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/PointLookout - Main.bsa",
+          "file_offset": 468325428,
+          "chunk_offset": 0,
+          "length": 110532785
+        },
+        {
+          "file": "Data/PointLookout - Sounds.bsa",
+          "file_offset": 0,
+          "chunk_offset": 110532785,
+          "length": 33250919
+        },
+        {
+          "file": "Data/PointLookout.esm",
+          "file_offset": 0,
+          "chunk_offset": 143783704,
+          "length": 16729184
+        },
+        {
+          "file": "Data/Shaders/shaderpackage002.sdp",
+          "file_offset": 0,
+          "chunk_offset": 160512888,
+          "length": 1001568
+        },
+        {
+          "file": "Data/Shaders/shaderpackage003.sdp",
+          "file_offset": 0,
+          "chunk_offset": 161514456,
+          "length": 1332844
+        },
+        {
+          "file": "Data/Shaders/shaderpackage004.sdp",
+          "file_offset": 0,
+          "chunk_offset": 162847300,
+          "length": 1375792
+        },
+        {
+          "file": "Data/Shaders/shaderpackage006.sdp",
+          "file_offset": 0,
+          "chunk_offset": 164223092,
+          "length": 1346644
+        },
+        {
+          "file": "Data/Shaders/shaderpackage007.sdp",
+          "file_offset": 0,
+          "chunk_offset": 165569736,
+          "length": 1388744
+        },
+        {
+          "file": "Data/Shaders/shaderpackage009.sdp",
+          "file_offset": 0,
+          "chunk_offset": 166958480,
+          "length": 1359440
+        },
+        {
+          "file": "Data/Shaders/shaderpackage010.sdp",
+          "file_offset": 0,
+          "chunk_offset": 168317920,
+          "length": 1337124
+        },
+        {
+          "file": "Data/Shaders/shaderpackage011.sdp",
+          "file_offset": 0,
+          "chunk_offset": 169655044,
+          "length": 1337124
+        },
+        {
+          "file": "Data/Shaders/shaderpackage012.sdp",
+          "file_offset": 0,
+          "chunk_offset": 170992168,
+          "length": 1380772
+        },
+        {
+          "file": "Data/Shaders/shaderpackage013.sdp",
+          "file_offset": 0,
+          "chunk_offset": 172372940,
+          "length": 1380772
+        },
+        {
+          "file": "Data/Shaders/shaderpackage014.sdp",
+          "file_offset": 0,
+          "chunk_offset": 173753712,
+          "length": 1351036
+        },
+        {
+          "file": "Data/Shaders/shaderpackage015.sdp",
+          "file_offset": 0,
+          "chunk_offset": 175104748,
+          "length": 1351036
+        },
+        {
+          "file": "Data/Shaders/shaderpackage016.sdp",
+          "file_offset": 0,
+          "chunk_offset": 176455784,
+          "length": 1393812
+        },
+        {
+          "file": "Data/Shaders/shaderpackage017.sdp",
+          "file_offset": 0,
+          "chunk_offset": 177849596,
+          "length": 1393812
+        },
+        {
+          "file": "Data/Shaders/shaderpackage018.sdp",
+          "file_offset": 0,
+          "chunk_offset": 179243408,
+          "length": 1367052
+        },
+        {
+          "file": "Data/Shaders/shaderpackage019.sdp",
+          "file_offset": 0,
+          "chunk_offset": 180610460,
+          "length": 1367052
+        },
+        {
+          "file": "Data/ThePitt - Main.bsa",
+          "file_offset": 0,
+          "chunk_offset": 181977512,
+          "length": 48203972
+        }
+      ],
+      "sha256": "8dc8f8c2d8e6688509500fcedafe15ede0226d8af2ada394a3bf65aae9fcf35e"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/ThePitt - Main.bsa",
+          "file_offset": 48203972,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "63936230b76a59c973379c5aec8e6012c765e30b9f7f77025252981146a5cd61"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/ThePitt - Main.bsa",
+          "file_offset": 278385456,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "8c8b7d948d7bf21147d01d816e18f6130aeacd102145d31a75aabc25102545ad"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/ThePitt - Main.bsa",
+          "file_offset": 508566940,
+          "chunk_offset": 0,
+          "length": 139381063
+        },
+        {
+          "file": "Data/ThePitt - Sounds.bsa",
+          "file_offset": 0,
+          "chunk_offset": 139381063,
+          "length": 24915213
+        },
+        {
+          "file": "Data/ThePitt.esm",
+          "file_offset": 0,
+          "chunk_offset": 164296276,
+          "length": 8728496
+        },
+        {
+          "file": "Data/Video/1 year later.bik",
+          "file_offset": 0,
+          "chunk_offset": 173024772,
+          "length": 3090848
+        },
+        {
+          "file": "Data/Video/2 weeks later.bik",
+          "file_offset": 0,
+          "chunk_offset": 176115620,
+          "length": 2101488
+        },
+        {
+          "file": "Data/Video/3 years later.bik",
+          "file_offset": 0,
+          "chunk_offset": 178217108,
+          "length": 3606124
+        },
+        {
+          "file": "Data/Video/6 years later.bik",
+          "file_offset": 0,
+          "chunk_offset": 181823232,
+          "length": 3094896
+        },
+        {
+          "file": "Data/Video/9 years later.bik",
+          "file_offset": 0,
+          "chunk_offset": 184918128,
+          "length": 3426348
+        },
+        {
+          "file": "Data/Video/B01.bik",
+          "file_offset": 0,
+          "chunk_offset": 188344476,
+          "length": 27032008
+        },
+        {
+          "file": "Data/Video/B02.bik",
+          "file_offset": 0,
+          "chunk_offset": 215376484,
+          "length": 11329272
+        },
+        {
+          "file": "Data/Video/B03.bik",
+          "file_offset": 0,
+          "chunk_offset": 226705756,
+          "length": 3475728
+        }
+      ],
+      "sha256": "00be94434fd9fb20745d105d6dd6fdef068575895533e6f22c16fdbe884607c9"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Video/B03.bik",
+          "file_offset": 3475728,
+          "chunk_offset": 0,
+          "length": 7852800
+        },
+        {
+          "file": "Data/Video/B04.bik",
+          "file_offset": 0,
+          "chunk_offset": 7852800,
+          "length": 10824760
+        },
+        {
+          "file": "Data/Video/B05.bik",
+          "file_offset": 0,
+          "chunk_offset": 18677560,
+          "length": 12628628
+        },
+        {
+          "file": "Data/Video/B06.bik",
+          "file_offset": 0,
+          "chunk_offset": 31306188,
+          "length": 12022424
+        },
+        {
+          "file": "Data/Video/B07.bik",
+          "file_offset": 0,
+          "chunk_offset": 43328612,
+          "length": 12473860
+        },
+        {
+          "file": "Data/Video/B08.bik",
+          "file_offset": 0,
+          "chunk_offset": 55802472,
+          "length": 20809964
+        },
+        {
+          "file": "Data/Video/B09.bik",
+          "file_offset": 0,
+          "chunk_offset": 76612436,
+          "length": 41167272
+        },
+        {
+          "file": "Data/Video/B10.bik",
+          "file_offset": 0,
+          "chunk_offset": 117779708,
+          "length": 40367752
+        },
+        {
+          "file": "Data/Video/B11.bik",
+          "file_offset": 0,
+          "chunk_offset": 158147460,
+          "length": 23029160
+        },
+        {
+          "file": "Data/Video/B12.bik",
+          "file_offset": 0,
+          "chunk_offset": 181176620,
+          "length": 43907220
+        },
+        {
+          "file": "Data/Video/B13.bik",
+          "file_offset": 0,
+          "chunk_offset": 225083840,
+          "length": 5097644
+        }
+      ],
+      "sha256": "18e0a85b8ad8402c9adda34adc4da669169a9620a39b81bcb1f1014b7af83d07"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Video/B13.bik",
+          "file_offset": 5097644,
+          "chunk_offset": 0,
+          "length": 38809324
+        },
+        {
+          "file": "Data/Video/B14.bik",
+          "file_offset": 0,
+          "chunk_offset": 38809324,
+          "length": 47350948
+        },
+        {
+          "file": "Data/Video/B15.bik",
+          "file_offset": 0,
+          "chunk_offset": 86160272,
+          "length": 41550464
+        },
+        {
+          "file": "Data/Video/B16.bik",
+          "file_offset": 0,
+          "chunk_offset": 127710736,
+          "length": 41550720
+        },
+        {
+          "file": "Data/Video/B17.bik",
+          "file_offset": 0,
+          "chunk_offset": 169261456,
+          "length": 41032024
+        },
+        {
+          "file": "Data/Video/B18.bik",
+          "file_offset": 0,
+          "chunk_offset": 210293480,
+          "length": 19888004
+        }
+      ],
+      "sha256": "595ea333fb0dcebecd28588ea36bc95a9ba4343d6b6e5f7b0f92d41226f14461"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Video/B18.bik",
+          "file_offset": 19888004,
+          "chunk_offset": 0,
+          "length": 19465504
+        },
+        {
+          "file": "Data/Video/B19.bik",
+          "file_offset": 0,
+          "chunk_offset": 19465504,
+          "length": 10375640
+        },
+        {
+          "file": "Data/Video/B20.bik",
+          "file_offset": 0,
+          "chunk_offset": 29841144,
+          "length": 10375144
+        },
+        {
+          "file": "Data/Video/B21.bik",
+          "file_offset": 0,
+          "chunk_offset": 40216288,
+          "length": 10375452
+        },
+        {
+          "file": "Data/Video/B22.bik",
+          "file_offset": 0,
+          "chunk_offset": 50591740,
+          "length": 10375560
+        },
+        {
+          "file": "Data/Video/B23.bik",
+          "file_offset": 0,
+          "chunk_offset": 60967300,
+          "length": 10375144
+        },
+        {
+          "file": "Data/Video/B24.bik",
+          "file_offset": 0,
+          "chunk_offset": 71342444,
+          "length": 10375508
+        },
+        {
+          "file": "Data/Video/B25.bik",
+          "file_offset": 0,
+          "chunk_offset": 81717952,
+          "length": 10377020
+        },
+        {
+          "file": "Data/Video/B26.bik",
+          "file_offset": 0,
+          "chunk_offset": 92094972,
+          "length": 10376684
+        },
+        {
+          "file": "Data/Video/B27.bik",
+          "file_offset": 0,
+          "chunk_offset": 102471656,
+          "length": 41150312
+        },
+        {
+          "file": "Data/Video/B28.bik",
+          "file_offset": 0,
+          "chunk_offset": 143621968,
+          "length": 41150192
+        },
+        {
+          "file": "Data/Video/B29.bik",
+          "file_offset": 0,
+          "chunk_offset": 184772160,
+          "length": 41150320
+        },
+        {
+          "file": "Data/Video/Fallout INTRO Vsk.bik",
+          "file_offset": 0,
+          "chunk_offset": 225922480,
+          "length": 4259004
+        }
+      ],
+      "sha256": "f7cfe0e574edf967f0edf99b204f4a1fa7d50fdfcbc2f62615eae26bd2fcda34"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Video/Fallout INTRO Vsk.bik",
+          "file_offset": 4259004,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "88e310350b381b84da80a5bd5cc6702cafe81c708ff57808487af6c9adf455eb"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Video/Fallout INTRO Vsk.bik",
+          "file_offset": 234440488,
+          "chunk_offset": 0,
+          "length": 96443624
+        },
+        {
+          "file": "Data/Zeta - Main.bsa",
+          "file_offset": 0,
+          "chunk_offset": 96443624,
+          "length": 133737860
+        }
+      ],
+      "sha256": "756661625a0ef21a5e20db376aeb33384594b19385e43d881fc09a68bab6c0f3"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 230181484,
+      "segments": [
+        {
+          "file": "Data/Zeta - Main.bsa",
+          "file_offset": 133737860,
+          "chunk_offset": 0,
+          "length": 230181484
+        }
+      ],
+      "sha256": "d0a4ca0d9b579887cd4c878011657e9282f56435c92c7e4b23bf2c961f4cda3a"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 230181469,
+      "segments": [
+        {
+          "file": "Data/Zeta - Main.bsa",
+          "file_offset": 363919344,
+          "chunk_offset": 0,
+          "length": 131842255
+        },
+        {
+          "file": "Data/Zeta - Sounds.bsa",
+          "file_offset": 0,
+          "chunk_offset": 131842255,
+          "length": 52368718
+        },
+        {
+          "file": "Data/Zeta.esm",
+          "file_offset": 0,
+          "chunk_offset": 184210973,
+          "length": 4950331
+        },
+        {
+          "file": "EULA.txt",
+          "file_offset": 0,
+          "chunk_offset": 189161304,
+          "length": 56022
+        },
+        {
+          "file": "F3icon.ico",
+          "file_offset": 0,
+          "chunk_offset": 189217326,
+          "length": 3262
+        },
+        {
+          "file": "Fallout3.exe",
+          "file_offset": 0,
+          "chunk_offset": 189220588,
+          "length": 15044024
+        },
+        {
+          "file": "Fallout_default.ini",
+          "file_offset": 0,
+          "chunk_offset": 204264612,
+          "length": 20327
+        },
+        {
+          "file": "FalloutLauncher.exe",
+          "file_offset": 0,
+          "chunk_offset": 204284939,
+          "length": 1540608
+        },
+        {
+          "file": "GECK.exe",
+          "file_offset": 0,
+          "chunk_offset": 205825547,
+          "length": 13881344
+        },
+        {
+          "file": "GECKicon.ico",
+          "file_offset": 0,
+          "chunk_offset": 219706891,
+          "length": 300318
+        },
+        {
+          "file": "GECKReadme.txt",
+          "file_offset": 0,
+          "chunk_offset": 220007209,
+          "length": 2482
+        },
+        {
+          "file": "gog.ico",
+          "file_offset": 0,
+          "chunk_offset": 220009691,
+          "length": 69248
+        },
+        {
+          "file": "goggame-1454315831.hashdb",
+          "file_offset": 0,
+          "chunk_offset": 220078939,
+          "length": 1623
+        },
+        {
+          "file": "goggame-1454315831.ico",
+          "file_offset": 0,
+          "chunk_offset": 220080562,
+          "length": 82519
+        },
+        {
+          "file": "goggame-1454315831.info",
+          "file_offset": 0,
+          "chunk_offset": 220163081,
+          "length": 1354
+        },
+        {
+          "file": "goggame-1454315831.script",
+          "file_offset": 0,
+          "chunk_offset": 220164435,
+          "length": 1313
+        },
+        {
+          "file": "goglog.ini",
+          "file_offset": 0,
+          "chunk_offset": 220165748,
+          "length": 301
+        },
+        {
+          "file": "high.ini",
+          "file_offset": 0,
+          "chunk_offset": 220166049,
+          "length": 1116
+        },
+        {
+          "file": "Launch Fallout 3.lnk",
+          "file_offset": 0,
+          "chunk_offset": 220167165,
+          "length": 817
+        },
+        {
+          "file": "libvorbis.dll",
+          "file_offset": 0,
+          "chunk_offset": 220167982,
+          "length": 1241528
+        },
+        {
+          "file": "libvorbisfile.dll",
+          "file_offset": 0,
+          "chunk_offset": 221409510,
+          "length": 120248
+        },
+        {
+          "file": "low.ini",
+          "file_offset": 0,
+          "chunk_offset": 221529758,
+          "length": 1103
+        },
+        {
+          "file": "MainTitle.wav",
+          "file_offset": 0,
+          "chunk_offset": 221530861,
+          "length": 5212104
+        },
+        {
+          "file": "medium.ini",
+          "file_offset": 0,
+          "chunk_offset": 226742965,
+          "length": 1115
+        },
+        {
+          "file": "Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 226744080,
+          "length": 4249
+        },
+        {
+          "file": "ssce5432.dll",
+          "file_offset": 0,
+          "chunk_offset": 226748329,
+          "length": 212992
+        },
+        {
+          "file": "support.ico",
+          "file_offset": 0,
+          "chunk_offset": 226961321,
+          "length": 62895
+        },
+        {
+          "file": "unins000.dat",
+          "file_offset": 0,
+          "chunk_offset": 227024216,
+          "length": 1577164
+        },
+        {
+          "file": "unins000.exe",
+          "file_offset": 0,
+          "chunk_offset": 228601380,
+          "length": 1259104
+        },
+        {
+          "file": "unins000.ini",
+          "file_offset": 0,
+          "chunk_offset": 229860484,
+          "length": 41
+        },
+        {
+          "file": "unins000.msg",
+          "file_offset": 0,
+          "chunk_offset": 229860525,
+          "length": 23077
+        },
+        {
+          "file": "VeryHigh.ini",
+          "file_offset": 0,
+          "chunk_offset": 229883602,
+          "length": 1134
+        },
+        {
+          "file": "webcache.zip",
+          "file_offset": 0,
+          "chunk_offset": 229884736,
+          "length": 269597
+        },
+        {
+          "file": "xlive.dll",
+          "file_offset": 0,
+          "chunk_offset": 230154333,
+          "length": 27136
+        }
+      ],
+      "sha256": "895cdca72a27f09f02167124fb31e702a3509959c4a8aa8f46bc2b25c8870e5f"
+    }
+  ]
+}
