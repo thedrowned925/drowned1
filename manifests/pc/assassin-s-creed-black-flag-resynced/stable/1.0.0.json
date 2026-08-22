@@ -1,0 +1,4102 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "assassin-s-creed-black-flag-resynced",
+    "title": "Assassin's Creed Black Flag Resynced",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "The iconic solo pirate adventure returns. Sail the Caribbean as Edward Kenway during the Golden Age of Piracy in this faithfully enhanced remake featuring stunning visuals, upgraded gameplay, and new content."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-assassin-s-creed-black-flag-resynced-v1.0.0-stable"
+  },
+  "chunk_size": 1821765113,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 72870604502,
+  "files": [
+    {
+      "path": "_CommonRedist/_redist_readme.txt",
+      "size": 2038,
+      "sha256": "b9ff3c3422e06fb509f4d9ea3ae4493ee804a7efdd1297fbff8eceed40b6c403"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 295320,
+      "sha256": "2cf71d098c608c56e07f4655855a886c3102553f648df88458df616b26fd612f"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+      "size": 31533074,
+      "sha256": "3c188e4651bcc07df2bdb06d69585158797b1bafb91557b09217621628cd5b23"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054848,
+      "sha256": "47260420773a20443fb1e38a89b7f39c5237a80a842de598e6c8f7f90a3bbd6d"
+    },
+    {
+      "path": "ACBlackFlag.exe",
+      "size": 478845792,
+      "sha256": "19920f34bb2fac814023ee3c27f0ceca1872e80a2aafb37c092c419fff77cc0d"
+    },
+    {
+      "path": "aegir_f.dll",
+      "size": 60104544,
+      "sha256": "2af4b96d8b9ab5cadd65589e7a803751a9678a8830fa96faebae5ca18ad5e046"
+    },
+    {
+      "path": "amd_ags_x64.dll",
+      "size": 179408,
+      "sha256": "b27b070ca39dc37984fb3dde0187515d36094e72cb881d7a99bd1055befd8da2"
+    },
+    {
+      "path": "amd_fidelityfx_framegeneration_dx12.dll",
+      "size": 38245640,
+      "sha256": "3f5e674a59b400756e98ef31fd583a4eb08ad567ec8dee362886bc96e55ed347"
+    },
+    {
+      "path": "amd_fidelityfx_loader_dx12.dll",
+      "size": 25864,
+      "sha256": "2f36843c3bb8c059621c10574e586a883ef337f2a549c67ecf3a82b3959ac238"
+    },
+    {
+      "path": "amd_fidelityfx_upscaler_dx12.dll",
+      "size": 22348552,
+      "sha256": "3eab9a448db1ca09d5aba17d11df5b789649c11d60f1281f4be97bd007ac7d6d"
+    },
+    {
+      "path": "benchmark/benchmark_template.html",
+      "size": 2150863,
+      "sha256": "a4c95ec947b16a4fffc24b152b93a11f09adc879ba14f18a2b93751d6c9125c5"
+    },
+    {
+      "path": "D3D12/D3D12Core.dll",
+      "size": 3351064,
+      "sha256": "07d286c306f8117321422affd9e6388c12d0fb4be1c7fc689d9e899324feeb24"
+    },
+    {
+      "path": "D3D12/d3d12SDKLayers.dll",
+      "size": 5080096,
+      "sha256": "ec8027b0183d79b9877715e1f482ec516c2b878d4281e391d8445215ac54de33"
+    },
+    {
+      "path": "DataPC_boot.forge",
+      "size": 25640534016,
+      "sha256": "144d947bd4b84709b891837c1a49893062aa9b79e2cecaf66c15fd884bc70a00"
+    },
+    {
+      "path": "DataPC_boot_dx12.forge",
+      "size": 215318528,
+      "sha256": "1d2fe7c53fb740afb6a7bdda6870295285e142d49ba655174dac14cda541941d"
+    },
+    {
+      "path": "DataPC_boot_patch_01.forge",
+      "size": 1915453440,
+      "sha256": "d2c0a87fd663c154e837350e8b93a00df847f6659dc19d4e96bacd84041620d7"
+    },
+    {
+      "path": "DataPC_boot_sound.forge",
+      "size": 1836711936,
+      "sha256": "47857253c02140575e66b28ef7052d8da4271d8dd3c4c5956f7ce71fe809424c"
+    },
+    {
+      "path": "DataPC_boot_sound_bra.forge",
+      "size": 258506752,
+      "sha256": "c4678c14b0e9ddf9024aea174489b87bcbfb048bd5620797054b3a985e10bee9"
+    },
+    {
+      "path": "DataPC_boot_sound_bra_patch_01.forge",
+      "size": 32866304,
+      "sha256": "c991e775eedeb2b27ddf4c78b0e286ab09bf82f15e2c36e29655e992a1cb4c69"
+    },
+    {
+      "path": "DataPC_boot_sound_chi.forge",
+      "size": 256638976,
+      "sha256": "508105b8e7fe946b29ca0a4a8efc44d70dde0d2bfd1d52bc57a84b8db1656db2"
+    },
+    {
+      "path": "DataPC_boot_sound_chi_patch_01.forge",
+      "size": 65273856,
+      "sha256": "60926ad2b371bfdd0143783e2b877634494b78c8534108197657451b58dd2503"
+    },
+    {
+      "path": "DataPC_boot_sound_eng.forge",
+      "size": 261423104,
+      "sha256": "174edffb8bfc3f9ba61ab84db9111031b82f9b8f1d929ea2a7006855b2ab5753"
+    },
+    {
+      "path": "DataPC_boot_sound_eng_patch_01.forge",
+      "size": 21037056,
+      "sha256": "415ca305a4a8bc3c52ac8e867a2231426e168c00c835c4a2bd85b8fbbaa59d92"
+    },
+    {
+      "path": "DataPC_boot_sound_fre.forge",
+      "size": 253198336,
+      "sha256": "93f4294e2d57a94897fde2687ef93c8c135cc505c39f3cb17842ab713d4415f9"
+    },
+    {
+      "path": "DataPC_boot_sound_fre_patch_01.forge",
+      "size": 50266112,
+      "sha256": "c7860c31dd254e1f8ef5bfc2d66ac284c5921c853549ac1569c03cf6fa3008bd"
+    },
+    {
+      "path": "DataPC_boot_sound_ger.forge",
+      "size": 259227648,
+      "sha256": "464da9b2e29be19f23b4c4c62e63227bf30c4c257badd65fddf49416d8330a14"
+    },
+    {
+      "path": "DataPC_boot_sound_ger_patch_01.forge",
+      "size": 42270720,
+      "sha256": "66d437907da8e8067a84a535a04a86e149cdb42e6bf49001acce3e85b4fd517a"
+    },
+    {
+      "path": "DataPC_boot_sound_ita.forge",
+      "size": 261947392,
+      "sha256": "044e5bc2d0c93916e8df2df48dcdca4cd0d00bbd729a39ffe7076ac7bd8db7d4"
+    },
+    {
+      "path": "DataPC_boot_sound_ita_patch_01.forge",
+      "size": 43712512,
+      "sha256": "ded19ad142e35f1e8894b19bfd2de04f0b258c3d8521c76210dafd5bc0dd68d5"
+    },
+    {
+      "path": "DataPC_boot_sound_jap.forge",
+      "size": 257294336,
+      "sha256": "7df7fd76ea0d7adf4941c10b562300c17b239653097bb5cd07c6b957364f70d3"
+    },
+    {
+      "path": "DataPC_boot_sound_jap_patch_01.forge",
+      "size": 59703296,
+      "sha256": "af33bb9f13fb9c54d60f1d43db7aaffab7db8e39fd40f39515683c0d430bf9c9"
+    },
+    {
+      "path": "DataPC_boot_sound_patch_01.forge",
+      "size": 77332480,
+      "sha256": "76ab836c11ac75a1fb8bbfa7ca75da7c281961b6de1507c4f2417ee09ec9fdb4"
+    },
+    {
+      "path": "DataPC_boot_sound_spa.forge",
+      "size": 257622016,
+      "sha256": "94e420349d3a199547abff5750cd008038d244f93575cc599382590ec1b9072d"
+    },
+    {
+      "path": "DataPC_boot_sound_spa_patch_01.forge",
+      "size": 42762240,
+      "sha256": "9d063e3d7d04dea1b0cb89c09ac88c4bded2b129eb72735fbe2f956e28f01491"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea.forge",
+      "size": 16403726336,
+      "sha256": "85666db53d814e10e91d4a947220275cfddd145b58166805dec9ecb50c0e8d38"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_dx12.forge",
+      "size": 10027008,
+      "sha256": "a22d4d5e1493b6f20226cd245985147865700d7085baf0511428d099f15fe021"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_floor.forge",
+      "size": 455704576,
+      "sha256": "fe98b38b684271c2cea25a0b8a39e8a251252579499518a4531bc34f9d2333f3"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_gi.forge",
+      "size": 1855258624,
+      "sha256": "c3b00a6c512ff8b169a9fce00d74b5f36a7eef75c776dbdd0f55afcc2990aa4c"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_gi_patch_01.forge",
+      "size": 98304,
+      "sha256": "0ee12dacf06fc42fa6cbf5f86998b1f3e2c5ff0e55d2fc56ec077371e7c77c59"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_nav.forge",
+      "size": 825294848,
+      "sha256": "37e64ead9f26e672d278cbc726f596fcf434fe95f238c52f313500a487ce6566"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_nav_patch_01.forge",
+      "size": 89456640,
+      "sha256": "62174dcf5ce4dfbe79908ad6334a1c7fadd15330fe516f7438fb438c8f8e94a8"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_patch_01.forge",
+      "size": 607191040,
+      "sha256": "3c5efb281a0ccd8d49376649c2011134f9f0ad3a5805f4cf1e42f2a07dac6034"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound.forge",
+      "size": 152961024,
+      "sha256": "4afc7a698c52afadda31135cad7c4a9e1bbab3dda26314ba7222e75f98cd350a"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_bra.forge",
+      "size": 5210112,
+      "sha256": "8625a2e85e62d4ff9b4853f548eeefc9e8e5de805318da727aba4afb893fef8d"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_bra_patch_01.forge",
+      "size": 32768,
+      "sha256": "42ab09ca49fd5f993f48ac81bb5c4f91be9fe441fc7e7f2bb76bbbbee3b40b3c"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_chi.forge",
+      "size": 5111808,
+      "sha256": "7a58a607f2c2f25914f302b78618bd068f59dcb39487d9f69bed96381385bfb4"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_chi_patch_01.forge",
+      "size": 131072,
+      "sha256": "d8b96b00611c2113b01aae5dd8ca795520d5fedfe564feab681a909cac5855d2"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_eng.forge",
+      "size": 5341184,
+      "sha256": "1d4de715f6cf763e6982e1e29ad6ab5e36abadd0e60efc7e7c5c53233125edd3"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_eng_patch_01.forge",
+      "size": 32768,
+      "sha256": "0dada0c03db6721a01b2d7f521a6022ed60fd04a6899647e1b5fe37bf93893b6"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_fre.forge",
+      "size": 5046272,
+      "sha256": "c1cf88f62e442edfe7c2aff6c0b4a7c3750bfd001daecffb83535f6bcadca1b1"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_fre_patch_01.forge",
+      "size": 32768,
+      "sha256": "9073c6bbd5da8fd3b574613ff58a475459a16d9059ad14cc835e6a806d2bc865"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_ger.forge",
+      "size": 5275648,
+      "sha256": "f5442f50d5005786722047f52fe888758a20606f7fbdb17c1e170f1eab31c913"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_ger_patch_01.forge",
+      "size": 360448,
+      "sha256": "f7b2948e11cdae7c4e34796d5ab4f11a520ef9652ca9bad53fcf9bd04ae7caa8"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_ita.forge",
+      "size": 5210112,
+      "sha256": "e5742d4a557609c4c624ca80c96be3b3ff4fbc08c722e61b12791b40ddcca6b4"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_ita_patch_01.forge",
+      "size": 32768,
+      "sha256": "0810a9caea9aad73b72da19cfa9f61f3579bb0cef2646e0970b1f5b7e57ffd47"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_jap.forge",
+      "size": 5210112,
+      "sha256": "7d94a5822982e7cad2d67f5cb9e631b620e7ff7139ca1576f9d19904ca86652b"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_jap_patch_01.forge",
+      "size": 360448,
+      "sha256": "f60584c8f2220beca63de1edded7e1ab0a0aaaa53abb8d3899036f86e090e192"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_patch_01.forge",
+      "size": 32768,
+      "sha256": "bfef1c558fd9ac293f9362472389ce491f9c22944362463a83b9ba878f9e172e"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_spa.forge",
+      "size": 5210112,
+      "sha256": "8eb5cd32c3866e8a25f6229495e5cd4670ab569fc9d91541df6a43b553089cf2"
+    },
+    {
+      "path": "DataPC_OBD_CaribbeanSea_sound_spa_patch_01.forge",
+      "size": 32768,
+      "sha256": "473d67d36064674f8872b6f8bebc7397d61290d0aa77e9d436531c46b9d322ce"
+    },
+    {
+      "path": "DataPC_OBD_Charleston.forge",
+      "size": 1305247744,
+      "sha256": "1bc73c0e8746ea2ac62066c6d76cd4e38659dc34f03ba448b9a97ab111a49b31"
+    },
+    {
+      "path": "DataPC_OBD_Charleston_floor.forge",
+      "size": 6488064,
+      "sha256": "161c66ed8a71750199451d22bc7e16dafca4389d743a8411ec6fdb1b2addf37f"
+    },
+    {
+      "path": "DataPC_OBD_Charleston_gi.forge",
+      "size": 254246912,
+      "sha256": "790c071d72abd6086f87b80f9dade4457982b8393fccb0bf41cf58f8e4b805d9"
+    },
+    {
+      "path": "DataPC_OBD_Charleston_gi_patch_01.forge",
+      "size": 32768,
+      "sha256": "5aae0a01e44ab540ad029cbb035dfa308cdb9c18e7516d2677e8b6937e39a7b6"
+    },
+    {
+      "path": "DataPC_OBD_Charleston_nav.forge",
+      "size": 26148864,
+      "sha256": "1485021d63a70abe8d6bea084e3d61aa5e398847e96cf2f9558f7caf87c2c613"
+    },
+    {
+      "path": "DataPC_OBD_Charleston_nav_patch_01.forge",
+      "size": 1376256,
+      "sha256": "57012fa9525067d81b055e3a819e62f317b309b0e3d46115dda33411d4627b9c"
+    },
+    {
+      "path": "DataPC_OBD_Charleston_patch_01.forge",
+      "size": 18415616,
+      "sha256": "ef291a01ae01861d66fd8e6e3331df21fbaf940e596c86689f7e4740e297d8af"
+    },
+    {
+      "path": "DataPC_OBD_Charleston_sound.forge",
+      "size": 6586368,
+      "sha256": "2066b164279df7f58c3c080ddea9d8734509e62b14ac845eafd2109fb6261d18"
+    },
+    {
+      "path": "DataPC_OBD_Charleston_sound_patch_01.forge",
+      "size": 32768,
+      "sha256": "57fde6efbdca96d71785d3a2273d8921a4454984c8d0ca69c93e96b5d46661a5"
+    },
+    {
+      "path": "DataPC_OBD_Delirium.forge",
+      "size": 110198784,
+      "sha256": "da83af7a30ccac367019f3d3f9d8db5bc7732cedc6c67b0e84954e549ec93223"
+    },
+    {
+      "path": "DataPC_OBD_Delirium_floor.forge",
+      "size": 7569408,
+      "sha256": "87cc424213a936275cc8d5e2fb29ada7d0fcd4460549706d8ff2f67f3549ba04"
+    },
+    {
+      "path": "DataPC_OBD_Delirium_gi.forge",
+      "size": 5570560,
+      "sha256": "c23b995b09879fc40bc02e033af4b86f038aebe8a47510f97f9999a0bfcdf8d2"
+    },
+    {
+      "path": "DataPC_OBD_Delirium_gi_patch_01.forge",
+      "size": 32768,
+      "sha256": "46ee73691e2768efd63f69ab1e74142ad0976499223fbf052ee13d9f3e457ae1"
+    },
+    {
+      "path": "DataPC_OBD_Delirium_nav.forge",
+      "size": 8454144,
+      "sha256": "5c5b96ebf05c3d1bbe675905781d0da8e6a11b2ac62a17b1cd785e5d9111e8b0"
+    },
+    {
+      "path": "DataPC_OBD_Delirium_nav_patch_01.forge",
+      "size": 1015808,
+      "sha256": "3282b9e74cef427ee06a2e5f5041c8315248fee16fa29f8840b4e4690f8d0e09"
+    },
+    {
+      "path": "DataPC_OBD_Delirium_patch_01.forge",
+      "size": 1998848,
+      "sha256": "3a8f6debb9cbc308316b077d9f405994b6768984f0aa1ef0a3baada400a1a445"
+    },
+    {
+      "path": "DataPC_OBD_Delirium_sound.forge",
+      "size": 8716288,
+      "sha256": "16a8505970856da64bfa04ee5216ce91364d96b7588546f7e415f6aef2eb7377"
+    },
+    {
+      "path": "DataPC_OBD_Delirium_sound_patch_01.forge",
+      "size": 32768,
+      "sha256": "3e66719a6ab5cbe33f0fbdafc83c3df36f40e75f185abba05530c12b4f96407d"
+    },
+    {
+      "path": "DataPC_OBD_Epilogue.forge",
+      "size": 182386688,
+      "sha256": "626adeff5234ca70016ffa321649bd487d0f638a2a13e24aadace11f14eee1e2"
+    },
+    {
+      "path": "DataPC_OBD_Epilogue_floor.forge",
+      "size": 360448,
+      "sha256": "6bd8bfc6a4c0c9528e1d37464f629ce25db0ff979023bc0fad1a8c5aa992487f"
+    },
+    {
+      "path": "DataPC_OBD_Epilogue_gi.forge",
+      "size": 7176192,
+      "sha256": "20390ec9f2c60758390bdc94c0419cb02877ba9c1729671f34dc26a7dbfc2ea7"
+    },
+    {
+      "path": "DataPC_OBD_Epilogue_gi_patch_01.forge",
+      "size": 32768,
+      "sha256": "9452ed0751ac88d38fd9adccba0c1b07d785264293cb4100a534c08e8aaaa42a"
+    },
+    {
+      "path": "DataPC_OBD_Epilogue_nav.forge",
+      "size": 15892480,
+      "sha256": "3a3da0ac84aca9105a150bf68d5eb9f2502ba419627366f9f67b9868e3a91507"
+    },
+    {
+      "path": "DataPC_OBD_Epilogue_nav_patch_01.forge",
+      "size": 65536,
+      "sha256": "57e5b460960100f3b4ca935848b8c5f5e672d5481e73579ec77b0a078a9d5513"
+    },
+    {
+      "path": "DataPC_OBD_Epilogue_patch_01.forge",
+      "size": 2850816,
+      "sha256": "5b6f5de8cb9a4122ebd742cb1941aaaa6f160f2a221c4227e8b35a233bab51e2"
+    },
+    {
+      "path": "DataPC_OBD_Epilogue_sound.forge",
+      "size": 32768,
+      "sha256": "bd4b3cd6f45f1297e187ab068f7687700eed2b32d23e95d4a61224cd2edaca6f"
+    },
+    {
+      "path": "DataPC_OBD_Epilogue_sound_patch_01.forge",
+      "size": 32768,
+      "sha256": "0920270bfc887fdcd358ec67841935019a1f1a5b7d4f8b7394e0ba4da6c61aaa"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple.forge",
+      "size": 668598272,
+      "sha256": "bbf8170a9fd9668f4ed10da0bbe149aab0cc3611540d9074f9f77749a949d914"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_floor.forge",
+      "size": 425984,
+      "sha256": "16d49ae27e7525d8c1363cf005daf8ff24373848863adc90c27ed443c650bf32"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_gi.forge",
+      "size": 26116096,
+      "sha256": "23ed2410fd620f48f5de4e61724c6a1755b98feb3a2e1d43cac4dcd3f4597b12"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_gi_patch_01.forge",
+      "size": 32768,
+      "sha256": "09eb5a9922d79552941abf63c46217c28269e6ec139c858e16afca144c226f20"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_nav.forge",
+      "size": 1638400,
+      "sha256": "a5c6c71d1ffc6da1929535a4d69e98885d6edf9399f7a5f0e579ec488a409042"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_nav_patch_01.forge",
+      "size": 131072,
+      "sha256": "8e1705262d8359858d9771222fae51cfbd655e86461423c50776c1dd4077afcf"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_patch_01.forge",
+      "size": 22675456,
+      "sha256": "a8d0cc3b71a7606e41295fe5c232e94a9ee1f7e317a14bc0a4cb53842804a73f"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound.forge",
+      "size": 7471104,
+      "sha256": "b4af32173efd53eb93a1a637447fd477c84ba15129dd719340485a9fdbcb3472"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_bra.forge",
+      "size": 131072,
+      "sha256": "aa5797ac62f619f41142a73fdb98040fbccdee0c882a611431dd0dbb4724016e"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_bra_patch_01.forge",
+      "size": 32768,
+      "sha256": "e9c2c313aba339f105bc335a6e36b883469a9f0031caedbb8a68dbccb91ae8ef"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_chi.forge",
+      "size": 131072,
+      "sha256": "8cddedcda4955946a0b4d3d322a876021dd721222343d1b7762258cd95c2339e"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_chi_patch_01.forge",
+      "size": 32768,
+      "sha256": "4418822b1f6ad7b25807bbfe5fd738ad45c5593f3ff1525ae3d1ef58a222cdec"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_eng.forge",
+      "size": 131072,
+      "sha256": "3593c18ace56999d3a53adbcd6cb50d1ece33e1ba24e619cf5930d69079ee8ae"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_eng_patch_01.forge",
+      "size": 32768,
+      "sha256": "cf3a773e86faae4d51ba1b78afd84c0ddfc8a750fb1d059ca991ec07cb760b4a"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_fre.forge",
+      "size": 131072,
+      "sha256": "3db0759a2dd20d23b3d0e962d378f85c959db6eba0f94310520b16fafc571bea"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_fre_patch_01.forge",
+      "size": 32768,
+      "sha256": "77c337223b091e086ab99578517656bb294d1ccf2a05f66c4bceecd83608e2d5"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_ger.forge",
+      "size": 131072,
+      "sha256": "f1a9d7919c888fb0251d13f598b98162aecc554ab0e950158499b3a1fab673a2"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_ger_patch_01.forge",
+      "size": 32768,
+      "sha256": "d9f9cc8d60d73fb5236543323d6d30e6f5da96899d2977f82e2713b6869c68ff"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_ita.forge",
+      "size": 131072,
+      "sha256": "0f01b08c48af5613f3b9accb1206576afc2bd1f0a20fc5a87ec8367e4bdbe152"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_ita_patch_01.forge",
+      "size": 32768,
+      "sha256": "e2f78816bc6f6e8f680a5fcad33f62324a25f2b7fdbeff67363a512a8fc793c7"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_jap.forge",
+      "size": 131072,
+      "sha256": "91b333bcb961f61091ae80a541b889fdb96d07bbb0cb04f5fc2a1ae159d081eb"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_jap_patch_01.forge",
+      "size": 32768,
+      "sha256": "6ad318929174ced36b368740b799af9875a026fd02c0243d447d8c1f0b304692"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_patch_01.forge",
+      "size": 32768,
+      "sha256": "f0b178eb06ce9dfa40b4c67cc6cf307de06f7cb6a6cbf6057e9e749517cc378b"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_spa.forge",
+      "size": 131072,
+      "sha256": "391dfc8e930fd52b69e4e3477b258220b347dd858b3930d0f30b50d6a28fb1e8"
+    },
+    {
+      "path": "DataPC_OBD_MayanTemple_sound_spa_patch_01.forge",
+      "size": 32768,
+      "sha256": "34997fadbbf352d9769e5e66d2d09362597a2907f1e7cd0ab540b1ce45dddfa1"
+    },
+    {
+      "path": "DataPC_OBD_NorthCarolina.forge",
+      "size": 551682048,
+      "sha256": "a373818f7c47efa63c4c80d87cee7646eb86bd80646571432af6bd7a67902ce0"
+    },
+    {
+      "path": "DataPC_OBD_NorthCarolina_floor.forge",
+      "size": 34439168,
+      "sha256": "e2dceaffdd88e6f3f859501d7efe668236c593bdbb9079f69df0ff5348061720"
+    },
+    {
+      "path": "DataPC_OBD_NorthCarolina_gi.forge",
+      "size": 45645824,
+      "sha256": "f194edcc6b00f9fc8cd97bdfdfeea5cc3518fb743ff8f76fcc4cec5c95668abb"
+    },
+    {
+      "path": "DataPC_OBD_NorthCarolina_gi_patch_01.forge",
+      "size": 32768,
+      "sha256": "25a4059b20a20a3c9cb06468d05ad03b2c266e502d25932409f1d88f48fdf2c3"
+    },
+    {
+      "path": "DataPC_OBD_NorthCarolina_nav.forge",
+      "size": 35323904,
+      "sha256": "2712ca25b213b42baebb550e6d2866446963db3b7de751a244482b6cbf5f96da"
+    },
+    {
+      "path": "DataPC_OBD_NorthCarolina_nav_patch_01.forge",
+      "size": 1310720,
+      "sha256": "77eb2065e2500ac70162fc1a6a043831d402e130e1c9d16b9337dc3d7021b541"
+    },
+    {
+      "path": "DataPC_OBD_NorthCarolina_patch_01.forge",
+      "size": 7929856,
+      "sha256": "1a11ba64e9b553eeee1673da8f4ff7a3421ab902d16f2ebed37705d9464a5a57"
+    },
+    {
+      "path": "DataPC_OBD_NorthCarolina_sound.forge",
+      "size": 5963776,
+      "sha256": "fb8bec2ec1849cdcbd1c8c55323924d07cffb022fe2eab8186f5ea044649a923"
+    },
+    {
+      "path": "DataPC_OBD_NorthCarolina_sound_patch_01.forge",
+      "size": 32768,
+      "sha256": "28d1895cef58d049d1e60aa903928d443e311c40bf4b75082ddfc86afd5195e9"
+    },
+    {
+      "path": "DataPC_OBD_Principe.forge",
+      "size": 753369088,
+      "sha256": "78b2d0fe3b32b571ab48349dd1bac7db514eaa1bdabffe2e38604750fddf0e17"
+    },
+    {
+      "path": "DataPC_OBD_Principe_floor.forge",
+      "size": 47284224,
+      "sha256": "42b461cf3cbab477a1a8d93e2a983e01d5b1c9f383192044241e57cb7b1dc01d"
+    },
+    {
+      "path": "DataPC_OBD_Principe_gi.forge",
+      "size": 69828608,
+      "sha256": "6b30e2643bbbf8d2eb6c3a2f75fe01932882a5f7b9bd89ccfea67a6ec746181b"
+    },
+    {
+      "path": "DataPC_OBD_Principe_gi_patch_01.forge",
+      "size": 32768,
+      "sha256": "960ce078734a83f983a59ca50e64e528459ace10eb7a6ea291ac33c287194722"
+    },
+    {
+      "path": "DataPC_OBD_Principe_nav.forge",
+      "size": 96698368,
+      "sha256": "eee51b64f68d81526046027f161ddd92536da85888fc7536383bb480226971eb"
+    },
+    {
+      "path": "DataPC_OBD_Principe_nav_patch_01.forge",
+      "size": 2686976,
+      "sha256": "0066eb479d7d275ae9c28e15d5aa079a737989c37e4b1691ad2d0577888beb38"
+    },
+    {
+      "path": "DataPC_OBD_Principe_patch_01.forge",
+      "size": 39780352,
+      "sha256": "95663cbd00f0aa763884cf62efc71ca70f55b037dc723c9a21a5725e3109c861"
+    },
+    {
+      "path": "DataPC_OBD_Principe_sound.forge",
+      "size": 4554752,
+      "sha256": "54fc5e306385902c0e25dacf59dba825fa0484989f0132fb90f1ff692745dc25"
+    },
+    {
+      "path": "DataPC_OBD_Principe_sound_patch_01.forge",
+      "size": 32768,
+      "sha256": "b615cd1d5f1fdad9f5ce759f685e3eb267e2c92e418e15c2e4b354c696c8abbc"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001.forge",
+      "size": 130220032,
+      "sha256": "6d7da554ee4dc52b5774383de70300b8859c2f1e6925aff8cc76c4a7990445c5"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_dx12.forge",
+      "size": 2457600,
+      "sha256": "a7e21f9d9d9e1c4ffac2eee74bc3ae5dd7212b8acece5e8e96a00e213962ecef"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_floor.forge",
+      "size": 1081344,
+      "sha256": "a70aa665dcb471f840badf23f22800aec56c8332ef65cee6abec6f27351afcb5"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_gi.forge",
+      "size": 56819712,
+      "sha256": "b5d3a8242d14e7a09be5172daa2f0769f46d0568efaace67d397f3b904370608"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_gi_patch_01.forge",
+      "size": 32768,
+      "sha256": "4ec54f02cb53388365c007cd09b989d0066c793382c1fb26b586c97daefc16b1"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_nav.forge",
+      "size": 10878976,
+      "sha256": "83a4bc60a037b48a4d71c795c3164f61875ccb3dbf1132892f6eb8a6f74bdf96"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_nav_patch_01.forge",
+      "size": 1867776,
+      "sha256": "06d5cb925f5e62d4403d486efb92dc0ccdffd2cf67347a2e46fc757858dd6f0c"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_patch_01.forge",
+      "size": 15499264,
+      "sha256": "2eb9de5204c483da8032839955198cc5e3a7c81f6ce21b4ac90b158de0c5afae"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound.forge",
+      "size": 131072,
+      "sha256": "6f2f4d795e3878e1e909fc5efcc249fabcd5484b39a779efa819b27f68093e99"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_bra.forge",
+      "size": 65536,
+      "sha256": "ec0e64c3c8f51f8010a8354c0a0e000ce222781b96ca35beb4604494d7611e71"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_bra_patch_01.forge",
+      "size": 32768,
+      "sha256": "3af7254021ea122369091cb8e9a08d0920f4b0d8633440cba223e751c78e124b"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_chi.forge",
+      "size": 65536,
+      "sha256": "a628d838f45eba91722d19d71041547961f87719d3d51005aeac38e31ed847fb"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_chi_patch_01.forge",
+      "size": 32768,
+      "sha256": "a80294f27868d0b266c3db0cdec752b61ee58ed4500d5bb56e182a053f82c253"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_eng.forge",
+      "size": 65536,
+      "sha256": "1b0c0372312c39141407424ae3a8e77750f689a92d35b08ff34503979939d2bd"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_eng_patch_01.forge",
+      "size": 32768,
+      "sha256": "7a27475a12132b7941f6aee67fc512840641b28c9dd1ee1fe97b20884be7614e"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_fre.forge",
+      "size": 65536,
+      "sha256": "a1cf35b28e8299a1d4e885122e1e7b0dc6a0edf693968813fbbdd1952ade844f"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_fre_patch_01.forge",
+      "size": 32768,
+      "sha256": "460e025a7383ddf687d01eea8a03d1a6cd23efd1588ac987980ac6e8860f4c50"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_ger.forge",
+      "size": 65536,
+      "sha256": "5ba889c13ff8e9593ead776d4879acef8f1d13e465cd40524e555fe6cd7a6a11"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_ger_patch_01.forge",
+      "size": 32768,
+      "sha256": "7f4fca1c92221a53286fbba0d74b806f86771b77bddf642512cb17e652559d2e"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_ita.forge",
+      "size": 65536,
+      "sha256": "19f6aa7f909a806676515a2774fa4c2555ada86829ea357f8fce83ca7140087f"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_ita_patch_01.forge",
+      "size": 32768,
+      "sha256": "d3ec49b1f74694bd326641c2387432d73b939908e2bf0adb32195bba5b9f8df7"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_jap.forge",
+      "size": 65536,
+      "sha256": "8a6692e9adf598eb5c9f94acfade680100e4b31aa5972e3741c45a38b204faf4"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_jap_patch_01.forge",
+      "size": 32768,
+      "sha256": "8b993ec4061b6e7a99b7238c6e4362df8616b5d67a50ec26831ab6f50b6e92eb"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_patch_01.forge",
+      "size": 32768,
+      "sha256": "a98c5ca4a63acd78eea73ee081606c95abca32149a09a43e32783652b6ee7c72"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_spa.forge",
+      "size": 65536,
+      "sha256": "2d627ae80458149b1afb6071746adbcfe2d13dea1378fc4100056bd392245563"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_001_sound_spa_patch_01.forge",
+      "size": 32768,
+      "sha256": "1c63746133d62c0c8e591896aa2d1910bd8529213c817139cd2400d7ae93b515"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_002.forge",
+      "size": 641892352,
+      "sha256": "a38a6324d25992902051499c7eb91ad038e37918cb23978790e95113030bc74b"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_002_dx12.forge",
+      "size": 2195456,
+      "sha256": "2456de2ba621f44255632cc28c563a26c8f485b67889d61b75580264ce0a5a66"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_002_floor.forge",
+      "size": 2031616,
+      "sha256": "06836fcaf19b66c87c1843d39e225abc9f9b86fc856896acf7573f4e5275c7bc"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_002_gi.forge",
+      "size": 177504256,
+      "sha256": "61175983c3e38e3cfdb328f8734ce2eeeb93ecb8c8d5a54a22fcf84e6de2c8aa"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_002_gi_patch_01.forge",
+      "size": 32768,
+      "sha256": "7c07b2c9ef3224eba23a8181ab23fae487c8b910541c73d4643a2fde8d261e7d"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_002_nav.forge",
+      "size": 8945664,
+      "sha256": "67361992336df29d2f0e773725a37d239bbb743eb860a004807a8c7385c2f57b"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_002_nav_patch_01.forge",
+      "size": 851968,
+      "sha256": "dd2dd27e566e36a828a658e9853597430a9c3f1087df2f98f18d06c873e45573"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_002_patch_01.forge",
+      "size": 25460736,
+      "sha256": "fd807206e43903fcd596348db720ec267d5034722469bb17f2bde8a7958ecf8c"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_002_sound.forge",
+      "size": 32768,
+      "sha256": "a529114c0b55eeedd1f35ce2a251da113cad9cb2cb17fd2f1ee31634b5e26c0b"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_002_sound_patch_01.forge",
+      "size": 32768,
+      "sha256": "644651106fcf41b3945b347af6ab8b6c2e5b762eddeeae41cc63028f0bb3cebc"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_003.forge",
+      "size": 146112512,
+      "sha256": "3232b30f55576cba86ab8f16f8e861895888fce5b5346d398e4b982b7c0c0fe5"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_003_floor.forge",
+      "size": 983040,
+      "sha256": "4e4338a75d2f6ce2e276984a460a861edb03e6461bd9b7940aec73b41594623c"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_003_gi.forge",
+      "size": 71237632,
+      "sha256": "c888d7dbb7ecbdc1a89de65aac52a8e0c9538db940adb540f74468cab97884b3"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_003_gi_patch_01.forge",
+      "size": 32768,
+      "sha256": "e10dba00754fbf3b0ccd4b2c8afbe65e1fbabc77d6a0d33863f229cc78135b4c"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_003_nav.forge",
+      "size": 20217856,
+      "sha256": "cd245a0032a6929fc379da8c78ba41f46e7e276704b16471c80f2670414f9cb4"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_003_nav_patch_01.forge",
+      "size": 10223616,
+      "sha256": "8a2bd39a45a068c241568d0a4186481e261cecc132196eebc190ef4bdf0dbbfa"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_003_patch_01.forge",
+      "size": 10584064,
+      "sha256": "16a3b1c52ea8745b6bbaf54ce0a700fa8dca624f5c5a0afa26ebdae50ec73abb"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_003_sound.forge",
+      "size": 32768,
+      "sha256": "250f4251a3b75d19a7e72209f9759a65c74a0d9b3993d776979fd8f2aad84111"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_003_sound_patch_01.forge",
+      "size": 32768,
+      "sha256": "63f59a0beb5f881b115b13e6981d3e11f1f29dabfa4d1c83c1bdf33ead224e42"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_004.forge",
+      "size": 732397568,
+      "sha256": "41de58f1035f5f11e375a4e04f336c071537a4b2c912b90be0003968d8421525"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_004_dx12.forge",
+      "size": 1671168,
+      "sha256": "4b2c77fef77988b80b5a77251d02285d91588bad23553b6ee3cbb88fda3c5a47"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_004_floor.forge",
+      "size": 786432,
+      "sha256": "af26c012a079e9421c2553a8ac4f6400064b7a7cc97c59e64035376252d74c66"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_004_gi.forge",
+      "size": 323911680,
+      "sha256": "c81dc8ecc9d631bd8f98309d9b0e82224d2934d1ecc1935a6b88fbf0bd582426"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_004_gi_patch_01.forge",
+      "size": 32768,
+      "sha256": "d3c8b5789a3523f0355cf0bf355897c976f45d24978db30f31ab814da4e31e79"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_004_nav.forge",
+      "size": 425984,
+      "sha256": "dd1c7dcb73f75a7c0bf11ad9ee279f887ea0729603c41d7e479cc902998b5115"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_004_nav_patch_01.forge",
+      "size": 196608,
+      "sha256": "dca59fac46cfccdcca771eaff164f2ae1ac22758ea2f3579c6a5caaada9fdd14"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_004_patch_01.forge",
+      "size": 11403264,
+      "sha256": "2591158bd6933376b2615c6ce8d38484d72fc4d7c90c5085b898e0e3d5a5cf05"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_004_sound.forge",
+      "size": 32768,
+      "sha256": "0c653906af9992b378f70ab30927aade6a14bc4212dd6d0cbf134a014239ea2d"
+    },
+    {
+      "path": "DataPC_OBD_Rift_Drop_004_sound_patch_01.forge",
+      "size": 32768,
+      "sha256": "902ef638bbc5058b65fa4208480656e96211507a79864a3b8e409cd397f7c526"
+    },
+    {
+      "path": "DataPC_RED_TitleScreen.forge",
+      "size": 2654208,
+      "sha256": "a3114168751f1ac46066ccf907d68d8890fe95aa16c90ded006176402166eb68"
+    },
+    {
+      "path": "DataPC_RED_TitleScreen_dx12.forge",
+      "size": 1081344,
+      "sha256": "df54191a0adc830f5f2cb5fc1c33a0b53e1a692aced5e069ee9949fa15fa39c8"
+    },
+    {
+      "path": "DataPC_RED_TitleScreen_floor.forge",
+      "size": 65536,
+      "sha256": "2e9b920f9632834bd2015b72e2382219724cefb5f62e83d02820143084541a19"
+    },
+    {
+      "path": "DataPC_RED_TitleScreen_patch_01.forge",
+      "size": 65536,
+      "sha256": "4a5f162fdab2865a8f761ad73be7129c41e4e4d30eea84752af0cab25b382722"
+    },
+    {
+      "path": "DataPC_shared_00.forge",
+      "size": 7971471360,
+      "sha256": "118234e3708306190606b87b5b81db2972e5572d19f0ac4cd2f700da3023f672"
+    },
+    {
+      "path": "DataPC_shared_00_dx12.forge",
+      "size": 35586048,
+      "sha256": "f9548c8727a5e5e732281db8ab5908326161c3bcfd00c8ceb988a7af24b06219"
+    },
+    {
+      "path": "DataPC_shared_00_patch_01.forge",
+      "size": 274530304,
+      "sha256": "6c4544cd3c0559166440ef6363783ab134796748ac1626a0591186ca54c810e0"
+    },
+    {
+      "path": "DataPC_WhiteRoom.forge",
+      "size": 29917184,
+      "sha256": "47f16190591fa5148d89d24d61b923e4a3810d1d4a470542dc493ebdcc45976f"
+    },
+    {
+      "path": "DataPC_WhiteRoom_dx12.forge",
+      "size": 2162688,
+      "sha256": "fe1e334e41b3bc9f79d78d1b800fc8da819f5422905c16be880f72f802d1674b"
+    },
+    {
+      "path": "DataPC_WhiteRoom_floor.forge",
+      "size": 65536,
+      "sha256": "26deca7e531feadd2576fd5f7b388bbb3dbc9b5bb5f001ca4e31cd1c91d2d28d"
+    },
+    {
+      "path": "DataPC_WhiteRoom_nav.forge",
+      "size": 917504,
+      "sha256": "d4132304fa0296b3f1460c658e03a9f3a1a809d4442bf4b50f0b75b200007980"
+    },
+    {
+      "path": "DataPC_WhiteRoom_nav_patch_01.forge",
+      "size": 32768,
+      "sha256": "a7df773763249f2f1bb4279d080641ca99f85e86e49ae049cf0f261668a73e93"
+    },
+    {
+      "path": "DataPC_WhiteRoom_patch_01.forge",
+      "size": 98304,
+      "sha256": "e40915595bcd69c6ce6e4a9370d440346ff6ca0577e4720bd4283a1ae0b1f151"
+    },
+    {
+      "path": "dbdata.dll",
+      "size": 4096,
+      "sha256": "db2067d7b61801cdde982cea98c31da4180ed68ba676e3291185af0ca0c0fc00"
+    },
+    {
+      "path": "dstorage.dll",
+      "size": 206880,
+      "sha256": "8a7f9809b4630d22796445ab9aa44181458d0f73f03705b1dfafd79410e07334"
+    },
+    {
+      "path": "dstoragecore.dll",
+      "size": 1468960,
+      "sha256": "77c7b3acf5b5a9acec6ad3ed7aa3c33e1ad43e73116b437adfcd26965a079b2b"
+    },
+    {
+      "path": "GFSDK_Aftermath_Lib.x64.dll",
+      "size": 2314848,
+      "sha256": "ed0302c733ee77bd6903cd2c87c67c1d432a0341149d231a103f464cc455ffda"
+    },
+    {
+      "path": "helix.core_v143.dll",
+      "size": 166752,
+      "sha256": "43868d4b070e9313b9f2cb1cfafba99bcf9b7bd752ecfd869666c5f084ce4342"
+    },
+    {
+      "path": "helix.online_capture_v143.dll",
+      "size": 153952,
+      "sha256": "790623a9dbf4fd10e680448933682daa90a09cf4d2e868dc9a16d6c68992b5ff"
+    },
+    {
+      "path": "InstallerResources/VCRedist/VC_redist.x64.exe",
+      "size": 25416016,
+      "sha256": "1ad7988c17663cc742b01bef1a6df2ed1741173009579ad50a94434e54f56073"
+    },
+    {
+      "path": "libxell.dll",
+      "size": 411504,
+      "sha256": "61aeeab7fdcfb6d1742f86c14c68c663d759607d01a6132645c857291eaebb86"
+    },
+    {
+      "path": "libxess.dll",
+      "size": 77795704,
+      "sha256": "251659dd84a3e84de67c886a4186e01f3eca49b00641906fe38bb6b807e5d5b7"
+    },
+    {
+      "path": "libxess_fg.dll",
+      "size": 22955384,
+      "sha256": "9d074c7cb931d450875373372da832304b82a2dcac51cb17df44b49f00e2961c"
+    },
+    {
+      "path": "localization.lang",
+      "size": 424,
+      "sha256": "3c566f96dd93a142c03f48806942c9527cb4916dd17ff797e2dcf1f5c089ffc3"
+    },
+    {
+      "path": "memorywrapper_f.dll",
+      "size": 109920,
+      "sha256": "b112d565af8c1fbbbed3da157a45762683e45ac4f048d9e677935f9d7123684c"
+    },
+    {
+      "path": "NVStreamline/production/nvngx_dlss.dll",
+      "size": 58830448,
+      "sha256": "2173e05733fde21c7ae77c7573d1d5b60d651e659f71708807a680afe2829e4d"
+    },
+    {
+      "path": "NVStreamline/production/nvngx_dlssg.dll",
+      "size": 7499376,
+      "sha256": "17e00fc66d32f348fa16d387d635ac1b994aa7317b3e6d968867d1ee77af3564"
+    },
+    {
+      "path": "NVStreamline/production/sl.common.dll",
+      "size": 801408,
+      "sha256": "9d39bf058d0dc64677fd4fab28c02b0564e16764bfdbe775d8dc5b759489cbb2"
+    },
+    {
+      "path": "NVStreamline/production/sl.dlss.dll",
+      "size": 419968,
+      "sha256": "7779f3c653535808b6f98307de8b067ca38f1dba16e3c7362b13dcd7d4e7dabe"
+    },
+    {
+      "path": "NVStreamline/production/sl.dlss_g.dll",
+      "size": 578176,
+      "sha256": "dae3f24a690f3dee3fbd89bdde47fbeb6bf480cee376ecfd0242a50e0bb6e6c6"
+    },
+    {
+      "path": "NVStreamline/production/sl.interposer.dll",
+      "size": 647808,
+      "sha256": "98ac2097902686441d6cbd1182fcf5cb15e9e7fa0744bfdf176ec728a4a49f1a"
+    },
+    {
+      "path": "NVStreamline/production/sl.pcl.dll",
+      "size": 359552,
+      "sha256": "4a7bb40f1328cff599de932d5fc73cfd58bd32f3e29f7c19fa464ab3e2aaa440"
+    },
+    {
+      "path": "NVStreamline/production/sl.reflex.dll",
+      "size": 381056,
+      "sha256": "cfbaed0b1c27d0ba415f67e2aeca32607adf2b83be084ee8ad49f7e34c89010c"
+    },
+    {
+      "path": "resources/asian_character_1080_30.webm",
+      "size": 5093170,
+      "sha256": "83c19a096c29bc5885ddcce8d356d169c71238bdb66fb88a720668cae17cb7be"
+    },
+    {
+      "path": "resources/asian_naval_1080_30.webm",
+      "size": 4898217,
+      "sha256": "66eb3d41865cb03fe55b9872a92bba773dd516bb173428884819035a0bbea21a"
+    },
+    {
+      "path": "resources/AvenirNextWorld-Black.ttf",
+      "size": 446080,
+      "sha256": "41d97693cc437e24fb9bea85a8ed013c6e4c81757fe17a3a52ee8acb155da22a"
+    },
+    {
+      "path": "resources/AvenirNextWorld-BlackIt.ttf",
+      "size": 321196,
+      "sha256": "d7a50a2e8007b0ad30e588dbba0399c3c0856945b8560ae951f8bb1e77312b64"
+    },
+    {
+      "path": "resources/AvenirNextWorld-Bold.ttf",
+      "size": 434844,
+      "sha256": "2c54fc8e917237aa85a9de4c291631b7e42be63a71c1293781b0229638cba0b1"
+    },
+    {
+      "path": "resources/AvenirNextWorld-BoldIt.ttf",
+      "size": 299256,
+      "sha256": "e36bef689f9b51979dd19b0eee8a6cae5ae60941b5262ada2c0aadbb4e934933"
+    },
+    {
+      "path": "resources/AvenirNextWorld-Demi.ttf",
+      "size": 415500,
+      "sha256": "8dcef912787b0311c788bd905f0ff4a3be1812df022cd57858aa427d30874987"
+    },
+    {
+      "path": "resources/AvenirNextWorld-DemiIt.ttf",
+      "size": 294592,
+      "sha256": "4d13a292f259ec4be5d853619a2f2a023507d90c672d40a0cc0b05f6663f60cb"
+    },
+    {
+      "path": "resources/AvenirNextWorld-ExtraBold.ttf",
+      "size": 445008,
+      "sha256": "10f8d79d8a2a77cddbdc03617fe47ba5a8629f217320e33b567ef2e9da4b3ceb"
+    },
+    {
+      "path": "resources/AvenirNextWorld-ExtraBoldIt.ttf",
+      "size": 306308,
+      "sha256": "72cb6d0fc76374e3c5776fbe0235f42d8be4078808efaf7f5c19a633dbdc6ead"
+    },
+    {
+      "path": "resources/AvenirNextWorld-Heavy.ttf",
+      "size": 423348,
+      "sha256": "e8c92aafd5a1c1090c74f8206bd0430207aff5317648e880f85cc43604578c46"
+    },
+    {
+      "path": "resources/AvenirNextWorld-HeavyIt.ttf",
+      "size": 316684,
+      "sha256": "da7f32541a8cc31b84e3899279aec6e50bb6ad0680b7859dd7ee6a811086b340"
+    },
+    {
+      "path": "resources/AvenirNextWorld-Italic.ttf",
+      "size": 292796,
+      "sha256": "ff7e95480f99401b53788a0b40f57e927d244bcf18c4fed7d449324ee5e941a6"
+    },
+    {
+      "path": "resources/AvenirNextWorld-Light.ttf",
+      "size": 402188,
+      "sha256": "445a9d6b873e2ea4b851d7228b90e57ce82f023908ab1815b40c6ea2974b0f18"
+    },
+    {
+      "path": "resources/AvenirNextWorld-LightIt.ttf",
+      "size": 291792,
+      "sha256": "ae545a855e09b0781fd5ca6cf261abfe22966efcac9e561a9dab464d3f520558"
+    },
+    {
+      "path": "resources/AvenirNextWorld-Medium.ttf",
+      "size": 408860,
+      "sha256": "eda0a166d057696a7aef18e998a6dd9c07c717d8cf5355a8ddf64375194bfc05"
+    },
+    {
+      "path": "resources/AvenirNextWorld-MediumIt.ttf",
+      "size": 291940,
+      "sha256": "4c093e65784f5f68eb741ecf687b9fef2efb94d1ef3e061a8253b99460c2d44d"
+    },
+    {
+      "path": "resources/AvenirNextWorld-Regular.ttf",
+      "size": 404820,
+      "sha256": "6a4841d84b68b563e87673e01f303b21ac196bfb6a052add25cca27733a39668"
+    },
+    {
+      "path": "resources/AvenirNextWorld-Thin.ttf",
+      "size": 392948,
+      "sha256": "3440b2e490f234e65a00a374f54124c8c7785b1f551948edd54c0a964024cf8d"
+    },
+    {
+      "path": "resources/AvenirNextWorld-ThinIt.ttf",
+      "size": 286060,
+      "sha256": "4b2b6f71a45acdcd30cd510e70e589883470f3dd398da9843a793d7839e6824c"
+    },
+    {
+      "path": "resources/AvenirNextWorld-UltLt.ttf",
+      "size": 393040,
+      "sha256": "e2e4bda3038830069e9d1fab4323663069ab7e1b3b36dc9e08af92270395c2c6"
+    },
+    {
+      "path": "resources/AvenirNextWorld-UltLtIt.ttf",
+      "size": 287056,
+      "sha256": "9e2e96a95c2596801cd10c6fdac43d5635407be5418e028263b0791f14d61950"
+    },
+    {
+      "path": "resources/DFKaiW5-A.ttf",
+      "size": 21920596,
+      "sha256": "17c50141cd84595481ee4983cf2288e5f658e9f5cad8780b4dccb808e6883b78"
+    },
+    {
+      "path": "resources/DFP-HeiSeiGothic-W5.ttf",
+      "size": 2109912,
+      "sha256": "c6cc115aa5518a90ff7d0f7d4a72b349da05010ff498042f3434e2183b5c50b4"
+    },
+    {
+      "path": "resources/DFPKingGothicJP1-Regular.ttf",
+      "size": 1965620,
+      "sha256": "f8b81adb529428cc0ca0afac8e564a9f3ec1d938be0bcb74904b453663a78a1e"
+    },
+    {
+      "path": "resources/DFPKingGothicJP1-Semibold.ttf",
+      "size": 1957228,
+      "sha256": "530627b8ad24c900a0d653f8fd0aa8d9475aecaff3e73765f57609cc0837d859"
+    },
+    {
+      "path": "resources/DFPT_B5_v2.ttf",
+      "size": 8147580,
+      "sha256": "6f3ff367c83d07ec7ef4ac84d4330b8a77fdf9c2c9bb6ec2eb56a038cda0a2ab"
+    },
+    {
+      "path": "resources/fire_character_1080_30.webm",
+      "size": 4861512,
+      "sha256": "876c927ecb05be249781ec5e72ddfca1254a25fcc01d6169551752a2ede245e1"
+    },
+    {
+      "path": "resources/fire_naval_1080_30.webm",
+      "size": 4632664,
+      "sha256": "4d2d88fee201831cb1e4fe9c3dad490b54b3a0fa0e2e860d6b5450017d00bdd8"
+    },
+    {
+      "path": "resources/master_assassin_character_1080_30.webm",
+      "size": 4733186,
+      "sha256": "2eb2f522f07ea248b65a993142214f9341852a8c5c2eec8c40f25f7a45e5e347"
+    },
+    {
+      "path": "resources/master_assassin_naval_1080_30.webm",
+      "size": 4881270,
+      "sha256": "55f733b9800ef93179362793c53e4df6e47e2f4e43043833a100e48d70c25c9a"
+    },
+    {
+      "path": "resources/NotoSansKR-Medium.otf",
+      "size": 4768768,
+      "sha256": "256bb06b91d974ddbc0e3c063c85522cda6187cc638f0c6ae5d752efa63fe093"
+    },
+    {
+      "path": "resources/sea_serpent_character_1080_30.webm",
+      "size": 4726333,
+      "sha256": "3a62ec69412afecd69fed43820c1439a494e6d15e467e09c85f9b1d0d90656d6"
+    },
+    {
+      "path": "resources/sea_serpent_naval_1080_30.webm",
+      "size": 5031119,
+      "sha256": "04c9fe5d4bce3a2d05b3f8378dfe535864871331b1474259577e270e58e20c4f"
+    },
+    {
+      "path": "ShaderDataDX12.bin",
+      "size": 150193427,
+      "sha256": "d17952937059b3eda2543b20f4d5c9b4c59d646e50e50f83e94a755a7d6b86f8"
+    },
+    {
+      "path": "splashscreen.png",
+      "size": 537831,
+      "sha256": "3f5a06b283bb992666ec480d5413e3caeffd390ff4287c4c8c7f3fcb81002f82"
+    },
+    {
+      "path": "steam64.dll",
+      "size": 4096,
+      "sha256": "5949940fe2a3bc2afbc8d8589d1751c4bffc612305f16b84afa201f94006d68c"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 301928,
+      "sha256": "dcfaa13aa419a0641917205957dbe15aa472e7cf09a28cf8d3cf429598e67799"
+    },
+    {
+      "path": "streaminginstall.ini",
+      "size": 11823,
+      "sha256": "2624c6436fc71a4aaf9a355779b6902afd305c9c50a289f5dd6c674acef7b157"
+    },
+    {
+      "path": "tobii_gameintegration_x64.dll",
+      "size": 3144488,
+      "sha256": "ef7ea52e9337a14e1ab48513e5b0e49a6c14b92e69194468bbd0b11b6e77875e"
+    },
+    {
+      "path": "UbisoftConnectInstaller.exe",
+      "size": 264933784,
+      "sha256": "da5de90b0655de136f4b33624da2e77c25b758c30708e2ec2e446c8fd3d68e33"
+    },
+    {
+      "path": "upc_r2.ini",
+      "size": 712,
+      "sha256": "826e6496b84aef55cce95903bb775ff8080d2371bfa52d5b8ae27f64be03d8f8"
+    },
+    {
+      "path": "upc_r2_loader64.dll",
+      "size": 1294336,
+      "sha256": "de90d4e11bfb6dfd218f3cf6a631c63ca19b7d47978021e22a7c1ef81f339cb6"
+    },
+    {
+      "path": "videos/AC_OBD_DevilsOfTheCaribbean_FakeTrailer.webm",
+      "size": 320465303,
+      "sha256": "b56ab3ccced737c01060f1129198abacff04c2291cc0c3f9992556c5a818f980"
+    },
+    {
+      "path": "videos/ACI_Panel_Gen_IMG_UI.webm",
+      "size": 33935098,
+      "sha256": "abc08d56719c8222f91bcf1f71301cf35fc3ae0f8099c1a9c06612d473781b0b"
+    },
+    {
+      "path": "videos/ACI_Panel_OBD_IMG_UI.webm",
+      "size": 36238790,
+      "sha256": "7d5ac564bd1c2e55d3e51736eabf4df0e5eb4dd7c246ed7a87c4de7d7438ea58"
+    },
+    {
+      "path": "videos/ANVIL_Logo.webm",
+      "size": 29971047,
+      "sha256": "c9a8595f19cebe0786bb1bd16f10bc17936fcfa84a2fcdfa0eca7aa3e64cdcd2"
+    },
+    {
+      "path": "videos/ar/Epilepsy.webm",
+      "size": 2204286,
+      "sha256": "a84440e5ad56f6c66de89b15a0176df699916f00c5c497648d42bcaa55455e16"
+    },
+    {
+      "path": "videos/ar/warning_disclaimer.webm",
+      "size": 946939,
+      "sha256": "89992f12e831f10caf925f1a1cff3c5c9f286be19a23fdb8067e5bb19c7045a1"
+    },
+    {
+      "path": "videos/ar/WarningSaving.webm",
+      "size": 925729,
+      "sha256": "5308c368f1544b551a2913b7be701959045ed49e37794e27f4f4b452210a51a4"
+    },
+    {
+      "path": "videos/br/Epilepsy.webm",
+      "size": 3160275,
+      "sha256": "68481e0cac614a3646892d594c6ad031f7f0db8425202d613d1a7da7f6acecfe"
+    },
+    {
+      "path": "videos/br/warning_disclaimer.webm",
+      "size": 1023127,
+      "sha256": "88e7f7092f36a8ca0c12cd1e2c88152a723c41e62992a8b60315f58b9b057c24"
+    },
+    {
+      "path": "videos/br/WarningSaving.webm",
+      "size": 959412,
+      "sha256": "93fa884e18e8b4f9ec87516865f37088fc8f337321f72683c9b611fb63c4beb3"
+    },
+    {
+      "path": "videos/cn/Epilepsy.webm",
+      "size": 2776616,
+      "sha256": "940ebd23a52a1c4387929033ce7dfd97d67b876f7f3fbd4bbfb3f0bcb464b10f"
+    },
+    {
+      "path": "videos/cn/warning_disclaimer.webm",
+      "size": 934954,
+      "sha256": "2554d5241ddc2533d493925eaffee77f017d9ddb2c22c17ab0121b70c3d0a9df"
+    },
+    {
+      "path": "videos/cn/WarningSaving.webm",
+      "size": 932069,
+      "sha256": "3283f19fc490d2a24d97113f9148e6a6eed0ca776aa628278a0c207816119edc"
+    },
+    {
+      "path": "videos/de/Epilepsy.webm",
+      "size": 3261526,
+      "sha256": "19c9adaa4837ea67908c2abaed59de2c5989c2b9ea4c937376ebbb49e804e8d2"
+    },
+    {
+      "path": "videos/de/warning_disclaimer.webm",
+      "size": 1032381,
+      "sha256": "3acde54cd9558cbce883b1ef00d06bea57833c9c350e8d5f118312bf20ebfad9"
+    },
+    {
+      "path": "videos/de/WarningSaving.webm",
+      "size": 952352,
+      "sha256": "78620204017334d72192e44142894ff5fb862b91b8a8be5b0cc1efff1070ed33"
+    },
+    {
+      "path": "videos/en/Epilepsy.webm",
+      "size": 2943259,
+      "sha256": "f6fb7b051bb08f7e074a4f4552c88a970117c7bbc5232a346b30fb57e2638f11"
+    },
+    {
+      "path": "videos/en/warning_disclaimer.webm",
+      "size": 991763,
+      "sha256": "c1aa6495787bd2dcbe9de3d955f470519de7728f2adbf4e7be00cbb13882afad"
+    },
+    {
+      "path": "videos/en/WarningSaving.webm",
+      "size": 942787,
+      "sha256": "73b0a083cd4738653284a6db60aa325067eb665432a3e3061192a34b4b75f652"
+    },
+    {
+      "path": "videos/fr/Epilepsy.webm",
+      "size": 3186341,
+      "sha256": "3da677c2716fa42a7fa5194db64dc64b970365ef1a8cb0fdd4893594f5130bf2"
+    },
+    {
+      "path": "videos/fr/warning_disclaimer.webm",
+      "size": 1012070,
+      "sha256": "e4bd751797bface443f8fe2c417badba45b2a5af3caad3c243df951090d62d17"
+    },
+    {
+      "path": "videos/fr/WarningSaving.webm",
+      "size": 952365,
+      "sha256": "4cf3d65515cd28796df3751e7954d9edcceeab633141f1b6d2104d72ebbb1371"
+    },
+    {
+      "path": "videos/HUB_Bootflow_AbstergoIntro.webm",
+      "size": 518935864,
+      "sha256": "70fe85cc20b6475e8137c49383277e08e0aedeb6a364c8b2b68af80852ea90d4"
+    },
+    {
+      "path": "videos/HUB_Bootflow_FranchiseIntro.webm",
+      "size": 140380483,
+      "sha256": "6c658df95fdb2a6657af6e8f92cf7cbee6e5d9ff3ce83e934556e5e59578b6f9"
+    },
+    {
+      "path": "videos/HUB_BootFlow_Intro.webm",
+      "size": 27971158,
+      "sha256": "608b5c61bab83c3893db1f6f7ee9df390651e72833c87041e0f1c6e64ec359bc"
+    },
+    {
+      "path": "videos/HUB_BootFlow_Intro_LowRes.webm",
+      "size": 14567969,
+      "sha256": "22e6d6da08195fa4d0ee11bc99e10878af9853766e4ba12e8c7e0df628777efb"
+    },
+    {
+      "path": "videos/HUB_NEWS_CG_Trailers/AC_HUB_CGedit_MIRAGE_01680_prores_Final.webm",
+      "size": 299166632,
+      "sha256": "ccae6dd20f4e7c066e4a421c1e04ea5ef302443dc353adb85c68a020d7eddeda"
+    },
+    {
+      "path": "videos/HUB_NEWS_CG_Trailers/AC_HUB_CGedit_ODYSSEY_01680_prores_Final.webm",
+      "size": 245800231,
+      "sha256": "7e8349b894f6f85093338a4c824412fa4f08883905ac9565871e0a7867746af4"
+    },
+    {
+      "path": "videos/HUB_NEWS_CG_Trailers/AC_HUB_CGedit_ORIGINS_01680_prores_Final.webm",
+      "size": 188172414,
+      "sha256": "808b7a39f918fba3796191360bb329292846274de15db38befbf9a07c0dfd899"
+    },
+    {
+      "path": "videos/HUB_NEWS_CG_Trailers/AC_HUB_CGedit_SHADOWS_01680_prores_Final.webm",
+      "size": 215562424,
+      "sha256": "9b24380f049449e8cad223f96cb7a4d4ca75a606b6be3265d1bbb8e443a62cc0"
+    },
+    {
+      "path": "videos/HUB_NEWS_CG_Trailers/AC_HUB_CGedit_VALHALLA_01680_prores_Final.webm",
+      "size": 300492222,
+      "sha256": "13950bc29db4de1add04e7b002128b78f820f6ef946df83defa0a0f7f748fa16"
+    },
+    {
+      "path": "videos/HUB_NEWS_GP_Trailers/AC_HUB_GPedit_MIRAGE_0802_final_prores.webm",
+      "size": 304974855,
+      "sha256": "444512e348b26f14a366376cc6237c63deb6d89a58c3ffe23f20016ed4081982"
+    },
+    {
+      "path": "videos/HUB_NEWS_GP_Trailers/AC_HUB_GPedit_ODYSSEY_0802_final_prores.webm",
+      "size": 267812170,
+      "sha256": "aecc212d9f187e8b75a517a317e26fd1305b1dff832d0ef444a572db2a8b745e"
+    },
+    {
+      "path": "videos/HUB_NEWS_GP_Trailers/AC_HUB_GPedit_ORIGINS_0802_final_prores.webm",
+      "size": 278011200,
+      "sha256": "2b347c1b1770cead846baa8c26dcc7812123fb13888a7f4d13e11394838be146"
+    },
+    {
+      "path": "videos/HUB_NEWS_GP_Trailers/AC_HUB_GPedit_SHADOWS_0802_final_prores.webm",
+      "size": 214853505,
+      "sha256": "04466d34dd26143eb1a298b5432fde200466cc403b2e30544ac0fa564841f6cc"
+    },
+    {
+      "path": "videos/HUB_NEWS_GP_Trailers/AC_HUB_GPedit_VALHALLA_0802_final_prores.webm",
+      "size": 260202966,
+      "sha256": "d26560429d024c68a7b2b0cb832f3a08841d5daf4647d5c15854fb425d354b75"
+    },
+    {
+      "path": "videos/INFHUB_RED_MediaLibraryItem_Audio.webm",
+      "size": 28832733,
+      "sha256": "fe54080e5f464e5082781a4406ce2053d92538c266be671412e5e95d56eec097"
+    },
+    {
+      "path": "videos/it/Epilepsy.webm",
+      "size": 3056266,
+      "sha256": "e8fd6ee54b2859e0657a876badc076f69bc4a20d0e4983d6799f2867943ba67f"
+    },
+    {
+      "path": "videos/it/warning_disclaimer.webm",
+      "size": 987980,
+      "sha256": "e58b01b0d0e4f99c71d090b87d028a94de065d1476c64f1a3c656d46855f3c44"
+    },
+    {
+      "path": "videos/it/WarningSaving.webm",
+      "size": 952381,
+      "sha256": "42ac70054d8d7554d1d4afa6a5d0d238df74f3e61e25ecb420f399f694830c46"
+    },
+    {
+      "path": "videos/jp/Epilepsy.webm",
+      "size": 3095043,
+      "sha256": "c119a1236a952bc445015fd1743f7227fb5d631fea12552bc1b4c2b383e2345a"
+    },
+    {
+      "path": "videos/jp/warning_disclaimer.webm",
+      "size": 1039811,
+      "sha256": "ef2aeff63e51214ef60234957b01737de126b3bc3854ac698f633d18a7b95a08"
+    },
+    {
+      "path": "videos/jp/WarningSaving.webm",
+      "size": 960578,
+      "sha256": "1b5ea5ef4d398061a2a5b25aa2b3bee67f5fac053c34ccbd178bc3798f6bb8bd"
+    },
+    {
+      "path": "videos/ko/Epilepsy.webm",
+      "size": 2464134,
+      "sha256": "cbaeef4ed73877f0e426a9efeca0b830e8a5418543234e8a789ec4cb9886433e"
+    },
+    {
+      "path": "videos/ko/warning_disclaimer.webm",
+      "size": 923892,
+      "sha256": "baca5a541bcac07b1f7d697bc6563261758ef040c812cacdab6e45fb007adbc6"
+    },
+    {
+      "path": "videos/ko/WarningSaving.webm",
+      "size": 927190,
+      "sha256": "6359f654230518f0f6113dc46ddbef70c0423306501f00e0d9903f25a5429aa1"
+    },
+    {
+      "path": "videos/pl/Epilepsy.webm",
+      "size": 3200801,
+      "sha256": "cbc10f0fb83b87d326634eceb1c6cc194310ef758f8f860c0182f493b8f6e99a"
+    },
+    {
+      "path": "videos/pl/warning_disclaimer.webm",
+      "size": 1013099,
+      "sha256": "a5ee1b3186586393fca7daa3efbc55bb55072ca99d35a1d5f3e67ce1abc9a075"
+    },
+    {
+      "path": "videos/pl/WarningSaving.webm",
+      "size": 957756,
+      "sha256": "6752e53b7d333ce3fa0116f441efa48d403e4df4416265383fb2db50d264429f"
+    },
+    {
+      "path": "videos/ru/Epilepsy.webm",
+      "size": 3099092,
+      "sha256": "d81be5e08f35f97ba99d423f8b98ae117a3434ad056ff5373d8a7e197b01fec2"
+    },
+    {
+      "path": "videos/ru/warning_disclaimer.webm",
+      "size": 1079020,
+      "sha256": "12e1f5da3f2d59de9be5f0aef836479fe819b8d041cb8ceece3703a6d8a56d72"
+    },
+    {
+      "path": "videos/ru/WarningSaving.webm",
+      "size": 949616,
+      "sha256": "91897aaee054c6908af3adc38d7e9da98e178472fcad90ffde6a63c579360854"
+    },
+    {
+      "path": "videos/sp/Epilepsy.webm",
+      "size": 3180170,
+      "sha256": "42b9e0faca15b72ae079e2ec3c80fbdd492eb3112229e58b847703b8ef25e92f"
+    },
+    {
+      "path": "videos/sp/warning_disclaimer.webm",
+      "size": 1020812,
+      "sha256": "7a9fd3013e35b74ea512a9e7058b76a3666db027c12ba8829cceacd5fee9fad5"
+    },
+    {
+      "path": "videos/sp/WarningSaving.webm",
+      "size": 960552,
+      "sha256": "c77ca9e8f497d8d05c656dfdbde564e6824f38e3257f9cf3537603b9aa44aaf7"
+    },
+    {
+      "path": "videos/tw/Epilepsy.webm",
+      "size": 2831478,
+      "sha256": "8a356d7b280a713d95f24e45ef30596f7353260317948644fc5554494a58b085"
+    },
+    {
+      "path": "videos/tw/warning_disclaimer.webm",
+      "size": 978380,
+      "sha256": "ad45f1121d226246072cc4fb6a808e9753454eaf15f9d62948977293f50e5658"
+    },
+    {
+      "path": "videos/tw/WarningSaving.webm",
+      "size": 934703,
+      "sha256": "bc554e25ac1e15023ed53d6284dc18adda78d262e19ea46a620c78b248b31be0"
+    },
+    {
+      "path": "videos/UbisoftLogo.webm",
+      "size": 42300430,
+      "sha256": "c46b6e75e227f499b7002039005c0f11b838ecc7ceb71cf333e6e7281c31c76d"
+    },
+    {
+      "path": "voices38.dll",
+      "size": 4116704,
+      "sha256": "b18d32fa6d2fe981186a86d04989298e4e2a313438c63cd5723a56b93135bf5d"
+    },
+    {
+      "path": "vram_prediction_stats.ini",
+      "size": 22720,
+      "sha256": "4d655222adf1d3cb4f86e0d6ddc0f9810be3ce59cb3b46dcd28e0bd3aceef0ea"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "_CommonRedist/_redist_readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 2038
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 2038,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 891454,
+          "length": 295320
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1186774,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1996270,
+          "length": 31533074
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 33529344,
+          "length": 7054848
+        },
+        {
+          "file": "ACBlackFlag.exe",
+          "file_offset": 0,
+          "chunk_offset": 40584192,
+          "length": 478845792
+        },
+        {
+          "file": "aegir_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 519429984,
+          "length": 60104544
+        },
+        {
+          "file": "amd_ags_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 579534528,
+          "length": 179408
+        },
+        {
+          "file": "amd_fidelityfx_framegeneration_dx12.dll",
+          "file_offset": 0,
+          "chunk_offset": 579713936,
+          "length": 38245640
+        },
+        {
+          "file": "amd_fidelityfx_loader_dx12.dll",
+          "file_offset": 0,
+          "chunk_offset": 617959576,
+          "length": 25864
+        },
+        {
+          "file": "amd_fidelityfx_upscaler_dx12.dll",
+          "file_offset": 0,
+          "chunk_offset": 617985440,
+          "length": 22348552
+        },
+        {
+          "file": "benchmark/benchmark_template.html",
+          "file_offset": 0,
+          "chunk_offset": 640333992,
+          "length": 2150863
+        },
+        {
+          "file": "D3D12/D3D12Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 642484855,
+          "length": 3351064
+        },
+        {
+          "file": "D3D12/d3d12SDKLayers.dll",
+          "file_offset": 0,
+          "chunk_offset": 645835919,
+          "length": 5080096
+        },
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 0,
+          "chunk_offset": 650916015,
+          "length": 1170849098
+        }
+      ],
+      "sha256": "30dd3c8b48885689dc789dcf869f7a99d1e8209ee46faa1ac6126464caa10ce5"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 1170849098,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "39550328e1502f7a919fc1f4b9290b0a640f104d241db8de7238203502393061"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 2992614211,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "4ec136559637dfafa493d2e680937371ce2bb184215b5a28df627d810c616bc4"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 4814379324,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "27511c2dde0a04477b9a3088854ba2fd1dac6c8165cf84a4920754566c965e75"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 6636144437,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "667021cebb300bea6057c6e10728a424ef0f91570a2ead8937d663e0417aa08d"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 8457909550,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "eacc0921ff580b6371a997cd3ebd8a7f65915a6d8d2dd1ce43cb346279f6efd9"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 10279674663,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "60715337ca1e706ae7d01df7e2be5b62def6b8185c1c10275c18ab8c44923b08"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 12101439776,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "a569e43e7be9e78ca309004bbaf77febc953b6624eca7759f14421100f504790"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 13923204889,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "a664fad2ed95345e3536fae9e013cfb6adc3a86bfbc67c1bfb9842462c70020f"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 15744970002,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "cff0c7fe68bd694c6e3b1de12e61d411ae3237ce96e78de9ac3bcea5921bb72b"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 17566735115,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "24a44a4b2f205edbef96bdeafbd069d8f8a63bb58db7de04ba31d31cddbe49fc"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 19388500228,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "3781089369ef8bee7520edc0c7f860aa310ca100b1b12b464452dda91f0521dc"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 21210265341,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "37836d0d8a7e3b335cebd14b59ed3d039ec03a81398af9766c8c5a1dc5ff535d"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 23032030454,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "078ab8550c3cbdb19e5fae857d3554b1b59b18265b6c231f0739319b7b9cdcb1"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot.forge",
+          "file_offset": 24853795567,
+          "chunk_offset": 0,
+          "length": 786738449
+        },
+        {
+          "file": "DataPC_boot_dx12.forge",
+          "file_offset": 0,
+          "chunk_offset": 786738449,
+          "length": 215318528
+        },
+        {
+          "file": "DataPC_boot_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1002056977,
+          "length": 819708136
+        }
+      ],
+      "sha256": "97acd398950b1d88a92cd83594b4e5d3e6f37402e8cb094889c76681bf244d30"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot_patch_01.forge",
+          "file_offset": 819708136,
+          "chunk_offset": 0,
+          "length": 1095745304
+        },
+        {
+          "file": "DataPC_boot_sound.forge",
+          "file_offset": 0,
+          "chunk_offset": 1095745304,
+          "length": 726019809
+        }
+      ],
+      "sha256": "423923f49912cfe85bbfaf1d91960f9790995e87b6b99629868cc419693ef622"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot_sound.forge",
+          "file_offset": 726019809,
+          "chunk_offset": 0,
+          "length": 1110692127
+        },
+        {
+          "file": "DataPC_boot_sound_bra.forge",
+          "file_offset": 0,
+          "chunk_offset": 1110692127,
+          "length": 258506752
+        },
+        {
+          "file": "DataPC_boot_sound_bra_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1369198879,
+          "length": 32866304
+        },
+        {
+          "file": "DataPC_boot_sound_chi.forge",
+          "file_offset": 0,
+          "chunk_offset": 1402065183,
+          "length": 256638976
+        },
+        {
+          "file": "DataPC_boot_sound_chi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1658704159,
+          "length": 65273856
+        },
+        {
+          "file": "DataPC_boot_sound_eng.forge",
+          "file_offset": 0,
+          "chunk_offset": 1723978015,
+          "length": 97787098
+        }
+      ],
+      "sha256": "8a7d64e843ed443c6e214e6d63ed3162cc50cb94085ff233f8c2411f73c4534b"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_boot_sound_eng.forge",
+          "file_offset": 97787098,
+          "chunk_offset": 0,
+          "length": 163636006
+        },
+        {
+          "file": "DataPC_boot_sound_eng_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 163636006,
+          "length": 21037056
+        },
+        {
+          "file": "DataPC_boot_sound_fre.forge",
+          "file_offset": 0,
+          "chunk_offset": 184673062,
+          "length": 253198336
+        },
+        {
+          "file": "DataPC_boot_sound_fre_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 437871398,
+          "length": 50266112
+        },
+        {
+          "file": "DataPC_boot_sound_ger.forge",
+          "file_offset": 0,
+          "chunk_offset": 488137510,
+          "length": 259227648
+        },
+        {
+          "file": "DataPC_boot_sound_ger_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 747365158,
+          "length": 42270720
+        },
+        {
+          "file": "DataPC_boot_sound_ita.forge",
+          "file_offset": 0,
+          "chunk_offset": 789635878,
+          "length": 261947392
+        },
+        {
+          "file": "DataPC_boot_sound_ita_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1051583270,
+          "length": 43712512
+        },
+        {
+          "file": "DataPC_boot_sound_jap.forge",
+          "file_offset": 0,
+          "chunk_offset": 1095295782,
+          "length": 257294336
+        },
+        {
+          "file": "DataPC_boot_sound_jap_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1352590118,
+          "length": 59703296
+        },
+        {
+          "file": "DataPC_boot_sound_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1412293414,
+          "length": 77332480
+        },
+        {
+          "file": "DataPC_boot_sound_spa.forge",
+          "file_offset": 0,
+          "chunk_offset": 1489625894,
+          "length": 257622016
+        },
+        {
+          "file": "DataPC_boot_sound_spa_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1747247910,
+          "length": 42762240
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea.forge",
+          "file_offset": 0,
+          "chunk_offset": 1790010150,
+          "length": 31754963
+        }
+      ],
+      "sha256": "c206999207b0f2260cc479584db24c84801e5cd0c2e5c8a344d81942bf8b3f22"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_CaribbeanSea.forge",
+          "file_offset": 31754963,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "300a1644905b84e7ba4ce6d05f4ca41af4ceddfc5acf71c08d746662665172ca"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_CaribbeanSea.forge",
+          "file_offset": 1853520076,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "58f8ac3a89e6eee5fe11a00f1b7d8b407afe5773c4d36c88d47f67cba8d1ab61"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_CaribbeanSea.forge",
+          "file_offset": 3675285189,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "7d67dad8a722e22121ae1ed075389ba78a7d0851b79a3e1402a47c89977d0cea"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_CaribbeanSea.forge",
+          "file_offset": 5497050302,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "51ccdab48ea7bf07e87f9147c73d97601e603ff3a5befa075fe9df2aec828253"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_CaribbeanSea.forge",
+          "file_offset": 7318815415,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "da56f3b3d5c5ceb4f97ff5d20a23ca781da15762cccfaa0cfda4e9f682ed634c"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_CaribbeanSea.forge",
+          "file_offset": 9140580528,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "5d339e0f8a2eebd3121cd926231f0195734451ce6119346ee5993304963b23a1"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_CaribbeanSea.forge",
+          "file_offset": 10962345641,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "d44fb6b5bf7513063fb0e5ef4ff45c84a990c55d8fe6da12dc0f488e00d0f003"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_CaribbeanSea.forge",
+          "file_offset": 12784110754,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "684614cf9c2535c2dc9fdeea8f2167f4a964ec7193367ef60e0e11f94d5ee15d"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_CaribbeanSea.forge",
+          "file_offset": 14605875867,
+          "chunk_offset": 0,
+          "length": 1797850469
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_dx12.forge",
+          "file_offset": 0,
+          "chunk_offset": 1797850469,
+          "length": 10027008
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_floor.forge",
+          "file_offset": 0,
+          "chunk_offset": 1807877477,
+          "length": 13887636
+        }
+      ],
+      "sha256": "985cb6cc203f6f1cdbd892e0deff39192da2be369d4d6fc893c8f1c3cf0e6926"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_CaribbeanSea_floor.forge",
+          "file_offset": 13887636,
+          "chunk_offset": 0,
+          "length": 441816940
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_gi.forge",
+          "file_offset": 0,
+          "chunk_offset": 441816940,
+          "length": 1379948173
+        }
+      ],
+      "sha256": "5b34129e466d7387301df2dff1a44d33d4c9405f0a3c3d92e77b913d63a99ed2"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_CaribbeanSea_gi.forge",
+          "file_offset": 1379948173,
+          "chunk_offset": 0,
+          "length": 475310451
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_gi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 475310451,
+          "length": 98304
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_nav.forge",
+          "file_offset": 0,
+          "chunk_offset": 475408755,
+          "length": 825294848
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_nav_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1300703603,
+          "length": 89456640
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1390160243,
+          "length": 431604870
+        }
+      ],
+      "sha256": "0510ea1bcbe92b0abd7c3de786149d29eec8f6d62737fdc59a1b420b4ddd3bc3"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_CaribbeanSea_patch_01.forge",
+          "file_offset": 431604870,
+          "chunk_offset": 0,
+          "length": 175586170
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound.forge",
+          "file_offset": 0,
+          "chunk_offset": 175586170,
+          "length": 152961024
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_bra.forge",
+          "file_offset": 0,
+          "chunk_offset": 328547194,
+          "length": 5210112
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_bra_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 333757306,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_chi.forge",
+          "file_offset": 0,
+          "chunk_offset": 333790074,
+          "length": 5111808
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_chi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 338901882,
+          "length": 131072
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_eng.forge",
+          "file_offset": 0,
+          "chunk_offset": 339032954,
+          "length": 5341184
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_eng_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 344374138,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_fre.forge",
+          "file_offset": 0,
+          "chunk_offset": 344406906,
+          "length": 5046272
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_fre_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 349453178,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_ger.forge",
+          "file_offset": 0,
+          "chunk_offset": 349485946,
+          "length": 5275648
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_ger_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 354761594,
+          "length": 360448
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_ita.forge",
+          "file_offset": 0,
+          "chunk_offset": 355122042,
+          "length": 5210112
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_ita_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 360332154,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_jap.forge",
+          "file_offset": 0,
+          "chunk_offset": 360364922,
+          "length": 5210112
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_jap_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 365575034,
+          "length": 360448
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 365935482,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_spa.forge",
+          "file_offset": 0,
+          "chunk_offset": 365968250,
+          "length": 5210112
+        },
+        {
+          "file": "DataPC_OBD_CaribbeanSea_sound_spa_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 371178362,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Charleston.forge",
+          "file_offset": 0,
+          "chunk_offset": 371211130,
+          "length": 1305247744
+        },
+        {
+          "file": "DataPC_OBD_Charleston_floor.forge",
+          "file_offset": 0,
+          "chunk_offset": 1676458874,
+          "length": 6488064
+        },
+        {
+          "file": "DataPC_OBD_Charleston_gi.forge",
+          "file_offset": 0,
+          "chunk_offset": 1682946938,
+          "length": 138818175
+        }
+      ],
+      "sha256": "714a28add21344d7e87831bf52ae07b029764076eff421616f18d6bda101f3d7"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_Charleston_gi.forge",
+          "file_offset": 138818175,
+          "chunk_offset": 0,
+          "length": 115428737
+        },
+        {
+          "file": "DataPC_OBD_Charleston_gi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 115428737,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Charleston_nav.forge",
+          "file_offset": 0,
+          "chunk_offset": 115461505,
+          "length": 26148864
+        },
+        {
+          "file": "DataPC_OBD_Charleston_nav_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 141610369,
+          "length": 1376256
+        },
+        {
+          "file": "DataPC_OBD_Charleston_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 142986625,
+          "length": 18415616
+        },
+        {
+          "file": "DataPC_OBD_Charleston_sound.forge",
+          "file_offset": 0,
+          "chunk_offset": 161402241,
+          "length": 6586368
+        },
+        {
+          "file": "DataPC_OBD_Charleston_sound_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 167988609,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Delirium.forge",
+          "file_offset": 0,
+          "chunk_offset": 168021377,
+          "length": 110198784
+        },
+        {
+          "file": "DataPC_OBD_Delirium_floor.forge",
+          "file_offset": 0,
+          "chunk_offset": 278220161,
+          "length": 7569408
+        },
+        {
+          "file": "DataPC_OBD_Delirium_gi.forge",
+          "file_offset": 0,
+          "chunk_offset": 285789569,
+          "length": 5570560
+        },
+        {
+          "file": "DataPC_OBD_Delirium_gi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 291360129,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Delirium_nav.forge",
+          "file_offset": 0,
+          "chunk_offset": 291392897,
+          "length": 8454144
+        },
+        {
+          "file": "DataPC_OBD_Delirium_nav_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 299847041,
+          "length": 1015808
+        },
+        {
+          "file": "DataPC_OBD_Delirium_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 300862849,
+          "length": 1998848
+        },
+        {
+          "file": "DataPC_OBD_Delirium_sound.forge",
+          "file_offset": 0,
+          "chunk_offset": 302861697,
+          "length": 8716288
+        },
+        {
+          "file": "DataPC_OBD_Delirium_sound_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 311577985,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Epilogue.forge",
+          "file_offset": 0,
+          "chunk_offset": 311610753,
+          "length": 182386688
+        },
+        {
+          "file": "DataPC_OBD_Epilogue_floor.forge",
+          "file_offset": 0,
+          "chunk_offset": 493997441,
+          "length": 360448
+        },
+        {
+          "file": "DataPC_OBD_Epilogue_gi.forge",
+          "file_offset": 0,
+          "chunk_offset": 494357889,
+          "length": 7176192
+        },
+        {
+          "file": "DataPC_OBD_Epilogue_gi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 501534081,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Epilogue_nav.forge",
+          "file_offset": 0,
+          "chunk_offset": 501566849,
+          "length": 15892480
+        },
+        {
+          "file": "DataPC_OBD_Epilogue_nav_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 517459329,
+          "length": 65536
+        },
+        {
+          "file": "DataPC_OBD_Epilogue_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 517524865,
+          "length": 2850816
+        },
+        {
+          "file": "DataPC_OBD_Epilogue_sound.forge",
+          "file_offset": 0,
+          "chunk_offset": 520375681,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Epilogue_sound_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 520408449,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple.forge",
+          "file_offset": 0,
+          "chunk_offset": 520441217,
+          "length": 668598272
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_floor.forge",
+          "file_offset": 0,
+          "chunk_offset": 1189039489,
+          "length": 425984
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_gi.forge",
+          "file_offset": 0,
+          "chunk_offset": 1189465473,
+          "length": 26116096
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_gi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1215581569,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_nav.forge",
+          "file_offset": 0,
+          "chunk_offset": 1215614337,
+          "length": 1638400
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_nav_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1217252737,
+          "length": 131072
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1217383809,
+          "length": 22675456
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound.forge",
+          "file_offset": 0,
+          "chunk_offset": 1240059265,
+          "length": 7471104
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_bra.forge",
+          "file_offset": 0,
+          "chunk_offset": 1247530369,
+          "length": 131072
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_bra_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1247661441,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_chi.forge",
+          "file_offset": 0,
+          "chunk_offset": 1247694209,
+          "length": 131072
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_chi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1247825281,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_eng.forge",
+          "file_offset": 0,
+          "chunk_offset": 1247858049,
+          "length": 131072
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_eng_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1247989121,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_fre.forge",
+          "file_offset": 0,
+          "chunk_offset": 1248021889,
+          "length": 131072
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_fre_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1248152961,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_ger.forge",
+          "file_offset": 0,
+          "chunk_offset": 1248185729,
+          "length": 131072
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_ger_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1248316801,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_ita.forge",
+          "file_offset": 0,
+          "chunk_offset": 1248349569,
+          "length": 131072
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_ita_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1248480641,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_jap.forge",
+          "file_offset": 0,
+          "chunk_offset": 1248513409,
+          "length": 131072
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_jap_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1248644481,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1248677249,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_spa.forge",
+          "file_offset": 0,
+          "chunk_offset": 1248710017,
+          "length": 131072
+        },
+        {
+          "file": "DataPC_OBD_MayanTemple_sound_spa_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1248841089,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_NorthCarolina.forge",
+          "file_offset": 0,
+          "chunk_offset": 1248873857,
+          "length": 551682048
+        },
+        {
+          "file": "DataPC_OBD_NorthCarolina_floor.forge",
+          "file_offset": 0,
+          "chunk_offset": 1800555905,
+          "length": 21209208
+        }
+      ],
+      "sha256": "7ae61a646e02ba6223e82b1823819d205f2bbd549a8661aefd1276f3fc13398c"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_NorthCarolina_floor.forge",
+          "file_offset": 21209208,
+          "chunk_offset": 0,
+          "length": 13229960
+        },
+        {
+          "file": "DataPC_OBD_NorthCarolina_gi.forge",
+          "file_offset": 0,
+          "chunk_offset": 13229960,
+          "length": 45645824
+        },
+        {
+          "file": "DataPC_OBD_NorthCarolina_gi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 58875784,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_NorthCarolina_nav.forge",
+          "file_offset": 0,
+          "chunk_offset": 58908552,
+          "length": 35323904
+        },
+        {
+          "file": "DataPC_OBD_NorthCarolina_nav_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 94232456,
+          "length": 1310720
+        },
+        {
+          "file": "DataPC_OBD_NorthCarolina_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 95543176,
+          "length": 7929856
+        },
+        {
+          "file": "DataPC_OBD_NorthCarolina_sound.forge",
+          "file_offset": 0,
+          "chunk_offset": 103473032,
+          "length": 5963776
+        },
+        {
+          "file": "DataPC_OBD_NorthCarolina_sound_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 109436808,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Principe.forge",
+          "file_offset": 0,
+          "chunk_offset": 109469576,
+          "length": 753369088
+        },
+        {
+          "file": "DataPC_OBD_Principe_floor.forge",
+          "file_offset": 0,
+          "chunk_offset": 862838664,
+          "length": 47284224
+        },
+        {
+          "file": "DataPC_OBD_Principe_gi.forge",
+          "file_offset": 0,
+          "chunk_offset": 910122888,
+          "length": 69828608
+        },
+        {
+          "file": "DataPC_OBD_Principe_gi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 979951496,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Principe_nav.forge",
+          "file_offset": 0,
+          "chunk_offset": 979984264,
+          "length": 96698368
+        },
+        {
+          "file": "DataPC_OBD_Principe_nav_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1076682632,
+          "length": 2686976
+        },
+        {
+          "file": "DataPC_OBD_Principe_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1079369608,
+          "length": 39780352
+        },
+        {
+          "file": "DataPC_OBD_Principe_sound.forge",
+          "file_offset": 0,
+          "chunk_offset": 1119149960,
+          "length": 4554752
+        },
+        {
+          "file": "DataPC_OBD_Principe_sound_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1123704712,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001.forge",
+          "file_offset": 0,
+          "chunk_offset": 1123737480,
+          "length": 130220032
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_dx12.forge",
+          "file_offset": 0,
+          "chunk_offset": 1253957512,
+          "length": 2457600
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_floor.forge",
+          "file_offset": 0,
+          "chunk_offset": 1256415112,
+          "length": 1081344
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_gi.forge",
+          "file_offset": 0,
+          "chunk_offset": 1257496456,
+          "length": 56819712
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_gi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1314316168,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_nav.forge",
+          "file_offset": 0,
+          "chunk_offset": 1314348936,
+          "length": 10878976
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_nav_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1325227912,
+          "length": 1867776
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1327095688,
+          "length": 15499264
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound.forge",
+          "file_offset": 0,
+          "chunk_offset": 1342594952,
+          "length": 131072
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_bra.forge",
+          "file_offset": 0,
+          "chunk_offset": 1342726024,
+          "length": 65536
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_bra_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1342791560,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_chi.forge",
+          "file_offset": 0,
+          "chunk_offset": 1342824328,
+          "length": 65536
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_chi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1342889864,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_eng.forge",
+          "file_offset": 0,
+          "chunk_offset": 1342922632,
+          "length": 65536
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_eng_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1342988168,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_fre.forge",
+          "file_offset": 0,
+          "chunk_offset": 1343020936,
+          "length": 65536
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_fre_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1343086472,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_ger.forge",
+          "file_offset": 0,
+          "chunk_offset": 1343119240,
+          "length": 65536
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_ger_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1343184776,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_ita.forge",
+          "file_offset": 0,
+          "chunk_offset": 1343217544,
+          "length": 65536
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_ita_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1343283080,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_jap.forge",
+          "file_offset": 0,
+          "chunk_offset": 1343315848,
+          "length": 65536
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_jap_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1343381384,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1343414152,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_spa.forge",
+          "file_offset": 0,
+          "chunk_offset": 1343446920,
+          "length": 65536
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_001_sound_spa_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1343512456,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_002.forge",
+          "file_offset": 0,
+          "chunk_offset": 1343545224,
+          "length": 478219889
+        }
+      ],
+      "sha256": "3ee6187bcdfc7603fa985ef9998e0c5921b93f9fb952c27e15889b566d18370c"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_OBD_Rift_Drop_002.forge",
+          "file_offset": 478219889,
+          "chunk_offset": 0,
+          "length": 163672463
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_002_dx12.forge",
+          "file_offset": 0,
+          "chunk_offset": 163672463,
+          "length": 2195456
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_002_floor.forge",
+          "file_offset": 0,
+          "chunk_offset": 165867919,
+          "length": 2031616
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_002_gi.forge",
+          "file_offset": 0,
+          "chunk_offset": 167899535,
+          "length": 177504256
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_002_gi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 345403791,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_002_nav.forge",
+          "file_offset": 0,
+          "chunk_offset": 345436559,
+          "length": 8945664
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_002_nav_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 354382223,
+          "length": 851968
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_002_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 355234191,
+          "length": 25460736
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_002_sound.forge",
+          "file_offset": 0,
+          "chunk_offset": 380694927,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_002_sound_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 380727695,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_003.forge",
+          "file_offset": 0,
+          "chunk_offset": 380760463,
+          "length": 146112512
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_003_floor.forge",
+          "file_offset": 0,
+          "chunk_offset": 526872975,
+          "length": 983040
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_003_gi.forge",
+          "file_offset": 0,
+          "chunk_offset": 527856015,
+          "length": 71237632
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_003_gi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 599093647,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_003_nav.forge",
+          "file_offset": 0,
+          "chunk_offset": 599126415,
+          "length": 20217856
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_003_nav_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 619344271,
+          "length": 10223616
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_003_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 629567887,
+          "length": 10584064
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_003_sound.forge",
+          "file_offset": 0,
+          "chunk_offset": 640151951,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_003_sound_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 640184719,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_004.forge",
+          "file_offset": 0,
+          "chunk_offset": 640217487,
+          "length": 732397568
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_004_dx12.forge",
+          "file_offset": 0,
+          "chunk_offset": 1372615055,
+          "length": 1671168
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_004_floor.forge",
+          "file_offset": 0,
+          "chunk_offset": 1374286223,
+          "length": 786432
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_004_gi.forge",
+          "file_offset": 0,
+          "chunk_offset": 1375072655,
+          "length": 323911680
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_004_gi_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1698984335,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_004_nav.forge",
+          "file_offset": 0,
+          "chunk_offset": 1699017103,
+          "length": 425984
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_004_nav_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1699443087,
+          "length": 196608
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_004_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1699639695,
+          "length": 11403264
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_004_sound.forge",
+          "file_offset": 0,
+          "chunk_offset": 1711042959,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_OBD_Rift_Drop_004_sound_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1711075727,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_RED_TitleScreen.forge",
+          "file_offset": 0,
+          "chunk_offset": 1711108495,
+          "length": 2654208
+        },
+        {
+          "file": "DataPC_RED_TitleScreen_dx12.forge",
+          "file_offset": 0,
+          "chunk_offset": 1713762703,
+          "length": 1081344
+        },
+        {
+          "file": "DataPC_RED_TitleScreen_floor.forge",
+          "file_offset": 0,
+          "chunk_offset": 1714844047,
+          "length": 65536
+        },
+        {
+          "file": "DataPC_RED_TitleScreen_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 1714909583,
+          "length": 65536
+        },
+        {
+          "file": "DataPC_shared_00.forge",
+          "file_offset": 0,
+          "chunk_offset": 1714975119,
+          "length": 106789994
+        }
+      ],
+      "sha256": "0a3a09a2c853847af4a2f45cd0d04f477cfbba13e5bc51800ff33d435fcdcf2c"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_shared_00.forge",
+          "file_offset": 106789994,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "b3e17a879b735474658098638f2f385f20ab8a34c576913286003b1262f20bf1"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_shared_00.forge",
+          "file_offset": 1928555107,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "5147ce740e876f47a020730165cbcad4e40f5d7c2f28989008303405dab41dc4"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_shared_00.forge",
+          "file_offset": 3750320220,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "5f1ac6af62d981057d523265ff5b4a974e841719f9b24305348ff426ebb3fa36"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_shared_00.forge",
+          "file_offset": 5572085333,
+          "chunk_offset": 0,
+          "length": 1821765113
+        }
+      ],
+      "sha256": "7058c4fba1959fde4110ae35edd6e408ca211eca0a7a6b9712850936a09d1036"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "DataPC_shared_00.forge",
+          "file_offset": 7393850446,
+          "chunk_offset": 0,
+          "length": 577620914
+        },
+        {
+          "file": "DataPC_shared_00_dx12.forge",
+          "file_offset": 0,
+          "chunk_offset": 577620914,
+          "length": 35586048
+        },
+        {
+          "file": "DataPC_shared_00_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 613206962,
+          "length": 274530304
+        },
+        {
+          "file": "DataPC_WhiteRoom.forge",
+          "file_offset": 0,
+          "chunk_offset": 887737266,
+          "length": 29917184
+        },
+        {
+          "file": "DataPC_WhiteRoom_dx12.forge",
+          "file_offset": 0,
+          "chunk_offset": 917654450,
+          "length": 2162688
+        },
+        {
+          "file": "DataPC_WhiteRoom_floor.forge",
+          "file_offset": 0,
+          "chunk_offset": 919817138,
+          "length": 65536
+        },
+        {
+          "file": "DataPC_WhiteRoom_nav.forge",
+          "file_offset": 0,
+          "chunk_offset": 919882674,
+          "length": 917504
+        },
+        {
+          "file": "DataPC_WhiteRoom_nav_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 920800178,
+          "length": 32768
+        },
+        {
+          "file": "DataPC_WhiteRoom_patch_01.forge",
+          "file_offset": 0,
+          "chunk_offset": 920832946,
+          "length": 98304
+        },
+        {
+          "file": "dbdata.dll",
+          "file_offset": 0,
+          "chunk_offset": 920931250,
+          "length": 4096
+        },
+        {
+          "file": "dstorage.dll",
+          "file_offset": 0,
+          "chunk_offset": 920935346,
+          "length": 206880
+        },
+        {
+          "file": "dstoragecore.dll",
+          "file_offset": 0,
+          "chunk_offset": 921142226,
+          "length": 1468960
+        },
+        {
+          "file": "GFSDK_Aftermath_Lib.x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 922611186,
+          "length": 2314848
+        },
+        {
+          "file": "helix.core_v143.dll",
+          "file_offset": 0,
+          "chunk_offset": 924926034,
+          "length": 166752
+        },
+        {
+          "file": "helix.online_capture_v143.dll",
+          "file_offset": 0,
+          "chunk_offset": 925092786,
+          "length": 153952
+        },
+        {
+          "file": "InstallerResources/VCRedist/VC_redist.x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 925246738,
+          "length": 25416016
+        },
+        {
+          "file": "libxell.dll",
+          "file_offset": 0,
+          "chunk_offset": 950662754,
+          "length": 411504
+        },
+        {
+          "file": "libxess.dll",
+          "file_offset": 0,
+          "chunk_offset": 951074258,
+          "length": 77795704
+        },
+        {
+          "file": "libxess_fg.dll",
+          "file_offset": 0,
+          "chunk_offset": 1028869962,
+          "length": 22955384
+        },
+        {
+          "file": "localization.lang",
+          "file_offset": 0,
+          "chunk_offset": 1051825346,
+          "length": 424
+        },
+        {
+          "file": "memorywrapper_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1051825770,
+          "length": 109920
+        },
+        {
+          "file": "NVStreamline/production/nvngx_dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 1051935690,
+          "length": 58830448
+        },
+        {
+          "file": "NVStreamline/production/nvngx_dlssg.dll",
+          "file_offset": 0,
+          "chunk_offset": 1110766138,
+          "length": 7499376
+        },
+        {
+          "file": "NVStreamline/production/sl.common.dll",
+          "file_offset": 0,
+          "chunk_offset": 1118265514,
+          "length": 801408
+        },
+        {
+          "file": "NVStreamline/production/sl.dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 1119066922,
+          "length": 419968
+        },
+        {
+          "file": "NVStreamline/production/sl.dlss_g.dll",
+          "file_offset": 0,
+          "chunk_offset": 1119486890,
+          "length": 578176
+        },
+        {
+          "file": "NVStreamline/production/sl.interposer.dll",
+          "file_offset": 0,
+          "chunk_offset": 1120065066,
+          "length": 647808
+        },
+        {
+          "file": "NVStreamline/production/sl.pcl.dll",
+          "file_offset": 0,
+          "chunk_offset": 1120712874,
+          "length": 359552
+        },
+        {
+          "file": "NVStreamline/production/sl.reflex.dll",
+          "file_offset": 0,
+          "chunk_offset": 1121072426,
+          "length": 381056
+        },
+        {
+          "file": "resources/asian_character_1080_30.webm",
+          "file_offset": 0,
+          "chunk_offset": 1121453482,
+          "length": 5093170
+        },
+        {
+          "file": "resources/asian_naval_1080_30.webm",
+          "file_offset": 0,
+          "chunk_offset": 1126546652,
+          "length": 4898217
+        },
+        {
+          "file": "resources/AvenirNextWorld-Black.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1131444869,
+          "length": 446080
+        },
+        {
+          "file": "resources/AvenirNextWorld-BlackIt.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1131890949,
+          "length": 321196
+        },
+        {
+          "file": "resources/AvenirNextWorld-Bold.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1132212145,
+          "length": 434844
+        },
+        {
+          "file": "resources/AvenirNextWorld-BoldIt.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1132646989,
+          "length": 299256
+        },
+        {
+          "file": "resources/AvenirNextWorld-Demi.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1132946245,
+          "length": 415500
+        },
+        {
+          "file": "resources/AvenirNextWorld-DemiIt.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1133361745,
+          "length": 294592
+        },
+        {
+          "file": "resources/AvenirNextWorld-ExtraBold.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1133656337,
+          "length": 445008
+        },
+        {
+          "file": "resources/AvenirNextWorld-ExtraBoldIt.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1134101345,
+          "length": 306308
+        },
+        {
+          "file": "resources/AvenirNextWorld-Heavy.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1134407653,
+          "length": 423348
+        },
+        {
+          "file": "resources/AvenirNextWorld-HeavyIt.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1134831001,
+          "length": 316684
+        },
+        {
+          "file": "resources/AvenirNextWorld-Italic.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1135147685,
+          "length": 292796
+        },
+        {
+          "file": "resources/AvenirNextWorld-Light.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1135440481,
+          "length": 402188
+        },
+        {
+          "file": "resources/AvenirNextWorld-LightIt.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1135842669,
+          "length": 291792
+        },
+        {
+          "file": "resources/AvenirNextWorld-Medium.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1136134461,
+          "length": 408860
+        },
+        {
+          "file": "resources/AvenirNextWorld-MediumIt.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1136543321,
+          "length": 291940
+        },
+        {
+          "file": "resources/AvenirNextWorld-Regular.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1136835261,
+          "length": 404820
+        },
+        {
+          "file": "resources/AvenirNextWorld-Thin.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1137240081,
+          "length": 392948
+        },
+        {
+          "file": "resources/AvenirNextWorld-ThinIt.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1137633029,
+          "length": 286060
+        },
+        {
+          "file": "resources/AvenirNextWorld-UltLt.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1137919089,
+          "length": 393040
+        },
+        {
+          "file": "resources/AvenirNextWorld-UltLtIt.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1138312129,
+          "length": 287056
+        },
+        {
+          "file": "resources/DFKaiW5-A.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1138599185,
+          "length": 21920596
+        },
+        {
+          "file": "resources/DFP-HeiSeiGothic-W5.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1160519781,
+          "length": 2109912
+        },
+        {
+          "file": "resources/DFPKingGothicJP1-Regular.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1162629693,
+          "length": 1965620
+        },
+        {
+          "file": "resources/DFPKingGothicJP1-Semibold.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1164595313,
+          "length": 1957228
+        },
+        {
+          "file": "resources/DFPT_B5_v2.ttf",
+          "file_offset": 0,
+          "chunk_offset": 1166552541,
+          "length": 8147580
+        },
+        {
+          "file": "resources/fire_character_1080_30.webm",
+          "file_offset": 0,
+          "chunk_offset": 1174700121,
+          "length": 4861512
+        },
+        {
+          "file": "resources/fire_naval_1080_30.webm",
+          "file_offset": 0,
+          "chunk_offset": 1179561633,
+          "length": 4632664
+        },
+        {
+          "file": "resources/master_assassin_character_1080_30.webm",
+          "file_offset": 0,
+          "chunk_offset": 1184194297,
+          "length": 4733186
+        },
+        {
+          "file": "resources/master_assassin_naval_1080_30.webm",
+          "file_offset": 0,
+          "chunk_offset": 1188927483,
+          "length": 4881270
+        },
+        {
+          "file": "resources/NotoSansKR-Medium.otf",
+          "file_offset": 0,
+          "chunk_offset": 1193808753,
+          "length": 4768768
+        },
+        {
+          "file": "resources/sea_serpent_character_1080_30.webm",
+          "file_offset": 0,
+          "chunk_offset": 1198577521,
+          "length": 4726333
+        },
+        {
+          "file": "resources/sea_serpent_naval_1080_30.webm",
+          "file_offset": 0,
+          "chunk_offset": 1203303854,
+          "length": 5031119
+        },
+        {
+          "file": "ShaderDataDX12.bin",
+          "file_offset": 0,
+          "chunk_offset": 1208334973,
+          "length": 150193427
+        },
+        {
+          "file": "splashscreen.png",
+          "file_offset": 0,
+          "chunk_offset": 1358528400,
+          "length": 537831
+        },
+        {
+          "file": "steam64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1359066231,
+          "length": 4096
+        },
+        {
+          "file": "steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1359070327,
+          "length": 301928
+        },
+        {
+          "file": "streaminginstall.ini",
+          "file_offset": 0,
+          "chunk_offset": 1359372255,
+          "length": 11823
+        },
+        {
+          "file": "tobii_gameintegration_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1359384078,
+          "length": 3144488
+        },
+        {
+          "file": "UbisoftConnectInstaller.exe",
+          "file_offset": 0,
+          "chunk_offset": 1362528566,
+          "length": 264933784
+        },
+        {
+          "file": "upc_r2.ini",
+          "file_offset": 0,
+          "chunk_offset": 1627462350,
+          "length": 712
+        },
+        {
+          "file": "upc_r2_loader64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1627463062,
+          "length": 1294336
+        },
+        {
+          "file": "videos/AC_OBD_DevilsOfTheCaribbean_FakeTrailer.webm",
+          "file_offset": 0,
+          "chunk_offset": 1628757398,
+          "length": 193007715
+        }
+      ],
+      "sha256": "b8676d181b5960dec85fedadabd2d503916b46ac12a338f6cf66f12ca9dbd97a"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 1821765113,
+      "segments": [
+        {
+          "file": "videos/AC_OBD_DevilsOfTheCaribbean_FakeTrailer.webm",
+          "file_offset": 193007715,
+          "chunk_offset": 0,
+          "length": 127457588
+        },
+        {
+          "file": "videos/ACI_Panel_Gen_IMG_UI.webm",
+          "file_offset": 0,
+          "chunk_offset": 127457588,
+          "length": 33935098
+        },
+        {
+          "file": "videos/ACI_Panel_OBD_IMG_UI.webm",
+          "file_offset": 0,
+          "chunk_offset": 161392686,
+          "length": 36238790
+        },
+        {
+          "file": "videos/ANVIL_Logo.webm",
+          "file_offset": 0,
+          "chunk_offset": 197631476,
+          "length": 29971047
+        },
+        {
+          "file": "videos/ar/Epilepsy.webm",
+          "file_offset": 0,
+          "chunk_offset": 227602523,
+          "length": 2204286
+        },
+        {
+          "file": "videos/ar/warning_disclaimer.webm",
+          "file_offset": 0,
+          "chunk_offset": 229806809,
+          "length": 946939
+        },
+        {
+          "file": "videos/ar/WarningSaving.webm",
+          "file_offset": 0,
+          "chunk_offset": 230753748,
+          "length": 925729
+        },
+        {
+          "file": "videos/br/Epilepsy.webm",
+          "file_offset": 0,
+          "chunk_offset": 231679477,
+          "length": 3160275
+        },
+        {
+          "file": "videos/br/warning_disclaimer.webm",
+          "file_offset": 0,
+          "chunk_offset": 234839752,
+          "length": 1023127
+        },
+        {
+          "file": "videos/br/WarningSaving.webm",
+          "file_offset": 0,
+          "chunk_offset": 235862879,
+          "length": 959412
+        },
+        {
+          "file": "videos/cn/Epilepsy.webm",
+          "file_offset": 0,
+          "chunk_offset": 236822291,
+          "length": 2776616
+        },
+        {
+          "file": "videos/cn/warning_disclaimer.webm",
+          "file_offset": 0,
+          "chunk_offset": 239598907,
+          "length": 934954
+        },
+        {
+          "file": "videos/cn/WarningSaving.webm",
+          "file_offset": 0,
+          "chunk_offset": 240533861,
+          "length": 932069
+        },
+        {
+          "file": "videos/de/Epilepsy.webm",
+          "file_offset": 0,
+          "chunk_offset": 241465930,
+          "length": 3261526
+        },
+        {
+          "file": "videos/de/warning_disclaimer.webm",
+          "file_offset": 0,
+          "chunk_offset": 244727456,
+          "length": 1032381
+        },
+        {
+          "file": "videos/de/WarningSaving.webm",
+          "file_offset": 0,
+          "chunk_offset": 245759837,
+          "length": 952352
+        },
+        {
+          "file": "videos/en/Epilepsy.webm",
+          "file_offset": 0,
+          "chunk_offset": 246712189,
+          "length": 2943259
+        },
+        {
+          "file": "videos/en/warning_disclaimer.webm",
+          "file_offset": 0,
+          "chunk_offset": 249655448,
+          "length": 991763
+        },
+        {
+          "file": "videos/en/WarningSaving.webm",
+          "file_offset": 0,
+          "chunk_offset": 250647211,
+          "length": 942787
+        },
+        {
+          "file": "videos/fr/Epilepsy.webm",
+          "file_offset": 0,
+          "chunk_offset": 251589998,
+          "length": 3186341
+        },
+        {
+          "file": "videos/fr/warning_disclaimer.webm",
+          "file_offset": 0,
+          "chunk_offset": 254776339,
+          "length": 1012070
+        },
+        {
+          "file": "videos/fr/WarningSaving.webm",
+          "file_offset": 0,
+          "chunk_offset": 255788409,
+          "length": 952365
+        },
+        {
+          "file": "videos/HUB_Bootflow_AbstergoIntro.webm",
+          "file_offset": 0,
+          "chunk_offset": 256740774,
+          "length": 518935864
+        },
+        {
+          "file": "videos/HUB_Bootflow_FranchiseIntro.webm",
+          "file_offset": 0,
+          "chunk_offset": 775676638,
+          "length": 140380483
+        },
+        {
+          "file": "videos/HUB_BootFlow_Intro.webm",
+          "file_offset": 0,
+          "chunk_offset": 916057121,
+          "length": 27971158
+        },
+        {
+          "file": "videos/HUB_BootFlow_Intro_LowRes.webm",
+          "file_offset": 0,
+          "chunk_offset": 944028279,
+          "length": 14567969
+        },
+        {
+          "file": "videos/HUB_NEWS_CG_Trailers/AC_HUB_CGedit_MIRAGE_01680_prores_Final.webm",
+          "file_offset": 0,
+          "chunk_offset": 958596248,
+          "length": 299166632
+        },
+        {
+          "file": "videos/HUB_NEWS_CG_Trailers/AC_HUB_CGedit_ODYSSEY_01680_prores_Final.webm",
+          "file_offset": 0,
+          "chunk_offset": 1257762880,
+          "length": 245800231
+        },
+        {
+          "file": "videos/HUB_NEWS_CG_Trailers/AC_HUB_CGedit_ORIGINS_01680_prores_Final.webm",
+          "file_offset": 0,
+          "chunk_offset": 1503563111,
+          "length": 188172414
+        },
+        {
+          "file": "videos/HUB_NEWS_CG_Trailers/AC_HUB_CGedit_SHADOWS_01680_prores_Final.webm",
+          "file_offset": 0,
+          "chunk_offset": 1691735525,
+          "length": 130029588
+        }
+      ],
+      "sha256": "ebfa95ba313957b349cd1c8d428d382ac7a55a71842c98284ad86ef765901abb"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 1821765095,
+      "segments": [
+        {
+          "file": "videos/HUB_NEWS_CG_Trailers/AC_HUB_CGedit_SHADOWS_01680_prores_Final.webm",
+          "file_offset": 130029588,
+          "chunk_offset": 0,
+          "length": 85532836
+        },
+        {
+          "file": "videos/HUB_NEWS_CG_Trailers/AC_HUB_CGedit_VALHALLA_01680_prores_Final.webm",
+          "file_offset": 0,
+          "chunk_offset": 85532836,
+          "length": 300492222
+        },
+        {
+          "file": "videos/HUB_NEWS_GP_Trailers/AC_HUB_GPedit_MIRAGE_0802_final_prores.webm",
+          "file_offset": 0,
+          "chunk_offset": 386025058,
+          "length": 304974855
+        },
+        {
+          "file": "videos/HUB_NEWS_GP_Trailers/AC_HUB_GPedit_ODYSSEY_0802_final_prores.webm",
+          "file_offset": 0,
+          "chunk_offset": 690999913,
+          "length": 267812170
+        },
+        {
+          "file": "videos/HUB_NEWS_GP_Trailers/AC_HUB_GPedit_ORIGINS_0802_final_prores.webm",
+          "file_offset": 0,
+          "chunk_offset": 958812083,
+          "length": 278011200
+        },
+        {
+          "file": "videos/HUB_NEWS_GP_Trailers/AC_HUB_GPedit_SHADOWS_0802_final_prores.webm",
+          "file_offset": 0,
+          "chunk_offset": 1236823283,
+          "length": 214853505
+        },
+        {
+          "file": "videos/HUB_NEWS_GP_Trailers/AC_HUB_GPedit_VALHALLA_0802_final_prores.webm",
+          "file_offset": 0,
+          "chunk_offset": 1451676788,
+          "length": 260202966
+        },
+        {
+          "file": "videos/INFHUB_RED_MediaLibraryItem_Audio.webm",
+          "file_offset": 0,
+          "chunk_offset": 1711879754,
+          "length": 28832733
+        },
+        {
+          "file": "videos/it/Epilepsy.webm",
+          "file_offset": 0,
+          "chunk_offset": 1740712487,
+          "length": 3056266
+        },
+        {
+          "file": "videos/it/warning_disclaimer.webm",
+          "file_offset": 0,
+          "chunk_offset": 1743768753,
+          "length": 987980
+        },
+        {
+          "file": "videos/it/WarningSaving.webm",
+          "file_offset": 0,
+          "chunk_offset": 1744756733,
+          "length": 952381
+        },
+        {
+          "file": "videos/jp/Epilepsy.webm",
+          "file_offset": 0,
+          "chunk_offset": 1745709114,
+          "length": 3095043
+        },
+        {
+          "file": "videos/jp/warning_disclaimer.webm",
+          "file_offset": 0,
+          "chunk_offset": 1748804157,
+          "length": 1039811
+        },
+        {
+          "file": "videos/jp/WarningSaving.webm",
+          "file_offset": 0,
+          "chunk_offset": 1749843968,
+          "length": 960578
+        },
+        {
+          "file": "videos/ko/Epilepsy.webm",
+          "file_offset": 0,
+          "chunk_offset": 1750804546,
+          "length": 2464134
+        },
+        {
+          "file": "videos/ko/warning_disclaimer.webm",
+          "file_offset": 0,
+          "chunk_offset": 1753268680,
+          "length": 923892
+        },
+        {
+          "file": "videos/ko/WarningSaving.webm",
+          "file_offset": 0,
+          "chunk_offset": 1754192572,
+          "length": 927190
+        },
+        {
+          "file": "videos/pl/Epilepsy.webm",
+          "file_offset": 0,
+          "chunk_offset": 1755119762,
+          "length": 3200801
+        },
+        {
+          "file": "videos/pl/warning_disclaimer.webm",
+          "file_offset": 0,
+          "chunk_offset": 1758320563,
+          "length": 1013099
+        },
+        {
+          "file": "videos/pl/WarningSaving.webm",
+          "file_offset": 0,
+          "chunk_offset": 1759333662,
+          "length": 957756
+        },
+        {
+          "file": "videos/ru/Epilepsy.webm",
+          "file_offset": 0,
+          "chunk_offset": 1760291418,
+          "length": 3099092
+        },
+        {
+          "file": "videos/ru/warning_disclaimer.webm",
+          "file_offset": 0,
+          "chunk_offset": 1763390510,
+          "length": 1079020
+        },
+        {
+          "file": "videos/ru/WarningSaving.webm",
+          "file_offset": 0,
+          "chunk_offset": 1764469530,
+          "length": 949616
+        },
+        {
+          "file": "videos/sp/Epilepsy.webm",
+          "file_offset": 0,
+          "chunk_offset": 1765419146,
+          "length": 3180170
+        },
+        {
+          "file": "videos/sp/warning_disclaimer.webm",
+          "file_offset": 0,
+          "chunk_offset": 1768599316,
+          "length": 1020812
+        },
+        {
+          "file": "videos/sp/WarningSaving.webm",
+          "file_offset": 0,
+          "chunk_offset": 1769620128,
+          "length": 960552
+        },
+        {
+          "file": "videos/tw/Epilepsy.webm",
+          "file_offset": 0,
+          "chunk_offset": 1770580680,
+          "length": 2831478
+        },
+        {
+          "file": "videos/tw/warning_disclaimer.webm",
+          "file_offset": 0,
+          "chunk_offset": 1773412158,
+          "length": 978380
+        },
+        {
+          "file": "videos/tw/WarningSaving.webm",
+          "file_offset": 0,
+          "chunk_offset": 1774390538,
+          "length": 934703
+        },
+        {
+          "file": "videos/UbisoftLogo.webm",
+          "file_offset": 0,
+          "chunk_offset": 1775325241,
+          "length": 42300430
+        },
+        {
+          "file": "voices38.dll",
+          "file_offset": 0,
+          "chunk_offset": 1817625671,
+          "length": 4116704
+        },
+        {
+          "file": "vram_prediction_stats.ini",
+          "file_offset": 0,
+          "chunk_offset": 1821742375,
+          "length": 22720
+        }
+      ],
+      "sha256": "6a761fc53bf25aaa156af35185b110971c0342cb3f955914811b47efa70148d5"
+    }
+  ]
+}
