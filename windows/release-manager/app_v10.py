@@ -26,6 +26,7 @@ from PySide6.QtWidgets import (
 )
 
 import app_v9 as previous
+from drowned_shared.addon_delete import delete_optional_package
 from drowned_shared.addon_publish import publish_optional_package
 from drowned_shared.chunking import ChunkBuilder
 from drowned_shared.github_client import GitHubClient
@@ -74,6 +75,33 @@ class OptionalPackageWorker(QObject):
             self.error.emit(str(exc))
 
 
+class OptionalPackageDeleteWorker(QObject):
+    log = Signal(str)
+    done = Signal(object)
+    error = Signal(str)
+
+    def __init__(self, params: dict):
+        super().__init__()
+        self.params = params
+
+    def run(self):
+        try:
+            p = self.params
+            client = GitHubClient(p["token"], p["owner"], p["repo"], p["branch"])
+            client.repo_info()
+            result = delete_optional_package(
+                client,
+                p["game_id"],
+                p["platform"],
+                p["channel"],
+                p["package_id"],
+                log=self.log.emit,
+            )
+            self.done.emit(result)
+        except Exception as exc:
+            self.error.emit(str(exc))
+
+
 class Manager(previous.Manager):
     """Balanced Direct Stream Release Manager with optional overlay packages."""
 
@@ -81,6 +109,8 @@ class Manager(previous.Manager):
         self.addon_catalog = {"games": []}
         self.addon_thread = None
         self.addon_worker = None
+        self.addon_delete_thread = None
+        self.addon_delete_worker = None
         super().__init__()
         self.setWindowTitle(
             f"Drowned Release Manager {APP_VERSION} • Balanced Direct Stream + Optional Packages"
@@ -166,13 +196,27 @@ class Manager(previous.Manager):
         )
         outer.addWidget(self.addon_plan)
 
+        existing_header = QHBoxLayout()
         existing_title = QLabel("BU SÜRÜME BAĞLI EK PAKETLER")
         existing_title.setObjectName("cardTitle")
-        outer.addWidget(existing_title)
+        self.addon_delete_button = QPushButton("Seçili ek paketi sil")
+        self.addon_delete_button.setObjectName("danger")
+        self.addon_delete_button.setEnabled(False)
+        self.addon_delete_button.clicked.connect(self.delete_selected_addon)
+        existing_header.addWidget(existing_title)
+        existing_header.addStretch()
+        existing_header.addWidget(self.addon_delete_button)
+        outer.addLayout(existing_header)
+
         self.addon_tree = QTreeWidget()
         self.addon_tree.setHeaderLabels(["Paket", "Sürüm", "Boyut", "Release tag"])
         self.addon_tree.setMinimumHeight(150)
         self.addon_tree.setMaximumHeight(230)
+        self.addon_tree.itemSelectionChanged.connect(
+            lambda: self.addon_delete_button.setEnabled(
+                bool(self.addon_tree.currentItem()) and self.addon_worker is None and self.addon_delete_worker is None
+            )
+        )
         outer.addWidget(self.addon_tree)
 
         self.addon_progress = QProgressBar()
@@ -245,24 +289,25 @@ class Manager(previous.Manager):
             return
         record = self.addon_target.currentData()
         self.addon_tree.clear()
+        self.addon_delete_button.setEnabled(False)
         if not record:
             self.addon_base_info.setText("Katalogda yayınlanmış oyun bulunamadı.")
             self.addon_publish_button.setEnabled(False)
             return
-        self.addon_publish_button.setEnabled(True)
+        self.addon_publish_button.setEnabled(self.addon_worker is None and self.addon_delete_worker is None)
         self.addon_base_info.setText(
             f"{record['title']} • {record['platform'].upper()} • {record['channel']} • "
             f"ana sürüm v{record['base_version']}"
         )
         for package in (record.get("channel_data") or {}).get("optional_packages") or []:
-            self.addon_tree.addTopLevelItem(
-                QTreeWidgetItem([
-                    str(package.get("title") or package.get("id") or "?"),
-                    str(package.get("version") or "?"),
-                    format_bytes(int(package.get("size") or 0)),
-                    str(package.get("tag") or ""),
-                ])
-            )
+            item = QTreeWidgetItem([
+                str(package.get("title") or package.get("id") or "?"),
+                str(package.get("version") or "?"),
+                format_bytes(int(package.get("size") or 0)),
+                str(package.get("tag") or ""),
+            ])
+            item.setData(0, Qt.UserRole, str(package.get("id") or ""))
+            self.addon_tree.addTopLevelItem(item)
 
     def pick_addon_source(self):
         path = QFileDialog.getExistingDirectory(self, "Ek paket kaynak klasörü")
@@ -281,6 +326,46 @@ class Manager(previous.Manager):
         except Exception as exc:
             self.addon_plan.setText(f"Plan hatası: {exc}")
 
+    def publish(self):
+        """Protect attached packages from being orphaned by a base-version swap."""
+        try:
+            client = self._client()
+            catalog = load_catalog(client)
+            game_id = slugify(self.game_title.text().strip())
+            platform = slugify(self.platform.currentText())
+            channel = slugify(self.channel.currentText())
+            new_version = self.version.text().strip()
+            game = next(
+                (
+                    item
+                    for item in catalog.get("games", [])
+                    if item.get("id") == game_id and item.get("platform") == platform
+                ),
+                None,
+            )
+            current = ((game or {}).get("channels") or {}).get(channel)
+            packages = list((current or {}).get("optional_packages") or [])
+            if packages and str((current or {}).get("version") or "") != new_version:
+                names = ", ".join(str(p.get("title") or p.get("id") or "?") for p in packages[:5])
+                if len(packages) > 5:
+                    names += f" (+{len(packages) - 5})"
+                QMessageBox.warning(
+                    self,
+                    "Ek paketler bağlı",
+                    "Bu kanalın mevcut sürümüne isteğe bağlı paketler bağlı. Ana sürümü değiştirirsek bu paketler "
+                    "eski base sürümüne ait kalır.\n\n"
+                    f"Bağlı paketler: {names}\n\n"
+                    "Önce Ek Paketler sekmesinden bu paketleri sil, ardından yeni ana sürümü yayınla. "
+                    "Yeni base yayınlandıktan sonra paketlerin uyumlu sürümlerini yeniden ekleyebilirsin.",
+                )
+                return
+        except Exception as exc:
+            # Publishing already performs its own connection/permission checks;
+            # if catalog preflight itself fails, do not silently bypass it.
+            QMessageBox.critical(self, "Yayın ön kontrolü başarısız", str(exc))
+            return
+        super().publish()
+
     def publish_addon(self):
         target = self.addon_target.currentData()
         if not target:
@@ -296,12 +381,30 @@ class Manager(previous.Manager):
             QMessageBox.warning(self, "Token gerekli", "GitHub sekmesindeki mevcut PAT gerekli.")
             return
 
+        package_id = slugify(self.addon_id.text().strip() or self.addon_title.text())
+        existing = next(
+            (
+                item
+                for item in (target.get("channel_data") or {}).get("optional_packages") or []
+                if slugify(str(item.get("id") or "")) == package_id
+            ),
+            None,
+        )
+        if existing:
+            QMessageBox.warning(
+                self,
+                "Paket ID zaten kullanılıyor",
+                f"{package_id} ID'li paket zaten bu sürüme bağlı. Eski Release'i yetim bırakmamak için "
+                "önce listeden mevcut paketi sil, sonra yeni paket sürümünü yayınla.",
+            )
+            return
+
         params = {
             **self._params(),
             **target,
             "source": self.addon_source.text().strip(),
             "package_title": self.addon_title.text().strip(),
-            "package_id": slugify(self.addon_id.text().strip() or self.addon_title.text()),
+            "package_id": package_id,
             "package_version": self.addon_version.text().strip() or "1.0.0",
             "description": self.addon_description.toPlainText().strip(),
         }
@@ -313,6 +416,7 @@ class Manager(previous.Manager):
         )
         self.addon_logs.appendPlainText(f"Paket klasörü: {params['source']}")
         self.addon_publish_button.setEnabled(False)
+        self.addon_delete_button.setEnabled(False)
 
         self.addon_thread = QThread()
         self.addon_worker = OptionalPackageWorker(params)
@@ -328,21 +432,91 @@ class Manager(previous.Manager):
 
     def _addon_done(self, manifest: dict):
         self.addon_progress.setValue(100)
-        self.addon_publish_button.setEnabled(True)
         package = manifest.get("package") or {}
         self.addon_logs.appendPlainText("✓ Ek paket yayınlandı ve catalog.json güncellendi.")
+        self.addon_worker = None
         self.refresh_addon_catalog(silent=True)
         QMessageBox.information(
             self,
             "Ek paket yayınlandı",
             f"{package.get('title') or package.get('id')} v{package.get('version')} hazır.\n\n"
-            "Yeni Launcher bu paketi isteğe bağlı olarak gösterecek.",
+            "Launcher bu paketi isteğe bağlı olarak gösterecek.",
         )
 
     def _addon_error(self, message: str):
+        self.addon_worker = None
         self.addon_publish_button.setEnabled(True)
         self.addon_logs.appendPlainText(f"HATA: {message}")
+        self._sync_addon_target()
         QMessageBox.critical(self, "Ek paket yayınlama hatası", message)
+
+    def delete_selected_addon(self):
+        target = self.addon_target.currentData()
+        item = self.addon_tree.currentItem()
+        if not target or item is None:
+            return
+        package_id = slugify(str(item.data(0, Qt.UserRole) or ""))
+        title = item.text(0) or package_id
+        if not package_id:
+            return
+        answer = QMessageBox.question(
+            self,
+            "Ek paket yayından kaldırılsın mı?",
+            f"{title} paketi GitHub'dan tamamen kaldırılacak:\n\n"
+            "• Paket Release'i ve chunk assetleri\n"
+            "• Paket Git tag'i\n"
+            "• Paket manifesti\n"
+            "• catalog.json içindeki paket kaydı\n\n"
+            "Ana oyun Release'ine ve dosyalarına dokunulmaz. Devam edilsin mi?",
+            QMessageBox.Yes | QMessageBox.No,
+            QMessageBox.No,
+        )
+        if answer != QMessageBox.Yes:
+            return
+
+        params = {
+            **self._params(),
+            "game_id": target["game_id"],
+            "platform": target["platform"],
+            "channel": target["channel"],
+            "package_id": package_id,
+        }
+        self.addon_logs.clear()
+        self.addon_logs.appendPlainText(f"Ek paket yayından kaldırılıyor: {title}")
+        self.addon_progress.setRange(0, 0)
+        self.addon_publish_button.setEnabled(False)
+        self.addon_delete_button.setEnabled(False)
+
+        self.addon_delete_thread = QThread()
+        self.addon_delete_worker = OptionalPackageDeleteWorker(params)
+        self.addon_delete_worker.moveToThread(self.addon_delete_thread)
+        self.addon_delete_thread.started.connect(self.addon_delete_worker.run)
+        self.addon_delete_worker.log.connect(self.addon_logs.appendPlainText)
+        self.addon_delete_worker.done.connect(lambda result, t=title: self._addon_delete_done(t, result))
+        self.addon_delete_worker.error.connect(self._addon_delete_error)
+        self.addon_delete_worker.done.connect(self.addon_delete_thread.quit)
+        self.addon_delete_worker.error.connect(self.addon_delete_thread.quit)
+        self.addon_delete_thread.start()
+
+    def _addon_delete_done(self, title: str, result: dict):
+        self.addon_delete_worker = None
+        self.addon_progress.setRange(0, 100)
+        self.addon_progress.setValue(100)
+        self.addon_logs.appendPlainText("✓ Ek paket Release/tag/manifest/catalog kaydı temizlendi.")
+        self.refresh_addon_catalog(silent=True)
+        QMessageBox.information(
+            self,
+            "Ek paket silindi",
+            f"{title} yayından kaldırıldı. Ana oyun yayını değişmedi.",
+        )
+
+    def _addon_delete_error(self, message: str):
+        self.addon_delete_worker = None
+        self.addon_progress.setRange(0, 100)
+        self.addon_progress.setValue(0)
+        self.addon_logs.appendPlainText(f"HATA: {message}")
+        self._sync_addon_target()
+        QMessageBox.critical(self, "Ek paket silme hatası", message)
 
 
 def main():
