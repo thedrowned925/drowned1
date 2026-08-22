@@ -1,0 +1,1006 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "limbo",
+    "title": "LIMBO",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Uncertain of his sister's fate, a boy enters LIMBO"
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-limbo-v1.0.0-stable"
+  },
+  "chunk_size": 57527660,
+  "upload_workers": 2,
+  "upload_waves": 1,
+  "total_size": 115055320,
+  "files": [
+    {
+      "path": "game/data/audio/pc/145441027.ogg",
+      "size": 165610,
+      "sha256": "cbaab287003f5b2d234274c5085a35eb25151437b98075cd00faf93e87e45bd8"
+    },
+    {
+      "path": "game/data/audio/pc/217485067.wav",
+      "size": 3661504,
+      "sha256": "debc643a9890abf1f00f1e3bc00ea0631c48e66a3c316db431adb72e42546c26"
+    },
+    {
+      "path": "game/data/audio/pc/288041556.ogg",
+      "size": 236317,
+      "sha256": "a58a78aaeba6c82fb2bb88d9787e60316c7576857302fd6cf6dcf331cdaa0784"
+    },
+    {
+      "path": "game/data/audio/pc/351312017.ogg",
+      "size": 416505,
+      "sha256": "f6428e1bb0d74c489195c041414a305fb4dcd74f5fce9390f8406f2a2bbd373b"
+    },
+    {
+      "path": "game/data/audio/pc/36509593.ogg",
+      "size": 210046,
+      "sha256": "e5c1e9d96dd6cf5a24653ee6df418709b6eca6b22aa2af4a9798fbed8962e060"
+    },
+    {
+      "path": "game/data/audio/pc/386678257.ogg",
+      "size": 452419,
+      "sha256": "ddfcbef00f2b656b38e38c953bfd266342ffe72295455a1590fc123a013e5569"
+    },
+    {
+      "path": "game/data/audio/pc/410947880.ogg",
+      "size": 290886,
+      "sha256": "06b904600a877acd0424b3a8097682700e0fc9be12b48c53996247a683be59d1"
+    },
+    {
+      "path": "game/data/audio/pc/54189208.ogg",
+      "size": 244048,
+      "sha256": "9164cdc44a679d3571a73d24b033e93e9c30add8536219443fe38b4f0aca43da"
+    },
+    {
+      "path": "game/data/audio/pc/574929999.ogg",
+      "size": 242468,
+      "sha256": "52be2ee6a687e5cbe233abf65de4c75208ad34d8a46b15bcd09c193267c39d66"
+    },
+    {
+      "path": "game/data/audio/pc/58923886.ogg",
+      "size": 167897,
+      "sha256": "7a16837124cb686981cfe8167586f503c6cefc4b002117c3c1fd27f8ddce9db9"
+    },
+    {
+      "path": "game/data/audio/pc/66327209.wav",
+      "size": 1246768,
+      "sha256": "72c313ea42781579f2cc7df49dbe8dd3a033e34e7f4c63ca77c1f2499ccc6635"
+    },
+    {
+      "path": "game/data/audio/pc/714585267.ogg",
+      "size": 290252,
+      "sha256": "15a67cc0be1132ad0bbaabcf7e14e14f6b695596617db98a3afafe265eccec2b"
+    },
+    {
+      "path": "game/data/audio/pc/721828432.wav",
+      "size": 3853720,
+      "sha256": "103e1d3674676dcfc8273200cbc5e96fde0519657d166b984331fb3d2144801e"
+    },
+    {
+      "path": "game/data/audio/pc/744911790.ogg",
+      "size": 281471,
+      "sha256": "280c44570e0ac132b063f9080e1b9a6b32bfc7a64ec1180df6dd4cb90f7a2431"
+    },
+    {
+      "path": "game/data/audio/pc/77911966.ogg",
+      "size": 167400,
+      "sha256": "4ef50957e78a7a25317332537657d52e7cafed577eca17d629d676decaee1b36"
+    },
+    {
+      "path": "game/data/audio/pc/932068112.ogg",
+      "size": 236834,
+      "sha256": "672197efef875cfc31536f20e13d1586e4c790549250a40a334346a63cee925e"
+    },
+    {
+      "path": "game/data/audio/pc/Init.bnk",
+      "size": 14183,
+      "sha256": "84cfbe5a0d5a2c24ab1d0b35867c91e142a6c9e9bb33b67ce116df0fb06d419b"
+    },
+    {
+      "path": "game/data/audio/pc/l_default.bnk",
+      "size": 47759242,
+      "sha256": "9a957cf3ca85ff308e463580451c6764cb89e54d4199b5808dd48ba403e30d10"
+    },
+    {
+      "path": "game/data/audio/pc/l_intro.bnk",
+      "size": 462125,
+      "sha256": "719a3c8c575e432ea9e404517d8d88ce31669b8271114b16b2c2bad01c077696"
+    },
+    {
+      "path": "game/DirectX_Redist/APR2007_xinput_x86.cab",
+      "size": 53302,
+      "sha256": "2acea6c8b9f6f7f89ec51365a1e49fbd0d8c42c53418bd0783dbf3f74a744e6d"
+    },
+    {
+      "path": "game/DirectX_Redist/AUG2006_xinput_x86.cab",
+      "size": 46058,
+      "sha256": "ad2b521d1a7abca6314eaeacb23690b63b2a17adbb2a47d3d69cc4660c7d2152"
+    },
+    {
+      "path": "game/DirectX_Redist/DSETUP.dll",
+      "size": 89944,
+      "sha256": "def6f245762be36cf18b435ba8b7ebc224b9c21d1a1db606a8e8fafdaa97bba0"
+    },
+    {
+      "path": "game/DirectX_Redist/dsetup32.dll",
+      "size": 1801048,
+      "sha256": "642d9e7db6d4fc15129f011dce2ea087bf7f7fb015aececf82bf84ff6634a6fb"
+    },
+    {
+      "path": "game/DirectX_Redist/dxdllreg_x86.cab",
+      "size": 42410,
+      "sha256": "8ad77a4d9c76f65cd62337588f847cc1e0ca6ca9735937f3a781f7395e9566a1"
+    },
+    {
+      "path": "game/DirectX_Redist/DXSETUP.exe",
+      "size": 537432,
+      "sha256": "046041aba6ba77534c36bb0c2496408d23c6a09f930c46b392f1edc70dfd66de"
+    },
+    {
+      "path": "game/DirectX_Redist/dxupdate.cab",
+      "size": 94011,
+      "sha256": "13393a91201e69e70a9f68d21428453fff3951535dec88f879270269cfe54d6f"
+    },
+    {
+      "path": "game/DirectX_Redist/Jun2010_D3DCompiler_43_x86.cab",
+      "size": 931471,
+      "sha256": "417eebd5b19f45c67c94c2d2ba8b774c0fc6d958b896d7b1ac12cf5a0ea06e0e"
+    },
+    {
+      "path": "game/DirectX_Redist/Jun2010_d3dx9_43_x86.cab",
+      "size": 768036,
+      "sha256": "fcc6cf0966b4853d6fa3d32ab299cde5a9824feaecb0d4f34ea452fb9fd1c867"
+    },
+    {
+      "path": "game/installscript.vdf",
+      "size": 537,
+      "sha256": "30c66b56e6fba1f3d209ede8a1cba2209ba9e026383fddc20fea0cb123290639"
+    },
+    {
+      "path": "game/limbo.exe",
+      "size": 5453312,
+      "sha256": "c6c0d9bf17124127abc3fae91d6402a37aca531e51c749ed849763debb9f38b3"
+    },
+    {
+      "path": "game/limbo.exe.bak",
+      "size": 5453312,
+      "sha256": "0cde0a62b1ad43c89ea8b602363060372ae265e9fb0369830e3a8235262d87ff"
+    },
+    {
+      "path": "game/limbo_boot.pkg",
+      "size": 20535206,
+      "sha256": "155a21d6115439e6f5a8fece148b7bc34f1e3723a0217f1501c0ad1a43245f5d"
+    },
+    {
+      "path": "game/limbo_runtime.pkg",
+      "size": 12587673,
+      "sha256": "1ca11ffea442ef17af3db447c5868717e6cb38d7d060490ff2a9f847d863b923"
+    },
+    {
+      "path": "game/settings.txt",
+      "size": 961,
+      "sha256": "c1f95da0af07e788fa1dec0521ac150ae7ee3d46f4a07d5da75287160f3f3154"
+    },
+    {
+      "path": "game/steam_api.dll",
+      "size": 5874600,
+      "sha256": "40dad0c7cbe8bfa04e08b11d7186c3a7288ff065f3d22f8786ff3ffff921471a"
+    },
+    {
+      "path": "game/steam_api.dll.bak",
+      "size": 124712,
+      "sha256": "83dbdd0abfac699b5c8670334554458406ee1d12f701abd762fd0cb5e1738c6f"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/020936a7cd2ff1582a7d2842598541cccfa2f02d.jpg",
+      "size": 1391,
+      "sha256": "54f737e3c05a14488f24f984ac95a9aa14512889675a962ec493563e1f9e0e1a"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/025eff7af507a800e48e89359155dcd3d0faa529.jpg",
+      "size": 1293,
+      "sha256": "6d718eb27abfbf3f9a3eb9c6c53e58036302952426425b63a4958c0e22aa26f7"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/15022e1dba812df72c736bab8a319c4b10e15de2.jpg",
+      "size": 1983,
+      "sha256": "cd79bd24a1f12ea97898cee5aee34a4b01f5b7e58118be96a2d3d48bf8950c2d"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/1fb9c187534aa26fd110574c4a70cf6ff68d883b.jpg",
+      "size": 1358,
+      "sha256": "4d66f613ee1f9bf4ee840995cf2e3c1610729ffb7e42e8c72db741a353a111ba"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/3c040607393ce0dfaddbd5415ba94058b1a0c4b8.jpg",
+      "size": 1416,
+      "sha256": "badc711759e00104c8f5a54e560d9f468f014398fc86e05837723877ecca09e8"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/48f89716d4fb251d92ab4997f562161f63422719.jpg",
+      "size": 894,
+      "sha256": "0b02edec42aa8a51cff9c844c8aea972b9f9a7504996e536aacea7806c823603"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/4a99ff795024f0242438ffc1424b45968a0cc7b0.jpg",
+      "size": 2012,
+      "sha256": "d11ef98ea6bb0d72a205838796ca208ce36f31c117f4358e081228daf060ced0"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/50505a8ef46f5c24385ed9b0748d6d53e796649e.jpg",
+      "size": 1625,
+      "sha256": "0e8f6fd38e23722e4e890ce044d3d2991536e47a777cfce4fc04f50ed23bc6ad"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/5110d6fae12ecab4aad035dce531526497317400.jpg",
+      "size": 1468,
+      "sha256": "9468a1a484cbc02c841389c903566635b804c12e8416842e2b905864fbe84c4e"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/5e613c4ba12c3673216ae7b3f0354a1a5f0e3521.jpg",
+      "size": 1552,
+      "sha256": "1f0ccbbc0a75af99e1abb312070501c3bf582c5f1840da17afe7533203c9cbdf"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/5ea5429b8b48b0c87c6e01bd82867cc637599369.jpg",
+      "size": 1451,
+      "sha256": "b1d0f9ab9349a1aad4e7bc42879c2bcaaa63f3c9f47361d476c20dc425d8c853"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/6643641cb9fbd159e5e8dbfd8bb6fa01cb02ac3e.jpg",
+      "size": 1571,
+      "sha256": "abd4a2c99b8551d849453590d0f36d10e2a02e5b43185b29c5ece7122ad2c2b5"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/7470abd80a1c36410abb921651ad1b3a249f880d.jpg",
+      "size": 1284,
+      "sha256": "d44e64797243d78cce721864f3e15e35909e9051a15f9b79a5aef151b64d58bb"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/8602b135be8fe2a8d45b5aa4a15b81544a8a6fb3.jpg",
+      "size": 1469,
+      "sha256": "624e36c24c372adabc1a728398f59eaaf8b56b86def7fe910b0f938b5b665a02"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/891469248b7cc427411786b6ae00cecca8506a9f.jpg",
+      "size": 1624,
+      "sha256": "45b6d391f24003a6fe9a0289e26adfd3984f29a0ec1e6e264f1e2ba47876fa0d"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/8923301b62337d6a05c98f1f63327b7650a81e5e.jpg",
+      "size": 1337,
+      "sha256": "73ddedd4c5cb391dbbd9af96a82f04b3dd73a0250a3754e12dd7a9b19f3d20bc"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/8b810f90eb1311f85916b89a57a3536a3a19f86e.jpg",
+      "size": 1897,
+      "sha256": "28ff3c86387baf3743c5cfbcf88cd1a0ee11a3180dc61cf42834f3cf13520696"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/8d20154f04bec9294be08610124ef8f78a7c229b.jpg",
+      "size": 1870,
+      "sha256": "feb503d4caca9d47cdb9b53d814ab59dd77fc01bb868efdd19be764bed3f094a"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/963dac3b738d1f71d4ad870b409f5b2724f867fd.jpg",
+      "size": 1836,
+      "sha256": "09f040745aa4262a3a76d7937f78675e6c6f66a0f8b3aaf24fef2f0df98fce7a"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/9d66c6c39e3d84d3633051bcfabe7f0732afc167.jpg",
+      "size": 1804,
+      "sha256": "8a9a02dda7b12a035d47273ca503d72895de10b6745a40b74ce114a3b631b4f2"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/c3db2254898d3023e444b0a31ef3a5e9a5ff9314.jpg",
+      "size": 1152,
+      "sha256": "4ba152454daea4d38c7adac7bdf25741c25a3e59d7c753dccc1ad83aab949264"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/c953d9e1a01a4ce9adff012d11c17ba38650bc59.jpg",
+      "size": 1480,
+      "sha256": "ab2bdd8ea78ae3043ee4d4796d023d3455e3f5f5b9175b23f615de712bc19a01"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/e7771c69705ba67a07dca96139f8cd6c28373c68.jpg",
+      "size": 1177,
+      "sha256": "637c8d3e904c295b3c535b85f82a556eff4d42f03b771c5d31fac98f3a2ebb3b"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/e8b26839875821788ea4e26adfd290b311267c5f.jpg",
+      "size": 1262,
+      "sha256": "b6e64dbd1e9ed612e4854c7d1de09a2725083987433408a4edcbd9d832e3d87a"
+    },
+    {
+      "path": "game/steam_settings/achievement_images/e9b1bf577d251c16ebb9e837e234d9357539b1f4.jpg",
+      "size": 1518,
+      "sha256": "43a50d94448677da7f016dfcddbcfa00e26f4ef75caaeeb44c5332832cbbc43a"
+    },
+    {
+      "path": "game/steam_settings/achievements.json",
+      "size": 3907,
+      "sha256": "8904956dfa4c13f7cc6592fdca4d6ce3ecf469a4fc3da0021d34b9c67c367b31"
+    },
+    {
+      "path": "game/steam_settings/branches.json",
+      "size": 145,
+      "sha256": "9216e5d8fa9099e5a8fb6a40cd6bfb37bb7485bbe41c0bbef15c80b8e1193296"
+    },
+    {
+      "path": "game/steam_settings/configs.app.ini",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "game/steam_settings/configs.main.ini",
+      "size": 681,
+      "sha256": "a78aa33ac06b354e520885a7214517db3a8e1a5a4c59f4d5d6a535ad4830bda4"
+    },
+    {
+      "path": "game/steam_settings/configs.overlay.ini",
+      "size": 120,
+      "sha256": "05965a56b54d8b78f3d2d9fbfd4f08f2e85ec9001bd122eecc12109a4f28a346"
+    },
+    {
+      "path": "game/steam_settings/configs.user.ini",
+      "size": 603,
+      "sha256": "31293a3ae7c66def8d2434bb207505b6dde780d582a1a261a653f833feec4fb5"
+    },
+    {
+      "path": "game/steam_settings/depots.txt",
+      "size": 33,
+      "sha256": "03f581628ae0c054982b00d7868e4aed713331ea352714de93cbce1ed16f39a5"
+    },
+    {
+      "path": "game/steam_settings/steam_appid.txt",
+      "size": 5,
+      "sha256": "5d1dbce82e135ab816d7c6d1f5f9020b94000975fa77f0a349a5b4d226d82332"
+    },
+    {
+      "path": "game/steam_settings/steam_interfaces.txt",
+      "size": 315,
+      "sha256": "b563da391415dd62af764b448ee9bea3e506120e24fe2a1433a34c2daab82471"
+    },
+    {
+      "path": "game/steam_settings/supported_languages.txt",
+      "size": 129,
+      "sha256": "3f283d3eb87b321d4ee22d05764f1e226198d881fd4ea60c4afe728fa69e03e5"
+    },
+    {
+      "path": "game/titledata/bootscreen/dot.png",
+      "size": 166,
+      "sha256": "942f02362fb974f6923995c54a49448f79c9b8171b10fcf05cd84dc9292a7b15"
+    },
+    {
+      "path": "game/titledata/bootscreen/limbo_title.png",
+      "size": 79273,
+      "sha256": "ddb09e017f39605c74785d384630d6b0da8cd8620c69a6c529d0887880ea3933"
+    },
+    {
+      "path": "game/titledata/bootscreen/loading_br.png",
+      "size": 4635,
+      "sha256": "d47e17ed8b884e1d8257b289b41c8459c167420ea328366fe8e96dbafa8b788a"
+    },
+    {
+      "path": "game/titledata/bootscreen/loading_de.png",
+      "size": 3628,
+      "sha256": "85745b53428e7159329a075c0cc18a90af2b1de3bc53814fb9d07398bb12393e"
+    },
+    {
+      "path": "game/titledata/bootscreen/loading_es.png",
+      "size": 4410,
+      "sha256": "06f3ce0a0ed43f2d47ce6a57ac5541dc0c9981e71f42d543636fda8f17df9747"
+    },
+    {
+      "path": "game/titledata/bootscreen/loading_fr.png",
+      "size": 4763,
+      "sha256": "0154d1c2d34f20b5a4e753240b52a9d1bea9962491b05a650b018ffa126a0628"
+    },
+    {
+      "path": "game/titledata/bootscreen/loading_it.png",
+      "size": 4753,
+      "sha256": "3dec0c3c0f0c7af5a1853d5503e5035ec06123a93a847fbeb421cd2bd9ba76c3"
+    },
+    {
+      "path": "game/titledata/bootscreen/loading_ja.png",
+      "size": 5048,
+      "sha256": "632c5b8b1b65cba689498a74ea53d669649c534cddcd9cf289c3646feeff38fd"
+    },
+    {
+      "path": "game/titledata/bootscreen/loading_ko.png",
+      "size": 4131,
+      "sha256": "e04f93b065a61e313c3ca489c7b2b9f7b2b3ff57f78b02c391361dd7db7f4a89"
+    },
+    {
+      "path": "game/titledata/bootscreen/loading_pl.png",
+      "size": 4606,
+      "sha256": "121e3ca57b6594df3a4e29f3ec6345020d86759964dcb0e18e7ddf7fb421f4b3"
+    },
+    {
+      "path": "game/titledata/bootscreen/loading_pt.png",
+      "size": 4169,
+      "sha256": "ff9ba99603fc3cb13bb9082bda2fe2311e5a665eef2168041bdfdea40d32f0c6"
+    },
+    {
+      "path": "game/titledata/bootscreen/loading_ru.png",
+      "size": 4245,
+      "sha256": "43bffbf07ebb50aeb514552d90aab772b2f553cccebdec050c35ffcf03b15787"
+    },
+    {
+      "path": "game/titledata/bootscreen/loading_sz.png",
+      "size": 4291,
+      "sha256": "ebdea36b1166f7c191ba3437466d0932620a48477465d749409467b9102ae77a"
+    },
+    {
+      "path": "game/titledata/bootscreen/loading_tr.png",
+      "size": 3913,
+      "sha256": "314fcba4d79d2d00605102385847da4f58ebc3b03c720e42520cde3081a51bc4"
+    },
+    {
+      "path": "game/titledata/bootscreen/loading_uk.png",
+      "size": 4213,
+      "sha256": "22dc8eb8d266e01dc68d74ff9a7351eaaa667b99a7fc1bf2b8bcff18cafbaba3"
+    },
+    {
+      "path": "game/titledata/bootscreen/loading_zh.png",
+      "size": 4260,
+      "sha256": "71621fa83ae4b12f3240a9aced8991d4329946fea358fca591e60a738fa25821"
+    },
+    {
+      "path": "game/titledata/bootscreen/pc_logo.png",
+      "size": 77434,
+      "sha256": "51ef327346db9e0df5688a1b576a1c01023affcc8832c1aca6ad09d938bca6b1"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 57527660,
+      "segments": [
+        {
+          "file": "game/data/audio/pc/145441027.ogg",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 165610
+        },
+        {
+          "file": "game/data/audio/pc/217485067.wav",
+          "file_offset": 0,
+          "chunk_offset": 165610,
+          "length": 3661504
+        },
+        {
+          "file": "game/data/audio/pc/288041556.ogg",
+          "file_offset": 0,
+          "chunk_offset": 3827114,
+          "length": 236317
+        },
+        {
+          "file": "game/data/audio/pc/351312017.ogg",
+          "file_offset": 0,
+          "chunk_offset": 4063431,
+          "length": 416505
+        },
+        {
+          "file": "game/data/audio/pc/36509593.ogg",
+          "file_offset": 0,
+          "chunk_offset": 4479936,
+          "length": 210046
+        },
+        {
+          "file": "game/data/audio/pc/386678257.ogg",
+          "file_offset": 0,
+          "chunk_offset": 4689982,
+          "length": 452419
+        },
+        {
+          "file": "game/data/audio/pc/410947880.ogg",
+          "file_offset": 0,
+          "chunk_offset": 5142401,
+          "length": 290886
+        },
+        {
+          "file": "game/data/audio/pc/54189208.ogg",
+          "file_offset": 0,
+          "chunk_offset": 5433287,
+          "length": 244048
+        },
+        {
+          "file": "game/data/audio/pc/574929999.ogg",
+          "file_offset": 0,
+          "chunk_offset": 5677335,
+          "length": 242468
+        },
+        {
+          "file": "game/data/audio/pc/58923886.ogg",
+          "file_offset": 0,
+          "chunk_offset": 5919803,
+          "length": 167897
+        },
+        {
+          "file": "game/data/audio/pc/66327209.wav",
+          "file_offset": 0,
+          "chunk_offset": 6087700,
+          "length": 1246768
+        },
+        {
+          "file": "game/data/audio/pc/714585267.ogg",
+          "file_offset": 0,
+          "chunk_offset": 7334468,
+          "length": 290252
+        },
+        {
+          "file": "game/data/audio/pc/721828432.wav",
+          "file_offset": 0,
+          "chunk_offset": 7624720,
+          "length": 3853720
+        },
+        {
+          "file": "game/data/audio/pc/744911790.ogg",
+          "file_offset": 0,
+          "chunk_offset": 11478440,
+          "length": 281471
+        },
+        {
+          "file": "game/data/audio/pc/77911966.ogg",
+          "file_offset": 0,
+          "chunk_offset": 11759911,
+          "length": 167400
+        },
+        {
+          "file": "game/data/audio/pc/932068112.ogg",
+          "file_offset": 0,
+          "chunk_offset": 11927311,
+          "length": 236834
+        },
+        {
+          "file": "game/data/audio/pc/Init.bnk",
+          "file_offset": 0,
+          "chunk_offset": 12164145,
+          "length": 14183
+        },
+        {
+          "file": "game/data/audio/pc/l_default.bnk",
+          "file_offset": 0,
+          "chunk_offset": 12178328,
+          "length": 45349332
+        }
+      ],
+      "sha256": "aa13c637936bd5a7a2de6400c3d40c954b6b9b46657eb53db6c2c10837cd6a1a"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 57527660,
+      "segments": [
+        {
+          "file": "game/data/audio/pc/l_default.bnk",
+          "file_offset": 45349332,
+          "chunk_offset": 0,
+          "length": 2409910
+        },
+        {
+          "file": "game/data/audio/pc/l_intro.bnk",
+          "file_offset": 0,
+          "chunk_offset": 2409910,
+          "length": 462125
+        },
+        {
+          "file": "game/DirectX_Redist/APR2007_xinput_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 2872035,
+          "length": 53302
+        },
+        {
+          "file": "game/DirectX_Redist/AUG2006_xinput_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 2925337,
+          "length": 46058
+        },
+        {
+          "file": "game/DirectX_Redist/DSETUP.dll",
+          "file_offset": 0,
+          "chunk_offset": 2971395,
+          "length": 89944
+        },
+        {
+          "file": "game/DirectX_Redist/dsetup32.dll",
+          "file_offset": 0,
+          "chunk_offset": 3061339,
+          "length": 1801048
+        },
+        {
+          "file": "game/DirectX_Redist/dxdllreg_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 4862387,
+          "length": 42410
+        },
+        {
+          "file": "game/DirectX_Redist/DXSETUP.exe",
+          "file_offset": 0,
+          "chunk_offset": 4904797,
+          "length": 537432
+        },
+        {
+          "file": "game/DirectX_Redist/dxupdate.cab",
+          "file_offset": 0,
+          "chunk_offset": 5442229,
+          "length": 94011
+        },
+        {
+          "file": "game/DirectX_Redist/Jun2010_D3DCompiler_43_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 5536240,
+          "length": 931471
+        },
+        {
+          "file": "game/DirectX_Redist/Jun2010_d3dx9_43_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 6467711,
+          "length": 768036
+        },
+        {
+          "file": "game/installscript.vdf",
+          "file_offset": 0,
+          "chunk_offset": 7235747,
+          "length": 537
+        },
+        {
+          "file": "game/limbo.exe",
+          "file_offset": 0,
+          "chunk_offset": 7236284,
+          "length": 5453312
+        },
+        {
+          "file": "game/limbo.exe.bak",
+          "file_offset": 0,
+          "chunk_offset": 12689596,
+          "length": 5453312
+        },
+        {
+          "file": "game/limbo_boot.pkg",
+          "file_offset": 0,
+          "chunk_offset": 18142908,
+          "length": 20535206
+        },
+        {
+          "file": "game/limbo_runtime.pkg",
+          "file_offset": 0,
+          "chunk_offset": 38678114,
+          "length": 12587673
+        },
+        {
+          "file": "game/settings.txt",
+          "file_offset": 0,
+          "chunk_offset": 51265787,
+          "length": 961
+        },
+        {
+          "file": "game/steam_api.dll",
+          "file_offset": 0,
+          "chunk_offset": 51266748,
+          "length": 5874600
+        },
+        {
+          "file": "game/steam_api.dll.bak",
+          "file_offset": 0,
+          "chunk_offset": 57141348,
+          "length": 124712
+        },
+        {
+          "file": "game/steam_settings/achievement_images/020936a7cd2ff1582a7d2842598541cccfa2f02d.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57266060,
+          "length": 1391
+        },
+        {
+          "file": "game/steam_settings/achievement_images/025eff7af507a800e48e89359155dcd3d0faa529.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57267451,
+          "length": 1293
+        },
+        {
+          "file": "game/steam_settings/achievement_images/15022e1dba812df72c736bab8a319c4b10e15de2.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57268744,
+          "length": 1983
+        },
+        {
+          "file": "game/steam_settings/achievement_images/1fb9c187534aa26fd110574c4a70cf6ff68d883b.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57270727,
+          "length": 1358
+        },
+        {
+          "file": "game/steam_settings/achievement_images/3c040607393ce0dfaddbd5415ba94058b1a0c4b8.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57272085,
+          "length": 1416
+        },
+        {
+          "file": "game/steam_settings/achievement_images/48f89716d4fb251d92ab4997f562161f63422719.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57273501,
+          "length": 894
+        },
+        {
+          "file": "game/steam_settings/achievement_images/4a99ff795024f0242438ffc1424b45968a0cc7b0.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57274395,
+          "length": 2012
+        },
+        {
+          "file": "game/steam_settings/achievement_images/50505a8ef46f5c24385ed9b0748d6d53e796649e.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57276407,
+          "length": 1625
+        },
+        {
+          "file": "game/steam_settings/achievement_images/5110d6fae12ecab4aad035dce531526497317400.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57278032,
+          "length": 1468
+        },
+        {
+          "file": "game/steam_settings/achievement_images/5e613c4ba12c3673216ae7b3f0354a1a5f0e3521.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57279500,
+          "length": 1552
+        },
+        {
+          "file": "game/steam_settings/achievement_images/5ea5429b8b48b0c87c6e01bd82867cc637599369.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57281052,
+          "length": 1451
+        },
+        {
+          "file": "game/steam_settings/achievement_images/6643641cb9fbd159e5e8dbfd8bb6fa01cb02ac3e.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57282503,
+          "length": 1571
+        },
+        {
+          "file": "game/steam_settings/achievement_images/7470abd80a1c36410abb921651ad1b3a249f880d.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57284074,
+          "length": 1284
+        },
+        {
+          "file": "game/steam_settings/achievement_images/8602b135be8fe2a8d45b5aa4a15b81544a8a6fb3.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57285358,
+          "length": 1469
+        },
+        {
+          "file": "game/steam_settings/achievement_images/891469248b7cc427411786b6ae00cecca8506a9f.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57286827,
+          "length": 1624
+        },
+        {
+          "file": "game/steam_settings/achievement_images/8923301b62337d6a05c98f1f63327b7650a81e5e.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57288451,
+          "length": 1337
+        },
+        {
+          "file": "game/steam_settings/achievement_images/8b810f90eb1311f85916b89a57a3536a3a19f86e.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57289788,
+          "length": 1897
+        },
+        {
+          "file": "game/steam_settings/achievement_images/8d20154f04bec9294be08610124ef8f78a7c229b.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57291685,
+          "length": 1870
+        },
+        {
+          "file": "game/steam_settings/achievement_images/963dac3b738d1f71d4ad870b409f5b2724f867fd.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57293555,
+          "length": 1836
+        },
+        {
+          "file": "game/steam_settings/achievement_images/9d66c6c39e3d84d3633051bcfabe7f0732afc167.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57295391,
+          "length": 1804
+        },
+        {
+          "file": "game/steam_settings/achievement_images/c3db2254898d3023e444b0a31ef3a5e9a5ff9314.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57297195,
+          "length": 1152
+        },
+        {
+          "file": "game/steam_settings/achievement_images/c953d9e1a01a4ce9adff012d11c17ba38650bc59.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57298347,
+          "length": 1480
+        },
+        {
+          "file": "game/steam_settings/achievement_images/e7771c69705ba67a07dca96139f8cd6c28373c68.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57299827,
+          "length": 1177
+        },
+        {
+          "file": "game/steam_settings/achievement_images/e8b26839875821788ea4e26adfd290b311267c5f.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57301004,
+          "length": 1262
+        },
+        {
+          "file": "game/steam_settings/achievement_images/e9b1bf577d251c16ebb9e837e234d9357539b1f4.jpg",
+          "file_offset": 0,
+          "chunk_offset": 57302266,
+          "length": 1518
+        },
+        {
+          "file": "game/steam_settings/achievements.json",
+          "file_offset": 0,
+          "chunk_offset": 57303784,
+          "length": 3907
+        },
+        {
+          "file": "game/steam_settings/branches.json",
+          "file_offset": 0,
+          "chunk_offset": 57307691,
+          "length": 145
+        },
+        {
+          "file": "game/steam_settings/configs.main.ini",
+          "file_offset": 0,
+          "chunk_offset": 57307836,
+          "length": 681
+        },
+        {
+          "file": "game/steam_settings/configs.overlay.ini",
+          "file_offset": 0,
+          "chunk_offset": 57308517,
+          "length": 120
+        },
+        {
+          "file": "game/steam_settings/configs.user.ini",
+          "file_offset": 0,
+          "chunk_offset": 57308637,
+          "length": 603
+        },
+        {
+          "file": "game/steam_settings/depots.txt",
+          "file_offset": 0,
+          "chunk_offset": 57309240,
+          "length": 33
+        },
+        {
+          "file": "game/steam_settings/steam_appid.txt",
+          "file_offset": 0,
+          "chunk_offset": 57309273,
+          "length": 5
+        },
+        {
+          "file": "game/steam_settings/steam_interfaces.txt",
+          "file_offset": 0,
+          "chunk_offset": 57309278,
+          "length": 315
+        },
+        {
+          "file": "game/steam_settings/supported_languages.txt",
+          "file_offset": 0,
+          "chunk_offset": 57309593,
+          "length": 129
+        },
+        {
+          "file": "game/titledata/bootscreen/dot.png",
+          "file_offset": 0,
+          "chunk_offset": 57309722,
+          "length": 166
+        },
+        {
+          "file": "game/titledata/bootscreen/limbo_title.png",
+          "file_offset": 0,
+          "chunk_offset": 57309888,
+          "length": 79273
+        },
+        {
+          "file": "game/titledata/bootscreen/loading_br.png",
+          "file_offset": 0,
+          "chunk_offset": 57389161,
+          "length": 4635
+        },
+        {
+          "file": "game/titledata/bootscreen/loading_de.png",
+          "file_offset": 0,
+          "chunk_offset": 57393796,
+          "length": 3628
+        },
+        {
+          "file": "game/titledata/bootscreen/loading_es.png",
+          "file_offset": 0,
+          "chunk_offset": 57397424,
+          "length": 4410
+        },
+        {
+          "file": "game/titledata/bootscreen/loading_fr.png",
+          "file_offset": 0,
+          "chunk_offset": 57401834,
+          "length": 4763
+        },
+        {
+          "file": "game/titledata/bootscreen/loading_it.png",
+          "file_offset": 0,
+          "chunk_offset": 57406597,
+          "length": 4753
+        },
+        {
+          "file": "game/titledata/bootscreen/loading_ja.png",
+          "file_offset": 0,
+          "chunk_offset": 57411350,
+          "length": 5048
+        },
+        {
+          "file": "game/titledata/bootscreen/loading_ko.png",
+          "file_offset": 0,
+          "chunk_offset": 57416398,
+          "length": 4131
+        },
+        {
+          "file": "game/titledata/bootscreen/loading_pl.png",
+          "file_offset": 0,
+          "chunk_offset": 57420529,
+          "length": 4606
+        },
+        {
+          "file": "game/titledata/bootscreen/loading_pt.png",
+          "file_offset": 0,
+          "chunk_offset": 57425135,
+          "length": 4169
+        },
+        {
+          "file": "game/titledata/bootscreen/loading_ru.png",
+          "file_offset": 0,
+          "chunk_offset": 57429304,
+          "length": 4245
+        },
+        {
+          "file": "game/titledata/bootscreen/loading_sz.png",
+          "file_offset": 0,
+          "chunk_offset": 57433549,
+          "length": 4291
+        },
+        {
+          "file": "game/titledata/bootscreen/loading_tr.png",
+          "file_offset": 0,
+          "chunk_offset": 57437840,
+          "length": 3913
+        },
+        {
+          "file": "game/titledata/bootscreen/loading_uk.png",
+          "file_offset": 0,
+          "chunk_offset": 57441753,
+          "length": 4213
+        },
+        {
+          "file": "game/titledata/bootscreen/loading_zh.png",
+          "file_offset": 0,
+          "chunk_offset": 57445966,
+          "length": 4260
+        },
+        {
+          "file": "game/titledata/bootscreen/pc_logo.png",
+          "file_offset": 0,
+          "chunk_offset": 57450226,
+          "length": 77434
+        }
+      ],
+      "sha256": "5ef6ac5f7df067f0ba954d9c88bfda40216dc58eee229d1081342e9c15daf202"
+    }
+  ]
+}
