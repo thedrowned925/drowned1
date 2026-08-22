@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 52
-- **Toplam aktif sürüm/kanal:** 52
-- **Toplam aktif boyut:** 1300.704 GB (1211.375 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-22 23:46:15 UTC
+- **Toplam oyun:** 53
+- **Toplam aktif sürüm/kanal:** 53
+- **Toplam aktif boyut:** 1300.819 GB (1211.482 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-22 23:57:28 UTC
 
 ## PC
 
-**52 oyun · 52 aktif sürüm/kanal · 1300.704 GB (1211.375 GiB)**
+**53 oyun · 53 aktif sürüm/kanal · 1300.819 GB (1211.482 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -50,6 +50,7 @@
 | Horizon Zero Dawn™ Complete Edition | 1.0.0 | stable | 67.720 | 63.069 | `pc-horizon-zero-dawn-complete-edition-v1.0.0-stable` |
 | INSIDE | 1.0.0 | stable | 2.440 | 2.273 | `pc-inside-v1.0.0-stable` |
 | Life is Strange - Episode 1 | 1.0.0 | stable | 15.073 | 14.038 | `pc-life-is-strange-episode-1-v1.0.0-stable` |
+| LIMBO | 1.0.0 | stable | 0.115 | 0.107 | `pc-limbo-v1.0.0-stable` |
 | Mass Effect (2007) | 1.0.0 | stable | 24.338 | 22.667 | `pc-mass-effect-2007-v1.0.0-stable` |
 | Mass Effect 2 (2010 Edition) | 1.0.0 | stable | 29.915 | 27.860 | `pc-mass-effect-2-2010-edition-v1.0.0-stable` |
 | Max Payne | 1.0.0 | stable | 0.924 | 0.860 | `pc-max-payne-v1.0.0-stable` |
