@@ -1,0 +1,4 @@
+status=failure
+run=32580052121
+sha=ef1f48eadd2ac0fca6468c1a07d505f778203d51
+time=2026-08-22T14:55:03Z
