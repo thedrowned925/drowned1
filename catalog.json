@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-22T15:17:05.344399+00:00",
+  "updated_at": "2026-08-22T16:42:55.326996+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -1528,6 +1528,39 @@
       },
       "media": {
         "steam_app_id": 377160
+      }
+    },
+    {
+      "id": "the-walking-dead",
+      "title": "The Walking Dead",
+      "platform": "pc",
+      "description": "A five-part adventure horror series set in the same universe as Robert Kirkman’s award-winning comic book series.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-walking-dead/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-walking-dead/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-walking-dead/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-walking-dead/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-walking-dead/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-walking-dead/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-walking-dead/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-walking-dead/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-walking-dead/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-walking-dead/screenshots/05.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-the-walking-dead-v1.0.0-stable",
+          "manifest_path": "manifests/pc/the-walking-dead/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/the-walking-dead/stable/1.0.0.json",
+          "size": 4636793818,
+          "published_at": "2026-08-22T16:42:55.326978+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 207610
       }
     }
   ]
