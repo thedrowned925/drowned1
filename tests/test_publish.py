@@ -14,6 +14,30 @@ class FakeUploader:
         self.client = client
         self.release_id = release_id
 
+    def upload_stream(
+        self,
+        name,
+        total,
+        reader_factory,
+        progress=None,
+        content_type="application/octet-stream",
+    ):
+        reader = reader_factory()
+        try:
+            sent = 0
+            while True:
+                block = reader.read(8 * 1024 * 1024)
+                if not block:
+                    break
+                sent += len(block)
+                if progress:
+                    progress(sent, total)
+            if sent != total:
+                raise AssertionError(f"fake stream sent {sent}, expected {total}")
+            return {"id": 1, "name": name}, str(reader.sha256)
+        finally:
+            reader.close()
+
     def upload(self, name, path, progress=None, content_type="application/octet-stream"):
         size = Path(path).stat().st_size
         if progress:
@@ -130,9 +154,6 @@ class PublishScreenshotsTests(unittest.TestCase):
 
     @mock.patch("drowned_shared.publish.TurboAssetUploader", new=FakeUploader)
     def test_media_written_outside_artwork(self):
-        # Trailers are external Steam CDN links, so they must land under
-        # game["media"] and never inside game["artwork"], which the deletion
-        # pass treats as repository-owned files.
         with tempfile.TemporaryDirectory() as tmp:
             source = _source_dir(tmp)
             client = FakeClient()
@@ -160,9 +181,6 @@ class PublishScreenshotsTests(unittest.TestCase):
 
     @mock.patch("drowned_shared.publish.TurboAssetUploader", new=FakeUploader)
     def test_backward_compatible_without_screenshots(self):
-        # Regression guard: publishing without an artwork["screenshots"] key
-        # (every caller before this change) must produce a catalog identical
-        # in shape to what publish_project() wrote previously.
         with tempfile.TemporaryDirectory() as tmp:
             source = _source_dir(tmp)
             art = _artwork_dir(tmp)
