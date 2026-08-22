@@ -55,10 +55,10 @@ class LauncherUIV14Tests(unittest.TestCase):
         self.assertIn("import app_v12 as previous", source)
         self.assertIn('APP_VERSION = "0.14.0"', source)
 
-    def test_windows_build_changes_launcher_only(self):
+    def test_windows_build_keeps_release_manager_and_uses_latest_launcher_ui(self):
         workflow = WORKFLOW.read_text(encoding="utf-8")
         self.assertIn("dir: windows/release-manager\n            entry: app_v10.py", workflow)
-        self.assertIn("dir: windows/launcher\n            entry: app_v14.py", workflow)
+        self.assertIn("dir: windows/launcher\n            entry: app_v15.py", workflow)
 
 
 if __name__ == "__main__":
