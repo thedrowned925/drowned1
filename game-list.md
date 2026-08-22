@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 40
-- **Toplam aktif sürüm/kanal:** 40
-- **Toplam aktif boyut:** 1088.818 GB (1014.041 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-22 10:15:11 UTC
+- **Toplam oyun:** 41
+- **Toplam aktif sürüm/kanal:** 41
+- **Toplam aktif boyut:** 1089.551 GB (1014.723 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-22 11:01:34 UTC
 
 ## PC
 
-**40 oyun · 40 aktif sürüm/kanal · 1088.818 GB (1014.041 GiB)**
+**41 oyun · 41 aktif sürüm/kanal · 1089.551 GB (1014.723 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -49,6 +49,7 @@
 | Portal 2 | 1.0.0 | stable | 13.071 | 12.174 | `pc-portal-2-v1.0.0-stable` |
 | Red Dead Redemption | 1.0.0 | stable | 10.225 | 9.522 | `pc-red-dead-redemption-v1.0.0-stable` |
 | Red Dead Redemption 2 | 1.0.0 | stable | 128.093 | 119.296 | `pc-red-dead-redemption-2-v1.0.0-stable` |
+| Stardew Valley | 1.0.0 | stable | 0.733 | 0.683 | `pc-stardew-valley-v1.0.0-stable` |
 | The Elder Scrolls V: Skyrim | 1.0.0 | stable | 13.902 | 12.948 | `pc-the-elder-scrolls-v-skyrim-v1.0.0-stable` |
 | The Witcher 3: Wild Hunt | 1.0.0 | stable | 56.143 | 52.287 | `pc-the-witcher-3-wild-hunt-v1.0.0-stable` |
 | Tomb Raider Definitive Edition | 1.0.0 | stable | 25.926 | 24.145 | `pc-tomb-raider-definitive-edition-v1.0.0-stable` |
