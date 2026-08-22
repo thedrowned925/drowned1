@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-22T17:08:21.777428+00:00",
+  "updated_at": "2026-08-22T18:24:03.279448+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -1631,6 +1631,41 @@
       },
       "media": {
         "steam_app_id": 1145360
+      }
+    },
+    {
+      "id": "dragon-age-origins",
+      "title": "Dragon Age: Origins",
+      "platform": "pc",
+      "description": "When history tells the story of the Fifth Blight, what will be said about the hero who turned the tide against the darkspawn? Determine your legacy and fight for Thedas as a noble dwarf, an elf far from home, a mage apprentice, or a customized hero of your own design.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dragon-age-origins/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dragon-age-origins/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dragon-age-origins/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dragon-age-origins/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dragon-age-origins/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dragon-age-origins/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dragon-age-origins/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dragon-age-origins/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dragon-age-origins/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dragon-age-origins/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dragon-age-origins/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dragon-age-origins/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-dragon-age-origins-v1.0.0-stable",
+          "manifest_path": "manifests/pc/dragon-age-origins/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/dragon-age-origins/stable/1.0.0.json",
+          "size": 25470213091,
+          "published_at": "2026-08-22T18:24:03.279435+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 17450
       }
     }
   ]
