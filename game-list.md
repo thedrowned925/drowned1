@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 44
-- **Toplam aktif sürüm/kanal:** 44
-- **Toplam aktif boyut:** 1194.765 GB (1112.711 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-22 13:58:19 UTC
+- **Toplam oyun:** 45
+- **Toplam aktif sürüm/kanal:** 45
+- **Toplam aktif boyut:** 1203.972 GB (1121.286 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-22 14:20:00 UTC
 
 ## PC
 
-**44 oyun · 44 aktif sürüm/kanal · 1194.765 GB (1112.711 GiB)**
+**45 oyun · 45 aktif sürüm/kanal · 1203.972 GB (1121.286 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -29,6 +29,7 @@
 | Dishonored | 1.0.0 | stable | 18.079 | 16.837 | `pc-dishonored-v1.0.0-stable` |
 | DOOM | 1.0.0 | stable | 73.984 | 68.903 | `pc-doom-v1.0.0-stable` |
 | ELDEN RING | 1.0.0 | stable | 74.150 | 69.058 | `pc-elden-ring-v1.0.0-stable` |
+| Fallout 3: Game of the Year Edition | 1.0.0 | stable | 9.207 | 8.575 | `pc-fallout-3-game-of-the-year-edition-v1.0.0-stable` |
 | Fallout: New Vegas | 1.0.0 | stable | 9.914 | 9.233 | `pc-fallout-new-vegas-v1.0.0-stable` |
 | Far Cry 3 | 1.0.0 | stable | 9.977 | 9.291 | `pc-far-cry-3-v1.0.0-stable` |
 | God of War | 1.0.0 | stable | 66.388 | 61.828 | `pc-god-of-war-v1.0.0-stable` |
