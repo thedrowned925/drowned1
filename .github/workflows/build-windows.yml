@@ -47,13 +47,14 @@ jobs:
 
       - name: Compile and verify imports
         run: |
-          python -c "import drowned_shared; import drowned_shared.addons; import drowned_shared.addon_publish; print('drowned_shared:', drowned_shared.__file__)"
+          python -c "import drowned_shared; import drowned_shared.addons; import drowned_shared.addon_publish; import drowned_shared.addon_delete; print('drowned_shared:', drowned_shared.__file__)"
           python -m py_compile shared/python/drowned_shared/addons.py
           python -m py_compile shared/python/drowned_shared/addon_publish.py
+          python -m py_compile shared/python/drowned_shared/addon_delete.py
           python -m py_compile "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
 
       - name: Run shared protocol tests
-        run: python -m unittest discover -s tests -v
+        run: python -X utf8 -m unittest discover -s tests -v
 
       - name: Build Windows application
         shell: pwsh
