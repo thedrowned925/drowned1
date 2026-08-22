@@ -7,6 +7,7 @@ on:
     paths:
       - 'windows/**'
       - 'shared/python/**'
+      - 'tests/**'
       - '.github/workflows/build-windows.yml'
 
 concurrency:
@@ -22,10 +23,10 @@ jobs:
         app:
           - name: Drowned-Release-Manager
             dir: windows/release-manager
-            entry: app_v9.py
+            entry: app_v10.py
           - name: Drowned-Launcher
             dir: windows/launcher
-            entry: app_v11.py
+            entry: app_v12.py
     steps:
       - uses: actions/checkout@v6
 
@@ -46,12 +47,13 @@ jobs:
 
       - name: Compile and verify imports
         run: |
-          python -c "import drowned_shared; print('drowned_shared:', drowned_shared.__file__)"
+          python -c "import drowned_shared; import drowned_shared.addons; import drowned_shared.addon_publish; print('drowned_shared:', drowned_shared.__file__)"
+          python -m py_compile shared/python/drowned_shared/addons.py
+          python -m py_compile shared/python/drowned_shared/addon_publish.py
           python -m py_compile "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
 
-      - name: Test balanced uploader
-        if: matrix.app.name == 'Drowned-Release-Manager'
-        run: python tests/test_turbo_upload.py
+      - name: Run shared protocol tests
+        run: python -m unittest discover -s tests -v
 
       - name: Build Windows application
         shell: pwsh
@@ -73,6 +75,9 @@ jobs:
           python -m PyInstaller.utils.cliutils.archive_viewer -r $archive | Out-File -Encoding utf8 archive-contents.txt
           if (-not (Select-String -Path archive-contents.txt -Pattern "drowned_shared" -Quiet)) {
             throw "PyInstaller archive does not contain drowned_shared"
+          }
+          if (-not (Select-String -Path archive-contents.txt -Pattern "drowned_shared.addons" -Quiet)) {
+            throw "PyInstaller archive does not contain optional-package backend"
           }
 
       - name: Launch smoke test
