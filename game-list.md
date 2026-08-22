@@ -2,19 +2,20 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 47
-- **Toplam aktif sürüm/kanal:** 47
-- **Toplam aktif boyut:** 1247.226 GB (1161.570 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-22 16:42:55 UTC
+- **Toplam oyun:** 48
+- **Toplam aktif sürüm/kanal:** 48
+- **Toplam aktif boyut:** 1256.878 GB (1170.559 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-22 16:51:42 UTC
 
 ## PC
 
-**47 oyun · 47 aktif sürüm/kanal · 1247.226 GB (1161.570 GiB)**
+**48 oyun · 48 aktif sürüm/kanal · 1256.878 GB (1170.559 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
 | Assassin's Creed 2 | 1.0.1 | stable | 7.276 | 6.777 | `pc-assassin-s-creed-2-v1.0.1-stable` |
 | Assassin's Creed Black Flag Resynced | 1.0.0 | stable | 72.871 | 67.866 | `pc-assassin-s-creed-black-flag-resynced-v1.0.0-stable` |
+| Assassin's Creed Brotherhood | 1.0.0 | stable | 9.652 | 8.989 | `pc-assassin-s-creed-brotherhood-v1.0.0-stable` |
 | Assassin's Creed™: Director's Cut Edition | 1.0.0 | stable | 7.201 | 6.707 | `pc-assassin-s-creed-director-s-cut-edition-v1.0.0-stable` |
 | Assassin’s Creed® IV Black Flag™ | 1.0.0 | stable | 31.420 | 29.262 | `pc-assassin-s-creed-iv-black-flag-v1.0.0-stable` |
 | Batman: Arkham Asylum Game of the Year Edition | 1.0.0 | stable | 8.609 | 8.018 | `pc-batman-arkham-asylum-game-of-the-year-edition-v1.0.0-stable` |
