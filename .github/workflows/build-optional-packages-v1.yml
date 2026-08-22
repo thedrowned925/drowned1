@@ -1,0 +1,146 @@
+name: Build Optional Packages v1
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-optional-packages-v1.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+          cache-dependency-path: |
+            shared/python/pyproject.toml
+            windows/release-manager/requirements.txt
+            windows/launcher/requirements.txt
+
+      - name: Install dependencies
+        shell: pwsh
+        run: |
+          python -m pip install pyinstaller
+          python -m pip install shared/python
+          python -m pip install -r windows/release-manager/requirements.txt
+          python -m pip install -r windows/launcher/requirements.txt
+
+      - name: Compile optional package stack
+        shell: pwsh
+        run: |
+          python -m py_compile shared/python/drowned_shared/addons.py
+          python -m py_compile shared/python/drowned_shared/addon_publish.py
+          python -m py_compile shared/python/drowned_shared/addon_delete.py
+          python -m py_compile shared/python/drowned_shared/deletion.py
+          python -m py_compile windows/release-manager/app_v10.py
+          python -m py_compile windows/launcher/app_v12.py
+
+      - name: Run full test suite
+        run: python -m unittest discover -s tests -v
+
+      - name: Build Release Manager v0.10
+        shell: pwsh
+        run: >-
+          pyinstaller
+          --noconfirm
+          --clean
+          --windowed
+          --paths "shared/python"
+          --collect-all drowned_shared
+          --name "Drowned-Release-Manager"
+          "windows/release-manager/app_v10.py"
+
+      - name: Verify Release Manager package
+        shell: pwsh
+        run: |
+          $exe = "dist/Drowned-Release-Manager/Drowned-Release-Manager.exe"
+          if (!(Test-Path $exe)) { throw "Release Manager executable missing" }
+          python -m PyInstaller.utils.cliutils.archive_viewer -r $exe | Out-File -Encoding utf8 rm-archive.txt
+          foreach ($module in @("drowned_shared.addons", "drowned_shared.addon_publish", "drowned_shared.addon_delete")) {
+            if (-not (Select-String -Path rm-archive.txt -Pattern $module -Quiet)) { throw "Release Manager missing $module" }
+          }
+
+      - name: Smoke test Release Manager
+        shell: pwsh
+        run: |
+          $exe = Resolve-Path "dist/Drowned-Release-Manager/Drowned-Release-Manager.exe"
+          $p = Start-Process -FilePath $exe -PassThru
+          Start-Sleep -Seconds 8
+          $p.Refresh()
+          if ($p.HasExited) { throw "Release Manager exited during startup with code $($p.ExitCode)" }
+          Stop-Process -Id $p.Id -Force
+
+      - name: Build Launcher v0.12
+        shell: pwsh
+        run: >-
+          pyinstaller
+          --noconfirm
+          --clean
+          --windowed
+          --paths "shared/python"
+          --collect-all drowned_shared
+          --name "Drowned-Launcher"
+          "windows/launcher/app_v12.py"
+
+      - name: Verify Launcher package
+        shell: pwsh
+        run: |
+          $exe = "dist/Drowned-Launcher/Drowned-Launcher.exe"
+          if (!(Test-Path $exe)) { throw "Launcher executable missing" }
+          python -m PyInstaller.utils.cliutils.archive_viewer -r $exe | Out-File -Encoding utf8 launcher-archive.txt
+          if (-not (Select-String -Path launcher-archive.txt -Pattern "drowned_shared.addons" -Quiet)) { throw "Launcher missing optional package backend" }
+
+      - name: Smoke test Launcher
+        shell: pwsh
+        run: |
+          $exe = Resolve-Path "dist/Drowned-Launcher/Drowned-Launcher.exe"
+          $p = Start-Process -FilePath $exe -PassThru
+          Start-Sleep -Seconds 8
+          $p.Refresh()
+          if ($p.HasExited) { throw "Launcher exited during startup with code $($p.ExitCode)" }
+          Stop-Process -Id $p.Id -Force
+
+      - name: Package applications
+        shell: pwsh
+        run: |
+          Compress-Archive -Path "dist/Drowned-Release-Manager/*" -DestinationPath "Drowned-Release-Manager-v0.10.0-Optional-Packages-Windows.zip"
+          Compress-Archive -Path "dist/Drowned-Launcher/*" -DestinationPath "Drowned-Launcher-v0.12.0-Optional-Packages-Windows.zip"
+
+      - name: Publish GitHub Release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "drowned-optional-packages-v1.0.0" `
+            --title "Drowned Optional Packages v1.0.0" `
+            --notes "Release Manager v0.10 + Launcher v0.12. Adds optional overlay packages such as high-resolution textures. Packages have independent Releases/manifests, install into the existing game directory on opt-in, and uninstall safely by deleting package-owned files and restoring overwritten base files. Existing GitHub PAT/keyring identity is unchanged." `
+            "Drowned-Release-Manager-v0.10.0-Optional-Packages-Windows.zip" `
+            "Drowned-Launcher-v0.12.0-Optional-Packages-Windows.zip"
+
+      - name: Report build status
+        if: always()
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BUILD_STATUS: ${{ job.status }}
+        run: |
+          BODY="status=${BUILD_STATUS}\nrun=${GITHUB_RUN_ID}\nsha=${GITHUB_SHA}\ntime=$(date -u +%Y-%m-%dT%H:%M:%SZ)\n"
+          CONTENT=$(printf "%b" "$BODY" | base64 -w0)
+          EXISTING_SHA=$(gh api "repos/${GITHUB_REPOSITORY}/contents/.build-status/optional-packages-v1.txt" --jq '.sha' 2>/dev/null || true)
+          if [ -n "$EXISTING_SHA" ]; then
+            gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/.build-status/optional-packages-v1.txt" \
+              -f message="Update optional packages build status" \
+              -f content="$CONTENT" \
+              -f sha="$EXISTING_SHA" >/dev/null
+          else
+            gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/.build-status/optional-packages-v1.txt" \
+              -f message="Record optional packages build status" \
+              -f content="$CONTENT" >/dev/null
+          fi
