@@ -1,0 +1,992 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "max-payne",
+    "title": "Max Payne",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Max Payne is a man with nothing to lose in the violent, cold urban night. A fugitive undercover cop framed for murder, hunted by cops and the mob, Max is a man with his back against the wall, fighting a battle he cannot hope to win. Prepare for pain…"
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-max-payne-v1.0.0-stable"
+  },
+  "chunk_size": 65982708,
+  "upload_workers": 14,
+  "upload_waves": 1,
+  "total_size": 923757908,
+  "files": [
+    {
+      "path": "[Extra]/Info.txt",
+      "size": 279,
+      "sha256": "b6bf501f7048ac9194066a9460f8b1dc668712aac914892ec176df39cdd6e366"
+    },
+    {
+      "path": "[Extra]/MP1-Fixpack NoTex v1.2025.1.exe",
+      "size": 13822882,
+      "sha256": "0511509f68956d4b1b66b80b7292131fab7815c86711255801f8884dbee2e811"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "d3d8.dll",
+      "size": 124416,
+      "sha256": "59e15e4ee8596cdef2194275b05ded3c6f8590aa68f483e4daec6a6c99ec2b2d"
+    },
+    {
+      "path": "d3d9.dll",
+      "size": 92672,
+      "sha256": "4dea801c1497723929215a3b536a5b4697060de23f3e824c16bfc660bdde95eb"
+    },
+    {
+      "path": "d3d9.ini",
+      "size": 44,
+      "sha256": "bfbefd47445d0383556c6471e04f23a86d6fe6cc0ecdfcc3e45c4f9adaaa90f8"
+    },
+    {
+      "path": "dinput.dll",
+      "size": 2157568,
+      "sha256": "a07f2b90b0ea9cffb568218e500ea3280b750c195e83d82a6bb7a252642708e3"
+    },
+    {
+      "path": "dsoal-aldrv.dll",
+      "size": 988672,
+      "sha256": "2c208a4e6e0a07baccb3445ed90fd1e77ed7001181c58bdaf6ad32ce64350f29"
+    },
+    {
+      "path": "dsound.dll",
+      "size": 197632,
+      "sha256": "0d403bc8f797e27fb111156c0b3a7b7172456a1a5df1c08016cb04a56f82396f"
+    },
+    {
+      "path": "e2driver/e2_d3d8_driver_mfc.bkup",
+      "size": 540736,
+      "sha256": "27a28eee4ac1b7622267697644e64889fd70e54973f1733e7454a2c6a0e350b6"
+    },
+    {
+      "path": "e2driver/e2_d3d8_driver_mfc.dll",
+      "size": 540736,
+      "sha256": "98bc8eed84074b55f1ea356deb9c612d45d5dd2bf3c5555d26054ae753891cd3"
+    },
+    {
+      "path": "e2mfc.bkup",
+      "size": 442368,
+      "sha256": "2f4e039a524d7bdf0dd740ec47737663a469385b7d268555a9e1b1471cf7dc50"
+    },
+    {
+      "path": "e2mfc.dll",
+      "size": 442368,
+      "sha256": "46acb51c0e95fee670341b57332104b4f1fbd320ac2ff4e4844c76afbf86ce31"
+    },
+    {
+      "path": "grphmfc.dll",
+      "size": 98304,
+      "sha256": "8f38a7ebeb2d4be3eece73e3d9b805d863c17ed58c3b0e94a33da8297b51e5f5"
+    },
+    {
+      "path": "help/html/intro.htm",
+      "size": 7140,
+      "sha256": "3022f136d6899ba42e29e343772ce0559d39d7ec38d21ee0df66fdd7cca9176a"
+    },
+    {
+      "path": "help/html/perform.htm",
+      "size": 4498,
+      "sha256": "cc295e73405622f79590ea5505a74f9d410f343f95702e2a1b8da52381c4dcb8"
+    },
+    {
+      "path": "help/html/playing.htm",
+      "size": 8068,
+      "sha256": "6ff288f6bdce60097ddd66f091462e4bd963dcd93934c07b75e195213eff3017"
+    },
+    {
+      "path": "help/html/side.htm",
+      "size": 2054,
+      "sha256": "42c3adb606b83cdf67d708f193293459ef6d181d8f466e7ddadee445fc1ced08"
+    },
+    {
+      "path": "help/html/side_ie.css",
+      "size": 877,
+      "sha256": "77722b6a607f82020bea07e7bb8db584c862e1c841942f7079358b54a0bd2c7e"
+    },
+    {
+      "path": "help/html/side_ns.css",
+      "size": 827,
+      "sha256": "3a618e98e2a1ab68acb53cb894e12f654953bcc716104db25dca1f21c45bf8f0"
+    },
+    {
+      "path": "help/html/style_ie.css",
+      "size": 571,
+      "sha256": "fa430cd682185f1ce727b301b9dc0df44dbeb4b6100769d9e85459bd7f05cf44"
+    },
+    {
+      "path": "help/html/style_ns.css",
+      "size": 733,
+      "sha256": "1e155da66fd0057908f758426b9f4cd85c2f5eaf758dbb07e9febe158f3ea476"
+    },
+    {
+      "path": "help/html/top.htm",
+      "size": 542,
+      "sha256": "5657cfba093a2fbd022ad85bbe5e055e1241e4ca95d0f574b6d221a81735d0b6"
+    },
+    {
+      "path": "help/html/troubles.htm",
+      "size": 17302,
+      "sha256": "aeab78f2e173117c6c04dd48bc1973e7e562d53020e9453a80b0fcce6118089f"
+    },
+    {
+      "path": "help/images/1x1pix.gif",
+      "size": 43,
+      "sha256": "71d66e87a9561f8cc70f06a466a5f75a77aa9cb55e8795e0539c514eff7cf7d3"
+    },
+    {
+      "path": "help/images/maxbg.gif",
+      "size": 20661,
+      "sha256": "71d8b353db8bb4b5cd971e13a55c1085402e481ce4dde1e79151810b58ac2ae5"
+    },
+    {
+      "path": "help/images/maxlogo.gif",
+      "size": 4341,
+      "sha256": "b5f241a6b5d172739ee92c151d61ea9b1c600941407fea51ef8a21ef70e7c61d"
+    },
+    {
+      "path": "help/images/menu1x80.gif",
+      "size": 71,
+      "sha256": "88032d71c38cf9c2bc7d7381ce77f9e696525cbf7ef3aa5136685c167a94c241"
+    },
+    {
+      "path": "help/images/rmdlogo.gif",
+      "size": 1758,
+      "sha256": "fce0f589b249037c4102eba3a11e4a15fbef5b388e3d78516023de6d4e341935"
+    },
+    {
+      "path": "help/readme.htm",
+      "size": 979,
+      "sha256": "da95f9acdd046ffb51d1b741b8fb23103812b41bc221bddd0afd11652eeef846"
+    },
+    {
+      "path": "installscript.vdf",
+      "size": 572,
+      "sha256": "6c8ad4ff387c7f643f1c3ce8df4a569da74f8bb609507037de0c73aa1160e017"
+    },
+    {
+      "path": "maxpayne.exe",
+      "size": 6295552,
+      "sha256": "e0d6f82b002791391749fe72fdf855ec76eee0719f0500e65016a48e151498d5"
+    },
+    {
+      "path": "maxpayne.exe.bak",
+      "size": 6295552,
+      "sha256": "e0b3b859c28adbf510dfc6285e1667173aaa7b05ac66a62403eb96d50eefae7b"
+    },
+    {
+      "path": "MFC42.DLL",
+      "size": 995383,
+      "sha256": "0bd4d2b2fab316e2b6167cba5029721eb5848087645ef44f2ccb09f1108383fd"
+    },
+    {
+      "path": "movies/intro.mpg",
+      "size": 10598404,
+      "sha256": "fa5a4d0356a5e2613c81777ea06d9b6c840947e221b4a1084d316f9e7177a8ab"
+    },
+    {
+      "path": "MSVCIRT.DLL",
+      "size": 77878,
+      "sha256": "647f7534aaaedffa93534e4cb9b24bfcf91524828ff0364d88973be58139e255"
+    },
+    {
+      "path": "MSVCP60.DLL",
+      "size": 401462,
+      "sha256": "2b6b93c2d66969eb00258e2b5ad6172decebada096e3b1b077a3380c80e4a072"
+    },
+    {
+      "path": "MSVCRT.DLL",
+      "size": 266293,
+      "sha256": "d4287ab5e4988dfe99bd54243d50dbe8744094f11fe5f9809a1a6fb9728c2124"
+    },
+    {
+      "path": "RASMaker.exe",
+      "size": 106496,
+      "sha256": "0020b019ef210696c750e769f7c82bde44e7b8774dba02177ef8c3848e0f884c"
+    },
+    {
+      "path": "readme/dsoal.txt",
+      "size": 8796,
+      "sha256": "8576869bf78c2769d0eb64923500bbaa604de0a80000be0471d9507f1eae608b"
+    },
+    {
+      "path": "readme/Jpeg error fix.txt",
+      "size": 1635,
+      "sha256": "04e39b3afe49894afa7c697029a590b98d36b08147c1eeb459b2a0fbf2af7a37"
+    },
+    {
+      "path": "readme/MaxPayne Fix Pack - ReadMe.html",
+      "size": 2319,
+      "sha256": "f33607ad1d657b30421da32732a82e0f1cdc9e62a788f9a19b8af6235682a60c"
+    },
+    {
+      "path": "readme/readme(indirectsound).txt",
+      "size": 7807,
+      "sha256": "0521502dfe250536eb0b4dc19d4024bb85afefdbe9f4dfcd8e36a2cc1eba09af"
+    },
+    {
+      "path": "readme/readme_dsoal.txt",
+      "size": 698,
+      "sha256": "a8a0ad87e6f1bfdd19aa275f2a7d0dffcdfd9e73d23b0a754082edd45be2945b"
+    },
+    {
+      "path": "rl.dll",
+      "size": 344064,
+      "sha256": "f6d08a3d8bc3d87505a73cbcb1b8f89ce44d6799b7bfabf97bb103aa18704801"
+    },
+    {
+      "path": "rlmfc.bkup",
+      "size": 282624,
+      "sha256": "7dc5b6dbf7e8ffb9ecd378a24f3e417b80fe77e2579da5adc52dca0dfbaab8e7"
+    },
+    {
+      "path": "rlmfc.dll",
+      "size": 282624,
+      "sha256": "f44984db7f01680d64a6f98c14037d4bb4f50d79b8824dde0d4df59489c99baa"
+    },
+    {
+      "path": "savegames/Where are my saved games.txt",
+      "size": 174,
+      "sha256": "9fe27e2fd11df0f356eb63fbbe54d9e3957e03210808d6bfb394dcf053e77ecc"
+    },
+    {
+      "path": "scripts/global.ini",
+      "size": 38,
+      "sha256": "16f5e8adf09a952febf037f7ad40321235e31cb2dba2fc445fb3d8a3545fd5cf"
+    },
+    {
+      "path": "scripts/MaxPayne.WidescreenFix.asi",
+      "size": 318976,
+      "sha256": "b4a9cad53f13dfdbdde6bb23e93a01b303d81c6f545523901669e3b801ccd160"
+    },
+    {
+      "path": "scripts/MaxPayne.WidescreenFix.ini",
+      "size": 918,
+      "sha256": "f3c97d27f0eb2a3a1e6f821729fa676e2acd010be0ef04cfb633c71f6df05d1d"
+    },
+    {
+      "path": "sndmfc.dll",
+      "size": 98304,
+      "sha256": "49f45c8c9899ab8f31bc8efd860cd53bf18fec51d3c3449e5fbdf804a7d937d7"
+    },
+    {
+      "path": "support/dsoundfix.reg",
+      "size": 524,
+      "sha256": "5de28980d807eafda436d0280e0ab69b5f939847ab96a7e810e15720843d2d3e"
+    },
+    {
+      "path": "support/dxwebsetup.exe",
+      "size": 295320,
+      "sha256": "2cf71d098c608c56e07f4655855a886c3102553f648df88458df616b26fd612f"
+    },
+    {
+      "path": "support/vcredist_x86.exe",
+      "size": 8993744,
+      "sha256": "99dce3c841cc6028560830f7866c9ce2928c98cf3256892ef8e6cf755147b0d8"
+    },
+    {
+      "path": "testapp.exe",
+      "size": 4952064,
+      "sha256": "70c7f85298bacb911a4288bab24ac910ea223700c854957a07f8f01f94b7dcba"
+    },
+    {
+      "path": "testapp.exe.bak",
+      "size": 4952064,
+      "sha256": "97ab06a05b8f2063355f887c3c921ecf59934cf0469a18e0b36185204022323e"
+    },
+    {
+      "path": "unins000.dat",
+      "size": 9823,
+      "sha256": "9c0aa56751bdd1f6b17cb0bcc22c13fa64942c0daed618ed2e4bf6eb9b1d5a84"
+    },
+    {
+      "path": "unins000.exe",
+      "size": 3391945,
+      "sha256": "8d949990354004e9c08b3ca27d8432b8906faa4dc445eabe781a439d51ca87a3"
+    },
+    {
+      "path": "x_data.ras",
+      "size": 134236027,
+      "sha256": "dcdf91e3d1097f0869a48abe8834504e02a8b53ca25234a630cd637200be7bbf"
+    },
+    {
+      "path": "x_english.ras",
+      "size": 230578113,
+      "sha256": "0779a80b62581626d0fbb14967eda564ae5294a18cfedfcca01c038c2b1e3a7e"
+    },
+    {
+      "path": "x_level1.ras",
+      "size": 123196327,
+      "sha256": "6e85a58edb53a9974473fd00cc97de9e86300abdb57a46d6b26287189bef2c76"
+    },
+    {
+      "path": "x_level2.ras",
+      "size": 70958070,
+      "sha256": "b062ed9fe34b90df2271f840efa75a31bca5606c1f0c37c9ac53bede3ee7b6c9"
+    },
+    {
+      "path": "x_level3.ras",
+      "size": 102462128,
+      "sha256": "f534594182c201437e9c827294320ede6a4707e55935e727f8dbf6d088253837"
+    },
+    {
+      "path": "x_music.ras",
+      "size": 144606272,
+      "sha256": "4edf3baacb1ae83935d66979849c95dc84c6392adc9a7d4b51bdf2a077d989f5"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 65982708,
+      "segments": [
+        {
+          "file": "[Extra]/Info.txt",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 279
+        },
+        {
+          "file": "[Extra]/MP1-Fixpack NoTex v1.2025.1.exe",
+          "file_offset": 0,
+          "chunk_offset": 279,
+          "length": 13822882
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 13823161,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 14712577,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 15000665,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 15810161,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 30784185,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 45196489,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 50915361,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 55988601,
+          "length": 7054336
+        },
+        {
+          "file": "d3d8.dll",
+          "file_offset": 0,
+          "chunk_offset": 63042937,
+          "length": 124416
+        },
+        {
+          "file": "d3d9.dll",
+          "file_offset": 0,
+          "chunk_offset": 63167353,
+          "length": 92672
+        },
+        {
+          "file": "d3d9.ini",
+          "file_offset": 0,
+          "chunk_offset": 63260025,
+          "length": 44
+        },
+        {
+          "file": "dinput.dll",
+          "file_offset": 0,
+          "chunk_offset": 63260069,
+          "length": 2157568
+        },
+        {
+          "file": "dsoal-aldrv.dll",
+          "file_offset": 0,
+          "chunk_offset": 65417637,
+          "length": 565071
+        }
+      ],
+      "sha256": "d88007aea07ca9545256041f9b013410ef1b8fee7dab8eac6ed675629d97bcbd"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 65982708,
+      "segments": [
+        {
+          "file": "dsoal-aldrv.dll",
+          "file_offset": 565071,
+          "chunk_offset": 0,
+          "length": 423601
+        },
+        {
+          "file": "dsound.dll",
+          "file_offset": 0,
+          "chunk_offset": 423601,
+          "length": 197632
+        },
+        {
+          "file": "e2driver/e2_d3d8_driver_mfc.bkup",
+          "file_offset": 0,
+          "chunk_offset": 621233,
+          "length": 540736
+        },
+        {
+          "file": "e2driver/e2_d3d8_driver_mfc.dll",
+          "file_offset": 0,
+          "chunk_offset": 1161969,
+          "length": 540736
+        },
+        {
+          "file": "e2mfc.bkup",
+          "file_offset": 0,
+          "chunk_offset": 1702705,
+          "length": 442368
+        },
+        {
+          "file": "e2mfc.dll",
+          "file_offset": 0,
+          "chunk_offset": 2145073,
+          "length": 442368
+        },
+        {
+          "file": "grphmfc.dll",
+          "file_offset": 0,
+          "chunk_offset": 2587441,
+          "length": 98304
+        },
+        {
+          "file": "help/html/intro.htm",
+          "file_offset": 0,
+          "chunk_offset": 2685745,
+          "length": 7140
+        },
+        {
+          "file": "help/html/perform.htm",
+          "file_offset": 0,
+          "chunk_offset": 2692885,
+          "length": 4498
+        },
+        {
+          "file": "help/html/playing.htm",
+          "file_offset": 0,
+          "chunk_offset": 2697383,
+          "length": 8068
+        },
+        {
+          "file": "help/html/side.htm",
+          "file_offset": 0,
+          "chunk_offset": 2705451,
+          "length": 2054
+        },
+        {
+          "file": "help/html/side_ie.css",
+          "file_offset": 0,
+          "chunk_offset": 2707505,
+          "length": 877
+        },
+        {
+          "file": "help/html/side_ns.css",
+          "file_offset": 0,
+          "chunk_offset": 2708382,
+          "length": 827
+        },
+        {
+          "file": "help/html/style_ie.css",
+          "file_offset": 0,
+          "chunk_offset": 2709209,
+          "length": 571
+        },
+        {
+          "file": "help/html/style_ns.css",
+          "file_offset": 0,
+          "chunk_offset": 2709780,
+          "length": 733
+        },
+        {
+          "file": "help/html/top.htm",
+          "file_offset": 0,
+          "chunk_offset": 2710513,
+          "length": 542
+        },
+        {
+          "file": "help/html/troubles.htm",
+          "file_offset": 0,
+          "chunk_offset": 2711055,
+          "length": 17302
+        },
+        {
+          "file": "help/images/1x1pix.gif",
+          "file_offset": 0,
+          "chunk_offset": 2728357,
+          "length": 43
+        },
+        {
+          "file": "help/images/maxbg.gif",
+          "file_offset": 0,
+          "chunk_offset": 2728400,
+          "length": 20661
+        },
+        {
+          "file": "help/images/maxlogo.gif",
+          "file_offset": 0,
+          "chunk_offset": 2749061,
+          "length": 4341
+        },
+        {
+          "file": "help/images/menu1x80.gif",
+          "file_offset": 0,
+          "chunk_offset": 2753402,
+          "length": 71
+        },
+        {
+          "file": "help/images/rmdlogo.gif",
+          "file_offset": 0,
+          "chunk_offset": 2753473,
+          "length": 1758
+        },
+        {
+          "file": "help/readme.htm",
+          "file_offset": 0,
+          "chunk_offset": 2755231,
+          "length": 979
+        },
+        {
+          "file": "installscript.vdf",
+          "file_offset": 0,
+          "chunk_offset": 2756210,
+          "length": 572
+        },
+        {
+          "file": "maxpayne.exe",
+          "file_offset": 0,
+          "chunk_offset": 2756782,
+          "length": 6295552
+        },
+        {
+          "file": "maxpayne.exe.bak",
+          "file_offset": 0,
+          "chunk_offset": 9052334,
+          "length": 6295552
+        },
+        {
+          "file": "MFC42.DLL",
+          "file_offset": 0,
+          "chunk_offset": 15347886,
+          "length": 995383
+        },
+        {
+          "file": "movies/intro.mpg",
+          "file_offset": 0,
+          "chunk_offset": 16343269,
+          "length": 10598404
+        },
+        {
+          "file": "MSVCIRT.DLL",
+          "file_offset": 0,
+          "chunk_offset": 26941673,
+          "length": 77878
+        },
+        {
+          "file": "MSVCP60.DLL",
+          "file_offset": 0,
+          "chunk_offset": 27019551,
+          "length": 401462
+        },
+        {
+          "file": "MSVCRT.DLL",
+          "file_offset": 0,
+          "chunk_offset": 27421013,
+          "length": 266293
+        },
+        {
+          "file": "RASMaker.exe",
+          "file_offset": 0,
+          "chunk_offset": 27687306,
+          "length": 106496
+        },
+        {
+          "file": "readme/dsoal.txt",
+          "file_offset": 0,
+          "chunk_offset": 27793802,
+          "length": 8796
+        },
+        {
+          "file": "readme/Jpeg error fix.txt",
+          "file_offset": 0,
+          "chunk_offset": 27802598,
+          "length": 1635
+        },
+        {
+          "file": "readme/MaxPayne Fix Pack - ReadMe.html",
+          "file_offset": 0,
+          "chunk_offset": 27804233,
+          "length": 2319
+        },
+        {
+          "file": "readme/readme(indirectsound).txt",
+          "file_offset": 0,
+          "chunk_offset": 27806552,
+          "length": 7807
+        },
+        {
+          "file": "readme/readme_dsoal.txt",
+          "file_offset": 0,
+          "chunk_offset": 27814359,
+          "length": 698
+        },
+        {
+          "file": "rl.dll",
+          "file_offset": 0,
+          "chunk_offset": 27815057,
+          "length": 344064
+        },
+        {
+          "file": "rlmfc.bkup",
+          "file_offset": 0,
+          "chunk_offset": 28159121,
+          "length": 282624
+        },
+        {
+          "file": "rlmfc.dll",
+          "file_offset": 0,
+          "chunk_offset": 28441745,
+          "length": 282624
+        },
+        {
+          "file": "savegames/Where are my saved games.txt",
+          "file_offset": 0,
+          "chunk_offset": 28724369,
+          "length": 174
+        },
+        {
+          "file": "scripts/global.ini",
+          "file_offset": 0,
+          "chunk_offset": 28724543,
+          "length": 38
+        },
+        {
+          "file": "scripts/MaxPayne.WidescreenFix.asi",
+          "file_offset": 0,
+          "chunk_offset": 28724581,
+          "length": 318976
+        },
+        {
+          "file": "scripts/MaxPayne.WidescreenFix.ini",
+          "file_offset": 0,
+          "chunk_offset": 29043557,
+          "length": 918
+        },
+        {
+          "file": "sndmfc.dll",
+          "file_offset": 0,
+          "chunk_offset": 29044475,
+          "length": 98304
+        },
+        {
+          "file": "support/dsoundfix.reg",
+          "file_offset": 0,
+          "chunk_offset": 29142779,
+          "length": 524
+        },
+        {
+          "file": "support/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 29143303,
+          "length": 295320
+        },
+        {
+          "file": "support/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 29438623,
+          "length": 8993744
+        },
+        {
+          "file": "testapp.exe",
+          "file_offset": 0,
+          "chunk_offset": 38432367,
+          "length": 4952064
+        },
+        {
+          "file": "testapp.exe.bak",
+          "file_offset": 0,
+          "chunk_offset": 43384431,
+          "length": 4952064
+        },
+        {
+          "file": "unins000.dat",
+          "file_offset": 0,
+          "chunk_offset": 48336495,
+          "length": 9823
+        },
+        {
+          "file": "unins000.exe",
+          "file_offset": 0,
+          "chunk_offset": 48346318,
+          "length": 3391945
+        },
+        {
+          "file": "x_data.ras",
+          "file_offset": 0,
+          "chunk_offset": 51738263,
+          "length": 14244445
+        }
+      ],
+      "sha256": "af1bce8ca3b228cc739a264e0431f2af218b8dcc7ede40f018a2b3f6da6efd47"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 65982708,
+      "segments": [
+        {
+          "file": "x_data.ras",
+          "file_offset": 14244445,
+          "chunk_offset": 0,
+          "length": 65982708
+        }
+      ],
+      "sha256": "0c0b8e7fa96acf04eadee01b0d5070891c0cf7aee589a7a721bbe8847c9abb7b"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 65982708,
+      "segments": [
+        {
+          "file": "x_data.ras",
+          "file_offset": 80227153,
+          "chunk_offset": 0,
+          "length": 54008874
+        },
+        {
+          "file": "x_english.ras",
+          "file_offset": 0,
+          "chunk_offset": 54008874,
+          "length": 11973834
+        }
+      ],
+      "sha256": "18e94626989874ace0ed381ea7daadacee00187c8ea5c3641d6d45418b572bd5"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 65982708,
+      "segments": [
+        {
+          "file": "x_english.ras",
+          "file_offset": 11973834,
+          "chunk_offset": 0,
+          "length": 65982708
+        }
+      ],
+      "sha256": "a28c3c011c17ee5903860a7ea57a4cc3f481453e1e517236ac8c2f88b4c1553c"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 65982708,
+      "segments": [
+        {
+          "file": "x_english.ras",
+          "file_offset": 77956542,
+          "chunk_offset": 0,
+          "length": 65982708
+        }
+      ],
+      "sha256": "5a69eb822cf7563c859353ef1ce281ca6b1d40a069931b42e0d4d1a3a29e341f"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 65982708,
+      "segments": [
+        {
+          "file": "x_english.ras",
+          "file_offset": 143939250,
+          "chunk_offset": 0,
+          "length": 65982708
+        }
+      ],
+      "sha256": "2f395baf29d74fd844bcb6204d4864cb471c8942eaf0a6786b262fe669241240"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 65982708,
+      "segments": [
+        {
+          "file": "x_english.ras",
+          "file_offset": 209921958,
+          "chunk_offset": 0,
+          "length": 20656155
+        },
+        {
+          "file": "x_level1.ras",
+          "file_offset": 0,
+          "chunk_offset": 20656155,
+          "length": 45326553
+        }
+      ],
+      "sha256": "0f38a877a1ec7566cc14b989d50f6497d55f5a2faa8b53213ebf109f0582b5f0"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 65982708,
+      "segments": [
+        {
+          "file": "x_level1.ras",
+          "file_offset": 45326553,
+          "chunk_offset": 0,
+          "length": 65982708
+        }
+      ],
+      "sha256": "8eac0dc424b1f969c8a7d13a178e42e37f937121af67326038a4a77dba9c762c"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 65982708,
+      "segments": [
+        {
+          "file": "x_level1.ras",
+          "file_offset": 111309261,
+          "chunk_offset": 0,
+          "length": 11887066
+        },
+        {
+          "file": "x_level2.ras",
+          "file_offset": 0,
+          "chunk_offset": 11887066,
+          "length": 54095642
+        }
+      ],
+      "sha256": "31a310545a62f0af7d272b9aca5a439cde84b239eb0102a5c8ddcd654ee944ad"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 65982708,
+      "segments": [
+        {
+          "file": "x_level2.ras",
+          "file_offset": 54095642,
+          "chunk_offset": 0,
+          "length": 16862428
+        },
+        {
+          "file": "x_level3.ras",
+          "file_offset": 0,
+          "chunk_offset": 16862428,
+          "length": 49120280
+        }
+      ],
+      "sha256": "27f6693b528d7d2f2ad4447b7396182b453147a5efe524fb6e1791c06d3f481e"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 65982708,
+      "segments": [
+        {
+          "file": "x_level3.ras",
+          "file_offset": 49120280,
+          "chunk_offset": 0,
+          "length": 53341848
+        },
+        {
+          "file": "x_music.ras",
+          "file_offset": 0,
+          "chunk_offset": 53341848,
+          "length": 12640860
+        }
+      ],
+      "sha256": "31b830f13dcd38eefa9fdd15dca6211e53078a07de7da441998b69ad73fe6a2d"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 65982708,
+      "segments": [
+        {
+          "file": "x_music.ras",
+          "file_offset": 12640860,
+          "chunk_offset": 0,
+          "length": 65982708
+        }
+      ],
+      "sha256": "305cbf93c05877ac5a2fadebc6f1f70a562003380e7ed89404ad56eae2088cc2"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 65982704,
+      "segments": [
+        {
+          "file": "x_music.ras",
+          "file_offset": 78623568,
+          "chunk_offset": 0,
+          "length": 65982704
+        }
+      ],
+      "sha256": "4096d161fd235fe5b698c31dbe477dbbb13e90b4725e35e7bfeabcc8c693e3bb"
+    }
+  ]
+}
