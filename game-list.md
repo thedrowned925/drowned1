@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 43
-- **Toplam aktif sürüm/kanal:** 43
-- **Toplam aktif boyut:** 1193.841 GB (1111.851 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-22 12:55:20 UTC
+- **Toplam oyun:** 44
+- **Toplam aktif sürüm/kanal:** 44
+- **Toplam aktif boyut:** 1194.765 GB (1112.711 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-22 13:58:19 UTC
 
 ## PC
 
-**43 oyun · 43 aktif sürüm/kanal · 1193.841 GB (1111.851 GiB)**
+**44 oyun · 44 aktif sürüm/kanal · 1194.765 GB (1112.711 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -45,6 +45,7 @@
 | Life is Strange - Episode 1 | 1.0.0 | stable | 15.073 | 14.038 | `pc-life-is-strange-episode-1-v1.0.0-stable` |
 | Mass Effect (2007) | 1.0.0 | stable | 24.338 | 22.667 | `pc-mass-effect-2007-v1.0.0-stable` |
 | Mass Effect 2 (2010 Edition) | 1.0.0 | stable | 29.915 | 27.860 | `pc-mass-effect-2-2010-edition-v1.0.0-stable` |
+| Max Payne | 1.0.0 | stable | 0.924 | 0.860 | `pc-max-payne-v1.0.0-stable` |
 | Papers, Please | 1.0.0 | stable | 0.094 | 0.088 | `pc-papers-please-v1.0.0-stable` |
 | PEAK | 1.0.0 | stable | 4.466 | 4.159 | `pc-peak-v1.0.0-stable` |
 | Portal | 1.0.0 | stable | 5.235 | 4.876 | `pc-portal-v1.0.0-stable` |
