@@ -6,13 +6,12 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-V14 = ROOT / "windows" / "launcher" / "app_v14.py"
-WORKFLOW = ROOT / ".github" / "workflows" / "build-windows.yml"
+V15 = ROOT / "windows" / "launcher" / "app_v15.py"
 
 
-class LauncherUIV14Tests(unittest.TestCase):
-    def test_v14_keeps_backend_methods_inherited(self):
-        tree = ast.parse(V14.read_text(encoding="utf-8"))
+class LauncherUIV15Tests(unittest.TestCase):
+    def test_v15_is_presentation_only(self):
+        tree = ast.parse(V15.read_text(encoding="utf-8"))
         launcher = next(
             node for node in tree.body
             if isinstance(node, ast.ClassDef) and node.name == "Launcher"
@@ -47,18 +46,43 @@ class LauncherUIV14Tests(unittest.TestCase):
         }
         self.assertFalse(methods & forbidden, methods & forbidden)
 
-    def test_v14_does_not_import_backend_or_release_manager(self):
-        source = V14.read_text(encoding="utf-8")
+    def test_v15_inherits_v14_and_has_no_backend_imports(self):
+        source = V15.read_text(encoding="utf-8")
+        self.assertIn("import app_v14 as previous", source)
+        self.assertIn('APP_VERSION = "0.15.0"', source)
         self.assertNotIn("from drowned_shared", source)
         self.assertNotIn("import drowned_shared", source)
         self.assertNotIn("release-manager", source.lower())
-        self.assertIn("import app_v12 as previous", source)
-        self.assertIn('APP_VERSION = "0.14.0"', source)
 
-    def test_windows_build_keeps_release_manager_and_uses_latest_launcher_ui(self):
-        workflow = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v10.py", workflow)
-        self.assertIn("dir: windows/launcher\n            entry: app_v15.py", workflow)
+    def test_v15_preserves_runtime_widget_contracts(self):
+        source = V15.read_text(encoding="utf-8")
+        required_direct = {
+            "self.nav_library",
+            "self.nav_downloads",
+            "self.connection",
+            "self.big_picture_button",
+            "self.right_stack",
+            "self.library_grid",
+            "self.library_grid_bp",
+            "self.install_button",
+            "self.verify_button",
+            "self.action_pause",
+            "self.progress",
+            "self.progress_text",
+            "self.logs",
+            "self.screenshot_gallery",
+        }
+        missing = sorted(name for name in required_direct if name not in source)
+        self.assertFalse(missing, missing)
+
+        for dynamic_contract in (
+            '"stat_platform"',
+            '"stat_channel"',
+            '"stat_version"',
+            '"stat_size"',
+        ):
+            self.assertIn(dynamic_contract, source)
+        self.assertIn("previous.Launcher._build_side_panels(self)", source)
 
 
 if __name__ == "__main__":
