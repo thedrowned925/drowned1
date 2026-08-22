@@ -56,7 +56,7 @@ class LauncherUIV15Tests(unittest.TestCase):
 
     def test_v15_preserves_runtime_widget_contracts(self):
         source = V15.read_text(encoding="utf-8")
-        required = {
+        required_direct = {
             "self.nav_library",
             "self.nav_downloads",
             "self.connection",
@@ -71,18 +71,18 @@ class LauncherUIV15Tests(unittest.TestCase):
             "self.progress_text",
             "self.logs",
             "self.screenshot_gallery",
-            "self.stat_platform",
-            "self.stat_channel",
-            "self.stat_version",
-            "self.stat_size",
-            "self.panel_state",
-            "self.panel_path",
-            "self.panel_tag",
-            "self.panel_repo",
-            "self.panel_branch",
         }
-        missing = sorted(name for name in required if name not in source)
+        missing = sorted(name for name in required_direct if name not in source)
         self.assertFalse(missing, missing)
+
+        for dynamic_contract in (
+            '"stat_platform"',
+            '"stat_channel"',
+            '"stat_version"',
+            '"stat_size"',
+        ):
+            self.assertIn(dynamic_contract, source)
+        self.assertIn("previous.Launcher._build_side_panels(self)", source)
 
 
 if __name__ == "__main__":
