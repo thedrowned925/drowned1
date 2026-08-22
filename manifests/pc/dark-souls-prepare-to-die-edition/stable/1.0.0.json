@@ -1,0 +1,1136 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "dark-souls-prepare-to-die-edition",
+    "title": "DARK SOULS™: Prepare To Die™ Edition",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Dark Souls will be the most deeply challenging game you play this year. Can you live through a million deaths and earn your legacy?"
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-dark-souls-prepare-to-die-edition-v1.0.0-stable"
+  },
+  "chunk_size": 99039274,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 3961570945,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "DARKSOULS.exe",
+      "size": 17616896,
+      "sha256": "67bcab513c8f0ed6164279d85f302e06b1d8a53abff5df7f3d10e1d4dfd81459"
+    },
+    {
+      "path": "DINPUT8.dll",
+      "size": 489472,
+      "sha256": "c6855c833763da5872fc2feebfc9e2a87d0c3332b11485d535267bfc14f10e0d"
+    },
+    {
+      "path": "DSfix.ini",
+      "size": 8098,
+      "sha256": "f9aac791c577b607ccce2176509648d4793ed2b30a83863b5c9b280e87a3e82a"
+    },
+    {
+      "path": "DSfix.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dsfix/FXAA.fx",
+      "size": 3072,
+      "sha256": "08928071f671eb96f9d7dbb5258f9a8344bf14b420c6e34127cd2cfc85997b80"
+    },
+    {
+      "path": "dsfix/FXAA.h",
+      "size": 87929,
+      "sha256": "f04fcc19abb6c3bb61b259aa307856545e58f365c1fd2035df4b9f8e23827711"
+    },
+    {
+      "path": "dsfix/GAUSS.fx",
+      "size": 1942,
+      "sha256": "cb45c87016e524a75405a46f20ce1d9772fc51b070e6fcc502d8f5139c355c08"
+    },
+    {
+      "path": "dsfix/HBAO.fx",
+      "size": 7347,
+      "sha256": "7e5f2ef7e4082745506ffb1fa1474ad318297918a500b29bba4700f7910efec9"
+    },
+    {
+      "path": "dsfix/HUD.fx",
+      "size": 826,
+      "sha256": "53daa6eb9a47752b325faa66ce8b93c710847f16ad0252e81c2cb99877939717"
+    },
+    {
+      "path": "dsfix/SCAO.fx",
+      "size": 9487,
+      "sha256": "da14c278e3474f3f80c0438c05e9f636cf9e7ac92460e2fb262c974a0c93ad59"
+    },
+    {
+      "path": "dsfix/SMAA.fx",
+      "size": 10090,
+      "sha256": "b312c69bd057e01b4235d6e78f16f3016cec46d4e3b6ba415e29cfa887b47b88"
+    },
+    {
+      "path": "dsfix/SMAA.h",
+      "size": 51920,
+      "sha256": "2f6d0a3ad9e03a1556b554112cdbfbce9251b22202069d0bddf5b86309dee25c"
+    },
+    {
+      "path": "dsfix/tex_override/3f28b833.png",
+      "size": 154037,
+      "sha256": "3942757e812e83e775388fe32c2b2632147e61fd8f30280f35c66cc2269e9d84"
+    },
+    {
+      "path": "dsfix/VSSAO.fx",
+      "size": 7405,
+      "sha256": "fb576852668dddf3b6f096f26f25bf3452b71750560719eccc3617686427fda3"
+    },
+    {
+      "path": "dsfix/VSSAO2.fx",
+      "size": 9552,
+      "sha256": "20b5c53db78ee6a46f056f03188863bcc847fd6826c0da52b7191444a468735f"
+    },
+    {
+      "path": "DSfixKeys.ini",
+      "size": 2243,
+      "sha256": "fbedbb0716836c7e5957f9b9f6fe30e61594d1e5cead7b8f62e1814ba466d721"
+    },
+    {
+      "path": "dvdbnd0.bdt",
+      "size": 1780677290,
+      "sha256": "5ba004380a984a08acbe7e231a26ebe5aeafba68cf2803ee76d5b73e61cfd41b"
+    },
+    {
+      "path": "dvdbnd0.bhd5",
+      "size": 41840,
+      "sha256": "48f8df35af7dbece0805994fe699e6e8ff99351022d135b0ea49e1a119078107"
+    },
+    {
+      "path": "dvdbnd1.bdt",
+      "size": 1698619525,
+      "sha256": "c3d7827642e76564c4c13eccb0280e105896f88c0b3f68c58025cce051e9c98f"
+    },
+    {
+      "path": "dvdbnd1.bhd5",
+      "size": 63216,
+      "sha256": "a1d814182df2f71be406aab5dc6da7bca696028d1ae7dfad12666d0f7c6cd9e0"
+    },
+    {
+      "path": "dvdbnd2.bdt",
+      "size": 1174878,
+      "sha256": "3d085778404185881a60c12dadaaca6041af643efbbf63f2da15a7ab6af45e0a"
+    },
+    {
+      "path": "dvdbnd2.bhd5",
+      "size": 1616,
+      "sha256": "e4fb6eec5f38225c4f785f0172128bcd885605a49ee2acb5d8def513c3a14b83"
+    },
+    {
+      "path": "dvdbnd3.bdt",
+      "size": 3496739,
+      "sha256": "13578a204b1fb3efa246b63bd15ed45006017d416a91b06659b4d3c3ee5f8a89"
+    },
+    {
+      "path": "dvdbnd3.bhd5",
+      "size": 592,
+      "sha256": "a0e0d0255e375838dc4a0ccff85b21f4896e01a06f43a4e78282dc4e3cba5de6"
+    },
+    {
+      "path": "fmod_event.dll",
+      "size": 287744,
+      "sha256": "3e76fc8f41b296d13db2fdff7d8c4abf65163309e50f9d9cba9a9913c73d63e2"
+    },
+    {
+      "path": "fmodex.dll",
+      "size": 386048,
+      "sha256": "6ef30b0a56f9448dfa5fbe1a9d6ebb972eaab07033ab4ae7ddb2e9dba937f3a7"
+    },
+    {
+      "path": "movWW/frpg_goodending.wmv",
+      "size": 145689456,
+      "sha256": "d14d9b73f02a4490350296cb858d55c2b99a350b9d9ccf8d0527014e94252bf1"
+    },
+    {
+      "path": "movWW/frpg_opening.wmv",
+      "size": 256670067,
+      "sha256": "7098b4a7082a824518ba9caa2ede73b85dd13185c173cf470f3750f7b2098a0e"
+    },
+    {
+      "path": "movWW/frpg_title.wmv",
+      "size": 3886821,
+      "sha256": "35518b46f96d8acb320012fbb4d011193bc5e702e3f8c706eba32d49f7b13c1a"
+    },
+    {
+      "path": "README.txt",
+      "size": 4483,
+      "sha256": "a80004e464c1e4c44013cc85a1af17ca75b4ca7102a623d042960f2b49f8325b"
+    },
+    {
+      "path": "readme/Readme_ch.txt",
+      "size": 13130,
+      "sha256": "44941d930af1f5327862fc4eccb693345e5f50e8e15ecf45e193fcd009dd0917"
+    },
+    {
+      "path": "readme/Readme_de.txt",
+      "size": 23540,
+      "sha256": "5c1ca9111bbbb67d48617c8e8012352b498c3da825632f46b2e53180f409bc8c"
+    },
+    {
+      "path": "readme/Readme_en.txt",
+      "size": 20138,
+      "sha256": "92e0dcb92557760c8052ca808f0de46ddf0bff3da22d7514fa1199e98112f1a2"
+    },
+    {
+      "path": "readme/Readme_es.txt",
+      "size": 21998,
+      "sha256": "44487bcf40099769fb8f7e00e1f5490583025d2dfe76530dabc0a6bf1a97a253"
+    },
+    {
+      "path": "readme/Readme_fr.txt",
+      "size": 23926,
+      "sha256": "11e83260d7d8e34d866e8010a40953ea17f77d9def21c659f2d9e494ef6d134c"
+    },
+    {
+      "path": "readme/Readme_it.txt",
+      "size": 23520,
+      "sha256": "ce9f2eece88505179b1b7386fae7c06ba0fe41f65895d9521c6e8200039bfc41"
+    },
+    {
+      "path": "readme/Readme_kr.txt",
+      "size": 14612,
+      "sha256": "02b175b48dd772d1be58be1e761fda4785d8439fb9e4c494efca8909b439b7f8"
+    },
+    {
+      "path": "readme/Readme_pl.txt",
+      "size": 23498,
+      "sha256": "ca7c21c1e9278e16f560eb7270a63362d8d343280bf5eb6c787a3dcbb5316419"
+    },
+    {
+      "path": "readme/Readme_ru.txt",
+      "size": 23182,
+      "sha256": "340d335e897b36757940e58ae13cffa017b6e78f54583262a587ed2d05150318"
+    },
+    {
+      "path": "steam_api.dll",
+      "size": 2694728,
+      "sha256": "737c57174513024d2fe61e137f51e11e3ddfe8f0c1d67a5e59f9646c81932ba4"
+    },
+    {
+      "path": "steam_settings/achievements.json",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "steam_settings/DLC.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "steam_settings/settings/account_name.txt",
+      "size": 8,
+      "sha256": "0a5850e75aa14f97a545eb93d12131aa9a75f8fb8dccc1365d5e3f0202227bab"
+    },
+    {
+      "path": "steam_settings/settings/language.txt",
+      "size": 7,
+      "sha256": "b6234d2ea0d6022be63db80d7b80e221097fe4a469dc44febcd2a9241effdeba"
+    },
+    {
+      "path": "steam_settings/settings/listen_port.txt",
+      "size": 5,
+      "sha256": "45095e3e3f29ea73ffab2e23158b7cd2afa6532004b5a9b6f06d4e5e068a89aa"
+    },
+    {
+      "path": "steam_settings/settings/user_steam_id.txt",
+      "size": 17,
+      "sha256": "9d135e264c5f017159e5eec06889665766660d38ce1bf8a73db256863f97953b"
+    },
+    {
+      "path": "steam_settings/steam_appid.txt",
+      "size": 6,
+      "sha256": "dfb8b59c6fe7688411d06488f665f51e65499dffba86e7063c4769027d9de023"
+    },
+    {
+      "path": "VERSIONS.txt",
+      "size": 8223,
+      "sha256": "9f6fafb989722b9d6f84585f1b186c0b945e1f4bba8a2d84787855ad2b995128"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "DARKSOULS.exe",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 17616896
+        },
+        {
+          "file": "DINPUT8.dll",
+          "file_offset": 0,
+          "chunk_offset": 66836672,
+          "length": 489472
+        },
+        {
+          "file": "DSfix.ini",
+          "file_offset": 0,
+          "chunk_offset": 67326144,
+          "length": 8098
+        },
+        {
+          "file": "dsfix/FXAA.fx",
+          "file_offset": 0,
+          "chunk_offset": 67334242,
+          "length": 3072
+        },
+        {
+          "file": "dsfix/FXAA.h",
+          "file_offset": 0,
+          "chunk_offset": 67337314,
+          "length": 87929
+        },
+        {
+          "file": "dsfix/GAUSS.fx",
+          "file_offset": 0,
+          "chunk_offset": 67425243,
+          "length": 1942
+        },
+        {
+          "file": "dsfix/HBAO.fx",
+          "file_offset": 0,
+          "chunk_offset": 67427185,
+          "length": 7347
+        },
+        {
+          "file": "dsfix/HUD.fx",
+          "file_offset": 0,
+          "chunk_offset": 67434532,
+          "length": 826
+        },
+        {
+          "file": "dsfix/SCAO.fx",
+          "file_offset": 0,
+          "chunk_offset": 67435358,
+          "length": 9487
+        },
+        {
+          "file": "dsfix/SMAA.fx",
+          "file_offset": 0,
+          "chunk_offset": 67444845,
+          "length": 10090
+        },
+        {
+          "file": "dsfix/SMAA.h",
+          "file_offset": 0,
+          "chunk_offset": 67454935,
+          "length": 51920
+        },
+        {
+          "file": "dsfix/tex_override/3f28b833.png",
+          "file_offset": 0,
+          "chunk_offset": 67506855,
+          "length": 154037
+        },
+        {
+          "file": "dsfix/VSSAO.fx",
+          "file_offset": 0,
+          "chunk_offset": 67660892,
+          "length": 7405
+        },
+        {
+          "file": "dsfix/VSSAO2.fx",
+          "file_offset": 0,
+          "chunk_offset": 67668297,
+          "length": 9552
+        },
+        {
+          "file": "DSfixKeys.ini",
+          "file_offset": 0,
+          "chunk_offset": 67677849,
+          "length": 2243
+        },
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 0,
+          "chunk_offset": 67680092,
+          "length": 31359182
+        }
+      ],
+      "sha256": "d8847900634f31bffa4aef4f80bfc7186df15f9887a8d0b098e3725fcb22b73b"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 31359182,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "0dd29934a58a1717dd8dcee499d172c9241879d71324bea308d8d5cdb81510dd"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 130398456,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "1c5759d93b700c541ef59dd34a73206854fe2218e8a8040b8d29012d6c626695"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 229437730,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "12a284026c0af565913421b531a00b1f2604f82a488e60f362261e4f3c2f9a15"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 328477004,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "06e39b91562a8c38c4c609748301e6c8d07d77b2802666982866d3ccecca3397"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 427516278,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "0e15c718aaadda91fced842b6b8743a4304afe69426004e4f8b80c887ea34228"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 526555552,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "d64bf9e65f6f0032baed86817b04dfeaff3fce17e0982a09c97f8eebfbfd1470"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 625594826,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "c074844163f651a6da473dff791506510b72de24078d840066916cfb36057a6c"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 724634100,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "8e7cc05b33de2d53e55b3e84de41051b0f974591beb816035ab9c086a88afb86"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 823673374,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "d093be40759897b187badf3c5fde8b82d7be3913383235d046b1c143bce27bed"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 922712648,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "78c7404dcc3cfb58c5e22c3313ccd4c4965a3fb8493ce077f4b06a7dd3be5b4a"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 1021751922,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "6b54dbe116ac35db194b069992e7a07f497ed0b762487c915730d005c6958be4"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 1120791196,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "3aefa7e56b7378eccbd531693cc5f9af4a30f8e74158fc50477c15c67de31098"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 1219830470,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "423dd7781f143a5dc505e090a06f279433d4eba8f5cb06615e1a58a13b634105"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 1318869744,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "29d8c51e4b9d5894424fbf4e5993bab803433a717c788fd54f3212e0c3a1c530"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 1417909018,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "aefc7ce62fb986c8505272d3f02e5e5aa7a6a76c516c18aae480f5110831f431"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 1516948292,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "bf3f1eab5d5da402b6605eb90fce48a3d862de07a3040c0873e4438f165f4e00"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 1615987566,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "19bd0820ed168be63fce26429e68fa198c2ed6900d194cfe88c668bf9f3707c4"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd0.bdt",
+          "file_offset": 1715026840,
+          "chunk_offset": 0,
+          "length": 65650450
+        },
+        {
+          "file": "dvdbnd0.bhd5",
+          "file_offset": 0,
+          "chunk_offset": 65650450,
+          "length": 41840
+        },
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 0,
+          "chunk_offset": 65692290,
+          "length": 33346984
+        }
+      ],
+      "sha256": "464705aaa34108de22621a419447108984368a4ec41b4e741493bd334a2d403b"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 33346984,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "959fc80f3e5308ad9de4f366d8a4542b88e6ed78fff3ff457706c7e9bb4b5264"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 132386258,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "0f061d9ecfcda84797a7e3c6b6644da882278387210dbe907bf4edd83db4563b"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 231425532,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "7e30fb522a4bb33695f339f60b8d96e312f5e20cbf2b0a1fe7fe744a18723bb3"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 330464806,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "8f4d6b38a1e4b0aa2330a20bcc91e6f3263fb050350e6fae2baacb7ccd1f52f9"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 429504080,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "8127356b35553024ee248e6879b6804b94cd12c4ae3a3b845d47eac370dcc91a"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 528543354,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "a857bfc59ddb9b1934d57e1e51fa17a84a69b4625f1fd1511fbd25ea55893238"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 627582628,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "f7cd38ff15023bc22d38961f4dbe183cac3d33178d05379678e12653beff75df"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 726621902,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "129a2081d39d9b828a64b13ec1fb863a1a62b6b872563e2e811a129159943b99"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 825661176,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "9a43275f9e00615cce4bc2ffdfbd18f85350939f22b44dead0ba5038037af226"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 924700450,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "f7bba0f3d47d6e0724123408e41ee0bd1804e0f74699672e81896e10282b7487"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 1023739724,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "3f9273a322906de6595f92409a8db58931012e78fdfb7a8f4e67488e2205ccbf"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 1122778998,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "48cc9b899fcb8a099afa5cd203d5fcaa8704d0afd56f00e272c0682832cd1327"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 1221818272,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "a7493bc9620c3baf22b315e780ec7d15cea03847054fd0d7aa14da92259418ed"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 1320857546,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "4e35a560072d9cf5b2744362a2f74432cdfe21f68019ab53fe49b1dab9a4b933"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 1419896820,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "338f035935a23f112f599319f615a3691e3227a1d331a728a343d0f87999e51e"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 1518936094,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "48021b120b9eef9759725a8519e80981ad35350bd897e6d7a62f96c3c6e60ee4"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "dvdbnd1.bdt",
+          "file_offset": 1617975368,
+          "chunk_offset": 0,
+          "length": 80644157
+        },
+        {
+          "file": "dvdbnd1.bhd5",
+          "file_offset": 0,
+          "chunk_offset": 80644157,
+          "length": 63216
+        },
+        {
+          "file": "dvdbnd2.bdt",
+          "file_offset": 0,
+          "chunk_offset": 80707373,
+          "length": 1174878
+        },
+        {
+          "file": "dvdbnd2.bhd5",
+          "file_offset": 0,
+          "chunk_offset": 81882251,
+          "length": 1616
+        },
+        {
+          "file": "dvdbnd3.bdt",
+          "file_offset": 0,
+          "chunk_offset": 81883867,
+          "length": 3496739
+        },
+        {
+          "file": "dvdbnd3.bhd5",
+          "file_offset": 0,
+          "chunk_offset": 85380606,
+          "length": 592
+        },
+        {
+          "file": "fmod_event.dll",
+          "file_offset": 0,
+          "chunk_offset": 85381198,
+          "length": 287744
+        },
+        {
+          "file": "fmodex.dll",
+          "file_offset": 0,
+          "chunk_offset": 85668942,
+          "length": 386048
+        },
+        {
+          "file": "movWW/frpg_goodending.wmv",
+          "file_offset": 0,
+          "chunk_offset": 86054990,
+          "length": 12984284
+        }
+      ],
+      "sha256": "4eb9795a70ca8e6bfb33140f7ca16f5e49bd443ceda62934b0d5293aa2bb4d2c"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "movWW/frpg_goodending.wmv",
+          "file_offset": 12984284,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "85c2bfa7d6f3556a6dd33776fb483208af20667e902d1ac26e964dcedc57f5ae"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "movWW/frpg_goodending.wmv",
+          "file_offset": 112023558,
+          "chunk_offset": 0,
+          "length": 33665898
+        },
+        {
+          "file": "movWW/frpg_opening.wmv",
+          "file_offset": 0,
+          "chunk_offset": 33665898,
+          "length": 65373376
+        }
+      ],
+      "sha256": "7b0ac9dd01ee25312ebeae3cc97db1b330b57bb3d05a5e3353dc1e1a39d583ba"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 99039274,
+      "segments": [
+        {
+          "file": "movWW/frpg_opening.wmv",
+          "file_offset": 65373376,
+          "chunk_offset": 0,
+          "length": 99039274
+        }
+      ],
+      "sha256": "2fc51d142e7f3b63232bb0f7382733e4405a27f3022a11b8cedb61f2c5c6e3b8"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 99039259,
+      "segments": [
+        {
+          "file": "movWW/frpg_opening.wmv",
+          "file_offset": 164412650,
+          "chunk_offset": 0,
+          "length": 92257417
+        },
+        {
+          "file": "movWW/frpg_title.wmv",
+          "file_offset": 0,
+          "chunk_offset": 92257417,
+          "length": 3886821
+        },
+        {
+          "file": "README.txt",
+          "file_offset": 0,
+          "chunk_offset": 96144238,
+          "length": 4483
+        },
+        {
+          "file": "readme/Readme_ch.txt",
+          "file_offset": 0,
+          "chunk_offset": 96148721,
+          "length": 13130
+        },
+        {
+          "file": "readme/Readme_de.txt",
+          "file_offset": 0,
+          "chunk_offset": 96161851,
+          "length": 23540
+        },
+        {
+          "file": "readme/Readme_en.txt",
+          "file_offset": 0,
+          "chunk_offset": 96185391,
+          "length": 20138
+        },
+        {
+          "file": "readme/Readme_es.txt",
+          "file_offset": 0,
+          "chunk_offset": 96205529,
+          "length": 21998
+        },
+        {
+          "file": "readme/Readme_fr.txt",
+          "file_offset": 0,
+          "chunk_offset": 96227527,
+          "length": 23926
+        },
+        {
+          "file": "readme/Readme_it.txt",
+          "file_offset": 0,
+          "chunk_offset": 96251453,
+          "length": 23520
+        },
+        {
+          "file": "readme/Readme_kr.txt",
+          "file_offset": 0,
+          "chunk_offset": 96274973,
+          "length": 14612
+        },
+        {
+          "file": "readme/Readme_pl.txt",
+          "file_offset": 0,
+          "chunk_offset": 96289585,
+          "length": 23498
+        },
+        {
+          "file": "readme/Readme_ru.txt",
+          "file_offset": 0,
+          "chunk_offset": 96313083,
+          "length": 23182
+        },
+        {
+          "file": "steam_api.dll",
+          "file_offset": 0,
+          "chunk_offset": 96336265,
+          "length": 2694728
+        },
+        {
+          "file": "steam_settings/settings/account_name.txt",
+          "file_offset": 0,
+          "chunk_offset": 99030993,
+          "length": 8
+        },
+        {
+          "file": "steam_settings/settings/language.txt",
+          "file_offset": 0,
+          "chunk_offset": 99031001,
+          "length": 7
+        },
+        {
+          "file": "steam_settings/settings/listen_port.txt",
+          "file_offset": 0,
+          "chunk_offset": 99031008,
+          "length": 5
+        },
+        {
+          "file": "steam_settings/settings/user_steam_id.txt",
+          "file_offset": 0,
+          "chunk_offset": 99031013,
+          "length": 17
+        },
+        {
+          "file": "steam_settings/steam_appid.txt",
+          "file_offset": 0,
+          "chunk_offset": 99031030,
+          "length": 6
+        },
+        {
+          "file": "VERSIONS.txt",
+          "file_offset": 0,
+          "chunk_offset": 99031036,
+          "length": 8223
+        }
+      ],
+      "sha256": "e91ae2c389f3e0e7aff58713d67e1f156b95d50856afe0bcf2c46ee3b0f86421"
+    }
+  ]
+}
