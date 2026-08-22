@@ -1,0 +1,2122 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "the-walking-dead",
+    "title": "The Walking Dead",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "A five-part adventure horror series set in the same universe as Robert Kirkman’s award-winning comic book series."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-the-walking-dead-v1.0.0-stable"
+  },
+  "chunk_size": 115919846,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 4636793818,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "EULA.txt",
+      "size": 1876,
+      "sha256": "5dc12cf6501771051b162d2965e7bb5970dd050bacb69790483a7555ccd9e566"
+    },
+    {
+      "path": "fmodex.dll",
+      "size": 1084928,
+      "sha256": "fc52334e27fc7b7a09ee3b426116403dca1668b2b80eeece689b68cf2bd206ed"
+    },
+    {
+      "path": "Galaxy.dll",
+      "size": 3814912,
+      "sha256": "27da55b7274c1283971b6ecd8953e7918e890c23f6b1c85d93ff21969a265392"
+    },
+    {
+      "path": "GalaxyPeer.dll",
+      "size": 7040000,
+      "sha256": "5ef52da21b9e5eb9ab22e563c89070a96b46bb7bb3bc2e7a52acbd0d2a0d3c31"
+    },
+    {
+      "path": "GameuxInstallHelper.dll",
+      "size": 96264,
+      "sha256": "b07ffcd0af80f6b9fba09abe816ba2f0ff0d336639f1768fc317291bc635ece6"
+    },
+    {
+      "path": "goggame-1432207977.dll",
+      "size": 347216,
+      "sha256": "f26c18af998189868377e60e9c8df872f3aba6d0db05df17364ec7901f32145d"
+    },
+    {
+      "path": "goglog.ini",
+      "size": 7890,
+      "sha256": "3ae844d0a25e8d76b19e222c679be8f70f06310ad2754ed5719a231e07eb1cbe"
+    },
+    {
+      "path": "language_setup.exe",
+      "size": 2968376,
+      "sha256": "1fb137c615dc93a85511f8cedd7f5b67603e6f60f765a9b4c011c2af91ae26a5"
+    },
+    {
+      "path": "language_setup.ini",
+      "size": 797,
+      "sha256": "a0ad636760cafa1638b29eea06faf3c7b0a4ba77ed312b9728983cd1217a455c"
+    },
+    {
+      "path": "language_setup.png",
+      "size": 93575,
+      "sha256": "85e9e5f3e0addde460a93548ad5f32b2e051eb20210ba88fe19802983d97450d"
+    },
+    {
+      "path": "Pack/default/0_20_WalkingDead106_101backpatch_s.ttarch",
+      "size": 4863002,
+      "sha256": "bbe1069305a5704a6ff1bccf9344cdfaadd72a8ac8c6080e99693f997f3f05dc"
+    },
+    {
+      "path": "Pack/default/0_21_fix.ttarch",
+      "size": 15980,
+      "sha256": "dcc1f96b645e4fb00a75bd905c84d1e6d8739710edb4feb4ddcdc6c9fe2f780d"
+    },
+    {
+      "path": "Pack/default/0_22_chores.ttarch",
+      "size": 1998,
+      "sha256": "b826811f4ebb957d9819ed164bd0270cceb621756ff123183502b237cc2cf0cd"
+    },
+    {
+      "path": "Pack/default/0_24.ttarch",
+      "size": 13173,
+      "sha256": "cd3289a7cd2c191c5711a851c40e0dab16c6432936c8510fcc95bb671a52f1c2"
+    },
+    {
+      "path": "Pack/default/0_25_WalkingDead101_c_patch.ttarch",
+      "size": 657052,
+      "sha256": "8e39396e100e97eebe6e748a2bc997e1f1586a424b07c9c444c3dc430fab3a03"
+    },
+    {
+      "path": "Pack/default/0_27_101_steam_patch.ttarch",
+      "size": 6444,
+      "sha256": "208df409d6ed60184e6afc31894cf1cf20787cdbb4b95ff91d959f82510c58bf"
+    },
+    {
+      "path": "Pack/default/0_28_language_fix.ttarch",
+      "size": 12667,
+      "sha256": "fa0dfda1276597120eb5e3653850d9ff1c7ba1cc996f9d1b68415dfd28f9aa35"
+    },
+    {
+      "path": "Pack/default/0_29_pc_patch.ttarch",
+      "size": 1826565,
+      "sha256": "e96f5e62c191f47ca51be5604d8990d41379e878429ed21250a0a535b31542d2"
+    },
+    {
+      "path": "Pack/default/0_30_WalkingDead101_pc_dlogs.ttarch",
+      "size": 1751862,
+      "sha256": "b881329f2323fc7f6da16e8486a8606e9772306916fb070e1871491742388858"
+    },
+    {
+      "path": "Pack/default/0_30_WalkingDead101_pc_patch.ttarch",
+      "size": 3400018,
+      "sha256": "d33de54997cbd6cbae6f5549fe97cf06bc94238d8022c8e58711d4b27128ea32"
+    },
+    {
+      "path": "Pack/default/0_50_wd_pc_patch_93717.ttarch",
+      "size": 14930,
+      "sha256": "ede45dd31ff0787012dd6bdf1bd7b6525ba75687af9a36bbb0c69e2da0216ea1"
+    },
+    {
+      "path": "Pack/default/0_58_backpatch105_pc_101.ttarch",
+      "size": 5623283,
+      "sha256": "3a65888b598d6cf447baf78efa75e873e2844773303d69e40b64461d537b6057"
+    },
+    {
+      "path": "Pack/default/0_59_backpatch105_pc_101_data.ttarch",
+      "size": 134252,
+      "sha256": "b56ac8ac5dbf239d489b746af60338466522112519308f209e3b5c38b61402cf"
+    },
+    {
+      "path": "Pack/default/0_69_backpatch104_04_01.ttarch",
+      "size": 5506240,
+      "sha256": "f8c1f61bd2ffb8ba0ea7e6282ac9c247a7c2c6a7e8e85c9c064071718c1ea6fc"
+    },
+    {
+      "path": "Pack/default/0_72_backpatch.ttarch",
+      "size": 1148481,
+      "sha256": "f09e6fb61a7e0ba663c1618040da75f9c1b5f83503453bbf6736f188dab26c8b"
+    },
+    {
+      "path": "Pack/default/0_73_103backpatch_patch.ttarch",
+      "size": 29410,
+      "sha256": "603b125eeeab1b1c9a44ba45830609e1fbcbf84f9a46e9109842b2bd623c53d0"
+    },
+    {
+      "path": "Pack/default/0_78_103backpatch.ttarch",
+      "size": 7468409,
+      "sha256": "900953c6cdf10a0bcbcbb546dad741c87214b61f19a1ae5b17a19be93a0ad412"
+    },
+    {
+      "path": "Pack/default/0_96_steam_patch_102.ttarch",
+      "size": 1866392,
+      "sha256": "3edb6904323bcf2a94a8b06f6ed525619fe057c46a7e003a882c24c83039a89f"
+    },
+    {
+      "path": "Pack/default/0_97_global_steam_102.ttarch",
+      "size": 5714588,
+      "sha256": "0d14f5ec666a7fdf4d15deb291300e4379417432e52df7b063e00178329356ec"
+    },
+    {
+      "path": "Pack/default/0_98_patch.ttarch",
+      "size": 221388,
+      "sha256": "1f08bb02c3fbe54aee88e62838cc647b9a870218536d11df7ba9849bd1d874b3"
+    },
+    {
+      "path": "Pack/default/0_99_patch.ttarch",
+      "size": 493628,
+      "sha256": "09e0e5e0d2146fa90e12fd688282008475ef481bccfa2ae9d3c955af9cdcc5cc"
+    },
+    {
+      "path": "Pack/default/1_WalkingDead101_english_pc_anichore.ttarch",
+      "size": 55061800,
+      "sha256": "3a04e27efd1636dceda9fb5a831e8e11af157461a7a9959c053a0edc92eb0e88"
+    },
+    {
+      "path": "Pack/default/2_WalkingDead101_english_pc_data.ttarch",
+      "size": 4062949,
+      "sha256": "fa9eef84018cd82da173b67ac6a4a63c4f9e6410555c0e47651176583f0f57b9"
+    },
+    {
+      "path": "Pack/default/3_WalkingDead101_english_pc_voice.ttarch",
+      "size": 64951252,
+      "sha256": "bbd3c8ff7cff5b0c16a0196a45da9b79cf8be4465175ebe7a65021dea3a07e32"
+    },
+    {
+      "path": "Pack/default/4_WalkingDead101_english_pc_ms.ttarch",
+      "size": 121815118,
+      "sha256": "c123db0d02849605795ee3d071a40d70ae6a6cd45a17af0fad2d500a946497bc"
+    },
+    {
+      "path": "Pack/default/5_WalkingDead101_english_pc_txmesh.ttarch",
+      "size": 232995234,
+      "sha256": "156fdb636cdf57cfadf54b228175718977a0893e937e06dafd68f829d4775147"
+    },
+    {
+      "path": "Pack/default/6_pc_only_shaders.ttarch",
+      "size": 13096768,
+      "sha256": "5093182c7b9433281b392cf9748b134be57c5ab8028ebf68f1f27703c1615d01"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_20_WalkingDead106_102backpatch_s.ttarch",
+      "size": 4863010,
+      "sha256": "5c2c893693f445ed929405fb9c0e4236860cbc9e29bec5fdc85f2fa88a9f1ec9"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_21_fix.ttarch",
+      "size": 15980,
+      "sha256": "dcc1f96b645e4fb00a75bd905c84d1e6d8739710edb4feb4ddcdc6c9fe2f780d"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_22_chores.ttarch",
+      "size": 1998,
+      "sha256": "b826811f4ebb957d9819ed164bd0270cceb621756ff123183502b237cc2cf0cd"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_24.ttarch",
+      "size": 13173,
+      "sha256": "cd3289a7cd2c191c5711a851c40e0dab16c6432936c8510fcc95bb671a52f1c2"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_25_WalkingDead102_c_patch.ttarch",
+      "size": 504074,
+      "sha256": "5cc50b88e0e00cd96a2a854a325c32aaa7b195e7442d85b7f9de449eb2d945f3"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_27_102_steam_patch.ttarch",
+      "size": 6322,
+      "sha256": "55c6f3b9c609833455b5eab9e62c772f11c33130f17a34ce1f8cbc6ae7124add"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_28_language_fix.ttarch",
+      "size": 12667,
+      "sha256": "fa0dfda1276597120eb5e3653850d9ff1c7ba1cc996f9d1b68415dfd28f9aa35"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_29_pc_patch.ttarch",
+      "size": 1826565,
+      "sha256": "e96f5e62c191f47ca51be5604d8990d41379e878429ed21250a0a535b31542d2"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_30_WalkingDead102_pc_dlogs.ttarch",
+      "size": 1816422,
+      "sha256": "113046d90a933e0d7457de756751728bed8d36c7c32c156ba06cbc498ef6762c"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_30_WalkingDead102_pc_patch.ttarch",
+      "size": 2709963,
+      "sha256": "c00a1bbc1458b9461dd75b08049f40f6248a2a8e37a1e9f0ea5ee8911ec8c90f"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_50_wd_pc_patch_93717.ttarch",
+      "size": 14930,
+      "sha256": "ede45dd31ff0787012dd6bdf1bd7b6525ba75687af9a36bbb0c69e2da0216ea1"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_58_backpatch105_pc_102.ttarch",
+      "size": 5614948,
+      "sha256": "da1e99f417e729c76f145f1910eccbe2ce13f5558bf9db3fc009fe717f25718c"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_59_backpatch105_pc_102_data.ttarch",
+      "size": 184490,
+      "sha256": "5f55a12cbb20d20f36730362eeff0991c8c0792b9d302eeff7fdc815c6064ee4"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_69_backpatch104_04_01.ttarch",
+      "size": 5506240,
+      "sha256": "f8c1f61bd2ffb8ba0ea7e6282ac9c247a7c2c6a7e8e85c9c064071718c1ea6fc"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_72_backpatch.ttarch",
+      "size": 1148481,
+      "sha256": "f09e6fb61a7e0ba663c1618040da75f9c1b5f83503453bbf6736f188dab26c8b"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_73_103backpatch_patch.ttarch",
+      "size": 29410,
+      "sha256": "603b125eeeab1b1c9a44ba45830609e1fbcbf84f9a46e9109842b2bd623c53d0"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_78_103backpatch.ttarch",
+      "size": 7468409,
+      "sha256": "900953c6cdf10a0bcbcbb546dad741c87214b61f19a1ae5b17a19be93a0ad412"
+    },
+    {
+      "path": "Pack/WalkingDead102/0_95_patch.ttarch",
+      "size": 98550,
+      "sha256": "016433e5788029acac2add3652e5edda1b9574b59ccac3f5b72a5ad46eccce77"
+    },
+    {
+      "path": "Pack/WalkingDead102/1_WalkingDead102_english_pc_data.ttarch",
+      "size": 4177206,
+      "sha256": "700cdb589cedcde3124d8c96f2c5e294ffa7e44403fec9f5111d756fd8de37c1"
+    },
+    {
+      "path": "Pack/WalkingDead102/2_WalkingDead102_english_pc_voice.ttarch",
+      "size": 119618699,
+      "sha256": "f595ccda7c2f2524d1a7f8c524c89e27e6adeb048657635f6c694e7bbc04ebb9"
+    },
+    {
+      "path": "Pack/WalkingDead102/3_WalkingDead102_english_pc_ms.ttarch",
+      "size": 204332517,
+      "sha256": "793bda91b8e494ea45a90da9479fefeaefa2239230659d3a9453a7f6beee80be"
+    },
+    {
+      "path": "Pack/WalkingDead102/4_WalkingDead102_english_pc_tx.ttarch",
+      "size": 388388499,
+      "sha256": "cf16b994c42f07c477682f8ad8974f108e4210d0a76acef725d8632bb7e0dcd7"
+    },
+    {
+      "path": "Pack/WalkingDead102/5_WalkingDead102_english_pc_mesh.ttarch",
+      "size": 141509300,
+      "sha256": "2c53c6509f89cc344a7e4487c32611c3125b22f4339593f0ec93325562a15c54"
+    },
+    {
+      "path": "Pack/WalkingDead102/6_pc_only_shaders.ttarch",
+      "size": 13096768,
+      "sha256": "5093182c7b9433281b392cf9748b134be57c5ab8028ebf68f1f27703c1615d01"
+    },
+    {
+      "path": "Pack/WalkingDead102/6_WalkingDead102_english_pc_anichore.ttarch",
+      "size": 124559908,
+      "sha256": "d36b3c42dd81002fd5de356edcd007f1690bae053f22274ce7d0f33bb4d04d23"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_20_WalkingDead106_103backpatch_s.ttarch",
+      "size": 4862997,
+      "sha256": "ca70c3171d74816054e14a9a47466339541eddc230aa2c5a87085dba4e1d2bf8"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_21_fix.ttarch",
+      "size": 15980,
+      "sha256": "dcc1f96b645e4fb00a75bd905c84d1e6d8739710edb4feb4ddcdc6c9fe2f780d"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_22_chores.ttarch",
+      "size": 1998,
+      "sha256": "b826811f4ebb957d9819ed164bd0270cceb621756ff123183502b237cc2cf0cd"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_24.ttarch",
+      "size": 13173,
+      "sha256": "cd3289a7cd2c191c5711a851c40e0dab16c6432936c8510fcc95bb671a52f1c2"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_25_WalkingDead103_c_patch.ttarch",
+      "size": 504074,
+      "sha256": "b66e7a20503a6c95d985c4df040c2a75d437085ccc205b7bee8005df6ce622c0"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_27_103_steam_patch.ttarch",
+      "size": 6413,
+      "sha256": "fec0f190c3d6efac2a0b420987385272851dff41958e21c5a35fb501fd832343"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_28_language_fix.ttarch",
+      "size": 12667,
+      "sha256": "fa0dfda1276597120eb5e3653850d9ff1c7ba1cc996f9d1b68415dfd28f9aa35"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_29_pc_patch.ttarch",
+      "size": 1826565,
+      "sha256": "e96f5e62c191f47ca51be5604d8990d41379e878429ed21250a0a535b31542d2"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_30_WalkingDead103_pc_dlogs.ttarch",
+      "size": 1357294,
+      "sha256": "3aa8961901b078317a56c3906cb08ff50daedb1ad796f3585b3fde6c8fdd65e4"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_30_WalkingDead103_pc_patch.ttarch",
+      "size": 3586448,
+      "sha256": "d991db0db21815b2ff1c3a6a8ad3ecd303aa62bae2c5df8521ad8121ea9dc5b5"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_50_wd_pc_patch_93717.ttarch",
+      "size": 14930,
+      "sha256": "ede45dd31ff0787012dd6bdf1bd7b6525ba75687af9a36bbb0c69e2da0216ea1"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_58_backpatch105_pc_103.ttarch",
+      "size": 5614948,
+      "sha256": "f2e2c1a0cb4f23ddbdc2dcad838b797d48d5a31e3ff83c2a4a666f021f31a536"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_59_backpatch105_pc_103_data.ttarch",
+      "size": 718603,
+      "sha256": "310be8c5152a2e999711017a1ce2a604a5c0b16f2c2913ce241120ea0a3504ef"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_69_backpatch104_04_01.ttarch",
+      "size": 5506240,
+      "sha256": "f8c1f61bd2ffb8ba0ea7e6282ac9c247a7c2c6a7e8e85c9c064071718c1ea6fc"
+    },
+    {
+      "path": "Pack/WalkingDead103/0_99_patch_02_05.ttarch",
+      "size": 2505174,
+      "sha256": "62a8f212c61d679fd514d5ad22fa79f5d2fead84e6c3d1fa7025009ea1b2f761"
+    },
+    {
+      "path": "Pack/WalkingDead103/1_WalkingDead103_english_pc_anichore.ttarch",
+      "size": 54276987,
+      "sha256": "aceb9eb29b0ca2c800bf4a7f4d3bad1e8e584a92a7f62d5f247f2ca97b4eb645"
+    },
+    {
+      "path": "Pack/WalkingDead103/2_WalkingDead103_english_pc_data.ttarch",
+      "size": 3873357,
+      "sha256": "58b9464aa1af2198b68137f133fc8173f800e4fbc48211e880463b7858144d02"
+    },
+    {
+      "path": "Pack/WalkingDead103/3_WalkingDead103_english_pc_voice.ttarch",
+      "size": 81374782,
+      "sha256": "3958e0b919bfb05772249feb51d94e1c4dccc1af76fc4a8e136323439ea6be77"
+    },
+    {
+      "path": "Pack/WalkingDead103/4_WalkingDead103_english_pc_ms.ttarch",
+      "size": 245234317,
+      "sha256": "e473a838b1092360e7da4882843eb9c98279c0e7549f832465b46eff31770d10"
+    },
+    {
+      "path": "Pack/WalkingDead103/5_WalkingDead103_english_pc_txmesh.ttarch",
+      "size": 293351421,
+      "sha256": "531c0e5faa393e2989e0805a831743c63a8167f9e04ad5ed16937d1fa2b7775f"
+    },
+    {
+      "path": "Pack/WalkingDead103/6_pc_only_shaders.ttarch",
+      "size": 13096768,
+      "sha256": "5093182c7b9433281b392cf9748b134be57c5ab8028ebf68f1f27703c1615d01"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_20_WalkingDead106_104backpatch_s.ttarch",
+      "size": 4862999,
+      "sha256": "cb291149a88b304a0064e47218ff4161218ca22de78b6fbf724d675b160d22ad"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_21_fix.ttarch",
+      "size": 15980,
+      "sha256": "dcc1f96b645e4fb00a75bd905c84d1e6d8739710edb4feb4ddcdc6c9fe2f780d"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_22_chores.ttarch",
+      "size": 1998,
+      "sha256": "b826811f4ebb957d9819ed164bd0270cceb621756ff123183502b237cc2cf0cd"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_24.ttarch",
+      "size": 13173,
+      "sha256": "cd3289a7cd2c191c5711a851c40e0dab16c6432936c8510fcc95bb671a52f1c2"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_25_WalkingDead104_c_patch.ttarch",
+      "size": 592094,
+      "sha256": "275439c063f3eadb22d68c7bf16e21c45c2d9d392aba7a87fb2718fa5f13382e"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_27_104_steam_patch.ttarch",
+      "size": 15301,
+      "sha256": "4419d0376a0f6c6e8e525469c980dad6afa7bf31cf64940c999346a2dfa1d8b5"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_28_language_fix.ttarch",
+      "size": 12667,
+      "sha256": "fa0dfda1276597120eb5e3653850d9ff1c7ba1cc996f9d1b68415dfd28f9aa35"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_29_pc_patch.ttarch",
+      "size": 1826565,
+      "sha256": "e96f5e62c191f47ca51be5604d8990d41379e878429ed21250a0a535b31542d2"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_30_WalkingDead104_pc_dlogs.ttarch",
+      "size": 1462380,
+      "sha256": "76fde40f11eba1b7a567991159379c359d38c5f23d42934e3a1a6a55662793a7"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_30_WalkingDead104_pc_patch.ttarch",
+      "size": 2523909,
+      "sha256": "2cfd08da5fd3411efc6f4ede5b60188b6d1410a0ecddb847d416172a3a760993"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_50_wd_pc_patch_93717.ttarch",
+      "size": 14930,
+      "sha256": "ede45dd31ff0787012dd6bdf1bd7b6525ba75687af9a36bbb0c69e2da0216ea1"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_58_backpatch105_pc_104.ttarch",
+      "size": 5614948,
+      "sha256": "44a59276dd5d5823110479355f8e9c37772fc0445d5dd0da3e843b1de3a0e096"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_59_backpatch105_pc_104_data.ttarch",
+      "size": 579804,
+      "sha256": "1c5c54266b5d2381ed91e126ca6f619d01aa534dba66e2dc12c0ebaca3085214"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_97_patch_04_03.ttarch",
+      "size": 1144230,
+      "sha256": "0fc41186e30273cbdda282243f2f8f014f32183a1eac222c22e4b43a5d8b15b6"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_98_patch_04_02.ttarch",
+      "size": 55768,
+      "sha256": "8492288cfe4a44034bb1aed8211a7b9d43c1d032c123563923e270a730ce2b40"
+    },
+    {
+      "path": "Pack/WalkingDead104/0_99_patch_04_01.ttarch",
+      "size": 137161,
+      "sha256": "acd9f2f2c6b766bd6488f7b458034ee0bf28bbb52aa730f9c57e122fe077cb59"
+    },
+    {
+      "path": "Pack/WalkingDead104/1_WalkingDead104_english_pc_anichore.ttarch",
+      "size": 60413307,
+      "sha256": "76535ccdc0c0ef91df301acbe3616575f2404ecc60a3e48997b9340072c2f1a7"
+    },
+    {
+      "path": "Pack/WalkingDead104/2_WalkingDead104_english_pc_data.ttarch",
+      "size": 3733048,
+      "sha256": "8bc442012d94f767932176152a025aec42e7e194e9c58a1e5e7315ee8371116f"
+    },
+    {
+      "path": "Pack/WalkingDead104/3_WalkingDead104_english_pc_voice.ttarch",
+      "size": 63900037,
+      "sha256": "af8f2cf2052786f6d35dda29c6fb06c05ba70b832ade12171a014ed9241b9593"
+    },
+    {
+      "path": "Pack/WalkingDead104/4_WalkingDead104_english_pc_ms.ttarch",
+      "size": 283658671,
+      "sha256": "5ed9f3411b053eb3a62a27a0cfe8a65d0934a0a8ff9b07921cb06df19931db11"
+    },
+    {
+      "path": "Pack/WalkingDead104/5_WalkingDead104_english_pc_txmesh.ttarch",
+      "size": 295598397,
+      "sha256": "b16443f8f49601c374f873c704f543c43c7c8af3fbc3c21dad32f463faa583c6"
+    },
+    {
+      "path": "Pack/WalkingDead104/6_pc_only_shaders.ttarch",
+      "size": 13096768,
+      "sha256": "5093182c7b9433281b392cf9748b134be57c5ab8028ebf68f1f27703c1615d01"
+    },
+    {
+      "path": "Pack/WalkingDead105/0_20_WalkingDead106_105backpatch_s.ttarch",
+      "size": 4863057,
+      "sha256": "92af9f2431b5a55b6ec2585eebf0b8ee2b01e5359ca1e023aa87cdf90184d265"
+    },
+    {
+      "path": "Pack/WalkingDead105/0_21_fix.ttarch",
+      "size": 15980,
+      "sha256": "dcc1f96b645e4fb00a75bd905c84d1e6d8739710edb4feb4ddcdc6c9fe2f780d"
+    },
+    {
+      "path": "Pack/WalkingDead105/0_22_chores.ttarch",
+      "size": 1998,
+      "sha256": "b826811f4ebb957d9819ed164bd0270cceb621756ff123183502b237cc2cf0cd"
+    },
+    {
+      "path": "Pack/WalkingDead105/0_24.ttarch",
+      "size": 13173,
+      "sha256": "cd3289a7cd2c191c5711a851c40e0dab16c6432936c8510fcc95bb671a52f1c2"
+    },
+    {
+      "path": "Pack/WalkingDead105/0_25_WalkingDead105_c_patch.ttarch",
+      "size": 710776,
+      "sha256": "0b57848c5608271a992a428d5c9c79176987f1206672ba3cc54ef8bbe1b630f3"
+    },
+    {
+      "path": "Pack/WalkingDead105/0_27_105_steam_patch.ttarch",
+      "size": 7335,
+      "sha256": "b0851ce769fbb27ca169a11f5f9b03bea83367b5f4c921e476c5aa28350bd426"
+    },
+    {
+      "path": "Pack/WalkingDead105/0_28_language_fix.ttarch",
+      "size": 12667,
+      "sha256": "fa0dfda1276597120eb5e3653850d9ff1c7ba1cc996f9d1b68415dfd28f9aa35"
+    },
+    {
+      "path": "Pack/WalkingDead105/0_29_pc_patch.ttarch",
+      "size": 1826565,
+      "sha256": "e96f5e62c191f47ca51be5604d8990d41379e878429ed21250a0a535b31542d2"
+    },
+    {
+      "path": "Pack/WalkingDead105/0_30_WalkingDead105_pc_dlogs.ttarch",
+      "size": 1131479,
+      "sha256": "0f7650c2f5a057de08059595ea7cefa373353f2eab7e6e0168a047bed5d12af2"
+    },
+    {
+      "path": "Pack/WalkingDead105/0_30_WalkingDead105_pc_patch.ttarch",
+      "size": 2320988,
+      "sha256": "8aeb6d0d3865195039892ac85cc25f332aecb76736f4d41f1936161ed2951ac6"
+    },
+    {
+      "path": "Pack/WalkingDead105/0_50_wd_pc_patch_93717.ttarch",
+      "size": 14930,
+      "sha256": "ede45dd31ff0787012dd6bdf1bd7b6525ba75687af9a36bbb0c69e2da0216ea1"
+    },
+    {
+      "path": "Pack/WalkingDead105/1_WalkingDead105_english_pc_anichore.ttarch",
+      "size": 57464468,
+      "sha256": "b0f35715f32966fb3246c79833cfd02776276fe1deace9de74b9fcda1f5e58b9"
+    },
+    {
+      "path": "Pack/WalkingDead105/2_WalkingDead105_english_pc_data.ttarch",
+      "size": 3388512,
+      "sha256": "e263a8ddcc80354944028bbbaa1760d44222dda6aabb387df02933a4cb384be4"
+    },
+    {
+      "path": "Pack/WalkingDead105/3_WalkingDead105_english_pc_voice.ttarch",
+      "size": 46375246,
+      "sha256": "e7c104abee6ce375d10c02527da66060221da3868330e5371819251d632ac344"
+    },
+    {
+      "path": "Pack/WalkingDead105/4_WalkingDead105_english_pc_ms.ttarch",
+      "size": 317460701,
+      "sha256": "d39c21eb9b4a45112c6bfd95270f1b3e220a6e2837be9c0cc772a34351d5169c"
+    },
+    {
+      "path": "Pack/WalkingDead105/5_WalkingDead105_english_pc_txmesh.ttarch",
+      "size": 328142021,
+      "sha256": "d8276ff171fb9877a80f8649fee34276041ba5c323080add253defc1c3e2df68"
+    },
+    {
+      "path": "Pack/WalkingDead105/6_pc_only_shaders.ttarch",
+      "size": 13096768,
+      "sha256": "5093182c7b9433281b392cf9748b134be57c5ab8028ebf68f1f27703c1615d01"
+    },
+    {
+      "path": "Pack/WalkingDead105/StatsItem_Chapter8.prop",
+      "size": 723,
+      "sha256": "5f2ad749ee9469e78469f6d83a6b5faa55f7840c223b4164ca9ca4ef365ab483"
+    },
+    {
+      "path": "Pack/WalkingDead106/0_96_WalkingDead106_04.ttarch",
+      "size": 13014,
+      "sha256": "dce9628ac819f5e5f2b3cf3aca48b45731e807dcbe5db3f33e09776211f7736b"
+    },
+    {
+      "path": "Pack/WalkingDead106/0_98_WalkingDead106_02.ttarch",
+      "size": 81731,
+      "sha256": "17dcec1f076a0ad0d556653e86f2c29f6c0513a174665f1b8321f413bcde88cd"
+    },
+    {
+      "path": "Pack/WalkingDead106/0_99_WalkingDead106_01.ttarch",
+      "size": 87357,
+      "sha256": "692cb6e2c94e82c0040ebaa9e9e71510dcc170d829a627164db4e5a8e880f981"
+    },
+    {
+      "path": "Pack/WalkingDead106/1_WalkingDead106_english_pc_anichore.ttarch",
+      "size": 42560714,
+      "sha256": "5e6322ae3f82088ba1d44dce9c26797b1430dbe9dcdc5bbeb3a566191d24e068"
+    },
+    {
+      "path": "Pack/WalkingDead106/2_WalkingDead106_english_pc_data.ttarch",
+      "size": 4775215,
+      "sha256": "52845880b5973d7e2443141893eb0f5beedf11558eab416bb9711a25ca94bbcb"
+    },
+    {
+      "path": "Pack/WalkingDead106/3_WalkingDead106_english_pc_voice.ttarch",
+      "size": 39536401,
+      "sha256": "9f3e753d5a9a63976aa5c4b6ba7461025fed0f3f407a72a416beb23ee6abeb7a"
+    },
+    {
+      "path": "Pack/WalkingDead106/4_WalkingDead106_english_pc_ms.ttarch",
+      "size": 169590140,
+      "sha256": "35db9a78fb7daa4b22fe29867c4d3b5e686d681e46d6bf9e19091906dffef767"
+    },
+    {
+      "path": "Pack/WalkingDead106/5_WalkingDead106_english_pc_txmesh.ttarch",
+      "size": 499469928,
+      "sha256": "cea4b18477b699f0c57c8a5ba3b3ec601c562e7b0381601c2196012434c96fa4"
+    },
+    {
+      "path": "Pack/WalkingDead106/6_pc_only_shaders.ttarch",
+      "size": 13096768,
+      "sha256": "5093182c7b9433281b392cf9748b134be57c5ab8028ebf68f1f27703c1615d01"
+    },
+    {
+      "path": "Pack/WalkingDead106/WalkingDead106.txt",
+      "size": 14,
+      "sha256": "af0cfaa29883b795a592ba0aeb32d95a276b0dc9c8ea245f97bcfe3c7e32f968"
+    },
+    {
+      "path": "Support.ico",
+      "size": 62895,
+      "sha256": "05fe749ef47d1ec862d6c55be78e66d1011226bf1f78409acf57cb79cec5eb20"
+    },
+    {
+      "path": "WalkingDead100.exe",
+      "size": 8470016,
+      "sha256": "b546cc4453137799fc1ee83d40a8b3e372b1a3e060086d3b29d7884872fd34df"
+    },
+    {
+      "path": "webcache.zip",
+      "size": 225945,
+      "sha256": "2dae6f6835d3e269727cb30177b7b6acbe5ad3ada6d11d757346fa40d9cb005c"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "EULA.txt",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 1876
+        },
+        {
+          "file": "fmodex.dll",
+          "file_offset": 0,
+          "chunk_offset": 49221652,
+          "length": 1084928
+        },
+        {
+          "file": "Galaxy.dll",
+          "file_offset": 0,
+          "chunk_offset": 50306580,
+          "length": 3814912
+        },
+        {
+          "file": "GalaxyPeer.dll",
+          "file_offset": 0,
+          "chunk_offset": 54121492,
+          "length": 7040000
+        },
+        {
+          "file": "GameuxInstallHelper.dll",
+          "file_offset": 0,
+          "chunk_offset": 61161492,
+          "length": 96264
+        },
+        {
+          "file": "goggame-1432207977.dll",
+          "file_offset": 0,
+          "chunk_offset": 61257756,
+          "length": 347216
+        },
+        {
+          "file": "goglog.ini",
+          "file_offset": 0,
+          "chunk_offset": 61604972,
+          "length": 7890
+        },
+        {
+          "file": "language_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 61612862,
+          "length": 2968376
+        },
+        {
+          "file": "language_setup.ini",
+          "file_offset": 0,
+          "chunk_offset": 64581238,
+          "length": 797
+        },
+        {
+          "file": "language_setup.png",
+          "file_offset": 0,
+          "chunk_offset": 64582035,
+          "length": 93575
+        },
+        {
+          "file": "Pack/default/0_20_WalkingDead106_101backpatch_s.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 64675610,
+          "length": 4863002
+        },
+        {
+          "file": "Pack/default/0_21_fix.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 69538612,
+          "length": 15980
+        },
+        {
+          "file": "Pack/default/0_22_chores.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 69554592,
+          "length": 1998
+        },
+        {
+          "file": "Pack/default/0_24.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 69556590,
+          "length": 13173
+        },
+        {
+          "file": "Pack/default/0_25_WalkingDead101_c_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 69569763,
+          "length": 657052
+        },
+        {
+          "file": "Pack/default/0_27_101_steam_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 70226815,
+          "length": 6444
+        },
+        {
+          "file": "Pack/default/0_28_language_fix.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 70233259,
+          "length": 12667
+        },
+        {
+          "file": "Pack/default/0_29_pc_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 70245926,
+          "length": 1826565
+        },
+        {
+          "file": "Pack/default/0_30_WalkingDead101_pc_dlogs.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 72072491,
+          "length": 1751862
+        },
+        {
+          "file": "Pack/default/0_30_WalkingDead101_pc_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 73824353,
+          "length": 3400018
+        },
+        {
+          "file": "Pack/default/0_50_wd_pc_patch_93717.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 77224371,
+          "length": 14930
+        },
+        {
+          "file": "Pack/default/0_58_backpatch105_pc_101.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 77239301,
+          "length": 5623283
+        },
+        {
+          "file": "Pack/default/0_59_backpatch105_pc_101_data.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 82862584,
+          "length": 134252
+        },
+        {
+          "file": "Pack/default/0_69_backpatch104_04_01.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 82996836,
+          "length": 5506240
+        },
+        {
+          "file": "Pack/default/0_72_backpatch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 88503076,
+          "length": 1148481
+        },
+        {
+          "file": "Pack/default/0_73_103backpatch_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 89651557,
+          "length": 29410
+        },
+        {
+          "file": "Pack/default/0_78_103backpatch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 89680967,
+          "length": 7468409
+        },
+        {
+          "file": "Pack/default/0_96_steam_patch_102.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 97149376,
+          "length": 1866392
+        },
+        {
+          "file": "Pack/default/0_97_global_steam_102.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 99015768,
+          "length": 5714588
+        },
+        {
+          "file": "Pack/default/0_98_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 104730356,
+          "length": 221388
+        },
+        {
+          "file": "Pack/default/0_99_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 104951744,
+          "length": 493628
+        },
+        {
+          "file": "Pack/default/1_WalkingDead101_english_pc_anichore.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 105445372,
+          "length": 10474474
+        }
+      ],
+      "sha256": "a848dfce6c07d9115f80543a8c29e6848d24a2bb27caca8f592a79b96e33a058"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/default/1_WalkingDead101_english_pc_anichore.ttarch",
+          "file_offset": 10474474,
+          "chunk_offset": 0,
+          "length": 44587326
+        },
+        {
+          "file": "Pack/default/2_WalkingDead101_english_pc_data.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 44587326,
+          "length": 4062949
+        },
+        {
+          "file": "Pack/default/3_WalkingDead101_english_pc_voice.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 48650275,
+          "length": 64951252
+        },
+        {
+          "file": "Pack/default/4_WalkingDead101_english_pc_ms.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 113601527,
+          "length": 2318319
+        }
+      ],
+      "sha256": "815f024aeefaed56a8a9990d7918e07fd7e96db1ca63400b2ed94862da2a34a7"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/default/4_WalkingDead101_english_pc_ms.ttarch",
+          "file_offset": 2318319,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "41fddf7fdbddd0ad5a8d87a4a4bf5a2a6486659efdd065e0379c71c111f31132"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/default/4_WalkingDead101_english_pc_ms.ttarch",
+          "file_offset": 118238165,
+          "chunk_offset": 0,
+          "length": 3576953
+        },
+        {
+          "file": "Pack/default/5_WalkingDead101_english_pc_txmesh.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 3576953,
+          "length": 112342893
+        }
+      ],
+      "sha256": "35c6a1eac9e5a1e4ec14d28788ecc55fa08ae63b3f7bdeced3e96e24dfb5652f"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/default/5_WalkingDead101_english_pc_txmesh.ttarch",
+          "file_offset": 112342893,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "42f0fbcbdad821be5f105bc6e84a646847c1890b3cb548bebdb0ec47cdd9dfa7"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/default/5_WalkingDead101_english_pc_txmesh.ttarch",
+          "file_offset": 228262739,
+          "chunk_offset": 0,
+          "length": 4732495
+        },
+        {
+          "file": "Pack/default/6_pc_only_shaders.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 4732495,
+          "length": 13096768
+        },
+        {
+          "file": "Pack/WalkingDead102/0_20_WalkingDead106_102backpatch_s.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 17829263,
+          "length": 4863010
+        },
+        {
+          "file": "Pack/WalkingDead102/0_21_fix.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 22692273,
+          "length": 15980
+        },
+        {
+          "file": "Pack/WalkingDead102/0_22_chores.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 22708253,
+          "length": 1998
+        },
+        {
+          "file": "Pack/WalkingDead102/0_24.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 22710251,
+          "length": 13173
+        },
+        {
+          "file": "Pack/WalkingDead102/0_25_WalkingDead102_c_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 22723424,
+          "length": 504074
+        },
+        {
+          "file": "Pack/WalkingDead102/0_27_102_steam_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 23227498,
+          "length": 6322
+        },
+        {
+          "file": "Pack/WalkingDead102/0_28_language_fix.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 23233820,
+          "length": 12667
+        },
+        {
+          "file": "Pack/WalkingDead102/0_29_pc_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 23246487,
+          "length": 1826565
+        },
+        {
+          "file": "Pack/WalkingDead102/0_30_WalkingDead102_pc_dlogs.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 25073052,
+          "length": 1816422
+        },
+        {
+          "file": "Pack/WalkingDead102/0_30_WalkingDead102_pc_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 26889474,
+          "length": 2709963
+        },
+        {
+          "file": "Pack/WalkingDead102/0_50_wd_pc_patch_93717.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 29599437,
+          "length": 14930
+        },
+        {
+          "file": "Pack/WalkingDead102/0_58_backpatch105_pc_102.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 29614367,
+          "length": 5614948
+        },
+        {
+          "file": "Pack/WalkingDead102/0_59_backpatch105_pc_102_data.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 35229315,
+          "length": 184490
+        },
+        {
+          "file": "Pack/WalkingDead102/0_69_backpatch104_04_01.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 35413805,
+          "length": 5506240
+        },
+        {
+          "file": "Pack/WalkingDead102/0_72_backpatch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 40920045,
+          "length": 1148481
+        },
+        {
+          "file": "Pack/WalkingDead102/0_73_103backpatch_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 42068526,
+          "length": 29410
+        },
+        {
+          "file": "Pack/WalkingDead102/0_78_103backpatch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 42097936,
+          "length": 7468409
+        },
+        {
+          "file": "Pack/WalkingDead102/0_95_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 49566345,
+          "length": 98550
+        },
+        {
+          "file": "Pack/WalkingDead102/1_WalkingDead102_english_pc_data.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 49664895,
+          "length": 4177206
+        },
+        {
+          "file": "Pack/WalkingDead102/2_WalkingDead102_english_pc_voice.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 53842101,
+          "length": 62077745
+        }
+      ],
+      "sha256": "1bcc4071b89e7d6bf42ff46e84148505e9ae3afc09031db981b23a80ffd00c92"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead102/2_WalkingDead102_english_pc_voice.ttarch",
+          "file_offset": 62077745,
+          "chunk_offset": 0,
+          "length": 57540954
+        },
+        {
+          "file": "Pack/WalkingDead102/3_WalkingDead102_english_pc_ms.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 57540954,
+          "length": 58378892
+        }
+      ],
+      "sha256": "56225c67b46aae9a77a5b0ddbb9ec8db77ca1c3696949fa056f7e8f0e06afeb9"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead102/3_WalkingDead102_english_pc_ms.ttarch",
+          "file_offset": 58378892,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "81393900e0844feb107cc7ceeed054e64810493384bef48c549c5a4e98753230"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead102/3_WalkingDead102_english_pc_ms.ttarch",
+          "file_offset": 174298738,
+          "chunk_offset": 0,
+          "length": 30033779
+        },
+        {
+          "file": "Pack/WalkingDead102/4_WalkingDead102_english_pc_tx.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 30033779,
+          "length": 85886067
+        }
+      ],
+      "sha256": "3d0d4583560a92e3f1f8c73f23c97d731999de69e577b94490b42ae769e0104a"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead102/4_WalkingDead102_english_pc_tx.ttarch",
+          "file_offset": 85886067,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "dd2508e3267e67a6fc4f657bc34381df2c1fc23c4b7c656dab1ac62d35726bcd"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead102/4_WalkingDead102_english_pc_tx.ttarch",
+          "file_offset": 201805913,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "72c61462806b232ad514a16968840dc2264476dc5f25268a95962ba5a0e56d40"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead102/4_WalkingDead102_english_pc_tx.ttarch",
+          "file_offset": 317725759,
+          "chunk_offset": 0,
+          "length": 70662740
+        },
+        {
+          "file": "Pack/WalkingDead102/5_WalkingDead102_english_pc_mesh.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 70662740,
+          "length": 45257106
+        }
+      ],
+      "sha256": "5e4dfa6bfc6793af57e95beee7425480c813724fddaa08cbb4b98bd0b26510c5"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead102/5_WalkingDead102_english_pc_mesh.ttarch",
+          "file_offset": 45257106,
+          "chunk_offset": 0,
+          "length": 96252194
+        },
+        {
+          "file": "Pack/WalkingDead102/6_pc_only_shaders.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 96252194,
+          "length": 13096768
+        },
+        {
+          "file": "Pack/WalkingDead102/6_WalkingDead102_english_pc_anichore.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 109348962,
+          "length": 6570884
+        }
+      ],
+      "sha256": "757de58269bd5b17bb75dd73c1faf7d170f1fea78b2978d8eb36554d738cddea"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead102/6_WalkingDead102_english_pc_anichore.ttarch",
+          "file_offset": 6570884,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "c6d53000ed51a9a13d1d3d413555613c73c5097efefb8f54dd06a8acd99d7bfd"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead102/6_WalkingDead102_english_pc_anichore.ttarch",
+          "file_offset": 122490730,
+          "chunk_offset": 0,
+          "length": 2069178
+        },
+        {
+          "file": "Pack/WalkingDead103/0_20_WalkingDead106_103backpatch_s.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 2069178,
+          "length": 4862997
+        },
+        {
+          "file": "Pack/WalkingDead103/0_21_fix.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 6932175,
+          "length": 15980
+        },
+        {
+          "file": "Pack/WalkingDead103/0_22_chores.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 6948155,
+          "length": 1998
+        },
+        {
+          "file": "Pack/WalkingDead103/0_24.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 6950153,
+          "length": 13173
+        },
+        {
+          "file": "Pack/WalkingDead103/0_25_WalkingDead103_c_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 6963326,
+          "length": 504074
+        },
+        {
+          "file": "Pack/WalkingDead103/0_27_103_steam_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 7467400,
+          "length": 6413
+        },
+        {
+          "file": "Pack/WalkingDead103/0_28_language_fix.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 7473813,
+          "length": 12667
+        },
+        {
+          "file": "Pack/WalkingDead103/0_29_pc_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 7486480,
+          "length": 1826565
+        },
+        {
+          "file": "Pack/WalkingDead103/0_30_WalkingDead103_pc_dlogs.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 9313045,
+          "length": 1357294
+        },
+        {
+          "file": "Pack/WalkingDead103/0_30_WalkingDead103_pc_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 10670339,
+          "length": 3586448
+        },
+        {
+          "file": "Pack/WalkingDead103/0_50_wd_pc_patch_93717.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 14256787,
+          "length": 14930
+        },
+        {
+          "file": "Pack/WalkingDead103/0_58_backpatch105_pc_103.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 14271717,
+          "length": 5614948
+        },
+        {
+          "file": "Pack/WalkingDead103/0_59_backpatch105_pc_103_data.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 19886665,
+          "length": 718603
+        },
+        {
+          "file": "Pack/WalkingDead103/0_69_backpatch104_04_01.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 20605268,
+          "length": 5506240
+        },
+        {
+          "file": "Pack/WalkingDead103/0_99_patch_02_05.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 26111508,
+          "length": 2505174
+        },
+        {
+          "file": "Pack/WalkingDead103/1_WalkingDead103_english_pc_anichore.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 28616682,
+          "length": 54276987
+        },
+        {
+          "file": "Pack/WalkingDead103/2_WalkingDead103_english_pc_data.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 82893669,
+          "length": 3873357
+        },
+        {
+          "file": "Pack/WalkingDead103/3_WalkingDead103_english_pc_voice.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 86767026,
+          "length": 29152820
+        }
+      ],
+      "sha256": "ed0dcb361d09468b74ce9b22187a651da2041456c3d29c65ea85e5c6a626916d"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead103/3_WalkingDead103_english_pc_voice.ttarch",
+          "file_offset": 29152820,
+          "chunk_offset": 0,
+          "length": 52221962
+        },
+        {
+          "file": "Pack/WalkingDead103/4_WalkingDead103_english_pc_ms.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 52221962,
+          "length": 63697884
+        }
+      ],
+      "sha256": "cdecf8d95d34528edc7bbe4820466243f9c05be8f446cee36e909aaa61f8ca85"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead103/4_WalkingDead103_english_pc_ms.ttarch",
+          "file_offset": 63697884,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "a27753fa44d853e8d9ab340e5cbd3e74394889ced992a706b3e5f2ebb14cdb9f"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead103/4_WalkingDead103_english_pc_ms.ttarch",
+          "file_offset": 179617730,
+          "chunk_offset": 0,
+          "length": 65616587
+        },
+        {
+          "file": "Pack/WalkingDead103/5_WalkingDead103_english_pc_txmesh.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 65616587,
+          "length": 50303259
+        }
+      ],
+      "sha256": "0570b9529a08b0e45817906f59891cf1b04c98fe6703fdd796e0b4e63b6a78fa"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead103/5_WalkingDead103_english_pc_txmesh.ttarch",
+          "file_offset": 50303259,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "2dbc198dae770d0767abbfb6d80ff23242c9ca65dd5a734109ba9e0e54801743"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead103/5_WalkingDead103_english_pc_txmesh.ttarch",
+          "file_offset": 166223105,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "686e59793fc9608124f22e4304481757ef9b8142b212a86d61006852c5227778"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead103/5_WalkingDead103_english_pc_txmesh.ttarch",
+          "file_offset": 282142951,
+          "chunk_offset": 0,
+          "length": 11208470
+        },
+        {
+          "file": "Pack/WalkingDead103/6_pc_only_shaders.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 11208470,
+          "length": 13096768
+        },
+        {
+          "file": "Pack/WalkingDead104/0_20_WalkingDead106_104backpatch_s.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 24305238,
+          "length": 4862999
+        },
+        {
+          "file": "Pack/WalkingDead104/0_21_fix.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 29168237,
+          "length": 15980
+        },
+        {
+          "file": "Pack/WalkingDead104/0_22_chores.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 29184217,
+          "length": 1998
+        },
+        {
+          "file": "Pack/WalkingDead104/0_24.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 29186215,
+          "length": 13173
+        },
+        {
+          "file": "Pack/WalkingDead104/0_25_WalkingDead104_c_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 29199388,
+          "length": 592094
+        },
+        {
+          "file": "Pack/WalkingDead104/0_27_104_steam_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 29791482,
+          "length": 15301
+        },
+        {
+          "file": "Pack/WalkingDead104/0_28_language_fix.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 29806783,
+          "length": 12667
+        },
+        {
+          "file": "Pack/WalkingDead104/0_29_pc_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 29819450,
+          "length": 1826565
+        },
+        {
+          "file": "Pack/WalkingDead104/0_30_WalkingDead104_pc_dlogs.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 31646015,
+          "length": 1462380
+        },
+        {
+          "file": "Pack/WalkingDead104/0_30_WalkingDead104_pc_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 33108395,
+          "length": 2523909
+        },
+        {
+          "file": "Pack/WalkingDead104/0_50_wd_pc_patch_93717.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 35632304,
+          "length": 14930
+        },
+        {
+          "file": "Pack/WalkingDead104/0_58_backpatch105_pc_104.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 35647234,
+          "length": 5614948
+        },
+        {
+          "file": "Pack/WalkingDead104/0_59_backpatch105_pc_104_data.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 41262182,
+          "length": 579804
+        },
+        {
+          "file": "Pack/WalkingDead104/0_97_patch_04_03.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 41841986,
+          "length": 1144230
+        },
+        {
+          "file": "Pack/WalkingDead104/0_98_patch_04_02.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 42986216,
+          "length": 55768
+        },
+        {
+          "file": "Pack/WalkingDead104/0_99_patch_04_01.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 43041984,
+          "length": 137161
+        },
+        {
+          "file": "Pack/WalkingDead104/1_WalkingDead104_english_pc_anichore.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 43179145,
+          "length": 60413307
+        },
+        {
+          "file": "Pack/WalkingDead104/2_WalkingDead104_english_pc_data.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 103592452,
+          "length": 3733048
+        },
+        {
+          "file": "Pack/WalkingDead104/3_WalkingDead104_english_pc_voice.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 107325500,
+          "length": 8594346
+        }
+      ],
+      "sha256": "7d1b655d4ed1b4d19a83f5b0f99ef89e54b5146a5b342c607bc56bcc4e2bb0a2"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead104/3_WalkingDead104_english_pc_voice.ttarch",
+          "file_offset": 8594346,
+          "chunk_offset": 0,
+          "length": 55305691
+        },
+        {
+          "file": "Pack/WalkingDead104/4_WalkingDead104_english_pc_ms.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 55305691,
+          "length": 60614155
+        }
+      ],
+      "sha256": "733b3ea4a04ea7849a1cc4a2a721a0623dec1c6d1b586d88953365e02c16fc15"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead104/4_WalkingDead104_english_pc_ms.ttarch",
+          "file_offset": 60614155,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "1de4e01bbd2c716294ed7ee2f82ee47e926c42b3935ade0918408f2ca745793c"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead104/4_WalkingDead104_english_pc_ms.ttarch",
+          "file_offset": 176534001,
+          "chunk_offset": 0,
+          "length": 107124670
+        },
+        {
+          "file": "Pack/WalkingDead104/5_WalkingDead104_english_pc_txmesh.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 107124670,
+          "length": 8795176
+        }
+      ],
+      "sha256": "b9d0e5b216778159a335eae0d0baa53524749bdb4c84e1a4073865b39e8fa2d2"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead104/5_WalkingDead104_english_pc_txmesh.ttarch",
+          "file_offset": 8795176,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "e99800d6236ca54058b4e24ab99d61cf5ca8a5d6d017c7d7985f4ab4f0362680"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead104/5_WalkingDead104_english_pc_txmesh.ttarch",
+          "file_offset": 124715022,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "1fd6b3dc8239d05715ed769557e9e9c11e3b9c5dbd1a501ee1a41d64bbd0d138"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead104/5_WalkingDead104_english_pc_txmesh.ttarch",
+          "file_offset": 240634868,
+          "chunk_offset": 0,
+          "length": 54963529
+        },
+        {
+          "file": "Pack/WalkingDead104/6_pc_only_shaders.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 54963529,
+          "length": 13096768
+        },
+        {
+          "file": "Pack/WalkingDead105/0_20_WalkingDead106_105backpatch_s.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 68060297,
+          "length": 4863057
+        },
+        {
+          "file": "Pack/WalkingDead105/0_21_fix.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 72923354,
+          "length": 15980
+        },
+        {
+          "file": "Pack/WalkingDead105/0_22_chores.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 72939334,
+          "length": 1998
+        },
+        {
+          "file": "Pack/WalkingDead105/0_24.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 72941332,
+          "length": 13173
+        },
+        {
+          "file": "Pack/WalkingDead105/0_25_WalkingDead105_c_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 72954505,
+          "length": 710776
+        },
+        {
+          "file": "Pack/WalkingDead105/0_27_105_steam_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 73665281,
+          "length": 7335
+        },
+        {
+          "file": "Pack/WalkingDead105/0_28_language_fix.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 73672616,
+          "length": 12667
+        },
+        {
+          "file": "Pack/WalkingDead105/0_29_pc_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 73685283,
+          "length": 1826565
+        },
+        {
+          "file": "Pack/WalkingDead105/0_30_WalkingDead105_pc_dlogs.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 75511848,
+          "length": 1131479
+        },
+        {
+          "file": "Pack/WalkingDead105/0_30_WalkingDead105_pc_patch.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 76643327,
+          "length": 2320988
+        },
+        {
+          "file": "Pack/WalkingDead105/0_50_wd_pc_patch_93717.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 78964315,
+          "length": 14930
+        },
+        {
+          "file": "Pack/WalkingDead105/1_WalkingDead105_english_pc_anichore.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 78979245,
+          "length": 36940601
+        }
+      ],
+      "sha256": "47db549f1e5cced220e069bc922697f15c1dedf59aff03c97cdc827a421136c0"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead105/1_WalkingDead105_english_pc_anichore.ttarch",
+          "file_offset": 36940601,
+          "chunk_offset": 0,
+          "length": 20523867
+        },
+        {
+          "file": "Pack/WalkingDead105/2_WalkingDead105_english_pc_data.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 20523867,
+          "length": 3388512
+        },
+        {
+          "file": "Pack/WalkingDead105/3_WalkingDead105_english_pc_voice.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 23912379,
+          "length": 46375246
+        },
+        {
+          "file": "Pack/WalkingDead105/4_WalkingDead105_english_pc_ms.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 70287625,
+          "length": 45632221
+        }
+      ],
+      "sha256": "5a8c35e6846779605a72d83cafab197486821add21bf5d785a807a3a5f4c7469"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead105/4_WalkingDead105_english_pc_ms.ttarch",
+          "file_offset": 45632221,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "99db454449569f0a2e4a19023a5903b2dfe11025b164dcedb1b122526640073c"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead105/4_WalkingDead105_english_pc_ms.ttarch",
+          "file_offset": 161552067,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "34b44f9622221afbac929f4dd41dc0fe1d163d14b5162347b1840b97a3f531b1"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead105/4_WalkingDead105_english_pc_ms.ttarch",
+          "file_offset": 277471913,
+          "chunk_offset": 0,
+          "length": 39988788
+        },
+        {
+          "file": "Pack/WalkingDead105/5_WalkingDead105_english_pc_txmesh.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 39988788,
+          "length": 75931058
+        }
+      ],
+      "sha256": "9c913ab564a1408fe1c60e460d966303a5dc804f6d6bd70d79dad8aea41b056f"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead105/5_WalkingDead105_english_pc_txmesh.ttarch",
+          "file_offset": 75931058,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "dc0234ee4504298b23bdfcc3766f499d4716241ebe1496ad59c214a574ffa6e5"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead105/5_WalkingDead105_english_pc_txmesh.ttarch",
+          "file_offset": 191850904,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "53cb8b25cf678fc1019edbde4e3091bec581178f4490cdc436d8680deced4deb"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead105/5_WalkingDead105_english_pc_txmesh.ttarch",
+          "file_offset": 307770750,
+          "chunk_offset": 0,
+          "length": 20371271
+        },
+        {
+          "file": "Pack/WalkingDead105/6_pc_only_shaders.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 20371271,
+          "length": 13096768
+        },
+        {
+          "file": "Pack/WalkingDead105/StatsItem_Chapter8.prop",
+          "file_offset": 0,
+          "chunk_offset": 33468039,
+          "length": 723
+        },
+        {
+          "file": "Pack/WalkingDead106/0_96_WalkingDead106_04.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 33468762,
+          "length": 13014
+        },
+        {
+          "file": "Pack/WalkingDead106/0_98_WalkingDead106_02.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 33481776,
+          "length": 81731
+        },
+        {
+          "file": "Pack/WalkingDead106/0_99_WalkingDead106_01.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 33563507,
+          "length": 87357
+        },
+        {
+          "file": "Pack/WalkingDead106/1_WalkingDead106_english_pc_anichore.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 33650864,
+          "length": 42560714
+        },
+        {
+          "file": "Pack/WalkingDead106/2_WalkingDead106_english_pc_data.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 76211578,
+          "length": 4775215
+        },
+        {
+          "file": "Pack/WalkingDead106/3_WalkingDead106_english_pc_voice.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 80986793,
+          "length": 34933053
+        }
+      ],
+      "sha256": "82caca0599cceb5479d0aac90375b29d6eb1cff2ff686ecbf136cb294eba485b"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead106/3_WalkingDead106_english_pc_voice.ttarch",
+          "file_offset": 34933053,
+          "chunk_offset": 0,
+          "length": 4603348
+        },
+        {
+          "file": "Pack/WalkingDead106/4_WalkingDead106_english_pc_ms.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 4603348,
+          "length": 111316498
+        }
+      ],
+      "sha256": "796fe088f296dac2548c14d29fa95a49857de5b9bfa24ba462b035fb053af374"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead106/4_WalkingDead106_english_pc_ms.ttarch",
+          "file_offset": 111316498,
+          "chunk_offset": 0,
+          "length": 58273642
+        },
+        {
+          "file": "Pack/WalkingDead106/5_WalkingDead106_english_pc_txmesh.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 58273642,
+          "length": 57646204
+        }
+      ],
+      "sha256": "17b6095e086422e096508b20d6e62372794d2911db264bb1f3bc54ed8219d7ba"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead106/5_WalkingDead106_english_pc_txmesh.ttarch",
+          "file_offset": 57646204,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "58f60f97a0bd09e0c0bd9385c25bdae5b6872b5ae7f98e23d52e0efad8493962"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead106/5_WalkingDead106_english_pc_txmesh.ttarch",
+          "file_offset": 173566050,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "c37660daafbf9c7175a6f91fe5081ecd9981f0f4b8329f9d96a7c897cf06cc68"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 115919846,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead106/5_WalkingDead106_english_pc_txmesh.ttarch",
+          "file_offset": 289485896,
+          "chunk_offset": 0,
+          "length": 115919846
+        }
+      ],
+      "sha256": "6e0ec5e2a93aa5cd86b2010316de63c918ad72b07474c051d42743ac79e2fd47"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 115919824,
+      "segments": [
+        {
+          "file": "Pack/WalkingDead106/5_WalkingDead106_english_pc_txmesh.ttarch",
+          "file_offset": 405405742,
+          "chunk_offset": 0,
+          "length": 94064186
+        },
+        {
+          "file": "Pack/WalkingDead106/6_pc_only_shaders.ttarch",
+          "file_offset": 0,
+          "chunk_offset": 94064186,
+          "length": 13096768
+        },
+        {
+          "file": "Pack/WalkingDead106/WalkingDead106.txt",
+          "file_offset": 0,
+          "chunk_offset": 107160954,
+          "length": 14
+        },
+        {
+          "file": "Support.ico",
+          "file_offset": 0,
+          "chunk_offset": 107160968,
+          "length": 62895
+        },
+        {
+          "file": "WalkingDead100.exe",
+          "file_offset": 0,
+          "chunk_offset": 107223863,
+          "length": 8470016
+        },
+        {
+          "file": "webcache.zip",
+          "file_offset": 0,
+          "chunk_offset": 115693879,
+          "length": 225945
+        }
+      ],
+      "sha256": "5f2b92570f1cf94d0b2f213270b03ea26b957b796d751ea92aaab110a28bb3e4"
+    }
+  ]
+}
