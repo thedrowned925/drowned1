@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 46
-- **Toplam aktif sürüm/kanal:** 46
-- **Toplam aktif boyut:** 1242.589 GB (1157.251 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-22 15:17:05 UTC
+- **Toplam oyun:** 47
+- **Toplam aktif sürüm/kanal:** 47
+- **Toplam aktif boyut:** 1247.226 GB (1161.570 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-22 16:42:55 UTC
 
 ## PC
 
-**46 oyun · 46 aktif sürüm/kanal · 1242.589 GB (1157.251 GiB)**
+**47 oyun · 47 aktif sürüm/kanal · 1247.226 GB (1161.570 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -56,6 +56,7 @@
 | Red Dead Redemption 2 | 1.0.0 | stable | 128.093 | 119.296 | `pc-red-dead-redemption-2-v1.0.0-stable` |
 | Stardew Valley | 1.0.0 | stable | 0.733 | 0.683 | `pc-stardew-valley-v1.0.0-stable` |
 | The Elder Scrolls V: Skyrim | 1.0.0 | stable | 13.902 | 12.948 | `pc-the-elder-scrolls-v-skyrim-v1.0.0-stable` |
+| The Walking Dead | 1.0.0 | stable | 4.637 | 4.318 | `pc-the-walking-dead-v1.0.0-stable` |
 | The Witcher 3: Wild Hunt | 1.0.0 | stable | 56.143 | 52.287 | `pc-the-witcher-3-wild-hunt-v1.0.0-stable` |
 | Tomb Raider Definitive Edition | 1.0.0 | stable | 25.926 | 24.145 | `pc-tomb-raider-definitive-edition-v1.0.0-stable` |
 | Undertale | 1.0.0 | stable | 0.213 | 0.199 | `pc-undertale-v1.0.0-stable` |
