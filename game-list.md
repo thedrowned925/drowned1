@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 39
-- **Toplam aktif sürüm/kanal:** 39
-- **Toplam aktif boyut:** 986.803 GB (919.032 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-21 21:11:50 UTC
+- **Toplam oyun:** 40
+- **Toplam aktif sürüm/kanal:** 40
+- **Toplam aktif boyut:** 1088.818 GB (1014.041 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-22 10:15:11 UTC
 
 ## PC
 
-**39 oyun · 39 aktif sürüm/kanal · 986.803 GB (919.032 GiB)**
+**40 oyun · 40 aktif sürüm/kanal · 1088.818 GB (1014.041 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -22,6 +22,7 @@
 | Borderlands 2 | 1.0.0 | stable | 36.051 | 33.576 | `pc-borderlands-2-v1.0.0-stable` |
 | Call of Duty® 4: Modern Warfare® (2007) | 1.0.0 | stable | 6.975 | 6.496 | `pc-call-of-duty-4-modern-warfare-2007-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 14.396 | `pc-captured-2-v1.0.0-stable` |
+| Cyberpunk 2077 | 1.0.0 | stable | 102.015 | 95.009 | `pc-cyberpunk-2077-v1.0.0-stable` |
 | DARK SOULS™ III | 1.0.0 | stable | 26.890 | 25.043 | `pc-dark-souls-iii-v1.0.0-stable` |
 | Dishonored | 1.0.0 | stable | 18.079 | 16.837 | `pc-dishonored-v1.0.0-stable` |
 | DOOM | 1.0.0 | stable | 73.984 | 68.903 | `pc-doom-v1.0.0-stable` |
