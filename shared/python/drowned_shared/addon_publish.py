@@ -44,11 +44,9 @@ def _find_target(catalog: dict, game_id: str, platform: str, channel: str, base_
     raise KeyError(f"game not found: {platform}/{game_id}")
 
 
-def _existing_addon_paths(client, channel_data: dict, ignored_package_id: str) -> set[str]:
+def _existing_addon_paths(client, channel_data: dict) -> set[str]:
     result: set[str] = set()
     for package in channel_data.get("optional_packages") or []:
-        if str(package.get("id") or "") == ignored_package_id:
-            continue
         path = str(package.get("manifest_path") or "")
         if not path:
             continue
@@ -96,6 +94,23 @@ def publish_optional_package(
     catalog = load_catalog(client)
     game, channel_data = _find_target(catalog, game_id, platform, channel, base_version)
 
+    # Do not replace one package record in-place. Its old Release/tag/manifest
+    # would become unreachable from catalog.json and leak storage. Revisions are
+    # therefore explicit: remove the old package first, then publish the new one.
+    existing_same = next(
+        (
+            item
+            for item in channel_data.get("optional_packages") or []
+            if slugify(str(item.get("id") or "")) == package_id
+        ),
+        None,
+    )
+    if existing_same:
+        raise ValueError(
+            f"Optional package ID already exists: {package_id}. "
+            "Delete the existing package from Release Manager first, then publish its new version."
+        )
+
     probe = ChunkBuilder(source)
     if probe.total_size <= 0:
         raise ValueError("optional package source folder is empty")
@@ -109,7 +124,7 @@ def publish_optional_package(
         raise RuntimeError("optional-package balanced planner mismatch")
 
     new_paths = {snap.rel for snap in plan["snapshots"]}
-    occupied = _existing_addon_paths(client, channel_data, package_id)
+    occupied = _existing_addon_paths(client, channel_data)
     collision = sorted(new_paths & occupied)
     if collision:
         preview = "\n".join(collision[:12])
@@ -237,7 +252,6 @@ def publish_optional_package(
     )
     manifest_url = client.raw_url(manifest_path)
 
-    packages = list(channel_data.get("optional_packages") or [])
     record = {
         "id": package_id,
         "title": package_title,
@@ -249,7 +263,7 @@ def publish_optional_package(
         "size": builder.total_size,
         "published_at": datetime.now(timezone.utc).isoformat(),
     }
-    packages = [item for item in packages if str(item.get("id") or "") != package_id]
+    packages = list(channel_data.get("optional_packages") or [])
     packages.append(record)
     packages.sort(key=lambda item: str(item.get("title") or item.get("id") or "").lower())
     channel_data["optional_packages"] = packages
