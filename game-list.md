@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 48
-- **Toplam aktif sürüm/kanal:** 48
-- **Toplam aktif boyut:** 1256.878 GB (1170.559 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-22 16:51:42 UTC
+- **Toplam oyun:** 49
+- **Toplam aktif sürüm/kanal:** 49
+- **Toplam aktif boyut:** 1268.832 GB (1181.692 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-22 17:08:21 UTC
 
 ## PC
 
-**48 oyun · 48 aktif sürüm/kanal · 1256.878 GB (1170.559 GiB)**
+**49 oyun · 49 aktif sürüm/kanal · 1268.832 GB (1181.692 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -40,6 +40,7 @@
 | Grand Theft Auto V Enhanced | 1.0.0 | stable | 103.274 | 96.182 | `pc-grand-theft-auto-v-enhanced-v1.0.0-stable` |
 | Grand Theft Auto: San Andreas | 1.0.0 | stable | 4.975 | 4.634 | `pc-grand-theft-auto-san-andreas-v1.0.0-stable` |
 | Grand Theft Auto: Vice City | 1.0.0 | stable | 1.619 | 1.508 | `pc-grand-theft-auto-vice-city-v1.0.0-stable` |
+| Hades | 1.0.0 | stable | 11.953 | 11.132 | `pc-hades-v1.0.0-stable` |
 | Half Life 2 | 1.0.0 | stable | 17.641 | 16.429 | `pc-half-life-2-v1.0.0-stable` |
 | Half-Life | 1.0.0 | stable | 0.550 | 0.512 | `pc-half-life-v1.0.0-stable` |
 | Hans | 1.0.0 | stable | 0.876 | 0.816 | `pc-hans-v1.0.0-stable` |
