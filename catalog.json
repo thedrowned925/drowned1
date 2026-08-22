@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-22T18:24:03.279448+00:00",
+  "updated_at": "2026-08-22T19:27:08.522925+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -1666,6 +1666,41 @@
       },
       "media": {
         "steam_app_id": 17450
+      }
+    },
+    {
+      "id": "dark-souls-prepare-to-die-edition",
+      "title": "DARK SOULS™: Prepare To Die™ Edition",
+      "platform": "pc",
+      "description": "Dark Souls will be the most deeply challenging game you play this year. Can you live through a million deaths and earn your legacy?",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dark-souls-prepare-to-die-edition/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dark-souls-prepare-to-die-edition/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dark-souls-prepare-to-die-edition/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dark-souls-prepare-to-die-edition/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dark-souls-prepare-to-die-edition/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dark-souls-prepare-to-die-edition/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dark-souls-prepare-to-die-edition/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dark-souls-prepare-to-die-edition/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dark-souls-prepare-to-die-edition/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dark-souls-prepare-to-die-edition/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dark-souls-prepare-to-die-edition/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dark-souls-prepare-to-die-edition/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-dark-souls-prepare-to-die-edition-v1.0.0-stable",
+          "manifest_path": "manifests/pc/dark-souls-prepare-to-die-edition/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/dark-souls-prepare-to-die-edition/stable/1.0.0.json",
+          "size": 3961570945,
+          "published_at": "2026-08-22T19:27:08.522898+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 211420
       }
     }
   ]
