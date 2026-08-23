@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 55
-- **Toplam aktif sürüm/kanal:** 55
-- **Toplam aktif boyut:** 1462.875 GB (1362.409 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-23 14:02:58 UTC
+- **Toplam oyun:** 56
+- **Toplam aktif sürüm/kanal:** 56
+- **Toplam aktif boyut:** 1468.821 GB (1367.946 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-23 14:10:21 UTC
 
 ## PC
 
-**55 oyun · 55 aktif sürüm/kanal · 1462.875 GB (1362.409 GiB)**
+**56 oyun · 56 aktif sürüm/kanal · 1468.821 GB (1367.946 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -63,6 +63,7 @@
 | Red Dead Redemption | 1.0.0 | stable | 10.225 | 9.522 | `pc-red-dead-redemption-v1.0.0-stable` |
 | Red Dead Redemption 2 | 1.0.0 | stable | 128.093 | 119.296 | `pc-red-dead-redemption-2-v1.0.0-stable` |
 | Stardew Valley | 1.0.0 | stable | 0.733 | 0.683 | `pc-stardew-valley-v1.0.0-stable` |
+| The Elder Scrolls IV: Oblivion® Game of the Year Edition (2009) | 1.0.0 | stable | 5.946 | 5.538 | `pc-the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009-v1.0.0-stable` |
 | The Elder Scrolls V: Skyrim | 1.0.0 | stable | 13.902 | 12.948 | `pc-the-elder-scrolls-v-skyrim-v1.0.0-stable` |
 | The Walking Dead | 1.0.0 | stable | 4.637 | 4.318 | `pc-the-walking-dead-v1.0.0-stable` |
 | The Witcher 3: Wild Hunt | 1.0.0 | stable | 56.143 | 52.287 | `pc-the-witcher-3-wild-hunt-v1.0.0-stable` |
