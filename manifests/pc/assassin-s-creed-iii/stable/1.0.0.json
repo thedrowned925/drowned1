@@ -1,0 +1,2936 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "assassin-s-creed-iii",
+    "title": "Assassin’s Creed® III",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "The American Colonies, 1775. As a Native American assassin fights to protect his land and people, he will ignite the flames of a young nation’s revolution."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-assassin-s-creed-iii-v1.0.0-stable"
+  },
+  "chunk_size": 465729216,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 18629168608,
+  "files": [
+    {
+      "path": "208480_install.vdf",
+      "size": 4215,
+      "sha256": "55bc4da2ac21a7502b0b4c21e0b333a8bc0c5bb39a4417c5bc5a8ebdfcbfbd45"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "AC3MP.exe",
+      "size": 21725696,
+      "sha256": "98266869f51cf55b7b7d6d52824b4005245c8b9e250e1cff2217c13e4eb8e767"
+    },
+    {
+      "path": "AC3SP.exe",
+      "size": 38460728,
+      "sha256": "30b8da54feda56627463f34c4c5479c92de8a05b664adb4767d38bfd9d394557"
+    },
+    {
+      "path": "binkw32.dll",
+      "size": 227328,
+      "sha256": "845f1ea36a75122fb8e10e508418893c091e2a632a4063d9ad22fc4628e12bf0"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/01 _ Assassin's Creed III Main Theme_01.mp3",
+      "size": 7472172,
+      "sha256": "c6c3eb7793f3779725e9855457f17ed81050b19adbe35a85ae345cb94e734332"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/02 _ An Uncertain Present_01.mp3",
+      "size": 5242092,
+      "sha256": "452d555f3843701eb5b15312673c48f78252d7c71a9cdc7df93d9b0170747644"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/03 _ Escape in Style_01.mp3",
+      "size": 5430252,
+      "sha256": "af5fe044afb2f934f950bc981947d71b4102ed48d68104fd903bfa307fd3cb43"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/04 _ Welcome to Boston_01.mp3",
+      "size": 6190572,
+      "sha256": "0e8e00f0ce358353cef56a0c6e18311c3f5a8e2fcd0af35a2d03d9a713bf3b06"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/05 _ Freedom Fighter_01.mp3",
+      "size": 5459052,
+      "sha256": "f7232f825f73f34ea018455bd1b641a2689d094b0f6408f7fff860159a1cf603"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/06 _ A Bitter Truth_01.mp3",
+      "size": 3860652,
+      "sha256": "4051bc3dc97d4dd9dafc49fd687cef8fe30789453a0d40008e3b6a21767bcd42"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/07 _ Through the Frontier_01.mp3",
+      "size": 7285932,
+      "sha256": "f8fb9912fb4d3fd7ceed60812cae058d8a17e479ba3a9bac701e24ab5705e1e0"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/08 _ Connor's Life_01.mp3",
+      "size": 11875692,
+      "sha256": "44bad0f30abafd1c691b3f091a517874941c05ac6a60c4c0a97e44196c680e96"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/09 _ Trouble in Town_01.mp3",
+      "size": 5841132,
+      "sha256": "83d038feb119caa5517affe273d747a15f68ad4dfea1208bfe099fb9429d09a9"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/10 _ Farewell_01.mp3",
+      "size": 2615532,
+      "sha256": "21bafd1019a8ad1512389c80c086d667fdb3fae2156b2f9ca21e322d367a2419"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/11 _ HomeStead_01.mp3",
+      "size": 7291692,
+      "sha256": "ebed300215a23a54807d670c035579e1d4b57349dafd47d1d805c32b87b525d8"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/12 _ The Battle of Breed's Hill_01.mp3",
+      "size": 5531052,
+      "sha256": "42bf650b5b8f302f199c272700836232ad6493ed0e5a83ed3c9f0192ccd0ef52"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/13 _ Speck of Dust_01.mp3",
+      "size": 6917292,
+      "sha256": "2586580c2d63cf3b17b2312be2414d04d1d8b653477ae4542ff8de4e543fb26c"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/14 _ Modern Assassin_01.mp3",
+      "size": 7415532,
+      "sha256": "e5b7f0fc4216a74d7eb30985178a59d33d00e7b1b29d72e341fd0cef6e6fbb06"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/15 _ Desmond's Destiny_01.mp3",
+      "size": 3946092,
+      "sha256": "2cfec34b204bf97142385eecedb5c84bf3dd851f38e283abf097bbab8f776f55"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/16 _ The Aquilla_01.mp3",
+      "size": 5531052,
+      "sha256": "882b098a968020d6525c5d3b61cc1422a7e7f24db69864ef1144595b945eaa45"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/17 _ Fight Club_01.mp3",
+      "size": 5012652,
+      "sha256": "3f14d453fc4390b8a87b8bd95a79336abd1e88870cbaf08ee9375d50ab4f38a8"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/18 _ Eye of the Storm_01.mp3",
+      "size": 5120172,
+      "sha256": "0b9127b4687b32494efd9593ab5eb33be1887e7f7d3b2378249d2588a9fae01d"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/19 _ Temple Secrets_01.mp3",
+      "size": 4073772,
+      "sha256": "4c2a2774bb79c34fa3df7230fc7de15a2e69564c6cab12acb5d68017fa83d083"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/20 _ Beer and Friends_01.mp3",
+      "size": 2842092,
+      "sha256": "883b3fb74bc005698a35b21b10a30c920fb4b8980ded4cdc57234891117e6e90"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/21 _ Battle at Sea_01.mp3",
+      "size": 9686892,
+      "sha256": "2abdb0e81a39d5d7ef2efc6626641656138c357ba6d9a07597cc219ba43d6cd3"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/22 _ Breaching The Walls_01.mp3",
+      "size": 8497452,
+      "sha256": "e4129745f8af05efd6dc9f589b30564b5df932d201fb95b0615dc2205200e84d"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/23 _ Wild Instincts_01.mp3",
+      "size": 6572652,
+      "sha256": "8b90fd06b554346eb57272265620d26dc76679b01752cc3027ffb6cd45719137"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/24 _ What Came Before_01.mp3",
+      "size": 10053612,
+      "sha256": "005b830f096b7062c76b70ff6770c4d55d8414bcf17ac57d465a3e223a85e508"
+    },
+    {
+      "path": "BONUS CONTENT/AC3 Soundtrack/25 _ Assassin's Creed III Main Theme Variation_01.mp3",
+      "size": 3757932,
+      "sha256": "b56490bce9da9fc26261f7c7be74d26ef371d13190e589f16903ff7f4b90f694"
+    },
+    {
+      "path": "BONUS CONTENT/George Washington's Journal/GW notebook V Dig FRA.pdf",
+      "size": 207407262,
+      "sha256": "f9510edd157072ce50fb8f2a42afda6aedc5747badde147ef8d43313b7227c01"
+    },
+    {
+      "path": "BONUS CONTENT/George Washington's Journal/GW notebook V Dig GER.pdf",
+      "size": 207937205,
+      "sha256": "9282dc176794ce49f4ca1f0560146e88ae3fa052cbb9c27b56325b57b1002441"
+    },
+    {
+      "path": "BONUS CONTENT/George Washington's Journal/GW notebook V Dig ITA.pdf",
+      "size": 206398195,
+      "sha256": "8463ebc25dc8f138906495fef54ea7bfe910e059f2c931104acab76fd6dd4681"
+    },
+    {
+      "path": "BONUS CONTENT/George Washington's Journal/GW notebook V Dig SPA.pdf",
+      "size": 208079452,
+      "sha256": "b8e1fb52d447bedb8ef57f2be7aae26767de36bf4d3fba9594275bdc134cf6fe"
+    },
+    {
+      "path": "BONUS CONTENT/George Washington's Journal/GW notebook V Dig UK_HD.pdf",
+      "size": 196928122,
+      "sha256": "f6eb88aba005edb02726c40205b70331b3a104a73d78d665e6616522e770cfca"
+    },
+    {
+      "path": "DataPC_DX11.forge",
+      "size": 601915392,
+      "sha256": "8be12e1c69e9ff7fcf08995477f85915acd0ff1a35310a3db429ba30f53c3245"
+    },
+    {
+      "path": "DataPC_DX11_10_dlc.forge",
+      "size": 331153408,
+      "sha256": "3870cd7c03c698a40604687acf7ec76bdef536966af17977de90ad6e6c57d34d"
+    },
+    {
+      "path": "DataPC_DX11_2_dlc.forge",
+      "size": 720896,
+      "sha256": "a18f3c85b8c5dbce5e1b33d2b5e4efa4d23abda25242bd0cfd666e1f092b9bfa"
+    },
+    {
+      "path": "DataPC_DX11_3_dlc.forge",
+      "size": 884736,
+      "sha256": "4d1787bf461639f84fc8cf009872db68ed38c2609b8b8928f177359ab4b51bf8"
+    },
+    {
+      "path": "DataPC_DX11_4_dlc.forge",
+      "size": 12451840,
+      "sha256": "17d302856aaed5b430458c5a3e0c26804125311369683c5eaf211b5ab33f30ed"
+    },
+    {
+      "path": "DataPC_DX11_6_dlc.forge",
+      "size": 298385408,
+      "sha256": "57bfffab5e6ac0e02191b71c1def3cbd67c0736f3520f83aa324c8173427c129"
+    },
+    {
+      "path": "DataPC_DX11_8_dlc.forge",
+      "size": 327548928,
+      "sha256": "19362d277c205d4ac2dec6d9e5f43036de4c013a05448dab9206b5aa04434d66"
+    },
+    {
+      "path": "DataPC_DX11_AC3_Abstergo.forge",
+      "size": 85884928,
+      "sha256": "5c6f8eeaa7d5bd4353f2667d7f66cd0719575887adba3b4b4853fc4fe9d1243d"
+    },
+    {
+      "path": "DataPC_DX11_AC3_Boston.forge",
+      "size": 878739456,
+      "sha256": "565360ccf7d7ba78d94f7d6f92672ea1681d30991f3d2563ef4aa9b1ef6a5992"
+    },
+    {
+      "path": "DataPC_DX11_AC3_Boston_Under.forge",
+      "size": 98729984,
+      "sha256": "ceae8ac3176a42552092cf240f9960294718953dc8bd604f0ca7761ab83fc752"
+    },
+    {
+      "path": "DataPC_DX11_AC3_Brewery.forge",
+      "size": 161316864,
+      "sha256": "87960f94bb28ae413658610a7cab84c30d6bda180bc4aacb7d10d978fa2d50b5"
+    },
+    {
+      "path": "DataPC_DX11_AC3_BunkerHill.forge",
+      "size": 241336320,
+      "sha256": "0342cf91822e668df9cfa743468670c26079160f96bb6020b10526754c47c1cf"
+    },
+    {
+      "path": "DataPC_DX11_AC3_Castle.forge",
+      "size": 135462912,
+      "sha256": "e5baf40904b4cc1c5b1fd021783e169e334156d2308d412feec02dda0baf9b4b"
+    },
+    {
+      "path": "DataPC_DX11_AC3_Cozumel.forge",
+      "size": 123142144,
+      "sha256": "0833612cabfd3af912a930919e02322a22067aea432f7dec6b3217d15211ceeb"
+    },
+    {
+      "path": "DataPC_DX11_AC3_DLC_BearSpirit_10_dlc.forge",
+      "size": 128942080,
+      "sha256": "0c0ffbff74257e46cfaa4bb86d19cd86fa6d6f5f68fb2b64dc8375a15f5ab99c"
+    },
+    {
+      "path": "DataPC_DX11_AC3_DLC_Boston_8_dlc.forge",
+      "size": 802783232,
+      "sha256": "d853d014294afefbd8a22a7b761d5e7091f8fa147ae6f2eb49a528aa7f872d57"
+    },
+    {
+      "path": "DataPC_DX11_AC3_DLC_EagleSpirit_8_dlc.forge",
+      "size": 127926272,
+      "sha256": "1c9aa08aa5dd832986ccfdf7ec7e7f447bf0ccaa82de38ee5942647ab4e28733"
+    },
+    {
+      "path": "DataPC_DX11_AC3_DLC_Frontier_6_dlc.forge",
+      "size": 751632384,
+      "sha256": "6e408b17d6b041a4da29ad2c4f22dd280239b8b782972f73da635f7feff8d0d8"
+    },
+    {
+      "path": "DataPC_DX11_AC3_DLC_NavNYCoast_10_dlc.forge",
+      "size": 161742848,
+      "sha256": "d32a1ca1de392856347343f28c0209ba41b00d38eeda5d89845eb49e44035a3d"
+    },
+    {
+      "path": "DataPC_DX11_AC3_DLC_NewYork_10_dlc.forge",
+      "size": 672792576,
+      "sha256": "bd2658f63913953e00cf7449b9c9f8d5112f9d86689c7f19e502de3e67e43429"
+    },
+    {
+      "path": "DataPC_DX11_AC3_DLC_Nightmare_8_dlc.forge",
+      "size": 49446912,
+      "sha256": "cd78ac525d16744863a047049deb0ae3e2f3255e2ef5f39ba4c31215ccf3e806"
+    },
+    {
+      "path": "DataPC_DX11_AC3_DLC_WolfSpirit_6_dlc.forge",
+      "size": 127959040,
+      "sha256": "2a80bdaa2b0b38c50b4df31e57e7fdf6ceac37cfb734b70455e3d3d621169c8f"
+    },
+    {
+      "path": "DataPC_DX11_AC3_DLCWestpoint_2_dlc.forge",
+      "size": 494567424,
+      "sha256": "c7ce38d8ddd944aaaddca628cac15d77d07274a2a67da5fac7dc09625ea50768"
+    },
+    {
+      "path": "DataPC_DX11_AC3_FCTemple.forge",
+      "size": 111935488,
+      "sha256": "878c77bd1d3bd34bd3444a6428c216fd5e5447dde9758106e6ce270a8c34ab9d"
+    },
+    {
+      "path": "DataPC_DX11_AC3_FortWolcott.forge",
+      "size": 232128512,
+      "sha256": "feca156a8e9667047d14e06ec27e3992086cfbb3c48d9c062665e700ae715b73"
+    },
+    {
+      "path": "DataPC_DX11_AC3_Frontier.forge",
+      "size": 927137792,
+      "sha256": "ceea813156af4696420984e50a4873366e1eb6309858f6968456066cba8283e4"
+    },
+    {
+      "path": "DataPC_DX11_AC3_GhostShip.forge",
+      "size": 129499136,
+      "sha256": "33a512c1c2feb52f37fb46ace16bfae8b70bc2bc2ffdf1c553480c54e4758c16"
+    },
+    {
+      "path": "DataPC_DX11_AC3_Homestead.forge",
+      "size": 837255168,
+      "sha256": "21a1c8054f2a77ebc8b762d656664767071258e9c63763cc47d22d1b580b4a4a"
+    },
+    {
+      "path": "DataPC_DX11_AC3_ModernTower.forge",
+      "size": 102989824,
+      "sha256": "66e6fd9c46aa82829174eeb6493984f3a16b394277764148aa0a812bcde78279"
+    },
+    {
+      "path": "DataPC_DX11_AC3_NavCarSea.forge",
+      "size": 282886144,
+      "sha256": "3c6f627d0a11305141644d8cbdfce9cefbbcce71b27331d6b9852832706b4984"
+    },
+    {
+      "path": "DataPC_DX11_AC3_NavChesaBay.forge",
+      "size": 154632192,
+      "sha256": "b5619237b3d7c4a56849c4563c26581cd7f3a820aeded6a93a2c71f2b4754e93"
+    },
+    {
+      "path": "DataPC_DX11_AC3_NavGenOcean.forge",
+      "size": 181272576,
+      "sha256": "0d593987bd4c1bf8fb232de255a85079630d88d044ecfa6ea642c75f6a5c9d48"
+    },
+    {
+      "path": "DataPC_DX11_AC3_NavNACoast.forge",
+      "size": 246972416,
+      "sha256": "4c360d37505082b928cccc0bd9a7f51a1ce047c0a101516471fefd2eb9c39c58"
+    },
+    {
+      "path": "DataPC_DX11_AC3_NavPrivCar.forge",
+      "size": 166625280,
+      "sha256": "838a557c47f693b32fbcf43d407e0897d034a75f0180f879986e36075ffe8add"
+    },
+    {
+      "path": "DataPC_DX11_AC3_NewYork.forge",
+      "size": 752713728,
+      "sha256": "7ec10218fd32ead8232d14547142b2ae5e472ec7e1313fc67b86798477e96a80"
+    },
+    {
+      "path": "DataPC_DX11_AC3_NewYork_Under.forge",
+      "size": 84443136,
+      "sha256": "a3a3e944146d34e8d714c97613b7b6f4a54e7932b0d338f90bac0cd457167574"
+    },
+    {
+      "path": "DataPC_DX11_AC3_OakIsland.forge",
+      "size": 183238656,
+      "sha256": "5707ee6211c2d4fa62f4de61f2394cd7d4dcf006527680bca0e3da4334cee263"
+    },
+    {
+      "path": "DataPC_DX11_AC3_Opera.forge",
+      "size": 106463232,
+      "sha256": "7a848a56210f889e68ddb5a09322a92e1d8e2cb455ab0872c63a0912752be8a1"
+    },
+    {
+      "path": "DataPC_DX11_AC3_PadreIsland.forge",
+      "size": 179666944,
+      "sha256": "66e0f447c7d0bff2af4803f8e90a6c77c46ffc34966439977a2b36fe90b87c5c"
+    },
+    {
+      "path": "DataPC_DX11_AC3_Philadelphia.forge",
+      "size": 36077568,
+      "sha256": "eb274e56eb75962df28888414d386e9819bb8760362d3bb28b03aca486d92a1f"
+    },
+    {
+      "path": "DataPC_DX11_AC3_SpiritJourney.forge",
+      "size": 85164032,
+      "sha256": "527eb2168b6dd21acf7dc05c9da03ffd5cc48debfa3a7b1413a364d326d25e37"
+    },
+    {
+      "path": "DataPC_DX11_AC3_Stadium.forge",
+      "size": 104103936,
+      "sha256": "c4f964514292114362bd6549ad6aec6690b0cd5d286dc525f9f0917440a3eae6"
+    },
+    {
+      "path": "DataPC_DX11_DLC_AI_BossGym_GW_6_dlc.forge",
+      "size": 99549184,
+      "sha256": "3aa2515b9d8d4fef7b5ec1c06a24c2a13464dd5140f87817fc98c77884e54d2a"
+    },
+    {
+      "path": "DataPC_DX11_DLC_AI_Integration.forge",
+      "size": 172785664,
+      "sha256": "c9f7cb2a9093123166b45d1ac52d09eb6376278390295d32644dc901aede848a"
+    },
+    {
+      "path": "DataPC_DX11_DLC_AI_Integration_6_dlc.forge",
+      "size": 196182016,
+      "sha256": "45e42437d3dbaa9a855e1a982f30e41170c5cbcb79d69212cb08d8dd326c6276"
+    },
+    {
+      "path": "DataPC_DX11_extra.forge",
+      "size": 673349632,
+      "sha256": "ff1ffdd2f98c64c9d9f85357f82582e03acd620c108629e099d2d1b883b63f2a"
+    },
+    {
+      "path": "DataPC_DX11_extra_chr.forge",
+      "size": 945324032,
+      "sha256": "b3470269e629a36935c7a42744b2de1aac22adfa6120e606b1c95c288eb990c2"
+    },
+    {
+      "path": "DataPC_DX11_TitleScreen.forge",
+      "size": 229376,
+      "sha256": "8f47e16c9f8560c1481286cc429b38ebb8c3da6c8b8d9c8b26e62f4d93255a59"
+    },
+    {
+      "path": "DataPC_DX11_WhiteRoom.forge",
+      "size": 73400320,
+      "sha256": "413e0131cc87821e2b428371aea4ab93436c8ff6ef1b1d050c5a2366f3206527"
+    },
+    {
+      "path": "DataPC_DX11_WhiteRoom_10_dlc.forge",
+      "size": 40730624,
+      "sha256": "f3c194bbd2e3b3330148bdd0417df9a6dfa1b1a16fa05a19081c6b164edcadf9"
+    },
+    {
+      "path": "DataPC_DX11_WhiteRoom_6_dlc.forge",
+      "size": 25133056,
+      "sha256": "668382d37f289d0c40e182dbd918d58609e873b59ccfb8cfa09990eefb21837f"
+    },
+    {
+      "path": "DataPC_DX11_WhiteRoom_8_dlc.forge",
+      "size": 40730624,
+      "sha256": "8a8df9fac7eb55953fe9b01994485effb2e2297ef11de93e56832928728cbe57"
+    },
+    {
+      "path": "dbghelp32.dll",
+      "size": 1080672,
+      "sha256": "0f40c17f2c10a5b751460a3a75e54474cc13f77ad714cd78428196d04b3328be"
+    },
+    {
+      "path": "DefaultBindings.map",
+      "size": 20207,
+      "sha256": "51842e4d17ad2b610d850bdb7e52139a7a2f6b36b0dfbd01d182ad15719855de"
+    },
+    {
+      "path": "localization.lang",
+      "size": 14,
+      "sha256": "d97a9923f6079f9d08333941e61dc7ace8276102003e8c31a789534647f9941d"
+    },
+    {
+      "path": "memstats.csv",
+      "size": 31870,
+      "sha256": "9d7ba8e35810ae44f27973498130ddb893a8bfda08760644529a3a09da2938a7"
+    },
+    {
+      "path": "pb/pbag.dll",
+      "size": 57344,
+      "sha256": "41ed3dcaada7a9a6fd4a7c2505aa9cdb359496f74b1c8d27d37b47735089cbd2"
+    },
+    {
+      "path": "pb/pbcl.dll",
+      "size": 953640,
+      "sha256": "e7264646b28b8060b93b4374651638428243104dd427ca4970ea6aa956add4d5"
+    },
+    {
+      "path": "pb/pbsv.dll",
+      "size": 421888,
+      "sha256": "85c2dd40d20151a2ab6bf04739b2b9b9313b32169ee40eac5b43fa35f8c8de41"
+    },
+    {
+      "path": "Profile/STEAMRIP/SteamUserID.cfg",
+      "size": 61,
+      "sha256": "166db0abda52ad595a65f05834dc5322b396bc98c640030c022270337a563daf"
+    },
+    {
+      "path": "SKIDROW.ini",
+      "size": 64,
+      "sha256": "f044cd406faa20014191db82cfa9e8aa390a38b760aa15e22833bbc05e22eb3d"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_10_bra.pck",
+      "size": 11641559,
+      "sha256": "9e72ad69c5e31aa42384646f060b0e4c18a1735a1088f0a1c0f66ef5113d7bd7"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_10_eng.pck",
+      "size": 12496287,
+      "sha256": "2a444d4cc3be92fdff4e98a4d378bd03810678731a3baa866050c2cd30030af5"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_10_fre.pck",
+      "size": 12179571,
+      "sha256": "0e4c69333bc3074042e963fdbde60a0e2674e31a198dcf6b22edb8ca9a9c95d6"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_10_ger.pck",
+      "size": 12246416,
+      "sha256": "d8ad0975782b6492292bd4fb5636f7a032923e1c8509b643b892ef292659c76f"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_10_ita.pck",
+      "size": 12562453,
+      "sha256": "53f277c33f47ce03969f90300a0e20521f6414d80ab8ee014f02fa89a155bf10"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_10_jap.pck",
+      "size": 10964993,
+      "sha256": "2a20d42a0de03ebb5b3b152d994cd2c6426268eaccf134c903fa94c91ec1502a"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_10_rus.pck",
+      "size": 11891726,
+      "sha256": "8b1795c9e2327977df75b912f3b1f987f8e075758816ab5b21fcdb94c3678db3"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_10_sfx.pck",
+      "size": 106688837,
+      "sha256": "d1d015bac02b6f6987c104451636f5c821a9de2f8cec245733b04305c78f560f"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_10_spa.pck",
+      "size": 11869652,
+      "sha256": "a9884f6ef1a18fba87e0f9bf3de60318f79d56759cad30032cd0764e4be060ad"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_6_bra.pck",
+      "size": 12222744,
+      "sha256": "5cbdb38f596951764d19fd3b28a152c290b150f45f92a4763c59bd6a6beab988"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_6_eng.pck",
+      "size": 13632011,
+      "sha256": "937cfd49e5f623eb44948b337b3e4325a27b7621058885469a4044eff4301824"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_6_fre.pck",
+      "size": 12871910,
+      "sha256": "9a60f0b8386273b1c85d5da6796dff93f2e8a388ee8264417832413359b77da6"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_6_ger.pck",
+      "size": 12965225,
+      "sha256": "7503ee4a05ffbe4cb9b8c48abeeea3046875675211a08db687928de2e9a3e6d0"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_6_ita.pck",
+      "size": 13265166,
+      "sha256": "139e8a5924b052d98930c041864067e639ce409ee0ebeca4b7650b5f266f7f1e"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_6_jap.pck",
+      "size": 11767990,
+      "sha256": "78f01d37e603a3cf6455f6e3a8518a6619cc37fdb296c765dc04dba29f4297df"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_6_rus.pck",
+      "size": 12762838,
+      "sha256": "00dd51b7e1f42ec539768bc878ae250d39d575edc3b57718e5f18865dae9ac74"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_6_sfx.pck",
+      "size": 115917125,
+      "sha256": "92a29e4bafea38ca200336c70f84fc96f2040616a6109878046ff5ba7ee118ef"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_6_spa.pck",
+      "size": 12486294,
+      "sha256": "0639f71a17791d58ec3d814a5768ed0a77aa16d2b7545b0034835bc2fc3216bb"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_8_bra.pck",
+      "size": 12165400,
+      "sha256": "d707851d90aad62b401de0cafec023a6799d053364827f91ff34d4380d98573b"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_8_eng.pck",
+      "size": 13194655,
+      "sha256": "df3036667dec2aec1d89d73d0b55a6df7a197f61dc1381ad52bacb40aa4a02f0"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_8_fre.pck",
+      "size": 12787942,
+      "sha256": "8fda29e3c97c6b83a61aa363a395758dda88e78e4aa186f9293f1dd5b43cc567"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_8_ger.pck",
+      "size": 12655977,
+      "sha256": "c9ebd1e75d88f338b960a99ec28b5428ab2a65feb33aa4ee44c0eb2ea469718d"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_8_ita.pck",
+      "size": 13323900,
+      "sha256": "01f1cad70c7204ace4e7134db770f618b885f3267aa311a5ddf5e90b7fc4560d"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_8_jap.pck",
+      "size": 11784374,
+      "sha256": "fdf50e429a2cc60b53ac9600cfdc23ef36223300fe3bee175ba4c678471f39fe"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_8_rus.pck",
+      "size": 12098279,
+      "sha256": "f9b17f56b48598db27a668e5bd2965c59edceddd9a9bfa8bd7c126c2dc9da7df"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_8_sfx.pck",
+      "size": 88205637,
+      "sha256": "cd8621b50841c4a250a0e8d3ab0390c0b8544ddc8054ba603e3b52b57aedda94"
+    },
+    {
+      "path": "sounddata/PC/AC3_pc_dlc_8_spa.pck",
+      "size": 12486294,
+      "sha256": "224cc7e89a63f19b42b0402bce6d8753cfee4ae5a0fccc10519fc2fa944eaf53"
+    },
+    {
+      "path": "sounddata/PC/sounds_eng.pck",
+      "size": 336745621,
+      "sha256": "e7d86900431fb1c01bf55d9a08dd0d543e97c895df20140c3c91207a029d5973"
+    },
+    {
+      "path": "sounddata/PC/sounds_sfx.pck",
+      "size": 1434857581,
+      "sha256": "b3e5a738306d2a8b31b44dfd854c1fd0e037e1c17e8cfafd92fee8f95b580a26"
+    },
+    {
+      "path": "steam_api.dll",
+      "size": 1256960,
+      "sha256": "5432b15f9a081e807fa3d22f982d51c60d5a683d31cc467180d73726fb9f182d"
+    },
+    {
+      "path": "steam_api.dll.valve",
+      "size": 105808,
+      "sha256": "61846524e09e81eeed65629cf3d65668773c377efefb236088d366c9068aee63"
+    },
+    {
+      "path": "SteamConfig.ini",
+      "size": 2157,
+      "sha256": "c60b4f95aefd462921127eec57cce967545e2ca733c96e720ccf28a36e3a1cc7"
+    },
+    {
+      "path": "Support/KB971512-x64.msu",
+      "size": 9848595,
+      "sha256": "05127e5cef082bad20cfdb9e87ebe89b6285dbc0ec43e7a6fb36a4b294ce0722"
+    },
+    {
+      "path": "Support/KB971512-x86.msu",
+      "size": 4814058,
+      "sha256": "ebfae656dc0936ed003ac0c2ea9b0b0dd1810558ff32c61a0952e92e6bf9c3d1"
+    },
+    {
+      "path": "Support/License/Chinese/lic.rtf",
+      "size": 53982,
+      "sha256": "2785994749ca9955ac59bbafdfd496ca91efcc0341d98b72a1ba67914523fa7a"
+    },
+    {
+      "path": "Support/License/Czech/lic.rtf",
+      "size": 31852,
+      "sha256": "50ed0e4d86e45758dd29f430b0f29c7ba970cb7a2519a0be7f8f0ef9a331bb86"
+    },
+    {
+      "path": "Support/License/Danish/lic.rtf",
+      "size": 26972,
+      "sha256": "a6018f5d3bb05e8c4f7a5e9c10c51f7d8f1635b14d46e68dce4654462358537e"
+    },
+    {
+      "path": "Support/License/Dutch/lic.rtf",
+      "size": 29173,
+      "sha256": "afa50623d2cdbf7cda0a3ec2d325524d3b230bb425c1180e72e9ef4fc1ee1ae0"
+    },
+    {
+      "path": "Support/License/English (Canada)/lic.rtf",
+      "size": 25687,
+      "sha256": "049db549c068253f9fee0486cf9c6f96075dec4980ad417e655d24ad5557763c"
+    },
+    {
+      "path": "Support/License/English (UK)/lic.rtf",
+      "size": 25762,
+      "sha256": "afbb7ec2732626de573cf3251882c1b2d389a164708160c793a28845d0d185ff"
+    },
+    {
+      "path": "Support/License/English/lic.rtf",
+      "size": 26220,
+      "sha256": "00b920778d4a036f737b9e46238d983d61e09ccdc57d1b6414f968cf069db2d2"
+    },
+    {
+      "path": "Support/License/Finnish/lic.rtf",
+      "size": 27729,
+      "sha256": "71545b2a18c9f8f73af6cfb6349a5acff4069fe747114f457c3564683e62619b"
+    },
+    {
+      "path": "Support/License/French (Canada)/lic.rtf",
+      "size": 32080,
+      "sha256": "d1a3b79aa9887cec372daa6d7506c46595622239c74f2a1c76c10c8592ab8416"
+    },
+    {
+      "path": "Support/License/French/lic.rtf",
+      "size": 33155,
+      "sha256": "f3a22e1244d7c5c488e5a2be4bf442c98e82923840472cb4d83a6038614381f8"
+    },
+    {
+      "path": "Support/License/German/lic.rtf",
+      "size": 34887,
+      "sha256": "17ed28f53612987f01737f4db8bd54c90b22ce1afccb11ecbe48aa7467b66441"
+    },
+    {
+      "path": "Support/License/Hungarian/lic.rtf",
+      "size": 35716,
+      "sha256": "47001bb275ef90284c2d571bf14e9652a2cd9e822bdf14c33ef7af8456f12262"
+    },
+    {
+      "path": "Support/License/Italian/lic.rtf",
+      "size": 33637,
+      "sha256": "3548a8be0b771bed833a9986966b14a0767dbae1a8bf3bcbf54d5e3fa823c7bd"
+    },
+    {
+      "path": "Support/License/Japanese/lic.rtf",
+      "size": 26835,
+      "sha256": "d6848b337e156d3b5d156570b3a205abcf98767294f9cb0f1c4236540944c755"
+    },
+    {
+      "path": "Support/License/Norwegian/lic.rtf",
+      "size": 27873,
+      "sha256": "d24ac96d779101bd1ef973c9c8d69e3908eea793c2d915c272c53217b97968ae"
+    },
+    {
+      "path": "Support/License/Polish/lic.rtf",
+      "size": 32171,
+      "sha256": "3fbfbdd2049669b9e9631b6fbbfc60fbb689b9858338ccf2191459ed8ad77ad3"
+    },
+    {
+      "path": "Support/License/Portuguese/lic.rtf",
+      "size": 26154,
+      "sha256": "4c553b0723bd23a4d9bfe6a955ed632f3f1c9d3185fe97bbb19a2d0ee3938a10"
+    },
+    {
+      "path": "Support/License/Russian/lic.rtf",
+      "size": 27036,
+      "sha256": "24335614afc1d4bee7e95c1b21d372897fcb2ab5cfacdd88b8525779a306901f"
+    },
+    {
+      "path": "Support/License/Spanish/lic.rtf",
+      "size": 32835,
+      "sha256": "ffc3deaacebf94c7b78d3c8ac21a92229f9e702faacd916a2459e55f04ce3596"
+    },
+    {
+      "path": "Support/License/Swedish/lic.rtf",
+      "size": 29844,
+      "sha256": "2a6e4097d1c273bf4c56e83ab0eb37ef12b2001d61670800b842835c1ec17cc5"
+    },
+    {
+      "path": "Support/PunkBuster/pbsvc.exe",
+      "size": 3123272,
+      "sha256": "f467591b7531c2458329d5a71729894c92998ab9dcb44cddc59123f84ae15982"
+    },
+    {
+      "path": "Support/Readme/Brazilian/ReadMe.txt",
+      "size": 10974,
+      "sha256": "07698ddc24b2e1da32cdf94e68b3b3129a95197cf030b9d804bf739523cd8b78"
+    },
+    {
+      "path": "Support/Readme/Chinese (CN)/ReadMe.txt",
+      "size": 9960,
+      "sha256": "918b7535ec3371aa9618045ee3df3fe8c0527c4e5f5e3a1b15b07754a3a75a01"
+    },
+    {
+      "path": "Support/Readme/Chinese (TW)/ReadMe.txt",
+      "size": 10326,
+      "sha256": "0d2bc44655fe7f160f01a340e107745f7fb74593eac84f11786c761e5acf4ca7"
+    },
+    {
+      "path": "Support/Readme/Czech/ReadMe.txt",
+      "size": 10045,
+      "sha256": "9df38d0dec0b2fd3e400ca916369a69df6a8033e7be3e6468be01fe0c72cd1ae"
+    },
+    {
+      "path": "Support/Readme/Danish/ReadMe.txt",
+      "size": 9959,
+      "sha256": "0931adbee1ff98a9497a2ba6ed95a5cb82d6dd64a4fa3716451ab6ab59acb551"
+    },
+    {
+      "path": "Support/Readme/Dutch/ReadMe.txt",
+      "size": 21978,
+      "sha256": "9f5b45b19610967d292e9855e337c9b5a5c261b916c8f787d3869ec0acb16445"
+    },
+    {
+      "path": "Support/Readme/English (UK)/ReadMe.txt",
+      "size": 9960,
+      "sha256": "918b7535ec3371aa9618045ee3df3fe8c0527c4e5f5e3a1b15b07754a3a75a01"
+    },
+    {
+      "path": "Support/Readme/English/ReadMe.txt",
+      "size": 20362,
+      "sha256": "5ae8b173b6168421d01c4fc7d5d61134f08a4780b23a3875adeaddcae1817e32"
+    },
+    {
+      "path": "Support/Readme/Finnish/ReadMe.txt",
+      "size": 10463,
+      "sha256": "43602385c264c7970aa8aa87c8dcb6ecece4245915c5d18dab1e20d9b61b95b6"
+    },
+    {
+      "path": "Support/Readme/French (Canada)/ReadMe.txt",
+      "size": 10654,
+      "sha256": "56250a769a2c0f923ceeb9009d5b94e8ff483264d93fb05f8b5409d3d97360d5"
+    },
+    {
+      "path": "Support/Readme/French/ReadMe.txt",
+      "size": 10686,
+      "sha256": "755cf5d54f614580239959b9fc1e218968bfc2d38d02fa0992c251464d558fff"
+    },
+    {
+      "path": "Support/Readme/German/ReadMe.txt",
+      "size": 9292,
+      "sha256": "489efd6ee85f93939516924971360b5c1402af619ded515cc78f37aaaa2a5fa4"
+    },
+    {
+      "path": "Support/Readme/Hungarian/ReadMe.txt",
+      "size": 10649,
+      "sha256": "e8f1415e9062de9b1db5d737e1aab8f404bab21f70d608fbefceddd9c638e299"
+    },
+    {
+      "path": "Support/Readme/Italian/ReadMe.txt",
+      "size": 10351,
+      "sha256": "ef3c1f776a1b707fd3f6551127bb65bf3160a768a017ca0cd3e0781625e32be8"
+    },
+    {
+      "path": "Support/Readme/Japanese/ReadMe.txt",
+      "size": 8352,
+      "sha256": "d24ae2ea4b605d7792f7fbbd156f4976d56fb9d7d986bca1ac5c62c48617d624"
+    },
+    {
+      "path": "Support/Readme/Korean/ReadMe.txt",
+      "size": 9960,
+      "sha256": "918b7535ec3371aa9618045ee3df3fe8c0527c4e5f5e3a1b15b07754a3a75a01"
+    },
+    {
+      "path": "Support/Readme/Norwegian/ReadMe.txt",
+      "size": 19494,
+      "sha256": "541da982cc2f95d9e1917dba4868f23910561384e377dde8415bc2097d0900dd"
+    },
+    {
+      "path": "Support/Readme/Polish/ReadMe.txt",
+      "size": 11396,
+      "sha256": "6868c347f15b9449b57ce65b76cb6635f47725f07a861f13ecb85703046dda18"
+    },
+    {
+      "path": "Support/Readme/Portuguese/ReadMe.txt",
+      "size": 11359,
+      "sha256": "3a5d1ced1864c66eb32bd6b7155f7bbc5c6f6425bf062b1994897dc7693b6a3f"
+    },
+    {
+      "path": "Support/Readme/Russian/ReadMe.txt",
+      "size": 15555,
+      "sha256": "586f3e534a39ebb3ce276660b1596f3fa63b6a733337ace3cd6067e2291f75ad"
+    },
+    {
+      "path": "Support/Readme/Spanish/ReadMe.txt",
+      "size": 11465,
+      "sha256": "d00db79cebe484afb8188fe10ef0ebc7efd45d38b69230cb6c6ef189c5dda1c2"
+    },
+    {
+      "path": "Support/Readme/Swedish/ReadMe.txt",
+      "size": 9639,
+      "sha256": "ec24b5bc60d5f26e4df0d5835e79b5bf3ea328ba56e664372d1b97c6893c35f3"
+    },
+    {
+      "path": "ubiorbitapi_r2.dll",
+      "size": 385024,
+      "sha256": "12a2080d6f7a1533a80cecf7eb43b68c078f7e6e2f02e03c2e8f80ad0b9f9b16"
+    },
+    {
+      "path": "ubiorbitapi_r2_loader.dll",
+      "size": 6144,
+      "sha256": "b24c74e421fdbf3430e938ff212a0c39e9293b48113d4097db0beaf3e6ceb999"
+    },
+    {
+      "path": "uplay_r1.dll",
+      "size": 2274616,
+      "sha256": "9cda528488a09d10efbc002e2763f7299e7af96def9830133c8828dcf46b4411"
+    },
+    {
+      "path": "uplay_r1_loader.dll",
+      "size": 6144,
+      "sha256": "017b1d88b84c26d3ee0ebb007aac6469b7c88d588be2daa659b4ad567c2fa5fe"
+    },
+    {
+      "path": "version.bin",
+      "size": 7,
+      "sha256": "397587ee7c1c0930c44534a24bc032668e2acb0c571d6545722c13ec3cb85559"
+    },
+    {
+      "path": "videos/AC3_DLCA_IntroVideo.bik",
+      "size": 32747068,
+      "sha256": "299ae5d9fee27ef0597a798e2bc8fe31e20564d9d6f87dd855b3871226c2ff35"
+    },
+    {
+      "path": "videos/AC3_DLCA_TruthVideo.bik",
+      "size": 32919692,
+      "sha256": "7e071a17fc58eab26fa5100895e24797e85bb9fde1565091bd21fdcce2fb4b67"
+    },
+    {
+      "path": "videos/AC3_DLCB_IntroVideo.bik",
+      "size": 114694476,
+      "sha256": "4689a1ab5c6ca1298028a267145ab63e68dbe7168d529de2e61a7c9bd9e5a4b4"
+    },
+    {
+      "path": "videos/AC3_DLCB_TruthVideo.bik",
+      "size": 84768560,
+      "sha256": "4329b64fe78e71b229ef189c464e91a7e0a4ecbe501652f9dd6bdf56abcd8990"
+    },
+    {
+      "path": "videos/AC3_DLCC_EndVideo.bik",
+      "size": 260533328,
+      "sha256": "01b3a65075868fb324f3000b5b9d71eef61b52c2dcca25b97e8365512c8d75fc"
+    },
+    {
+      "path": "videos/AC3_DLCC_IntroVideo.bik",
+      "size": 160621528,
+      "sha256": "3c0ae701f81e868722821ccd32a5eac5117cb0a077528f757fe069b881671f0f"
+    },
+    {
+      "path": "videos/AC3_DLCC_TruthVideo.bik",
+      "size": 37322252,
+      "sha256": "53f177fcaf21e202556ec0152b9801c63423b0e8b091a4c7a43a75dd8229cd88"
+    },
+    {
+      "path": "videos/AC3_End.bik",
+      "size": 176576252,
+      "sha256": "30e3d1245652c61bf97ec43b0c28c25b6386e9b4bc0d6cd35899c73e654ed208"
+    },
+    {
+      "path": "videos/br/warning_disclaimer.bik",
+      "size": 103648,
+      "sha256": "d8c96810169b05610591f1e57ae17800bf2f10f55d0aa5d97aeebd9f44ed6289"
+    },
+    {
+      "path": "videos/ch/warning_disclaimer.bik",
+      "size": 98240,
+      "sha256": "b349c3758369ecd45ae8f5b4b0d9202bcede97b6cdc6bd34cd1b3b13a97223ec"
+    },
+    {
+      "path": "videos/cz/warning_disclaimer.bik",
+      "size": 103172,
+      "sha256": "d35bc0f66d5f61a2df69552c9ace6c6bcd3fb23d8cbfb52f8edb27d338755d06"
+    },
+    {
+      "path": "videos/de/warning_disclaimer.bik",
+      "size": 125536,
+      "sha256": "a07b853d4d5a370771bf947568922671e7440dde021b60df4560961522bb8dd1"
+    },
+    {
+      "path": "videos/dn/warning_disclaimer.bik",
+      "size": 102032,
+      "sha256": "a1f6d814bd5a457889ef855bae7d95798b18ae1e2ae85ffdab2befc885b47495"
+    },
+    {
+      "path": "videos/du/warning_disclaimer.bik",
+      "size": 119528,
+      "sha256": "1f2c4e8c67e7016a043b6419f5557ac259b540d145023a81b8769efbf6ca7a16"
+    },
+    {
+      "path": "videos/en/warning_disclaimer.bik",
+      "size": 101080,
+      "sha256": "b2455036dc3d5ddf64cf24fa19f68303f5fd9ec9ca9331522d81e262806ba5d5"
+    },
+    {
+      "path": "videos/fi/warning_disclaimer.bik",
+      "size": 102516,
+      "sha256": "26f58d81c4b285bfd8021c8641880d6ff7e69995486aa8307452ce00f3bc94ff"
+    },
+    {
+      "path": "videos/fr/warning_disclaimer.bik",
+      "size": 108036,
+      "sha256": "13b5db49c5af9bc0ad6660a619e6a129eee0a9de51eae13f7159a5d3050553a1"
+    },
+    {
+      "path": "videos/HealthyEarth_long3.bik",
+      "size": 10001516,
+      "sha256": "28abf98abe36759a0c37fec9db12ad78387bc879612bb883837458c04a6c49fa"
+    },
+    {
+      "path": "videos/hu/warning_disclaimer.bik",
+      "size": 103252,
+      "sha256": "b770a2b522c398e37486a165c1c4c8f63309582eb387f96555a66eaf1c9bb0e5"
+    },
+    {
+      "path": "videos/it/warning_disclaimer.bik",
+      "size": 99676,
+      "sha256": "06c73f69f8ba1c827688d7e5d750be6dcf06b234df2c5478801a41e04e82ca1b"
+    },
+    {
+      "path": "videos/jp/warning_disclaimer.bik",
+      "size": 145680,
+      "sha256": "c78858f8e75cb8c6b3cb9990cd6e4bf690d49ca1bc67b6a93df49f9f74d97415"
+    },
+    {
+      "path": "videos/ko/warning_disclaimer.bik",
+      "size": 122620,
+      "sha256": "371729488409d51d6a17b56889b892d954cef8e032ef935d9e9689bee80b7f9e"
+    },
+    {
+      "path": "videos/nw/warning_disclaimer.bik",
+      "size": 98060,
+      "sha256": "8ffb1f45866bdf6dcf261e30b7c8578b188b908cce4376e98c7f7966e8aa2a51"
+    },
+    {
+      "path": "videos/pl/warning_disclaimer.bik",
+      "size": 104412,
+      "sha256": "fb030cc1954b7ebd72c60e5f81c472c0ac45efeb13c54bff0685a8fc25967563"
+    },
+    {
+      "path": "videos/previouslyon.bik",
+      "size": 182544156,
+      "sha256": "5a09e5d3b56f72b4d98fb77afd0f7b9a18ab5d0afeedf5bda1f8ce018105b1e0"
+    },
+    {
+      "path": "videos/pt/warning_disclaimer.bik",
+      "size": 104388,
+      "sha256": "9be631c46446b52fcb54668452e68107d4c6c2447489bd0d23eda3abd29eafd3"
+    },
+    {
+      "path": "videos/ru/warning_disclaimer.bik",
+      "size": 113948,
+      "sha256": "453c6ce4792e15e51cdf70e9265469f1f1359a1dd411a0efe57deacc59f1a97b"
+    },
+    {
+      "path": "videos/sp/warning_disclaimer.bik",
+      "size": 102476,
+      "sha256": "325078e4243208998baf9e67046fc89c782b10cdc1457e055b7355cfbf969bd9"
+    },
+    {
+      "path": "videos/sp_loadexec.bik",
+      "size": 9768820,
+      "sha256": "9a15e546a9f8bb98396d695bb82c15cf706851bc0b76e6ba27a72ffee0c0a9f2"
+    },
+    {
+      "path": "videos/SQ07_M05_Spyglass.bik",
+      "size": 20469604,
+      "sha256": "7bea7819a5b72b972c52811f46bc4422e90b8270691fc6ae713dd4fb5648f48d"
+    },
+    {
+      "path": "videos/sw/warning_disclaimer.bik",
+      "size": 99556,
+      "sha256": "c5a68dbe12f9a3514d330e0725e54c2373d586b4a68773c4b27d712448d7cd5e"
+    },
+    {
+      "path": "videos/tw/warning_disclaimer.bik",
+      "size": 98240,
+      "sha256": "b349c3758369ecd45ae8f5b4b0d9202bcede97b6cdc6bd34cd1b3b13a97223ec"
+    },
+    {
+      "path": "videos/ubi_logo.bik",
+      "size": 20038508,
+      "sha256": "197da8bb75d6b93110181ebe271c29a29edc2496724be35d438e4b50c1550931"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "208480_install.vdf",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 4215
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 4215,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 893631,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1181719,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1991215,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16965239,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31377543,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37096415,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42169655,
+          "length": 7054336
+        },
+        {
+          "file": "AC3MP.exe",
+          "file_offset": 0,
+          "chunk_offset": 49223991,
+          "length": 21725696
+        },
+        {
+          "file": "AC3SP.exe",
+          "file_offset": 0,
+          "chunk_offset": 70949687,
+          "length": 38460728
+        },
+        {
+          "file": "binkw32.dll",
+          "file_offset": 0,
+          "chunk_offset": 109410415,
+          "length": 227328
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/01 _ Assassin's Creed III Main Theme_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 109637743,
+          "length": 7472172
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/02 _ An Uncertain Present_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 117109915,
+          "length": 5242092
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/03 _ Escape in Style_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 122352007,
+          "length": 5430252
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/04 _ Welcome to Boston_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 127782259,
+          "length": 6190572
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/05 _ Freedom Fighter_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 133972831,
+          "length": 5459052
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/06 _ A Bitter Truth_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 139431883,
+          "length": 3860652
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/07 _ Through the Frontier_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 143292535,
+          "length": 7285932
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/08 _ Connor's Life_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 150578467,
+          "length": 11875692
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/09 _ Trouble in Town_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 162454159,
+          "length": 5841132
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/10 _ Farewell_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 168295291,
+          "length": 2615532
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/11 _ HomeStead_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 170910823,
+          "length": 7291692
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/12 _ The Battle of Breed's Hill_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 178202515,
+          "length": 5531052
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/13 _ Speck of Dust_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 183733567,
+          "length": 6917292
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/14 _ Modern Assassin_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 190650859,
+          "length": 7415532
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/15 _ Desmond's Destiny_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 198066391,
+          "length": 3946092
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/16 _ The Aquilla_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 202012483,
+          "length": 5531052
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/17 _ Fight Club_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 207543535,
+          "length": 5012652
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/18 _ Eye of the Storm_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 212556187,
+          "length": 5120172
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/19 _ Temple Secrets_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 217676359,
+          "length": 4073772
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/20 _ Beer and Friends_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 221750131,
+          "length": 2842092
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/21 _ Battle at Sea_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 224592223,
+          "length": 9686892
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/22 _ Breaching The Walls_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 234279115,
+          "length": 8497452
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/23 _ Wild Instincts_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 242776567,
+          "length": 6572652
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/24 _ What Came Before_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 249349219,
+          "length": 10053612
+        },
+        {
+          "file": "BONUS CONTENT/AC3 Soundtrack/25 _ Assassin's Creed III Main Theme Variation_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 259402831,
+          "length": 3757932
+        },
+        {
+          "file": "BONUS CONTENT/George Washington's Journal/GW notebook V Dig FRA.pdf",
+          "file_offset": 0,
+          "chunk_offset": 263160763,
+          "length": 202568453
+        }
+      ],
+      "sha256": "780bbeab00249363548e7ced0b313945631ce5674339ecd9719d89effb26534f"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "BONUS CONTENT/George Washington's Journal/GW notebook V Dig FRA.pdf",
+          "file_offset": 202568453,
+          "chunk_offset": 0,
+          "length": 4838809
+        },
+        {
+          "file": "BONUS CONTENT/George Washington's Journal/GW notebook V Dig GER.pdf",
+          "file_offset": 0,
+          "chunk_offset": 4838809,
+          "length": 207937205
+        },
+        {
+          "file": "BONUS CONTENT/George Washington's Journal/GW notebook V Dig ITA.pdf",
+          "file_offset": 0,
+          "chunk_offset": 212776014,
+          "length": 206398195
+        },
+        {
+          "file": "BONUS CONTENT/George Washington's Journal/GW notebook V Dig SPA.pdf",
+          "file_offset": 0,
+          "chunk_offset": 419174209,
+          "length": 46555007
+        }
+      ],
+      "sha256": "8de4c5e0cfc37bc548031adf72dcdda5752218770da897b1c824932c888c935a"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "BONUS CONTENT/George Washington's Journal/GW notebook V Dig SPA.pdf",
+          "file_offset": 46555007,
+          "chunk_offset": 0,
+          "length": 161524445
+        },
+        {
+          "file": "BONUS CONTENT/George Washington's Journal/GW notebook V Dig UK_HD.pdf",
+          "file_offset": 0,
+          "chunk_offset": 161524445,
+          "length": 196928122
+        },
+        {
+          "file": "DataPC_DX11.forge",
+          "file_offset": 0,
+          "chunk_offset": 358452567,
+          "length": 107276649
+        }
+      ],
+      "sha256": "a7c1396d16e32159060f54b4926284b19fdf953f629e68c2b33570a96d984804"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11.forge",
+          "file_offset": 107276649,
+          "chunk_offset": 0,
+          "length": 465729216
+        }
+      ],
+      "sha256": "0f0ef5090391431ecd4c1af7f9de12b6c06b86be7eb074060408fb54b1742dc4"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11.forge",
+          "file_offset": 573005865,
+          "chunk_offset": 0,
+          "length": 28909527
+        },
+        {
+          "file": "DataPC_DX11_10_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 28909527,
+          "length": 331153408
+        },
+        {
+          "file": "DataPC_DX11_2_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 360062935,
+          "length": 720896
+        },
+        {
+          "file": "DataPC_DX11_3_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 360783831,
+          "length": 884736
+        },
+        {
+          "file": "DataPC_DX11_4_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 361668567,
+          "length": 12451840
+        },
+        {
+          "file": "DataPC_DX11_6_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 374120407,
+          "length": 91608809
+        }
+      ],
+      "sha256": "b4eddcb37ea4848bdeb3c101dacd4907eb9cca419197c5c0a9874d16b5990ec7"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_6_dlc.forge",
+          "file_offset": 91608809,
+          "chunk_offset": 0,
+          "length": 206776599
+        },
+        {
+          "file": "DataPC_DX11_8_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 206776599,
+          "length": 258952617
+        }
+      ],
+      "sha256": "3c8dea6d0c281bec651d5d0b97eac2edcde54e98bee2dc9c68ed4a63c24340c0"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_8_dlc.forge",
+          "file_offset": 258952617,
+          "chunk_offset": 0,
+          "length": 68596311
+        },
+        {
+          "file": "DataPC_DX11_AC3_Abstergo.forge",
+          "file_offset": 0,
+          "chunk_offset": 68596311,
+          "length": 85884928
+        },
+        {
+          "file": "DataPC_DX11_AC3_Boston.forge",
+          "file_offset": 0,
+          "chunk_offset": 154481239,
+          "length": 311247977
+        }
+      ],
+      "sha256": "fd1480f4b9b2eb6c6d972b9bc1a99125e3662329267aecd7830ab8d204fe0423"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_Boston.forge",
+          "file_offset": 311247977,
+          "chunk_offset": 0,
+          "length": 465729216
+        }
+      ],
+      "sha256": "f1847aab107013245ee3dd92dc46efd6192c91e0f1ae965319bfd3ceea644140"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_Boston.forge",
+          "file_offset": 776977193,
+          "chunk_offset": 0,
+          "length": 101762263
+        },
+        {
+          "file": "DataPC_DX11_AC3_Boston_Under.forge",
+          "file_offset": 0,
+          "chunk_offset": 101762263,
+          "length": 98729984
+        },
+        {
+          "file": "DataPC_DX11_AC3_Brewery.forge",
+          "file_offset": 0,
+          "chunk_offset": 200492247,
+          "length": 161316864
+        },
+        {
+          "file": "DataPC_DX11_AC3_BunkerHill.forge",
+          "file_offset": 0,
+          "chunk_offset": 361809111,
+          "length": 103920105
+        }
+      ],
+      "sha256": "63a98244d2eddf1a7c515bb49efd6b0a9738e8bd29c729f32fcf200068cd589f"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_BunkerHill.forge",
+          "file_offset": 103920105,
+          "chunk_offset": 0,
+          "length": 137416215
+        },
+        {
+          "file": "DataPC_DX11_AC3_Castle.forge",
+          "file_offset": 0,
+          "chunk_offset": 137416215,
+          "length": 135462912
+        },
+        {
+          "file": "DataPC_DX11_AC3_Cozumel.forge",
+          "file_offset": 0,
+          "chunk_offset": 272879127,
+          "length": 123142144
+        },
+        {
+          "file": "DataPC_DX11_AC3_DLC_BearSpirit_10_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 396021271,
+          "length": 69707945
+        }
+      ],
+      "sha256": "b5b425026f8743eff2d658048d7a6b352869dc73887b5e38f3e7674a0289db38"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_DLC_BearSpirit_10_dlc.forge",
+          "file_offset": 69707945,
+          "chunk_offset": 0,
+          "length": 59234135
+        },
+        {
+          "file": "DataPC_DX11_AC3_DLC_Boston_8_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 59234135,
+          "length": 406495081
+        }
+      ],
+      "sha256": "52ca4e4bbd815fba572ebe5bcd47c4781747ff1015afbb39fee67dec6d3ffbbb"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_DLC_Boston_8_dlc.forge",
+          "file_offset": 406495081,
+          "chunk_offset": 0,
+          "length": 396288151
+        },
+        {
+          "file": "DataPC_DX11_AC3_DLC_EagleSpirit_8_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 396288151,
+          "length": 69441065
+        }
+      ],
+      "sha256": "f4e02dca03efd57a1d26a7e3e45dd64191cf8e753869a759aa6ddb68d17ebac9"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_DLC_EagleSpirit_8_dlc.forge",
+          "file_offset": 69441065,
+          "chunk_offset": 0,
+          "length": 58485207
+        },
+        {
+          "file": "DataPC_DX11_AC3_DLC_Frontier_6_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 58485207,
+          "length": 407244009
+        }
+      ],
+      "sha256": "6cf059383f16eebca010a4e8d7a57110f229b0a9cd5f12fbd7ad27a39d794047"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_DLC_Frontier_6_dlc.forge",
+          "file_offset": 407244009,
+          "chunk_offset": 0,
+          "length": 344388375
+        },
+        {
+          "file": "DataPC_DX11_AC3_DLC_NavNYCoast_10_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 344388375,
+          "length": 121340841
+        }
+      ],
+      "sha256": "c306c1f4de33e70a0939225a404edaade711c018159c1182ceea37172c6d15d5"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_DLC_NavNYCoast_10_dlc.forge",
+          "file_offset": 121340841,
+          "chunk_offset": 0,
+          "length": 40402007
+        },
+        {
+          "file": "DataPC_DX11_AC3_DLC_NewYork_10_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 40402007,
+          "length": 425327209
+        }
+      ],
+      "sha256": "5d5581e7106e68f1a26f5e308c1c745c6c0f9e42a04267f7e552f6b0868b2420"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_DLC_NewYork_10_dlc.forge",
+          "file_offset": 425327209,
+          "chunk_offset": 0,
+          "length": 247465367
+        },
+        {
+          "file": "DataPC_DX11_AC3_DLC_Nightmare_8_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 247465367,
+          "length": 49446912
+        },
+        {
+          "file": "DataPC_DX11_AC3_DLC_WolfSpirit_6_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 296912279,
+          "length": 127959040
+        },
+        {
+          "file": "DataPC_DX11_AC3_DLCWestpoint_2_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 424871319,
+          "length": 40857897
+        }
+      ],
+      "sha256": "3ca249d21ce2d56e19177389d440bc8a183e9f65ec57a96f9fc6deb98cc90451"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_DLCWestpoint_2_dlc.forge",
+          "file_offset": 40857897,
+          "chunk_offset": 0,
+          "length": 453709527
+        },
+        {
+          "file": "DataPC_DX11_AC3_FCTemple.forge",
+          "file_offset": 0,
+          "chunk_offset": 453709527,
+          "length": 12019689
+        }
+      ],
+      "sha256": "ce3df0a4f019fe205dcd9211813866168e9c8b0e61ef537e90f9195749575668"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_FCTemple.forge",
+          "file_offset": 12019689,
+          "chunk_offset": 0,
+          "length": 99915799
+        },
+        {
+          "file": "DataPC_DX11_AC3_FortWolcott.forge",
+          "file_offset": 0,
+          "chunk_offset": 99915799,
+          "length": 232128512
+        },
+        {
+          "file": "DataPC_DX11_AC3_Frontier.forge",
+          "file_offset": 0,
+          "chunk_offset": 332044311,
+          "length": 133684905
+        }
+      ],
+      "sha256": "216f7926acdcb07d07426f47001b50fabc35c6fc9ce23452f323a9e56b094117"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_Frontier.forge",
+          "file_offset": 133684905,
+          "chunk_offset": 0,
+          "length": 465729216
+        }
+      ],
+      "sha256": "016fa81a1747f89cb54b51530f258253264af6f5af63d242eb8a74c8144c55a9"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_Frontier.forge",
+          "file_offset": 599414121,
+          "chunk_offset": 0,
+          "length": 327723671
+        },
+        {
+          "file": "DataPC_DX11_AC3_GhostShip.forge",
+          "file_offset": 0,
+          "chunk_offset": 327723671,
+          "length": 129499136
+        },
+        {
+          "file": "DataPC_DX11_AC3_Homestead.forge",
+          "file_offset": 0,
+          "chunk_offset": 457222807,
+          "length": 8506409
+        }
+      ],
+      "sha256": "756a2673907283505b841300dc89c0a559c22275b1b8603e0f51a8adbccb206e"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_Homestead.forge",
+          "file_offset": 8506409,
+          "chunk_offset": 0,
+          "length": 465729216
+        }
+      ],
+      "sha256": "249ad380d55d3e2dd03f04172ba88ac9b89d51ebb8409e0b96edccbe5fbb96b4"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_Homestead.forge",
+          "file_offset": 474235625,
+          "chunk_offset": 0,
+          "length": 363019543
+        },
+        {
+          "file": "DataPC_DX11_AC3_ModernTower.forge",
+          "file_offset": 0,
+          "chunk_offset": 363019543,
+          "length": 102709673
+        }
+      ],
+      "sha256": "be4372865c9c8641ba0f8933649fc48f692606907d51e3ef4f703bbda2c8817b"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_ModernTower.forge",
+          "file_offset": 102709673,
+          "chunk_offset": 0,
+          "length": 280151
+        },
+        {
+          "file": "DataPC_DX11_AC3_NavCarSea.forge",
+          "file_offset": 0,
+          "chunk_offset": 280151,
+          "length": 282886144
+        },
+        {
+          "file": "DataPC_DX11_AC3_NavChesaBay.forge",
+          "file_offset": 0,
+          "chunk_offset": 283166295,
+          "length": 154632192
+        },
+        {
+          "file": "DataPC_DX11_AC3_NavGenOcean.forge",
+          "file_offset": 0,
+          "chunk_offset": 437798487,
+          "length": 27930729
+        }
+      ],
+      "sha256": "a59495f63d3ed174b1e6c15b4f4f7d5ae92326c218259b23eaa438e0875814d8"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_NavGenOcean.forge",
+          "file_offset": 27930729,
+          "chunk_offset": 0,
+          "length": 153341847
+        },
+        {
+          "file": "DataPC_DX11_AC3_NavNACoast.forge",
+          "file_offset": 0,
+          "chunk_offset": 153341847,
+          "length": 246972416
+        },
+        {
+          "file": "DataPC_DX11_AC3_NavPrivCar.forge",
+          "file_offset": 0,
+          "chunk_offset": 400314263,
+          "length": 65414953
+        }
+      ],
+      "sha256": "aae5ea1854d3cd1d255a1c309f984f395e643beb2baa67f29a7a499d73801bc9"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_NavPrivCar.forge",
+          "file_offset": 65414953,
+          "chunk_offset": 0,
+          "length": 101210327
+        },
+        {
+          "file": "DataPC_DX11_AC3_NewYork.forge",
+          "file_offset": 0,
+          "chunk_offset": 101210327,
+          "length": 364518889
+        }
+      ],
+      "sha256": "dbae7d3025c3e00ee0414e41f56c9460681ee6c4fd9ca79f2828ddded54e4cf2"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_NewYork.forge",
+          "file_offset": 364518889,
+          "chunk_offset": 0,
+          "length": 388194839
+        },
+        {
+          "file": "DataPC_DX11_AC3_NewYork_Under.forge",
+          "file_offset": 0,
+          "chunk_offset": 388194839,
+          "length": 77534377
+        }
+      ],
+      "sha256": "2902e9fb8e84767e1a0e213c1586a90928fe19aabbc35b31342902f63fb6d7cd"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_NewYork_Under.forge",
+          "file_offset": 77534377,
+          "chunk_offset": 0,
+          "length": 6908759
+        },
+        {
+          "file": "DataPC_DX11_AC3_OakIsland.forge",
+          "file_offset": 0,
+          "chunk_offset": 6908759,
+          "length": 183238656
+        },
+        {
+          "file": "DataPC_DX11_AC3_Opera.forge",
+          "file_offset": 0,
+          "chunk_offset": 190147415,
+          "length": 106463232
+        },
+        {
+          "file": "DataPC_DX11_AC3_PadreIsland.forge",
+          "file_offset": 0,
+          "chunk_offset": 296610647,
+          "length": 169118569
+        }
+      ],
+      "sha256": "c7a1d6c17fef76b7c47711caaf6e7f077a035c453f6155d3682fcc769d5a4598"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_AC3_PadreIsland.forge",
+          "file_offset": 169118569,
+          "chunk_offset": 0,
+          "length": 10548375
+        },
+        {
+          "file": "DataPC_DX11_AC3_Philadelphia.forge",
+          "file_offset": 0,
+          "chunk_offset": 10548375,
+          "length": 36077568
+        },
+        {
+          "file": "DataPC_DX11_AC3_SpiritJourney.forge",
+          "file_offset": 0,
+          "chunk_offset": 46625943,
+          "length": 85164032
+        },
+        {
+          "file": "DataPC_DX11_AC3_Stadium.forge",
+          "file_offset": 0,
+          "chunk_offset": 131789975,
+          "length": 104103936
+        },
+        {
+          "file": "DataPC_DX11_DLC_AI_BossGym_GW_6_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 235893911,
+          "length": 99549184
+        },
+        {
+          "file": "DataPC_DX11_DLC_AI_Integration.forge",
+          "file_offset": 0,
+          "chunk_offset": 335443095,
+          "length": 130286121
+        }
+      ],
+      "sha256": "3f1997a76185048c796f80cdc1df8732127ad257fd837de431635959b52bff41"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_DLC_AI_Integration.forge",
+          "file_offset": 130286121,
+          "chunk_offset": 0,
+          "length": 42499543
+        },
+        {
+          "file": "DataPC_DX11_DLC_AI_Integration_6_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 42499543,
+          "length": 196182016
+        },
+        {
+          "file": "DataPC_DX11_extra.forge",
+          "file_offset": 0,
+          "chunk_offset": 238681559,
+          "length": 227047657
+        }
+      ],
+      "sha256": "b31dd3aba2dd84c831ea80aa3d35ca9a9aba21a3c579b923078391440a7a1bb7"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_extra.forge",
+          "file_offset": 227047657,
+          "chunk_offset": 0,
+          "length": 446301975
+        },
+        {
+          "file": "DataPC_DX11_extra_chr.forge",
+          "file_offset": 0,
+          "chunk_offset": 446301975,
+          "length": 19427241
+        }
+      ],
+      "sha256": "bb20e249f956686d62b793fc43aece45c268d9bc4eda05604db5f3ba3ba9edad"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_extra_chr.forge",
+          "file_offset": 19427241,
+          "chunk_offset": 0,
+          "length": 465729216
+        }
+      ],
+      "sha256": "d4cbd291c7b739741ffc2c178a116515af0c5edf7da781d4c3d25676b7215831"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_extra_chr.forge",
+          "file_offset": 485156457,
+          "chunk_offset": 0,
+          "length": 460167575
+        },
+        {
+          "file": "DataPC_DX11_TitleScreen.forge",
+          "file_offset": 0,
+          "chunk_offset": 460167575,
+          "length": 229376
+        },
+        {
+          "file": "DataPC_DX11_WhiteRoom.forge",
+          "file_offset": 0,
+          "chunk_offset": 460396951,
+          "length": 5332265
+        }
+      ],
+      "sha256": "b4a958e1bdcfee43bf5b780f8ccbf14f1abef54498ea8e79b04e703a319522b1"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "DataPC_DX11_WhiteRoom.forge",
+          "file_offset": 5332265,
+          "chunk_offset": 0,
+          "length": 68068055
+        },
+        {
+          "file": "DataPC_DX11_WhiteRoom_10_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 68068055,
+          "length": 40730624
+        },
+        {
+          "file": "DataPC_DX11_WhiteRoom_6_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 108798679,
+          "length": 25133056
+        },
+        {
+          "file": "DataPC_DX11_WhiteRoom_8_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 133931735,
+          "length": 40730624
+        },
+        {
+          "file": "dbghelp32.dll",
+          "file_offset": 0,
+          "chunk_offset": 174662359,
+          "length": 1080672
+        },
+        {
+          "file": "DefaultBindings.map",
+          "file_offset": 0,
+          "chunk_offset": 175743031,
+          "length": 20207
+        },
+        {
+          "file": "localization.lang",
+          "file_offset": 0,
+          "chunk_offset": 175763238,
+          "length": 14
+        },
+        {
+          "file": "memstats.csv",
+          "file_offset": 0,
+          "chunk_offset": 175763252,
+          "length": 31870
+        },
+        {
+          "file": "pb/pbag.dll",
+          "file_offset": 0,
+          "chunk_offset": 175795122,
+          "length": 57344
+        },
+        {
+          "file": "pb/pbcl.dll",
+          "file_offset": 0,
+          "chunk_offset": 175852466,
+          "length": 953640
+        },
+        {
+          "file": "pb/pbsv.dll",
+          "file_offset": 0,
+          "chunk_offset": 176806106,
+          "length": 421888
+        },
+        {
+          "file": "Profile/STEAMRIP/SteamUserID.cfg",
+          "file_offset": 0,
+          "chunk_offset": 177227994,
+          "length": 61
+        },
+        {
+          "file": "SKIDROW.ini",
+          "file_offset": 0,
+          "chunk_offset": 177228055,
+          "length": 64
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_10_bra.pck",
+          "file_offset": 0,
+          "chunk_offset": 177228119,
+          "length": 11641559
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_10_eng.pck",
+          "file_offset": 0,
+          "chunk_offset": 188869678,
+          "length": 12496287
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_10_fre.pck",
+          "file_offset": 0,
+          "chunk_offset": 201365965,
+          "length": 12179571
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_10_ger.pck",
+          "file_offset": 0,
+          "chunk_offset": 213545536,
+          "length": 12246416
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_10_ita.pck",
+          "file_offset": 0,
+          "chunk_offset": 225791952,
+          "length": 12562453
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_10_jap.pck",
+          "file_offset": 0,
+          "chunk_offset": 238354405,
+          "length": 10964993
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_10_rus.pck",
+          "file_offset": 0,
+          "chunk_offset": 249319398,
+          "length": 11891726
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_10_sfx.pck",
+          "file_offset": 0,
+          "chunk_offset": 261211124,
+          "length": 106688837
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_10_spa.pck",
+          "file_offset": 0,
+          "chunk_offset": 367899961,
+          "length": 11869652
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_6_bra.pck",
+          "file_offset": 0,
+          "chunk_offset": 379769613,
+          "length": 12222744
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_6_eng.pck",
+          "file_offset": 0,
+          "chunk_offset": 391992357,
+          "length": 13632011
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_6_fre.pck",
+          "file_offset": 0,
+          "chunk_offset": 405624368,
+          "length": 12871910
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_6_ger.pck",
+          "file_offset": 0,
+          "chunk_offset": 418496278,
+          "length": 12965225
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_6_ita.pck",
+          "file_offset": 0,
+          "chunk_offset": 431461503,
+          "length": 13265166
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_6_jap.pck",
+          "file_offset": 0,
+          "chunk_offset": 444726669,
+          "length": 11767990
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_6_rus.pck",
+          "file_offset": 0,
+          "chunk_offset": 456494659,
+          "length": 9234557
+        }
+      ],
+      "sha256": "af60062a2f507ae53420b36611189e4316d3385ffc9dc0b42d0114f688c1ede6"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_6_rus.pck",
+          "file_offset": 9234557,
+          "chunk_offset": 0,
+          "length": 3528281
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_6_sfx.pck",
+          "file_offset": 0,
+          "chunk_offset": 3528281,
+          "length": 115917125
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_6_spa.pck",
+          "file_offset": 0,
+          "chunk_offset": 119445406,
+          "length": 12486294
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_8_bra.pck",
+          "file_offset": 0,
+          "chunk_offset": 131931700,
+          "length": 12165400
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_8_eng.pck",
+          "file_offset": 0,
+          "chunk_offset": 144097100,
+          "length": 13194655
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_8_fre.pck",
+          "file_offset": 0,
+          "chunk_offset": 157291755,
+          "length": 12787942
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_8_ger.pck",
+          "file_offset": 0,
+          "chunk_offset": 170079697,
+          "length": 12655977
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_8_ita.pck",
+          "file_offset": 0,
+          "chunk_offset": 182735674,
+          "length": 13323900
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_8_jap.pck",
+          "file_offset": 0,
+          "chunk_offset": 196059574,
+          "length": 11784374
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_8_rus.pck",
+          "file_offset": 0,
+          "chunk_offset": 207843948,
+          "length": 12098279
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_8_sfx.pck",
+          "file_offset": 0,
+          "chunk_offset": 219942227,
+          "length": 88205637
+        },
+        {
+          "file": "sounddata/PC/AC3_pc_dlc_8_spa.pck",
+          "file_offset": 0,
+          "chunk_offset": 308147864,
+          "length": 12486294
+        },
+        {
+          "file": "sounddata/PC/sounds_eng.pck",
+          "file_offset": 0,
+          "chunk_offset": 320634158,
+          "length": 145095058
+        }
+      ],
+      "sha256": "9d1dc6aa2211f2a6fa7d94baeb4e68f805c3c29ba98925ebc8d282e46efe0571"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "sounddata/PC/sounds_eng.pck",
+          "file_offset": 145095058,
+          "chunk_offset": 0,
+          "length": 191650563
+        },
+        {
+          "file": "sounddata/PC/sounds_sfx.pck",
+          "file_offset": 0,
+          "chunk_offset": 191650563,
+          "length": 274078653
+        }
+      ],
+      "sha256": "c2bd4ed69112d99f8cfb016e289cbe79ad5ee6bf9c972611bec2408b3c282bc6"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "sounddata/PC/sounds_sfx.pck",
+          "file_offset": 274078653,
+          "chunk_offset": 0,
+          "length": 465729216
+        }
+      ],
+      "sha256": "e39906fc18805405a33504b4a8b1d2a53c904b18578794d524a63fbfddb1e4df"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "sounddata/PC/sounds_sfx.pck",
+          "file_offset": 739807869,
+          "chunk_offset": 0,
+          "length": 465729216
+        }
+      ],
+      "sha256": "6fc6a13ea2f224b107c20aea5f857c5502a06f168f51045137eddceae5d2b5ed"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "sounddata/PC/sounds_sfx.pck",
+          "file_offset": 1205537085,
+          "chunk_offset": 0,
+          "length": 229320496
+        },
+        {
+          "file": "steam_api.dll",
+          "file_offset": 0,
+          "chunk_offset": 229320496,
+          "length": 1256960
+        },
+        {
+          "file": "steam_api.dll.valve",
+          "file_offset": 0,
+          "chunk_offset": 230577456,
+          "length": 105808
+        },
+        {
+          "file": "SteamConfig.ini",
+          "file_offset": 0,
+          "chunk_offset": 230683264,
+          "length": 2157
+        },
+        {
+          "file": "Support/KB971512-x64.msu",
+          "file_offset": 0,
+          "chunk_offset": 230685421,
+          "length": 9848595
+        },
+        {
+          "file": "Support/KB971512-x86.msu",
+          "file_offset": 0,
+          "chunk_offset": 240534016,
+          "length": 4814058
+        },
+        {
+          "file": "Support/License/Chinese/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245348074,
+          "length": 53982
+        },
+        {
+          "file": "Support/License/Czech/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245402056,
+          "length": 31852
+        },
+        {
+          "file": "Support/License/Danish/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245433908,
+          "length": 26972
+        },
+        {
+          "file": "Support/License/Dutch/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245460880,
+          "length": 29173
+        },
+        {
+          "file": "Support/License/English (Canada)/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245490053,
+          "length": 25687
+        },
+        {
+          "file": "Support/License/English (UK)/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245515740,
+          "length": 25762
+        },
+        {
+          "file": "Support/License/English/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245541502,
+          "length": 26220
+        },
+        {
+          "file": "Support/License/Finnish/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245567722,
+          "length": 27729
+        },
+        {
+          "file": "Support/License/French (Canada)/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245595451,
+          "length": 32080
+        },
+        {
+          "file": "Support/License/French/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245627531,
+          "length": 33155
+        },
+        {
+          "file": "Support/License/German/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245660686,
+          "length": 34887
+        },
+        {
+          "file": "Support/License/Hungarian/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245695573,
+          "length": 35716
+        },
+        {
+          "file": "Support/License/Italian/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245731289,
+          "length": 33637
+        },
+        {
+          "file": "Support/License/Japanese/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245764926,
+          "length": 26835
+        },
+        {
+          "file": "Support/License/Norwegian/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245791761,
+          "length": 27873
+        },
+        {
+          "file": "Support/License/Polish/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245819634,
+          "length": 32171
+        },
+        {
+          "file": "Support/License/Portuguese/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245851805,
+          "length": 26154
+        },
+        {
+          "file": "Support/License/Russian/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245877959,
+          "length": 27036
+        },
+        {
+          "file": "Support/License/Spanish/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245904995,
+          "length": 32835
+        },
+        {
+          "file": "Support/License/Swedish/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 245937830,
+          "length": 29844
+        },
+        {
+          "file": "Support/PunkBuster/pbsvc.exe",
+          "file_offset": 0,
+          "chunk_offset": 245967674,
+          "length": 3123272
+        },
+        {
+          "file": "Support/Readme/Brazilian/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249090946,
+          "length": 10974
+        },
+        {
+          "file": "Support/Readme/Chinese (CN)/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249101920,
+          "length": 9960
+        },
+        {
+          "file": "Support/Readme/Chinese (TW)/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249111880,
+          "length": 10326
+        },
+        {
+          "file": "Support/Readme/Czech/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249122206,
+          "length": 10045
+        },
+        {
+          "file": "Support/Readme/Danish/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249132251,
+          "length": 9959
+        },
+        {
+          "file": "Support/Readme/Dutch/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249142210,
+          "length": 21978
+        },
+        {
+          "file": "Support/Readme/English (UK)/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249164188,
+          "length": 9960
+        },
+        {
+          "file": "Support/Readme/English/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249174148,
+          "length": 20362
+        },
+        {
+          "file": "Support/Readme/Finnish/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249194510,
+          "length": 10463
+        },
+        {
+          "file": "Support/Readme/French (Canada)/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249204973,
+          "length": 10654
+        },
+        {
+          "file": "Support/Readme/French/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249215627,
+          "length": 10686
+        },
+        {
+          "file": "Support/Readme/German/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249226313,
+          "length": 9292
+        },
+        {
+          "file": "Support/Readme/Hungarian/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249235605,
+          "length": 10649
+        },
+        {
+          "file": "Support/Readme/Italian/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249246254,
+          "length": 10351
+        },
+        {
+          "file": "Support/Readme/Japanese/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249256605,
+          "length": 8352
+        },
+        {
+          "file": "Support/Readme/Korean/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249264957,
+          "length": 9960
+        },
+        {
+          "file": "Support/Readme/Norwegian/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249274917,
+          "length": 19494
+        },
+        {
+          "file": "Support/Readme/Polish/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249294411,
+          "length": 11396
+        },
+        {
+          "file": "Support/Readme/Portuguese/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249305807,
+          "length": 11359
+        },
+        {
+          "file": "Support/Readme/Russian/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249317166,
+          "length": 15555
+        },
+        {
+          "file": "Support/Readme/Spanish/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249332721,
+          "length": 11465
+        },
+        {
+          "file": "Support/Readme/Swedish/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 249344186,
+          "length": 9639
+        },
+        {
+          "file": "ubiorbitapi_r2.dll",
+          "file_offset": 0,
+          "chunk_offset": 249353825,
+          "length": 385024
+        },
+        {
+          "file": "ubiorbitapi_r2_loader.dll",
+          "file_offset": 0,
+          "chunk_offset": 249738849,
+          "length": 6144
+        },
+        {
+          "file": "uplay_r1.dll",
+          "file_offset": 0,
+          "chunk_offset": 249744993,
+          "length": 2274616
+        },
+        {
+          "file": "uplay_r1_loader.dll",
+          "file_offset": 0,
+          "chunk_offset": 252019609,
+          "length": 6144
+        },
+        {
+          "file": "version.bin",
+          "file_offset": 0,
+          "chunk_offset": 252025753,
+          "length": 7
+        },
+        {
+          "file": "videos/AC3_DLCA_IntroVideo.bik",
+          "file_offset": 0,
+          "chunk_offset": 252025760,
+          "length": 32747068
+        },
+        {
+          "file": "videos/AC3_DLCA_TruthVideo.bik",
+          "file_offset": 0,
+          "chunk_offset": 284772828,
+          "length": 32919692
+        },
+        {
+          "file": "videos/AC3_DLCB_IntroVideo.bik",
+          "file_offset": 0,
+          "chunk_offset": 317692520,
+          "length": 114694476
+        },
+        {
+          "file": "videos/AC3_DLCB_TruthVideo.bik",
+          "file_offset": 0,
+          "chunk_offset": 432386996,
+          "length": 33342220
+        }
+      ],
+      "sha256": "7103515d297c61ab59ffa4b5508196108c8d6cf3ffb0fdf38d44ed02d73193dc"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 465729216,
+      "segments": [
+        {
+          "file": "videos/AC3_DLCB_TruthVideo.bik",
+          "file_offset": 33342220,
+          "chunk_offset": 0,
+          "length": 51426340
+        },
+        {
+          "file": "videos/AC3_DLCC_EndVideo.bik",
+          "file_offset": 0,
+          "chunk_offset": 51426340,
+          "length": 260533328
+        },
+        {
+          "file": "videos/AC3_DLCC_IntroVideo.bik",
+          "file_offset": 0,
+          "chunk_offset": 311959668,
+          "length": 153769548
+        }
+      ],
+      "sha256": "4906c8b8d52a8de4a8d36a712baf79ed4e6c2ada998a0c766eb12c0e125765e0"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 465729184,
+      "segments": [
+        {
+          "file": "videos/AC3_DLCC_IntroVideo.bik",
+          "file_offset": 153769548,
+          "chunk_offset": 0,
+          "length": 6851980
+        },
+        {
+          "file": "videos/AC3_DLCC_TruthVideo.bik",
+          "file_offset": 0,
+          "chunk_offset": 6851980,
+          "length": 37322252
+        },
+        {
+          "file": "videos/AC3_End.bik",
+          "file_offset": 0,
+          "chunk_offset": 44174232,
+          "length": 176576252
+        },
+        {
+          "file": "videos/br/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 220750484,
+          "length": 103648
+        },
+        {
+          "file": "videos/ch/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 220854132,
+          "length": 98240
+        },
+        {
+          "file": "videos/cz/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 220952372,
+          "length": 103172
+        },
+        {
+          "file": "videos/de/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 221055544,
+          "length": 125536
+        },
+        {
+          "file": "videos/dn/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 221181080,
+          "length": 102032
+        },
+        {
+          "file": "videos/du/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 221283112,
+          "length": 119528
+        },
+        {
+          "file": "videos/en/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 221402640,
+          "length": 101080
+        },
+        {
+          "file": "videos/fi/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 221503720,
+          "length": 102516
+        },
+        {
+          "file": "videos/fr/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 221606236,
+          "length": 108036
+        },
+        {
+          "file": "videos/HealthyEarth_long3.bik",
+          "file_offset": 0,
+          "chunk_offset": 221714272,
+          "length": 10001516
+        },
+        {
+          "file": "videos/hu/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 231715788,
+          "length": 103252
+        },
+        {
+          "file": "videos/it/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 231819040,
+          "length": 99676
+        },
+        {
+          "file": "videos/jp/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 231918716,
+          "length": 145680
+        },
+        {
+          "file": "videos/ko/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 232064396,
+          "length": 122620
+        },
+        {
+          "file": "videos/nw/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 232187016,
+          "length": 98060
+        },
+        {
+          "file": "videos/pl/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 232285076,
+          "length": 104412
+        },
+        {
+          "file": "videos/previouslyon.bik",
+          "file_offset": 0,
+          "chunk_offset": 232389488,
+          "length": 182544156
+        },
+        {
+          "file": "videos/pt/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 414933644,
+          "length": 104388
+        },
+        {
+          "file": "videos/ru/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 415038032,
+          "length": 113948
+        },
+        {
+          "file": "videos/sp/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 415151980,
+          "length": 102476
+        },
+        {
+          "file": "videos/sp_loadexec.bik",
+          "file_offset": 0,
+          "chunk_offset": 415254456,
+          "length": 9768820
+        },
+        {
+          "file": "videos/SQ07_M05_Spyglass.bik",
+          "file_offset": 0,
+          "chunk_offset": 425023276,
+          "length": 20469604
+        },
+        {
+          "file": "videos/sw/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 445492880,
+          "length": 99556
+        },
+        {
+          "file": "videos/tw/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 445592436,
+          "length": 98240
+        },
+        {
+          "file": "videos/ubi_logo.bik",
+          "file_offset": 0,
+          "chunk_offset": 445690676,
+          "length": 20038508
+        }
+      ],
+      "sha256": "609d891d04a62f32238677f28f41b99c0ca3db659c2229dee1ec19cfb807a824"
+    }
+  ]
+}
