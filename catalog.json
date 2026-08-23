@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-23T16:02:25.881901+00:00",
+  "updated_at": "2026-08-23T16:07:03.616563+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -1931,6 +1931,41 @@
       },
       "media": {
         "steam_app_id": 10180
+      }
+    },
+    {
+      "id": "mafia",
+      "title": "Mafia",
+      "platform": "pc",
+      "description": "It’s 1930. After an inadvertent brush with the mafia, cabdriver Tommy Angelo is reluctantly thrust into the world of organized crime. Initially, he is uneasy about falling in with the Salieri family, but soon the rewards become too big to ignore.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-mafia-v1.0.0-stable",
+          "manifest_path": "manifests/pc/mafia/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/mafia/stable/1.0.0.json",
+          "size": 2913723808,
+          "published_at": "2026-08-23T16:07:03.616548+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 40990
       }
     }
   ]
