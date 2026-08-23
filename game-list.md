@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 60
-- **Toplam aktif sürüm/kanal:** 60
-- **Toplam aktif boyut:** 1524.481 GB (1419.784 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-23 16:13:20 UTC
+- **Toplam oyun:** 61
+- **Toplam aktif sürüm/kanal:** 61
+- **Toplam aktif boyut:** 1582.668 GB (1473.974 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-23 16:52:59 UTC
 
 ## PC
 
-**60 oyun · 60 aktif sürüm/kanal · 1524.481 GB (1419.784 GiB)**
+**61 oyun · 61 aktif sürüm/kanal · 1582.668 GB (1473.974 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -21,6 +21,7 @@
 | Baldur's Gate 3 | 1.0.0 | stable | 160.040 | 149.049 | `pc-baldur-s-gate-3-v1.0.0-stable` |
 | Batman: Arkham Asylum Game of the Year Edition | 1.0.0 | stable | 8.609 | 8.018 | `pc-batman-arkham-asylum-game-of-the-year-edition-v1.0.0-stable` |
 | Batman: Arkham City - Game of the Year Edition | 1.0.0 | stable | 18.232 | 16.980 | `pc-batman-arkham-city-game-of-the-year-edition-v1.0.0-stable` |
+| Batman™: Arkham Knight | 1.0.0 | stable | 58.187 | 54.191 | `pc-batman-arkham-knight-v1.0.0-stable` |
 | BioShock Infinite | 1.0.0 | stable | 47.811 | 44.528 | `pc-bioshock-infinite-v1.0.0-stable` |
 | BioShock™ | 1.0.0 | stable | 6.039 | 5.625 | `pc-bioshock-v1.0.0-stable` |
 | Borderlands 2 | 1.0.0 | stable | 36.051 | 33.576 | `pc-borderlands-2-v1.0.0-stable` |
