@@ -1,0 +1,3178 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "call-of-duty-modern-warfare-2-2009",
+    "title": "Call of Duty®: Modern Warfare® 2 (2009)",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "The most-anticipated game of the year and the sequel to the best-selling first-person action game of all time, Modern Warfare 2 continues the gripping and heart-racing action as players face off against a new threat dedicated to bringing the world to the brink of collapse."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-call-of-duty-modern-warfare-2-2009-v1.0.0-stable"
+  },
+  "chunk_size": 320832829,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 12833313134,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "binkw32.dll",
+      "size": 167936,
+      "sha256": "6e40138bc8706fa6b9bb5afebe1c3cadba9dcd8784274acc5eb4d02baca319b4"
+    },
+    {
+      "path": "iw4mp.exe",
+      "size": 5104632,
+      "sha256": "502f877597d31d4afd7eb2c5307e127cc364164964ce918075c25014fc0e5ff0"
+    },
+    {
+      "path": "iw4sp.exe",
+      "size": 3497984,
+      "sha256": "4dd53fabf9677980aaf081009584ade99d6bf440330046e5c8950e87ef0547d9"
+    },
+    {
+      "path": "localization.txt",
+      "size": 2516,
+      "sha256": "2ff1280c99250e3dd69b867dda668228677781d629d8e9698ee331b9a4effb5b"
+    },
+    {
+      "path": "logo.bmp",
+      "size": 109976,
+      "sha256": "dae977185c8ee4dc101b3c1b3a5f530a832709810299310aebb53e83e6948b09"
+    },
+    {
+      "path": "main/iw_00.iwd",
+      "size": 167618630,
+      "sha256": "6e76c225bae285bb1d5a8e8ec77b9b05eba84589e99b8aeec45509ea82d514ba"
+    },
+    {
+      "path": "main/iw_01.iwd",
+      "size": 167923823,
+      "sha256": "8fd5061e54c19c4230d7769b88d765d115525e24cf4a724276939b6051639171"
+    },
+    {
+      "path": "main/iw_02.iwd",
+      "size": 165845191,
+      "sha256": "6f47db9e905552349d196e58d52f4fa0ef75e071ca80c68dba9c0854a3846e15"
+    },
+    {
+      "path": "main/iw_03.iwd",
+      "size": 167839641,
+      "sha256": "35ae1ed06cf3ff3f4cc80affdcf576a16bce28aacdb33f1f4390c4a7fbb19a46"
+    },
+    {
+      "path": "main/iw_04.iwd",
+      "size": 164989473,
+      "sha256": "22557d78104722987c27a5bbd3ff2aae8a5726eedceb39cfb46f95c51095f990"
+    },
+    {
+      "path": "main/iw_05.iwd",
+      "size": 167710574,
+      "sha256": "37946ee882d02936dab494c77be765f046e751603c0c57c506e10449b5bc9ca9"
+    },
+    {
+      "path": "main/iw_06.iwd",
+      "size": 167798633,
+      "sha256": "cef1914fae68b80e294f083991fe0f5fb94d679b81d05a1c1c42a5220ecbac5d"
+    },
+    {
+      "path": "main/iw_07.iwd",
+      "size": 167804808,
+      "sha256": "f32897c2e25e078c499895fad20548f6eb27aa6cdbdb0bb3d6f49643c53766c1"
+    },
+    {
+      "path": "main/iw_08.iwd",
+      "size": 167701381,
+      "sha256": "fd59b63a021023d1a7e38cfc972a06842b8308db68bc1aabc2b9f854762210b5"
+    },
+    {
+      "path": "main/iw_09.iwd",
+      "size": 167782456,
+      "sha256": "81d60cfc93ee18587bd565f8a41908e216c44a34b0c5ea7c8c3b2758d2438df4"
+    },
+    {
+      "path": "main/iw_10.iwd",
+      "size": 167489819,
+      "sha256": "df466c2dfd75cc28a48c4bf7afe0a5f2499205bf4aa9cf8622fd108208ce8658"
+    },
+    {
+      "path": "main/iw_11.iwd",
+      "size": 139012349,
+      "sha256": "b678b6578267b2cef91cc3bff873f1bbf349313ef12710c2617087331a97e25e"
+    },
+    {
+      "path": "main/iw_12.iwd",
+      "size": 165063745,
+      "sha256": "767345c59a3f92ad0c253d5dc1b0dd4f54ac2725f4504ed3ab12b0bf4ae85f45"
+    },
+    {
+      "path": "main/iw_13.iwd",
+      "size": 165030839,
+      "sha256": "0e785c86046e5e7ed5b950afd848f847e1f6e8f4371a2cd48d1c62ffa5985e2f"
+    },
+    {
+      "path": "main/iw_14.iwd",
+      "size": 158897781,
+      "sha256": "99dfecf782b7959fef92ef3647308fa3f3702bc03811a7b10ba72ea5af30ebce"
+    },
+    {
+      "path": "main/iw_15.iwd",
+      "size": 167758675,
+      "sha256": "a216716b597edafdf7d3b5483e3ced84102dcb070ecc9fea2039539cc44b119c"
+    },
+    {
+      "path": "main/iw_16.iwd",
+      "size": 166061488,
+      "sha256": "88edf237502d9a3744c5ed2c8b90eed971731188116f5b94a4ca238b59a65a48"
+    },
+    {
+      "path": "main/iw_17.iwd",
+      "size": 166272135,
+      "sha256": "2d47a463d79b9da40a3e141d2794453b14069ea47a59bc79cc4ec8f4c6e27e00"
+    },
+    {
+      "path": "main/iw_18.iwd",
+      "size": 165891636,
+      "sha256": "edcbc227ae0b221a305ce39a518203aa3a378bda8db139a8f0fcb15b72e95fcc"
+    },
+    {
+      "path": "main/iw_19.iwd",
+      "size": 161141403,
+      "sha256": "c8af1945d43c0cce19c9676f45541deb5e85fa0158105793b3730107f1d2678b"
+    },
+    {
+      "path": "main/iw_20.iwd",
+      "size": 164479988,
+      "sha256": "309565715f3d93408c14591851ededfeeb5b3182e30444882e694c0fae93ad06"
+    },
+    {
+      "path": "main/iw_21.iwd",
+      "size": 84052250,
+      "sha256": "7c218ead9c64ed9c4aa9eaaec2c2aba329e9bd69590f2df9183d7f13ad22ca7d"
+    },
+    {
+      "path": "main/iw_22.iwd",
+      "size": 149435968,
+      "sha256": "932fffc8f4257058d82e45b2fc774235a199d3d8e1e3dad65d00c16455444824"
+    },
+    {
+      "path": "main/iw_23.iwd",
+      "size": 132745053,
+      "sha256": "2f745c6293fe474803facdb1ef1ab76973682fdf93b4babdfd9892023ad7523b"
+    },
+    {
+      "path": "main/localized_english_iw00.iwd",
+      "size": 168301865,
+      "sha256": "a472b113e9e4799d44861a75c765de4450658d64a8fd70419fbae92149f7d339"
+    },
+    {
+      "path": "main/localized_english_iw01.iwd",
+      "size": 168178664,
+      "sha256": "0e79d8eedeaf3b83ad677cecc2bf566552ee47da030d2c9ea7afa3b5724cede1"
+    },
+    {
+      "path": "main/localized_english_iw02.iwd",
+      "size": 168266698,
+      "sha256": "6b9e4cacef230873561c3e274c3d450aea7325e58b3a119cc74da2282e6f02e9"
+    },
+    {
+      "path": "main/localized_english_iw03.iwd",
+      "size": 168259790,
+      "sha256": "c4e1ccbf37f4a23447c8b176bb929f53da1b6d74f87a8f4d3322d8c4a41020a3"
+    },
+    {
+      "path": "main/localized_english_iw04.iwd",
+      "size": 168142649,
+      "sha256": "6acf241bdcb85178665a257acd428ee879f9e3dae29bb8b213ae8149992b784e"
+    },
+    {
+      "path": "main/localized_english_iw05.iwd",
+      "size": 168023540,
+      "sha256": "ee805185cae7fcec6d244b3422274c519336eb6648d4ccd4385520d2d8818d80"
+    },
+    {
+      "path": "main/localized_english_iw06.iwd",
+      "size": 167831913,
+      "sha256": "7ec0e519982bd52a89931357a526ed2db5bdf87e2d3612d5f33a3286b6155188"
+    },
+    {
+      "path": "main/localized_english_iw07.iwd",
+      "size": 103052343,
+      "sha256": "a84e430e3a486545fb1f9103c5f5678abc5859417155b18d0a49d29e8889d53f"
+    },
+    {
+      "path": "main/video/af_caves_load.bik",
+      "size": 100569028,
+      "sha256": "74390cfb701bea2085c81a0a3b8697db9d39fed6e7624d1025e43c3f82412061"
+    },
+    {
+      "path": "main/video/af_chase_load.bik",
+      "size": 67675212,
+      "sha256": "243ea3c92d168d6b0b1895fe6d65baf8473d1b586ca9ead90225f6f3bd654e8f"
+    },
+    {
+      "path": "main/video/afcaves_countdown_hires.bik",
+      "size": 690896,
+      "sha256": "ecd40f9102527a07a02463e9977bfe0722aa227ccc0028ee59ce78e48030e070"
+    },
+    {
+      "path": "main/video/airport_load.bik",
+      "size": 84214336,
+      "sha256": "3195f9db7002274664d3b4cacc582327bb72f6ab548b94c3c6904f4890e72c6d"
+    },
+    {
+      "path": "main/video/arcadia_load.bik",
+      "size": 78014148,
+      "sha256": "815be74fde2e4f56b056db389cf295e684d84f2d5133951c50e56d9277ca17d6"
+    },
+    {
+      "path": "main/video/attract.bik",
+      "size": 155322180,
+      "sha256": "32bec3c31c879dc65130ab10086dd440ef6284a68722a6c7667f289d5cb3532b"
+    },
+    {
+      "path": "main/video/atvi.bik",
+      "size": 10761032,
+      "sha256": "e42f0704790588a8c8e56873604445a54d590f0fa0599953ca044a678418ef12"
+    },
+    {
+      "path": "main/video/black.bik",
+      "size": 13072,
+      "sha256": "dea4aa34d6930d34448a292a7a80279932e0e10a7e3840a8cff62322ad3083e7"
+    },
+    {
+      "path": "main/video/boneyard_fade.bik",
+      "size": 2836476,
+      "sha256": "3fbfb1d54b429e7e81bb2b91fd3f3770521cba7b7c69a8ce3967915996b5e75e"
+    },
+    {
+      "path": "main/video/boneyard_load.bik",
+      "size": 73073364,
+      "sha256": "dcdffb396c07db6e8170cc993f24b038f2458693084d46d05a6462254b6ee183"
+    },
+    {
+      "path": "main/video/cliffhanger_load.bik",
+      "size": 79708260,
+      "sha256": "65f73668193ed443c3e448cfda0d31e5cf25838ace38c558fc629e825dc38792"
+    },
+    {
+      "path": "main/video/cod_intro.bik",
+      "size": 236872020,
+      "sha256": "e5784d5663a4429ef4009a548cf00f4b344354214a572ead4d0aa329118f757f"
+    },
+    {
+      "path": "main/video/contingency_load.bik",
+      "size": 99470708,
+      "sha256": "feef7d56560bd9cb42fbbc3be0003ffe8d26a29617d8ca6b13d0ed33d6bd3395"
+    },
+    {
+      "path": "main/video/credits_load.bik",
+      "size": 592,
+      "sha256": "e6a8b0c29cd2327bbd1e30a59ea31ce310b7eae44a3d5712d533156fb894a431"
+    },
+    {
+      "path": "main/video/dc_whitehouse_load.bik",
+      "size": 13072,
+      "sha256": "dea4aa34d6930d34448a292a7a80279932e0e10a7e3840a8cff62322ad3083e7"
+    },
+    {
+      "path": "main/video/dcburning_load.bik",
+      "size": 54105292,
+      "sha256": "ef1f79f4309bd4da73d1bdbcf12a0fde9d31595cea56afde8a22531061d28b75"
+    },
+    {
+      "path": "main/video/dcemp_load.bik",
+      "size": 93590300,
+      "sha256": "6166cac7618f5834a4b2c314345706cfd8ffa3e7870993adca32d1bcba1af0b2"
+    },
+    {
+      "path": "main/video/default.bik",
+      "size": 3201496,
+      "sha256": "eb3d15d9b2348f25f1f5c524ced0f81953415fa6bae020fca11bb9df724dddc4"
+    },
+    {
+      "path": "main/video/ending_load.bik",
+      "size": 13072,
+      "sha256": "dea4aa34d6930d34448a292a7a80279932e0e10a7e3840a8cff62322ad3083e7"
+    },
+    {
+      "path": "main/video/estate_fade.bik",
+      "size": 2573696,
+      "sha256": "0af99b0ee788b0050e9c3e2b0ba302d6dfc7ba0f32f5eb4c09ba6beff3371c0c"
+    },
+    {
+      "path": "main/video/estate_load.bik",
+      "size": 92801008,
+      "sha256": "c948bb3dd70381790e71a2e99b2759ba52bd6015af24297f01241e88e5b04618"
+    },
+    {
+      "path": "main/video/favela_escape_load.bik",
+      "size": 112827444,
+      "sha256": "53abd462b1846212b4312f44cd17be8f5e6994b53c2520884161b8e020ae64b7"
+    },
+    {
+      "path": "main/video/favela_load.bik",
+      "size": 104948552,
+      "sha256": "9ae724476d344ae709a832d01924ca027e9740bd316b9dcf1a4b5a3fa56835e6"
+    },
+    {
+      "path": "main/video/gulag_load.bik",
+      "size": 74200024,
+      "sha256": "23815254a080177322203ab4d47f354031e317e924ce30eaa4633a22a8645670"
+    },
+    {
+      "path": "main/video/gulag_securitycam.bik",
+      "size": 6095088,
+      "sha256": "437557d919eb6c660d947cc1f44340ec1ba81dbeddc25983a8d51bba3bde8c9c"
+    },
+    {
+      "path": "main/video/intro_credits_load.bik",
+      "size": 272830760,
+      "sha256": "558fe35453d1f35d02b39e91a13caca347ae0b857004edcd6758383767ba3af3"
+    },
+    {
+      "path": "main/video/invasion_load.bik",
+      "size": 114628940,
+      "sha256": "23c394afc99359e6e38d05f3140cc717de52fe71cf16212eb2a8592d03e4f6c2"
+    },
+    {
+      "path": "main/video/IW_logo.bik",
+      "size": 10569960,
+      "sha256": "125033bc6e7e779ac1b462e7c01dc666c1e5e469339f5f4ee45cbdd85b1321f7"
+    },
+    {
+      "path": "main/video/legal.bik",
+      "size": 2464884,
+      "sha256": "7bb130b4d7b44e19d1f2eecfc3181ace543c60ac1ceff231ebed1057bcfc3926"
+    },
+    {
+      "path": "main/video/oilrig_load.bik",
+      "size": 89014396,
+      "sha256": "b03754d39d61bfa668d8f88da11b436a3f77cfa6339524afb52c3f098d6d706e"
+    },
+    {
+      "path": "main/video/roadkill_load.bik",
+      "size": 104050444,
+      "sha256": "b05771ed266ca6b200415bed2a58ea0c3662b771aa5b3cd0292dfc6022c541d3"
+    },
+    {
+      "path": "main/video/simplecredits_load.bik",
+      "size": 592,
+      "sha256": "e6a8b0c29cd2327bbd1e30a59ea31ce310b7eae44a3d5712d533156fb894a431"
+    },
+    {
+      "path": "main/video/so_ac130_co_hunted_load.bik",
+      "size": 218004,
+      "sha256": "a64da2217f06c964799cdd4b145c7b7e86b8658204ea18b5e40fd4f2740059ec"
+    },
+    {
+      "path": "main/video/so_assault_oilrig_load.bik",
+      "size": 229540,
+      "sha256": "4b6dd8cf427ec16d91aee56c2b5d433f37f49eedb32404e456793a61cb21ea44"
+    },
+    {
+      "path": "main/video/so_chopper_invasion_load.bik",
+      "size": 226484,
+      "sha256": "7eb61824d48c420a48896a2860eb8862e255c8d193a1ae0003091f1bc695c9e3"
+    },
+    {
+      "path": "main/video/so_crossing_so_bridge_load.bik",
+      "size": 228408,
+      "sha256": "5bb1fd6104533b0f4bc7a86f0aab248d56ed316a70a9e85b1c46109a99c00bb3"
+    },
+    {
+      "path": "main/video/so_defense_invasion_load.bik",
+      "size": 228996,
+      "sha256": "1a2f771ce56394a58aa0839e18682a5603dc487b8a5c0c142b5176a78dc74bcb"
+    },
+    {
+      "path": "main/video/so_defuse_favela_escape_load.bik",
+      "size": 228384,
+      "sha256": "e0da00931083007e648f576ebe383066283e2929adb4f67a9fdc65b78e086b35"
+    },
+    {
+      "path": "main/video/so_demo_so_bridge_load.bik",
+      "size": 228048,
+      "sha256": "67f1f65716d62538322355324bf7e7edc55cedddbe7771082efaf5ae44678846"
+    },
+    {
+      "path": "main/video/so_download_arcadia_load.bik",
+      "size": 226452,
+      "sha256": "87cd1428c21eaeba5948b0e15d7ea633ae1272d3226c543dc86a47e0dfdf77cc"
+    },
+    {
+      "path": "main/video/so_escape_airport_load.bik",
+      "size": 229156,
+      "sha256": "9b800dac6b672a44a01c0b872b9d944ffe553df942ac49a404e9e29972cd9c38"
+    },
+    {
+      "path": "main/video/so_forest_contingency_load.bik",
+      "size": 228700,
+      "sha256": "1c77af9929ea8cfde387d5101b4f0730a6546a97a70b02df8252f3e28e55d934"
+    },
+    {
+      "path": "main/video/so_hidden_so_ghillies_load.bik",
+      "size": 220456,
+      "sha256": "4a9cd96714f6f90af9bfe4bcd92f4836f7d774a080dc8bfe04233d606a60d7ee"
+    },
+    {
+      "path": "main/video/so_intel_boneyard_load.bik",
+      "size": 229928,
+      "sha256": "0c3e7ca9f9a8a12e78dea07ad3a9161723e71e6adbfa3e5b8d29366d38d3e7fb"
+    },
+    {
+      "path": "main/video/so_juggernauts_favela_load.bik",
+      "size": 226780,
+      "sha256": "7fa7f77934bdd08c09b67c89c6f0c68b46c8c8102bfe4299469df99bdb0df28f"
+    },
+    {
+      "path": "main/video/so_killspree_favela_load.bik",
+      "size": 225696,
+      "sha256": "01965372c0d8070b4167e0e2bb0dd40d898086bcfd02d0ce9962a9e661aeb141"
+    },
+    {
+      "path": "main/video/so_killspree_invasion_load.bik",
+      "size": 227932,
+      "sha256": "4e5f026afeae35f6e985d4e29abe243f9a4ad04df46109151ce9b7d2063f0432"
+    },
+    {
+      "path": "main/video/so_killspree_trainer_load.bik",
+      "size": 228180,
+      "sha256": "15602040ac9abdf2d44de797d567a1754e8f9bd3d0cfd3296b62c0e6e222dae0"
+    },
+    {
+      "path": "main/video/so_rooftop_contingency_load.bik",
+      "size": 226756,
+      "sha256": "84c1b8b56346b9e267cfc4f5091cace77fab88b75ef174d3978e666fc5ac52f8"
+    },
+    {
+      "path": "main/video/so_sabotage_cliffhanger_load.bik",
+      "size": 229656,
+      "sha256": "19854c1a975c0f33f2a11eed2f120b49fca5e55c4a24c0f3d8f57fb573153bf5"
+    },
+    {
+      "path": "main/video/so_showers_gulag_load.bik",
+      "size": 230328,
+      "sha256": "4a2d0602f70ea4a4cc364034e1c81d71c3b43041cb9d07f2ed89226d359659fa"
+    },
+    {
+      "path": "main/video/so_snowrace1_cliffhanger_load.bik",
+      "size": 224100,
+      "sha256": "afafe6a690ffdc119b6b8b776a8ae9f1ad8a4f8e853c083c7856ed615a93cc93"
+    },
+    {
+      "path": "main/video/so_snowrace2_cliffhanger_load.bik",
+      "size": 224368,
+      "sha256": "f94edccabaa21b7c62eabd599d5f8afcd918d94cf0d73b8248ffc40d466464f9"
+    },
+    {
+      "path": "main/video/so_takeover_estate_load.bik",
+      "size": 224420,
+      "sha256": "17393c6f0324e4e802b251fb5ceac0c2d5c722c04b43b8bbef8704eacffd4632"
+    },
+    {
+      "path": "main/video/so_takeover_oilrig_load.bik",
+      "size": 227604,
+      "sha256": "ce095fc84a8a6078130e0455e39ffc6ee418d876b5833eb0a3fcb2e89e10c209"
+    },
+    {
+      "path": "main/video/title.bik",
+      "size": 2977352,
+      "sha256": "b27706c8430c81d8b4b25dc4837651dd6c4ab254ce483d561c7b681a9a92a5a9"
+    },
+    {
+      "path": "main/video/trainer_load.bik",
+      "size": 103515916,
+      "sha256": "5c89ebabed29375ec9be154d20fc408bd6fedf6aec054f93e7c498a4a7560735"
+    },
+    {
+      "path": "miles/milesEq.flt",
+      "size": 114688,
+      "sha256": "db2e66bdbb2a2d433336d1eb56308263ff2aad503fca4c6355b062ed9bf021fb"
+    },
+    {
+      "path": "miles/mssds3d.flt",
+      "size": 12288,
+      "sha256": "4e36c423adec0729c6a162e110930ecfc41c9b06e114268c9ef6b975a255815f"
+    },
+    {
+      "path": "miles/mssdsp.flt",
+      "size": 56832,
+      "sha256": "27bd50093270268eba205aac1c1f885dba7442e9d71829eae7b3d2b2e60b7773"
+    },
+    {
+      "path": "miles/msseax.flt",
+      "size": 58368,
+      "sha256": "54df43f9bfe8b015d2b0f385bc79c2db8a8dabee86d7ffca0c2dd5c2e6cbbd85"
+    },
+    {
+      "path": "miles/mssmp3.asi",
+      "size": 93696,
+      "sha256": "9b0c15ee024db9cba07203f7fd9a419274361c451d5671add1734485a9de6521"
+    },
+    {
+      "path": "miles/mssvoice.asi",
+      "size": 153088,
+      "sha256": "f23faf105981b1c021af135792ab4278e62d15870f6d1a9ba26d7a0d67ed72d7"
+    },
+    {
+      "path": "mss32.dll",
+      "size": 434688,
+      "sha256": "94040e19177580544e78aa37bf5bba6a28350d258b590cb7445da5ccca0d34a1"
+    },
+    {
+      "path": "No Russian Mission Unlocker/readme.txt",
+      "size": 681,
+      "sha256": "e67b12afc2c625498e8b545b7b2f7e180aaf6fb7ebad524796629d0eb4498a2a"
+    },
+    {
+      "path": "No Russian Mission Unlocker/ui.ff",
+      "size": 73660,
+      "sha256": "64bd942d3709e61ad995ec6b73d4815bb4da92529cb9542352b0a72e96211c74"
+    },
+    {
+      "path": "No Russian Mission Unlocker/Var 2/patch.ff",
+      "size": 16037,
+      "sha256": "4343bfc633c3cac0bb4a6ecf3ee25b23ec755875c10f010a44b85ae4a5a4a2b7"
+    },
+    {
+      "path": "No Russian Mission Unlocker/Var 2/patch_code_pre_gfx.ff",
+      "size": 1248,
+      "sha256": "85fcf1d975caa76b582f61d30b7bfe2951f441790b4130ef88ba9066d9dd008e"
+    },
+    {
+      "path": "No Russian Mission Unlocker/Var 2/patch_code_pre_gfx_mp.ff",
+      "size": 24597,
+      "sha256": "74467e148cdc3aca98087c68ce784d2a888e2464104525ba0fb93b3e3d5bb36a"
+    },
+    {
+      "path": "No Russian Mission Unlocker/Var 2/ui.ff",
+      "size": 73660,
+      "sha256": "64bd942d3709e61ad995ec6b73d4815bb4da92529cb9542352b0a72e96211c74"
+    },
+    {
+      "path": "players/config.cfg",
+      "size": 5854,
+      "sha256": "e4396ca7a0a1e2b97993589ad3fbf38d87a0662c2994535de97ed374ffd51639"
+    },
+    {
+      "path": "players/settings_c.zip.iw4",
+      "size": 164,
+      "sha256": "b17a814da1f0004dbbbc23ddd9f3f7e2401db3d3360fea3466e81e4ca8add99e"
+    },
+    {
+      "path": "players/settings_s.zip.iw4",
+      "size": 322,
+      "sha256": "2c1db707a150218f8af9453114526d2c26f29e7c4ce8dbbefdc4e90644405ae0"
+    },
+    {
+      "path": "splash.bmp",
+      "size": 1105976,
+      "sha256": "36c7d05ffe7e92b67175553550c6bf3a263eec7b7074aa7c25a5a0c57cf6be38"
+    },
+    {
+      "path": "steam000.wow",
+      "size": 115960,
+      "sha256": "8637ef955d8e86be85f2f3070f7ba94c95fb4c8c845ee2450ee066933f582e13"
+    },
+    {
+      "path": "steam001.wow",
+      "size": 5104632,
+      "sha256": "c84326d028dac4d5dd9da4606258f5ff88147c3f87bf93b599b34a6e3924441e"
+    },
+    {
+      "path": "steam_api.ini",
+      "size": 2041,
+      "sha256": "27090660d3963445923ef2894796edb0c2febe231b0d4797260cd53be52bd5e1"
+    },
+    {
+      "path": "SteamAPIUpdater.dll",
+      "size": 1296880,
+      "sha256": "c53de676ce3a28a6123cb551ff87c63471588a1c60318c6e4107bff5a245d21b"
+    },
+    {
+      "path": "UpdateDLLWrapper.dll",
+      "size": 58616,
+      "sha256": "f806b5a3c3fd90f75e0362b07b660ab4a03c40b6ea7934be31f4bdfb943cd681"
+    },
+    {
+      "path": "zone/english/af_caves.ff",
+      "size": 179522018,
+      "sha256": "fa08f476be5de9fd696e777430ad055ac1d1cb651efb56802ded27840ebdec95"
+    },
+    {
+      "path": "zone/english/af_chase.ff",
+      "size": 157892215,
+      "sha256": "9c886037484c909f3a4d2594340f9c86e71f84b953e477c572557398f987e257"
+    },
+    {
+      "path": "zone/english/airport.ff",
+      "size": 156222060,
+      "sha256": "bb9fedf5fe7a72635de87e7820e1cfc42e3a0439450f688b15e0b5ad2da0ef63"
+    },
+    {
+      "path": "zone/english/arcadia.ff",
+      "size": 148448840,
+      "sha256": "b6efe2d4727cb6cbd4e8e9fd802ad447e028b809f0571c9263802ed8dad6cb1a"
+    },
+    {
+      "path": "zone/english/boneyard.ff",
+      "size": 140484041,
+      "sha256": "2de99bf93383cd2ab3521c5ea7e0e8a659776ee13fbfc698b01c0e62a559d657"
+    },
+    {
+      "path": "zone/english/cliffhanger.ff",
+      "size": 172591534,
+      "sha256": "7b37cbb87e4bd1da2f4f62a391b5bd482861b090133db4409cbdc461dce635b3"
+    },
+    {
+      "path": "zone/english/co_hunted.ff",
+      "size": 82485837,
+      "sha256": "efe58aa68392fe1d8b3f768fe8d40afbdfb3f949b41e76ecc048ff5bbe372f9e"
+    },
+    {
+      "path": "zone/english/code_post_gfx.ff",
+      "size": 1009057,
+      "sha256": "1802c26386e08cb17660f19d3f511b89e081dfbbed8ad04b360f62fd5c6ae047"
+    },
+    {
+      "path": "zone/english/code_post_gfx_mp.ff",
+      "size": 172053,
+      "sha256": "ef434e18def8825436ab148cff0612707d09630d3ae9cf4e54068cb9dfa3e2a0"
+    },
+    {
+      "path": "zone/english/code_pre_gfx.ff",
+      "size": 3781,
+      "sha256": "586215a41bb9128cf00df26c143bff20ceb31b60f0108b9f5dbbefd9476d0853"
+    },
+    {
+      "path": "zone/english/code_pre_gfx_mp.ff",
+      "size": 24597,
+      "sha256": "7ea4525cde541c3073889d818d3415f738a8faabf0608ecad4516f06f11b4d86"
+    },
+    {
+      "path": "zone/english/common.ff",
+      "size": 113158685,
+      "sha256": "f109313cc652fa1890223966bdb52157dd620f18183ccf4c4350cf61ed0c5e35"
+    },
+    {
+      "path": "zone/english/common_mp.ff",
+      "size": 53223445,
+      "sha256": "e82397adcbac564f7abe915074997b74b0942e133d38253be88a3f3fae4ef72d"
+    },
+    {
+      "path": "zone/english/contingency.ff",
+      "size": 144804220,
+      "sha256": "59261cabcc0505359bd7255682b45fe9cf92e603388c3b196bc8a61527abb04e"
+    },
+    {
+      "path": "zone/english/dc_whitehouse.ff",
+      "size": 114378666,
+      "sha256": "fe96af89c52037234d3faf518bed95eebb8d64b69c21a11ef2eed09bbbfbf5f2"
+    },
+    {
+      "path": "zone/english/dcburning.ff",
+      "size": 173473213,
+      "sha256": "1d039bb9c3e34c2324145643fed3a1ca3a20bb536c7b176cd8af991562721e5c"
+    },
+    {
+      "path": "zone/english/dcemp.ff",
+      "size": 139209716,
+      "sha256": "82784443255c459df90c107f96f1b097fdfe12a66ceaf4ca0938ad2dc35840e4"
+    },
+    {
+      "path": "zone/english/dlc1_ui_mp.ff",
+      "size": 24597,
+      "sha256": "52bcbf174e471df8673a14ed8754962e1d47d4f17c5401343710910af44c1238"
+    },
+    {
+      "path": "zone/english/dlc2_ui_mp.ff",
+      "size": 24597,
+      "sha256": "c805846ad6d43c0b9f957c659bb684f6e55f29a6401d6120e87b6d9276a45f39"
+    },
+    {
+      "path": "zone/english/ending.ff",
+      "size": 155763392,
+      "sha256": "5ae4e6ea3f6fa70f5929fa9b345fc24c47bdf4fd1cb44eabc26a84cf389ad861"
+    },
+    {
+      "path": "zone/english/estate.ff",
+      "size": 131821492,
+      "sha256": "5b45d9326dde91d1e126b79ae50f267a33f0b5a2c41e61515c4e33d8be3af324"
+    },
+    {
+      "path": "zone/english/favela.ff",
+      "size": 142759523,
+      "sha256": "efc87c73bf0dcc812d0fb71511573482c2eb67d00d3298122d250c74ecacc4e0"
+    },
+    {
+      "path": "zone/english/favela_escape.ff",
+      "size": 131297831,
+      "sha256": "eb9bc2bcd613f76a5364955acd0c82df960254a7e6310cd4e9f506d0a84f7641"
+    },
+    {
+      "path": "zone/english/gulag.ff",
+      "size": 169682972,
+      "sha256": "f32f8a90a12ef8a70cb0e0a074a425a5609b990444d55ab3857ecb6e5de3b8bc"
+    },
+    {
+      "path": "zone/english/invasion.ff",
+      "size": 155673923,
+      "sha256": "8cff4fcc645ba9245bcaa3ee06a8001425cc6aa46447d9e7a3aa903855488475"
+    },
+    {
+      "path": "zone/english/iw4_credits.ff",
+      "size": 10338942,
+      "sha256": "f9cdd305363862e5d49b316ecd53a6e5270f5a2b5489e5dd6993fee7580e2860"
+    },
+    {
+      "path": "zone/english/localized_code_post_gfx_mp.ff",
+      "size": 1032213,
+      "sha256": "f24b98da8711a1ea8eac49e56e083f1267edcdec18432deaa04e9e4f3acc57d5"
+    },
+    {
+      "path": "zone/english/localized_code_pre_gfx_mp.ff",
+      "size": 24597,
+      "sha256": "3f36d15aea630ba1daef2ae6238b2c5dcd76fb2c2f6cdc2b544313ad65a18fce"
+    },
+    {
+      "path": "zone/english/localized_common_mp.ff",
+      "size": 119709717,
+      "sha256": "9afffcbd0c41fca3cc828b89245223378f8eb95099367acaff6add624aeb0665"
+    },
+    {
+      "path": "zone/english/localized_ui_mp.ff",
+      "size": 352277,
+      "sha256": "c45fc9d8febe0b9330167cb83dbae22f4417d961cb2286843ca0d6ed44b55a54"
+    },
+    {
+      "path": "zone/english/mp_afghan.ff",
+      "size": 72892437,
+      "sha256": "10a86c5ff3e91337f9c7bd5969a4e32db6ad04dea18a6f825758c2e40dc5d0da"
+    },
+    {
+      "path": "zone/english/mp_afghan_load.ff",
+      "size": 24597,
+      "sha256": "f0667c0e504f06b2b8073cf54ad53509c696604a8f241b1b960d0b64725c38d4"
+    },
+    {
+      "path": "zone/english/mp_boneyard.ff",
+      "size": 62300181,
+      "sha256": "749c0827c6b45089650601256ead2ee5c3b6e3bbfb1041d0cc3fe519e4f1dc84"
+    },
+    {
+      "path": "zone/english/mp_boneyard_load.ff",
+      "size": 24597,
+      "sha256": "4c30290ba84242fb2d5beaea987443dac593a3d3b3d1aba50211c3ac8e5f8c88"
+    },
+    {
+      "path": "zone/english/mp_brecourt.ff",
+      "size": 53198869,
+      "sha256": "3a70aab07838a99a3b0beb8a02f5251c0a34cb0ea1a9f685c83351922011b7ac"
+    },
+    {
+      "path": "zone/english/mp_brecourt_load.ff",
+      "size": 24597,
+      "sha256": "70d52f30c9aad4d455175108924bfd1b9202a664b85ee1f8acaf7062d13ce6f6"
+    },
+    {
+      "path": "zone/english/mp_checkpoint.ff",
+      "size": 79495189,
+      "sha256": "7d272bb67c3dfcdbe590e64227b63e725e3fc338066565fafd21989f0dd8f1f3"
+    },
+    {
+      "path": "zone/english/mp_checkpoint_load.ff",
+      "size": 24597,
+      "sha256": "524ae18ae9dfec7255ff8434ca9209b41b15c01ada2ebe34b328f525b2d81dd8"
+    },
+    {
+      "path": "zone/english/mp_derail.ff",
+      "size": 75890709,
+      "sha256": "f3ab70c4762d2257aa3864372c89fa221144d6751d990398c34c053108eef86b"
+    },
+    {
+      "path": "zone/english/mp_derail_load.ff",
+      "size": 24597,
+      "sha256": "8033a69e06839491f7e7528a37208f09bc6461e933519b0118b925bd8a61c4f5"
+    },
+    {
+      "path": "zone/english/mp_estate.ff",
+      "size": 84254741,
+      "sha256": "e56396e0662d367ece2cfe343ee6f59426e88c14f434aa7a21c37c6491694b44"
+    },
+    {
+      "path": "zone/english/mp_estate_load.ff",
+      "size": 24597,
+      "sha256": "7bbd69bf3288a000f20f5057805128e65aeb6ebe932436e99c3f0171762e1459"
+    },
+    {
+      "path": "zone/english/mp_favela.ff",
+      "size": 60940309,
+      "sha256": "c83284488f5555a7f94a51d7b7bebb0ef29ff3a422beb9705404b6f1f8f8897a"
+    },
+    {
+      "path": "zone/english/mp_favela_load.ff",
+      "size": 24597,
+      "sha256": "be3a3b658dda33d552dbd1a3e597d9cb014f633a19e3c41bdf6391f6bf02861a"
+    },
+    {
+      "path": "zone/english/mp_highrise.ff",
+      "size": 74620949,
+      "sha256": "f7622c6bfc23627b446a73bd8e4e6c6941127de00ce2829c2a69a11432cc0e9c"
+    },
+    {
+      "path": "zone/english/mp_highrise_load.ff",
+      "size": 24597,
+      "sha256": "4284efe233911a32705fa8159e944a2690961727c966389b2dddbc0a26fd69b0"
+    },
+    {
+      "path": "zone/english/mp_invasion.ff",
+      "size": 74432533,
+      "sha256": "39cba7e0ea63ef0770e7e48de060ee6d59fe01d4e00197131940119698dbe906"
+    },
+    {
+      "path": "zone/english/mp_invasion_load.ff",
+      "size": 24597,
+      "sha256": "099a932b24bb6824230227880eacfb06dddee3298f4fce976c372288811a60ab"
+    },
+    {
+      "path": "zone/english/mp_nightshift.ff",
+      "size": 68870165,
+      "sha256": "33500e2a0e28efaf241ad7b98d445061d68cbf5fecaf83fbcdb5a86d87487f77"
+    },
+    {
+      "path": "zone/english/mp_nightshift_load.ff",
+      "size": 24597,
+      "sha256": "5840c85c43b687f70a30b188bffdfd6dba2c96250ff29cecc774bb69dc3d1deb"
+    },
+    {
+      "path": "zone/english/mp_quarry.ff",
+      "size": 81723413,
+      "sha256": "0f989754c1c224eb7f80fb83af7fc74a5d316c7973e4b6d6faf53f67080f8704"
+    },
+    {
+      "path": "zone/english/mp_quarry_load.ff",
+      "size": 24597,
+      "sha256": "4a781ca99a3214b01e4c7341139d2424b54987449003ccfbb5fd9b5558d7674d"
+    },
+    {
+      "path": "zone/english/mp_rundown.ff",
+      "size": 72007701,
+      "sha256": "bf6153730146ff3c77a742e1e6149e2b78e334e213b9d7be597a88d505718cc8"
+    },
+    {
+      "path": "zone/english/mp_rundown_load.ff",
+      "size": 24597,
+      "sha256": "1c78e66b87b2fdb2aae722fdff3261943311a1a09c75a265e24b7ddb4fc9a3e9"
+    },
+    {
+      "path": "zone/english/mp_rust.ff",
+      "size": 51011605,
+      "sha256": "80d5c6bee2bde68e0f9978fad3029771a088811e39ff145817d227f7d2255116"
+    },
+    {
+      "path": "zone/english/mp_rust_load.ff",
+      "size": 24597,
+      "sha256": "55b10485692532bf6e91361ff7561dba20094b2fb8ba44646b5293a5cbc86970"
+    },
+    {
+      "path": "zone/english/mp_subbase.ff",
+      "size": 65544213,
+      "sha256": "8c48a0db2bb34336e5b9562af4d8f63e36c6efa8d077c87b0753b26918ebc414"
+    },
+    {
+      "path": "zone/english/mp_subbase_load.ff",
+      "size": 24597,
+      "sha256": "cd279cb54d53f4c7e540ee9e3208693990c9d52076cb7224ab020694f9d22e27"
+    },
+    {
+      "path": "zone/english/mp_terminal.ff",
+      "size": 70852629,
+      "sha256": "6081afa8ead4fee8911fcf06f3f2a414f17363ae23e576a1955d1bd0be318d91"
+    },
+    {
+      "path": "zone/english/mp_terminal_load.ff",
+      "size": 24597,
+      "sha256": "cefff995dce49a9f85da9f6bcc919ec31595b38fa523079e91c2f244f7c2ef8b"
+    },
+    {
+      "path": "zone/english/mp_underpass.ff",
+      "size": 85630997,
+      "sha256": "60a1c7ba6a40633d7bb9891f4cb43ad9b211481ac6f25259a2012142f1b12d3c"
+    },
+    {
+      "path": "zone/english/mp_underpass_load.ff",
+      "size": 24597,
+      "sha256": "e35049e0d5479da0afdd6a0ed8d3cf8026523fc554532e7425f24ff59e8f825d"
+    },
+    {
+      "path": "zone/english/oilrig.ff",
+      "size": 163634152,
+      "sha256": "4914af6256e4bbf998494dd380b0c48ecb9f08ee0d8383cbeaee0e3062c20244"
+    },
+    {
+      "path": "zone/english/patch.ff",
+      "size": 16390,
+      "sha256": "11be5452fa0f40aa7169c7a04810f9a5df8c0c782d0e9e403159159a322735c1"
+    },
+    {
+      "path": "zone/english/patch_code_pre_gfx.ff",
+      "size": 1248,
+      "sha256": "57466e35cefeedd73a88eba2c3a44666b8979afece21a26b6b017b54d40561bd"
+    },
+    {
+      "path": "zone/english/patch_code_pre_gfx_mp.ff",
+      "size": 24597,
+      "sha256": "e41d0ae1be5fef86e6e3c80e585ddf052a7f2c70dcaad143aafb5785f952fe09"
+    },
+    {
+      "path": "zone/english/patch_mp.ff",
+      "size": 229397,
+      "sha256": "ef699dd6e3843f2fb347336c6b45a38d16fcb4b9a7977cba25f68fd4cb76c211"
+    },
+    {
+      "path": "zone/english/roadkill.ff",
+      "size": 167326476,
+      "sha256": "568cb12395a4d05a12b7449ecb66999d3fa02a08f05b379a791ffa86ce6cb5e8"
+    },
+    {
+      "path": "zone/english/so_ac130_co_hunted.ff",
+      "size": 4977811,
+      "sha256": "a626e0ae0b0a8a92d936587643466195d2e71fbfb1a72037706704e831848b28"
+    },
+    {
+      "path": "zone/english/so_assault_oilrig.ff",
+      "size": 4381633,
+      "sha256": "8f03ff43b314cbc4f1dd2d71d31096cf80e98ae58deac0e197009103dce93525"
+    },
+    {
+      "path": "zone/english/so_bridge.ff",
+      "size": 116141058,
+      "sha256": "6106fe9e2e3dd5dd669f6a6604ba6f78ed4b94b70f5a68bec91b7668a400a7cb"
+    },
+    {
+      "path": "zone/english/so_chopper_invasion.ff",
+      "size": 7368650,
+      "sha256": "d4571cd9b93bddbf113f340867759196be780870a03a7c75323b677dd98c0405"
+    },
+    {
+      "path": "zone/english/so_crossing_so_bridge.ff",
+      "size": 1233640,
+      "sha256": "a0c02af9b9e1433ae29b824972739f08c9f92911253aca8b8d1d8fe5f3d3cdc1"
+    },
+    {
+      "path": "zone/english/so_defense_invasion.ff",
+      "size": 4496225,
+      "sha256": "d6f72b29372f8c111b678e807d304e8b78ba689b0c3e4fb8a44dcb2eebfd00c1"
+    },
+    {
+      "path": "zone/english/so_defuse_favela_escape.ff",
+      "size": 5670817,
+      "sha256": "cb595ee82a8b147e1a517cd783bf162fc691339a7e347c40f6673593b6409280"
+    },
+    {
+      "path": "zone/english/so_demo_so_bridge.ff",
+      "size": 3059066,
+      "sha256": "01fb8f9615b57f28be7e7b01a66ad63d1937667606fd7c4e8232842fce376ebb"
+    },
+    {
+      "path": "zone/english/so_download_arcadia.ff",
+      "size": 4750209,
+      "sha256": "4bdea3f54f6f91ede2067a44d568a9cfa8424889885eb0e739cdf7ac69f0079d"
+    },
+    {
+      "path": "zone/english/so_escape_airport.ff",
+      "size": 6010716,
+      "sha256": "6829c1b24febb3d4e308bfc5b44bdc09837aab3360519f66821b3248a3cbf411"
+    },
+    {
+      "path": "zone/english/so_forest_contingency.ff",
+      "size": 4387217,
+      "sha256": "d1b55715cbc6b0ca19e63a2224848e3a5bf5b6823496638e9e05d3f2fc40ab2f"
+    },
+    {
+      "path": "zone/english/so_ghillies.ff",
+      "size": 74843213,
+      "sha256": "2615deb48509088934588adac8898d7b6ffe3757383693259760973e4593a8bd"
+    },
+    {
+      "path": "zone/english/so_hidden_so_ghillies.ff",
+      "size": 4194471,
+      "sha256": "65c6567511a6b554f4d3b62a631e1d9b228e9a6197cc160216eb742e7074afae"
+    },
+    {
+      "path": "zone/english/so_intel_boneyard.ff",
+      "size": 7155949,
+      "sha256": "f6203209f83bf0360fdd1f5104f79397467130c3918ca28e9118621fc77bb347"
+    },
+    {
+      "path": "zone/english/so_juggernauts_favela.ff",
+      "size": 10546816,
+      "sha256": "61a8bf486ed9e40ff7f57565254e9a467039e6a834bc18070684d93377376dd7"
+    },
+    {
+      "path": "zone/english/so_killspree_favela.ff",
+      "size": 5475640,
+      "sha256": "232254503d69b5ceb3b7984aa63ffdbf88d4d221e257e91726a514d2ca7ec191"
+    },
+    {
+      "path": "zone/english/so_killspree_invasion.ff",
+      "size": 4975220,
+      "sha256": "cdf998fbda2366a2683f86e49ba5d00ee1d3876ac33b1fc7e073ff1d2e331f73"
+    },
+    {
+      "path": "zone/english/so_killspree_trainer.ff",
+      "size": 7232032,
+      "sha256": "1ef34746c8fe0953bfb1bc59d9009d8c4a054924b6d556362fa664c6b9e7e1a1"
+    },
+    {
+      "path": "zone/english/so_rooftop_contingency.ff",
+      "size": 5184704,
+      "sha256": "147e599f317e837a2eaf4ce39be6704d60434b6a7868871eca28157814382e1e"
+    },
+    {
+      "path": "zone/english/so_sabotage_cliffhanger.ff",
+      "size": 5281774,
+      "sha256": "a5c4aabdd9fe78c91d7c4f222177a98ac166293f69b5fba67c49a14c155cc6c9"
+    },
+    {
+      "path": "zone/english/so_showers_gulag.ff",
+      "size": 4603933,
+      "sha256": "bba40dabba8bf708247b1bf3318486776b57b9c0f26b64c6f764caf58a464b4f"
+    },
+    {
+      "path": "zone/english/so_snowrace1_cliffhanger.ff",
+      "size": 5558652,
+      "sha256": "e303a1980f21c0fff2f4ce8e170f71a24050cffcf0af491e8a708f55eefed502"
+    },
+    {
+      "path": "zone/english/so_snowrace2_cliffhanger.ff",
+      "size": 5584680,
+      "sha256": "75550e359cfe96fc5aa7444a76f3aa714b39af14de016a415ddc2857da931a63"
+    },
+    {
+      "path": "zone/english/so_takeover_estate.ff",
+      "size": 5273060,
+      "sha256": "aa0c8074dfeab8fc4bf7565d6a1cc85f022b8e2827deb1a8538a182667229da8"
+    },
+    {
+      "path": "zone/english/so_takeover_oilrig.ff",
+      "size": 9298928,
+      "sha256": "33bee7497e60998f029948be8d168c4484b9f1bcc9ddab76f34148dcbf0bf7b2"
+    },
+    {
+      "path": "zone/english/trainer.ff",
+      "size": 116796309,
+      "sha256": "0440ef3248f3a948b84f8c68a8a55a5a4a2a3c6559390472f59d401b5c42159f"
+    },
+    {
+      "path": "zone/english/ui.ff",
+      "size": 73654,
+      "sha256": "97b844970f944837b5ca088a5f7eb6add524f7af1f9b736c0daa1e90951a3119"
+    },
+    {
+      "path": "zone/english/ui_mp.ff",
+      "size": 24597,
+      "sha256": "2941a3f9c7cb40a16465a08610793d38e51b541a856b56f32e1ff827da903903"
+    },
+    {
+      "path": "zone/mp_abandon.ff",
+      "size": 81264661,
+      "sha256": "f1afa8bd3f16467dd8924bbf27dead93111e2f4b3ff22052b98b35349fce0f1a"
+    },
+    {
+      "path": "zone/mp_abandon_load.ff",
+      "size": 24597,
+      "sha256": "182d20c68562afa4b095162fcfa985041936c71b075b02161903598e9b22c626"
+    },
+    {
+      "path": "zone/mp_compact.ff",
+      "size": 87777301,
+      "sha256": "98fedf882bc99c0c226d32319717fb3c503ecad9e6f0abe77f153d9d0d5a646a"
+    },
+    {
+      "path": "zone/mp_compact_load.ff",
+      "size": 24597,
+      "sha256": "6e7b950aa27c43fa87cca0f681a8c4e94750f7b7e1ae8c56e43b91bcfa4994af"
+    },
+    {
+      "path": "zone/mp_complex.ff",
+      "size": 62185493,
+      "sha256": "fce335c2805bfce832bd421b72ad3b11ce020a431c21b85fdb39f6f2060e9e5e"
+    },
+    {
+      "path": "zone/mp_complex_load.ff",
+      "size": 24597,
+      "sha256": "55684afada85c1a05a5c173223a2f22fd9471d4e83e0c8853fca02dd4f7d6321"
+    },
+    {
+      "path": "zone/mp_crash.ff",
+      "size": 64634901,
+      "sha256": "3416f88c973021372f4dbb9e0d772c91c415cb38d9912f96fa021b2e9c4fc539"
+    },
+    {
+      "path": "zone/mp_crash_load.ff",
+      "size": 24597,
+      "sha256": "235c436271c2e8bf67038f305e1dafb9df1a100b2dc5eb0c2cabf0e364c6dc87"
+    },
+    {
+      "path": "zone/mp_fuel2.ff",
+      "size": 83845141,
+      "sha256": "4feaab5600a19d21df06f1bd997c704da1c2b06a868764114a66ad09a9c0a4be"
+    },
+    {
+      "path": "zone/mp_fuel2_load.ff",
+      "size": 24597,
+      "sha256": "13b73352855d6244ca679b53ef6f5155460c687f7191a76f992d36048964a12a"
+    },
+    {
+      "path": "zone/mp_overgrown.ff",
+      "size": 54894613,
+      "sha256": "6596b8b1ee8dad28d120ff53a3ab69adfe990b0a52d7aa06835b657aa64fe570"
+    },
+    {
+      "path": "zone/mp_overgrown_load.ff",
+      "size": 24597,
+      "sha256": "771768dbda216a6c51933d8649be0c796a75d75d494d2fdc8596a6123bfb0fac"
+    },
+    {
+      "path": "zone/mp_storm.ff",
+      "size": 83189781,
+      "sha256": "4971dec421d04186507e0f7563069ec4ab4fa1eea935c0ba45ad613283188119"
+    },
+    {
+      "path": "zone/mp_storm_load.ff",
+      "size": 24597,
+      "sha256": "de900138d49dc8f482a624a235a49ac3be1f22c189438677f54171583ee6a221"
+    },
+    {
+      "path": "zone/mp_strike.ff",
+      "size": 78979093,
+      "sha256": "6d393de39e8b1d350ba5b120860e320fedd33cb1538ba036a03c285817260f35"
+    },
+    {
+      "path": "zone/mp_strike_load.ff",
+      "size": 24597,
+      "sha256": "114111a645db1ffe651cf1f2f4ccf3a17e2813955dbbc3699b8788ad17ec8749"
+    },
+    {
+      "path": "zone/mp_trailerpark.ff",
+      "size": 67149845,
+      "sha256": "b960cf8cab1894c49418aca49cdb481cc23a9b3272a74abdbbb736401c5a041f"
+    },
+    {
+      "path": "zone/mp_trailerpark_load.ff",
+      "size": 24597,
+      "sha256": "f19134c92addd84cf9ed5a455f9f1c417beab5db03c4d4679eaffb8c53784e8b"
+    },
+    {
+      "path": "zone/mp_vacant.ff",
+      "size": 61489173,
+      "sha256": "31f37a192b08835e623a50db8263e7e0bfed78ade1e697a84e341893618aa2c7"
+    },
+    {
+      "path": "zone/mp_vacant_load.ff",
+      "size": 24597,
+      "sha256": "535cbc4f437e0db0ac314dc3a769283b6d60538fa066a625c63aa8d983fc3cfa"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "binkw32.dll",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 167936
+        },
+        {
+          "file": "iw4mp.exe",
+          "file_offset": 0,
+          "chunk_offset": 49387712,
+          "length": 5104632
+        },
+        {
+          "file": "iw4sp.exe",
+          "file_offset": 0,
+          "chunk_offset": 54492344,
+          "length": 3497984
+        },
+        {
+          "file": "localization.txt",
+          "file_offset": 0,
+          "chunk_offset": 57990328,
+          "length": 2516
+        },
+        {
+          "file": "logo.bmp",
+          "file_offset": 0,
+          "chunk_offset": 57992844,
+          "length": 109976
+        },
+        {
+          "file": "main/iw_00.iwd",
+          "file_offset": 0,
+          "chunk_offset": 58102820,
+          "length": 167618630
+        },
+        {
+          "file": "main/iw_01.iwd",
+          "file_offset": 0,
+          "chunk_offset": 225721450,
+          "length": 95111379
+        }
+      ],
+      "sha256": "feb8d84cd14604bd1ef7a7d23a29b837d4a586e63cff6cb8fdc1a64216d9e2df"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/iw_01.iwd",
+          "file_offset": 95111379,
+          "chunk_offset": 0,
+          "length": 72812444
+        },
+        {
+          "file": "main/iw_02.iwd",
+          "file_offset": 0,
+          "chunk_offset": 72812444,
+          "length": 165845191
+        },
+        {
+          "file": "main/iw_03.iwd",
+          "file_offset": 0,
+          "chunk_offset": 238657635,
+          "length": 82175194
+        }
+      ],
+      "sha256": "372f76934f7b7266c0887488dbd1c28691363372dd828833a52791526a76fcfe"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/iw_03.iwd",
+          "file_offset": 82175194,
+          "chunk_offset": 0,
+          "length": 85664447
+        },
+        {
+          "file": "main/iw_04.iwd",
+          "file_offset": 0,
+          "chunk_offset": 85664447,
+          "length": 164989473
+        },
+        {
+          "file": "main/iw_05.iwd",
+          "file_offset": 0,
+          "chunk_offset": 250653920,
+          "length": 70178909
+        }
+      ],
+      "sha256": "802ca83d0edc66eedfa6042fbc346bf4c1af13b5d8ef23143424bd42c9f788fe"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/iw_05.iwd",
+          "file_offset": 70178909,
+          "chunk_offset": 0,
+          "length": 97531665
+        },
+        {
+          "file": "main/iw_06.iwd",
+          "file_offset": 0,
+          "chunk_offset": 97531665,
+          "length": 167798633
+        },
+        {
+          "file": "main/iw_07.iwd",
+          "file_offset": 0,
+          "chunk_offset": 265330298,
+          "length": 55502531
+        }
+      ],
+      "sha256": "053a9986925dd3d2cc629457b32ee33a264f122dc1b8f1d84e90f2d398d0b4b5"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/iw_07.iwd",
+          "file_offset": 55502531,
+          "chunk_offset": 0,
+          "length": 112302277
+        },
+        {
+          "file": "main/iw_08.iwd",
+          "file_offset": 0,
+          "chunk_offset": 112302277,
+          "length": 167701381
+        },
+        {
+          "file": "main/iw_09.iwd",
+          "file_offset": 0,
+          "chunk_offset": 280003658,
+          "length": 40829171
+        }
+      ],
+      "sha256": "0e51139cc0febdd12aef3cf301e0437c18dbbb1a2f18b95fcc6ecebcc4a5af53"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/iw_09.iwd",
+          "file_offset": 40829171,
+          "chunk_offset": 0,
+          "length": 126953285
+        },
+        {
+          "file": "main/iw_10.iwd",
+          "file_offset": 0,
+          "chunk_offset": 126953285,
+          "length": 167489819
+        },
+        {
+          "file": "main/iw_11.iwd",
+          "file_offset": 0,
+          "chunk_offset": 294443104,
+          "length": 26389725
+        }
+      ],
+      "sha256": "289f2886638a770cbb92ad5a6f99d2189e690a6c2d6cdfbad0619dc2b46c24a2"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/iw_11.iwd",
+          "file_offset": 26389725,
+          "chunk_offset": 0,
+          "length": 112622624
+        },
+        {
+          "file": "main/iw_12.iwd",
+          "file_offset": 0,
+          "chunk_offset": 112622624,
+          "length": 165063745
+        },
+        {
+          "file": "main/iw_13.iwd",
+          "file_offset": 0,
+          "chunk_offset": 277686369,
+          "length": 43146460
+        }
+      ],
+      "sha256": "02294df21b5723c65e423fa739c0bb543b10536c86b6c502cdd46b1c52478753"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/iw_13.iwd",
+          "file_offset": 43146460,
+          "chunk_offset": 0,
+          "length": 121884379
+        },
+        {
+          "file": "main/iw_14.iwd",
+          "file_offset": 0,
+          "chunk_offset": 121884379,
+          "length": 158897781
+        },
+        {
+          "file": "main/iw_15.iwd",
+          "file_offset": 0,
+          "chunk_offset": 280782160,
+          "length": 40050669
+        }
+      ],
+      "sha256": "e3bc75d410cf74bd778ea9704748b11863b4c51f1454fd470b84c09c75bfd202"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/iw_15.iwd",
+          "file_offset": 40050669,
+          "chunk_offset": 0,
+          "length": 127708006
+        },
+        {
+          "file": "main/iw_16.iwd",
+          "file_offset": 0,
+          "chunk_offset": 127708006,
+          "length": 166061488
+        },
+        {
+          "file": "main/iw_17.iwd",
+          "file_offset": 0,
+          "chunk_offset": 293769494,
+          "length": 27063335
+        }
+      ],
+      "sha256": "c811a2f39be4007cf70a5ac0a9a3dff058856513ac189b2d8ce36a2a87834228"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/iw_17.iwd",
+          "file_offset": 27063335,
+          "chunk_offset": 0,
+          "length": 139208800
+        },
+        {
+          "file": "main/iw_18.iwd",
+          "file_offset": 0,
+          "chunk_offset": 139208800,
+          "length": 165891636
+        },
+        {
+          "file": "main/iw_19.iwd",
+          "file_offset": 0,
+          "chunk_offset": 305100436,
+          "length": 15732393
+        }
+      ],
+      "sha256": "4402e32a3337b93707ed350029a347181071866059913a1dba44671cf27f3209"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/iw_19.iwd",
+          "file_offset": 15732393,
+          "chunk_offset": 0,
+          "length": 145409010
+        },
+        {
+          "file": "main/iw_20.iwd",
+          "file_offset": 0,
+          "chunk_offset": 145409010,
+          "length": 164479988
+        },
+        {
+          "file": "main/iw_21.iwd",
+          "file_offset": 0,
+          "chunk_offset": 309888998,
+          "length": 10943831
+        }
+      ],
+      "sha256": "0fee7e6d027f729692aade6fd6c3f3b495534eedce26a1438e591034f37c500a"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/iw_21.iwd",
+          "file_offset": 10943831,
+          "chunk_offset": 0,
+          "length": 73108419
+        },
+        {
+          "file": "main/iw_22.iwd",
+          "file_offset": 0,
+          "chunk_offset": 73108419,
+          "length": 149435968
+        },
+        {
+          "file": "main/iw_23.iwd",
+          "file_offset": 0,
+          "chunk_offset": 222544387,
+          "length": 98288442
+        }
+      ],
+      "sha256": "80f9296a347c66a05d2949acb762c9c1775deba07f28dbcac3c3eecb52f2e21a"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/iw_23.iwd",
+          "file_offset": 98288442,
+          "chunk_offset": 0,
+          "length": 34456611
+        },
+        {
+          "file": "main/localized_english_iw00.iwd",
+          "file_offset": 0,
+          "chunk_offset": 34456611,
+          "length": 168301865
+        },
+        {
+          "file": "main/localized_english_iw01.iwd",
+          "file_offset": 0,
+          "chunk_offset": 202758476,
+          "length": 118074353
+        }
+      ],
+      "sha256": "a65a58d3a6808cc509150442d60dcc653bdad792eeaabc521d8249890c39545e"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/localized_english_iw01.iwd",
+          "file_offset": 118074353,
+          "chunk_offset": 0,
+          "length": 50104311
+        },
+        {
+          "file": "main/localized_english_iw02.iwd",
+          "file_offset": 0,
+          "chunk_offset": 50104311,
+          "length": 168266698
+        },
+        {
+          "file": "main/localized_english_iw03.iwd",
+          "file_offset": 0,
+          "chunk_offset": 218371009,
+          "length": 102461820
+        }
+      ],
+      "sha256": "2ee1cd439a5533e59dc78cb59e604361d2ce7145698b4ff45305d42677901021"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/localized_english_iw03.iwd",
+          "file_offset": 102461820,
+          "chunk_offset": 0,
+          "length": 65797970
+        },
+        {
+          "file": "main/localized_english_iw04.iwd",
+          "file_offset": 0,
+          "chunk_offset": 65797970,
+          "length": 168142649
+        },
+        {
+          "file": "main/localized_english_iw05.iwd",
+          "file_offset": 0,
+          "chunk_offset": 233940619,
+          "length": 86892210
+        }
+      ],
+      "sha256": "0af56490a7322367c5ee9b30f3192056df5b0333c1c96feaf43fcf55e4040171"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/localized_english_iw05.iwd",
+          "file_offset": 86892210,
+          "chunk_offset": 0,
+          "length": 81131330
+        },
+        {
+          "file": "main/localized_english_iw06.iwd",
+          "file_offset": 0,
+          "chunk_offset": 81131330,
+          "length": 167831913
+        },
+        {
+          "file": "main/localized_english_iw07.iwd",
+          "file_offset": 0,
+          "chunk_offset": 248963243,
+          "length": 71869586
+        }
+      ],
+      "sha256": "0cb1da0f6aebf311b7ccf69677d4f63f99dc01393e5915cddd8191bdee64fe2e"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/localized_english_iw07.iwd",
+          "file_offset": 71869586,
+          "chunk_offset": 0,
+          "length": 31182757
+        },
+        {
+          "file": "main/video/af_caves_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 31182757,
+          "length": 100569028
+        },
+        {
+          "file": "main/video/af_chase_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 131751785,
+          "length": 67675212
+        },
+        {
+          "file": "main/video/afcaves_countdown_hires.bik",
+          "file_offset": 0,
+          "chunk_offset": 199426997,
+          "length": 690896
+        },
+        {
+          "file": "main/video/airport_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 200117893,
+          "length": 84214336
+        },
+        {
+          "file": "main/video/arcadia_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 284332229,
+          "length": 36500600
+        }
+      ],
+      "sha256": "872b0acfff6cd33b98bbf331067bdadc7cc2d585d94f8ecc372ef28144475fff"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/video/arcadia_load.bik",
+          "file_offset": 36500600,
+          "chunk_offset": 0,
+          "length": 41513548
+        },
+        {
+          "file": "main/video/attract.bik",
+          "file_offset": 0,
+          "chunk_offset": 41513548,
+          "length": 155322180
+        },
+        {
+          "file": "main/video/atvi.bik",
+          "file_offset": 0,
+          "chunk_offset": 196835728,
+          "length": 10761032
+        },
+        {
+          "file": "main/video/black.bik",
+          "file_offset": 0,
+          "chunk_offset": 207596760,
+          "length": 13072
+        },
+        {
+          "file": "main/video/boneyard_fade.bik",
+          "file_offset": 0,
+          "chunk_offset": 207609832,
+          "length": 2836476
+        },
+        {
+          "file": "main/video/boneyard_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 210446308,
+          "length": 73073364
+        },
+        {
+          "file": "main/video/cliffhanger_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 283519672,
+          "length": 37313157
+        }
+      ],
+      "sha256": "c486e5a8d05ba9fd6ebe2fb8285123b6616fa450724795e38f0b7ebaa05a22fe"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/video/cliffhanger_load.bik",
+          "file_offset": 37313157,
+          "chunk_offset": 0,
+          "length": 42395103
+        },
+        {
+          "file": "main/video/cod_intro.bik",
+          "file_offset": 0,
+          "chunk_offset": 42395103,
+          "length": 236872020
+        },
+        {
+          "file": "main/video/contingency_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 279267123,
+          "length": 41565706
+        }
+      ],
+      "sha256": "49b34069bb022c25256b936581484f9ac7e902a0d644d8b1f710c057fe1b50f8"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/video/contingency_load.bik",
+          "file_offset": 41565706,
+          "chunk_offset": 0,
+          "length": 57905002
+        },
+        {
+          "file": "main/video/credits_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 57905002,
+          "length": 592
+        },
+        {
+          "file": "main/video/dc_whitehouse_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 57905594,
+          "length": 13072
+        },
+        {
+          "file": "main/video/dcburning_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 57918666,
+          "length": 54105292
+        },
+        {
+          "file": "main/video/dcemp_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 112023958,
+          "length": 93590300
+        },
+        {
+          "file": "main/video/default.bik",
+          "file_offset": 0,
+          "chunk_offset": 205614258,
+          "length": 3201496
+        },
+        {
+          "file": "main/video/ending_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 208815754,
+          "length": 13072
+        },
+        {
+          "file": "main/video/estate_fade.bik",
+          "file_offset": 0,
+          "chunk_offset": 208828826,
+          "length": 2573696
+        },
+        {
+          "file": "main/video/estate_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 211402522,
+          "length": 92801008
+        },
+        {
+          "file": "main/video/favela_escape_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 304203530,
+          "length": 16629299
+        }
+      ],
+      "sha256": "0719eb48e4d7f8eefea0fe85b5f97d7d46a7d7d12d456780025953b870e5b0ee"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/video/favela_escape_load.bik",
+          "file_offset": 16629299,
+          "chunk_offset": 0,
+          "length": 96198145
+        },
+        {
+          "file": "main/video/favela_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 96198145,
+          "length": 104948552
+        },
+        {
+          "file": "main/video/gulag_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 201146697,
+          "length": 74200024
+        },
+        {
+          "file": "main/video/gulag_securitycam.bik",
+          "file_offset": 0,
+          "chunk_offset": 275346721,
+          "length": 6095088
+        },
+        {
+          "file": "main/video/intro_credits_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 281441809,
+          "length": 39391020
+        }
+      ],
+      "sha256": "19954d91932688f36adcd865a6cc85029577a2f1009cdc3aeee22f28c01c36e8"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/video/intro_credits_load.bik",
+          "file_offset": 39391020,
+          "chunk_offset": 0,
+          "length": 233439740
+        },
+        {
+          "file": "main/video/invasion_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 233439740,
+          "length": 87393089
+        }
+      ],
+      "sha256": "2db59dc11383a0d666ed945b75f37dff62802ecb7f58e44b03cfbdce4cdaefe5"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/video/invasion_load.bik",
+          "file_offset": 87393089,
+          "chunk_offset": 0,
+          "length": 27235851
+        },
+        {
+          "file": "main/video/IW_logo.bik",
+          "file_offset": 0,
+          "chunk_offset": 27235851,
+          "length": 10569960
+        },
+        {
+          "file": "main/video/legal.bik",
+          "file_offset": 0,
+          "chunk_offset": 37805811,
+          "length": 2464884
+        },
+        {
+          "file": "main/video/oilrig_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 40270695,
+          "length": 89014396
+        },
+        {
+          "file": "main/video/roadkill_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 129285091,
+          "length": 104050444
+        },
+        {
+          "file": "main/video/simplecredits_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 233335535,
+          "length": 592
+        },
+        {
+          "file": "main/video/so_ac130_co_hunted_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 233336127,
+          "length": 218004
+        },
+        {
+          "file": "main/video/so_assault_oilrig_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 233554131,
+          "length": 229540
+        },
+        {
+          "file": "main/video/so_chopper_invasion_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 233783671,
+          "length": 226484
+        },
+        {
+          "file": "main/video/so_crossing_so_bridge_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 234010155,
+          "length": 228408
+        },
+        {
+          "file": "main/video/so_defense_invasion_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 234238563,
+          "length": 228996
+        },
+        {
+          "file": "main/video/so_defuse_favela_escape_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 234467559,
+          "length": 228384
+        },
+        {
+          "file": "main/video/so_demo_so_bridge_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 234695943,
+          "length": 228048
+        },
+        {
+          "file": "main/video/so_download_arcadia_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 234923991,
+          "length": 226452
+        },
+        {
+          "file": "main/video/so_escape_airport_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 235150443,
+          "length": 229156
+        },
+        {
+          "file": "main/video/so_forest_contingency_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 235379599,
+          "length": 228700
+        },
+        {
+          "file": "main/video/so_hidden_so_ghillies_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 235608299,
+          "length": 220456
+        },
+        {
+          "file": "main/video/so_intel_boneyard_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 235828755,
+          "length": 229928
+        },
+        {
+          "file": "main/video/so_juggernauts_favela_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 236058683,
+          "length": 226780
+        },
+        {
+          "file": "main/video/so_killspree_favela_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 236285463,
+          "length": 225696
+        },
+        {
+          "file": "main/video/so_killspree_invasion_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 236511159,
+          "length": 227932
+        },
+        {
+          "file": "main/video/so_killspree_trainer_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 236739091,
+          "length": 228180
+        },
+        {
+          "file": "main/video/so_rooftop_contingency_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 236967271,
+          "length": 226756
+        },
+        {
+          "file": "main/video/so_sabotage_cliffhanger_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 237194027,
+          "length": 229656
+        },
+        {
+          "file": "main/video/so_showers_gulag_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 237423683,
+          "length": 230328
+        },
+        {
+          "file": "main/video/so_snowrace1_cliffhanger_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 237654011,
+          "length": 224100
+        },
+        {
+          "file": "main/video/so_snowrace2_cliffhanger_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 237878111,
+          "length": 224368
+        },
+        {
+          "file": "main/video/so_takeover_estate_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 238102479,
+          "length": 224420
+        },
+        {
+          "file": "main/video/so_takeover_oilrig_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 238326899,
+          "length": 227604
+        },
+        {
+          "file": "main/video/title.bik",
+          "file_offset": 0,
+          "chunk_offset": 238554503,
+          "length": 2977352
+        },
+        {
+          "file": "main/video/trainer_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 241531855,
+          "length": 79300974
+        }
+      ],
+      "sha256": "e606492d9f2bedd8a5c13424d389094a28a35439fbe1430ceead099031f9e30d"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "main/video/trainer_load.bik",
+          "file_offset": 79300974,
+          "chunk_offset": 0,
+          "length": 24214942
+        },
+        {
+          "file": "miles/milesEq.flt",
+          "file_offset": 0,
+          "chunk_offset": 24214942,
+          "length": 114688
+        },
+        {
+          "file": "miles/mssds3d.flt",
+          "file_offset": 0,
+          "chunk_offset": 24329630,
+          "length": 12288
+        },
+        {
+          "file": "miles/mssdsp.flt",
+          "file_offset": 0,
+          "chunk_offset": 24341918,
+          "length": 56832
+        },
+        {
+          "file": "miles/msseax.flt",
+          "file_offset": 0,
+          "chunk_offset": 24398750,
+          "length": 58368
+        },
+        {
+          "file": "miles/mssmp3.asi",
+          "file_offset": 0,
+          "chunk_offset": 24457118,
+          "length": 93696
+        },
+        {
+          "file": "miles/mssvoice.asi",
+          "file_offset": 0,
+          "chunk_offset": 24550814,
+          "length": 153088
+        },
+        {
+          "file": "mss32.dll",
+          "file_offset": 0,
+          "chunk_offset": 24703902,
+          "length": 434688
+        },
+        {
+          "file": "No Russian Mission Unlocker/readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 25138590,
+          "length": 681
+        },
+        {
+          "file": "No Russian Mission Unlocker/ui.ff",
+          "file_offset": 0,
+          "chunk_offset": 25139271,
+          "length": 73660
+        },
+        {
+          "file": "No Russian Mission Unlocker/Var 2/patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 25212931,
+          "length": 16037
+        },
+        {
+          "file": "No Russian Mission Unlocker/Var 2/patch_code_pre_gfx.ff",
+          "file_offset": 0,
+          "chunk_offset": 25228968,
+          "length": 1248
+        },
+        {
+          "file": "No Russian Mission Unlocker/Var 2/patch_code_pre_gfx_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 25230216,
+          "length": 24597
+        },
+        {
+          "file": "No Russian Mission Unlocker/Var 2/ui.ff",
+          "file_offset": 0,
+          "chunk_offset": 25254813,
+          "length": 73660
+        },
+        {
+          "file": "players/config.cfg",
+          "file_offset": 0,
+          "chunk_offset": 25328473,
+          "length": 5854
+        },
+        {
+          "file": "players/settings_c.zip.iw4",
+          "file_offset": 0,
+          "chunk_offset": 25334327,
+          "length": 164
+        },
+        {
+          "file": "players/settings_s.zip.iw4",
+          "file_offset": 0,
+          "chunk_offset": 25334491,
+          "length": 322
+        },
+        {
+          "file": "splash.bmp",
+          "file_offset": 0,
+          "chunk_offset": 25334813,
+          "length": 1105976
+        },
+        {
+          "file": "steam000.wow",
+          "file_offset": 0,
+          "chunk_offset": 26440789,
+          "length": 115960
+        },
+        {
+          "file": "steam001.wow",
+          "file_offset": 0,
+          "chunk_offset": 26556749,
+          "length": 5104632
+        },
+        {
+          "file": "steam_api.ini",
+          "file_offset": 0,
+          "chunk_offset": 31661381,
+          "length": 2041
+        },
+        {
+          "file": "SteamAPIUpdater.dll",
+          "file_offset": 0,
+          "chunk_offset": 31663422,
+          "length": 1296880
+        },
+        {
+          "file": "UpdateDLLWrapper.dll",
+          "file_offset": 0,
+          "chunk_offset": 32960302,
+          "length": 58616
+        },
+        {
+          "file": "zone/english/af_caves.ff",
+          "file_offset": 0,
+          "chunk_offset": 33018918,
+          "length": 179522018
+        },
+        {
+          "file": "zone/english/af_chase.ff",
+          "file_offset": 0,
+          "chunk_offset": 212540936,
+          "length": 108291893
+        }
+      ],
+      "sha256": "67db128cfb2b1f1f5883d3d29b078298fb03647ad0dde08c8402b64cbd3d38db"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/english/af_chase.ff",
+          "file_offset": 108291893,
+          "chunk_offset": 0,
+          "length": 49600322
+        },
+        {
+          "file": "zone/english/airport.ff",
+          "file_offset": 0,
+          "chunk_offset": 49600322,
+          "length": 156222060
+        },
+        {
+          "file": "zone/english/arcadia.ff",
+          "file_offset": 0,
+          "chunk_offset": 205822382,
+          "length": 115010447
+        }
+      ],
+      "sha256": "a84343fbdf3fc711a4600c981dfd5a8772863ed268b9a1015fe9c805e29540e0"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/english/arcadia.ff",
+          "file_offset": 115010447,
+          "chunk_offset": 0,
+          "length": 33438393
+        },
+        {
+          "file": "zone/english/boneyard.ff",
+          "file_offset": 0,
+          "chunk_offset": 33438393,
+          "length": 140484041
+        },
+        {
+          "file": "zone/english/cliffhanger.ff",
+          "file_offset": 0,
+          "chunk_offset": 173922434,
+          "length": 146910395
+        }
+      ],
+      "sha256": "cc42cc3806b0773fdbe21d68860b43796d5c2915d694ff154d5ef4b3bfb0a182"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/english/cliffhanger.ff",
+          "file_offset": 146910395,
+          "chunk_offset": 0,
+          "length": 25681139
+        },
+        {
+          "file": "zone/english/co_hunted.ff",
+          "file_offset": 0,
+          "chunk_offset": 25681139,
+          "length": 82485837
+        },
+        {
+          "file": "zone/english/code_post_gfx.ff",
+          "file_offset": 0,
+          "chunk_offset": 108166976,
+          "length": 1009057
+        },
+        {
+          "file": "zone/english/code_post_gfx_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 109176033,
+          "length": 172053
+        },
+        {
+          "file": "zone/english/code_pre_gfx.ff",
+          "file_offset": 0,
+          "chunk_offset": 109348086,
+          "length": 3781
+        },
+        {
+          "file": "zone/english/code_pre_gfx_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 109351867,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/common.ff",
+          "file_offset": 0,
+          "chunk_offset": 109376464,
+          "length": 113158685
+        },
+        {
+          "file": "zone/english/common_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 222535149,
+          "length": 53223445
+        },
+        {
+          "file": "zone/english/contingency.ff",
+          "file_offset": 0,
+          "chunk_offset": 275758594,
+          "length": 45074235
+        }
+      ],
+      "sha256": "68d368c0ea7ae433dbb6e22cdb31faadb56575ec5caba2ff87a16477bd42c4f8"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/english/contingency.ff",
+          "file_offset": 45074235,
+          "chunk_offset": 0,
+          "length": 99729985
+        },
+        {
+          "file": "zone/english/dc_whitehouse.ff",
+          "file_offset": 0,
+          "chunk_offset": 99729985,
+          "length": 114378666
+        },
+        {
+          "file": "zone/english/dcburning.ff",
+          "file_offset": 0,
+          "chunk_offset": 214108651,
+          "length": 106724178
+        }
+      ],
+      "sha256": "17bc08798aadd59556957f17bfbea3098d22cf4e71bce8d9f0302f12134712fe"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/english/dcburning.ff",
+          "file_offset": 106724178,
+          "chunk_offset": 0,
+          "length": 66749035
+        },
+        {
+          "file": "zone/english/dcemp.ff",
+          "file_offset": 0,
+          "chunk_offset": 66749035,
+          "length": 139209716
+        },
+        {
+          "file": "zone/english/dlc1_ui_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 205958751,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/dlc2_ui_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 205983348,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/ending.ff",
+          "file_offset": 0,
+          "chunk_offset": 206007945,
+          "length": 114824884
+        }
+      ],
+      "sha256": "94d616af1ea8eb56f86173f5a50c1c5b2c6cf62fb2edbfd21f6c6bf718081b47"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/english/ending.ff",
+          "file_offset": 114824884,
+          "chunk_offset": 0,
+          "length": 40938508
+        },
+        {
+          "file": "zone/english/estate.ff",
+          "file_offset": 0,
+          "chunk_offset": 40938508,
+          "length": 131821492
+        },
+        {
+          "file": "zone/english/favela.ff",
+          "file_offset": 0,
+          "chunk_offset": 172760000,
+          "length": 142759523
+        },
+        {
+          "file": "zone/english/favela_escape.ff",
+          "file_offset": 0,
+          "chunk_offset": 315519523,
+          "length": 5313306
+        }
+      ],
+      "sha256": "f64f023e0f04e14d359dc5ad27dcd8b49e91581818161d6fbd530e4f7da0286d"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/english/favela_escape.ff",
+          "file_offset": 5313306,
+          "chunk_offset": 0,
+          "length": 125984525
+        },
+        {
+          "file": "zone/english/gulag.ff",
+          "file_offset": 0,
+          "chunk_offset": 125984525,
+          "length": 169682972
+        },
+        {
+          "file": "zone/english/invasion.ff",
+          "file_offset": 0,
+          "chunk_offset": 295667497,
+          "length": 25165332
+        }
+      ],
+      "sha256": "f0753f54e6fc5c1495ca1d13f18ce770161d1213c4f83f3420be17dc39231a0b"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/english/invasion.ff",
+          "file_offset": 25165332,
+          "chunk_offset": 0,
+          "length": 130508591
+        },
+        {
+          "file": "zone/english/iw4_credits.ff",
+          "file_offset": 0,
+          "chunk_offset": 130508591,
+          "length": 10338942
+        },
+        {
+          "file": "zone/english/localized_code_post_gfx_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 140847533,
+          "length": 1032213
+        },
+        {
+          "file": "zone/english/localized_code_pre_gfx_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 141879746,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/localized_common_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 141904343,
+          "length": 119709717
+        },
+        {
+          "file": "zone/english/localized_ui_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 261614060,
+          "length": 352277
+        },
+        {
+          "file": "zone/english/mp_afghan.ff",
+          "file_offset": 0,
+          "chunk_offset": 261966337,
+          "length": 58866492
+        }
+      ],
+      "sha256": "cafa84fa6148ee0dbdf18a281cb792edd29cf5330280dbae81a2af2746b7d088"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/english/mp_afghan.ff",
+          "file_offset": 58866492,
+          "chunk_offset": 0,
+          "length": 14025945
+        },
+        {
+          "file": "zone/english/mp_afghan_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 14025945,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_boneyard.ff",
+          "file_offset": 0,
+          "chunk_offset": 14050542,
+          "length": 62300181
+        },
+        {
+          "file": "zone/english/mp_boneyard_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 76350723,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_brecourt.ff",
+          "file_offset": 0,
+          "chunk_offset": 76375320,
+          "length": 53198869
+        },
+        {
+          "file": "zone/english/mp_brecourt_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 129574189,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_checkpoint.ff",
+          "file_offset": 0,
+          "chunk_offset": 129598786,
+          "length": 79495189
+        },
+        {
+          "file": "zone/english/mp_checkpoint_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 209093975,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_derail.ff",
+          "file_offset": 0,
+          "chunk_offset": 209118572,
+          "length": 75890709
+        },
+        {
+          "file": "zone/english/mp_derail_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 285009281,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_estate.ff",
+          "file_offset": 0,
+          "chunk_offset": 285033878,
+          "length": 35798951
+        }
+      ],
+      "sha256": "552b8a3d67446f7f7fe142f74dc42add36befefb187dbc376fd24a6488c1f587"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/english/mp_estate.ff",
+          "file_offset": 35798951,
+          "chunk_offset": 0,
+          "length": 48455790
+        },
+        {
+          "file": "zone/english/mp_estate_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 48455790,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_favela.ff",
+          "file_offset": 0,
+          "chunk_offset": 48480387,
+          "length": 60940309
+        },
+        {
+          "file": "zone/english/mp_favela_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 109420696,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_highrise.ff",
+          "file_offset": 0,
+          "chunk_offset": 109445293,
+          "length": 74620949
+        },
+        {
+          "file": "zone/english/mp_highrise_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 184066242,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_invasion.ff",
+          "file_offset": 0,
+          "chunk_offset": 184090839,
+          "length": 74432533
+        },
+        {
+          "file": "zone/english/mp_invasion_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 258523372,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_nightshift.ff",
+          "file_offset": 0,
+          "chunk_offset": 258547969,
+          "length": 62284860
+        }
+      ],
+      "sha256": "9a26f3e34916415041d73d64fd07c1cab64384715387b54790a71d665dd1146b"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/english/mp_nightshift.ff",
+          "file_offset": 62284860,
+          "chunk_offset": 0,
+          "length": 6585305
+        },
+        {
+          "file": "zone/english/mp_nightshift_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 6585305,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_quarry.ff",
+          "file_offset": 0,
+          "chunk_offset": 6609902,
+          "length": 81723413
+        },
+        {
+          "file": "zone/english/mp_quarry_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 88333315,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_rundown.ff",
+          "file_offset": 0,
+          "chunk_offset": 88357912,
+          "length": 72007701
+        },
+        {
+          "file": "zone/english/mp_rundown_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 160365613,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_rust.ff",
+          "file_offset": 0,
+          "chunk_offset": 160390210,
+          "length": 51011605
+        },
+        {
+          "file": "zone/english/mp_rust_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 211401815,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_subbase.ff",
+          "file_offset": 0,
+          "chunk_offset": 211426412,
+          "length": 65544213
+        },
+        {
+          "file": "zone/english/mp_subbase_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 276970625,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_terminal.ff",
+          "file_offset": 0,
+          "chunk_offset": 276995222,
+          "length": 43837607
+        }
+      ],
+      "sha256": "695f3624f872324ee2570c6860244edad3a09bc0439ded1239bdf528c3b7a7bf"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/english/mp_terminal.ff",
+          "file_offset": 43837607,
+          "chunk_offset": 0,
+          "length": 27015022
+        },
+        {
+          "file": "zone/english/mp_terminal_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 27015022,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/mp_underpass.ff",
+          "file_offset": 0,
+          "chunk_offset": 27039619,
+          "length": 85630997
+        },
+        {
+          "file": "zone/english/mp_underpass_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 112670616,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/oilrig.ff",
+          "file_offset": 0,
+          "chunk_offset": 112695213,
+          "length": 163634152
+        },
+        {
+          "file": "zone/english/patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 276329365,
+          "length": 16390
+        },
+        {
+          "file": "zone/english/patch_code_pre_gfx.ff",
+          "file_offset": 0,
+          "chunk_offset": 276345755,
+          "length": 1248
+        },
+        {
+          "file": "zone/english/patch_code_pre_gfx_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 276347003,
+          "length": 24597
+        },
+        {
+          "file": "zone/english/patch_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 276371600,
+          "length": 229397
+        },
+        {
+          "file": "zone/english/roadkill.ff",
+          "file_offset": 0,
+          "chunk_offset": 276600997,
+          "length": 44231832
+        }
+      ],
+      "sha256": "921abaeedbe3d75d7b73b2838c3c7b1e6e850d2960d9841ebef8bf7a8bd5f12b"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/english/roadkill.ff",
+          "file_offset": 44231832,
+          "chunk_offset": 0,
+          "length": 123094644
+        },
+        {
+          "file": "zone/english/so_ac130_co_hunted.ff",
+          "file_offset": 0,
+          "chunk_offset": 123094644,
+          "length": 4977811
+        },
+        {
+          "file": "zone/english/so_assault_oilrig.ff",
+          "file_offset": 0,
+          "chunk_offset": 128072455,
+          "length": 4381633
+        },
+        {
+          "file": "zone/english/so_bridge.ff",
+          "file_offset": 0,
+          "chunk_offset": 132454088,
+          "length": 116141058
+        },
+        {
+          "file": "zone/english/so_chopper_invasion.ff",
+          "file_offset": 0,
+          "chunk_offset": 248595146,
+          "length": 7368650
+        },
+        {
+          "file": "zone/english/so_crossing_so_bridge.ff",
+          "file_offset": 0,
+          "chunk_offset": 255963796,
+          "length": 1233640
+        },
+        {
+          "file": "zone/english/so_defense_invasion.ff",
+          "file_offset": 0,
+          "chunk_offset": 257197436,
+          "length": 4496225
+        },
+        {
+          "file": "zone/english/so_defuse_favela_escape.ff",
+          "file_offset": 0,
+          "chunk_offset": 261693661,
+          "length": 5670817
+        },
+        {
+          "file": "zone/english/so_demo_so_bridge.ff",
+          "file_offset": 0,
+          "chunk_offset": 267364478,
+          "length": 3059066
+        },
+        {
+          "file": "zone/english/so_download_arcadia.ff",
+          "file_offset": 0,
+          "chunk_offset": 270423544,
+          "length": 4750209
+        },
+        {
+          "file": "zone/english/so_escape_airport.ff",
+          "file_offset": 0,
+          "chunk_offset": 275173753,
+          "length": 6010716
+        },
+        {
+          "file": "zone/english/so_forest_contingency.ff",
+          "file_offset": 0,
+          "chunk_offset": 281184469,
+          "length": 4387217
+        },
+        {
+          "file": "zone/english/so_ghillies.ff",
+          "file_offset": 0,
+          "chunk_offset": 285571686,
+          "length": 35261143
+        }
+      ],
+      "sha256": "5ba786ae5a70aa2d7af9118265ea61e89fd4ae075edf439df5492b63b20abe81"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/english/so_ghillies.ff",
+          "file_offset": 35261143,
+          "chunk_offset": 0,
+          "length": 39582070
+        },
+        {
+          "file": "zone/english/so_hidden_so_ghillies.ff",
+          "file_offset": 0,
+          "chunk_offset": 39582070,
+          "length": 4194471
+        },
+        {
+          "file": "zone/english/so_intel_boneyard.ff",
+          "file_offset": 0,
+          "chunk_offset": 43776541,
+          "length": 7155949
+        },
+        {
+          "file": "zone/english/so_juggernauts_favela.ff",
+          "file_offset": 0,
+          "chunk_offset": 50932490,
+          "length": 10546816
+        },
+        {
+          "file": "zone/english/so_killspree_favela.ff",
+          "file_offset": 0,
+          "chunk_offset": 61479306,
+          "length": 5475640
+        },
+        {
+          "file": "zone/english/so_killspree_invasion.ff",
+          "file_offset": 0,
+          "chunk_offset": 66954946,
+          "length": 4975220
+        },
+        {
+          "file": "zone/english/so_killspree_trainer.ff",
+          "file_offset": 0,
+          "chunk_offset": 71930166,
+          "length": 7232032
+        },
+        {
+          "file": "zone/english/so_rooftop_contingency.ff",
+          "file_offset": 0,
+          "chunk_offset": 79162198,
+          "length": 5184704
+        },
+        {
+          "file": "zone/english/so_sabotage_cliffhanger.ff",
+          "file_offset": 0,
+          "chunk_offset": 84346902,
+          "length": 5281774
+        },
+        {
+          "file": "zone/english/so_showers_gulag.ff",
+          "file_offset": 0,
+          "chunk_offset": 89628676,
+          "length": 4603933
+        },
+        {
+          "file": "zone/english/so_snowrace1_cliffhanger.ff",
+          "file_offset": 0,
+          "chunk_offset": 94232609,
+          "length": 5558652
+        },
+        {
+          "file": "zone/english/so_snowrace2_cliffhanger.ff",
+          "file_offset": 0,
+          "chunk_offset": 99791261,
+          "length": 5584680
+        },
+        {
+          "file": "zone/english/so_takeover_estate.ff",
+          "file_offset": 0,
+          "chunk_offset": 105375941,
+          "length": 5273060
+        },
+        {
+          "file": "zone/english/so_takeover_oilrig.ff",
+          "file_offset": 0,
+          "chunk_offset": 110649001,
+          "length": 9298928
+        },
+        {
+          "file": "zone/english/trainer.ff",
+          "file_offset": 0,
+          "chunk_offset": 119947929,
+          "length": 116796309
+        },
+        {
+          "file": "zone/english/ui.ff",
+          "file_offset": 0,
+          "chunk_offset": 236744238,
+          "length": 73654
+        },
+        {
+          "file": "zone/english/ui_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 236817892,
+          "length": 24597
+        },
+        {
+          "file": "zone/mp_abandon.ff",
+          "file_offset": 0,
+          "chunk_offset": 236842489,
+          "length": 81264661
+        },
+        {
+          "file": "zone/mp_abandon_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 318107150,
+          "length": 24597
+        },
+        {
+          "file": "zone/mp_compact.ff",
+          "file_offset": 0,
+          "chunk_offset": 318131747,
+          "length": 2701082
+        }
+      ],
+      "sha256": "5b871605399bb633d05622ea340af9aef969fc9a72b33dcc714f9fa2caeff3f8"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 320832829,
+      "segments": [
+        {
+          "file": "zone/mp_compact.ff",
+          "file_offset": 2701082,
+          "chunk_offset": 0,
+          "length": 85076219
+        },
+        {
+          "file": "zone/mp_compact_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 85076219,
+          "length": 24597
+        },
+        {
+          "file": "zone/mp_complex.ff",
+          "file_offset": 0,
+          "chunk_offset": 85100816,
+          "length": 62185493
+        },
+        {
+          "file": "zone/mp_complex_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 147286309,
+          "length": 24597
+        },
+        {
+          "file": "zone/mp_crash.ff",
+          "file_offset": 0,
+          "chunk_offset": 147310906,
+          "length": 64634901
+        },
+        {
+          "file": "zone/mp_crash_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 211945807,
+          "length": 24597
+        },
+        {
+          "file": "zone/mp_fuel2.ff",
+          "file_offset": 0,
+          "chunk_offset": 211970404,
+          "length": 83845141
+        },
+        {
+          "file": "zone/mp_fuel2_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 295815545,
+          "length": 24597
+        },
+        {
+          "file": "zone/mp_overgrown.ff",
+          "file_offset": 0,
+          "chunk_offset": 295840142,
+          "length": 24992687
+        }
+      ],
+      "sha256": "dd41a22555b0ca6ef4c530f501aab246712db96a0e99da09eabaaf4dce1e0867"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 320832803,
+      "segments": [
+        {
+          "file": "zone/mp_overgrown.ff",
+          "file_offset": 24992687,
+          "chunk_offset": 0,
+          "length": 29901926
+        },
+        {
+          "file": "zone/mp_overgrown_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 29901926,
+          "length": 24597
+        },
+        {
+          "file": "zone/mp_storm.ff",
+          "file_offset": 0,
+          "chunk_offset": 29926523,
+          "length": 83189781
+        },
+        {
+          "file": "zone/mp_storm_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 113116304,
+          "length": 24597
+        },
+        {
+          "file": "zone/mp_strike.ff",
+          "file_offset": 0,
+          "chunk_offset": 113140901,
+          "length": 78979093
+        },
+        {
+          "file": "zone/mp_strike_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 192119994,
+          "length": 24597
+        },
+        {
+          "file": "zone/mp_trailerpark.ff",
+          "file_offset": 0,
+          "chunk_offset": 192144591,
+          "length": 67149845
+        },
+        {
+          "file": "zone/mp_trailerpark_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 259294436,
+          "length": 24597
+        },
+        {
+          "file": "zone/mp_vacant.ff",
+          "file_offset": 0,
+          "chunk_offset": 259319033,
+          "length": 61489173
+        },
+        {
+          "file": "zone/mp_vacant_load.ff",
+          "file_offset": 0,
+          "chunk_offset": 320808206,
+          "length": 24597
+        }
+      ],
+      "sha256": "deaed5977678334c208a26ee89a9dc09bde5f933d67a727e834bd7af398fbef7"
+    }
+  ]
+}
