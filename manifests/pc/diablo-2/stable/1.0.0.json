@@ -1,0 +1,718 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "diablo-2",
+    "title": "Diablo 2",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": ""
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-diablo-2-v1.0.0-stable"
+  },
+  "chunk_size": 65041568,
+  "upload_workers": 31,
+  "upload_waves": 1,
+  "total_size": 2016288584,
+  "files": [
+    {
+      "path": "binkw32.dll",
+      "size": 206824,
+      "sha256": "0475cd223e29bfa06c5672a2ad0e2c04f0ff0b0f17b6173595db33ff11638cda"
+    },
+    {
+      "path": "BlizzardError.exe",
+      "size": 735720,
+      "sha256": "98a6e5a041abeee079a3c0af024b2f12611e32329758f66a0921866a4898d2fe"
+    },
+    {
+      "path": "BnetLog.txt",
+      "size": 667,
+      "sha256": "e53e3b53973ae5a9cb091281affacc7ff39cfd3adb934e97222485c2e132d0e6"
+    },
+    {
+      "path": "BNUpdate.exe",
+      "size": 243688,
+      "sha256": "4c720560d0481b0e6793b9feb88f99844596c7b2a58d6f1e5c7cf11c8499ba85"
+    },
+    {
+      "path": "D2.LNG",
+      "size": 1536,
+      "sha256": "443b06d96aea1465b43f25c7921c9e4ea5ee391fed79108b461e232321f77433"
+    },
+    {
+      "path": "d2char.mpq",
+      "size": 266908965,
+      "sha256": "0bf3499122cf6245afd91cbde9d7c9cacbc517fc40ab7bb2c812cb38bfc473da"
+    },
+    {
+      "path": "d2data.mpq",
+      "size": 256225123,
+      "sha256": "bb3835a14aa3935b2204d32dca9e2409f51507a35679f889a97526240ce6f055"
+    },
+    {
+      "path": "d2exp.mpq",
+      "size": 250156780,
+      "sha256": "04e35bffeae8d9959042832055702f8b5b4567ca5505ff1df0cf3fd6d5beb6c2"
+    },
+    {
+      "path": "d2music.mpq",
+      "size": 345349632,
+      "sha256": "107da6ea2dcf822e272e48733e47d108a888e11066dab004cf101a6086a72ac9"
+    },
+    {
+      "path": "d2sfx.mpq",
+      "size": 51948991,
+      "sha256": "567472f862eb1af41f9294930a05457e16e8c747252ee983c8b8f02663feb87b"
+    },
+    {
+      "path": "d2speech.mpq",
+      "size": 163021838,
+      "sha256": "7a238f808be9fbc74da55c98dc629ab7fac9a4f40c537cec3c1b042fa45d211a"
+    },
+    {
+      "path": "d2video.mpq",
+      "size": 441697807,
+      "sha256": "7bf1bbcd6e73a415775444ff78e1bfcce83ca1af75c52b1f33998526e6e186b6"
+    },
+    {
+      "path": "D2xMusic.mpq",
+      "size": 54691647,
+      "sha256": "4aae5a0c456236693226380d062daa3f5cd36a90a9010d036a7da0ba132f71a1"
+    },
+    {
+      "path": "d2xtalk.mpq",
+      "size": 60278192,
+      "sha256": "305a35331629e7054c34682774e18398f5cbcbed293ddf0ce3c16e25c3f0463c"
+    },
+    {
+      "path": "D2XVIDEO.MPQ",
+      "size": 110685575,
+      "sha256": "209c7a250e2117bac2720e40f0c3687549678cf5e993e5f74a6dbb2914c97591"
+    },
+    {
+      "path": "Diablo II.exe",
+      "size": 36864,
+      "sha256": "147e33cc5d2dd9520d143847b35c1c8410a432c605155e0d9678b5b9450a7938"
+    },
+    {
+      "path": "diabloII.ico",
+      "size": 370070,
+      "sha256": "212c1ece19302dec8b3352f25b9c68bb29534298fcf0608e2ba8105a6ca9728c"
+    },
+    {
+      "path": "DirectX/dxwebsetup.exe",
+      "size": 292184,
+      "sha256": "34f64699d4830145cae69bd40115b1f326e70fc6a98456cb3df996d947dddca4"
+    },
+    {
+      "path": "elamigos.jpg",
+      "size": 34628,
+      "sha256": "87db0fc1299e1460569f4ed9583e1e53e22b6402d741d960bf4b7ade3e4b41ff"
+    },
+    {
+      "path": "Game.exe",
+      "size": 3618792,
+      "sha256": "631066c1649c4ea9ffe48bf97e24c00bca1f7a6759c21150f1a79982589adaaf"
+    },
+    {
+      "path": "ijl11.dll",
+      "size": 186344,
+      "sha256": "e9a77903b1aa13465b3d82a8e99d7fa726fec849735127c663d7f0f5a38bf3c1"
+    },
+    {
+      "path": "Patch.txt",
+      "size": 102646,
+      "sha256": "322b26af6e66ba50e40e5dfda526d488c27d33dfd77e94de8881c1c667af2e1e"
+    },
+    {
+      "path": "Patch_D2.mpq",
+      "size": 5727413,
+      "sha256": "531bad76d520eea8cb0601bea5a40e1ec52f51fe7b94a6892dc483d18170c607"
+    },
+    {
+      "path": "SmackW32.dll",
+      "size": 101352,
+      "sha256": "7f5de6eaff3e027fc1bfa5ad8fa8cef2ef9de9a7d5fc38df4678858408a1ec32"
+    },
+    {
+      "path": "SystemSurvey.exe",
+      "size": 2075112,
+      "sha256": "c4375b3dd63ffa3e7b84d925ed33e7fbb16e2af3c57f5a8f4e9a1f7127d8e0c6"
+    },
+    {
+      "path": "unins000.dat",
+      "size": 28375,
+      "sha256": "02830399c0b335684a0d40422de1272c04be466d6e38b48aebed7f4692c11f18"
+    },
+    {
+      "path": "unins000.exe",
+      "size": 1561819,
+      "sha256": "146cf8fdf532029da7650cdc590a4ca55bb30a435d509f8c6bffaa0d99723b1d"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "binkw32.dll",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 206824
+        },
+        {
+          "file": "BlizzardError.exe",
+          "file_offset": 0,
+          "chunk_offset": 206824,
+          "length": 735720
+        },
+        {
+          "file": "BnetLog.txt",
+          "file_offset": 0,
+          "chunk_offset": 942544,
+          "length": 667
+        },
+        {
+          "file": "BNUpdate.exe",
+          "file_offset": 0,
+          "chunk_offset": 943211,
+          "length": 243688
+        },
+        {
+          "file": "D2.LNG",
+          "file_offset": 0,
+          "chunk_offset": 1186899,
+          "length": 1536
+        },
+        {
+          "file": "d2char.mpq",
+          "file_offset": 0,
+          "chunk_offset": 1188435,
+          "length": 63853133
+        }
+      ],
+      "sha256": "93ca61f715ccddafe6254ea76ac41026e1c36d3b025921598973fcf9b66c6f97"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2char.mpq",
+          "file_offset": 63853133,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "c8ada9b811a4bf70587104a550dd4bbbb59ce1f368c46fda457f11ca071ca0cf"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2char.mpq",
+          "file_offset": 128894701,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "8d994f141062bbe8d58cbee20be64f4cb7e08d33298b10dceeabe71f907c7dba"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2char.mpq",
+          "file_offset": 193936269,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "102e9bbc62230e402ca3495327bdad7bd9bdbe52a671fe23296bc8563c9a20dd"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2char.mpq",
+          "file_offset": 258977837,
+          "chunk_offset": 0,
+          "length": 7931128
+        },
+        {
+          "file": "d2data.mpq",
+          "file_offset": 0,
+          "chunk_offset": 7931128,
+          "length": 57110440
+        }
+      ],
+      "sha256": "b8230a41a901cb12fa2b0803e853e8ab7bcdfa8eaa79036d88d494942835b029"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2data.mpq",
+          "file_offset": 57110440,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "5132b646439900f5afc4d9e8d306e644edc4996101095496d96554c129675829"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2data.mpq",
+          "file_offset": 122152008,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "ddb83c5e99397f12f471735ea2742447b88953b7bf615ecf899e6ac930fc8a56"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2data.mpq",
+          "file_offset": 187193576,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "f9ab9a63ff4a5a5456be09d7f9deeea71db07702719071c64b8e070e826a21eb"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2data.mpq",
+          "file_offset": 252235144,
+          "chunk_offset": 0,
+          "length": 3989979
+        },
+        {
+          "file": "d2exp.mpq",
+          "file_offset": 0,
+          "chunk_offset": 3989979,
+          "length": 61051589
+        }
+      ],
+      "sha256": "cbe6358d31ebbafed9190949e6bf751b4c31b2e01519f213ae3583b9fe84045f"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2exp.mpq",
+          "file_offset": 61051589,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "06de3caf3d31934c13a3c0615187361b96ba610680e98e3179d1e12be3fa04fe"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2exp.mpq",
+          "file_offset": 126093157,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "a254bb23c2899bbcd128f5cc44a48952e65c6b4c7f145e38acf171826b55024c"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2exp.mpq",
+          "file_offset": 191134725,
+          "chunk_offset": 0,
+          "length": 59022055
+        },
+        {
+          "file": "d2music.mpq",
+          "file_offset": 0,
+          "chunk_offset": 59022055,
+          "length": 6019513
+        }
+      ],
+      "sha256": "e99d9f6e661aba04ea130c105c98fe0e1829af2ab86226794c07c518346f740a"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2music.mpq",
+          "file_offset": 6019513,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "38e02580ce643d6734954b5bc32d5f9c64c2c62df5c41048831a489bc7216555"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2music.mpq",
+          "file_offset": 71061081,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "62b68c05943d64a5b7eb9ac8a38c30b94a540a84b7b3d7332979177ba6a4c757"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2music.mpq",
+          "file_offset": 136102649,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "341bbd6ac8174cea81b14febb6eafd42775d1bc45aa26c1c2a95018f1d7fa042"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2music.mpq",
+          "file_offset": 201144217,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "6ae07a48e4b4277f4d2c2d26a7957ab72d426b7f4eb9aa1ed2714155e111267e"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2music.mpq",
+          "file_offset": 266185785,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "8456bc6ffcb321343e570e564c1e02e42be797056018b7ce69ccae2a8582677c"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2music.mpq",
+          "file_offset": 331227353,
+          "chunk_offset": 0,
+          "length": 14122279
+        },
+        {
+          "file": "d2sfx.mpq",
+          "file_offset": 0,
+          "chunk_offset": 14122279,
+          "length": 50919289
+        }
+      ],
+      "sha256": "88076ea7893a8ba44693e8422ab2159ea79bdeb5c02d61d5f266d2535b798de1"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2sfx.mpq",
+          "file_offset": 50919289,
+          "chunk_offset": 0,
+          "length": 1029702
+        },
+        {
+          "file": "d2speech.mpq",
+          "file_offset": 0,
+          "chunk_offset": 1029702,
+          "length": 64011866
+        }
+      ],
+      "sha256": "08b11ed5c871dddf945c9515315a552c98f1847c0006fdd9530400e6743dcebd"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2speech.mpq",
+          "file_offset": 64011866,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "c2c023dce7991f798117938987d2eafb24ef7a326afe338092083d75d378b696"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2speech.mpq",
+          "file_offset": 129053434,
+          "chunk_offset": 0,
+          "length": 33968404
+        },
+        {
+          "file": "d2video.mpq",
+          "file_offset": 0,
+          "chunk_offset": 33968404,
+          "length": 31073164
+        }
+      ],
+      "sha256": "47be5a08baab975556088c17209050e8dc7cce9e7b2fc407fe0f8048bca4b5d3"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2video.mpq",
+          "file_offset": 31073164,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "c4186c65c97309d39473cf8da7d61911e7eb8fc8f26e921ae323b43c2d553c80"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2video.mpq",
+          "file_offset": 96114732,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "8fb23f0b34f4f175e9e9549751af51dd7c86880333d18a0cead5242e6a77283c"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2video.mpq",
+          "file_offset": 161156300,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "bf88076d5c1166a14b640806f2d3f33208372a925bfe0bd075518139353e0c68"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2video.mpq",
+          "file_offset": 226197868,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "22ad17c96f163fa9a2d36c56311528fb08953f37bce442bfce02ea08a3ba7598"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2video.mpq",
+          "file_offset": 291239436,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "f9753730dab7314bbbf4df841a76f3fe4a4fbaf65947f4cc7a52f2d004fe5ec7"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2video.mpq",
+          "file_offset": 356281004,
+          "chunk_offset": 0,
+          "length": 65041568
+        }
+      ],
+      "sha256": "d926ea6cfd7a61ea6a8828cdd293e0a79a6d04d2cca64e3ad27696e6b0b268b5"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2video.mpq",
+          "file_offset": 421322572,
+          "chunk_offset": 0,
+          "length": 20375235
+        },
+        {
+          "file": "D2xMusic.mpq",
+          "file_offset": 0,
+          "chunk_offset": 20375235,
+          "length": 44666333
+        }
+      ],
+      "sha256": "5b8e1dc7eb6e370f182fdcdca102b0f040d9f670e8ee30665dc93c8ca8d2d41a"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "D2xMusic.mpq",
+          "file_offset": 44666333,
+          "chunk_offset": 0,
+          "length": 10025314
+        },
+        {
+          "file": "d2xtalk.mpq",
+          "file_offset": 0,
+          "chunk_offset": 10025314,
+          "length": 55016254
+        }
+      ],
+      "sha256": "df62822e1b54159af7112582bf4bbb4854d1b4577be331e459506b6132ff2768"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 65041568,
+      "segments": [
+        {
+          "file": "d2xtalk.mpq",
+          "file_offset": 55016254,
+          "chunk_offset": 0,
+          "length": 5261938
+        },
+        {
+          "file": "D2XVIDEO.MPQ",
+          "file_offset": 0,
+          "chunk_offset": 5261938,
+          "length": 59779630
+        }
+      ],
+      "sha256": "3fbba27c4dd775402c24669eb88c2dddd3d638adaa0e3d24c7f432f311d47dd1"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 65041544,
+      "segments": [
+        {
+          "file": "D2XVIDEO.MPQ",
+          "file_offset": 59779630,
+          "chunk_offset": 0,
+          "length": 50905945
+        },
+        {
+          "file": "Diablo II.exe",
+          "file_offset": 0,
+          "chunk_offset": 50905945,
+          "length": 36864
+        },
+        {
+          "file": "diabloII.ico",
+          "file_offset": 0,
+          "chunk_offset": 50942809,
+          "length": 370070
+        },
+        {
+          "file": "DirectX/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 51312879,
+          "length": 292184
+        },
+        {
+          "file": "elamigos.jpg",
+          "file_offset": 0,
+          "chunk_offset": 51605063,
+          "length": 34628
+        },
+        {
+          "file": "Game.exe",
+          "file_offset": 0,
+          "chunk_offset": 51639691,
+          "length": 3618792
+        },
+        {
+          "file": "ijl11.dll",
+          "file_offset": 0,
+          "chunk_offset": 55258483,
+          "length": 186344
+        },
+        {
+          "file": "Patch.txt",
+          "file_offset": 0,
+          "chunk_offset": 55444827,
+          "length": 102646
+        },
+        {
+          "file": "Patch_D2.mpq",
+          "file_offset": 0,
+          "chunk_offset": 55547473,
+          "length": 5727413
+        },
+        {
+          "file": "SmackW32.dll",
+          "file_offset": 0,
+          "chunk_offset": 61274886,
+          "length": 101352
+        },
+        {
+          "file": "SystemSurvey.exe",
+          "file_offset": 0,
+          "chunk_offset": 61376238,
+          "length": 2075112
+        },
+        {
+          "file": "unins000.dat",
+          "file_offset": 0,
+          "chunk_offset": 63451350,
+          "length": 28375
+        },
+        {
+          "file": "unins000.exe",
+          "file_offset": 0,
+          "chunk_offset": 63479725,
+          "length": 1561819
+        }
+      ],
+      "sha256": "e770fe8c22740605be2bc218827de4f5fa6911c855d9b9bc4789af56f90071be"
+    }
+  ]
+}
