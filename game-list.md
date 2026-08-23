@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 61
-- **Toplam aktif sürüm/kanal:** 61
-- **Toplam aktif boyut:** 1582.668 GB (1473.974 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-23 16:52:59 UTC
+- **Toplam oyun:** 62
+- **Toplam aktif sürüm/kanal:** 62
+- **Toplam aktif boyut:** 1601.297 GB (1491.324 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-23 18:07:10 UTC
 
 ## PC
 
-**61 oyun · 61 aktif sürüm/kanal · 1582.668 GB (1473.974 GiB)**
+**62 oyun · 62 aktif sürüm/kanal · 1601.297 GB (1491.324 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -17,6 +17,7 @@
 | Assassin's Creed Black Flag Resynced | 1.0.0 | stable | 72.871 | 67.866 | `pc-assassin-s-creed-black-flag-resynced-v1.0.0-stable` |
 | Assassin's Creed Brotherhood | 1.0.0 | stable | 9.652 | 8.989 | `pc-assassin-s-creed-brotherhood-v1.0.0-stable` |
 | Assassin's Creed™: Director's Cut Edition | 1.0.0 | stable | 7.201 | 6.707 | `pc-assassin-s-creed-director-s-cut-edition-v1.0.0-stable` |
+| Assassin’s Creed® III | 1.0.0 | stable | 18.629 | 17.350 | `pc-assassin-s-creed-iii-v1.0.0-stable` |
 | Assassin’s Creed® IV Black Flag™ | 1.0.0 | stable | 31.420 | 29.262 | `pc-assassin-s-creed-iv-black-flag-v1.0.0-stable` |
 | Baldur's Gate 3 | 1.0.0 | stable | 160.040 | 149.049 | `pc-baldur-s-gate-3-v1.0.0-stable` |
 | Batman: Arkham Asylum Game of the Year Edition | 1.0.0 | stable | 8.609 | 8.018 | `pc-batman-arkham-asylum-game-of-the-year-edition-v1.0.0-stable` |
