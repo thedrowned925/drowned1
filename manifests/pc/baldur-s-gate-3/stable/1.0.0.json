@@ -1,0 +1,5803 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "baldur-s-gate-3",
+    "title": "Baldur's Gate 3",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons & Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-baldur-s-gate-3-v1.0.0-stable"
+  },
+  "chunk_size": 1951710199,
+  "upload_workers": 41,
+  "upload_waves": 2,
+  "total_size": 160040236316,
+  "files": [
+    {
+      "path": "_Bonus/Baldurs Gate 3 Toolkit.rar",
+      "size": 153502171,
+      "sha256": "0df978d537a0e6cab48f2fae5d8b8a2f17553e5b2bcbd65eb2e3309eb6333b6f"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/BG3_Artbook_High_Res.pdf",
+      "size": 301586309,
+      "sha256": "4b68866c0e9b3d2cf3c5585dd74358bf873a11cdcc88a84a707a631a871143ff"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/Character Sheets/LAR200714_BG3_Character_Sheets_Astarion_Single_Sheets_DIGITAL.pdf",
+      "size": 114375427,
+      "sha256": "307311c402fec78dc5e5b9c988a871851da61b61daed687882d6535b987b17db"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/Character Sheets/LAR200714_BG3_Character_Sheets_Gale_Single_Sheets_DIGITAL.pdf",
+      "size": 114407101,
+      "sha256": "d636f5577283454fa0c7f6da5947a24fd445da73f4253b79f35981b39e4864da"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/Character Sheets/LAR200714_BG3_Character_Sheets_Karlach_Single_Sheets_DIGITAL.pdf",
+      "size": 114281273,
+      "sha256": "b4135267f5378932a697e1a033d06be20b76c4a7c5b899517fbef14fe8fd5c39"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/Character Sheets/LAR200714_BG3_Character_Sheets_Lae'Zel_Single_Sheets_DIGITAL.pdf",
+      "size": 114437968,
+      "sha256": "0d86a2734005d1e05122d3f99aae920e3db8c9028efa8086e4475c83b88d7fa6"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/Character Sheets/LAR200714_BG3_Character_Sheets_Shadowheart_Single_Sheets_DIGITAL.pdf",
+      "size": 172036645,
+      "sha256": "2f932554b212a97515e7e448fdb34ae936ce623195e95a06a16a0582df6cee30"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/Character Sheets/LAR200714_BG3_Character_Sheets_Wyll_Single_Sheets_DIGITAL.pdf",
+      "size": 114299162,
+      "sha256": "68806e26e0126065511ab01e890b55b79e4384093f00bd5a047c7638e6793526"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/01 Baldur's Gate 3 OST - Main Theme Part I.mp3",
+      "size": 6685364,
+      "sha256": "20a303d55e2008f238869a33fbfafd5914919a87853a8d58e52d1d32062a3b4f"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/02 Baldur's Gate 3 OST - Main Theme Part II.mp3",
+      "size": 5265348,
+      "sha256": "37838de05a39c13f72fbcba1cd9ca0a143b269194453a7e3c9a9a41b69c56058"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/03  Baldur's Gate 3 OST - Mind Flayer Theme.mp3",
+      "size": 9485691,
+      "sha256": "496686989ebd90913d69b48d1238adf997613f0af778970d5b322ba95443af81"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/04  Baldur's Gate 3 OST - Who Are You.mp3",
+      "size": 5867209,
+      "sha256": "504f2a96c6f410a533ca7fef04c6cb48e28dbb052636233e86896e1a1a29b406"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/05 Baldur's Gate 3 OST - Nine Blades.mp3",
+      "size": 11583846,
+      "sha256": "9f34b9da4864386d34f8b9e0d80227894bb6235381c4231fd3c15a3c92c3c321"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/06 Baldur's Gate 3 OST - Quest For A Cure.mp3",
+      "size": 11362328,
+      "sha256": "a1c5a5e5a7d7c34f7a18357ff9b348cf49e1af54098b2b8549db406861c145c4"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/07 Baldur's Gate 3 OST - Lead Your Fights.mp3",
+      "size": 7860874,
+      "sha256": "4a0d4270c7779617af654bc270b01370a7bff1441f06296de89330b053058012"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/08  Baldur's Gate 3 OST - Harpy Song.mp3",
+      "size": 6183813,
+      "sha256": "d66af3671125f0d4d902d22e863e6bed99b44c2c7d4e2f657f95983cbaaee705"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/09 Baldur's Gate 3 OST - Weeping Dawn.mp3",
+      "size": 6720891,
+      "sha256": "00ee7b9f1514681b2ea4900f83a8fe834250b3f0c7f132871e182f55295f4f86"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/10 Baldur's Gate 3 OST - Cunning Cruel Crits.mp3",
+      "size": 6967487,
+      "sha256": "f2f7c6e3b3bfff2c0c68aa5da219d2903687cea33dd18af87a9d67b7c2112b73"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/11 Baldur's Gate 3 OST - The Cult Of The Absolute.mp3",
+      "size": 8918311,
+      "sha256": "97b9970fd724d614080c621b85623fb2dfdfceff006f25b061db4b3c62894cd0"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/12 Baldur's Gate 3 OST - Sixteen Strikes.mp3",
+      "size": 10499242,
+      "sha256": "e704a2df76cda2797aa1ce1c09073ba2d404587b92b3c11e919c19ba719cbcf8"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/13 Baldur's Gate 3 OST - The Colors Of Underdark.mp3",
+      "size": 8439748,
+      "sha256": "1f867c25e981f76e6c763461ba87aa072e9b88e9c3260a36e63cfef6c2b41996"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/14 Baldur's Gate 3 OST - Twisted Force.mp3",
+      "size": 5927813,
+      "sha256": "727655aa9f75779166dbe114371dedb32a622d9c214964809c793be11f21a8f0"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/15 Baldur's Gate 3 OST - Shadows, Curse And Death.mp3",
+      "size": 10827340,
+      "sha256": "4ece06d34490326fabb056eceaaede505e3dff7e9f4fa8e26cb3cd3eb5413316"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/16 Baldur's Gate 3 OST - Last Light.mp3",
+      "size": 11894181,
+      "sha256": "26e49b9ee3dedc49310529926efc12888cd7d0355d3fc863048bba0e069cd8a2"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/17 Baldur's Gate 3 OST - Old Time Battles - Part I.mp3",
+      "size": 7936107,
+      "sha256": "e680aa5dc44e9c2f5de523d7ec5cc5c5debc28222b1a25ab8b1729836346988d"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/18 Baldur's Gate 3 OST - I Want To Live (Instrumental version).mp3",
+      "size": 11305903,
+      "sha256": "930b8817f8e9ebe13c3e72fc911f0e5b52ef36a1d2476afc27224d82520ed52f"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/19 Baldur's Gate 3 OST - Nightsong.mp3",
+      "size": 3119128,
+      "sha256": "ec8f2f4be058712c564071c891ad1ef0978a839f78b0b3c5d376e564c9c7d9ca"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/20 Baldur's Gate 3 OST -The Power  (Choral version).mp3",
+      "size": 7385446,
+      "sha256": "b47653d9040246515ef404a026b92786da024581d7e972b3defc18eadfb4365d"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/21 Baldur's Gate 3 OST - Old Time Battles (Bard version).mp3",
+      "size": 4969642,
+      "sha256": "d5386c9d635a98ec5e67d788881324a21d13eddf186ab50efa0c266d9811db89"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/22 Baldur's Gate 3 OST - The Power - (Orchestral version).mp3",
+      "size": 11160662,
+      "sha256": "a9a60477acc3ca57d43e74dc2a52126e02ddb63b2401b884791e2a7274deab8b"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/23 Baldur's Gate 3 OST - A Threat From Nether Years.mp3",
+      "size": 6938230,
+      "sha256": "da73d3e9030ae6d0aaaf217105a1dfe674830955ee27c8dad7dcf4a57651a6f0"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/24 Baldur's Gate 3 OST - Surgery Of A Hope.mp3",
+      "size": 12511715,
+      "sha256": "3e92eacaa348f6cfe054f244071b9f13aa87011e9137c23c125d708f62f7c95f"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/25 Baldur's Gate 3 OST - Last Shelter.mp3",
+      "size": 6908972,
+      "sha256": "264864a018369a256f4ac3a2f51b688f5e606967950f071817e7255eb4abf47a"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/26 Baldur's Gate 3 OST - The Odds Are Cast Anew.mp3",
+      "size": 9243274,
+      "sha256": "6b655f6e1d72c9ffea80ded722e4c0dc87d47dd5dd005d781aeddfcc1e22e06b"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/27  Baldur's Gate 3 OST - Gather Your Allies!.mp3",
+      "size": 8785609,
+      "sha256": "8f3e593505cf61f58bf38cbafe5a583e95658caabd3c86e99371917473eb65c5"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/28 Baldur's Gate 3 OST -Dream Walk (Instrumental version).mp3",
+      "size": 9460613,
+      "sha256": "fc0d9d566074f28a186b64232b1bee2bfbc37c9ecf3f1f7d6b9ca6028590aae4"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/29 Baldur's Gate 3 OST - Bard Dance.mp3",
+      "size": 6887030,
+      "sha256": "4672b1682962fa550ecf67d6bcf39f5b1768da5f0e26d0e71aa2c0e3d04d65c2"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/30 Baldur's Gate 3 OST - Lead Your Way.mp3",
+      "size": 8417805,
+      "sha256": "8e8b10ab37d9277743aba4d1a015508febdee9844ea913357f4a7679cd0ebf30"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/31 Baldur's Gate 3 OST - Song Of Balduran.mp3",
+      "size": 7320662,
+      "sha256": "ce7d3c3e919202824636b39d5acf6b69a9eb2a7155b6ae26438337f6f9ef9571"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/32 Baldur's Gate 3 OST - The Legacy Of Bhaal.mp3",
+      "size": 7116907,
+      "sha256": "ec5e3d8d8a5d8108da80f81285fde5e466585cfd288c1b9e304135613e128b0e"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/33 Baldur's Gate 3 OST - Elder Brain.mp3",
+      "size": 9380156,
+      "sha256": "999008774f5aab7b41e7e367d6cbd1bdef99ca948390e76fa9deb3a4d6b4cd87"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/34  Baldur's Gate 3 OST - Forging The Fate.mp3",
+      "size": 5343715,
+      "sha256": "97594bee8f30c851f5886b67658df4d5c4f5651cc93d386e2ee88588848db409"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/35 Baldur's Gate 3 OST - The Road To Baldur's Gate.mp3",
+      "size": 4046997,
+      "sha256": "f76d1eb6aecbfa7da82e70046df63c66d3508fd2895c2b9f22aa2f305975d61e"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/36 Baldur's Gate 3 OST - Raphael's Final Act.mp3",
+      "size": 6213070,
+      "sha256": "993c93f4b243cd339d3e6311a7482d5372652741220997a5ad29fc6e75cd26d1"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/37 Baldur's Gate 3 OST - The Grand Design (Requiem).mp3",
+      "size": 15224270,
+      "sha256": "506717793dbd23d0fb2de7a890bbbf8f92a90a2e37f49eca251dde36a39e6c6c"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/38 Baldur's Gate 3 OST - Old Time Battles - Part II.mp3",
+      "size": 7897446,
+      "sha256": "492e45d7b476a06e4369609d346fe7d855e37e3dd802d34803f2b6159d81684b"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/39  Baldur's Gate 3 OST - Down By The River.mp3",
+      "size": 5603895,
+      "sha256": "af1fd61c115783c1fd43af83a31f8d829461070ac4918f5b8b32ff82b4f13c44"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/40 Baldur's Gate 3 OST - I Want To Live (Classical version).mp3",
+      "size": 9596450,
+      "sha256": "7e27544f73feba4e3253ab5fb75eed7084a656a66afa48b23c401f5d8476dbea"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/41 Baldur's Gate 3 OST - Main Theme Part III.mp3",
+      "size": 6887030,
+      "sha256": "0d5cfd08bedff8edb1a8df105e4b1e6fc7429ca097260904dd463aee8f544c06"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/42 Baldur's Gate 3 OST - I Want To Live.mp3",
+      "size": 9334181,
+      "sha256": "e76c45ffd93563059c3410a46f881be0b6a5cafc1d19b5fd993fa532a7a62fe7"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/43 Baldur's Gate 3 OST  - The Power (Credits Song).mp3",
+      "size": 9244319,
+      "sha256": "79ba23bfa2723e226bad690fec8269bc8df778de8144c08f2ee6f01f93bf5276"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/01 Baldur's Gate 3 OST - Main Theme Part I.wav",
+      "size": 44203736,
+      "sha256": "dea995c305c4f488743385f528b248c57145ff865b94cbfcfeb23da6aa44831a"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/02 Baldur's Gate 3 OST - Main Theme Part II.wav",
+      "size": 34812122,
+      "sha256": "243a177fa56c6a31db5e5f14058f17cfdd4cc7b3a1cd5bd3a7d6917e6015c748"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/03  Baldur's Gate 3 OST - Mind Flayer Theme.wav",
+      "size": 62726042,
+      "sha256": "19edf0633d6450c7fe359681cc5463488484602395ad833d921ac3b6d9b6c066"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/04  Baldur's Gate 3 OST - Who Are You.wav",
+      "size": 38791706,
+      "sha256": "4134e5772855e06b4ea4564ea74b43352de44eebade6909b22fa73a7694beb65"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/05 Baldur's Gate 3 OST - Nine Blades.wav",
+      "size": 76604150,
+      "sha256": "3313acca962e2915c07daa2c2f558883e6cc9cc6b950793627391471a3b01756"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/06 Baldur's Gate 3 OST - Quest For A Cure.wav",
+      "size": 75142172,
+      "sha256": "4614d259a95a98317637c31024d71074ce88444b19be8b080dcd954e9cded927"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/07 Baldur's Gate 3 OST - Lead Your Fights.wav",
+      "size": 51975352,
+      "sha256": "b986802fee174a938919c8bbdea8daf9f70c2bb17222cb2509b50900fa15dcb8"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/08  Baldur's Gate 3 OST - Harpy Song.wav",
+      "size": 40886356,
+      "sha256": "c4cbb4886fc3f17726d23babc80c7471fef4722ee7f380fca263c88d75630dcb"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/09 Baldur's Gate 3 OST - Weeping Dawn.wav",
+      "size": 44436062,
+      "sha256": "91a666926907fb568a3e2ce98cec147a0d08053de55e87e9460e9a8facb94d5e"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/10 Baldur's Gate 3 OST - Cunning Cruel Crits.wav",
+      "size": 46071974,
+      "sha256": "738846d8b1436199eb58beda251c90cbbc7c6f61f4d5607813b398f015675fc6"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/11 Baldur's Gate 3 OST - The Cult Of The Absolute.wav",
+      "size": 58976600,
+      "sha256": "925b9faf8e0ddded081281d660d6d871e3ee469df80bd9ac98bdda3e22c780d9"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/12 Baldur's Gate 3 OST - Sixteen Strikes.wav",
+      "size": 69429926,
+      "sha256": "26f6aea071e4ffb12405a3a79ed0ecfabb089b0102a69b4b51f5431365e30dc8"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/13 Baldur's Gate 3 OST - The Colors Of Underdark.wav",
+      "size": 37204730,
+      "sha256": "ba0830f069b420bd05a1476c5224d956de88318557aa82969f3627403aca3a93"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/14 Baldur's Gate 3 OST - Twisted Force.wav",
+      "size": 39191246,
+      "sha256": "2b42db5194c98afe05c32a3a9b2843a26ccba855aeaaa9e1b899dea97cca59c3"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/15 Baldur's Gate 3 OST - Shadows, Curse And Death.wav",
+      "size": 71601800,
+      "sha256": "6e468cd764732ba90be782fd825bfd1005397a0834ecff26a6602643f230eecb"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/16 Baldur's Gate 3 OST - Last Light.wav",
+      "size": 78656036,
+      "sha256": "5747f2c26214d70499f9639cf9b0c361f5cf2241a54090fe31a7de5fc560fed2"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/17 Baldur's Gate 3 OST - Old Time Battles - Part I.wav",
+      "size": 52477034,
+      "sha256": "7cb0fb531303878df4b9cf5b876c2b54a3adf66b750d27949cbf5df4e7e302db"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/18 Baldur's Gate 3 OST - I Want To Live (Instrumental version).wav",
+      "size": 74770208,
+      "sha256": "7622d5b8c45e85837c3bc2b603cf1b1188b0b66122e6c7d864e435fd296b8e71"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/19 Baldur's Gate 3 OST - Nightsong.wav",
+      "size": 20610996,
+      "sha256": "7a1a905dae8573ef573fef6d4a80272a4306eced76f30d9fd63d49a069297d60"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/20 Baldur's Gate 3 OST -The Power  (Choral version).wav",
+      "size": 48832286,
+      "sha256": "fd5567fa71f358441222ab626a76bdc0711b88dc7d62d6b161f49d81ff8d2325"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/21 Baldur's Gate 3 OST - Old Time Battles (Bard version).wav",
+      "size": 32852134,
+      "sha256": "a14b9e79ee2d79c8e29c74ba0b602c60f26b6ef96f65102e807fefd1df1f5abf"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/22 Baldur's Gate 3 OST - The Power - (Orchestral version).wav",
+      "size": 73809008,
+      "sha256": "fe9a852bb8310d23de23ae7bfdc9c8180e7b1b6cfb3b2f8ed9f27d1388db9785"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/23 Baldur's Gate 3 OST - A Threat From Nether Years.wav",
+      "size": 45874628,
+      "sha256": "44023c4135db5cfb89995e79629b12e2b70f8c5e48598b8e6c35af955cbcbcc0"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/24 Baldur's Gate 3 OST - Surgery Of A Hope.wav",
+      "size": 82743782,
+      "sha256": "c9610ee459a4b6280c49b0968425ded200981976db1b924813d008c4e7b34520"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/25 Baldur's Gate 3 OST - Last Shelter.wav",
+      "size": 45680396,
+      "sha256": "96edda9d94407b3467d4b0cbf9cb5e16427540dc9b0eef64573bca790f3f6ae7"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/26 Baldur's Gate 3 OST - The Odds Are Cast Anew.wav",
+      "size": 61121990,
+      "sha256": "8258bf4b52ff927d3c0eb53f1290fbb055bd0a80e3f4ad620b4ce99eab9a1b9f"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/27  Baldur's Gate 3 OST - Gather Your Allies!.wav",
+      "size": 58093712,
+      "sha256": "2ffdf080cd6f27baf598539419af37d8368c25b6d4e7a891cc370968b3ac683e"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/28 Baldur's Gate 3 OST - Dream Walk (Instrumental version).wav",
+      "size": 62561096,
+      "sha256": "44baf9fcefbae1c9f11af9673613ef6294dc818f4fae1afa77ef8fc3b8e98154"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/29 Baldur's Gate 3 OST - Bard Dance.wav",
+      "size": 45533582,
+      "sha256": "547d0fc41b1dac96c17937f9022d67ee413dd96707aaa21a0946ab883436a658"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/30 Baldur's Gate 3 OST - Lead Your Way.wav",
+      "size": 55662416,
+      "sha256": "581f831fd36a12000af414cac61ce22c78418ab170ded96cc4cf4aa1b39582fc"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/31 Baldur's Gate 3 OST - Song Of Balduran.wav",
+      "size": 48407942,
+      "sha256": "e1d9c7d765b242ab047463c6847113f9d4aeda3f2fc2b426d5a297a42c6d78ec"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/32 Baldur's Gate 3 OST - The Legacy Of Bhaal.wav",
+      "size": 47057690,
+      "sha256": "d0a4c052f704b3787a01e17b4434b52d388028e46beb392d8e9335b21ec3b572"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/33 Baldur's Gate 3 OST - Elder Brain.wav",
+      "size": 62031368,
+      "sha256": "32aa1cd38e859dc243b5fa089bc979d6a053788c33624b123ea8dda488484fa2"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/34  Baldur's Gate 3 OST - Forging The Fate.wav",
+      "size": 23549502,
+      "sha256": "cefe9989c4c12dfc68d7973d4a3fc02ba9c22101e9c071b289ec57e843fe10d1"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/35 Baldur's Gate 3 OST - The Road To Baldur's Gate.wav",
+      "size": 26751422,
+      "sha256": "cd08fc8a01afccbaddc3b6bfa49f9d7f7b4a3ec959ce539719b81277a4f808cd"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/36 Baldur's Gate 3 OST - Raphael's Final Act.wav",
+      "size": 41079680,
+      "sha256": "050e009e060c5793f04fa51d0e69bb51e88d0592d51fd7a3e4a5b4276339be8b"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/37 Baldur's Gate 3 OST - The Grand Design (Requiem).wav",
+      "size": 100683944,
+      "sha256": "e7913c13a04de916b2ca1762c783774637f9e958a24d7ba0dc048d7cef9a0b95"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/38 Baldur's Gate 3 OST - Old Time Battles - Part II.wav",
+      "size": 52222550,
+      "sha256": "95a484de3605aac39c0088472b443ff99c453d983f1733cd442813c0eb368eed"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/39  Baldur's Gate 3 OST - Down By The River.wav",
+      "size": 37045808,
+      "sha256": "be3eb2cbf0b1b373625a3c977980193054a4bee318e67a83b0df110ffd2eb256"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/40 Baldur's Gate 3 OST - I Want To Live (Classical version).wav",
+      "size": 63461750,
+      "sha256": "0f256a448d7d611d8837826db08206e5f53a70ecfc34556f456fba38d2798c60"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/41 Baldur's Gate 3 OST - Main Theme Part III.wav",
+      "size": 45533582,
+      "sha256": "86811d34f083f640160b4f98958bd46775460ff001bd0b0ede8245ccbebfa7c9"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/42 Baldur's Gate 3 OST - I Want To Live.wav",
+      "size": 61726382,
+      "sha256": "0ec7ad24834a96928baadd638716f5678105b69c79c2cad39f98dda149ac97a2"
+    },
+    {
+      "path": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/43 Baldur's Gate 3 OST - The Power (Credits Song).wav",
+      "size": 61130294,
+      "sha256": "8661b09d033ada4ea844a13a27805ab7573ac9541f6811e57d4e32e49dc9b419"
+    },
+    {
+      "path": "_Bonus/DLC Baldur's Gate 3 Toolkit Data.rar",
+      "size": 800437052,
+      "sha256": "ba68520a0a42e7d30d27db32c5192555b0569b44699135890f1b54073c2b1823"
+    },
+    {
+      "path": "_CommonRedist/_redist_readme.txt",
+      "size": 2038,
+      "sha256": "b9ff3c3422e06fb509f4d9ea3ae4493ee804a7efdd1297fbff8eceed40b6c403"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 295320,
+      "sha256": "2cf71d098c608c56e07f4655855a886c3102553f648df88458df616b26fd612f"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+      "size": 31533074,
+      "sha256": "3c188e4651bcc07df2bdb06d69585158797b1bafb91557b09217621628cd5b23"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054848,
+      "sha256": "47260420773a20443fb1e38a89b7f39c5237a80a842de598e6c8f7f90a3bbd6d"
+    },
+    {
+      "path": "bin/amd_ags_x64.dll",
+      "size": 42496,
+      "sha256": "298b40fb70c142cc61135a125ff6c2a2e474526b9a7045102666a9434e84f459"
+    },
+    {
+      "path": "bin/bg3.exe",
+      "size": 107017792,
+      "sha256": "d8cfc0d6d568a2e7c4b1f7b34687c4aaed5506118bb458679b24a926231b85a0"
+    },
+    {
+      "path": "bin/bg3_dx11.exe",
+      "size": 104363072,
+      "sha256": "e899c67cb90b9c6b0f052e3f758ba8615bc2012e52561c2af2e6a1e06ef61a2f"
+    },
+    {
+      "path": "bin/bink2w64.dll",
+      "size": 411136,
+      "sha256": "7c3ac825eb7fe769c3831540e108282dd90f6275b0f61dec8beeea0a6615b0c1"
+    },
+    {
+      "path": "bin/CChromaEditorLibrary64.dll",
+      "size": 389120,
+      "sha256": "772e4f29f83f8e4049a63de5c19eb5051810599c944469cae427b19247e5f231"
+    },
+    {
+      "path": "bin/ChromaAppInfo.xml",
+      "size": 486,
+      "sha256": "8c4b20bae29928053c1f9386890a106c64cd17fed7a9fe1b6b4d1ce497958529"
+    },
+    {
+      "path": "bin/db/settings.dat",
+      "size": 40,
+      "sha256": "647f4596d9c244d47e74670e320a558bebb4f5dc2ec0733f2e709659f10a0865"
+    },
+    {
+      "path": "bin/discord_game_sdk.dll",
+      "size": 3488768,
+      "sha256": "a6b6d7df00a58dc50248d91048578d0fe52182286b487ef89a961fd10467dbd1"
+    },
+    {
+      "path": "bin/gold.2026-08-23T04-02-51-915402.log",
+      "size": 2682,
+      "sha256": "76ce1947640537ae9e509414e46f30faba9180e72e018b0ad5bea78f6ec1e44b"
+    },
+    {
+      "path": "bin/gold.2026-08-23T04-17-13-399892.log",
+      "size": 2287,
+      "sha256": "668963651018f42afe60ab23a1834ef3a4c83101121daa1985d6a5c21c4fee8e"
+    },
+    {
+      "path": "bin/gold.2026-08-23T04-25-03-48893.log",
+      "size": 1082,
+      "sha256": "f2d169b48529fead9daf0573805990d0c67edd5bb646a163b78b1244d729d7c3"
+    },
+    {
+      "path": "bin/libHttpClient.Win32.dll",
+      "size": 274944,
+      "sha256": "145e9aee4f44f2f4dc148db3e884563a3ca71d1a0045ad1b020b14b6cbfd83e6"
+    },
+    {
+      "path": "bin/libxess.dll",
+      "size": 77771112,
+      "sha256": "23b3ebc802185f537423965c2ee9c8ad8adb5d137b004ce027a4088e629b5fd3"
+    },
+    {
+      "path": "bin/libxess_dx11.dll",
+      "size": 147816,
+      "sha256": "9e0bb17d627306d7df07e16c0e08deef226332c6746631b7ad8095ac6f463d79"
+    },
+    {
+      "path": "bin/network.2026-08-23T04-02-51-914990.log",
+      "size": 4214,
+      "sha256": "2b3a9963900b8ce202ea0ef6a75842c639f373c49e2116071cf0d482c2a6f8b5"
+    },
+    {
+      "path": "bin/network.2026-08-23T04-17-13-399458.log",
+      "size": 4214,
+      "sha256": "66e017ec3ae8bcffc5a24d32d38cbe3696a78c0604d90ab0af96e411f2678771"
+    },
+    {
+      "path": "bin/network.2026-08-23T04-25-03-48578.log",
+      "size": 4214,
+      "sha256": "1e3f7e953d7f4d2cb8c6f693443d8cda0aea4cda854dd3265298ea1d69d2fa3e"
+    },
+    {
+      "path": "bin/nvngx_dlss.dll",
+      "size": 14814464,
+      "sha256": "2649fac214e3916d97d5df208e9e7a8aee0a3364da49132a4f8926751ed0cfd6"
+    },
+    {
+      "path": "bin/Osiris.dll",
+      "size": 567808,
+      "sha256": "340d688aca31cc399c4639529a3381f1a7e57e489d7501dbc337eff90a91e6fc"
+    },
+    {
+      "path": "bin/PartyWin.dll",
+      "size": 3912224,
+      "sha256": "0569412440affa138dd192a9dbde3676b447450451868f726d952e82d5514e7a"
+    },
+    {
+      "path": "bin/PlayFabCore.Win32.dll",
+      "size": 965632,
+      "sha256": "29acdc08a21b61822a32368b70950b0334ea3dd0302f6279aa841d85b0f95090"
+    },
+    {
+      "path": "bin/PlayFabServices.Win32.dll",
+      "size": 3679744,
+      "sha256": "3c8bed8a9f068b25f51458d50a8a8892de26ed0e339919b7079d5a86b3f5fdc1"
+    },
+    {
+      "path": "bin/SDL2.dll",
+      "size": 1554432,
+      "sha256": "a93b1657a5c8f8d7bc7f7a9146c98a00678321eec3fddfd28be1e279b69c34f0"
+    },
+    {
+      "path": "bin/steam_api64.dll",
+      "size": 1118360,
+      "sha256": "8deb2594f99567bcc69d7b4ecdb7445b18314e650a732e02ce8e8e0363e92ccf"
+    },
+    {
+      "path": "bin/steam_api64.rne",
+      "size": 298856,
+      "sha256": "a44e5537939ae4eebc69000589aa9b2437a667813a1657cc779198bae9b815a9"
+    },
+    {
+      "path": "bin/steam_emu.ini",
+      "size": 3339,
+      "sha256": "b58015731d646c9a26f998cbe44a93c155d43610a299fdaa23adcef7ef97c8b4"
+    },
+    {
+      "path": "Data/Assets.pak",
+      "size": 115417194,
+      "sha256": "f81d952f7aae2b74cde88ccd91d839d79aba9e23d84075a56585918f0eb6bb22"
+    },
+    {
+      "path": "Data/DiceSet01.pak",
+      "size": 17969592,
+      "sha256": "83d88a4ae2e52172a2ce83471a8e394915373061c2accaf7bb170e492e0c5f27"
+    },
+    {
+      "path": "Data/DiceSet02.pak",
+      "size": 19348794,
+      "sha256": "69ba856ad24b7607932d4b2751638c6aa157e8c4d3a9c2491b3112f03ba0051c"
+    },
+    {
+      "path": "Data/DiceSet03.pak",
+      "size": 17514043,
+      "sha256": "43d91ed3ee3a6f5f6fedac3412bdea7c66dd8aec9e77ee1c72010e76834dc7c2"
+    },
+    {
+      "path": "Data/DiceSet06.pak",
+      "size": 12982662,
+      "sha256": "791463de5296777ea6dbff53bd3a4076c5a51cb1ec420db3b936f42a9a7f9b13"
+    },
+    {
+      "path": "Data/Effects.pak",
+      "size": 438864541,
+      "sha256": "f7561f2cd3489b59759ffe6ce6e65f8bcda41f7cbc871e64075adc820ea93958"
+    },
+    {
+      "path": "Data/Engine.pak",
+      "size": 7039827,
+      "sha256": "f2f961988087c94c1fc25bd853a5daee59d385ed3601d06d45247b6e19f55e93"
+    },
+    {
+      "path": "Data/EngineShaders.pak",
+      "size": 30332659,
+      "sha256": "873032240975b99d35366edf1cd7da289940c419f279bd14b1989a7c670b9ca8"
+    },
+    {
+      "path": "Data/Game.pak",
+      "size": 1116598983,
+      "sha256": "2c26183717b4511dadc00e07906932720b4f813c6a412fb4ea408cb02a08ec11"
+    },
+    {
+      "path": "Data/GamePlatform.pak",
+      "size": 81157,
+      "sha256": "071efa23510c9617dc82cc129f4149ac6c9b6f11efe1196f64e89936064f04bd"
+    },
+    {
+      "path": "Data/Gustav.pak",
+      "size": 13186753328,
+      "sha256": "15997d30fb22b1882e3f53879b6197fb8bc3e00e7a4e33716548ff79807c15fa"
+    },
+    {
+      "path": "Data/Gustav_NavCloud.pak",
+      "size": 95851455,
+      "sha256": "711a71705a9b5f67e0e15655ec07004052327689fe41c777b7f1974b86955148"
+    },
+    {
+      "path": "Data/Gustav_Textures.pak",
+      "size": 888878399,
+      "sha256": "c36338f22a5146734b673ff8f526ef4890a44faa95a1d0a0dda31f22690741df"
+    },
+    {
+      "path": "Data/Gustav_Video.pak",
+      "size": 1718353532,
+      "sha256": "92ef5268b53c8faf01952dc00cce0eece7e41e41186ca10d43fdd988ef8455ce"
+    },
+    {
+      "path": "Data/GustavX.pak",
+      "size": 185129297,
+      "sha256": "bfa9f21a8542b80e8a103479cc3c4943f40b4644a2d74968fdd85ec2d0570425"
+    },
+    {
+      "path": "Data/Icons.pak",
+      "size": 26884871,
+      "sha256": "4504d7e1547a83aba782bf754d77ba4d4e72627b017ed96ef13c1f9b0a08a7b7"
+    },
+    {
+      "path": "Data/Localization/English.pak",
+      "size": 14304030,
+      "sha256": "0571fc8399c4b436baf2de188992f5a9727b023012713b0699319339aefc969d"
+    },
+    {
+      "path": "Data/Localization/English_Animations.pak",
+      "size": 3946081721,
+      "sha256": "6de0e149ce2dd17350cfcbdef908dcb0cf5ffd8f8871532498cce342979baf5e"
+    },
+    {
+      "path": "Data/Localization/language.lsx",
+      "size": 573,
+      "sha256": "40e85c7174f92b6df21ee772a2fdce96bfc5970c3ee57e9c0026ebae027017bb"
+    },
+    {
+      "path": "Data/Localization/Voice.pak",
+      "size": 14997414385,
+      "sha256": "1c4d854b42f2d6f4ac88804f0fcec2550fa1f586b96fc8fa234c6f4d3a9fc7d0"
+    },
+    {
+      "path": "Data/Localization/VoiceMeta.pak",
+      "size": 47948463,
+      "sha256": "c57ad4c2d0abb623eabef10cf03277bb21b7682a498ebc759f3eccfb033457fa"
+    },
+    {
+      "path": "Data/LowTex.pak",
+      "size": 34457940,
+      "sha256": "f1df1eab536d9ec97d2d13fec67349c1383c5bf1f0ab6e3ecca6ec5455a5d330"
+    },
+    {
+      "path": "Data/Materials.pak",
+      "size": 364770186,
+      "sha256": "6dcd5affa24a00556d1d4d2befa6f7d76e6784eee319cebe73419497cb9750a2"
+    },
+    {
+      "path": "Data/Models.pak",
+      "size": 8929633868,
+      "sha256": "9b328bc5ef06b1539f61a052fd54f28a65b219660e1a4797e3f62fcde50a354d"
+    },
+    {
+      "path": "Data/Patch8_HotFix9.pak",
+      "size": 136753912,
+      "sha256": "9ef03d48751682f3d06443d435a760240bb41faddd96e43f1530a660e7ffe7f4"
+    },
+    {
+      "path": "Data/PsoCache.pak",
+      "size": 258656,
+      "sha256": "cec9fd5d358965825b6d587705cb4ef8c97c9b6ecfdd431fa6ffda5eb0afb734"
+    },
+    {
+      "path": "Data/Shared.pak",
+      "size": 162779988,
+      "sha256": "9d63d634dac98f1e864ead6b8ff6452b566372997d61c1bf3a9b156a61536aa7"
+    },
+    {
+      "path": "Data/SharedSoundBanks.pak",
+      "size": 43505432,
+      "sha256": "fa4b13f6d2a906f0c1d749b17e7655ed077d6f9a25fd181b4938aa1f048dbacf"
+    },
+    {
+      "path": "Data/SharedSounds.pak",
+      "size": 10859554561,
+      "sha256": "0fe5643f7e52e9d58804f866d804044485855cd82695d377125f344b5f138e67"
+    },
+    {
+      "path": "Data/Textures.pak",
+      "size": 4293034456,
+      "sha256": "a2624bee35a1990750d9d0872d1ed367d7a8477a85e7cf8e7bcac9eced6ea748"
+    },
+    {
+      "path": "Data/Textures_1.pak",
+      "size": 4294805696,
+      "sha256": "00118aa98de194b9bd66f335de319a848f18c3ee7bc3b32ed2b11bb894c0f215"
+    },
+    {
+      "path": "Data/Textures_2.pak",
+      "size": 4280176384,
+      "sha256": "f3410fe505040febb7e9e46170590cce4f1e6a778ed7b45a23f581ef838bb95b"
+    },
+    {
+      "path": "Data/Textures_3.pak",
+      "size": 27356224,
+      "sha256": "30e5bd5b677abdffc76591f4b117610746e054ea07735d45d5ae51bb75c8a2a2"
+    },
+    {
+      "path": "Data/VirtualTextures.pak",
+      "size": 4292500575,
+      "sha256": "eb31f0183d4c32eb372b87b37f4376c03298fcde9df0012ab004bac5fb5578b3"
+    },
+    {
+      "path": "Data/VirtualTextures_1.pak",
+      "size": 4292870144,
+      "sha256": "a0a91e8840916667285bc0050b287f5a588e5be01eaa70b26ed2833ebd13456d"
+    },
+    {
+      "path": "Data/VirtualTextures_10.pak",
+      "size": 4288675840,
+      "sha256": "cbd7e3266f596b78f31c451db45ab3f6b5e3b266a8593720392147423c6dde94"
+    },
+    {
+      "path": "Data/VirtualTextures_11.pak",
+      "size": 4292870144,
+      "sha256": "119e631a77c33805b9a49c6ce5e708133f59e2c48dd88f620e08991d594f7d1c"
+    },
+    {
+      "path": "Data/VirtualTextures_12.pak",
+      "size": 4292870144,
+      "sha256": "caed4f6ce7592cacf8cad66270db6bf01457d42b01c501fdc961801cd1368ffb"
+    },
+    {
+      "path": "Data/VirtualTextures_13.pak",
+      "size": 4291821568,
+      "sha256": "7f9a3abf73d7e7ea42a6e031dc6cb9f77145025bc25c29605917e92bdc7f1569"
+    },
+    {
+      "path": "Data/VirtualTextures_14.pak",
+      "size": 4291821568,
+      "sha256": "444964e5408427eb7eaa03133edf39cd2994e6c2d3590068dfd61060313465f9"
+    },
+    {
+      "path": "Data/VirtualTextures_15.pak",
+      "size": 4293918720,
+      "sha256": "74f50193f11f75b0d56f93897d01e059628a1deae9e4a0c0809671818cd26423"
+    },
+    {
+      "path": "Data/VirtualTextures_16.pak",
+      "size": 4268752896,
+      "sha256": "720eefb051bb675f9a87fd18f09e4d4d6abbe5409863e68d69bb57c5fb628edc"
+    },
+    {
+      "path": "Data/VirtualTextures_17.pak",
+      "size": 4292870144,
+      "sha256": "bffa3114c1e5570bba36d1fdf802e4a7ecee8ed0322f1b3eb9e5b45baa39dfa3"
+    },
+    {
+      "path": "Data/VirtualTextures_18.pak",
+      "size": 4283432960,
+      "sha256": "c4594f66cd7f542afe7988a5a86a09fbdea13daa29842709102e3540b704fce9"
+    },
+    {
+      "path": "Data/VirtualTextures_19.pak",
+      "size": 2894069760,
+      "sha256": "7efd8f4f13e81d92acb75fc8416dfaaa80cf9c4bf3a5d1ee1222f503b39f6ec2"
+    },
+    {
+      "path": "Data/VirtualTextures_2.pak",
+      "size": 4287627264,
+      "sha256": "dd60c4f949f4b5abbcf3aaba20b2e3241ebc213ea2b286eef009d5d450691b04"
+    },
+    {
+      "path": "Data/VirtualTextures_3.pak",
+      "size": 4283432960,
+      "sha256": "4344be01368809a4adbd2d6e5b90e0cd86f0a6e1a9ff36434e5b946708bfc953"
+    },
+    {
+      "path": "Data/VirtualTextures_4.pak",
+      "size": 4281335808,
+      "sha256": "8a37cd34fa9465a3410633aececd52fe8450d6ceb3f7ca850b6c1769bbe450ec"
+    },
+    {
+      "path": "Data/VirtualTextures_5.pak",
+      "size": 4282384384,
+      "sha256": "972424d7f33ee8077ed12f377803bd17f9ba63f6a99081ca993478e20c7acc0c"
+    },
+    {
+      "path": "Data/VirtualTextures_6.pak",
+      "size": 4287627264,
+      "sha256": "5e50067a300d814ed655e107ea7f54a212eb1e4262ae1de7551bcf8cf85a8bfd"
+    },
+    {
+      "path": "Data/VirtualTextures_7.pak",
+      "size": 4196401152,
+      "sha256": "bc6e1fb3b7fb404190438a5172c2e9ed9ebd905b082dcffc94af95f1dd70b219"
+    },
+    {
+      "path": "Data/VirtualTextures_8.pak",
+      "size": 4293918720,
+      "sha256": "0099e6d7e74da999c32b8db67cadc64d7e41d9a7f579d4456b6051403fbc5078"
+    },
+    {
+      "path": "Data/VirtualTextures_9.pak",
+      "size": 4278190080,
+      "sha256": "4cf37705dfb9f5066ecf499924c109bbd4c00f8f23ca807732f222e5db4fe4fd"
+    },
+    {
+      "path": "DotNetCore/windowsdesktop-runtime-6.0.11-win-x64.exe",
+      "size": 57217584,
+      "sha256": "c650a0969049c26a2f7b302eb1e6c9bfcc2cfe4133c40ec8497af29b453c177d"
+    },
+    {
+      "path": "InstallScript.vdf",
+      "size": 579,
+      "sha256": "597cf1a0ac4e0c6fff657d723462288ae0425602fbf811b5862f23ba028ffdc0"
+    },
+    {
+      "path": "Launcher/Backtrace.dll",
+      "size": 74752,
+      "sha256": "aac73a506355f9f934fd027f41b7aca4f255abb6cc29b3838b3ceb6b417b6c3b"
+    },
+    {
+      "path": "Launcher/CefSharp.Wpf.dll",
+      "size": 217088,
+      "sha256": "57f71a350410d62a6d4ad7f567b93572b22480a4d54a28a49e3e993c659f9062"
+    },
+    {
+      "path": "Launcher/CrashReporter.deps.json",
+      "size": 4935,
+      "sha256": "54a647d68a4d8fbe674d9ff7a3256f4f5d87616260985ce6b4a3e4fd355ca7fe"
+    },
+    {
+      "path": "Launcher/CrashReporter.dll",
+      "size": 543744,
+      "sha256": "0059144f523984ee8333ed322636afb52f937e5641704a3b8a929a19c274a52b"
+    },
+    {
+      "path": "Launcher/CrashReporter.exe",
+      "size": 532032,
+      "sha256": "3e4b4ca17ee0106d80f039517b32d2ce9de3c54e768cb84148ada6de0145e65b"
+    },
+    {
+      "path": "Launcher/CrashReporter.runtimeconfig.json",
+      "size": 372,
+      "sha256": "1eca0f0c70070aa83bb609e4b749b26dcb4409784326032726394722224a098a"
+    },
+    {
+      "path": "Launcher/DbgHelper.dll",
+      "size": 56320,
+      "sha256": "c4966fabac089676d6569ab61d3913f1f899b118e7fab5a20ea48cd8a87d5915"
+    },
+    {
+      "path": "Launcher/DriverVersionChecker.exe",
+      "size": 27200,
+      "sha256": "487c99ecd36d2c481fd17920e3879ce3bb55c857723b541ee1f2643797d2bfdc"
+    },
+    {
+      "path": "Launcher/LariLauncher.deps.json",
+      "size": 14585,
+      "sha256": "281324e6c943c4413812892e2f8300c7ec28beedbddaeb044da730c23becd1f3"
+    },
+    {
+      "path": "Launcher/LariLauncher.dll",
+      "size": 5743616,
+      "sha256": "f1bde9bc022d3e8d8c7d617351bb4317be18ffa92f1715878272346efa84dec6"
+    },
+    {
+      "path": "Launcher/LariLauncher.exe",
+      "size": 534080,
+      "sha256": "f213c3d986fe79c976d562343c60cfcea8ffe2ab4f02f67ace7ed3a17b0c7b24"
+    },
+    {
+      "path": "Launcher/LariLauncher.runtimeconfig.json",
+      "size": 372,
+      "sha256": "1eca0f0c70070aa83bb609e4b749b26dcb4409784326032726394722224a098a"
+    },
+    {
+      "path": "Launcher/launcher.cfg",
+      "size": 129,
+      "sha256": "e999738b1950a138f869c768af8f8e574092e97c35017cc713a58e1de8312575"
+    },
+    {
+      "path": "Launcher/LayersChecker.exe",
+      "size": 26112,
+      "sha256": "5ae08ff90a35fc5bd9a5e0e12a343412742bd755a8cf4f6fd175a3ce2e02ae2f"
+    },
+    {
+      "path": "Launcher/locales/de.csv",
+      "size": 5198,
+      "sha256": "04988499483f9a36a22d7cd281aecd93fda4028f12a7bbb7c87c2d1e6c2b8a64"
+    },
+    {
+      "path": "Launcher/locales/en.csv",
+      "size": 4527,
+      "sha256": "d9b906fdcdea47611cea624e5946d41554893f4c21e281ecec0e799910c7260a"
+    },
+    {
+      "path": "Launcher/locales/es-419.csv",
+      "size": 5222,
+      "sha256": "ea8ea2f27049582d56b0928424249cc1b228280ce8f52fb23b0fc4b535d7bda0"
+    },
+    {
+      "path": "Launcher/locales/es.csv",
+      "size": 5261,
+      "sha256": "bc90d97079b0951f9834284159b9a7eee9e4c3b5650d57f1470dae8fe68f4511"
+    },
+    {
+      "path": "Launcher/locales/fr.csv",
+      "size": 5532,
+      "sha256": "45bcff2c00b3dc753645dca52982f3ae8968bfd1bae1c8a91dedd128107afb12"
+    },
+    {
+      "path": "Launcher/locales/it.csv",
+      "size": 5100,
+      "sha256": "00e7b57f2ed1f64b726a06d8d1c6e5bf41b44906a296db725e3ffa4b4537aaca"
+    },
+    {
+      "path": "Launcher/locales/ja.csv",
+      "size": 5772,
+      "sha256": "2411fe262d3d39d9b988312c5051a6dcdd49cd21abe59dc391450da2d0875e94"
+    },
+    {
+      "path": "Launcher/locales/ko.csv",
+      "size": 5336,
+      "sha256": "214e0b3d262dd6d67744d665cae2c8bec17187664d2be60a9fb5e45bc2c693ce"
+    },
+    {
+      "path": "Launcher/locales/pl.csv",
+      "size": 5039,
+      "sha256": "b8b6b461bbaec6f6a2d09973d01b56204f2d87e7b0c876f8bc2062210211124f"
+    },
+    {
+      "path": "Launcher/locales/pt-br.csv",
+      "size": 4911,
+      "sha256": "e0e24dd76bf32a911eaee87ed415e74ed878243b4bdad4a25942faf7feccd7c0"
+    },
+    {
+      "path": "Launcher/locales/ru.csv",
+      "size": 7589,
+      "sha256": "fffc1c83ce1ec44a166f454f9b067342c0dd9dc214af111f23fadea580f06263"
+    },
+    {
+      "path": "Launcher/locales/tr.csv",
+      "size": 4904,
+      "sha256": "b2cbac71eee330e1a2b828a08205963b6ceeb25ce9df7f7b8edcb57efbeabb2d"
+    },
+    {
+      "path": "Launcher/locales/uk.csv",
+      "size": 7368,
+      "sha256": "ecd13c47e73bfd6d99ec1d5956d682f794a765d76f4e0e3ad585e842a52c7ca0"
+    },
+    {
+      "path": "Launcher/locales/zh-Hans.csv",
+      "size": 4514,
+      "sha256": "462e8c461da2728731414ada02bacd5a023259cdf03c0ba93504e431bdcab2b8"
+    },
+    {
+      "path": "Launcher/locales/zh-Hant.csv",
+      "size": 4525,
+      "sha256": "ae953bc27b57cf4e1eb24c87f673e9b60316b8229bab56affab48bf74faf7a80"
+    },
+    {
+      "path": "Launcher/Newtonsoft.Json.dll",
+      "size": 712464,
+      "sha256": "22c649f75fce5be7c7ccda8880473b634ef69ecf33f5d1ab8ad892caf47d5a07"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/lib/netcoreapp3.1/CefSharp.Core.dll",
+      "size": 1094144,
+      "sha256": "6b1463bc38b7a6057f7d4a613502109d7bcc270b43a220504f354e694b06e317"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/lib/netcoreapp3.1/CefSharp.Core.Runtime.dll",
+      "size": 1637376,
+      "sha256": "81739d2a3676251d24af613317a8908ca8d48a4fab4cd51d3115f0a9f79cb6a6"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/lib/netcoreapp3.1/CefSharp.dll",
+      "size": 605696,
+      "sha256": "0b9d5e9b2e61b86e17c84030e0f67140127de603fe6c3e9d9a7513a37fcb63d4"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/lib/netcoreapp3.1/Ijwhost.dll",
+      "size": 144800,
+      "sha256": "39e5c0e62e19835fbb4408db02700a14086f7883732cdc65e4c7d5d066518dff"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/CefSharp.BrowserSubprocess.Core.dll",
+      "size": 1131520,
+      "sha256": "b4c13e2de389eac715c35d8d9f559c778976a2796bbbfeb65f9279432628ebd8"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/CefSharp.BrowserSubprocess.dll",
+      "size": 13824,
+      "sha256": "041580c65d4c574d775827960785bbffddc72dcd8b4b28da7ac060e954fe3ce7"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/CefSharp.BrowserSubprocess.exe",
+      "size": 126976,
+      "sha256": "b0198f45db9d65ce353b81ad49aed969470778369e8175ed47df6dab51fcccb2"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/CefSharp.BrowserSubprocess.runtimeconfig.json",
+      "size": 176,
+      "sha256": "369a6e6bae9827bfc233d52777e08fedeb3b168ca84132fe4c8070409e1f3195"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/CefSharp.dll",
+      "size": 605696,
+      "sha256": "0b9d5e9b2e61b86e17c84030e0f67140127de603fe6c3e9d9a7513a37fcb63d4"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/Ijwhost.dll",
+      "size": 144800,
+      "sha256": "39e5c0e62e19835fbb4408db02700a14086f7883732cdc65e4c7d5d066518dff"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/af.pak",
+      "size": 465205,
+      "sha256": "70183a78cfd1be58e5f2402e7e618e7d251e8d588dd528b91d15d7400a365290"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/am.pak",
+      "size": 756426,
+      "sha256": "45c864c1b3d9d5f6051a865fa11ba63a24254981545cf2d7ef20b9e913e1c9ac"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/ar.pak",
+      "size": 834745,
+      "sha256": "fdf596eec149fb762833bd1b1ebe599f84d878e75dd15b5a35d05c3dd9f12de3"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/bg.pak",
+      "size": 859704,
+      "sha256": "d857a85b86fdddcce02742469a2c33a40359478af3111fe1a8a55af0cd116b3d"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/bn.pak",
+      "size": 1108054,
+      "sha256": "234f384d2197be64cdcc0e8c9d7b0477c9bc370ca16922ed047e499683b26e2d"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/ca.pak",
+      "size": 531550,
+      "sha256": "191deb84cecfc76daaa303e25708638080756cd3c7b866ec3c86d2a39a30cd5e"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/cs.pak",
+      "size": 540539,
+      "sha256": "4054b66120174545a50f48032a915fd62ed5643f0bace5bb4e46f21f6435b01b"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/da.pak",
+      "size": 491412,
+      "sha256": "2ac51a2f01a5392cce7c440ae35771fd51a1c5b4b0c90084f37333a3adec8a53"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/de.pak",
+      "size": 528865,
+      "sha256": "d6379b22da89229662ff8e2efbc8cea3df3bcb95c2fca76b20d8e3a7e8b1aab0"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/el.pak",
+      "size": 941201,
+      "sha256": "a950c3d6a6334b3d95c92bdc0f27d1bf69a5f2192e20e401936cdc2f70b7d27a"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/en-GB.pak",
+      "size": 425864,
+      "sha256": "3c063a2a7155c29915bec738a13e33f7912cf0c8dc70cdb407c20165dd41b507"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/en-US.pak",
+      "size": 429975,
+      "sha256": "37d470533d91de21d4ab7f3482514accf92078facd272f557339d3d7a0bf0f85"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/es-419.pak",
+      "size": 519627,
+      "sha256": "de7f04e08110cd230caa162bb800fdcb05e5d0589afac08eef9dfa5808a84b31"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/es.pak",
+      "size": 518067,
+      "sha256": "93df52c52ca6f8f31cbabddcfffcb707d61755742a45d8dfffdf1daef68b7108"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/et.pak",
+      "size": 470454,
+      "sha256": "80e7b5190df4ccdf53cccab76037792dd2b178a379c50940721c09f39c826b38"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/fa.pak",
+      "size": 766432,
+      "sha256": "06af9bb81a8aaac3b03c2a0f2b1f6e301f545499403ebd9529230475a005f2a5"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/fi.pak",
+      "size": 478116,
+      "sha256": "f3f4a3e6df1d53afc85ebea1846758c60ad7fe8a37fba0e8c1e8428588fd07ec"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/fil.pak",
+      "size": 541866,
+      "sha256": "087cfb8e442898bd36597e51c5ae3582ca96b4be17ab1e8641983cbf42147759"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/fr.pak",
+      "size": 563588,
+      "sha256": "0bcf7b9c9d49b7d736f1ac6e3ad3d88b3cfd7298e9d85517f2b13d8ebe6d0394"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/gu.pak",
+      "size": 1092218,
+      "sha256": "88adf2a6c0aa6c1d4af2e0bc0b223b9eb3cf69676a30b1ebb76374991f6e5873"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/he.pak",
+      "size": 676286,
+      "sha256": "83494ccc2930b9c56d6baa7c47e66fb9e582c9887156b5650711516a4df13930"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/hi.pak",
+      "size": 1154935,
+      "sha256": "01bfffa19f519a1da443fe0a2486a1cc059bd299123dd93775ae142546ec90cb"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/hr.pak",
+      "size": 522403,
+      "sha256": "16b5c1d1c830800ae9c980c514ce6bb41af671e3f1553f2b2e77b88a891b6fe5"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/hu.pak",
+      "size": 560407,
+      "sha256": "f88d8cba2cb6cbc2f5516ae34b56cf5dd2b8ec5f7faeecb4d6a1eba8d96806d2"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/id.pak",
+      "size": 461426,
+      "sha256": "7c7d9f9fe608270606ca3d86bf6320ec6723e1a1f2087764a13f2a74a2a43e55"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/it.pak",
+      "size": 517128,
+      "sha256": "df5d9c95110c269970114476918b477983c73139112382afbb9ec1e9041fddc6"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/ja.pak",
+      "size": 628169,
+      "sha256": "8735a7554cafee16afb6d57cd652790f8f183d58e0d04a4747b7883cd49094a0"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/kn.pak",
+      "size": 1246353,
+      "sha256": "43a4579dcc3aaa371ffef8e8cd75ded807f1263411a233c3ff9144675c31d68f"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/ko.pak",
+      "size": 526503,
+      "sha256": "380b59cad7e640629ddfbe83fb0f35a712241a65c0abb8149643f0e74b77c487"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/lt.pak",
+      "size": 569996,
+      "sha256": "a9383ea4160d6ac82024d00df2df97dc6377195d23dd9e63c719a9d8ee84a961"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/lv.pak",
+      "size": 566664,
+      "sha256": "28e55ec7202d6ac3896cdb0480d7c683ffa69ee510b3da2bf474b089955ff0aa"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/ml.pak",
+      "size": 1293128,
+      "sha256": "7c19a9baa283d29d9673e051892057333b5318f0a0be53c346f4558307b55120"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/mr.pak",
+      "size": 1062156,
+      "sha256": "a1b33e6e830e68e51d5a765a6f8f9d50727956c8d754a84b5c350d4332dbf786"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/ms.pak",
+      "size": 483671,
+      "sha256": "82f60aa64f33c416a3ce4510dbd5579164217689d9545c76ab6215f5ce01aa49"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/nb.pak",
+      "size": 470647,
+      "sha256": "cd7f1febbf16c7ec6841e4089cdca68155597f47bc04286e77a4696618235066"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/nl.pak",
+      "size": 485599,
+      "sha256": "006924795da3f8487299c8f510395326b48a4843793d153c2f48a01c7de6b34b"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/pl.pak",
+      "size": 546228,
+      "sha256": "ad7821511dcf478fdd32e0b1ef9ff8a876624a7d9a87ebf4903a53891e206c16"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/pt-BR.pak",
+      "size": 511688,
+      "sha256": "d3d31e17d5f361d448b68abea8f1f8aaf45de9fbe19bbc8c61f6ff2f03116ab0"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/pt-PT.pak",
+      "size": 513383,
+      "sha256": "5a6ca3faccf34a16af07f3b57cf3b43a131e07599b7903540191eee020b59e40"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/ro.pak",
+      "size": 532032,
+      "sha256": "257ad7371c42dc697d36befbf9a34c0e5a82c06740fa45e3a2a27a5b6acef412"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/ru.pak",
+      "size": 874082,
+      "sha256": "9eb128ffd041eeb3380f247fc21d014299f21a67d11023bed5a3310c82afb737"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/sk.pak",
+      "size": 549760,
+      "sha256": "9f0482f314b3978e66ba705de55618b6fd234c8642187844a21bbf4af4e8d44c"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/sl.pak",
+      "size": 528839,
+      "sha256": "4f0e645862563ef35ba657b9c3bcccafa208a8bb4bf41248146e0978e46e80a6"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/sr.pak",
+      "size": 811643,
+      "sha256": "779eb0e553bcaeff210668f0f8320d199e34e9772db28fd12b053b0ec64a4ee5"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/sv.pak",
+      "size": 474842,
+      "sha256": "a05a2c75159e1d53b3b434c72271170ef71d94c69958691c1002915d31c9a63e"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/sw.pak",
+      "size": 498985,
+      "sha256": "7fdd3651e2429ab09a27133460def4d5aa90f113f493243c4126bd226aacd058"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/ta.pak",
+      "size": 1283232,
+      "sha256": "5ca0f18a8fe61532b320cfb6d50644061ac840791e5ee9d5ff5d9e5c8d10fc03"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/te.pak",
+      "size": 1185717,
+      "sha256": "a4f2b59c7b73dda7a84d2166114d9d65368ddcac0be2b92660c5d9abc45d7e32"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/th.pak",
+      "size": 999193,
+      "sha256": "2321c43790725b1b6ef34652e790fe03090948348dc38659b2b8b6edde35a6dd"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/tr.pak",
+      "size": 509180,
+      "sha256": "61e1e71af592868ba180d22ff7e072a7a90401dc4fd8823c0a3f172b33daa846"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/uk.pak",
+      "size": 871237,
+      "sha256": "6268dc74e7b9b594cc58affcf93302105c317dbba065bcfd90184b1237b9edad"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/ur.pak",
+      "size": 756714,
+      "sha256": "4b6d779eada6b73f07606cccf15e4346ef73c834b15fcc656b197309d0f55481"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/vi.pak",
+      "size": 602677,
+      "sha256": "f49d13090e2a1b959ff717fdbcba94e9071f16d6c2d388cd4f150275faf5e46e"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/zh-CN.pak",
+      "size": 436214,
+      "sha256": "9a65a0f0f1c226512171511065dede5f1a2111eb07aa678b2c3dfad2b7301f73"
+    },
+    {
+      "path": "Launcher/runtimes/win-arm64/native/locales/zh-TW.pak",
+      "size": 434590,
+      "sha256": "f6bb4ca8b678338214c8055352355169f599da9d2e76a8b09cc65601236201ff"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/lib/netcoreapp3.1/CefSharp.Core.dll",
+      "size": 1094144,
+      "sha256": "6b1463bc38b7a6057f7d4a613502109d7bcc270b43a220504f354e694b06e317"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/lib/netcoreapp3.1/CefSharp.Core.Runtime.dll",
+      "size": 1813504,
+      "sha256": "48671c3088e9a0ed7f4a170ec392dcaefdccb6834557cfda176309edbf85b328"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/lib/netcoreapp3.1/CefSharp.dll",
+      "size": 605696,
+      "sha256": "0b9d5e9b2e61b86e17c84030e0f67140127de603fe6c3e9d9a7513a37fcb63d4"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/lib/netcoreapp3.1/Ijwhost.dll",
+      "size": 151968,
+      "sha256": "763f9e534343cbefe379cafc885486900cba42a2aca23bc697861780b4f4517f"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/CefSharp.BrowserSubprocess.Core.dll",
+      "size": 1134592,
+      "sha256": "f65afb1c4ca477fc319a15aaaee087c4e232d5a3b27aa75f4ff7a44346ee9fa3"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/CefSharp.BrowserSubprocess.dll",
+      "size": 13824,
+      "sha256": "717d100129b97a315d306c2a44b95441812aeb53d11d732adacd00418aac7d9b"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/CefSharp.BrowserSubprocess.exe",
+      "size": 160256,
+      "sha256": "072b894dca04adc807df78bdc9824f07b0e53b04fdda19698f8349417b603bd7"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/CefSharp.BrowserSubprocess.runtimeconfig.json",
+      "size": 183,
+      "sha256": "6022ac84384503eb1404e246eb05f312bb3cb660177a35b851f7a79c07c6c1c9"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/CefSharp.dll",
+      "size": 605696,
+      "sha256": "0b9d5e9b2e61b86e17c84030e0f67140127de603fe6c3e9d9a7513a37fcb63d4"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/chrome_100_percent.pak",
+      "size": 645320,
+      "sha256": "dae31a405dd524ce81cdb498e5da0769a642ccac94e6c5348c313e8ed7a456bb"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/chrome_200_percent.pak",
+      "size": 995805,
+      "sha256": "13aad20eb12608e59a609fda007a538686d2c978d850be01ad4fb8edf4332b22"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/chrome_elf.dll",
+      "size": 1504768,
+      "sha256": "399b92085609a94420e46c168fdec9b7ed83fbab9598c6135979be2329d720a6"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/d3dcompiler_47.dll",
+      "size": 4916712,
+      "sha256": "7353f25dc5cf84d09894e3e0461cef0e56799adbc617fce37620ca67240b547d"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/icudtl.dat",
+      "size": 10717392,
+      "sha256": "f5170aa2b388d23bebf98784dd488a9bcb741470384a6a9a8d7a2638d768defb"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/Ijwhost.dll",
+      "size": 151968,
+      "sha256": "763f9e534343cbefe379cafc885486900cba42a2aca23bc697861780b4f4517f"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/libcef.dll",
+      "size": 207625728,
+      "sha256": "024e8872d37aa6656057abbbdc87a6d5e62f2e3d59c9d6de91fbea00e25407ae"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/libEGL.dll",
+      "size": 482816,
+      "sha256": "3b4d4bc5258cf8a43ff3112713436b127b542a2a017b82514c9d1f2a6a2c4367"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/libGLESv2.dll",
+      "size": 7573504,
+      "sha256": "4ad827649cdb5da1ab3d601439186d25e89da32bc44b7ccd2dcc3c4b05f8eec0"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/af.pak",
+      "size": 465205,
+      "sha256": "70183a78cfd1be58e5f2402e7e618e7d251e8d588dd528b91d15d7400a365290"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/am.pak",
+      "size": 756426,
+      "sha256": "45c864c1b3d9d5f6051a865fa11ba63a24254981545cf2d7ef20b9e913e1c9ac"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/ar.pak",
+      "size": 834745,
+      "sha256": "fdf596eec149fb762833bd1b1ebe599f84d878e75dd15b5a35d05c3dd9f12de3"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/bg.pak",
+      "size": 859704,
+      "sha256": "d857a85b86fdddcce02742469a2c33a40359478af3111fe1a8a55af0cd116b3d"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/bn.pak",
+      "size": 1108054,
+      "sha256": "234f384d2197be64cdcc0e8c9d7b0477c9bc370ca16922ed047e499683b26e2d"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/ca.pak",
+      "size": 531550,
+      "sha256": "191deb84cecfc76daaa303e25708638080756cd3c7b866ec3c86d2a39a30cd5e"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/cs.pak",
+      "size": 540539,
+      "sha256": "4054b66120174545a50f48032a915fd62ed5643f0bace5bb4e46f21f6435b01b"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/da.pak",
+      "size": 491412,
+      "sha256": "2ac51a2f01a5392cce7c440ae35771fd51a1c5b4b0c90084f37333a3adec8a53"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/de.pak",
+      "size": 528865,
+      "sha256": "d6379b22da89229662ff8e2efbc8cea3df3bcb95c2fca76b20d8e3a7e8b1aab0"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/el.pak",
+      "size": 941201,
+      "sha256": "a950c3d6a6334b3d95c92bdc0f27d1bf69a5f2192e20e401936cdc2f70b7d27a"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/en-GB.pak",
+      "size": 425864,
+      "sha256": "3c063a2a7155c29915bec738a13e33f7912cf0c8dc70cdb407c20165dd41b507"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/en-US.pak",
+      "size": 429975,
+      "sha256": "37d470533d91de21d4ab7f3482514accf92078facd272f557339d3d7a0bf0f85"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/es-419.pak",
+      "size": 519627,
+      "sha256": "de7f04e08110cd230caa162bb800fdcb05e5d0589afac08eef9dfa5808a84b31"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/es.pak",
+      "size": 518067,
+      "sha256": "93df52c52ca6f8f31cbabddcfffcb707d61755742a45d8dfffdf1daef68b7108"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/et.pak",
+      "size": 470454,
+      "sha256": "80e7b5190df4ccdf53cccab76037792dd2b178a379c50940721c09f39c826b38"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/fa.pak",
+      "size": 766432,
+      "sha256": "06af9bb81a8aaac3b03c2a0f2b1f6e301f545499403ebd9529230475a005f2a5"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/fi.pak",
+      "size": 478116,
+      "sha256": "f3f4a3e6df1d53afc85ebea1846758c60ad7fe8a37fba0e8c1e8428588fd07ec"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/fil.pak",
+      "size": 541866,
+      "sha256": "087cfb8e442898bd36597e51c5ae3582ca96b4be17ab1e8641983cbf42147759"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/fr.pak",
+      "size": 563588,
+      "sha256": "0bcf7b9c9d49b7d736f1ac6e3ad3d88b3cfd7298e9d85517f2b13d8ebe6d0394"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/gu.pak",
+      "size": 1092218,
+      "sha256": "88adf2a6c0aa6c1d4af2e0bc0b223b9eb3cf69676a30b1ebb76374991f6e5873"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/he.pak",
+      "size": 676286,
+      "sha256": "83494ccc2930b9c56d6baa7c47e66fb9e582c9887156b5650711516a4df13930"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/hi.pak",
+      "size": 1154935,
+      "sha256": "01bfffa19f519a1da443fe0a2486a1cc059bd299123dd93775ae142546ec90cb"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/hr.pak",
+      "size": 522403,
+      "sha256": "16b5c1d1c830800ae9c980c514ce6bb41af671e3f1553f2b2e77b88a891b6fe5"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/hu.pak",
+      "size": 560407,
+      "sha256": "f88d8cba2cb6cbc2f5516ae34b56cf5dd2b8ec5f7faeecb4d6a1eba8d96806d2"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/id.pak",
+      "size": 461426,
+      "sha256": "7c7d9f9fe608270606ca3d86bf6320ec6723e1a1f2087764a13f2a74a2a43e55"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/it.pak",
+      "size": 517128,
+      "sha256": "df5d9c95110c269970114476918b477983c73139112382afbb9ec1e9041fddc6"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/ja.pak",
+      "size": 628169,
+      "sha256": "8735a7554cafee16afb6d57cd652790f8f183d58e0d04a4747b7883cd49094a0"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/kn.pak",
+      "size": 1246353,
+      "sha256": "43a4579dcc3aaa371ffef8e8cd75ded807f1263411a233c3ff9144675c31d68f"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/ko.pak",
+      "size": 526503,
+      "sha256": "380b59cad7e640629ddfbe83fb0f35a712241a65c0abb8149643f0e74b77c487"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/lt.pak",
+      "size": 569996,
+      "sha256": "a9383ea4160d6ac82024d00df2df97dc6377195d23dd9e63c719a9d8ee84a961"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/lv.pak",
+      "size": 566664,
+      "sha256": "28e55ec7202d6ac3896cdb0480d7c683ffa69ee510b3da2bf474b089955ff0aa"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/ml.pak",
+      "size": 1293128,
+      "sha256": "7c19a9baa283d29d9673e051892057333b5318f0a0be53c346f4558307b55120"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/mr.pak",
+      "size": 1062156,
+      "sha256": "a1b33e6e830e68e51d5a765a6f8f9d50727956c8d754a84b5c350d4332dbf786"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/ms.pak",
+      "size": 483671,
+      "sha256": "82f60aa64f33c416a3ce4510dbd5579164217689d9545c76ab6215f5ce01aa49"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/nb.pak",
+      "size": 470647,
+      "sha256": "cd7f1febbf16c7ec6841e4089cdca68155597f47bc04286e77a4696618235066"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/nl.pak",
+      "size": 485599,
+      "sha256": "006924795da3f8487299c8f510395326b48a4843793d153c2f48a01c7de6b34b"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/pl.pak",
+      "size": 546228,
+      "sha256": "ad7821511dcf478fdd32e0b1ef9ff8a876624a7d9a87ebf4903a53891e206c16"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/pt-BR.pak",
+      "size": 511688,
+      "sha256": "d3d31e17d5f361d448b68abea8f1f8aaf45de9fbe19bbc8c61f6ff2f03116ab0"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/pt-PT.pak",
+      "size": 513383,
+      "sha256": "5a6ca3faccf34a16af07f3b57cf3b43a131e07599b7903540191eee020b59e40"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/ro.pak",
+      "size": 532032,
+      "sha256": "257ad7371c42dc697d36befbf9a34c0e5a82c06740fa45e3a2a27a5b6acef412"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/ru.pak",
+      "size": 874082,
+      "sha256": "9eb128ffd041eeb3380f247fc21d014299f21a67d11023bed5a3310c82afb737"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/sk.pak",
+      "size": 549760,
+      "sha256": "9f0482f314b3978e66ba705de55618b6fd234c8642187844a21bbf4af4e8d44c"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/sl.pak",
+      "size": 528839,
+      "sha256": "4f0e645862563ef35ba657b9c3bcccafa208a8bb4bf41248146e0978e46e80a6"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/sr.pak",
+      "size": 811643,
+      "sha256": "779eb0e553bcaeff210668f0f8320d199e34e9772db28fd12b053b0ec64a4ee5"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/sv.pak",
+      "size": 474842,
+      "sha256": "a05a2c75159e1d53b3b434c72271170ef71d94c69958691c1002915d31c9a63e"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/sw.pak",
+      "size": 498985,
+      "sha256": "7fdd3651e2429ab09a27133460def4d5aa90f113f493243c4126bd226aacd058"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/ta.pak",
+      "size": 1283232,
+      "sha256": "5ca0f18a8fe61532b320cfb6d50644061ac840791e5ee9d5ff5d9e5c8d10fc03"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/te.pak",
+      "size": 1185717,
+      "sha256": "a4f2b59c7b73dda7a84d2166114d9d65368ddcac0be2b92660c5d9abc45d7e32"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/th.pak",
+      "size": 999193,
+      "sha256": "2321c43790725b1b6ef34652e790fe03090948348dc38659b2b8b6edde35a6dd"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/tr.pak",
+      "size": 509180,
+      "sha256": "61e1e71af592868ba180d22ff7e072a7a90401dc4fd8823c0a3f172b33daa846"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/uk.pak",
+      "size": 871237,
+      "sha256": "6268dc74e7b9b594cc58affcf93302105c317dbba065bcfd90184b1237b9edad"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/ur.pak",
+      "size": 756714,
+      "sha256": "4b6d779eada6b73f07606cccf15e4346ef73c834b15fcc656b197309d0f55481"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/vi.pak",
+      "size": 602677,
+      "sha256": "f49d13090e2a1b959ff717fdbcba94e9071f16d6c2d388cd4f150275faf5e46e"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/zh-CN.pak",
+      "size": 436214,
+      "sha256": "9a65a0f0f1c226512171511065dede5f1a2111eb07aa678b2c3dfad2b7301f73"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/locales/zh-TW.pak",
+      "size": 434590,
+      "sha256": "f6bb4ca8b678338214c8055352355169f599da9d2e76a8b09cc65601236201ff"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/resources.pak",
+      "size": 8204604,
+      "sha256": "12531143674abb0e210a53ff6427c761f218e1afd30a7155cab6135e5cb4d47c"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/snapshot_blob.bin",
+      "size": 275904,
+      "sha256": "0bcd03cde7a6a3b4f7a932663c9f685fb26e41dee0e98649d95bc1493e316ab3"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/v8_context_snapshot.bin",
+      "size": 614011,
+      "sha256": "0a5a15fe25ee80d1c22e7acb539af2c6268919a66996b2dd503adf0682809c89"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/vk_swiftshader.dll",
+      "size": 5022208,
+      "sha256": "c667f2be520bba5098ae3fc2641a58c82c9d1c7c7355d188a5c1e547598b12c7"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/vk_swiftshader_icd.json",
+      "size": 106,
+      "sha256": "32d83ff113fef532a9f97e0d2831f8656628ab1c99e9060f0332b1532839afd9"
+    },
+    {
+      "path": "Launcher/runtimes/win-x64/native/vulkan-1.dll",
+      "size": 947200,
+      "sha256": "c8fd862f39fabdf19a11aa0880eaecf3daf9507ccd2ab81203ab082efc3b4b80"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/lib/netcoreapp3.1/CefSharp.Core.dll",
+      "size": 1094144,
+      "sha256": "6b1463bc38b7a6057f7d4a613502109d7bcc270b43a220504f354e694b06e317"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/lib/netcoreapp3.1/CefSharp.Core.Runtime.dll",
+      "size": 1399808,
+      "sha256": "d14d5dbefd63dbadf30b4da4262d5060ad94ab54f8b2294531d642465ff77fb6"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/lib/netcoreapp3.1/CefSharp.dll",
+      "size": 605696,
+      "sha256": "0b9d5e9b2e61b86e17c84030e0f67140127de603fe6c3e9d9a7513a37fcb63d4"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/lib/netcoreapp3.1/Ijwhost.dll",
+      "size": 122272,
+      "sha256": "c69c620b39c9fdadc76c977283b5e76418df0688cf6d388049f4d4cdf1966534"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/CefSharp.BrowserSubprocess.Core.dll",
+      "size": 923648,
+      "sha256": "9f36b80dc174ea2bd7ffce4353099109470af4b04649c750d0738341dc9e3cc6"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/CefSharp.BrowserSubprocess.dll",
+      "size": 14336,
+      "sha256": "63b8e7d0130f05d07a466fcb9d9ffedcd9443572ab9dda9f903a48d5310cc50f"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/CefSharp.BrowserSubprocess.exe",
+      "size": 131072,
+      "sha256": "ab4a05723ac7846bf21676391bebb1476bb7b7d12788c5c0e499686fc17d4cc9"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/CefSharp.BrowserSubprocess.runtimeconfig.json",
+      "size": 183,
+      "sha256": "6022ac84384503eb1404e246eb05f312bb3cb660177a35b851f7a79c07c6c1c9"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/CefSharp.dll",
+      "size": 605696,
+      "sha256": "0b9d5e9b2e61b86e17c84030e0f67140127de603fe6c3e9d9a7513a37fcb63d4"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/Ijwhost.dll",
+      "size": 122272,
+      "sha256": "c69c620b39c9fdadc76c977283b5e76418df0688cf6d388049f4d4cdf1966534"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/af.pak",
+      "size": 465205,
+      "sha256": "70183a78cfd1be58e5f2402e7e618e7d251e8d588dd528b91d15d7400a365290"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/am.pak",
+      "size": 756426,
+      "sha256": "45c864c1b3d9d5f6051a865fa11ba63a24254981545cf2d7ef20b9e913e1c9ac"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/ar.pak",
+      "size": 834745,
+      "sha256": "fdf596eec149fb762833bd1b1ebe599f84d878e75dd15b5a35d05c3dd9f12de3"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/bg.pak",
+      "size": 859704,
+      "sha256": "d857a85b86fdddcce02742469a2c33a40359478af3111fe1a8a55af0cd116b3d"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/bn.pak",
+      "size": 1108054,
+      "sha256": "234f384d2197be64cdcc0e8c9d7b0477c9bc370ca16922ed047e499683b26e2d"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/ca.pak",
+      "size": 531550,
+      "sha256": "191deb84cecfc76daaa303e25708638080756cd3c7b866ec3c86d2a39a30cd5e"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/cs.pak",
+      "size": 540539,
+      "sha256": "4054b66120174545a50f48032a915fd62ed5643f0bace5bb4e46f21f6435b01b"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/da.pak",
+      "size": 491412,
+      "sha256": "2ac51a2f01a5392cce7c440ae35771fd51a1c5b4b0c90084f37333a3adec8a53"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/de.pak",
+      "size": 528865,
+      "sha256": "d6379b22da89229662ff8e2efbc8cea3df3bcb95c2fca76b20d8e3a7e8b1aab0"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/el.pak",
+      "size": 941201,
+      "sha256": "a950c3d6a6334b3d95c92bdc0f27d1bf69a5f2192e20e401936cdc2f70b7d27a"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/en-GB.pak",
+      "size": 425864,
+      "sha256": "3c063a2a7155c29915bec738a13e33f7912cf0c8dc70cdb407c20165dd41b507"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/en-US.pak",
+      "size": 429975,
+      "sha256": "37d470533d91de21d4ab7f3482514accf92078facd272f557339d3d7a0bf0f85"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/es-419.pak",
+      "size": 519627,
+      "sha256": "de7f04e08110cd230caa162bb800fdcb05e5d0589afac08eef9dfa5808a84b31"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/es.pak",
+      "size": 518067,
+      "sha256": "93df52c52ca6f8f31cbabddcfffcb707d61755742a45d8dfffdf1daef68b7108"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/et.pak",
+      "size": 470454,
+      "sha256": "80e7b5190df4ccdf53cccab76037792dd2b178a379c50940721c09f39c826b38"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/fa.pak",
+      "size": 766432,
+      "sha256": "06af9bb81a8aaac3b03c2a0f2b1f6e301f545499403ebd9529230475a005f2a5"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/fi.pak",
+      "size": 478116,
+      "sha256": "f3f4a3e6df1d53afc85ebea1846758c60ad7fe8a37fba0e8c1e8428588fd07ec"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/fil.pak",
+      "size": 541866,
+      "sha256": "087cfb8e442898bd36597e51c5ae3582ca96b4be17ab1e8641983cbf42147759"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/fr.pak",
+      "size": 563588,
+      "sha256": "0bcf7b9c9d49b7d736f1ac6e3ad3d88b3cfd7298e9d85517f2b13d8ebe6d0394"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/gu.pak",
+      "size": 1092218,
+      "sha256": "88adf2a6c0aa6c1d4af2e0bc0b223b9eb3cf69676a30b1ebb76374991f6e5873"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/he.pak",
+      "size": 676286,
+      "sha256": "83494ccc2930b9c56d6baa7c47e66fb9e582c9887156b5650711516a4df13930"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/hi.pak",
+      "size": 1154935,
+      "sha256": "01bfffa19f519a1da443fe0a2486a1cc059bd299123dd93775ae142546ec90cb"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/hr.pak",
+      "size": 522403,
+      "sha256": "16b5c1d1c830800ae9c980c514ce6bb41af671e3f1553f2b2e77b88a891b6fe5"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/hu.pak",
+      "size": 560407,
+      "sha256": "f88d8cba2cb6cbc2f5516ae34b56cf5dd2b8ec5f7faeecb4d6a1eba8d96806d2"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/id.pak",
+      "size": 461426,
+      "sha256": "7c7d9f9fe608270606ca3d86bf6320ec6723e1a1f2087764a13f2a74a2a43e55"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/it.pak",
+      "size": 517128,
+      "sha256": "df5d9c95110c269970114476918b477983c73139112382afbb9ec1e9041fddc6"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/ja.pak",
+      "size": 628169,
+      "sha256": "8735a7554cafee16afb6d57cd652790f8f183d58e0d04a4747b7883cd49094a0"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/kn.pak",
+      "size": 1246353,
+      "sha256": "43a4579dcc3aaa371ffef8e8cd75ded807f1263411a233c3ff9144675c31d68f"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/ko.pak",
+      "size": 526503,
+      "sha256": "380b59cad7e640629ddfbe83fb0f35a712241a65c0abb8149643f0e74b77c487"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/lt.pak",
+      "size": 569996,
+      "sha256": "a9383ea4160d6ac82024d00df2df97dc6377195d23dd9e63c719a9d8ee84a961"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/lv.pak",
+      "size": 566664,
+      "sha256": "28e55ec7202d6ac3896cdb0480d7c683ffa69ee510b3da2bf474b089955ff0aa"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/ml.pak",
+      "size": 1293128,
+      "sha256": "7c19a9baa283d29d9673e051892057333b5318f0a0be53c346f4558307b55120"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/mr.pak",
+      "size": 1062156,
+      "sha256": "a1b33e6e830e68e51d5a765a6f8f9d50727956c8d754a84b5c350d4332dbf786"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/ms.pak",
+      "size": 483671,
+      "sha256": "82f60aa64f33c416a3ce4510dbd5579164217689d9545c76ab6215f5ce01aa49"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/nb.pak",
+      "size": 470647,
+      "sha256": "cd7f1febbf16c7ec6841e4089cdca68155597f47bc04286e77a4696618235066"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/nl.pak",
+      "size": 485599,
+      "sha256": "006924795da3f8487299c8f510395326b48a4843793d153c2f48a01c7de6b34b"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/pl.pak",
+      "size": 546228,
+      "sha256": "ad7821511dcf478fdd32e0b1ef9ff8a876624a7d9a87ebf4903a53891e206c16"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/pt-BR.pak",
+      "size": 511688,
+      "sha256": "d3d31e17d5f361d448b68abea8f1f8aaf45de9fbe19bbc8c61f6ff2f03116ab0"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/pt-PT.pak",
+      "size": 513383,
+      "sha256": "5a6ca3faccf34a16af07f3b57cf3b43a131e07599b7903540191eee020b59e40"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/ro.pak",
+      "size": 532032,
+      "sha256": "257ad7371c42dc697d36befbf9a34c0e5a82c06740fa45e3a2a27a5b6acef412"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/ru.pak",
+      "size": 874082,
+      "sha256": "9eb128ffd041eeb3380f247fc21d014299f21a67d11023bed5a3310c82afb737"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/sk.pak",
+      "size": 549760,
+      "sha256": "9f0482f314b3978e66ba705de55618b6fd234c8642187844a21bbf4af4e8d44c"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/sl.pak",
+      "size": 528839,
+      "sha256": "4f0e645862563ef35ba657b9c3bcccafa208a8bb4bf41248146e0978e46e80a6"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/sr.pak",
+      "size": 811643,
+      "sha256": "779eb0e553bcaeff210668f0f8320d199e34e9772db28fd12b053b0ec64a4ee5"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/sv.pak",
+      "size": 474842,
+      "sha256": "a05a2c75159e1d53b3b434c72271170ef71d94c69958691c1002915d31c9a63e"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/sw.pak",
+      "size": 498985,
+      "sha256": "7fdd3651e2429ab09a27133460def4d5aa90f113f493243c4126bd226aacd058"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/ta.pak",
+      "size": 1283232,
+      "sha256": "5ca0f18a8fe61532b320cfb6d50644061ac840791e5ee9d5ff5d9e5c8d10fc03"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/te.pak",
+      "size": 1185717,
+      "sha256": "a4f2b59c7b73dda7a84d2166114d9d65368ddcac0be2b92660c5d9abc45d7e32"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/th.pak",
+      "size": 999193,
+      "sha256": "2321c43790725b1b6ef34652e790fe03090948348dc38659b2b8b6edde35a6dd"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/tr.pak",
+      "size": 509180,
+      "sha256": "61e1e71af592868ba180d22ff7e072a7a90401dc4fd8823c0a3f172b33daa846"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/uk.pak",
+      "size": 871237,
+      "sha256": "6268dc74e7b9b594cc58affcf93302105c317dbba065bcfd90184b1237b9edad"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/ur.pak",
+      "size": 756714,
+      "sha256": "4b6d779eada6b73f07606cccf15e4346ef73c834b15fcc656b197309d0f55481"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/vi.pak",
+      "size": 602677,
+      "sha256": "f49d13090e2a1b959ff717fdbcba94e9071f16d6c2d388cd4f150275faf5e46e"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/zh-CN.pak",
+      "size": 436214,
+      "sha256": "9a65a0f0f1c226512171511065dede5f1a2111eb07aa678b2c3dfad2b7301f73"
+    },
+    {
+      "path": "Launcher/runtimes/win-x86/native/locales/zh-TW.pak",
+      "size": 434590,
+      "sha256": "f6bb4ca8b678338214c8055352355169f599da9d2e76a8b09cc65601236201ff"
+    },
+    {
+      "path": "Launcher/SDL2.dll",
+      "size": 1334272,
+      "sha256": "24cb7b791c05255fc35757542f307190d9668a072f1ddcb38eeb8cf8dfc7dc91"
+    },
+    {
+      "path": "Launcher/SDL2Binding.dll",
+      "size": 48640,
+      "sha256": "886da4124c5e46ca7cb82f3e53968c93127d28be12a12acc522cbe4003fc5af0"
+    },
+    {
+      "path": "Launcher/Shared.dll",
+      "size": 659968,
+      "sha256": "e24643217470ee8cf4161ff0cdf5429fdcbb7b5119a45897ebf66962011935b4"
+    },
+    {
+      "path": "Launcher/steam_api64.dll",
+      "size": 1118360,
+      "sha256": "8deb2594f99567bcc69d7b4ecdb7445b18314e650a732e02ce8e8e0363e92ccf"
+    },
+    {
+      "path": "Launcher/steam_api64.rne",
+      "size": 295336,
+      "sha256": "4df999c0c8cb12589f0864d52be5d4c775577aeb27fee28b49b188f9ba083eea"
+    },
+    {
+      "path": "Launcher/steam_emu.ini",
+      "size": 3335,
+      "sha256": "54bc0fe044263bcbea560b936d9d7274629e7c8e1fb1555b4a05c510409c41b9"
+    },
+    {
+      "path": "Launcher/Steamworks.NET.dll",
+      "size": 375296,
+      "sha256": "0ce08de8da688860d5f0826e3e299ec4d6e52848a68164dc2415788f392989a2"
+    },
+    {
+      "path": "Launcher/WpfAnimatedGif.dll",
+      "size": 43008,
+      "sha256": "091c944f2db95521f9190319173f17848d515da8f5a2374a0ab680406ba65914"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "_Bonus/Baldurs Gate 3 Toolkit.rar",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 153502171
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/BG3_Artbook_High_Res.pdf",
+          "file_offset": 0,
+          "chunk_offset": 153502171,
+          "length": 301586309
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/Character Sheets/LAR200714_BG3_Character_Sheets_Astarion_Single_Sheets_DIGITAL.pdf",
+          "file_offset": 0,
+          "chunk_offset": 455088480,
+          "length": 114375427
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/Character Sheets/LAR200714_BG3_Character_Sheets_Gale_Single_Sheets_DIGITAL.pdf",
+          "file_offset": 0,
+          "chunk_offset": 569463907,
+          "length": 114407101
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/Character Sheets/LAR200714_BG3_Character_Sheets_Karlach_Single_Sheets_DIGITAL.pdf",
+          "file_offset": 0,
+          "chunk_offset": 683871008,
+          "length": 114281273
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/Character Sheets/LAR200714_BG3_Character_Sheets_Lae'Zel_Single_Sheets_DIGITAL.pdf",
+          "file_offset": 0,
+          "chunk_offset": 798152281,
+          "length": 114437968
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/Character Sheets/LAR200714_BG3_Character_Sheets_Shadowheart_Single_Sheets_DIGITAL.pdf",
+          "file_offset": 0,
+          "chunk_offset": 912590249,
+          "length": 172036645
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/Character Sheets/LAR200714_BG3_Character_Sheets_Wyll_Single_Sheets_DIGITAL.pdf",
+          "file_offset": 0,
+          "chunk_offset": 1084626894,
+          "length": 114299162
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/01 Baldur's Gate 3 OST - Main Theme Part I.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1198926056,
+          "length": 6685364
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/02 Baldur's Gate 3 OST - Main Theme Part II.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1205611420,
+          "length": 5265348
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/03  Baldur's Gate 3 OST - Mind Flayer Theme.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1210876768,
+          "length": 9485691
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/04  Baldur's Gate 3 OST - Who Are You.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1220362459,
+          "length": 5867209
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/05 Baldur's Gate 3 OST - Nine Blades.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1226229668,
+          "length": 11583846
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/06 Baldur's Gate 3 OST - Quest For A Cure.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1237813514,
+          "length": 11362328
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/07 Baldur's Gate 3 OST - Lead Your Fights.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1249175842,
+          "length": 7860874
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/08  Baldur's Gate 3 OST - Harpy Song.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1257036716,
+          "length": 6183813
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/09 Baldur's Gate 3 OST - Weeping Dawn.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1263220529,
+          "length": 6720891
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/10 Baldur's Gate 3 OST - Cunning Cruel Crits.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1269941420,
+          "length": 6967487
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/11 Baldur's Gate 3 OST - The Cult Of The Absolute.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1276908907,
+          "length": 8918311
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/12 Baldur's Gate 3 OST - Sixteen Strikes.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1285827218,
+          "length": 10499242
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/13 Baldur's Gate 3 OST - The Colors Of Underdark.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1296326460,
+          "length": 8439748
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/14 Baldur's Gate 3 OST - Twisted Force.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1304766208,
+          "length": 5927813
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/15 Baldur's Gate 3 OST - Shadows, Curse And Death.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1310694021,
+          "length": 10827340
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/16 Baldur's Gate 3 OST - Last Light.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1321521361,
+          "length": 11894181
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/17 Baldur's Gate 3 OST - Old Time Battles - Part I.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1333415542,
+          "length": 7936107
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/18 Baldur's Gate 3 OST - I Want To Live (Instrumental version).mp3",
+          "file_offset": 0,
+          "chunk_offset": 1341351649,
+          "length": 11305903
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/19 Baldur's Gate 3 OST - Nightsong.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1352657552,
+          "length": 3119128
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/20 Baldur's Gate 3 OST -The Power  (Choral version).mp3",
+          "file_offset": 0,
+          "chunk_offset": 1355776680,
+          "length": 7385446
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/21 Baldur's Gate 3 OST - Old Time Battles (Bard version).mp3",
+          "file_offset": 0,
+          "chunk_offset": 1363162126,
+          "length": 4969642
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/22 Baldur's Gate 3 OST - The Power - (Orchestral version).mp3",
+          "file_offset": 0,
+          "chunk_offset": 1368131768,
+          "length": 11160662
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/23 Baldur's Gate 3 OST - A Threat From Nether Years.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1379292430,
+          "length": 6938230
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/24 Baldur's Gate 3 OST - Surgery Of A Hope.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1386230660,
+          "length": 12511715
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/25 Baldur's Gate 3 OST - Last Shelter.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1398742375,
+          "length": 6908972
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/26 Baldur's Gate 3 OST - The Odds Are Cast Anew.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1405651347,
+          "length": 9243274
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/27  Baldur's Gate 3 OST - Gather Your Allies!.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1414894621,
+          "length": 8785609
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/28 Baldur's Gate 3 OST -Dream Walk (Instrumental version).mp3",
+          "file_offset": 0,
+          "chunk_offset": 1423680230,
+          "length": 9460613
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/29 Baldur's Gate 3 OST - Bard Dance.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1433140843,
+          "length": 6887030
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/30 Baldur's Gate 3 OST - Lead Your Way.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1440027873,
+          "length": 8417805
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/31 Baldur's Gate 3 OST - Song Of Balduran.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1448445678,
+          "length": 7320662
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/32 Baldur's Gate 3 OST - The Legacy Of Bhaal.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1455766340,
+          "length": 7116907
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/33 Baldur's Gate 3 OST - Elder Brain.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1462883247,
+          "length": 9380156
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/34  Baldur's Gate 3 OST - Forging The Fate.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1472263403,
+          "length": 5343715
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/35 Baldur's Gate 3 OST - The Road To Baldur's Gate.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1477607118,
+          "length": 4046997
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/36 Baldur's Gate 3 OST - Raphael's Final Act.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1481654115,
+          "length": 6213070
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/37 Baldur's Gate 3 OST - The Grand Design (Requiem).mp3",
+          "file_offset": 0,
+          "chunk_offset": 1487867185,
+          "length": 15224270
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/38 Baldur's Gate 3 OST - Old Time Battles - Part II.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1503091455,
+          "length": 7897446
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/39  Baldur's Gate 3 OST - Down By The River.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1510988901,
+          "length": 5603895
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/40 Baldur's Gate 3 OST - I Want To Live (Classical version).mp3",
+          "file_offset": 0,
+          "chunk_offset": 1516592796,
+          "length": 9596450
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/41 Baldur's Gate 3 OST - Main Theme Part III.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1526189246,
+          "length": 6887030
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/42 Baldur's Gate 3 OST - I Want To Live.mp3",
+          "file_offset": 0,
+          "chunk_offset": 1533076276,
+          "length": 9334181
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/MP3 Format/43 Baldur's Gate 3 OST  - The Power (Credits Song).mp3",
+          "file_offset": 0,
+          "chunk_offset": 1542410457,
+          "length": 9244319
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/01 Baldur's Gate 3 OST - Main Theme Part I.wav",
+          "file_offset": 0,
+          "chunk_offset": 1551654776,
+          "length": 44203736
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/02 Baldur's Gate 3 OST - Main Theme Part II.wav",
+          "file_offset": 0,
+          "chunk_offset": 1595858512,
+          "length": 34812122
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/03  Baldur's Gate 3 OST - Mind Flayer Theme.wav",
+          "file_offset": 0,
+          "chunk_offset": 1630670634,
+          "length": 62726042
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/04  Baldur's Gate 3 OST - Who Are You.wav",
+          "file_offset": 0,
+          "chunk_offset": 1693396676,
+          "length": 38791706
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/05 Baldur's Gate 3 OST - Nine Blades.wav",
+          "file_offset": 0,
+          "chunk_offset": 1732188382,
+          "length": 76604150
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/06 Baldur's Gate 3 OST - Quest For A Cure.wav",
+          "file_offset": 0,
+          "chunk_offset": 1808792532,
+          "length": 75142172
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/07 Baldur's Gate 3 OST - Lead Your Fights.wav",
+          "file_offset": 0,
+          "chunk_offset": 1883934704,
+          "length": 51975352
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/08  Baldur's Gate 3 OST - Harpy Song.wav",
+          "file_offset": 0,
+          "chunk_offset": 1935910056,
+          "length": 15800143
+        }
+      ],
+      "sha256": "6471a392bc3b49f9dd627fb9ffb94cd3044ca950b72a277594b6d01fe448aef6"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/08  Baldur's Gate 3 OST - Harpy Song.wav",
+          "file_offset": 15800143,
+          "chunk_offset": 0,
+          "length": 25086213
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/09 Baldur's Gate 3 OST - Weeping Dawn.wav",
+          "file_offset": 0,
+          "chunk_offset": 25086213,
+          "length": 44436062
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/10 Baldur's Gate 3 OST - Cunning Cruel Crits.wav",
+          "file_offset": 0,
+          "chunk_offset": 69522275,
+          "length": 46071974
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/11 Baldur's Gate 3 OST - The Cult Of The Absolute.wav",
+          "file_offset": 0,
+          "chunk_offset": 115594249,
+          "length": 58976600
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/12 Baldur's Gate 3 OST - Sixteen Strikes.wav",
+          "file_offset": 0,
+          "chunk_offset": 174570849,
+          "length": 69429926
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/13 Baldur's Gate 3 OST - The Colors Of Underdark.wav",
+          "file_offset": 0,
+          "chunk_offset": 244000775,
+          "length": 37204730
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/14 Baldur's Gate 3 OST - Twisted Force.wav",
+          "file_offset": 0,
+          "chunk_offset": 281205505,
+          "length": 39191246
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/15 Baldur's Gate 3 OST - Shadows, Curse And Death.wav",
+          "file_offset": 0,
+          "chunk_offset": 320396751,
+          "length": 71601800
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/16 Baldur's Gate 3 OST - Last Light.wav",
+          "file_offset": 0,
+          "chunk_offset": 391998551,
+          "length": 78656036
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/17 Baldur's Gate 3 OST - Old Time Battles - Part I.wav",
+          "file_offset": 0,
+          "chunk_offset": 470654587,
+          "length": 52477034
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/18 Baldur's Gate 3 OST - I Want To Live (Instrumental version).wav",
+          "file_offset": 0,
+          "chunk_offset": 523131621,
+          "length": 74770208
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/19 Baldur's Gate 3 OST - Nightsong.wav",
+          "file_offset": 0,
+          "chunk_offset": 597901829,
+          "length": 20610996
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/20 Baldur's Gate 3 OST -The Power  (Choral version).wav",
+          "file_offset": 0,
+          "chunk_offset": 618512825,
+          "length": 48832286
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/21 Baldur's Gate 3 OST - Old Time Battles (Bard version).wav",
+          "file_offset": 0,
+          "chunk_offset": 667345111,
+          "length": 32852134
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/22 Baldur's Gate 3 OST - The Power - (Orchestral version).wav",
+          "file_offset": 0,
+          "chunk_offset": 700197245,
+          "length": 73809008
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/23 Baldur's Gate 3 OST - A Threat From Nether Years.wav",
+          "file_offset": 0,
+          "chunk_offset": 774006253,
+          "length": 45874628
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/24 Baldur's Gate 3 OST - Surgery Of A Hope.wav",
+          "file_offset": 0,
+          "chunk_offset": 819880881,
+          "length": 82743782
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/25 Baldur's Gate 3 OST - Last Shelter.wav",
+          "file_offset": 0,
+          "chunk_offset": 902624663,
+          "length": 45680396
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/26 Baldur's Gate 3 OST - The Odds Are Cast Anew.wav",
+          "file_offset": 0,
+          "chunk_offset": 948305059,
+          "length": 61121990
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/27  Baldur's Gate 3 OST - Gather Your Allies!.wav",
+          "file_offset": 0,
+          "chunk_offset": 1009427049,
+          "length": 58093712
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/28 Baldur's Gate 3 OST - Dream Walk (Instrumental version).wav",
+          "file_offset": 0,
+          "chunk_offset": 1067520761,
+          "length": 62561096
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/29 Baldur's Gate 3 OST - Bard Dance.wav",
+          "file_offset": 0,
+          "chunk_offset": 1130081857,
+          "length": 45533582
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/30 Baldur's Gate 3 OST - Lead Your Way.wav",
+          "file_offset": 0,
+          "chunk_offset": 1175615439,
+          "length": 55662416
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/31 Baldur's Gate 3 OST - Song Of Balduran.wav",
+          "file_offset": 0,
+          "chunk_offset": 1231277855,
+          "length": 48407942
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/32 Baldur's Gate 3 OST - The Legacy Of Bhaal.wav",
+          "file_offset": 0,
+          "chunk_offset": 1279685797,
+          "length": 47057690
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/33 Baldur's Gate 3 OST - Elder Brain.wav",
+          "file_offset": 0,
+          "chunk_offset": 1326743487,
+          "length": 62031368
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/34  Baldur's Gate 3 OST - Forging The Fate.wav",
+          "file_offset": 0,
+          "chunk_offset": 1388774855,
+          "length": 23549502
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/35 Baldur's Gate 3 OST - The Road To Baldur's Gate.wav",
+          "file_offset": 0,
+          "chunk_offset": 1412324357,
+          "length": 26751422
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/36 Baldur's Gate 3 OST - Raphael's Final Act.wav",
+          "file_offset": 0,
+          "chunk_offset": 1439075779,
+          "length": 41079680
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/37 Baldur's Gate 3 OST - The Grand Design (Requiem).wav",
+          "file_offset": 0,
+          "chunk_offset": 1480155459,
+          "length": 100683944
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/38 Baldur's Gate 3 OST - Old Time Battles - Part II.wav",
+          "file_offset": 0,
+          "chunk_offset": 1580839403,
+          "length": 52222550
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/39  Baldur's Gate 3 OST - Down By The River.wav",
+          "file_offset": 0,
+          "chunk_offset": 1633061953,
+          "length": 37045808
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/40 Baldur's Gate 3 OST - I Want To Live (Classical version).wav",
+          "file_offset": 0,
+          "chunk_offset": 1670107761,
+          "length": 63461750
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/41 Baldur's Gate 3 OST - Main Theme Part III.wav",
+          "file_offset": 0,
+          "chunk_offset": 1733569511,
+          "length": 45533582
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/42 Baldur's Gate 3 OST - I Want To Live.wav",
+          "file_offset": 0,
+          "chunk_offset": 1779103093,
+          "length": 61726382
+        },
+        {
+          "file": "_Bonus/Baldurs Gate 3/DigitalDeluxe/OST/WAV Format/43 Baldur's Gate 3 OST - The Power (Credits Song).wav",
+          "file_offset": 0,
+          "chunk_offset": 1840829475,
+          "length": 61130294
+        },
+        {
+          "file": "_Bonus/DLC Baldur's Gate 3 Toolkit Data.rar",
+          "file_offset": 0,
+          "chunk_offset": 1901959769,
+          "length": 49750430
+        }
+      ],
+      "sha256": "d8a8428465efc8ead97b0013847dc7cd6a14d2c2d2c0a34108e1e9388c207b4d"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "_Bonus/DLC Baldur's Gate 3 Toolkit Data.rar",
+          "file_offset": 49750430,
+          "chunk_offset": 0,
+          "length": 750686622
+        },
+        {
+          "file": "_CommonRedist/_redist_readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 750686622,
+          "length": 2038
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 750688660,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 751578076,
+          "length": 295320
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 751873396,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 752682892,
+          "length": 31533074
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 784215966,
+          "length": 7054848
+        },
+        {
+          "file": "bin/amd_ags_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 791270814,
+          "length": 42496
+        },
+        {
+          "file": "bin/bg3.exe",
+          "file_offset": 0,
+          "chunk_offset": 791313310,
+          "length": 107017792
+        },
+        {
+          "file": "bin/bg3_dx11.exe",
+          "file_offset": 0,
+          "chunk_offset": 898331102,
+          "length": 104363072
+        },
+        {
+          "file": "bin/bink2w64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1002694174,
+          "length": 411136
+        },
+        {
+          "file": "bin/CChromaEditorLibrary64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1003105310,
+          "length": 389120
+        },
+        {
+          "file": "bin/ChromaAppInfo.xml",
+          "file_offset": 0,
+          "chunk_offset": 1003494430,
+          "length": 486
+        },
+        {
+          "file": "bin/db/settings.dat",
+          "file_offset": 0,
+          "chunk_offset": 1003494916,
+          "length": 40
+        },
+        {
+          "file": "bin/discord_game_sdk.dll",
+          "file_offset": 0,
+          "chunk_offset": 1003494956,
+          "length": 3488768
+        },
+        {
+          "file": "bin/gold.2026-08-23T04-02-51-915402.log",
+          "file_offset": 0,
+          "chunk_offset": 1006983724,
+          "length": 2682
+        },
+        {
+          "file": "bin/gold.2026-08-23T04-17-13-399892.log",
+          "file_offset": 0,
+          "chunk_offset": 1006986406,
+          "length": 2287
+        },
+        {
+          "file": "bin/gold.2026-08-23T04-25-03-48893.log",
+          "file_offset": 0,
+          "chunk_offset": 1006988693,
+          "length": 1082
+        },
+        {
+          "file": "bin/libHttpClient.Win32.dll",
+          "file_offset": 0,
+          "chunk_offset": 1006989775,
+          "length": 274944
+        },
+        {
+          "file": "bin/libxess.dll",
+          "file_offset": 0,
+          "chunk_offset": 1007264719,
+          "length": 77771112
+        },
+        {
+          "file": "bin/libxess_dx11.dll",
+          "file_offset": 0,
+          "chunk_offset": 1085035831,
+          "length": 147816
+        },
+        {
+          "file": "bin/network.2026-08-23T04-02-51-914990.log",
+          "file_offset": 0,
+          "chunk_offset": 1085183647,
+          "length": 4214
+        },
+        {
+          "file": "bin/network.2026-08-23T04-17-13-399458.log",
+          "file_offset": 0,
+          "chunk_offset": 1085187861,
+          "length": 4214
+        },
+        {
+          "file": "bin/network.2026-08-23T04-25-03-48578.log",
+          "file_offset": 0,
+          "chunk_offset": 1085192075,
+          "length": 4214
+        },
+        {
+          "file": "bin/nvngx_dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 1085196289,
+          "length": 14814464
+        },
+        {
+          "file": "bin/Osiris.dll",
+          "file_offset": 0,
+          "chunk_offset": 1100010753,
+          "length": 567808
+        },
+        {
+          "file": "bin/PartyWin.dll",
+          "file_offset": 0,
+          "chunk_offset": 1100578561,
+          "length": 3912224
+        },
+        {
+          "file": "bin/PlayFabCore.Win32.dll",
+          "file_offset": 0,
+          "chunk_offset": 1104490785,
+          "length": 965632
+        },
+        {
+          "file": "bin/PlayFabServices.Win32.dll",
+          "file_offset": 0,
+          "chunk_offset": 1105456417,
+          "length": 3679744
+        },
+        {
+          "file": "bin/SDL2.dll",
+          "file_offset": 0,
+          "chunk_offset": 1109136161,
+          "length": 1554432
+        },
+        {
+          "file": "bin/steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1110690593,
+          "length": 1118360
+        },
+        {
+          "file": "bin/steam_api64.rne",
+          "file_offset": 0,
+          "chunk_offset": 1111808953,
+          "length": 298856
+        },
+        {
+          "file": "bin/steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 1112107809,
+          "length": 3339
+        },
+        {
+          "file": "Data/Assets.pak",
+          "file_offset": 0,
+          "chunk_offset": 1112111148,
+          "length": 115417194
+        },
+        {
+          "file": "Data/DiceSet01.pak",
+          "file_offset": 0,
+          "chunk_offset": 1227528342,
+          "length": 17969592
+        },
+        {
+          "file": "Data/DiceSet02.pak",
+          "file_offset": 0,
+          "chunk_offset": 1245497934,
+          "length": 19348794
+        },
+        {
+          "file": "Data/DiceSet03.pak",
+          "file_offset": 0,
+          "chunk_offset": 1264846728,
+          "length": 17514043
+        },
+        {
+          "file": "Data/DiceSet06.pak",
+          "file_offset": 0,
+          "chunk_offset": 1282360771,
+          "length": 12982662
+        },
+        {
+          "file": "Data/Effects.pak",
+          "file_offset": 0,
+          "chunk_offset": 1295343433,
+          "length": 438864541
+        },
+        {
+          "file": "Data/Engine.pak",
+          "file_offset": 0,
+          "chunk_offset": 1734207974,
+          "length": 7039827
+        },
+        {
+          "file": "Data/EngineShaders.pak",
+          "file_offset": 0,
+          "chunk_offset": 1741247801,
+          "length": 30332659
+        },
+        {
+          "file": "Data/Game.pak",
+          "file_offset": 0,
+          "chunk_offset": 1771580460,
+          "length": 180129739
+        }
+      ],
+      "sha256": "e307e42d86d1829291775298e39c32f59e4940ae9e73c404f88bb4dd2bbef7dc"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Game.pak",
+          "file_offset": 180129739,
+          "chunk_offset": 0,
+          "length": 936469244
+        },
+        {
+          "file": "Data/GamePlatform.pak",
+          "file_offset": 0,
+          "chunk_offset": 936469244,
+          "length": 81157
+        },
+        {
+          "file": "Data/Gustav.pak",
+          "file_offset": 0,
+          "chunk_offset": 936550401,
+          "length": 1015159798
+        }
+      ],
+      "sha256": "f97173977f3f9695cb321efc2d99e45b25bdbb54126b7415f3c62ef2f634c9c6"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Gustav.pak",
+          "file_offset": 1015159798,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "0c1d594394e9781761aad3d2f530e70161af51828a83e5dcb865ba58aff2f254"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Gustav.pak",
+          "file_offset": 2966869997,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "26a24a987b244db581737767534cdfc1257496cc7b2d88a4de483b7098c585bf"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Gustav.pak",
+          "file_offset": 4918580196,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "eabeba548f33efda050e0fc97087b35db03742688a560438bd93d88d0da98711"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Gustav.pak",
+          "file_offset": 6870290395,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "1c38f67183798e66fa985c671d46c6fa012075be300211099b86d88c72c97017"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Gustav.pak",
+          "file_offset": 8822000594,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "2719e5deba71d9a47dc31ab26c134bf74d9a9c83692104e0fd235d1050103c5d"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Gustav.pak",
+          "file_offset": 10773710793,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "7961c9de191d98a16aafe9c01d6ffc8f02f96499330e43f77e51896bfecbc8dd"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Gustav.pak",
+          "file_offset": 12725420992,
+          "chunk_offset": 0,
+          "length": 461332336
+        },
+        {
+          "file": "Data/Gustav_NavCloud.pak",
+          "file_offset": 0,
+          "chunk_offset": 461332336,
+          "length": 95851455
+        },
+        {
+          "file": "Data/Gustav_Textures.pak",
+          "file_offset": 0,
+          "chunk_offset": 557183791,
+          "length": 888878399
+        },
+        {
+          "file": "Data/Gustav_Video.pak",
+          "file_offset": 0,
+          "chunk_offset": 1446062190,
+          "length": 505648009
+        }
+      ],
+      "sha256": "ac737de2f9ca3f40b4ec7837d915f505b10c858b8f4bc2dcd1e11100e8dcc2df"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Gustav_Video.pak",
+          "file_offset": 505648009,
+          "chunk_offset": 0,
+          "length": 1212705523
+        },
+        {
+          "file": "Data/GustavX.pak",
+          "file_offset": 0,
+          "chunk_offset": 1212705523,
+          "length": 185129297
+        },
+        {
+          "file": "Data/Icons.pak",
+          "file_offset": 0,
+          "chunk_offset": 1397834820,
+          "length": 26884871
+        },
+        {
+          "file": "Data/Localization/English.pak",
+          "file_offset": 0,
+          "chunk_offset": 1424719691,
+          "length": 14304030
+        },
+        {
+          "file": "Data/Localization/English_Animations.pak",
+          "file_offset": 0,
+          "chunk_offset": 1439023721,
+          "length": 512686478
+        }
+      ],
+      "sha256": "e3200513b0b7abec5ae6b1b18749e1b5d843ee8a1e49d549a2f64cbf7a7cbf2c"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Localization/English_Animations.pak",
+          "file_offset": 512686478,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "9bca38cb38e72b3f0d08ad705ac5119f9818b34e915185625fbb8b95525c6322"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Localization/English_Animations.pak",
+          "file_offset": 2464396677,
+          "chunk_offset": 0,
+          "length": 1481685044
+        },
+        {
+          "file": "Data/Localization/language.lsx",
+          "file_offset": 0,
+          "chunk_offset": 1481685044,
+          "length": 573
+        },
+        {
+          "file": "Data/Localization/Voice.pak",
+          "file_offset": 0,
+          "chunk_offset": 1481685617,
+          "length": 470024582
+        }
+      ],
+      "sha256": "092d77d757425a1e0cca49e1541961c5fd54144dc0c9cb4303de105825c78960"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Localization/Voice.pak",
+          "file_offset": 470024582,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "0edd73ebec9f94bd9cd2eb87b6179e56aa5caec6a6b23df8df1e6d56ca9e42c9"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Localization/Voice.pak",
+          "file_offset": 2421734781,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "632e975e80a2f71427d0890b6e3180c0fd809874a308b20612c5361c52bde49d"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Localization/Voice.pak",
+          "file_offset": 4373444980,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "f621456f1c4914cfa9fa8fb743dee3a53ad38485a41d72b36b073e546eb92af9"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Localization/Voice.pak",
+          "file_offset": 6325155179,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "97a976415782daede9f2528c00447b4673f5983de18f4926ca74c2e2baf0c2d8"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Localization/Voice.pak",
+          "file_offset": 8276865378,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "2364060716dd15c04753a869c54eed5c04d74f7292a4ae727235812c54886089"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Localization/Voice.pak",
+          "file_offset": 10228575577,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "bc74b8eb7a6f2c4ed29ef45af4649c55ed18153998d9d1a1a6862d3fea84f634"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Localization/Voice.pak",
+          "file_offset": 12180285776,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "57b77485eadb99708f7eaae15373d8a5d4a82e6377667ca02fb2fb71d744fe5f"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Localization/Voice.pak",
+          "file_offset": 14131995975,
+          "chunk_offset": 0,
+          "length": 865418410
+        },
+        {
+          "file": "Data/Localization/VoiceMeta.pak",
+          "file_offset": 0,
+          "chunk_offset": 865418410,
+          "length": 47948463
+        },
+        {
+          "file": "Data/LowTex.pak",
+          "file_offset": 0,
+          "chunk_offset": 913366873,
+          "length": 34457940
+        },
+        {
+          "file": "Data/Materials.pak",
+          "file_offset": 0,
+          "chunk_offset": 947824813,
+          "length": 364770186
+        },
+        {
+          "file": "Data/Models.pak",
+          "file_offset": 0,
+          "chunk_offset": 1312594999,
+          "length": 639115200
+        }
+      ],
+      "sha256": "7215587903f877a4f268d570a83b2fb089ffa0994b695254dd6a9a3e5e9d7cda"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Models.pak",
+          "file_offset": 639115200,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "76260a0a27ff361c6f5e415c864d75d0caf049a050eac7ca20dd5b12a953b736"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Models.pak",
+          "file_offset": 2590825399,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "34e4a6aebe55ac3cc1acb3a2ed070c4ef87a2f7c37770d34a0474d6ceacbbceb"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Models.pak",
+          "file_offset": 4542535598,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "038d613b5df73c05d069cc4a223f803e804b83a35a77d676de584ce28dd97424"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Models.pak",
+          "file_offset": 6494245797,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "e007ab50a039a27d07a828d0426ae72360f30a21e3e6796a0e35b6bafccd2f34"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Models.pak",
+          "file_offset": 8445955996,
+          "chunk_offset": 0,
+          "length": 483677872
+        },
+        {
+          "file": "Data/Patch8_HotFix9.pak",
+          "file_offset": 0,
+          "chunk_offset": 483677872,
+          "length": 136753912
+        },
+        {
+          "file": "Data/PsoCache.pak",
+          "file_offset": 0,
+          "chunk_offset": 620431784,
+          "length": 258656
+        },
+        {
+          "file": "Data/Shared.pak",
+          "file_offset": 0,
+          "chunk_offset": 620690440,
+          "length": 162779988
+        },
+        {
+          "file": "Data/SharedSoundBanks.pak",
+          "file_offset": 0,
+          "chunk_offset": 783470428,
+          "length": 43505432
+        },
+        {
+          "file": "Data/SharedSounds.pak",
+          "file_offset": 0,
+          "chunk_offset": 826975860,
+          "length": 1124734339
+        }
+      ],
+      "sha256": "3d97610105dd7bd730d7015a9137df3698a1a67471da411cdf03a53f707fbe86"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/SharedSounds.pak",
+          "file_offset": 1124734339,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "44b9fb4c93a4f3415ec9198a1bb7465b609d33bf412cff5a6781a6051ec47b4a"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/SharedSounds.pak",
+          "file_offset": 3076444538,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "2d36f29fba08932fb3d86177c88756d2157e061cab6d6bda92abf3fdbdad9a20"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/SharedSounds.pak",
+          "file_offset": 5028154737,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "2975fd7374366c669a06650278d9390c917e1f1ae044214b51ef825280b10a90"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/SharedSounds.pak",
+          "file_offset": 6979864936,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "438b9f947d389ae3011805ee36ee002776cacf0db7fd853e83e7a75dec12dbf5"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/SharedSounds.pak",
+          "file_offset": 8931575135,
+          "chunk_offset": 0,
+          "length": 1927979426
+        },
+        {
+          "file": "Data/Textures.pak",
+          "file_offset": 0,
+          "chunk_offset": 1927979426,
+          "length": 23730773
+        }
+      ],
+      "sha256": "d199684756795a9bfcde901d79748cd030daa779022fa51c7b30f7c0a4f82fb5"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Textures.pak",
+          "file_offset": 23730773,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "bc4eeaade4923a714054645fc68ded89132ddeb56c13400cd0d27727ae8ce9d8"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Textures.pak",
+          "file_offset": 1975440972,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "0efed65b6595865fc2b926f2e9f4aea1daa2dd6612cc2224be11ed0a9f171bb0"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Textures.pak",
+          "file_offset": 3927151171,
+          "chunk_offset": 0,
+          "length": 365883285
+        },
+        {
+          "file": "Data/Textures_1.pak",
+          "file_offset": 0,
+          "chunk_offset": 365883285,
+          "length": 1585826914
+        }
+      ],
+      "sha256": "21f5a490d7795c087148bad0a5143d715f0fa1477a935144816b4084a2146667"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Textures_1.pak",
+          "file_offset": 1585826914,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "dfc8c31ea8c89afaf1697ae8820947c85f00d47668a4bbf980adf389cd2b3ec0"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Textures_1.pak",
+          "file_offset": 3537537113,
+          "chunk_offset": 0,
+          "length": 757268583
+        },
+        {
+          "file": "Data/Textures_2.pak",
+          "file_offset": 0,
+          "chunk_offset": 757268583,
+          "length": 1194441616
+        }
+      ],
+      "sha256": "ad278148640fbd1360d0f78553cd7125531bcf1f1f14ce539fe3d41b44707ad4"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Textures_2.pak",
+          "file_offset": 1194441616,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "f5c9bd5b9054dc91e4c62733b3a7a196a79b6918d3fa54b3f499d6b24ffaabdb"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/Textures_2.pak",
+          "file_offset": 3146151815,
+          "chunk_offset": 0,
+          "length": 1134024569
+        },
+        {
+          "file": "Data/Textures_3.pak",
+          "file_offset": 0,
+          "chunk_offset": 1134024569,
+          "length": 27356224
+        },
+        {
+          "file": "Data/VirtualTextures.pak",
+          "file_offset": 0,
+          "chunk_offset": 1161380793,
+          "length": 790329406
+        }
+      ],
+      "sha256": "8773339d6ce9e90a8d170bebb33a59f002211a5f4ae08a212ec40ea6315dd84e"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures.pak",
+          "file_offset": 790329406,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "e0cc4cc95c05ff92ed0ae142828b5f52cafeccf2328275c5e701d08eba873d28"
+    },
+    {
+      "name": "chunk-000041.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures.pak",
+          "file_offset": 2742039605,
+          "chunk_offset": 0,
+          "length": 1550460970
+        },
+        {
+          "file": "Data/VirtualTextures_1.pak",
+          "file_offset": 0,
+          "chunk_offset": 1550460970,
+          "length": 401249229
+        }
+      ],
+      "sha256": "354397816adde68d8e5fb5cb1fc47d77218be17166aabbec3737432750cd3542"
+    },
+    {
+      "name": "chunk-000042.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_1.pak",
+          "file_offset": 401249229,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "2dbed22a4e3994e5f814b3669542e27980a53c10616c7e48e5ebe892aa040c39"
+    },
+    {
+      "name": "chunk-000043.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_1.pak",
+          "file_offset": 2352959428,
+          "chunk_offset": 0,
+          "length": 1939910716
+        },
+        {
+          "file": "Data/VirtualTextures_10.pak",
+          "file_offset": 0,
+          "chunk_offset": 1939910716,
+          "length": 11799483
+        }
+      ],
+      "sha256": "d01f87aba8ca77e2fce142081eac27f3e9d6437c3f8ecbdb8908e86e1726376f"
+    },
+    {
+      "name": "chunk-000044.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_10.pak",
+          "file_offset": 11799483,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "3deda31a79e4aa993665cab1327d4ec3601912613e33ca21e0f0aa88a4f4dfce"
+    },
+    {
+      "name": "chunk-000045.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_10.pak",
+          "file_offset": 1963509682,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "a3e8f0de23b509dc0ea8636eef33385b4b070b40ff6cc844b8c6e4e1649ad413"
+    },
+    {
+      "name": "chunk-000046.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_10.pak",
+          "file_offset": 3915219881,
+          "chunk_offset": 0,
+          "length": 373455959
+        },
+        {
+          "file": "Data/VirtualTextures_11.pak",
+          "file_offset": 0,
+          "chunk_offset": 373455959,
+          "length": 1578254240
+        }
+      ],
+      "sha256": "df42dce0270060e672973090181922216daa97e1dada51a92f2aa62356b588a2"
+    },
+    {
+      "name": "chunk-000047.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_11.pak",
+          "file_offset": 1578254240,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "767e8faed60a5b4304c134ac3f1d151d6906bbc90928332efa0a4c23ff5d4d6c"
+    },
+    {
+      "name": "chunk-000048.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_11.pak",
+          "file_offset": 3529964439,
+          "chunk_offset": 0,
+          "length": 762905705
+        },
+        {
+          "file": "Data/VirtualTextures_12.pak",
+          "file_offset": 0,
+          "chunk_offset": 762905705,
+          "length": 1188804494
+        }
+      ],
+      "sha256": "d93159e9ac2e1e77bfefbc2cf0948651003729652b107ac621a0e49689fff932"
+    },
+    {
+      "name": "chunk-000049.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_12.pak",
+          "file_offset": 1188804494,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "f3ab30251a00fe9651eaa1c9effa1b216bcbc52384659d2fbe14e104a00ac529"
+    },
+    {
+      "name": "chunk-000050.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_12.pak",
+          "file_offset": 3140514693,
+          "chunk_offset": 0,
+          "length": 1152355451
+        },
+        {
+          "file": "Data/VirtualTextures_13.pak",
+          "file_offset": 0,
+          "chunk_offset": 1152355451,
+          "length": 799354748
+        }
+      ],
+      "sha256": "ff293033a28cda960afab14590982df16f4a9f8041ac27255860aa1387b75f1d"
+    },
+    {
+      "name": "chunk-000051.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_13.pak",
+          "file_offset": 799354748,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "c2d3f43e5cb5e80c66c0f8844acc29a614f638adb478239b8a62b314d20e6eba"
+    },
+    {
+      "name": "chunk-000052.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_13.pak",
+          "file_offset": 2751064947,
+          "chunk_offset": 0,
+          "length": 1540756621
+        },
+        {
+          "file": "Data/VirtualTextures_14.pak",
+          "file_offset": 0,
+          "chunk_offset": 1540756621,
+          "length": 410953578
+        }
+      ],
+      "sha256": "3fc8c94eb859a9014d3886f2c7b86200546b77aea29eb32a59c281262ba8c0f2"
+    },
+    {
+      "name": "chunk-000053.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_14.pak",
+          "file_offset": 410953578,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "518024beb52dfbe5a1d5e8f039a7105e39a1538d6f9b3c2b545e90108c40221a"
+    },
+    {
+      "name": "chunk-000054.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_14.pak",
+          "file_offset": 2362663777,
+          "chunk_offset": 0,
+          "length": 1929157791
+        },
+        {
+          "file": "Data/VirtualTextures_15.pak",
+          "file_offset": 0,
+          "chunk_offset": 1929157791,
+          "length": 22552408
+        }
+      ],
+      "sha256": "5d1c3a26e276b4e885f00ea18b0d1712e8500935da0c7e275613528df23b5c1c"
+    },
+    {
+      "name": "chunk-000055.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_15.pak",
+          "file_offset": 22552408,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "db7890d5092a1f215dd36d067b90eb1d2fad1163ff61bdb23eca4559a0ab51b6"
+    },
+    {
+      "name": "chunk-000056.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_15.pak",
+          "file_offset": 1974262607,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "82991c2d8d72f683a4128965bc3d68c802b810d33261abca6836854a041c1bc6"
+    },
+    {
+      "name": "chunk-000057.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_15.pak",
+          "file_offset": 3925972806,
+          "chunk_offset": 0,
+          "length": 367945914
+        },
+        {
+          "file": "Data/VirtualTextures_16.pak",
+          "file_offset": 0,
+          "chunk_offset": 367945914,
+          "length": 1583764285
+        }
+      ],
+      "sha256": "7e0acef38fc9cc2d236555984c3c60878b5f0d39a4e2c71b31b7954fcd5cce05"
+    },
+    {
+      "name": "chunk-000058.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_16.pak",
+          "file_offset": 1583764285,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "5597fb0512055a9f48a40533d44e4dafdfb3cd4d7b83e08e5de590aa9b99eec0"
+    },
+    {
+      "name": "chunk-000059.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_16.pak",
+          "file_offset": 3535474484,
+          "chunk_offset": 0,
+          "length": 733278412
+        },
+        {
+          "file": "Data/VirtualTextures_17.pak",
+          "file_offset": 0,
+          "chunk_offset": 733278412,
+          "length": 1218431787
+        }
+      ],
+      "sha256": "c1602126f72276e017c7f7686db251623b1c0eab568e23a0f2c5a62f1cbab2bf"
+    },
+    {
+      "name": "chunk-000060.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_17.pak",
+          "file_offset": 1218431787,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "fa849aa54b70716500fe912088da6da47e91e8967237b24a8230a64c14229f5b"
+    },
+    {
+      "name": "chunk-000061.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_17.pak",
+          "file_offset": 3170141986,
+          "chunk_offset": 0,
+          "length": 1122728158
+        },
+        {
+          "file": "Data/VirtualTextures_18.pak",
+          "file_offset": 0,
+          "chunk_offset": 1122728158,
+          "length": 828982041
+        }
+      ],
+      "sha256": "dc26e3378fdaeb61bfbd321af67018e2aebaa177b641367ab2bfa875e7356cf4"
+    },
+    {
+      "name": "chunk-000062.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_18.pak",
+          "file_offset": 828982041,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "e67b738d261bc27c2898cd6240b89c14a4588962e0b5ff42371610566bafc8f4"
+    },
+    {
+      "name": "chunk-000063.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_18.pak",
+          "file_offset": 2780692240,
+          "chunk_offset": 0,
+          "length": 1502740720
+        },
+        {
+          "file": "Data/VirtualTextures_19.pak",
+          "file_offset": 0,
+          "chunk_offset": 1502740720,
+          "length": 448969479
+        }
+      ],
+      "sha256": "5d5121be87ef5b8a5f52844bbb4b3162211a9e05e0a12ad4d059fe34bd25ec32"
+    },
+    {
+      "name": "chunk-000064.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_19.pak",
+          "file_offset": 448969479,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "8c454f78cb10f0521a8c2b0e15ffdaad51f2185205034236ec2dc2468acf7a77"
+    },
+    {
+      "name": "chunk-000065.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_19.pak",
+          "file_offset": 2400679678,
+          "chunk_offset": 0,
+          "length": 493390082
+        },
+        {
+          "file": "Data/VirtualTextures_2.pak",
+          "file_offset": 0,
+          "chunk_offset": 493390082,
+          "length": 1458320117
+        }
+      ],
+      "sha256": "787d97df34f3688457ee496b22d1007b284287c627416d64ac16c89b0525b455"
+    },
+    {
+      "name": "chunk-000066.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_2.pak",
+          "file_offset": 1458320117,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "8714f7e7eb8eb22358db71631ae1f6d315c3f6d6699a08ca01f833f4882d1fe8"
+    },
+    {
+      "name": "chunk-000067.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_2.pak",
+          "file_offset": 3410030316,
+          "chunk_offset": 0,
+          "length": 877596948
+        },
+        {
+          "file": "Data/VirtualTextures_3.pak",
+          "file_offset": 0,
+          "chunk_offset": 877596948,
+          "length": 1074113251
+        }
+      ],
+      "sha256": "27626c8a45f1722af8fbca5b08012d8d8dd652c848251da83254b6ba9d1875a4"
+    },
+    {
+      "name": "chunk-000068.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_3.pak",
+          "file_offset": 1074113251,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "5d346334a32ac626b49eb7fe263b69d070266ddaadb37fcee5be193530374938"
+    },
+    {
+      "name": "chunk-000069.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_3.pak",
+          "file_offset": 3025823450,
+          "chunk_offset": 0,
+          "length": 1257609510
+        },
+        {
+          "file": "Data/VirtualTextures_4.pak",
+          "file_offset": 0,
+          "chunk_offset": 1257609510,
+          "length": 694100689
+        }
+      ],
+      "sha256": "0f2256ca886ad2ee6d820229acefe12587b16167da89d1cbb7e80862a987eda7"
+    },
+    {
+      "name": "chunk-000070.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_4.pak",
+          "file_offset": 694100689,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "9aebf41c857891147335a59be70008a80b4d01633fb10ccab14a38a6d1cfa5aa"
+    },
+    {
+      "name": "chunk-000071.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_4.pak",
+          "file_offset": 2645810888,
+          "chunk_offset": 0,
+          "length": 1635524920
+        },
+        {
+          "file": "Data/VirtualTextures_5.pak",
+          "file_offset": 0,
+          "chunk_offset": 1635524920,
+          "length": 316185279
+        }
+      ],
+      "sha256": "6b1a91862806be7ffd33f7adb0c74794a54e43a66ad8c930504385f98e0a3602"
+    },
+    {
+      "name": "chunk-000072.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_5.pak",
+          "file_offset": 316185279,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "bc438374a22f23b99b86742640a399ca23644ee7612ff47f1d8eccc72205cf96"
+    },
+    {
+      "name": "chunk-000073.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_5.pak",
+          "file_offset": 2267895478,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "07d15d42dd5c44ff4b6e8a72b4898d7e288923ce4ea6ac83e309c8e18ca28350"
+    },
+    {
+      "name": "chunk-000074.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_5.pak",
+          "file_offset": 4219605677,
+          "chunk_offset": 0,
+          "length": 62778707
+        },
+        {
+          "file": "Data/VirtualTextures_6.pak",
+          "file_offset": 0,
+          "chunk_offset": 62778707,
+          "length": 1888931492
+        }
+      ],
+      "sha256": "c98351a2e3f490660426bfdc550cecc9002429decc74d7e34c374ac9a4599753"
+    },
+    {
+      "name": "chunk-000075.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_6.pak",
+          "file_offset": 1888931492,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "9bdc3ba0d75ee400866244df637b47d540dadaca29344da32dfd669f00c88533"
+    },
+    {
+      "name": "chunk-000076.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_6.pak",
+          "file_offset": 3840641691,
+          "chunk_offset": 0,
+          "length": 446985573
+        },
+        {
+          "file": "Data/VirtualTextures_7.pak",
+          "file_offset": 0,
+          "chunk_offset": 446985573,
+          "length": 1504724626
+        }
+      ],
+      "sha256": "5c5dbb48e061a34621635152f29f82c5a6936d1be3a6ad6bb12fe2c3a6a12b86"
+    },
+    {
+      "name": "chunk-000077.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_7.pak",
+          "file_offset": 1504724626,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "63f1e2801e9da75dfe21e8127a2e70441dea9f8178338d13cee87d6a4dbd419c"
+    },
+    {
+      "name": "chunk-000078.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_7.pak",
+          "file_offset": 3456434825,
+          "chunk_offset": 0,
+          "length": 739966327
+        },
+        {
+          "file": "Data/VirtualTextures_8.pak",
+          "file_offset": 0,
+          "chunk_offset": 739966327,
+          "length": 1211743872
+        }
+      ],
+      "sha256": "ade7c8b8316fea65c714d502b40bbf43982e41ecc22a997c0f066a32edb544a5"
+    },
+    {
+      "name": "chunk-000079.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_8.pak",
+          "file_offset": 1211743872,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "9cc02171524ce5ec2905bde89b3cd65df2de1ceaeda5ffcd79def4aa9ef934b0"
+    },
+    {
+      "name": "chunk-000080.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_8.pak",
+          "file_offset": 3163454071,
+          "chunk_offset": 0,
+          "length": 1130464649
+        },
+        {
+          "file": "Data/VirtualTextures_9.pak",
+          "file_offset": 0,
+          "chunk_offset": 1130464649,
+          "length": 821245550
+        }
+      ],
+      "sha256": "53ac7849d277ddf44552aaf1300720695b3fd4fc57dee55c116306d3a2d4ca9c"
+    },
+    {
+      "name": "chunk-000081.bin",
+      "size": 1951710199,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_9.pak",
+          "file_offset": 821245550,
+          "chunk_offset": 0,
+          "length": 1951710199
+        }
+      ],
+      "sha256": "c59fc26684413842804e7b7b51bd28ac0ee80acca9b857687b8925574c01fb08"
+    },
+    {
+      "name": "chunk-000082.bin",
+      "size": 1951710197,
+      "segments": [
+        {
+          "file": "Data/VirtualTextures_9.pak",
+          "file_offset": 2772955749,
+          "chunk_offset": 0,
+          "length": 1505234331
+        },
+        {
+          "file": "DotNetCore/windowsdesktop-runtime-6.0.11-win-x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1505234331,
+          "length": 57217584
+        },
+        {
+          "file": "InstallScript.vdf",
+          "file_offset": 0,
+          "chunk_offset": 1562451915,
+          "length": 579
+        },
+        {
+          "file": "Launcher/Backtrace.dll",
+          "file_offset": 0,
+          "chunk_offset": 1562452494,
+          "length": 74752
+        },
+        {
+          "file": "Launcher/CefSharp.Wpf.dll",
+          "file_offset": 0,
+          "chunk_offset": 1562527246,
+          "length": 217088
+        },
+        {
+          "file": "Launcher/CrashReporter.deps.json",
+          "file_offset": 0,
+          "chunk_offset": 1562744334,
+          "length": 4935
+        },
+        {
+          "file": "Launcher/CrashReporter.dll",
+          "file_offset": 0,
+          "chunk_offset": 1562749269,
+          "length": 543744
+        },
+        {
+          "file": "Launcher/CrashReporter.exe",
+          "file_offset": 0,
+          "chunk_offset": 1563293013,
+          "length": 532032
+        },
+        {
+          "file": "Launcher/CrashReporter.runtimeconfig.json",
+          "file_offset": 0,
+          "chunk_offset": 1563825045,
+          "length": 372
+        },
+        {
+          "file": "Launcher/DbgHelper.dll",
+          "file_offset": 0,
+          "chunk_offset": 1563825417,
+          "length": 56320
+        },
+        {
+          "file": "Launcher/DriverVersionChecker.exe",
+          "file_offset": 0,
+          "chunk_offset": 1563881737,
+          "length": 27200
+        },
+        {
+          "file": "Launcher/LariLauncher.deps.json",
+          "file_offset": 0,
+          "chunk_offset": 1563908937,
+          "length": 14585
+        },
+        {
+          "file": "Launcher/LariLauncher.dll",
+          "file_offset": 0,
+          "chunk_offset": 1563923522,
+          "length": 5743616
+        },
+        {
+          "file": "Launcher/LariLauncher.exe",
+          "file_offset": 0,
+          "chunk_offset": 1569667138,
+          "length": 534080
+        },
+        {
+          "file": "Launcher/LariLauncher.runtimeconfig.json",
+          "file_offset": 0,
+          "chunk_offset": 1570201218,
+          "length": 372
+        },
+        {
+          "file": "Launcher/launcher.cfg",
+          "file_offset": 0,
+          "chunk_offset": 1570201590,
+          "length": 129
+        },
+        {
+          "file": "Launcher/LayersChecker.exe",
+          "file_offset": 0,
+          "chunk_offset": 1570201719,
+          "length": 26112
+        },
+        {
+          "file": "Launcher/locales/de.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570227831,
+          "length": 5198
+        },
+        {
+          "file": "Launcher/locales/en.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570233029,
+          "length": 4527
+        },
+        {
+          "file": "Launcher/locales/es-419.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570237556,
+          "length": 5222
+        },
+        {
+          "file": "Launcher/locales/es.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570242778,
+          "length": 5261
+        },
+        {
+          "file": "Launcher/locales/fr.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570248039,
+          "length": 5532
+        },
+        {
+          "file": "Launcher/locales/it.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570253571,
+          "length": 5100
+        },
+        {
+          "file": "Launcher/locales/ja.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570258671,
+          "length": 5772
+        },
+        {
+          "file": "Launcher/locales/ko.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570264443,
+          "length": 5336
+        },
+        {
+          "file": "Launcher/locales/pl.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570269779,
+          "length": 5039
+        },
+        {
+          "file": "Launcher/locales/pt-br.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570274818,
+          "length": 4911
+        },
+        {
+          "file": "Launcher/locales/ru.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570279729,
+          "length": 7589
+        },
+        {
+          "file": "Launcher/locales/tr.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570287318,
+          "length": 4904
+        },
+        {
+          "file": "Launcher/locales/uk.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570292222,
+          "length": 7368
+        },
+        {
+          "file": "Launcher/locales/zh-Hans.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570299590,
+          "length": 4514
+        },
+        {
+          "file": "Launcher/locales/zh-Hant.csv",
+          "file_offset": 0,
+          "chunk_offset": 1570304104,
+          "length": 4525
+        },
+        {
+          "file": "Launcher/Newtonsoft.Json.dll",
+          "file_offset": 0,
+          "chunk_offset": 1570308629,
+          "length": 712464
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/lib/netcoreapp3.1/CefSharp.Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 1571021093,
+          "length": 1094144
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/lib/netcoreapp3.1/CefSharp.Core.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 1572115237,
+          "length": 1637376
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/lib/netcoreapp3.1/CefSharp.dll",
+          "file_offset": 0,
+          "chunk_offset": 1573752613,
+          "length": 605696
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/lib/netcoreapp3.1/Ijwhost.dll",
+          "file_offset": 0,
+          "chunk_offset": 1574358309,
+          "length": 144800
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/CefSharp.BrowserSubprocess.Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 1574503109,
+          "length": 1131520
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/CefSharp.BrowserSubprocess.dll",
+          "file_offset": 0,
+          "chunk_offset": 1575634629,
+          "length": 13824
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/CefSharp.BrowserSubprocess.exe",
+          "file_offset": 0,
+          "chunk_offset": 1575648453,
+          "length": 126976
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/CefSharp.BrowserSubprocess.runtimeconfig.json",
+          "file_offset": 0,
+          "chunk_offset": 1575775429,
+          "length": 176
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/CefSharp.dll",
+          "file_offset": 0,
+          "chunk_offset": 1575775605,
+          "length": 605696
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/Ijwhost.dll",
+          "file_offset": 0,
+          "chunk_offset": 1576381301,
+          "length": 144800
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/af.pak",
+          "file_offset": 0,
+          "chunk_offset": 1576526101,
+          "length": 465205
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/am.pak",
+          "file_offset": 0,
+          "chunk_offset": 1576991306,
+          "length": 756426
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/ar.pak",
+          "file_offset": 0,
+          "chunk_offset": 1577747732,
+          "length": 834745
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/bg.pak",
+          "file_offset": 0,
+          "chunk_offset": 1578582477,
+          "length": 859704
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/bn.pak",
+          "file_offset": 0,
+          "chunk_offset": 1579442181,
+          "length": 1108054
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/ca.pak",
+          "file_offset": 0,
+          "chunk_offset": 1580550235,
+          "length": 531550
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/cs.pak",
+          "file_offset": 0,
+          "chunk_offset": 1581081785,
+          "length": 540539
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/da.pak",
+          "file_offset": 0,
+          "chunk_offset": 1581622324,
+          "length": 491412
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/de.pak",
+          "file_offset": 0,
+          "chunk_offset": 1582113736,
+          "length": 528865
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/el.pak",
+          "file_offset": 0,
+          "chunk_offset": 1582642601,
+          "length": 941201
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/en-GB.pak",
+          "file_offset": 0,
+          "chunk_offset": 1583583802,
+          "length": 425864
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/en-US.pak",
+          "file_offset": 0,
+          "chunk_offset": 1584009666,
+          "length": 429975
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/es-419.pak",
+          "file_offset": 0,
+          "chunk_offset": 1584439641,
+          "length": 519627
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/es.pak",
+          "file_offset": 0,
+          "chunk_offset": 1584959268,
+          "length": 518067
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/et.pak",
+          "file_offset": 0,
+          "chunk_offset": 1585477335,
+          "length": 470454
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/fa.pak",
+          "file_offset": 0,
+          "chunk_offset": 1585947789,
+          "length": 766432
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/fi.pak",
+          "file_offset": 0,
+          "chunk_offset": 1586714221,
+          "length": 478116
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/fil.pak",
+          "file_offset": 0,
+          "chunk_offset": 1587192337,
+          "length": 541866
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/fr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1587734203,
+          "length": 563588
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/gu.pak",
+          "file_offset": 0,
+          "chunk_offset": 1588297791,
+          "length": 1092218
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/he.pak",
+          "file_offset": 0,
+          "chunk_offset": 1589390009,
+          "length": 676286
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/hi.pak",
+          "file_offset": 0,
+          "chunk_offset": 1590066295,
+          "length": 1154935
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/hr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1591221230,
+          "length": 522403
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/hu.pak",
+          "file_offset": 0,
+          "chunk_offset": 1591743633,
+          "length": 560407
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/id.pak",
+          "file_offset": 0,
+          "chunk_offset": 1592304040,
+          "length": 461426
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/it.pak",
+          "file_offset": 0,
+          "chunk_offset": 1592765466,
+          "length": 517128
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/ja.pak",
+          "file_offset": 0,
+          "chunk_offset": 1593282594,
+          "length": 628169
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/kn.pak",
+          "file_offset": 0,
+          "chunk_offset": 1593910763,
+          "length": 1246353
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/ko.pak",
+          "file_offset": 0,
+          "chunk_offset": 1595157116,
+          "length": 526503
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/lt.pak",
+          "file_offset": 0,
+          "chunk_offset": 1595683619,
+          "length": 569996
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/lv.pak",
+          "file_offset": 0,
+          "chunk_offset": 1596253615,
+          "length": 566664
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/ml.pak",
+          "file_offset": 0,
+          "chunk_offset": 1596820279,
+          "length": 1293128
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/mr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1598113407,
+          "length": 1062156
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/ms.pak",
+          "file_offset": 0,
+          "chunk_offset": 1599175563,
+          "length": 483671
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/nb.pak",
+          "file_offset": 0,
+          "chunk_offset": 1599659234,
+          "length": 470647
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/nl.pak",
+          "file_offset": 0,
+          "chunk_offset": 1600129881,
+          "length": 485599
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/pl.pak",
+          "file_offset": 0,
+          "chunk_offset": 1600615480,
+          "length": 546228
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/pt-BR.pak",
+          "file_offset": 0,
+          "chunk_offset": 1601161708,
+          "length": 511688
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/pt-PT.pak",
+          "file_offset": 0,
+          "chunk_offset": 1601673396,
+          "length": 513383
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/ro.pak",
+          "file_offset": 0,
+          "chunk_offset": 1602186779,
+          "length": 532032
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/ru.pak",
+          "file_offset": 0,
+          "chunk_offset": 1602718811,
+          "length": 874082
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/sk.pak",
+          "file_offset": 0,
+          "chunk_offset": 1603592893,
+          "length": 549760
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/sl.pak",
+          "file_offset": 0,
+          "chunk_offset": 1604142653,
+          "length": 528839
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/sr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1604671492,
+          "length": 811643
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/sv.pak",
+          "file_offset": 0,
+          "chunk_offset": 1605483135,
+          "length": 474842
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/sw.pak",
+          "file_offset": 0,
+          "chunk_offset": 1605957977,
+          "length": 498985
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/ta.pak",
+          "file_offset": 0,
+          "chunk_offset": 1606456962,
+          "length": 1283232
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/te.pak",
+          "file_offset": 0,
+          "chunk_offset": 1607740194,
+          "length": 1185717
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/th.pak",
+          "file_offset": 0,
+          "chunk_offset": 1608925911,
+          "length": 999193
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/tr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1609925104,
+          "length": 509180
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/uk.pak",
+          "file_offset": 0,
+          "chunk_offset": 1610434284,
+          "length": 871237
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/ur.pak",
+          "file_offset": 0,
+          "chunk_offset": 1611305521,
+          "length": 756714
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/vi.pak",
+          "file_offset": 0,
+          "chunk_offset": 1612062235,
+          "length": 602677
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/zh-CN.pak",
+          "file_offset": 0,
+          "chunk_offset": 1612664912,
+          "length": 436214
+        },
+        {
+          "file": "Launcher/runtimes/win-arm64/native/locales/zh-TW.pak",
+          "file_offset": 0,
+          "chunk_offset": 1613101126,
+          "length": 434590
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/lib/netcoreapp3.1/CefSharp.Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 1613535716,
+          "length": 1094144
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/lib/netcoreapp3.1/CefSharp.Core.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 1614629860,
+          "length": 1813504
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/lib/netcoreapp3.1/CefSharp.dll",
+          "file_offset": 0,
+          "chunk_offset": 1616443364,
+          "length": 605696
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/lib/netcoreapp3.1/Ijwhost.dll",
+          "file_offset": 0,
+          "chunk_offset": 1617049060,
+          "length": 151968
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/CefSharp.BrowserSubprocess.Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 1617201028,
+          "length": 1134592
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/CefSharp.BrowserSubprocess.dll",
+          "file_offset": 0,
+          "chunk_offset": 1618335620,
+          "length": 13824
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/CefSharp.BrowserSubprocess.exe",
+          "file_offset": 0,
+          "chunk_offset": 1618349444,
+          "length": 160256
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/CefSharp.BrowserSubprocess.runtimeconfig.json",
+          "file_offset": 0,
+          "chunk_offset": 1618509700,
+          "length": 183
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/CefSharp.dll",
+          "file_offset": 0,
+          "chunk_offset": 1618509883,
+          "length": 605696
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/chrome_100_percent.pak",
+          "file_offset": 0,
+          "chunk_offset": 1619115579,
+          "length": 645320
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/chrome_200_percent.pak",
+          "file_offset": 0,
+          "chunk_offset": 1619760899,
+          "length": 995805
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/chrome_elf.dll",
+          "file_offset": 0,
+          "chunk_offset": 1620756704,
+          "length": 1504768
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/d3dcompiler_47.dll",
+          "file_offset": 0,
+          "chunk_offset": 1622261472,
+          "length": 4916712
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/icudtl.dat",
+          "file_offset": 0,
+          "chunk_offset": 1627178184,
+          "length": 10717392
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/Ijwhost.dll",
+          "file_offset": 0,
+          "chunk_offset": 1637895576,
+          "length": 151968
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/libcef.dll",
+          "file_offset": 0,
+          "chunk_offset": 1638047544,
+          "length": 207625728
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/libEGL.dll",
+          "file_offset": 0,
+          "chunk_offset": 1845673272,
+          "length": 482816
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/libGLESv2.dll",
+          "file_offset": 0,
+          "chunk_offset": 1846156088,
+          "length": 7573504
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/af.pak",
+          "file_offset": 0,
+          "chunk_offset": 1853729592,
+          "length": 465205
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/am.pak",
+          "file_offset": 0,
+          "chunk_offset": 1854194797,
+          "length": 756426
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/ar.pak",
+          "file_offset": 0,
+          "chunk_offset": 1854951223,
+          "length": 834745
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/bg.pak",
+          "file_offset": 0,
+          "chunk_offset": 1855785968,
+          "length": 859704
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/bn.pak",
+          "file_offset": 0,
+          "chunk_offset": 1856645672,
+          "length": 1108054
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/ca.pak",
+          "file_offset": 0,
+          "chunk_offset": 1857753726,
+          "length": 531550
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/cs.pak",
+          "file_offset": 0,
+          "chunk_offset": 1858285276,
+          "length": 540539
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/da.pak",
+          "file_offset": 0,
+          "chunk_offset": 1858825815,
+          "length": 491412
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/de.pak",
+          "file_offset": 0,
+          "chunk_offset": 1859317227,
+          "length": 528865
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/el.pak",
+          "file_offset": 0,
+          "chunk_offset": 1859846092,
+          "length": 941201
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/en-GB.pak",
+          "file_offset": 0,
+          "chunk_offset": 1860787293,
+          "length": 425864
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/en-US.pak",
+          "file_offset": 0,
+          "chunk_offset": 1861213157,
+          "length": 429975
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/es-419.pak",
+          "file_offset": 0,
+          "chunk_offset": 1861643132,
+          "length": 519627
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/es.pak",
+          "file_offset": 0,
+          "chunk_offset": 1862162759,
+          "length": 518067
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/et.pak",
+          "file_offset": 0,
+          "chunk_offset": 1862680826,
+          "length": 470454
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/fa.pak",
+          "file_offset": 0,
+          "chunk_offset": 1863151280,
+          "length": 766432
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/fi.pak",
+          "file_offset": 0,
+          "chunk_offset": 1863917712,
+          "length": 478116
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/fil.pak",
+          "file_offset": 0,
+          "chunk_offset": 1864395828,
+          "length": 541866
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/fr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1864937694,
+          "length": 563588
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/gu.pak",
+          "file_offset": 0,
+          "chunk_offset": 1865501282,
+          "length": 1092218
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/he.pak",
+          "file_offset": 0,
+          "chunk_offset": 1866593500,
+          "length": 676286
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/hi.pak",
+          "file_offset": 0,
+          "chunk_offset": 1867269786,
+          "length": 1154935
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/hr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1868424721,
+          "length": 522403
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/hu.pak",
+          "file_offset": 0,
+          "chunk_offset": 1868947124,
+          "length": 560407
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/id.pak",
+          "file_offset": 0,
+          "chunk_offset": 1869507531,
+          "length": 461426
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/it.pak",
+          "file_offset": 0,
+          "chunk_offset": 1869968957,
+          "length": 517128
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/ja.pak",
+          "file_offset": 0,
+          "chunk_offset": 1870486085,
+          "length": 628169
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/kn.pak",
+          "file_offset": 0,
+          "chunk_offset": 1871114254,
+          "length": 1246353
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/ko.pak",
+          "file_offset": 0,
+          "chunk_offset": 1872360607,
+          "length": 526503
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/lt.pak",
+          "file_offset": 0,
+          "chunk_offset": 1872887110,
+          "length": 569996
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/lv.pak",
+          "file_offset": 0,
+          "chunk_offset": 1873457106,
+          "length": 566664
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/ml.pak",
+          "file_offset": 0,
+          "chunk_offset": 1874023770,
+          "length": 1293128
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/mr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1875316898,
+          "length": 1062156
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/ms.pak",
+          "file_offset": 0,
+          "chunk_offset": 1876379054,
+          "length": 483671
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/nb.pak",
+          "file_offset": 0,
+          "chunk_offset": 1876862725,
+          "length": 470647
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/nl.pak",
+          "file_offset": 0,
+          "chunk_offset": 1877333372,
+          "length": 485599
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/pl.pak",
+          "file_offset": 0,
+          "chunk_offset": 1877818971,
+          "length": 546228
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/pt-BR.pak",
+          "file_offset": 0,
+          "chunk_offset": 1878365199,
+          "length": 511688
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/pt-PT.pak",
+          "file_offset": 0,
+          "chunk_offset": 1878876887,
+          "length": 513383
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/ro.pak",
+          "file_offset": 0,
+          "chunk_offset": 1879390270,
+          "length": 532032
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/ru.pak",
+          "file_offset": 0,
+          "chunk_offset": 1879922302,
+          "length": 874082
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/sk.pak",
+          "file_offset": 0,
+          "chunk_offset": 1880796384,
+          "length": 549760
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/sl.pak",
+          "file_offset": 0,
+          "chunk_offset": 1881346144,
+          "length": 528839
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/sr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1881874983,
+          "length": 811643
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/sv.pak",
+          "file_offset": 0,
+          "chunk_offset": 1882686626,
+          "length": 474842
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/sw.pak",
+          "file_offset": 0,
+          "chunk_offset": 1883161468,
+          "length": 498985
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/ta.pak",
+          "file_offset": 0,
+          "chunk_offset": 1883660453,
+          "length": 1283232
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/te.pak",
+          "file_offset": 0,
+          "chunk_offset": 1884943685,
+          "length": 1185717
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/th.pak",
+          "file_offset": 0,
+          "chunk_offset": 1886129402,
+          "length": 999193
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/tr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1887128595,
+          "length": 509180
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/uk.pak",
+          "file_offset": 0,
+          "chunk_offset": 1887637775,
+          "length": 871237
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/ur.pak",
+          "file_offset": 0,
+          "chunk_offset": 1888509012,
+          "length": 756714
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/vi.pak",
+          "file_offset": 0,
+          "chunk_offset": 1889265726,
+          "length": 602677
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/zh-CN.pak",
+          "file_offset": 0,
+          "chunk_offset": 1889868403,
+          "length": 436214
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/locales/zh-TW.pak",
+          "file_offset": 0,
+          "chunk_offset": 1890304617,
+          "length": 434590
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/resources.pak",
+          "file_offset": 0,
+          "chunk_offset": 1890739207,
+          "length": 8204604
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/snapshot_blob.bin",
+          "file_offset": 0,
+          "chunk_offset": 1898943811,
+          "length": 275904
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/v8_context_snapshot.bin",
+          "file_offset": 0,
+          "chunk_offset": 1899219715,
+          "length": 614011
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/vk_swiftshader.dll",
+          "file_offset": 0,
+          "chunk_offset": 1899833726,
+          "length": 5022208
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/vk_swiftshader_icd.json",
+          "file_offset": 0,
+          "chunk_offset": 1904855934,
+          "length": 106
+        },
+        {
+          "file": "Launcher/runtimes/win-x64/native/vulkan-1.dll",
+          "file_offset": 0,
+          "chunk_offset": 1904856040,
+          "length": 947200
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/lib/netcoreapp3.1/CefSharp.Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 1905803240,
+          "length": 1094144
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/lib/netcoreapp3.1/CefSharp.Core.Runtime.dll",
+          "file_offset": 0,
+          "chunk_offset": 1906897384,
+          "length": 1399808
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/lib/netcoreapp3.1/CefSharp.dll",
+          "file_offset": 0,
+          "chunk_offset": 1908297192,
+          "length": 605696
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/lib/netcoreapp3.1/Ijwhost.dll",
+          "file_offset": 0,
+          "chunk_offset": 1908902888,
+          "length": 122272
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/CefSharp.BrowserSubprocess.Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 1909025160,
+          "length": 923648
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/CefSharp.BrowserSubprocess.dll",
+          "file_offset": 0,
+          "chunk_offset": 1909948808,
+          "length": 14336
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/CefSharp.BrowserSubprocess.exe",
+          "file_offset": 0,
+          "chunk_offset": 1909963144,
+          "length": 131072
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/CefSharp.BrowserSubprocess.runtimeconfig.json",
+          "file_offset": 0,
+          "chunk_offset": 1910094216,
+          "length": 183
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/CefSharp.dll",
+          "file_offset": 0,
+          "chunk_offset": 1910094399,
+          "length": 605696
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/Ijwhost.dll",
+          "file_offset": 0,
+          "chunk_offset": 1910700095,
+          "length": 122272
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/af.pak",
+          "file_offset": 0,
+          "chunk_offset": 1910822367,
+          "length": 465205
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/am.pak",
+          "file_offset": 0,
+          "chunk_offset": 1911287572,
+          "length": 756426
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/ar.pak",
+          "file_offset": 0,
+          "chunk_offset": 1912043998,
+          "length": 834745
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/bg.pak",
+          "file_offset": 0,
+          "chunk_offset": 1912878743,
+          "length": 859704
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/bn.pak",
+          "file_offset": 0,
+          "chunk_offset": 1913738447,
+          "length": 1108054
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/ca.pak",
+          "file_offset": 0,
+          "chunk_offset": 1914846501,
+          "length": 531550
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/cs.pak",
+          "file_offset": 0,
+          "chunk_offset": 1915378051,
+          "length": 540539
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/da.pak",
+          "file_offset": 0,
+          "chunk_offset": 1915918590,
+          "length": 491412
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/de.pak",
+          "file_offset": 0,
+          "chunk_offset": 1916410002,
+          "length": 528865
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/el.pak",
+          "file_offset": 0,
+          "chunk_offset": 1916938867,
+          "length": 941201
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/en-GB.pak",
+          "file_offset": 0,
+          "chunk_offset": 1917880068,
+          "length": 425864
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/en-US.pak",
+          "file_offset": 0,
+          "chunk_offset": 1918305932,
+          "length": 429975
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/es-419.pak",
+          "file_offset": 0,
+          "chunk_offset": 1918735907,
+          "length": 519627
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/es.pak",
+          "file_offset": 0,
+          "chunk_offset": 1919255534,
+          "length": 518067
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/et.pak",
+          "file_offset": 0,
+          "chunk_offset": 1919773601,
+          "length": 470454
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/fa.pak",
+          "file_offset": 0,
+          "chunk_offset": 1920244055,
+          "length": 766432
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/fi.pak",
+          "file_offset": 0,
+          "chunk_offset": 1921010487,
+          "length": 478116
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/fil.pak",
+          "file_offset": 0,
+          "chunk_offset": 1921488603,
+          "length": 541866
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/fr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1922030469,
+          "length": 563588
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/gu.pak",
+          "file_offset": 0,
+          "chunk_offset": 1922594057,
+          "length": 1092218
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/he.pak",
+          "file_offset": 0,
+          "chunk_offset": 1923686275,
+          "length": 676286
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/hi.pak",
+          "file_offset": 0,
+          "chunk_offset": 1924362561,
+          "length": 1154935
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/hr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1925517496,
+          "length": 522403
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/hu.pak",
+          "file_offset": 0,
+          "chunk_offset": 1926039899,
+          "length": 560407
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/id.pak",
+          "file_offset": 0,
+          "chunk_offset": 1926600306,
+          "length": 461426
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/it.pak",
+          "file_offset": 0,
+          "chunk_offset": 1927061732,
+          "length": 517128
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/ja.pak",
+          "file_offset": 0,
+          "chunk_offset": 1927578860,
+          "length": 628169
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/kn.pak",
+          "file_offset": 0,
+          "chunk_offset": 1928207029,
+          "length": 1246353
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/ko.pak",
+          "file_offset": 0,
+          "chunk_offset": 1929453382,
+          "length": 526503
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/lt.pak",
+          "file_offset": 0,
+          "chunk_offset": 1929979885,
+          "length": 569996
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/lv.pak",
+          "file_offset": 0,
+          "chunk_offset": 1930549881,
+          "length": 566664
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/ml.pak",
+          "file_offset": 0,
+          "chunk_offset": 1931116545,
+          "length": 1293128
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/mr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1932409673,
+          "length": 1062156
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/ms.pak",
+          "file_offset": 0,
+          "chunk_offset": 1933471829,
+          "length": 483671
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/nb.pak",
+          "file_offset": 0,
+          "chunk_offset": 1933955500,
+          "length": 470647
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/nl.pak",
+          "file_offset": 0,
+          "chunk_offset": 1934426147,
+          "length": 485599
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/pl.pak",
+          "file_offset": 0,
+          "chunk_offset": 1934911746,
+          "length": 546228
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/pt-BR.pak",
+          "file_offset": 0,
+          "chunk_offset": 1935457974,
+          "length": 511688
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/pt-PT.pak",
+          "file_offset": 0,
+          "chunk_offset": 1935969662,
+          "length": 513383
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/ro.pak",
+          "file_offset": 0,
+          "chunk_offset": 1936483045,
+          "length": 532032
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/ru.pak",
+          "file_offset": 0,
+          "chunk_offset": 1937015077,
+          "length": 874082
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/sk.pak",
+          "file_offset": 0,
+          "chunk_offset": 1937889159,
+          "length": 549760
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/sl.pak",
+          "file_offset": 0,
+          "chunk_offset": 1938438919,
+          "length": 528839
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/sr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1938967758,
+          "length": 811643
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/sv.pak",
+          "file_offset": 0,
+          "chunk_offset": 1939779401,
+          "length": 474842
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/sw.pak",
+          "file_offset": 0,
+          "chunk_offset": 1940254243,
+          "length": 498985
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/ta.pak",
+          "file_offset": 0,
+          "chunk_offset": 1940753228,
+          "length": 1283232
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/te.pak",
+          "file_offset": 0,
+          "chunk_offset": 1942036460,
+          "length": 1185717
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/th.pak",
+          "file_offset": 0,
+          "chunk_offset": 1943222177,
+          "length": 999193
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/tr.pak",
+          "file_offset": 0,
+          "chunk_offset": 1944221370,
+          "length": 509180
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/uk.pak",
+          "file_offset": 0,
+          "chunk_offset": 1944730550,
+          "length": 871237
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/ur.pak",
+          "file_offset": 0,
+          "chunk_offset": 1945601787,
+          "length": 756714
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/vi.pak",
+          "file_offset": 0,
+          "chunk_offset": 1946358501,
+          "length": 602677
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/zh-CN.pak",
+          "file_offset": 0,
+          "chunk_offset": 1946961178,
+          "length": 436214
+        },
+        {
+          "file": "Launcher/runtimes/win-x86/native/locales/zh-TW.pak",
+          "file_offset": 0,
+          "chunk_offset": 1947397392,
+          "length": 434590
+        },
+        {
+          "file": "Launcher/SDL2.dll",
+          "file_offset": 0,
+          "chunk_offset": 1947831982,
+          "length": 1334272
+        },
+        {
+          "file": "Launcher/SDL2Binding.dll",
+          "file_offset": 0,
+          "chunk_offset": 1949166254,
+          "length": 48640
+        },
+        {
+          "file": "Launcher/Shared.dll",
+          "file_offset": 0,
+          "chunk_offset": 1949214894,
+          "length": 659968
+        },
+        {
+          "file": "Launcher/steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1949874862,
+          "length": 1118360
+        },
+        {
+          "file": "Launcher/steam_api64.rne",
+          "file_offset": 0,
+          "chunk_offset": 1950993222,
+          "length": 295336
+        },
+        {
+          "file": "Launcher/steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 1951288558,
+          "length": 3335
+        },
+        {
+          "file": "Launcher/Steamworks.NET.dll",
+          "file_offset": 0,
+          "chunk_offset": 1951291893,
+          "length": 375296
+        },
+        {
+          "file": "Launcher/WpfAnimatedGif.dll",
+          "file_offset": 0,
+          "chunk_offset": 1951667189,
+          "length": 43008
+        }
+      ],
+      "sha256": "5355639466f38fbb33eebeed70379fcb7e2124733a3f973640a3a1f3ed8ae0b6"
+    }
+  ]
+}
