@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-22T23:57:28.707671+00:00",
+  "updated_at": "2026-08-23T02:16:19.357513+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -1771,6 +1771,41 @@
       },
       "media": {
         "steam_app_id": 48000
+      }
+    },
+    {
+      "id": "baldur-s-gate-3",
+      "title": "Baldur's Gate 3",
+      "platform": "pc",
+      "description": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons & Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/baldur-s-gate-3/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/baldur-s-gate-3/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/baldur-s-gate-3/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/baldur-s-gate-3/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/baldur-s-gate-3/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/baldur-s-gate-3/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/baldur-s-gate-3/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/baldur-s-gate-3/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/baldur-s-gate-3/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/baldur-s-gate-3/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/baldur-s-gate-3/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/baldur-s-gate-3/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-baldur-s-gate-3-v1.0.0-stable",
+          "manifest_path": "manifests/pc/baldur-s-gate-3/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/baldur-s-gate-3/stable/1.0.0.json",
+          "size": 160040236316,
+          "published_at": "2026-08-23T02:16:19.356873+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 1086940
       }
     }
   ]
