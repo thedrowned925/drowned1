@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 56
-- **Toplam aktif sürüm/kanal:** 56
-- **Toplam aktif boyut:** 1468.821 GB (1367.946 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-23 14:10:21 UTC
+- **Toplam oyun:** 57
+- **Toplam aktif sürüm/kanal:** 57
+- **Toplam aktif boyut:** 1497.626 GB (1394.773 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-23 14:27:10 UTC
 
 ## PC
 
-**56 oyun · 56 aktif sürüm/kanal · 1468.821 GB (1367.946 GiB)**
+**57 oyun · 57 aktif sürüm/kanal · 1497.626 GB (1394.773 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -56,6 +56,7 @@
 | Mass Effect (2007) | 1.0.0 | stable | 24.338 | 22.667 | `pc-mass-effect-2007-v1.0.0-stable` |
 | Mass Effect 2 (2010 Edition) | 1.0.0 | stable | 29.915 | 27.860 | `pc-mass-effect-2-2010-edition-v1.0.0-stable` |
 | Max Payne | 1.0.0 | stable | 0.924 | 0.860 | `pc-max-payne-v1.0.0-stable` |
+| NieR:Automata™ | 1.0.0 | stable | 28.805 | 26.827 | `pc-nier-automata-v1.0.0-stable` |
 | Papers, Please | 1.0.0 | stable | 0.094 | 0.088 | `pc-papers-please-v1.0.0-stable` |
 | PEAK | 1.0.0 | stable | 4.466 | 4.159 | `pc-peak-v1.0.0-stable` |
 | Portal | 1.0.0 | stable | 5.235 | 4.876 | `pc-portal-v1.0.0-stable` |
