@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 57
-- **Toplam aktif sürüm/kanal:** 57
-- **Toplam aktif boyut:** 1497.626 GB (1394.773 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-23 14:27:10 UTC
+- **Toplam oyun:** 58
+- **Toplam aktif sürüm/kanal:** 58
+- **Toplam aktif boyut:** 1510.460 GB (1406.725 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-23 16:02:25 UTC
 
 ## PC
 
-**57 oyun · 57 aktif sürüm/kanal · 1497.626 GB (1394.773 GiB)**
+**58 oyun · 58 aktif sürüm/kanal · 1510.460 GB (1406.725 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -25,6 +25,7 @@
 | BioShock™ | 1.0.0 | stable | 6.039 | 5.625 | `pc-bioshock-v1.0.0-stable` |
 | Borderlands 2 | 1.0.0 | stable | 36.051 | 33.576 | `pc-borderlands-2-v1.0.0-stable` |
 | Call of Duty® 4: Modern Warfare® (2007) | 1.0.0 | stable | 6.975 | 6.496 | `pc-call-of-duty-4-modern-warfare-2007-v1.0.0-stable` |
+| Call of Duty®: Modern Warfare® 2 (2009) | 1.0.0 | stable | 12.833 | 11.952 | `pc-call-of-duty-modern-warfare-2-2009-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 14.396 | `pc-captured-2-v1.0.0-stable` |
 | Cyberpunk 2077 | 1.0.0 | stable | 102.015 | 95.009 | `pc-cyberpunk-2077-v1.0.0-stable` |
 | DARK SOULS™ III | 1.0.0 | stable | 26.890 | 25.043 | `pc-dark-souls-iii-v1.0.0-stable` |
