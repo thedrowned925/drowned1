@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 54
-- **Toplam aktif sürüm/kanal:** 54
-- **Toplam aktif boyut:** 1460.859 GB (1360.531 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-23 02:16:19 UTC
+- **Toplam oyun:** 55
+- **Toplam aktif sürüm/kanal:** 55
+- **Toplam aktif boyut:** 1462.875 GB (1362.409 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-23 14:02:58 UTC
 
 ## PC
 
-**54 oyun · 54 aktif sürüm/kanal · 1460.859 GB (1360.531 GiB)**
+**55 oyun · 55 aktif sürüm/kanal · 1462.875 GB (1362.409 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -29,6 +29,7 @@
 | Cyberpunk 2077 | 1.0.0 | stable | 102.015 | 95.009 | `pc-cyberpunk-2077-v1.0.0-stable` |
 | DARK SOULS™ III | 1.0.0 | stable | 26.890 | 25.043 | `pc-dark-souls-iii-v1.0.0-stable` |
 | DARK SOULS™: Prepare To Die™ Edition | 1.0.0 | stable | 3.962 | 3.690 | `pc-dark-souls-prepare-to-die-edition-v1.0.0-stable` |
+| Diablo 2 | 1.0.0 | stable | 2.016 | 1.878 | `pc-diablo-2-v1.0.0-stable` |
 | Dishonored | 1.0.0 | stable | 18.079 | 16.837 | `pc-dishonored-v1.0.0-stable` |
 | DOOM | 1.0.0 | stable | 73.984 | 68.903 | `pc-doom-v1.0.0-stable` |
 | Dragon Age: Origins | 1.0.0 | stable | 25.470 | 23.721 | `pc-dragon-age-origins-v1.0.0-stable` |
