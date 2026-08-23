@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-23T14:02:58.724499+00:00",
+  "updated_at": "2026-08-23T14:10:21.066669+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -1826,6 +1826,41 @@
       },
       "media": {
         "steam_app_id": 1086940
+      }
+    },
+    {
+      "id": "the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009",
+      "title": "The Elder Scrolls IV: Oblivion® Game of the Year Edition (2009)",
+      "platform": "pc",
+      "description": "PUBLISHER UPDATE - This is the product page for The Elder Scrolls IV: Oblivion Game of the Year Edition, released in 2009. ---The Elder Scrolls IV: Oblivion® Game of the Year Edition presents one of the best RPGs of all time like never before. Step inside the most richly detailed and vibrant game-world ever created.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009-v1.0.0-stable",
+          "manifest_path": "manifests/pc/the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009/stable/1.0.0.json",
+          "size": 5945898594,
+          "published_at": "2026-08-23T14:10:21.066655+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 22330
       }
     }
   ]
