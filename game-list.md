@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 58
-- **Toplam aktif sürüm/kanal:** 58
-- **Toplam aktif boyut:** 1510.460 GB (1406.725 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-23 16:02:25 UTC
+- **Toplam oyun:** 59
+- **Toplam aktif sürüm/kanal:** 59
+- **Toplam aktif boyut:** 1513.373 GB (1409.439 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-23 16:07:03 UTC
 
 ## PC
 
-**58 oyun · 58 aktif sürüm/kanal · 1510.460 GB (1406.725 GiB)**
+**59 oyun · 59 aktif sürüm/kanal · 1513.373 GB (1409.439 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -54,6 +54,7 @@
 | INSIDE | 1.0.0 | stable | 2.440 | 2.273 | `pc-inside-v1.0.0-stable` |
 | Life is Strange - Episode 1 | 1.0.0 | stable | 15.073 | 14.038 | `pc-life-is-strange-episode-1-v1.0.0-stable` |
 | LIMBO | 1.0.0 | stable | 0.115 | 0.107 | `pc-limbo-v1.0.0-stable` |
+| Mafia | 1.0.0 | stable | 2.914 | 2.714 | `pc-mafia-v1.0.0-stable` |
 | Mass Effect (2007) | 1.0.0 | stable | 24.338 | 22.667 | `pc-mass-effect-2007-v1.0.0-stable` |
 | Mass Effect 2 (2010 Edition) | 1.0.0 | stable | 29.915 | 27.860 | `pc-mass-effect-2-2010-edition-v1.0.0-stable` |
 | Max Payne | 1.0.0 | stable | 0.924 | 0.860 | `pc-max-payne-v1.0.0-stable` |
