@@ -1,0 +1,1803 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009",
+    "title": "The Elder Scrolls IV: Oblivion® Game of the Year Edition (2009)",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "PUBLISHER UPDATE - This is the product page for The Elder Scrolls IV: Oblivion Game of the Year Edition, released in 2009. ---The Elder Scrolls IV: Oblivion® Game of the Year Edition presents one of the best RPGs of all time like never before. Step inside the most richly detailed and vibrant game-world ever created."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009-v1.0.0-stable"
+  },
+  "chunk_size": 148647465,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 5945898594,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "atimgpud.dll",
+      "size": 40960,
+      "sha256": "312fe5b419fb3b714cb69bfac4098b790db186be4815a15ee3fd0b6b87942259"
+    },
+    {
+      "path": "Bethesda.TXT",
+      "size": 395,
+      "sha256": "eff980f6534a7eecee15fa88273cf488d0027931d94053bf3a2537866cdc83a9"
+    },
+    {
+      "path": "binkw32.dll",
+      "size": 338944,
+      "sha256": "c6c06e2d21f2179f0b7fbe829a4b17a7b371440d2c679253ec86b64d421185bd"
+    },
+    {
+      "path": "Data/Credits.txt",
+      "size": 10662,
+      "sha256": "b85ba90bcf2a6dfc168aa9e5dd099335fa6135adcf40f1667cd8ce91b88a0c7f"
+    },
+    {
+      "path": "Data/DLCBattlehornCastle.bsa",
+      "size": 9162178,
+      "sha256": "a3ad9b25b354f45d9fe26be78293dec5be9b20b32fe096bae395e8b99318eebf"
+    },
+    {
+      "path": "Data/DLCBattlehornCastle.esp",
+      "size": 676894,
+      "sha256": "f8bd2baa13f17f8994c0e737146097bc320f28c0d9821a00516bcec53fc6e28d"
+    },
+    {
+      "path": "Data/DLCFrostcrag.bsa",
+      "size": 17212790,
+      "sha256": "100c2df38c07e2b846cc3c0ef5d0ad27d22b70b2ed5095b0ebf3dd8ed0a72710"
+    },
+    {
+      "path": "Data/DLCFrostcrag.esp",
+      "size": 191358,
+      "sha256": "ade51332829033c95f9ba73fbbb3ee31f44dd62f12fbf8e0066dd6384a65b6c0"
+    },
+    {
+      "path": "Data/DLCHorseArmor.bsa",
+      "size": 4018605,
+      "sha256": "edf3c92277b304d19555d8cd06674647ff837fc1b8583237a208eecd8e97d6a5"
+    },
+    {
+      "path": "Data/DLCHorseArmor.esp",
+      "size": 97179,
+      "sha256": "d20d968a3492a73aa3f6c7ba033604f32b3aee7ea4e7447ae90881a25267b305"
+    },
+    {
+      "path": "Data/DLCList.txt",
+      "size": 320,
+      "sha256": "e5c24cb3e2652229ac1d92fc83fd4be9fb6f86c34681fafc9dd56ecc60cdf6a4"
+    },
+    {
+      "path": "Data/DLCMehrunesRazor.esp",
+      "size": 728780,
+      "sha256": "8d52b80c7ceb9f18aae3f48815a5b0468b8479992eb69fa3cbf910f8b66b7971"
+    },
+    {
+      "path": "Data/DLCOrrery.bsa",
+      "size": 16545273,
+      "sha256": "adfe23a364dd4a7dc9382e3e1ff8f41522dd7ba1468b15e66acb27a7a4906752"
+    },
+    {
+      "path": "Data/DLCOrrery.esp",
+      "size": 47424,
+      "sha256": "b1533ce31acdeb0c0385ab15c898b1c59c730e1d9b05848c8b4b76f2aaf3ad7d"
+    },
+    {
+      "path": "Data/DLCShiveringIsles - Meshes.bsa",
+      "size": 122339871,
+      "sha256": "dfbab7476b280ea96da2b76e5b97e7b3ead996856279fb60aba648ae32f925f0"
+    },
+    {
+      "path": "Data/DLCShiveringIsles - Sounds.bsa",
+      "size": 91690787,
+      "sha256": "c9fd187055a55a9c750029e15221d871e04a12c7de63531fa455b085fa57f3f7"
+    },
+    {
+      "path": "Data/DLCShiveringIsles - Textures.bsa",
+      "size": 312806750,
+      "sha256": "813db2cd330598d2f103ae8160849c851d3b1ef693fa4701fc2fd8c7e1e5053b"
+    },
+    {
+      "path": "Data/DLCShiveringIsles - Voices.bsa",
+      "size": 452952223,
+      "sha256": "1f79d8705676d813ba820b450e8a2a89d09c69d7fc72dfe5471acb84f07c53c8"
+    },
+    {
+      "path": "Data/DLCShiveringIsles.esp",
+      "size": 85,
+      "sha256": "7725fc1cf14f60b258aeb089a112b518ab904acb3c3f549487d6e554fb873bcb"
+    },
+    {
+      "path": "Data/DLCSpellTomes.esp",
+      "size": 625246,
+      "sha256": "3146d1f3936606410f75a54d385276e364f8a346437b919c398d8bd7d66e339e"
+    },
+    {
+      "path": "Data/DLCThievesDen.bsa",
+      "size": 2126264,
+      "sha256": "3d32bd180c03a3e9c04797ae9711beaad14317c08277487cea6720d983eb82c7"
+    },
+    {
+      "path": "Data/DLCThievesDen.esp",
+      "size": 233735,
+      "sha256": "bade981f2c6665a934afb3ece481c4bba358d8114389a7f811403534e506407d"
+    },
+    {
+      "path": "Data/DLCVileLair.bsa",
+      "size": 4145181,
+      "sha256": "10be627cf2106213aa9f57338dfeb54d169ef7dfd51fd1f3871b9f6c0479b303"
+    },
+    {
+      "path": "Data/DLCVileLair.esp",
+      "size": 257153,
+      "sha256": "fa174924ff2b44e69d1d27dc2a4c99e757d90c7b34109138d2b1ed9f430d5002"
+    },
+    {
+      "path": "Data/Knights.bsa",
+      "size": 171018415,
+      "sha256": "0b04e2d8876f832b4650bcbf940a09eef05704ba0b765b31f2afba08461b1c6b"
+    },
+    {
+      "path": "Data/Knights.esp",
+      "size": 2211935,
+      "sha256": "a0b48c54ef788fd17a3c042c24795e52aefa76050d226448b91005b36f5d681b"
+    },
+    {
+      "path": "Data/Music/Battle/battle_01.mp3",
+      "size": 3075135,
+      "sha256": "f9ce08b5e7d02042e6e02b2266386c0304158f07c85463a44c64681cfde380af"
+    },
+    {
+      "path": "Data/Music/Battle/battle_02.mp3",
+      "size": 1605591,
+      "sha256": "6326fbd72eb2f629a5bcf7b75e7ae86d96be0366b8d6e8a508de64304cd83a1f"
+    },
+    {
+      "path": "Data/Music/Battle/battle_03.mp3",
+      "size": 1481457,
+      "sha256": "0f93ac414256483fbd932ccccc1e6d15a99846c6d3001c37aeade5eb58873c00"
+    },
+    {
+      "path": "Data/Music/Battle/battle_04.mp3",
+      "size": 1819377,
+      "sha256": "739b95cb53f7129a310437868c6911bdab199a415e8865fb41ca75a814307c86"
+    },
+    {
+      "path": "Data/Music/Battle/battle_05.mp3",
+      "size": 1786149,
+      "sha256": "c848e93866311964e2519d71b27381269bfd12434d82e82b11f830ea28dc8836"
+    },
+    {
+      "path": "Data/Music/Battle/battle_06.mp3",
+      "size": 1944765,
+      "sha256": "9b6d058dfabb5e120c7220ca885022d0e827f136c4686ec1d00f7b795d43004b"
+    },
+    {
+      "path": "Data/Music/Battle/battle_07.mp3",
+      "size": 1667658,
+      "sha256": "0ec225e9e3cee574fc12984b60b99895379855568ed3045e31d90295973335e9"
+    },
+    {
+      "path": "Data/Music/Battle/battle_08.mp3",
+      "size": 1640699,
+      "sha256": "f923219c593d7c7270ac83a7f5c01f7546ff9b288010ac9a29dea41de1dc671f"
+    },
+    {
+      "path": "Data/Music/Dungeon/Dungeon_01_v2.mp3",
+      "size": 2452585,
+      "sha256": "19d3f4eba5c942da4b8983c08bc1ed3005d6e92434a75cffe337dcb1ccf0b17f"
+    },
+    {
+      "path": "Data/Music/Dungeon/dungeon_02.mp3",
+      "size": 3648157,
+      "sha256": "5ad0aa35c2ad00de667fa775dba2b819310d3601a66af92a71366638802a2cc4"
+    },
+    {
+      "path": "Data/Music/Dungeon/dungeon_03.mp3",
+      "size": 1554182,
+      "sha256": "46ef263acbacd03bbca0c7557c970cd539aefda32c0f457d508ff74d05b99cf2"
+    },
+    {
+      "path": "Data/Music/Dungeon/dungeon_04.mp3",
+      "size": 1695243,
+      "sha256": "5e69025854bd3a1434e20698298857a43c87b9561d802e2ae20171579d5e20ad"
+    },
+    {
+      "path": "Data/Music/Dungeon/dungeon_05.mp3",
+      "size": 1578632,
+      "sha256": "06aae1e19b46c1c7de1c81026fb8464628292ec3ca72e5cab0a4b5c2c78fa8a7"
+    },
+    {
+      "path": "Data/Music/Explore/atmosphere_01.mp3",
+      "size": 3562267,
+      "sha256": "b14dd9677b0190851d52fdd8aba72f7eb0602c27138b9c8e36aa72f7399a2ef3"
+    },
+    {
+      "path": "Data/Music/Explore/atmosphere_03.mp3",
+      "size": 6224876,
+      "sha256": "324535bfb286e2ea60e74b518b18ae33f7a76e15c72b9ec7200aaab362ff4f91"
+    },
+    {
+      "path": "Data/Music/Explore/atmosphere_04.mp3",
+      "size": 6757147,
+      "sha256": "abdd2a47808535baf76ba81a5c3fbc228790060639825c3a884a659fb6604b29"
+    },
+    {
+      "path": "Data/Music/Explore/atmosphere_06.mp3",
+      "size": 4445623,
+      "sha256": "3b3be858c318c13e302e943777a1729e035f10ca2a44f117cf67c3f4a2177320"
+    },
+    {
+      "path": "Data/Music/Explore/atmosphere_07.mp3",
+      "size": 5040588,
+      "sha256": "15576f786fc0fa6b096ff406567c42787292e250f9671a42cd30ce3f6737df59"
+    },
+    {
+      "path": "Data/Music/Explore/atmosphere_08.mp3",
+      "size": 5870028,
+      "sha256": "a9559f5d36be48524a84e5ef4f5a1d69ed85708b8b05508a3e618edd271575b7"
+    },
+    {
+      "path": "Data/Music/Explore/atmosphere_09.mp3",
+      "size": 6026136,
+      "sha256": "d050176791a254edeca998c75a29cc3eaa31865367e3b62006b077b40457f4fc"
+    },
+    {
+      "path": "Data/Music/Public/town_01.mp3",
+      "size": 4114600,
+      "sha256": "6f346e169ab9e5e7b9bead789e8b13eedbf547db4c301b13c4cfd36667caa888"
+    },
+    {
+      "path": "Data/Music/Public/town_02.mp3",
+      "size": 3492049,
+      "sha256": "f017aac32ce3df826a0b5aebdc7f86e5593413f78622f7ad0961153ab7ceff04"
+    },
+    {
+      "path": "Data/Music/Public/town_03.mp3",
+      "size": 4234345,
+      "sha256": "690fe5b1b0cc8dcdd39eafb1e48aedcb7bcfa1f7cd4c1616f16490aad177345e"
+    },
+    {
+      "path": "Data/Music/Public/town_04.mp3",
+      "size": 3003664,
+      "sha256": "d9fd8812b558b9510c1a9971a4aba81d75db1f8043fd491560cc7458ee4bd6b0"
+    },
+    {
+      "path": "Data/Music/Public/town_05.mp3",
+      "size": 3138456,
+      "sha256": "9b38d2bca0a6806a7eb60aa65c6812de610b6f21f723128724e1a7a1619edfcb"
+    },
+    {
+      "path": "Data/Music/Special/death.mp3",
+      "size": 324128,
+      "sha256": "774b50dab4cd61b666cac767584689ddd37da9408485cbd88af3ff173832d575"
+    },
+    {
+      "path": "Data/Music/Special/success.mp3",
+      "size": 424438,
+      "sha256": "6e793d2c446c58f99d74f11f2062e43662713eb6a1aeb461b79f8dea6ff559f2"
+    },
+    {
+      "path": "Data/Music/Special/tes4title.mp3",
+      "size": 2662609,
+      "sha256": "ef83c4e2822b83fa245a4472499bb9acdc5165b35501acf77df435cacee7fc48"
+    },
+    {
+      "path": "Data/Oblivion - Meshes.bsa",
+      "size": 671405897,
+      "sha256": "d05bb62f933856105536beb06c26bcdf5fa37f685152a39ece587e7f26b4e99b"
+    },
+    {
+      "path": "Data/Oblivion - Misc.bsa",
+      "size": 7229551,
+      "sha256": "a84290011a4ed5a1ca8d8cff3822eda67bbacd47c750744b7d786cc0a5527ca5"
+    },
+    {
+      "path": "Data/Oblivion - Sounds.bsa",
+      "size": 330432865,
+      "sha256": "f11e92315666b7e6ee5f6936fa68300fb5234215c59d5e3836375f262fba05ec"
+    },
+    {
+      "path": "Data/Oblivion - Textures - Compressed.bsa",
+      "size": 1217817848,
+      "sha256": "d6e6a2155bea688052862df471c631e93572d525fb81b4358da328bd34760bd2"
+    },
+    {
+      "path": "Data/Oblivion - Voices1.bsa",
+      "size": 787373673,
+      "sha256": "c460dcfc57e060c4772af7a378fef81c22ed103a3f0fcbf0e13412a109b4134d"
+    },
+    {
+      "path": "Data/Oblivion - Voices2.bsa",
+      "size": 1005007382,
+      "sha256": "2614300372de611b6d5644e73e6f7fcd0638d0621583da855e4f337dd450eba4"
+    },
+    {
+      "path": "Data/Oblivion.esm",
+      "size": 277504985,
+      "sha256": "a26e21ea8c3041f8737ffb3a266129dedb7f8a88590625ecfecd5eb7f66b4a70"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage001.sdp",
+      "size": 208612,
+      "sha256": "c15d8daf27d539cd54919c79362a74dc8308a51302d3f5a57effd0ba12be85a1"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage002.sdp",
+      "size": 673804,
+      "sha256": "58db3a229857ba10f9f8953768da716b57f70207fad910d506b748490e70a771"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage003.sdp",
+      "size": 707276,
+      "sha256": "33cafa4484666d379b3487729b35419b3cc95d1918f8e5d7da308cf6c58b2c40"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage004.sdp",
+      "size": 964920,
+      "sha256": "fdea196b531b5f810d5a326731de2817f334b2f1040f8ea2378bb1b795f1a099"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage005.sdp",
+      "size": 677716,
+      "sha256": "d6fff3d23a5229b0208a179bf32f2874a7f030f3088fbd12d20aff5e64342060"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage006.sdp",
+      "size": 707276,
+      "sha256": "33cafa4484666d379b3487729b35419b3cc95d1918f8e5d7da308cf6c58b2c40"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage007.sdp",
+      "size": 974144,
+      "sha256": "02e75e54b9eaa5d837ab7bd14c5c0491a40f62f9308a6aee458073eb2be2390d"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage008.sdp",
+      "size": 677716,
+      "sha256": "d6fff3d23a5229b0208a179bf32f2874a7f030f3088fbd12d20aff5e64342060"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage009.sdp",
+      "size": 990708,
+      "sha256": "f233d194afb2ded93b4013b886ded59eb7b58beab825426256aa16b0732ed6f0"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage010.sdp",
+      "size": 721608,
+      "sha256": "93d65d62ab2633adafed1be79b086aa9eadc002c89fa1a26b01f5d281955f9b9"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage011.sdp",
+      "size": 720672,
+      "sha256": "713b4f2ea8f63afcb1a0f5ecd1192ec514b88a03247e6729465190bdbed09e3e"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage012.sdp",
+      "size": 983412,
+      "sha256": "16475e8926235091c9aaf878ce9357eea4b83651febfafefad39c819361bdf8a"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage013.sdp",
+      "size": 982476,
+      "sha256": "ce66ea74f5d8d6ad94892a8dc5fc860a6e59674d7eca66e4920f2a9639069175"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage014.sdp",
+      "size": 721608,
+      "sha256": "93d65d62ab2633adafed1be79b086aa9eadc002c89fa1a26b01f5d281955f9b9"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage015.sdp",
+      "size": 720672,
+      "sha256": "713b4f2ea8f63afcb1a0f5ecd1192ec514b88a03247e6729465190bdbed09e3e"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage016.sdp",
+      "size": 992892,
+      "sha256": "7c2c550b56cad9ba17ed763ec9b4af590b46d439b5b35a9f2cf6341c7e967f00"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage017.sdp",
+      "size": 991956,
+      "sha256": "50d24b5b63d6b7b7b0381c4eebd8da11b467f38201dbf88d504fa8cc8e3e72cc"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage018.sdp",
+      "size": 1010676,
+      "sha256": "cb40f0edad873015512ac25c614999de0544d7c27dced9930ae041f5549957a6"
+    },
+    {
+      "path": "Data/Shaders/shaderpackage019.sdp",
+      "size": 1009740,
+      "sha256": "3fa9718496f3c75a4be0f13f42e0210a38c8bf063363edf4eff6559c7327bfba"
+    },
+    {
+      "path": "Data/Textures/Effects/TerrainNoise.dds",
+      "size": 174904,
+      "sha256": "5add670b7595d3356ef3f0eb58f3d4260f9c493032d9e5be613a555da8cecf02"
+    },
+    {
+      "path": "Data/Video/2k games.bik",
+      "size": 688136,
+      "sha256": "594fcf70ff24aa9865daf36890d75d6005fe2c1ae3041e0429d0e64a136dea60"
+    },
+    {
+      "path": "Data/Video/bethesda softworks HD720p.bik",
+      "size": 765456,
+      "sha256": "3509240b5bc6d4d7ef2c4199868701e0d368ac1071f26ae33f186c99ad968bf2"
+    },
+    {
+      "path": "Data/Video/CreditsMenu.bik",
+      "size": 22859528,
+      "sha256": "87d37bdd998727a9dff75ffce7603a3d54992bea9ae57ed3be5aeb9e45e3cf31"
+    },
+    {
+      "path": "Data/Video/game studios.bik",
+      "size": 5974828,
+      "sha256": "4df4867f9b0335d27908e79fa63a806470577ee186441667b7d20c41aa108eab"
+    },
+    {
+      "path": "Data/Video/Map loop.bik",
+      "size": 15019716,
+      "sha256": "683943ff8225206f1d353d69e7c6ce657542b4f7c27e8f6b3f16a84e3a84de40"
+    },
+    {
+      "path": "Data/Video/Oblivion iv logo.bik",
+      "size": 16738792,
+      "sha256": "31c79ce792a3fd2f0993daf82b574c9a90af836218c68e87609d80f596f33820"
+    },
+    {
+      "path": "Data/Video/Oblivion Legal.bik",
+      "size": 787752,
+      "sha256": "e6ca13f0030c1b6b2e1bf7169e48217e5098616da53f5740d5f2768c1dc30960"
+    },
+    {
+      "path": "Data/Video/OblivionIntro.bik",
+      "size": 136159156,
+      "sha256": "5eb30b0e8f022085a367d282ccb9e8007eecc6edc4d2f2e10d8625bc92a2830e"
+    },
+    {
+      "path": "Data/Video/OblivionOutro.bik",
+      "size": 70578488,
+      "sha256": "6a8086f3b3f98894cc4c36af6755382315bac0147dbd5fe2545734f34b5e4583"
+    },
+    {
+      "path": "EULA.txt",
+      "size": 38316,
+      "sha256": "3383398735eb1b0d1996dc0dd49dcefae1e1258455b2da857aa67259972d8581"
+    },
+    {
+      "path": "gog.ico",
+      "size": 69248,
+      "sha256": "f6a71321521ba89713f0bd38b21f809e87e8a789cb172e8e4693f9479e30b1e4"
+    },
+    {
+      "path": "goggame-1458058109.dll",
+      "size": 318544,
+      "sha256": "46732c0482343fe60d2f5f04c794069850ae70bfa3a471988b26e1db2b79caeb"
+    },
+    {
+      "path": "goggame-1458058109.hashdb",
+      "size": 3499,
+      "sha256": "f6900cd57ddebe99006dd6dac44cc2f7c86a804c064faf7f4b2c5dbbf480cd2f"
+    },
+    {
+      "path": "goggame-1458058109.ico",
+      "size": 68561,
+      "sha256": "2a634402d3ea2a220bcb0bac3334e0ee86783d05890101db262fad351db59e17"
+    },
+    {
+      "path": "goggame-1458058109.info",
+      "size": 1417,
+      "sha256": "391d7da48ec15d096f53ab566b1fe941584443a4bd4a6f5698df85a907229313"
+    },
+    {
+      "path": "goggame-1458058109.script",
+      "size": 954,
+      "sha256": "952e254a2ec4e5fb1cb1a6af2d801b51cd1ac40fef4a65fca42d7cce898e8e41"
+    },
+    {
+      "path": "goglog.ini",
+      "size": 273,
+      "sha256": "3b859f21ae32ea348612dd02893c171e9ca2831cbfaa89b567035980b4f21060"
+    },
+    {
+      "path": "Launch The Elder Scrolls IV - Oblivion.lnk",
+      "size": 1651,
+      "sha256": "6a2a40f08e21a8e3c895be10526c532b84377b1af64db98b183346f9bc3c4891"
+    },
+    {
+      "path": "LauncherMusic.wav",
+      "size": 7778564,
+      "sha256": "d49f843e0c56f4767ca855ae5ec906f5e2dde47b0f2b864f4e6bc734322ecfdf"
+    },
+    {
+      "path": "manual.pdf",
+      "size": 2096860,
+      "sha256": "48314b23aba926f3ef74bf44ad3291fbc65f0c1498b61e188f923a490e42abda"
+    },
+    {
+      "path": "Oblivion.exe",
+      "size": 7549440,
+      "sha256": "035dba38fddd325b3ca18afdaacd086eecf7a8a33fce1abdb057e5cd831e1ee4"
+    },
+    {
+      "path": "Oblivion_default.ini",
+      "size": 12766,
+      "sha256": "1111363369502f4d3546435878b61b7744512b5e817c120796d4c8c8fd4a5f1a"
+    },
+    {
+      "path": "OblivionLauncher.exe",
+      "size": 1662976,
+      "sha256": "2ab982d924fbbf4b704f95e001842dc83bf95dee56cef26141531e4db758159e"
+    },
+    {
+      "path": "Readme.txt",
+      "size": 22450,
+      "sha256": "c9479151b0f90b3b2ad3189834093a05b752e369b1c8ea6f1c9be7c289dcf5cf"
+    },
+    {
+      "path": "support.ico",
+      "size": 62895,
+      "sha256": "05fe749ef47d1ec862d6c55be78e66d1011226bf1f78409acf57cb79cec5eb20"
+    },
+    {
+      "path": "webcache.zip",
+      "size": 283572,
+      "sha256": "f69f4477bf55de48a0cbb15c8929631f592998e4893885edb18eca6275bfd2fe"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "atimgpud.dll",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 40960
+        },
+        {
+          "file": "Bethesda.TXT",
+          "file_offset": 0,
+          "chunk_offset": 49260736,
+          "length": 395
+        },
+        {
+          "file": "binkw32.dll",
+          "file_offset": 0,
+          "chunk_offset": 49261131,
+          "length": 338944
+        },
+        {
+          "file": "Data/Credits.txt",
+          "file_offset": 0,
+          "chunk_offset": 49600075,
+          "length": 10662
+        },
+        {
+          "file": "Data/DLCBattlehornCastle.bsa",
+          "file_offset": 0,
+          "chunk_offset": 49610737,
+          "length": 9162178
+        },
+        {
+          "file": "Data/DLCBattlehornCastle.esp",
+          "file_offset": 0,
+          "chunk_offset": 58772915,
+          "length": 676894
+        },
+        {
+          "file": "Data/DLCFrostcrag.bsa",
+          "file_offset": 0,
+          "chunk_offset": 59449809,
+          "length": 17212790
+        },
+        {
+          "file": "Data/DLCFrostcrag.esp",
+          "file_offset": 0,
+          "chunk_offset": 76662599,
+          "length": 191358
+        },
+        {
+          "file": "Data/DLCHorseArmor.bsa",
+          "file_offset": 0,
+          "chunk_offset": 76853957,
+          "length": 4018605
+        },
+        {
+          "file": "Data/DLCHorseArmor.esp",
+          "file_offset": 0,
+          "chunk_offset": 80872562,
+          "length": 97179
+        },
+        {
+          "file": "Data/DLCList.txt",
+          "file_offset": 0,
+          "chunk_offset": 80969741,
+          "length": 320
+        },
+        {
+          "file": "Data/DLCMehrunesRazor.esp",
+          "file_offset": 0,
+          "chunk_offset": 80970061,
+          "length": 728780
+        },
+        {
+          "file": "Data/DLCOrrery.bsa",
+          "file_offset": 0,
+          "chunk_offset": 81698841,
+          "length": 16545273
+        },
+        {
+          "file": "Data/DLCOrrery.esp",
+          "file_offset": 0,
+          "chunk_offset": 98244114,
+          "length": 47424
+        },
+        {
+          "file": "Data/DLCShiveringIsles - Meshes.bsa",
+          "file_offset": 0,
+          "chunk_offset": 98291538,
+          "length": 50355927
+        }
+      ],
+      "sha256": "31839a31c1aa9b1ad6c0dc7c7c0d13162c52a3b54d7d3104d6d96bc7ff33e78b"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/DLCShiveringIsles - Meshes.bsa",
+          "file_offset": 50355927,
+          "chunk_offset": 0,
+          "length": 71983944
+        },
+        {
+          "file": "Data/DLCShiveringIsles - Sounds.bsa",
+          "file_offset": 0,
+          "chunk_offset": 71983944,
+          "length": 76663521
+        }
+      ],
+      "sha256": "4a0fd39798ee8380c3a16bd696431837c81885a48f52717af6d77c249da93a6a"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/DLCShiveringIsles - Sounds.bsa",
+          "file_offset": 76663521,
+          "chunk_offset": 0,
+          "length": 15027266
+        },
+        {
+          "file": "Data/DLCShiveringIsles - Textures.bsa",
+          "file_offset": 0,
+          "chunk_offset": 15027266,
+          "length": 133620199
+        }
+      ],
+      "sha256": "3e09f0200013b63f30130c8c18e6d82c526f475d8553028644dbed306e7ddf50"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/DLCShiveringIsles - Textures.bsa",
+          "file_offset": 133620199,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "4602401784b1b1867f9e8452a90f5010504b4f4ea04c9c40009197e274b45849"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/DLCShiveringIsles - Textures.bsa",
+          "file_offset": 282267664,
+          "chunk_offset": 0,
+          "length": 30539086
+        },
+        {
+          "file": "Data/DLCShiveringIsles - Voices.bsa",
+          "file_offset": 0,
+          "chunk_offset": 30539086,
+          "length": 118108379
+        }
+      ],
+      "sha256": "447cf2b2d831a08991e27854a5ead0e5922ba400a6e7d598772da048657293fa"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/DLCShiveringIsles - Voices.bsa",
+          "file_offset": 118108379,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "fcf030c58c2ee66d3454c02d8d8f403e2736440d8b4a42a4aca8b4b61ca15907"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/DLCShiveringIsles - Voices.bsa",
+          "file_offset": 266755844,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "11841df4892564c331c6384ed7f2c7a1e4427c023ac18c2785803bb064d01126"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/DLCShiveringIsles - Voices.bsa",
+          "file_offset": 415403309,
+          "chunk_offset": 0,
+          "length": 37548914
+        },
+        {
+          "file": "Data/DLCShiveringIsles.esp",
+          "file_offset": 0,
+          "chunk_offset": 37548914,
+          "length": 85
+        },
+        {
+          "file": "Data/DLCSpellTomes.esp",
+          "file_offset": 0,
+          "chunk_offset": 37548999,
+          "length": 625246
+        },
+        {
+          "file": "Data/DLCThievesDen.bsa",
+          "file_offset": 0,
+          "chunk_offset": 38174245,
+          "length": 2126264
+        },
+        {
+          "file": "Data/DLCThievesDen.esp",
+          "file_offset": 0,
+          "chunk_offset": 40300509,
+          "length": 233735
+        },
+        {
+          "file": "Data/DLCVileLair.bsa",
+          "file_offset": 0,
+          "chunk_offset": 40534244,
+          "length": 4145181
+        },
+        {
+          "file": "Data/DLCVileLair.esp",
+          "file_offset": 0,
+          "chunk_offset": 44679425,
+          "length": 257153
+        },
+        {
+          "file": "Data/Knights.bsa",
+          "file_offset": 0,
+          "chunk_offset": 44936578,
+          "length": 103710887
+        }
+      ],
+      "sha256": "7baad061937578c8576890472b8d8913c85e1de2310819c776d1e9c14e350019"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Knights.bsa",
+          "file_offset": 103710887,
+          "chunk_offset": 0,
+          "length": 67307528
+        },
+        {
+          "file": "Data/Knights.esp",
+          "file_offset": 0,
+          "chunk_offset": 67307528,
+          "length": 2211935
+        },
+        {
+          "file": "Data/Music/Battle/battle_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 69519463,
+          "length": 3075135
+        },
+        {
+          "file": "Data/Music/Battle/battle_02.mp3",
+          "file_offset": 0,
+          "chunk_offset": 72594598,
+          "length": 1605591
+        },
+        {
+          "file": "Data/Music/Battle/battle_03.mp3",
+          "file_offset": 0,
+          "chunk_offset": 74200189,
+          "length": 1481457
+        },
+        {
+          "file": "Data/Music/Battle/battle_04.mp3",
+          "file_offset": 0,
+          "chunk_offset": 75681646,
+          "length": 1819377
+        },
+        {
+          "file": "Data/Music/Battle/battle_05.mp3",
+          "file_offset": 0,
+          "chunk_offset": 77501023,
+          "length": 1786149
+        },
+        {
+          "file": "Data/Music/Battle/battle_06.mp3",
+          "file_offset": 0,
+          "chunk_offset": 79287172,
+          "length": 1944765
+        },
+        {
+          "file": "Data/Music/Battle/battle_07.mp3",
+          "file_offset": 0,
+          "chunk_offset": 81231937,
+          "length": 1667658
+        },
+        {
+          "file": "Data/Music/Battle/battle_08.mp3",
+          "file_offset": 0,
+          "chunk_offset": 82899595,
+          "length": 1640699
+        },
+        {
+          "file": "Data/Music/Dungeon/Dungeon_01_v2.mp3",
+          "file_offset": 0,
+          "chunk_offset": 84540294,
+          "length": 2452585
+        },
+        {
+          "file": "Data/Music/Dungeon/dungeon_02.mp3",
+          "file_offset": 0,
+          "chunk_offset": 86992879,
+          "length": 3648157
+        },
+        {
+          "file": "Data/Music/Dungeon/dungeon_03.mp3",
+          "file_offset": 0,
+          "chunk_offset": 90641036,
+          "length": 1554182
+        },
+        {
+          "file": "Data/Music/Dungeon/dungeon_04.mp3",
+          "file_offset": 0,
+          "chunk_offset": 92195218,
+          "length": 1695243
+        },
+        {
+          "file": "Data/Music/Dungeon/dungeon_05.mp3",
+          "file_offset": 0,
+          "chunk_offset": 93890461,
+          "length": 1578632
+        },
+        {
+          "file": "Data/Music/Explore/atmosphere_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 95469093,
+          "length": 3562267
+        },
+        {
+          "file": "Data/Music/Explore/atmosphere_03.mp3",
+          "file_offset": 0,
+          "chunk_offset": 99031360,
+          "length": 6224876
+        },
+        {
+          "file": "Data/Music/Explore/atmosphere_04.mp3",
+          "file_offset": 0,
+          "chunk_offset": 105256236,
+          "length": 6757147
+        },
+        {
+          "file": "Data/Music/Explore/atmosphere_06.mp3",
+          "file_offset": 0,
+          "chunk_offset": 112013383,
+          "length": 4445623
+        },
+        {
+          "file": "Data/Music/Explore/atmosphere_07.mp3",
+          "file_offset": 0,
+          "chunk_offset": 116459006,
+          "length": 5040588
+        },
+        {
+          "file": "Data/Music/Explore/atmosphere_08.mp3",
+          "file_offset": 0,
+          "chunk_offset": 121499594,
+          "length": 5870028
+        },
+        {
+          "file": "Data/Music/Explore/atmosphere_09.mp3",
+          "file_offset": 0,
+          "chunk_offset": 127369622,
+          "length": 6026136
+        },
+        {
+          "file": "Data/Music/Public/town_01.mp3",
+          "file_offset": 0,
+          "chunk_offset": 133395758,
+          "length": 4114600
+        },
+        {
+          "file": "Data/Music/Public/town_02.mp3",
+          "file_offset": 0,
+          "chunk_offset": 137510358,
+          "length": 3492049
+        },
+        {
+          "file": "Data/Music/Public/town_03.mp3",
+          "file_offset": 0,
+          "chunk_offset": 141002407,
+          "length": 4234345
+        },
+        {
+          "file": "Data/Music/Public/town_04.mp3",
+          "file_offset": 0,
+          "chunk_offset": 145236752,
+          "length": 3003664
+        },
+        {
+          "file": "Data/Music/Public/town_05.mp3",
+          "file_offset": 0,
+          "chunk_offset": 148240416,
+          "length": 407049
+        }
+      ],
+      "sha256": "1e34e74fadda5cdf43b588fb59e1d1248b30057de927000503e4fc5570ec9118"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Music/Public/town_05.mp3",
+          "file_offset": 407049,
+          "chunk_offset": 0,
+          "length": 2731407
+        },
+        {
+          "file": "Data/Music/Special/death.mp3",
+          "file_offset": 0,
+          "chunk_offset": 2731407,
+          "length": 324128
+        },
+        {
+          "file": "Data/Music/Special/success.mp3",
+          "file_offset": 0,
+          "chunk_offset": 3055535,
+          "length": 424438
+        },
+        {
+          "file": "Data/Music/Special/tes4title.mp3",
+          "file_offset": 0,
+          "chunk_offset": 3479973,
+          "length": 2662609
+        },
+        {
+          "file": "Data/Oblivion - Meshes.bsa",
+          "file_offset": 0,
+          "chunk_offset": 6142582,
+          "length": 142504883
+        }
+      ],
+      "sha256": "15141918b8e6d45a8b8df9564d74240012109529af025b83309f7f8530315148"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Meshes.bsa",
+          "file_offset": 142504883,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "d791e6684209a5c467b44306ed585fa057b308cefd34135ed256b8df7fe82c00"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Meshes.bsa",
+          "file_offset": 291152348,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "95490bf77f5c556546bb94065b66ac2c228732da0d4535c7d0262687c1fa61e6"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Meshes.bsa",
+          "file_offset": 439799813,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "bfff0598bea34f7d0292936dc6eb29b36e5c821b2ccbf80e8d0a58ee302bf23f"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Meshes.bsa",
+          "file_offset": 588447278,
+          "chunk_offset": 0,
+          "length": 82958619
+        },
+        {
+          "file": "Data/Oblivion - Misc.bsa",
+          "file_offset": 0,
+          "chunk_offset": 82958619,
+          "length": 7229551
+        },
+        {
+          "file": "Data/Oblivion - Sounds.bsa",
+          "file_offset": 0,
+          "chunk_offset": 90188170,
+          "length": 58459295
+        }
+      ],
+      "sha256": "66d36147f701487c4405cc1533ab7d7ad3c4541760b435785d3a494d2172646a"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Sounds.bsa",
+          "file_offset": 58459295,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "573555b3f93feadda4537072dc46f4808b4683d03f6de1b17e4d21e773b80f7c"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Sounds.bsa",
+          "file_offset": 207106760,
+          "chunk_offset": 0,
+          "length": 123326105
+        },
+        {
+          "file": "Data/Oblivion - Textures - Compressed.bsa",
+          "file_offset": 0,
+          "chunk_offset": 123326105,
+          "length": 25321360
+        }
+      ],
+      "sha256": "3875462b47ebf56c218b41105394debea415b9ebcfcbcb64f00d00d9fc05ffdb"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Textures - Compressed.bsa",
+          "file_offset": 25321360,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "17c4c7a132515bebfc8723759eb11b5da8ea47fca53117b87ac7d55fd814346e"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Textures - Compressed.bsa",
+          "file_offset": 173968825,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "c46537dfcce85b390585f11acaf4cbdf54e11bbb17282f24159ce5ef1d882b66"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Textures - Compressed.bsa",
+          "file_offset": 322616290,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "c9de5ce4dbc120f6bb74a5a90debc8e72482166d68e07c74b8d30b16e9673290"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Textures - Compressed.bsa",
+          "file_offset": 471263755,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "9fe507aac422b82b48e9b79900a3f92c6e477be41dc9d16412d3ce20f19cebc6"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Textures - Compressed.bsa",
+          "file_offset": 619911220,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "d2c8c136625c416ef8c535491118ec1bda14b540f4b4a7a7cbeb37af91ad13ba"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Textures - Compressed.bsa",
+          "file_offset": 768558685,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "720b2cd74f755642523d83d7c7f2c5212af34e7a3d47e125d87f153d8c8545e9"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Textures - Compressed.bsa",
+          "file_offset": 917206150,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "4b548f1b2ba7a244c51ae02a0466b1abb59fe07f9f71f4b1bd998b85680f66f6"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Textures - Compressed.bsa",
+          "file_offset": 1065853615,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "f62a43a40a37a4c9184cb22c6e96844f37f43c8de0c6234d6b166f43007db210"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Textures - Compressed.bsa",
+          "file_offset": 1214501080,
+          "chunk_offset": 0,
+          "length": 3316768
+        },
+        {
+          "file": "Data/Oblivion - Voices1.bsa",
+          "file_offset": 0,
+          "chunk_offset": 3316768,
+          "length": 145330697
+        }
+      ],
+      "sha256": "c55bc67404679784a950a6b771ff78ffed7531effbcbbcc7b981717af6e0c14c"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Voices1.bsa",
+          "file_offset": 145330697,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "963bcc8428b52cb263ecef19566027c8f8d214dcec5a3f0954be9f6ccafd4fdf"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Voices1.bsa",
+          "file_offset": 293978162,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "68a4219baa251d7c188cd813caa16cb965a7bad59647ce405175cfdd81ddec81"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Voices1.bsa",
+          "file_offset": 442625627,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "027af605eed3531d6de25797d3537c4c994002dfbe66d5a7d4f909cc2e00c299"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Voices1.bsa",
+          "file_offset": 591273092,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "d242626a0f2dff0a25d9e2c9fef27fe8aea18ff09c9d6e24b9f3483d12a73b27"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Voices1.bsa",
+          "file_offset": 739920557,
+          "chunk_offset": 0,
+          "length": 47453116
+        },
+        {
+          "file": "Data/Oblivion - Voices2.bsa",
+          "file_offset": 0,
+          "chunk_offset": 47453116,
+          "length": 101194349
+        }
+      ],
+      "sha256": "6e7dc29ea0d2500d8e19f9d120f64e919b3aef9eada432d04ccdf252487e7011"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Voices2.bsa",
+          "file_offset": 101194349,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "1972f63f7c76daec23088b201041f9b33fa227e7566039f6861097aac9fd7444"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Voices2.bsa",
+          "file_offset": 249841814,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "ecbd1150a09e87987f81c9a1c052b7ef7c557efa2e27278474a62ea133267b19"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Voices2.bsa",
+          "file_offset": 398489279,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "27d7a26e9ea96bd7e6545123fae5b384cf8160f6790ffe3068f4b4390a215d5b"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Voices2.bsa",
+          "file_offset": 547136744,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "f2e6ff631acd5e1e5eea9cc1abfefb6f85141d67e46c06ea3fb19cdc09f7bd46"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Voices2.bsa",
+          "file_offset": 695784209,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "3c6d510fea7570fb7b4b41a950f092ccc5700433a22c7b6934b0653feb3d9e15"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Voices2.bsa",
+          "file_offset": 844431674,
+          "chunk_offset": 0,
+          "length": 148647465
+        }
+      ],
+      "sha256": "247e32a84c9ea63260dfe832bf8be0bef539231034a34fc01035ee83cbbe5e90"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion - Voices2.bsa",
+          "file_offset": 993079139,
+          "chunk_offset": 0,
+          "length": 11928243
+        },
+        {
+          "file": "Data/Oblivion.esm",
+          "file_offset": 0,
+          "chunk_offset": 11928243,
+          "length": 136719222
+        }
+      ],
+      "sha256": "0af63701f4880c48dd52c498279cd1e374487e9d1c8d51d1b6c5dde374084977"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Oblivion.esm",
+          "file_offset": 136719222,
+          "chunk_offset": 0,
+          "length": 140785763
+        },
+        {
+          "file": "Data/Shaders/shaderpackage001.sdp",
+          "file_offset": 0,
+          "chunk_offset": 140785763,
+          "length": 208612
+        },
+        {
+          "file": "Data/Shaders/shaderpackage002.sdp",
+          "file_offset": 0,
+          "chunk_offset": 140994375,
+          "length": 673804
+        },
+        {
+          "file": "Data/Shaders/shaderpackage003.sdp",
+          "file_offset": 0,
+          "chunk_offset": 141668179,
+          "length": 707276
+        },
+        {
+          "file": "Data/Shaders/shaderpackage004.sdp",
+          "file_offset": 0,
+          "chunk_offset": 142375455,
+          "length": 964920
+        },
+        {
+          "file": "Data/Shaders/shaderpackage005.sdp",
+          "file_offset": 0,
+          "chunk_offset": 143340375,
+          "length": 677716
+        },
+        {
+          "file": "Data/Shaders/shaderpackage006.sdp",
+          "file_offset": 0,
+          "chunk_offset": 144018091,
+          "length": 707276
+        },
+        {
+          "file": "Data/Shaders/shaderpackage007.sdp",
+          "file_offset": 0,
+          "chunk_offset": 144725367,
+          "length": 974144
+        },
+        {
+          "file": "Data/Shaders/shaderpackage008.sdp",
+          "file_offset": 0,
+          "chunk_offset": 145699511,
+          "length": 677716
+        },
+        {
+          "file": "Data/Shaders/shaderpackage009.sdp",
+          "file_offset": 0,
+          "chunk_offset": 146377227,
+          "length": 990708
+        },
+        {
+          "file": "Data/Shaders/shaderpackage010.sdp",
+          "file_offset": 0,
+          "chunk_offset": 147367935,
+          "length": 721608
+        },
+        {
+          "file": "Data/Shaders/shaderpackage011.sdp",
+          "file_offset": 0,
+          "chunk_offset": 148089543,
+          "length": 557922
+        }
+      ],
+      "sha256": "9d2e397c749a632f741cba5fc65dbef3442bfdb69310c9528700ee40f4f5bd39"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 148647465,
+      "segments": [
+        {
+          "file": "Data/Shaders/shaderpackage011.sdp",
+          "file_offset": 557922,
+          "chunk_offset": 0,
+          "length": 162750
+        },
+        {
+          "file": "Data/Shaders/shaderpackage012.sdp",
+          "file_offset": 0,
+          "chunk_offset": 162750,
+          "length": 983412
+        },
+        {
+          "file": "Data/Shaders/shaderpackage013.sdp",
+          "file_offset": 0,
+          "chunk_offset": 1146162,
+          "length": 982476
+        },
+        {
+          "file": "Data/Shaders/shaderpackage014.sdp",
+          "file_offset": 0,
+          "chunk_offset": 2128638,
+          "length": 721608
+        },
+        {
+          "file": "Data/Shaders/shaderpackage015.sdp",
+          "file_offset": 0,
+          "chunk_offset": 2850246,
+          "length": 720672
+        },
+        {
+          "file": "Data/Shaders/shaderpackage016.sdp",
+          "file_offset": 0,
+          "chunk_offset": 3570918,
+          "length": 992892
+        },
+        {
+          "file": "Data/Shaders/shaderpackage017.sdp",
+          "file_offset": 0,
+          "chunk_offset": 4563810,
+          "length": 991956
+        },
+        {
+          "file": "Data/Shaders/shaderpackage018.sdp",
+          "file_offset": 0,
+          "chunk_offset": 5555766,
+          "length": 1010676
+        },
+        {
+          "file": "Data/Shaders/shaderpackage019.sdp",
+          "file_offset": 0,
+          "chunk_offset": 6566442,
+          "length": 1009740
+        },
+        {
+          "file": "Data/Textures/Effects/TerrainNoise.dds",
+          "file_offset": 0,
+          "chunk_offset": 7576182,
+          "length": 174904
+        },
+        {
+          "file": "Data/Video/2k games.bik",
+          "file_offset": 0,
+          "chunk_offset": 7751086,
+          "length": 688136
+        },
+        {
+          "file": "Data/Video/bethesda softworks HD720p.bik",
+          "file_offset": 0,
+          "chunk_offset": 8439222,
+          "length": 765456
+        },
+        {
+          "file": "Data/Video/CreditsMenu.bik",
+          "file_offset": 0,
+          "chunk_offset": 9204678,
+          "length": 22859528
+        },
+        {
+          "file": "Data/Video/game studios.bik",
+          "file_offset": 0,
+          "chunk_offset": 32064206,
+          "length": 5974828
+        },
+        {
+          "file": "Data/Video/Map loop.bik",
+          "file_offset": 0,
+          "chunk_offset": 38039034,
+          "length": 15019716
+        },
+        {
+          "file": "Data/Video/Oblivion iv logo.bik",
+          "file_offset": 0,
+          "chunk_offset": 53058750,
+          "length": 16738792
+        },
+        {
+          "file": "Data/Video/Oblivion Legal.bik",
+          "file_offset": 0,
+          "chunk_offset": 69797542,
+          "length": 787752
+        },
+        {
+          "file": "Data/Video/OblivionIntro.bik",
+          "file_offset": 0,
+          "chunk_offset": 70585294,
+          "length": 78062171
+        }
+      ],
+      "sha256": "43e146c817870921bea2acf54a96c96371720e8f79ce4167fb399130785ce2a4"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 148647459,
+      "segments": [
+        {
+          "file": "Data/Video/OblivionIntro.bik",
+          "file_offset": 78062171,
+          "chunk_offset": 0,
+          "length": 58096985
+        },
+        {
+          "file": "Data/Video/OblivionOutro.bik",
+          "file_offset": 0,
+          "chunk_offset": 58096985,
+          "length": 70578488
+        },
+        {
+          "file": "EULA.txt",
+          "file_offset": 0,
+          "chunk_offset": 128675473,
+          "length": 38316
+        },
+        {
+          "file": "gog.ico",
+          "file_offset": 0,
+          "chunk_offset": 128713789,
+          "length": 69248
+        },
+        {
+          "file": "goggame-1458058109.dll",
+          "file_offset": 0,
+          "chunk_offset": 128783037,
+          "length": 318544
+        },
+        {
+          "file": "goggame-1458058109.hashdb",
+          "file_offset": 0,
+          "chunk_offset": 129101581,
+          "length": 3499
+        },
+        {
+          "file": "goggame-1458058109.ico",
+          "file_offset": 0,
+          "chunk_offset": 129105080,
+          "length": 68561
+        },
+        {
+          "file": "goggame-1458058109.info",
+          "file_offset": 0,
+          "chunk_offset": 129173641,
+          "length": 1417
+        },
+        {
+          "file": "goggame-1458058109.script",
+          "file_offset": 0,
+          "chunk_offset": 129175058,
+          "length": 954
+        },
+        {
+          "file": "goglog.ini",
+          "file_offset": 0,
+          "chunk_offset": 129176012,
+          "length": 273
+        },
+        {
+          "file": "Launch The Elder Scrolls IV - Oblivion.lnk",
+          "file_offset": 0,
+          "chunk_offset": 129176285,
+          "length": 1651
+        },
+        {
+          "file": "LauncherMusic.wav",
+          "file_offset": 0,
+          "chunk_offset": 129177936,
+          "length": 7778564
+        },
+        {
+          "file": "manual.pdf",
+          "file_offset": 0,
+          "chunk_offset": 136956500,
+          "length": 2096860
+        },
+        {
+          "file": "Oblivion.exe",
+          "file_offset": 0,
+          "chunk_offset": 139053360,
+          "length": 7549440
+        },
+        {
+          "file": "Oblivion_default.ini",
+          "file_offset": 0,
+          "chunk_offset": 146602800,
+          "length": 12766
+        },
+        {
+          "file": "OblivionLauncher.exe",
+          "file_offset": 0,
+          "chunk_offset": 146615566,
+          "length": 1662976
+        },
+        {
+          "file": "Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 148278542,
+          "length": 22450
+        },
+        {
+          "file": "support.ico",
+          "file_offset": 0,
+          "chunk_offset": 148300992,
+          "length": 62895
+        },
+        {
+          "file": "webcache.zip",
+          "file_offset": 0,
+          "chunk_offset": 148363887,
+          "length": 283572
+        }
+      ],
+      "sha256": "acdeb6f4ef2a638dd7bd719c66d2c89402916d5815eb081901f9a3de1891ee59"
+    }
+  ]
+}
