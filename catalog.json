@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-23T16:13:20.280099+00:00",
+  "updated_at": "2026-08-23T16:52:59.788823+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2001,6 +2001,41 @@
       },
       "media": {
         "steam_app_id": 387290
+      }
+    },
+    {
+      "id": "batman-arkham-knight",
+      "title": "Batman™: Arkham Knight",
+      "platform": "pc",
+      "description": "Batman™: Arkham Knight brings the award-winning Arkham trilogy from Rocksteady Studios to its epic conclusion. Developed exclusively for New-Gen platforms, Batman: Arkham Knight introduces Rocksteady's uniquely designed version of the Batmobile.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/batman-arkham-knight/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/batman-arkham-knight/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/batman-arkham-knight/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/batman-arkham-knight/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/batman-arkham-knight/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/batman-arkham-knight/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/batman-arkham-knight/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/batman-arkham-knight/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/batman-arkham-knight/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/batman-arkham-knight/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/batman-arkham-knight/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/batman-arkham-knight/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-batman-arkham-knight-v1.0.0-stable",
+          "manifest_path": "manifests/pc/batman-arkham-knight/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/batman-arkham-knight/stable/1.0.0.json",
+          "size": 58186640638,
+          "published_at": "2026-08-23T16:52:59.788808+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 208650
       }
     }
   ]
