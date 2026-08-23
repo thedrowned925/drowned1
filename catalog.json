@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-23T16:52:59.788823+00:00",
+  "updated_at": "2026-08-23T18:07:10.001018+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2036,6 +2036,37 @@
       },
       "media": {
         "steam_app_id": 208650
+      }
+    },
+    {
+      "id": "assassin-s-creed-iii",
+      "title": "Assassin’s Creed® III",
+      "platform": "pc",
+      "description": "The American Colonies, 1775. As a Native American assassin fights to protect his land and people, he will ignite the flames of a young nation’s revolution.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-iii/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-iii/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-iii/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-iii/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-iii/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-iii/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-iii/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-iii/screenshots/03.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-assassin-s-creed-iii-v1.0.0-stable",
+          "manifest_path": "manifests/pc/assassin-s-creed-iii/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/assassin-s-creed-iii/stable/1.0.0.json",
+          "size": 18629168608,
+          "published_at": "2026-08-23T18:07:10.000994+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 208480
       }
     }
   ]
