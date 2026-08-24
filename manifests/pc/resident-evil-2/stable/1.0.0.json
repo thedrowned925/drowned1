@@ -1,0 +1,1635 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "resident-evil-2",
+    "title": "Resident Evil 2",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "A deadly virus engulfs the residents of Raccoon City in September of 1998, plunging the city into chaos as flesh eating zombies roam the streets for survivors. An unparalleled adrenaline rush, gripping storyline, and unimaginable horrors await you. Witness the return of Resident Evil 2."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-resident-evil-2-v1.0.0-stable"
+  },
+  "chunk_size": 646115739,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 25844629542,
+  "files": [
+    {
+      "path": "883710",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "_CommonRedist/_redist_readme.txt",
+      "size": 2038,
+      "sha256": "b9ff3c3422e06fb509f4d9ea3ae4493ee804a7efdd1297fbff8eceed40b6c403"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 295320,
+      "sha256": "2cf71d098c608c56e07f4655855a886c3102553f648df88458df616b26fd612f"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+      "size": 31533074,
+      "sha256": "3c188e4651bcc07df2bdb06d69585158797b1bafb91557b09217621628cd5b23"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054848,
+      "sha256": "47260420773a20443fb1e38a89b7f39c5237a80a842de598e6c8f7f90a3bbd6d"
+    },
+    {
+      "path": "amd_ags_x64.dll",
+      "size": 42496,
+      "sha256": "298b40fb70c142cc61135a125ff6c2a2e474526b9a7045102666a9434e84f459"
+    },
+    {
+      "path": "D3D12/D3D12Core.dll",
+      "size": 2989448,
+      "sha256": "5cdfe7bb0fc0bfd7cfbfc5e31f88d279857ccf127188ae3882e34f42a211cdc7"
+    },
+    {
+      "path": "dlc/re_dlc_stm_920560.pak",
+      "size": 164460482,
+      "sha256": "c88ddc29fbdf2521e9e57a7eba66e6d7a5f4bae30f2ba0f3fea56f0520d14a53"
+    },
+    {
+      "path": "dlc/re_dlc_stm_920561.pak",
+      "size": 162757174,
+      "sha256": "f1261e391011f1d333cb1ea0d1447d65f903be862dd46c80bfa6cefaf9c638df"
+    },
+    {
+      "path": "dlc/re_dlc_stm_920562.pak",
+      "size": 146893562,
+      "sha256": "a8fdfe8ee1c9509698ce28a0af47eebcda70848595c8392dbab78953b9536e2e"
+    },
+    {
+      "path": "dlc/re_dlc_stm_920563.pak",
+      "size": 103460608,
+      "sha256": "3cbba2b222127491c600e401114a9be282f59cd643b27cc41acd7d9b84ae1bdc"
+    },
+    {
+      "path": "dlc/re_dlc_stm_920564.pak",
+      "size": 126164667,
+      "sha256": "05dd87fe83f46c829aed3a52c8e78a1a8bec2c5331f0b4b9f30a738e1cf280c4"
+    },
+    {
+      "path": "dlc/re_dlc_stm_920565.pak",
+      "size": 41946718,
+      "sha256": "a89d75cedba9af70d53ba01e13e015edacb930e7f35c1500daea52b1bdb7f5d7"
+    },
+    {
+      "path": "dlc/re_dlc_stm_920566.pak",
+      "size": 40899693,
+      "sha256": "e494151f328bc4307c76a17bb3e2eee61f3017b09990d30ba89b1072ae5035b7"
+    },
+    {
+      "path": "dlc/re_dlc_stm_920567.pak",
+      "size": 80705774,
+      "sha256": "4689c95b5751b9e63d64eab73626a88296070e833f5c84378a80b438402e4143"
+    },
+    {
+      "path": "dlc/re_dlc_stm_920568.pak",
+      "size": 57572360,
+      "sha256": "8e1b30eb2012e6ba16ffbed27b58dcdaa5cfe5b10d10ac2098749f7d9712e51e"
+    },
+    {
+      "path": "dlc/re_dlc_stm_920569.pak",
+      "size": 59761115,
+      "sha256": "b3590d8b16a9e165124ff8d93b41190cbbfc2bf06854b9a0f412703c4ecc3696"
+    },
+    {
+      "path": "dlc/re_dlc_stm_920570.pak",
+      "size": 59850833,
+      "sha256": "5824b78be27ca8f734f69381f0f9a1195e949da3b3f7c8c7304b112cb592abd2"
+    },
+    {
+      "path": "dlc/re_dlc_stm_920571.pak",
+      "size": 8418,
+      "sha256": "04480c0d0bd2bc543decd98ef7a5ec2b50275c670553aee4797df730b39534cf"
+    },
+    {
+      "path": "ISACEffect.dll",
+      "size": 29184,
+      "sha256": "c26326438976e15e8c730aecf0c6c64619666e4e98ea7e4e40fa0c55ca7c3606"
+    },
+    {
+      "path": "ISACMixer.dll",
+      "size": 40960,
+      "sha256": "4688a0e67ff785a3149061325583122f6caea8053feef8a2a00c750f87388856"
+    },
+    {
+      "path": "ISACSink.dll",
+      "size": 29696,
+      "sha256": "dc27e7f4b7ef106c723da662da0f867e6809b11eda2755faaaa3b6b2a6c28756"
+    },
+    {
+      "path": "iZotope.dll",
+      "size": 465920,
+      "sha256": "5c46889f36607320a4db53ee14dbc934046d3825944a4586caf4ed5631e4897f"
+    },
+    {
+      "path": "McDSP.dll",
+      "size": 260608,
+      "sha256": "2c42d9d9e0a4890e5a1db02e0f3a7700e822dd0f3dce2572091d23f649c7d21f"
+    },
+    {
+      "path": "MSSpatial.dll",
+      "size": 125440,
+      "sha256": "d42684551b598cbb449e44e63498cd434ae776d0b80131127d076168f3785c23"
+    },
+    {
+      "path": "re2.cdx",
+      "size": 157996440,
+      "sha256": "6caaa815bf9e95f8a841bc81fdf29fec55e836c87bab8a76d55c69bef9ada941"
+    },
+    {
+      "path": "re2.exe",
+      "size": 157996672,
+      "sha256": "6dc1a5eb0eaead5a807a7f34b1f5316e13f3a3645d4d2c9c71ed70943a8a8160"
+    },
+    {
+      "path": "re2_config.ini",
+      "size": 8953,
+      "sha256": "58b2c521e188de5c9de03609355202972c80710fd85022b6d40fe59e0401f23d"
+    },
+    {
+      "path": "re2_config_default.ini",
+      "size": 478,
+      "sha256": "622bc22fadba035312dc36075479310813a2811d0336b67ad5854ad1eff8cee5"
+    },
+    {
+      "path": "re_chunk_000.pak",
+      "size": 23710519225,
+      "sha256": "4a7ef03ed39cfdad7de3341f3db5f034a70d0f3b6f6a80da366081f7d80687d2"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_001.pak",
+      "size": 239842405,
+      "sha256": "b98cc700f6a1c66f6c9fd2c0ebd68fe3ca261104202c4b15bdf774f4badf59c0"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_002.pak",
+      "size": 238750631,
+      "sha256": "2107b0635146595369ef2ef59a9d4188dc5007ad5b0c363557d983940331328a"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_003.pak",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_004.pak",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_005.pak",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_006.pak",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_007.pak",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "shader.cache2",
+      "size": 4575180,
+      "sha256": "048bcfea44763aa7dd66d5f6c7cc8e9429a05558d5bedf633781d71008701a94"
+    },
+    {
+      "path": "steam_api64.cdx",
+      "size": 265504,
+      "sha256": "ca1fa9a7609ab10b7926400559cf073e5888423cc156af72c6027d72a89eea73"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 411048,
+      "sha256": "55bfb4a17b931176304990be2f502c4e8b29c6ee2893527d973740e2104ca92f"
+    },
+    {
+      "path": "steam_emu.ini",
+      "size": 3444,
+      "sha256": "a5b5525700db30d59def25f5acc479d0287aebb8ffe4b5721310a5f2b29b9c39"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_01.png",
+      "size": 1384378,
+      "sha256": "0e2e563e2fa4feb722717099060a3068dce78d5a24cade73af4404fd21416b22"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_02.png",
+      "size": 1421664,
+      "sha256": "992aeebb335782d257c0dfdc5b23c7735d522f999c89403db97ce27904164a05"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_03.png",
+      "size": 1151216,
+      "sha256": "12e292df3ebe44e45d6989010307af44fc793aa74dbe1e8c1fbfc5f4dae01655"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_04.png",
+      "size": 1516240,
+      "sha256": "8e6af0a6e8a95c7f419fd71e8e7d7e84aef32e2bb8be4a0eeab04d9e93722935"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_05.png",
+      "size": 1116601,
+      "sha256": "8d313a7011d89788b46c9797a7f8132b4efb602298eb528aba994249c44414c1"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_06.png",
+      "size": 927764,
+      "sha256": "dda196edbc254da91426a29eaa8d124b91e7590d26be7c78d1330c60f62a3419"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_07.png",
+      "size": 846024,
+      "sha256": "76db2db332ab74d494259d91cd3334a695524684fca14e108d61de0647dde636"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_08.png",
+      "size": 1155785,
+      "sha256": "c88da41f52b6576e05adee3b20b709df47d0052044a331af5163f37bd172f4e9"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_09.png",
+      "size": 1490310,
+      "sha256": "1fcf476b6f4d251e09cfde61e4ad2e2965f89fdfbfaebb34228ee0d7221ffa61"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_10.png",
+      "size": 831613,
+      "sha256": "365dccf6aae160cb99c3abf9eba90d8905c8556639b964bf4b09b40bc3f6da19"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_11.png",
+      "size": 966535,
+      "sha256": "30b1c6b1fa6bc201963a4a3530605ef59f04eb4c2ddf32ab3c2b1af8e006f942"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_12.png",
+      "size": 928641,
+      "sha256": "e010a9a8f42c67bd84574e179fbaac15bd0b47c8a9b99dfce653ae1778dccf69"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_13.png",
+      "size": 1109904,
+      "sha256": "92f32b4960590a187fdc3d74585d69deab09c2257e9490b1f63f0f2de2632433"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_14.png",
+      "size": 743361,
+      "sha256": "b09f317d6958486f8b42ba1435d01f10190d19107d31b63ad0d423f26e79ef98"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_15.png",
+      "size": 886331,
+      "sha256": "998b7f4e3d106d97f214e6201d84a2b2dfcf719386f84f3e9426f3d94c1dfb99"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_16.png",
+      "size": 745482,
+      "sha256": "73feced625f08117c39772c200192d329de20889eed3e3dc765de29c89a415d8"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_17.png",
+      "size": 704563,
+      "sha256": "e3fa49420ec8c60f0f7450257639aea29f0dff15a88ef4df90f6d59b2c487957"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_18.png",
+      "size": 935958,
+      "sha256": "2ca33330a80544d2bc80f4df50e6e7b56fec9aaed4a0dca44d9b9705f97bcac0"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_19.png",
+      "size": 810511,
+      "sha256": "94b8b20e2ab1a7fc4e46a5dce431fe148256b2376022f732f043c7db4bb017ad"
+    },
+    {
+      "path": "Wallpaper/1280x720/Wallpaper_20.png",
+      "size": 1394355,
+      "sha256": "d6bc60bd403eb1b2a25a4228dfe6db8961f2c6580f0f202da7d90bfcce69b3d1"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_01.png",
+      "size": 2834479,
+      "sha256": "f305cebefcd9a41c10e661425ab587ebf42ea0ca12ad5f4fc149542207cf294d"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_02.png",
+      "size": 3053786,
+      "sha256": "4a9f79df0cca2f70e3f89068ac4d9e739f5bceb5e6c6ba91b60c56a4b8266287"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_03.png",
+      "size": 2519267,
+      "sha256": "37fbd372b7d1f2f51fbda4aef1e59181eeaaf142abe2b19aefec029bdf4e5ce3"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_04.png",
+      "size": 3188368,
+      "sha256": "e01338e2a27f4cafe80e9c57a1005be767523f75845de27ec80887d2197e2b94"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_05.png",
+      "size": 2672075,
+      "sha256": "8467c0c289f9e67641e457eca660e4518ecb9bdada6542477e266ef12333983a"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_06.png",
+      "size": 1886914,
+      "sha256": "3488d91219a66852b64a7a8f104f8a1b8b2000d18c36c0fbe0dad2a9fa9ac8cb"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_07.png",
+      "size": 1814127,
+      "sha256": "728ac3e83683e8ec4e97c18ef4869c7ca388fb30d2a3f5b60bafbc59a6b08250"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_08.png",
+      "size": 2573987,
+      "sha256": "568aac5b14b50dc16059734d3f6b38d69c018201cef4b6fd80d531dcd2724aa5"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_09.png",
+      "size": 3449262,
+      "sha256": "1ce602cea98ba2254042de0d2b13c53f534c699c6cfd5f1e18c632a587f67e52"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_10.png",
+      "size": 1795748,
+      "sha256": "38358e1da425233895ac26c939a6e0937575b7ed3cf7687f03edd16364d5b32e"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_11.png",
+      "size": 2049327,
+      "sha256": "76069992c324a27c7f5460f20caa5036047c858b7d874901b0ff3cf05fcbe704"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_12.png",
+      "size": 1935735,
+      "sha256": "34d814d181e5f0feaf5f9ee3b46147d56c6b2dd8919990df2f28e8e41046adce"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_13.png",
+      "size": 2286354,
+      "sha256": "2449cbb623f88c82e006907c45ffbd5c61d9f0c5fd8fa58fc57ba4cdc5382385"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_14.png",
+      "size": 1499338,
+      "sha256": "4f01b937010f672097b9711eb9d3afb3d4dc57cafcdbe0ad3a4b372a9f72a95c"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_15.png",
+      "size": 1988926,
+      "sha256": "890c8ee569a0ca4b73af57cbc03939a726e93678c82953d445504413341a9546"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_16.png",
+      "size": 1674074,
+      "sha256": "1ebc08afd1a701ad89719117ddb62f88ef3dc7b27e8150c20be1c9ffab5c401d"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_17.png",
+      "size": 1363513,
+      "sha256": "7f3ba03666441643ae90ad969541d6ca08bc11f04e33ec319d1d17593afb0bbe"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_18.png",
+      "size": 2167176,
+      "sha256": "bcf7e415e3843834e2e04eacf9b78a2b960255f99a4e537cfcd6f1c80c440e59"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_19.png",
+      "size": 1801187,
+      "sha256": "7846d894fe93688e44441c12d19e1fa4b112c8cc64d8e9fb9dc47bb38daf659c"
+    },
+    {
+      "path": "Wallpaper/1920x1080/Wallpaper_20.png",
+      "size": 3202760,
+      "sha256": "afa038ddfb6f2a6a78ac85e8ecd5e644cc75615e98261826157b5586f8e6511c"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_01.png",
+      "size": 11557618,
+      "sha256": "6345813cf31b0eef0b19dbd15c4656a44f6a62278cd3343767d20a94e1b748b2"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_02.png",
+      "size": 11119933,
+      "sha256": "7aab723b3d0e415dd9a9c1528ca9c75246731a3d53b95fc26b77ec1498a236ea"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_03.png",
+      "size": 9358522,
+      "sha256": "4d7921255c919308bd6c23ea59186226c8d5947159096dcd323eaadd23aa36e0"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_04.png",
+      "size": 12102175,
+      "sha256": "06245422ddb66909027b4a06be3362c8ec060e09c24a94d8f5225d3815d612f0"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_05.png",
+      "size": 12020496,
+      "sha256": "8f1401037aab922556b5dccb17507158d67ee21aeb3575aadfc0a26c3e3cd90c"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_06.png",
+      "size": 6233731,
+      "sha256": "cb8cb7d44668abf728d8bd833f2e721142294cedac239be55bbac3c818d11cbd"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_07.png",
+      "size": 6095565,
+      "sha256": "536ce0f08c705d6212c366a2dd3e9245a70d1e6ea7db5e6ac549e68a95d3574e"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_08.png",
+      "size": 9096584,
+      "sha256": "38d62d44be53fc82dc86b865a9640d781d44549fcb6107222825d20dc9669592"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_09.png",
+      "size": 13015894,
+      "sha256": "004648504066a879577fe103dca7d6a8efe5edea1049609269b0457e4c0dd829"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_10.png",
+      "size": 6159246,
+      "sha256": "fbe5b13cd6fbb155912e9bbb99bf754a92ec4ef4bba4edd63f6cb2a7ac578942"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_11.png",
+      "size": 7633202,
+      "sha256": "a4b741cb517f204e9a74dd3d0d6452ffbe5a2f4f44d09724f12815ffe12e9f05"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_12.png",
+      "size": 6581950,
+      "sha256": "bc4c0061070146b60ec863ad713abe7b6bf76d26efda6fe97a8774a9e1785127"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_13.png",
+      "size": 7247476,
+      "sha256": "55219f553fc510be0ecfc95388c18dd31dd2cdaaa0156e7f5c15f73a9fb3df92"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_14.png",
+      "size": 4884556,
+      "sha256": "1cc8b8cd65e259e3b0085c98b034cb828f1fde85cdb05763b252e98146dafa60"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_15.png",
+      "size": 10527290,
+      "sha256": "8f10b491b5cadc3ed5608004ebf206d8e2ddb07fd3d00bae4302580af10af9df"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_16.png",
+      "size": 6861481,
+      "sha256": "c8f9e375495407d7ad1f4444a7b2a4a9110253fb285f3253853c7739c6cacdcc"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_17.png",
+      "size": 3508682,
+      "sha256": "63c637d7eb386b069501e52d97e2b3aeb639561635d23dc73d0314131ac4e7a0"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_18.png",
+      "size": 12208866,
+      "sha256": "de0fe22ad3567396668df5f1eb08b3855ccf3d849197bcf1835ef300020f4097"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_19.png",
+      "size": 6947627,
+      "sha256": "915a673b744191dce4cac22b8c4ba72fe3b249bbfac80d92a6a66f10d0eb8cc7"
+    },
+    {
+      "path": "Wallpaper/3840x2160/Wallpaper_20.png",
+      "size": 15225681,
+      "sha256": "309bedbee18e191e2a0061a9dbcf44661add29be12cef6257518e410eeb20fe7"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "_CommonRedist/_redist_readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 2038
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 2038,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 891454,
+          "length": 295320
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1186774,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1996270,
+          "length": 31533074
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 33529344,
+          "length": 7054848
+        },
+        {
+          "file": "amd_ags_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 40584192,
+          "length": 42496
+        },
+        {
+          "file": "D3D12/D3D12Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 40626688,
+          "length": 2989448
+        },
+        {
+          "file": "dlc/re_dlc_stm_920560.pak",
+          "file_offset": 0,
+          "chunk_offset": 43616136,
+          "length": 164460482
+        },
+        {
+          "file": "dlc/re_dlc_stm_920561.pak",
+          "file_offset": 0,
+          "chunk_offset": 208076618,
+          "length": 162757174
+        },
+        {
+          "file": "dlc/re_dlc_stm_920562.pak",
+          "file_offset": 0,
+          "chunk_offset": 370833792,
+          "length": 146893562
+        },
+        {
+          "file": "dlc/re_dlc_stm_920563.pak",
+          "file_offset": 0,
+          "chunk_offset": 517727354,
+          "length": 103460608
+        },
+        {
+          "file": "dlc/re_dlc_stm_920564.pak",
+          "file_offset": 0,
+          "chunk_offset": 621187962,
+          "length": 24927777
+        }
+      ],
+      "sha256": "0fc8357d3b8eb610f7198cf48c494a3667db83655ce50463d0436ad66cae3715"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_920564.pak",
+          "file_offset": 24927777,
+          "chunk_offset": 0,
+          "length": 101236890
+        },
+        {
+          "file": "dlc/re_dlc_stm_920565.pak",
+          "file_offset": 0,
+          "chunk_offset": 101236890,
+          "length": 41946718
+        },
+        {
+          "file": "dlc/re_dlc_stm_920566.pak",
+          "file_offset": 0,
+          "chunk_offset": 143183608,
+          "length": 40899693
+        },
+        {
+          "file": "dlc/re_dlc_stm_920567.pak",
+          "file_offset": 0,
+          "chunk_offset": 184083301,
+          "length": 80705774
+        },
+        {
+          "file": "dlc/re_dlc_stm_920568.pak",
+          "file_offset": 0,
+          "chunk_offset": 264789075,
+          "length": 57572360
+        },
+        {
+          "file": "dlc/re_dlc_stm_920569.pak",
+          "file_offset": 0,
+          "chunk_offset": 322361435,
+          "length": 59761115
+        },
+        {
+          "file": "dlc/re_dlc_stm_920570.pak",
+          "file_offset": 0,
+          "chunk_offset": 382122550,
+          "length": 59850833
+        },
+        {
+          "file": "dlc/re_dlc_stm_920571.pak",
+          "file_offset": 0,
+          "chunk_offset": 441973383,
+          "length": 8418
+        },
+        {
+          "file": "ISACEffect.dll",
+          "file_offset": 0,
+          "chunk_offset": 441981801,
+          "length": 29184
+        },
+        {
+          "file": "ISACMixer.dll",
+          "file_offset": 0,
+          "chunk_offset": 442010985,
+          "length": 40960
+        },
+        {
+          "file": "ISACSink.dll",
+          "file_offset": 0,
+          "chunk_offset": 442051945,
+          "length": 29696
+        },
+        {
+          "file": "iZotope.dll",
+          "file_offset": 0,
+          "chunk_offset": 442081641,
+          "length": 465920
+        },
+        {
+          "file": "McDSP.dll",
+          "file_offset": 0,
+          "chunk_offset": 442547561,
+          "length": 260608
+        },
+        {
+          "file": "MSSpatial.dll",
+          "file_offset": 0,
+          "chunk_offset": 442808169,
+          "length": 125440
+        },
+        {
+          "file": "re2.cdx",
+          "file_offset": 0,
+          "chunk_offset": 442933609,
+          "length": 157996440
+        },
+        {
+          "file": "re2.exe",
+          "file_offset": 0,
+          "chunk_offset": 600930049,
+          "length": 45185690
+        }
+      ],
+      "sha256": "d7eaebf135dcf6d6be1b44456df721aea19580208acbe44580d612b3acb45e03"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re2.exe",
+          "file_offset": 45185690,
+          "chunk_offset": 0,
+          "length": 112810982
+        },
+        {
+          "file": "re2_config.ini",
+          "file_offset": 0,
+          "chunk_offset": 112810982,
+          "length": 8953
+        },
+        {
+          "file": "re2_config_default.ini",
+          "file_offset": 0,
+          "chunk_offset": 112819935,
+          "length": 478
+        },
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 0,
+          "chunk_offset": 112820413,
+          "length": 533295326
+        }
+      ],
+      "sha256": "650dc0e17d1137b7cc2108d0bbb566751d1cffd51c65669321442bf68a79f261"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 533295326,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "b437f065cd9209816240b498b3418f00f72ea0abdd5fe6cd6a8ad09dc0e3d362"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 1179411065,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "915d41f2623ac4ef3457ae1a139448a5b8e8b9cc8e354658883c8d1900dd24db"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 1825526804,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "8dc3e9827fbe1045ed12fd44f4abbc85aeac7b21ec5af51ede67f21de3602aeb"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 2471642543,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "0eb6997a0a57c7e4cd1765c4fd2221d28553f6de4c6dc6275b5bbe482a96c4e2"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 3117758282,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "8a87025afa157b2a5acaf00576ea7cad9dac38a6c174596fd47694d0095cf803"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 3763874021,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "cf640df5357087ec79285d12e0ec83f2b4ca1713bc67b13e1036d12ea082843c"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 4409989760,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "e930820805e7664b5765bc5279b2ca4a0237833d4f20108240c7b8ea643e98a6"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 5056105499,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "f8eab57da500120c0c7acef13080ebaf555180c3c061e56091928aa1796ef34b"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 5702221238,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "3cb3f24eec354453998da0700c4f2fae126ff78620ee9359e044d1858ac9543b"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 6348336977,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "face2e7b99ad1704dbf89910c782733e1be550118095f76ec2699906ab9e3b77"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 6994452716,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "efd188bab3a25ff9c40ed61774298c806638f0c52dc03943ddd03d862ac411aa"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 7640568455,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "c0695fd19bdf2e558a8942ac472eff992d87826f7375019c172e0de3f345a9a1"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 8286684194,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "04f8d5881a992421ad41eacbce8fb2252020e8b25cf2f9fa0f97f02129b38d9f"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 8932799933,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "7fa253e457263040c3278f0eacca9ad6e29a679d360ff4fd5a00ad0a7cbf4dc4"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 9578915672,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "73f0099deea6853e784ba73bc87d81f785002e02aa7725976253d84b5b70604e"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 10225031411,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "4443c3100612206d5eaab77892768d5ce250472d21ee9e826b25b5febc714cea"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 10871147150,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "63cf5d6a3458d87d055db5a85b06685b2e1cd1370cb25d61c31b8b5bfcd99594"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 11517262889,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "ac7e0438a6c5afb4ceeb0f8bf4934c81dab917fcd91adbe3ede1fc01a33264fb"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 12163378628,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "0b8de189276b5fe35f222f5fa804ac88983143222136ed6abae403aa2e74de93"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 12809494367,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "59f8a095b77754d69b59a1305ea8c7d675021870d286c3d11c98f41e0f1f8d77"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 13455610106,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "15aa02e139e688ff2c3868cb5ba9848684d985dfbcd5abb53508b9df56e9545d"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 14101725845,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "8357c4ee8005b80cfe9b334957c42599640a8ed6c56497fdd26147f3c2fb3137"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 14747841584,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "414200db63eeb77965e36da82c78b4d97b0279a04e67d33360760b8eb6bc550f"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 15393957323,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "2790c984826a4cd601d8380df06095d2b94b8a933fe4a53b8756029b3dc8a225"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 16040073062,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "37d144ee3cf2fb21b7abe75c5d3887899611f96a546811a96e6c9369f4e83bd7"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 16686188801,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "bade443aa107493fe3a4c58b6d41328b770296f767a0513b5f11e75ea0b9d66a"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 17332304540,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "99443ded71b6ba94648dfb974fc7e1853303c635003997c72aa5bb49b6e1a691"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 17978420279,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "f6631ea9fe0103961a8a422f42bd5157a4020db507627daa28cc14c303e36f17"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 18624536018,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "40436440f1a76ed01ac48469ad8e902d141ba9e20b3455d1be4ea8e3e9a13933"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 19270651757,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "edbe021cd58ea2cc6ed17523e474de948fea3fd07c87e383903021df1b79b994"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 19916767496,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "e48f74b57115cab6561c8ef09560404488ecaab75e62168bc1765e5027b9738d"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 20562883235,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "597a613be8a61090a7541eb48e0bea735b354145e535aac502403813abb597ba"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 21208998974,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "1dea1656179e32b0a3d5b172f2d4da8dacfc2c3cba1f53815ccd18fff3b54a92"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 21855114713,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "df6d06a15f86077a14aa894aee9e8924f3957c969257b729f370526ac532f6cc"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 22501230452,
+          "chunk_offset": 0,
+          "length": 646115739
+        }
+      ],
+      "sha256": "2b60122a1150d82e209ace8a70988ccb654f36aebbe8db39645ae63104de5e04"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 646115739,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 23147346191,
+          "chunk_offset": 0,
+          "length": 563173034
+        },
+        {
+          "file": "re_chunk_000.pak.patch_001.pak",
+          "file_offset": 0,
+          "chunk_offset": 563173034,
+          "length": 82942705
+        }
+      ],
+      "sha256": "be7b687a43fc54353e2ea689330ebaa78ee8f0fbc8c7f231630187034bead5c1"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 646115721,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak.patch_001.pak",
+          "file_offset": 82942705,
+          "chunk_offset": 0,
+          "length": 156899700
+        },
+        {
+          "file": "re_chunk_000.pak.patch_002.pak",
+          "file_offset": 0,
+          "chunk_offset": 156899700,
+          "length": 238750631
+        },
+        {
+          "file": "shader.cache2",
+          "file_offset": 0,
+          "chunk_offset": 395650331,
+          "length": 4575180
+        },
+        {
+          "file": "steam_api64.cdx",
+          "file_offset": 0,
+          "chunk_offset": 400225511,
+          "length": 265504
+        },
+        {
+          "file": "steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 400491015,
+          "length": 411048
+        },
+        {
+          "file": "steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 400902063,
+          "length": 3444
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_01.png",
+          "file_offset": 0,
+          "chunk_offset": 400905507,
+          "length": 1384378
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_02.png",
+          "file_offset": 0,
+          "chunk_offset": 402289885,
+          "length": 1421664
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_03.png",
+          "file_offset": 0,
+          "chunk_offset": 403711549,
+          "length": 1151216
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_04.png",
+          "file_offset": 0,
+          "chunk_offset": 404862765,
+          "length": 1516240
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_05.png",
+          "file_offset": 0,
+          "chunk_offset": 406379005,
+          "length": 1116601
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_06.png",
+          "file_offset": 0,
+          "chunk_offset": 407495606,
+          "length": 927764
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_07.png",
+          "file_offset": 0,
+          "chunk_offset": 408423370,
+          "length": 846024
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_08.png",
+          "file_offset": 0,
+          "chunk_offset": 409269394,
+          "length": 1155785
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_09.png",
+          "file_offset": 0,
+          "chunk_offset": 410425179,
+          "length": 1490310
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_10.png",
+          "file_offset": 0,
+          "chunk_offset": 411915489,
+          "length": 831613
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_11.png",
+          "file_offset": 0,
+          "chunk_offset": 412747102,
+          "length": 966535
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_12.png",
+          "file_offset": 0,
+          "chunk_offset": 413713637,
+          "length": 928641
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_13.png",
+          "file_offset": 0,
+          "chunk_offset": 414642278,
+          "length": 1109904
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_14.png",
+          "file_offset": 0,
+          "chunk_offset": 415752182,
+          "length": 743361
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_15.png",
+          "file_offset": 0,
+          "chunk_offset": 416495543,
+          "length": 886331
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_16.png",
+          "file_offset": 0,
+          "chunk_offset": 417381874,
+          "length": 745482
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_17.png",
+          "file_offset": 0,
+          "chunk_offset": 418127356,
+          "length": 704563
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_18.png",
+          "file_offset": 0,
+          "chunk_offset": 418831919,
+          "length": 935958
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_19.png",
+          "file_offset": 0,
+          "chunk_offset": 419767877,
+          "length": 810511
+        },
+        {
+          "file": "Wallpaper/1280x720/Wallpaper_20.png",
+          "file_offset": 0,
+          "chunk_offset": 420578388,
+          "length": 1394355
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_01.png",
+          "file_offset": 0,
+          "chunk_offset": 421972743,
+          "length": 2834479
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_02.png",
+          "file_offset": 0,
+          "chunk_offset": 424807222,
+          "length": 3053786
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_03.png",
+          "file_offset": 0,
+          "chunk_offset": 427861008,
+          "length": 2519267
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_04.png",
+          "file_offset": 0,
+          "chunk_offset": 430380275,
+          "length": 3188368
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_05.png",
+          "file_offset": 0,
+          "chunk_offset": 433568643,
+          "length": 2672075
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_06.png",
+          "file_offset": 0,
+          "chunk_offset": 436240718,
+          "length": 1886914
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_07.png",
+          "file_offset": 0,
+          "chunk_offset": 438127632,
+          "length": 1814127
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_08.png",
+          "file_offset": 0,
+          "chunk_offset": 439941759,
+          "length": 2573987
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_09.png",
+          "file_offset": 0,
+          "chunk_offset": 442515746,
+          "length": 3449262
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_10.png",
+          "file_offset": 0,
+          "chunk_offset": 445965008,
+          "length": 1795748
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_11.png",
+          "file_offset": 0,
+          "chunk_offset": 447760756,
+          "length": 2049327
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_12.png",
+          "file_offset": 0,
+          "chunk_offset": 449810083,
+          "length": 1935735
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_13.png",
+          "file_offset": 0,
+          "chunk_offset": 451745818,
+          "length": 2286354
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_14.png",
+          "file_offset": 0,
+          "chunk_offset": 454032172,
+          "length": 1499338
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_15.png",
+          "file_offset": 0,
+          "chunk_offset": 455531510,
+          "length": 1988926
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_16.png",
+          "file_offset": 0,
+          "chunk_offset": 457520436,
+          "length": 1674074
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_17.png",
+          "file_offset": 0,
+          "chunk_offset": 459194510,
+          "length": 1363513
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_18.png",
+          "file_offset": 0,
+          "chunk_offset": 460558023,
+          "length": 2167176
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_19.png",
+          "file_offset": 0,
+          "chunk_offset": 462725199,
+          "length": 1801187
+        },
+        {
+          "file": "Wallpaper/1920x1080/Wallpaper_20.png",
+          "file_offset": 0,
+          "chunk_offset": 464526386,
+          "length": 3202760
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_01.png",
+          "file_offset": 0,
+          "chunk_offset": 467729146,
+          "length": 11557618
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_02.png",
+          "file_offset": 0,
+          "chunk_offset": 479286764,
+          "length": 11119933
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_03.png",
+          "file_offset": 0,
+          "chunk_offset": 490406697,
+          "length": 9358522
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_04.png",
+          "file_offset": 0,
+          "chunk_offset": 499765219,
+          "length": 12102175
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_05.png",
+          "file_offset": 0,
+          "chunk_offset": 511867394,
+          "length": 12020496
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_06.png",
+          "file_offset": 0,
+          "chunk_offset": 523887890,
+          "length": 6233731
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_07.png",
+          "file_offset": 0,
+          "chunk_offset": 530121621,
+          "length": 6095565
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_08.png",
+          "file_offset": 0,
+          "chunk_offset": 536217186,
+          "length": 9096584
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_09.png",
+          "file_offset": 0,
+          "chunk_offset": 545313770,
+          "length": 13015894
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_10.png",
+          "file_offset": 0,
+          "chunk_offset": 558329664,
+          "length": 6159246
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_11.png",
+          "file_offset": 0,
+          "chunk_offset": 564488910,
+          "length": 7633202
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_12.png",
+          "file_offset": 0,
+          "chunk_offset": 572122112,
+          "length": 6581950
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_13.png",
+          "file_offset": 0,
+          "chunk_offset": 578704062,
+          "length": 7247476
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_14.png",
+          "file_offset": 0,
+          "chunk_offset": 585951538,
+          "length": 4884556
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_15.png",
+          "file_offset": 0,
+          "chunk_offset": 590836094,
+          "length": 10527290
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_16.png",
+          "file_offset": 0,
+          "chunk_offset": 601363384,
+          "length": 6861481
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_17.png",
+          "file_offset": 0,
+          "chunk_offset": 608224865,
+          "length": 3508682
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_18.png",
+          "file_offset": 0,
+          "chunk_offset": 611733547,
+          "length": 12208866
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_19.png",
+          "file_offset": 0,
+          "chunk_offset": 623942413,
+          "length": 6947627
+        },
+        {
+          "file": "Wallpaper/3840x2160/Wallpaper_20.png",
+          "file_offset": 0,
+          "chunk_offset": 630890040,
+          "length": 15225681
+        }
+      ],
+      "sha256": "f5f872939a4e89637d4b27fbf57774b607cd20a008abe22d46de599e45fbd9be"
+    }
+  ]
+}
