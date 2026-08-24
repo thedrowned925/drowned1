@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 62
-- **Toplam aktif sürüm/kanal:** 62
-- **Toplam aktif boyut:** 1601.297 GB (1491.324 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-23 18:07:10 UTC
+- **Toplam oyun:** 63
+- **Toplam aktif sürüm/kanal:** 63
+- **Toplam aktif boyut:** 1605.030 GB (1494.801 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-24 20:05:07 UTC
 
 ## PC
 
-**62 oyun · 62 aktif sürüm/kanal · 1601.297 GB (1491.324 GiB)**
+**63 oyun · 63 aktif sürüm/kanal · 1605.030 GB (1494.801 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -68,6 +68,7 @@
 | Portal 2 | 1.0.0 | stable | 13.071 | 12.174 | `pc-portal-2-v1.0.0-stable` |
 | Red Dead Redemption | 1.0.0 | stable | 10.225 | 9.522 | `pc-red-dead-redemption-v1.0.0-stable` |
 | Red Dead Redemption 2 | 1.0.0 | stable | 128.093 | 119.296 | `pc-red-dead-redemption-2-v1.0.0-stable` |
+| STAR WARS™ Knights of the Old Republic™ | 1.0.0 | stable | 3.733 | 3.477 | `pc-star-wars-knights-of-the-old-republic-v1.0.0-stable` |
 | Stardew Valley | 1.0.0 | stable | 0.733 | 0.683 | `pc-stardew-valley-v1.0.0-stable` |
 | The Elder Scrolls IV: Oblivion® Game of the Year Edition (2009) | 1.0.0 | stable | 5.946 | 5.538 | `pc-the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009-v1.0.0-stable` |
 | The Elder Scrolls V: Skyrim | 1.0.0 | stable | 13.902 | 12.948 | `pc-the-elder-scrolls-v-skyrim-v1.0.0-stable` |
