@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-23T18:07:10.001018+00:00",
+  "updated_at": "2026-08-24T20:05:07.866682+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2067,6 +2067,39 @@
       },
       "media": {
         "steam_app_id": 208480
+      }
+    },
+    {
+      "id": "star-wars-knights-of-the-old-republic",
+      "title": "STAR WARS™ Knights of the Old Republic™",
+      "platform": "pc",
+      "description": "It is four thousand years before the Galactic Empire and hundreds of Jedi Knights have fallen in battle against the ruthless Sith. You are the last hope of the Jedi Order. Can you master the awesome power of the Force on your quest to save the Republic? Or will you fall to the lure of the dark side?",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-knights-of-the-old-republic/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-knights-of-the-old-republic/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-knights-of-the-old-republic/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-knights-of-the-old-republic/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-knights-of-the-old-republic/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-knights-of-the-old-republic/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-knights-of-the-old-republic/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-knights-of-the-old-republic/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-knights-of-the-old-republic/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-knights-of-the-old-republic/screenshots/05.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-star-wars-knights-of-the-old-republic-v1.0.0-stable",
+          "manifest_path": "manifests/pc/star-wars-knights-of-the-old-republic/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/star-wars-knights-of-the-old-republic/stable/1.0.0.json",
+          "size": 3733107024,
+          "published_at": "2026-08-24T20:05:07.866667+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 32370
       }
     }
   ]
