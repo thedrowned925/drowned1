@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 63
-- **Toplam aktif sürüm/kanal:** 63
-- **Toplam aktif boyut:** 1605.030 GB (1494.801 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-24 20:05:07 UTC
+- **Toplam oyun:** 64
+- **Toplam aktif sürüm/kanal:** 64
+- **Toplam aktif boyut:** 1607.767 GB (1497.350 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-24 20:10:53 UTC
 
 ## PC
 
-**63 oyun · 63 aktif sürüm/kanal · 1605.030 GB (1494.801 GiB)**
+**64 oyun · 64 aktif sürüm/kanal · 1607.767 GB (1497.350 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -29,6 +29,7 @@
 | Call of Duty® 4: Modern Warfare® (2007) | 1.0.0 | stable | 6.975 | 6.496 | `pc-call-of-duty-4-modern-warfare-2007-v1.0.0-stable` |
 | Call of Duty®: Modern Warfare® 2 (2009) | 1.0.0 | stable | 12.833 | 11.952 | `pc-call-of-duty-modern-warfare-2-2009-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 14.396 | `pc-captured-2-v1.0.0-stable` |
+| Celeste | 1.0.0 | stable | 2.737 | 2.549 | `pc-celeste-v1.0.0-stable` |
 | Cyberpunk 2077 | 1.0.0 | stable | 102.015 | 95.009 | `pc-cyberpunk-2077-v1.0.0-stable` |
 | DARK SOULS™ III | 1.0.0 | stable | 26.890 | 25.043 | `pc-dark-souls-iii-v1.0.0-stable` |
 | DARK SOULS™: Prepare To Die™ Edition | 1.0.0 | stable | 3.962 | 3.690 | `pc-dark-souls-prepare-to-die-edition-v1.0.0-stable` |
