@@ -1,0 +1,4443 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "middle-earth-shadow-of-mordor",
+    "title": "Middle-earth™: Shadow of Mordor™",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Fight through Mordor and uncover the truth of the spirit that compels you, discover the origins of the Rings of Power, build your legend and ultimately confront the evil of Sauron in this new chronicle of Middle-earth."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-middle-earth-shadow-of-mordor-v1.0.0-stable"
+  },
+  "chunk_size": 1387747920,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 55509916779,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "corecharacter.arch05",
+      "size": 710354516,
+      "sha256": "e1b490e31a2762fd578cd781466001bc837e52acb149e6cf4ba7e1bba593c00e"
+    },
+    {
+      "path": "corecharacter_0.arch05",
+      "size": 818959604,
+      "sha256": "5bb38ff0013acbe48afb70ef2e2cf25820b7f10165ce5776a1be63c3fc0a3501"
+    },
+    {
+      "path": "DLC1.arch05",
+      "size": 1871619436,
+      "sha256": "8e268a8099d566e59b12c723477d3735090e262f2d688c14debf8cf951818df7"
+    },
+    {
+      "path": "DLC1_0.arch05",
+      "size": 912926360,
+      "sha256": "607e4d60cf6d9016ebd043ebd20ec94dab15a8f7551498718bc10006e8eccebb"
+    },
+    {
+      "path": "DLC2.arch05",
+      "size": 4943350616,
+      "sha256": "f151407047163c68764d5ed8b6878a84c2d8e79368fdab4364975265385042d4"
+    },
+    {
+      "path": "game/cinematics/videos/dlc1/fb_dlccine_introa.vib",
+      "size": 7376840,
+      "sha256": "9321f034b45d75a3e943a33279c0e077e1167e010bd79900860c08f52dbcc0f0"
+    },
+    {
+      "path": "game/cinematics/videos/dlc1/fb_dlccine_introb.vib",
+      "size": 3756704,
+      "sha256": "fa322b6e8ac2c4d929244e8fd57fab6bd012f2c1aedc9fb7fa82d83cedeb18b1"
+    },
+    {
+      "path": "game/cinematics/videos/dlc1/fb_dlccine_outro.vib",
+      "size": 105367688,
+      "sha256": "401fb2f3c644174a55c78d8cda396e84c23838421c1692d79f645102dae3be1e"
+    },
+    {
+      "path": "game/cinematics/videos/dlc2/DLC2_intro.vib",
+      "size": 143062780,
+      "sha256": "137abb1d5e4cdbbe588f23e0c6947a07df251b5413faff7598502927cca61fbf"
+    },
+    {
+      "path": "game/cinematics/videos/dlc2/DLC2_outro.vib",
+      "size": 134105744,
+      "sha256": "3bb47103000c29b424409d3174864dfc3911c3fa5b4c81c1665458b9b7b6844a"
+    },
+    {
+      "path": "game/cinematics/videos/dlc2/DLC2_SauronIntro.vib",
+      "size": 39562052,
+      "sha256": "ad6c633642bc9e95ca839be8851089656d024bcb9d22075f44d3a97a002b7c52"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/gollum/G_m10_10.vib",
+      "size": 37208512,
+      "sha256": "9fbd8067e8d609c9cb4876dc3d961cd20856929335934fed0dfe080a298a86a1"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/gollum/G_m10_20.vib",
+      "size": 72321172,
+      "sha256": "45e91c2535b7084681c08ee2a933812a9304f32ee6bd4c992b3f5e1ddcf83dec"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/gollum/G_m10_30.vib",
+      "size": 132850784,
+      "sha256": "fcee819289baa20b737f334814824f29209cf6d87db8f2cf93f5be7ef950e36a"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/gollum/G_m20_10.vib",
+      "size": 111340768,
+      "sha256": "b7a81bdb000e937aa36ecef35ee73661ee58d8e982bad39964ee499c6715ac44"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/gollum/G_m20_30.vib",
+      "size": 159276132,
+      "sha256": "25069ed87c9c2310082e88236b73f8a93712ced699e0ec275cb0458874da44fd"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/gollum/G_m30_10.vib",
+      "size": 33505708,
+      "sha256": "b578558cf3bf241cba72a9e520baaa51d83c3c0e11d68f3bcaa5b77610251c52"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/gollum/G_m30_20.vib",
+      "size": 40506672,
+      "sha256": "7b03a3bf0b5628a3d5e664b0248aee7b7a1817f56c446045069bbac3350e5ab0"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/gollum/G_m30_30.vib",
+      "size": 115559336,
+      "sha256": "d4871ab0de710e238f73532c5a5cda6efcdd8b405b3dc42a0628638d56a4d3a8"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/gollum/G_m30_40.vib",
+      "size": 104302004,
+      "sha256": "ef2496e3a327c82d4c53c8e79a9c219ab788f0b52587ff2939f785b4f710655e"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/hirgon/H_m10_10.vib",
+      "size": 29961944,
+      "sha256": "c4a29a23e3c96a0d4db348f582d7c737ef11be2698358b12d4b27c84fd194978"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/hirgon/H_m10_20.vib",
+      "size": 105291744,
+      "sha256": "6641306485c3925ae3ec5d3f3dc407d689bd89072db700d28dd9e736b8135831"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/hirgon/H_m30_10.vib",
+      "size": 66445908,
+      "sha256": "4d6759f79658c43c085037433ded2614025fd8df7b85b8088f3cf825246adab1"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/hirgon/H_m30_20.vib",
+      "size": 75186076,
+      "sha256": "afe91e3bc9f61a8d9a079c425e86b2cf056012802aa473a319cfdbe5495e7f22"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/hirgon/H_m40_10.vib",
+      "size": 70489700,
+      "sha256": "97399ff538b9db314f1e392032ad6042da6f7d13d75fbc7b20c39644db560bc3"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/hirgon/H_m40_20.vib",
+      "size": 16604268,
+      "sha256": "995f02aa435de2f187b9594c1dd723eb604fd46811aaed74d53ecfd157db2f2c"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/hirgon/H_m40_30.vib",
+      "size": 86385092,
+      "sha256": "0e6f22b299796597e70d02689445ad5b8fdea8f2a18ed1136db1e7abd3e95903"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/hirgon/H_m50_10.vib",
+      "size": 164643228,
+      "sha256": "7e85152394a47f7e40f45dbbd879467a833055a7fee795deb6de8dbcaec1a538"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/hirgon/H_m50_40.vib",
+      "size": 130991720,
+      "sha256": "17072acac334f93684682117b6b2da88ed178500d402f816bf31fe62a5199af3"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/intro/INT_010.vib",
+      "size": 138711400,
+      "sha256": "442d290127bfc91f0258738e3d0bf6acbcbcd84eda6088382998fd0294e2b048"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/intro/INT_060.vib",
+      "size": 37385780,
+      "sha256": "fa4e61df017b81f7fd7a9ce2b17d385181d3e3711e591f2c86bbb53dc867b011"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/intro/INT_070.vib",
+      "size": 96846216,
+      "sha256": "b1667e6e2121d251231fb1819ae95ea860c6570dca9c363697fd7135b8e67907"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/intro/INT_090.vib",
+      "size": 67363648,
+      "sha256": "9486f90d6b6c2504f65e280fb2942aecd453d4fd19436347807ee3aea105656b"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/intro/INT_100.vib",
+      "size": 258876820,
+      "sha256": "803bd88c9d31a41c730cc1670992debec221e1383a92eac04fca13846a8d3a97"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/intro/INT_140.vib",
+      "size": 26075024,
+      "sha256": "4615d0413377ad5dadfbe7a20896cd7a37abcd4020e7dfdf9e908d3e508f28ad"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/intro/INT_150.vib",
+      "size": 43161376,
+      "sha256": "4f3336234d558953e1eed21f36700afbc72b043ba65a66328a63ddcd9bb0024a"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/intro/INT_155.vib",
+      "size": 32246252,
+      "sha256": "ccaa7a22fcb497a2718fee42903a220cdb5ea3a97dd55ecb65cc3ae6b893688f"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/lithariel/L_m10_10.vib",
+      "size": 54000208,
+      "sha256": "bec60bcb488b4244098415b4c57dcd8f9342c05c964bae5ac3c80c7bf1e76f64"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/lithariel/L_m10_20.vib",
+      "size": 61912564,
+      "sha256": "7fcb25974727cad7d6e0f12f8c7c7b9fdef62b658b93413da055f4250c6ce0c1"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/lithariel/L_m20_10.vib",
+      "size": 73419144,
+      "sha256": "0ea5b981bf39d87ba5b0b943691f256fd1ff0d3b54e14006b954f86377cad811"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/lithariel/L_m20_20.vib",
+      "size": 26281212,
+      "sha256": "d8d232ea60d705b348afbd9e3e899fbc0f53cda9c98b1d9352581458d7aec2ac"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/lithariel/L_m20_40.vib",
+      "size": 85594948,
+      "sha256": "52093e166a024189accfa3ecea318fa01d2e0809b2ec1fba4f6ebb71471c4e9d"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/marwen/M_m10_10.vib",
+      "size": 217092748,
+      "sha256": "5b7976628f392286ed12e7dc6d73298a398907697d46b60049b759811b5cacab"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/marwen/M_m10_20.vib",
+      "size": 90245804,
+      "sha256": "4a8c6cd441722164f0be0b6e7a01fd6ada245dd491de265eef5830c51810a207"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/marwen/M_m10_30.vib",
+      "size": 128030156,
+      "sha256": "8cfb2e233dfef703d64d20fe5e5c17fdac33a17feb52d231cb94a9771db158e4"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/marwen/M_m20_10.vib",
+      "size": 136911616,
+      "sha256": "44bc7099a6b5502b8d5bf0bd1d931ccefb4dfd1a8af3d03d183bd032b8aaeb35"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/marwen/M_m20_20.vib",
+      "size": 31336028,
+      "sha256": "15c56834fc2a271b0d086daa6eb8aed07db11456f8637482ef1de744421dfad3"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/marwen/M_m20_30.vib",
+      "size": 152163372,
+      "sha256": "604626f8ccbbbc80c053748f5941f931a3c6c20ce29f55ddaa19a96a56ba3da1"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/marwen/M_m30_10.vib",
+      "size": 81821376,
+      "sha256": "1a0284b9fa3b0adc76948618d6b61773b68497408ce6a5b4e28b77cb28658f27"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/marwen/M_m30_30.vib",
+      "size": 199225964,
+      "sha256": "c1923b373ca6e269d2cf671af9a5cb87fbb4bed4cf877f4f231a8245bbd4e718"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/outro/OUT_010.vib",
+      "size": 113815224,
+      "sha256": "ff83b4340985f8fd4913a615bf6ce2aa3dabad19fffa5e11b5a6c52f70655bfa"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/outro/OUT_030.vib",
+      "size": 193445976,
+      "sha256": "b31c9fb410bfcab9f1f359289de0f49ce13419c0657fe18a5dd46b3cdea579a5"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/outro/OUT_040.vib",
+      "size": 56321336,
+      "sha256": "86bbae0b22d99c293ddb53cbc2625b4e5c5c0532afba087732807202c062a976"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/outro/OUT_050.vib",
+      "size": 235548280,
+      "sha256": "bb6ee6f70982bb2ba239860895a9ad2b46b14f54986382a126d78eb9db89c968"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/outro/OUT_080.vib",
+      "size": 149219204,
+      "sha256": "8607275481e84dec260ef54420a8336d9a48b422898936365c9f45d380301bec"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/outro/OUT_090.vib",
+      "size": 61715928,
+      "sha256": "fd6300342243db20b4d0ebac218eeac53233caa6963c660cf1de61fef2ba1268"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/outro/OUT_120.vib",
+      "size": 92226784,
+      "sha256": "7607f4a9daab21e4aeef901e88f8064c84270278cbfe735311eaa01d47db767f"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/ratbag/R_m10_10.vib",
+      "size": 82903172,
+      "sha256": "5a8cb2650a55485c50bcde56e457c961c806e524385d95a73562d97b49dada50"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/ratbag/R_m10_20.vib",
+      "size": 91359460,
+      "sha256": "c3948b83924d656d651b67aaaf75724bba2f0b37f11a75c07b9818445ff49462"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/ratbag/R_m10_30.vib",
+      "size": 95553860,
+      "sha256": "45695c53117301c22a5cbb2b143510d0205076fcf476d5cd1b94e7d192fee304"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/ratbag/R_m20_10.vib",
+      "size": 49868360,
+      "sha256": "2c490db005a66b25dbd5291bd0eac025cd259d8a845c0b1fb468fe101bee7f22"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/ratbag/R_m20_20.vib",
+      "size": 97851068,
+      "sha256": "0d6a3665d630bc54ab53e877ecdd7b6d545694806de5c55d98ec5dc7e0a92642"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/ratbag/R_m30_10.vib",
+      "size": 120942820,
+      "sha256": "1334fb128660cc2083fa35cf07f37e3ef67c752071e09bb169d4ca15dcd90d2f"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/ratbag/R_m30_30.vib",
+      "size": 66537180,
+      "sha256": "7c06b7fd1845e56401da64ca54eedd5d5865c8b254802fdbe5a9be6b5bf3933f"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/torvin/T_m10_10.vib",
+      "size": 153123420,
+      "sha256": "338112b55d4188b89e1b82b2030da0542a5249786aedbfdffe669bc05fee2db9"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/torvin/T_m10_20.vib",
+      "size": 43303132,
+      "sha256": "f89b6d9919c83dadd68dcfe5d5000d4c6253e610bbb2f1cb6c8c3aff6e9290ef"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/torvin/T_m20_10.vib",
+      "size": 78300404,
+      "sha256": "3dedac79a31b28edcfaf4da6bd929aa03b8c57d540bdcef2c51d587af4ae3520"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/torvin/T_m20_15.vib",
+      "size": 16854860,
+      "sha256": "17424120e8a0a2635b29c557eb69494aeae0a3f9d5eb527bf352ceed942e6b29"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/torvin/T_m20_30.vib",
+      "size": 42596496,
+      "sha256": "6e91ed4733700d6d920ee4c7b17fc957b4793326de2081907ca3906fe63d3bf7"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/torvin/T_m30_10.vib",
+      "size": 23520344,
+      "sha256": "ce5ace206c903a0322e0ba608a759eb76aa176be935710a97ed01f579abc72e7"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/torvin/T_m30_30.vib",
+      "size": 206747484,
+      "sha256": "43ac75a9d34553c980ac381c1fdc276458f48b40075cf02666066c67ca218ba9"
+    },
+    {
+      "path": "game/cinematics/videos/golden_path/torvin/T_m30_40.vib",
+      "size": 120094464,
+      "sha256": "1c991df9acc2b45dbbbc9faeb4bd7eed98e4d41155c84d00607b8f7bf3889acf"
+    },
+    {
+      "path": "game/cinematics/videos/visions/VIS_010.vib",
+      "size": 7723612,
+      "sha256": "9294021f1112c7cd72f418710d80491a91f36ad4d77ed14436cdce072de12d25"
+    },
+    {
+      "path": "game/cinematics/videos/visions/VIS_020.vib",
+      "size": 56912724,
+      "sha256": "65c8a7bbc9056e3b3e1a117aced60e909fe3de6fad152fa524e4fb909e1e8289"
+    },
+    {
+      "path": "game/cinematics/videos/visions/VIS_030.vib",
+      "size": 71612552,
+      "sha256": "9d4bff0fc02348ba5068dcdbfc1d5d17c12d351a776c6ba7d1011747196cc01c"
+    },
+    {
+      "path": "game/cinematics/videos/visions/VIS_040.vib",
+      "size": 37647916,
+      "sha256": "f33ec44470f8efe8135f54b337247159b221844651744e6caaa53098868f17b2"
+    },
+    {
+      "path": "game/cinematics/videos/visions/VIS_050.vib",
+      "size": 98066032,
+      "sha256": "e9d75f70308b7c20d9b54442607c3f33e1c6dc891c01ab77d14f34d6dc088b31"
+    },
+    {
+      "path": "game/cinematics/videos/visions/VIS_060.vib",
+      "size": 73512156,
+      "sha256": "c57cb32c0116d74d23d8fdfaa2b10781f8f89338243c0f6aef63295b3be0a90f"
+    },
+    {
+      "path": "game/cinematics/videos/visions/VIS_070.vib",
+      "size": 77770280,
+      "sha256": "2e91a899fa7b94005800c6b546862063987003f8ff50a184d25943d178401122"
+    },
+    {
+      "path": "game/cinematics/videos/visions/VIS_080.vib",
+      "size": 104011220,
+      "sha256": "d2010a8b494e1bad6c8dfb3bd8ae0fed9fbfcb665f653fd3578f81b9e2deaaea"
+    },
+    {
+      "path": "game/interface/videos/credits.vib",
+      "size": 137569432,
+      "sha256": "38e61026ba484ff2bb1f55c083e711772f28d90feb01ead384d55d53d231beec"
+    },
+    {
+      "path": "game/interface/videos/darkRanger.vib",
+      "size": 3450872,
+      "sha256": "610b28f44b4c4c8109f481ae3bc2b91583f484609faa4fa04750f01a73248114"
+    },
+    {
+      "path": "game/interface/videos/intro.vib",
+      "size": 19530848,
+      "sha256": "ab74e33e7bbc7cadeb5fe727c8d69a3be51db5a61a3a1eb30318917693f9edcf"
+    },
+    {
+      "path": "game/interface/videos/intro_cz.vib",
+      "size": 19530848,
+      "sha256": "ab74e33e7bbc7cadeb5fe727c8d69a3be51db5a61a3a1eb30318917693f9edcf"
+    },
+    {
+      "path": "game/interface/videos/intro_de.vib",
+      "size": 16520632,
+      "sha256": "b728d35cc3ee4dab77b79840a45b77ade70dfaab19df069e574a6750e6b6723a"
+    },
+    {
+      "path": "game/interface/videos/intro_fr.vib",
+      "size": 19521272,
+      "sha256": "e49067f3f9d7c3d9fb1839872c92a32fa57566992255e269edb6e1c037d89cc1"
+    },
+    {
+      "path": "game/interface/videos/intro_hu.vib",
+      "size": 19530848,
+      "sha256": "ab74e33e7bbc7cadeb5fe727c8d69a3be51db5a61a3a1eb30318917693f9edcf"
+    },
+    {
+      "path": "game/interface/videos/Intro_IT.vib",
+      "size": 16520436,
+      "sha256": "acc8c616f96e41dbc06df7c59ca54d2943fff9650df6a514545cbb165242f09f"
+    },
+    {
+      "path": "game/interface/videos/intro_ja.vib",
+      "size": 19530848,
+      "sha256": "ab74e33e7bbc7cadeb5fe727c8d69a3be51db5a61a3a1eb30318917693f9edcf"
+    },
+    {
+      "path": "game/interface/videos/intro_mx.vib",
+      "size": 16520660,
+      "sha256": "3e3aa819b1309bed9c0b789e2371b014639d334b3d1267e7e007cc809b62bab9"
+    },
+    {
+      "path": "game/interface/videos/intro_pl.vib",
+      "size": 19521972,
+      "sha256": "72dee696cfd434753dd2483ddb530ef1c3bfc1b6ed8cbcc6d3b195b70fb2ee0a"
+    },
+    {
+      "path": "game/interface/videos/intro_po.vib",
+      "size": 19522396,
+      "sha256": "307134fc7f4a1ad931fec3354f71ab134f738e89c62b8a5f498b9acbdd05ecb7"
+    },
+    {
+      "path": "game/interface/videos/intro_ru.vib",
+      "size": 19521908,
+      "sha256": "2160301e7a10f041687882d0e13c8fa493ef3d85265a1d11e59e840a9809f335"
+    },
+    {
+      "path": "game/interface/videos/intro_sp.vib",
+      "size": 16521384,
+      "sha256": "1004cb4d35977485bc13cbecf194106184c18b3c1c8c4a3cc9fc6922ae769cf7"
+    },
+    {
+      "path": "game/interface/videos/Intro_Title.vib",
+      "size": 512,
+      "sha256": "3944d78fc3538844fef60bdc7d2a274a3fbb0cc0dacf8803bd6fb09bbaf89927"
+    },
+    {
+      "path": "game/interface/videos/Intro_Title.vid",
+      "size": 512,
+      "sha256": "cda6df1df67b04c1fe2d21595d5505861e91fd8c2a00aa1167d5fcd861e4fbec"
+    },
+    {
+      "path": "game/interface/videos/legal/legaltext_fr_Patch.vib",
+      "size": 1039308,
+      "sha256": "4cfc7e58c48befc490b5167cb092230e753b708db5d300dabc82f3c5e8c47584"
+    },
+    {
+      "path": "game/interface/videos/legal/legaltext_Patch.vib",
+      "size": 884472,
+      "sha256": "bfa11fdca52173dbe53f2a668a7a9e9e7898326d0adbe2ac608bee37003999ff"
+    },
+    {
+      "path": "game/interface/videos/legal/middleware_Patch.vib",
+      "size": 404472,
+      "sha256": "12b2359dcc24ad0f5457af3de3de0975def7a77248149ace7c0c776d4eaa4f03"
+    },
+    {
+      "path": "game/interface/videos/nvidia_splash.vib",
+      "size": 9770980,
+      "sha256": "898bc657c453191c15532d253d86bc42d230b3584eecd14f4c4c0689a0ed3c1b"
+    },
+    {
+      "path": "game/interface/videos/Outro_Title.vib",
+      "size": 512,
+      "sha256": "dbfbd06c0acd10a28a108742048a1890205797c00139a613101bdecfb8f4f61a"
+    },
+    {
+      "path": "game/interface/videos/Outro_Title.vid",
+      "size": 512,
+      "sha256": "4954e65e3435663c61b42ede7f39f8e0947097c75489e6232fe268ddd25e5dbc"
+    },
+    {
+      "path": "game/interface/videos/runes/bow_pwr.vib",
+      "size": 7304656,
+      "sha256": "b060b2a1e7b85e25efc3f863fe4f01912ad768d84a9d1ace2dc9d4eeff9a0e91"
+    },
+    {
+      "path": "game/interface/videos/runes/brutal_terror.vib",
+      "size": 7249936,
+      "sha256": "d92c13b38694b647d923525a91bb4820f382a3743fae76417bf8069c10a8f35a"
+    },
+    {
+      "path": "game/interface/videos/runes/dag_dmg.vib",
+      "size": 7198516,
+      "sha256": "fb8fd0d70e7831e6094ec90c4fa0588345daf27b4134d09c138a31d669eae3fa"
+    },
+    {
+      "path": "game/interface/videos/runes/dag_fear.vib",
+      "size": 7130652,
+      "sha256": "6e1f79b7603f2d34f2dff950abd6c401f6d54f019044bff48860d531ea992428"
+    },
+    {
+      "path": "game/interface/videos/runes/dagger_pwr.vib",
+      "size": 7247804,
+      "sha256": "d67dfacbcee843f5cddfc1903584daae027da7d03807d10e68bc48b7cf2ae796"
+    },
+    {
+      "path": "game/interface/videos/runes/mis_archer.vib",
+      "size": 7268408,
+      "sha256": "ce03295904e4c218da6ec53fac931fe599a44e17cfa93efce8a7639db1a8306b"
+    },
+    {
+      "path": "game/interface/videos/runes/mis_berserker.vib",
+      "size": 7355684,
+      "sha256": "c4cbef71ab0d34c5a1595e4121fff0c8e370c829d4013dd13cd984f170e4624b"
+    },
+    {
+      "path": "game/interface/videos/runes/mis_defender.vib",
+      "size": 7362160,
+      "sha256": "fe5a241b60614f53b42ca55e19a5eb82f0a73bc66dee9947beeded22ca8e63e2"
+    },
+    {
+      "path": "game/interface/videos/runes/mis_infantry.vib",
+      "size": 7289952,
+      "sha256": "aa3f58bdf88e9e979fc0c6cc8e5f97c916802072af5627bb0e238cee51817dbb"
+    },
+    {
+      "path": "game/interface/videos/runes/mis_spearman.vib",
+      "size": 7247392,
+      "sha256": "3693cbd3a8a82e3fa60e279a4698c911b5d1cddc2e5ade6c9aad9d91ef49b823"
+    },
+    {
+      "path": "game/interface/videos/runes/rng_dmg.vib",
+      "size": 7221692,
+      "sha256": "46184ed15d76dca7ae15571ce26436ead77c83d1bf81ef94a28a127ba37bc5a9"
+    },
+    {
+      "path": "game/interface/videos/runes/swd_dmg.vib",
+      "size": 6912784,
+      "sha256": "2673dea2ee9aebbb64647d3e630015a89d4a0f214e9b09300cd8f7d9c61abd2f"
+    },
+    {
+      "path": "game/interface/videos/runes/swd_fire.vib",
+      "size": 7352508,
+      "sha256": "036bd9dba905b05851852bc3ad312e76196a5405601fcdea4761e3a3e97cbc3f"
+    },
+    {
+      "path": "game/interface/videos/runes/sword_pwr.vib",
+      "size": 7218988,
+      "sha256": "10148c90f46e45eb91d45981523414a196641863fd1c7ada95a24b829b0a9784"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/ammo01.vib",
+      "size": 6580332,
+      "sha256": "07e1356e4ba24b5cd00ac673f2df969c9618b5ded5df51147b85c4ad27639e9a"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/ammo02.vib",
+      "size": 6745856,
+      "sha256": "dc133fc1e52231243a5a6060540d89499069fbb79bfdcce1a313910e00626b5c"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/ammo03.vib",
+      "size": 6805460,
+      "sha256": "57362158f7b2810c36d7e10c0827403e69a1b28d2c608550fad991270ac6106a"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/ammo04.vib",
+      "size": 6845508,
+      "sha256": "cdaa736018683a2fcc15176b4682b38c87ecad447339389953dd7de9884a2be8"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/ammo05.vib",
+      "size": 6773940,
+      "sha256": "0fecd798d02b6237bc367198e5b35c45590eda0eb081400ca80319f462c0b13b"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/bowrune01.vib",
+      "size": 6823236,
+      "sha256": "ee5ea13bb8e350b1121e7d3d3837051f7cb5fd1266fe764c72b0737753af7953"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/bowrune02.vib",
+      "size": 6960636,
+      "sha256": "3d4c0bbf5490e0f1bd8d5e9c2e891ffa0750239fbe4260e92bec0115006b97f1"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/bowrune03.vib",
+      "size": 6871420,
+      "sha256": "34b897f24e137730815a7cbb38db900b202ee9f4c034be0038efb572fe01868b"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/bowrune04.vib",
+      "size": 7021984,
+      "sha256": "bc652315d26255265549e356cb2cf3b863bf388916fd5f74252de1871050cf57"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/daggerrune01.vib",
+      "size": 6828940,
+      "sha256": "cbb2748a401aab4a6d33a18078e45cbae076d78fc91831ae573e175bdedd843b"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/daggerrune02.vib",
+      "size": 6775492,
+      "sha256": "9ea195ef8c6c887c69bd7ac5efc172196c24cd6f8b837a91fbeacb61f835c5b9"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/daggerrune03.vib",
+      "size": 6634908,
+      "sha256": "ed0d6552409878ddf6912ee17c4828a335bc40a79429a72352e527a472472a15"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/daggerrune04.vib",
+      "size": 6624232,
+      "sha256": "d1bd5e74b16a4cc081a7bb06e2bc8d2ce245d5f0cbe0c8e393c88c9ca5d299af"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/focus01.vib",
+      "size": 6733576,
+      "sha256": "0c4a7b548eda362ea23eeeadf1dc70904ce5dbb984aeb0e8b71d4de1b2f73396"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/focus02.vib",
+      "size": 6642756,
+      "sha256": "06c3db79da94a573e70485fadb66ba6d49f3969c00794ae76909e393edef650c"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/focus03.vib",
+      "size": 6735164,
+      "sha256": "a64c5026c11ddf5f07cbd76c11259da99782fdb1f2ca9f43e7546a0c985a3120"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/focus04.vib",
+      "size": 6748584,
+      "sha256": "2b647d6c08e38cfdf63b4781ea8d9a31bffc224e02f4ce5a720bcb88ce6fb4d7"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/focus05.vib",
+      "size": 6964992,
+      "sha256": "cb2195a7f4d7787301568125849db676557e9666fc5486ab37bfccd58c669c7a"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/gcbow.vib",
+      "size": 11497480,
+      "sha256": "916c9c030254d1d41e3ef0276316a8899a9ecbf0e005e673e74c43befc260d59"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/gcdagger.vib",
+      "size": 12587976,
+      "sha256": "d360a2c2c49067ba38aa84b5671d541f97ff31f854983ff9e31aa3bca569b614"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/gcsword.vib",
+      "size": 12368904,
+      "sha256": "761167e098343d5a7b0ea4347a15a1fed82934af874338c6ebc806bc84d2a080"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/health01.vib",
+      "size": 6873304,
+      "sha256": "bd15bf5f6a2e6c275f37e804c11ebbb21a89fb205303e7ef31278b03ebaae625"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/health02.vib",
+      "size": 6895016,
+      "sha256": "5b67ac9c8e49ed06631c9c86fc59ce9803ddfc02c5f72e42303e93aeac869ca2"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/health03.vib",
+      "size": 7038316,
+      "sha256": "f03d72538a092baf9ad7b84559c38ca24bef21f673cf29da2f0c7ce4632a0160"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/health04.vib",
+      "size": 7082588,
+      "sha256": "f5c9f19d80ed362de26107019167536ef78e8a89cf1b5079f89f896e5b64265c"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/health05.vib",
+      "size": 7040892,
+      "sha256": "09f658787dc385d4d8e5a973cad284f392b418fef4ed19ff87b12e26304df431"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/swordrune01.vib",
+      "size": 6603416,
+      "sha256": "b668d8c860573878248fff133316390ab830c7e0ba5a22c449dae17277b539aa"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/swordrune02.vib",
+      "size": 6774160,
+      "sha256": "b91cd26f4e3603937292035e710e688e1101e23e8d70240e7ab7791952dffc72"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/swordrune03.vib",
+      "size": 6861948,
+      "sha256": "3786a76ff80e70f5948f5416039360ecb35cc800a7ae60f78c3a74ed04778b70"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/attributes/swordrune04.vib",
+      "size": 6837456,
+      "sha256": "31e60a3ac31b87c28c6b8693ec57db226946863915cebf05f4f5ccb848c2a06a"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/baneofshadow.vib",
+      "size": 7787708,
+      "sha256": "55e7684ae7f1e715c017e6f478ed37912e3419c43af654a737efa58fa952080a"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/bladewesternesse.vib",
+      "size": 8146756,
+      "sha256": "f4f5aa53d51570e30991762f8ce4808f64559428b5b18e18a970538048e261a7"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/brand.vib",
+      "size": 10418020,
+      "sha256": "d48b9b4b47c6e908f726dec7ba3b581fca7f9714bc8a65b75c4861203d24201f"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/caragorhunter.vib",
+      "size": 10427336,
+      "sha256": "9bafa072036830db7b744c1809613aec7705f127a93a076ea1c2e5ecae51bb5b"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/deadly_blow.vib",
+      "size": 5489588,
+      "sha256": "69badb940e8b08d389578e52a3129fd473c7eea8f7059a7b72d97da9f4afcb8f"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/deaththreat.vib",
+      "size": 8843828,
+      "sha256": "877ab6aadecba8a3b5b64f5990a4a7c952e69b0b485695d44527739ce2bfa949"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/decimate.vib",
+      "size": 10069680,
+      "sha256": "3bfa20b2354c2e79e4bf93997cdb41f4f8f91910806e7e3ad65328c1393ccf89"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/detonate.vib",
+      "size": 10108732,
+      "sha256": "65ab9859b248008f0d37c247d9d3205ed0cbc1f4f28302fb2d465b183e20951d"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/displayofpower.vib",
+      "size": 5525756,
+      "sha256": "84d3313689ed5bec4e4e9b78788df7d937b4c9de6be18eea3d68560fadf7a225"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/displayofpower2.vib",
+      "size": 4818776,
+      "sha256": "dead1d765afe3ae802bd60de8eccaf65a042a894193f0c3ad1c3eaa63ff746bf"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/DLC2/consume.vib",
+      "size": 5037148,
+      "sha256": "6dd74a1607b597ee5113849423d924b45ec6c2d7721670e3cdb44c50ac575aa0"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/DLC2/dlcquickdraw.vib",
+      "size": 4387760,
+      "sha256": "7e76a786319ff560c9161861d3b97d0b5854ab05926870ee51c2b308f4607383"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/DLC2/groundbrand.vib",
+      "size": 5169968,
+      "sha256": "6f2345a5132924010f5c44afe8a341792dd98b2fd5c60d8309b5bd61725f3d0f"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/DLC2/shadowbrand.vib",
+      "size": 5310716,
+      "sha256": "3687974d61a8ed259f4823f51a61cb0be6804f873ea46eb60ffd482553e8959a"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/DLC2/summon.vib",
+      "size": 5307256,
+      "sha256": "e8718eeeb8dfdf2a6d695cc41b44deb58225c615eb8950195e6d9421dcff17eb"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/DLC2/thering.vib",
+      "size": 5311196,
+      "sha256": "d08e1ff68b9d387b6f595eec142264d04c563cae402edfc166b2a0be9144ecec"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/DLC2/wraithflash.vib",
+      "size": 5287620,
+      "sha256": "0c48bb4d6695ae9ff780efebc8ace6f9b492160e44e18f8b735705ec64dfc65b"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/doublecharge.vib",
+      "size": 9522240,
+      "sha256": "f326fa0e15d76912be2d9a715b4e6d837e34a5176ca98af58fd0a6176af82d8d"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/dread.vib",
+      "size": 9178496,
+      "sha256": "12d5a9fd1e3113c7909459d4e33970f12956b16b4ec7bc15d31217feb9d92926"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/dropmount.vib",
+      "size": 10678500,
+      "sha256": "64af59024f1af43071d95755cdd994cd4e076880d254a069bd5646a28d0565ad"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/elvendagger.vib",
+      "size": 11194820,
+      "sha256": "55b55260c3c79a126be6ff4a1418731279e943f470ba31877060883d31c6910e"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/elvendagger2.vib",
+      "size": 9483320,
+      "sha256": "7100723c7e41e965e5a8ccb55811acd40be37e496d17499d539d113d2f025a1a"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/fatal_descent.vib",
+      "size": 7190016,
+      "sha256": "4031537121ab2522b921d66d3e31da68d10b2db1e3cbefb022abb6e5ae0e24c8"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/fellthefallen.vib",
+      "size": 6771976,
+      "sha256": "0500bcfaa49adb40d28368a156c4dd332e35ba914672a4a2eae4353f62be3998"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/firearrow.vib",
+      "size": 6976712,
+      "sha256": "f7bf61ae1bf26c00ebc8ae45611214be07529b320e1d38573b3b6f5c363e6eaf"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/impact.vib",
+      "size": 13354140,
+      "sha256": "17d2613c3d1630a3975db1beb16f8dc010833a84a1000bce0181ced0f3b15799"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/lightagainstshadow.vib",
+      "size": 7090360,
+      "sha256": "86e142d4e682bc5e7a491a154353d79f1d5b28e5bb77d18e990aa89dea769724"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/onslaught.vib",
+      "size": 7507400,
+      "sha256": "a7f5628153c117ec517ecb44f6de482ee3e1565acb707836a19ed544ecfa52e6"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/pinningshot.vib",
+      "size": 8175064,
+      "sha256": "0086af4dbed350bf2407e353ab84ace39bd022a245bb82f81936c1de2ffd5b20"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/poison.vib",
+      "size": 13006416,
+      "sha256": "228776eca655eda7368d4d2adcdc4f2f5dcb61e3c78e0e76c0cdd084c07914ab"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/progression/artifact.vib",
+      "size": 6750936,
+      "sha256": "afe26654cdbff322e76a4ce091872e8eeeda5f37a086c16617f654ce8837b3e2"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/progression/bowQuest.vib",
+      "size": 6865644,
+      "sha256": "c8c6c1e988c16c5a59e226bd90a0ebc81a5bee57616ef28f8e8bd4f31f4df38d"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/progression/daggerQuest.vib",
+      "size": 6726144,
+      "sha256": "d15da52d5496326133e6534c5bd39edcf0851007f49c5d935d10753461523e56"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/progression/flower.vib",
+      "size": 6541924,
+      "sha256": "c36a425fc21d025f39dc7896639ffd8e6ea97ddd3ed6b36280bc8420e5f52695"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/progression/glyph.vib",
+      "size": 6537948,
+      "sha256": "d6a3579bdfbc562558e640a522044361cf4d4e6315842e3cfc38fd558fae8010"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/progression/GP.vib",
+      "size": 6720820,
+      "sha256": "185997da67bbcf36219415cb6defbad58cbb1197127965cb3a5ba61b529b91ea"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/progression/hunter.vib",
+      "size": 6689976,
+      "sha256": "eb6172b5cbe191302bfe2a03bbaacb214560b2d335716f0e00ce21699c6feb0f"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/progression/rescue.vib",
+      "size": 6809900,
+      "sha256": "5590af60b015f1527b62ed6c15c44bd7971dfc7e7c30e84b1017d165a9f5d982"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/progression/swordQuest.vib",
+      "size": 6728016,
+      "sha256": "577fea7b060f816815cde5204b72f336a966b355ea28b02103d66eb329f243a6"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/quickdraw.vib",
+      "size": 14878152,
+      "sha256": "217307043c2712d29a2a88d3b81a144bf7b9434f66d3113da4f2355d1a5e53f7"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/rageofelves2.vib",
+      "size": 5398280,
+      "sha256": "4c65e3793ed181e9d9b3afd842559aae9e15aaff81d072fb0db403a6b2a73dba"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/relentlessassault.vib",
+      "size": 6974460,
+      "sha256": "dd2db2ee685b10920b7d108879d50ea22873e902a9f8c3b3f96542b9cb1e70a1"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/resilience.vib",
+      "size": 6752680,
+      "sha256": "064dc1437651361ef0c009b2c981473addf8397c11f68f7a28fe89502d732d6c"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/secretflame.vib",
+      "size": 10862896,
+      "sha256": "9a024d167ea64ee89a6a38c1dcbd473a85f833d4a876bdaac33c39926b81f3ca"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/shadowmount.vib",
+      "size": 8544716,
+      "sha256": "8a9cf771543f00ba850cf39915fb2364000c4010116d26cf214f9ea36a5b4287"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/shadowstrike.vib",
+      "size": 7985792,
+      "sha256": "e981b1a86eaa141dcd0a9e5df927cf7937398b11a2142f78d63258c2ca965b32"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/shouldercharge.vib",
+      "size": 9515168,
+      "sha256": "4aac801e3e83f4d9c5dbcb8a585540f9a54a41f83bd0756d84f9e92e4e7d6311"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/splash_monolith.vib",
+      "size": 4955992,
+      "sha256": "49cf5bd83dc3cb3300417bdfe9309fbc26f64a0022a98d014cbaaffd48dcb67f"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/splash_wbg.vib",
+      "size": 8939348,
+      "sha256": "86c1f94f92dd02e06cd94c6c9dd544c688c416440b6c51b48e4af8f7ca0aea13"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/stealthbrand.vib",
+      "size": 7528908,
+      "sha256": "fac35e5af09f9ebe11e587f46444c362f668e7bda557617ceb1c1258e870394c"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/subversion.vib",
+      "size": 6062808,
+      "sha256": "3b2884068a2ef1cd39dee728fc8de6a1f14dca06ff501fab13f6c809eaf883bc"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/swiftness.vib",
+      "size": 8995912,
+      "sha256": "1caef4352074ddc1177a72215b28f28d7d59eff4dad726e334acb5e0973ef55e"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/sword_master.vib",
+      "size": 7836200,
+      "sha256": "fa98665ae06b91b26a5354f8b8eb0bf808ae01b474242e8cf1c9c1be823f137c"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/swordmaster2.vib",
+      "size": 7515600,
+      "sha256": "9a8ef40dfaaadd44a55b99646ba646c0e9892155ac24a2fc2c77821587b9c530"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/terrorarrow.vib",
+      "size": 10124212,
+      "sha256": "3ec9d49b4badf7a6832cd0d9778b79daf3baa0c643fdf282dfdfc71cad72c661"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/torment.vib",
+      "size": 6368296,
+      "sha256": "8aed5ab1a89632b30e7294d40154e6a440228849f8f88b3e9429d1c638c42db0"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/trollhunter.vib",
+      "size": 7511888,
+      "sha256": "b579f6f284cb5768d56e36a109b0b51e17472d63927110a5f633a746e782ef71"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/unseenslayer.vib",
+      "size": 12188768,
+      "sha256": "553a42af7b50c81052602b9aae674e05e214ac971ee1685ca6a64286aa0302d2"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/vault.vib",
+      "size": 6897268,
+      "sha256": "2872259db2055113e7c1175bd8c6a020d98ff03275efacec8c05f0eb111e033f"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/wraithfinisher.vib",
+      "size": 7192804,
+      "sha256": "a060a72fdec6f04260a0e69387dd23c93b4e91f457e51c3dae57251ac090c4df"
+    },
+    {
+      "path": "game/interface/videos/Skillvids/wraithpunch.vib",
+      "size": 7037192,
+      "sha256": "f8c950266a427eb0dbe01ae02c85a98200e2391fe9a6a71f3e8b40bbc09c4a62"
+    },
+    {
+      "path": "game/interface/videos/tutorials/activatebranded.vib",
+      "size": 8843200,
+      "sha256": "ca4787e3d896abfdbfa2e46216d99b8e63d968e40b03cf93834cda1c35a8ad8c"
+    },
+    {
+      "path": "game/interface/videos/tutorials/attract.vib",
+      "size": 11117032,
+      "sha256": "b0dda3e3ce435672bff0e5937f9a06ca76c6ee2fbda3c703654a3959283a7f01"
+    },
+    {
+      "path": "game/interface/videos/tutorials/bait.vib",
+      "size": 8792928,
+      "sha256": "7fbefe4f3fb931691b06003b3f2cece5b9dfeec40dac29b35b4e4a79f9e9a541"
+    },
+    {
+      "path": "game/interface/videos/tutorials/berserkerstun.vib",
+      "size": 8854364,
+      "sha256": "5ac4499b84d13cdb2014430cd4cf14475140a68c952bd414df7d12c470963c6e"
+    },
+    {
+      "path": "game/interface/videos/tutorials/bowgc.vib",
+      "size": 9443420,
+      "sha256": "86078222d4a6ec28de25335629157238fe5d16d8417259880306600729ffc30b"
+    },
+    {
+      "path": "game/interface/videos/tutorials/brandunlocked.vib",
+      "size": 8794936,
+      "sha256": "f0602aabc88f92baa6d49bdeab044f1283da3ffd95c48ecb5c7bbe8dc1104a75"
+    },
+    {
+      "path": "game/interface/videos/tutorials/caragordomination.vib",
+      "size": 5304612,
+      "sha256": "50ea27c655bd75ca68bffb9fee3b1ede2006cdbb6d329b7cf01930e444dc6f39"
+    },
+    {
+      "path": "game/interface/videos/tutorials/challengeTutorial.vib",
+      "size": 7594584,
+      "sha256": "05aee059715cbd5032d37eb7099162b19e6b767d44e3f31301b25a575169ce6a"
+    },
+    {
+      "path": "game/interface/videos/tutorials/counterattack.vib",
+      "size": 8958324,
+      "sha256": "3ea61021b7d94f4b3028dfd78bfbe65b78485ae83ecf2e77a8d4d7bf91696625"
+    },
+    {
+      "path": "game/interface/videos/tutorials/D1A1_Caragaths.vib",
+      "size": 9690036,
+      "sha256": "be9d8216f95f42123ce295f99f8f3b1c0f4adfd8ecdc502ac319c1725fef5f65"
+    },
+    {
+      "path": "game/interface/videos/tutorials/D1B1_SummonGhuls.vib",
+      "size": 9562376,
+      "sha256": "0be5331cddedc92c0ccd5bc4bf829278364a77cd223bf34089cea6c1c38ca1ad"
+    },
+    {
+      "path": "game/interface/videos/tutorials/D1B2_GhulPileOn.vib",
+      "size": 7469036,
+      "sha256": "19056901ab3fbbf68caeb4573c68f6ca5d82727aeeb403250de44d257bd7e1e6"
+    },
+    {
+      "path": "game/interface/videos/tutorials/D1C1_GraugBait.vib",
+      "size": 8033428,
+      "sha256": "221b1a3c89e9e8eefd661f638b299467511ed2b05866d68cc34bfbdbfa6e9a84"
+    },
+    {
+      "path": "game/interface/videos/tutorials/D1C1_Wretched.vib",
+      "size": 8233312,
+      "sha256": "0670ae790a04d3eb28603a55aebb83c3111ae3716c44c8be931ecc00b920f6ed"
+    },
+    {
+      "path": "game/interface/videos/tutorials/D1D1_SlowMo.vib",
+      "size": 6130536,
+      "sha256": "9f01fbd92af004a355c8e21777edf5e83e1050ca100b7c9ef82830a7a09f88ad"
+    },
+    {
+      "path": "game/interface/videos/tutorials/D1E1_DominateGhuls.vib",
+      "size": 5886148,
+      "sha256": "45763dfcdb272e96c52670c3fb22646af85552bbbe9fa0f4e244831e85d5a62a"
+    },
+    {
+      "path": "game/interface/videos/tutorials/D1E1_GhulPileOn_Branded.vib",
+      "size": 4449664,
+      "sha256": "c78b83049e30e64a107f67550c2b91d9edc9b62dabad6ed2dcd105d4b95ae958"
+    },
+    {
+      "path": "game/interface/videos/tutorials/D1W5_CaragathGC.vib",
+      "size": 4792756,
+      "sha256": "6523d98add9778dea47ed11e4eacbc7659c79971c485186e7e22adc6124589d9"
+    },
+    {
+      "path": "game/interface/videos/tutorials/daggergc.vib",
+      "size": 9607772,
+      "sha256": "4967d1c22592508168850eff4b2fffc924c2f3a05e89fd02bb8e5d0d30736727"
+    },
+    {
+      "path": "game/interface/videos/tutorials/defenderdash.vib",
+      "size": 8812584,
+      "sha256": "1adc6bcfbeb43eceaf05d69c9c558cf4c36bd9bb0e028f1feb2190bd6a92ee88"
+    },
+    {
+      "path": "game/interface/videos/tutorials/dfa.vib",
+      "size": 7456072,
+      "sha256": "054ce5019f677b164d2bcad71e1eb4443a542e7a185ecd99f01f74a184c4c322"
+    },
+    {
+      "path": "game/interface/videos/tutorials/DLC2/DLC2_aoeBrand.vib",
+      "size": 9636516,
+      "sha256": "eac7abbd63825f7b335a7f1fd3093bc2371c01831d01735a3fafcde12801b3fe"
+    },
+    {
+      "path": "game/interface/videos/tutorials/DLC2/DLC2_rangedMode.vib",
+      "size": 5392068,
+      "sha256": "832a75f1842f39eba9a833ba8bc3bddc9bb9f9ab30009fab704685a8e3793166"
+    },
+    {
+      "path": "game/interface/videos/tutorials/DLC2/DLC2_ringPower.vib",
+      "size": 9649628,
+      "sha256": "d558bf31f3254f8a2ab861bab6454cdd82650d530007a20fee91b8902267e087"
+    },
+    {
+      "path": "game/interface/videos/tutorials/DLC2/DLC2_shadowBrand.vib",
+      "size": 9626640,
+      "sha256": "3655c8a5447ed8f0a8cad2c1563ad3bc266756ebd3d20f91bda0a097c7bce2a3"
+    },
+    {
+      "path": "game/interface/videos/tutorials/DLC2/DLC2_summonFollowers.vib",
+      "size": 9688708,
+      "sha256": "d34f9da9618b208ed6a18db6c6b47811410a85dbab63112473f883c6fd441089"
+    },
+    {
+      "path": "game/interface/videos/tutorials/DLC2/dlc2consume.vib",
+      "size": 3956756,
+      "sha256": "3ed5390998e87a8891a3ce41808cc6f58ac0b3e03075755be3c256427698fbf7"
+    },
+    {
+      "path": "game/interface/videos/tutorials/dominateunlocked.vib",
+      "size": 8547296,
+      "sha256": "319ba8e350d178788a7d75f4f8de741deba4359fe136cc71e7dfeb0840b47a38"
+    },
+    {
+      "path": "game/interface/videos/tutorials/dominateunlocked2.vib",
+      "size": 11682568,
+      "sha256": "849b7dce0dc000956ef527c1e289d5a769d5ecc0c89b1a9e2e062ef9b8d89c50"
+    },
+    {
+      "path": "game/interface/videos/tutorials/doublecounter.vib",
+      "size": 8756892,
+      "sha256": "4f6a455925e7ceab260913d8e01f17a9f5104706d1124e56b8f0c5f7a2158c69"
+    },
+    {
+      "path": "game/interface/videos/tutorials/drain.vib",
+      "size": 7352116,
+      "sha256": "a657e21220498914a3406c131a17ddf37459bfc5600710ed8ed863db1d5b15e5"
+    },
+    {
+      "path": "game/interface/videos/tutorials/groundtakedown.vib",
+      "size": 8928824,
+      "sha256": "c185a1e1ecc69da553e41bb2cff793cb2a1dd991e4abf8b936bb66dc32e57405"
+    },
+    {
+      "path": "game/interface/videos/tutorials/inteldrop.vib",
+      "size": 6826348,
+      "sha256": "4cd2047906797d20a7c0e664183c389689a49c7efd125fe02d9079e0b8c15086"
+    },
+    {
+      "path": "game/interface/videos/tutorials/interrogatecaptain.vib",
+      "size": 9600836,
+      "sha256": "eda5e3076ff7544a35ddcca624455db6ee5c628f4ba7ff382a67583bd8199389"
+    },
+    {
+      "path": "game/interface/videos/tutorials/interrogationreminder.vib",
+      "size": 8975200,
+      "sha256": "9490a283cc644d97923aa909b306dc22501c7fd4a303804bca1de38b1c9d8685"
+    },
+    {
+      "path": "game/interface/videos/tutorials/ledgepull.vib",
+      "size": 7467868,
+      "sha256": "b73a076d1c57ea34b697a0853c2c9e2a8e311609881e35dc54666395904c1fbd"
+    },
+    {
+      "path": "game/interface/videos/tutorials/lure.vib",
+      "size": 9436500,
+      "sha256": "0795dd13e96e470f86d7595fea2823a058ab887a844ca421d18af8e62c9a62ae"
+    },
+    {
+      "path": "game/interface/videos/tutorials/outroinfight.vib",
+      "size": 7339536,
+      "sha256": "78fc8014bf627741082b71e8844f8ad2322afa4c76675ea90f1854dc66f59dea"
+    },
+    {
+      "path": "game/interface/videos/tutorials/perceptionawareness.vib",
+      "size": 13949340,
+      "sha256": "dd111f654b6dd669e4171286fae0e78d813adf026cb46c43312289232f44f85a"
+    },
+    {
+      "path": "game/interface/videos/tutorials/photomode.vib",
+      "size": 8686536,
+      "sha256": "0c3b7b5261082356967991b15b96cef5e45186c2305a39465cc14efe00e7f87f"
+    },
+    {
+      "path": "game/interface/videos/tutorials/poisonunlocked.vib",
+      "size": 9243268,
+      "sha256": "7f1878a775d8e84248b8458a101426cd3186ef2f9ccb680d4d6af804af42224e"
+    },
+    {
+      "path": "game/interface/videos/tutorials/quickthrow.vib",
+      "size": 6878308,
+      "sha256": "f515bf40eb3b4020e05b1650fb77ac2d825c15385462564f7f4ed47edfeee239"
+    },
+    {
+      "path": "game/interface/videos/tutorials/shadowstrikeunlocked.vib",
+      "size": 5337284,
+      "sha256": "e4bd4c14dbcbd02f8fb63fdf3d1781ad2afdcac84fe4e1b16a996e88be6bafc6"
+    },
+    {
+      "path": "game/interface/videos/tutorials/shootwargcages.vib",
+      "size": 6696624,
+      "sha256": "fa348303395adac57662c3292e854be7f9ff16fb4725befe4c4a0dbaecbb6042"
+    },
+    {
+      "path": "game/interface/videos/tutorials/speardodge.vib",
+      "size": 7407280,
+      "sha256": "fcd681b00745ebfdd53dea2e6fb2cd85d563e6c5008ff43bf6adfe449de548cf"
+    },
+    {
+      "path": "game/interface/videos/tutorials/stealthkill.vib",
+      "size": 4932312,
+      "sha256": "bcbcc160724343d81661865700c01024e2456a54ff247a8ac9616201c5d9d984"
+    },
+    {
+      "path": "game/interface/videos/tutorials/struggletutorial.vib",
+      "size": 4961920,
+      "sha256": "5eb1f7ca9ad11441dbebfa4aa738845830ee5bd748dde660a6c9eb822f05f671"
+    },
+    {
+      "path": "game/interface/videos/tutorials/swordgc.vib",
+      "size": 9662564,
+      "sha256": "46a0a79140468c13e60e11c70e393a4f541548061f82fe25f885228a6f643a7a"
+    },
+    {
+      "path": "game/interface/videos/tutorials/trollbleedunlocked.vib",
+      "size": 7458556,
+      "sha256": "9a8b267932f792744d6a92b4319a004f11a2a8f584f5be3d090fc471ed952b58"
+    },
+    {
+      "path": "game/interface/videos/tutorials/trollcharging.vib",
+      "size": 6381356,
+      "sha256": "89ffd23f3863cfc5b40df04e05fa84a3302d77a9d994df7b8f5b4457de16829e"
+    },
+    {
+      "path": "game/interface/videos/tutorials/trollmeleeattacks.vib",
+      "size": 11922356,
+      "sha256": "8abba730bada58b58807a831c0ef3ab3f33e16de5dcc0149c3fae2ed11e39ac3"
+    },
+    {
+      "path": "game/interface/videos/tutorials/trollrideunlocked.vib",
+      "size": 7958412,
+      "sha256": "6f61cd27e2803198d448d143e3e8e99272f9cdea9cf51286ec72dea828d15ff1"
+    },
+    {
+      "path": "game/interface/videos/tutorials/trollstun.vib",
+      "size": 8890588,
+      "sha256": "ab68681891ac0f01d191989ccbbe665e5d56c5651eec2920d849bf267083faba"
+    },
+    {
+      "path": "game/interface/videos/tutorials/wargbow.vib",
+      "size": 7625932,
+      "sha256": "737f38a9b42bf5e73e71ac595e520456aef53b3180f20bbb3eba8a3862ebd253"
+    },
+    {
+      "path": "game/interface/videos/tutorials/wargcounter.vib",
+      "size": 5425160,
+      "sha256": "d3142c49111f452a867be2469697666e15236ca8d6654b1d591e30ec07dd473c"
+    },
+    {
+      "path": "game/interface/videos/tutorials/wargdodge.vib",
+      "size": 4895084,
+      "sha256": "40feeb9bb0a3b1702d037baacce2fa29cb56929f89a7ba0404ddec80bdc46eb8"
+    },
+    {
+      "path": "game/interface/videos/tutorials/wargridingunlocked.vib",
+      "size": 6928824,
+      "sha256": "a55a4e4ec50b03c8a87c07b690cb62bf5893e79901a3495d216dc8292614718b"
+    },
+    {
+      "path": "game/interface/videos/tutorials/wargswordbite.vib",
+      "size": 7551592,
+      "sha256": "548cdef51b8ac1135310437ad3fa8283ea4cd562f87053c2d2f9e1cc5ff9ec84"
+    },
+    {
+      "path": "game/interface/videos/tutorials/wraithflashunlocked.vib",
+      "size": 7617224,
+      "sha256": "98b34419df568971df92b3d913f3ad4a9e2a9199e06ebe62d8e60acf57516c8c"
+    },
+    {
+      "path": "game/interface/videos/WBPlay.vib",
+      "size": 6842420,
+      "sha256": "3fff7f5ece42817f91fa9e77ec6076fc3bd3af07c3f0c591250dff676efb0bf8"
+    },
+    {
+      "path": "game/projectconsole.cfg",
+      "size": 71,
+      "sha256": "abd36822b5cb670f4936f61ceb6e41114d3530a0af5aa15fcca37da3b36ab169"
+    },
+    {
+      "path": "game/SKU.cfg",
+      "size": 46,
+      "sha256": "ac5e38ebceacb9f71a6f4b5afdaa92d9cb9c5b59199e3ab48167f8496bbf6234"
+    },
+    {
+      "path": "game/sound/EnglishUS/vo.pck",
+      "size": 499405025,
+      "sha256": "7a99a6c3de759c10d1755781de01b02cacc78c2c13214593d9fe230ff3c574d1"
+    },
+    {
+      "path": "game/sound/EnglishUS/vo_DLC1.pck",
+      "size": 11600859,
+      "sha256": "4a0e60a6eb69412af0e90612323bb6e33f36827d611e704bd6bd672b6620e6c7"
+    },
+    {
+      "path": "game/sound/EnglishUS/vo_DLC2.pck",
+      "size": 8138268,
+      "sha256": "43baf8b531cd1c37a879659e31bb923e49e43b07df2562779dbad8b40a7511f9"
+    },
+    {
+      "path": "game/sound/FrenchFrance/vo.pck",
+      "size": 490280524,
+      "sha256": "19530ff8328b1ec2bb8a0a7a5ce7fe33749d6139bf7ee1b8672579c50053e254"
+    },
+    {
+      "path": "game/sound/FrenchFrance/vo_DLC1.pck",
+      "size": 11733519,
+      "sha256": "a6e9ce283adc118d4c22b50c1e3935da7b057be461746868f3a6491e7f667e81"
+    },
+    {
+      "path": "game/sound/FrenchFrance/vo_DLC2.pck",
+      "size": 8435574,
+      "sha256": "776a00f6943f9a53420b593bff193c7bf239d395bd9259e25108daba7bcd6bf8"
+    },
+    {
+      "path": "game/sound/SpanishSpain/vo.pck",
+      "size": 509213829,
+      "sha256": "9f48f716128e3855ac8423a8c37cb6e8dc87a6f9e03cb615c548b2d1f470608a"
+    },
+    {
+      "path": "game/sound/SpanishSpain/vo_DLC1.pck",
+      "size": 11949277,
+      "sha256": "5b095113f13c92684b8619c27650f971cf1256457df739112ce71cba2a7bad0b"
+    },
+    {
+      "path": "game/sound/SpanishSpain/vo_DLC2.pck",
+      "size": 8374695,
+      "sha256": "a3f4508adebb4d3b17ed23458d668a625c769e942ec2702e2cc8235bc9ed80b2"
+    },
+    {
+      "path": "game/sound/Streaming.pck",
+      "size": 34184835,
+      "sha256": "544f383e00959472cad9843a527b0c242ddb42b58c5bac332c0c5481a48a92ef"
+    },
+    {
+      "path": "global.arch05",
+      "size": 633068260,
+      "sha256": "31ef0a05eb37653734902cad40ea8d087fc64d71528ed1e026e0ab2796a19644"
+    },
+    {
+      "path": "global_0.arch05",
+      "size": 89800,
+      "sha256": "a45cf83ebff3408ef2a80de4cd0924d5d5f71fc7c79c4bea96bd3528424259b7"
+    },
+    {
+      "path": "hotchunk.arch05",
+      "size": 2748660,
+      "sha256": "07f680e0dadc93dd8fa1182bb30b5208f712308ae0495db58bada267d8b23e1a"
+    },
+    {
+      "path": "hotchunk_0.arch05",
+      "size": 132,
+      "sha256": "5ebae6b8a2e79aee155aeff180775f63a5d3e1f34987dc4f0251878e794e1486"
+    },
+    {
+      "path": "hotchunk_Patch.arch05",
+      "size": 8973596,
+      "sha256": "4b816ad4ef9ee0ce08b497182e7a9874755aa8c50d005d14934bbed535c02114"
+    },
+    {
+      "path": "intro.arch05",
+      "size": 1532319428,
+      "sha256": "4cbc34b89c1b474a0b1e9fbfc0f49532d583e34d02db392f0e23d6d7a5c8daa7"
+    },
+    {
+      "path": "intro_0.arch05",
+      "size": 679604384,
+      "sha256": "90524353d4f97a476ad0e54a10533fb0386dbd9fe756131d65d68257d2dcb692"
+    },
+    {
+      "path": "layer10_dlc_TestOfPOwer.arch05",
+      "size": 224,
+      "sha256": "7c75e2bdba4240db8cc1fb6b06036cd1f8c394a3859ff63bc9ec414b4f4e8ff9"
+    },
+    {
+      "path": "layer11_dlc_TestOfSpeed.arch05",
+      "size": 220,
+      "sha256": "20aeed2e4275e70dedb1779aa04c2911cebacb3f83bb1593b75ef746004524f6"
+    },
+    {
+      "path": "layer12_dlc_TestOfWisdom.arch05",
+      "size": 224,
+      "sha256": "594ab4c1a22aca3c1de7adc941670db59714f63b1c507c5cfed0ac8c511bf18d"
+    },
+    {
+      "path": "layer13_dlc_EndChallenge.arch05",
+      "size": 232,
+      "sha256": "a7cf91f2710389261ae50c62a7a3d96842573c0f49da4b31966b607a5b76a502"
+    },
+    {
+      "path": "Layer20_DLC_DarkRanger.arch05",
+      "size": 68,
+      "sha256": "d18547511978688a252ee890b718f4d51a42233a456e18f97e19832bc07d5556"
+    },
+    {
+      "path": "Layer21_DLC_CaptBlackGate.arch05",
+      "size": 228,
+      "sha256": "dd8e272b785713bb740e906c014362873f8f836fefde13cefaf7604d4686d37b"
+    },
+    {
+      "path": "Layer22_DLC_BlackHand.arch05",
+      "size": 216,
+      "sha256": "b6f74a7168c427e93ae97f47ff814db84ed45193bc9eb3cf48d2d8f036616391"
+    },
+    {
+      "path": "Layer30_DLC_HiddenBlade.arch05",
+      "size": 68,
+      "sha256": "d18547511978688a252ee890b718f4d51a42233a456e18f97e19832bc07d5556"
+    },
+    {
+      "path": "Layer32_DLC_DeadlyArcher.arch05",
+      "size": 68,
+      "sha256": "d18547511978688a252ee890b718f4d51a42233a456e18f97e19832bc07d5556"
+    },
+    {
+      "path": "Layer33_DLC_OrcSlayer.arch05",
+      "size": 68,
+      "sha256": "d18547511978688a252ee890b718f4d51a42233a456e18f97e19832bc07d5556"
+    },
+    {
+      "path": "Layer35_DLC_FlameOfArnor.arch05",
+      "size": 68,
+      "sha256": "d18547511978688a252ee890b718f4d51a42233a456e18f97e19832bc07d5556"
+    },
+    {
+      "path": "Layer39_DLC_RisingStorm.arch05",
+      "size": 68,
+      "sha256": "d18547511978688a252ee890b718f4d51a42233a456e18f97e19832bc07d5556"
+    },
+    {
+      "path": "layer52_dlc_Guardians.arch05",
+      "size": 216,
+      "sha256": "ac7355dc62a03efeb01f0c4ff21f7ade985fe7fb4ace294080f6c397b3ff834c"
+    },
+    {
+      "path": "layer53_dlc_BloodHunters.arch05",
+      "size": 224,
+      "sha256": "d4bf6be3099cdcfe5e1086a3d817c431ef9a90efab8fed88ab2c4dcf273d27f7"
+    },
+    {
+      "path": "layer54_dlc_Berserks.arch05",
+      "size": 216,
+      "sha256": "132653ce3e16aaa905a6bd329498aaff23cbc4cc2d0d6962824489137096fb8e"
+    },
+    {
+      "path": "layer55_dlc_Crushers.arch05",
+      "size": 216,
+      "sha256": "308b5c093796d25e10d71db3ab6abd8357bd501e109750d8d5c2ff7393c18027"
+    },
+    {
+      "path": "layer56_dlc_FleshBurners.arch05",
+      "size": 224,
+      "sha256": "a14c0501bf4fcfacdfcd1982a2772db3019024d270bcae6c914e367524c3fac5"
+    },
+    {
+      "path": "layer70_dlc_LordOfTheHunt.arch05",
+      "size": 224,
+      "sha256": "9003920177b2f1353824c9a816d4b2c44e9a750c2158645abb2095c66ed4b086"
+    },
+    {
+      "path": "layer71_dlc_BrightLord.arch05",
+      "size": 220,
+      "sha256": "36c7a5e482c82a2e7f3d02477d83c2bd30205fd31efa4323fd3213ce15a60cb6"
+    },
+    {
+      "path": "monsters.arch05",
+      "size": 189096324,
+      "sha256": "258a932191656bbede8b70d898e5fe1ef7e8cc461f5ca773f02ec4525889133e"
+    },
+    {
+      "path": "monsters_0.arch05",
+      "size": 147112728,
+      "sha256": "33790dae3bf687aaa3e8acdc5176587146dc5fdc4481ef36159e99ea93697bcb"
+    },
+    {
+      "path": "NF_Patch.arch05",
+      "size": 228392,
+      "sha256": "c4187bf4a58f0bdc4261db8ef1d4fbe6c114955c43fff1858e18d272e05a88c1"
+    },
+    {
+      "path": "outro.arch05",
+      "size": 1914584864,
+      "sha256": "44f4dd3e15e7448b07a87a885864eeacca30deef00c3a09bb5a5976c1f9de75c"
+    },
+    {
+      "path": "outro_0.arch05",
+      "size": 1148541872,
+      "sha256": "91269575a49eded192a64de89dde2a6cc3393a38e2fa1507f078d34ee0d7368d"
+    },
+    {
+      "path": "Patch_1.arch05",
+      "size": 1148451764,
+      "sha256": "d3c3cf661e096f0a94eec934ed1438d79120aaaa40cafffb214b91c00c9f5d73"
+    },
+    {
+      "path": "Patch_1_0.arch05",
+      "size": 471244656,
+      "sha256": "4a1d2866766b64b493fe0a968ffdbd0d45e917be3e3dff083f1ec763ad88b830"
+    },
+    {
+      "path": "presentations.arch05",
+      "size": 1568360924,
+      "sha256": "052a951cae8702646fd08a55f00100e36809565b2d738f6b8654125cf37a5112"
+    },
+    {
+      "path": "presentations_0.arch05",
+      "size": 425604,
+      "sha256": "897ae2f1b19743b4114d12ce53d1dea63247b65b0e5af410ded008d09bcc67ce"
+    },
+    {
+      "path": "questlinegollum.arch05",
+      "size": 698064184,
+      "sha256": "ddec8840ca5e61b91b8995c8b265b11b6143135a057b6d0a82e94f6bd2eacd7f"
+    },
+    {
+      "path": "questlinegollum_0.arch05",
+      "size": 541476972,
+      "sha256": "f0cb1fbc08afb4b9e96f84ff5e693dd678cb4b645490e95fda9dd88c90283d09"
+    },
+    {
+      "path": "questlinehirgon.arch05",
+      "size": 548457740,
+      "sha256": "201166977b46225f16c34c8b363bdf2c3ee834139a0b1f8dfcef65975cb93e69"
+    },
+    {
+      "path": "questlinehirgon_0.arch05",
+      "size": 631897112,
+      "sha256": "07c6832cc09040261347c0334de0c87c3fcbc053f8881ae87a4ee32e9693f875"
+    },
+    {
+      "path": "questlinelithariel.arch05",
+      "size": 350235060,
+      "sha256": "50fb1ed94b53402d1616fefc4360dfa104f81879e583ba5674e8b03d445296ae"
+    },
+    {
+      "path": "questlinelithariel_0.arch05",
+      "size": 452913952,
+      "sha256": "0fac25ef61ed6ff7add550a11b218bc844a937ca26fc36d6975eade68185b939"
+    },
+    {
+      "path": "questlinemarwin.arch05",
+      "size": 23621128,
+      "sha256": "9cbedca193e74abf6bff6f33c403f285e973e6b97d12784d2a57ae5c6ed25ff5"
+    },
+    {
+      "path": "questlinemarwin_0.arch05",
+      "size": 19784140,
+      "sha256": "0b27879d8d1924c436ceca454fe2c7cccba7ef00697978f9ce57373972b93cd3"
+    },
+    {
+      "path": "questlineratbag.arch05",
+      "size": 400604028,
+      "sha256": "27c3217543b7fff6b2f6c167a9f759ce547518b6497396e15d7c228e2dd51e24"
+    },
+    {
+      "path": "questlineratbag_0.arch05",
+      "size": 532476356,
+      "sha256": "2481560a52f8a2fe09941b3bb86166656634a4ad630270f622c474cd9c6228dc"
+    },
+    {
+      "path": "questlinetorvin.arch05",
+      "size": 151101652,
+      "sha256": "8bacc6bc08f51506dde42cee53c27e7077339d6d9c4652be9ff4abcc640f4d16"
+    },
+    {
+      "path": "questlinetorvin_0.arch05",
+      "size": 180116156,
+      "sha256": "85d8f17f0b37fd843f7377bcdc81f00e7f4ac01abd552b954410273d59848cb3"
+    },
+    {
+      "path": "son.arch05",
+      "size": 4183325760,
+      "sha256": "6f2dd18d9ea405b45718f2cb106be13fa89fc65c5b60b2b326a4ee31808a5457"
+    },
+    {
+      "path": "son_0.arch05",
+      "size": 1753268168,
+      "sha256": "0d851faee7b39531d697acf93e38a4bfd512269ce2779a5b017b99d21e2bf89b"
+    },
+    {
+      "path": "son_weather.arch05",
+      "size": 2331252280,
+      "sha256": "21c1d882ab0126c44e025ff674b5d67f99dd41994eb86254604a678cd41aaa4f"
+    },
+    {
+      "path": "son_weather_0.arch05",
+      "size": 90466896,
+      "sha256": "c510deba73a1b40bd158b2b9efbcfcfc959997bb75cf3b207c805fef40d334c6"
+    },
+    {
+      "path": "udun.arch05",
+      "size": 5337719732,
+      "sha256": "d3a6357a53022585a3f8a88992644ee19696054346e1b9e86e53bb7d4691b4c2"
+    },
+    {
+      "path": "udun_0.arch05",
+      "size": 1677874980,
+      "sha256": "8490c776e1ce2a05949d478c2ff20f423564ce7bac0f84f113143a8253d7a770"
+    },
+    {
+      "path": "udun_weather.arch05",
+      "size": 2902848160,
+      "sha256": "ea0582ff472b43fcfe9d8ede69e516495e814d180be62d17619888fb4b6c697e"
+    },
+    {
+      "path": "udun_weather_0.arch05",
+      "size": 136529416,
+      "sha256": "b33d03ad92407729b1d6bb3d741ff97a865be50e4d79f4e0408aa3cc6e37c8d1"
+    },
+    {
+      "path": "ui_assets.arch05",
+      "size": 1947151976,
+      "sha256": "e462f293ac54e102501147a53b1e1f49c029c88aab5cc45b13cfd384a3695c6d"
+    },
+    {
+      "path": "ui_assets_0.arch05",
+      "size": 1549102832,
+      "sha256": "810ebca5a2b1c6acd904a96286ced8e2df590a00975c1b5c5c0c97a8477226d2"
+    },
+    {
+      "path": "ui_assets_Patch.arch05",
+      "size": 768,
+      "sha256": "5c569af48bdc13d6d9750bc17cbe1f89fb433fe83a8c9d49259cc1b19632cd23"
+    },
+    {
+      "path": "ui_assets_Patch_0.arch05",
+      "size": 160,
+      "sha256": "ba1acccd2a6619f63446f9167e105a945d9f30f53a48c764bc95aac22b9abbf8"
+    },
+    {
+      "path": "UI_GFX.arch05",
+      "size": 206186128,
+      "sha256": "3a50f337cf8195678fe72d89f976bb4dd1d373283f9565c7244b5b518d2f2de6"
+    },
+    {
+      "path": "UI_GFX_0.arch05",
+      "size": 86720092,
+      "sha256": "73a67c7fb952afda844e2f88436f68cfcebd8ad19b618d58fcaea616eeea37ca"
+    },
+    {
+      "path": "x64/bink2w64.dll",
+      "size": 435712,
+      "sha256": "3c8a28354d790755a53902cc6390091dcbaa2e2a4d9e6778c8cee7fa5aae30fe"
+    },
+    {
+      "path": "x64/d3dcompiler_46.dll",
+      "size": 3873368,
+      "sha256": "7a9bae7907abd79d15d9d4114674d3fc01f0438d76bc5afdf827bbfa7fc3b020"
+    },
+    {
+      "path": "x64/default.archcfg",
+      "size": 1891,
+      "sha256": "435d3db57c9b838fe6c97f010e47855dbb9f89ddcaa89fcddf815d744e12f358"
+    },
+    {
+      "path": "x64/doge64.dll",
+      "size": 121256,
+      "sha256": "18005605f0e9f60fa47390e7fb174a3aef1ab00b5088f8d3b3419f57b3cb5e6f"
+    },
+    {
+      "path": "x64/ShadowOfMordor.exe",
+      "size": 28853840,
+      "sha256": "709685e8f818744633c47bc009e83e7da305805f7747dfc21059ffb74dca4926"
+    },
+    {
+      "path": "x64/steam_api.ini",
+      "size": 2718,
+      "sha256": "60efe1fd49727989ce7087d429b2ef66db34713a1353ea88f4acbb1da0945d32"
+    },
+    {
+      "path": "x64/steam_api64.dll",
+      "size": 1605124,
+      "sha256": "6328a8ca4ee68eda014f2eb592ea55f5b076f3f0117671ac808500ffabe98ae4"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "corecharacter.arch05",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 710354516
+        },
+        {
+          "file": "corecharacter_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 759574292,
+          "length": 628173628
+        }
+      ],
+      "sha256": "89d18a9e16134c13a218935174eeac3d8cc0ec6f30bf768951a42c77023ace56"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "corecharacter_0.arch05",
+          "file_offset": 628173628,
+          "chunk_offset": 0,
+          "length": 190785976
+        },
+        {
+          "file": "DLC1.arch05",
+          "file_offset": 0,
+          "chunk_offset": 190785976,
+          "length": 1196961944
+        }
+      ],
+      "sha256": "50b6cdb7fe1188a4555b7aac34981caf291e421144f855cdc23b5728ac8e0603"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "DLC1.arch05",
+          "file_offset": 1196961944,
+          "chunk_offset": 0,
+          "length": 674657492
+        },
+        {
+          "file": "DLC1_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 674657492,
+          "length": 713090428
+        }
+      ],
+      "sha256": "2c4cd99e67b5fb25691c90a0f6718f36a86b2e503aed59c8df0a0e4a1ad99910"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "DLC1_0.arch05",
+          "file_offset": 713090428,
+          "chunk_offset": 0,
+          "length": 199835932
+        },
+        {
+          "file": "DLC2.arch05",
+          "file_offset": 0,
+          "chunk_offset": 199835932,
+          "length": 1187911988
+        }
+      ],
+      "sha256": "6868d3e521251088c8c0de7225b007a6808d416f49bdc50f8ea5c51c0ec8b4c2"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "DLC2.arch05",
+          "file_offset": 1187911988,
+          "chunk_offset": 0,
+          "length": 1387747920
+        }
+      ],
+      "sha256": "e58cc5e84ecec0fa710efa1ff04f6573a59a01198ade5e1eaa1caf01be3bb82a"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "DLC2.arch05",
+          "file_offset": 2575659908,
+          "chunk_offset": 0,
+          "length": 1387747920
+        }
+      ],
+      "sha256": "eb64408ffc1b1942eb4531bad8ec1118f28abf8453d6090963ebda170edd4c53"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "DLC2.arch05",
+          "file_offset": 3963407828,
+          "chunk_offset": 0,
+          "length": 979942788
+        },
+        {
+          "file": "game/cinematics/videos/dlc1/fb_dlccine_introa.vib",
+          "file_offset": 0,
+          "chunk_offset": 979942788,
+          "length": 7376840
+        },
+        {
+          "file": "game/cinematics/videos/dlc1/fb_dlccine_introb.vib",
+          "file_offset": 0,
+          "chunk_offset": 987319628,
+          "length": 3756704
+        },
+        {
+          "file": "game/cinematics/videos/dlc1/fb_dlccine_outro.vib",
+          "file_offset": 0,
+          "chunk_offset": 991076332,
+          "length": 105367688
+        },
+        {
+          "file": "game/cinematics/videos/dlc2/DLC2_intro.vib",
+          "file_offset": 0,
+          "chunk_offset": 1096444020,
+          "length": 143062780
+        },
+        {
+          "file": "game/cinematics/videos/dlc2/DLC2_outro.vib",
+          "file_offset": 0,
+          "chunk_offset": 1239506800,
+          "length": 134105744
+        },
+        {
+          "file": "game/cinematics/videos/dlc2/DLC2_SauronIntro.vib",
+          "file_offset": 0,
+          "chunk_offset": 1373612544,
+          "length": 14135376
+        }
+      ],
+      "sha256": "200ba281b1159ac8404070bcc1b0751d251067efe961ee79786fdd138bf5e974"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "game/cinematics/videos/dlc2/DLC2_SauronIntro.vib",
+          "file_offset": 14135376,
+          "chunk_offset": 0,
+          "length": 25426676
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/gollum/G_m10_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 25426676,
+          "length": 37208512
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/gollum/G_m10_20.vib",
+          "file_offset": 0,
+          "chunk_offset": 62635188,
+          "length": 72321172
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/gollum/G_m10_30.vib",
+          "file_offset": 0,
+          "chunk_offset": 134956360,
+          "length": 132850784
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/gollum/G_m20_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 267807144,
+          "length": 111340768
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/gollum/G_m20_30.vib",
+          "file_offset": 0,
+          "chunk_offset": 379147912,
+          "length": 159276132
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/gollum/G_m30_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 538424044,
+          "length": 33505708
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/gollum/G_m30_20.vib",
+          "file_offset": 0,
+          "chunk_offset": 571929752,
+          "length": 40506672
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/gollum/G_m30_30.vib",
+          "file_offset": 0,
+          "chunk_offset": 612436424,
+          "length": 115559336
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/gollum/G_m30_40.vib",
+          "file_offset": 0,
+          "chunk_offset": 727995760,
+          "length": 104302004
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/hirgon/H_m10_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 832297764,
+          "length": 29961944
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/hirgon/H_m10_20.vib",
+          "file_offset": 0,
+          "chunk_offset": 862259708,
+          "length": 105291744
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/hirgon/H_m30_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 967551452,
+          "length": 66445908
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/hirgon/H_m30_20.vib",
+          "file_offset": 0,
+          "chunk_offset": 1033997360,
+          "length": 75186076
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/hirgon/H_m40_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 1109183436,
+          "length": 70489700
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/hirgon/H_m40_20.vib",
+          "file_offset": 0,
+          "chunk_offset": 1179673136,
+          "length": 16604268
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/hirgon/H_m40_30.vib",
+          "file_offset": 0,
+          "chunk_offset": 1196277404,
+          "length": 86385092
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/hirgon/H_m50_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 1282662496,
+          "length": 105085424
+        }
+      ],
+      "sha256": "00663eabf22e32fe77d569c02bbc1e1d2d4438cd0078bb77744b2943df7250df"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "game/cinematics/videos/golden_path/hirgon/H_m50_10.vib",
+          "file_offset": 105085424,
+          "chunk_offset": 0,
+          "length": 59557804
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/hirgon/H_m50_40.vib",
+          "file_offset": 0,
+          "chunk_offset": 59557804,
+          "length": 130991720
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/intro/INT_010.vib",
+          "file_offset": 0,
+          "chunk_offset": 190549524,
+          "length": 138711400
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/intro/INT_060.vib",
+          "file_offset": 0,
+          "chunk_offset": 329260924,
+          "length": 37385780
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/intro/INT_070.vib",
+          "file_offset": 0,
+          "chunk_offset": 366646704,
+          "length": 96846216
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/intro/INT_090.vib",
+          "file_offset": 0,
+          "chunk_offset": 463492920,
+          "length": 67363648
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/intro/INT_100.vib",
+          "file_offset": 0,
+          "chunk_offset": 530856568,
+          "length": 258876820
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/intro/INT_140.vib",
+          "file_offset": 0,
+          "chunk_offset": 789733388,
+          "length": 26075024
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/intro/INT_150.vib",
+          "file_offset": 0,
+          "chunk_offset": 815808412,
+          "length": 43161376
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/intro/INT_155.vib",
+          "file_offset": 0,
+          "chunk_offset": 858969788,
+          "length": 32246252
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/lithariel/L_m10_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 891216040,
+          "length": 54000208
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/lithariel/L_m10_20.vib",
+          "file_offset": 0,
+          "chunk_offset": 945216248,
+          "length": 61912564
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/lithariel/L_m20_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 1007128812,
+          "length": 73419144
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/lithariel/L_m20_20.vib",
+          "file_offset": 0,
+          "chunk_offset": 1080547956,
+          "length": 26281212
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/lithariel/L_m20_40.vib",
+          "file_offset": 0,
+          "chunk_offset": 1106829168,
+          "length": 85594948
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/marwen/M_m10_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 1192424116,
+          "length": 195323804
+        }
+      ],
+      "sha256": "5abc7800ac18353e794b5b637aa544c10eccba2ea4a57bc5fc34457ec67697d8"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "game/cinematics/videos/golden_path/marwen/M_m10_10.vib",
+          "file_offset": 195323804,
+          "chunk_offset": 0,
+          "length": 21768944
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/marwen/M_m10_20.vib",
+          "file_offset": 0,
+          "chunk_offset": 21768944,
+          "length": 90245804
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/marwen/M_m10_30.vib",
+          "file_offset": 0,
+          "chunk_offset": 112014748,
+          "length": 128030156
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/marwen/M_m20_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 240044904,
+          "length": 136911616
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/marwen/M_m20_20.vib",
+          "file_offset": 0,
+          "chunk_offset": 376956520,
+          "length": 31336028
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/marwen/M_m20_30.vib",
+          "file_offset": 0,
+          "chunk_offset": 408292548,
+          "length": 152163372
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/marwen/M_m30_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 560455920,
+          "length": 81821376
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/marwen/M_m30_30.vib",
+          "file_offset": 0,
+          "chunk_offset": 642277296,
+          "length": 199225964
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/outro/OUT_010.vib",
+          "file_offset": 0,
+          "chunk_offset": 841503260,
+          "length": 113815224
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/outro/OUT_030.vib",
+          "file_offset": 0,
+          "chunk_offset": 955318484,
+          "length": 193445976
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/outro/OUT_040.vib",
+          "file_offset": 0,
+          "chunk_offset": 1148764460,
+          "length": 56321336
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/outro/OUT_050.vib",
+          "file_offset": 0,
+          "chunk_offset": 1205085796,
+          "length": 182662124
+        }
+      ],
+      "sha256": "748d6efb9a56c80175aae473d15b557b3c42126c724f9321dcda9a53b45ebb3c"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "game/cinematics/videos/golden_path/outro/OUT_050.vib",
+          "file_offset": 182662124,
+          "chunk_offset": 0,
+          "length": 52886156
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/outro/OUT_080.vib",
+          "file_offset": 0,
+          "chunk_offset": 52886156,
+          "length": 149219204
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/outro/OUT_090.vib",
+          "file_offset": 0,
+          "chunk_offset": 202105360,
+          "length": 61715928
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/outro/OUT_120.vib",
+          "file_offset": 0,
+          "chunk_offset": 263821288,
+          "length": 92226784
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/ratbag/R_m10_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 356048072,
+          "length": 82903172
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/ratbag/R_m10_20.vib",
+          "file_offset": 0,
+          "chunk_offset": 438951244,
+          "length": 91359460
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/ratbag/R_m10_30.vib",
+          "file_offset": 0,
+          "chunk_offset": 530310704,
+          "length": 95553860
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/ratbag/R_m20_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 625864564,
+          "length": 49868360
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/ratbag/R_m20_20.vib",
+          "file_offset": 0,
+          "chunk_offset": 675732924,
+          "length": 97851068
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/ratbag/R_m30_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 773583992,
+          "length": 120942820
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/ratbag/R_m30_30.vib",
+          "file_offset": 0,
+          "chunk_offset": 894526812,
+          "length": 66537180
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/torvin/T_m10_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 961063992,
+          "length": 153123420
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/torvin/T_m10_20.vib",
+          "file_offset": 0,
+          "chunk_offset": 1114187412,
+          "length": 43303132
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/torvin/T_m20_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 1157490544,
+          "length": 78300404
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/torvin/T_m20_15.vib",
+          "file_offset": 0,
+          "chunk_offset": 1235790948,
+          "length": 16854860
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/torvin/T_m20_30.vib",
+          "file_offset": 0,
+          "chunk_offset": 1252645808,
+          "length": 42596496
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/torvin/T_m30_10.vib",
+          "file_offset": 0,
+          "chunk_offset": 1295242304,
+          "length": 23520344
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/torvin/T_m30_30.vib",
+          "file_offset": 0,
+          "chunk_offset": 1318762648,
+          "length": 68985272
+        }
+      ],
+      "sha256": "421b4f569530c1aa7acd8bf8c0292cbd713fecd2f14cea25b46991c17d6b3e24"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "game/cinematics/videos/golden_path/torvin/T_m30_30.vib",
+          "file_offset": 68985272,
+          "chunk_offset": 0,
+          "length": 137762212
+        },
+        {
+          "file": "game/cinematics/videos/golden_path/torvin/T_m30_40.vib",
+          "file_offset": 0,
+          "chunk_offset": 137762212,
+          "length": 120094464
+        },
+        {
+          "file": "game/cinematics/videos/visions/VIS_010.vib",
+          "file_offset": 0,
+          "chunk_offset": 257856676,
+          "length": 7723612
+        },
+        {
+          "file": "game/cinematics/videos/visions/VIS_020.vib",
+          "file_offset": 0,
+          "chunk_offset": 265580288,
+          "length": 56912724
+        },
+        {
+          "file": "game/cinematics/videos/visions/VIS_030.vib",
+          "file_offset": 0,
+          "chunk_offset": 322493012,
+          "length": 71612552
+        },
+        {
+          "file": "game/cinematics/videos/visions/VIS_040.vib",
+          "file_offset": 0,
+          "chunk_offset": 394105564,
+          "length": 37647916
+        },
+        {
+          "file": "game/cinematics/videos/visions/VIS_050.vib",
+          "file_offset": 0,
+          "chunk_offset": 431753480,
+          "length": 98066032
+        },
+        {
+          "file": "game/cinematics/videos/visions/VIS_060.vib",
+          "file_offset": 0,
+          "chunk_offset": 529819512,
+          "length": 73512156
+        },
+        {
+          "file": "game/cinematics/videos/visions/VIS_070.vib",
+          "file_offset": 0,
+          "chunk_offset": 603331668,
+          "length": 77770280
+        },
+        {
+          "file": "game/cinematics/videos/visions/VIS_080.vib",
+          "file_offset": 0,
+          "chunk_offset": 681101948,
+          "length": 104011220
+        },
+        {
+          "file": "game/interface/videos/credits.vib",
+          "file_offset": 0,
+          "chunk_offset": 785113168,
+          "length": 137569432
+        },
+        {
+          "file": "game/interface/videos/darkRanger.vib",
+          "file_offset": 0,
+          "chunk_offset": 922682600,
+          "length": 3450872
+        },
+        {
+          "file": "game/interface/videos/intro.vib",
+          "file_offset": 0,
+          "chunk_offset": 926133472,
+          "length": 19530848
+        },
+        {
+          "file": "game/interface/videos/intro_cz.vib",
+          "file_offset": 0,
+          "chunk_offset": 945664320,
+          "length": 19530848
+        },
+        {
+          "file": "game/interface/videos/intro_de.vib",
+          "file_offset": 0,
+          "chunk_offset": 965195168,
+          "length": 16520632
+        },
+        {
+          "file": "game/interface/videos/intro_fr.vib",
+          "file_offset": 0,
+          "chunk_offset": 981715800,
+          "length": 19521272
+        },
+        {
+          "file": "game/interface/videos/intro_hu.vib",
+          "file_offset": 0,
+          "chunk_offset": 1001237072,
+          "length": 19530848
+        },
+        {
+          "file": "game/interface/videos/Intro_IT.vib",
+          "file_offset": 0,
+          "chunk_offset": 1020767920,
+          "length": 16520436
+        },
+        {
+          "file": "game/interface/videos/intro_ja.vib",
+          "file_offset": 0,
+          "chunk_offset": 1037288356,
+          "length": 19530848
+        },
+        {
+          "file": "game/interface/videos/intro_mx.vib",
+          "file_offset": 0,
+          "chunk_offset": 1056819204,
+          "length": 16520660
+        },
+        {
+          "file": "game/interface/videos/intro_pl.vib",
+          "file_offset": 0,
+          "chunk_offset": 1073339864,
+          "length": 19521972
+        },
+        {
+          "file": "game/interface/videos/intro_po.vib",
+          "file_offset": 0,
+          "chunk_offset": 1092861836,
+          "length": 19522396
+        },
+        {
+          "file": "game/interface/videos/intro_ru.vib",
+          "file_offset": 0,
+          "chunk_offset": 1112384232,
+          "length": 19521908
+        },
+        {
+          "file": "game/interface/videos/intro_sp.vib",
+          "file_offset": 0,
+          "chunk_offset": 1131906140,
+          "length": 16521384
+        },
+        {
+          "file": "game/interface/videos/Intro_Title.vib",
+          "file_offset": 0,
+          "chunk_offset": 1148427524,
+          "length": 512
+        },
+        {
+          "file": "game/interface/videos/Intro_Title.vid",
+          "file_offset": 0,
+          "chunk_offset": 1148428036,
+          "length": 512
+        },
+        {
+          "file": "game/interface/videos/legal/legaltext_fr_Patch.vib",
+          "file_offset": 0,
+          "chunk_offset": 1148428548,
+          "length": 1039308
+        },
+        {
+          "file": "game/interface/videos/legal/legaltext_Patch.vib",
+          "file_offset": 0,
+          "chunk_offset": 1149467856,
+          "length": 884472
+        },
+        {
+          "file": "game/interface/videos/legal/middleware_Patch.vib",
+          "file_offset": 0,
+          "chunk_offset": 1150352328,
+          "length": 404472
+        },
+        {
+          "file": "game/interface/videos/nvidia_splash.vib",
+          "file_offset": 0,
+          "chunk_offset": 1150756800,
+          "length": 9770980
+        },
+        {
+          "file": "game/interface/videos/Outro_Title.vib",
+          "file_offset": 0,
+          "chunk_offset": 1160527780,
+          "length": 512
+        },
+        {
+          "file": "game/interface/videos/Outro_Title.vid",
+          "file_offset": 0,
+          "chunk_offset": 1160528292,
+          "length": 512
+        },
+        {
+          "file": "game/interface/videos/runes/bow_pwr.vib",
+          "file_offset": 0,
+          "chunk_offset": 1160528804,
+          "length": 7304656
+        },
+        {
+          "file": "game/interface/videos/runes/brutal_terror.vib",
+          "file_offset": 0,
+          "chunk_offset": 1167833460,
+          "length": 7249936
+        },
+        {
+          "file": "game/interface/videos/runes/dag_dmg.vib",
+          "file_offset": 0,
+          "chunk_offset": 1175083396,
+          "length": 7198516
+        },
+        {
+          "file": "game/interface/videos/runes/dag_fear.vib",
+          "file_offset": 0,
+          "chunk_offset": 1182281912,
+          "length": 7130652
+        },
+        {
+          "file": "game/interface/videos/runes/dagger_pwr.vib",
+          "file_offset": 0,
+          "chunk_offset": 1189412564,
+          "length": 7247804
+        },
+        {
+          "file": "game/interface/videos/runes/mis_archer.vib",
+          "file_offset": 0,
+          "chunk_offset": 1196660368,
+          "length": 7268408
+        },
+        {
+          "file": "game/interface/videos/runes/mis_berserker.vib",
+          "file_offset": 0,
+          "chunk_offset": 1203928776,
+          "length": 7355684
+        },
+        {
+          "file": "game/interface/videos/runes/mis_defender.vib",
+          "file_offset": 0,
+          "chunk_offset": 1211284460,
+          "length": 7362160
+        },
+        {
+          "file": "game/interface/videos/runes/mis_infantry.vib",
+          "file_offset": 0,
+          "chunk_offset": 1218646620,
+          "length": 7289952
+        },
+        {
+          "file": "game/interface/videos/runes/mis_spearman.vib",
+          "file_offset": 0,
+          "chunk_offset": 1225936572,
+          "length": 7247392
+        },
+        {
+          "file": "game/interface/videos/runes/rng_dmg.vib",
+          "file_offset": 0,
+          "chunk_offset": 1233183964,
+          "length": 7221692
+        },
+        {
+          "file": "game/interface/videos/runes/swd_dmg.vib",
+          "file_offset": 0,
+          "chunk_offset": 1240405656,
+          "length": 6912784
+        },
+        {
+          "file": "game/interface/videos/runes/swd_fire.vib",
+          "file_offset": 0,
+          "chunk_offset": 1247318440,
+          "length": 7352508
+        },
+        {
+          "file": "game/interface/videos/runes/sword_pwr.vib",
+          "file_offset": 0,
+          "chunk_offset": 1254670948,
+          "length": 7218988
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/ammo01.vib",
+          "file_offset": 0,
+          "chunk_offset": 1261889936,
+          "length": 6580332
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/ammo02.vib",
+          "file_offset": 0,
+          "chunk_offset": 1268470268,
+          "length": 6745856
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/ammo03.vib",
+          "file_offset": 0,
+          "chunk_offset": 1275216124,
+          "length": 6805460
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/ammo04.vib",
+          "file_offset": 0,
+          "chunk_offset": 1282021584,
+          "length": 6845508
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/ammo05.vib",
+          "file_offset": 0,
+          "chunk_offset": 1288867092,
+          "length": 6773940
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/bowrune01.vib",
+          "file_offset": 0,
+          "chunk_offset": 1295641032,
+          "length": 6823236
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/bowrune02.vib",
+          "file_offset": 0,
+          "chunk_offset": 1302464268,
+          "length": 6960636
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/bowrune03.vib",
+          "file_offset": 0,
+          "chunk_offset": 1309424904,
+          "length": 6871420
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/bowrune04.vib",
+          "file_offset": 0,
+          "chunk_offset": 1316296324,
+          "length": 7021984
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/daggerrune01.vib",
+          "file_offset": 0,
+          "chunk_offset": 1323318308,
+          "length": 6828940
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/daggerrune02.vib",
+          "file_offset": 0,
+          "chunk_offset": 1330147248,
+          "length": 6775492
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/daggerrune03.vib",
+          "file_offset": 0,
+          "chunk_offset": 1336922740,
+          "length": 6634908
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/daggerrune04.vib",
+          "file_offset": 0,
+          "chunk_offset": 1343557648,
+          "length": 6624232
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/focus01.vib",
+          "file_offset": 0,
+          "chunk_offset": 1350181880,
+          "length": 6733576
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/focus02.vib",
+          "file_offset": 0,
+          "chunk_offset": 1356915456,
+          "length": 6642756
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/focus03.vib",
+          "file_offset": 0,
+          "chunk_offset": 1363558212,
+          "length": 6735164
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/focus04.vib",
+          "file_offset": 0,
+          "chunk_offset": 1370293376,
+          "length": 6748584
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/focus05.vib",
+          "file_offset": 0,
+          "chunk_offset": 1377041960,
+          "length": 6964992
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/gcbow.vib",
+          "file_offset": 0,
+          "chunk_offset": 1384006952,
+          "length": 3740968
+        }
+      ],
+      "sha256": "f28c521c74757df9de2522a1e503a50d20f54028012c906286e526f2e24ed9f0"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "game/interface/videos/Skillvids/attributes/gcbow.vib",
+          "file_offset": 3740968,
+          "chunk_offset": 0,
+          "length": 7756512
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/gcdagger.vib",
+          "file_offset": 0,
+          "chunk_offset": 7756512,
+          "length": 12587976
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/gcsword.vib",
+          "file_offset": 0,
+          "chunk_offset": 20344488,
+          "length": 12368904
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/health01.vib",
+          "file_offset": 0,
+          "chunk_offset": 32713392,
+          "length": 6873304
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/health02.vib",
+          "file_offset": 0,
+          "chunk_offset": 39586696,
+          "length": 6895016
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/health03.vib",
+          "file_offset": 0,
+          "chunk_offset": 46481712,
+          "length": 7038316
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/health04.vib",
+          "file_offset": 0,
+          "chunk_offset": 53520028,
+          "length": 7082588
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/health05.vib",
+          "file_offset": 0,
+          "chunk_offset": 60602616,
+          "length": 7040892
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/swordrune01.vib",
+          "file_offset": 0,
+          "chunk_offset": 67643508,
+          "length": 6603416
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/swordrune02.vib",
+          "file_offset": 0,
+          "chunk_offset": 74246924,
+          "length": 6774160
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/swordrune03.vib",
+          "file_offset": 0,
+          "chunk_offset": 81021084,
+          "length": 6861948
+        },
+        {
+          "file": "game/interface/videos/Skillvids/attributes/swordrune04.vib",
+          "file_offset": 0,
+          "chunk_offset": 87883032,
+          "length": 6837456
+        },
+        {
+          "file": "game/interface/videos/Skillvids/baneofshadow.vib",
+          "file_offset": 0,
+          "chunk_offset": 94720488,
+          "length": 7787708
+        },
+        {
+          "file": "game/interface/videos/Skillvids/bladewesternesse.vib",
+          "file_offset": 0,
+          "chunk_offset": 102508196,
+          "length": 8146756
+        },
+        {
+          "file": "game/interface/videos/Skillvids/brand.vib",
+          "file_offset": 0,
+          "chunk_offset": 110654952,
+          "length": 10418020
+        },
+        {
+          "file": "game/interface/videos/Skillvids/caragorhunter.vib",
+          "file_offset": 0,
+          "chunk_offset": 121072972,
+          "length": 10427336
+        },
+        {
+          "file": "game/interface/videos/Skillvids/deadly_blow.vib",
+          "file_offset": 0,
+          "chunk_offset": 131500308,
+          "length": 5489588
+        },
+        {
+          "file": "game/interface/videos/Skillvids/deaththreat.vib",
+          "file_offset": 0,
+          "chunk_offset": 136989896,
+          "length": 8843828
+        },
+        {
+          "file": "game/interface/videos/Skillvids/decimate.vib",
+          "file_offset": 0,
+          "chunk_offset": 145833724,
+          "length": 10069680
+        },
+        {
+          "file": "game/interface/videos/Skillvids/detonate.vib",
+          "file_offset": 0,
+          "chunk_offset": 155903404,
+          "length": 10108732
+        },
+        {
+          "file": "game/interface/videos/Skillvids/displayofpower.vib",
+          "file_offset": 0,
+          "chunk_offset": 166012136,
+          "length": 5525756
+        },
+        {
+          "file": "game/interface/videos/Skillvids/displayofpower2.vib",
+          "file_offset": 0,
+          "chunk_offset": 171537892,
+          "length": 4818776
+        },
+        {
+          "file": "game/interface/videos/Skillvids/DLC2/consume.vib",
+          "file_offset": 0,
+          "chunk_offset": 176356668,
+          "length": 5037148
+        },
+        {
+          "file": "game/interface/videos/Skillvids/DLC2/dlcquickdraw.vib",
+          "file_offset": 0,
+          "chunk_offset": 181393816,
+          "length": 4387760
+        },
+        {
+          "file": "game/interface/videos/Skillvids/DLC2/groundbrand.vib",
+          "file_offset": 0,
+          "chunk_offset": 185781576,
+          "length": 5169968
+        },
+        {
+          "file": "game/interface/videos/Skillvids/DLC2/shadowbrand.vib",
+          "file_offset": 0,
+          "chunk_offset": 190951544,
+          "length": 5310716
+        },
+        {
+          "file": "game/interface/videos/Skillvids/DLC2/summon.vib",
+          "file_offset": 0,
+          "chunk_offset": 196262260,
+          "length": 5307256
+        },
+        {
+          "file": "game/interface/videos/Skillvids/DLC2/thering.vib",
+          "file_offset": 0,
+          "chunk_offset": 201569516,
+          "length": 5311196
+        },
+        {
+          "file": "game/interface/videos/Skillvids/DLC2/wraithflash.vib",
+          "file_offset": 0,
+          "chunk_offset": 206880712,
+          "length": 5287620
+        },
+        {
+          "file": "game/interface/videos/Skillvids/doublecharge.vib",
+          "file_offset": 0,
+          "chunk_offset": 212168332,
+          "length": 9522240
+        },
+        {
+          "file": "game/interface/videos/Skillvids/dread.vib",
+          "file_offset": 0,
+          "chunk_offset": 221690572,
+          "length": 9178496
+        },
+        {
+          "file": "game/interface/videos/Skillvids/dropmount.vib",
+          "file_offset": 0,
+          "chunk_offset": 230869068,
+          "length": 10678500
+        },
+        {
+          "file": "game/interface/videos/Skillvids/elvendagger.vib",
+          "file_offset": 0,
+          "chunk_offset": 241547568,
+          "length": 11194820
+        },
+        {
+          "file": "game/interface/videos/Skillvids/elvendagger2.vib",
+          "file_offset": 0,
+          "chunk_offset": 252742388,
+          "length": 9483320
+        },
+        {
+          "file": "game/interface/videos/Skillvids/fatal_descent.vib",
+          "file_offset": 0,
+          "chunk_offset": 262225708,
+          "length": 7190016
+        },
+        {
+          "file": "game/interface/videos/Skillvids/fellthefallen.vib",
+          "file_offset": 0,
+          "chunk_offset": 269415724,
+          "length": 6771976
+        },
+        {
+          "file": "game/interface/videos/Skillvids/firearrow.vib",
+          "file_offset": 0,
+          "chunk_offset": 276187700,
+          "length": 6976712
+        },
+        {
+          "file": "game/interface/videos/Skillvids/impact.vib",
+          "file_offset": 0,
+          "chunk_offset": 283164412,
+          "length": 13354140
+        },
+        {
+          "file": "game/interface/videos/Skillvids/lightagainstshadow.vib",
+          "file_offset": 0,
+          "chunk_offset": 296518552,
+          "length": 7090360
+        },
+        {
+          "file": "game/interface/videos/Skillvids/onslaught.vib",
+          "file_offset": 0,
+          "chunk_offset": 303608912,
+          "length": 7507400
+        },
+        {
+          "file": "game/interface/videos/Skillvids/pinningshot.vib",
+          "file_offset": 0,
+          "chunk_offset": 311116312,
+          "length": 8175064
+        },
+        {
+          "file": "game/interface/videos/Skillvids/poison.vib",
+          "file_offset": 0,
+          "chunk_offset": 319291376,
+          "length": 13006416
+        },
+        {
+          "file": "game/interface/videos/Skillvids/progression/artifact.vib",
+          "file_offset": 0,
+          "chunk_offset": 332297792,
+          "length": 6750936
+        },
+        {
+          "file": "game/interface/videos/Skillvids/progression/bowQuest.vib",
+          "file_offset": 0,
+          "chunk_offset": 339048728,
+          "length": 6865644
+        },
+        {
+          "file": "game/interface/videos/Skillvids/progression/daggerQuest.vib",
+          "file_offset": 0,
+          "chunk_offset": 345914372,
+          "length": 6726144
+        },
+        {
+          "file": "game/interface/videos/Skillvids/progression/flower.vib",
+          "file_offset": 0,
+          "chunk_offset": 352640516,
+          "length": 6541924
+        },
+        {
+          "file": "game/interface/videos/Skillvids/progression/glyph.vib",
+          "file_offset": 0,
+          "chunk_offset": 359182440,
+          "length": 6537948
+        },
+        {
+          "file": "game/interface/videos/Skillvids/progression/GP.vib",
+          "file_offset": 0,
+          "chunk_offset": 365720388,
+          "length": 6720820
+        },
+        {
+          "file": "game/interface/videos/Skillvids/progression/hunter.vib",
+          "file_offset": 0,
+          "chunk_offset": 372441208,
+          "length": 6689976
+        },
+        {
+          "file": "game/interface/videos/Skillvids/progression/rescue.vib",
+          "file_offset": 0,
+          "chunk_offset": 379131184,
+          "length": 6809900
+        },
+        {
+          "file": "game/interface/videos/Skillvids/progression/swordQuest.vib",
+          "file_offset": 0,
+          "chunk_offset": 385941084,
+          "length": 6728016
+        },
+        {
+          "file": "game/interface/videos/Skillvids/quickdraw.vib",
+          "file_offset": 0,
+          "chunk_offset": 392669100,
+          "length": 14878152
+        },
+        {
+          "file": "game/interface/videos/Skillvids/rageofelves2.vib",
+          "file_offset": 0,
+          "chunk_offset": 407547252,
+          "length": 5398280
+        },
+        {
+          "file": "game/interface/videos/Skillvids/relentlessassault.vib",
+          "file_offset": 0,
+          "chunk_offset": 412945532,
+          "length": 6974460
+        },
+        {
+          "file": "game/interface/videos/Skillvids/resilience.vib",
+          "file_offset": 0,
+          "chunk_offset": 419919992,
+          "length": 6752680
+        },
+        {
+          "file": "game/interface/videos/Skillvids/secretflame.vib",
+          "file_offset": 0,
+          "chunk_offset": 426672672,
+          "length": 10862896
+        },
+        {
+          "file": "game/interface/videos/Skillvids/shadowmount.vib",
+          "file_offset": 0,
+          "chunk_offset": 437535568,
+          "length": 8544716
+        },
+        {
+          "file": "game/interface/videos/Skillvids/shadowstrike.vib",
+          "file_offset": 0,
+          "chunk_offset": 446080284,
+          "length": 7985792
+        },
+        {
+          "file": "game/interface/videos/Skillvids/shouldercharge.vib",
+          "file_offset": 0,
+          "chunk_offset": 454066076,
+          "length": 9515168
+        },
+        {
+          "file": "game/interface/videos/Skillvids/splash_monolith.vib",
+          "file_offset": 0,
+          "chunk_offset": 463581244,
+          "length": 4955992
+        },
+        {
+          "file": "game/interface/videos/Skillvids/splash_wbg.vib",
+          "file_offset": 0,
+          "chunk_offset": 468537236,
+          "length": 8939348
+        },
+        {
+          "file": "game/interface/videos/Skillvids/stealthbrand.vib",
+          "file_offset": 0,
+          "chunk_offset": 477476584,
+          "length": 7528908
+        },
+        {
+          "file": "game/interface/videos/Skillvids/subversion.vib",
+          "file_offset": 0,
+          "chunk_offset": 485005492,
+          "length": 6062808
+        },
+        {
+          "file": "game/interface/videos/Skillvids/swiftness.vib",
+          "file_offset": 0,
+          "chunk_offset": 491068300,
+          "length": 8995912
+        },
+        {
+          "file": "game/interface/videos/Skillvids/sword_master.vib",
+          "file_offset": 0,
+          "chunk_offset": 500064212,
+          "length": 7836200
+        },
+        {
+          "file": "game/interface/videos/Skillvids/swordmaster2.vib",
+          "file_offset": 0,
+          "chunk_offset": 507900412,
+          "length": 7515600
+        },
+        {
+          "file": "game/interface/videos/Skillvids/terrorarrow.vib",
+          "file_offset": 0,
+          "chunk_offset": 515416012,
+          "length": 10124212
+        },
+        {
+          "file": "game/interface/videos/Skillvids/torment.vib",
+          "file_offset": 0,
+          "chunk_offset": 525540224,
+          "length": 6368296
+        },
+        {
+          "file": "game/interface/videos/Skillvids/trollhunter.vib",
+          "file_offset": 0,
+          "chunk_offset": 531908520,
+          "length": 7511888
+        },
+        {
+          "file": "game/interface/videos/Skillvids/unseenslayer.vib",
+          "file_offset": 0,
+          "chunk_offset": 539420408,
+          "length": 12188768
+        },
+        {
+          "file": "game/interface/videos/Skillvids/vault.vib",
+          "file_offset": 0,
+          "chunk_offset": 551609176,
+          "length": 6897268
+        },
+        {
+          "file": "game/interface/videos/Skillvids/wraithfinisher.vib",
+          "file_offset": 0,
+          "chunk_offset": 558506444,
+          "length": 7192804
+        },
+        {
+          "file": "game/interface/videos/Skillvids/wraithpunch.vib",
+          "file_offset": 0,
+          "chunk_offset": 565699248,
+          "length": 7037192
+        },
+        {
+          "file": "game/interface/videos/tutorials/activatebranded.vib",
+          "file_offset": 0,
+          "chunk_offset": 572736440,
+          "length": 8843200
+        },
+        {
+          "file": "game/interface/videos/tutorials/attract.vib",
+          "file_offset": 0,
+          "chunk_offset": 581579640,
+          "length": 11117032
+        },
+        {
+          "file": "game/interface/videos/tutorials/bait.vib",
+          "file_offset": 0,
+          "chunk_offset": 592696672,
+          "length": 8792928
+        },
+        {
+          "file": "game/interface/videos/tutorials/berserkerstun.vib",
+          "file_offset": 0,
+          "chunk_offset": 601489600,
+          "length": 8854364
+        },
+        {
+          "file": "game/interface/videos/tutorials/bowgc.vib",
+          "file_offset": 0,
+          "chunk_offset": 610343964,
+          "length": 9443420
+        },
+        {
+          "file": "game/interface/videos/tutorials/brandunlocked.vib",
+          "file_offset": 0,
+          "chunk_offset": 619787384,
+          "length": 8794936
+        },
+        {
+          "file": "game/interface/videos/tutorials/caragordomination.vib",
+          "file_offset": 0,
+          "chunk_offset": 628582320,
+          "length": 5304612
+        },
+        {
+          "file": "game/interface/videos/tutorials/challengeTutorial.vib",
+          "file_offset": 0,
+          "chunk_offset": 633886932,
+          "length": 7594584
+        },
+        {
+          "file": "game/interface/videos/tutorials/counterattack.vib",
+          "file_offset": 0,
+          "chunk_offset": 641481516,
+          "length": 8958324
+        },
+        {
+          "file": "game/interface/videos/tutorials/D1A1_Caragaths.vib",
+          "file_offset": 0,
+          "chunk_offset": 650439840,
+          "length": 9690036
+        },
+        {
+          "file": "game/interface/videos/tutorials/D1B1_SummonGhuls.vib",
+          "file_offset": 0,
+          "chunk_offset": 660129876,
+          "length": 9562376
+        },
+        {
+          "file": "game/interface/videos/tutorials/D1B2_GhulPileOn.vib",
+          "file_offset": 0,
+          "chunk_offset": 669692252,
+          "length": 7469036
+        },
+        {
+          "file": "game/interface/videos/tutorials/D1C1_GraugBait.vib",
+          "file_offset": 0,
+          "chunk_offset": 677161288,
+          "length": 8033428
+        },
+        {
+          "file": "game/interface/videos/tutorials/D1C1_Wretched.vib",
+          "file_offset": 0,
+          "chunk_offset": 685194716,
+          "length": 8233312
+        },
+        {
+          "file": "game/interface/videos/tutorials/D1D1_SlowMo.vib",
+          "file_offset": 0,
+          "chunk_offset": 693428028,
+          "length": 6130536
+        },
+        {
+          "file": "game/interface/videos/tutorials/D1E1_DominateGhuls.vib",
+          "file_offset": 0,
+          "chunk_offset": 699558564,
+          "length": 5886148
+        },
+        {
+          "file": "game/interface/videos/tutorials/D1E1_GhulPileOn_Branded.vib",
+          "file_offset": 0,
+          "chunk_offset": 705444712,
+          "length": 4449664
+        },
+        {
+          "file": "game/interface/videos/tutorials/D1W5_CaragathGC.vib",
+          "file_offset": 0,
+          "chunk_offset": 709894376,
+          "length": 4792756
+        },
+        {
+          "file": "game/interface/videos/tutorials/daggergc.vib",
+          "file_offset": 0,
+          "chunk_offset": 714687132,
+          "length": 9607772
+        },
+        {
+          "file": "game/interface/videos/tutorials/defenderdash.vib",
+          "file_offset": 0,
+          "chunk_offset": 724294904,
+          "length": 8812584
+        },
+        {
+          "file": "game/interface/videos/tutorials/dfa.vib",
+          "file_offset": 0,
+          "chunk_offset": 733107488,
+          "length": 7456072
+        },
+        {
+          "file": "game/interface/videos/tutorials/DLC2/DLC2_aoeBrand.vib",
+          "file_offset": 0,
+          "chunk_offset": 740563560,
+          "length": 9636516
+        },
+        {
+          "file": "game/interface/videos/tutorials/DLC2/DLC2_rangedMode.vib",
+          "file_offset": 0,
+          "chunk_offset": 750200076,
+          "length": 5392068
+        },
+        {
+          "file": "game/interface/videos/tutorials/DLC2/DLC2_ringPower.vib",
+          "file_offset": 0,
+          "chunk_offset": 755592144,
+          "length": 9649628
+        },
+        {
+          "file": "game/interface/videos/tutorials/DLC2/DLC2_shadowBrand.vib",
+          "file_offset": 0,
+          "chunk_offset": 765241772,
+          "length": 9626640
+        },
+        {
+          "file": "game/interface/videos/tutorials/DLC2/DLC2_summonFollowers.vib",
+          "file_offset": 0,
+          "chunk_offset": 774868412,
+          "length": 9688708
+        },
+        {
+          "file": "game/interface/videos/tutorials/DLC2/dlc2consume.vib",
+          "file_offset": 0,
+          "chunk_offset": 784557120,
+          "length": 3956756
+        },
+        {
+          "file": "game/interface/videos/tutorials/dominateunlocked.vib",
+          "file_offset": 0,
+          "chunk_offset": 788513876,
+          "length": 8547296
+        },
+        {
+          "file": "game/interface/videos/tutorials/dominateunlocked2.vib",
+          "file_offset": 0,
+          "chunk_offset": 797061172,
+          "length": 11682568
+        },
+        {
+          "file": "game/interface/videos/tutorials/doublecounter.vib",
+          "file_offset": 0,
+          "chunk_offset": 808743740,
+          "length": 8756892
+        },
+        {
+          "file": "game/interface/videos/tutorials/drain.vib",
+          "file_offset": 0,
+          "chunk_offset": 817500632,
+          "length": 7352116
+        },
+        {
+          "file": "game/interface/videos/tutorials/groundtakedown.vib",
+          "file_offset": 0,
+          "chunk_offset": 824852748,
+          "length": 8928824
+        },
+        {
+          "file": "game/interface/videos/tutorials/inteldrop.vib",
+          "file_offset": 0,
+          "chunk_offset": 833781572,
+          "length": 6826348
+        },
+        {
+          "file": "game/interface/videos/tutorials/interrogatecaptain.vib",
+          "file_offset": 0,
+          "chunk_offset": 840607920,
+          "length": 9600836
+        },
+        {
+          "file": "game/interface/videos/tutorials/interrogationreminder.vib",
+          "file_offset": 0,
+          "chunk_offset": 850208756,
+          "length": 8975200
+        },
+        {
+          "file": "game/interface/videos/tutorials/ledgepull.vib",
+          "file_offset": 0,
+          "chunk_offset": 859183956,
+          "length": 7467868
+        },
+        {
+          "file": "game/interface/videos/tutorials/lure.vib",
+          "file_offset": 0,
+          "chunk_offset": 866651824,
+          "length": 9436500
+        },
+        {
+          "file": "game/interface/videos/tutorials/outroinfight.vib",
+          "file_offset": 0,
+          "chunk_offset": 876088324,
+          "length": 7339536
+        },
+        {
+          "file": "game/interface/videos/tutorials/perceptionawareness.vib",
+          "file_offset": 0,
+          "chunk_offset": 883427860,
+          "length": 13949340
+        },
+        {
+          "file": "game/interface/videos/tutorials/photomode.vib",
+          "file_offset": 0,
+          "chunk_offset": 897377200,
+          "length": 8686536
+        },
+        {
+          "file": "game/interface/videos/tutorials/poisonunlocked.vib",
+          "file_offset": 0,
+          "chunk_offset": 906063736,
+          "length": 9243268
+        },
+        {
+          "file": "game/interface/videos/tutorials/quickthrow.vib",
+          "file_offset": 0,
+          "chunk_offset": 915307004,
+          "length": 6878308
+        },
+        {
+          "file": "game/interface/videos/tutorials/shadowstrikeunlocked.vib",
+          "file_offset": 0,
+          "chunk_offset": 922185312,
+          "length": 5337284
+        },
+        {
+          "file": "game/interface/videos/tutorials/shootwargcages.vib",
+          "file_offset": 0,
+          "chunk_offset": 927522596,
+          "length": 6696624
+        },
+        {
+          "file": "game/interface/videos/tutorials/speardodge.vib",
+          "file_offset": 0,
+          "chunk_offset": 934219220,
+          "length": 7407280
+        },
+        {
+          "file": "game/interface/videos/tutorials/stealthkill.vib",
+          "file_offset": 0,
+          "chunk_offset": 941626500,
+          "length": 4932312
+        },
+        {
+          "file": "game/interface/videos/tutorials/struggletutorial.vib",
+          "file_offset": 0,
+          "chunk_offset": 946558812,
+          "length": 4961920
+        },
+        {
+          "file": "game/interface/videos/tutorials/swordgc.vib",
+          "file_offset": 0,
+          "chunk_offset": 951520732,
+          "length": 9662564
+        },
+        {
+          "file": "game/interface/videos/tutorials/trollbleedunlocked.vib",
+          "file_offset": 0,
+          "chunk_offset": 961183296,
+          "length": 7458556
+        },
+        {
+          "file": "game/interface/videos/tutorials/trollcharging.vib",
+          "file_offset": 0,
+          "chunk_offset": 968641852,
+          "length": 6381356
+        },
+        {
+          "file": "game/interface/videos/tutorials/trollmeleeattacks.vib",
+          "file_offset": 0,
+          "chunk_offset": 975023208,
+          "length": 11922356
+        },
+        {
+          "file": "game/interface/videos/tutorials/trollrideunlocked.vib",
+          "file_offset": 0,
+          "chunk_offset": 986945564,
+          "length": 7958412
+        },
+        {
+          "file": "game/interface/videos/tutorials/trollstun.vib",
+          "file_offset": 0,
+          "chunk_offset": 994903976,
+          "length": 8890588
+        },
+        {
+          "file": "game/interface/videos/tutorials/wargbow.vib",
+          "file_offset": 0,
+          "chunk_offset": 1003794564,
+          "length": 7625932
+        },
+        {
+          "file": "game/interface/videos/tutorials/wargcounter.vib",
+          "file_offset": 0,
+          "chunk_offset": 1011420496,
+          "length": 5425160
+        },
+        {
+          "file": "game/interface/videos/tutorials/wargdodge.vib",
+          "file_offset": 0,
+          "chunk_offset": 1016845656,
+          "length": 4895084
+        },
+        {
+          "file": "game/interface/videos/tutorials/wargridingunlocked.vib",
+          "file_offset": 0,
+          "chunk_offset": 1021740740,
+          "length": 6928824
+        },
+        {
+          "file": "game/interface/videos/tutorials/wargswordbite.vib",
+          "file_offset": 0,
+          "chunk_offset": 1028669564,
+          "length": 7551592
+        },
+        {
+          "file": "game/interface/videos/tutorials/wraithflashunlocked.vib",
+          "file_offset": 0,
+          "chunk_offset": 1036221156,
+          "length": 7617224
+        },
+        {
+          "file": "game/interface/videos/WBPlay.vib",
+          "file_offset": 0,
+          "chunk_offset": 1043838380,
+          "length": 6842420
+        },
+        {
+          "file": "game/projectconsole.cfg",
+          "file_offset": 0,
+          "chunk_offset": 1050680800,
+          "length": 71
+        },
+        {
+          "file": "game/SKU.cfg",
+          "file_offset": 0,
+          "chunk_offset": 1050680871,
+          "length": 46
+        },
+        {
+          "file": "game/sound/EnglishUS/vo.pck",
+          "file_offset": 0,
+          "chunk_offset": 1050680917,
+          "length": 337067003
+        }
+      ],
+      "sha256": "03b6a16933dfdb2df814088b4af7be3cdf69baac85b6a3d2e5afc7deded1fa20"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "game/sound/EnglishUS/vo.pck",
+          "file_offset": 337067003,
+          "chunk_offset": 0,
+          "length": 162338022
+        },
+        {
+          "file": "game/sound/EnglishUS/vo_DLC1.pck",
+          "file_offset": 0,
+          "chunk_offset": 162338022,
+          "length": 11600859
+        },
+        {
+          "file": "game/sound/EnglishUS/vo_DLC2.pck",
+          "file_offset": 0,
+          "chunk_offset": 173938881,
+          "length": 8138268
+        },
+        {
+          "file": "game/sound/FrenchFrance/vo.pck",
+          "file_offset": 0,
+          "chunk_offset": 182077149,
+          "length": 490280524
+        },
+        {
+          "file": "game/sound/FrenchFrance/vo_DLC1.pck",
+          "file_offset": 0,
+          "chunk_offset": 672357673,
+          "length": 11733519
+        },
+        {
+          "file": "game/sound/FrenchFrance/vo_DLC2.pck",
+          "file_offset": 0,
+          "chunk_offset": 684091192,
+          "length": 8435574
+        },
+        {
+          "file": "game/sound/SpanishSpain/vo.pck",
+          "file_offset": 0,
+          "chunk_offset": 692526766,
+          "length": 509213829
+        },
+        {
+          "file": "game/sound/SpanishSpain/vo_DLC1.pck",
+          "file_offset": 0,
+          "chunk_offset": 1201740595,
+          "length": 11949277
+        },
+        {
+          "file": "game/sound/SpanishSpain/vo_DLC2.pck",
+          "file_offset": 0,
+          "chunk_offset": 1213689872,
+          "length": 8374695
+        },
+        {
+          "file": "game/sound/Streaming.pck",
+          "file_offset": 0,
+          "chunk_offset": 1222064567,
+          "length": 34184835
+        },
+        {
+          "file": "global.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1256249402,
+          "length": 131498518
+        }
+      ],
+      "sha256": "ed5c59f0edf6692ed27d7dcacdd9340f66452d835515ab521d0a24e43ef15593"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "global.arch05",
+          "file_offset": 131498518,
+          "chunk_offset": 0,
+          "length": 501569742
+        },
+        {
+          "file": "global_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 501569742,
+          "length": 89800
+        },
+        {
+          "file": "hotchunk.arch05",
+          "file_offset": 0,
+          "chunk_offset": 501659542,
+          "length": 2748660
+        },
+        {
+          "file": "hotchunk_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 504408202,
+          "length": 132
+        },
+        {
+          "file": "hotchunk_Patch.arch05",
+          "file_offset": 0,
+          "chunk_offset": 504408334,
+          "length": 8973596
+        },
+        {
+          "file": "intro.arch05",
+          "file_offset": 0,
+          "chunk_offset": 513381930,
+          "length": 874365990
+        }
+      ],
+      "sha256": "d13e83b3af241e8144460422e2d6637fff8a3447f4aaba5021ddf057bae4ca76"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "intro.arch05",
+          "file_offset": 874365990,
+          "chunk_offset": 0,
+          "length": 657953438
+        },
+        {
+          "file": "intro_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 657953438,
+          "length": 679604384
+        },
+        {
+          "file": "layer10_dlc_TestOfPOwer.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337557822,
+          "length": 224
+        },
+        {
+          "file": "layer11_dlc_TestOfSpeed.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337558046,
+          "length": 220
+        },
+        {
+          "file": "layer12_dlc_TestOfWisdom.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337558266,
+          "length": 224
+        },
+        {
+          "file": "layer13_dlc_EndChallenge.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337558490,
+          "length": 232
+        },
+        {
+          "file": "Layer20_DLC_DarkRanger.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337558722,
+          "length": 68
+        },
+        {
+          "file": "Layer21_DLC_CaptBlackGate.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337558790,
+          "length": 228
+        },
+        {
+          "file": "Layer22_DLC_BlackHand.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337559018,
+          "length": 216
+        },
+        {
+          "file": "Layer30_DLC_HiddenBlade.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337559234,
+          "length": 68
+        },
+        {
+          "file": "Layer32_DLC_DeadlyArcher.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337559302,
+          "length": 68
+        },
+        {
+          "file": "Layer33_DLC_OrcSlayer.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337559370,
+          "length": 68
+        },
+        {
+          "file": "Layer35_DLC_FlameOfArnor.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337559438,
+          "length": 68
+        },
+        {
+          "file": "Layer39_DLC_RisingStorm.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337559506,
+          "length": 68
+        },
+        {
+          "file": "layer52_dlc_Guardians.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337559574,
+          "length": 216
+        },
+        {
+          "file": "layer53_dlc_BloodHunters.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337559790,
+          "length": 224
+        },
+        {
+          "file": "layer54_dlc_Berserks.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337560014,
+          "length": 216
+        },
+        {
+          "file": "layer55_dlc_Crushers.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337560230,
+          "length": 216
+        },
+        {
+          "file": "layer56_dlc_FleshBurners.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337560446,
+          "length": 224
+        },
+        {
+          "file": "layer70_dlc_LordOfTheHunt.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337560670,
+          "length": 224
+        },
+        {
+          "file": "layer71_dlc_BrightLord.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337560894,
+          "length": 220
+        },
+        {
+          "file": "monsters.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1337561114,
+          "length": 50186806
+        }
+      ],
+      "sha256": "6ad5d3efe6e547fe6eb0f597b6460d1f5c36e0cbf2aacc85c11f1b757d41b442"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "monsters.arch05",
+          "file_offset": 50186806,
+          "chunk_offset": 0,
+          "length": 138909518
+        },
+        {
+          "file": "monsters_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 138909518,
+          "length": 147112728
+        },
+        {
+          "file": "NF_Patch.arch05",
+          "file_offset": 0,
+          "chunk_offset": 286022246,
+          "length": 228392
+        },
+        {
+          "file": "outro.arch05",
+          "file_offset": 0,
+          "chunk_offset": 286250638,
+          "length": 1101497282
+        }
+      ],
+      "sha256": "38ae8679daa23b8305db4f0079a0763ce248ff3a12b969689c6df49287f19fb2"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "outro.arch05",
+          "file_offset": 1101497282,
+          "chunk_offset": 0,
+          "length": 813087582
+        },
+        {
+          "file": "outro_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 813087582,
+          "length": 574660338
+        }
+      ],
+      "sha256": "720e57866d4d9e0686875866614940650959e025b6dccd7854e7fb0793cf4304"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "outro_0.arch05",
+          "file_offset": 574660338,
+          "chunk_offset": 0,
+          "length": 573881534
+        },
+        {
+          "file": "Patch_1.arch05",
+          "file_offset": 0,
+          "chunk_offset": 573881534,
+          "length": 813866386
+        }
+      ],
+      "sha256": "364a216ee9098637ff1d56bd5c605e6eb2abb8862ba53b8c1a0f9b80b8b6ce4c"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "Patch_1.arch05",
+          "file_offset": 813866386,
+          "chunk_offset": 0,
+          "length": 334585378
+        },
+        {
+          "file": "Patch_1_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 334585378,
+          "length": 471244656
+        },
+        {
+          "file": "presentations.arch05",
+          "file_offset": 0,
+          "chunk_offset": 805830034,
+          "length": 581917886
+        }
+      ],
+      "sha256": "8df0571e0656cdbc0c7e293fdeffcc3108330da07939d8a1f0fe3dc059bfa4f6"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "presentations.arch05",
+          "file_offset": 581917886,
+          "chunk_offset": 0,
+          "length": 986443038
+        },
+        {
+          "file": "presentations_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 986443038,
+          "length": 425604
+        },
+        {
+          "file": "questlinegollum.arch05",
+          "file_offset": 0,
+          "chunk_offset": 986868642,
+          "length": 400879278
+        }
+      ],
+      "sha256": "a4fb166402f9a4c88966b1673becd3c948d10e8c48e754ef69a7475891fedcc0"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "questlinegollum.arch05",
+          "file_offset": 400879278,
+          "chunk_offset": 0,
+          "length": 297184906
+        },
+        {
+          "file": "questlinegollum_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 297184906,
+          "length": 541476972
+        },
+        {
+          "file": "questlinehirgon.arch05",
+          "file_offset": 0,
+          "chunk_offset": 838661878,
+          "length": 548457740
+        },
+        {
+          "file": "questlinehirgon_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1387119618,
+          "length": 628302
+        }
+      ],
+      "sha256": "aaa4e61cbf5cc28f64f8b30e88eac93dc3be503a2889c95a0acded41a05aefb4"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "questlinehirgon_0.arch05",
+          "file_offset": 628302,
+          "chunk_offset": 0,
+          "length": 631268810
+        },
+        {
+          "file": "questlinelithariel.arch05",
+          "file_offset": 0,
+          "chunk_offset": 631268810,
+          "length": 350235060
+        },
+        {
+          "file": "questlinelithariel_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 981503870,
+          "length": 406244050
+        }
+      ],
+      "sha256": "86ddf17a39bd94a20e62b5f905529f23b79569aef90dd980d532eca6ede973bc"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "questlinelithariel_0.arch05",
+          "file_offset": 406244050,
+          "chunk_offset": 0,
+          "length": 46669902
+        },
+        {
+          "file": "questlinemarwin.arch05",
+          "file_offset": 0,
+          "chunk_offset": 46669902,
+          "length": 23621128
+        },
+        {
+          "file": "questlinemarwin_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 70291030,
+          "length": 19784140
+        },
+        {
+          "file": "questlineratbag.arch05",
+          "file_offset": 0,
+          "chunk_offset": 90075170,
+          "length": 400604028
+        },
+        {
+          "file": "questlineratbag_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 490679198,
+          "length": 532476356
+        },
+        {
+          "file": "questlinetorvin.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1023155554,
+          "length": 151101652
+        },
+        {
+          "file": "questlinetorvin_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1174257206,
+          "length": 180116156
+        },
+        {
+          "file": "son.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1354373362,
+          "length": 33374558
+        }
+      ],
+      "sha256": "0d262df92e136a55ede8e091f4d219a44fa5b8022e16cc2be1628706bc19af16"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "son.arch05",
+          "file_offset": 33374558,
+          "chunk_offset": 0,
+          "length": 1387747920
+        }
+      ],
+      "sha256": "4da658001c3e44daec136c6b51879d21a63c2a5571769e82538d6f9d5dcd3f3c"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "son.arch05",
+          "file_offset": 1421122478,
+          "chunk_offset": 0,
+          "length": 1387747920
+        }
+      ],
+      "sha256": "31912e9ef353951df9e315313558eaaf54d6297cd46b793910a83a7c4809f795"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "son.arch05",
+          "file_offset": 2808870398,
+          "chunk_offset": 0,
+          "length": 1374455362
+        },
+        {
+          "file": "son_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1374455362,
+          "length": 13292558
+        }
+      ],
+      "sha256": "1251f8e2adc8aa605393105d1338a5dc045675c9fc5bdd459f845847664f7d15"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "son_0.arch05",
+          "file_offset": 13292558,
+          "chunk_offset": 0,
+          "length": 1387747920
+        }
+      ],
+      "sha256": "b3dc783dd8e662ef4ea8fbfcc601c31f87570088ab1ad6615a2e270fc6c0f404"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "son_0.arch05",
+          "file_offset": 1401040478,
+          "chunk_offset": 0,
+          "length": 352227690
+        },
+        {
+          "file": "son_weather.arch05",
+          "file_offset": 0,
+          "chunk_offset": 352227690,
+          "length": 1035520230
+        }
+      ],
+      "sha256": "a57f0cff267b683f07c296555c66d739b50a3f0e285930202f053dba8bc2dfb5"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "son_weather.arch05",
+          "file_offset": 1035520230,
+          "chunk_offset": 0,
+          "length": 1295732050
+        },
+        {
+          "file": "son_weather_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1295732050,
+          "length": 90466896
+        },
+        {
+          "file": "udun.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1386198946,
+          "length": 1548974
+        }
+      ],
+      "sha256": "0d12c0345d035f033793da7378df0d19f50d6a48c5348e3e32fa89366d78ce25"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "udun.arch05",
+          "file_offset": 1548974,
+          "chunk_offset": 0,
+          "length": 1387747920
+        }
+      ],
+      "sha256": "d0085a89396ead0930cdb62b86cc565b85fada878be6879c8e20879e04d40498"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "udun.arch05",
+          "file_offset": 1389296894,
+          "chunk_offset": 0,
+          "length": 1387747920
+        }
+      ],
+      "sha256": "c791ca707001683f5740d4c80d5f12558ff1bd412219a12da1902f30099c68ba"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "udun.arch05",
+          "file_offset": 2777044814,
+          "chunk_offset": 0,
+          "length": 1387747920
+        }
+      ],
+      "sha256": "f8ff8e92c78a2e098b914d512c2f2fa8d0cecdd518b007e340729bf5566dc86c"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "udun.arch05",
+          "file_offset": 4164792734,
+          "chunk_offset": 0,
+          "length": 1172926998
+        },
+        {
+          "file": "udun_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1172926998,
+          "length": 214820922
+        }
+      ],
+      "sha256": "a1f7d059d377e5ca00ea72c9cf4f59943dd604d9a72f15d8f5cc436ed5bff54e"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "udun_0.arch05",
+          "file_offset": 214820922,
+          "chunk_offset": 0,
+          "length": 1387747920
+        }
+      ],
+      "sha256": "83fd201041c9c12cba80fcb30017e62924221df495551059d609528ec5aa1309"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "udun_0.arch05",
+          "file_offset": 1602568842,
+          "chunk_offset": 0,
+          "length": 75306138
+        },
+        {
+          "file": "udun_weather.arch05",
+          "file_offset": 0,
+          "chunk_offset": 75306138,
+          "length": 1312441782
+        }
+      ],
+      "sha256": "dfe42c59d3bc1d36a64bb90de6e7cb080f04a3872aa080442404d617059adb6a"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "udun_weather.arch05",
+          "file_offset": 1312441782,
+          "chunk_offset": 0,
+          "length": 1387747920
+        }
+      ],
+      "sha256": "e90666c4864e5eb063b6754b9bb1f1cb23438f28df072109a435db0827d906c4"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "udun_weather.arch05",
+          "file_offset": 2700189702,
+          "chunk_offset": 0,
+          "length": 202658458
+        },
+        {
+          "file": "udun_weather_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 202658458,
+          "length": 136529416
+        },
+        {
+          "file": "ui_assets.arch05",
+          "file_offset": 0,
+          "chunk_offset": 339187874,
+          "length": 1048560046
+        }
+      ],
+      "sha256": "570b8a6d93d2b1a740321dc93d48fb8307aa6e909b707753185255fc5234e040"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 1387747920,
+      "segments": [
+        {
+          "file": "ui_assets.arch05",
+          "file_offset": 1048560046,
+          "chunk_offset": 0,
+          "length": 898591930
+        },
+        {
+          "file": "ui_assets_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 898591930,
+          "length": 489155990
+        }
+      ],
+      "sha256": "4be633203d9a340952a5ddd27c0a1a26b4543ba567d3c2d5341b78a10347e3c1"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 1387747899,
+      "segments": [
+        {
+          "file": "ui_assets_0.arch05",
+          "file_offset": 489155990,
+          "chunk_offset": 0,
+          "length": 1059946842
+        },
+        {
+          "file": "ui_assets_Patch.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1059946842,
+          "length": 768
+        },
+        {
+          "file": "ui_assets_Patch_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1059947610,
+          "length": 160
+        },
+        {
+          "file": "UI_GFX.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1059947770,
+          "length": 206186128
+        },
+        {
+          "file": "UI_GFX_0.arch05",
+          "file_offset": 0,
+          "chunk_offset": 1266133898,
+          "length": 86720092
+        },
+        {
+          "file": "x64/bink2w64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1352853990,
+          "length": 435712
+        },
+        {
+          "file": "x64/d3dcompiler_46.dll",
+          "file_offset": 0,
+          "chunk_offset": 1353289702,
+          "length": 3873368
+        },
+        {
+          "file": "x64/default.archcfg",
+          "file_offset": 0,
+          "chunk_offset": 1357163070,
+          "length": 1891
+        },
+        {
+          "file": "x64/doge64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1357164961,
+          "length": 121256
+        },
+        {
+          "file": "x64/ShadowOfMordor.exe",
+          "file_offset": 0,
+          "chunk_offset": 1357286217,
+          "length": 28853840
+        },
+        {
+          "file": "x64/steam_api.ini",
+          "file_offset": 0,
+          "chunk_offset": 1386140057,
+          "length": 2718
+        },
+        {
+          "file": "x64/steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1386142775,
+          "length": 1605124
+        }
+      ],
+      "sha256": "2a76f84f2002473d5e978e0dccf9e86c077a17590c2967d34401a8d5d4b02bf6"
+    }
+  ]
+}
