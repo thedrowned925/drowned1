@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-24T20:37:18.794768+00:00",
+  "updated_at": "2026-08-25T11:26:44.712395+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2170,6 +2170,38 @@
       },
       "media": {
         "steam_app_id": 883710
+      }
+    },
+    {
+      "id": "middle-earth-shadow-of-mordor",
+      "title": "Middle-earth™: Shadow of Mordor™",
+      "platform": "pc",
+      "description": "Fight through Mordor and uncover the truth of the spirit that compels you, discover the origins of the Rings of Power, build your legend and ultimately confront the evil of Sauron in this new chronicle of Middle-earth.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/middle-earth-shadow-of-mordor/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/middle-earth-shadow-of-mordor/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/middle-earth-shadow-of-mordor/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/middle-earth-shadow-of-mordor/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/middle-earth-shadow-of-mordor/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/middle-earth-shadow-of-mordor/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/middle-earth-shadow-of-mordor/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/middle-earth-shadow-of-mordor/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/middle-earth-shadow-of-mordor/screenshots/04.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-middle-earth-shadow-of-mordor-v1.0.0-stable",
+          "manifest_path": "manifests/pc/middle-earth-shadow-of-mordor/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/middle-earth-shadow-of-mordor/stable/1.0.0.json",
+          "size": 55509916779,
+          "published_at": "2026-08-25T11:26:44.710833+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 241930
       }
     }
   ]
