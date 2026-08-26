@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 66
-- **Toplam aktif sürüm/kanal:** 66
-- **Toplam aktif boyut:** 1689.122 GB (1573.117 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-25 11:26:44 UTC
+- **Toplam oyun:** 67
+- **Toplam aktif sürüm/kanal:** 67
+- **Toplam aktif boyut:** 1725.056 GB (1606.584 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-26 14:16:35 UTC
 
 ## PC
 
-**66 oyun · 66 aktif sürüm/kanal · 1689.122 GB (1573.117 GiB)**
+**67 oyun · 67 aktif sürüm/kanal · 1725.056 GB (1606.584 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -76,6 +76,7 @@
 | The Elder Scrolls IV: Oblivion® Game of the Year Edition (2009) | 1.0.0 | stable | 5.946 | 5.538 | `pc-the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009-v1.0.0-stable` |
 | The Elder Scrolls V: Skyrim | 1.0.0 | stable | 13.902 | 12.948 | `pc-the-elder-scrolls-v-skyrim-v1.0.0-stable` |
 | The Walking Dead | 1.0.0 | stable | 4.637 | 4.318 | `pc-the-walking-dead-v1.0.0-stable` |
+| The Witcher 2: Assassins of Kings Enhanced Edition | 1.0.0 | stable | 35.934 | 33.467 | `pc-the-witcher-2-assassins-of-kings-enhanced-edition-v1.0.0-stable` |
 | The Witcher 3: Wild Hunt | 1.0.0 | stable | 56.143 | 52.287 | `pc-the-witcher-3-wild-hunt-v1.0.0-stable` |
 | Tomb Raider Definitive Edition | 1.0.0 | stable | 25.926 | 24.145 | `pc-tomb-raider-definitive-edition-v1.0.0-stable` |
 | Undertale | 1.0.0 | stable | 0.213 | 0.199 | `pc-undertale-v1.0.0-stable` |
