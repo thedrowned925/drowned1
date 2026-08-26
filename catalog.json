@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-25T11:26:44.712395+00:00",
+  "updated_at": "2026-08-26T14:16:35.976883+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2202,6 +2202,41 @@
       },
       "media": {
         "steam_app_id": 241930
+      }
+    },
+    {
+      "id": "the-witcher-2-assassins-of-kings-enhanced-edition",
+      "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
+      "platform": "pc",
+      "description": "A time of untold chaos has come. Mighty forces clash behind the scenes in a struggle for power and influence. The Northern Kingdoms mobilize for war. But armies on the march are not enough to stop a bloody conspiracy...",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-2-assassins-of-kings-enhanced-edition/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-2-assassins-of-kings-enhanced-edition/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-2-assassins-of-kings-enhanced-edition/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-2-assassins-of-kings-enhanced-edition/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-2-assassins-of-kings-enhanced-edition/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-2-assassins-of-kings-enhanced-edition/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-2-assassins-of-kings-enhanced-edition/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-2-assassins-of-kings-enhanced-edition/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-2-assassins-of-kings-enhanced-edition/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-2-assassins-of-kings-enhanced-edition/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-2-assassins-of-kings-enhanced-edition/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/the-witcher-2-assassins-of-kings-enhanced-edition/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-the-witcher-2-assassins-of-kings-enhanced-edition-v1.0.0-stable",
+          "manifest_path": "manifests/pc/the-witcher-2-assassins-of-kings-enhanced-edition/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/the-witcher-2-assassins-of-kings-enhanced-edition/stable/1.0.0.json",
+          "size": 35934391845,
+          "published_at": "2026-08-26T14:16:35.966205+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 20920
       }
     }
   ]
