@@ -1,0 +1,1726 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "rise-of-the-tomb-raider",
+    "title": "Rise of the Tomb Raider™",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Rise of the Tomb Raider: 20 Year Celebration includes the base game and Season Pass featuring all-new content. Explore Croft Manor in the new “Blood Ties” story, then defend it against a zombie invasion in “Lara’s Nightmare”."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-rise-of-the-tomb-raider-v1.0.0-stable"
+  },
+  "chunk_size": 679107629,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 27164305127,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "bigfile.000.nfo",
+      "size": 336,
+      "sha256": "e9f75199531b99ca29ebaeb68f0f8dc850ab502c2eea22383ee9038012a6c2f6"
+    },
+    {
+      "path": "bigfile.000.tiger",
+      "size": 2146427256,
+      "sha256": "f3b2b1c2cba7967711a807e484e82a64ced28414c4cb3f7ddfd70b0fdfc9f528"
+    },
+    {
+      "path": "bigfile.001.tiger",
+      "size": 2142344440,
+      "sha256": "5e930c5c34d6248149e1bdce9f4af979ae673ac1b3e234977aa38dd2c9900f42"
+    },
+    {
+      "path": "bigfile.002.tiger",
+      "size": 2146617400,
+      "sha256": "7908239e47a554cc815ec4e8bfbe6d02c0f482b35a83b76667ab9c61995947ab"
+    },
+    {
+      "path": "bigfile.003.tiger",
+      "size": 2146791928,
+      "sha256": "6cbafd5b12d4ace1e3e260f91da0bde630dbc1ad191df116499b9f585928a79e"
+    },
+    {
+      "path": "bigfile.004.tiger",
+      "size": 2147244488,
+      "sha256": "7b817ef80f846ae2d75e95382c9faf1c5c804046f67472c4bbef50d7be8261a0"
+    },
+    {
+      "path": "bigfile.005.tiger",
+      "size": 2147079880,
+      "sha256": "4def9d246387a109113cfff6be2cc2194d889063e40439b44942ddf0a0608626"
+    },
+    {
+      "path": "bigfile.006.tiger",
+      "size": 2146927448,
+      "sha256": "797ab1c6ae0abce5ba28b2f801837d6f3789b1bf3f46ebd243f8d9ed43756eb8"
+    },
+    {
+      "path": "bigfile.007.tiger",
+      "size": 1971641523,
+      "sha256": "56c0639f7d24338a8faf3eac5a4b06efab6bf47631dac889e22f171d78fbda42"
+    },
+    {
+      "path": "bigfile.dlc.mode.bloodties.000.000.nfo",
+      "size": 388,
+      "sha256": "9a3934675f2b2ddf7ed48ba25d863a18928c7e7da19451be0f3c7429d5d2f288"
+    },
+    {
+      "path": "bigfile.dlc.mode.bloodties.000.000.tiger",
+      "size": 1184451168,
+      "sha256": "476a6b140672f278749ebeaf192cd1ecfa8da215c9e1134fcf5aec88fe4689ea"
+    },
+    {
+      "path": "bigfile.dlc.mode.bloodties.000_ENGLISH.000.tiger",
+      "size": 47879760,
+      "sha256": "979b5b3a44776a4bdcdc1b78f5bab5f4e5fb66c3a4986e85d61c34a9afddfa8a"
+    },
+    {
+      "path": "bigfile.dlc.mode.bloodties.000_RUSSIAN.000.tiger",
+      "size": 50248240,
+      "sha256": "03f7e7a931515ba691fe997070de123a9d8365055f0344044320b5bb48e1a097"
+    },
+    {
+      "path": "bigfile.dlc.mode.colddarkness.000.000.nfo",
+      "size": 288,
+      "sha256": "c00b4b822d6f721f721b01b9bbdb8b100f9e170cdfb35677596d31fc7804c66c"
+    },
+    {
+      "path": "bigfile.dlc.mode.colddarkness.000.000.tiger",
+      "size": 234922688,
+      "sha256": "73bde5496cbcefb78bf45ef27f20154a365c9c08de2b222ea8e2ecfa4fe3822c"
+    },
+    {
+      "path": "bigfile.dlc.mode.colddarkness.000_ENGLISH.000.tiger",
+      "size": 27476080,
+      "sha256": "ea76b3a07b7f188613a23ab7e4b55590df2815e1301dad7942331d2981565ab8"
+    },
+    {
+      "path": "bigfile.dlc.mode.colddarkness.000_RUSSIAN.000.tiger",
+      "size": 25917680,
+      "sha256": "4e31e7122d98bcb585c580b141eb3164507c07049b846429f6b040597015448c"
+    },
+    {
+      "path": "bigfile.dlc.mode.endurance.000.000.nfo",
+      "size": 392,
+      "sha256": "1bcecb6c2e1e8a0a3c60391a61190f565fa06965a81499c963890815fc81cd6c"
+    },
+    {
+      "path": "bigfile.dlc.mode.endurance.000.000.tiger",
+      "size": 197036940,
+      "sha256": "c41a6e04afd2172cf19ffd65eab0385fbd85e98e406e2096c855745ed5dbd846"
+    },
+    {
+      "path": "bigfile.dlc.mode.endurance.000_ENGLISH.000.tiger",
+      "size": 26748928,
+      "sha256": "f2c374ebe8d8b45d46b5767c8d083315481e36657d6b4df5819b086c5b692b33"
+    },
+    {
+      "path": "bigfile.dlc.mode.endurance.000_RUSSIAN.000.tiger",
+      "size": 26868704,
+      "sha256": "c38e66b30bc534363c5d9c62d723e72edc79cc7bd89de44999357dce615c6176"
+    },
+    {
+      "path": "bigfile.dlc.pack.airdrop.000.000.nfo",
+      "size": 366,
+      "sha256": "25bef700fb5b93c05fef0da55d68028c40474b4c011bbc3b5dc017b5f51403a0"
+    },
+    {
+      "path": "bigfile.dlc.pack.ancientvanguard.000.000.nfo",
+      "size": 430,
+      "sha256": "0a90ee5dc5f6b0d73702ded219b685595327d5ee99cf8ad3e83c9e05e7573c69"
+    },
+    {
+      "path": "bigfile.dlc.pack.prophetslegacy.000.000.nfo",
+      "size": 414,
+      "sha256": "5743d4adcf750c847f93e508418d2efa7ea43e792a15a52e5438c8107a4bab72"
+    },
+    {
+      "path": "bigfile.dlc.pack.seasonpass.000.000.nfo",
+      "size": 213,
+      "sha256": "8f4e118538c916f7dca6098236f920d1ef7710cb8ef5031fbbc6ddbeb5b670f3"
+    },
+    {
+      "path": "bigfile.dlc.pack.siberianranger.000.000.nfo",
+      "size": 418,
+      "sha256": "357a5090e3e9477d37b67f4a56eac07be9ca80995f838b861f2d3dee29c46fe9"
+    },
+    {
+      "path": "bigfile.dlc.pack.valiantexplorer.000.000.nfo",
+      "size": 302,
+      "sha256": "4c40ed6d48c8702373b0a8dad29e962ae1ea655b61c4e27a7714fc9dfe2e7e05"
+    },
+    {
+      "path": "bigfile.dlc.pack.wildernesssurvivor.000.000.nfo",
+      "size": 426,
+      "sha256": "2a6100b9a9e850f1407d75bb69154d85fd992621f26f072045fa4b5e569c718f"
+    },
+    {
+      "path": "bigfile.dlc.preorder.apexpredator.000.000.nfo",
+      "size": 387,
+      "sha256": "a7842f282da1287d3fea93e90111468aa4543c8523d638e5d4064cfb24375b90"
+    },
+    {
+      "path": "bigfile.dlc.preorder.hopesbastion.000.000.nfo",
+      "size": 375,
+      "sha256": "226d0f89806e15efb160d4d47da3a07fd86edc75e802163af48176da843de92f"
+    },
+    {
+      "path": "bigfile.dlc.preorder.remnantresistance.000.000.nfo",
+      "size": 385,
+      "sha256": "6697f6a2804a559349c1e4830c7c653a10d5476b53f7a50b0bd762b08e7a98a9"
+    },
+    {
+      "path": "bigfile.dlc.preorder.sparrowhawk.000.000.nfo",
+      "size": 371,
+      "sha256": "43083907a30cc4c170f53edba78a81cf9a18b4f6a58d95acec636e29e81b8e11"
+    },
+    {
+      "path": "bigfile.dlc.preorder.tacticalsurvivor.000.000.nfo",
+      "size": 397,
+      "sha256": "7381637fa260eba595b3ace015b0dbd8af80d84952d3f371560a93be72af8d20"
+    },
+    {
+      "path": "bigfile.dlc.story.babayaga.000.000.nfo",
+      "size": 383,
+      "sha256": "af01022bbedf85863da7df19208b404bf890fbda50482f19b7dd28507f5feb7d"
+    },
+    {
+      "path": "bigfile.dlc.story.babayaga.000.000.tiger",
+      "size": 483406972,
+      "sha256": "f6a81a7b73697cd2226ccb1d7dff497e5eb40d3e2fb7e64fb492707ba82b2b1e"
+    },
+    {
+      "path": "bigfile.dlc.story.babayaga.000_ENGLISH.000.tiger",
+      "size": 57055792,
+      "sha256": "e78eb3ac79856ac99d293692a54552037b6ebb7ec9eca42baf1254088f72ed90"
+    },
+    {
+      "path": "bigfile.dlc.story.babayaga.000_RUSSIAN.000.tiger",
+      "size": 57285840,
+      "sha256": "7661b095db7de184890df3be3beb4e9eb3cabcbb7f8e15ce1118891a3f0183c9"
+    },
+    {
+      "path": "bigfile.update1.000.000.nfo",
+      "size": 294,
+      "sha256": "b3e91b285dca57792572ffb521b43071e63d472d630b517574f77a858f5e013f"
+    },
+    {
+      "path": "bigfile.update1.000.000.tiger",
+      "size": 595271472,
+      "sha256": "290ac7a4f4dbcc3f7d66d56bc9ae1be1fc07d0f8f958eb5ac6e741e72aa5e4cd"
+    },
+    {
+      "path": "bigfile.update1.000_ENGLISH.000.tiger",
+      "size": 52,
+      "sha256": "f35ea4c6ac8aa092a51e00b6ce505089c1bc2b1a3862bfe25b347b9fcae41912"
+    },
+    {
+      "path": "bigfile.update1.000_RUSSIAN.000.tiger",
+      "size": 52,
+      "sha256": "f35ea4c6ac8aa092a51e00b6ce505089c1bc2b1a3862bfe25b347b9fcae41912"
+    },
+    {
+      "path": "bigfile.update2.000.000.nfo",
+      "size": 294,
+      "sha256": "8391000c19c10364f5c48b41fcad708dcf5efebcedd4d4f6365903406811dfbb"
+    },
+    {
+      "path": "bigfile.update2.000.000.tiger",
+      "size": 1949056105,
+      "sha256": "84bca185dbe9f592cfea6a051e95a9184b3b210abd9521a8ad61dc9f8ec75b85"
+    },
+    {
+      "path": "bigfile.update2.000_ENGLISH.000.tiger",
+      "size": 52,
+      "sha256": "ddc04e9f7b55848f18ad3597e28c45f2712af2fee0157d4022e1c7e2448458f6"
+    },
+    {
+      "path": "bigfile.update2.000_RUSSIAN.000.tiger",
+      "size": 52,
+      "sha256": "ddc04e9f7b55848f18ad3597e28c45f2712af2fee0157d4022e1c7e2448458f6"
+    },
+    {
+      "path": "bigfile.update3.000.000.nfo",
+      "size": 294,
+      "sha256": "63b3b630114d6fd098efa45913cd2ad7438b74e0988264369d5eb1df415f6d11"
+    },
+    {
+      "path": "bigfile.update3.000.000.tiger",
+      "size": 2147479880,
+      "sha256": "648d5e93c5c4537c43039858a344eaf5f3f49f6230d1fe2ace5e25fda4e85f7f"
+    },
+    {
+      "path": "bigfile.update3.000.001.tiger",
+      "size": 158253637,
+      "sha256": "1fc72881eb09f0e47787f4bb6e0d1624ea3a4c43f9c408a43b967ca3a6bc012e"
+    },
+    {
+      "path": "bigfile.update3.000_ENGLISH.000.tiger",
+      "size": 52,
+      "sha256": "74db4972c532248fefcbf297a9a249c440e0ba7c3b01c20a5857b5c131a00dd6"
+    },
+    {
+      "path": "bigfile.update3.000_RUSSIAN.000.tiger",
+      "size": 52,
+      "sha256": "74db4972c532248fefcbf297a9a249c440e0ba7c3b01c20a5857b5c131a00dd6"
+    },
+    {
+      "path": "bigfile_ENGLISH.000.tiger",
+      "size": 864015120,
+      "sha256": "2c4aad845436444182c21663b518289acd7288c638e0a49bc225941881d0005e"
+    },
+    {
+      "path": "bigfile_RUSSIAN.000.tiger",
+      "size": 838812480,
+      "sha256": "fea464a1077161d3eadab047cfa0adad2e334c614b1f16c5458be1200c829e80"
+    },
+    {
+      "path": "bink2w64.dll",
+      "size": 399872,
+      "sha256": "c39ee45466625a5ff0fb26a52ba9e24f74fb862de8ae93c982d6ee259720115f"
+    },
+    {
+      "path": "codex64.dll",
+      "size": 133408,
+      "sha256": "056156ab1da26259bc6075e18db532dc1ca6477e3a64342c2d172930c4d45b71"
+    },
+    {
+      "path": "crashpad_handler.exe",
+      "size": 800256,
+      "sha256": "e1eb08309dd8fb388431304f351b5a41c8740d6542b6390807fdaf43d5edf941"
+    },
+    {
+      "path": "d3dcompiler_47.dll",
+      "size": 4173928,
+      "sha256": "e994847e01a6f1e4cbdc5a864616ac262f67ee4f14db194984661a8d927ab7f4"
+    },
+    {
+      "path": "EOSSDK-Win64-Shipping.cdx",
+      "size": 23206368,
+      "sha256": "30a3d4670efdf83b3518e7690cdd4be7b4e56ca1b6cac4dd6a17cf80ae8d1bf2"
+    },
+    {
+      "path": "EOSSDK-Win64-Shipping.dll",
+      "size": 765408,
+      "sha256": "7e6fdf544beff0eeff1f78d4a84ee49ac26884d0fbd79f6ec8a7e8466067d171"
+    },
+    {
+      "path": "epic_emu.ini",
+      "size": 1233,
+      "sha256": "b7766f0f84d5004288ddf987b83d3b87775f36f5a431db4de7d3ff12826a9adf"
+    },
+    {
+      "path": "GameOverlayRenderer64.dll",
+      "size": 1544992,
+      "sha256": "2b250df1300a3575f7f2892a30dceb854dd2fcc07aba3e392886b634fb19bc9f"
+    },
+    {
+      "path": "GFSDK_SSAO_D3D11.win64.dll",
+      "size": 1064448,
+      "sha256": "65837e99df8258b850aeca42dc2580caaf4d6c48f1ec4e6edef68a95782e46fa"
+    },
+    {
+      "path": "GFSDK_SSAO_D3D12.win64.dll",
+      "size": 1077248,
+      "sha256": "943afb17caca969f629dd6a5e20c4406ac70487c81cc5a09a6f73d9c362747b5"
+    },
+    {
+      "path": "GFSDK_VXGI_x64.dll",
+      "size": 1477120,
+      "sha256": "c794aa5b078071862ad53ca654d91b7a95b540f22a6776a1229d042c634adebb"
+    },
+    {
+      "path": "ISSkin.dll",
+      "size": 395184,
+      "sha256": "25fdb94e386f8a41f10aba00ed092a91b878339f8e256a7252b11169122b0a68"
+    },
+    {
+      "path": "movies/pc/avalanche_01.bik",
+      "size": 6819192,
+      "sha256": "8a630da39d497d8162ab833dd8d1c48eb031053ef0d9c91764861bd44ae4f6d2"
+    },
+    {
+      "path": "movies/pc/avalanche_02.bik",
+      "size": 5798728,
+      "sha256": "38b0c1b66fe6faf00d1a1447be275c0281749571cded41e32d762792f7fe9622"
+    },
+    {
+      "path": "movies/pc/avalanche_spire.bik",
+      "size": 3494100,
+      "sha256": "2b646cef73cba486080dd4b4233b0066b72cf9b287e88ea4e4e4689a553fc068"
+    },
+    {
+      "path": "movies/pc/BloodTies_EndSlate.bik",
+      "size": 1401004,
+      "sha256": "172da78ce2b33ba8e76e3f16be17d6dc6e92f6c0c31460910161f3770f77f497"
+    },
+    {
+      "path": "movies/pc/bp_040_deluge.bik",
+      "size": 78297780,
+      "sha256": "c01608cd581978d2668a45d6008bbcd77b0dfc3f4a0d074e444cc341882a8439"
+    },
+    {
+      "path": "movies/pc/Croft_manor_Credits.bik",
+      "size": 22577964,
+      "sha256": "600aa72a7313df19545daa41c9e8ce1e578515c49b03fab80a19ed827abb468b"
+    },
+    {
+      "path": "movies/pc/Croft_manor_Intro.bik",
+      "size": 7386868,
+      "sha256": "2f2f0558bfbd7412df39f4549d7bb8ae2f3596149ed3e58469384ceb6f95668d"
+    },
+    {
+      "path": "movies/pc/Croft_manor_Outro.bik",
+      "size": 10784380,
+      "sha256": "34c27dbdd813d74b67e1dd0be99510accf7934fa142edd815895abec60e30142"
+    },
+    {
+      "path": "movies/pc/ge_The_Plunge_cine_explosion.bik",
+      "size": 7589004,
+      "sha256": "59749839eab1dddf601b0b5982220747353819924f9fcf2493a55de90997132e"
+    },
+    {
+      "path": "movies/pc/GI_Demo_Avalanche_Tumbling.bik",
+      "size": 15500100,
+      "sha256": "21bd1d53f4eec1047996f537f0571b117217f05e74aeca9138463639a4893fbc"
+    },
+    {
+      "path": "movies/pc/IGC_48b_Confrontations_Jonah_Torture.bik",
+      "size": 970552,
+      "sha256": "cbe1d86678b415a67a740c11dc1a43715eb27d01d1d96bf5722c9c11aed43fd9"
+    },
+    {
+      "path": "movies/pc/IGC_Icy_Grave.bik",
+      "size": 3891584,
+      "sha256": "df6038ec76448654ad065c4b465fdb0781aa7c67408ec448028e8522c276dbce"
+    },
+    {
+      "path": "movies/pc/LevelLoad_14Expedition.bik",
+      "size": 150701856,
+      "sha256": "477494f7926db8901fd1a5e12cc226ed4dcfed786caa41950f2067287a4b81bd"
+    },
+    {
+      "path": "movies/pc/LevelLoad_SH3.bik",
+      "size": 70995176,
+      "sha256": "ba8cc7816f36dfde42dd6bd4293784a6566fe98118d323425ee4918a4c032d24"
+    },
+    {
+      "path": "movies/pc/LevelLoad_VH4.bik",
+      "size": 58950028,
+      "sha256": "e142987bc4c3053a6481e2f9aff61d8c04ddbc0ad8314a68dbd14ea694dcfd87"
+    },
+    {
+      "path": "movies/pc/Outro_Manor_Full.bik",
+      "size": 19203000,
+      "sha256": "1e8a1396f2ba09f8d3d094868f6dc4a154db822aea0d97106fba1725b8dc98bf"
+    },
+    {
+      "path": "movies/pc/Scene_20_Alive_Flashback.bik",
+      "size": 97556664,
+      "sha256": "6f4a87dbdc863d87399abd76417af6339c5c129c72b0c2133960d469a070c344"
+    },
+    {
+      "path": "movies/pc/Scene_30_The_Drowning.bik",
+      "size": 51505184,
+      "sha256": "24509907ec112db7f0aa0d92c8077781d435d40cd6d76caeeceb11d24879b173"
+    },
+    {
+      "path": "movies/pc/Scene_39b_est_shot.bik",
+      "size": 13990800,
+      "sha256": "c533857b23e60215e266c723b7f82026e2f061bbfe0275b82acef1192a81ecd8"
+    },
+    {
+      "path": "movies/pc/Scene_3b_Good_Times.bik",
+      "size": 146466476,
+      "sha256": "9a8c8a29d4a8980a329e5c14e05b2b3e85b862b5dba01948ae1891d6e08a4df4"
+    },
+    {
+      "path": "movies/pc/Scene_47e_Regrets.bik",
+      "size": 90180508,
+      "sha256": "2921a55c656c33ec3e64ea93a4cc29626209ddf732d54e2ab3cb8c4e4776d4e1"
+    },
+    {
+      "path": "movies/pc/Zombi_Intro_650_cm_040_035_atlas.bik",
+      "size": 9237696,
+      "sha256": "3359a5bfceed25d857e1ee01e30f0340c00e831352221a8544ef1f4d00189e47"
+    },
+    {
+      "path": "msvcp140.dll",
+      "size": 564088,
+      "sha256": "762c1beb041e72149d605f4051695a9634c56e62a517c46d45ff97590f61403c"
+    },
+    {
+      "path": "nvngx_dlss.dll",
+      "size": 14463688,
+      "sha256": "f0a4084738b1302adca7a30184e8d91d0f02e2e11bc75308a354a63604ebef4a"
+    },
+    {
+      "path": "NvProfileFixer.exe",
+      "size": 99488,
+      "sha256": "e1a4bea341145cc32c4979bca27c165f9a91ad9cdfc2e863b2c1427946375581"
+    },
+    {
+      "path": "openvr_api.dll",
+      "size": 314656,
+      "sha256": "71f9cce93034c886a6047d00b805dca5769132427fc46f7492531dd7f5d6e79e"
+    },
+    {
+      "path": "pipe_cache.bin",
+      "size": 193297928,
+      "sha256": "0818012f1257b32356e8ea5b1a2f4631ddbf16776e34b30c639ccfbdfb9e33a0"
+    },
+    {
+      "path": "ROTTR.exe",
+      "size": 27584064,
+      "sha256": "08289052f30db6da8cc3d6eb60e7dd54ff3a6a5f402bf04d8fbe656da98ad965"
+    },
+    {
+      "path": "steam.cjstyles",
+      "size": 594944,
+      "sha256": "fd7a7ba39bcb14b803274dcc1c7633dddb3f9d59d49868509aea6132d572184e"
+    },
+    {
+      "path": "steam_api64.cdx",
+      "size": 250656,
+      "sha256": "b8246e1a629b945fe526b24c3e4f002c4f6eb86aa1b5ed9744399f22a0d2ca9f"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 250656,
+      "sha256": "65dda7796c0720fe16ddc1e30f3b74552b06afc1b4e8d8530b12e723d709bec9"
+    },
+    {
+      "path": "steam_emu.ini",
+      "size": 1680,
+      "sha256": "b703b59dd694f9a46f2885f7d9db58d7ed2e58a8b815eeaa4d21428751b3ef59"
+    },
+    {
+      "path": "steamclient64.dll",
+      "size": 348568,
+      "sha256": "7e76a5637927b0a0f8f92ae53f3b881fac7e5560b0618d3206251325bd7c0693"
+    },
+    {
+      "path": "stream_engine.dll",
+      "size": 1574640,
+      "sha256": "93bce74e1200b8812eaa77e2e7907edb9f7740c549d0e8713f049f2507d5ae58"
+    },
+    {
+      "path": "vcruntime140.dll",
+      "size": 96144,
+      "sha256": "3242739842db5f32021de2ba87b4e5c884fcf47cb97b65fe38a4f8ad28722d98"
+    },
+    {
+      "path": "vcruntime140_1.dll",
+      "size": 36728,
+      "sha256": "721831b56cbc8531802b036044610f7442397d02a58ebe82aa82fc7f9d99b2d8"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "bigfile.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 336
+        },
+        {
+          "file": "bigfile.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 49220112,
+          "length": 629887517
+        }
+      ],
+      "sha256": "15e4403bc3428ff13b0d8257a5328bf4e800468306bab646e2e1350a8763b04c"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.000.tiger",
+          "file_offset": 629887517,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "b8ac5bcddf0e68cecc7fc97aeaaa2c1345dadd57b9e26a424f728e396b21e056"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.000.tiger",
+          "file_offset": 1308995146,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "0dd50a66fe6c76a37d380cb073af2a8003ad15b40deb89d8858b2e2e95e740f0"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.000.tiger",
+          "file_offset": 1988102775,
+          "chunk_offset": 0,
+          "length": 158324481
+        },
+        {
+          "file": "bigfile.001.tiger",
+          "file_offset": 0,
+          "chunk_offset": 158324481,
+          "length": 520783148
+        }
+      ],
+      "sha256": "be2093aa3820db32b3ac99128a54f67051aecb7a8e9d36896feb7b419fa94962"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.001.tiger",
+          "file_offset": 520783148,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "74bb320a134ddd73b6ee968ae23744a0cc19886213861661c071768de594b254"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.001.tiger",
+          "file_offset": 1199890777,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "9408cdb09c908dd3f0b43cd99abd57d3536488c9bb59a06ee6aa51240136a6fc"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.001.tiger",
+          "file_offset": 1878998406,
+          "chunk_offset": 0,
+          "length": 263346034
+        },
+        {
+          "file": "bigfile.002.tiger",
+          "file_offset": 0,
+          "chunk_offset": 263346034,
+          "length": 415761595
+        }
+      ],
+      "sha256": "bc9fe0dfa1049f9b692495c681acb0e2f0d4f76b7ddf3a563169b8c29371c7d6"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.002.tiger",
+          "file_offset": 415761595,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "c57c53e23d27af322c65167c73213892393e4d2b39a9a150d3a4bad889f7f21d"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.002.tiger",
+          "file_offset": 1094869224,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "091007152096f6546f49de91430d85ce5e70743cfe28a1408d2a1c50b85f1961"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.002.tiger",
+          "file_offset": 1773976853,
+          "chunk_offset": 0,
+          "length": 372640547
+        },
+        {
+          "file": "bigfile.003.tiger",
+          "file_offset": 0,
+          "chunk_offset": 372640547,
+          "length": 306467082
+        }
+      ],
+      "sha256": "fd5b06c1171ff3aff342b1aa106a3fcea5ce15b85e9a96a324ce198168d77830"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.003.tiger",
+          "file_offset": 306467082,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "cc18613e36450edd5040bfbb807e38a50af85ee78312172f2bcd75bf9502153b"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.003.tiger",
+          "file_offset": 985574711,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "ecc640f8dff7e28b632058da648079d65bdfd06a0347fc453759056d5fe0133e"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.003.tiger",
+          "file_offset": 1664682340,
+          "chunk_offset": 0,
+          "length": 482109588
+        },
+        {
+          "file": "bigfile.004.tiger",
+          "file_offset": 0,
+          "chunk_offset": 482109588,
+          "length": 196998041
+        }
+      ],
+      "sha256": "efbfa1794c62bd128f054f737a2b3bec10fe04cc7d7501bf8fde2a6354e7136e"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.004.tiger",
+          "file_offset": 196998041,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "172e5ed2057ff8bb37dc5771a81c977864a92d5cb2190382266c3bcf6980c4e3"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.004.tiger",
+          "file_offset": 876105670,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "0e8e8dd9e023d6ed95abdd66db50858f96b1718729bb8a7b25e5f9a9863a5af9"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.004.tiger",
+          "file_offset": 1555213299,
+          "chunk_offset": 0,
+          "length": 592031189
+        },
+        {
+          "file": "bigfile.005.tiger",
+          "file_offset": 0,
+          "chunk_offset": 592031189,
+          "length": 87076440
+        }
+      ],
+      "sha256": "97e7ac3e50928c751b5d5e89d9507f85976fc6fe7d2e0ca16808d1704aa2d95a"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.005.tiger",
+          "file_offset": 87076440,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "523896face46c08c20c36258b2d718b31140174f619210bd01cab3352fbe57db"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.005.tiger",
+          "file_offset": 766184069,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "fce3d15a1af1f0d47207b3e32b2bb1b0c162666198431ad8a54f3492dbf27d74"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.005.tiger",
+          "file_offset": 1445291698,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "623aeb47b0939b41302e501abcb35ef06a8602d8302f5374b64bb382fccf6050"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.005.tiger",
+          "file_offset": 2124399327,
+          "chunk_offset": 0,
+          "length": 22680553
+        },
+        {
+          "file": "bigfile.006.tiger",
+          "file_offset": 0,
+          "chunk_offset": 22680553,
+          "length": 656427076
+        }
+      ],
+      "sha256": "ac9307f98542de828d8160a3c51d4cf93722b5f18190162429e3085341e8d5e7"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.006.tiger",
+          "file_offset": 656427076,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "f94b7f51fa76968830ccaddcc846cba72470a55b1b6312b0d4e706e8fcd6a18c"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.006.tiger",
+          "file_offset": 1335534705,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "4c5589d82591ee84fc9adf51a5e1931f92136298a7e2cdbd9ea8b0b68e9bd590"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.006.tiger",
+          "file_offset": 2014642334,
+          "chunk_offset": 0,
+          "length": 132285114
+        },
+        {
+          "file": "bigfile.007.tiger",
+          "file_offset": 0,
+          "chunk_offset": 132285114,
+          "length": 546822515
+        }
+      ],
+      "sha256": "e70e83335a28392670583d9da70ccf0ab74d2151ed2f928faf933312783f5589"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.007.tiger",
+          "file_offset": 546822515,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "715f03a002c67b7223dfa6389b71c4d1f8a8710cb0787e5e4930085d38fc2563"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.007.tiger",
+          "file_offset": 1225930144,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "fdfca679bc8753d33561d580f54256c44349f939d3c712a9287841ee8784f29a"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.007.tiger",
+          "file_offset": 1905037773,
+          "chunk_offset": 0,
+          "length": 66603750
+        },
+        {
+          "file": "bigfile.dlc.mode.bloodties.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 66603750,
+          "length": 388
+        },
+        {
+          "file": "bigfile.dlc.mode.bloodties.000.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 66604138,
+          "length": 612503491
+        }
+      ],
+      "sha256": "294d073ea99b1aafbc374523ec2c2ba514bc5d0b098c641876bf75e34c8c2e90"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.dlc.mode.bloodties.000.000.tiger",
+          "file_offset": 612503491,
+          "chunk_offset": 0,
+          "length": 571947677
+        },
+        {
+          "file": "bigfile.dlc.mode.bloodties.000_ENGLISH.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 571947677,
+          "length": 47879760
+        },
+        {
+          "file": "bigfile.dlc.mode.bloodties.000_RUSSIAN.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 619827437,
+          "length": 50248240
+        },
+        {
+          "file": "bigfile.dlc.mode.colddarkness.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 670075677,
+          "length": 288
+        },
+        {
+          "file": "bigfile.dlc.mode.colddarkness.000.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 670075965,
+          "length": 9031664
+        }
+      ],
+      "sha256": "640aca24bdc7af288182e214b0aa50c7cde18d5dbcad96d155c138fdd61d56e4"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.dlc.mode.colddarkness.000.000.tiger",
+          "file_offset": 9031664,
+          "chunk_offset": 0,
+          "length": 225891024
+        },
+        {
+          "file": "bigfile.dlc.mode.colddarkness.000_ENGLISH.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 225891024,
+          "length": 27476080
+        },
+        {
+          "file": "bigfile.dlc.mode.colddarkness.000_RUSSIAN.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 253367104,
+          "length": 25917680
+        },
+        {
+          "file": "bigfile.dlc.mode.endurance.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 279284784,
+          "length": 392
+        },
+        {
+          "file": "bigfile.dlc.mode.endurance.000.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 279285176,
+          "length": 197036940
+        },
+        {
+          "file": "bigfile.dlc.mode.endurance.000_ENGLISH.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 476322116,
+          "length": 26748928
+        },
+        {
+          "file": "bigfile.dlc.mode.endurance.000_RUSSIAN.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 503071044,
+          "length": 26868704
+        },
+        {
+          "file": "bigfile.dlc.pack.airdrop.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 529939748,
+          "length": 366
+        },
+        {
+          "file": "bigfile.dlc.pack.ancientvanguard.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 529940114,
+          "length": 430
+        },
+        {
+          "file": "bigfile.dlc.pack.prophetslegacy.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 529940544,
+          "length": 414
+        },
+        {
+          "file": "bigfile.dlc.pack.seasonpass.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 529940958,
+          "length": 213
+        },
+        {
+          "file": "bigfile.dlc.pack.siberianranger.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 529941171,
+          "length": 418
+        },
+        {
+          "file": "bigfile.dlc.pack.valiantexplorer.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 529941589,
+          "length": 302
+        },
+        {
+          "file": "bigfile.dlc.pack.wildernesssurvivor.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 529941891,
+          "length": 426
+        },
+        {
+          "file": "bigfile.dlc.preorder.apexpredator.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 529942317,
+          "length": 387
+        },
+        {
+          "file": "bigfile.dlc.preorder.hopesbastion.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 529942704,
+          "length": 375
+        },
+        {
+          "file": "bigfile.dlc.preorder.remnantresistance.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 529943079,
+          "length": 385
+        },
+        {
+          "file": "bigfile.dlc.preorder.sparrowhawk.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 529943464,
+          "length": 371
+        },
+        {
+          "file": "bigfile.dlc.preorder.tacticalsurvivor.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 529943835,
+          "length": 397
+        },
+        {
+          "file": "bigfile.dlc.story.babayaga.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 529944232,
+          "length": 383
+        },
+        {
+          "file": "bigfile.dlc.story.babayaga.000.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 529944615,
+          "length": 149163014
+        }
+      ],
+      "sha256": "1f6f682551c38ecb56f7e28ce2a441682919812e6a102bb87bf81ec848168e2d"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.dlc.story.babayaga.000.000.tiger",
+          "file_offset": 149163014,
+          "chunk_offset": 0,
+          "length": 334243958
+        },
+        {
+          "file": "bigfile.dlc.story.babayaga.000_ENGLISH.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 334243958,
+          "length": 57055792
+        },
+        {
+          "file": "bigfile.dlc.story.babayaga.000_RUSSIAN.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 391299750,
+          "length": 57285840
+        },
+        {
+          "file": "bigfile.update1.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 448585590,
+          "length": 294
+        },
+        {
+          "file": "bigfile.update1.000.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 448585884,
+          "length": 230521745
+        }
+      ],
+      "sha256": "1da692befbd05395f8fd29957f5ddd84ba6ef58d04ad3c72e1df8d1670d1b3a6"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.update1.000.000.tiger",
+          "file_offset": 230521745,
+          "chunk_offset": 0,
+          "length": 364749727
+        },
+        {
+          "file": "bigfile.update1.000_ENGLISH.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 364749727,
+          "length": 52
+        },
+        {
+          "file": "bigfile.update1.000_RUSSIAN.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 364749779,
+          "length": 52
+        },
+        {
+          "file": "bigfile.update2.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 364749831,
+          "length": 294
+        },
+        {
+          "file": "bigfile.update2.000.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 364750125,
+          "length": 314357504
+        }
+      ],
+      "sha256": "6865fc64b0556b2c2b4604db1b1893be6cc9d82fc06a751195630e80710b836f"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.update2.000.000.tiger",
+          "file_offset": 314357504,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "503ab5cdad35d2d486dd4124cd1a51f63a4013da74525b96976df08aa4ecdcbf"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.update2.000.000.tiger",
+          "file_offset": 993465133,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "a3bf3ed281e1b0756e091100092cb0f53b91aa60344d04fbf47acfed454737ee"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.update2.000.000.tiger",
+          "file_offset": 1672572762,
+          "chunk_offset": 0,
+          "length": 276483343
+        },
+        {
+          "file": "bigfile.update2.000_ENGLISH.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 276483343,
+          "length": 52
+        },
+        {
+          "file": "bigfile.update2.000_RUSSIAN.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 276483395,
+          "length": 52
+        },
+        {
+          "file": "bigfile.update3.000.000.nfo",
+          "file_offset": 0,
+          "chunk_offset": 276483447,
+          "length": 294
+        },
+        {
+          "file": "bigfile.update3.000.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 276483741,
+          "length": 402623888
+        }
+      ],
+      "sha256": "c0218d8cf143b71fe91991285adc6f590b2eedb81d48432ff05020e97beef13c"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.update3.000.000.tiger",
+          "file_offset": 402623888,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "9e1a9853495fbb37c6aea6459ee8494f414a1f2f8c1a0ced1e4e3b1e6ebbd258"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.update3.000.000.tiger",
+          "file_offset": 1081731517,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "d866502b257511ea70abddee460f289fcb2336a2725d4ec3ae1edadafbc803ec"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile.update3.000.000.tiger",
+          "file_offset": 1760839146,
+          "chunk_offset": 0,
+          "length": 386640734
+        },
+        {
+          "file": "bigfile.update3.000.001.tiger",
+          "file_offset": 0,
+          "chunk_offset": 386640734,
+          "length": 158253637
+        },
+        {
+          "file": "bigfile.update3.000_ENGLISH.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 544894371,
+          "length": 52
+        },
+        {
+          "file": "bigfile.update3.000_RUSSIAN.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 544894423,
+          "length": 52
+        },
+        {
+          "file": "bigfile_ENGLISH.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 544894475,
+          "length": 134213154
+        }
+      ],
+      "sha256": "289a804aa2f7487eec5f256716d88425b5b80c2f7cc9e27c50674c0204c7bfb0"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile_ENGLISH.000.tiger",
+          "file_offset": 134213154,
+          "chunk_offset": 0,
+          "length": 679107629
+        }
+      ],
+      "sha256": "ef91e85373360786e20a020a1b348b753db164acab44a8e1716b590214a68781"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile_ENGLISH.000.tiger",
+          "file_offset": 813320783,
+          "chunk_offset": 0,
+          "length": 50694337
+        },
+        {
+          "file": "bigfile_RUSSIAN.000.tiger",
+          "file_offset": 0,
+          "chunk_offset": 50694337,
+          "length": 628413292
+        }
+      ],
+      "sha256": "7b26ad4ee2cd41d33b89724b7b1ed66c3cf91c2117c401809f967734d7f5e588"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 679107629,
+      "segments": [
+        {
+          "file": "bigfile_RUSSIAN.000.tiger",
+          "file_offset": 628413292,
+          "chunk_offset": 0,
+          "length": 210399188
+        },
+        {
+          "file": "bink2w64.dll",
+          "file_offset": 0,
+          "chunk_offset": 210399188,
+          "length": 399872
+        },
+        {
+          "file": "codex64.dll",
+          "file_offset": 0,
+          "chunk_offset": 210799060,
+          "length": 133408
+        },
+        {
+          "file": "crashpad_handler.exe",
+          "file_offset": 0,
+          "chunk_offset": 210932468,
+          "length": 800256
+        },
+        {
+          "file": "d3dcompiler_47.dll",
+          "file_offset": 0,
+          "chunk_offset": 211732724,
+          "length": 4173928
+        },
+        {
+          "file": "EOSSDK-Win64-Shipping.cdx",
+          "file_offset": 0,
+          "chunk_offset": 215906652,
+          "length": 23206368
+        },
+        {
+          "file": "EOSSDK-Win64-Shipping.dll",
+          "file_offset": 0,
+          "chunk_offset": 239113020,
+          "length": 765408
+        },
+        {
+          "file": "epic_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 239878428,
+          "length": 1233
+        },
+        {
+          "file": "GameOverlayRenderer64.dll",
+          "file_offset": 0,
+          "chunk_offset": 239879661,
+          "length": 1544992
+        },
+        {
+          "file": "GFSDK_SSAO_D3D11.win64.dll",
+          "file_offset": 0,
+          "chunk_offset": 241424653,
+          "length": 1064448
+        },
+        {
+          "file": "GFSDK_SSAO_D3D12.win64.dll",
+          "file_offset": 0,
+          "chunk_offset": 242489101,
+          "length": 1077248
+        },
+        {
+          "file": "GFSDK_VXGI_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 243566349,
+          "length": 1477120
+        },
+        {
+          "file": "ISSkin.dll",
+          "file_offset": 0,
+          "chunk_offset": 245043469,
+          "length": 395184
+        },
+        {
+          "file": "movies/pc/avalanche_01.bik",
+          "file_offset": 0,
+          "chunk_offset": 245438653,
+          "length": 6819192
+        },
+        {
+          "file": "movies/pc/avalanche_02.bik",
+          "file_offset": 0,
+          "chunk_offset": 252257845,
+          "length": 5798728
+        },
+        {
+          "file": "movies/pc/avalanche_spire.bik",
+          "file_offset": 0,
+          "chunk_offset": 258056573,
+          "length": 3494100
+        },
+        {
+          "file": "movies/pc/BloodTies_EndSlate.bik",
+          "file_offset": 0,
+          "chunk_offset": 261550673,
+          "length": 1401004
+        },
+        {
+          "file": "movies/pc/bp_040_deluge.bik",
+          "file_offset": 0,
+          "chunk_offset": 262951677,
+          "length": 78297780
+        },
+        {
+          "file": "movies/pc/Croft_manor_Credits.bik",
+          "file_offset": 0,
+          "chunk_offset": 341249457,
+          "length": 22577964
+        },
+        {
+          "file": "movies/pc/Croft_manor_Intro.bik",
+          "file_offset": 0,
+          "chunk_offset": 363827421,
+          "length": 7386868
+        },
+        {
+          "file": "movies/pc/Croft_manor_Outro.bik",
+          "file_offset": 0,
+          "chunk_offset": 371214289,
+          "length": 10784380
+        },
+        {
+          "file": "movies/pc/ge_The_Plunge_cine_explosion.bik",
+          "file_offset": 0,
+          "chunk_offset": 381998669,
+          "length": 7589004
+        },
+        {
+          "file": "movies/pc/GI_Demo_Avalanche_Tumbling.bik",
+          "file_offset": 0,
+          "chunk_offset": 389587673,
+          "length": 15500100
+        },
+        {
+          "file": "movies/pc/IGC_48b_Confrontations_Jonah_Torture.bik",
+          "file_offset": 0,
+          "chunk_offset": 405087773,
+          "length": 970552
+        },
+        {
+          "file": "movies/pc/IGC_Icy_Grave.bik",
+          "file_offset": 0,
+          "chunk_offset": 406058325,
+          "length": 3891584
+        },
+        {
+          "file": "movies/pc/LevelLoad_14Expedition.bik",
+          "file_offset": 0,
+          "chunk_offset": 409949909,
+          "length": 150701856
+        },
+        {
+          "file": "movies/pc/LevelLoad_SH3.bik",
+          "file_offset": 0,
+          "chunk_offset": 560651765,
+          "length": 70995176
+        },
+        {
+          "file": "movies/pc/LevelLoad_VH4.bik",
+          "file_offset": 0,
+          "chunk_offset": 631646941,
+          "length": 47460688
+        }
+      ],
+      "sha256": "edc099c9b29550a82c844c336928bc2d0150807f3cf0c87b7ab70ca3aabb0235"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 679107596,
+      "segments": [
+        {
+          "file": "movies/pc/LevelLoad_VH4.bik",
+          "file_offset": 47460688,
+          "chunk_offset": 0,
+          "length": 11489340
+        },
+        {
+          "file": "movies/pc/Outro_Manor_Full.bik",
+          "file_offset": 0,
+          "chunk_offset": 11489340,
+          "length": 19203000
+        },
+        {
+          "file": "movies/pc/Scene_20_Alive_Flashback.bik",
+          "file_offset": 0,
+          "chunk_offset": 30692340,
+          "length": 97556664
+        },
+        {
+          "file": "movies/pc/Scene_30_The_Drowning.bik",
+          "file_offset": 0,
+          "chunk_offset": 128249004,
+          "length": 51505184
+        },
+        {
+          "file": "movies/pc/Scene_39b_est_shot.bik",
+          "file_offset": 0,
+          "chunk_offset": 179754188,
+          "length": 13990800
+        },
+        {
+          "file": "movies/pc/Scene_3b_Good_Times.bik",
+          "file_offset": 0,
+          "chunk_offset": 193744988,
+          "length": 146466476
+        },
+        {
+          "file": "movies/pc/Scene_47e_Regrets.bik",
+          "file_offset": 0,
+          "chunk_offset": 340211464,
+          "length": 90180508
+        },
+        {
+          "file": "movies/pc/Zombi_Intro_650_cm_040_035_atlas.bik",
+          "file_offset": 0,
+          "chunk_offset": 430391972,
+          "length": 9237696
+        },
+        {
+          "file": "msvcp140.dll",
+          "file_offset": 0,
+          "chunk_offset": 439629668,
+          "length": 564088
+        },
+        {
+          "file": "nvngx_dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 440193756,
+          "length": 14463688
+        },
+        {
+          "file": "NvProfileFixer.exe",
+          "file_offset": 0,
+          "chunk_offset": 454657444,
+          "length": 99488
+        },
+        {
+          "file": "openvr_api.dll",
+          "file_offset": 0,
+          "chunk_offset": 454756932,
+          "length": 314656
+        },
+        {
+          "file": "pipe_cache.bin",
+          "file_offset": 0,
+          "chunk_offset": 455071588,
+          "length": 193297928
+        },
+        {
+          "file": "ROTTR.exe",
+          "file_offset": 0,
+          "chunk_offset": 648369516,
+          "length": 27584064
+        },
+        {
+          "file": "steam.cjstyles",
+          "file_offset": 0,
+          "chunk_offset": 675953580,
+          "length": 594944
+        },
+        {
+          "file": "steam_api64.cdx",
+          "file_offset": 0,
+          "chunk_offset": 676548524,
+          "length": 250656
+        },
+        {
+          "file": "steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 676799180,
+          "length": 250656
+        },
+        {
+          "file": "steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 677049836,
+          "length": 1680
+        },
+        {
+          "file": "steamclient64.dll",
+          "file_offset": 0,
+          "chunk_offset": 677051516,
+          "length": 348568
+        },
+        {
+          "file": "stream_engine.dll",
+          "file_offset": 0,
+          "chunk_offset": 677400084,
+          "length": 1574640
+        },
+        {
+          "file": "vcruntime140.dll",
+          "file_offset": 0,
+          "chunk_offset": 678974724,
+          "length": 96144
+        },
+        {
+          "file": "vcruntime140_1.dll",
+          "file_offset": 0,
+          "chunk_offset": 679070868,
+          "length": 36728
+        }
+      ],
+      "sha256": "e8f4adafbdde4a6d4d738fa6e662649f29499e904825b26605f020908c6233c7"
+    }
+  ]
+}
