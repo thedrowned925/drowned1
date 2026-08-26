@@ -48,5 +48,3 @@ jobs:
           git add game-list.md
           git commit -m "Update generated game list"
           git push
-
-# Manual retrigger: 2026-08-26
