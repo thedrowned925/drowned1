@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-26T14:16:35.976883+00:00",
+  "updated_at": "2026-08-26T14:44:18.278014+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2237,6 +2237,38 @@
       },
       "media": {
         "steam_app_id": 20920
+      }
+    },
+    {
+      "id": "sekiro-shadows-die-twice-goty-edition",
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "platform": "pc",
+      "description": "Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Carve your own clever path to vengeance in the award winning adventure from developer FromSoftware, creators of Bloodborne and the Dark Souls series. Take Revenge. Restore Your Honor. Kill Ingeniously.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sekiro-shadows-die-twice-goty-edition/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sekiro-shadows-die-twice-goty-edition/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sekiro-shadows-die-twice-goty-edition/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sekiro-shadows-die-twice-goty-edition/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sekiro-shadows-die-twice-goty-edition/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sekiro-shadows-die-twice-goty-edition/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sekiro-shadows-die-twice-goty-edition/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sekiro-shadows-die-twice-goty-edition/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sekiro-shadows-die-twice-goty-edition/screenshots/04.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-sekiro-shadows-die-twice-goty-edition-v1.0.0-stable",
+          "manifest_path": "manifests/pc/sekiro-shadows-die-twice-goty-edition/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/sekiro-shadows-die-twice-goty-edition/stable/1.0.0.json",
+          "size": 15285025030,
+          "published_at": "2026-08-26T14:44:18.277970+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 814380
       }
     }
   ]
