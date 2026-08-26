@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-26T14:44:18.278014+00:00",
+  "updated_at": "2026-08-26T15:12:29.891472+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2269,6 +2269,41 @@
       },
       "media": {
         "steam_app_id": 814380
+      }
+    },
+    {
+      "id": "rise-of-the-tomb-raider",
+      "title": "Rise of the Tomb Raider™",
+      "platform": "pc",
+      "description": "Rise of the Tomb Raider: 20 Year Celebration includes the base game and Season Pass featuring all-new content. Explore Croft Manor in the new “Blood Ties” story, then defend it against a zombie invasion in “Lara’s Nightmare”.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/rise-of-the-tomb-raider/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/rise-of-the-tomb-raider/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/rise-of-the-tomb-raider/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/rise-of-the-tomb-raider/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/rise-of-the-tomb-raider/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/rise-of-the-tomb-raider/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/rise-of-the-tomb-raider/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/rise-of-the-tomb-raider/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/rise-of-the-tomb-raider/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/rise-of-the-tomb-raider/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/rise-of-the-tomb-raider/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/rise-of-the-tomb-raider/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-rise-of-the-tomb-raider-v1.0.0-stable",
+          "manifest_path": "manifests/pc/rise-of-the-tomb-raider/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/rise-of-the-tomb-raider/stable/1.0.0.json",
+          "size": 27164305127,
+          "published_at": "2026-08-26T15:12:29.891176+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 391220
       }
     }
   ]
