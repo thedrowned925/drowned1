@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 67
-- **Toplam aktif sürüm/kanal:** 67
-- **Toplam aktif boyut:** 1725.056 GB (1606.584 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-26 14:16:35 UTC
+- **Toplam oyun:** 68
+- **Toplam aktif sürüm/kanal:** 68
+- **Toplam aktif boyut:** 1740.341 GB (1620.819 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-26 14:44:18 UTC
 
 ## PC
 
-**67 oyun · 67 aktif sürüm/kanal · 1725.056 GB (1606.584 GiB)**
+**68 oyun · 68 aktif sürüm/kanal · 1740.341 GB (1620.819 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -71,6 +71,7 @@
 | Red Dead Redemption | 1.0.0 | stable | 10.225 | 9.522 | `pc-red-dead-redemption-v1.0.0-stable` |
 | Red Dead Redemption 2 | 1.0.0 | stable | 128.093 | 119.296 | `pc-red-dead-redemption-2-v1.0.0-stable` |
 | Resident Evil 2 | 1.0.0 | stable | 25.845 | 24.070 | `pc-resident-evil-2-v1.0.0-stable` |
+| Sekiro™: Shadows Die Twice - GOTY Edition | 1.0.0 | stable | 15.285 | 14.235 | `pc-sekiro-shadows-die-twice-goty-edition-v1.0.0-stable` |
 | STAR WARS™ Knights of the Old Republic™ | 1.0.0 | stable | 3.733 | 3.477 | `pc-star-wars-knights-of-the-old-republic-v1.0.0-stable` |
 | Stardew Valley | 1.0.0 | stable | 0.733 | 0.683 | `pc-stardew-valley-v1.0.0-stable` |
 | The Elder Scrolls IV: Oblivion® Game of the Year Edition (2009) | 1.0.0 | stable | 5.946 | 5.538 | `pc-the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009-v1.0.0-stable` |
