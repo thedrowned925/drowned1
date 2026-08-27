@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-27T15:15:33.012744+00:00",
+  "updated_at": "2026-08-27T15:17:44.716526+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2603,7 +2603,7 @@
           "manifest_path": "manifests/pc/firewatch/stable/1.0.0.json",
           "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/firewatch/stable/1.0.0.json",
           "size": 4311794472,
-          "published_at": "2026-08-27T15:15:33.012730+00:00"
+          "published_at": "2026-08-27T15:17:44.716515+00:00"
         }
       },
       "media": {
