@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-27T09:12:43.601774+00:00",
+  "updated_at": "2026-08-27T13:23:49.728151+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2339,6 +2339,39 @@
       },
       "media": {
         "steam_app_id": 42700
+      }
+    },
+    {
+      "id": "wolfenstein-the-new-order",
+      "title": "Wolfenstein: The New Order",
+      "platform": "pc",
+      "description": "Wolfenstein®: The New Order reignites the series that created the first-person shooter genre. Wolfenstein offers a deep game narrative packed with action, adventure and first-person combat.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/wolfenstein-the-new-order/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/wolfenstein-the-new-order/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/wolfenstein-the-new-order/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/wolfenstein-the-new-order/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/wolfenstein-the-new-order/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/wolfenstein-the-new-order/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/wolfenstein-the-new-order/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/wolfenstein-the-new-order/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/wolfenstein-the-new-order/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/wolfenstein-the-new-order/screenshots/05.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-wolfenstein-the-new-order-v1.0.0-stable",
+          "manifest_path": "manifests/pc/wolfenstein-the-new-order/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/wolfenstein-the-new-order/stable/1.0.0.json",
+          "size": 46691146967,
+          "published_at": "2026-08-27T13:23:49.717318+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 201810
       }
     }
   ]
