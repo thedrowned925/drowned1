@@ -1,0 +1,3959 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "call-of-duty-black-ops",
+    "title": "Call of Duty®: Black Ops",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "The biggest first-person action series of all time and the follow-up to critically acclaimed Call of Duty®: Modern Warfare 2 returns with Call of Duty®: Black Ops."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-call-of-duty-black-ops-v1.0.0-stable"
+  },
+  "chunk_size": 302399959,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 12095998351,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "_Redist/dxwebsetup.exe",
+      "size": 299864,
+      "sha256": "ed79c8f65b02ed83d5db8c355328294a73dc447f08f657312bf8f3a5b40c7494"
+    },
+    {
+      "path": "_Redist/fitgirl.md5",
+      "size": 17887,
+      "sha256": "40f84ce1f2f748ec19fdcceb15e06c237ecbe9c20ceed9d3009c6895613eb188"
+    },
+    {
+      "path": "_Redist/QuickSFV.EXE",
+      "size": 103424,
+      "sha256": "a6371461da7439f4ef7008ed53331209747cba960b85c70a902d46451247a29c"
+    },
+    {
+      "path": "_Redist/QuickSFV.ini",
+      "size": 155,
+      "sha256": "74ca5a42469197eded04f5a0bf34ca251c72f7cc06a3416ac035230cb8e81629"
+    },
+    {
+      "path": "binkw32.dll",
+      "size": 174080,
+      "sha256": "ad55ec64a893f233ac648ac974562f53736003b17bfd14527e66b3ffc8c2cdcb"
+    },
+    {
+      "path": "BlackOps.exe",
+      "size": 8099608,
+      "sha256": "2ba4a04e81de2b60582da0e4489efde21e6cb07904a223bae633b6ccaebbf759"
+    },
+    {
+      "path": "cod.bmp",
+      "size": 491576,
+      "sha256": "86ec2762a7a12669e44f0aa85de575fa03b9c60254c94b3ff222b94cd16c6a91"
+    },
+    {
+      "path": "codlogo.bmp",
+      "size": 109976,
+      "sha256": "91a2d8a3befc41237caa140eb4ccc0bf2e1cc80386b3baa972bfa5f91aae394a"
+    },
+    {
+      "path": "installscript.vdf",
+      "size": 1562,
+      "sha256": "93fc4bfd3142ce19ba46b98201d43d3a65e57bcbb0d1cefa449f20fe08e5a12c"
+    },
+    {
+      "path": "localization.txt",
+      "size": 2470,
+      "sha256": "a102dfb5515f8fb1707a0ead72e492385da113bc128b414747e17a580a19efc8"
+    },
+    {
+      "path": "main/iw_00.iwd",
+      "size": 3471624,
+      "sha256": "aa35643afbf2eff48f6d73c3633481cae4af00fe96a6ceb5154bdd59bff164ff"
+    },
+    {
+      "path": "main/iw_01.iwd",
+      "size": 167530980,
+      "sha256": "e9a024b7383ab6389e449fbdec4692d11080629158a3abf0e9ebb8f0b199235f"
+    },
+    {
+      "path": "main/iw_02.iwd",
+      "size": 167584151,
+      "sha256": "e1ad236848f854bb33054ceb9af543faa9fef023954ec618c5e5c2a7ed83cdbc"
+    },
+    {
+      "path": "main/iw_03.iwd",
+      "size": 166304638,
+      "sha256": "0f0e68ad6a840153116493da1210734b6b7648e05a94447f54c8611d89a6acd7"
+    },
+    {
+      "path": "main/iw_04.iwd",
+      "size": 166488964,
+      "sha256": "debaa1b82f1ef86528eac988e69dc17a9835256ae1e4e65ed66b66badcaff57a"
+    },
+    {
+      "path": "main/iw_05.iwd",
+      "size": 167578712,
+      "sha256": "171484589dc5570ea6d8d4d5ad50bd07011013e44d0a71abc2da8f1dcd0884d5"
+    },
+    {
+      "path": "main/iw_06.iwd",
+      "size": 167666087,
+      "sha256": "c11e6f899637a88cd7127546991b630e867a1a7f8f2f7b36f2eb8d23fd676d1e"
+    },
+    {
+      "path": "main/iw_07.iwd",
+      "size": 167452198,
+      "sha256": "cc235bd10bcf4c11551a916f80e26aac5655e4879f588b616206521c5c6b497f"
+    },
+    {
+      "path": "main/iw_08.iwd",
+      "size": 167538509,
+      "sha256": "1baa6f9c7978079116f19788ebf6356e008942ebe2c57a3d0fc0840d95a6af8b"
+    },
+    {
+      "path": "main/iw_09.iwd",
+      "size": 166515788,
+      "sha256": "81074dbd0efd6ec1d78ea3a5290879cc4a4907a111763545775b0a35de0e700c"
+    },
+    {
+      "path": "main/iw_10.iwd",
+      "size": 167645915,
+      "sha256": "dd1dbeec8c93fa9c6fe6e3610e1bbf4a78d85ad658cbfc755575594fef9a339e"
+    },
+    {
+      "path": "main/iw_11.iwd",
+      "size": 167006021,
+      "sha256": "aee7b062bdca44bd81d7fc153948a2e486e05cd740928f0ca086a618923bee11"
+    },
+    {
+      "path": "main/iw_12.iwd",
+      "size": 167439953,
+      "sha256": "989073c25963aaa0a3fdc7fa4cd0eae05f73d82f6a11896f2b6da2896af34e11"
+    },
+    {
+      "path": "main/iw_13.iwd",
+      "size": 167517736,
+      "sha256": "52c23733e504ed1c0b6555a1568a4510a7b491c749f1c8376e6433e760785230"
+    },
+    {
+      "path": "main/iw_14.iwd",
+      "size": 108954439,
+      "sha256": "9f5ed54d3c81a22dbe66ea5c58f346d43c071f40d656a271838a2de9f3ad4b35"
+    },
+    {
+      "path": "main/iw_15.iwd",
+      "size": 166149566,
+      "sha256": "72318b628fb3f629d7fbb34a46528b8f15495a8bed87e323ca472f8ca502aaea"
+    },
+    {
+      "path": "main/iw_16.iwd",
+      "size": 167471712,
+      "sha256": "dc055acd425a95a860f762f100464210ad1357cb2c83ef82640f631f37ae2a56"
+    },
+    {
+      "path": "main/iw_17.iwd",
+      "size": 156392062,
+      "sha256": "e13c03ac3fec5b9aa072bee15a973d37efd28f166585a8c4e4b596f18b0f29e7"
+    },
+    {
+      "path": "main/iw_18.iwd",
+      "size": 167532956,
+      "sha256": "88feeb5b32260463b26c093fdede2585e7b0f5e508de5c5ebfb5e5c14bb517ae"
+    },
+    {
+      "path": "main/iw_19.iwd",
+      "size": 166622304,
+      "sha256": "6e2cd9b751a5647460e2ca47bfd5d2199632d6db3ac74b4de4d38e9605fd8f08"
+    },
+    {
+      "path": "main/iw_20.iwd",
+      "size": 167541260,
+      "sha256": "a94cb2fc02c34f96ed16522daabe9f544228a5a530b982d19c1bd36b4c76245d"
+    },
+    {
+      "path": "main/iw_21.iwd",
+      "size": 161720582,
+      "sha256": "2efb6b8b0c70284d51d27c6b5e512443ea5450421451ca8497455bd16182d8a8"
+    },
+    {
+      "path": "main/iw_22.iwd",
+      "size": 163475268,
+      "sha256": "fe83eec91c05ecb0a0b0cf1809f7195cd167242d4ffa9225b65f5b6e7f38fd84"
+    },
+    {
+      "path": "main/iw_23.iwd",
+      "size": 168108728,
+      "sha256": "b384f54f336a9f4eeb5af6597564e703a17643f45d9b4402ecde90821e267c29"
+    },
+    {
+      "path": "main/iw_24.iwd",
+      "size": 30678946,
+      "sha256": "1f112b401a7be16ffc12def3fbe405cd80d027b16f7ede555e093780db7683da"
+    },
+    {
+      "path": "main/iw_25.iwd",
+      "size": 20173192,
+      "sha256": "abf10453c133ec66729da89344bf6ccf4ad297656c8b825530e6f103399686c8"
+    },
+    {
+      "path": "main/iw_26.iwd",
+      "size": 167689623,
+      "sha256": "9a250d453395561a5cf2c0f4c00f6d33d4b92b3ebf068009dabf0419aa0dcb7c"
+    },
+    {
+      "path": "main/iw_27.iwd",
+      "size": 34236681,
+      "sha256": "a68f3605d07df3e63735baa9dfcd84b78159cdf83e52f4ea8220183e06d268df"
+    },
+    {
+      "path": "main/iw_28.iwd",
+      "size": 49246556,
+      "sha256": "cb9682fc19611c80d0c69a702233c63eee5ef6b82f43ae300a7c23b869fad4f5"
+    },
+    {
+      "path": "main/iw_29.iwd",
+      "size": 167585117,
+      "sha256": "83b04b19508cbcc8a74c11cc5a7aa661c72d5a503efb023a90343defdaad33a0"
+    },
+    {
+      "path": "main/iw_30.iwd",
+      "size": 167512358,
+      "sha256": "14f4ae1546792b7d36ee53e02f20437cee6c5c7690894d6d4b30c72cd206fdb7"
+    },
+    {
+      "path": "main/iw_31.iwd",
+      "size": 37617162,
+      "sha256": "ce7f6219b1f7116c05e035c88b9f4a514c1af3632628b55962fa9acc07789696"
+    },
+    {
+      "path": "main/iw_32.iwd",
+      "size": 86400454,
+      "sha256": "da97f88642809f120f85c924b730737a5a7b9d79f9a03af7b3a85268721515ca"
+    },
+    {
+      "path": "main/iw_33.iwd",
+      "size": 167573964,
+      "sha256": "a91a94e111a05f5a207c63776b4991eeeea586c017591510372b976bd7ae716c"
+    },
+    {
+      "path": "main/iw_34.iwd",
+      "size": 105148803,
+      "sha256": "177cbe46bd2f0654b969890ba187dbc00a1fda7d372945077358ab7e2376d6f2"
+    },
+    {
+      "path": "main/iw_35.iwd",
+      "size": 74960944,
+      "sha256": "22c55ac56664948134068e2b7ede1588a5803f762e610b0e7e484ecfafe8ee63"
+    },
+    {
+      "path": "main/iw_36.iwd",
+      "size": 76551675,
+      "sha256": "f3297f7276b8fc7556547bb90167053aacf39fb19f0eaf81d255911f30144fa1"
+    },
+    {
+      "path": "main/iw_37.iwd",
+      "size": 101718840,
+      "sha256": "e4a4da6ed1c9051abb482bbf9b70989f8fd3f16446f6c61d97a0dcfc80d3be6c"
+    },
+    {
+      "path": "main/iw_38.iwd",
+      "size": 167648499,
+      "sha256": "f689d0751c03b555ee211f63daaf0f405782e6eead264170478b5660f2fa970f"
+    },
+    {
+      "path": "main/iw_39.iwd",
+      "size": 3133855,
+      "sha256": "6aa4785ea3222b534a433c9982cb7278917bc9dfc598dbfb8b3d859113e8560a"
+    },
+    {
+      "path": "main/iw_40.iwd",
+      "size": 164454536,
+      "sha256": "987db4261900da682b9b3d485f6785ddf35e8d8cb2ef6a30c955f01097b8b849"
+    },
+    {
+      "path": "main/iw_41.iwd",
+      "size": 47956606,
+      "sha256": "1447ad154a0a31aab52908d758b32d6730b38a8765bbfcdc6a29de79329341a2"
+    },
+    {
+      "path": "main/localized_English_iw00.iwd",
+      "size": 35653705,
+      "sha256": "10ae56e15981e8f3c398628a43551152d27956cb4762891c7e07fc1285533d72"
+    },
+    {
+      "path": "main/localized_English_iw01.iwd",
+      "size": 168306366,
+      "sha256": "b9776d9d7a30bee7f86108fc572070969d9834fa54bda4fe322d8d77d6c65e5f"
+    },
+    {
+      "path": "main/localized_English_iw02.iwd",
+      "size": 168072870,
+      "sha256": "f85177dfe70e3e879fc814b1689ed39977cc2a8ab058b977d9e6f0fc81e3c565"
+    },
+    {
+      "path": "main/localized_English_iw03.iwd",
+      "size": 168283594,
+      "sha256": "8f4d482c665a05b162d4c6b142210bd26d3251112a94b271063220f4832e9b51"
+    },
+    {
+      "path": "main/localized_English_iw04.iwd",
+      "size": 168302454,
+      "sha256": "325954650990f430d59bbc0c868ade67e38712a4322a443804f3d6713414dd03"
+    },
+    {
+      "path": "main/localized_English_iw05.iwd",
+      "size": 93087352,
+      "sha256": "ccc2eb1920ed0a40d3e2fc702f171f082df425d2d2b500897d50336462ef893c"
+    },
+    {
+      "path": "main/localized_English_iw06.iwd",
+      "size": 100833222,
+      "sha256": "d9d0df6aa9c672ed9be8ea8aa1f6803a0c4d1961b9eff7b7ae9ee1763c36280d"
+    },
+    {
+      "path": "main/localized_English_iw07.iwd",
+      "size": 140933902,
+      "sha256": "ce26fc43fd36bd2fcef05a4cde811e6ed0cc428c2d1a8ace9800ec0c5c924393"
+    },
+    {
+      "path": "main/localized_English_iw08.iwd",
+      "size": 156343632,
+      "sha256": "ccb2dfb2189a28be699cda8c0b92a1cd495874bf9322b044b780c78a5285f144"
+    },
+    {
+      "path": "main/localized_English_iw09.iwd",
+      "size": 168109532,
+      "sha256": "91f2a4a75e503301e275710223d70bc03dea07715eb7599a66af14c6a2721c3d"
+    },
+    {
+      "path": "main/localized_English_iw10.iwd",
+      "size": 168071838,
+      "sha256": "ab25ccce6a5002ec11579f0c8ac7b6b2cbbc627062f5ba63f6f2343322bdec3c"
+    },
+    {
+      "path": "main/localized_English_iw11.iwd",
+      "size": 68574460,
+      "sha256": "ff312690ae2ae0a28b9a8a2c5a469985c030b77a5a1381120a05740464310fba"
+    },
+    {
+      "path": "main/localized_English_iw12.iwd",
+      "size": 4373220,
+      "sha256": "1c5b7399623d928a8cf7ecb663afcc5c60ec901b6afd8b9646e9118a977cccd3"
+    },
+    {
+      "path": "main/localized_English_iw13.iwd",
+      "size": 168279434,
+      "sha256": "919cb146f918e563a638ffe2da25c604e1bc93d5508a5423cf2e743e30ad868a"
+    },
+    {
+      "path": "main/localized_English_iw14.iwd",
+      "size": 27447952,
+      "sha256": "653b9eb7e92f884d534c4198e2e8cea7126b84d1e540f0929c950f694395f570"
+    },
+    {
+      "path": "main/video/creek_1_load.bik",
+      "size": 39204804,
+      "sha256": "3be1b95268bd25677db9b7c9ba4dd5f5697ca7e71bce3d52afb3d7472ec550ad"
+    },
+    {
+      "path": "main/video/cuba_load.bik",
+      "size": 50965136,
+      "sha256": "88939be8497dedc8b5dc0293f9062d8705b86ee245fad2e9da473994c073ee1c"
+    },
+    {
+      "path": "main/video/default.bik",
+      "size": 1191452,
+      "sha256": "0a83e1bfb014424f006f37a1cdd845c444da65299fb23fcb6a56c596dcc4121f"
+    },
+    {
+      "path": "main/video/flashpoint_load.bik",
+      "size": 34980248,
+      "sha256": "53692314d865e4ed388dc7a1c86eac2487d4d09c445a307b9396bb95cec5d63e"
+    },
+    {
+      "path": "main/video/frontend.bik",
+      "size": 245600,
+      "sha256": "57e34709e2573c6d173b603c26bf7c1923469c891f5fac8aa26eaa412af9dd83"
+    },
+    {
+      "path": "main/video/fullahead_load.bik",
+      "size": 30133328,
+      "sha256": "f71fdb88b0b5d7e4a1fe15c8b8d6ccebfc31023b7abc84fd4f2d95245c6570f2"
+    },
+    {
+      "path": "main/video/hue_city_load.bik",
+      "size": 43476088,
+      "sha256": "940b5caec6caaa605579fd4033b534cb5c572d8ab36168a128bc62732a2b9f0c"
+    },
+    {
+      "path": "main/video/Int_escape_load.bik",
+      "size": 45705084,
+      "sha256": "8fd12d7c18a3cb4e7ea8732720e4fddc003861813a9db5a4f60f097e2a325be5"
+    },
+    {
+      "path": "main/video/int_hudson_explains_2.bik",
+      "size": 12309340,
+      "sha256": "5bea311aaf5bb996be2de2893c6f9ff19a60649462ee827e02618a003c908fd2"
+    },
+    {
+      "path": "main/video/int_reznov_disappearing_flashback.bik",
+      "size": 46574348,
+      "sha256": "68e5d08e34ca3075c85ddcc5bdce6d18f0096e74a75d928087e69cd937602d54"
+    },
+    {
+      "path": "main/video/int_screens.bik",
+      "size": 24026788,
+      "sha256": "9db8d1589d07196951bb4976b19dc500d91f5522209515658a2c5b52708e4765"
+    },
+    {
+      "path": "main/video/khe_sanh_load.bik",
+      "size": 35948416,
+      "sha256": "01b1f5463b227253f88769c0e4afcc5b2c41a0ea6918869b7717906473ee91a2"
+    },
+    {
+      "path": "main/video/kowloon_load.bik",
+      "size": 39214360,
+      "sha256": "8bfd2ef465bb5777f27bd95fb206ea1a6040c81f67acffce035adc38c32c3621"
+    },
+    {
+      "path": "main/video/mid_cuba_1.bik",
+      "size": 15054804,
+      "sha256": "afc132a6751c089a0342e7ef66898e31a8c72d03f43ebcb10420f31961336633"
+    },
+    {
+      "path": "main/video/mid_cuba_3.bik",
+      "size": 6689488,
+      "sha256": "a5e81c28b47f2300d7c7d1633daa7b5c5ef765e968ce1dd80cb4ce387f24551e"
+    },
+    {
+      "path": "main/video/mid_flashpoint_1.bik",
+      "size": 8942496,
+      "sha256": "cb08372dfa873fc1c26bc003255024147ec25ed9eda278bd7e0eb99ebc42b7e7"
+    },
+    {
+      "path": "main/video/mid_flashpoint_2.bik",
+      "size": 11437792,
+      "sha256": "b01d253808a922816444f88f925ef5d5524b4285aa4f4e5fde2ef3533d4ba671"
+    },
+    {
+      "path": "main/video/mid_hue_city_2.bik",
+      "size": 10203952,
+      "sha256": "2db909f3aa7037e2ad0bab675f2a3eaf92ea060d277da5b372b9e765d9ed263b"
+    },
+    {
+      "path": "main/video/mid_rebirth_2.bik",
+      "size": 19963412,
+      "sha256": "0d02d4b43108ba9577f440c90cc7217261d0a8c0f76d37844f877a4938abadb6"
+    },
+    {
+      "path": "main/video/mid_river_1.bik",
+      "size": 9819304,
+      "sha256": "fb9e41b71613519dbd2e69b4f127f209371f3e650c7d8d95495a92aeacb91615"
+    },
+    {
+      "path": "main/video/mid_vorkuta_2.bik",
+      "size": 10520248,
+      "sha256": "7b0dceef7afcd4b083c8d80c75ba4ceb190a83d74b3fee672ef44acf3b5281da"
+    },
+    {
+      "path": "main/video/mid_vorkuta_3.bik",
+      "size": 5888608,
+      "sha256": "dfc7da9544d5ee982791e80e25c907508a7a9fff1fc14173737e26be34aaf11c"
+    },
+    {
+      "path": "main/video/number_lady_intro.bik",
+      "size": 51304916,
+      "sha256": "da3768684b585c40ccea104d9b0c00b420b2f23536e6c61bf93571b16af83dad"
+    },
+    {
+      "path": "main/video/outro_load.bik",
+      "size": 74295392,
+      "sha256": "567aca8db47f4f0ccd4fc1a6dfc9e24690ab949e97622ff8dc4d154071d7bc7f"
+    },
+    {
+      "path": "main/video/pentagon_load.bik",
+      "size": 35989564,
+      "sha256": "aac6a1546c1b51fa38c4a42099a0d0bebb84cca8703f3b1694a0ad675717f5c3"
+    },
+    {
+      "path": "main/video/pow_load.bik",
+      "size": 43114852,
+      "sha256": "6672c27f69f2e39ab6ea5e4c4496c836e3b92c0fbafd5a4d6e0549b191652ad7"
+    },
+    {
+      "path": "main/video/rebirth_load.bik",
+      "size": 39244400,
+      "sha256": "aa33eda73eae3b6d70a3be70c615330f320ae90faad3780c24bfcf549f699271"
+    },
+    {
+      "path": "main/video/river_load.bik",
+      "size": 37694272,
+      "sha256": "031e80177196587fd0a0c063bdc4d6bc26256a4db4ac242c61c856c217d548ff"
+    },
+    {
+      "path": "main/video/so_narrative1_frontend_load.bik",
+      "size": 8573568,
+      "sha256": "878ebc339fa7637652fdbd4d52a227f50743edc0fe5f112923738bf432ee3076"
+    },
+    {
+      "path": "main/video/so_narrative2_frontend_load.bik",
+      "size": 8562968,
+      "sha256": "890da936f52a78bc2e9c896f35458e375d97a725d83d9f82f64d549385604438"
+    },
+    {
+      "path": "main/video/so_narrative3_frontend_load.bik",
+      "size": 7690056,
+      "sha256": "7a5e16e7ae2ad58739fc43b3a6d158e1fb430a00b9e0a641f91c07ee0b7d96f7"
+    },
+    {
+      "path": "main/video/so_narrative4_frontend_load.bik",
+      "size": 5502040,
+      "sha256": "abb7d1363140cb99a5190fd9ee2911cf761d3e18e065e485c0dca0f77672e692"
+    },
+    {
+      "path": "main/video/so_narrative5_frontend_load.bik",
+      "size": 20568968,
+      "sha256": "f9f04753c7b52f0d831ed1377fc9e8170d52bd796943b0a8c95be2647990ebff"
+    },
+    {
+      "path": "main/video/treyarch.bik",
+      "size": 24159944,
+      "sha256": "ed73d1df4ff7d99943dd579ac4f738b9dc7cda72cf9255a18f5be0e870b86a9d"
+    },
+    {
+      "path": "main/video/underwaterbase_load.bik",
+      "size": 60499896,
+      "sha256": "645d94b4ce6652d19b73406f9d7b8dc01a4c8ef246c94326082fb1263f886790"
+    },
+    {
+      "path": "main/video/vorkuta_load.bik",
+      "size": 49186396,
+      "sha256": "93f3dbf25f1c065973da74086423f5c40a4c8a767ff839f53e0c0c8873edbcd2"
+    },
+    {
+      "path": "main/video/wmd_load.bik",
+      "size": 15981044,
+      "sha256": "a21004a558c2b213d9e89583157355987269532a6bbc6574f7586742f15f451f"
+    },
+    {
+      "path": "main/video/wmd_sr71_load.bik",
+      "size": 37783180,
+      "sha256": "bc87ff5b722942ee124a13aa769393d4e53dd6ea7b4f3a91bae550c96898e8ef"
+    },
+    {
+      "path": "main/video/zombie_coast_load.bik",
+      "size": 100415896,
+      "sha256": "8dcac9f33a31d0b257a15ae2987346fe2b8c3a584dbf72c6b4b2ee16dac171d5"
+    },
+    {
+      "path": "main/video/zombie_coast_outro.bik",
+      "size": 29639140,
+      "sha256": "e381575858f4fbb6a3bbc79fe62763ed58e755dfb6ced691e58e7027e1f11efe"
+    },
+    {
+      "path": "main/video/zombie_cod5_asylum_load.bik",
+      "size": 5311092,
+      "sha256": "eb256312663ac61b75b05bdd0198d0449c099d79b762e9fc6f10cac861ff5c0f"
+    },
+    {
+      "path": "main/video/zombie_cod5_factory_load.bik",
+      "size": 4898788,
+      "sha256": "8bb7f435bf94fd1bb6b917894c16cb8ae48076b9b0505004646edab8e3874163"
+    },
+    {
+      "path": "main/video/zombie_cod5_prototype_load.bik",
+      "size": 5561064,
+      "sha256": "e0f6fb4120305b2496e86e37cd339bd0229889bcbeb6fd80e93cf6f09c806546"
+    },
+    {
+      "path": "main/video/zombie_cod5_sumpf_load.bik",
+      "size": 6539260,
+      "sha256": "10413c85d5c40c182e35c004cada924e5692bb6618cb74f561c5954c9d07e73d"
+    },
+    {
+      "path": "main/video/zombie_cosmodrome_load.bik",
+      "size": 6975576,
+      "sha256": "61a5fef4b1fad1ba36881b42ade5b0d8c6a3a5b58f7aefd167f09563942e56e6"
+    },
+    {
+      "path": "main/video/zombie_moon_load.bik",
+      "size": 24086160,
+      "sha256": "94d233a7f992d90cb3bd0dd72c5049eb614bd94de9754f065b8d8f4fa054968e"
+    },
+    {
+      "path": "main/video/zombie_pentagon_load.bik",
+      "size": 63366512,
+      "sha256": "67409d58fcef3bf89bcffa91767a93bfe6e47037be572c422c8edb84650e6636"
+    },
+    {
+      "path": "main/video/zombie_temple_load.bik",
+      "size": 6815468,
+      "sha256": "04680a64cc880d234980a7cafc7c860edc4894d48ff8b8422e179832e6e002ed"
+    },
+    {
+      "path": "main/video/zombie_theater_load.bik",
+      "size": 4572504,
+      "sha256": "e95cea85fc01ce853f238e9121ffdcf6a9445d4cf5458b2fd4e5633666ba70a1"
+    },
+    {
+      "path": "main/video/zombietron_load.bik",
+      "size": 18210464,
+      "sha256": "0a910185e8f5b9a96ab1adc0a8e6e92e2221b72eccd708cab018f65524ce8ece"
+    },
+    {
+      "path": "NoDVD/BGamerT5/BGamerT5.exe",
+      "size": 8099928,
+      "sha256": "025ad6ee252a974f12d32df8fe64ca121e8828e5fb5c7d88d9543e4cf3f29f86"
+    },
+    {
+      "path": "NoDVD/BGamerT5/BGamerT5MP.exe",
+      "size": 8607832,
+      "sha256": "0a636f0edeb8d827aa39c1a5b61fa03dab8dbe07f7fdd530257db822ff550c68"
+    },
+    {
+      "path": "NoDVD/BGamerT5/bgset.ini",
+      "size": 43,
+      "sha256": "c926961d95fb6944f5032faef3fa0fcc2cb3ee686d21d4c5ca9e052cc1c6367e"
+    },
+    {
+      "path": "NoDVD/BGamerT5/bgt5.dll",
+      "size": 729088,
+      "sha256": "72f011630f63b1e278eadfab0f6cd0b6ce55aa162cdfa8747d1f7760da081d81"
+    },
+    {
+      "path": "NoDVD/BGamerT5/bgT5Launcher.exe",
+      "size": 244224,
+      "sha256": "08500d013754a40595c872c812a3fe8fba0c37d3fc56e6c7716378454e284829"
+    },
+    {
+      "path": "NoDVD/BGamerT5/bgT5lms.dll",
+      "size": 111104,
+      "sha256": "9f282bc74e6b38a6e3b40b52d47b0d7159caf4ea0cb8dcc4d1afffa96a139e49"
+    },
+    {
+      "path": "NoDVD/BGamerT5/data/online_tu12_mp_english.wad",
+      "size": 17428,
+      "sha256": "d46c049e6d59e0901b6165431514506ceddd9c15b7a4d6354ebd2d78d35696ef"
+    },
+    {
+      "path": "NoDVD/BGamerT5/data/online_tu12_mp_french.wad",
+      "size": 17428,
+      "sha256": "d46c049e6d59e0901b6165431514506ceddd9c15b7a4d6354ebd2d78d35696ef"
+    },
+    {
+      "path": "NoDVD/BGamerT5/data/online_tu12_mp_german.wad",
+      "size": 17428,
+      "sha256": "d46c049e6d59e0901b6165431514506ceddd9c15b7a4d6354ebd2d78d35696ef"
+    },
+    {
+      "path": "NoDVD/BGamerT5/data/online_tu12_mp_italian.wad",
+      "size": 17428,
+      "sha256": "d46c049e6d59e0901b6165431514506ceddd9c15b7a4d6354ebd2d78d35696ef"
+    },
+    {
+      "path": "NoDVD/BGamerT5/data/online_tu12_mp_russian.wad",
+      "size": 17428,
+      "sha256": "d46c049e6d59e0901b6165431514506ceddd9c15b7a4d6354ebd2d78d35696ef"
+    },
+    {
+      "path": "NoDVD/BGamerT5/data/online_tu12_mp_spanish.wad",
+      "size": 17428,
+      "sha256": "d46c049e6d59e0901b6165431514506ceddd9c15b7a4d6354ebd2d78d35696ef"
+    },
+    {
+      "path": "NoDVD/BGamerT5/data/online_tu14_sp_english.wad",
+      "size": 3589,
+      "sha256": "a9e31dba0230b152ff410a290dddff917a367a7c1cc52bf1f4f9bd4b33724274"
+    },
+    {
+      "path": "NoDVD/BGamerT5/data/online_tu14_sp_french.wad",
+      "size": 3589,
+      "sha256": "a9e31dba0230b152ff410a290dddff917a367a7c1cc52bf1f4f9bd4b33724274"
+    },
+    {
+      "path": "NoDVD/BGamerT5/data/online_tu14_sp_german.wad",
+      "size": 3589,
+      "sha256": "a9e31dba0230b152ff410a290dddff917a367a7c1cc52bf1f4f9bd4b33724274"
+    },
+    {
+      "path": "NoDVD/BGamerT5/data/online_tu14_sp_italian.wad",
+      "size": 3589,
+      "sha256": "a9e31dba0230b152ff410a290dddff917a367a7c1cc52bf1f4f9bd4b33724274"
+    },
+    {
+      "path": "NoDVD/BGamerT5/data/online_tu14_sp_russian.wad",
+      "size": 3589,
+      "sha256": "a9e31dba0230b152ff410a290dddff917a367a7c1cc52bf1f4f9bd4b33724274"
+    },
+    {
+      "path": "NoDVD/BGamerT5/data/online_tu14_sp_spanish.wad",
+      "size": 3589,
+      "sha256": "a9e31dba0230b152ff410a290dddff917a367a7c1cc52bf1f4f9bd4b33724274"
+    },
+    {
+      "path": "NoDVD/BGamerT5/dwkey.dat",
+      "size": 24,
+      "sha256": "ac7785d82cf89ddef33cb49c268baf74658524bedf16c33034eef49de4fe697c"
+    },
+    {
+      "path": "NoDVD/BGamerT5/steam_api.dll",
+      "size": 4608,
+      "sha256": "88472d70ca9fe6c34aa7e5f3f59089a70b64eac01fb8846d291f43f45c1ab11c"
+    },
+    {
+      "path": "NoDVD/CODEX/steam_api.cdx",
+      "size": 124712,
+      "sha256": "9efe2c8336325f6f186af073213b84f6258643517d175bc8432e196b70722394"
+    },
+    {
+      "path": "NoDVD/CODEX/steam_api.dll",
+      "size": 255776,
+      "sha256": "d1757479242125561628f75864eaef3118f7bf5b6b136cf3681c21e2da612b48"
+    },
+    {
+      "path": "players/config.cfg",
+      "size": 16052,
+      "sha256": "43c51a489ceb898646dbabee510055079c8c16b62bd44eb04d79eda180ac8684"
+    },
+    {
+      "path": "steam_api.cdx",
+      "size": 124712,
+      "sha256": "9efe2c8336325f6f186af073213b84f6258643517d175bc8432e196b70722394"
+    },
+    {
+      "path": "steam_api.dll",
+      "size": 255776,
+      "sha256": "d1757479242125561628f75864eaef3118f7bf5b6b136cf3681c21e2da612b48"
+    },
+    {
+      "path": "steam_emu.ini",
+      "size": 2161,
+      "sha256": "45f81a8b3ae28d33478601b6ee1f515205450dc092472b111938f170ea5a0ca4"
+    },
+    {
+      "path": "unins000.dat",
+      "size": 263185,
+      "sha256": "94b7226ab78746add8a990ed2ac1c4939228802e08ded9e5f58d9d0b29c492a4"
+    },
+    {
+      "path": "unins000.exe",
+      "size": 1515889,
+      "sha256": "68fe7314d30eb22a916cbbb8cf54e26ef8009f2142ce45ce43ce226cf7d93739"
+    },
+    {
+      "path": "zone/common/code_post_gfx.ff",
+      "size": 2248000,
+      "sha256": "d47945f6290e930c6b2db6801e7f87412f2f63fd6ab4e9dc1a3b28b1994a98e9"
+    },
+    {
+      "path": "zone/common/code_post_gfx_mp.ff",
+      "size": 941376,
+      "sha256": "48133f39f8a7a931cd7b4d79d2f60d813cbf44c0c3cd9d38d7bd89e40f5a668b"
+    },
+    {
+      "path": "zone/common/code_pre_gfx.ff",
+      "size": 13280,
+      "sha256": "565f038d4a5a10912bda5741e80f31805f9c7c76fc18296f2a8591d58f1ee41f"
+    },
+    {
+      "path": "zone/common/code_pre_gfx_mp.ff",
+      "size": 38048,
+      "sha256": "75ffbf7a2ca0fe926e0f499abd182b5a1c3bb52e7c218c3956fa736dfda2a44f"
+    },
+    {
+      "path": "zone/common/common.ff",
+      "size": 20472736,
+      "sha256": "f3ee61bb4004ce98b62849f1e427fc3d7ad6282e399bc9cd6519c89998a1e046"
+    },
+    {
+      "path": "zone/common/common_mp.ff",
+      "size": 57188576,
+      "sha256": "7b2174dfc8d807420b689d24ad2bcff6f00851da70da15ce0ca2eb452307ec9e"
+    },
+    {
+      "path": "zone/common/common_zombie.ff",
+      "size": 51325344,
+      "sha256": "f812069ef2ff446b97051e75d6a5ee49687a8085218b8f79dc2d8237e543117e"
+    },
+    {
+      "path": "zone/common/common_zombie_patch.ff",
+      "size": 784000,
+      "sha256": "3311182f5cb9af07d69d628b8223ab43e47992e4951b46e761d4f0152f33787e"
+    },
+    {
+      "path": "zone/common/creek_1.ff",
+      "size": 99498944,
+      "sha256": "dc33fdc821314b3ad92d976c6a2ce8fb5d256cefd77e3340ac7d2c5d04d57afe"
+    },
+    {
+      "path": "zone/common/cuba.ff",
+      "size": 102775840,
+      "sha256": "1df094e501eba6360e1c59b2c91db272e541cff0b220aa7f8cd3a54ab71813e7"
+    },
+    {
+      "path": "zone/common/flashpoint.ff",
+      "size": 102948288,
+      "sha256": "8ea78a8755b746efe8cc70a628d96cabedf90a5e7e476f6b0e24d7cd831eb9dd"
+    },
+    {
+      "path": "zone/common/frontend.ff",
+      "size": 40995296,
+      "sha256": "32845e7cdcd6605035960ebc4c9a80afd006d36ac151a63a545cb15d750ec651"
+    },
+    {
+      "path": "zone/common/fullahead.ff",
+      "size": 105774176,
+      "sha256": "31ccb59234637ed319e1e2472b0b496c360a9e63abc2192b98e43c723f56f8b8"
+    },
+    {
+      "path": "zone/common/hue_city.ff",
+      "size": 94681344,
+      "sha256": "905c6178072ae1c062529da199da8987aea82cb5f9c6a7726693d46e51dd407a"
+    },
+    {
+      "path": "zone/common/int_escape.ff",
+      "size": 101378848,
+      "sha256": "e55ac68f9606e9a8b9c25e6edc07f33a4e545fdc3dde53ba982f788802b3bc15"
+    },
+    {
+      "path": "zone/common/khe_sanh.ff",
+      "size": 103844960,
+      "sha256": "59896bef3408315bbd8794388df5c640e06214fc07b9ad7f7bc85e909990dd98"
+    },
+    {
+      "path": "zone/common/kowloon.ff",
+      "size": 91592192,
+      "sha256": "7f0fcf07462ed28210706f8bd51c5f3ce372410818d87367da1b6cc7475da51b"
+    },
+    {
+      "path": "zone/common/mp_area51.ff",
+      "size": 42778144,
+      "sha256": "5763fe0c99638f2cdfee577e62c0f74f13862735fd30952e4021505b60cadd40"
+    },
+    {
+      "path": "zone/common/mp_array.ff",
+      "size": 42699584,
+      "sha256": "d49f31b0c5b32d79d59d16ccd22bbd55cff3eff03df8c51fedc2b2f2b4010444"
+    },
+    {
+      "path": "zone/common/mp_berlinwall2.ff",
+      "size": 39629696,
+      "sha256": "70e40e2173f755e9e0fc37a2a6953e182f4af69399940ba7b49065ab067f3563"
+    },
+    {
+      "path": "zone/common/mp_cairo.ff",
+      "size": 39856704,
+      "sha256": "b35263dbc76fa1f1e02b0a84add9c684549ac9f53d853c8be30221bfa159ca0f"
+    },
+    {
+      "path": "zone/common/mp_cosmodrome.ff",
+      "size": 40599232,
+      "sha256": "29696b2b55449727f50d66ce6151363ab1308f4eca5753919875123c966f0de0"
+    },
+    {
+      "path": "zone/common/mp_cracked.ff",
+      "size": 40868256,
+      "sha256": "8008603a519f1c646b320857c13000c329a1d48a680301b6067a933670f1ce7a"
+    },
+    {
+      "path": "zone/common/mp_crisis.ff",
+      "size": 41168512,
+      "sha256": "451b02cfd0307539cd2797e26d63291763cd7306ab6b6eb279e35677f71b30b2"
+    },
+    {
+      "path": "zone/common/mp_discovery.ff",
+      "size": 40051296,
+      "sha256": "9ca8976bdcc361d24d7ddc413754ff6e49ca098dd712fc38466e73f52d95de03"
+    },
+    {
+      "path": "zone/common/mp_drivein.ff",
+      "size": 41128768,
+      "sha256": "a4bca802ec9dc230724e0e0c07b5c4ce3da0d1d72541c227e13b3a1d8f582f2e"
+    },
+    {
+      "path": "zone/common/mp_duga.ff",
+      "size": 39053760,
+      "sha256": "c4f309b4d5b01f9aba7a5f93b3138d63b4068320b9c860f9109d67692b797b05"
+    },
+    {
+      "path": "zone/common/mp_firingrange.ff",
+      "size": 37999616,
+      "sha256": "24be19d5251342c0de51f704b554ed6991ae0bfab940f0d7495fbd5f96cc23d8"
+    },
+    {
+      "path": "zone/common/mp_golfcourse.ff",
+      "size": 42010016,
+      "sha256": "ec11119db471a9d75eefc3ea20ac5fbe860049e674d11434db80abacc079103e"
+    },
+    {
+      "path": "zone/common/mp_gridlock.ff",
+      "size": 41763328,
+      "sha256": "b1f121516f521fcf080b6c40b768f7030a761f925fd7456583d63001c7fa7d36"
+    },
+    {
+      "path": "zone/common/mp_hanoi.ff",
+      "size": 40849184,
+      "sha256": "4efe7c7f95fe48b5f7320d5b237ae82c9a342aeadbfca692488fb8058bf354c5"
+    },
+    {
+      "path": "zone/common/mp_havoc.ff",
+      "size": 39572928,
+      "sha256": "bba088308c598914c584c88e05593dac764ea0a26f866f26c49c041ba70743be"
+    },
+    {
+      "path": "zone/common/mp_hotel.ff",
+      "size": 39513824,
+      "sha256": "601213e48914ebc5cdb99c521976c32754627c2c5488590f0c201ba6d782e420"
+    },
+    {
+      "path": "zone/common/mp_kowloon.ff",
+      "size": 37526016,
+      "sha256": "431f00dd6faae5840496b3db855f3051c3a4cf3461db52d948b114c5061c682c"
+    },
+    {
+      "path": "zone/common/mp_mountain.ff",
+      "size": 37344704,
+      "sha256": "18d060e4d0214453c4ac5a5116a20cd727b3e89a8f98238dca7ef0d32bbe77df"
+    },
+    {
+      "path": "zone/common/mp_nuked.ff",
+      "size": 37475776,
+      "sha256": "34a1f7f2eff32cd9c40e8b760e6388979121e8735b2738d3a242c19bd0728a60"
+    },
+    {
+      "path": "zone/common/mp_outskirts.ff",
+      "size": 40057952,
+      "sha256": "e6cf272be887ec4377501417a1542104512b352b40d56d047d8d514e4a9f98bc"
+    },
+    {
+      "path": "zone/common/mp_radiation.ff",
+      "size": 38441024,
+      "sha256": "c5225b8972d860ce4e4ccd9727cdc4c2994874db9482beb9351691e52cb2b0d4"
+    },
+    {
+      "path": "zone/common/mp_russianbase.ff",
+      "size": 40946432,
+      "sha256": "e396abef19fa441706fd88c700712adb16ae17b1266c11c193bf180c6e660a83"
+    },
+    {
+      "path": "zone/common/mp_silo.ff",
+      "size": 43213536,
+      "sha256": "8c8309da686851a9d6a34379d934263ba45b1f1456087bae697dff8024c8e4b7"
+    },
+    {
+      "path": "zone/common/mp_stadium.ff",
+      "size": 36094208,
+      "sha256": "46ef89d313ef7112d96848913c2fff434ae473a5e6373985bada4c35891efe32"
+    },
+    {
+      "path": "zone/common/mp_villa.ff",
+      "size": 36491040,
+      "sha256": "961baea41612a8ce2e9e4d3f3faa79615fb24af3c162657f75131b345ce59e16"
+    },
+    {
+      "path": "zone/common/mp_zoo.ff",
+      "size": 38580928,
+      "sha256": "63245d39c14480a669fabe00e440acb69a68561295f00e718f0df44313847a07"
+    },
+    {
+      "path": "zone/common/outro.ff",
+      "size": 5927200,
+      "sha256": "fe23c48ba1a73586c8ccb14ed39e57b3c296078f5b3bc1813a3330a5472fe1c2"
+    },
+    {
+      "path": "zone/common/patch.ff",
+      "size": 1530048,
+      "sha256": "38009ffa802bcd177429c67d7774630bb1a8a7b7aea08842e8bc914996cfcb81"
+    },
+    {
+      "path": "zone/common/patch_mp.ff",
+      "size": 2909536,
+      "sha256": "9b457dae2416668e92a8cd7049a050c8edce702c7954ff0730719b3905610354"
+    },
+    {
+      "path": "zone/common/patch_ui_mp.ff",
+      "size": 732160,
+      "sha256": "c4c4970c7b1a16cb9370fb269ccc1a2c9e6d5728359c2ce289c6acaf51a49051"
+    },
+    {
+      "path": "zone/common/pentagon.ff",
+      "size": 103026080,
+      "sha256": "1ce2d7f5bcab0d2b397ee36788e45901ca35446ee78b94f79d84e750376ec9b1"
+    },
+    {
+      "path": "zone/common/pow.ff",
+      "size": 104514784,
+      "sha256": "7a0e0c571a5da23b6d4ce8a2a7136993b62d15a15914eeb53107f5802f94ac27"
+    },
+    {
+      "path": "zone/common/rebirth.ff",
+      "size": 96464896,
+      "sha256": "c6f1c9fb5eefce92642ffb5bd9e8ffff84510f2fd4408e1884134823ef7d47ef"
+    },
+    {
+      "path": "zone/common/river.ff",
+      "size": 107917856,
+      "sha256": "2b8a16c7dba6b9f67aa99319cb26f1c4b8f9a51d38cee9cda745bf32e7f3920e"
+    },
+    {
+      "path": "zone/common/so_narrative1_frontend.ff",
+      "size": 2323584,
+      "sha256": "6e691c24942d1d92428b22e8f98d199e4d1e9a8053c941823a29c1b9a792976c"
+    },
+    {
+      "path": "zone/common/so_narrative2_frontend.ff",
+      "size": 3130464,
+      "sha256": "873ba44d37ea2bf35c5f6e2276a9673bd2cf9dfc502a40ee8bfc51e7f8368235"
+    },
+    {
+      "path": "zone/common/so_narrative3_frontend.ff",
+      "size": 4473856,
+      "sha256": "7a13a3ae6480b8a2c6fed20413fcd40573bafe57cc056bdb70576f45339394d6"
+    },
+    {
+      "path": "zone/common/so_narrative4_frontend.ff",
+      "size": 2298272,
+      "sha256": "db85064d171255da589e402d06340bef17342b180ff173d4029dbf7d71367c00"
+    },
+    {
+      "path": "zone/common/so_narrative5_frontend.ff",
+      "size": 1538336,
+      "sha256": "f3b7191d33fdb830e533fbe4c7ec2b73ffb15e380c6ef295e83ba07973d7f993"
+    },
+    {
+      "path": "zone/common/so_narrative6_frontend.ff",
+      "size": 2833600,
+      "sha256": "168bc8124698d5ae464e7e826a44f495e038e923a54c43dbc0decbc8266e7733"
+    },
+    {
+      "path": "zone/common/terminal.ff",
+      "size": 154272,
+      "sha256": "12bf2eab4d03f9c4323f0a8fcb2a30c306961da1a7da9fdcde35082ea3bd7f04"
+    },
+    {
+      "path": "zone/common/ui_mp.ff",
+      "size": 1383232,
+      "sha256": "9e0236f2a3342c283a8dfbc3233e2f5c37aeda62333eca7151f7dca3f8464e25"
+    },
+    {
+      "path": "zone/common/ui_viewer_mp.ff",
+      "size": 27600320,
+      "sha256": "ae17b27379567211f21f6dfb23fcd70e6239983017a02e9c02cabb36ea9b3207"
+    },
+    {
+      "path": "zone/common/underwaterbase.ff",
+      "size": 98593760,
+      "sha256": "43b430047dde70a62064b5fc73dfdb38982cc5d0fb0fc3994a317b748a6d8cb4"
+    },
+    {
+      "path": "zone/common/vorkuta.ff",
+      "size": 101418912,
+      "sha256": "c8600f4a3a75a86ae7c5c2d830bbb8d9422bb29397e7f917477da6120e0bb6ad"
+    },
+    {
+      "path": "zone/common/wmd.ff",
+      "size": 100653088,
+      "sha256": "51ec82fccb5c6746aae5ee614c3988a2b50d7d4c6d842fc4778ab03536ddb911"
+    },
+    {
+      "path": "zone/common/wmd_sr71.ff",
+      "size": 83401248,
+      "sha256": "4f67097a75a0ddd4e019d2d309e994d39cda64e57e9f897472ee413f1394e56c"
+    },
+    {
+      "path": "zone/common/zombie_coast.ff",
+      "size": 53530144,
+      "sha256": "318bd8d03fd4f660e75b35c6a26f0107547973ba38ef549a52d75a4f74aef8e3"
+    },
+    {
+      "path": "zone/common/zombie_coast_patch.ff",
+      "size": 321504,
+      "sha256": "d0a3f755034dd750a9da5abbb73d3b68f2630ac51daad77e69d34738998e679c"
+    },
+    {
+      "path": "zone/common/zombie_cod5_asylum.ff",
+      "size": 38953888,
+      "sha256": "754e54a41e06b274b52d2f507d0670ed9c453c1239765830b55caa2c276a9d5e"
+    },
+    {
+      "path": "zone/common/zombie_cod5_asylum_patch.ff",
+      "size": 349504,
+      "sha256": "850a37d7c394a8e9dc0597779d53a34791459ad5dabcf260e6bcdb2ef45be42b"
+    },
+    {
+      "path": "zone/common/zombie_cod5_factory.ff",
+      "size": 49017408,
+      "sha256": "baddac3ce1ccf3156992af2f03020a420a922a61f43d08944c230a3dce2e15ba"
+    },
+    {
+      "path": "zone/common/zombie_cod5_factory_patch.ff",
+      "size": 344864,
+      "sha256": "b386e46ac2da61dac541fcfcf99bf4967a68b74a8e06616295cc669b206df30f"
+    },
+    {
+      "path": "zone/common/zombie_cod5_prototype.ff",
+      "size": 34409632,
+      "sha256": "e543b949e50291c2ad8b28dbea62e913445cb5b00bb2599d9011aee978f5e439"
+    },
+    {
+      "path": "zone/common/zombie_cod5_prototype_patch.ff",
+      "size": 344672,
+      "sha256": "34621f4bbd3549322a0705f1241c6239767b4b7747d807f3e419e3b8aba511ef"
+    },
+    {
+      "path": "zone/common/zombie_cod5_sumpf.ff",
+      "size": 53923680,
+      "sha256": "0a9c321bc7ca6e93502322cfd3b2fd638a9771595bf2e1c4cc92274c6394bb9e"
+    },
+    {
+      "path": "zone/common/zombie_cod5_sumpf_patch.ff",
+      "size": 354112,
+      "sha256": "301311321f046c13652a7fb56e2ea51c5187f2f4436185c57808fedaff967f50"
+    },
+    {
+      "path": "zone/common/zombie_cosmodrome.ff",
+      "size": 53103328,
+      "sha256": "2680eb4a44ced7d8aea7f85acd12c888c42e337c4711adc050870087da795f04"
+    },
+    {
+      "path": "zone/common/zombie_cosmodrome_patch.ff",
+      "size": 392032,
+      "sha256": "0085ac3f2f381734451a0a6899550770d3e9615b9ecc98b0cd570ab3c474b37c"
+    },
+    {
+      "path": "zone/common/zombie_moon.ff",
+      "size": 51560800,
+      "sha256": "05917f5e2ffcf2dcf2f9fc420df7c12c736cb9e2bb8413480e095e2df0815a3f"
+    },
+    {
+      "path": "zone/common/zombie_moon_patch.ff",
+      "size": 89248,
+      "sha256": "d85d734136005363014e0e2ba76299cb00222728561d23c37788c159a3ec3560"
+    },
+    {
+      "path": "zone/common/zombie_pentagon.ff",
+      "size": 48229216,
+      "sha256": "70686402a689d5c575f18d2d76e6cec9f9a95ff70446372960f1b5c7f41d92e0"
+    },
+    {
+      "path": "zone/common/zombie_pentagon_patch.ff",
+      "size": 300416,
+      "sha256": "6a857fb075a5637afe1c47cefc4ddee02a59c206cea3d663285cbaa20c43a385"
+    },
+    {
+      "path": "zone/common/zombie_temple.ff",
+      "size": 56924128,
+      "sha256": "fa7fdcd37fde992ce8506e7c7c35b3184792edddb7aef83952fa48625c5ee4b4"
+    },
+    {
+      "path": "zone/common/zombie_temple_patch.ff",
+      "size": 315136,
+      "sha256": "f21c08d870230adfdfd1cd39dab87e8bbdebe645cbcafdb7d7bb87da52021fa4"
+    },
+    {
+      "path": "zone/common/zombie_theater.ff",
+      "size": 48841888,
+      "sha256": "970db88bb5ae9aa1d3875cdbd55d43212f22ee55096ce251f596d4a38a776786"
+    },
+    {
+      "path": "zone/common/zombie_theater_patch.ff",
+      "size": 285952,
+      "sha256": "694c29e4e25af78b658de822ac16ea044b78768495624062cecff1c353f9d2fc"
+    },
+    {
+      "path": "zone/common/zombietron.ff",
+      "size": 91739968,
+      "sha256": "5b41d4644ecb6cada7bb9a6f855947da6be41077f614c1c4298e841037471d21"
+    },
+    {
+      "path": "zone/common/zombietron_patch.ff",
+      "size": 144352,
+      "sha256": "270f03b5f5b6cd0ea37fb879a9fd5c81ec64cfaa025f15ae0d674be50d2d53e1"
+    },
+    {
+      "path": "zone/English/en_code_post_gfx.ff",
+      "size": 137472,
+      "sha256": "dec77107563c51f682722328cb073126510e856362960039dc47a74a19d9a731"
+    },
+    {
+      "path": "zone/English/en_code_post_gfx_mp.ff",
+      "size": 156224,
+      "sha256": "059f032d3a58f51cb6ec758f95332103daefb0702c193214a46750fbbd7082a9"
+    },
+    {
+      "path": "zone/English/en_code_pre_gfx.ff",
+      "size": 928,
+      "sha256": "97090087d49715cb3626207d699928f5b4a1bca4f73152f4e538be322a3b91cd"
+    },
+    {
+      "path": "zone/English/en_code_pre_gfx_mp.ff",
+      "size": 2016,
+      "sha256": "1e20d7e71ea7ae8ec0b5f17344264fdcd97c84319fbcedf7f487ef669d034b8e"
+    },
+    {
+      "path": "zone/English/en_common.ff",
+      "size": 64,
+      "sha256": "f7fd09b672e450b3bd173ca592bb7259efb06fc0a981bcbc544ad135010404a9"
+    },
+    {
+      "path": "zone/English/en_common_mp.ff",
+      "size": 493408,
+      "sha256": "29b4486df082a0105b64df5d4c2db870b382fbdf1690df0bda3ee885a2c2e586"
+    },
+    {
+      "path": "zone/English/en_common_zombie.ff",
+      "size": 12448,
+      "sha256": "d5dd554025ddaf60d670714b216fa2ef801d89ace970630fdefa6504ff25777d"
+    },
+    {
+      "path": "zone/English/en_creek_1.ff",
+      "size": 184864,
+      "sha256": "f51cb25a42ac1d5436045d0e79b483689a255cf63ec964dff4ed89b2fc0189de"
+    },
+    {
+      "path": "zone/English/en_cuba.ff",
+      "size": 965120,
+      "sha256": "d8da02942a699ec9075779d6873fe62a7fd7e415bfed15a4532b85fb571c3db4"
+    },
+    {
+      "path": "zone/English/en_flashpoint.ff",
+      "size": 442016,
+      "sha256": "d25501db8a43ac1f470cbd310df0cb932b002ce6c29debb50189a154b39a324d"
+    },
+    {
+      "path": "zone/English/en_frontend.ff",
+      "size": 429536,
+      "sha256": "56d62eb612642a9678712f7ef590e729ab14f0094529d32da90dd3df8b6fe2d4"
+    },
+    {
+      "path": "zone/English/en_fullahead.ff",
+      "size": 1258880,
+      "sha256": "be0ba5b56b7ade03e9078228c62777ea567525b7028942c472ce5f0129a59cfd"
+    },
+    {
+      "path": "zone/English/en_hue_city.ff",
+      "size": 697280,
+      "sha256": "d7d6e98efdf8275ace515d3219145aa16b0095fb9b4e08513ec577a15cd70b7f"
+    },
+    {
+      "path": "zone/English/en_int_escape.ff",
+      "size": 3571296,
+      "sha256": "32c5db02af29bed773b9048ec08a801b0b5cc520d6cb1124be8dd17d9b6fef54"
+    },
+    {
+      "path": "zone/English/en_khe_sanh.ff",
+      "size": 924928,
+      "sha256": "fcad88ae27ef93e45793eb63421af52eddd3b11ccc491842467e661792b61945"
+    },
+    {
+      "path": "zone/English/en_kowloon.ff",
+      "size": 136544,
+      "sha256": "6604c6d6b989010bf3118d3bf4c4a5df4107d854bed24e6ef91a115bf205cef3"
+    },
+    {
+      "path": "zone/English/en_mp_area51.ff",
+      "size": 20416,
+      "sha256": "f496a3427202550803e818446c4111f754b021e657c368018b3efe9058385c76"
+    },
+    {
+      "path": "zone/English/en_mp_array.ff",
+      "size": 20416,
+      "sha256": "f7f7f1c466b3ebec1e93ff1dec571cb7964dbee8ff4f1a186af74788ab19968c"
+    },
+    {
+      "path": "zone/English/en_mp_berlinwall2.ff",
+      "size": 18368,
+      "sha256": "73e066e9536a1acdd1f560fb56bd365235c88af8884ca3a91b3c4dcf5098806d"
+    },
+    {
+      "path": "zone/English/en_mp_cairo.ff",
+      "size": 20512,
+      "sha256": "bd1003fb10ca6009d98260dbcb0529cccac1ec4fc735c64a502578a44d83d65b"
+    },
+    {
+      "path": "zone/English/en_mp_cosmodrome.ff",
+      "size": 20480,
+      "sha256": "427ed26d1476932fefe971300e26d54a041289409f451a690371c46881af187c"
+    },
+    {
+      "path": "zone/English/en_mp_cracked.ff",
+      "size": 19296,
+      "sha256": "78cf91a2e7a914bd0e42147139fb1a282ef1e73b30af90d9111d5712a7b20691"
+    },
+    {
+      "path": "zone/English/en_mp_crisis.ff",
+      "size": 20512,
+      "sha256": "cec2d2439f305fb7c6f7fc2c89bcf3eaecbdd13c40ba163b99c43ca261c26dfd"
+    },
+    {
+      "path": "zone/English/en_mp_discovery.ff",
+      "size": 20480,
+      "sha256": "cba8de77b05e18850a8b051815f0e6a873fe64b1fc1579cf23c038f3a5c0d4c6"
+    },
+    {
+      "path": "zone/English/en_mp_drivein.ff",
+      "size": 20416,
+      "sha256": "2270628954c665457aa81ae5837bfbdc5c336aba54d9de946f1042ae2fe69d02"
+    },
+    {
+      "path": "zone/English/en_mp_duga.ff",
+      "size": 20416,
+      "sha256": "07e893eb10202dc0b0fd17942187a8998e406ecaa85f7f9c2782a3ba9fa5f662"
+    },
+    {
+      "path": "zone/English/en_mp_firingrange.ff",
+      "size": 20896,
+      "sha256": "da931591459698e49a5e775549951dc493430ae8b7b6fdc12ae6881f88716b7a"
+    },
+    {
+      "path": "zone/English/en_mp_golfcourse.ff",
+      "size": 20480,
+      "sha256": "044f9c2794203c29069d76b72280662e20fbc97a2be025d6d7f69f4043206711"
+    },
+    {
+      "path": "zone/English/en_mp_gridlock.ff",
+      "size": 20480,
+      "sha256": "938ea53ca93a23eaac58f2b2d016bcbb55c6fb1e199d79173b7dbb31fb74f708"
+    },
+    {
+      "path": "zone/English/en_mp_hanoi.ff",
+      "size": 19296,
+      "sha256": "57ca88d058b1d4cc30624b30b4796402d22a199c461169fc2fe6ebf1b4bc743f"
+    },
+    {
+      "path": "zone/English/en_mp_havoc.ff",
+      "size": 19296,
+      "sha256": "1a61e306e4b150d0a9abeceda253540ee85f69c395fc737218c2218ed2dbd757"
+    },
+    {
+      "path": "zone/English/en_mp_hotel.ff",
+      "size": 20512,
+      "sha256": "bccb389daa3fc8fd1bf78444b25a1a82f51ddbc731b11a5ba4df883402e6855a"
+    },
+    {
+      "path": "zone/English/en_mp_kowloon.ff",
+      "size": 20416,
+      "sha256": "f0fde81b4bc8b453a7b70b13f5d2fb25e51d252e39f9f76a64f7e9a414f501f6"
+    },
+    {
+      "path": "zone/English/en_mp_mountain.ff",
+      "size": 20480,
+      "sha256": "4f3f23c7fcaabab53fae916292e714b393b660516dc3220044492ef33fd5b0b9"
+    },
+    {
+      "path": "zone/English/en_mp_nuked.ff",
+      "size": 20416,
+      "sha256": "817cc87448ac9937d6114bd907a018b12952dc686c3aa6113e950319e86931ae"
+    },
+    {
+      "path": "zone/English/en_mp_outskirts.ff",
+      "size": 20480,
+      "sha256": "076ceb35e4792c10b97ae8f4ec12356d821095360bb39f5ed6e7e8bfd9f47bc4"
+    },
+    {
+      "path": "zone/English/en_mp_radiation.ff",
+      "size": 20480,
+      "sha256": "2e59392560ef4777267ed1f30492f34429c2462f7e4c2ca060d6947a9365b4f0"
+    },
+    {
+      "path": "zone/English/en_mp_russianbase.ff",
+      "size": 20480,
+      "sha256": "bb8c87e6ede5f94f549ff5f5690f24107122834bcbf135a271704724b46be4e6"
+    },
+    {
+      "path": "zone/English/en_mp_silo.ff",
+      "size": 20416,
+      "sha256": "96536868d8f5eca150fc23c30c8cb89b88cf027926eaa8f3742048cd032bbd7c"
+    },
+    {
+      "path": "zone/English/en_mp_stadium.ff",
+      "size": 20416,
+      "sha256": "4f4f3d580944afb17cd531e326d8a14080d94aa613239a6bf6e83e24d0ff4850"
+    },
+    {
+      "path": "zone/English/en_mp_villa.ff",
+      "size": 20512,
+      "sha256": "d747ef641fc70ecb61f150f583f5cb02a6f1caa8cbd9294d3a621f7ea7b52085"
+    },
+    {
+      "path": "zone/English/en_mp_zoo.ff",
+      "size": 20448,
+      "sha256": "ea531c3dbfdd72857ff5dd92ba4b09d56cdde2071009ecf9c27a763d477ab7a0"
+    },
+    {
+      "path": "zone/English/en_outro.ff",
+      "size": 428896,
+      "sha256": "8dfa7321b56bb937fac5d0fd20d0cdf99767d81c05712501a0742f93439f0b1e"
+    },
+    {
+      "path": "zone/English/en_patch.ff",
+      "size": 8704,
+      "sha256": "e3dfe0900ad726c94914eca59fd24b29ba808905b5d3d59e7172db38a4844498"
+    },
+    {
+      "path": "zone/English/en_patch_mp.ff",
+      "size": 7776,
+      "sha256": "3fed41f7d2451e455363ec992705b9f469cce74e2e06e10a9da18ad16de14edc"
+    },
+    {
+      "path": "zone/English/en_pentagon.ff",
+      "size": 452480,
+      "sha256": "2ad11022c4daab813a4f732c687a568f4f2d193bc1ff234f1f945d8bb97c98d2"
+    },
+    {
+      "path": "zone/English/en_pow.ff",
+      "size": 208672,
+      "sha256": "6cf926615a47758ba96606aaa12ebe077f1623957af4459a58437a7522988f81"
+    },
+    {
+      "path": "zone/English/en_rebirth.ff",
+      "size": 884320,
+      "sha256": "05090fb63d6f0be2f1adf20e2a0ffc1f2017e51dcee46fbfe63327049acdcb6f"
+    },
+    {
+      "path": "zone/English/en_river.ff",
+      "size": 269696,
+      "sha256": "2e7d5b5fb675ce2079d434f64e492477dbc74d0d111dac7fc68bb6063e8c9659"
+    },
+    {
+      "path": "zone/English/en_so_narrative1_frontend.ff",
+      "size": 96,
+      "sha256": "60a332e648f663a03dfa7b1f05d5128b4ab169dad91a0cc02a104b2e23324526"
+    },
+    {
+      "path": "zone/English/en_so_narrative2_frontend.ff",
+      "size": 96,
+      "sha256": "26bc140ba42d6ffc5b613235898c8af07629ca1bcdadb056a44b2c8740ac8e12"
+    },
+    {
+      "path": "zone/English/en_so_narrative3_frontend.ff",
+      "size": 96,
+      "sha256": "34a05b7856a41a2ad8840a6b7f3d167f8ab35c758387de034b5b749a476dec39"
+    },
+    {
+      "path": "zone/English/en_so_narrative4_frontend.ff",
+      "size": 96,
+      "sha256": "e867aa1ca399c277d4a828fcf136c23d67db2fe628e609109535267b0577bd04"
+    },
+    {
+      "path": "zone/English/en_so_narrative5_frontend.ff",
+      "size": 96,
+      "sha256": "1bab32a7623304e3f0f59eee9c3c3c56df2f03899e0387ab941ae9c7a1aef67c"
+    },
+    {
+      "path": "zone/English/en_so_narrative6_frontend.ff",
+      "size": 96,
+      "sha256": "c83b0c434eb38e4db9168946fbc8baecc546f93ca4ca6e24ab99328bcf9e1543"
+    },
+    {
+      "path": "zone/English/en_terminal.ff",
+      "size": 192,
+      "sha256": "1b2cca7882c5f2bae084d8b733b030a90aaed643e2d70fab5fd16134cada75d5"
+    },
+    {
+      "path": "zone/English/en_ui_mp.ff",
+      "size": 64,
+      "sha256": "3181a196627407b7d83de590cbec2c17b22257d4cb1d4f9adc1266979d1fb3cb"
+    },
+    {
+      "path": "zone/English/en_underwaterbase.ff",
+      "size": 97760,
+      "sha256": "1cfc0d17d1393be34162033dc03fb8b1384ef70a22759fdcf76d8a1e96e14e27"
+    },
+    {
+      "path": "zone/English/en_vorkuta.ff",
+      "size": 449376,
+      "sha256": "f5a9c70f478ba7d9186c0f7349ef3352edf311a88d071b9b70cd3fe293700251"
+    },
+    {
+      "path": "zone/English/en_wmd.ff",
+      "size": 124768,
+      "sha256": "b73754d17a5577675ba17007044d48dd5034c53f36013333531d991fedf7c42a"
+    },
+    {
+      "path": "zone/English/en_wmd_sr71.ff",
+      "size": 133440,
+      "sha256": "4cbfbc3257141969923fef721cce8a24b8a0e4b6f4a40f8b3cb21a41cdc421b9"
+    },
+    {
+      "path": "zone/English/en_zombie_coast.ff",
+      "size": 41920,
+      "sha256": "13c98b9e3599c1315aefd2375c57d50a1af49d85939832845ca78b64e7643663"
+    },
+    {
+      "path": "zone/English/en_zombie_cod5_asylum.ff",
+      "size": 1052736,
+      "sha256": "631b8192e991c6bc7cb0dc118803ea0a01760e7ed80433afc23ba16f5e8db5b0"
+    },
+    {
+      "path": "zone/English/en_zombie_cod5_factory.ff",
+      "size": 4908960,
+      "sha256": "099d7a0d471c7cf7c1ecbe8183c15dc02c9fc82ea38b68fb1933c62d91cef652"
+    },
+    {
+      "path": "zone/English/en_zombie_cod5_prototype.ff",
+      "size": 585568,
+      "sha256": "19ef48e2dc3287c17683f516bc57fc59c76d442c54ae78e7b544a2328596ad60"
+    },
+    {
+      "path": "zone/English/en_zombie_cod5_sumpf.ff",
+      "size": 805216,
+      "sha256": "fa3c716b481043a3b47e13346e6474d17d12b82f70873b063720e6bcbf3f0b57"
+    },
+    {
+      "path": "zone/English/en_zombie_cosmodrome.ff",
+      "size": 32064,
+      "sha256": "1fee46ec85759b620339b89ab21a52c2e3996e71451c1387b85be4cd6b4454bc"
+    },
+    {
+      "path": "zone/English/en_zombie_moon.ff",
+      "size": 111136,
+      "sha256": "f1eafd7c4db54b9d920b3f0319eabb76bc58b0dab8c08cdfc8bce109de2b6c31"
+    },
+    {
+      "path": "zone/English/en_zombie_pentagon.ff",
+      "size": 985024,
+      "sha256": "8635e3324ce23f174916d73c8b7912d179d6338e941fa6693a2233f574bb4450"
+    },
+    {
+      "path": "zone/English/en_zombie_temple.ff",
+      "size": 395520,
+      "sha256": "d2f1141d4f5a259fd0ea8241509c22c2f1de3553db6e53a7a45b93102feaa93e"
+    },
+    {
+      "path": "zone/English/en_zombie_theater.ff",
+      "size": 778176,
+      "sha256": "d26cbc49349ff971ca12cb8cace8cc147bd64564974ece106d6ce08ae4e75756"
+    },
+    {
+      "path": "zone/English/en_zombietron.ff",
+      "size": 66816,
+      "sha256": "bbd6b1d518a2cd8e7f7af9df14c3a5d892913d0e9b28ae743c9dd5a113641eb6"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "_Redist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 299864
+        },
+        {
+          "file": "_Redist/fitgirl.md5",
+          "file_offset": 0,
+          "chunk_offset": 49519640,
+          "length": 17887
+        },
+        {
+          "file": "_Redist/QuickSFV.EXE",
+          "file_offset": 0,
+          "chunk_offset": 49537527,
+          "length": 103424
+        },
+        {
+          "file": "_Redist/QuickSFV.ini",
+          "file_offset": 0,
+          "chunk_offset": 49640951,
+          "length": 155
+        },
+        {
+          "file": "binkw32.dll",
+          "file_offset": 0,
+          "chunk_offset": 49641106,
+          "length": 174080
+        },
+        {
+          "file": "BlackOps.exe",
+          "file_offset": 0,
+          "chunk_offset": 49815186,
+          "length": 8099608
+        },
+        {
+          "file": "cod.bmp",
+          "file_offset": 0,
+          "chunk_offset": 57914794,
+          "length": 491576
+        },
+        {
+          "file": "codlogo.bmp",
+          "file_offset": 0,
+          "chunk_offset": 58406370,
+          "length": 109976
+        },
+        {
+          "file": "installscript.vdf",
+          "file_offset": 0,
+          "chunk_offset": 58516346,
+          "length": 1562
+        },
+        {
+          "file": "localization.txt",
+          "file_offset": 0,
+          "chunk_offset": 58517908,
+          "length": 2470
+        },
+        {
+          "file": "main/iw_00.iwd",
+          "file_offset": 0,
+          "chunk_offset": 58520378,
+          "length": 3471624
+        },
+        {
+          "file": "main/iw_01.iwd",
+          "file_offset": 0,
+          "chunk_offset": 61992002,
+          "length": 167530980
+        },
+        {
+          "file": "main/iw_02.iwd",
+          "file_offset": 0,
+          "chunk_offset": 229522982,
+          "length": 72876977
+        }
+      ],
+      "sha256": "300fcdbcc3d9c241a2a6ab6bd3adc46a9dac166295dc5034a4ca12171fe1aaf1"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_02.iwd",
+          "file_offset": 72876977,
+          "chunk_offset": 0,
+          "length": 94707174
+        },
+        {
+          "file": "main/iw_03.iwd",
+          "file_offset": 0,
+          "chunk_offset": 94707174,
+          "length": 166304638
+        },
+        {
+          "file": "main/iw_04.iwd",
+          "file_offset": 0,
+          "chunk_offset": 261011812,
+          "length": 41388147
+        }
+      ],
+      "sha256": "5606f3b66d62de064e076b889aad7dd13c2b11afdff4d3cf9ca1055488d4bf21"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_04.iwd",
+          "file_offset": 41388147,
+          "chunk_offset": 0,
+          "length": 125100817
+        },
+        {
+          "file": "main/iw_05.iwd",
+          "file_offset": 0,
+          "chunk_offset": 125100817,
+          "length": 167578712
+        },
+        {
+          "file": "main/iw_06.iwd",
+          "file_offset": 0,
+          "chunk_offset": 292679529,
+          "length": 9720430
+        }
+      ],
+      "sha256": "83df8a332e6ffee71db427ad8b07e90580b210a93acd905d6cab198d71fbfb2b"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_06.iwd",
+          "file_offset": 9720430,
+          "chunk_offset": 0,
+          "length": 157945657
+        },
+        {
+          "file": "main/iw_07.iwd",
+          "file_offset": 0,
+          "chunk_offset": 157945657,
+          "length": 144454302
+        }
+      ],
+      "sha256": "06746baf501e10f31bea5e2839a0f1fb1d25110d394edfd9c517c1fe6a82ec6f"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_07.iwd",
+          "file_offset": 144454302,
+          "chunk_offset": 0,
+          "length": 22997896
+        },
+        {
+          "file": "main/iw_08.iwd",
+          "file_offset": 0,
+          "chunk_offset": 22997896,
+          "length": 167538509
+        },
+        {
+          "file": "main/iw_09.iwd",
+          "file_offset": 0,
+          "chunk_offset": 190536405,
+          "length": 111863554
+        }
+      ],
+      "sha256": "165961be8244cf92233486ff6e765f5a31f5d7fd6856aa1466a9e8937d7560f9"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_09.iwd",
+          "file_offset": 111863554,
+          "chunk_offset": 0,
+          "length": 54652234
+        },
+        {
+          "file": "main/iw_10.iwd",
+          "file_offset": 0,
+          "chunk_offset": 54652234,
+          "length": 167645915
+        },
+        {
+          "file": "main/iw_11.iwd",
+          "file_offset": 0,
+          "chunk_offset": 222298149,
+          "length": 80101810
+        }
+      ],
+      "sha256": "ee132ed14e3be795ba7c597ad8a68599af74ef185685ec0b27df478d663284b3"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_11.iwd",
+          "file_offset": 80101810,
+          "chunk_offset": 0,
+          "length": 86904211
+        },
+        {
+          "file": "main/iw_12.iwd",
+          "file_offset": 0,
+          "chunk_offset": 86904211,
+          "length": 167439953
+        },
+        {
+          "file": "main/iw_13.iwd",
+          "file_offset": 0,
+          "chunk_offset": 254344164,
+          "length": 48055795
+        }
+      ],
+      "sha256": "2105682517f68621ead219b8ed39e9feb4ad7de08db5cdf1fdc943ec447b8419"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_13.iwd",
+          "file_offset": 48055795,
+          "chunk_offset": 0,
+          "length": 119461941
+        },
+        {
+          "file": "main/iw_14.iwd",
+          "file_offset": 0,
+          "chunk_offset": 119461941,
+          "length": 108954439
+        },
+        {
+          "file": "main/iw_15.iwd",
+          "file_offset": 0,
+          "chunk_offset": 228416380,
+          "length": 73983579
+        }
+      ],
+      "sha256": "4259ee85ac83f73aedd6a87675479c09be2f88956bbd1a5d035a6b40cd4c427b"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_15.iwd",
+          "file_offset": 73983579,
+          "chunk_offset": 0,
+          "length": 92165987
+        },
+        {
+          "file": "main/iw_16.iwd",
+          "file_offset": 0,
+          "chunk_offset": 92165987,
+          "length": 167471712
+        },
+        {
+          "file": "main/iw_17.iwd",
+          "file_offset": 0,
+          "chunk_offset": 259637699,
+          "length": 42762260
+        }
+      ],
+      "sha256": "da1b5c57d060128df459c78bc0d8a407012efc05bbc7cf9a64bc71fd64cdc550"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_17.iwd",
+          "file_offset": 42762260,
+          "chunk_offset": 0,
+          "length": 113629802
+        },
+        {
+          "file": "main/iw_18.iwd",
+          "file_offset": 0,
+          "chunk_offset": 113629802,
+          "length": 167532956
+        },
+        {
+          "file": "main/iw_19.iwd",
+          "file_offset": 0,
+          "chunk_offset": 281162758,
+          "length": 21237201
+        }
+      ],
+      "sha256": "15e31e9fa07255df8a5bd9aff38c191e9a365a50cf2bf9611b235c7f5c88a771"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_19.iwd",
+          "file_offset": 21237201,
+          "chunk_offset": 0,
+          "length": 145385103
+        },
+        {
+          "file": "main/iw_20.iwd",
+          "file_offset": 0,
+          "chunk_offset": 145385103,
+          "length": 157014856
+        }
+      ],
+      "sha256": "e96e4ec62c892b252aba399d7a779effb7c74ff7d9809b2ef6f2466cf66b8ed3"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_20.iwd",
+          "file_offset": 157014856,
+          "chunk_offset": 0,
+          "length": 10526404
+        },
+        {
+          "file": "main/iw_21.iwd",
+          "file_offset": 0,
+          "chunk_offset": 10526404,
+          "length": 161720582
+        },
+        {
+          "file": "main/iw_22.iwd",
+          "file_offset": 0,
+          "chunk_offset": 172246986,
+          "length": 130152973
+        }
+      ],
+      "sha256": "d393903fc75629383b73c1e61bc7ba132a30888846fbe7c207790b6a28d79aa3"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_22.iwd",
+          "file_offset": 130152973,
+          "chunk_offset": 0,
+          "length": 33322295
+        },
+        {
+          "file": "main/iw_23.iwd",
+          "file_offset": 0,
+          "chunk_offset": 33322295,
+          "length": 168108728
+        },
+        {
+          "file": "main/iw_24.iwd",
+          "file_offset": 0,
+          "chunk_offset": 201431023,
+          "length": 30678946
+        },
+        {
+          "file": "main/iw_25.iwd",
+          "file_offset": 0,
+          "chunk_offset": 232109969,
+          "length": 20173192
+        },
+        {
+          "file": "main/iw_26.iwd",
+          "file_offset": 0,
+          "chunk_offset": 252283161,
+          "length": 50116798
+        }
+      ],
+      "sha256": "dc4dae7f84ff8239e49138777813f9f677ebfac2710ac23b3fc3f65a4453489a"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_26.iwd",
+          "file_offset": 50116798,
+          "chunk_offset": 0,
+          "length": 117572825
+        },
+        {
+          "file": "main/iw_27.iwd",
+          "file_offset": 0,
+          "chunk_offset": 117572825,
+          "length": 34236681
+        },
+        {
+          "file": "main/iw_28.iwd",
+          "file_offset": 0,
+          "chunk_offset": 151809506,
+          "length": 49246556
+        },
+        {
+          "file": "main/iw_29.iwd",
+          "file_offset": 0,
+          "chunk_offset": 201056062,
+          "length": 101343897
+        }
+      ],
+      "sha256": "3d89623203679f9446628c0a6ed9f2db4e2b7f0f96d7fe49889c5c1146fa537b"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_29.iwd",
+          "file_offset": 101343897,
+          "chunk_offset": 0,
+          "length": 66241220
+        },
+        {
+          "file": "main/iw_30.iwd",
+          "file_offset": 0,
+          "chunk_offset": 66241220,
+          "length": 167512358
+        },
+        {
+          "file": "main/iw_31.iwd",
+          "file_offset": 0,
+          "chunk_offset": 233753578,
+          "length": 37617162
+        },
+        {
+          "file": "main/iw_32.iwd",
+          "file_offset": 0,
+          "chunk_offset": 271370740,
+          "length": 31029219
+        }
+      ],
+      "sha256": "c49c2245bae059f859cca29b833326bbf09a49e337cf6a9286fa55cddd6bfee9"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_32.iwd",
+          "file_offset": 31029219,
+          "chunk_offset": 0,
+          "length": 55371235
+        },
+        {
+          "file": "main/iw_33.iwd",
+          "file_offset": 0,
+          "chunk_offset": 55371235,
+          "length": 167573964
+        },
+        {
+          "file": "main/iw_34.iwd",
+          "file_offset": 0,
+          "chunk_offset": 222945199,
+          "length": 79454760
+        }
+      ],
+      "sha256": "adb379a0fae87bacafdb3860bc56bc1b8d2143feaa396269755dfe82d2941fb5"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_34.iwd",
+          "file_offset": 79454760,
+          "chunk_offset": 0,
+          "length": 25694043
+        },
+        {
+          "file": "main/iw_35.iwd",
+          "file_offset": 0,
+          "chunk_offset": 25694043,
+          "length": 74960944
+        },
+        {
+          "file": "main/iw_36.iwd",
+          "file_offset": 0,
+          "chunk_offset": 100654987,
+          "length": 76551675
+        },
+        {
+          "file": "main/iw_37.iwd",
+          "file_offset": 0,
+          "chunk_offset": 177206662,
+          "length": 101718840
+        },
+        {
+          "file": "main/iw_38.iwd",
+          "file_offset": 0,
+          "chunk_offset": 278925502,
+          "length": 23474457
+        }
+      ],
+      "sha256": "58905f8c832142f0ab18771cf78f3a958fd7d990ed3017bcd955436fdfd27031"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_38.iwd",
+          "file_offset": 23474457,
+          "chunk_offset": 0,
+          "length": 144174042
+        },
+        {
+          "file": "main/iw_39.iwd",
+          "file_offset": 0,
+          "chunk_offset": 144174042,
+          "length": 3133855
+        },
+        {
+          "file": "main/iw_40.iwd",
+          "file_offset": 0,
+          "chunk_offset": 147307897,
+          "length": 155092062
+        }
+      ],
+      "sha256": "2232572231aedb5ba8e5bfcf073f6e1d731bf0c86709f3e4fc4913eebda1e37f"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/iw_40.iwd",
+          "file_offset": 155092062,
+          "chunk_offset": 0,
+          "length": 9362474
+        },
+        {
+          "file": "main/iw_41.iwd",
+          "file_offset": 0,
+          "chunk_offset": 9362474,
+          "length": 47956606
+        },
+        {
+          "file": "main/localized_English_iw00.iwd",
+          "file_offset": 0,
+          "chunk_offset": 57319080,
+          "length": 35653705
+        },
+        {
+          "file": "main/localized_English_iw01.iwd",
+          "file_offset": 0,
+          "chunk_offset": 92972785,
+          "length": 168306366
+        },
+        {
+          "file": "main/localized_English_iw02.iwd",
+          "file_offset": 0,
+          "chunk_offset": 261279151,
+          "length": 41120808
+        }
+      ],
+      "sha256": "a4b1708114d566d12a6a83620dfbe6ffb2b685992376410939b964d55ea6c05a"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/localized_English_iw02.iwd",
+          "file_offset": 41120808,
+          "chunk_offset": 0,
+          "length": 126952062
+        },
+        {
+          "file": "main/localized_English_iw03.iwd",
+          "file_offset": 0,
+          "chunk_offset": 126952062,
+          "length": 168283594
+        },
+        {
+          "file": "main/localized_English_iw04.iwd",
+          "file_offset": 0,
+          "chunk_offset": 295235656,
+          "length": 7164303
+        }
+      ],
+      "sha256": "1232dc1b19d6158ad4b7e353aa49a1282341c7bd03c81a5fc28584d645511a61"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/localized_English_iw04.iwd",
+          "file_offset": 7164303,
+          "chunk_offset": 0,
+          "length": 161138151
+        },
+        {
+          "file": "main/localized_English_iw05.iwd",
+          "file_offset": 0,
+          "chunk_offset": 161138151,
+          "length": 93087352
+        },
+        {
+          "file": "main/localized_English_iw06.iwd",
+          "file_offset": 0,
+          "chunk_offset": 254225503,
+          "length": 48174456
+        }
+      ],
+      "sha256": "2c139c3073f7093813119be2933eafe30a16d9e39c4673ce273f89491655ab25"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/localized_English_iw06.iwd",
+          "file_offset": 48174456,
+          "chunk_offset": 0,
+          "length": 52658766
+        },
+        {
+          "file": "main/localized_English_iw07.iwd",
+          "file_offset": 0,
+          "chunk_offset": 52658766,
+          "length": 140933902
+        },
+        {
+          "file": "main/localized_English_iw08.iwd",
+          "file_offset": 0,
+          "chunk_offset": 193592668,
+          "length": 108807291
+        }
+      ],
+      "sha256": "74fce7bf3d9761bd9acb3d3b833128b63f0392eea11c0d2ef9912ea19673cc99"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/localized_English_iw08.iwd",
+          "file_offset": 108807291,
+          "chunk_offset": 0,
+          "length": 47536341
+        },
+        {
+          "file": "main/localized_English_iw09.iwd",
+          "file_offset": 0,
+          "chunk_offset": 47536341,
+          "length": 168109532
+        },
+        {
+          "file": "main/localized_English_iw10.iwd",
+          "file_offset": 0,
+          "chunk_offset": 215645873,
+          "length": 86754086
+        }
+      ],
+      "sha256": "e950c86bdee6e98a337847be5e1eb6331a38d9fe70f8c4c14f0d33be324f2382"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/localized_English_iw10.iwd",
+          "file_offset": 86754086,
+          "chunk_offset": 0,
+          "length": 81317752
+        },
+        {
+          "file": "main/localized_English_iw11.iwd",
+          "file_offset": 0,
+          "chunk_offset": 81317752,
+          "length": 68574460
+        },
+        {
+          "file": "main/localized_English_iw12.iwd",
+          "file_offset": 0,
+          "chunk_offset": 149892212,
+          "length": 4373220
+        },
+        {
+          "file": "main/localized_English_iw13.iwd",
+          "file_offset": 0,
+          "chunk_offset": 154265432,
+          "length": 148134527
+        }
+      ],
+      "sha256": "222930487bd57686cb9b381f4911a58c09166bb671e0c6efaa66b7f8aa032e59"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/localized_English_iw13.iwd",
+          "file_offset": 148134527,
+          "chunk_offset": 0,
+          "length": 20144907
+        },
+        {
+          "file": "main/localized_English_iw14.iwd",
+          "file_offset": 0,
+          "chunk_offset": 20144907,
+          "length": 27447952
+        },
+        {
+          "file": "main/video/creek_1_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 47592859,
+          "length": 39204804
+        },
+        {
+          "file": "main/video/cuba_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 86797663,
+          "length": 50965136
+        },
+        {
+          "file": "main/video/default.bik",
+          "file_offset": 0,
+          "chunk_offset": 137762799,
+          "length": 1191452
+        },
+        {
+          "file": "main/video/flashpoint_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 138954251,
+          "length": 34980248
+        },
+        {
+          "file": "main/video/frontend.bik",
+          "file_offset": 0,
+          "chunk_offset": 173934499,
+          "length": 245600
+        },
+        {
+          "file": "main/video/fullahead_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 174180099,
+          "length": 30133328
+        },
+        {
+          "file": "main/video/hue_city_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 204313427,
+          "length": 43476088
+        },
+        {
+          "file": "main/video/Int_escape_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 247789515,
+          "length": 45705084
+        },
+        {
+          "file": "main/video/int_hudson_explains_2.bik",
+          "file_offset": 0,
+          "chunk_offset": 293494599,
+          "length": 8905360
+        }
+      ],
+      "sha256": "05e766dd18fad62ae07b43fb1d5b7f0406d0a17bd538ac32220f333a3417f8f8"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/video/int_hudson_explains_2.bik",
+          "file_offset": 8905360,
+          "chunk_offset": 0,
+          "length": 3403980
+        },
+        {
+          "file": "main/video/int_reznov_disappearing_flashback.bik",
+          "file_offset": 0,
+          "chunk_offset": 3403980,
+          "length": 46574348
+        },
+        {
+          "file": "main/video/int_screens.bik",
+          "file_offset": 0,
+          "chunk_offset": 49978328,
+          "length": 24026788
+        },
+        {
+          "file": "main/video/khe_sanh_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 74005116,
+          "length": 35948416
+        },
+        {
+          "file": "main/video/kowloon_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 109953532,
+          "length": 39214360
+        },
+        {
+          "file": "main/video/mid_cuba_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 149167892,
+          "length": 15054804
+        },
+        {
+          "file": "main/video/mid_cuba_3.bik",
+          "file_offset": 0,
+          "chunk_offset": 164222696,
+          "length": 6689488
+        },
+        {
+          "file": "main/video/mid_flashpoint_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 170912184,
+          "length": 8942496
+        },
+        {
+          "file": "main/video/mid_flashpoint_2.bik",
+          "file_offset": 0,
+          "chunk_offset": 179854680,
+          "length": 11437792
+        },
+        {
+          "file": "main/video/mid_hue_city_2.bik",
+          "file_offset": 0,
+          "chunk_offset": 191292472,
+          "length": 10203952
+        },
+        {
+          "file": "main/video/mid_rebirth_2.bik",
+          "file_offset": 0,
+          "chunk_offset": 201496424,
+          "length": 19963412
+        },
+        {
+          "file": "main/video/mid_river_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 221459836,
+          "length": 9819304
+        },
+        {
+          "file": "main/video/mid_vorkuta_2.bik",
+          "file_offset": 0,
+          "chunk_offset": 231279140,
+          "length": 10520248
+        },
+        {
+          "file": "main/video/mid_vorkuta_3.bik",
+          "file_offset": 0,
+          "chunk_offset": 241799388,
+          "length": 5888608
+        },
+        {
+          "file": "main/video/number_lady_intro.bik",
+          "file_offset": 0,
+          "chunk_offset": 247687996,
+          "length": 51304916
+        },
+        {
+          "file": "main/video/outro_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 298992912,
+          "length": 3407047
+        }
+      ],
+      "sha256": "4561de845daf949fd891305589c5afc769bd9742a903a16d8cf2ace283440754"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/video/outro_load.bik",
+          "file_offset": 3407047,
+          "chunk_offset": 0,
+          "length": 70888345
+        },
+        {
+          "file": "main/video/pentagon_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 70888345,
+          "length": 35989564
+        },
+        {
+          "file": "main/video/pow_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 106877909,
+          "length": 43114852
+        },
+        {
+          "file": "main/video/rebirth_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 149992761,
+          "length": 39244400
+        },
+        {
+          "file": "main/video/river_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 189237161,
+          "length": 37694272
+        },
+        {
+          "file": "main/video/so_narrative1_frontend_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 226931433,
+          "length": 8573568
+        },
+        {
+          "file": "main/video/so_narrative2_frontend_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 235505001,
+          "length": 8562968
+        },
+        {
+          "file": "main/video/so_narrative3_frontend_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 244067969,
+          "length": 7690056
+        },
+        {
+          "file": "main/video/so_narrative4_frontend_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 251758025,
+          "length": 5502040
+        },
+        {
+          "file": "main/video/so_narrative5_frontend_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 257260065,
+          "length": 20568968
+        },
+        {
+          "file": "main/video/treyarch.bik",
+          "file_offset": 0,
+          "chunk_offset": 277829033,
+          "length": 24159944
+        },
+        {
+          "file": "main/video/underwaterbase_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 301988977,
+          "length": 410982
+        }
+      ],
+      "sha256": "2c96d5dbcc8fc1f4a989b3b240c61be715e1f3052c8d7a7a68f6e48672973577"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/video/underwaterbase_load.bik",
+          "file_offset": 410982,
+          "chunk_offset": 0,
+          "length": 60088914
+        },
+        {
+          "file": "main/video/vorkuta_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 60088914,
+          "length": 49186396
+        },
+        {
+          "file": "main/video/wmd_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 109275310,
+          "length": 15981044
+        },
+        {
+          "file": "main/video/wmd_sr71_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 125256354,
+          "length": 37783180
+        },
+        {
+          "file": "main/video/zombie_coast_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 163039534,
+          "length": 100415896
+        },
+        {
+          "file": "main/video/zombie_coast_outro.bik",
+          "file_offset": 0,
+          "chunk_offset": 263455430,
+          "length": 29639140
+        },
+        {
+          "file": "main/video/zombie_cod5_asylum_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 293094570,
+          "length": 5311092
+        },
+        {
+          "file": "main/video/zombie_cod5_factory_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 298405662,
+          "length": 3994297
+        }
+      ],
+      "sha256": "418b6eee17d06ea39a0ea610a4660ed23fcd12e553b38f4ba2e0d5ac68ce16ff"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "main/video/zombie_cod5_factory_load.bik",
+          "file_offset": 3994297,
+          "chunk_offset": 0,
+          "length": 904491
+        },
+        {
+          "file": "main/video/zombie_cod5_prototype_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 904491,
+          "length": 5561064
+        },
+        {
+          "file": "main/video/zombie_cod5_sumpf_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 6465555,
+          "length": 6539260
+        },
+        {
+          "file": "main/video/zombie_cosmodrome_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 13004815,
+          "length": 6975576
+        },
+        {
+          "file": "main/video/zombie_moon_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 19980391,
+          "length": 24086160
+        },
+        {
+          "file": "main/video/zombie_pentagon_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 44066551,
+          "length": 63366512
+        },
+        {
+          "file": "main/video/zombie_temple_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 107433063,
+          "length": 6815468
+        },
+        {
+          "file": "main/video/zombie_theater_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 114248531,
+          "length": 4572504
+        },
+        {
+          "file": "main/video/zombietron_load.bik",
+          "file_offset": 0,
+          "chunk_offset": 118821035,
+          "length": 18210464
+        },
+        {
+          "file": "NoDVD/BGamerT5/BGamerT5.exe",
+          "file_offset": 0,
+          "chunk_offset": 137031499,
+          "length": 8099928
+        },
+        {
+          "file": "NoDVD/BGamerT5/BGamerT5MP.exe",
+          "file_offset": 0,
+          "chunk_offset": 145131427,
+          "length": 8607832
+        },
+        {
+          "file": "NoDVD/BGamerT5/bgset.ini",
+          "file_offset": 0,
+          "chunk_offset": 153739259,
+          "length": 43
+        },
+        {
+          "file": "NoDVD/BGamerT5/bgt5.dll",
+          "file_offset": 0,
+          "chunk_offset": 153739302,
+          "length": 729088
+        },
+        {
+          "file": "NoDVD/BGamerT5/bgT5Launcher.exe",
+          "file_offset": 0,
+          "chunk_offset": 154468390,
+          "length": 244224
+        },
+        {
+          "file": "NoDVD/BGamerT5/bgT5lms.dll",
+          "file_offset": 0,
+          "chunk_offset": 154712614,
+          "length": 111104
+        },
+        {
+          "file": "NoDVD/BGamerT5/data/online_tu12_mp_english.wad",
+          "file_offset": 0,
+          "chunk_offset": 154823718,
+          "length": 17428
+        },
+        {
+          "file": "NoDVD/BGamerT5/data/online_tu12_mp_french.wad",
+          "file_offset": 0,
+          "chunk_offset": 154841146,
+          "length": 17428
+        },
+        {
+          "file": "NoDVD/BGamerT5/data/online_tu12_mp_german.wad",
+          "file_offset": 0,
+          "chunk_offset": 154858574,
+          "length": 17428
+        },
+        {
+          "file": "NoDVD/BGamerT5/data/online_tu12_mp_italian.wad",
+          "file_offset": 0,
+          "chunk_offset": 154876002,
+          "length": 17428
+        },
+        {
+          "file": "NoDVD/BGamerT5/data/online_tu12_mp_russian.wad",
+          "file_offset": 0,
+          "chunk_offset": 154893430,
+          "length": 17428
+        },
+        {
+          "file": "NoDVD/BGamerT5/data/online_tu12_mp_spanish.wad",
+          "file_offset": 0,
+          "chunk_offset": 154910858,
+          "length": 17428
+        },
+        {
+          "file": "NoDVD/BGamerT5/data/online_tu14_sp_english.wad",
+          "file_offset": 0,
+          "chunk_offset": 154928286,
+          "length": 3589
+        },
+        {
+          "file": "NoDVD/BGamerT5/data/online_tu14_sp_french.wad",
+          "file_offset": 0,
+          "chunk_offset": 154931875,
+          "length": 3589
+        },
+        {
+          "file": "NoDVD/BGamerT5/data/online_tu14_sp_german.wad",
+          "file_offset": 0,
+          "chunk_offset": 154935464,
+          "length": 3589
+        },
+        {
+          "file": "NoDVD/BGamerT5/data/online_tu14_sp_italian.wad",
+          "file_offset": 0,
+          "chunk_offset": 154939053,
+          "length": 3589
+        },
+        {
+          "file": "NoDVD/BGamerT5/data/online_tu14_sp_russian.wad",
+          "file_offset": 0,
+          "chunk_offset": 154942642,
+          "length": 3589
+        },
+        {
+          "file": "NoDVD/BGamerT5/data/online_tu14_sp_spanish.wad",
+          "file_offset": 0,
+          "chunk_offset": 154946231,
+          "length": 3589
+        },
+        {
+          "file": "NoDVD/BGamerT5/dwkey.dat",
+          "file_offset": 0,
+          "chunk_offset": 154949820,
+          "length": 24
+        },
+        {
+          "file": "NoDVD/BGamerT5/steam_api.dll",
+          "file_offset": 0,
+          "chunk_offset": 154949844,
+          "length": 4608
+        },
+        {
+          "file": "NoDVD/CODEX/steam_api.cdx",
+          "file_offset": 0,
+          "chunk_offset": 154954452,
+          "length": 124712
+        },
+        {
+          "file": "NoDVD/CODEX/steam_api.dll",
+          "file_offset": 0,
+          "chunk_offset": 155079164,
+          "length": 255776
+        },
+        {
+          "file": "players/config.cfg",
+          "file_offset": 0,
+          "chunk_offset": 155334940,
+          "length": 16052
+        },
+        {
+          "file": "steam_api.cdx",
+          "file_offset": 0,
+          "chunk_offset": 155350992,
+          "length": 124712
+        },
+        {
+          "file": "steam_api.dll",
+          "file_offset": 0,
+          "chunk_offset": 155475704,
+          "length": 255776
+        },
+        {
+          "file": "steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 155731480,
+          "length": 2161
+        },
+        {
+          "file": "unins000.dat",
+          "file_offset": 0,
+          "chunk_offset": 155733641,
+          "length": 263185
+        },
+        {
+          "file": "unins000.exe",
+          "file_offset": 0,
+          "chunk_offset": 155996826,
+          "length": 1515889
+        },
+        {
+          "file": "zone/common/code_post_gfx.ff",
+          "file_offset": 0,
+          "chunk_offset": 157512715,
+          "length": 2248000
+        },
+        {
+          "file": "zone/common/code_post_gfx_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 159760715,
+          "length": 941376
+        },
+        {
+          "file": "zone/common/code_pre_gfx.ff",
+          "file_offset": 0,
+          "chunk_offset": 160702091,
+          "length": 13280
+        },
+        {
+          "file": "zone/common/code_pre_gfx_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 160715371,
+          "length": 38048
+        },
+        {
+          "file": "zone/common/common.ff",
+          "file_offset": 0,
+          "chunk_offset": 160753419,
+          "length": 20472736
+        },
+        {
+          "file": "zone/common/common_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 181226155,
+          "length": 57188576
+        },
+        {
+          "file": "zone/common/common_zombie.ff",
+          "file_offset": 0,
+          "chunk_offset": 238414731,
+          "length": 51325344
+        },
+        {
+          "file": "zone/common/common_zombie_patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 289740075,
+          "length": 784000
+        },
+        {
+          "file": "zone/common/creek_1.ff",
+          "file_offset": 0,
+          "chunk_offset": 290524075,
+          "length": 11875884
+        }
+      ],
+      "sha256": "24dcaf013f44d1fc5f76d0e47b515a196732bbea50cee6e7e764d5c3f5c0633d"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "zone/common/creek_1.ff",
+          "file_offset": 11875884,
+          "chunk_offset": 0,
+          "length": 87623060
+        },
+        {
+          "file": "zone/common/cuba.ff",
+          "file_offset": 0,
+          "chunk_offset": 87623060,
+          "length": 102775840
+        },
+        {
+          "file": "zone/common/flashpoint.ff",
+          "file_offset": 0,
+          "chunk_offset": 190398900,
+          "length": 102948288
+        },
+        {
+          "file": "zone/common/frontend.ff",
+          "file_offset": 0,
+          "chunk_offset": 293347188,
+          "length": 9052771
+        }
+      ],
+      "sha256": "b0994ca25613579230c8f9d581c8def22ef0a8da0a4a76dcf24b1894eb3ed561"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "zone/common/frontend.ff",
+          "file_offset": 9052771,
+          "chunk_offset": 0,
+          "length": 31942525
+        },
+        {
+          "file": "zone/common/fullahead.ff",
+          "file_offset": 0,
+          "chunk_offset": 31942525,
+          "length": 105774176
+        },
+        {
+          "file": "zone/common/hue_city.ff",
+          "file_offset": 0,
+          "chunk_offset": 137716701,
+          "length": 94681344
+        },
+        {
+          "file": "zone/common/int_escape.ff",
+          "file_offset": 0,
+          "chunk_offset": 232398045,
+          "length": 70001914
+        }
+      ],
+      "sha256": "ca42bfac799e781ce77dd0019d7542b1e74398c741db0cca2e591aafa8e297e8"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "zone/common/int_escape.ff",
+          "file_offset": 70001914,
+          "chunk_offset": 0,
+          "length": 31376934
+        },
+        {
+          "file": "zone/common/khe_sanh.ff",
+          "file_offset": 0,
+          "chunk_offset": 31376934,
+          "length": 103844960
+        },
+        {
+          "file": "zone/common/kowloon.ff",
+          "file_offset": 0,
+          "chunk_offset": 135221894,
+          "length": 91592192
+        },
+        {
+          "file": "zone/common/mp_area51.ff",
+          "file_offset": 0,
+          "chunk_offset": 226814086,
+          "length": 42778144
+        },
+        {
+          "file": "zone/common/mp_array.ff",
+          "file_offset": 0,
+          "chunk_offset": 269592230,
+          "length": 32807729
+        }
+      ],
+      "sha256": "5423edec414db8a14c533291f82ff52d84e0777360a0bc58bc1adcfe3f07c54a"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "zone/common/mp_array.ff",
+          "file_offset": 32807729,
+          "chunk_offset": 0,
+          "length": 9891855
+        },
+        {
+          "file": "zone/common/mp_berlinwall2.ff",
+          "file_offset": 0,
+          "chunk_offset": 9891855,
+          "length": 39629696
+        },
+        {
+          "file": "zone/common/mp_cairo.ff",
+          "file_offset": 0,
+          "chunk_offset": 49521551,
+          "length": 39856704
+        },
+        {
+          "file": "zone/common/mp_cosmodrome.ff",
+          "file_offset": 0,
+          "chunk_offset": 89378255,
+          "length": 40599232
+        },
+        {
+          "file": "zone/common/mp_cracked.ff",
+          "file_offset": 0,
+          "chunk_offset": 129977487,
+          "length": 40868256
+        },
+        {
+          "file": "zone/common/mp_crisis.ff",
+          "file_offset": 0,
+          "chunk_offset": 170845743,
+          "length": 41168512
+        },
+        {
+          "file": "zone/common/mp_discovery.ff",
+          "file_offset": 0,
+          "chunk_offset": 212014255,
+          "length": 40051296
+        },
+        {
+          "file": "zone/common/mp_drivein.ff",
+          "file_offset": 0,
+          "chunk_offset": 252065551,
+          "length": 41128768
+        },
+        {
+          "file": "zone/common/mp_duga.ff",
+          "file_offset": 0,
+          "chunk_offset": 293194319,
+          "length": 9205640
+        }
+      ],
+      "sha256": "3822108aaa93ac56ca4e64a2e6f3c2bec58730dcde735a8b296a7cf1eea7f6c6"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "zone/common/mp_duga.ff",
+          "file_offset": 9205640,
+          "chunk_offset": 0,
+          "length": 29848120
+        },
+        {
+          "file": "zone/common/mp_firingrange.ff",
+          "file_offset": 0,
+          "chunk_offset": 29848120,
+          "length": 37999616
+        },
+        {
+          "file": "zone/common/mp_golfcourse.ff",
+          "file_offset": 0,
+          "chunk_offset": 67847736,
+          "length": 42010016
+        },
+        {
+          "file": "zone/common/mp_gridlock.ff",
+          "file_offset": 0,
+          "chunk_offset": 109857752,
+          "length": 41763328
+        },
+        {
+          "file": "zone/common/mp_hanoi.ff",
+          "file_offset": 0,
+          "chunk_offset": 151621080,
+          "length": 40849184
+        },
+        {
+          "file": "zone/common/mp_havoc.ff",
+          "file_offset": 0,
+          "chunk_offset": 192470264,
+          "length": 39572928
+        },
+        {
+          "file": "zone/common/mp_hotel.ff",
+          "file_offset": 0,
+          "chunk_offset": 232043192,
+          "length": 39513824
+        },
+        {
+          "file": "zone/common/mp_kowloon.ff",
+          "file_offset": 0,
+          "chunk_offset": 271557016,
+          "length": 30842943
+        }
+      ],
+      "sha256": "efad4b38ef5071021f0333b85e91266ec5f028165ce83346f61703fb6942bd8d"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "zone/common/mp_kowloon.ff",
+          "file_offset": 30842943,
+          "chunk_offset": 0,
+          "length": 6683073
+        },
+        {
+          "file": "zone/common/mp_mountain.ff",
+          "file_offset": 0,
+          "chunk_offset": 6683073,
+          "length": 37344704
+        },
+        {
+          "file": "zone/common/mp_nuked.ff",
+          "file_offset": 0,
+          "chunk_offset": 44027777,
+          "length": 37475776
+        },
+        {
+          "file": "zone/common/mp_outskirts.ff",
+          "file_offset": 0,
+          "chunk_offset": 81503553,
+          "length": 40057952
+        },
+        {
+          "file": "zone/common/mp_radiation.ff",
+          "file_offset": 0,
+          "chunk_offset": 121561505,
+          "length": 38441024
+        },
+        {
+          "file": "zone/common/mp_russianbase.ff",
+          "file_offset": 0,
+          "chunk_offset": 160002529,
+          "length": 40946432
+        },
+        {
+          "file": "zone/common/mp_silo.ff",
+          "file_offset": 0,
+          "chunk_offset": 200948961,
+          "length": 43213536
+        },
+        {
+          "file": "zone/common/mp_stadium.ff",
+          "file_offset": 0,
+          "chunk_offset": 244162497,
+          "length": 36094208
+        },
+        {
+          "file": "zone/common/mp_villa.ff",
+          "file_offset": 0,
+          "chunk_offset": 280256705,
+          "length": 22143254
+        }
+      ],
+      "sha256": "5bb6697d592e9c708c56b6e7dfb161c1d8485854486c7927301ac98f6dd8a0fd"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "zone/common/mp_villa.ff",
+          "file_offset": 22143254,
+          "chunk_offset": 0,
+          "length": 14347786
+        },
+        {
+          "file": "zone/common/mp_zoo.ff",
+          "file_offset": 0,
+          "chunk_offset": 14347786,
+          "length": 38580928
+        },
+        {
+          "file": "zone/common/outro.ff",
+          "file_offset": 0,
+          "chunk_offset": 52928714,
+          "length": 5927200
+        },
+        {
+          "file": "zone/common/patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 58855914,
+          "length": 1530048
+        },
+        {
+          "file": "zone/common/patch_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 60385962,
+          "length": 2909536
+        },
+        {
+          "file": "zone/common/patch_ui_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 63295498,
+          "length": 732160
+        },
+        {
+          "file": "zone/common/pentagon.ff",
+          "file_offset": 0,
+          "chunk_offset": 64027658,
+          "length": 103026080
+        },
+        {
+          "file": "zone/common/pow.ff",
+          "file_offset": 0,
+          "chunk_offset": 167053738,
+          "length": 104514784
+        },
+        {
+          "file": "zone/common/rebirth.ff",
+          "file_offset": 0,
+          "chunk_offset": 271568522,
+          "length": 30831437
+        }
+      ],
+      "sha256": "155f01d4e269c55186a85cea92f5471658b0faa3019e9f3a2728774521349db0"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "zone/common/rebirth.ff",
+          "file_offset": 30831437,
+          "chunk_offset": 0,
+          "length": 65633459
+        },
+        {
+          "file": "zone/common/river.ff",
+          "file_offset": 0,
+          "chunk_offset": 65633459,
+          "length": 107917856
+        },
+        {
+          "file": "zone/common/so_narrative1_frontend.ff",
+          "file_offset": 0,
+          "chunk_offset": 173551315,
+          "length": 2323584
+        },
+        {
+          "file": "zone/common/so_narrative2_frontend.ff",
+          "file_offset": 0,
+          "chunk_offset": 175874899,
+          "length": 3130464
+        },
+        {
+          "file": "zone/common/so_narrative3_frontend.ff",
+          "file_offset": 0,
+          "chunk_offset": 179005363,
+          "length": 4473856
+        },
+        {
+          "file": "zone/common/so_narrative4_frontend.ff",
+          "file_offset": 0,
+          "chunk_offset": 183479219,
+          "length": 2298272
+        },
+        {
+          "file": "zone/common/so_narrative5_frontend.ff",
+          "file_offset": 0,
+          "chunk_offset": 185777491,
+          "length": 1538336
+        },
+        {
+          "file": "zone/common/so_narrative6_frontend.ff",
+          "file_offset": 0,
+          "chunk_offset": 187315827,
+          "length": 2833600
+        },
+        {
+          "file": "zone/common/terminal.ff",
+          "file_offset": 0,
+          "chunk_offset": 190149427,
+          "length": 154272
+        },
+        {
+          "file": "zone/common/ui_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 190303699,
+          "length": 1383232
+        },
+        {
+          "file": "zone/common/ui_viewer_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 191686931,
+          "length": 27600320
+        },
+        {
+          "file": "zone/common/underwaterbase.ff",
+          "file_offset": 0,
+          "chunk_offset": 219287251,
+          "length": 83112708
+        }
+      ],
+      "sha256": "831c9ed2bc57a16b08e950470f8fc2e49624c35246e119c5eba792349d2de905"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "zone/common/underwaterbase.ff",
+          "file_offset": 83112708,
+          "chunk_offset": 0,
+          "length": 15481052
+        },
+        {
+          "file": "zone/common/vorkuta.ff",
+          "file_offset": 0,
+          "chunk_offset": 15481052,
+          "length": 101418912
+        },
+        {
+          "file": "zone/common/wmd.ff",
+          "file_offset": 0,
+          "chunk_offset": 116899964,
+          "length": 100653088
+        },
+        {
+          "file": "zone/common/wmd_sr71.ff",
+          "file_offset": 0,
+          "chunk_offset": 217553052,
+          "length": 83401248
+        },
+        {
+          "file": "zone/common/zombie_coast.ff",
+          "file_offset": 0,
+          "chunk_offset": 300954300,
+          "length": 1445659
+        }
+      ],
+      "sha256": "a749c4ec23bafa4f63ea2cf9ccd81486fbe83d646b1030934189cf869a30f7ec"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 302399959,
+      "segments": [
+        {
+          "file": "zone/common/zombie_coast.ff",
+          "file_offset": 1445659,
+          "chunk_offset": 0,
+          "length": 52084485
+        },
+        {
+          "file": "zone/common/zombie_coast_patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 52084485,
+          "length": 321504
+        },
+        {
+          "file": "zone/common/zombie_cod5_asylum.ff",
+          "file_offset": 0,
+          "chunk_offset": 52405989,
+          "length": 38953888
+        },
+        {
+          "file": "zone/common/zombie_cod5_asylum_patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 91359877,
+          "length": 349504
+        },
+        {
+          "file": "zone/common/zombie_cod5_factory.ff",
+          "file_offset": 0,
+          "chunk_offset": 91709381,
+          "length": 49017408
+        },
+        {
+          "file": "zone/common/zombie_cod5_factory_patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 140726789,
+          "length": 344864
+        },
+        {
+          "file": "zone/common/zombie_cod5_prototype.ff",
+          "file_offset": 0,
+          "chunk_offset": 141071653,
+          "length": 34409632
+        },
+        {
+          "file": "zone/common/zombie_cod5_prototype_patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 175481285,
+          "length": 344672
+        },
+        {
+          "file": "zone/common/zombie_cod5_sumpf.ff",
+          "file_offset": 0,
+          "chunk_offset": 175825957,
+          "length": 53923680
+        },
+        {
+          "file": "zone/common/zombie_cod5_sumpf_patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 229749637,
+          "length": 354112
+        },
+        {
+          "file": "zone/common/zombie_cosmodrome.ff",
+          "file_offset": 0,
+          "chunk_offset": 230103749,
+          "length": 53103328
+        },
+        {
+          "file": "zone/common/zombie_cosmodrome_patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 283207077,
+          "length": 392032
+        },
+        {
+          "file": "zone/common/zombie_moon.ff",
+          "file_offset": 0,
+          "chunk_offset": 283599109,
+          "length": 18800850
+        }
+      ],
+      "sha256": "2348e5911be8d02f56e2dcb94c21fad26d6d8d677ffb2fd0e97228e39c006bf6"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 302399950,
+      "segments": [
+        {
+          "file": "zone/common/zombie_moon.ff",
+          "file_offset": 18800850,
+          "chunk_offset": 0,
+          "length": 32759950
+        },
+        {
+          "file": "zone/common/zombie_moon_patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 32759950,
+          "length": 89248
+        },
+        {
+          "file": "zone/common/zombie_pentagon.ff",
+          "file_offset": 0,
+          "chunk_offset": 32849198,
+          "length": 48229216
+        },
+        {
+          "file": "zone/common/zombie_pentagon_patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 81078414,
+          "length": 300416
+        },
+        {
+          "file": "zone/common/zombie_temple.ff",
+          "file_offset": 0,
+          "chunk_offset": 81378830,
+          "length": 56924128
+        },
+        {
+          "file": "zone/common/zombie_temple_patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 138302958,
+          "length": 315136
+        },
+        {
+          "file": "zone/common/zombie_theater.ff",
+          "file_offset": 0,
+          "chunk_offset": 138618094,
+          "length": 48841888
+        },
+        {
+          "file": "zone/common/zombie_theater_patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 187459982,
+          "length": 285952
+        },
+        {
+          "file": "zone/common/zombietron.ff",
+          "file_offset": 0,
+          "chunk_offset": 187745934,
+          "length": 91739968
+        },
+        {
+          "file": "zone/common/zombietron_patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 279485902,
+          "length": 144352
+        },
+        {
+          "file": "zone/English/en_code_post_gfx.ff",
+          "file_offset": 0,
+          "chunk_offset": 279630254,
+          "length": 137472
+        },
+        {
+          "file": "zone/English/en_code_post_gfx_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 279767726,
+          "length": 156224
+        },
+        {
+          "file": "zone/English/en_code_pre_gfx.ff",
+          "file_offset": 0,
+          "chunk_offset": 279923950,
+          "length": 928
+        },
+        {
+          "file": "zone/English/en_code_pre_gfx_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 279924878,
+          "length": 2016
+        },
+        {
+          "file": "zone/English/en_common.ff",
+          "file_offset": 0,
+          "chunk_offset": 279926894,
+          "length": 64
+        },
+        {
+          "file": "zone/English/en_common_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 279926958,
+          "length": 493408
+        },
+        {
+          "file": "zone/English/en_common_zombie.ff",
+          "file_offset": 0,
+          "chunk_offset": 280420366,
+          "length": 12448
+        },
+        {
+          "file": "zone/English/en_creek_1.ff",
+          "file_offset": 0,
+          "chunk_offset": 280432814,
+          "length": 184864
+        },
+        {
+          "file": "zone/English/en_cuba.ff",
+          "file_offset": 0,
+          "chunk_offset": 280617678,
+          "length": 965120
+        },
+        {
+          "file": "zone/English/en_flashpoint.ff",
+          "file_offset": 0,
+          "chunk_offset": 281582798,
+          "length": 442016
+        },
+        {
+          "file": "zone/English/en_frontend.ff",
+          "file_offset": 0,
+          "chunk_offset": 282024814,
+          "length": 429536
+        },
+        {
+          "file": "zone/English/en_fullahead.ff",
+          "file_offset": 0,
+          "chunk_offset": 282454350,
+          "length": 1258880
+        },
+        {
+          "file": "zone/English/en_hue_city.ff",
+          "file_offset": 0,
+          "chunk_offset": 283713230,
+          "length": 697280
+        },
+        {
+          "file": "zone/English/en_int_escape.ff",
+          "file_offset": 0,
+          "chunk_offset": 284410510,
+          "length": 3571296
+        },
+        {
+          "file": "zone/English/en_khe_sanh.ff",
+          "file_offset": 0,
+          "chunk_offset": 287981806,
+          "length": 924928
+        },
+        {
+          "file": "zone/English/en_kowloon.ff",
+          "file_offset": 0,
+          "chunk_offset": 288906734,
+          "length": 136544
+        },
+        {
+          "file": "zone/English/en_mp_area51.ff",
+          "file_offset": 0,
+          "chunk_offset": 289043278,
+          "length": 20416
+        },
+        {
+          "file": "zone/English/en_mp_array.ff",
+          "file_offset": 0,
+          "chunk_offset": 289063694,
+          "length": 20416
+        },
+        {
+          "file": "zone/English/en_mp_berlinwall2.ff",
+          "file_offset": 0,
+          "chunk_offset": 289084110,
+          "length": 18368
+        },
+        {
+          "file": "zone/English/en_mp_cairo.ff",
+          "file_offset": 0,
+          "chunk_offset": 289102478,
+          "length": 20512
+        },
+        {
+          "file": "zone/English/en_mp_cosmodrome.ff",
+          "file_offset": 0,
+          "chunk_offset": 289122990,
+          "length": 20480
+        },
+        {
+          "file": "zone/English/en_mp_cracked.ff",
+          "file_offset": 0,
+          "chunk_offset": 289143470,
+          "length": 19296
+        },
+        {
+          "file": "zone/English/en_mp_crisis.ff",
+          "file_offset": 0,
+          "chunk_offset": 289162766,
+          "length": 20512
+        },
+        {
+          "file": "zone/English/en_mp_discovery.ff",
+          "file_offset": 0,
+          "chunk_offset": 289183278,
+          "length": 20480
+        },
+        {
+          "file": "zone/English/en_mp_drivein.ff",
+          "file_offset": 0,
+          "chunk_offset": 289203758,
+          "length": 20416
+        },
+        {
+          "file": "zone/English/en_mp_duga.ff",
+          "file_offset": 0,
+          "chunk_offset": 289224174,
+          "length": 20416
+        },
+        {
+          "file": "zone/English/en_mp_firingrange.ff",
+          "file_offset": 0,
+          "chunk_offset": 289244590,
+          "length": 20896
+        },
+        {
+          "file": "zone/English/en_mp_golfcourse.ff",
+          "file_offset": 0,
+          "chunk_offset": 289265486,
+          "length": 20480
+        },
+        {
+          "file": "zone/English/en_mp_gridlock.ff",
+          "file_offset": 0,
+          "chunk_offset": 289285966,
+          "length": 20480
+        },
+        {
+          "file": "zone/English/en_mp_hanoi.ff",
+          "file_offset": 0,
+          "chunk_offset": 289306446,
+          "length": 19296
+        },
+        {
+          "file": "zone/English/en_mp_havoc.ff",
+          "file_offset": 0,
+          "chunk_offset": 289325742,
+          "length": 19296
+        },
+        {
+          "file": "zone/English/en_mp_hotel.ff",
+          "file_offset": 0,
+          "chunk_offset": 289345038,
+          "length": 20512
+        },
+        {
+          "file": "zone/English/en_mp_kowloon.ff",
+          "file_offset": 0,
+          "chunk_offset": 289365550,
+          "length": 20416
+        },
+        {
+          "file": "zone/English/en_mp_mountain.ff",
+          "file_offset": 0,
+          "chunk_offset": 289385966,
+          "length": 20480
+        },
+        {
+          "file": "zone/English/en_mp_nuked.ff",
+          "file_offset": 0,
+          "chunk_offset": 289406446,
+          "length": 20416
+        },
+        {
+          "file": "zone/English/en_mp_outskirts.ff",
+          "file_offset": 0,
+          "chunk_offset": 289426862,
+          "length": 20480
+        },
+        {
+          "file": "zone/English/en_mp_radiation.ff",
+          "file_offset": 0,
+          "chunk_offset": 289447342,
+          "length": 20480
+        },
+        {
+          "file": "zone/English/en_mp_russianbase.ff",
+          "file_offset": 0,
+          "chunk_offset": 289467822,
+          "length": 20480
+        },
+        {
+          "file": "zone/English/en_mp_silo.ff",
+          "file_offset": 0,
+          "chunk_offset": 289488302,
+          "length": 20416
+        },
+        {
+          "file": "zone/English/en_mp_stadium.ff",
+          "file_offset": 0,
+          "chunk_offset": 289508718,
+          "length": 20416
+        },
+        {
+          "file": "zone/English/en_mp_villa.ff",
+          "file_offset": 0,
+          "chunk_offset": 289529134,
+          "length": 20512
+        },
+        {
+          "file": "zone/English/en_mp_zoo.ff",
+          "file_offset": 0,
+          "chunk_offset": 289549646,
+          "length": 20448
+        },
+        {
+          "file": "zone/English/en_outro.ff",
+          "file_offset": 0,
+          "chunk_offset": 289570094,
+          "length": 428896
+        },
+        {
+          "file": "zone/English/en_patch.ff",
+          "file_offset": 0,
+          "chunk_offset": 289998990,
+          "length": 8704
+        },
+        {
+          "file": "zone/English/en_patch_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 290007694,
+          "length": 7776
+        },
+        {
+          "file": "zone/English/en_pentagon.ff",
+          "file_offset": 0,
+          "chunk_offset": 290015470,
+          "length": 452480
+        },
+        {
+          "file": "zone/English/en_pow.ff",
+          "file_offset": 0,
+          "chunk_offset": 290467950,
+          "length": 208672
+        },
+        {
+          "file": "zone/English/en_rebirth.ff",
+          "file_offset": 0,
+          "chunk_offset": 290676622,
+          "length": 884320
+        },
+        {
+          "file": "zone/English/en_river.ff",
+          "file_offset": 0,
+          "chunk_offset": 291560942,
+          "length": 269696
+        },
+        {
+          "file": "zone/English/en_so_narrative1_frontend.ff",
+          "file_offset": 0,
+          "chunk_offset": 291830638,
+          "length": 96
+        },
+        {
+          "file": "zone/English/en_so_narrative2_frontend.ff",
+          "file_offset": 0,
+          "chunk_offset": 291830734,
+          "length": 96
+        },
+        {
+          "file": "zone/English/en_so_narrative3_frontend.ff",
+          "file_offset": 0,
+          "chunk_offset": 291830830,
+          "length": 96
+        },
+        {
+          "file": "zone/English/en_so_narrative4_frontend.ff",
+          "file_offset": 0,
+          "chunk_offset": 291830926,
+          "length": 96
+        },
+        {
+          "file": "zone/English/en_so_narrative5_frontend.ff",
+          "file_offset": 0,
+          "chunk_offset": 291831022,
+          "length": 96
+        },
+        {
+          "file": "zone/English/en_so_narrative6_frontend.ff",
+          "file_offset": 0,
+          "chunk_offset": 291831118,
+          "length": 96
+        },
+        {
+          "file": "zone/English/en_terminal.ff",
+          "file_offset": 0,
+          "chunk_offset": 291831214,
+          "length": 192
+        },
+        {
+          "file": "zone/English/en_ui_mp.ff",
+          "file_offset": 0,
+          "chunk_offset": 291831406,
+          "length": 64
+        },
+        {
+          "file": "zone/English/en_underwaterbase.ff",
+          "file_offset": 0,
+          "chunk_offset": 291831470,
+          "length": 97760
+        },
+        {
+          "file": "zone/English/en_vorkuta.ff",
+          "file_offset": 0,
+          "chunk_offset": 291929230,
+          "length": 449376
+        },
+        {
+          "file": "zone/English/en_wmd.ff",
+          "file_offset": 0,
+          "chunk_offset": 292378606,
+          "length": 124768
+        },
+        {
+          "file": "zone/English/en_wmd_sr71.ff",
+          "file_offset": 0,
+          "chunk_offset": 292503374,
+          "length": 133440
+        },
+        {
+          "file": "zone/English/en_zombie_coast.ff",
+          "file_offset": 0,
+          "chunk_offset": 292636814,
+          "length": 41920
+        },
+        {
+          "file": "zone/English/en_zombie_cod5_asylum.ff",
+          "file_offset": 0,
+          "chunk_offset": 292678734,
+          "length": 1052736
+        },
+        {
+          "file": "zone/English/en_zombie_cod5_factory.ff",
+          "file_offset": 0,
+          "chunk_offset": 293731470,
+          "length": 4908960
+        },
+        {
+          "file": "zone/English/en_zombie_cod5_prototype.ff",
+          "file_offset": 0,
+          "chunk_offset": 298640430,
+          "length": 585568
+        },
+        {
+          "file": "zone/English/en_zombie_cod5_sumpf.ff",
+          "file_offset": 0,
+          "chunk_offset": 299225998,
+          "length": 805216
+        },
+        {
+          "file": "zone/English/en_zombie_cosmodrome.ff",
+          "file_offset": 0,
+          "chunk_offset": 300031214,
+          "length": 32064
+        },
+        {
+          "file": "zone/English/en_zombie_moon.ff",
+          "file_offset": 0,
+          "chunk_offset": 300063278,
+          "length": 111136
+        },
+        {
+          "file": "zone/English/en_zombie_pentagon.ff",
+          "file_offset": 0,
+          "chunk_offset": 300174414,
+          "length": 985024
+        },
+        {
+          "file": "zone/English/en_zombie_temple.ff",
+          "file_offset": 0,
+          "chunk_offset": 301159438,
+          "length": 395520
+        },
+        {
+          "file": "zone/English/en_zombie_theater.ff",
+          "file_offset": 0,
+          "chunk_offset": 301554958,
+          "length": 778176
+        },
+        {
+          "file": "zone/English/en_zombietron.ff",
+          "file_offset": 0,
+          "chunk_offset": 302333134,
+          "length": 66816
+        }
+      ],
+      "sha256": "14c34a6f609c32841be8c5fe4e3b336c6a2294b143bf00fc1e14bcd191a9a236"
+    }
+  ]
+}
