@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-26T15:12:29.891472+00:00",
+  "updated_at": "2026-08-27T09:12:43.601774+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2304,6 +2304,41 @@
       },
       "media": {
         "steam_app_id": 391220
+      }
+    },
+    {
+      "id": "call-of-duty-black-ops",
+      "title": "Call of Duty®: Black Ops",
+      "platform": "pc",
+      "description": "The biggest first-person action series of all time and the follow-up to critically acclaimed Call of Duty®: Modern Warfare 2 returns with Call of Duty®: Black Ops.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-black-ops/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-black-ops/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-black-ops/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-black-ops/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-black-ops/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-black-ops/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-black-ops/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-black-ops/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-black-ops/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-black-ops/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-black-ops/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-black-ops/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-call-of-duty-black-ops-v1.0.0-stable",
+          "manifest_path": "manifests/pc/call-of-duty-black-ops/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/call-of-duty-black-ops/stable/1.0.0.json",
+          "size": 12095998351,
+          "published_at": "2026-08-27T09:12:43.600015+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 42700
       }
     }
   ]
