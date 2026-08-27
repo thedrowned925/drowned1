@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-27T14:05:11.137872+00:00",
+  "updated_at": "2026-08-27T14:17:11.669713+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2404,6 +2404,41 @@
       },
       "media": {
         "steam_app_id": 219150
+      }
+    },
+    {
+      "id": "mafia-ii-classic",
+      "title": "Mafia II (Classic)",
+      "platform": "pc",
+      "description": "Vito Scaletta has started to make a name for himself on the streets of Empire Bay as someone who can be trusted to get a job done. Together with his buddy Joe, he is working to prove himself to the Mafia, quickly escalating up the family ladder with crimes of larger reward, status and consequence… the life as a wise guy isn’t quite as...",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia-ii-classic/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia-ii-classic/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia-ii-classic/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia-ii-classic/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia-ii-classic/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia-ii-classic/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia-ii-classic/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia-ii-classic/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia-ii-classic/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia-ii-classic/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia-ii-classic/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mafia-ii-classic/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-mafia-ii-classic-v1.0.0-stable",
+          "manifest_path": "manifests/pc/mafia-ii-classic/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/mafia-ii-classic/stable/1.0.0.json",
+          "size": 11791090787,
+          "published_at": "2026-08-27T14:17:11.669700+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 50130
       }
     }
   ]
