@@ -33,11 +33,16 @@ jobs:
           python -m py_compile \
             windows/control-agent/agent.py \
             windows/control-agent/launcher.py \
-            windows/control-agent/download_watcher.py
+            windows/control-agent/download_watcher.py \
+            windows/control-agent/archive_manager.py
 
       - name: Test download watcher behavior
         working-directory: windows/control-agent
         run: python test_download_watcher.py
+
+      - name: Test safe ZIP validation and extraction
+        working-directory: windows/control-agent
+        run: python test_archive_manager.py
 
       - name: Smoke-test LAN Agent construction and filesystem API
         working-directory: windows/control-agent
