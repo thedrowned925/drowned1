@@ -38,7 +38,28 @@ async def send(ws, payload):
         return False
 
 
+def purge_screen_frames(device_id):
+    queue = mobile_queues.get(device_id)
+    if queue is None:
+        return
+    keep = []
+    while True:
+        try:
+            item = queue.get_nowait()
+        except asyncio.QueueEmpty:
+            break
+        if item.get("type") != "screen_frame":
+            keep.append(item)
+    for item in keep[-7:]:
+        try:
+            queue.put_nowait(item)
+        except asyncio.QueueFull:
+            break
+
+
 def queue_message(device_id, payload):
+    if payload.get("type") in {"test_approved", "test_failed", "test_stopped"}:
+        purge_screen_frames(device_id)
     queue = mobile_queues.setdefault(device_id, asyncio.Queue(maxsize=8))
     if queue.full():
         try:
@@ -160,6 +181,7 @@ async def agent_connection(ws, device_id):
         async with lock:
             if agents.get(device_id) is ws:
                 agents.pop(device_id, None)
+        purge_screen_frames(device_id)
         await broadcast(device_id, {
             "type": "relay_state", "device_id": device_id,
             "agent_online": False, "timestamp": time.time(),
