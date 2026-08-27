@@ -1,0 +1,254 @@
+name: Publish Remote Control Update Channel
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feature/remote-control-agent
+    paths:
+      - 'windows/control-agent/**'
+      - 'mobile/control-app/**'
+      - '.github/workflows/remote-control-update.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: drowned-control-nightly-update
+  cancel-in-progress: true
+
+env:
+  UPDATE_TAG: control-nightly
+  UPDATE_VERSION: 0.9.0-nightly.${{ github.run_number }}
+
+jobs:
+  windows-agent:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install Agent dependencies
+        shell: pwsh
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r windows/control-agent/requirements.txt pyinstaller
+
+      - name: Embed update build information
+        shell: pwsh
+        run: |
+          $buildNumber = 100000 + [int]$env:GITHUB_RUN_NUMBER
+          @"
+          BUILD_SHA = "$env:GITHUB_SHA"
+          BUILD_NUMBER = $buildNumber
+          BUILD_VERSION = "$env:UPDATE_VERSION"
+          "@ | Set-Content -Encoding utf8 windows/control-agent/build_info.py
+          @{ build_number = $buildNumber; build_sha = $env:GITHUB_SHA; version = $env:UPDATE_VERSION } |
+            ConvertTo-Json | Set-Content -Encoding utf8 windows-build.json
+
+      - name: Build updater-enabled Drowned Agent
+        shell: pwsh
+        run: |
+          pyinstaller --noconfirm --clean --onefile --console `
+            --name Drowned-Agent `
+            --paths windows/control-agent `
+            --collect-all fastapi `
+            --collect-all starlette `
+            --collect-all uvicorn `
+            windows/control-agent/launcher.py
+          if (-not (Test-Path dist/Drowned-Agent.exe)) { throw 'Drowned-Agent.exe was not created' }
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: update-windows
+          path: |
+            dist/Drowned-Agent.exe
+            windows-build.json
+          if-no-files-found: error
+          retention-days: 7
+
+  android-control:
+    runs-on: ubuntu-latest
+    env:
+      KEYSTORE_B64: ${{ secrets.DROWNED_ANDROID_KEYSTORE_BASE64 }}
+      KEYSTORE_PASSWORD: ${{ secrets.DROWNED_ANDROID_KEYSTORE_PASSWORD }}
+      KEY_ALIAS: ${{ secrets.DROWNED_ANDROID_KEY_ALIAS }}
+      KEY_PASSWORD: ${{ secrets.DROWNED_ANDROID_KEY_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK 35
+        run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Determine Android signing availability
+        id: signing
+        shell: bash
+        run: |
+          if [[ -n "$KEYSTORE_B64" && -n "$KEYSTORE_PASSWORD" && -n "$KEY_ALIAS" && -n "$KEY_PASSWORD" ]]; then
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "Android release signing secrets are not configured; Windows update will still be published."
+          fi
+
+      - name: Build Android debug as compile verification
+        shell: bash
+        run: |
+          BUILD_NUMBER=$((100000 + GITHUB_RUN_NUMBER))
+          gradle -p mobile/control-app :app:assembleDebug --stacktrace \
+            -PcontrolVersionCode="$BUILD_NUMBER" \
+            -PcontrolVersionName="$UPDATE_VERSION" \
+            -PcontrolBuildSha="$GITHUB_SHA"
+
+      - name: Decode Android signing key
+        if: steps.signing.outputs.available == 'true'
+        shell: bash
+        run: |
+          echo "$KEYSTORE_B64" | base64 --decode > "$RUNNER_TEMP/drowned-control.jks"
+
+      - name: Build signed Android release APK
+        if: steps.signing.outputs.available == 'true'
+        shell: bash
+        env:
+          DROWNED_ANDROID_KEYSTORE: ${{ runner.temp }}/drowned-control.jks
+          DROWNED_ANDROID_KEYSTORE_PASSWORD: ${{ secrets.DROWNED_ANDROID_KEYSTORE_PASSWORD }}
+          DROWNED_ANDROID_KEY_ALIAS: ${{ secrets.DROWNED_ANDROID_KEY_ALIAS }}
+          DROWNED_ANDROID_KEY_PASSWORD: ${{ secrets.DROWNED_ANDROID_KEY_PASSWORD }}
+        run: |
+          BUILD_NUMBER=$((100000 + GITHUB_RUN_NUMBER))
+          gradle -p mobile/control-app :app:assembleRelease --stacktrace \
+            -PcontrolVersionCode="$BUILD_NUMBER" \
+            -PcontrolVersionName="$UPDATE_VERSION" \
+            -PcontrolBuildSha="$GITHUB_SHA"
+          cp mobile/control-app/app/build/outputs/apk/release/app-release.apk Drowned-Control.apk
+          "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose --print-certs Drowned-Control.apk
+
+      - name: Write Android update metadata
+        shell: bash
+        env:
+          SIGNED_AVAILABLE: ${{ steps.signing.outputs.available }}
+        run: |
+          python - <<'PY'
+          import json, os
+          payload = {
+              "available": os.environ.get("SIGNED_AVAILABLE") == "true",
+              "version_code": 100000 + int(os.environ["GITHUB_RUN_NUMBER"]),
+              "build_sha": os.environ["GITHUB_SHA"],
+              "version": os.environ["UPDATE_VERSION"],
+          }
+          with open("android-build.json", "w", encoding="utf-8") as handle:
+              json.dump(payload, handle, indent=2)
+          PY
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: update-android
+          path: |
+            android-build.json
+            Drowned-Control.apk
+          if-no-files-found: warn
+          retention-days: 7
+
+  publish-update:
+    runs-on: ubuntu-latest
+    needs:
+      - windows-agent
+      - android-control
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: update-*
+          path: packages
+          merge-multiple: true
+
+      - name: Build update manifest
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          import os
+          from pathlib import Path
+
+          root = Path("packages")
+          windows_meta = json.loads((root / "windows-build.json").read_text(encoding="utf-8-sig"))
+          android_meta = json.loads((root / "android-build.json").read_text(encoding="utf-8-sig"))
+          repo = os.environ["GITHUB_REPOSITORY"]
+          tag = os.environ["UPDATE_TAG"]
+          base = f"https://github.com/{repo}/releases/download/{tag}"
+
+          def sha256(path):
+              digest = hashlib.sha256()
+              with open(path, "rb") as handle:
+                  for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+                      digest.update(chunk)
+              return digest.hexdigest()
+
+          exe = root / "Drowned-Agent.exe"
+          apk = root / "Drowned-Control.apk"
+          android_available = bool(android_meta.get("available")) and apk.exists()
+
+          manifest = {
+              "schema": 1,
+              "channel": tag,
+              "version": os.environ["UPDATE_VERSION"],
+              "build_sha": os.environ["GITHUB_SHA"],
+              "windows": {
+                  "available": True,
+                  "build_number": int(windows_meta["build_number"]),
+                  "url": f"{base}/Drowned-Agent.exe",
+                  "sha256": sha256(exe),
+              },
+              "android": {
+                  "available": android_available,
+                  "version_code": int(android_meta["version_code"]),
+                  "url": f"{base}/Drowned-Control.apk" if android_available else None,
+                  "sha256": sha256(apk) if android_available else None,
+              },
+          }
+          (root / "control-update.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+          PY
+
+      - name: Create or refresh control-nightly prerelease
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$UPDATE_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release edit "$UPDATE_TAG" --repo "$GITHUB_REPOSITORY" \
+              --title "Drowned Control Nightly" \
+              --notes "Automatic update channel for Drowned Control and Drowned Agent. Build: $GITHUB_SHA" \
+              --prerelease
+          else
+            gh release create "$UPDATE_TAG" --repo "$GITHUB_REPOSITORY" \
+              --target "$GITHUB_SHA" \
+              --title "Drowned Control Nightly" \
+              --notes "Automatic update channel for Drowned Control and Drowned Agent. Build: $GITHUB_SHA" \
+              --prerelease
+          fi
+
+          gh release upload "$UPDATE_TAG" packages/Drowned-Agent.exe \
+            --repo "$GITHUB_REPOSITORY" --clobber
+
+          if [[ -f packages/Drowned-Control.apk ]]; then
+            gh release upload "$UPDATE_TAG" packages/Drowned-Control.apk \
+              --repo "$GITHUB_REPOSITORY" --clobber
+          fi
+
+          # Manifest goes last so clients do not intentionally select a partially-published build.
+          gh release upload "$UPDATE_TAG" packages/control-update.json \
+            --repo "$GITHUB_REPOSITORY" --clobber

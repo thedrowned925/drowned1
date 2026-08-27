@@ -98,9 +98,83 @@ def load_config():
         return None
 
 
+def maybe_offer_update():
+    try:
+        from update_manager import (
+            UpdateError,
+            can_self_replace,
+            check_for_windows_update,
+            current_build_label,
+            download_windows_update,
+            schedule_windows_replace,
+        )
+    except Exception as exc:
+        print(f"Drowned Agent updater yüklenemedi: {exc}")
+        return False
+
+    if not can_self_replace():
+        return False
+
+    try:
+        update = check_for_windows_update()
+    except UpdateError as exc:
+        print(f"Güncelleme kontrolü atlandı: {exc}")
+        return False
+    except Exception as exc:
+        print(f"Güncelleme kontrolü atlandı: {exc}")
+        return False
+
+    if not update:
+        return False
+
+    import tkinter as tk
+    from tkinter import messagebox
+
+    root = tk.Tk()
+    root.withdraw()
+    root.attributes("-topmost", True)
+    try:
+        ok = messagebox.askyesno(
+            "Drowned Agent Güncellemesi",
+            "GitHub'da yeni Drowned Agent sürümü hazır.\n\n"
+            f"Mevcut: {current_build_label()}\n"
+            f"Yeni: {update.get('version')} · build {update.get('build_number')}\n\n"
+            "Şimdi GitHub'dan indirip güncelleyelim mi?",
+            parent=root,
+        )
+        if not ok:
+            return False
+
+        try:
+            downloaded = download_windows_update(update)
+            schedule_windows_replace(downloaded)
+        except Exception as exc:
+            messagebox.showerror(
+                "Drowned Agent Güncellemesi",
+                f"Güncelleme kurulamadı:\n\n{exc}",
+                parent=root,
+            )
+            return False
+
+        messagebox.showinfo(
+            "Drowned Agent Güncellemesi",
+            "Yeni EXE doğrulandı. Drowned Agent kapanıp güncel sürümle yeniden açılacak.",
+            parent=root,
+        )
+        return True
+    finally:
+        root.destroy()
+
+
 def setup_dialog(existing=None):
     import tkinter as tk
     from tkinter import messagebox
+
+    try:
+        from update_manager import current_build_label
+        build_label = current_build_label()
+    except Exception:
+        build_label = "dev"
 
     result = {}
     root = tk.Tk()
@@ -210,7 +284,10 @@ def setup_dialog(existing=None):
 
     address_text = tk.StringVar(value=f"Bağlantı adresi: {current_address()}")
     tk.Label(root, textvariable=address_text, fg="#475569").grid(
-        row=8, column=0, columnspan=3, padx=18, pady=(0, 8), sticky="w"
+        row=8, column=0, columnspan=3, padx=18, pady=(0, 4), sticky="w"
+    )
+    tk.Label(root, text=f"Sürüm: {build_label}", fg="#64748b").grid(
+        row=9, column=0, columnspan=3, padx=18, pady=(0, 8), sticky="w"
     )
 
     def refresh_address(_event=None):
@@ -249,7 +326,7 @@ def setup_dialog(existing=None):
         root.destroy()
 
     tk.Button(root, text="Kaydet ve Agent'ı Başlat", command=save, width=26).grid(
-        row=9, column=0, columnspan=3, pady=(8, 18)
+        row=10, column=0, columnspan=3, pady=(8, 18)
     )
     root.protocol("WM_DELETE_WINDOW", root.destroy)
     root.mainloop()
@@ -269,6 +346,10 @@ def save_config(config):
 def main():
     existing = load_config()
     headless = "--headless" in sys.argv
+    no_update = "--no-update" in sys.argv
+
+    if not headless and not no_update and maybe_offer_update():
+        return
 
     if headless:
         if existing is None:

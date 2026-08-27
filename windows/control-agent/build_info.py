@@ -1,0 +1,3 @@
+BUILD_SHA = "dev"
+BUILD_NUMBER = 0
+BUILD_VERSION = "dev"

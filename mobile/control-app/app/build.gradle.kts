@@ -4,6 +4,10 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose")
 }
 
+val controlVersionCode = providers.gradleProperty("controlVersionCode").orNull?.toIntOrNull() ?: 1
+val controlVersionName = providers.gradleProperty("controlVersionName").orNull ?: "1.0.0-dev"
+val controlBuildSha = providers.gradleProperty("controlBuildSha").orNull ?: "dev"
+
 android {
     namespace = "com.drowned.control"
     compileSdk = 35
@@ -12,12 +16,33 @@ android {
         applicationId = "com.drowned.control"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = controlVersionCode
+        versionName = controlVersionName
+        buildConfigField("String", "CONTROL_BUILD_SHA", "\"$controlBuildSha\"")
+    }
+
+    val keystorePath = System.getenv("DROWNED_ANDROID_KEYSTORE")
+    val releaseSigning = if (!keystorePath.isNullOrBlank()) {
+        signingConfigs.create("controlRelease") {
+            storeFile = file(keystorePath)
+            storePassword = System.getenv("DROWNED_ANDROID_KEYSTORE_PASSWORD")
+            keyAlias = System.getenv("DROWNED_ANDROID_KEY_ALIAS")
+            keyPassword = System.getenv("DROWNED_ANDROID_KEY_PASSWORD")
+        }
+    } else {
+        null
+    }
+
+    buildTypes {
+        getByName("release") {
+            isMinifyEnabled = false
+            releaseSigning?.let { signingConfig = it }
+        }
     }
 
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 
     compileOptions {
@@ -36,6 +61,7 @@ dependencies {
     androidTestImplementation(composeBom)
 
     implementation("androidx.activity:activity-compose:1.10.0")
+    implementation("androidx.core:core-ktx:1.15.0")
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.foundation:foundation")
