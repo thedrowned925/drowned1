@@ -114,6 +114,7 @@ jobs:
             -PcontrolVersionCode="$BUILD_NUMBER" \
             -PcontrolVersionName="$UPDATE_VERSION" \
             -PcontrolBuildSha="$GITHUB_SHA"
+          cp mobile/control-app/app/build/outputs/apk/debug/app-debug.apk Drowned-Control-debug.apk
 
       - name: Decode Android signing key
         if: steps.signing.outputs.available == 'true'
@@ -160,6 +161,7 @@ jobs:
           name: update-android
           path: |
             android-build.json
+            Drowned-Control-debug.apk
             Drowned-Control.apk
           if-no-files-found: warn
           retention-days: 7
@@ -244,6 +246,11 @@ jobs:
 
           gh release upload "$UPDATE_TAG" packages/Drowned-Agent.exe \
             --repo "$GITHUB_REPOSITORY" --clobber
+
+          if [[ -f packages/Drowned-Control-debug.apk ]]; then
+            gh release upload "$UPDATE_TAG" packages/Drowned-Control-debug.apk \
+              --repo "$GITHUB_REPOSITORY" --clobber
+          fi
 
           if [[ -f packages/Drowned-Control.apk ]]; then
             gh release upload "$UPDATE_TAG" packages/Drowned-Control.apk \
