@@ -20,8 +20,24 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install Agent test dependencies
+        run: python -m pip install -r windows/control-agent/requirements.txt
+
       - name: Validate Python syntax
-        run: python -m py_compile windows/control-agent/agent.py remote/relay/server.py
+        run: |
+          python -m py_compile \
+            windows/control-agent/agent.py \
+            windows/control-agent/launcher.py \
+            windows/control-agent/download_watcher.py \
+            remote/relay/server.py
+
+      - name: Test download watcher behavior
+        working-directory: windows/control-agent
+        run: python test_download_watcher.py
 
       - uses: actions/setup-java@v5
         with:
