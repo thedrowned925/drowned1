@@ -11,6 +11,8 @@ Bu sürümde **Cloudflare, relay sunucusu veya port yönlendirme yoktur**. Telef
 - Telefondan PC sürücülerini ve klasörlerini gezme
 - İndirme klasörünü telefondan seçme
 - FDM indirme klasörü izleme
+- Yeni ZIP sabit kaldığında otomatik doğrulama ve güvenli çıkarma
+- ZIP çıkarma sırasında ilerleme durumunu telefona gönderme
 - PC'den EXE seçip test başlatma
 - Test process ağacını izleme
 - Oyun penceresi / ekran önizlemesini telefona gönderme
@@ -48,6 +50,19 @@ Drowned Control > PC ekranında:
 
 Telefon ve PC aynı ağda olmalıdır. Windows Güvenlik Duvarı ilk çalıştırmada Python veya Drowned-Agent için yerel ağ izni isteyebilir.
 
+## FDM → ZIP akışı
+
+1. Telefonda veya PC'de FDM indirme klasörü seçilir.
+2. `İzlemeyi Başlat` denir.
+3. Agent başlangıçtaki dosyaları baseline olarak alır; yalnızca sonradan yeni/değişen dosyayı takip eder.
+4. Dosya boyutu **ve son değiştirilme zamanı** en az 8 saniye sabit kaldığında tamamlanmış aday kabul edilir.
+5. Aday `.zip` ise CRC, path traversal, şifreleme ve symlink kontrollerinden geçirilir.
+6. Boş disk alanı yeterliyse ZIP mevcut hiçbir klasörün üzerine yazmadan yeni bir kardeş klasöre çıkarılır.
+7. Telefon durum alanında `ZIP doğrulanıyor`, `ZIP çıkarılıyor • %...`, `ZIP çıkarıldı` veya hata mesajını görür.
+8. Çıkarılan tek üst klasör varsa `game_root` olarak belirlenir ve sonraki EXE/test aşamasında kullanılabilir.
+
+İlk MVP otomatik arşiv tarafında yalnızca ZIP destekler. RAR/7z daha sonra ayrı bir 7-Zip adapter'ı ile eklenecek.
+
 ## LAN API
 
 Tüm endpoint'ler `Authorization: Bearer <token>` ister.
@@ -82,6 +97,16 @@ Desteklenen ilk komutlar:
 - `reject_test`
 - `stop_test`
 
+## ZIP güvenliği
+
+- `../` veya mutlak yol ile hedef klasörden kaçmaya çalışan kayıtlar reddedilir.
+- Şifreli ZIP otomatik çıkarılmaz.
+- Sembolik link içeren ZIP reddedilir.
+- CRC testi başarılı olmadan çıkarma başlamaz.
+- Hedef klasör zaten varsa üzerine yazılmaz; yeni benzersiz hedef üretilir.
+- Yetersiz disk alanında çıkarma başlamaz.
+- Hata sırasında Agent'ın oluşturduğu yarım hedef klasörü temizlenir.
+
 ## Güvenlik notu
 
 Bu MVP aynı yerel ağ için HTTP kullanır. Erişim token ile sınırlandırılır ancak trafik TLS ile şifrelenmez. İnternet üzerinden doğrudan port açılması önerilmez. Uzak erişim daha sonra aynı API korunarak Tailscale gibi özel ağ katmanı üzerinden eklenebilir.
@@ -92,7 +117,6 @@ Bu MVP aynı yerel ağ için HTTP kullanır. Erişim token ile sınırlandırıl
 - Windows tray arayüzü ve başlangıçta otomatik çalışma
 - Kalıcı job/task veritabanı
 - Steam App ID metadata akışı
-- Yetkili indirme sağlayıcısı adapter'ları
-- Arşiv doğrulama / güvenli çıkarma
+- RAR/7z için 7-Zip adapter'ı
 - EXE otomatik tespiti ve sağlık testi
-- Mevcut Drowned release-manager ile publish entegrasyonu
+- Mevcut `drowned_shared.publish.publish_project` motoru ile publish entegrasyonu

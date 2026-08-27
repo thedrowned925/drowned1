@@ -30,6 +30,7 @@ class DownloadWatcher:
         self.baseline = {}
         self.active_path = None
         self.last_size = 0
+        self.last_mtime = 0.0
         self.last_sample_at = None
         self.last_change_at = None
         self.smoothed_speed = 0.0
@@ -84,8 +85,8 @@ class DownloadWatcher:
         for entry in entries:
             try:
                 if entry.is_file():
-                    stat = entry.stat()
-                    result[str(entry)] = (stat.st_size, stat.st_mtime)
+                    stat_result = entry.stat()
+                    result[str(entry)] = (stat_result.st_size, stat_result.st_mtime)
             except OSError:
                 continue
         return result
@@ -112,6 +113,7 @@ class DownloadWatcher:
         self.baseline = self._files(folder)
         self.active_path = None
         self.last_size = 0
+        self.last_mtime = 0.0
         self.last_sample_at = time.monotonic()
         self.last_change_at = time.monotonic()
         self.smoothed_speed = 0.0
@@ -123,6 +125,7 @@ class DownloadWatcher:
         self.started_at = None
         self.active_path = None
         self.last_size = 0
+        self.last_mtime = 0.0
         self.last_sample_at = None
         self.last_change_at = None
         self.smoothed_speed = 0.0
@@ -153,7 +156,7 @@ class DownloadWatcher:
         percent = min(100.0, max(0.0, extracted * 100.0 / max(1, total)))
         self._set_archive(archive_state="extracting", archive_progress=percent)
 
-    def _archive_workflow(self, path, signature):
+    def _archive_workflow(self, path):
         try:
             info = ArchiveManager.inspect(path)
             destination = ArchiveManager.default_destination(path)
@@ -192,10 +195,10 @@ class DownloadWatcher:
                 archive_error=f"Arşiv işlemi başarısız: {exc}",
             )
 
-    def _maybe_start_archive(self, path, size, state):
+    def _maybe_start_archive(self, path, size, mtime, state):
         if state != "stable" or not path or not ArchiveManager.supported(path):
             return
-        signature = (str(path), int(size or 0))
+        signature = (str(path), int(size or 0), float(mtime or 0.0))
         with self._archive_lock:
             running = self._archive_future is not None and not self._archive_future.done()
             if running or self._archive_attempt_signature == signature:
@@ -209,7 +212,7 @@ class DownloadWatcher:
             self.game_root = None
             self.archive_uncompressed_bytes = 0
             self.archive_file_count = 0
-            self._archive_future = self._archive_executor.submit(self._archive_workflow, str(path), signature)
+            self._archive_future = self._archive_executor.submit(self._archive_workflow, str(path))
 
     def poll(self):
         if not self.folder or self.started_at is None:
@@ -221,6 +224,7 @@ class DownloadWatcher:
             if candidate:
                 self.active_path = candidate
                 self.last_size = files[candidate][0]
+                self.last_mtime = files[candidate][1]
                 self.last_sample_at = time.monotonic()
                 self.last_change_at = self.last_sample_at
 
@@ -228,24 +232,27 @@ class DownloadWatcher:
             return self.status("waiting")
 
         now = time.monotonic()
-        size = files[self.active_path][0]
+        size, mtime = files[self.active_path]
         elapsed = max(0.001, now - (self.last_sample_at or now))
         delta = size - self.last_size
         instant_speed = max(0.0, delta / elapsed)
+        metadata_changed = delta != 0 or mtime != self.last_mtime
 
-        if delta != 0:
+        if metadata_changed:
             self.last_change_at = now
+        if delta != 0:
             if self.smoothed_speed <= 0:
                 self.smoothed_speed = instant_speed
             else:
                 self.smoothed_speed = self.smoothed_speed * 0.7 + instant_speed * 0.3
 
         self.last_size = size
+        self.last_mtime = mtime
         self.last_sample_at = now
         stable_for = max(0.0, now - (self.last_change_at or now))
 
-        state = "downloading" if delta > 0 or stable_for < 8 else "stable"
-        self._maybe_start_archive(self.active_path, size, state)
+        state = "downloading" if metadata_changed or stable_for < 8 else "stable"
+        self._maybe_start_archive(self.active_path, size, mtime, state)
         return self.status(state, size=size, stable_for=stable_for)
 
     def status(self, state, size=None, stable_for=0.0):
@@ -258,11 +265,23 @@ class DownloadWatcher:
 
         with self._archive_lock:
             archive_state = self.archive_state
-            effective_state = archive_state if state == "stable" and archive_state != "idle" else state
+            archive_progress = float(self.archive_progress)
+            archive_error = self.archive_error
+            effective_state = state
+            if state == "stable":
+                if archive_state == "archive_verifying":
+                    effective_state = "ZIP doğrulanıyor"
+                elif archive_state == "extracting":
+                    effective_state = f"ZIP çıkarılıyor • %{archive_progress:.1f}"
+                elif archive_state == "extracted":
+                    effective_state = "ZIP çıkarıldı"
+                elif archive_state == "archive_error":
+                    effective_state = f"ZIP hatası • {archive_error or 'Bilinmeyen hata'}"
+
             archive_payload = {
                 "archive_state": archive_state,
-                "archive_progress": float(self.archive_progress),
-                "archive_error": self.archive_error,
+                "archive_progress": archive_progress,
+                "archive_error": archive_error,
                 "archive_path": self.archive_path,
                 "extract_folder": self.extract_folder,
                 "game_root": self.game_root,
