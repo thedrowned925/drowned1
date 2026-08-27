@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 73
-- **Toplam aktif sürüm/kanal:** 73
-- **Toplam aktif boyut:** 1838.720 GB · 1.839 TB
-- **Katalog güncelleme zamanı:** 2026-08-27 14:17:11 UTC
+- **Toplam oyun:** 74
+- **Toplam aktif sürüm/kanal:** 74
+- **Toplam aktif boyut:** 1846.673 GB · 1.847 TB
+- **Katalog güncelleme zamanı:** 2026-08-27 14:29:26 UTC
 
 ## PC
 
-**73 oyun · 73 aktif sürüm/kanal · 1838.720 GB · 1.839 TB**
+**74 oyun · 74 aktif sürüm/kanal · 1846.673 GB · 1.847 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -34,6 +34,7 @@
 | Cyberpunk 2077 | 1.0.0 | stable | 102.015 | 0.102 | `pc-cyberpunk-2077-v1.0.0-stable` |
 | DARK SOULS™ III | 1.0.0 | stable | 26.890 | 0.027 | `pc-dark-souls-iii-v1.0.0-stable` |
 | DARK SOULS™: Prepare To Die™ Edition | 1.0.0 | stable | 3.962 | 0.004 | `pc-dark-souls-prepare-to-die-edition-v1.0.0-stable` |
+| Dead Space (2008) | 1.0.0 | stable | 7.953 | 0.008 | `pc-dead-space-2008-v1.0.0-stable` |
 | Diablo 2 | 1.0.0 | stable | 2.016 | 0.002 | `pc-diablo-2-v1.0.0-stable` |
 | Dishonored | 1.0.0 | stable | 18.079 | 0.018 | `pc-dishonored-v1.0.0-stable` |
 | DOOM | 1.0.0 | stable | 73.984 | 0.074 | `pc-doom-v1.0.0-stable` |
