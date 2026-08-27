@@ -1,0 +1,2562 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "wolfenstein-the-new-order",
+    "title": "Wolfenstein: The New Order",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Wolfenstein®: The New Order reignites the series that created the first-person shooter genre. Wolfenstein offers a deep game narrative packed with action, adventure and first-person combat."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-wolfenstein-the-new-order-v1.0.0-stable"
+  },
+  "chunk_size": 1167278675,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 46691146967,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "base/360_0.cfg",
+      "size": 225,
+      "sha256": "c930070b92a8afd51223d44db584a374ad1d776402eb339374d069bcfbc83806"
+    },
+    {
+      "path": "base/360_1.cfg",
+      "size": 239,
+      "sha256": "f34e3132adfd22d54ef9bd7d7314f9f6e8403bb19b68bd386cc64468b0e1171c"
+    },
+    {
+      "path": "base/360_2.cfg",
+      "size": 233,
+      "sha256": "40daa17a6d140cc9bd212ec022db6de3cb6449499315e09a170c826585909f85"
+    },
+    {
+      "path": "base/360_3.cfg",
+      "size": 254,
+      "sha256": "d1e1d0881e2e6fecc7e25145b1428571c100da73001c3afc7c25e448af96b7ba"
+    },
+    {
+      "path": "base/bink/ingame/c01/cs_c01_condornine_score_hg.bik",
+      "size": 10352476,
+      "sha256": "44ea8e8d05a6a8b2a1432e9b8a33e948cd959aa57522a9c851aad87b7b451a84"
+    },
+    {
+      "path": "base/bink/ingame/c01/cs_c01_crashedplane_radio_hg.bik",
+      "size": 46757020,
+      "sha256": "5a1314b3c593bcacb9104c67c3a663d7f5eb2dbf8b09f85e27411b92c0f8f1b9"
+    },
+    {
+      "path": "base/bink/ingame/c01/cs_c01_thechoice_fergus_hg.bik",
+      "size": 54914840,
+      "sha256": "7db155b8e4bd491373bd3810c30e47b5d1d798641c86b8e47461db596a338548"
+    },
+    {
+      "path": "base/bink/ingame/c01/cs_c01_thechoice_wyatt_hg.bik",
+      "size": 55037408,
+      "sha256": "20d55ce9aad388c7ff8d202f85a7459b627c1a814881a283ee23a0785e628140"
+    },
+    {
+      "path": "base/bink/ingame/c01/cs_c01_theplan_hg.bik",
+      "size": 25392060,
+      "sha256": "82688f959e277c0e11abafe869cda7781674e154b208ca11035ba91c15de4c13"
+    },
+    {
+      "path": "base/bink/ingame/c02/cs_c02_bath_bigman_hg.bik",
+      "size": 5937244,
+      "sha256": "09652b588b32e8b403c6f7d30a607778fb4eaf3bbb8e127dc22ecb61d5f04ce3"
+    },
+    {
+      "path": "base/bink/ingame/c02/cs_c02_decapitate_hg.bik",
+      "size": 10005992,
+      "sha256": "38b595978aeabe64172f3bb829bf17855f10e4fea3b96a1f2b1b0d70b4c507f8"
+    },
+    {
+      "path": "base/bink/ingame/c04/cs_c04_berlinhotel_balcony_hg.bik",
+      "size": 38383924,
+      "sha256": "c6d80304f52b76aac578da6a956afa1ece3eba888eeffc7aecfe78ee133f8e1e"
+    },
+    {
+      "path": "base/bink/ingame/c05/cs_c05_inside_fergus_hg.bik",
+      "size": 100161984,
+      "sha256": "640c931b0e81930239ea9e567efdf9e2416d4950cffcff553052e87328b99ad0"
+    },
+    {
+      "path": "base/bink/ingame/c05/cs_c05_inside_wyatt_hg.bik",
+      "size": 94603988,
+      "sha256": "70de49c74688c9221fa5cdca68c1489a8c6e37cb11f797f7b7fbd01f00718822"
+    },
+    {
+      "path": "base/bink/ingame/c05/cs_c05_klausroom_thefolder_hg.bik",
+      "size": 51382084,
+      "sha256": "58d66e798bbbdf98ac5589f2a66e706651111050401cb7a8b12aa532abf5ecde"
+    },
+    {
+      "path": "base/bink/ingame/c05/cs_c05_maxroom2_hidage_hg.bik",
+      "size": 19239888,
+      "sha256": "58dac6fb7ffe36b65808a71623a85ebf94b23e5367090e99ff85fdc285fd421d"
+    },
+    {
+      "path": "base/bink/ingame/c07/cs_c07_concrete_sawing_hg.bik",
+      "size": 58448156,
+      "sha256": "ba1bf4349c2690f72439d57228cca80c420fb477c597b70d66b0bfaca3265d9f"
+    },
+    {
+      "path": "base/bink/ingame/c07/cs_c07_daatyichud_kiss_hg.bik",
+      "size": 62815128,
+      "sha256": "9c0409d7d0f406bb37c7ec82dc7fa153bfb431bedd3e08a4fb931ad81ac82882"
+    },
+    {
+      "path": "base/bink/ingame/c07/cs_c07_wrongchoice_fergus_hg.bik",
+      "size": 75596520,
+      "sha256": "a8939b72448b6f66a17157a21ad8744bc2dc046900670dcd76c18c1c947be657"
+    },
+    {
+      "path": "base/bink/ingame/c07/cs_c07_wrongchoice_wyatt_hg.bik",
+      "size": 75625456,
+      "sha256": "69fc4dd78e13e4d94107b1ae76b7548b0f80b0dad20fd1c97375c16d8a42c96a"
+    },
+    {
+      "path": "base/bink/ingame/c08/cs_c08_backtoset_battery_hg.bik",
+      "size": 39511020,
+      "sha256": "2c39d77d11a468a10ea201d1c2d2aa488a8dabea7fe56ce44dbe3e5d1ae9954a"
+    },
+    {
+      "path": "base/bink/ingame/c08/cs_c08_getinfo_hg.bik",
+      "size": 47402492,
+      "sha256": "0df8210cb0fba0c9e6da665dc45720d72e5790aecba26c9709fbfc3c1e513ca9"
+    },
+    {
+      "path": "base/bink/ingame/c08/cs_c08_proposition_hg.bik",
+      "size": 107808068,
+      "sha256": "8a6369b49ca354f01232e3a33d7ee4d1d92eb8073dcf74060542b794ec6315ba"
+    },
+    {
+      "path": "base/bink/ingame/c08/cs_c08_swapuniform_hg.bik",
+      "size": 56732880,
+      "sha256": "5ec34905da31c6224afbc9e7f620471d8ebfd15d3adc1e31931f96391d0b6724"
+    },
+    {
+      "path": "base/bink/ingame/c08/cs_c08_tattoo_hg.bik",
+      "size": 14977664,
+      "sha256": "1c8dd659a7c03f6ece0a2d97a2fa2735176d55249a832bb97246befd08f51677"
+    },
+    {
+      "path": "base/bink/ingame/c08/cs_c08_throwbattery_hg.bik",
+      "size": 9457180,
+      "sha256": "a3d0e7d023506c3b276e23c8b2efc4d2b25153eeb734fca69243838876550302"
+    },
+    {
+      "path": "base/bink/ingame/c09/cs_c09_movechair_hg.bik",
+      "size": 35403604,
+      "sha256": "1790165c4c4830c3f6bab873d9673ed4b9cbc251b0e13ee9b817a522802b7702"
+    },
+    {
+      "path": "base/bink/ingame/c09/cs_c09_secretguitar_wyatt_hg.bik",
+      "size": 139647260,
+      "sha256": "df94258f1d0680476482d849e538ab45e641c78796c0b52054ef6b03eac74bc3"
+    },
+    {
+      "path": "base/bink/ingame/c09/cs_c09_secretmilk_fergus_hg.bik",
+      "size": 198767932,
+      "sha256": "48f383edb39a1e66ba064a7a5fc6b21a5ca0fa93a236d35c391c0fe416568df1"
+    },
+    {
+      "path": "base/bink/ingame/c09/cs_c09_welding_fergus_hg.bik",
+      "size": 16692364,
+      "sha256": "cb4669ab2268f3f88711e8cb5af32e407fc281005217376c243091c1e20aed6c"
+    },
+    {
+      "path": "base/bink/ingame/c09/cs_c09_welding_wyatt_hg.bik",
+      "size": 11948616,
+      "sha256": "1bbb4792934ed2545fad70aea7ce60d2a882f78cfe3edf252b962cebceb1406a"
+    },
+    {
+      "path": "base/bink/ingame/c11/cs_c11_prism_fergus_hg.bik",
+      "size": 11326612,
+      "sha256": "f1820d0721486352065f228249083c9be2ca35bc05ab08b862d735c7849cb28d"
+    },
+    {
+      "path": "base/bink/ingame/c11/cs_c11_prism_wyatt_hg.bik",
+      "size": 11328344,
+      "sha256": "219024a591de847ec5e2deb72dbb392747420794751bb77337cb55d99fe07306"
+    },
+    {
+      "path": "base/bink/ingame/c13/cs_c13_gearup_hg.bik",
+      "size": 33978248,
+      "sha256": "8113cd689daf508674fbe281255406809ac24d0eca793a3264cd7d78b0276bfb"
+    },
+    {
+      "path": "base/bink/ingame/c13/cs_c13_gettingkeys_hg.bik",
+      "size": 10238216,
+      "sha256": "5c86f266e0db2797e9e00b5b82f4d26d5f419f401085e56dcd646671fdd02171"
+    },
+    {
+      "path": "base/bink/ingame/c15/cs_c15_aircontrol_jdies_hg.bik",
+      "size": 68797632,
+      "sha256": "06482125519fd051a583523e5c2f5ad09b9e3d84111aba69e8519e105203e797"
+    },
+    {
+      "path": "base/bink/ingame/c15/cs_c15_aircontrol_tekladies_hg.bik",
+      "size": 71249828,
+      "sha256": "784e7b57b4fc9d0ef23a0abcbbafb3216cffc18e974afb9bb44244f07455b4db"
+    },
+    {
+      "path": "base/bink/ingame/c16/cs_c16_mecha_defeated_fergus_hg.bik",
+      "size": 38196220,
+      "sha256": "d23526fd179a29f1d7dfd29c0a4de7f4b62acffb58d0c497e27d85295a847b69"
+    },
+    {
+      "path": "base/bink/ingame/c16/cs_c16_mecha_defeated_wyatt_hg.bik",
+      "size": 38193544,
+      "sha256": "bea8dc9335eb4105999172d64ac03157a3aeda0534a39a83dc2ac07a7fd79850"
+    },
+    {
+      "path": "base/bink/ingame/c16/cs_c16_mecha_ending_fergus_hg.bik",
+      "size": 329870312,
+      "sha256": "61b525c2b1a9be74ce491bdabb7324c524a950f53a23f078518c07edbfd74584"
+    },
+    {
+      "path": "base/bink/ingame/c16/cs_c16_mecha_ending_wyatt_hg.bik",
+      "size": 329870156,
+      "sha256": "ff41d503e3fc833f674babd96e08091d42cb1b6349bd24834e5ef0c293a95a44"
+    },
+    {
+      "path": "base/bink/ingame/c16/cs_c16_releasefriend_fergus_hg.bik",
+      "size": 55644320,
+      "sha256": "78a52d8184451384970153e04477b60d2335d1815838fe62a0669cad6cd87365"
+    },
+    {
+      "path": "base/bink/ingame/c16/cs_c16_releasefriend_wyatt_hg.bik",
+      "size": 55620200,
+      "sha256": "946f8d6a8e9ad42c4880c95ed2a2831b87e10b28539fc770299fe05d9760fc43"
+    },
+    {
+      "path": "base/bink/loading/c01/cs_c01_inthewater_hg.bik",
+      "size": 25468044,
+      "sha256": "6b3f5c30f2abb31783df536948fd92bf9bcc79a3fb7c5e5ebe5b4c6811eda331"
+    },
+    {
+      "path": "base/bink/loading/c01/cs_c01_introduction_intro_hg.bik",
+      "size": 27132848,
+      "sha256": "9feb738c68a432278b409038d134f30d1532e9c8632b51b43c152a1107d0b3ea"
+    },
+    {
+      "path": "base/bink/loading/c01/cs_c01_peptalk_intro_hg.bik",
+      "size": 108552920,
+      "sha256": "edc6ec534b13a80ad5a75d686b30cd1e089a8e2a2cf247ed07eb0261666f0861"
+    },
+    {
+      "path": "base/bink/loading/c01/cs_c01_transition_hg.bik",
+      "size": 1379200,
+      "sha256": "2f49f587fe2148a4a5f7f46b39fd49a0f3777f33571a438bed5c6e00c33fdc91"
+    },
+    {
+      "path": "base/bink/loading/c02/cs_c02_fourteenyears_adrift_hg.bik",
+      "size": 86071012,
+      "sha256": "ffc344a7852c2db7f1b01d20a3b405611f9feaf634371f068f86fd92d9f6544c"
+    },
+    {
+      "path": "base/bink/loading/c02/cs_c02_timelapse_hg.bik",
+      "size": 63858344,
+      "sha256": "fc32715d742577a26d69f268a704ed089528b3be7ab98371f73b12c8c3f27bc8"
+    },
+    {
+      "path": "base/bink/loading/c03/cs_c03_coffeemachine_hg.bik",
+      "size": 37969760,
+      "sha256": "87efc90dd6e381b6c3ddc0c9be87bbeaf40b1f9867224f4f46e725274a2025e1"
+    },
+    {
+      "path": "base/bink/loading/c03/cs_c03_grandparents_hg.bik",
+      "size": 220685348,
+      "sha256": "6cefb5e55195448756458d5269ccb72c82fb563eac57ef38f0d5ea42121812ef"
+    },
+    {
+      "path": "base/bink/loading/c03/cs_c03_safepassage_journey_hg.bik",
+      "size": 118527940,
+      "sha256": "5a2d3d58790c9aa75541ac35ffea8d117c66f68b6bc81fce18c5e01a81e75a81"
+    },
+    {
+      "path": "base/bink/loading/c04/cs_c04_leavingforprison_hg.bik",
+      "size": 50662504,
+      "sha256": "1306fcdd63c4112fa64480f31cecde1844a751801639455b00c476c66dec0db5"
+    },
+    {
+      "path": "base/bink/loading/c04/cs_c04_pastime_sexscene_hg.bik",
+      "size": 45052800,
+      "sha256": "d1da1cdd863f10242191b125430ad2f279478cac2b360452b2553daca24aa2bf"
+    },
+    {
+      "path": "base/bink/loading/c04/cs_c04_thedoor_fergus_hg.bik",
+      "size": 53284960,
+      "sha256": "78bf3005e25c76555cb72c53d342f77c19554f63317189f52cdf1060691cbddb"
+    },
+    {
+      "path": "base/bink/loading/c04/cs_c04_thedoor_wyatt_hg.bik",
+      "size": 42103932,
+      "sha256": "36435690688675eef224d77246377bc1dafbeaadc682f89e8d726881f1ef1e95"
+    },
+    {
+      "path": "base/bink/loading/c05/cs_c05_policecar_fergus_hg.bik",
+      "size": 105577288,
+      "sha256": "fea5a8b212d23b7fad69ea05ae70be5389a289ce4a45bbb5d6578467d8e87f57"
+    },
+    {
+      "path": "base/bink/loading/c05/cs_c05_policecar_wyatt_hg.bik",
+      "size": 105670980,
+      "sha256": "99232693a938b2373416fff7aac1ab8e0b06afe86f0c3af6a30f3fe561bd2deb"
+    },
+    {
+      "path": "base/bink/loading/c06/cs_c06_bobbysac_fergus_hg.bik",
+      "size": 81047796,
+      "sha256": "947a5784070d8f17d92187e38db556dca53c9d317d9890c448b4af435e8ff5f8"
+    },
+    {
+      "path": "base/bink/loading/c06/cs_c06_bobbysac_wyatt_hg.bik",
+      "size": 81227144,
+      "sha256": "aefb0203417025f1fe1c7f18a5fbe7343b0c42eae23d7d83bde0dfae3a3e11ab"
+    },
+    {
+      "path": "base/bink/loading/c06/cs_c06_findparchments_hg.bik",
+      "size": 46873016,
+      "sha256": "fe46d97e926644da09417aa3629df05afe3a8c0123ab89e1d8fce400b89e3aab"
+    },
+    {
+      "path": "base/bink/loading/c07/cs_c07_helicopter_fergus_hg.bik",
+      "size": 108890500,
+      "sha256": "4064df50ceb484c723d16df59d7f387a3f99cc119c9dc9b354a69bdcf1dbb294"
+    },
+    {
+      "path": "base/bink/loading/c07/cs_c07_helicopter_wyatt_hg.bik",
+      "size": 108928476,
+      "sha256": "21eff657be5083d09dea19066a57d5585ff90b946a4f7ec2befcb73dc595b687"
+    },
+    {
+      "path": "base/bink/loading/c08/cs_c08_electrocuted_hg.bik",
+      "size": 40339112,
+      "sha256": "d16d8884222793393b6c4d60c0b8fcde0ea5cd8a3fd2e890fe79be8dccb5aae9"
+    },
+    {
+      "path": "base/bink/loading/c08/cs_c08_undercover_fergus_hg.bik",
+      "size": 108004168,
+      "sha256": "bb4d9eba746ca141139345777004f01805f77ea1fa23c7757b49db7d61b91b77"
+    },
+    {
+      "path": "base/bink/loading/c08/cs_c08_undercover_wyatt_hg.bik",
+      "size": 104241140,
+      "sha256": "9557b9d6bbc1bdbcfb303a8ac3a78ed84df0386c7d804b132e05d07551e54093"
+    },
+    {
+      "path": "base/bink/loading/c09/cs_c09_escapingcamp_fergus_hg.bik",
+      "size": 121940748,
+      "sha256": "f5d605c31cc538259f2cafd11d2324c4447715042626251a8248f3874781c9f7"
+    },
+    {
+      "path": "base/bink/loading/c09/cs_c09_escapingcamp_wyatt_hg.bik",
+      "size": 122006236,
+      "sha256": "7543340fceb1b647f0f28c343a77cdce1b776f3d4088560150b0b33c7db5feb7"
+    },
+    {
+      "path": "base/bink/loading/c10/cs_c10_thingamajig_hg.bik",
+      "size": 69245424,
+      "sha256": "e875b6dd75ad9fa98959e87d7220607875f53bdc8a36b6be1510255631ec5894"
+    },
+    {
+      "path": "base/bink/loading/c11/cs_c11_hiddencargo_fergus_hg.bik",
+      "size": 69339824,
+      "sha256": "0874f4ac2855d27111077310ca3c50751a1ea4d0ef482463cb4c91e63587a5ca"
+    },
+    {
+      "path": "base/bink/loading/c11/cs_c11_hiddencargo_wyatt_hg.bik",
+      "size": 69641116,
+      "sha256": "8c2f231d2b227fe3a6efb34929fa454d91221be5046cfca791bb488d380cedbb"
+    },
+    {
+      "path": "base/bink/loading/c11/cs_c11_theabyss_fergus_hg.bik",
+      "size": 71185636,
+      "sha256": "169e688d3a470411cf383cd7723d1158686266994eb6b09b652f3032d6a70491"
+    },
+    {
+      "path": "base/bink/loading/c11/cs_c11_theabyss_wyatt_hg.bik",
+      "size": 79430980,
+      "sha256": "28ea046ea9159d5752b6f400a429daf794dec734c4ef70ccbfe912f5c7398546"
+    },
+    {
+      "path": "base/bink/loading/c12/cs_c12_spindlytorque_fergus_hg.bik",
+      "size": 55153876,
+      "sha256": "93d10a9f9679c91a34a505dbb658cb4ba331f3c7cc5ddc71394400688bbf57ca"
+    },
+    {
+      "path": "base/bink/loading/c12/cs_c12_spindlytorque_wyatt_hg.bik",
+      "size": 55129380,
+      "sha256": "6e1651f6b9fc03dab33f20909974c0fed51e0e089baf923efc6d989e1cc1701b"
+    },
+    {
+      "path": "base/bink/loading/c12/cs_c12_traincrash_fergus_hg.bik",
+      "size": 36875036,
+      "sha256": "0b232a3ac8c86dcf4eccca1d5fddd6b5773fc7d25a55cb2b9ea0d40938b4f836"
+    },
+    {
+      "path": "base/bink/loading/c12/cs_c12_traincrash_wyatt_hg.bik",
+      "size": 36860632,
+      "sha256": "c8866dac1e97b0c531f8cb2215042e0d31dca193f3ff335d642fe9c12eabdbba"
+    },
+    {
+      "path": "base/bink/loading/c13/cs_c13_campmemory_hg.bik",
+      "size": 65836500,
+      "sha256": "653dc91cc3beb48eb5dc93fc5b28c91880284885c3234edb4d46c3387e91a3ca"
+    },
+    {
+      "path": "base/bink/loading/c13/cs_c13_lunarshuttle_launch_hg.bik",
+      "size": 34786256,
+      "sha256": "aee680c40da77852d2747927f14ea7bb2071f4520487ada9327431937ca9764a"
+    },
+    {
+      "path": "base/bink/loading/c14/cs_c14_crashlanding_impact_hg.bik",
+      "size": 59919444,
+      "sha256": "4ad242baada38ed44c3ee458e4d910ed4dcf47421f482ce670ed23b9322fce44"
+    },
+    {
+      "path": "base/bink/loading/c15/cs_c15_thegetaway_fergus_hg.bik",
+      "size": 130037364,
+      "sha256": "cee17c686c791d88cd840d82be16fea2930aadb1a075eb1197a8d26ed209a462"
+    },
+    {
+      "path": "base/bink/loading/c15/cs_c15_thegetaway_wyatt_hg.bik",
+      "size": 129879104,
+      "sha256": "cf5a4d0d68c13457e0ae4d6e9067cdb3af78feafc02f04df4433bab14a5b49d4"
+    },
+    {
+      "path": "base/bink/loading/c16/cs_c16_cannon_spindlytorque_hg.bik",
+      "size": 27849120,
+      "sha256": "938c6997519aed51d5746a497ba43f43879438e003261c69ae10e8911b19ddfb"
+    },
+    {
+      "path": "base/bink/loading/c16/cs_c16_escape_fergus_hg.bik",
+      "size": 151010432,
+      "sha256": "835db2012078a6fe4ee0f60c40291a900b69d526a2f72b4edb27aaa4f9c5a761"
+    },
+    {
+      "path": "base/bink/loading/c16/cs_c16_escape_wyatt_hg.bik",
+      "size": 151028484,
+      "sha256": "04e37e3a8698a19dcc5f19ac07e6d2630a8a0c5a59b9f41cc2970612f3d99a49"
+    },
+    {
+      "path": "base/bink/loading/c16/cs_c16_homecoming_fergus_hg.bik",
+      "size": 178335756,
+      "sha256": "b0faa9cc36171e919bf7660bf03f99715b8951c9f8283e87b82131e4b8008dc1"
+    },
+    {
+      "path": "base/bink/loading/c16/cs_c16_homecoming_wyatt_hg.bik",
+      "size": 178280544,
+      "sha256": "ba58bcc9bd8f3ce7e7ed20ad8d59c903873d262bbc7f823f51d4e12d68506726"
+    },
+    {
+      "path": "base/bink/loadvideo_pc_xboxone.bik",
+      "size": 17745892,
+      "sha256": "77bcbac5211ee5804c486d967542a14a34497d4eb26fb77a24ab40502d40f0d9"
+    },
+    {
+      "path": "base/bink/menu_credits.bik",
+      "size": 226247876,
+      "sha256": "53bde565543ac5c9b4831e0aec52390b7861483558a7801d0ac9706d3cb3ed4e"
+    },
+    {
+      "path": "base/bink/tungsten_outro_hg.bik",
+      "size": 3101224,
+      "sha256": "ebd4ff437a186009328381cb4a0711b34bb0d1e4ece8763be6da832adeb82b13"
+    },
+    {
+      "path": "base/build.cfg",
+      "size": 122,
+      "sha256": "0340a6a8cb2506798bc036173166758fa2a110dd495f2ffc51d6255f111fa4ad"
+    },
+    {
+      "path": "base/chunk0.index",
+      "size": 2641223,
+      "sha256": "6eb39807883c4abef90809dd5bd01ebdeef89a57d16552eb7132916612d42766"
+    },
+    {
+      "path": "base/chunk0.resources",
+      "size": 151143644,
+      "sha256": "ab47f84f1e41bd89460290bfab9fe0235a3e833607c3b54baf708603d26f9f09"
+    },
+    {
+      "path": "base/chunk1.index",
+      "size": 751275,
+      "sha256": "8403fe9c387bcf18f60f0e9ad69dd7664fb7e3c753156856191c5c70c259759b"
+    },
+    {
+      "path": "base/chunk1.resources",
+      "size": 72937791,
+      "sha256": "1e53e135d7e441d0fd3e460052772a2a215afdd3ff43537432dc80a387ed1090"
+    },
+    {
+      "path": "base/chunk10.index",
+      "size": 2689464,
+      "sha256": "696fe1eee4d517a00a9901cd8e2ce157766103eda6d96649d0cba90be697964b"
+    },
+    {
+      "path": "base/chunk10.resources",
+      "size": 171929018,
+      "sha256": "149c9504ba7774ed310cd398fa5fe149aaea77ffb93d4c729045d6146d0956c2"
+    },
+    {
+      "path": "base/chunk11.index",
+      "size": 3124083,
+      "sha256": "1e3824f780d7e77b544ef5bb871eeace803fee9e8e65d02d2de1f560d1c42ba9"
+    },
+    {
+      "path": "base/chunk11.resources",
+      "size": 140010225,
+      "sha256": "c3cfa91fadca3112c2bf48efc8a79f5129081711faf5ebe180a9001a53d93bb8"
+    },
+    {
+      "path": "base/chunk12.index",
+      "size": 3632899,
+      "sha256": "5a49562ed6fb23869011862659d84eb16b06c9cf09247ca3a05edbb973eadb44"
+    },
+    {
+      "path": "base/chunk12.resources",
+      "size": 466092508,
+      "sha256": "d2dd4e3c732e12864c7ebe0a4d370f78935c3482eb040da416e6ce172498e8b1"
+    },
+    {
+      "path": "base/chunk13.index",
+      "size": 2608096,
+      "sha256": "d47d238bab62db6a06de4a04f72a8e62241c4164fa90604fd11d89bfd55183e9"
+    },
+    {
+      "path": "base/chunk13.resources",
+      "size": 207988458,
+      "sha256": "d6befeb3d4f9bdbce91f656e01c95a05489a53f7abbfd27d3110f006dd34b376"
+    },
+    {
+      "path": "base/chunk2.index",
+      "size": 5077296,
+      "sha256": "f904e457899d36b333d27c7cc3cdae0499f214082d6df8711eb4a6e9d4c9d4ea"
+    },
+    {
+      "path": "base/chunk2.resources",
+      "size": 368313812,
+      "sha256": "6ddfd79cc28ee61b5a88933017df0614f0aeed84ba7e2b7f8a8b7011f389b037"
+    },
+    {
+      "path": "base/chunk3.index",
+      "size": 3175899,
+      "sha256": "bfa0e3d7b376fe598f77f6594a2fb579bd33a517ee722854724eb8a4dec2f09a"
+    },
+    {
+      "path": "base/chunk3.resources",
+      "size": 120805323,
+      "sha256": "f5daf817ba642774d085723a2efbafe1178ae7691062158849b8e504fba8a2be"
+    },
+    {
+      "path": "base/chunk4.index",
+      "size": 3439075,
+      "sha256": "15511d773082c45499152e83ae9e5882b784626bcc24f8693b9ba7b08880a0bb"
+    },
+    {
+      "path": "base/chunk4.resources",
+      "size": 159496933,
+      "sha256": "7fd922ea2932f4778285934e93c5a5bc306e2f66dc253c479271c37f078e7cf3"
+    },
+    {
+      "path": "base/chunk5.index",
+      "size": 4512674,
+      "sha256": "2370b55c0b0079ef34283c9f47d098050f12839ec05116f3849ae0755463a551"
+    },
+    {
+      "path": "base/chunk5.resources",
+      "size": 232915383,
+      "sha256": "18e98e9c20c51d609d2d44243319d03affb85b4b4ea713f06fc799a346ecd5ed"
+    },
+    {
+      "path": "base/chunk6.index",
+      "size": 3646764,
+      "sha256": "3a2cce0bc0e0d465e150e36f012280f82f238598f4f3ae6d1adecc19e0468a03"
+    },
+    {
+      "path": "base/chunk6.resources",
+      "size": 278407651,
+      "sha256": "f3365bfec5ffea774728b641d4e21f66ccec743241203303f8c2aecf352bd3b9"
+    },
+    {
+      "path": "base/chunk7.index",
+      "size": 3502084,
+      "sha256": "1064b752bedd84b362e216496af06e872f172d74199f82145d2d2d6f0693d009"
+    },
+    {
+      "path": "base/chunk7.resources",
+      "size": 204413224,
+      "sha256": "76386e70892cd4238675bccf6d5445a5cb0f8bb0d2e69d1d588a9b35abe109e8"
+    },
+    {
+      "path": "base/chunk8.index",
+      "size": 3377285,
+      "sha256": "03df79ddbe3e36e1ef7d80c2fb70e705aaf9727a6d8107901411bc71de2f80a3"
+    },
+    {
+      "path": "base/chunk8.resources",
+      "size": 160704313,
+      "sha256": "d1d38029ff42ad733caf5af403e28465e69988aac8d805852f7a690e34aeade2"
+    },
+    {
+      "path": "base/chunk9.index",
+      "size": 2869205,
+      "sha256": "24007eece56fa23e0638fb065c1522ce697f016e14e46f6d7f51afc19e9e8d66"
+    },
+    {
+      "path": "base/chunk9.resources",
+      "size": 203610999,
+      "sha256": "6887cbc1cebbdd99305c71473fafe2d4145bd2f9e88c44122269e67bb0509cf6"
+    },
+    {
+      "path": "base/default.cfg",
+      "size": 4966,
+      "sha256": "89b9d926be7f0e0345cb263f019decf779d51303181c96aa0e65e658c03158dd"
+    },
+    {
+      "path": "base/english.streamed",
+      "size": 415137488,
+      "sha256": "efe6afc6bbb759cb097f37715bcdcea2f61684e0a5d681d01ab4996417299780"
+    },
+    {
+      "path": "base/gamechunktoinstallchunk.gic",
+      "size": 678,
+      "sha256": "7612c748230509299cf6559d6e2c097a116a7677c43ba8c2edb93c7a8fe79eb7"
+    },
+    {
+      "path": "base/graphicsdriverwarningloc.json",
+      "size": 1851,
+      "sha256": "b3895590c7c7742ee3328db5fe407991cbc75af865a479d4cafb9511024fe31a"
+    },
+    {
+      "path": "base/graphicsprofiles.json",
+      "size": 1518,
+      "sha256": "7e4dfe1006231965db03a3430451d600d446b7965ae3bb69003feaf99826398a"
+    },
+    {
+      "path": "base/joystick.cfg",
+      "size": 5390,
+      "sha256": "b405c8540de1f8adf5a1d1b5a40a92ca3bc4a58d5ddee64f0d48bdcd971ab96f"
+    },
+    {
+      "path": "base/joystickAlt.cfg",
+      "size": 400,
+      "sha256": "08f6e21fe823852512eba7a6adfd0957788018cb9cb92ce4102100b519b4f173"
+    },
+    {
+      "path": "base/joystickAltLefthanded.cfg",
+      "size": 2520,
+      "sha256": "078dadcbd79378fb70d00dd768103c99f3a6e990454c815896f7ad18e92d64ac"
+    },
+    {
+      "path": "base/joystickLeftHanded.cfg",
+      "size": 2263,
+      "sha256": "02b80ac6b9fc6e45857485709ea5c9bfc58d5d04bde4640a354cc3f053924b4f"
+    },
+    {
+      "path": "base/master.index",
+      "size": 520,
+      "sha256": "899c954d2df154a174933acddfd4d00b3b85e9db40a0590b692bbe3ce661c01d"
+    },
+    {
+      "path": "base/streamed.resources",
+      "size": 1157177472,
+      "sha256": "cbcabba19f0e2330f0813c60f7725bccaab613df7a1693c4a4a2a17a9ab828ad"
+    },
+    {
+      "path": "bink2w64.dll",
+      "size": 430592,
+      "sha256": "07915cf09c53bdec299854d05dba1435e15a5640c71f1ac48b0cd5512046e8f1"
+    },
+    {
+      "path": "changelog.txt",
+      "size": 661,
+      "sha256": "38fed2546efe468328ca3883a78d5bf4c5cd5378d190749e5946d87d3f015f16"
+    },
+    {
+      "path": "cudart64_40_17.dll",
+      "size": 576616,
+      "sha256": "5a4a568c865442fd368477256916e4c3917196d6567564f37f360ad42c78f474"
+    },
+    {
+      "path": "steam_api.ini",
+      "size": 2341,
+      "sha256": "709a034dd1193ff23e0cf45110cafcce939099841443641991f721cc6dc51791"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 1040388,
+      "sha256": "7a9db1224517c31f16bb21dccaea0576856ab2f4ea5dd3a68423aea982cf4e9e"
+    },
+    {
+      "path": "superscriptx64.dll",
+      "size": 295936,
+      "sha256": "e8d1b5f6cb6dffeb992e146d1bd5d953bf07812bbad7644468a61240f895cf70"
+    },
+    {
+      "path": "virtualtextures/_vmtr.pages",
+      "size": 1201132468,
+      "sha256": "9bcf8b637695a2d9c8d0dadfaaba1949f7a6a7f1a5a92a7ed9809f4d6dce4905"
+    },
+    {
+      "path": "virtualtextures/c01p1.pages",
+      "size": 377469950,
+      "sha256": "7565d52d58d8a032f9d4992393f64e2418c3ee45ed65b27b78d0d82dbe5cb7e5"
+    },
+    {
+      "path": "virtualtextures/c01p2.pages",
+      "size": 2962672722,
+      "sha256": "1cfc03db0656c4d0ae487e8d5f55200222499391776bf6c857fd56d1d7880e7a"
+    },
+    {
+      "path": "virtualtextures/c01p3.pages",
+      "size": 1825253862,
+      "sha256": "9f3a90cbee71c4cda3db654f7be0b3e679e092635ec01c0feee5b657fc75cc76"
+    },
+    {
+      "path": "virtualtextures/c01p4.pages",
+      "size": 98403358,
+      "sha256": "95ba8c2d2ea4f0c0a712156106d5d8f6084938195d2f3230b9f8f8a414e1e6b5"
+    },
+    {
+      "path": "virtualtextures/c02p0.pages",
+      "size": 87461550,
+      "sha256": "91f7e6bced0caff77ed552beb07cbc799bcb5996b3edb212bf03387ea9fd71b9"
+    },
+    {
+      "path": "virtualtextures/c02p1.pages",
+      "size": 1483282120,
+      "sha256": "d1f2f94a6f23d31e53b822fa67f9064c8c76ff0db13da21d861e5ea52c32af82"
+    },
+    {
+      "path": "virtualtextures/c03p1.pages",
+      "size": 27244700,
+      "sha256": "c2d2f109856c93452a59236cd4b76d4ec6219b3a69734e7d10460b79a1ee2e2f"
+    },
+    {
+      "path": "virtualtextures/c03p2.pages",
+      "size": 2497490872,
+      "sha256": "40bec87f5c507f9b6a4bfcd1a09e6dcd6533cb45f5d17bfe6c5c9d59fd4281b6"
+    },
+    {
+      "path": "virtualtextures/c03p3.pages",
+      "size": 76360770,
+      "sha256": "3db84c9414c768c404da6b0a36054cbc27176e5851da9f1608d403bdb0009dfa"
+    },
+    {
+      "path": "virtualtextures/c04p1.pages",
+      "size": 366169026,
+      "sha256": "c5c8c0d3246d2243faca3a4faba874d07aa695df59097adc479628e14d5d4660"
+    },
+    {
+      "path": "virtualtextures/c04p2_3.pages",
+      "size": 2003741214,
+      "sha256": "eb354df14113b8d1ef886e8eecee43030fedcb80b2a31f64b4290c76f9475d0b"
+    },
+    {
+      "path": "virtualtextures/c05_07_09.pages",
+      "size": 1562415502,
+      "sha256": "b1b20deca4d251e150ffd637b2489232564d5cfe3cf30826836994cf88780cf2"
+    },
+    {
+      "path": "virtualtextures/c06p1.pages",
+      "size": 1658113524,
+      "sha256": "7029792bf9151cd3df936a659ce5dd52bda6a9a0e6b4d3da0e718c49f7bfa3af"
+    },
+    {
+      "path": "virtualtextures/c06p2.pages",
+      "size": 786520104,
+      "sha256": "01e4d164d3ea5e67483be47c289cce63c5d03742b23dc572a876115f54b1cb2b"
+    },
+    {
+      "path": "virtualtextures/c08p1_2.pages",
+      "size": 2306825930,
+      "sha256": "3d3fc1596f2f1c3ac43881d2d9e6a5c3d99990b8e14d4515f6e3f32cef08b749"
+    },
+    {
+      "path": "virtualtextures/c10p1.pages",
+      "size": 1449205384,
+      "sha256": "95a37ad1e1996710a29b6da744d24d02866df98baacc787c8f90908dbb2d143f"
+    },
+    {
+      "path": "virtualtextures/c11p1.pages",
+      "size": 1072939680,
+      "sha256": "e225e736d1527cadfa677b53be2105df786465bebc9e9276d2f8a7ec95eb2b4f"
+    },
+    {
+      "path": "virtualtextures/c11p2.pages",
+      "size": 389967710,
+      "sha256": "1186430baa8329369ed7110231409f97763c8423048915289e41e98f007b0039"
+    },
+    {
+      "path": "virtualtextures/c12p1.pages",
+      "size": 13563938,
+      "sha256": "35e512577562dd206917ae4f626d3e4b7ba9fdb9d7cbdb1ac2def74b5f05481c"
+    },
+    {
+      "path": "virtualtextures/c12p2.pages",
+      "size": 2384834120,
+      "sha256": "6bdb4c1c915e0b76de1a5d30d704f0c3664e5d1467169eaa1ae6ee665fb19e7b"
+    },
+    {
+      "path": "virtualtextures/c13p1.pages",
+      "size": 2759436762,
+      "sha256": "fbfe9f08a914a041bffc4b50c70eb66ff40a1be11e1892b53ea0f81a2d196f5a"
+    },
+    {
+      "path": "virtualtextures/c14p1.pages",
+      "size": 2254604604,
+      "sha256": "57a5b2c820af1392f151e00e6060408a351160849f5b43be194dc2b68dea7485"
+    },
+    {
+      "path": "virtualtextures/c16p0.pages",
+      "size": 80537674,
+      "sha256": "16ddd2868407fd24636cd1fddd254205065eaab7703e9b07f7a39a7d21b00fc4"
+    },
+    {
+      "path": "virtualtextures/c16p1.pages",
+      "size": 1319301046,
+      "sha256": "238748609812fcbabcba35641e36d962aca5bcf5d47b858757403f63627840a2"
+    },
+    {
+      "path": "virtualtextures/c16p2.pages",
+      "size": 656127032,
+      "sha256": "24ea17484cb6c0196230908a235489dd2fd88548b3744df1381792f1794a0cbb"
+    },
+    {
+      "path": "virtualtextures/chunk10_vmtr.pages",
+      "size": 133125706,
+      "sha256": "503271c543cd0a4d4e481adaf14dd2db072683637798fa8637bb8d9bcf0904ba"
+    },
+    {
+      "path": "virtualtextures/chunk11_vmtr.pages",
+      "size": 217138008,
+      "sha256": "22627075dc516fe7722295dce99ca82dd891317f22463a2eea5d4421a67451d0"
+    },
+    {
+      "path": "virtualtextures/chunk12_vmtr.pages",
+      "size": 472863440,
+      "sha256": "b429c42ce23e9bd96d0f5e0353bd010085aa80b71e438df5ef276ae8511fd066"
+    },
+    {
+      "path": "virtualtextures/chunk13_vmtr.pages",
+      "size": 170385518,
+      "sha256": "b96b4a0398acad85718c48d5af5ea417b8451e5f1f0824106705359a842f75e1"
+    },
+    {
+      "path": "virtualtextures/chunk1_vmtr.pages",
+      "size": 328689744,
+      "sha256": "f2783813b53c753725604c8014e4b0cb84e6c0b5b396689f202fb5ab04e6abfe"
+    },
+    {
+      "path": "virtualtextures/chunk2_vmtr.pages",
+      "size": 576057044,
+      "sha256": "6ad7833bf6c6979e1f3e8fd47f83214e500367a9478acdc868d16b1441be2a02"
+    },
+    {
+      "path": "virtualtextures/chunk3_vmtr.pages",
+      "size": 157924838,
+      "sha256": "76f2a7fb2b807daacbb292c183e0ae10b73e6d37fe7af87bfd742e0124cab0df"
+    },
+    {
+      "path": "virtualtextures/chunk4_vmtr.pages",
+      "size": 207657402,
+      "sha256": "beaed6d450e01af29374960c9f3759c9e318c914d5bb6481f4f6125cd247a63b"
+    },
+    {
+      "path": "virtualtextures/chunk5_vmtr.pages",
+      "size": 189907258,
+      "sha256": "ad7fa5dc76ff949d9b2e4965df3d83692c7719412e52168c20809b533dc0164f"
+    },
+    {
+      "path": "virtualtextures/chunk6_vmtr.pages",
+      "size": 490348530,
+      "sha256": "ce370df040d006910679b614a561cbb049cb76c782ec4a1bdf0666de5f5e8072"
+    },
+    {
+      "path": "virtualtextures/chunk7_vmtr.pages",
+      "size": 471253316,
+      "sha256": "3202270cc161ef307712d30dc3a92e817a11c08b345fb366629cd0aa885bf12d"
+    },
+    {
+      "path": "virtualtextures/chunk8_vmtr.pages",
+      "size": 311808086,
+      "sha256": "348ac26fb106291599575e8988796e31c57b77c323710152ab86d8051f948c41"
+    },
+    {
+      "path": "virtualtextures/chunk9_vmtr.pages",
+      "size": 199115366,
+      "sha256": "b02548d9a2aeacd5da7d0aba5fd5c578a20a8195412ed950af1ce2201f8152e3"
+    },
+    {
+      "path": "WolfNewOrder_x64.exe",
+      "size": 26345040,
+      "sha256": "12f6d3f459cbd5ae3040324fd67a5f081291d279e929a331fe7c4990e8db3278"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "base/360_0.cfg",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 225
+        },
+        {
+          "file": "base/360_1.cfg",
+          "file_offset": 0,
+          "chunk_offset": 49220001,
+          "length": 239
+        },
+        {
+          "file": "base/360_2.cfg",
+          "file_offset": 0,
+          "chunk_offset": 49220240,
+          "length": 233
+        },
+        {
+          "file": "base/360_3.cfg",
+          "file_offset": 0,
+          "chunk_offset": 49220473,
+          "length": 254
+        },
+        {
+          "file": "base/bink/ingame/c01/cs_c01_condornine_score_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 49220727,
+          "length": 10352476
+        },
+        {
+          "file": "base/bink/ingame/c01/cs_c01_crashedplane_radio_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 59573203,
+          "length": 46757020
+        },
+        {
+          "file": "base/bink/ingame/c01/cs_c01_thechoice_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 106330223,
+          "length": 54914840
+        },
+        {
+          "file": "base/bink/ingame/c01/cs_c01_thechoice_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 161245063,
+          "length": 55037408
+        },
+        {
+          "file": "base/bink/ingame/c01/cs_c01_theplan_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 216282471,
+          "length": 25392060
+        },
+        {
+          "file": "base/bink/ingame/c02/cs_c02_bath_bigman_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 241674531,
+          "length": 5937244
+        },
+        {
+          "file": "base/bink/ingame/c02/cs_c02_decapitate_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 247611775,
+          "length": 10005992
+        },
+        {
+          "file": "base/bink/ingame/c04/cs_c04_berlinhotel_balcony_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 257617767,
+          "length": 38383924
+        },
+        {
+          "file": "base/bink/ingame/c05/cs_c05_inside_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 296001691,
+          "length": 100161984
+        },
+        {
+          "file": "base/bink/ingame/c05/cs_c05_inside_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 396163675,
+          "length": 94603988
+        },
+        {
+          "file": "base/bink/ingame/c05/cs_c05_klausroom_thefolder_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 490767663,
+          "length": 51382084
+        },
+        {
+          "file": "base/bink/ingame/c05/cs_c05_maxroom2_hidage_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 542149747,
+          "length": 19239888
+        },
+        {
+          "file": "base/bink/ingame/c07/cs_c07_concrete_sawing_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 561389635,
+          "length": 58448156
+        },
+        {
+          "file": "base/bink/ingame/c07/cs_c07_daatyichud_kiss_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 619837791,
+          "length": 62815128
+        },
+        {
+          "file": "base/bink/ingame/c07/cs_c07_wrongchoice_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 682652919,
+          "length": 75596520
+        },
+        {
+          "file": "base/bink/ingame/c07/cs_c07_wrongchoice_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 758249439,
+          "length": 75625456
+        },
+        {
+          "file": "base/bink/ingame/c08/cs_c08_backtoset_battery_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 833874895,
+          "length": 39511020
+        },
+        {
+          "file": "base/bink/ingame/c08/cs_c08_getinfo_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 873385915,
+          "length": 47402492
+        },
+        {
+          "file": "base/bink/ingame/c08/cs_c08_proposition_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 920788407,
+          "length": 107808068
+        },
+        {
+          "file": "base/bink/ingame/c08/cs_c08_swapuniform_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 1028596475,
+          "length": 56732880
+        },
+        {
+          "file": "base/bink/ingame/c08/cs_c08_tattoo_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 1085329355,
+          "length": 14977664
+        },
+        {
+          "file": "base/bink/ingame/c08/cs_c08_throwbattery_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 1100307019,
+          "length": 9457180
+        },
+        {
+          "file": "base/bink/ingame/c09/cs_c09_movechair_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 1109764199,
+          "length": 35403604
+        },
+        {
+          "file": "base/bink/ingame/c09/cs_c09_secretguitar_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 1145167803,
+          "length": 22110872
+        }
+      ],
+      "sha256": "3cbc9e104086bb2fafc2f2c259576f323f162441437f51984ef15988706a2350"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "base/bink/ingame/c09/cs_c09_secretguitar_wyatt_hg.bik",
+          "file_offset": 22110872,
+          "chunk_offset": 0,
+          "length": 117536388
+        },
+        {
+          "file": "base/bink/ingame/c09/cs_c09_secretmilk_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 117536388,
+          "length": 198767932
+        },
+        {
+          "file": "base/bink/ingame/c09/cs_c09_welding_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 316304320,
+          "length": 16692364
+        },
+        {
+          "file": "base/bink/ingame/c09/cs_c09_welding_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 332996684,
+          "length": 11948616
+        },
+        {
+          "file": "base/bink/ingame/c11/cs_c11_prism_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 344945300,
+          "length": 11326612
+        },
+        {
+          "file": "base/bink/ingame/c11/cs_c11_prism_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 356271912,
+          "length": 11328344
+        },
+        {
+          "file": "base/bink/ingame/c13/cs_c13_gearup_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 367600256,
+          "length": 33978248
+        },
+        {
+          "file": "base/bink/ingame/c13/cs_c13_gettingkeys_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 401578504,
+          "length": 10238216
+        },
+        {
+          "file": "base/bink/ingame/c15/cs_c15_aircontrol_jdies_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 411816720,
+          "length": 68797632
+        },
+        {
+          "file": "base/bink/ingame/c15/cs_c15_aircontrol_tekladies_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 480614352,
+          "length": 71249828
+        },
+        {
+          "file": "base/bink/ingame/c16/cs_c16_mecha_defeated_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 551864180,
+          "length": 38196220
+        },
+        {
+          "file": "base/bink/ingame/c16/cs_c16_mecha_defeated_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 590060400,
+          "length": 38193544
+        },
+        {
+          "file": "base/bink/ingame/c16/cs_c16_mecha_ending_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 628253944,
+          "length": 329870312
+        },
+        {
+          "file": "base/bink/ingame/c16/cs_c16_mecha_ending_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 958124256,
+          "length": 209154419
+        }
+      ],
+      "sha256": "6b7296deddce70d13cf783fcda77eb6402a5d53bc55ca953cb46b7a6b755cc73"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "base/bink/ingame/c16/cs_c16_mecha_ending_wyatt_hg.bik",
+          "file_offset": 209154419,
+          "chunk_offset": 0,
+          "length": 120715737
+        },
+        {
+          "file": "base/bink/ingame/c16/cs_c16_releasefriend_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 120715737,
+          "length": 55644320
+        },
+        {
+          "file": "base/bink/ingame/c16/cs_c16_releasefriend_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 176360057,
+          "length": 55620200
+        },
+        {
+          "file": "base/bink/loading/c01/cs_c01_inthewater_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 231980257,
+          "length": 25468044
+        },
+        {
+          "file": "base/bink/loading/c01/cs_c01_introduction_intro_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 257448301,
+          "length": 27132848
+        },
+        {
+          "file": "base/bink/loading/c01/cs_c01_peptalk_intro_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 284581149,
+          "length": 108552920
+        },
+        {
+          "file": "base/bink/loading/c01/cs_c01_transition_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 393134069,
+          "length": 1379200
+        },
+        {
+          "file": "base/bink/loading/c02/cs_c02_fourteenyears_adrift_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 394513269,
+          "length": 86071012
+        },
+        {
+          "file": "base/bink/loading/c02/cs_c02_timelapse_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 480584281,
+          "length": 63858344
+        },
+        {
+          "file": "base/bink/loading/c03/cs_c03_coffeemachine_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 544442625,
+          "length": 37969760
+        },
+        {
+          "file": "base/bink/loading/c03/cs_c03_grandparents_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 582412385,
+          "length": 220685348
+        },
+        {
+          "file": "base/bink/loading/c03/cs_c03_safepassage_journey_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 803097733,
+          "length": 118527940
+        },
+        {
+          "file": "base/bink/loading/c04/cs_c04_leavingforprison_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 921625673,
+          "length": 50662504
+        },
+        {
+          "file": "base/bink/loading/c04/cs_c04_pastime_sexscene_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 972288177,
+          "length": 45052800
+        },
+        {
+          "file": "base/bink/loading/c04/cs_c04_thedoor_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 1017340977,
+          "length": 53284960
+        },
+        {
+          "file": "base/bink/loading/c04/cs_c04_thedoor_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 1070625937,
+          "length": 42103932
+        },
+        {
+          "file": "base/bink/loading/c05/cs_c05_policecar_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 1112729869,
+          "length": 54548806
+        }
+      ],
+      "sha256": "f30443000778232a0351cc8d0759affed36ec1ca272b19887e6edf27ad657415"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "base/bink/loading/c05/cs_c05_policecar_fergus_hg.bik",
+          "file_offset": 54548806,
+          "chunk_offset": 0,
+          "length": 51028482
+        },
+        {
+          "file": "base/bink/loading/c05/cs_c05_policecar_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 51028482,
+          "length": 105670980
+        },
+        {
+          "file": "base/bink/loading/c06/cs_c06_bobbysac_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 156699462,
+          "length": 81047796
+        },
+        {
+          "file": "base/bink/loading/c06/cs_c06_bobbysac_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 237747258,
+          "length": 81227144
+        },
+        {
+          "file": "base/bink/loading/c06/cs_c06_findparchments_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 318974402,
+          "length": 46873016
+        },
+        {
+          "file": "base/bink/loading/c07/cs_c07_helicopter_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 365847418,
+          "length": 108890500
+        },
+        {
+          "file": "base/bink/loading/c07/cs_c07_helicopter_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 474737918,
+          "length": 108928476
+        },
+        {
+          "file": "base/bink/loading/c08/cs_c08_electrocuted_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 583666394,
+          "length": 40339112
+        },
+        {
+          "file": "base/bink/loading/c08/cs_c08_undercover_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 624005506,
+          "length": 108004168
+        },
+        {
+          "file": "base/bink/loading/c08/cs_c08_undercover_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 732009674,
+          "length": 104241140
+        },
+        {
+          "file": "base/bink/loading/c09/cs_c09_escapingcamp_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 836250814,
+          "length": 121940748
+        },
+        {
+          "file": "base/bink/loading/c09/cs_c09_escapingcamp_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 958191562,
+          "length": 122006236
+        },
+        {
+          "file": "base/bink/loading/c10/cs_c10_thingamajig_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 1080197798,
+          "length": 69245424
+        },
+        {
+          "file": "base/bink/loading/c11/cs_c11_hiddencargo_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 1149443222,
+          "length": 17835453
+        }
+      ],
+      "sha256": "3c81000a7cbfed00acdb66b51022c0fb8f9b2bdc88bc2bbfecba0770e00d2193"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "base/bink/loading/c11/cs_c11_hiddencargo_fergus_hg.bik",
+          "file_offset": 17835453,
+          "chunk_offset": 0,
+          "length": 51504371
+        },
+        {
+          "file": "base/bink/loading/c11/cs_c11_hiddencargo_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 51504371,
+          "length": 69641116
+        },
+        {
+          "file": "base/bink/loading/c11/cs_c11_theabyss_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 121145487,
+          "length": 71185636
+        },
+        {
+          "file": "base/bink/loading/c11/cs_c11_theabyss_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 192331123,
+          "length": 79430980
+        },
+        {
+          "file": "base/bink/loading/c12/cs_c12_spindlytorque_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 271762103,
+          "length": 55153876
+        },
+        {
+          "file": "base/bink/loading/c12/cs_c12_spindlytorque_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 326915979,
+          "length": 55129380
+        },
+        {
+          "file": "base/bink/loading/c12/cs_c12_traincrash_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 382045359,
+          "length": 36875036
+        },
+        {
+          "file": "base/bink/loading/c12/cs_c12_traincrash_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 418920395,
+          "length": 36860632
+        },
+        {
+          "file": "base/bink/loading/c13/cs_c13_campmemory_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 455781027,
+          "length": 65836500
+        },
+        {
+          "file": "base/bink/loading/c13/cs_c13_lunarshuttle_launch_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 521617527,
+          "length": 34786256
+        },
+        {
+          "file": "base/bink/loading/c14/cs_c14_crashlanding_impact_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 556403783,
+          "length": 59919444
+        },
+        {
+          "file": "base/bink/loading/c15/cs_c15_thegetaway_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 616323227,
+          "length": 130037364
+        },
+        {
+          "file": "base/bink/loading/c15/cs_c15_thegetaway_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 746360591,
+          "length": 129879104
+        },
+        {
+          "file": "base/bink/loading/c16/cs_c16_cannon_spindlytorque_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 876239695,
+          "length": 27849120
+        },
+        {
+          "file": "base/bink/loading/c16/cs_c16_escape_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 904088815,
+          "length": 151010432
+        },
+        {
+          "file": "base/bink/loading/c16/cs_c16_escape_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 1055099247,
+          "length": 112179428
+        }
+      ],
+      "sha256": "f6a32f5822779a89ac67299594270e595b9bb564916caa203632ff11b592645b"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "base/bink/loading/c16/cs_c16_escape_wyatt_hg.bik",
+          "file_offset": 112179428,
+          "chunk_offset": 0,
+          "length": 38849056
+        },
+        {
+          "file": "base/bink/loading/c16/cs_c16_homecoming_fergus_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 38849056,
+          "length": 178335756
+        },
+        {
+          "file": "base/bink/loading/c16/cs_c16_homecoming_wyatt_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 217184812,
+          "length": 178280544
+        },
+        {
+          "file": "base/bink/loadvideo_pc_xboxone.bik",
+          "file_offset": 0,
+          "chunk_offset": 395465356,
+          "length": 17745892
+        },
+        {
+          "file": "base/bink/menu_credits.bik",
+          "file_offset": 0,
+          "chunk_offset": 413211248,
+          "length": 226247876
+        },
+        {
+          "file": "base/bink/tungsten_outro_hg.bik",
+          "file_offset": 0,
+          "chunk_offset": 639459124,
+          "length": 3101224
+        },
+        {
+          "file": "base/build.cfg",
+          "file_offset": 0,
+          "chunk_offset": 642560348,
+          "length": 122
+        },
+        {
+          "file": "base/chunk0.index",
+          "file_offset": 0,
+          "chunk_offset": 642560470,
+          "length": 2641223
+        },
+        {
+          "file": "base/chunk0.resources",
+          "file_offset": 0,
+          "chunk_offset": 645201693,
+          "length": 151143644
+        },
+        {
+          "file": "base/chunk1.index",
+          "file_offset": 0,
+          "chunk_offset": 796345337,
+          "length": 751275
+        },
+        {
+          "file": "base/chunk1.resources",
+          "file_offset": 0,
+          "chunk_offset": 797096612,
+          "length": 72937791
+        },
+        {
+          "file": "base/chunk10.index",
+          "file_offset": 0,
+          "chunk_offset": 870034403,
+          "length": 2689464
+        },
+        {
+          "file": "base/chunk10.resources",
+          "file_offset": 0,
+          "chunk_offset": 872723867,
+          "length": 171929018
+        },
+        {
+          "file": "base/chunk11.index",
+          "file_offset": 0,
+          "chunk_offset": 1044652885,
+          "length": 3124083
+        },
+        {
+          "file": "base/chunk11.resources",
+          "file_offset": 0,
+          "chunk_offset": 1047776968,
+          "length": 119501707
+        }
+      ],
+      "sha256": "504139a07de1565cdc9766c86b5f3fd933cc3811fb05247b731d841152623e13"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "base/chunk11.resources",
+          "file_offset": 119501707,
+          "chunk_offset": 0,
+          "length": 20508518
+        },
+        {
+          "file": "base/chunk12.index",
+          "file_offset": 0,
+          "chunk_offset": 20508518,
+          "length": 3632899
+        },
+        {
+          "file": "base/chunk12.resources",
+          "file_offset": 0,
+          "chunk_offset": 24141417,
+          "length": 466092508
+        },
+        {
+          "file": "base/chunk13.index",
+          "file_offset": 0,
+          "chunk_offset": 490233925,
+          "length": 2608096
+        },
+        {
+          "file": "base/chunk13.resources",
+          "file_offset": 0,
+          "chunk_offset": 492842021,
+          "length": 207988458
+        },
+        {
+          "file": "base/chunk2.index",
+          "file_offset": 0,
+          "chunk_offset": 700830479,
+          "length": 5077296
+        },
+        {
+          "file": "base/chunk2.resources",
+          "file_offset": 0,
+          "chunk_offset": 705907775,
+          "length": 368313812
+        },
+        {
+          "file": "base/chunk3.index",
+          "file_offset": 0,
+          "chunk_offset": 1074221587,
+          "length": 3175899
+        },
+        {
+          "file": "base/chunk3.resources",
+          "file_offset": 0,
+          "chunk_offset": 1077397486,
+          "length": 89881189
+        }
+      ],
+      "sha256": "d4a65a40e8177955238abb6e082a5b448d01089fc15fffaaedeaf4cd1541b85f"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "base/chunk3.resources",
+          "file_offset": 89881189,
+          "chunk_offset": 0,
+          "length": 30924134
+        },
+        {
+          "file": "base/chunk4.index",
+          "file_offset": 0,
+          "chunk_offset": 30924134,
+          "length": 3439075
+        },
+        {
+          "file": "base/chunk4.resources",
+          "file_offset": 0,
+          "chunk_offset": 34363209,
+          "length": 159496933
+        },
+        {
+          "file": "base/chunk5.index",
+          "file_offset": 0,
+          "chunk_offset": 193860142,
+          "length": 4512674
+        },
+        {
+          "file": "base/chunk5.resources",
+          "file_offset": 0,
+          "chunk_offset": 198372816,
+          "length": 232915383
+        },
+        {
+          "file": "base/chunk6.index",
+          "file_offset": 0,
+          "chunk_offset": 431288199,
+          "length": 3646764
+        },
+        {
+          "file": "base/chunk6.resources",
+          "file_offset": 0,
+          "chunk_offset": 434934963,
+          "length": 278407651
+        },
+        {
+          "file": "base/chunk7.index",
+          "file_offset": 0,
+          "chunk_offset": 713342614,
+          "length": 3502084
+        },
+        {
+          "file": "base/chunk7.resources",
+          "file_offset": 0,
+          "chunk_offset": 716844698,
+          "length": 204413224
+        },
+        {
+          "file": "base/chunk8.index",
+          "file_offset": 0,
+          "chunk_offset": 921257922,
+          "length": 3377285
+        },
+        {
+          "file": "base/chunk8.resources",
+          "file_offset": 0,
+          "chunk_offset": 924635207,
+          "length": 160704313
+        },
+        {
+          "file": "base/chunk9.index",
+          "file_offset": 0,
+          "chunk_offset": 1085339520,
+          "length": 2869205
+        },
+        {
+          "file": "base/chunk9.resources",
+          "file_offset": 0,
+          "chunk_offset": 1088208725,
+          "length": 79069950
+        }
+      ],
+      "sha256": "7b616d049d0844959de0c4aef990e57ae42dabea63a44af85d80d269f0e1cea8"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "base/chunk9.resources",
+          "file_offset": 79069950,
+          "chunk_offset": 0,
+          "length": 124541049
+        },
+        {
+          "file": "base/default.cfg",
+          "file_offset": 0,
+          "chunk_offset": 124541049,
+          "length": 4966
+        },
+        {
+          "file": "base/english.streamed",
+          "file_offset": 0,
+          "chunk_offset": 124546015,
+          "length": 415137488
+        },
+        {
+          "file": "base/gamechunktoinstallchunk.gic",
+          "file_offset": 0,
+          "chunk_offset": 539683503,
+          "length": 678
+        },
+        {
+          "file": "base/graphicsdriverwarningloc.json",
+          "file_offset": 0,
+          "chunk_offset": 539684181,
+          "length": 1851
+        },
+        {
+          "file": "base/graphicsprofiles.json",
+          "file_offset": 0,
+          "chunk_offset": 539686032,
+          "length": 1518
+        },
+        {
+          "file": "base/joystick.cfg",
+          "file_offset": 0,
+          "chunk_offset": 539687550,
+          "length": 5390
+        },
+        {
+          "file": "base/joystickAlt.cfg",
+          "file_offset": 0,
+          "chunk_offset": 539692940,
+          "length": 400
+        },
+        {
+          "file": "base/joystickAltLefthanded.cfg",
+          "file_offset": 0,
+          "chunk_offset": 539693340,
+          "length": 2520
+        },
+        {
+          "file": "base/joystickLeftHanded.cfg",
+          "file_offset": 0,
+          "chunk_offset": 539695860,
+          "length": 2263
+        },
+        {
+          "file": "base/master.index",
+          "file_offset": 0,
+          "chunk_offset": 539698123,
+          "length": 520
+        },
+        {
+          "file": "base/streamed.resources",
+          "file_offset": 0,
+          "chunk_offset": 539698643,
+          "length": 627580032
+        }
+      ],
+      "sha256": "a91dc8d2d175bf4ace31cd7b11e155e0a4a292a629b47c52ba1df9d6347bf7ba"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "base/streamed.resources",
+          "file_offset": 627580032,
+          "chunk_offset": 0,
+          "length": 529597440
+        },
+        {
+          "file": "bink2w64.dll",
+          "file_offset": 0,
+          "chunk_offset": 529597440,
+          "length": 430592
+        },
+        {
+          "file": "changelog.txt",
+          "file_offset": 0,
+          "chunk_offset": 530028032,
+          "length": 661
+        },
+        {
+          "file": "cudart64_40_17.dll",
+          "file_offset": 0,
+          "chunk_offset": 530028693,
+          "length": 576616
+        },
+        {
+          "file": "steam_api.ini",
+          "file_offset": 0,
+          "chunk_offset": 530605309,
+          "length": 2341
+        },
+        {
+          "file": "steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 530607650,
+          "length": 1040388
+        },
+        {
+          "file": "superscriptx64.dll",
+          "file_offset": 0,
+          "chunk_offset": 531648038,
+          "length": 295936
+        },
+        {
+          "file": "virtualtextures/_vmtr.pages",
+          "file_offset": 0,
+          "chunk_offset": 531943974,
+          "length": 635334701
+        }
+      ],
+      "sha256": "8daceaba15f5d19d248853b6073956ba7ea99da24eb94d0616888e8cb3c1ba45"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/_vmtr.pages",
+          "file_offset": 635334701,
+          "chunk_offset": 0,
+          "length": 565797767
+        },
+        {
+          "file": "virtualtextures/c01p1.pages",
+          "file_offset": 0,
+          "chunk_offset": 565797767,
+          "length": 377469950
+        },
+        {
+          "file": "virtualtextures/c01p2.pages",
+          "file_offset": 0,
+          "chunk_offset": 943267717,
+          "length": 224010958
+        }
+      ],
+      "sha256": "b3ebc6a5b18e274fc61b1941a6db7bff64da61db4a3001aaf779f4a1a53d4d65"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c01p2.pages",
+          "file_offset": 224010958,
+          "chunk_offset": 0,
+          "length": 1167278675
+        }
+      ],
+      "sha256": "6027db68b012610d250c63458d8175ada710900d258fe9bc547c896e4a1f06be"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c01p2.pages",
+          "file_offset": 1391289633,
+          "chunk_offset": 0,
+          "length": 1167278675
+        }
+      ],
+      "sha256": "8cdeac1a3745bb98c9ec666f12b1796b6f2cbb14d1e0ef19bf1fb28e0fd3c419"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c01p2.pages",
+          "file_offset": 2558568308,
+          "chunk_offset": 0,
+          "length": 404104414
+        },
+        {
+          "file": "virtualtextures/c01p3.pages",
+          "file_offset": 0,
+          "chunk_offset": 404104414,
+          "length": 763174261
+        }
+      ],
+      "sha256": "cddb8fa343ddf8323a6db58d7c102b036d400ba6ef3b10ec06dc5c0832cb9827"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c01p3.pages",
+          "file_offset": 763174261,
+          "chunk_offset": 0,
+          "length": 1062079601
+        },
+        {
+          "file": "virtualtextures/c01p4.pages",
+          "file_offset": 0,
+          "chunk_offset": 1062079601,
+          "length": 98403358
+        },
+        {
+          "file": "virtualtextures/c02p0.pages",
+          "file_offset": 0,
+          "chunk_offset": 1160482959,
+          "length": 6795716
+        }
+      ],
+      "sha256": "ddddd5e518ac024f628d4ecbc038a39aa5be2a80b35602bfb7925853f295710a"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c02p0.pages",
+          "file_offset": 6795716,
+          "chunk_offset": 0,
+          "length": 80665834
+        },
+        {
+          "file": "virtualtextures/c02p1.pages",
+          "file_offset": 0,
+          "chunk_offset": 80665834,
+          "length": 1086612841
+        }
+      ],
+      "sha256": "6f2f485e3ce45b20784b890838356e0f72156ab8ac1fad124d16adb2c23bbff9"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c02p1.pages",
+          "file_offset": 1086612841,
+          "chunk_offset": 0,
+          "length": 396669279
+        },
+        {
+          "file": "virtualtextures/c03p1.pages",
+          "file_offset": 0,
+          "chunk_offset": 396669279,
+          "length": 27244700
+        },
+        {
+          "file": "virtualtextures/c03p2.pages",
+          "file_offset": 0,
+          "chunk_offset": 423913979,
+          "length": 743364696
+        }
+      ],
+      "sha256": "e4e064abbe1faefa04379a48e3fd449a8d1c77eb496474462162c3ca02a23d94"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c03p2.pages",
+          "file_offset": 743364696,
+          "chunk_offset": 0,
+          "length": 1167278675
+        }
+      ],
+      "sha256": "928e0b9ed48e57742d038a69ec36da29d931c8c34d3dbd6d63bc49715913cde2"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c03p2.pages",
+          "file_offset": 1910643371,
+          "chunk_offset": 0,
+          "length": 586847501
+        },
+        {
+          "file": "virtualtextures/c03p3.pages",
+          "file_offset": 0,
+          "chunk_offset": 586847501,
+          "length": 76360770
+        },
+        {
+          "file": "virtualtextures/c04p1.pages",
+          "file_offset": 0,
+          "chunk_offset": 663208271,
+          "length": 366169026
+        },
+        {
+          "file": "virtualtextures/c04p2_3.pages",
+          "file_offset": 0,
+          "chunk_offset": 1029377297,
+          "length": 137901378
+        }
+      ],
+      "sha256": "1cb9d2280639a3fd3f39c80975a8ce9856713302c8e3aad8a7bf3e728d9e3be0"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c04p2_3.pages",
+          "file_offset": 137901378,
+          "chunk_offset": 0,
+          "length": 1167278675
+        }
+      ],
+      "sha256": "3533504d2fb034f36dfa6c621d76f378759b5f7c42454247421cfcca03fdaf28"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c04p2_3.pages",
+          "file_offset": 1305180053,
+          "chunk_offset": 0,
+          "length": 698561161
+        },
+        {
+          "file": "virtualtextures/c05_07_09.pages",
+          "file_offset": 0,
+          "chunk_offset": 698561161,
+          "length": 468717514
+        }
+      ],
+      "sha256": "d09329a1f934bdaf39758ff2f576cd7b71e2ec0a7780cb8b111727a48a0fb064"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c05_07_09.pages",
+          "file_offset": 468717514,
+          "chunk_offset": 0,
+          "length": 1093697988
+        },
+        {
+          "file": "virtualtextures/c06p1.pages",
+          "file_offset": 0,
+          "chunk_offset": 1093697988,
+          "length": 73580687
+        }
+      ],
+      "sha256": "51151c92d7b504f1c4ab7a68274a57ed43891d5ce23cf7f3558f0bc98d80f9fd"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c06p1.pages",
+          "file_offset": 73580687,
+          "chunk_offset": 0,
+          "length": 1167278675
+        }
+      ],
+      "sha256": "6ce6f25ff02d2f7f3b17ac4690b56133d2d371eca94f9e95fdfd33af0e928211"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c06p1.pages",
+          "file_offset": 1240859362,
+          "chunk_offset": 0,
+          "length": 417254162
+        },
+        {
+          "file": "virtualtextures/c06p2.pages",
+          "file_offset": 0,
+          "chunk_offset": 417254162,
+          "length": 750024513
+        }
+      ],
+      "sha256": "12a3cf3d6a3da69236343e8d1d98747dde6677b6d89c37ff2ed1b4f584e85db8"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c06p2.pages",
+          "file_offset": 750024513,
+          "chunk_offset": 0,
+          "length": 36495591
+        },
+        {
+          "file": "virtualtextures/c08p1_2.pages",
+          "file_offset": 0,
+          "chunk_offset": 36495591,
+          "length": 1130783084
+        }
+      ],
+      "sha256": "940e70d7742f14c88d48b36bdad7e2083e01784787d5f1701be34c0a0e86aba3"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c08p1_2.pages",
+          "file_offset": 1130783084,
+          "chunk_offset": 0,
+          "length": 1167278675
+        }
+      ],
+      "sha256": "e5d4d46714a974ad08efd37e6a5f3ef5ba658a93863fdeb09c157d032b9bb1a3"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c08p1_2.pages",
+          "file_offset": 2298061759,
+          "chunk_offset": 0,
+          "length": 8764171
+        },
+        {
+          "file": "virtualtextures/c10p1.pages",
+          "file_offset": 0,
+          "chunk_offset": 8764171,
+          "length": 1158514504
+        }
+      ],
+      "sha256": "1024fea0b7d78f53f135d063b2034644022d71e0d5c8a9cfa81eb91ece54cdfb"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c10p1.pages",
+          "file_offset": 1158514504,
+          "chunk_offset": 0,
+          "length": 290690880
+        },
+        {
+          "file": "virtualtextures/c11p1.pages",
+          "file_offset": 0,
+          "chunk_offset": 290690880,
+          "length": 876587795
+        }
+      ],
+      "sha256": "a6d659ee3c0aaebbba4ba3f0f18b2dc9d40c9bde96a6843322ced560e624c52b"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c11p1.pages",
+          "file_offset": 876587795,
+          "chunk_offset": 0,
+          "length": 196351885
+        },
+        {
+          "file": "virtualtextures/c11p2.pages",
+          "file_offset": 0,
+          "chunk_offset": 196351885,
+          "length": 389967710
+        },
+        {
+          "file": "virtualtextures/c12p1.pages",
+          "file_offset": 0,
+          "chunk_offset": 586319595,
+          "length": 13563938
+        },
+        {
+          "file": "virtualtextures/c12p2.pages",
+          "file_offset": 0,
+          "chunk_offset": 599883533,
+          "length": 567395142
+        }
+      ],
+      "sha256": "e1ee3b4ad9c404c11fc8b33bcf9d74c9323f5520bc13a7df019517f998dd1e5d"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c12p2.pages",
+          "file_offset": 567395142,
+          "chunk_offset": 0,
+          "length": 1167278675
+        }
+      ],
+      "sha256": "489d5b48a093fe08b6be8d189523be8b2194d77e629aaf38dc53e99858cde517"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c12p2.pages",
+          "file_offset": 1734673817,
+          "chunk_offset": 0,
+          "length": 650160303
+        },
+        {
+          "file": "virtualtextures/c13p1.pages",
+          "file_offset": 0,
+          "chunk_offset": 650160303,
+          "length": 517118372
+        }
+      ],
+      "sha256": "9a2d208183efc2c6e586bdd96bc629303e48a7e7ebcc7290913238056cc7c3a9"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c13p1.pages",
+          "file_offset": 517118372,
+          "chunk_offset": 0,
+          "length": 1167278675
+        }
+      ],
+      "sha256": "658a0f05b1c70e4bc648c37d96331fdc8b24e0a5a5363250d382ef861907e9a5"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c13p1.pages",
+          "file_offset": 1684397047,
+          "chunk_offset": 0,
+          "length": 1075039715
+        },
+        {
+          "file": "virtualtextures/c14p1.pages",
+          "file_offset": 0,
+          "chunk_offset": 1075039715,
+          "length": 92238960
+        }
+      ],
+      "sha256": "47568aab3788c16d4b6835a45915af0073979e24dd9d197a07bff93e61c63c51"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c14p1.pages",
+          "file_offset": 92238960,
+          "chunk_offset": 0,
+          "length": 1167278675
+        }
+      ],
+      "sha256": "c84d0fb930a0f052667043275b913cb032a575228e29aa397a3b69c0625bf875"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c14p1.pages",
+          "file_offset": 1259517635,
+          "chunk_offset": 0,
+          "length": 995086969
+        },
+        {
+          "file": "virtualtextures/c16p0.pages",
+          "file_offset": 0,
+          "chunk_offset": 995086969,
+          "length": 80537674
+        },
+        {
+          "file": "virtualtextures/c16p1.pages",
+          "file_offset": 0,
+          "chunk_offset": 1075624643,
+          "length": 91654032
+        }
+      ],
+      "sha256": "9c05919d6032d1646077b9cd18c6b99ddf048b8440ba7b5580e35b9c0990fb0b"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c16p1.pages",
+          "file_offset": 91654032,
+          "chunk_offset": 0,
+          "length": 1167278675
+        }
+      ],
+      "sha256": "dd9e46160b73876a68502ebb718abd7833b15f4b828ee1776e64756ecbcad3fc"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/c16p1.pages",
+          "file_offset": 1258932707,
+          "chunk_offset": 0,
+          "length": 60368339
+        },
+        {
+          "file": "virtualtextures/c16p2.pages",
+          "file_offset": 0,
+          "chunk_offset": 60368339,
+          "length": 656127032
+        },
+        {
+          "file": "virtualtextures/chunk10_vmtr.pages",
+          "file_offset": 0,
+          "chunk_offset": 716495371,
+          "length": 133125706
+        },
+        {
+          "file": "virtualtextures/chunk11_vmtr.pages",
+          "file_offset": 0,
+          "chunk_offset": 849621077,
+          "length": 217138008
+        },
+        {
+          "file": "virtualtextures/chunk12_vmtr.pages",
+          "file_offset": 0,
+          "chunk_offset": 1066759085,
+          "length": 100519590
+        }
+      ],
+      "sha256": "c935dfad13a4408199db0af6fd88c74b245db934411ffce7b7ada3ed0effe219"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/chunk12_vmtr.pages",
+          "file_offset": 100519590,
+          "chunk_offset": 0,
+          "length": 372343850
+        },
+        {
+          "file": "virtualtextures/chunk13_vmtr.pages",
+          "file_offset": 0,
+          "chunk_offset": 372343850,
+          "length": 170385518
+        },
+        {
+          "file": "virtualtextures/chunk1_vmtr.pages",
+          "file_offset": 0,
+          "chunk_offset": 542729368,
+          "length": 328689744
+        },
+        {
+          "file": "virtualtextures/chunk2_vmtr.pages",
+          "file_offset": 0,
+          "chunk_offset": 871419112,
+          "length": 295859563
+        }
+      ],
+      "sha256": "9ff90199cb41b74ba0453ce4c321d942a230eb2514816cfac8da39dc4626d125"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 1167278675,
+      "segments": [
+        {
+          "file": "virtualtextures/chunk2_vmtr.pages",
+          "file_offset": 295859563,
+          "chunk_offset": 0,
+          "length": 280197481
+        },
+        {
+          "file": "virtualtextures/chunk3_vmtr.pages",
+          "file_offset": 0,
+          "chunk_offset": 280197481,
+          "length": 157924838
+        },
+        {
+          "file": "virtualtextures/chunk4_vmtr.pages",
+          "file_offset": 0,
+          "chunk_offset": 438122319,
+          "length": 207657402
+        },
+        {
+          "file": "virtualtextures/chunk5_vmtr.pages",
+          "file_offset": 0,
+          "chunk_offset": 645779721,
+          "length": 189907258
+        },
+        {
+          "file": "virtualtextures/chunk6_vmtr.pages",
+          "file_offset": 0,
+          "chunk_offset": 835686979,
+          "length": 331591696
+        }
+      ],
+      "sha256": "60d9c50d312a9bc366eb5d5ba17a1610776c57fe15dbb5379b086b7baceb6eb8"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 1167278642,
+      "segments": [
+        {
+          "file": "virtualtextures/chunk6_vmtr.pages",
+          "file_offset": 331591696,
+          "chunk_offset": 0,
+          "length": 158756834
+        },
+        {
+          "file": "virtualtextures/chunk7_vmtr.pages",
+          "file_offset": 0,
+          "chunk_offset": 158756834,
+          "length": 471253316
+        },
+        {
+          "file": "virtualtextures/chunk8_vmtr.pages",
+          "file_offset": 0,
+          "chunk_offset": 630010150,
+          "length": 311808086
+        },
+        {
+          "file": "virtualtextures/chunk9_vmtr.pages",
+          "file_offset": 0,
+          "chunk_offset": 941818236,
+          "length": 199115366
+        },
+        {
+          "file": "WolfNewOrder_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1140933602,
+          "length": 26345040
+        }
+      ],
+      "sha256": "c6411b8d40eeb4dffa5bfb610b17b349bc6a82a6eff97e7fe5e75a9b016d245a"
+    }
+  ]
+}
