@@ -1,0 +1,1638 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "assassin-s-creed-revelations",
+    "title": "Assassin's Creed® Revelations",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Ezio Auditore walks in the footsteps of the legendary mentor Altair, on a dangerous journey of discovery and revelation."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-assassin-s-creed-revelations-v1.0.0-stable"
+  },
+  "chunk_size": 178484504,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 7139380148,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "ACRSP.exe",
+      "size": 46881912,
+      "sha256": "65048073af7d44e278e110e11c682e811b5bb8e20c42e17577f31b5a1d62ecb5"
+    },
+    {
+      "path": "binkw32.dll",
+      "size": 227328,
+      "sha256": "845f1ea36a75122fb8e10e508418893c091e2a632a4063d9ad22fc4628e12bf0"
+    },
+    {
+      "path": "DataPC.forge",
+      "size": 306348032,
+      "sha256": "ede4d5d095421e98649222591ad6890fd00f5a642465f5825294b60c3ba5baf2"
+    },
+    {
+      "path": "DataPC_1_dlc.forge",
+      "size": 4128768,
+      "sha256": "107014c1d29016600e079c1f29095a2fb9b60274d4dc17d48bce77f963458b55"
+    },
+    {
+      "path": "DataPC_3_dlc.forge",
+      "size": 4456448,
+      "sha256": "63ddc768de3f894cf939e80afc0ee3f2c772ac9c473d798de7e10c4673243d15"
+    },
+    {
+      "path": "DataPC_ACFE_Cappadocia.forge",
+      "size": 191791104,
+      "sha256": "55c513b3c3c5d1bb532d78792c957707098d5a4d63779d00909a91aab19dc82f"
+    },
+    {
+      "path": "DataPC_ACFE_Constantinople.forge",
+      "size": 908427264,
+      "sha256": "b7fbdc137806b15027184c50d1717543ab4a3ab156533e8690ef0172789d292b"
+    },
+    {
+      "path": "DataPC_ACFE_DenDefence.forge",
+      "size": 284557312,
+      "sha256": "5a6dd4a1ee32d0ae2cf8f597df0b8fea46f0ce214d726026000e76ae71e849d1"
+    },
+    {
+      "path": "DataPC_ACFE_FinalTemple.forge",
+      "size": 43876352,
+      "sha256": "937460b5d90514f8e819802f9c0d122f0cf4117fb30deb64fb18fc5d14240db6"
+    },
+    {
+      "path": "DataPC_ACFE_Masyaf.forge",
+      "size": 334561280,
+      "sha256": "2bbe7dab63ddd1fc1b265b1d20dea0d288bc5062186ab5c7c3a62f074ad5b70d"
+    },
+    {
+      "path": "DataPC_ACFE_PenroseIsland.forge",
+      "size": 42795008,
+      "sha256": "ee2f24fd5e473491eed14d7f70a04f91e271443e72b60a442a6b0dd5b6962f32"
+    },
+    {
+      "path": "DataPC_ACFE_PenroseIsland_1_dlc.forge",
+      "size": 2424832,
+      "sha256": "d4737684f0f3289710ba3babd53b90511b03b7e16a69277b9acfd3a70c23f3de"
+    },
+    {
+      "path": "DataPC_ACFE_PenroseIsland_3_dlc.forge",
+      "size": 2195456,
+      "sha256": "e242c9af0d200e6a9bcb9e0b0b0913b04ee5c1770196ea2e24208d0516b84814"
+    },
+    {
+      "path": "DataPC_EXO_10A_TemplarChas.forge",
+      "size": 116850688,
+      "sha256": "ef569c4859f031d2ee995483287d4be226130d3cd79c3e3ab05bf0832282b1ce"
+    },
+    {
+      "path": "DataPC_EXO_10B_Classic.forge",
+      "size": 121339904,
+      "sha256": "d6269129d3c38b54fe2bd5f5efff141959efb9d275a610196e2e49c412171e32"
+    },
+    {
+      "path": "DataPC_EXO_11_AchmetChase.forge",
+      "size": 214597632,
+      "sha256": "00398df2e0b47fb1ede6689171c6e850e546330427ab7d666894cb265cfd8da9"
+    },
+    {
+      "path": "DataPC_extra.forge",
+      "size": 172032000,
+      "sha256": "fca5ec47e9439beb918c9643beaabc670c7c78f6e9f499012b4cb6027f57ee64"
+    },
+    {
+      "path": "DataPC_LGS_C01_Yerebatan.forge",
+      "size": 85262336,
+      "sha256": "00dc370604531bd8e6d6c6ea2a28e7a506b906ac499a326ab9c3dc39379a1b8a"
+    },
+    {
+      "path": "DataPC_LGS_C02_MaidenTower.forge",
+      "size": 69992448,
+      "sha256": "9e216ff139ca2014ba92516a0237604882eb12d38c3ad94c8c1ac19249af8067"
+    },
+    {
+      "path": "DataPC_LGS_C03_ForumOfOx.forge",
+      "size": 87261184,
+      "sha256": "3756f328d88e9f70985800dcee1c2fa241d67823b759713888faebb850c1bc93"
+    },
+    {
+      "path": "DataPC_LGS_C04_Galata.forge",
+      "size": 82214912,
+      "sha256": "b8e0928a9529d8a5f3194cd374502b205ea0c6608dc6016a2ce74010b5f8dd7d"
+    },
+    {
+      "path": "DataPC_LGS_C05_HagiaSophia.forge",
+      "size": 53542912,
+      "sha256": "527101f8d29d4d7db4b86dc060b460d2eedbf9be28822b5d2b90ef5fd807d62d"
+    },
+    {
+      "path": "DataPC_LGS_C07_Prison.forge",
+      "size": 53706752,
+      "sha256": "fdce4b452033f04bec2feb583c0e60e01dd4e487e19741e88341814374b49df3"
+    },
+    {
+      "path": "DataPC_TD_MemBootstrap.forge",
+      "size": 1867776,
+      "sha256": "67a3abe30fa5cb24d6e806955a3337d0fc23a51b9206543a56bd0fdd586c87cd"
+    },
+    {
+      "path": "DataPC_TitleScreen.forge",
+      "size": 1867776,
+      "sha256": "aaf0d5451b15eae1714de3125ccd2d11ded530b92c99a2e7f3208d1bea17f40c"
+    },
+    {
+      "path": "DataPC_WhiteRoom.forge",
+      "size": 122355712,
+      "sha256": "59173caf63327f28d5dffcf7053b8b80692c486ae74a725700f0a7511a78154a"
+    },
+    {
+      "path": "DefaultBindings.map",
+      "size": 17298,
+      "sha256": "11a04de6784ac0dd03e07deeda03c9d6c3d9cfcfa4e4ae9bfc49fa2a26d3e1c4"
+    },
+    {
+      "path": "localization.lang",
+      "size": 14,
+      "sha256": "66660628c99c00c5cc9bfc984f422fa53b2ba8c0820e8fa148b4e83a2afd4185"
+    },
+    {
+      "path": "penrose/DataPC.forge",
+      "size": 42401792,
+      "sha256": "32abff83acb66d9b7b2e690706f8fc2947888466e7d29990b35315cee8af53c9"
+    },
+    {
+      "path": "penrose/DataPC_3_dlc.forge",
+      "size": 21594112,
+      "sha256": "467efceaff487437e80702e825f8d7bd387e7808a9bc92d4a51567db302f5491"
+    },
+    {
+      "path": "penrose/DataPC_extra.forge",
+      "size": 29949952,
+      "sha256": "953a6293798065b915b51f68fee26d3b41c5f72fe4f6d3452f01c6b292a059ef"
+    },
+    {
+      "path": "penrose/DataPC_extra_3_dlc.forge",
+      "size": 35356672,
+      "sha256": "a4cd39c7a9dfef63d51d95997f7a5d1134b16bafc356fe32126ab3f5c0b63149"
+    },
+    {
+      "path": "penrose/DataPC_PR_CH01_3_dlc.forge",
+      "size": 81297408,
+      "sha256": "4253d0de68495137626527b535dcd06a8da7bcf94ab3e0c83e4e6287af847f65"
+    },
+    {
+      "path": "penrose/DataPC_PR_CH02_3_dlc.forge",
+      "size": 67371008,
+      "sha256": "ea1d3dac92035965e3dd743262a477ac9cf1ca932ac98e22e95d3e53b5572626"
+    },
+    {
+      "path": "penrose/DataPC_PR_CH04_3_dlc.forge",
+      "size": 75464704,
+      "sha256": "6f79892a4a514f085a404f8bcf47a2dbc0a086b3da1a508e6e5f264aff17668b"
+    },
+    {
+      "path": "penrose/DataPC_PR_CH06_3_dlc.forge",
+      "size": 99811328,
+      "sha256": "c10900e911987631672037605ac52e7dbad7fea0fd05a5b1ae57186e00c84b5b"
+    },
+    {
+      "path": "penrose/DataPC_PR_CH09_3_dlc.forge",
+      "size": 50200576,
+      "sha256": "0ea6b9aea03db0b902c68c2a4c485183a408c5f98fd4dfd0b11f5496ffa30dda"
+    },
+    {
+      "path": "penrose/DataPC_PR_CH10_3_dlc.forge",
+      "size": 62455808,
+      "sha256": "5dab1c6213efcab86848f41e99f01faf986262eca2f3fae9da5ccc59397a0e3a"
+    },
+    {
+      "path": "penrose/DataPC_PR_CH12_3_dlc.forge",
+      "size": 97189888,
+      "sha256": "d1bf85755644357763f15295b9c15e24c20fa7a394a1413bc038ae5a702cc264"
+    },
+    {
+      "path": "penrose/DataPC_PR_DCH01.forge",
+      "size": 70221824,
+      "sha256": "a20a8fbc8425791d82e252423692894dd4d325a6818fc24897808fbb03cbb6e1"
+    },
+    {
+      "path": "penrose/DataPC_PR_DCH02.forge",
+      "size": 77791232,
+      "sha256": "2ced0bba9521c4c490df395ce6e6568d9a55a154449e9461dcb54f12d2837de5"
+    },
+    {
+      "path": "penrose/DataPC_PR_DCH03.forge",
+      "size": 92635136,
+      "sha256": "d631186e5b434a9bb97f32a37889487179b8ed8bc587ff3bd116278f01a8c586"
+    },
+    {
+      "path": "penrose/DataPC_PR_DCH04.forge",
+      "size": 75792384,
+      "sha256": "75930e1cbb7d176dff0892964ed1ceb4fd371a1106c049da0564f111c945b4df"
+    },
+    {
+      "path": "penrose/DataPC_PR_DCH05_Abstergo.forge",
+      "size": 73236480,
+      "sha256": "fb031e621715728d8b49bab74113fdc73a998058abb65c102bfb99ebe88255c6"
+    },
+    {
+      "path": "penrose/DataPC_TitleScreen.forge",
+      "size": 1867776,
+      "sha256": "99855e73e81975e42e1f41352daa4192e92118f21ebfe4b030954fe049062976"
+    },
+    {
+      "path": "penrose/DataPC_WhiteRoom.forge",
+      "size": 5996544,
+      "sha256": "cf93bfca7134b28de7a5010d4c1b8223f6354ad98d794af966f359c337e6f48e"
+    },
+    {
+      "path": "penrose/DataPC_WhiteRoom_3_dlc.forge",
+      "size": 2392064,
+      "sha256": "944367d33ff748906461bc2bcef4974039f32e4910fdaf5edb62fc67ca159825"
+    },
+    {
+      "path": "penrose/DefaultBindings.map",
+      "size": 19441,
+      "sha256": "1869df2cafe3b446c2bf8f43b98878481217e46dac6677e6e4ccb2faa83daffa"
+    },
+    {
+      "path": "Resources/de/GameUpdate.de",
+      "size": 5742,
+      "sha256": "51246adf16e9cc8c5dcda1c56609030433ec43edaf599995a1522ac811555bd4"
+    },
+    {
+      "path": "Resources/es/GameUpdate.es",
+      "size": 6297,
+      "sha256": "e7eaeb372423cf79ac9862e3653807be25cf2cb6364a504d122aa6f47726c2c0"
+    },
+    {
+      "path": "Resources/fr/GameUpdate.fr",
+      "size": 6229,
+      "sha256": "4e6aa84df5c56dd95a8a704ee58195d41dfa4ebe356d1afd37b4be6ec0334f58"
+    },
+    {
+      "path": "Resources/it/GameUpdate.it",
+      "size": 5812,
+      "sha256": "0b5efffa8ce882f1358ef93204ca0ebf4aea83f2a6fd1301b097c5aaaaa84391"
+    },
+    {
+      "path": "Resources/nl/GameUpdate.nl",
+      "size": 5549,
+      "sha256": "e1a822b277428abfd3dab13d5e4f8697356e73029ada889b403b0fd79e373989"
+    },
+    {
+      "path": "Resources/uk/GameUpdate.uk",
+      "size": 5016,
+      "sha256": "10b5195940af54b4f88ce7306ef7cecdea813aedf2425c782d3e6a930c9ebfe8"
+    },
+    {
+      "path": "Resources/us/GameUpdate.us",
+      "size": 5016,
+      "sha256": "10b5195940af54b4f88ce7306ef7cecdea813aedf2425c782d3e6a930c9ebfe8"
+    },
+    {
+      "path": "SoundData/pc/sounds_3_dlc_eng.pck",
+      "size": 7248032,
+      "sha256": "ecc839c423c879ee821ffc36f341a8ae99f26f8677f98d1ec9ddf3b7606863b1"
+    },
+    {
+      "path": "SoundData/pc/sounds_3_dlc_rus.pck",
+      "size": 7610044,
+      "sha256": "daff45a3468ab5c763b4b91e45420cd5687a7dbf17467bc1ad062722bbbf24a5"
+    },
+    {
+      "path": "SoundData/pc/sounds_3_dlc_sfx.pck",
+      "size": 75220462,
+      "sha256": "859edad4d916b672d8990af975327530ff616a8fa5c375edadae9ea100b110d4"
+    },
+    {
+      "path": "SoundData/pc/sounds_eng.pck",
+      "size": 362648710,
+      "sha256": "696a37970bb07e4c9c9fc128fcb4eb4ea5fc4f3fa536a51b880474ae000b91c0"
+    },
+    {
+      "path": "SoundData/pc/sounds_eng_dlc_03.pck",
+      "size": 7231648,
+      "sha256": "744b1e91c8574ee7c1c5ba7b9fcf728c390622e18f902df7bfa327b98b48c5f9"
+    },
+    {
+      "path": "SoundData/pc/sounds_rus.pck",
+      "size": 378849500,
+      "sha256": "a3a042fc1709ee7e9bc995dcc5f6b63d303e29197b1df13b5d4f81c5d392c56e"
+    },
+    {
+      "path": "SoundData/pc/sounds_rus_dlc_03.pck",
+      "size": 7602277,
+      "sha256": "044011d4fe124c550edacccac4d509c7695bddaace677dda2340622124118506"
+    },
+    {
+      "path": "SoundData/pc/sounds_sfx.pck",
+      "size": 1128401431,
+      "sha256": "41c91ad2112ae89e41a4d7c96445aeac9120a7aab5f5e23b4e1ec939069abecf"
+    },
+    {
+      "path": "Support/Manual/English/AssassinsCreed.pdf",
+      "size": 1707243,
+      "sha256": "11ee768b4db943e554f56be69c8307d592c2811692c28d35202c1bb6da695393"
+    },
+    {
+      "path": "Support/Manual/Russian/AssassinsCreed.pdf",
+      "size": 373985,
+      "sha256": "7981cbe67b16a2c4098354c49d8e1b414b0186379d39048ad4f7192f80bc673b"
+    },
+    {
+      "path": "Support/Readme/English/ReadMe.txt",
+      "size": 18207,
+      "sha256": "df327a6ab601c054e0953cbab3a74c092b05b423f867f84ca2c0e19ea8381a78"
+    },
+    {
+      "path": "Support/Readme/Russian/ReadMe.txt",
+      "size": 17407,
+      "sha256": "07c52bbb45c6482b1374af21c9f86a2df38bb9785deafacd193847936bd613b7"
+    },
+    {
+      "path": "systemdetection.dll",
+      "size": 403576,
+      "sha256": "590bf55e0cfd2e5c4e32d60411f9c89bc9035b9212bad6ee9dd96ea9b7ede4ee"
+    },
+    {
+      "path": "ubiorbitapi_r2.dll",
+      "size": 9216,
+      "sha256": "8412088f791c64f74cbb4a3da6345f4ddffafe8d9f5824a4b145579551612394"
+    },
+    {
+      "path": "ubiorbitapi_r2_loader.dll",
+      "size": 234616,
+      "sha256": "8fa3503ea922e73aaf63d95a1fc5bccadafd9d23b455c47b5ca2d812a695974c"
+    },
+    {
+      "path": "unins000.dat",
+      "size": 68688,
+      "sha256": "0150d6e258b06c3fd59c719b7fb1c77a009b00ec7d325c7617fccaf4f3376a9d"
+    },
+    {
+      "path": "unins000.exe",
+      "size": 2199253,
+      "sha256": "68860b06b7ee3b219f78a187c9c966f9c6ee8a54d740313179fc16ffd1e8350a"
+    },
+    {
+      "path": "uplay_r1_loader.dll",
+      "size": 3584,
+      "sha256": "9ac011f69ce25f389d9a3445f490753f4da6eb3def0be15df058cd55f1c1a527"
+    },
+    {
+      "path": "version.bin",
+      "size": 7,
+      "sha256": "0ca1230c535d7febe09d1c34e880aa3829b7f7fce5275a72b104c0c3b97251f8"
+    },
+    {
+      "path": "Videos/DemoIntro_end.bik",
+      "size": 6652256,
+      "sha256": "01ea8f0e74bdda7862a3aeaa2b92f68a990d5d50cc31560e9d6f5f254627e925"
+    },
+    {
+      "path": "Videos/disclaimer_esrb.bik",
+      "size": 80244,
+      "sha256": "6d982b3270c1e2cd1f7a0e09b1ae47e1ec5eac30b12b3d93d07d4c2174422769"
+    },
+    {
+      "path": "Videos/en/warning_disclaimer.bik",
+      "size": 1253116,
+      "sha256": "bc618700ca5bd1f38ef348a8245c22917e3ce4cca34d6052f20d4e025e0f1038"
+    },
+    {
+      "path": "Videos/enddemo.bik",
+      "size": 5072,
+      "sha256": "b1ee44b24ff1e6a650202db26572932bead2e2b98cb4bbfe5ad3eb4c65c1434f"
+    },
+    {
+      "path": "Videos/flashback_altair.bik",
+      "size": 21519424,
+      "sha256": "f2e963c6e94de92a1e7cbc3db1b8bc31b600684870681731a6f02bf56066dbe8"
+    },
+    {
+      "path": "Videos/glitchInverted.bik",
+      "size": 4815424,
+      "sha256": "e32e9142e7a557793e3ca0361a9d53e8f2421f48c12cffb1264301b1034d715b"
+    },
+    {
+      "path": "Videos/multicultural_team.bik",
+      "size": 918916,
+      "sha256": "955e0b6e0a33ef9b889d9fd48e852825f853575acaa1234263ee7096c920ecc0"
+    },
+    {
+      "path": "Videos/pr_ch09_loopexit.bik",
+      "size": 6500288,
+      "sha256": "071e17307ebd81fa140251135cca3f345c9584a7c4a7ad031d51babe03ed9591"
+    },
+    {
+      "path": "Videos/pr_ch12_final.bik",
+      "size": 33109736,
+      "sha256": "bceb41a8ca540867f2cb2e069c1d2f1a4187a59c07087246a77062865afd87b0"
+    },
+    {
+      "path": "Videos/pr_to_sp_loadexec.bik",
+      "size": 4006236,
+      "sha256": "99fd59259c09633976826620a4a8b99f3776b1e6e1fee1981d8a246f2a7d1270"
+    },
+    {
+      "path": "Videos/Previously_On.bik",
+      "size": 119181424,
+      "sha256": "e8fd045b8d1b29c4aa532ad5dfd52a6fdaeb20758c4049c6f305e58f7293c4cd"
+    },
+    {
+      "path": "Videos/previouslyon_ezio.bik",
+      "size": 245587196,
+      "sha256": "f55c91aa9ea54db3f62d9bb8a22ec0d23d89b656fe575caa790ba5712f51726f"
+    },
+    {
+      "path": "Videos/previouslyon_ezio_end.bik",
+      "size": 5072,
+      "sha256": "b1ee44b24ff1e6a650202db26572932bead2e2b98cb4bbfe5ad3eb4c65c1434f"
+    },
+    {
+      "path": "Videos/ru/warning_disclaimer.bik",
+      "size": 1262524,
+      "sha256": "c145f8c42225939ca2624e477b77c33062ee36cebe2e67407b76b0ba66a81621"
+    },
+    {
+      "path": "Videos/sp_end_cgi.bik",
+      "size": 227573128,
+      "sha256": "4fa87e7b16f8155599cfb3a6450c6238e4ead06c7df93b4c6d49fbfae54bb9ff"
+    },
+    {
+      "path": "Videos/sp_to_pr_loadexec.bik",
+      "size": 2904536,
+      "sha256": "ea39dbe7ea7e1666dcbb06665bc478f175a0ad3a5d4745d1779be5dd074b5c4c"
+    },
+    {
+      "path": "Videos/sp_to_s16_loadexec.bik",
+      "size": 8295620,
+      "sha256": "c19a7e4a834c2b1d9c75e7c063490a6c1e4bf4179cfa2c606fc921109261b0a6"
+    },
+    {
+      "path": "Videos/UBI_LOGO.bik",
+      "size": 7976044,
+      "sha256": "b1deabbdc6be5193a0887fe3986b0a46783da7578c19609ad09bc36c48e5b9b9"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "ACRSP.exe",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 46881912
+        },
+        {
+          "file": "binkw32.dll",
+          "file_offset": 0,
+          "chunk_offset": 96101688,
+          "length": 227328
+        },
+        {
+          "file": "DataPC.forge",
+          "file_offset": 0,
+          "chunk_offset": 96329016,
+          "length": 82155488
+        }
+      ],
+      "sha256": "8a1c3aebdc2e6c90994764db11b8ccfeb837757a0b4e23d79faac2bfb7d58bec"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC.forge",
+          "file_offset": 82155488,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "ba3e74d3a167e2a54459c2f217922bc56d4a6813151da157f43bfb8bb408f382"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC.forge",
+          "file_offset": 260639992,
+          "chunk_offset": 0,
+          "length": 45708040
+        },
+        {
+          "file": "DataPC_1_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 45708040,
+          "length": 4128768
+        },
+        {
+          "file": "DataPC_3_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 49836808,
+          "length": 4456448
+        },
+        {
+          "file": "DataPC_ACFE_Cappadocia.forge",
+          "file_offset": 0,
+          "chunk_offset": 54293256,
+          "length": 124191248
+        }
+      ],
+      "sha256": "7a7f9efd9bff5e7fb5042fd5306ce4d07f401205b569af21710a3c15702fad66"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_ACFE_Cappadocia.forge",
+          "file_offset": 124191248,
+          "chunk_offset": 0,
+          "length": 67599856
+        },
+        {
+          "file": "DataPC_ACFE_Constantinople.forge",
+          "file_offset": 0,
+          "chunk_offset": 67599856,
+          "length": 110884648
+        }
+      ],
+      "sha256": "e86cb85f94adfbf23f8d8ce3087388867b0bdf3d2f91368e0f0f5c821b0ff746"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_ACFE_Constantinople.forge",
+          "file_offset": 110884648,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "b0f6b4497844070cb33808a8ad6fa38c310e9a32fab0ad39ba3eb4efac315811"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_ACFE_Constantinople.forge",
+          "file_offset": 289369152,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "8be970353f14b306d9c9d5541426bb0672096dbedbac77dfcbbde3c04df219ad"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_ACFE_Constantinople.forge",
+          "file_offset": 467853656,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "f52fafd0894ce536419f2dd20f217e63b0701a49014c2a893396e9a2b2e3dd40"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_ACFE_Constantinople.forge",
+          "file_offset": 646338160,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "5c3ced837f4b22f92f94935f6e0edbc6422368037b50c30d166132c881edd4c1"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_ACFE_Constantinople.forge",
+          "file_offset": 824822664,
+          "chunk_offset": 0,
+          "length": 83604600
+        },
+        {
+          "file": "DataPC_ACFE_DenDefence.forge",
+          "file_offset": 0,
+          "chunk_offset": 83604600,
+          "length": 94879904
+        }
+      ],
+      "sha256": "bd98f4a33ac71efa640205b483836225c3fe6f7972ce3d19d88e74616609b540"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_ACFE_DenDefence.forge",
+          "file_offset": 94879904,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "6c35daf0189db0fda205a0e6879438816b48d0b644e2cc6de359c96ab74525ed"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_ACFE_DenDefence.forge",
+          "file_offset": 273364408,
+          "chunk_offset": 0,
+          "length": 11192904
+        },
+        {
+          "file": "DataPC_ACFE_FinalTemple.forge",
+          "file_offset": 0,
+          "chunk_offset": 11192904,
+          "length": 43876352
+        },
+        {
+          "file": "DataPC_ACFE_Masyaf.forge",
+          "file_offset": 0,
+          "chunk_offset": 55069256,
+          "length": 123415248
+        }
+      ],
+      "sha256": "e14b2aba95f440204643493061dd8e512d4bcce3d4ebaca8b3bcad7378c87da8"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_ACFE_Masyaf.forge",
+          "file_offset": 123415248,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "a63b67ecc99651109f16895847cc121202e9abc02d60f47e345632999d094823"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_ACFE_Masyaf.forge",
+          "file_offset": 301899752,
+          "chunk_offset": 0,
+          "length": 32661528
+        },
+        {
+          "file": "DataPC_ACFE_PenroseIsland.forge",
+          "file_offset": 0,
+          "chunk_offset": 32661528,
+          "length": 42795008
+        },
+        {
+          "file": "DataPC_ACFE_PenroseIsland_1_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 75456536,
+          "length": 2424832
+        },
+        {
+          "file": "DataPC_ACFE_PenroseIsland_3_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 77881368,
+          "length": 2195456
+        },
+        {
+          "file": "DataPC_EXO_10A_TemplarChas.forge",
+          "file_offset": 0,
+          "chunk_offset": 80076824,
+          "length": 98407680
+        }
+      ],
+      "sha256": "ac10da833e9d0b610c9b404d303e1ec82c7e6a2e350aa1f60041ea2a66da788f"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_EXO_10A_TemplarChas.forge",
+          "file_offset": 98407680,
+          "chunk_offset": 0,
+          "length": 18443008
+        },
+        {
+          "file": "DataPC_EXO_10B_Classic.forge",
+          "file_offset": 0,
+          "chunk_offset": 18443008,
+          "length": 121339904
+        },
+        {
+          "file": "DataPC_EXO_11_AchmetChase.forge",
+          "file_offset": 0,
+          "chunk_offset": 139782912,
+          "length": 38701592
+        }
+      ],
+      "sha256": "8f3b4911bcba571de5b84bd10d0b8d86c1391f4777ca2d82ca360ebf9256ad62"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_EXO_11_AchmetChase.forge",
+          "file_offset": 38701592,
+          "chunk_offset": 0,
+          "length": 175896040
+        },
+        {
+          "file": "DataPC_extra.forge",
+          "file_offset": 0,
+          "chunk_offset": 175896040,
+          "length": 2588464
+        }
+      ],
+      "sha256": "0f75283b28db011e4d683738b8e6cd9ee8a7bd9432fe478d37d73220489008d7"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_extra.forge",
+          "file_offset": 2588464,
+          "chunk_offset": 0,
+          "length": 169443536
+        },
+        {
+          "file": "DataPC_LGS_C01_Yerebatan.forge",
+          "file_offset": 0,
+          "chunk_offset": 169443536,
+          "length": 9040968
+        }
+      ],
+      "sha256": "145ced1f7b6cd27ece04736bcb06fa8e266a2750deb9b723d89a7a5a2edd872a"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_LGS_C01_Yerebatan.forge",
+          "file_offset": 9040968,
+          "chunk_offset": 0,
+          "length": 76221368
+        },
+        {
+          "file": "DataPC_LGS_C02_MaidenTower.forge",
+          "file_offset": 0,
+          "chunk_offset": 76221368,
+          "length": 69992448
+        },
+        {
+          "file": "DataPC_LGS_C03_ForumOfOx.forge",
+          "file_offset": 0,
+          "chunk_offset": 146213816,
+          "length": 32270688
+        }
+      ],
+      "sha256": "74b0a2a8e7ee76c024e904b7938676304475dbe31e1c5dc16c5c60dd09bcfb74"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_LGS_C03_ForumOfOx.forge",
+          "file_offset": 32270688,
+          "chunk_offset": 0,
+          "length": 54990496
+        },
+        {
+          "file": "DataPC_LGS_C04_Galata.forge",
+          "file_offset": 0,
+          "chunk_offset": 54990496,
+          "length": 82214912
+        },
+        {
+          "file": "DataPC_LGS_C05_HagiaSophia.forge",
+          "file_offset": 0,
+          "chunk_offset": 137205408,
+          "length": 41279096
+        }
+      ],
+      "sha256": "b90ea77dde7fe365f09d4160aa29f59b87d83b1d13025561aa0122968dad499b"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_LGS_C05_HagiaSophia.forge",
+          "file_offset": 41279096,
+          "chunk_offset": 0,
+          "length": 12263816
+        },
+        {
+          "file": "DataPC_LGS_C07_Prison.forge",
+          "file_offset": 0,
+          "chunk_offset": 12263816,
+          "length": 53706752
+        },
+        {
+          "file": "DataPC_TD_MemBootstrap.forge",
+          "file_offset": 0,
+          "chunk_offset": 65970568,
+          "length": 1867776
+        },
+        {
+          "file": "DataPC_TitleScreen.forge",
+          "file_offset": 0,
+          "chunk_offset": 67838344,
+          "length": 1867776
+        },
+        {
+          "file": "DataPC_WhiteRoom.forge",
+          "file_offset": 0,
+          "chunk_offset": 69706120,
+          "length": 108778384
+        }
+      ],
+      "sha256": "99dce911ab8bd54775210ec60ebd1b2241789f7d1e784657bcc5ec13a9f1227a"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "DataPC_WhiteRoom.forge",
+          "file_offset": 108778384,
+          "chunk_offset": 0,
+          "length": 13577328
+        },
+        {
+          "file": "DefaultBindings.map",
+          "file_offset": 0,
+          "chunk_offset": 13577328,
+          "length": 17298
+        },
+        {
+          "file": "localization.lang",
+          "file_offset": 0,
+          "chunk_offset": 13594626,
+          "length": 14
+        },
+        {
+          "file": "penrose/DataPC.forge",
+          "file_offset": 0,
+          "chunk_offset": 13594640,
+          "length": 42401792
+        },
+        {
+          "file": "penrose/DataPC_3_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 55996432,
+          "length": 21594112
+        },
+        {
+          "file": "penrose/DataPC_extra.forge",
+          "file_offset": 0,
+          "chunk_offset": 77590544,
+          "length": 29949952
+        },
+        {
+          "file": "penrose/DataPC_extra_3_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 107540496,
+          "length": 35356672
+        },
+        {
+          "file": "penrose/DataPC_PR_CH01_3_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 142897168,
+          "length": 35587336
+        }
+      ],
+      "sha256": "b65f66fd57adffbb3a23ec1e29a69d47c9a6083fb6ec2d87e45d97d24e41c1a5"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "penrose/DataPC_PR_CH01_3_dlc.forge",
+          "file_offset": 35587336,
+          "chunk_offset": 0,
+          "length": 45710072
+        },
+        {
+          "file": "penrose/DataPC_PR_CH02_3_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 45710072,
+          "length": 67371008
+        },
+        {
+          "file": "penrose/DataPC_PR_CH04_3_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 113081080,
+          "length": 65403424
+        }
+      ],
+      "sha256": "60823b589cdd42e1fc7c3607b7dceb5fd2a44bb4da1ff1456cd75f85d838f148"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "penrose/DataPC_PR_CH04_3_dlc.forge",
+          "file_offset": 65403424,
+          "chunk_offset": 0,
+          "length": 10061280
+        },
+        {
+          "file": "penrose/DataPC_PR_CH06_3_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 10061280,
+          "length": 99811328
+        },
+        {
+          "file": "penrose/DataPC_PR_CH09_3_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 109872608,
+          "length": 50200576
+        },
+        {
+          "file": "penrose/DataPC_PR_CH10_3_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 160073184,
+          "length": 18411320
+        }
+      ],
+      "sha256": "6f1cec9dc9ff72d4d59b1f1b17f1ee2f62bdcaa24af39352b0a5592eb9fc3fbc"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "penrose/DataPC_PR_CH10_3_dlc.forge",
+          "file_offset": 18411320,
+          "chunk_offset": 0,
+          "length": 44044488
+        },
+        {
+          "file": "penrose/DataPC_PR_CH12_3_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 44044488,
+          "length": 97189888
+        },
+        {
+          "file": "penrose/DataPC_PR_DCH01.forge",
+          "file_offset": 0,
+          "chunk_offset": 141234376,
+          "length": 37250128
+        }
+      ],
+      "sha256": "865420f633ceced4eef38a24416a4cf01b34a3da95904b572d1046b20902a1ea"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "penrose/DataPC_PR_DCH01.forge",
+          "file_offset": 37250128,
+          "chunk_offset": 0,
+          "length": 32971696
+        },
+        {
+          "file": "penrose/DataPC_PR_DCH02.forge",
+          "file_offset": 0,
+          "chunk_offset": 32971696,
+          "length": 77791232
+        },
+        {
+          "file": "penrose/DataPC_PR_DCH03.forge",
+          "file_offset": 0,
+          "chunk_offset": 110762928,
+          "length": 67721576
+        }
+      ],
+      "sha256": "de6969a42a3216a97ca2567bd773eaa047fd7aff4355394696ac74b2ee92ac72"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "penrose/DataPC_PR_DCH03.forge",
+          "file_offset": 67721576,
+          "chunk_offset": 0,
+          "length": 24913560
+        },
+        {
+          "file": "penrose/DataPC_PR_DCH04.forge",
+          "file_offset": 0,
+          "chunk_offset": 24913560,
+          "length": 75792384
+        },
+        {
+          "file": "penrose/DataPC_PR_DCH05_Abstergo.forge",
+          "file_offset": 0,
+          "chunk_offset": 100705944,
+          "length": 73236480
+        },
+        {
+          "file": "penrose/DataPC_TitleScreen.forge",
+          "file_offset": 0,
+          "chunk_offset": 173942424,
+          "length": 1867776
+        },
+        {
+          "file": "penrose/DataPC_WhiteRoom.forge",
+          "file_offset": 0,
+          "chunk_offset": 175810200,
+          "length": 2674304
+        }
+      ],
+      "sha256": "a49d5caf28e64881d337b7dec730b9648f1364740278945446ec07524e623dfb"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "penrose/DataPC_WhiteRoom.forge",
+          "file_offset": 2674304,
+          "chunk_offset": 0,
+          "length": 3322240
+        },
+        {
+          "file": "penrose/DataPC_WhiteRoom_3_dlc.forge",
+          "file_offset": 0,
+          "chunk_offset": 3322240,
+          "length": 2392064
+        },
+        {
+          "file": "penrose/DefaultBindings.map",
+          "file_offset": 0,
+          "chunk_offset": 5714304,
+          "length": 19441
+        },
+        {
+          "file": "Resources/de/GameUpdate.de",
+          "file_offset": 0,
+          "chunk_offset": 5733745,
+          "length": 5742
+        },
+        {
+          "file": "Resources/es/GameUpdate.es",
+          "file_offset": 0,
+          "chunk_offset": 5739487,
+          "length": 6297
+        },
+        {
+          "file": "Resources/fr/GameUpdate.fr",
+          "file_offset": 0,
+          "chunk_offset": 5745784,
+          "length": 6229
+        },
+        {
+          "file": "Resources/it/GameUpdate.it",
+          "file_offset": 0,
+          "chunk_offset": 5752013,
+          "length": 5812
+        },
+        {
+          "file": "Resources/nl/GameUpdate.nl",
+          "file_offset": 0,
+          "chunk_offset": 5757825,
+          "length": 5549
+        },
+        {
+          "file": "Resources/uk/GameUpdate.uk",
+          "file_offset": 0,
+          "chunk_offset": 5763374,
+          "length": 5016
+        },
+        {
+          "file": "Resources/us/GameUpdate.us",
+          "file_offset": 0,
+          "chunk_offset": 5768390,
+          "length": 5016
+        },
+        {
+          "file": "SoundData/pc/sounds_3_dlc_eng.pck",
+          "file_offset": 0,
+          "chunk_offset": 5773406,
+          "length": 7248032
+        },
+        {
+          "file": "SoundData/pc/sounds_3_dlc_rus.pck",
+          "file_offset": 0,
+          "chunk_offset": 13021438,
+          "length": 7610044
+        },
+        {
+          "file": "SoundData/pc/sounds_3_dlc_sfx.pck",
+          "file_offset": 0,
+          "chunk_offset": 20631482,
+          "length": 75220462
+        },
+        {
+          "file": "SoundData/pc/sounds_eng.pck",
+          "file_offset": 0,
+          "chunk_offset": 95851944,
+          "length": 82632560
+        }
+      ],
+      "sha256": "4db46d54931d737c9d4229f0121cf649c6dd7d4dee20078736a7b9572af9786e"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_eng.pck",
+          "file_offset": 82632560,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "514eb42d1ff0802e2129c43f5dd078923f626fe166e6071ebe0804c546617dd9"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_eng.pck",
+          "file_offset": 261117064,
+          "chunk_offset": 0,
+          "length": 101531646
+        },
+        {
+          "file": "SoundData/pc/sounds_eng_dlc_03.pck",
+          "file_offset": 0,
+          "chunk_offset": 101531646,
+          "length": 7231648
+        },
+        {
+          "file": "SoundData/pc/sounds_rus.pck",
+          "file_offset": 0,
+          "chunk_offset": 108763294,
+          "length": 69721210
+        }
+      ],
+      "sha256": "c54f478fd666c4cc7ce54b6f507e5fdf611f1ecd0ee9ae0a8c644bc6fd23d2c1"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_rus.pck",
+          "file_offset": 69721210,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "bed5ed62418d58b24f60ca9ca2dc8683624d0235018c242f02e7fdc828237674"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_rus.pck",
+          "file_offset": 248205714,
+          "chunk_offset": 0,
+          "length": 130643786
+        },
+        {
+          "file": "SoundData/pc/sounds_rus_dlc_03.pck",
+          "file_offset": 0,
+          "chunk_offset": 130643786,
+          "length": 7602277
+        },
+        {
+          "file": "SoundData/pc/sounds_sfx.pck",
+          "file_offset": 0,
+          "chunk_offset": 138246063,
+          "length": 40238441
+        }
+      ],
+      "sha256": "50472492097f43a0d067a31bb7c80b2273f2de3056650b1c8e3d00a29b1e628b"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_sfx.pck",
+          "file_offset": 40238441,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "bf5bfb894b8304d983330c1e6722eb98f2c36ea7353536c9f145b448c8e697f2"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_sfx.pck",
+          "file_offset": 218722945,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "66368cf6dd52030c4a2e3e6dffd299adb818ae918a99a008ce37b1c8e5769d91"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_sfx.pck",
+          "file_offset": 397207449,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "cfaefe48138848847fc126c5369b3cab3e54ad6c8b4c096c53d5928ae367f561"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_sfx.pck",
+          "file_offset": 575691953,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "64e95757440a3ff7bad321ef7c60ed5c99181488040544075a7b6238930991d5"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_sfx.pck",
+          "file_offset": 754176457,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "37fa6002364230ef87492669e5b11c6c4677fa4b9d20a89f85d78ec28f975a23"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_sfx.pck",
+          "file_offset": 932660961,
+          "chunk_offset": 0,
+          "length": 178484504
+        }
+      ],
+      "sha256": "9c88ada6473a69aa0366d5c0edae1158d4594fc7b4d942d0c533f8054c2c454f"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "SoundData/pc/sounds_sfx.pck",
+          "file_offset": 1111145465,
+          "chunk_offset": 0,
+          "length": 17255966
+        },
+        {
+          "file": "Support/Manual/English/AssassinsCreed.pdf",
+          "file_offset": 0,
+          "chunk_offset": 17255966,
+          "length": 1707243
+        },
+        {
+          "file": "Support/Manual/Russian/AssassinsCreed.pdf",
+          "file_offset": 0,
+          "chunk_offset": 18963209,
+          "length": 373985
+        },
+        {
+          "file": "Support/Readme/English/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 19337194,
+          "length": 18207
+        },
+        {
+          "file": "Support/Readme/Russian/ReadMe.txt",
+          "file_offset": 0,
+          "chunk_offset": 19355401,
+          "length": 17407
+        },
+        {
+          "file": "systemdetection.dll",
+          "file_offset": 0,
+          "chunk_offset": 19372808,
+          "length": 403576
+        },
+        {
+          "file": "ubiorbitapi_r2.dll",
+          "file_offset": 0,
+          "chunk_offset": 19776384,
+          "length": 9216
+        },
+        {
+          "file": "ubiorbitapi_r2_loader.dll",
+          "file_offset": 0,
+          "chunk_offset": 19785600,
+          "length": 234616
+        },
+        {
+          "file": "unins000.dat",
+          "file_offset": 0,
+          "chunk_offset": 20020216,
+          "length": 68688
+        },
+        {
+          "file": "unins000.exe",
+          "file_offset": 0,
+          "chunk_offset": 20088904,
+          "length": 2199253
+        },
+        {
+          "file": "uplay_r1_loader.dll",
+          "file_offset": 0,
+          "chunk_offset": 22288157,
+          "length": 3584
+        },
+        {
+          "file": "version.bin",
+          "file_offset": 0,
+          "chunk_offset": 22291741,
+          "length": 7
+        },
+        {
+          "file": "Videos/DemoIntro_end.bik",
+          "file_offset": 0,
+          "chunk_offset": 22291748,
+          "length": 6652256
+        },
+        {
+          "file": "Videos/disclaimer_esrb.bik",
+          "file_offset": 0,
+          "chunk_offset": 28944004,
+          "length": 80244
+        },
+        {
+          "file": "Videos/en/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 29024248,
+          "length": 1253116
+        },
+        {
+          "file": "Videos/enddemo.bik",
+          "file_offset": 0,
+          "chunk_offset": 30277364,
+          "length": 5072
+        },
+        {
+          "file": "Videos/flashback_altair.bik",
+          "file_offset": 0,
+          "chunk_offset": 30282436,
+          "length": 21519424
+        },
+        {
+          "file": "Videos/glitchInverted.bik",
+          "file_offset": 0,
+          "chunk_offset": 51801860,
+          "length": 4815424
+        },
+        {
+          "file": "Videos/multicultural_team.bik",
+          "file_offset": 0,
+          "chunk_offset": 56617284,
+          "length": 918916
+        },
+        {
+          "file": "Videos/pr_ch09_loopexit.bik",
+          "file_offset": 0,
+          "chunk_offset": 57536200,
+          "length": 6500288
+        },
+        {
+          "file": "Videos/pr_ch12_final.bik",
+          "file_offset": 0,
+          "chunk_offset": 64036488,
+          "length": 33109736
+        },
+        {
+          "file": "Videos/pr_to_sp_loadexec.bik",
+          "file_offset": 0,
+          "chunk_offset": 97146224,
+          "length": 4006236
+        },
+        {
+          "file": "Videos/Previously_On.bik",
+          "file_offset": 0,
+          "chunk_offset": 101152460,
+          "length": 77332044
+        }
+      ],
+      "sha256": "994ac8ea5d8824b250ac693937d60d08652f3924df1cc8bb236a1eb4e2c2f4da"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "Videos/Previously_On.bik",
+          "file_offset": 77332044,
+          "chunk_offset": 0,
+          "length": 41849380
+        },
+        {
+          "file": "Videos/previouslyon_ezio.bik",
+          "file_offset": 0,
+          "chunk_offset": 41849380,
+          "length": 136635124
+        }
+      ],
+      "sha256": "fbaaf57688c800453712d2550ada4e42efdbc34edd1764a6b4bd8b91223f81f9"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 178484504,
+      "segments": [
+        {
+          "file": "Videos/previouslyon_ezio.bik",
+          "file_offset": 136635124,
+          "chunk_offset": 0,
+          "length": 108952072
+        },
+        {
+          "file": "Videos/previouslyon_ezio_end.bik",
+          "file_offset": 0,
+          "chunk_offset": 108952072,
+          "length": 5072
+        },
+        {
+          "file": "Videos/ru/warning_disclaimer.bik",
+          "file_offset": 0,
+          "chunk_offset": 108957144,
+          "length": 1262524
+        },
+        {
+          "file": "Videos/sp_end_cgi.bik",
+          "file_offset": 0,
+          "chunk_offset": 110219668,
+          "length": 68264836
+        }
+      ],
+      "sha256": "1f5b775b12be2cadd76673b2dcb19e545709415e94829414543e0bfbaeb1b17b"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 178484492,
+      "segments": [
+        {
+          "file": "Videos/sp_end_cgi.bik",
+          "file_offset": 68264836,
+          "chunk_offset": 0,
+          "length": 159308292
+        },
+        {
+          "file": "Videos/sp_to_pr_loadexec.bik",
+          "file_offset": 0,
+          "chunk_offset": 159308292,
+          "length": 2904536
+        },
+        {
+          "file": "Videos/sp_to_s16_loadexec.bik",
+          "file_offset": 0,
+          "chunk_offset": 162212828,
+          "length": 8295620
+        },
+        {
+          "file": "Videos/UBI_LOGO.bik",
+          "file_offset": 0,
+          "chunk_offset": 170508448,
+          "length": 7976044
+        }
+      ],
+      "sha256": "21a704f61cd42dd6624d60db2b3add0f5a1ece284e6c6226904920c9a39bc544"
+    }
+  ]
+}
