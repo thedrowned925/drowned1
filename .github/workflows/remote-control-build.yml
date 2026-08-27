@@ -1,0 +1,78 @@
+name: Build Remote Control Test Packages
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feature/remote-control-agent
+    paths:
+      - 'windows/control-agent/**'
+      - 'mobile/control-app/**'
+      - 'remote/relay/**'
+      - '.github/workflows/remote-control-build.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  windows-agent:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install Agent dependencies
+        shell: pwsh
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r windows/control-agent/requirements.txt pyinstaller
+
+      - name: Build Drowned Agent EXE
+        shell: pwsh
+        run: |
+          pyinstaller --noconfirm --clean --onefile --console `
+            --name Drowned-Agent `
+            --paths windows/control-agent `
+            windows/control-agent/launcher.py
+          if (-not (Test-Path dist/Drowned-Agent.exe)) { throw 'Drowned-Agent.exe was not created' }
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Drowned-Agent-Windows
+          path: dist/Drowned-Agent.exe
+          if-no-files-found: error
+          retention-days: 14
+
+  android-control:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK 35
+        run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Build test APK
+        run: |
+          gradle -p mobile/control-app :app:assembleDebug --stacktrace
+          cp mobile/control-app/app/build/outputs/apk/debug/app-debug.apk Drowned-Control-Remote-debug.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Drowned-Control-Android
+          path: Drowned-Control-Remote-debug.apk
+          if-no-files-found: error
+          retention-days: 14
