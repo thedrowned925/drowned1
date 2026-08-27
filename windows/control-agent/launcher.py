@@ -5,6 +5,7 @@ import json
 import os
 import secrets
 import socket
+import sys
 from ctypes import wintypes
 from pathlib import Path
 
@@ -103,28 +104,31 @@ def setup_dialog(existing=None):
 
     result = {}
     root = tk.Tk()
-    root.title("Drowned Agent - İlk Kurulum")
+    root.title("Drowned Agent - Bağlantı Ayarları" if existing else "Drowned Agent - İlk Kurulum")
     root.resizable(False, False)
     root.attributes("-topmost", True)
 
     tk.Label(root, text="Drowned Agent", font=("Segoe UI", 16, "bold")).grid(
-        row=0, column=0, columnspan=2, padx=18, pady=(16, 4)
+        row=0, column=0, columnspan=3, padx=18, pady=(16, 4)
     )
-    tk.Label(root, text="Telefonu bu bilgisayara aynı ağ üzerinden bağla.").grid(
-        row=1, column=0, columnspan=2, padx=18, pady=(0, 14)
-    )
+    tk.Label(
+        root,
+        text="Telefon bağlantısını buradan yönetebilirsin. Anahtarı kaybetsen bile tekrar görebilir veya yenileyebilirsin.",
+        wraplength=470,
+        justify="left",
+    ).grid(row=1, column=0, columnspan=3, padx=18, pady=(0, 14), sticky="w")
 
     tk.Label(root, text="Port").grid(row=2, column=0, sticky="w", padx=18, pady=5)
     port = tk.Entry(root, width=46)
-    port.grid(row=2, column=1, padx=(0, 18), pady=5)
+    port.grid(row=2, column=1, columnspan=2, padx=(0, 18), pady=5, sticky="ew")
 
     tk.Label(root, text="Cihaz ID").grid(row=3, column=0, sticky="w", padx=18, pady=5)
     device = tk.Entry(root, width=46)
-    device.grid(row=3, column=1, padx=(0, 18), pady=5)
+    device.grid(row=3, column=1, columnspan=2, padx=(0, 18), pady=5, sticky="ew")
 
     tk.Label(root, text="Erişim anahtarı").grid(row=4, column=0, sticky="w", padx=18, pady=5)
     token = tk.Entry(root, width=46, show="•")
-    token.grid(row=4, column=1, padx=(0, 18), pady=5)
+    token.grid(row=4, column=1, columnspan=2, padx=(0, 18), pady=5, sticky="ew")
 
     if existing:
         port.insert(0, str(existing.get("port", DEFAULT_PORT)))
@@ -134,6 +138,85 @@ def setup_dialog(existing=None):
         port.insert(0, str(DEFAULT_PORT))
         device.insert(0, socket.gethostname().lower().replace(" ", "-"))
         token.insert(0, secrets.token_urlsafe(32))
+
+    show_token = tk.BooleanVar(value=False)
+
+    def toggle_visibility():
+        token.configure(show="" if show_token.get() else "•")
+
+    tk.Checkbutton(
+        root,
+        text="Anahtarı göster",
+        variable=show_token,
+        command=toggle_visibility,
+    ).grid(row=5, column=1, sticky="w", pady=(2, 6))
+
+    def copy_value(value: str, label: str):
+        value = value.strip()
+        if not value:
+            messagebox.showwarning("Drowned Agent", f"{label} boş.")
+            return
+        root.clipboard_clear()
+        root.clipboard_append(value)
+        root.update()
+        messagebox.showinfo("Drowned Agent", f"{label} panoya kopyalandı.")
+
+    def current_address():
+        try:
+            port_value = int(port.get().strip())
+        except ValueError:
+            port_value = DEFAULT_PORT
+        return f"http://{lan_ip()}:{port_value}"
+
+    tk.Button(
+        root,
+        text="Anahtarı Kopyala",
+        command=lambda: copy_value(token.get(), "Erişim anahtarı"),
+        width=20,
+    ).grid(row=6, column=1, padx=(0, 6), pady=4, sticky="ew")
+
+    tk.Button(
+        root,
+        text="Adresi Kopyala",
+        command=lambda: copy_value(current_address(), "Agent adresi"),
+        width=20,
+    ).grid(row=6, column=2, padx=(0, 18), pady=4, sticky="ew")
+
+    def regenerate_token():
+        if existing:
+            ok = messagebox.askyesno(
+                "Erişim anahtarını yenile",
+                "Yeni anahtar oluşturulursa telefondaki eski anahtar artık çalışmayacak.\n\nDevam edilsin mi?",
+            )
+            if not ok:
+                return
+        token.delete(0, tk.END)
+        token.insert(0, secrets.token_urlsafe(32))
+        show_token.set(True)
+        toggle_visibility()
+        token.focus_set()
+        token.selection_range(0, tk.END)
+        messagebox.showinfo(
+            "Drowned Agent",
+            "Yeni erişim anahtarı oluşturuldu. Kaydettiğinde aktif olacak. İstersen şimdi kopyalayabilirsin.",
+        )
+
+    tk.Button(
+        root,
+        text="Yeni Anahtar Oluştur",
+        command=regenerate_token,
+        width=22,
+    ).grid(row=7, column=1, columnspan=2, padx=(0, 18), pady=(4, 8), sticky="w")
+
+    address_text = tk.StringVar(value=f"Bağlantı adresi: {current_address()}")
+    tk.Label(root, textvariable=address_text, fg="#475569").grid(
+        row=8, column=0, columnspan=3, padx=18, pady=(0, 8), sticky="w"
+    )
+
+    def refresh_address(_event=None):
+        address_text.set(f"Bağlantı adresi: {current_address()}")
+
+    port.bind("<KeyRelease>", refresh_address)
 
     def save():
         try:
@@ -158,15 +241,15 @@ def setup_dialog(existing=None):
         address = f"http://{lan_ip()}:{port_value}"
         messagebox.showinfo(
             "Drowned Agent",
-            "Telefonda PC Control ekranına şu bilgileri gir:\n\n"
+            "Ayarlar kaydedildi. Telefonda PC Control ekranında şu bilgileri kullan:\n\n"
             f"Agent adresi:\n{address}\n\n"
             f"Erişim anahtarı:\n{token_value}\n\n"
             "Telefon ve PC aynı Wi-Fi/LAN üzerinde olmalı.",
         )
         root.destroy()
 
-    tk.Button(root, text="Kaydet ve Agent'ı Başlat", command=save, width=24).grid(
-        row=5, column=0, columnspan=2, pady=18
+    tk.Button(root, text="Kaydet ve Agent'ı Başlat", command=save, width=26).grid(
+        row=9, column=0, columnspan=3, pady=(8, 18)
     )
     root.protocol("WM_DELETE_WINDOW", root.destroy)
     root.mainloop()
@@ -184,9 +267,16 @@ def save_config(config):
 
 
 def main():
-    config = load_config()
-    if config is None:
-        config = setup_dialog()
+    existing = load_config()
+    headless = "--headless" in sys.argv
+
+    if headless:
+        if existing is None:
+            print("Drowned Agent: --headless kullanmak için önce normal kurulum yapılmalı.")
+            return
+        config = existing
+    else:
+        config = setup_dialog(existing)
         if not config:
             return
         save_config(config)
