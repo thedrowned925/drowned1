@@ -1,0 +1,44 @@
+name: Remote Control Branch CI
+
+on:
+  push:
+    branches:
+      - feature/remote-control-agent
+    paths:
+      - 'mobile/control-app/**'
+      - 'windows/control-agent/**'
+      - 'remote/relay/**'
+      - '.github/workflows/remote-control-ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Validate Python syntax
+        run: python -m py_compile windows/control-agent/agent.py remote/relay/server.py
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK 35
+        run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Build Android debug APK
+        run: gradle -p mobile/control-app :app:assembleDebug --stacktrace
+
+      - name: Verify APK
+        run: test -f mobile/control-app/app/build/outputs/apk/debug/app-debug.apk
