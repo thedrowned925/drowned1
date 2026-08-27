@@ -5,20 +5,29 @@ import os
 import time
 from collections import defaultdict
 
-from fastapi import FastAPI, WebSocket, WebSocketDisconnect
+from fastapi import FastAPI, Request, WebSocket, WebSocketDisconnect
+from fastapi.responses import JSONResponse
 
 app = FastAPI(title="Drowned Remote Relay")
 TOKEN = os.getenv("DROWNED_REMOTE_TOKEN", "").strip()
 agents = {}
 mobiles = defaultdict(set)
+mobile_queues = {}
 lock = asyncio.Lock()
 
 
-def authorized(ws):
-    auth = ws.headers.get("authorization", "")
-    if not TOKEN or not auth.lower().startswith("bearer "):
+def token_ok(value):
+    if not TOKEN or not value.lower().startswith("bearer "):
         return False
-    return hmac.compare_digest(auth[7:].strip(), TOKEN)
+    return hmac.compare_digest(value[7:].strip(), TOKEN)
+
+
+def authorized_ws(ws):
+    return token_ok(ws.headers.get("authorization", ""))
+
+
+def authorized_request(request):
+    return token_ok(request.headers.get("authorization", ""))
 
 
 async def send(ws, payload):
@@ -29,7 +38,21 @@ async def send(ws, payload):
         return False
 
 
+def queue_message(device_id, payload):
+    queue = mobile_queues.setdefault(device_id, asyncio.Queue(maxsize=8))
+    if queue.full():
+        try:
+            queue.get_nowait()
+        except asyncio.QueueEmpty:
+            pass
+    try:
+        queue.put_nowait(payload)
+    except asyncio.QueueFull:
+        pass
+
+
 async def broadcast(device_id, payload):
+    queue_message(device_id, payload)
     async with lock:
         targets = list(mobiles.get(device_id, set()))
     dead = []
@@ -54,11 +77,57 @@ async def health():
         }
 
 
+@app.get("/api/mobile/{device_id}/presence")
+async def mobile_presence(device_id: str, request: Request):
+    if not authorized_request(request):
+        return JSONResponse({"error": "unauthorized"}, status_code=401)
+    device_id = device_id.lower().strip()
+    async with lock:
+        online = device_id in agents
+    return {"type": "relay_state", "device_id": device_id, "agent_online": online, "timestamp": time.time()}
+
+
+@app.get("/api/mobile/{device_id}/next")
+async def mobile_next(device_id: str, request: Request):
+    if not authorized_request(request):
+        return JSONResponse({"error": "unauthorized"}, status_code=401)
+    device_id = device_id.lower().strip()
+    queue = mobile_queues.setdefault(device_id, asyncio.Queue(maxsize=8))
+    try:
+        payload = await asyncio.wait_for(queue.get(), timeout=25)
+        return payload
+    except asyncio.TimeoutError:
+        async with lock:
+            online = device_id in agents
+        return {"type": "relay_state", "device_id": device_id, "agent_online": online, "timestamp": time.time()}
+
+
+@app.post("/api/mobile/{device_id}/command")
+async def mobile_command(device_id: str, request: Request):
+    if not authorized_request(request):
+        return JSONResponse({"error": "unauthorized"}, status_code=401)
+    device_id = device_id.lower().strip()
+    try:
+        payload = await request.json()
+    except Exception:
+        return JSONResponse({"error": "invalid_json"}, status_code=400)
+    async with lock:
+        agent = agents.get(device_id)
+    if agent is None:
+        return JSONResponse({"error": "agent_offline"}, status_code=503)
+    if not await send(agent, payload):
+        async with lock:
+            if agents.get(device_id) is agent:
+                agents.pop(device_id, None)
+        return JSONResponse({"error": "agent_disconnected"}, status_code=503)
+    return {"ok": True}
+
+
 @app.websocket("/ws/{role}/{device_id}")
 async def relay(ws: WebSocket, role: str, device_id: str):
     role = role.lower()
     device_id = device_id.lower().strip()
-    if role not in {"agent", "mobile"} or not device_id or not authorized(ws):
+    if role not in {"agent", "mobile"} or not device_id or not authorized_ws(ws):
         await ws.close(code=1008)
         return
     await ws.accept()
