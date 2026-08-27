@@ -67,6 +67,14 @@ def format_gib(size: int) -> str:
     return f"{size / (1024 ** 3):.3f}"
 
 
+def format_tb(size: int) -> str:
+    return f"{size / 1_000_000_000_000:.3f}"
+
+
+def format_tib(size: int) -> str:
+    return f"{size / (1024 ** 4):.3f}"
+
+
 def format_updated_at(raw: object) -> str:
     if not raw:
         return "-"
@@ -133,7 +141,7 @@ def main() -> None:
         "",
         f"- **Toplam oyun:** {total_games}",
         f"- **Toplam aktif sürüm/kanal:** {total_releases}",
-        f"- **Toplam aktif boyut:** {format_gb(total_size)} GB ({format_gib(total_size)} GiB)",
+        f"- **Toplam aktif boyut:** {format_gb(total_size)} GB ({format_gib(total_size)} GiB) · {format_tb(total_size)} TB ({format_tib(total_size)} TiB)",
         f"- **Katalog güncelleme zamanı:** {format_updated_at(catalog.get('updated_at'))}",
         "",
     ]
@@ -162,11 +170,12 @@ def main() -> None:
                 "",
                 (
                     f"**{platform_game_count} oyun · {len(rows)} aktif sürüm/kanal · "
-                    f"{format_gb(platform_size)} GB ({format_gib(platform_size)} GiB)**"
+                    f"{format_gb(platform_size)} GB ({format_gib(platform_size)} GiB) · "
+                    f"{format_tb(platform_size)} TB ({format_tib(platform_size)} TiB)**"
                 ),
                 "",
-                "| Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |",
-                "|---|---:|---|---:|---:|---|",
+                "| Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Boyut (TB) | Boyut (TiB) | Release etiketi |",
+                "|---|---:|---|---:|---:|---:|---:|---|",
             ]
         )
 
@@ -180,6 +189,8 @@ def main() -> None:
                         escape_cell(row["channel"]),
                         format_gb(int(row["size"])),
                         format_gib(int(row["size"])),
+                        format_tb(int(row["size"])),
+                        format_tib(int(row["size"])),
                         f"`{escape_cell(row['tag'])}`" if row["tag"] != "-" else "-",
                     ]
                 )
