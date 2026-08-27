@@ -60,12 +60,13 @@ jobs:
             --collect-all uvicorn `
             windows/control-agent/launcher.py
           if (-not (Test-Path dist/Drowned-Agent.exe)) { throw 'Drowned-Agent.exe was not created' }
+          Copy-Item dist/Drowned-Agent.exe Drowned-Agent.exe
 
       - uses: actions/upload-artifact@v4
         with:
           name: update-windows
           path: |
-            dist/Drowned-Agent.exe
+            Drowned-Agent.exe
             windows-build.json
           if-no-files-found: error
           retention-days: 7
