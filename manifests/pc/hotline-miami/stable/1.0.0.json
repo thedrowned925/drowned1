@@ -1,0 +1,786 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "hotline-miami",
+    "title": "Hotline Miami",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Hotline Miami is a high-octane action game overflowing with raw brutality, hard-boiled gunplay and skull crushing close combat."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-hotline-miami-v1.0.0-stable"
+  },
+  "chunk_size": 63659050,
+  "upload_workers": 10,
+  "upload_waves": 1,
+  "total_size": 636590496,
+  "files": [
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "AlienInMiami.dll",
+      "size": 18944,
+      "sha256": "5200a0a16a6a21450e89d418e97bda440658b72e55b9ff0d5e948a86354448ef"
+    },
+    {
+      "path": "ANewMorning.ogg",
+      "size": 4026926,
+      "sha256": "2b7e08daafe0faa80b3416fa87d2331d619761d5855f8f88217888b1ea79b249"
+    },
+    {
+      "path": "bass.dll",
+      "size": 92728,
+      "sha256": "d98cd5d6ed9c4a95701684aa83777cefd5d8096e14c836493f67159d68161c01"
+    },
+    {
+      "path": "bgm.dll",
+      "size": 33792,
+      "sha256": "0ff690bc9eb9a222e54a876cf574e323740c2563219c9adbf33bb6355e7a0e1b"
+    },
+    {
+      "path": "cg.dll",
+      "size": 2719744,
+      "sha256": "98fcfe212c1d59f02e2d8d304447db099a3198761cf7122bf7c46442e6dcb785"
+    },
+    {
+      "path": "cgGL.dll",
+      "size": 303104,
+      "sha256": "e7331be6ac88225ed8c8a0b0e354db0d479854b4d2cb9f2530a771946769347d"
+    },
+    {
+      "path": "Crush.ogg",
+      "size": 3076745,
+      "sha256": "d416ea40d9821953f9afb67b053ce37c8730935123d56134b05dd33812d78f73"
+    },
+    {
+      "path": "Crystals.ogg",
+      "size": 6197599,
+      "sha256": "7dddd28c23423777b6c986519da113d8e7ef6224bbdcf7dd4a406694af08c1ac"
+    },
+    {
+      "path": "Daisuke.ogg",
+      "size": 4139101,
+      "sha256": "00430792fa75c23cfe463413b8ab43441ed1c1cf983908a4d9926315a89c6e82"
+    },
+    {
+      "path": "DeepCover.ogg",
+      "size": 12010561,
+      "sha256": "5d4d7b0f9be60d799df61825b3ecf6a1e523d6e295580c315e753f314c7c2a56"
+    },
+    {
+      "path": "ElectricDreams.ogg",
+      "size": 7400730,
+      "sha256": "a0000353bdf904dcded6ab9ab7cecc3afa3c754b701e176458b14c4a41ffe27b"
+    },
+    {
+      "path": "EULA.txt",
+      "size": 50520,
+      "sha256": "90bfd47ca41643095e5d04e9488b51f35bc1bd00e7eb4e46a81934940e90273c"
+    },
+    {
+      "path": "Flatline.ogg",
+      "size": 2815693,
+      "sha256": "573634b47b837e3ffc6814669500eb95c963897f4fe7723799c0e0606c6c2e70"
+    },
+    {
+      "path": "GMXInput.dll",
+      "size": 159744,
+      "sha256": "8191475086f4129e4c6e7a6fb4de560eadf115882f239835d92966cd50949072"
+    },
+    {
+      "path": "gog.ico",
+      "size": 69248,
+      "sha256": "f6a71321521ba89713f0bd38b21f809e87e8a789cb172e8e4693f9479e30b1e4"
+    },
+    {
+      "path": "goggame-1207659118.hashdb",
+      "size": 1351,
+      "sha256": "f38b2824d1867020adedd8632edfe834cc6e3b3e4c061a9e335c328f683c5fc7"
+    },
+    {
+      "path": "goggame-1207659118.ico",
+      "size": 122462,
+      "sha256": "13f0fe76b3a8d4e6577ca22d6899273c18b4075d7024a426d746c2ec5b4d24e0"
+    },
+    {
+      "path": "goggame-1207659118.id",
+      "size": 38,
+      "sha256": "29d23c322bac4e072c055613b01490391d5f0b649bbb878dfca9e2d58b1201b2"
+    },
+    {
+      "path": "goggame-1207659118.info",
+      "size": 1273,
+      "sha256": "21932f12d33f44cc335f77a339f624ddedd614b3aebb3c95ac7e614f19779c2e"
+    },
+    {
+      "path": "goggame-1207659118.script",
+      "size": 405,
+      "sha256": "7e1a5caea000f4bc80098e911475b5cf899c2453851bb6cbe9f07a9bf9f3b872"
+    },
+    {
+      "path": "goglog.ini",
+      "size": 79,
+      "sha256": "4439f3cce24bb97a7d8b3643811a848e5243054276f1e0689633de08c0ca6f72"
+    },
+    {
+      "path": "HorseSteppin.ogg",
+      "size": 14944067,
+      "sha256": "b3fbdb64dfb0940c98cfe85e40c340ff546dba3d0fba8658dfb29436f2b31560"
+    },
+    {
+      "path": "Hotline.ogg",
+      "size": 5436601,
+      "sha256": "8ab51c3aa59d6041fa111c3e050373d3a19a700a87b5f82627acb30523551978"
+    },
+    {
+      "path": "HotlineGL.exe",
+      "size": 7490048,
+      "sha256": "ef171897a23a210fbe1099d7b0ad215ed18fc023ff3978ddb682afe5656f91c8"
+    },
+    {
+      "path": "HotlineLauncher.exe",
+      "size": 544256,
+      "sha256": "8bb65a2a6ad43e16dadcd841da0da830a35c150b7beec5bb732dcf74fa3302e6"
+    },
+    {
+      "path": "HotlineMiami_GL.wad",
+      "size": 394847421,
+      "sha256": "5001f28936a13a43b3934f74fa3e1ab377837ae64f05c551e4bc3a9f94bf6085"
+    },
+    {
+      "path": "HotlineMiami_Original.exe",
+      "size": 20656136,
+      "sha256": "7ab75c3a72245cda4e0a09cba6296622391408c1c623770e528afd3a73514f48"
+    },
+    {
+      "path": "Hydrogen.ogg",
+      "size": 8855631,
+      "sha256": "158d123a6e56cefacf8b9ff9e68466c9dfc3b643f6faa61acb37c910e582303c"
+    },
+    {
+      "path": "InnerAnimal.ogg",
+      "size": 7791073,
+      "sha256": "7e9ff1a0490c8fb1401790fd706e5f2d640b863b416cc9eee155f57a300a0bbc"
+    },
+    {
+      "path": "ItsSafeNow.ogg",
+      "size": 5674440,
+      "sha256": "68ad5065880cc089744dd24a10da1181c08e2f2abaab4b695b6dc2112f426672"
+    },
+    {
+      "path": "Knock.ogg",
+      "size": 7662507,
+      "sha256": "a01ceee9f427e6e2d7fad392f4a9be01c904d673200e3c44119a4dacda2c9f1e"
+    },
+    {
+      "path": "Launch Hotline Miami.lnk",
+      "size": 945,
+      "sha256": "db77e5e794be06fa0ebc1b8c98788dc1df8cf5514166429b0912c28e857ba84c"
+    },
+    {
+      "path": "libogg.dll",
+      "size": 17920,
+      "sha256": "634826d0eae12a07aaaece036f2203e3b75550c8e2fcd8e4afc419a377e6f335"
+    },
+    {
+      "path": "libvorbis.dll",
+      "size": 1624576,
+      "sha256": "2add2e1347aa3f4cf175123e99e2eb39f58640563a9d1a5300e85a82ab67e3e3"
+    },
+    {
+      "path": "libvorbisfile.dll",
+      "size": 29184,
+      "sha256": "9bb4458a0723252b943d2efe3470c978962255683431f4999f1d071f2852b18a"
+    },
+    {
+      "path": "Miami2.ogg",
+      "size": 5655147,
+      "sha256": "955c5fd4cdb39c4d9134b5352ec6090def23d985f1cb8569e636aff8724bcce3"
+    },
+    {
+      "path": "Musikk2.ogg",
+      "size": 5331426,
+      "sha256": "353719f613a652ad032afe4aabc2ce5e49cd9876d39076d4cdaa1509b8b55b50"
+    },
+    {
+      "path": "Paris2.ogg",
+      "size": 7422490,
+      "sha256": "b6e3e9227d55fce0c3d5f41625db73020e35af597c4208622272a607a4bc7a04"
+    },
+    {
+      "path": "Perturbator.ogg",
+      "size": 8326293,
+      "sha256": "d0939b0e799c6febc2b9225a17a826f6d123496f05eae189388079fbc2d501c0"
+    },
+    {
+      "path": "Release.ogg",
+      "size": 11448720,
+      "sha256": "b94410b62da8db2c22b7bee5d2733b4839ef91c82f942165a6624fd49de44195"
+    },
+    {
+      "path": "SilverLights.ogg",
+      "size": 9715620,
+      "sha256": "63b7a0065deddd1f6202d14f72c6740dac70b0a217b85094779fbd6a31cb3405"
+    },
+    {
+      "path": "Static.ogg",
+      "size": 2110272,
+      "sha256": "6bb3da4b48a1657b4d4baf738ba2d890708f219f62a7cf6b4ae42c00ac5206e2"
+    },
+    {
+      "path": "support.ico",
+      "size": 62895,
+      "sha256": "05fe749ef47d1ec862d6c55be78e66d1011226bf1f78409acf57cb79cec5eb20"
+    },
+    {
+      "path": "ToTheTop.ogg",
+      "size": 3718189,
+      "sha256": "0aff6e24158f483503227db36d04356edca266f029da92431e4718f6a516c94e"
+    },
+    {
+      "path": "TurfIntro.ogg",
+      "size": 3685305,
+      "sha256": "0360d2d9466023ef76dfbb9e1cd2235ed84dc8f5244c4b84d89569fc2c88c3b6"
+    },
+    {
+      "path": "TurfMain.ogg",
+      "size": 8649667,
+      "sha256": "d4160f155c5f1863685c0dc4390624bc18068024da131c1f19984ceebf0b228d"
+    },
+    {
+      "path": "unins000.dat",
+      "size": 1705286,
+      "sha256": "4597cba717ce0b1affac5a6e74e02f67c56811899a8cdd1c6ca4963c868fbe70"
+    },
+    {
+      "path": "unins000.exe",
+      "size": 1343048,
+      "sha256": "5761e7789d813626cd68ee1e62429cfeb92bdd814cd29ef12fc4ae9ec1dbaff3"
+    },
+    {
+      "path": "unins000.ini",
+      "size": 41,
+      "sha256": "9bd9f591fb6b6aa056f19948b6445894ada370dd858eaad293356dd4a230be46"
+    },
+    {
+      "path": "unins000.msg",
+      "size": 23147,
+      "sha256": "e43d06ec2b3dbe3d81bcd6b7880d28d074dac54b38646a605cfc5c809939da16"
+    },
+    {
+      "path": "webcache.zip",
+      "size": 246998,
+      "sha256": "75d28517ef8be8a5f545cf5a13a732e64bb72d42160bd47c688a3a767bf4092e"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 63659050,
+      "segments": [
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 288088,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1097584,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16071608,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 30483912,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 36202784,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 41276024,
+          "length": 7054336
+        },
+        {
+          "file": "AlienInMiami.dll",
+          "file_offset": 0,
+          "chunk_offset": 48330360,
+          "length": 18944
+        },
+        {
+          "file": "ANewMorning.ogg",
+          "file_offset": 0,
+          "chunk_offset": 48349304,
+          "length": 4026926
+        },
+        {
+          "file": "bass.dll",
+          "file_offset": 0,
+          "chunk_offset": 52376230,
+          "length": 92728
+        },
+        {
+          "file": "bgm.dll",
+          "file_offset": 0,
+          "chunk_offset": 52468958,
+          "length": 33792
+        },
+        {
+          "file": "cg.dll",
+          "file_offset": 0,
+          "chunk_offset": 52502750,
+          "length": 2719744
+        },
+        {
+          "file": "cgGL.dll",
+          "file_offset": 0,
+          "chunk_offset": 55222494,
+          "length": 303104
+        },
+        {
+          "file": "Crush.ogg",
+          "file_offset": 0,
+          "chunk_offset": 55525598,
+          "length": 3076745
+        },
+        {
+          "file": "Crystals.ogg",
+          "file_offset": 0,
+          "chunk_offset": 58602343,
+          "length": 5056707
+        }
+      ],
+      "sha256": "af0a8e5b05c07f5524762956eb94a1d638e43603741da2e46862de4095eca1ff"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 63659050,
+      "segments": [
+        {
+          "file": "Crystals.ogg",
+          "file_offset": 5056707,
+          "chunk_offset": 0,
+          "length": 1140892
+        },
+        {
+          "file": "Daisuke.ogg",
+          "file_offset": 0,
+          "chunk_offset": 1140892,
+          "length": 4139101
+        },
+        {
+          "file": "DeepCover.ogg",
+          "file_offset": 0,
+          "chunk_offset": 5279993,
+          "length": 12010561
+        },
+        {
+          "file": "ElectricDreams.ogg",
+          "file_offset": 0,
+          "chunk_offset": 17290554,
+          "length": 7400730
+        },
+        {
+          "file": "EULA.txt",
+          "file_offset": 0,
+          "chunk_offset": 24691284,
+          "length": 50520
+        },
+        {
+          "file": "Flatline.ogg",
+          "file_offset": 0,
+          "chunk_offset": 24741804,
+          "length": 2815693
+        },
+        {
+          "file": "GMXInput.dll",
+          "file_offset": 0,
+          "chunk_offset": 27557497,
+          "length": 159744
+        },
+        {
+          "file": "gog.ico",
+          "file_offset": 0,
+          "chunk_offset": 27717241,
+          "length": 69248
+        },
+        {
+          "file": "goggame-1207659118.hashdb",
+          "file_offset": 0,
+          "chunk_offset": 27786489,
+          "length": 1351
+        },
+        {
+          "file": "goggame-1207659118.ico",
+          "file_offset": 0,
+          "chunk_offset": 27787840,
+          "length": 122462
+        },
+        {
+          "file": "goggame-1207659118.id",
+          "file_offset": 0,
+          "chunk_offset": 27910302,
+          "length": 38
+        },
+        {
+          "file": "goggame-1207659118.info",
+          "file_offset": 0,
+          "chunk_offset": 27910340,
+          "length": 1273
+        },
+        {
+          "file": "goggame-1207659118.script",
+          "file_offset": 0,
+          "chunk_offset": 27911613,
+          "length": 405
+        },
+        {
+          "file": "goglog.ini",
+          "file_offset": 0,
+          "chunk_offset": 27912018,
+          "length": 79
+        },
+        {
+          "file": "HorseSteppin.ogg",
+          "file_offset": 0,
+          "chunk_offset": 27912097,
+          "length": 14944067
+        },
+        {
+          "file": "Hotline.ogg",
+          "file_offset": 0,
+          "chunk_offset": 42856164,
+          "length": 5436601
+        },
+        {
+          "file": "HotlineGL.exe",
+          "file_offset": 0,
+          "chunk_offset": 48292765,
+          "length": 7490048
+        },
+        {
+          "file": "HotlineLauncher.exe",
+          "file_offset": 0,
+          "chunk_offset": 55782813,
+          "length": 544256
+        },
+        {
+          "file": "HotlineMiami_GL.wad",
+          "file_offset": 0,
+          "chunk_offset": 56327069,
+          "length": 7331981
+        }
+      ],
+      "sha256": "4d1c02ba4e6ce4559b20cd2a2468441e51014b128de1e80bf1a14c249aa8ea93"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 63659050,
+      "segments": [
+        {
+          "file": "HotlineMiami_GL.wad",
+          "file_offset": 7331981,
+          "chunk_offset": 0,
+          "length": 63659050
+        }
+      ],
+      "sha256": "080345adb5cf8d6593cbb5fb999a632fbdbe7408ada4a24da49bfda6810e1fcd"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 63659050,
+      "segments": [
+        {
+          "file": "HotlineMiami_GL.wad",
+          "file_offset": 70991031,
+          "chunk_offset": 0,
+          "length": 63659050
+        }
+      ],
+      "sha256": "c4d43e86828d2bb4ef1ff41bf0b5e53fab998391baa66cb7b49a6a5408bfedc4"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 63659050,
+      "segments": [
+        {
+          "file": "HotlineMiami_GL.wad",
+          "file_offset": 134650081,
+          "chunk_offset": 0,
+          "length": 63659050
+        }
+      ],
+      "sha256": "aa01a3f968090bfcb68b02abbb1ec658eb4620ecc0162ef6a2d3433620b90f54"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 63659050,
+      "segments": [
+        {
+          "file": "HotlineMiami_GL.wad",
+          "file_offset": 198309131,
+          "chunk_offset": 0,
+          "length": 63659050
+        }
+      ],
+      "sha256": "cb1921c6d52cf75505902fbc8361679cf7325b3ee23b29e571c85680c85c5e81"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 63659050,
+      "segments": [
+        {
+          "file": "HotlineMiami_GL.wad",
+          "file_offset": 261968181,
+          "chunk_offset": 0,
+          "length": 63659050
+        }
+      ],
+      "sha256": "df325f82ef7f8ed866d5163ca86bde03c3dd0e07418a46a05bae920efe0fda08"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 63659050,
+      "segments": [
+        {
+          "file": "HotlineMiami_GL.wad",
+          "file_offset": 325627231,
+          "chunk_offset": 0,
+          "length": 63659050
+        }
+      ],
+      "sha256": "95d21714297f0813ce163d3f97b2ecfc47f80bd97b3449f69cd41423296e8e78"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 63659050,
+      "segments": [
+        {
+          "file": "HotlineMiami_GL.wad",
+          "file_offset": 389286281,
+          "chunk_offset": 0,
+          "length": 5561140
+        },
+        {
+          "file": "HotlineMiami_Original.exe",
+          "file_offset": 0,
+          "chunk_offset": 5561140,
+          "length": 20656136
+        },
+        {
+          "file": "Hydrogen.ogg",
+          "file_offset": 0,
+          "chunk_offset": 26217276,
+          "length": 8855631
+        },
+        {
+          "file": "InnerAnimal.ogg",
+          "file_offset": 0,
+          "chunk_offset": 35072907,
+          "length": 7791073
+        },
+        {
+          "file": "ItsSafeNow.ogg",
+          "file_offset": 0,
+          "chunk_offset": 42863980,
+          "length": 5674440
+        },
+        {
+          "file": "Knock.ogg",
+          "file_offset": 0,
+          "chunk_offset": 48538420,
+          "length": 7662507
+        },
+        {
+          "file": "Launch Hotline Miami.lnk",
+          "file_offset": 0,
+          "chunk_offset": 56200927,
+          "length": 945
+        },
+        {
+          "file": "libogg.dll",
+          "file_offset": 0,
+          "chunk_offset": 56201872,
+          "length": 17920
+        },
+        {
+          "file": "libvorbis.dll",
+          "file_offset": 0,
+          "chunk_offset": 56219792,
+          "length": 1624576
+        },
+        {
+          "file": "libvorbisfile.dll",
+          "file_offset": 0,
+          "chunk_offset": 57844368,
+          "length": 29184
+        },
+        {
+          "file": "Miami2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 57873552,
+          "length": 5655147
+        },
+        {
+          "file": "Musikk2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 63528699,
+          "length": 130351
+        }
+      ],
+      "sha256": "d8f60ba0bcad708dd694ae977dfc3e4d65be95580be68755165544ed5f0a08f2"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 63659046,
+      "segments": [
+        {
+          "file": "Musikk2.ogg",
+          "file_offset": 130351,
+          "chunk_offset": 0,
+          "length": 5201075
+        },
+        {
+          "file": "Paris2.ogg",
+          "file_offset": 0,
+          "chunk_offset": 5201075,
+          "length": 7422490
+        },
+        {
+          "file": "Perturbator.ogg",
+          "file_offset": 0,
+          "chunk_offset": 12623565,
+          "length": 8326293
+        },
+        {
+          "file": "Release.ogg",
+          "file_offset": 0,
+          "chunk_offset": 20949858,
+          "length": 11448720
+        },
+        {
+          "file": "SilverLights.ogg",
+          "file_offset": 0,
+          "chunk_offset": 32398578,
+          "length": 9715620
+        },
+        {
+          "file": "Static.ogg",
+          "file_offset": 0,
+          "chunk_offset": 42114198,
+          "length": 2110272
+        },
+        {
+          "file": "support.ico",
+          "file_offset": 0,
+          "chunk_offset": 44224470,
+          "length": 62895
+        },
+        {
+          "file": "ToTheTop.ogg",
+          "file_offset": 0,
+          "chunk_offset": 44287365,
+          "length": 3718189
+        },
+        {
+          "file": "TurfIntro.ogg",
+          "file_offset": 0,
+          "chunk_offset": 48005554,
+          "length": 3685305
+        },
+        {
+          "file": "TurfMain.ogg",
+          "file_offset": 0,
+          "chunk_offset": 51690859,
+          "length": 8649667
+        },
+        {
+          "file": "unins000.dat",
+          "file_offset": 0,
+          "chunk_offset": 60340526,
+          "length": 1705286
+        },
+        {
+          "file": "unins000.exe",
+          "file_offset": 0,
+          "chunk_offset": 62045812,
+          "length": 1343048
+        },
+        {
+          "file": "unins000.ini",
+          "file_offset": 0,
+          "chunk_offset": 63388860,
+          "length": 41
+        },
+        {
+          "file": "unins000.msg",
+          "file_offset": 0,
+          "chunk_offset": 63388901,
+          "length": 23147
+        },
+        {
+          "file": "webcache.zip",
+          "file_offset": 0,
+          "chunk_offset": 63412048,
+          "length": 246998
+        }
+      ],
+      "sha256": "afc44aa1bce7e002fb4d1731192194afd8ef322e43427691a6c2966c28ca88dc"
+    }
+  ]
+}
