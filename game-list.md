@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 77
-- **Toplam aktif sürüm/kanal:** 77
-- **Toplam aktif boyut:** 1865.646 GB · 1.866 TB
-- **Katalog güncelleme zamanı:** 2026-08-27 15:11:10 UTC
+- **Toplam oyun:** 78
+- **Toplam aktif sürüm/kanal:** 78
+- **Toplam aktif boyut:** 1869.958 GB · 1.870 TB
+- **Katalog güncelleme zamanı:** 2026-08-27 15:15:33 UTC
 
 ## PC
 
-**77 oyun · 77 aktif sürüm/kanal · 1865.646 GB · 1.866 TB**
+**78 oyun · 78 aktif sürüm/kanal · 1869.958 GB · 1.870 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -45,6 +45,7 @@
 | Fallout 4 | 1.0.0 | stable | 38.617 | 0.039 | `pc-fallout-4-v1.0.0-stable` |
 | Fallout: New Vegas | 1.0.0 | stable | 9.914 | 0.010 | `pc-fallout-new-vegas-v1.0.0-stable` |
 | Far Cry 3 | 1.0.0 | stable | 9.977 | 0.010 | `pc-far-cry-3-v1.0.0-stable` |
+| Firewatch | 1.0.0 | stable | 4.312 | 0.004 | `pc-firewatch-v1.0.0-stable` |
 | God of War | 1.0.0 | stable | 66.388 | 0.066 | `pc-god-of-war-v1.0.0-stable` |
 | Grand Theft Auto III | 1.0.0 | stable | 1.351 | 0.001 | `pc-grand-theft-auto-iii-v1.0.0-stable` |
 | Grand Theft Auto IV: The Complete Edition | 1.0.0 | stable | 23.783 | 0.024 | `pc-grand-theft-auto-iv-the-complete-edition-v1.0.0-stable` |
