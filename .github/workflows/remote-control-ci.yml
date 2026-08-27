@@ -7,7 +7,6 @@ on:
     paths:
       - 'mobile/control-app/**'
       - 'windows/control-agent/**'
-      - 'remote/relay/**'
       - '.github/workflows/remote-control-ci.yml'
   workflow_dispatch:
 
@@ -24,27 +23,36 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install test dependencies
+      - name: Install Agent dependencies
         run: |
+          python -m pip install --upgrade pip
           python -m pip install -r windows/control-agent/requirements.txt
-          python -m pip install -r remote/relay/requirements.txt httpx2
 
       - name: Validate Python syntax
         run: |
           python -m py_compile \
             windows/control-agent/agent.py \
             windows/control-agent/launcher.py \
-            windows/control-agent/download_watcher.py \
-            remote/relay/server.py \
-            remote/relay/test_relay.py
+            windows/control-agent/download_watcher.py
 
       - name: Test download watcher behavior
         working-directory: windows/control-agent
         run: python test_download_watcher.py
 
-      - name: Test Relay routing and authentication
-        working-directory: remote/relay
-        run: python test_relay.py
+      - name: Smoke-test LAN Agent construction and filesystem API
+        working-directory: windows/control-agent
+        env:
+          DROWNED_REMOTE_TOKEN: ci-test-token-ci-test-token
+        run: |
+          python - <<'PY'
+          from agent import Agent
+          agent = Agent()
+          payload = agent.status_payload()
+          assert payload['type'] == 'agent_status'
+          assert 'remote_folder_browser' in payload['capabilities']
+          assert isinstance(agent.list_drives(), list)
+          print('LAN Agent smoke test OK')
+          PY
 
       - uses: actions/setup-java@v5
         with:

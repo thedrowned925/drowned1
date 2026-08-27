@@ -3,12 +3,14 @@ import base64
 import ctypes
 import json
 import os
+import secrets
 import socket
 from ctypes import wintypes
 from pathlib import Path
 
 APP_DIR = Path(os.getenv("APPDATA", str(Path.home()))) / "DrownedAgent"
 CONFIG_PATH = APP_DIR / "config.json"
+DEFAULT_PORT = 47821
 
 
 class DATA_BLOB(ctypes.Structure):
@@ -60,14 +62,35 @@ def unprotect_text(value: str) -> str:
         _ = keepalive
 
 
+def lan_ip():
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        sock.connect(("10.255.255.255", 1))
+        value = sock.getsockname()[0]
+        if value and not value.startswith("127."):
+            return value
+    except OSError:
+        pass
+    finally:
+        sock.close()
+    try:
+        value = socket.gethostbyname(socket.gethostname())
+        return value or "127.0.0.1"
+    except OSError:
+        return "127.0.0.1"
+
+
 def load_config():
     if not CONFIG_PATH.exists():
         return None
     try:
         data = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+        port = int(data.get("port", DEFAULT_PORT))
+        if not 1024 <= port <= 65535:
+            return None
         return {
-            "relay_url": str(data["relay_url"]).strip(),
-            "device_id": str(data["device_id"]).strip().lower(),
+            "port": port,
+            "device_id": str(data.get("device_id") or socket.gethostname()).strip().lower(),
             "token": unprotect_text(str(data["token_protected"])),
         }
     except Exception:
@@ -84,42 +107,67 @@ def setup_dialog(existing=None):
     root.resizable(False, False)
     root.attributes("-topmost", True)
 
-    tk.Label(root, text="Drowned Agent", font=("Segoe UI", 16, "bold")).grid(row=0, column=0, columnspan=2, padx=18, pady=(16, 4))
-    tk.Label(root, text="Bu bilgisayarı Drowned Control'a bağla.").grid(row=1, column=0, columnspan=2, padx=18, pady=(0, 14))
+    tk.Label(root, text="Drowned Agent", font=("Segoe UI", 16, "bold")).grid(
+        row=0, column=0, columnspan=2, padx=18, pady=(16, 4)
+    )
+    tk.Label(root, text="Telefonu bu bilgisayara aynı ağ üzerinden bağla.").grid(
+        row=1, column=0, columnspan=2, padx=18, pady=(0, 14)
+    )
 
-    tk.Label(root, text="Relay adresi").grid(row=2, column=0, sticky="w", padx=18, pady=5)
-    relay = tk.Entry(root, width=46)
-    relay.grid(row=2, column=1, padx=(0, 18), pady=5)
+    tk.Label(root, text="Port").grid(row=2, column=0, sticky="w", padx=18, pady=5)
+    port = tk.Entry(root, width=46)
+    port.grid(row=2, column=1, padx=(0, 18), pady=5)
 
     tk.Label(root, text="Cihaz ID").grid(row=3, column=0, sticky="w", padx=18, pady=5)
     device = tk.Entry(root, width=46)
     device.grid(row=3, column=1, padx=(0, 18), pady=5)
 
-    tk.Label(root, text="Gizli token").grid(row=4, column=0, sticky="w", padx=18, pady=5)
+    tk.Label(root, text="Erişim anahtarı").grid(row=4, column=0, sticky="w", padx=18, pady=5)
     token = tk.Entry(root, width=46, show="•")
     token.grid(row=4, column=1, padx=(0, 18), pady=5)
 
     if existing:
-        relay.insert(0, existing.get("relay_url", ""))
+        port.insert(0, str(existing.get("port", DEFAULT_PORT)))
         device.insert(0, existing.get("device_id", ""))
         token.insert(0, existing.get("token", ""))
     else:
+        port.insert(0, str(DEFAULT_PORT))
         device.insert(0, socket.gethostname().lower().replace(" ", "-"))
+        token.insert(0, secrets.token_urlsafe(32))
 
     def save():
-        relay_value = relay.get().strip().rstrip("/")
+        try:
+            port_value = int(port.get().strip())
+        except ValueError:
+            messagebox.showerror("Drowned Agent", "Port sayı olmalı.")
+            return
+        if not 1024 <= port_value <= 65535:
+            messagebox.showerror("Drowned Agent", "Port 1024-65535 arasında olmalı.")
+            return
+
         device_value = device.get().strip().lower()
         token_value = token.get().strip()
-        if not relay_value.startswith(("ws://", "wss://")):
-            messagebox.showerror("Drowned Agent", "Relay adresi ws:// veya wss:// ile başlamalı.")
+        if not device_value or len(token_value) < 24:
+            messagebox.showerror(
+                "Drowned Agent",
+                "Cihaz ID boş olamaz ve erişim anahtarı en az 24 karakter olmalı.",
+            )
             return
-        if not device_value or not token_value:
-            messagebox.showerror("Drowned Agent", "Cihaz ID ve token boş olamaz.")
-            return
-        result.update(relay_url=relay_value, device_id=device_value, token=token_value)
+
+        result.update(port=port_value, device_id=device_value, token=token_value)
+        address = f"http://{lan_ip()}:{port_value}"
+        messagebox.showinfo(
+            "Drowned Agent",
+            "Telefonda PC Control ekranına şu bilgileri gir:\n\n"
+            f"Agent adresi:\n{address}\n\n"
+            f"Erişim anahtarı:\n{token_value}\n\n"
+            "Telefon ve PC aynı Wi-Fi/LAN üzerinde olmalı.",
+        )
         root.destroy()
 
-    tk.Button(root, text="Kaydet ve Bağlan", command=save, width=20).grid(row=5, column=0, columnspan=2, pady=18)
+    tk.Button(root, text="Kaydet ve Agent'ı Başlat", command=save, width=24).grid(
+        row=5, column=0, columnspan=2, pady=18
+    )
     root.protocol("WM_DELETE_WINDOW", root.destroy)
     root.mainloop()
     return result or None
@@ -128,7 +176,7 @@ def setup_dialog(existing=None):
 def save_config(config):
     APP_DIR.mkdir(parents=True, exist_ok=True)
     payload = {
-        "relay_url": config["relay_url"],
+        "port": int(config["port"]),
         "device_id": config["device_id"],
         "token_protected": protect_text(config["token"]),
     }
@@ -143,9 +191,15 @@ def main():
             return
         save_config(config)
 
-    os.environ["DROWNED_RELAY_URL"] = config["relay_url"]
+    os.environ["DROWNED_AGENT_HOST"] = "0.0.0.0"
+    os.environ["DROWNED_AGENT_PORT"] = str(config["port"])
     os.environ["DROWNED_DEVICE_ID"] = config["device_id"]
     os.environ["DROWNED_REMOTE_TOKEN"] = config["token"]
+
+    address = f"http://{lan_ip()}:{config['port']}"
+    print("Drowned Agent hazır.")
+    print(f"Telefon bağlantı adresi: {address}")
+    print("Bu pencere açık kaldığı sürece Agent çalışır.")
 
     from agent import Agent
 

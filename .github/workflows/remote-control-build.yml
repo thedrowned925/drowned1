@@ -8,7 +8,6 @@ on:
     paths:
       - 'windows/control-agent/**'
       - 'mobile/control-app/**'
-      - 'remote/relay/**'
       - '.github/workflows/remote-control-build.yml'
 
 permissions:
@@ -36,6 +35,9 @@ jobs:
           pyinstaller --noconfirm --clean --onefile --console `
             --name Drowned-Agent `
             --paths windows/control-agent `
+            --collect-all fastapi `
+            --collect-all starlette `
+            --collect-all uvicorn `
             windows/control-agent/launcher.py
           if (-not (Test-Path dist/Drowned-Agent.exe)) { throw 'Drowned-Agent.exe was not created' }
 
@@ -68,26 +70,11 @@ jobs:
       - name: Build test APK
         run: |
           gradle -p mobile/control-app :app:assembleDebug --stacktrace
-          cp mobile/control-app/app/build/outputs/apk/debug/app-debug.apk Drowned-Control-Remote-debug.apk
+          cp mobile/control-app/app/build/outputs/apk/debug/app-debug.apk Drowned-Control-LAN-debug.apk
 
       - uses: actions/upload-artifact@v4
         with:
           name: Drowned-Control-Android
-          path: Drowned-Control-Remote-debug.apk
-          if-no-files-found: error
-          retention-days: 14
-
-  relay-package:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-
-      - uses: actions/upload-artifact@v4
-        with:
-          name: Drowned-Relay-Server
-          path: |
-            remote/relay/server.py
-            remote/relay/requirements.txt
-            remote/relay/README.md
+          path: Drowned-Control-LAN-debug.apk
           if-no-files-found: error
           retention-days: 14

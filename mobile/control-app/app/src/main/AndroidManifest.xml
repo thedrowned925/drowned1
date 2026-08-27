@@ -6,7 +6,8 @@
         android:allowBackup="true"
         android:label="Drowned Control"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+        android:usesCleartextTraffic="true">
         <activity
             android:name=".RemoteControlActivity"
             android:exported="false" />

@@ -1,5 +1,6 @@
 package com.drowned.control
 
+import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.os.Bundle
@@ -15,6 +16,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.weight
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -38,10 +40,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -51,6 +55,7 @@ import kotlinx.coroutines.withContext
 import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
+import java.net.URLEncoder
 import java.util.Locale
 import java.util.UUID
 
@@ -65,12 +70,20 @@ class RemoteControlActivity : ComponentActivity() {
     }
 }
 
-private class RemoteController(private val scope: CoroutineScope) {
-    var relayUrl by mutableStateOf("")
-    var deviceId by mutableStateOf("")
+private data class RemoteDirectory(
+    val name: String,
+    val path: String,
+)
+
+private class RemoteController(
+    private val scope: CoroutineScope,
+    private val context: Context,
+) {
+    var agentUrl by mutableStateOf("")
     var token by mutableStateOf("")
     var connected by mutableStateOf(false)
     var agentOnline by mutableStateOf(false)
+    var deviceId by mutableStateOf("—")
     var hostname by mutableStateOf("—")
     var cpu by mutableStateOf(0.0)
     var memoryPercent by mutableStateOf(0.0)
@@ -84,6 +97,12 @@ private class RemoteController(private val scope: CoroutineScope) {
     var downloadSpeed by mutableStateOf(0.0)
     var stableSeconds by mutableStateOf(0.0)
 
+    var folderBrowserOpen by mutableStateOf(false)
+    var folderLoading by mutableStateOf(false)
+    var currentFolder by mutableStateOf<String?>(null)
+    var parentFolder by mutableStateOf<String?>(null)
+    val directories = mutableStateListOf<RemoteDirectory>()
+
     var selectedExe by mutableStateOf<String?>(null)
     var testActive by mutableStateOf(false)
     var pid by mutableStateOf<Int?>(null)
@@ -93,26 +112,42 @@ private class RemoteController(private val scope: CoroutineScope) {
 
     private var polling = false
     private var pollJob: Job? = null
+    private val clientId = UUID.randomUUID().toString()
+
+    init {
+        RemoteSettings.load(context)?.let {
+            agentUrl = it.agentUrl
+            token = it.token
+        }
+    }
 
     fun connect() {
         if (polling) return
-        val base = relayUrl.trim().trimEnd('/')
-        val device = deviceId.trim().lowercase()
+        val base = agentUrl.trim().trimEnd('/')
         val accessToken = token.trim()
-        if (base.isBlank() || device.isBlank() || accessToken.isBlank()) {
-            addLog("Relay URL, cihaz ID ve token gerekli.")
+        if (!base.startsWith("http://") && !base.startsWith("https://")) {
+            addLog("Agent adresi http:// veya https:// ile başlamalı.")
             return
         }
-        relayUrl = base
-        deviceId = device
+        if (accessToken.isBlank()) {
+            addLog("Erişim anahtarı gerekli.")
+            return
+        }
+
+        agentUrl = base
+        token = accessToken
+        RemoteSettings.save(context, agentUrl, token)
         polling = true
         connected = true
-        addLog("Relay bağlantısı başlatıldı.")
+        addLog("PC Agent bağlantısı başlatıldı.")
+
         pollJob = scope.launch(Dispatchers.IO) {
             while (polling) {
                 try {
-                    val message = getJson("/api/mobile/$device/next")
-                    process(message)
+                    val encodedClient = URLEncoder.encode(clientId, Charsets.UTF_8.name())
+                    process(getJson("/api/events/next?client_id=$encodedClient"))
+                } catch (_: CancellationException) {
+                    break
                 } catch (error: Exception) {
                     withContext(Dispatchers.Main) {
                         agentOnline = false
@@ -122,7 +157,17 @@ private class RemoteController(private val scope: CoroutineScope) {
                 }
             }
         }
-        command("request_status")
+
+        scope.launch(Dispatchers.IO) {
+            try {
+                process(getJson("/api/status"))
+            } catch (error: Exception) {
+                withContext(Dispatchers.Main) {
+                    agentOnline = false
+                    addLog("Agent durumu alınamadı: ${error.message ?: error.javaClass.simpleName}")
+                }
+            }
+        }
     }
 
     fun disconnect() {
@@ -132,12 +177,13 @@ private class RemoteController(private val scope: CoroutineScope) {
         connected = false
         agentOnline = false
         preview = null
-        addLog("Relay bağlantısı kapatıldı.")
+        folderBrowserOpen = false
+        addLog("PC Agent bağlantısı kapatıldı.")
     }
 
-    fun command(name: String) {
+    fun command(name: String, values: Map<String, String> = emptyMap()) {
         if (!connected) {
-            addLog("Önce relay'e bağlan.")
+            addLog("Önce PC Agent'a bağlan.")
             return
         }
         val requestId = UUID.randomUUID().toString()
@@ -147,13 +193,97 @@ private class RemoteController(private val scope: CoroutineScope) {
                     .put("type", "command")
                     .put("command", name)
                     .put("request_id", requestId)
-                postJson("/api/mobile/${deviceId.trim().lowercase()}/command", body)
+                values.forEach { (key, value) -> body.put(key, value) }
+                postJson("/api/command", body)
             } catch (error: Exception) {
                 withContext(Dispatchers.Main) {
                     addLog("Komut gönderilemedi: ${error.message ?: error.javaClass.simpleName}")
                 }
             }
         }
+    }
+
+    fun openFolderBrowser() {
+        if (!agentOnline) return
+        folderBrowserOpen = true
+        currentFolder = null
+        parentFolder = null
+        directories.clear()
+        loadDrives()
+    }
+
+    fun closeFolderBrowser() {
+        folderBrowserOpen = false
+        folderLoading = false
+    }
+
+    fun loadDrives() {
+        if (!connected) return
+        folderLoading = true
+        scope.launch(Dispatchers.IO) {
+            try {
+                val message = getJson("/api/drives")
+                val array = message.getJSONArray("drives")
+                val values = mutableListOf<RemoteDirectory>()
+                for (index in 0 until array.length()) {
+                    val item = array.getJSONObject(index)
+                    values += RemoteDirectory(
+                        name = item.optString("name", item.optString("path")),
+                        path = item.getString("path"),
+                    )
+                }
+                withContext(Dispatchers.Main) {
+                    currentFolder = null
+                    parentFolder = null
+                    directories.clear()
+                    directories.addAll(values)
+                    folderLoading = false
+                }
+            } catch (error: Exception) {
+                withContext(Dispatchers.Main) {
+                    folderLoading = false
+                    addLog("Sürücüler alınamadı: ${error.message ?: error.javaClass.simpleName}")
+                }
+            }
+        }
+    }
+
+    fun loadFolder(path: String) {
+        if (!connected) return
+        folderLoading = true
+        scope.launch(Dispatchers.IO) {
+            try {
+                val encoded = URLEncoder.encode(path, Charsets.UTF_8.name())
+                val message = getJson("/api/files?path=$encoded")
+                val array = message.getJSONArray("directories")
+                val values = mutableListOf<RemoteDirectory>()
+                for (index in 0 until array.length()) {
+                    val item = array.getJSONObject(index)
+                    values += RemoteDirectory(
+                        name = item.getString("name"),
+                        path = item.getString("path"),
+                    )
+                }
+                withContext(Dispatchers.Main) {
+                    currentFolder = message.getString("path")
+                    parentFolder = message.optString("parent").takeIf { it.isNotBlank() && it != "null" }
+                    directories.clear()
+                    directories.addAll(values)
+                    folderLoading = false
+                }
+            } catch (error: Exception) {
+                withContext(Dispatchers.Main) {
+                    folderLoading = false
+                    addLog("Klasör açılamadı: ${error.message ?: error.javaClass.simpleName}")
+                }
+            }
+        }
+    }
+
+    fun selectCurrentDownloadFolder() {
+        val path = currentFolder ?: return
+        command("set_download_folder", mapOf("path" to path))
+        folderBrowserOpen = false
     }
 
     private suspend fun process(message: JSONObject) {
@@ -172,14 +302,10 @@ private class RemoteController(private val scope: CoroutineScope) {
 
     private fun applyMessage(message: JSONObject) {
         when (message.optString("type")) {
-            "relay_state" -> agentOnline = message.optBoolean("agent_online", false)
-            "agent_hello" -> {
-                hostname = message.optString("hostname", hostname)
-                agentOnline = true
-                addLog("Agent bağlandı: $hostname")
-            }
+            "heartbeat" -> agentOnline = message.optBoolean("agent_online", true)
             "agent_status" -> {
                 hostname = message.optString("hostname", hostname)
+                deviceId = message.optString("device_id", deviceId)
                 cpu = message.optDouble("cpu", 0.0)
                 memoryPercent = message.optDouble("memory_percent", 0.0)
                 selectedExe = message.optString("selected_exe").takeIf { it.isNotBlank() && it != "null" }
@@ -254,8 +380,8 @@ private class RemoteController(private val scope: CoroutineScope) {
     }
 
     private fun open(path: String): HttpURLConnection {
-        val connection = URL(relayUrl + path).openConnection() as HttpURLConnection
-        connection.connectTimeout = 12_000
+        val connection = URL(agentUrl + path).openConnection() as HttpURLConnection
+        connection.connectTimeout = 8_000
         connection.readTimeout = 30_000
         connection.setRequestProperty("Authorization", "Bearer ${token.trim()}")
         connection.setRequestProperty("Accept", "application/json")
@@ -269,7 +395,7 @@ private class RemoteController(private val scope: CoroutineScope) {
         val stream = if (code in 200..299) connection.inputStream else connection.errorStream
         val text = stream?.bufferedReader()?.use { it.readText() }.orEmpty()
         connection.disconnect()
-        if (code !in 200..299) error("HTTP $code ${text.take(120)}")
+        if (code !in 200..299) error("HTTP $code ${text.take(160)}")
         return JSONObject(text)
     }
 
@@ -283,7 +409,7 @@ private class RemoteController(private val scope: CoroutineScope) {
         val stream = if (code in 200..299) connection.inputStream else connection.errorStream
         val text = stream?.bufferedReader()?.use { it.readText() }.orEmpty()
         connection.disconnect()
-        if (code !in 200..299) error("HTTP $code ${text.take(120)}")
+        if (code !in 200..299) error("HTTP $code ${text.take(160)}")
     }
 }
 
@@ -291,7 +417,8 @@ private class RemoteController(private val scope: CoroutineScope) {
 @Composable
 private fun RemoteControlScreen(onBack: () -> Unit) {
     val scope = rememberCoroutineScope()
-    val controller = remember { RemoteController(scope) }
+    val context = LocalContext.current
+    val controller = remember { RemoteController(scope, context.applicationContext) }
 
     DisposableEffect(Unit) {
         onDispose { controller.disconnect() }
@@ -303,7 +430,7 @@ private fun RemoteControlScreen(onBack: () -> Unit) {
                 title = {
                     Column {
                         Text("PC Control", fontWeight = FontWeight.Bold)
-                        Text("Drowned Agent", fontSize = 11.sp)
+                        Text("Drowned Agent · LAN", fontSize = 11.sp)
                     }
                 },
                 navigationIcon = { TextButton(onClick = onBack) { Text("← Geri") } },
@@ -317,21 +444,11 @@ private fun RemoteControlScreen(onBack: () -> Unit) {
             item { Spacer(Modifier.height(4.dp)) }
             item {
                 OutlinedTextField(
-                    value = controller.relayUrl,
-                    onValueChange = { controller.relayUrl = it },
+                    value = controller.agentUrl,
+                    onValueChange = { controller.agentUrl = it },
                     modifier = Modifier.fillMaxWidth(),
-                    label = { Text("Relay URL") },
-                    placeholder = { Text("https://relay.example.com") },
-                    singleLine = true,
-                )
-            }
-            item {
-                OutlinedTextField(
-                    value = controller.deviceId,
-                    onValueChange = { controller.deviceId = it },
-                    modifier = Modifier.fillMaxWidth(),
-                    label = { Text("PC cihaz ID") },
-                    placeholder = { Text("hasan-pc") },
+                    label = { Text("PC Agent adresi") },
+                    placeholder = { Text("http://192.168.1.34:47821") },
                     singleLine = true,
                 )
             }
@@ -350,7 +467,10 @@ private fun RemoteControlScreen(onBack: () -> Unit) {
                     Button(onClick = { if (controller.connected) controller.disconnect() else controller.connect() }) {
                         Text(if (controller.connected) "Bağlantıyı Kes" else "Bağlan")
                     }
-                    TextButton(onClick = { controller.command("request_status") }) { Text("Yenile") }
+                    TextButton(
+                        onClick = { controller.command("request_status") },
+                        enabled = controller.connected,
+                    ) { Text("Yenile") }
                 }
             }
             item {
@@ -363,6 +483,7 @@ private fun RemoteControlScreen(onBack: () -> Unit) {
                         Text(if (controller.agentOnline) "● PC Çevrimiçi" else "○ PC Çevrimdışı", fontWeight = FontWeight.Bold)
                         Spacer(Modifier.height(6.dp))
                         Text(controller.hostname)
+                        Text("Cihaz: ${controller.deviceId}", fontSize = 12.sp)
                         Text("CPU: ${"%.1f".format(controller.cpu)}%   RAM: ${"%.1f".format(controller.memoryPercent)}%", fontSize = 13.sp)
                         Text("PID: ${controller.pid ?: "—"}", fontSize = 13.sp)
                     }
@@ -386,20 +507,30 @@ private fun RemoteControlScreen(onBack: () -> Unit) {
                 }
             }
             item {
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     Button(
-                        onClick = { controller.command("choose_download_folder") },
+                        onClick = { controller.openFolderBrowser() },
                         enabled = controller.agentOnline && !controller.downloadWatchActive,
-                    ) { Text("PC'de Klasör Seç") }
-                    Button(
-                        onClick = {
-                            controller.command(if (controller.downloadWatchActive) "stop_download_watch" else "start_download_watch")
-                        },
-                        enabled = controller.agentOnline && (controller.downloadFolder != null || controller.downloadWatchActive),
-                    ) {
-                        Text(if (controller.downloadWatchActive) "İzlemeyi Durdur" else "İzlemeyi Başlat")
+                        modifier = Modifier.fillMaxWidth(),
+                    ) { Text("Telefondan PC Klasörü Seç") }
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        TextButton(
+                            onClick = { controller.command("choose_download_folder") },
+                            enabled = controller.agentOnline && !controller.downloadWatchActive,
+                        ) { Text("PC'de klasör seç") }
+                        Button(
+                            onClick = {
+                                controller.command(if (controller.downloadWatchActive) "stop_download_watch" else "start_download_watch")
+                            },
+                            enabled = controller.agentOnline && (controller.downloadFolder != null || controller.downloadWatchActive),
+                        ) {
+                            Text(if (controller.downloadWatchActive) "İzlemeyi Durdur" else "İzlemeyi Başlat")
+                        }
                     }
                 }
+            }
+            if (controller.folderBrowserOpen) {
+                item { FolderBrowserCard(controller) }
             }
 
             item { Text("Oyun Testi", fontSize = 20.sp, fontWeight = FontWeight.Bold) }
@@ -442,6 +573,54 @@ private fun RemoteControlScreen(onBack: () -> Unit) {
             item { Text("Teknik Günlük", fontSize = 20.sp, fontWeight = FontWeight.Bold) }
             items(controller.logs) { log -> Text(log, fontSize = 12.sp) }
             item { Spacer(Modifier.height(28.dp)) }
+        }
+    }
+}
+
+@Composable
+private fun FolderBrowserCard(controller: RemoteController) {
+    Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(14.dp)) {
+        Column(
+            modifier = Modifier.padding(14.dp),
+            verticalArrangement = Arrangement.spacedBy(6.dp),
+        ) {
+            Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+                Text("PC Klasörleri", fontWeight = FontWeight.Bold)
+                TextButton(onClick = { controller.closeFolderBrowser() }) { Text("Kapat") }
+            }
+            Text(controller.currentFolder ?: "Sürücüler", fontSize = 12.sp)
+
+            if (controller.folderLoading) {
+                Text("Yükleniyor…", fontSize = 13.sp)
+            } else {
+                if (controller.currentFolder != null) {
+                    TextButton(onClick = {
+                        val parent = controller.parentFolder
+                        if (parent == null) controller.loadDrives() else controller.loadFolder(parent)
+                    }) {
+                        Text("↑ Üst klasör")
+                    }
+                }
+                controller.directories.forEach { directory ->
+                    TextButton(
+                        onClick = { controller.loadFolder(directory.path) },
+                        modifier = Modifier.fillMaxWidth(),
+                    ) {
+                        Text("📁 ${directory.name}")
+                    }
+                }
+                if (controller.directories.isEmpty()) {
+                    Text("Alt klasör yok.", fontSize = 12.sp)
+                }
+            }
+
+            Button(
+                onClick = { controller.selectCurrentDownloadFolder() },
+                enabled = controller.currentFolder != null && !controller.folderLoading,
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Text("Bu Klasörü Kullan")
+            }
         }
     }
 }

@@ -2,27 +2,31 @@ import asyncio
 import base64
 import ctypes
 import io
-import json
 import os
 import platform
+import secrets
 import socket
 import subprocess
 import time
 import uuid
+from contextlib import asynccontextmanager
 from ctypes import wintypes
 from pathlib import Path
 
 import mss
 import psutil
-import websockets
+import uvicorn
+from fastapi import FastAPI, Header, HTTPException, Query, Request
 from PIL import Image
 
 from download_watcher import DownloadWatcher
 
-RELAY_BASE = os.getenv("DROWNED_RELAY_URL", "wss://YOUR-RELAY-HOST/ws").rstrip("/")
+AGENT_HOST = os.getenv("DROWNED_AGENT_HOST", "0.0.0.0").strip() or "0.0.0.0"
+AGENT_PORT = int(os.getenv("DROWNED_AGENT_PORT", "47821"))
 DEVICE_ID = os.getenv("DROWNED_DEVICE_ID", socket.gethostname().lower().replace(" ", "-"))
 TOKEN = os.getenv("DROWNED_REMOTE_TOKEN", "").strip()
 CAPTURE_FPS = max(0.5, min(float(os.getenv("DROWNED_CAPTURE_FPS", "3")), 6.0))
+CLIENT_TTL_SECONDS = 120.0
 
 
 class RECT(ctypes.Structure):
@@ -36,8 +40,6 @@ class RECT(ctypes.Structure):
 
 class Agent:
     def __init__(self):
-        self.ws = None
-        self.send_lock = asyncio.Lock()
         self.selected_exe = None
         self.process = None
         self.session_id = None
@@ -45,12 +47,134 @@ class Agent:
         self.tracked_pids = set()
         self.download_watcher = DownloadWatcher()
         self.download_task = None
+        self.clients = {}
+        self.client_seen = {}
+
+        @asynccontextmanager
+        async def lifespan(_app):
+            telemetry_task = asyncio.create_task(self.telemetry())
+            try:
+                yield
+            finally:
+                telemetry_task.cancel()
+                await asyncio.gather(telemetry_task, return_exceptions=True)
+                if self.download_task and not self.download_task.done():
+                    self.download_task.cancel()
+                    await asyncio.gather(self.download_task, return_exceptions=True)
+
+        self.app = FastAPI(
+            title="Drowned PC Agent",
+            version="0.1.0",
+            docs_url=None,
+            redoc_url=None,
+            lifespan=lifespan,
+        )
+        self.configure_routes()
+
+    def require_auth(self, authorization):
+        if not TOKEN:
+            raise HTTPException(status_code=503, detail="Agent token is not configured")
+        prefix = "Bearer "
+        if not authorization or not authorization.startswith(prefix):
+            raise HTTPException(status_code=401, detail="Missing bearer token")
+        candidate = authorization[len(prefix):].strip()
+        if not secrets.compare_digest(candidate, TOKEN):
+            raise HTTPException(status_code=401, detail="Invalid bearer token")
+
+    def configure_routes(self):
+        @self.app.get("/api/status")
+        async def api_status(authorization: str | None = Header(default=None)):
+            self.require_auth(authorization)
+            return self.status_payload()
+
+        @self.app.get("/api/drives")
+        async def api_drives(authorization: str | None = Header(default=None)):
+            self.require_auth(authorization)
+            return {"drives": self.list_drives(), "timestamp": time.time()}
+
+        @self.app.get("/api/files")
+        async def api_files(
+            path: str = Query(..., min_length=1),
+            authorization: str | None = Header(default=None),
+        ):
+            self.require_auth(authorization)
+            try:
+                return self.list_directory(path)
+            except FileNotFoundError:
+                raise HTTPException(status_code=404, detail="Folder not found")
+            except PermissionError:
+                raise HTTPException(status_code=403, detail="Folder access denied")
+            except OSError as exc:
+                raise HTTPException(status_code=400, detail=str(exc))
+
+        @self.app.get("/api/events/next")
+        async def api_events_next(
+            client_id: str = Query(..., min_length=8, max_length=128),
+            authorization: str | None = Header(default=None),
+        ):
+            self.require_auth(authorization)
+            queue = self.client_queue(client_id)
+            try:
+                return await asyncio.wait_for(queue.get(), timeout=25.0)
+            except asyncio.TimeoutError:
+                self.client_seen[client_id] = time.monotonic()
+                return {
+                    "type": "heartbeat",
+                    "agent_online": True,
+                    "device_id": DEVICE_ID,
+                    "timestamp": time.time(),
+                }
+
+        @self.app.post("/api/command")
+        async def api_command(
+            request: Request,
+            authorization: str | None = Header(default=None),
+        ):
+            self.require_auth(authorization)
+            try:
+                message = await request.json()
+            except Exception:
+                raise HTTPException(status_code=400, detail="Invalid JSON body")
+            if not isinstance(message, dict):
+                raise HTTPException(status_code=400, detail="JSON body must be an object")
+            await self.handle(message)
+            return {
+                "accepted": True,
+                "request_id": message.get("request_id"),
+                "timestamp": time.time(),
+            }
+
+    def prune_clients(self):
+        now = time.monotonic()
+        stale = [
+            client_id for client_id, seen in self.client_seen.items()
+            if now - seen > CLIENT_TTL_SECONDS
+        ]
+        for client_id in stale:
+            self.clients.pop(client_id, None)
+            self.client_seen.pop(client_id, None)
+
+    def client_queue(self, client_id):
+        self.prune_clients()
+        queue = self.clients.get(client_id)
+        if queue is None:
+            queue = asyncio.Queue(maxsize=64)
+            self.clients[client_id] = queue
+        self.client_seen[client_id] = time.monotonic()
+        return queue
 
     async def send(self, payload):
-        if not self.ws:
-            return
-        async with self.send_lock:
-            await self.ws.send(json.dumps(payload, ensure_ascii=False, separators=(",", ":")))
+        self.prune_clients()
+        for queue in list(self.clients.values()):
+            if queue.full():
+                try:
+                    queue.get_nowait()
+                except asyncio.QueueEmpty:
+                    pass
+            try:
+                queue.put_nowait(payload)
+            except asyncio.QueueFull:
+                pass
 
     async def event(self, text, level="info"):
         await self.send({"type": "event", "level": level, "message": text, "timestamp": time.time()})
@@ -73,7 +197,7 @@ class Agent:
         self.tracked_pids.update(found)
         return found
 
-    async def status(self):
+    def status_payload(self):
         memory = psutil.virtual_memory()
         disks = []
         for part in psutil.disk_partitions(all=False):
@@ -81,12 +205,17 @@ class Agent:
                 usage = psutil.disk_usage(part.mountpoint)
             except OSError:
                 continue
-            disks.append({"path": part.mountpoint, "free": usage.free, "total": usage.total})
+            disks.append({
+                "path": part.mountpoint,
+                "free": usage.free,
+                "total": usage.total,
+            })
         pids = sorted(self.live_test_pids()) if self.session_id else []
-        await self.send({
+        return {
             "type": "agent_status",
             "device_id": DEVICE_ID,
             "hostname": socket.gethostname(),
+            "os": platform.platform(),
             "cpu": psutil.cpu_percent(),
             "memory_percent": memory.percent,
             "disks": disks,
@@ -98,32 +227,113 @@ class Agent:
             "fdm_running": self.download_watcher.fdm_running(),
             "download_folder": self.download_watcher.folder,
             "download_watch_active": bool(self.download_watcher.started_at),
+            "capabilities": [
+                "telemetry",
+                "remote_folder_browser",
+                "pc_folder_picker",
+                "pc_exe_picker",
+                "process_tree_test",
+                "screen_preview",
+                "fdm_folder_watch",
+            ],
             "timestamp": time.time(),
-        })
+        }
+
+    async def status(self):
+        await self.send(self.status_payload())
 
     async def telemetry(self):
         while True:
-            await self.status()
+            if self.clients:
+                await self.status()
             await asyncio.sleep(5)
+
+    @staticmethod
+    def list_drives():
+        drives = []
+        seen = set()
+        for part in psutil.disk_partitions(all=False):
+            mount = part.mountpoint
+            key = mount.lower() if os.name == "nt" else mount
+            if key in seen:
+                continue
+            seen.add(key)
+            try:
+                usage = psutil.disk_usage(mount)
+            except OSError:
+                continue
+            label = Path(mount).drive or mount
+            drives.append({
+                "name": label,
+                "path": mount,
+                "free": usage.free,
+                "total": usage.total,
+            })
+        if not drives and os.name != "nt":
+            try:
+                usage = psutil.disk_usage("/")
+                drives.append({"name": "/", "path": "/", "free": usage.free, "total": usage.total})
+            except OSError:
+                pass
+        return drives
+
+    @staticmethod
+    def list_directory(raw_path):
+        folder = Path(raw_path).expanduser()
+        if not folder.exists():
+            raise FileNotFoundError(raw_path)
+        if not folder.is_dir():
+            raise NotADirectoryError(raw_path)
+        folder = folder.resolve()
+
+        directories = []
+        try:
+            entries = list(folder.iterdir())
+        except PermissionError:
+            raise
+
+        for entry in entries:
+            try:
+                if entry.is_dir():
+                    directories.append({"name": entry.name, "path": str(entry)})
+            except OSError:
+                continue
+        directories.sort(key=lambda item: item["name"].lower())
+        parent = None if folder.parent == folder else str(folder.parent)
+        return {
+            "path": str(folder),
+            "parent": parent,
+            "directories": directories,
+            "timestamp": time.time(),
+        }
 
     async def choose_download_folder(self, request_id):
         folder = await asyncio.to_thread(self.download_watcher.choose_folder_dialog)
         if folder:
-            self.download_watcher.folder = folder
-            await self.send({
-                "type": "download_folder_selected",
-                "request_id": request_id,
-                "folder": folder,
-                "fdm_running": self.download_watcher.fdm_running(),
-                "timestamp": time.time(),
-            })
-            await self.event(f"İndirme klasörü seçildi: {folder}")
+            await self.set_download_folder(request_id, folder)
         else:
             await self.send({"type": "download_folder_selection_cancelled", "request_id": request_id})
 
+    async def set_download_folder(self, request_id, folder):
+        if self.download_watcher.started_at is not None:
+            raise RuntimeError("İndirme izlemesi aktifken klasör değiştirilemez.")
+        path = Path(folder).expanduser()
+        if not path.exists() or not path.is_dir():
+            raise RuntimeError("İndirme klasörü bulunamadı.")
+        resolved = str(path.resolve())
+        self.download_watcher.folder = resolved
+        await self.send({
+            "type": "download_folder_selected",
+            "request_id": request_id,
+            "folder": resolved,
+            "fdm_running": self.download_watcher.fdm_running(),
+            "timestamp": time.time(),
+        })
+        await self.event(f"İndirme klasörü seçildi: {resolved}")
+
     async def start_download_watch(self, request_id):
         if not self.download_watcher.folder:
-            raise RuntimeError("Önce PC'de FDM indirme klasörünü seç.")
+            raise RuntimeError("Önce indirme klasörünü seç.")
         if self.download_task and not self.download_task.done():
             self.download_task.cancel()
             await asyncio.gather(self.download_task, return_exceptions=True)
@@ -135,7 +345,7 @@ class Agent:
             "timestamp": time.time(),
         })
         self.download_task = asyncio.create_task(self.download_loop())
-        await self.event("FDM indirme klasörü izleniyor.")
+        await self.event("İndirme klasörü izleniyor.")
 
     async def stop_download_watch(self, request_id):
         if self.download_task and not self.download_task.done():
@@ -196,9 +406,12 @@ class Agent:
         self.session_id = str(uuid.uuid4())
         self.capture_task = asyncio.create_task(self.capture_loop(self.session_id))
         await self.send({
-            "type": "test_started", "request_id": request_id,
-            "session_id": self.session_id, "pid": self.process.pid,
-            "exe_path": str(exe), "timestamp": time.time(),
+            "type": "test_started",
+            "request_id": request_id,
+            "session_id": self.session_id,
+            "pid": self.process.pid,
+            "exe_path": str(exe),
+            "timestamp": time.time(),
         })
         await self.event(f"Test başladı. Başlangıç PID {self.process.pid}")
 
@@ -213,15 +426,23 @@ class Agent:
             jpg, width, height, source = await asyncio.to_thread(self.capture_for_pids, pids)
             frame += 1
             await self.send({
-                "type": "screen_frame", "session_id": session_id, "frame": frame,
-                "mime": "image/jpeg", "width": width, "height": height,
-                "source": source, "data": jpg, "timestamp": time.time(),
+                "type": "screen_frame",
+                "session_id": session_id,
+                "frame": frame,
+                "mime": "image/jpeg",
+                "width": width,
+                "height": height,
+                "source": source,
+                "data": jpg,
+                "timestamp": time.time(),
             })
             await asyncio.sleep(max(0.01, delay - (time.monotonic() - started)))
         if self.session_id == session_id:
             await self.send({
-                "type": "test_process_exited", "session_id": session_id,
-                "tracked_pids": sorted(self.tracked_pids), "timestamp": time.time(),
+                "type": "test_process_exited",
+                "session_id": session_id,
+                "tracked_pids": sorted(self.tracked_pids),
+                "timestamp": time.time(),
             })
 
     @staticmethod
@@ -299,12 +520,16 @@ class Agent:
         self.tracked_pids.clear()
         await self.send({
             "type": "test_approved" if approved else "test_failed",
-            "request_id": request_id, "session_id": old_session,
+            "request_id": request_id,
+            "session_id": old_session,
             "screenshots_deleted": True,
             "next_stage": "upload_ready" if approved else "test_required",
             "timestamp": time.time(),
         })
-        await self.event("Test onaylandı; process ağacı kapatıldı ve geçici görüntü akışı temizlendi." if approved else "Test başarısız olarak kapatıldı.")
+        await self.event(
+            "Test onaylandı; process ağacı kapatıldı ve geçici görüntü akışı temizlendi."
+            if approved else "Test başarısız olarak kapatıldı."
+        )
 
     def kill_tracked(self):
         pids = self.live_test_pids()
@@ -326,8 +551,7 @@ class Agent:
             except (psutil.NoSuchProcess, psutil.AccessDenied):
                 pass
 
-    async def handle(self, raw):
-        msg = json.loads(raw)
+    async def handle(self, msg):
         if msg.get("type") != "command":
             return
         command = msg.get("command")
@@ -337,6 +561,11 @@ class Agent:
                 await self.status()
             elif command == "choose_download_folder":
                 await self.choose_download_folder(request_id)
+            elif command == "set_download_folder":
+                folder = str(msg.get("path") or "").strip()
+                if not folder:
+                    raise RuntimeError("Klasör yolu gerekli.")
+                await self.set_download_folder(request_id, folder)
             elif command == "start_download_watch":
                 await self.start_download_watch(request_id)
             elif command == "stop_download_watch":
@@ -350,45 +579,32 @@ class Agent:
             elif command in ("reject_test", "stop_test"):
                 await self.finish_test(request_id, False)
             else:
-                await self.send({"type": "error", "request_id": request_id, "message": f"Bilinmeyen komut: {command}"})
+                await self.send({
+                    "type": "error",
+                    "request_id": request_id,
+                    "message": f"Bilinmeyen komut: {command}",
+                    "timestamp": time.time(),
+                })
         except Exception as exc:
-            await self.send({"type": "error", "request_id": request_id, "message": str(exc), "timestamp": time.time()})
+            await self.send({
+                "type": "error",
+                "request_id": request_id,
+                "message": str(exc),
+                "timestamp": time.time(),
+            })
 
     async def run(self):
         if not TOKEN:
             raise SystemExit("DROWNED_REMOTE_TOKEN ayarlanmalı.")
-        url = f"{RELAY_BASE}/agent/{DEVICE_ID}"
-        wait = 2
-        while True:
-            try:
-                async with websockets.connect(
-                    url, extra_headers={"Authorization": f"Bearer {TOKEN}"},
-                    ping_interval=20, ping_timeout=20, max_size=8 * 1024 * 1024,
-                ) as ws:
-                    self.ws = ws
-                    wait = 2
-                    await self.send({
-                        "type": "agent_hello", "device_id": DEVICE_ID,
-                        "hostname": socket.gethostname(), "os": platform.platform(),
-                        "capabilities": [
-                            "telemetry", "pc_exe_picker", "process_tree_test", "screen_preview",
-                            "fdm_folder_watch",
-                        ],
-                        "timestamp": time.time(),
-                    })
-                    task = asyncio.create_task(self.telemetry())
-                    try:
-                        async for raw in ws:
-                            await self.handle(raw)
-                    finally:
-                        task.cancel()
-                        await asyncio.gather(task, return_exceptions=True)
-            except Exception as exc:
-                print(f"Relay bağlantısı koptu: {exc}")
-            finally:
-                self.ws = None
-            await asyncio.sleep(wait)
-            wait = min(wait * 2, 30)
+        config = uvicorn.Config(
+            self.app,
+            host=AGENT_HOST,
+            port=AGENT_PORT,
+            log_level="info",
+            access_log=False,
+        )
+        server = uvicorn.Server(config)
+        await server.serve()
 
 
 if __name__ == "__main__":

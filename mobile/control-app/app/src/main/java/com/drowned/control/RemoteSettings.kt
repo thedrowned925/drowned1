@@ -16,30 +16,29 @@ internal object RemoteSettings {
     private const val TRANSFORMATION = "AES/GCM/NoPadding"
 
     data class Value(
-        val relayUrl: String,
-        val deviceId: String,
+        val agentUrl: String,
         val token: String,
     )
 
     fun load(context: Context): Value? {
         val prefs = context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
-        val relay = prefs.getString("relay_url", null).orEmpty()
-        val device = prefs.getString("device_id", null).orEmpty()
+        val agent = prefs.getString("agent_url", null).orEmpty()
         val protectedToken = prefs.getString("token", null).orEmpty()
-        if (relay.isBlank() || device.isBlank() || protectedToken.isBlank()) return null
+        if (agent.isBlank() || protectedToken.isBlank()) return null
         return try {
-            Value(relay, device, decrypt(protectedToken))
+            Value(agent, decrypt(protectedToken))
         } catch (_: Exception) {
             null
         }
     }
 
-    fun save(context: Context, relayUrl: String, deviceId: String, token: String) {
+    fun save(context: Context, agentUrl: String, token: String) {
         context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
             .edit()
-            .putString("relay_url", relayUrl)
-            .putString("device_id", deviceId)
+            .putString("agent_url", agentUrl)
             .putString("token", encrypt(token))
+            .remove("relay_url")
+            .remove("device_id")
             .apply()
     }
 
