@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 76
-- **Toplam aktif sürüm/kanal:** 76
-- **Toplam aktif boyut:** 1859.585 GB · 1.860 TB
-- **Katalog güncelleme zamanı:** 2026-08-27 14:48:04 UTC
+- **Toplam oyun:** 77
+- **Toplam aktif sürüm/kanal:** 77
+- **Toplam aktif boyut:** 1865.646 GB · 1.866 TB
+- **Katalog güncelleme zamanı:** 2026-08-27 15:11:10 UTC
 
 ## PC
 
-**76 oyun · 76 aktif sürüm/kanal · 1859.585 GB · 1.860 TB**
+**77 oyun · 77 aktif sürüm/kanal · 1865.646 GB · 1.866 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -86,6 +86,7 @@
 | The Walking Dead | 1.0.0 | stable | 4.637 | 0.005 | `pc-the-walking-dead-v1.0.0-stable` |
 | The Witcher 2: Assassins of Kings Enhanced Edition | 1.0.0 | stable | 35.934 | 0.036 | `pc-the-witcher-2-assassins-of-kings-enhanced-edition-v1.0.0-stable` |
 | The Witcher 3: Wild Hunt | 1.0.0 | stable | 56.143 | 0.056 | `pc-the-witcher-3-wild-hunt-v1.0.0-stable` |
+| The Wolf Among Us | 1.0.0 | stable | 6.061 | 0.006 | `pc-the-wolf-among-us-v1.0.0-stable` |
 | Tomb Raider Definitive Edition | 1.0.0 | stable | 25.926 | 0.026 | `pc-tomb-raider-definitive-edition-v1.0.0-stable` |
 | Undertale | 1.0.0 | stable | 0.213 | 0.000 | `pc-undertale-v1.0.0-stable` |
 | Wolfenstein: The New Order | 1.0.0 | stable | 46.691 | 0.047 | `pc-wolfenstein-the-new-order-v1.0.0-stable` |
