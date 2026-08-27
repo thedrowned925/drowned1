@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 69
-- **Toplam aktif sürüm/kanal:** 69
-- **Toplam aktif boyut:** 1767.505 GB (1646.118 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-26 15:12:29 UTC
+- **Toplam oyun:** 70
+- **Toplam aktif sürüm/kanal:** 70
+- **Toplam aktif boyut:** 1779.601 GB (1657.383 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-27 09:12:43 UTC
 
 ## PC
 
-**69 oyun · 69 aktif sürüm/kanal · 1767.505 GB (1646.118 GiB)**
+**70 oyun · 70 aktif sürüm/kanal · 1779.601 GB (1657.383 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -27,6 +27,7 @@
 | BioShock™ | 1.0.0 | stable | 6.039 | 5.625 | `pc-bioshock-v1.0.0-stable` |
 | Borderlands 2 | 1.0.0 | stable | 36.051 | 33.576 | `pc-borderlands-2-v1.0.0-stable` |
 | Call of Duty® 4: Modern Warfare® (2007) | 1.0.0 | stable | 6.975 | 6.496 | `pc-call-of-duty-4-modern-warfare-2007-v1.0.0-stable` |
+| Call of Duty®: Black Ops | 1.0.0 | stable | 12.096 | 11.265 | `pc-call-of-duty-black-ops-v1.0.0-stable` |
 | Call of Duty®: Modern Warfare® 2 (2009) | 1.0.0 | stable | 12.833 | 11.952 | `pc-call-of-duty-modern-warfare-2-2009-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 14.396 | `pc-captured-2-v1.0.0-stable` |
 | Celeste | 1.0.0 | stable | 2.737 | 2.549 | `pc-celeste-v1.0.0-stable` |
