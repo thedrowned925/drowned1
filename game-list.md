@@ -5,7 +5,7 @@
 - **Toplam oyun:** 78
 - **Toplam aktif sürüm/kanal:** 78
 - **Toplam aktif boyut:** 1869.958 GB · 1.870 TB
-- **Katalog güncelleme zamanı:** 2026-08-27 15:15:33 UTC
+- **Katalog güncelleme zamanı:** 2026-08-27 15:17:44 UTC
 
 ## PC
 
