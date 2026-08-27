@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 70
-- **Toplam aktif sürüm/kanal:** 70
-- **Toplam aktif boyut:** 1779.601 GB (1657.383 GiB)
-- **Katalog güncelleme zamanı:** 2026-08-27 09:12:43 UTC
+- **Toplam oyun:** 71
+- **Toplam aktif sürüm/kanal:** 71
+- **Toplam aktif boyut:** 1826.293 GB (1700.867 GiB)
+- **Katalog güncelleme zamanı:** 2026-08-27 13:23:49 UTC
 
 ## PC
 
-**70 oyun · 70 aktif sürüm/kanal · 1779.601 GB (1657.383 GiB)**
+**71 oyun · 71 aktif sürüm/kanal · 1826.293 GB (1700.867 GiB)**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (GiB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -83,6 +83,7 @@
 | The Witcher 3: Wild Hunt | 1.0.0 | stable | 56.143 | 52.287 | `pc-the-witcher-3-wild-hunt-v1.0.0-stable` |
 | Tomb Raider Definitive Edition | 1.0.0 | stable | 25.926 | 24.145 | `pc-tomb-raider-definitive-edition-v1.0.0-stable` |
 | Undertale | 1.0.0 | stable | 0.213 | 0.199 | `pc-undertale-v1.0.0-stable` |
+| Wolfenstein: The New Order | 1.0.0 | stable | 46.691 | 43.485 | `pc-wolfenstein-the-new-order-v1.0.0-stable` |
 
 ---
 
