@@ -1,0 +1,1880 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "the-wolf-among-us",
+    "title": "The Wolf Among Us",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "From the makers of the 2012 Game of the Year: The Walking Dead, comes a thriller based on the award-winning Fables comic books. As Bigby Wolf you will discover that a brutal, bloody murder is just a taste of things to come in a game series where your every decision can have enormous consequences."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-the-wolf-among-us-v1.0.0-stable"
+  },
+  "chunk_size": 151520256,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 6060810214,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "EULA.txt",
+      "size": 56822,
+      "sha256": "88c2d6240cb9e982eb97fb6c1051878d0ce11045b43428c701c3ab9404744e7e"
+    },
+    {
+      "path": "Fables.exe",
+      "size": 8889856,
+      "sha256": "00001a0a27f6159a40a8a38410cb375fc717a26902cb80b13cb30b4b7c0e86e2"
+    },
+    {
+      "path": "fmodex.dll",
+      "size": 1260544,
+      "sha256": "7f37640a53ed7462576b4c67d0b9aeb84e0eb2f5439f00fcd7ba9ef942813fa4"
+    },
+    {
+      "path": "Galaxy.dll",
+      "size": 3814912,
+      "sha256": "27da55b7274c1283971b6ecd8953e7918e890c23f6b1c85d93ff21969a265392"
+    },
+    {
+      "path": "GalaxyPeer.dll",
+      "size": 7040000,
+      "sha256": "5ef52da21b9e5eb9ab22e563c89070a96b46bb7bb3bc2e7a52acbd0d2a0d3c31"
+    },
+    {
+      "path": "gog.ico",
+      "size": 69248,
+      "sha256": "f6a71321521ba89713f0bd38b21f809e87e8a789cb172e8e4693f9479e30b1e4"
+    },
+    {
+      "path": "goggame-1432213513.hashdb",
+      "size": 3535,
+      "sha256": "5a00dd55053369473637c58073b089138e6b5cf8aef10a058586b680484d9ba6"
+    },
+    {
+      "path": "goggame-1432213513.ico",
+      "size": 78865,
+      "sha256": "dc89daf74e8d92564983392dd6fba941d07154cb3e544e51bc6f504540fdf473"
+    },
+    {
+      "path": "goggame-1432213513.info",
+      "size": 1074,
+      "sha256": "22659b0c9c1743504b974a4e310f671db751be86c099ca62495d4ceb9487a286"
+    },
+    {
+      "path": "goggame-1432213513.script",
+      "size": 1024,
+      "sha256": "51f45107ab0f387e045d6ed6f344d8b91b124ea279933bfd37c5bf1133fff6d8"
+    },
+    {
+      "path": "goglog.ini",
+      "size": 255,
+      "sha256": "1a186727ccfdff6f0841bb8fa143df0d8be9c58c9acfeea320634b835d00e22a"
+    },
+    {
+      "path": "language_setup.exe",
+      "size": 6216288,
+      "sha256": "12fa2e59d74549f1af662068c32063e7fb21aff090e9a5211e5051bf59c84d73"
+    },
+    {
+      "path": "language_setup.ini",
+      "size": 615,
+      "sha256": "f7455aab5cb9badab2f03850c470280b9a5517297c4d97748e0f8d5f6482d0f9"
+    },
+    {
+      "path": "language_setup.png",
+      "size": 99028,
+      "sha256": "73017e389f363943447546646c1123fe79d85b797ef39413caf2d5cc717ac801"
+    },
+    {
+      "path": "Launch The Wolf Among Us.lnk",
+      "size": 1085,
+      "sha256": "dda147faefe134afe2227a7ff2a74f40d86ce9c76997102662d9bcc56d22252f"
+    },
+    {
+      "path": "Pack/6_pc_shader.ttarch2",
+      "size": 94881164,
+      "sha256": "a05093eb4b8599c810c53d5a81f736a46a65ebe6335d3378eb7e8f5ff151cc86"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_Boot.lenc",
+      "size": 1010,
+      "sha256": "e11a382e44e80c16eac20fac55fbe4107cbf4501b77c672215b09ef500182338"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_Boot_Loc.lenc",
+      "size": 1026,
+      "sha256": "8f3fca84bda0628073ba9b2f385d69dfd8c83b7df8082e63eddf1705ed57e4fd"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_Engine_Lua.lenc",
+      "size": 865,
+      "sha256": "af8c3642638a1a7e174a7ea55a4bc2d8391976579b85220a9d0772066ba0bfac"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_F101_Loc.lenc",
+      "size": 1031,
+      "sha256": "c415b3b8aca4f117f0f79cb0a2d8b958aecafe022fbdb1d5b6268db2a2be6f3f"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_F102_Loc.lenc",
+      "size": 1031,
+      "sha256": "8a32db0eb4dbd11c1118b82394cda887244b0ea2006b8c3dc53b249d919e0b9e"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_F103_Loc.lenc",
+      "size": 1031,
+      "sha256": "643cd8310d41318372b935403f081f3fe866b8e2e3a6305395adff1cec85fd4a"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_F104_Loc.lenc",
+      "size": 1031,
+      "sha256": "ae3f3bc9d2f1b1dd54feaa19d88c5f547b8cb67450d837cc4ce47a0f792bef5a"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_F105_Loc.lenc",
+      "size": 1031,
+      "sha256": "f21702ed36a7c8cf6e282ff2125f3cbeb611bc1a695dd052367a15be08bb7714"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_Fables101.lenc",
+      "size": 1050,
+      "sha256": "862818eb772bc9c3ce03f719941d772fb3267594c6c1ced0d50e186470bc295c"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_Fables102.lenc",
+      "size": 1018,
+      "sha256": "42efbb3fc8d5a675ec09b8f8438ae538c3a881b269c73ca56187dd1333bc0451"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_Fables103.lenc",
+      "size": 1250,
+      "sha256": "ec799b6326f4a6120362048e531dc8fd8ee9cde335e0e454d16d11c561eac725"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_Fables104.lenc",
+      "size": 1258,
+      "sha256": "120b5016d80f86db0e92ca337e004038e1be39a30136b5cbe5e91fca6b9cc0f2"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_Fables105.lenc",
+      "size": 1258,
+      "sha256": "c63ccade92a7627e86989d465cb251afc133a9fc7dd90b60015eba3566a70bf8"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_french.lenc",
+      "size": 998,
+      "sha256": "e33e7a1c3d8f95ad605f9f37ca01783bc38499bddfe4075799637dc8a936e640"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_german.lenc",
+      "size": 998,
+      "sha256": "6fa17c5fbe618a33cb328cfbb86eb3be56b5a0b5d7e88e2022c04bd21a91dd83"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_Menu.lenc",
+      "size": 1010,
+      "sha256": "ef68bdea6ea8448b2964557528b94338d1d735e9a11d6afce1bb0def58bd5d36"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_Menu_Loc.lenc",
+      "size": 1026,
+      "sha256": "94c726e33eeaff99afa1d78322e03c37b2789a36fca3891cfd7862ce941ebeac"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC-Gold-Boot.lenc",
+      "size": 1012,
+      "sha256": "2909bca8a745ca733a29c46a6b0ced0edd0472d38eb195b40c5f4c5bfbfe413b"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC-Gold-Proj.lenc",
+      "size": 1015,
+      "sha256": "1e6d2ca1c97bdebb6c28ce4595a1ce5f6a2cf9cb2ef72376bb2e4f54fe275241"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC-Mac-TTG_Update_01_Boot.lenc",
+      "size": 911,
+      "sha256": "88a2be3ce29a963a2e5d69f5b5094c65eabc0b4d37a62e3ca129c1e91f24e7c1"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC-Mac-TTG_Update_01_Engine_Lua.lenc",
+      "size": 947,
+      "sha256": "3119db5bc2ff9c1cd083b0c864d857275a881be7b5e7ba5bac465ef9b0019371"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC-Mac-TTG_Update_01_Menu.lenc",
+      "size": 911,
+      "sha256": "e3919e70c72fbef0d834ba93a6071bc554238ab648ebad0622172c20b7d99cd9"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC-Mac-TTG_Update_01_Project.lenc",
+      "size": 929,
+      "sha256": "6c7e6147771e72b5a54743e51105d86a625e04285d383a58f730241018f83d6f"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Episode_03_Menu.lenc",
+      "size": 1174,
+      "sha256": "fa25f513fb6ad99d9c074d62a775cdf7497f1f9ff8e85e8aeb71bfd93662292b"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Episode_03_Project.lenc",
+      "size": 1195,
+      "sha256": "92905076f27c88185c5b67c805dff6470dddc00a1b063e9ca9e507be4c414869"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Episode_04_Menu.lenc",
+      "size": 1182,
+      "sha256": "d3e65ce8d5408185cafa7e3c9524310bb4c81dc0abbd0f74a8ca86fce0b75c2a"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Episode_04_Project.lenc",
+      "size": 1203,
+      "sha256": "ff6b3e6d724c1d3ae105caa1b0d55c16341f26f9a19909eb4ea8d3410b8715ba"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Episode_05_Menu.lenc",
+      "size": 1182,
+      "sha256": "4c4d3daa1bfed17212654b2fbcd32f51d8652fa8627dd088e21700a85b68d087"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Episode_05_Project.lenc",
+      "size": 1203,
+      "sha256": "188869fc6951da5d6bc36077f17b570208237729b76869fd8dc1916f2d9bc91d"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Update_02_Episode_02_Menu.lenc",
+      "size": 966,
+      "sha256": "07aa1c226bb23dd8afc62d58346ea09dc5d310ba77525ab10c0dbc4a42b6c9e4"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Update_02_Episode_02_Project.lenc",
+      "size": 984,
+      "sha256": "8bba1a15852e8c8170fab7aded38da8c04a64fa10d121c4ddd52b589040d50ab"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_PC105_Sub.lenc",
+      "size": 1027,
+      "sha256": "ac248ce34cead2a36bb44d55624f1f37d70ad18ee2125e7a02c97c2b868fd6de"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_Proj_Loc.lenc",
+      "size": 1029,
+      "sha256": "5036dc456dc5eab56fdf07b348b33207168c7c9f4859a8811173676bb574c5e9"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_Project.lenc",
+      "size": 849,
+      "sha256": "a0e5e99a62e2add21ef70eb421b2749c21cd06c214ec1a3e6c3ace838379d36b"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_Shaders.lenc",
+      "size": 839,
+      "sha256": "9f650c69d3255a18a183cd07e5ca1523b1f91ede27ed47593895108838dbdd90"
+    },
+    {
+      "path": "Pack/_resourcedescriptions_500_spanish.lenc",
+      "size": 1003,
+      "sha256": "6b41b7d8df622652ed87f3f745c0c80b6102d08a74cf706b51b34d5ac7825872"
+    },
+    {
+      "path": "Pack/Fables_pc_105_all.ttarch2",
+      "size": 235952,
+      "sha256": "ea403fd72413ae76a3ca255aadb41aae8fae88fafe59f10f4bfebc05a4221bd6"
+    },
+    {
+      "path": "Pack/Fables_pc_Boot_anichore.ttarch2",
+      "size": 6396,
+      "sha256": "7f5e4a7df18b73eca463b3ad94b8d76985206b7339b41d80b6b8d779e625d3c7"
+    },
+    {
+      "path": "Pack/Fables_pc_Boot_data.ttarch2",
+      "size": 35117,
+      "sha256": "4fbc7812bb6a6d499317f0f97a321b8b8e8a3719859e2e8978cbe9587085485d"
+    },
+    {
+      "path": "Pack/Fables_pc_Boot_Loc_all.ttarch2",
+      "size": 147266,
+      "sha256": "e022a6929e2e7ee7711bd8878e320f474a43a92bc51ed96a7113f546a8b8441a"
+    },
+    {
+      "path": "Pack/Fables_pc_Boot_ms.ttarch2",
+      "size": 970220,
+      "sha256": "99e5a3cd3296089cd1107c281a17903b34f3f21d067ce21ec35dff5402b30738"
+    },
+    {
+      "path": "Pack/Fables_pc_Boot_txmesh.ttarch2",
+      "size": 4294827,
+      "sha256": "778a0a568edf4a333c2cccb94729cfea2efc963b5d5b2399043c148a0d73c97d"
+    },
+    {
+      "path": "Pack/Fables_pc_Engine Lua_data.ttarch2",
+      "size": 124749,
+      "sha256": "02cbfb836e13c1c04b607753847fa93e0531271ff7068400679ae1d81dc98b5e"
+    },
+    {
+      "path": "Pack/Fables_pc_F101_Loc_all.ttarch2",
+      "size": 6427327,
+      "sha256": "d420538b009d05bda0984ae094d07d108d77c62b5514a7e434d37afcd9001e04"
+    },
+    {
+      "path": "Pack/Fables_pc_F102_Loc_all.ttarch2",
+      "size": 6776752,
+      "sha256": "f78d384abb91d5cd12cf9dd32dce13b5df93509d9491acdc13a7b9b374d04b25"
+    },
+    {
+      "path": "Pack/Fables_pc_F103_Loc_all.ttarch2",
+      "size": 3870947,
+      "sha256": "09ee352dcfdb2fb97ce57ac935eed52bf28e0c3323f40be6e9429660c7ac238c"
+    },
+    {
+      "path": "Pack/Fables_pc_F104_Loc_all.ttarch2",
+      "size": 3947050,
+      "sha256": "caa0543db40c6e81924651bc0b1e322be77b8a3ab49bc86d7346aeb8adae5cdc"
+    },
+    {
+      "path": "Pack/Fables_pc_F105_Loc_all.ttarch2",
+      "size": 3605680,
+      "sha256": "832fa6f933baff565e229c34490c7d2895cdfd0dbdda18b34e09002784bed445"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables101_anichore.ttarch2",
+      "size": 61596174,
+      "sha256": "946967819903f1d35ce60c3f7e51972fbb4938bbc63372c29cc33d4f8109f421"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables101_data.ttarch2",
+      "size": 3672094,
+      "sha256": "0512f58a07bcf671e8bcc0753942edc026b6ddb7a3e5ef842af1c71456283389"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables101_ms.ttarch2",
+      "size": 250635628,
+      "sha256": "329e091f8626c57c6fcb0366ab431c9aa0c90064b2de633bd792109bcf8c363b"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables101_txmesh.ttarch2",
+      "size": 608227983,
+      "sha256": "204ecbd3975b2702204a2121ef19c5033bada46167face86204fe89392e5267a"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables102_anichore.ttarch2",
+      "size": 37888484,
+      "sha256": "5e0d5d46fb13bb375ae321c824b15cf9429611cbb943e0d73b88761a48a4c5b1"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables102_data.ttarch2",
+      "size": 4555784,
+      "sha256": "b9b0bb8af268cffd0681e5ee30217c073549b5aead0838dbb3abca772111cc1f"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables102_ms.ttarch2",
+      "size": 240223392,
+      "sha256": "80daac9f4dd7c0b81c06e453e9fec72b2feff7f9bdbfafb76cce3706a13b7cde"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables102_txmesh.ttarch2",
+      "size": 669188723,
+      "sha256": "bcb80c89bd8695b58ea48ee113e85cceeecb09018f4b73d4cb876ab10245e3b9"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables103_anichore.ttarch2",
+      "size": 28954190,
+      "sha256": "ae850c29cc53c7424b9b45f4dd454a7bf10bf5b531e255c1e2f0eede8fb8e4e0"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables103_data.ttarch2",
+      "size": 2757359,
+      "sha256": "612fe837b9d821489d8e20e76cbb113e50c1e680ad37b527c0547543342b1971"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables103_mesh.ttarch2",
+      "size": 75683315,
+      "sha256": "fafef8b54684a1e1ae21738f3e256bc4c5105de0d46d8e9be347aace61fd54f6"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables103_ms.ttarch2",
+      "size": 287749186,
+      "sha256": "ff0a395ca10663ede26b7a28cfc53675e000642af695b70c315e7226f3aea846"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables103_tx.ttarch2",
+      "size": 566196098,
+      "sha256": "a5366145db4a93d0798ce8ce906e2d2b4a5ad43d9ce8486998da490a542fdd29"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables104_anichore.ttarch2",
+      "size": 27046595,
+      "sha256": "c6a9c415c49d66f062c1e572d9270da5493f9db5ce78779695ba0eb13cb28807"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables104_data.ttarch2",
+      "size": 3442513,
+      "sha256": "aeb4fc57c4312e7e9abaa74555fc8d2c2044a86a477b5508c59bde8165ab055f"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables104_mesh.ttarch2",
+      "size": 68726342,
+      "sha256": "b2e9841a2b783a1c131c7872182dd96bd6f8b1b3dd54cbbc1960ad8229a56456"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables104_ms.ttarch2",
+      "size": 166443116,
+      "sha256": "b1aa666f1647322a17f7a2db3d1925fe2b30499bb98010773c0270e0d5dab984"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables104_tx.ttarch2",
+      "size": 561842030,
+      "sha256": "001fe0f4c5d057b791624ad473490079568fe2cb5a220872a86aec5017a27a34"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables105_anichore.ttarch2",
+      "size": 35069044,
+      "sha256": "c389955b73288008729a5b532f4d46103aeb5b73643ff663d96291eddfcdf726"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables105_data.ttarch2",
+      "size": 2702690,
+      "sha256": "2f1cae698f5866a229c025480cd972c2185397c244b7618145847d4856061234"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables105_mesh.ttarch2",
+      "size": 98857115,
+      "sha256": "72394638dbc5f516dbef7def393c4712479b420e762aea8502354f762a9e7bd8"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables105_ms.ttarch2",
+      "size": 154834800,
+      "sha256": "2fbb43d75e541ae14e4dc4f6943b5894d0805d0a63c0d20d6aa154600e25dcfa"
+    },
+    {
+      "path": "Pack/Fables_pc_Fables105_tx.ttarch2",
+      "size": 586542131,
+      "sha256": "d5dd9bb258e047284bd9cbcfbbdd43c80a7dfee633891e19d648f77067919c78"
+    },
+    {
+      "path": "Pack/Fables_pc_French_all.ttarch2",
+      "size": 9834362,
+      "sha256": "f12f40ad1f242f88061ed92b7fc925e9e0b36619534a93bb8e87b82babf9fe58"
+    },
+    {
+      "path": "Pack/Fables_pc_German_all.ttarch2",
+      "size": 4439065,
+      "sha256": "c9e168489467af8c80dc72de2e2b9220c97cca1350ebddd02ab8a1f94d204668"
+    },
+    {
+      "path": "Pack/Fables_pc_Menu_anichore.ttarch2",
+      "size": 1591451,
+      "sha256": "da0e1ebf70372a543375dc22b774313ca4059b4516147fb2e66944fe760e25c9"
+    },
+    {
+      "path": "Pack/Fables_pc_Menu_data.ttarch2",
+      "size": 790329,
+      "sha256": "bfeeb5744744544d63d297e517b0be994f2fe1f42c7e052e5a66e9af13494791"
+    },
+    {
+      "path": "Pack/Fables_pc_Menu_Loc_all.ttarch2",
+      "size": 3255843,
+      "sha256": "b39ea889687f9fb31fdf198e6e9d704b614c385273b3c102977186e35df5ce99"
+    },
+    {
+      "path": "Pack/Fables_pc_Menu_ms.ttarch2",
+      "size": 4701192,
+      "sha256": "f3277d8f22ccfd40bb3760c67711785bc719300283ebb1c0f6d30a450d0629d6"
+    },
+    {
+      "path": "Pack/Fables_pc_Menu_txmesh.ttarch2",
+      "size": 120200657,
+      "sha256": "1b294f94bae057fb2975766ef5d6ca877d8e528114a8a514bb91f486971638f1"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Gold-Boot_all.ttarch2",
+      "size": 82271,
+      "sha256": "560612f2b26dc4bc421601c3da0c815f895bbc01a4291ea8476c6f0ffab30bfe"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Gold-Proj_all.ttarch2",
+      "size": 65693,
+      "sha256": "f8f865b7e992641a4d1bfd744c277c82d5a7bc006fd467daaa3f5b6af8fa9991"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Mac-TTG_Update_01_Boot_all.ttarch2",
+      "size": 13750,
+      "sha256": "ba0a9664198f4bd34f9844820b8a782762b6ade91064864160c585fd4491e53a"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Mac-TTG_Update_01_Engine_Lua_all.ttarch2",
+      "size": 24376,
+      "sha256": "8e2880b24e1932d195c28befe4e62aa8fb1144bccd4c43ee2f236d526cd2d6d8"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Mac-TTG_Update_01_Fables101_all.ttarch2",
+      "size": 265587,
+      "sha256": "e3ec0b648081383016f77c2fc8c8c086353b2d4cdfb917b827e7262b07c6646d"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Mac-TTG_Update_01_Menu_all.ttarch2",
+      "size": 250923,
+      "sha256": "08a2362500ed68073adef8573221279a93000c43447a60053eba1e1628a51e17"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Mac-TTG_Update_01_Project_all.ttarch2",
+      "size": 5449,
+      "sha256": "5ec9ab91f0f75bbb26b9f21ee08932ec680eff619a84b1cfe205dca956be300b"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Mac_TTG_Update_02_Episode_02_Menu_all.ttarch2",
+      "size": 136692104,
+      "sha256": "055842f93ab3ba41df11ca8982d40a3b294d5824c0e1ce940ca425f0be08fca8"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Mac_TTG_Update_02_Episode_02_Project_all.ttarch2",
+      "size": 1206001,
+      "sha256": "1ba5d4cd5b06a902c352e7d2c8c5298a4781573ce1e71b995aab264d1a7242f4"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_03_Menu_all.ttarch2",
+      "size": 284511877,
+      "sha256": "a6a32131e965ce92d3b49ddb3c1d6bd20e375c1bea7ae4d9110290748b40a8b7"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_03_Project_all.ttarch2",
+      "size": 1291581,
+      "sha256": "568f97daf03c63da196ead56ed7e3d60b85cefd7c2b7411652361ad9ad280ed2"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_04_Menu_all.ttarch2",
+      "size": 329410238,
+      "sha256": "634596118f9fc0c561b7f972879a3dad2d4eef187a50170bf1415082c8dde7b2"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_04_Project_all.ttarch2",
+      "size": 1298222,
+      "sha256": "d7097042ffee7c41e0cbf3080f0150da476f7bfd789b8503939b18c347978ce5"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_05_Menu_all.ttarch2",
+      "size": 402833314,
+      "sha256": "d8ea11b28c7bde4aaeb3944c1af9d73f830b47aba8ef47b229514e6eb45279d8"
+    },
+    {
+      "path": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_05_Project_all.ttarch2",
+      "size": 2666296,
+      "sha256": "b98c8a68b6547863710443855c069d912ed09cf935e2690a98d637c718dbb367"
+    },
+    {
+      "path": "Pack/Fables_pc_Proj_Loc_all.ttarch2",
+      "size": 4326803,
+      "sha256": "68ef5db46b79d0c6f6c99699714790702d68716d567ace58088bd41aad54cc4b"
+    },
+    {
+      "path": "Pack/Fables_pc_Project_all.ttarch2",
+      "size": 1317351,
+      "sha256": "6f6379f1b885df939c2c76cd5f209055d0fafd6ee3577fe3fc4adf9d66067d16"
+    },
+    {
+      "path": "Pack/Fables_pc_Spanish_all.ttarch2",
+      "size": 4439066,
+      "sha256": "d42d51b6b733b342e9fe087d6fa26338fa871450448c246ff4ed34149bc44fc4"
+    },
+    {
+      "path": "support.ico",
+      "size": 62895,
+      "sha256": "05fe749ef47d1ec862d6c55be78e66d1011226bf1f78409acf57cb79cec5eb20"
+    },
+    {
+      "path": "webcache.zip",
+      "size": 284875,
+      "sha256": "fdf2e57d83ff15a4f5287461dae47a2350b1fe9923dcc2e5210e234c9f0739fe"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "EULA.txt",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 56822
+        },
+        {
+          "file": "Fables.exe",
+          "file_offset": 0,
+          "chunk_offset": 49276598,
+          "length": 8889856
+        },
+        {
+          "file": "fmodex.dll",
+          "file_offset": 0,
+          "chunk_offset": 58166454,
+          "length": 1260544
+        },
+        {
+          "file": "Galaxy.dll",
+          "file_offset": 0,
+          "chunk_offset": 59426998,
+          "length": 3814912
+        },
+        {
+          "file": "GalaxyPeer.dll",
+          "file_offset": 0,
+          "chunk_offset": 63241910,
+          "length": 7040000
+        },
+        {
+          "file": "gog.ico",
+          "file_offset": 0,
+          "chunk_offset": 70281910,
+          "length": 69248
+        },
+        {
+          "file": "goggame-1432213513.hashdb",
+          "file_offset": 0,
+          "chunk_offset": 70351158,
+          "length": 3535
+        },
+        {
+          "file": "goggame-1432213513.ico",
+          "file_offset": 0,
+          "chunk_offset": 70354693,
+          "length": 78865
+        },
+        {
+          "file": "goggame-1432213513.info",
+          "file_offset": 0,
+          "chunk_offset": 70433558,
+          "length": 1074
+        },
+        {
+          "file": "goggame-1432213513.script",
+          "file_offset": 0,
+          "chunk_offset": 70434632,
+          "length": 1024
+        },
+        {
+          "file": "goglog.ini",
+          "file_offset": 0,
+          "chunk_offset": 70435656,
+          "length": 255
+        },
+        {
+          "file": "language_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 70435911,
+          "length": 6216288
+        },
+        {
+          "file": "language_setup.ini",
+          "file_offset": 0,
+          "chunk_offset": 76652199,
+          "length": 615
+        },
+        {
+          "file": "language_setup.png",
+          "file_offset": 0,
+          "chunk_offset": 76652814,
+          "length": 99028
+        },
+        {
+          "file": "Launch The Wolf Among Us.lnk",
+          "file_offset": 0,
+          "chunk_offset": 76751842,
+          "length": 1085
+        },
+        {
+          "file": "Pack/6_pc_shader.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 76752927,
+          "length": 74767329
+        }
+      ],
+      "sha256": "400756df5c71ca0e510913999b321995a463115650d9da9c1385976d22d70719"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/6_pc_shader.ttarch2",
+          "file_offset": 74767329,
+          "chunk_offset": 0,
+          "length": 20113835
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_Boot.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20113835,
+          "length": 1010
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_Boot_Loc.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20114845,
+          "length": 1026
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_Engine_Lua.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20115871,
+          "length": 865
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_F101_Loc.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20116736,
+          "length": 1031
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_F102_Loc.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20117767,
+          "length": 1031
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_F103_Loc.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20118798,
+          "length": 1031
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_F104_Loc.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20119829,
+          "length": 1031
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_F105_Loc.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20120860,
+          "length": 1031
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_Fables101.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20121891,
+          "length": 1050
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_Fables102.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20122941,
+          "length": 1018
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_Fables103.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20123959,
+          "length": 1250
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_Fables104.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20125209,
+          "length": 1258
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_Fables105.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20126467,
+          "length": 1258
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_french.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20127725,
+          "length": 998
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_german.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20128723,
+          "length": 998
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_Menu.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20129721,
+          "length": 1010
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_Menu_Loc.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20130731,
+          "length": 1026
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC-Gold-Boot.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20131757,
+          "length": 1012
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC-Gold-Proj.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20132769,
+          "length": 1015
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC-Mac-TTG_Update_01_Boot.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20133784,
+          "length": 911
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC-Mac-TTG_Update_01_Engine_Lua.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20134695,
+          "length": 947
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC-Mac-TTG_Update_01_Menu.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20135642,
+          "length": 911
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC-Mac-TTG_Update_01_Project.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20136553,
+          "length": 929
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Episode_03_Menu.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20137482,
+          "length": 1174
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Episode_03_Project.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20138656,
+          "length": 1195
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Episode_04_Menu.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20139851,
+          "length": 1182
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Episode_04_Project.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20141033,
+          "length": 1203
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Episode_05_Menu.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20142236,
+          "length": 1182
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Episode_05_Project.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20143418,
+          "length": 1203
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Update_02_Episode_02_Menu.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20144621,
+          "length": 966
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC-Mac_TTG_Update_02_Episode_02_Project.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20145587,
+          "length": 984
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_PC105_Sub.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20146571,
+          "length": 1027
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_Proj_Loc.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20147598,
+          "length": 1029
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_Project.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20148627,
+          "length": 849
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_Shaders.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20149476,
+          "length": 839
+        },
+        {
+          "file": "Pack/_resourcedescriptions_500_spanish.lenc",
+          "file_offset": 0,
+          "chunk_offset": 20150315,
+          "length": 1003
+        },
+        {
+          "file": "Pack/Fables_pc_105_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 20151318,
+          "length": 235952
+        },
+        {
+          "file": "Pack/Fables_pc_Boot_anichore.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 20387270,
+          "length": 6396
+        },
+        {
+          "file": "Pack/Fables_pc_Boot_data.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 20393666,
+          "length": 35117
+        },
+        {
+          "file": "Pack/Fables_pc_Boot_Loc_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 20428783,
+          "length": 147266
+        },
+        {
+          "file": "Pack/Fables_pc_Boot_ms.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 20576049,
+          "length": 970220
+        },
+        {
+          "file": "Pack/Fables_pc_Boot_txmesh.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 21546269,
+          "length": 4294827
+        },
+        {
+          "file": "Pack/Fables_pc_Engine Lua_data.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 25841096,
+          "length": 124749
+        },
+        {
+          "file": "Pack/Fables_pc_F101_Loc_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 25965845,
+          "length": 6427327
+        },
+        {
+          "file": "Pack/Fables_pc_F102_Loc_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 32393172,
+          "length": 6776752
+        },
+        {
+          "file": "Pack/Fables_pc_F103_Loc_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 39169924,
+          "length": 3870947
+        },
+        {
+          "file": "Pack/Fables_pc_F104_Loc_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 43040871,
+          "length": 3947050
+        },
+        {
+          "file": "Pack/Fables_pc_F105_Loc_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 46987921,
+          "length": 3605680
+        },
+        {
+          "file": "Pack/Fables_pc_Fables101_anichore.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 50593601,
+          "length": 61596174
+        },
+        {
+          "file": "Pack/Fables_pc_Fables101_data.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 112189775,
+          "length": 3672094
+        },
+        {
+          "file": "Pack/Fables_pc_Fables101_ms.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 115861869,
+          "length": 35658387
+        }
+      ],
+      "sha256": "a668caa806671b344273a60ecd81c6625b9a8c1adf66f49296f3d8fc7d0a64db"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables101_ms.ttarch2",
+          "file_offset": 35658387,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "e74cd4f06a4dac5b431e77aeda4ca5aee9f879f6c7ed54fe8a219d064fc56482"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables101_ms.ttarch2",
+          "file_offset": 187178643,
+          "chunk_offset": 0,
+          "length": 63456985
+        },
+        {
+          "file": "Pack/Fables_pc_Fables101_txmesh.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 63456985,
+          "length": 88063271
+        }
+      ],
+      "sha256": "8792c15c01d22ca309e950df411bca278ee33b4f0c89d38e29c54952aa1ddccf"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables101_txmesh.ttarch2",
+          "file_offset": 88063271,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "d2f542be167274f3fd8b0f737d222a037490b0d1b5640ef3676755e15226c1af"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables101_txmesh.ttarch2",
+          "file_offset": 239583527,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "11efba07a2300e467c4bc307ae78705a3e39c2f824acb2d0affe26f232bb8320"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables101_txmesh.ttarch2",
+          "file_offset": 391103783,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "c24a49658527da134225ef9730e92a6f6b93e9865bbda41beac2893919a9b11d"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables101_txmesh.ttarch2",
+          "file_offset": 542624039,
+          "chunk_offset": 0,
+          "length": 65603944
+        },
+        {
+          "file": "Pack/Fables_pc_Fables102_anichore.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 65603944,
+          "length": 37888484
+        },
+        {
+          "file": "Pack/Fables_pc_Fables102_data.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 103492428,
+          "length": 4555784
+        },
+        {
+          "file": "Pack/Fables_pc_Fables102_ms.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 108048212,
+          "length": 43472044
+        }
+      ],
+      "sha256": "4feeccec3554271801cb6e4ee7550aad0f4ea8387e638601cc2281aa16ab11c2"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables102_ms.ttarch2",
+          "file_offset": 43472044,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "c6931b9fa120a09c5208da548a52d34736d56bbf8bad78665e5f32608c148991"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables102_ms.ttarch2",
+          "file_offset": 194992300,
+          "chunk_offset": 0,
+          "length": 45231092
+        },
+        {
+          "file": "Pack/Fables_pc_Fables102_txmesh.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 45231092,
+          "length": 106289164
+        }
+      ],
+      "sha256": "96ff38202cd42d807595c16f64b66bf0922144b5bd4ea8675c497b1defc9e699"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables102_txmesh.ttarch2",
+          "file_offset": 106289164,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "14c9e486eeb389ec7abd0259f5ae5ea0c9cfd446f6e5352f5867569090339afe"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables102_txmesh.ttarch2",
+          "file_offset": 257809420,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "48f9a2370a3be2cf1b7e8a0bb49b3a8566a18c4d5dd37c88e39bd8f149598777"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables102_txmesh.ttarch2",
+          "file_offset": 409329676,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "d057e482be3ca1bb704881152ec5389445ab0d485adbab25d53f403387ac2a84"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables102_txmesh.ttarch2",
+          "file_offset": 560849932,
+          "chunk_offset": 0,
+          "length": 108338791
+        },
+        {
+          "file": "Pack/Fables_pc_Fables103_anichore.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 108338791,
+          "length": 28954190
+        },
+        {
+          "file": "Pack/Fables_pc_Fables103_data.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 137292981,
+          "length": 2757359
+        },
+        {
+          "file": "Pack/Fables_pc_Fables103_mesh.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 140050340,
+          "length": 11469916
+        }
+      ],
+      "sha256": "b66bb6f2dd51bff152e578d3bed48d7b246f2e480800a6a8b5512f7fd1ed81b1"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables103_mesh.ttarch2",
+          "file_offset": 11469916,
+          "chunk_offset": 0,
+          "length": 64213399
+        },
+        {
+          "file": "Pack/Fables_pc_Fables103_ms.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 64213399,
+          "length": 87306857
+        }
+      ],
+      "sha256": "25b075c33ad04fb26ea520402a4e3fcbee684676910f23e9bb95960ab1537013"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables103_ms.ttarch2",
+          "file_offset": 87306857,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "8fe7502656b52ca7e7ca9829743dc68fc745d98bed3903dcd341ad3541f8e61a"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables103_ms.ttarch2",
+          "file_offset": 238827113,
+          "chunk_offset": 0,
+          "length": 48922073
+        },
+        {
+          "file": "Pack/Fables_pc_Fables103_tx.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 48922073,
+          "length": 102598183
+        }
+      ],
+      "sha256": "51903f7e71c26abeffa3ef5ab86f930589a9cbe3a08f5cb6fe3076ea173a39ef"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables103_tx.ttarch2",
+          "file_offset": 102598183,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "2c92392547e64a97df1342206458aa21a9fbebc42f035610c1efbb2b10c595af"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables103_tx.ttarch2",
+          "file_offset": 254118439,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "2e3775e560d3c0dc1f84f8cef17b0c20557d28ca70179241a7a1e26a6844e115"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables103_tx.ttarch2",
+          "file_offset": 405638695,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "39575937bef18eb8ba015bd411c10ee94e346a7881f2609595e817bc0b2379be"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables103_tx.ttarch2",
+          "file_offset": 557158951,
+          "chunk_offset": 0,
+          "length": 9037147
+        },
+        {
+          "file": "Pack/Fables_pc_Fables104_anichore.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 9037147,
+          "length": 27046595
+        },
+        {
+          "file": "Pack/Fables_pc_Fables104_data.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 36083742,
+          "length": 3442513
+        },
+        {
+          "file": "Pack/Fables_pc_Fables104_mesh.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 39526255,
+          "length": 68726342
+        },
+        {
+          "file": "Pack/Fables_pc_Fables104_ms.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 108252597,
+          "length": 43267659
+        }
+      ],
+      "sha256": "8e25f8d563ae09262964d33c3bcb9c2502a1f2ed6f3648fcc7dc433fb27327f3"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables104_ms.ttarch2",
+          "file_offset": 43267659,
+          "chunk_offset": 0,
+          "length": 123175457
+        },
+        {
+          "file": "Pack/Fables_pc_Fables104_tx.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 123175457,
+          "length": 28344799
+        }
+      ],
+      "sha256": "5cb98596a53869b019a52ef9f84f2067c574710c10fcca4eb3f8db43486b7ed4"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables104_tx.ttarch2",
+          "file_offset": 28344799,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "145311ee60a70f69dc17db87c466d52810ff2350f41232e51fe3ed8c5777647d"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables104_tx.ttarch2",
+          "file_offset": 179865055,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "5c99f50a7188da42dc2d3f1fc300fe0eff5531350e41885f01e2a6ffede1b3b9"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables104_tx.ttarch2",
+          "file_offset": 331385311,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "b3c9866f6dddbbdb849b669795caaf08b1735857c849347dc594f50e40759f2f"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables104_tx.ttarch2",
+          "file_offset": 482905567,
+          "chunk_offset": 0,
+          "length": 78936463
+        },
+        {
+          "file": "Pack/Fables_pc_Fables105_anichore.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 78936463,
+          "length": 35069044
+        },
+        {
+          "file": "Pack/Fables_pc_Fables105_data.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 114005507,
+          "length": 2702690
+        },
+        {
+          "file": "Pack/Fables_pc_Fables105_mesh.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 116708197,
+          "length": 34812059
+        }
+      ],
+      "sha256": "7f81e4c12e9bcecf8333a7a63b65ec63902a38bfbb4455afa96918c24bc9a451"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables105_mesh.ttarch2",
+          "file_offset": 34812059,
+          "chunk_offset": 0,
+          "length": 64045056
+        },
+        {
+          "file": "Pack/Fables_pc_Fables105_ms.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 64045056,
+          "length": 87475200
+        }
+      ],
+      "sha256": "89f53ab946c4f68ecba3607f680225e6c92d7170f290dfa3937db6832cb94458"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables105_ms.ttarch2",
+          "file_offset": 87475200,
+          "chunk_offset": 0,
+          "length": 67359600
+        },
+        {
+          "file": "Pack/Fables_pc_Fables105_tx.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 67359600,
+          "length": 84160656
+        }
+      ],
+      "sha256": "5b654f532ad20dd2032de05b63dda01ce10b2721a5a3c1867609f308c17a21ff"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables105_tx.ttarch2",
+          "file_offset": 84160656,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "61b6ec55f6ca27737beb45ee21c0911b200936e520259ebc0a29413e4cfa4580"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables105_tx.ttarch2",
+          "file_offset": 235680912,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "af7f9fab0586ef46ace4ad582f55ba6caf5b330e52104318bcd2151cf6da4f03"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables105_tx.ttarch2",
+          "file_offset": 387201168,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "74302d716be1fdb7012f71a0ccdd4029af892e691d2d3b90fe3b2e333eb8d53c"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Fables105_tx.ttarch2",
+          "file_offset": 538721424,
+          "chunk_offset": 0,
+          "length": 47820707
+        },
+        {
+          "file": "Pack/Fables_pc_French_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 47820707,
+          "length": 9834362
+        },
+        {
+          "file": "Pack/Fables_pc_German_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 57655069,
+          "length": 4439065
+        },
+        {
+          "file": "Pack/Fables_pc_Menu_anichore.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 62094134,
+          "length": 1591451
+        },
+        {
+          "file": "Pack/Fables_pc_Menu_data.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 63685585,
+          "length": 790329
+        },
+        {
+          "file": "Pack/Fables_pc_Menu_Loc_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 64475914,
+          "length": 3255843
+        },
+        {
+          "file": "Pack/Fables_pc_Menu_ms.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 67731757,
+          "length": 4701192
+        },
+        {
+          "file": "Pack/Fables_pc_Menu_txmesh.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 72432949,
+          "length": 79087307
+        }
+      ],
+      "sha256": "39357d5e64323ca939ea5f7851f20de3db4bfdd34a592abf2d97c1c1b05753f4"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_Menu_txmesh.ttarch2",
+          "file_offset": 79087307,
+          "chunk_offset": 0,
+          "length": 41113350
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Gold-Boot_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 41113350,
+          "length": 82271
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Gold-Proj_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 41195621,
+          "length": 65693
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Mac-TTG_Update_01_Boot_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 41261314,
+          "length": 13750
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Mac-TTG_Update_01_Engine_Lua_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 41275064,
+          "length": 24376
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Mac-TTG_Update_01_Fables101_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 41299440,
+          "length": 265587
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Mac-TTG_Update_01_Menu_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 41565027,
+          "length": 250923
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Mac-TTG_Update_01_Project_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 41815950,
+          "length": 5449
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_02_Episode_02_Menu_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 41821399,
+          "length": 109698857
+        }
+      ],
+      "sha256": "0a9ac8fdcb74fcadb0817b7fe7a6b4184548ee72cd9c2878071715b23b42de36"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_02_Episode_02_Menu_all.ttarch2",
+          "file_offset": 109698857,
+          "chunk_offset": 0,
+          "length": 26993247
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_02_Episode_02_Project_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 26993247,
+          "length": 1206001
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_03_Menu_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 28199248,
+          "length": 123321008
+        }
+      ],
+      "sha256": "b7f2464ae4895930aa07256bc751102de2ee8527adac9c518533c87786090f58"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_03_Menu_all.ttarch2",
+          "file_offset": 123321008,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "80c3f4ba2d500674ee318dfe7e19df73c0c3484e5186f53d0ad02bbc1782beaf"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_03_Menu_all.ttarch2",
+          "file_offset": 274841264,
+          "chunk_offset": 0,
+          "length": 9670613
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_03_Project_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 9670613,
+          "length": 1291581
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_04_Menu_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 10962194,
+          "length": 140558062
+        }
+      ],
+      "sha256": "1dc8c8573fa3a152dc2a2c26e70d21b22e11a585a0920aa954cd3de79f6d3998"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_04_Menu_all.ttarch2",
+          "file_offset": 140558062,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "9fd34cee4984908844b76223ac1ab1463ad0d6ec0d873ddfda21fc9dedc26156"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_04_Menu_all.ttarch2",
+          "file_offset": 292078318,
+          "chunk_offset": 0,
+          "length": 37331920
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_04_Project_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 37331920,
+          "length": 1298222
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_05_Menu_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 38630142,
+          "length": 112890114
+        }
+      ],
+      "sha256": "c06b3e37a50ee00b62acf4f31688c088abc61d7cb64adbd585cd7dd74f92c442"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 151520256,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_05_Menu_all.ttarch2",
+          "file_offset": 112890114,
+          "chunk_offset": 0,
+          "length": 151520256
+        }
+      ],
+      "sha256": "50ef89b4ad4375c40063dc58f44e9110704da660d9c668400c25d27c9e0b3220"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 151520230,
+      "segments": [
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_05_Menu_all.ttarch2",
+          "file_offset": 264410370,
+          "chunk_offset": 0,
+          "length": 138422944
+        },
+        {
+          "file": "Pack/Fables_pc_PC-Mac_TTG_Update_03_Episode_05_Project_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 138422944,
+          "length": 2666296
+        },
+        {
+          "file": "Pack/Fables_pc_Proj_Loc_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 141089240,
+          "length": 4326803
+        },
+        {
+          "file": "Pack/Fables_pc_Project_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 145416043,
+          "length": 1317351
+        },
+        {
+          "file": "Pack/Fables_pc_Spanish_all.ttarch2",
+          "file_offset": 0,
+          "chunk_offset": 146733394,
+          "length": 4439066
+        },
+        {
+          "file": "support.ico",
+          "file_offset": 0,
+          "chunk_offset": 151172460,
+          "length": 62895
+        },
+        {
+          "file": "webcache.zip",
+          "file_offset": 0,
+          "chunk_offset": 151235355,
+          "length": 284875
+        }
+      ],
+      "sha256": "f1a9cfc49b647c89fb136eeb690ae8d3c715eaf1b5166ee177b0aa80612be98a"
+    }
+  ]
+}
