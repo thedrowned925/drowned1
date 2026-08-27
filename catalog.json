@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-27T14:40:24.438786+00:00",
+  "updated_at": "2026-08-27T14:48:04.880806+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2506,6 +2506,39 @@
       },
       "media": {
         "steam_app_id": 201870
+      }
+    },
+    {
+      "id": "south-park-the-stick-of-truth",
+      "title": "South Park™: The Stick of Truth™",
+      "platform": "pc",
+      "description": "From the perilous battlefields of the fourth-grade playground, a young hero will rise, destined to be South Park’s savior. From the creators of South Park, Trey Parker and Matt Stone, comes an epic quest to become… cool. Introducing South Park™: The Stick of Truth™.For a thousand years, the battle has been waged.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/south-park-the-stick-of-truth/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/south-park-the-stick-of-truth/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/south-park-the-stick-of-truth/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/south-park-the-stick-of-truth/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/south-park-the-stick-of-truth/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/south-park-the-stick-of-truth/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/south-park-the-stick-of-truth/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/south-park-the-stick-of-truth/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/south-park-the-stick-of-truth/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/south-park-the-stick-of-truth/screenshots/05.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-south-park-the-stick-of-truth-v1.0.0-stable",
+          "manifest_path": "manifests/pc/south-park-the-stick-of-truth/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/south-park-the-stick-of-truth/stable/1.0.0.json",
+          "size": 5772114745,
+          "published_at": "2026-08-27T14:48:04.880750+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 213670
       }
     }
   ]
