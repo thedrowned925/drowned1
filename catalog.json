@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-27T14:29:26.942641+00:00",
+  "updated_at": "2026-08-27T14:40:24.438786+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2474,6 +2474,38 @@
       },
       "media": {
         "steam_app_id": 17470
+      }
+    },
+    {
+      "id": "assassin-s-creed-revelations",
+      "title": "Assassin's Creed® Revelations",
+      "platform": "pc",
+      "description": "Ezio Auditore walks in the footsteps of the legendary mentor Altair, on a dangerous journey of discovery and revelation.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-revelations/hero.webp",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-revelations/cover.jpg",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-revelations/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-revelations/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-revelations/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-revelations/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-revelations/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-revelations/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-revelations/screenshots/05.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-assassin-s-creed-revelations-v1.0.0-stable",
+          "manifest_path": "manifests/pc/assassin-s-creed-revelations/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/assassin-s-creed-revelations/stable/1.0.0.json",
+          "size": 7139380148,
+          "published_at": "2026-08-27T14:40:24.438772+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 201870
       }
     }
   ]
