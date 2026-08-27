@@ -15,7 +15,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -52,6 +51,7 @@ import kotlinx.coroutines.withContext
 import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
+import java.util.Locale
 import java.util.UUID
 
 class RemoteControlActivity : ComponentActivity() {
@@ -74,6 +74,16 @@ private class RemoteController(private val scope: CoroutineScope) {
     var hostname by mutableStateOf("—")
     var cpu by mutableStateOf(0.0)
     var memoryPercent by mutableStateOf(0.0)
+
+    var fdmRunning by mutableStateOf(false)
+    var downloadFolder by mutableStateOf<String?>(null)
+    var downloadWatchActive by mutableStateOf(false)
+    var downloadState by mutableStateOf("idle")
+    var downloadFile by mutableStateOf<String?>(null)
+    var downloadedBytes by mutableStateOf(0L)
+    var downloadSpeed by mutableStateOf(0.0)
+    var stableSeconds by mutableStateOf(0.0)
+
     var selectedExe by mutableStateOf<String?>(null)
     var testActive by mutableStateOf(false)
     var pid by mutableStateOf<Int?>(null)
@@ -175,7 +185,27 @@ private class RemoteController(private val scope: CoroutineScope) {
                 selectedExe = message.optString("selected_exe").takeIf { it.isNotBlank() && it != "null" }
                 testActive = message.optBoolean("test_active", false)
                 pid = if (message.isNull("pid")) null else message.optInt("pid")
+                fdmRunning = message.optBoolean("fdm_running", false)
+                downloadFolder = message.optString("download_folder").takeIf { it.isNotBlank() && it != "null" }
+                downloadWatchActive = message.optBoolean("download_watch_active", false)
                 agentOnline = true
+            }
+            "download_folder_selected" -> {
+                downloadFolder = message.optString("folder").takeIf { it.isNotBlank() }
+                fdmRunning = message.optBoolean("fdm_running", fdmRunning)
+                addLog("İndirme klasörü seçildi: ${downloadFolder ?: "—"}")
+            }
+            "download_folder_selection_cancelled" -> addLog("PC'deki indirme klasörü seçimi iptal edildi.")
+            "download_watch_started" -> {
+                downloadWatchActive = true
+                applyDownloadProgress(message)
+                addLog("İndirme izlemesi başladı.")
+            }
+            "download_progress" -> applyDownloadProgress(message)
+            "download_watch_stopped" -> {
+                downloadWatchActive = false
+                applyDownloadProgress(message)
+                addLog("İndirme izlemesi durduruldu.")
             }
             "exe_selected" -> {
                 selectedExe = message.optString("path")
@@ -195,7 +225,7 @@ private class RemoteController(private val scope: CoroutineScope) {
                 testActive = false
                 pid = null
                 preview = null
-                addLog("Test onaylandı. Process kapatıldı; yükleme aşamasına hazır.")
+                addLog("Test onaylandı. Process kapatıldı; sonraki aşamaya hazır.")
             }
             "test_failed" -> {
                 testActive = false
@@ -206,6 +236,16 @@ private class RemoteController(private val scope: CoroutineScope) {
             "event" -> addLog(message.optString("message", "Agent olayı"))
             "error" -> addLog("Hata: ${message.optString("message", "Bilinmeyen hata")}")
         }
+    }
+
+    private fun applyDownloadProgress(message: JSONObject) {
+        downloadState = message.optString("state", downloadState)
+        downloadFolder = message.optString("folder").takeIf { it.isNotBlank() && it != "null" } ?: downloadFolder
+        downloadFile = message.optString("file_name").takeIf { it.isNotBlank() && it != "null" }
+        downloadedBytes = message.optLong("downloaded_bytes", downloadedBytes)
+        downloadSpeed = message.optDouble("speed_bps", downloadSpeed)
+        stableSeconds = message.optDouble("stable_seconds", stableSeconds)
+        fdmRunning = message.optBoolean("fdm_running", fdmRunning)
     }
 
     private fun addLog(text: String) {
@@ -328,12 +368,42 @@ private fun RemoteControlScreen(onBack: () -> Unit) {
                     }
                 }
             }
+
+            item { Text("İndirme Takibi", fontSize = 20.sp, fontWeight = FontWeight.Bold) }
             item {
-                Text("Test", fontSize = 20.sp, fontWeight = FontWeight.Bold)
+                Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(14.dp)) {
+                    Column(Modifier.padding(14.dp), verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                        Text(if (controller.fdmRunning) "● FDM açık" else "○ FDM kapalı", fontWeight = FontWeight.Bold)
+                        Text("Durum: ${downloadStateLabel(controller.downloadState)}", fontSize = 13.sp)
+                        Text("Klasör: ${controller.downloadFolder ?: "Henüz seçilmedi"}", fontSize = 12.sp)
+                        Text("Dosya: ${controller.downloadFile ?: "Bekleniyor"}", fontSize = 13.sp, fontWeight = FontWeight.SemiBold)
+                        Text("İndirilen: ${formatRemoteBytes(controller.downloadedBytes)}", fontSize = 13.sp)
+                        Text("Hız: ${formatRemoteSpeed(controller.downloadSpeed)}", fontSize = 13.sp)
+                        if (controller.stableSeconds > 0) {
+                            Text("Son değişim: ${"%.0f".format(controller.stableSeconds)} sn önce", fontSize = 12.sp)
+                        }
+                    }
+                }
             }
             item {
-                Text("Seçilen EXE: ${controller.selectedExe ?: "Henüz seçilmedi"}", fontSize = 13.sp)
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Button(
+                        onClick = { controller.command("choose_download_folder") },
+                        enabled = controller.agentOnline && !controller.downloadWatchActive,
+                    ) { Text("PC'de Klasör Seç") }
+                    Button(
+                        onClick = {
+                            controller.command(if (controller.downloadWatchActive) "stop_download_watch" else "start_download_watch")
+                        },
+                        enabled = controller.agentOnline && (controller.downloadFolder != null || controller.downloadWatchActive),
+                    ) {
+                        Text(if (controller.downloadWatchActive) "İzlemeyi Durdur" else "İzlemeyi Başlat")
+                    }
+                }
             }
+
+            item { Text("Oyun Testi", fontSize = 20.sp, fontWeight = FontWeight.Bold) }
+            item { Text("Seçilen EXE: ${controller.selectedExe ?: "Henüz seçilmedi"}", fontSize = 13.sp) }
             item {
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     Button(onClick = { controller.command("choose_executable") }, enabled = controller.agentOnline && !controller.testActive) {
@@ -369,13 +439,34 @@ private fun RemoteControlScreen(onBack: () -> Unit) {
                     }
                 }
             }
-            item {
-                Text("Teknik Günlük", fontSize = 20.sp, fontWeight = FontWeight.Bold)
-            }
-            items(controller.logs) { log ->
-                Text(log, fontSize = 12.sp)
-            }
+            item { Text("Teknik Günlük", fontSize = 20.sp, fontWeight = FontWeight.Bold) }
+            items(controller.logs) { log -> Text(log, fontSize = 12.sp) }
             item { Spacer(Modifier.height(28.dp)) }
         }
     }
+}
+
+private fun downloadStateLabel(state: String): String = when (state) {
+    "waiting" -> "Yeni/aktif dosya bekleniyor"
+    "downloading" -> "İndiriliyor"
+    "stable" -> "Dosya değişmiyor"
+    "stopped" -> "İzleme durduruldu"
+    "idle" -> "Boşta"
+    else -> state.ifBlank { "—" }
+}
+
+private fun formatRemoteBytes(value: Long): String {
+    var size = value.toDouble()
+    val units = arrayOf("B", "KiB", "MiB", "GiB", "TiB")
+    var index = 0
+    while (size >= 1024.0 && index < units.lastIndex) {
+        size /= 1024.0
+        index++
+    }
+    return if (index == 0) "${size.toLong()} ${units[index]}" else String.format(Locale.US, "%.2f %s", size, units[index])
+}
+
+private fun formatRemoteSpeed(value: Double): String {
+    if (value <= 0.0) return "—"
+    return "${formatRemoteBytes(value.toLong())}/s"
 }
