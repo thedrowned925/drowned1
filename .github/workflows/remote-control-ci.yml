@@ -27,7 +27,7 @@ jobs:
       - name: Install test dependencies
         run: |
           python -m pip install -r windows/control-agent/requirements.txt
-          python -m pip install -r remote/relay/requirements.txt
+          python -m pip install -r remote/relay/requirements.txt httpx2
 
       - name: Validate Python syntax
         run: |
