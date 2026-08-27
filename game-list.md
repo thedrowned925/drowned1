@@ -2,20 +2,21 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 74
-- **Toplam aktif sürüm/kanal:** 74
-- **Toplam aktif boyut:** 1846.673 GB · 1.847 TB
-- **Katalog güncelleme zamanı:** 2026-08-27 14:29:26 UTC
+- **Toplam oyun:** 75
+- **Toplam aktif sürüm/kanal:** 75
+- **Toplam aktif boyut:** 1853.813 GB · 1.854 TB
+- **Katalog güncelleme zamanı:** 2026-08-27 14:40:24 UTC
 
 ## PC
 
-**74 oyun · 74 aktif sürüm/kanal · 1846.673 GB · 1.847 TB**
+**75 oyun · 75 aktif sürüm/kanal · 1853.813 GB · 1.854 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
 | Assassin's Creed 2 | 1.0.1 | stable | 7.276 | 0.007 | `pc-assassin-s-creed-2-v1.0.1-stable` |
 | Assassin's Creed Black Flag Resynced | 1.0.0 | stable | 72.871 | 0.073 | `pc-assassin-s-creed-black-flag-resynced-v1.0.0-stable` |
 | Assassin's Creed Brotherhood | 1.0.0 | stable | 9.652 | 0.010 | `pc-assassin-s-creed-brotherhood-v1.0.0-stable` |
+| Assassin's Creed® Revelations | 1.0.0 | stable | 7.139 | 0.007 | `pc-assassin-s-creed-revelations-v1.0.0-stable` |
 | Assassin's Creed™: Director's Cut Edition | 1.0.0 | stable | 7.201 | 0.007 | `pc-assassin-s-creed-director-s-cut-edition-v1.0.0-stable` |
 | Assassin’s Creed® III | 1.0.0 | stable | 18.629 | 0.019 | `pc-assassin-s-creed-iii-v1.0.0-stable` |
 | Assassin’s Creed® IV Black Flag™ | 1.0.0 | stable | 31.420 | 0.031 | `pc-assassin-s-creed-iv-black-flag-v1.0.0-stable` |
