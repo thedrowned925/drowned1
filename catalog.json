@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-27T14:17:11.669713+00:00",
+  "updated_at": "2026-08-27T14:29:26.942641+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2439,6 +2439,41 @@
       },
       "media": {
         "steam_app_id": 50130
+      }
+    },
+    {
+      "id": "dead-space-2008",
+      "title": "Dead Space (2008)",
+      "platform": "pc",
+      "description": "You are Isaac Clarke, an engineer on the spacecraft USG Ishimura. You're not a warrior. You're not a soldier. You are, however, the last line of defense for the remaining living crew.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dead-space-2008/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dead-space-2008/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dead-space-2008/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dead-space-2008/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dead-space-2008/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dead-space-2008/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dead-space-2008/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dead-space-2008/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dead-space-2008/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dead-space-2008/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dead-space-2008/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/dead-space-2008/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-dead-space-2008-v1.0.0-stable",
+          "manifest_path": "manifests/pc/dead-space-2008/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/dead-space-2008/stable/1.0.0.json",
+          "size": 7953264768,
+          "published_at": "2026-08-27T14:29:26.942627+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 17470
       }
     }
   ]
