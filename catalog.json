@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-27T13:23:49.728151+00:00",
+  "updated_at": "2026-08-27T14:01:49.201940+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2372,6 +2372,41 @@
       },
       "media": {
         "steam_app_id": 201810
+      }
+    },
+    {
+      "id": "detroit-become-human",
+      "title": "Detroit: Become Human",
+      "platform": "pc",
+      "description": "Detroit: Become Human puts the destiny of both mankind and androids in your hands, taking you to a near future where machines have become more intelligent than humans. Every choice you make affects the outcome of the game, with one of the most intricately branching narratives ever created.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/detroit-become-human/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/detroit-become-human/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/detroit-become-human/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/detroit-become-human/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/detroit-become-human/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/detroit-become-human/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/detroit-become-human/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/detroit-become-human/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/detroit-become-human/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/detroit-become-human/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/detroit-become-human/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/detroit-become-human/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-detroit-become-human-v1.0.0-stable",
+          "manifest_path": "manifests/pc/detroit-become-human/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/detroit-become-human/stable/1.0.0.json",
+          "size": 63186861137,
+          "published_at": "2026-08-27T14:01:49.201517+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 1222140
       }
     }
   ]
