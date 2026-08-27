@@ -17,6 +17,8 @@ import psutil
 import websockets
 from PIL import Image
 
+from download_watcher import DownloadWatcher
+
 RELAY_BASE = os.getenv("DROWNED_RELAY_URL", "wss://YOUR-RELAY-HOST/ws").rstrip("/")
 DEVICE_ID = os.getenv("DROWNED_DEVICE_ID", socket.gethostname().lower().replace(" ", "-"))
 TOKEN = os.getenv("DROWNED_REMOTE_TOKEN", "").strip()
@@ -41,6 +43,8 @@ class Agent:
         self.session_id = None
         self.capture_task = None
         self.tracked_pids = set()
+        self.download_watcher = DownloadWatcher()
+        self.download_task = None
 
     async def send(self, payload):
         if not self.ws:
@@ -91,6 +95,9 @@ class Agent:
             "pid": self.process.pid if self.process else None,
             "tracked_pids": pids,
             "session_id": self.session_id,
+            "fdm_running": self.download_watcher.fdm_running(),
+            "download_folder": self.download_watcher.folder,
+            "download_watch_active": bool(self.download_watcher.started_at),
             "timestamp": time.time(),
         })
 
@@ -98,6 +105,57 @@ class Agent:
         while True:
             await self.status()
             await asyncio.sleep(5)
+
+    async def choose_download_folder(self, request_id):
+        folder = await asyncio.to_thread(self.download_watcher.choose_folder_dialog)
+        if folder:
+            self.download_watcher.folder = folder
+            await self.send({
+                "type": "download_folder_selected",
+                "request_id": request_id,
+                "folder": folder,
+                "fdm_running": self.download_watcher.fdm_running(),
+                "timestamp": time.time(),
+            })
+            await self.event(f"İndirme klasörü seçildi: {folder}")
+        else:
+            await self.send({"type": "download_folder_selection_cancelled", "request_id": request_id})
+
+    async def start_download_watch(self, request_id):
+        if not self.download_watcher.folder:
+            raise RuntimeError("Önce PC'de FDM indirme klasörünü seç.")
+        if self.download_task and not self.download_task.done():
+            self.download_task.cancel()
+            await asyncio.gather(self.download_task, return_exceptions=True)
+        snapshot = await asyncio.to_thread(self.download_watcher.start, self.download_watcher.folder)
+        await self.send({
+            "type": "download_watch_started",
+            "request_id": request_id,
+            **snapshot,
+            "timestamp": time.time(),
+        })
+        self.download_task = asyncio.create_task(self.download_loop())
+        await self.event("FDM indirme klasörü izleniyor.")
+
+    async def stop_download_watch(self, request_id):
+        if self.download_task and not self.download_task.done():
+            self.download_task.cancel()
+            await asyncio.gather(self.download_task, return_exceptions=True)
+        self.download_task = None
+        snapshot = await asyncio.to_thread(self.download_watcher.stop)
+        await self.send({
+            "type": "download_watch_stopped",
+            "request_id": request_id,
+            **snapshot,
+            "timestamp": time.time(),
+        })
+        await self.event("İndirme klasörü izlemesi durduruldu.")
+
+    async def download_loop(self):
+        while self.download_watcher.started_at is not None:
+            snapshot = await asyncio.to_thread(self.download_watcher.poll)
+            await self.send({"type": "download_progress", **snapshot, "timestamp": time.time()})
+            await asyncio.sleep(1)
 
     async def choose_exe(self, request_id):
         if self.session_id and self.live_test_pids():
@@ -277,6 +335,12 @@ class Agent:
         try:
             if command == "request_status":
                 await self.status()
+            elif command == "choose_download_folder":
+                await self.choose_download_folder(request_id)
+            elif command == "start_download_watch":
+                await self.start_download_watch(request_id)
+            elif command == "stop_download_watch":
+                await self.stop_download_watch(request_id)
             elif command == "choose_executable":
                 await self.choose_exe(request_id)
             elif command == "start_test":
@@ -306,7 +370,10 @@ class Agent:
                     await self.send({
                         "type": "agent_hello", "device_id": DEVICE_ID,
                         "hostname": socket.gethostname(), "os": platform.platform(),
-                        "capabilities": ["telemetry", "pc_exe_picker", "process_tree_test", "screen_preview"],
+                        "capabilities": [
+                            "telemetry", "pc_exe_picker", "process_tree_test", "screen_preview",
+                            "fdm_folder_watch",
+                        ],
                         "timestamp": time.time(),
                     })
                     task = asyncio.create_task(self.telemetry())
