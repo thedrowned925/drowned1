@@ -1,0 +1,1236 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "detroit-become-human",
+    "title": "Detroit: Become Human",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Detroit: Become Human puts the destiny of both mankind and androids in your hands, taking you to a near future where machines have become more intelligent than humans. Every choice you make affects the outcome of the game, with one of the most intricately branching narratives ever created."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-detroit-become-human-v1.0.0-stable"
+  },
+  "chunk_size": 1579671529,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 63186861137,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "BigFile_PC.d01",
+      "size": 2147254384,
+      "sha256": "969b13564844fbfaaff1b046b575cddf0aa3bee35796f91c2a78436a800888f5"
+    },
+    {
+      "path": "BigFile_PC.d02",
+      "size": 2147450206,
+      "sha256": "536189abe9eb28aefc2da0400d96a7f4bba00bf87da933d5bba18071daa76eb2"
+    },
+    {
+      "path": "BigFile_PC.d03",
+      "size": 2146766953,
+      "sha256": "b4bc0bb25d2a6d67bf5dbfa84cc2813a474e6975281a5b58e76c84b4eb582712"
+    },
+    {
+      "path": "BigFile_PC.d04",
+      "size": 2146161450,
+      "sha256": "875514c122ef81d5d908079badc64a40bd91dbbe7e8f6827b34eb011e34a09db"
+    },
+    {
+      "path": "BigFile_PC.d05",
+      "size": 2146904574,
+      "sha256": "cc4d79b3dd6d56448966759a0280326b5de6be296ff47be04a065535996db1f5"
+    },
+    {
+      "path": "BigFile_PC.d06",
+      "size": 2122848240,
+      "sha256": "c8dd2b87f8eb060d6b41d6d58fc820c2eace69a36459b848656843c846af0357"
+    },
+    {
+      "path": "BigFile_PC.d07",
+      "size": 2147430324,
+      "sha256": "d0db19aebda6bec97c32f1e74f2b62af8f9a758767b8ef47628e65e871a1e82f"
+    },
+    {
+      "path": "BigFile_PC.d08",
+      "size": 2147225552,
+      "sha256": "4d8bc8e17e4d548252c807dd2bb5c1f9ec6982016688435a916ca991ac1043a3"
+    },
+    {
+      "path": "BigFile_PC.d09",
+      "size": 2146815120,
+      "sha256": "8e9428dbcd0fb2141132702a3375c0b20f5d536b1713cf710f81bdde63274380"
+    },
+    {
+      "path": "BigFile_PC.d10",
+      "size": 2147292949,
+      "sha256": "ad606cdccd05291d7ad293037175461ebb4020b0a6b5c54648ace156a12f5586"
+    },
+    {
+      "path": "BigFile_PC.d11",
+      "size": 2140488760,
+      "sha256": "ffcf06f477a4632c47203d86154a192ed5e172a54106e358222923337e7b27ed"
+    },
+    {
+      "path": "BigFile_PC.d12",
+      "size": 2129985633,
+      "sha256": "9396b2cd5f1cb27d184e22861c057064009943955833e8586a245c505e68cc02"
+    },
+    {
+      "path": "BigFile_PC.d13",
+      "size": 2147412055,
+      "sha256": "4c000e214d8aab9633c24590c6113c75416dc006cbc983e1f1047a95dbcba135"
+    },
+    {
+      "path": "BigFile_PC.d14",
+      "size": 2147346461,
+      "sha256": "1b325c08febeb8c791848b8905517f8e8e5183ebbbdc46aca303b7903235b760"
+    },
+    {
+      "path": "BigFile_PC.d15",
+      "size": 2141148459,
+      "sha256": "c800ec9b37bd91d73036268e6a771a2375790eec003059fa4ad5288f1c9ca868"
+    },
+    {
+      "path": "BigFile_PC.d16",
+      "size": 2147319895,
+      "sha256": "d375d1546d75908566e0a49ad21318a5c314c683fef937958229f9f8680cecbb"
+    },
+    {
+      "path": "BigFile_PC.d17",
+      "size": 2147357153,
+      "sha256": "d52942ed79cc594d02722ebee37cb262dd747f20f993c084fe1b833718a39d57"
+    },
+    {
+      "path": "BigFile_PC.d18",
+      "size": 2147438672,
+      "sha256": "eef8f2db35364cfae5041a9a6e7d2367e45e805703ffeb842b3a16a71b86c4bb"
+    },
+    {
+      "path": "BigFile_PC.d19",
+      "size": 2146672727,
+      "sha256": "1a19d6acc467617a039727553eb2db97502a14802d87d10d83dd5d376c2c42fd"
+    },
+    {
+      "path": "BigFile_PC.d20",
+      "size": 2128176102,
+      "sha256": "b9d537bf74812dd2829e94a98aa124107f230480e77fa4240e7834e8a3e68910"
+    },
+    {
+      "path": "BigFile_PC.d21",
+      "size": 2147256407,
+      "sha256": "eaade58accfa3b72524a0c3ac022f66adb82fe1d7fb1d1d1baca360234975c70"
+    },
+    {
+      "path": "BigFile_PC.d22",
+      "size": 2147426425,
+      "sha256": "4607a9efa04abeb8ef0a52072f7337752a08c99e513fdf96511b9960690b0da2"
+    },
+    {
+      "path": "BigFile_PC.d23",
+      "size": 2117058605,
+      "sha256": "a53821d8e1f6b7f65dd286f0d6c4b81f3d8df43378cb45f65c19c002ea0e9cfb"
+    },
+    {
+      "path": "BigFile_PC.d24",
+      "size": 2140522541,
+      "sha256": "1726bda32338a60c4d41e7b908c1107a3a65e7c0709534351ec424dee330a767"
+    },
+    {
+      "path": "BigFile_PC.d25",
+      "size": 2110853165,
+      "sha256": "2df64574e498d34ca8666ad1b8cd45a13920b2cc452b3f82d18641d6ae24d41d"
+    },
+    {
+      "path": "BigFile_PC.d26",
+      "size": 2083899437,
+      "sha256": "b70d93be804718c60b4745b98de8063b09eb3f654af22b6177bfbf866e9f594d"
+    },
+    {
+      "path": "BigFile_PC.d27",
+      "size": 2117142573,
+      "sha256": "3e1091e2d2a83e4d9fd6e16b514d26bbb5fcc26632844d42d81ee0569ecce23b"
+    },
+    {
+      "path": "BigFile_PC.d28",
+      "size": 2140725293,
+      "sha256": "b4f846951c0b4a1235a7da270096b46224143765352da45fd1c1a5683048baca"
+    },
+    {
+      "path": "BigFile_PC.d29",
+      "size": 20106759,
+      "sha256": "06bef7efe358fd2f3d21ed9fad1f908d9a4d8003310a1a50d11d8852d7e84775"
+    },
+    {
+      "path": "BigFile_PC.dat",
+      "size": 2147476704,
+      "sha256": "93f81390926e484e291520ec5393331ab6f6a08b31a5844c82feb8a6847467a7"
+    },
+    {
+      "path": "BigFile_PC.dep",
+      "size": 26030856,
+      "sha256": "c47f0fde7bd550ac88fca73ce67c97500460b788af5add98d18e756892ffee9e"
+    },
+    {
+      "path": "BigFile_PC.idx",
+      "size": 10465049,
+      "sha256": "e1a97a33ae8c9e651266dc2370aa5e18b64db697bc83b77f16c84031b62c36a4"
+    },
+    {
+      "path": "bink2w64.dll",
+      "size": 380416,
+      "sha256": "05bdd56e088798d2e09a8ea912fadaea821ffea2b328f89e1f525f9859b36e06"
+    },
+    {
+      "path": "breakpad_server.exe",
+      "size": 60416,
+      "sha256": "34908fe25df582e7ed4f13892fa2f9976299b73aa399917f8fc2b1860201a1ac"
+    },
+    {
+      "path": "dbgcore.dll",
+      "size": 166576,
+      "sha256": "db947c07167069d3de9e8a637baf01298984355d775ec49801115d7e5f2e47a3"
+    },
+    {
+      "path": "dbghelp.dll",
+      "size": 1938072,
+      "sha256": "3d92df0984662298a09d988aff0bb7c3081a46bf48177b7af02d3552641f77e9"
+    },
+    {
+      "path": "DetroitBecomeHuman.exe",
+      "size": 57986560,
+      "sha256": "39c81abd6b4e241e940f191e723e90f214c78499cafb3746e04375ca0fcf722c"
+    },
+    {
+      "path": "DetroitBecomeHuman.rne",
+      "size": 57986328,
+      "sha256": "ecf52321921387e683904e089082d76b973326fc093af14e524056715519c1cf"
+    },
+    {
+      "path": "DXGI_Helper.dll",
+      "size": 11264,
+      "sha256": "6e5f80e98cfee7d8582f7cfc6a9be9152a7f4bbd53add68aaaa826871d6f2372"
+    },
+    {
+      "path": "libexpat.dll",
+      "size": 173568,
+      "sha256": "80d76961e60e20de1bd0b7577095d184e027cde2aeb0e81f024a4d0813d9c345"
+    },
+    {
+      "path": "libpad.dll",
+      "size": 68608,
+      "sha256": "b16f2086046192840b6c4aa90a245de903fb79333f35820369fc687f13542f56"
+    },
+    {
+      "path": "libScePad.dll",
+      "size": 128512,
+      "sha256": "5a2803c7fecff9ff0ce8dbb3e3f13063bb12c18f5516e993342d694b84b3a4b5"
+    },
+    {
+      "path": "mfc140.dll",
+      "size": 5792816,
+      "sha256": "b4bd5d6756ff42c59c103f842bf83d159b663af8d6ec2bcea8cfa85f02ef509a"
+    },
+    {
+      "path": "msvcp140.dll",
+      "size": 627440,
+      "sha256": "86881a7054532019291c162f0a8177980c1c2b45490f7e88543f22915d08d9ff"
+    },
+    {
+      "path": "runtime.ini",
+      "size": 292,
+      "sha256": "28a706183c89ef7b3f556eecae9c4090769c7134d3743ca972bd6fa2d1c3f11b"
+    },
+    {
+      "path": "ShaderCache/CorruptedCache",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ShaderCache/MainPipelineStates.bin",
+      "size": 2122191,
+      "sha256": "d4d9a968c7d417dbea88e4e83de265751c6d80b920987e974b61d9ba5beb9d43"
+    },
+    {
+      "path": "ShaderCache/SecondaryPipelineStates.bin",
+      "size": 2012632,
+      "sha256": "515373c22755f07bd0ef054c4405368ab54443ee7659d2a75db065fefbfa68dd"
+    },
+    {
+      "path": "ShaderCache/ShaderCode.bin",
+      "size": 927137445,
+      "sha256": "4131df23e7fecc49913c7a48bb83992a4fcc3f5c7732e24194b09f0d3654446a"
+    },
+    {
+      "path": "ShaderCache/VkPipelineCache.bin",
+      "size": 1668241,
+      "sha256": "db3eefda71ca960cb8e7daad407f1e900f7298cf884cbde18725a27a77ec3cdc"
+    },
+    {
+      "path": "steam_api64.cdx",
+      "size": 289568,
+      "sha256": "f1eb582e607a1e43cdb1654bfb7cb29ad46f6728b3fb89a14f7727e0e8daab69"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 406424,
+      "sha256": "ed76239614fb302e5bd244511de67ea48c624ec079737d558d632a05fd213762"
+    },
+    {
+      "path": "steam_emu.ini",
+      "size": 1674,
+      "sha256": "7c2e24af2044c390c699a28ec73a7f2385cc022c07c9e093078ecc9005a5aad7"
+    },
+    {
+      "path": "vcomp120.dll",
+      "size": 137376,
+      "sha256": "ae710d6670d922fbbf0adcbec743fe75e572cf21cf7579faf5f347a606c37cbb"
+    },
+    {
+      "path": "vcruntime140.dll",
+      "size": 85232,
+      "sha256": "6cadb4fef773c23b511acc8b715a084815c6e41dd8c694bc70090a97b3b03fb9"
+    },
+    {
+      "path": "WindowInfo.JSON",
+      "size": 227,
+      "sha256": "7dcf66c036fb459a844617628601c9f4596fe40104de27d1382d37746ca22ae4"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "BigFile_PC.d01",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 1530451753
+        }
+      ],
+      "sha256": "03afadf4e1793a2f7c46d81cf49bb877008c9ec2aa289e50b426a1712d53a534"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d01",
+          "file_offset": 1530451753,
+          "chunk_offset": 0,
+          "length": 616802631
+        },
+        {
+          "file": "BigFile_PC.d02",
+          "file_offset": 0,
+          "chunk_offset": 616802631,
+          "length": 962868898
+        }
+      ],
+      "sha256": "8c7efc6d4e3d73551ac74ac5b06b8e9bdd7b89b5538978d45c04cbbdb0fb60db"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d02",
+          "file_offset": 962868898,
+          "chunk_offset": 0,
+          "length": 1184581308
+        },
+        {
+          "file": "BigFile_PC.d03",
+          "file_offset": 0,
+          "chunk_offset": 1184581308,
+          "length": 395090221
+        }
+      ],
+      "sha256": "305ca2be161d033391eace2276793fc35b1161304a6415ef435d6ab56c95f6ed"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d03",
+          "file_offset": 395090221,
+          "chunk_offset": 0,
+          "length": 1579671529
+        }
+      ],
+      "sha256": "57a3f46a9a9527c5dd824a7048ebae25f2c9fa49e598dbe9da4f9c7ef622d3ec"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d03",
+          "file_offset": 1974761750,
+          "chunk_offset": 0,
+          "length": 172005203
+        },
+        {
+          "file": "BigFile_PC.d04",
+          "file_offset": 0,
+          "chunk_offset": 172005203,
+          "length": 1407666326
+        }
+      ],
+      "sha256": "f96f6d4e7c111dfc8530020f994b6bbf0f6df52ec8ffdcdb58bb844d85417b95"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d04",
+          "file_offset": 1407666326,
+          "chunk_offset": 0,
+          "length": 738495124
+        },
+        {
+          "file": "BigFile_PC.d05",
+          "file_offset": 0,
+          "chunk_offset": 738495124,
+          "length": 841176405
+        }
+      ],
+      "sha256": "a8e32a050c60e3e9b51ac911edee3179b1cff9aa71c5c52fcada59f831777dc7"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d05",
+          "file_offset": 841176405,
+          "chunk_offset": 0,
+          "length": 1305728169
+        },
+        {
+          "file": "BigFile_PC.d06",
+          "file_offset": 0,
+          "chunk_offset": 1305728169,
+          "length": 273943360
+        }
+      ],
+      "sha256": "33f5803b8d07c44cf54e93c423dcbb112e06132107982cba1963ad93624dae82"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d06",
+          "file_offset": 273943360,
+          "chunk_offset": 0,
+          "length": 1579671529
+        }
+      ],
+      "sha256": "46073cdcfa37c6e1355878ad56907e0c56c83323f07fd6fbaa047f8c2da86af4"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d06",
+          "file_offset": 1853614889,
+          "chunk_offset": 0,
+          "length": 269233351
+        },
+        {
+          "file": "BigFile_PC.d07",
+          "file_offset": 0,
+          "chunk_offset": 269233351,
+          "length": 1310438178
+        }
+      ],
+      "sha256": "cb8c539903f2ad77cade35173bccf074ce785cf8dda68a91d3e2a77a5a62efe7"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d07",
+          "file_offset": 1310438178,
+          "chunk_offset": 0,
+          "length": 836992146
+        },
+        {
+          "file": "BigFile_PC.d08",
+          "file_offset": 0,
+          "chunk_offset": 836992146,
+          "length": 742679383
+        }
+      ],
+      "sha256": "437ce2ec7e453c794015ed81d06f594c207a363b7597ef84b5bf39643fa72a16"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d08",
+          "file_offset": 742679383,
+          "chunk_offset": 0,
+          "length": 1404546169
+        },
+        {
+          "file": "BigFile_PC.d09",
+          "file_offset": 0,
+          "chunk_offset": 1404546169,
+          "length": 175125360
+        }
+      ],
+      "sha256": "43fcb9102b9a619af14e0b98383fcedc65f3dacfcdf8d6663d55756163896a3f"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d09",
+          "file_offset": 175125360,
+          "chunk_offset": 0,
+          "length": 1579671529
+        }
+      ],
+      "sha256": "dccc89cf219c5c5e891c3e8954eefa6371c909f44b5f23c286d5b73e60320b20"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d09",
+          "file_offset": 1754796889,
+          "chunk_offset": 0,
+          "length": 392018231
+        },
+        {
+          "file": "BigFile_PC.d10",
+          "file_offset": 0,
+          "chunk_offset": 392018231,
+          "length": 1187653298
+        }
+      ],
+      "sha256": "a8b72daa16322f88f8e26ae85ed3db67d78e0f731619b63912cb0a67c47015ca"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d10",
+          "file_offset": 1187653298,
+          "chunk_offset": 0,
+          "length": 959639651
+        },
+        {
+          "file": "BigFile_PC.d11",
+          "file_offset": 0,
+          "chunk_offset": 959639651,
+          "length": 620031878
+        }
+      ],
+      "sha256": "ae695ad1a8d3bf647a064b398968818507d62e35e508d25723edc0fcf6108cda"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d11",
+          "file_offset": 620031878,
+          "chunk_offset": 0,
+          "length": 1520456882
+        },
+        {
+          "file": "BigFile_PC.d12",
+          "file_offset": 0,
+          "chunk_offset": 1520456882,
+          "length": 59214647
+        }
+      ],
+      "sha256": "d03a050b5128636b02f3b719b34cf7cda1b9bd32b63e0cb6ddbc48e43c11b37b"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d12",
+          "file_offset": 59214647,
+          "chunk_offset": 0,
+          "length": 1579671529
+        }
+      ],
+      "sha256": "c878369c8fc1c3b2c46df3fa3196452556d2b28707aee2f4babbdadb07ff63f3"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d12",
+          "file_offset": 1638886176,
+          "chunk_offset": 0,
+          "length": 491099457
+        },
+        {
+          "file": "BigFile_PC.d13",
+          "file_offset": 0,
+          "chunk_offset": 491099457,
+          "length": 1088572072
+        }
+      ],
+      "sha256": "ef5c68f439c62e256ee0fbd98f918329c0b36492ec316e22085652d0dac2f479"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d13",
+          "file_offset": 1088572072,
+          "chunk_offset": 0,
+          "length": 1058839983
+        },
+        {
+          "file": "BigFile_PC.d14",
+          "file_offset": 0,
+          "chunk_offset": 1058839983,
+          "length": 520831546
+        }
+      ],
+      "sha256": "0f51cd86cea2f9e9cd96c18b9ba28d8fcce542b182938e764d3de63065ac2205"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d14",
+          "file_offset": 520831546,
+          "chunk_offset": 0,
+          "length": 1579671529
+        }
+      ],
+      "sha256": "451eb6aa90a7319a3c732f52c6c018c7cc5625b4a4e97cbca3380d0eeef2daa4"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d14",
+          "file_offset": 2100503075,
+          "chunk_offset": 0,
+          "length": 46843386
+        },
+        {
+          "file": "BigFile_PC.d15",
+          "file_offset": 0,
+          "chunk_offset": 46843386,
+          "length": 1532828143
+        }
+      ],
+      "sha256": "9d0b7121e897affb78b6a3d8e1c9b50997371b6e2957f59052695d013cb1445d"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d15",
+          "file_offset": 1532828143,
+          "chunk_offset": 0,
+          "length": 608320316
+        },
+        {
+          "file": "BigFile_PC.d16",
+          "file_offset": 0,
+          "chunk_offset": 608320316,
+          "length": 971351213
+        }
+      ],
+      "sha256": "2118caf36c26175abc32cdb7effd304768ddd2c93c7c8e1ae9d796b13aaa372c"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d16",
+          "file_offset": 971351213,
+          "chunk_offset": 0,
+          "length": 1175968682
+        },
+        {
+          "file": "BigFile_PC.d17",
+          "file_offset": 0,
+          "chunk_offset": 1175968682,
+          "length": 403702847
+        }
+      ],
+      "sha256": "cf0ea39ba7a5e40ed3f29d4ce954d0507749ceb7c3881cdc024825feb906948e"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d17",
+          "file_offset": 403702847,
+          "chunk_offset": 0,
+          "length": 1579671529
+        }
+      ],
+      "sha256": "4a598f2925ba1484df9d2dc756f5c35d6fcf2b799842235c660eca24d72cdd1a"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d17",
+          "file_offset": 1983374376,
+          "chunk_offset": 0,
+          "length": 163982777
+        },
+        {
+          "file": "BigFile_PC.d18",
+          "file_offset": 0,
+          "chunk_offset": 163982777,
+          "length": 1415688752
+        }
+      ],
+      "sha256": "1accb8fd0030514662b88cda1ef2965971c2423ea3775ba473b7f02228dd20d3"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d18",
+          "file_offset": 1415688752,
+          "chunk_offset": 0,
+          "length": 731749920
+        },
+        {
+          "file": "BigFile_PC.d19",
+          "file_offset": 0,
+          "chunk_offset": 731749920,
+          "length": 847921609
+        }
+      ],
+      "sha256": "3c1c12caffa97eba09627afc5e3b927c172d378105b7232d6697477a1e705ba8"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d19",
+          "file_offset": 847921609,
+          "chunk_offset": 0,
+          "length": 1298751118
+        },
+        {
+          "file": "BigFile_PC.d20",
+          "file_offset": 0,
+          "chunk_offset": 1298751118,
+          "length": 280920411
+        }
+      ],
+      "sha256": "394e14a4e232f792aa13a49a1d9a39a38dcfea0a38417a2166a8d93604e9d844"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d20",
+          "file_offset": 280920411,
+          "chunk_offset": 0,
+          "length": 1579671529
+        }
+      ],
+      "sha256": "fae3813973393b4a34062c5e188e742ae1605eb2d205eb6f77eae7800175dae9"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d20",
+          "file_offset": 1860591940,
+          "chunk_offset": 0,
+          "length": 267584162
+        },
+        {
+          "file": "BigFile_PC.d21",
+          "file_offset": 0,
+          "chunk_offset": 267584162,
+          "length": 1312087367
+        }
+      ],
+      "sha256": "92892f94d960566541ba8970f5661b7ef7a7eaf94a473c9908bbaa814dadbbbf"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d21",
+          "file_offset": 1312087367,
+          "chunk_offset": 0,
+          "length": 835169040
+        },
+        {
+          "file": "BigFile_PC.d22",
+          "file_offset": 0,
+          "chunk_offset": 835169040,
+          "length": 744502489
+        }
+      ],
+      "sha256": "97b28c000a55874c5bad0c35f34b4efdf1def7d51a32ce35b95f6192714d00cd"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d22",
+          "file_offset": 744502489,
+          "chunk_offset": 0,
+          "length": 1402923936
+        },
+        {
+          "file": "BigFile_PC.d23",
+          "file_offset": 0,
+          "chunk_offset": 1402923936,
+          "length": 176747593
+        }
+      ],
+      "sha256": "dd1d09aee9d6dc3595703b787d0a28fdd7e1537c218fc761add57ae54aed143e"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d23",
+          "file_offset": 176747593,
+          "chunk_offset": 0,
+          "length": 1579671529
+        }
+      ],
+      "sha256": "75af1b95497819897ec06c34175e3b7ef3821260a9cc9974514afc36bd1b4ff6"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d23",
+          "file_offset": 1756419122,
+          "chunk_offset": 0,
+          "length": 360639483
+        },
+        {
+          "file": "BigFile_PC.d24",
+          "file_offset": 0,
+          "chunk_offset": 360639483,
+          "length": 1219032046
+        }
+      ],
+      "sha256": "d5b2c1b86a3fd9bea46b924c1b173261bf9cac0206996b8f0eff4dcebd4e8218"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d24",
+          "file_offset": 1219032046,
+          "chunk_offset": 0,
+          "length": 921490495
+        },
+        {
+          "file": "BigFile_PC.d25",
+          "file_offset": 0,
+          "chunk_offset": 921490495,
+          "length": 658181034
+        }
+      ],
+      "sha256": "b2413fe68a40248118fd9bd9b7aa3b53bfb93a8973c7b46ae4dec86868604dbb"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d25",
+          "file_offset": 658181034,
+          "chunk_offset": 0,
+          "length": 1452672131
+        },
+        {
+          "file": "BigFile_PC.d26",
+          "file_offset": 0,
+          "chunk_offset": 1452672131,
+          "length": 126999398
+        }
+      ],
+      "sha256": "3ce1812c62f0b4977356c4bc2265e8a65993cb294610356b18613781e4fd3e6b"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d26",
+          "file_offset": 126999398,
+          "chunk_offset": 0,
+          "length": 1579671529
+        }
+      ],
+      "sha256": "f8bfa38e3baac07fc76d5d7d929a9ccbcd5c90918bca9e749e80ad7bbfc850c3"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d26",
+          "file_offset": 1706670927,
+          "chunk_offset": 0,
+          "length": 377228510
+        },
+        {
+          "file": "BigFile_PC.d27",
+          "file_offset": 0,
+          "chunk_offset": 377228510,
+          "length": 1202443019
+        }
+      ],
+      "sha256": "6a5ff2d0076c1cdf7b45a7d1b8017ab7f089f61e2bece1e72b6940f7ae989e37"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d27",
+          "file_offset": 1202443019,
+          "chunk_offset": 0,
+          "length": 914699554
+        },
+        {
+          "file": "BigFile_PC.d28",
+          "file_offset": 0,
+          "chunk_offset": 914699554,
+          "length": 664971975
+        }
+      ],
+      "sha256": "a2efc8812c817b1ae86d5065b0cd7121ff05afdde2e5e4393f4f68bfefb6248b"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.d28",
+          "file_offset": 664971975,
+          "chunk_offset": 0,
+          "length": 1475753318
+        },
+        {
+          "file": "BigFile_PC.d29",
+          "file_offset": 0,
+          "chunk_offset": 1475753318,
+          "length": 20106759
+        },
+        {
+          "file": "BigFile_PC.dat",
+          "file_offset": 0,
+          "chunk_offset": 1495860077,
+          "length": 83811452
+        }
+      ],
+      "sha256": "d199f4c9a1c0f90ce90e05fbab47d70667343c98360fcf45c476750442fd18f9"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 1579671529,
+      "segments": [
+        {
+          "file": "BigFile_PC.dat",
+          "file_offset": 83811452,
+          "chunk_offset": 0,
+          "length": 1579671529
+        }
+      ],
+      "sha256": "238dfb49c30740662240c0469b483896a8ea07b5d7a8b0c06144d93c399eef2b"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 1579671506,
+      "segments": [
+        {
+          "file": "BigFile_PC.dat",
+          "file_offset": 1663482981,
+          "chunk_offset": 0,
+          "length": 483993723
+        },
+        {
+          "file": "BigFile_PC.dep",
+          "file_offset": 0,
+          "chunk_offset": 483993723,
+          "length": 26030856
+        },
+        {
+          "file": "BigFile_PC.idx",
+          "file_offset": 0,
+          "chunk_offset": 510024579,
+          "length": 10465049
+        },
+        {
+          "file": "bink2w64.dll",
+          "file_offset": 0,
+          "chunk_offset": 520489628,
+          "length": 380416
+        },
+        {
+          "file": "breakpad_server.exe",
+          "file_offset": 0,
+          "chunk_offset": 520870044,
+          "length": 60416
+        },
+        {
+          "file": "dbgcore.dll",
+          "file_offset": 0,
+          "chunk_offset": 520930460,
+          "length": 166576
+        },
+        {
+          "file": "dbghelp.dll",
+          "file_offset": 0,
+          "chunk_offset": 521097036,
+          "length": 1938072
+        },
+        {
+          "file": "DetroitBecomeHuman.exe",
+          "file_offset": 0,
+          "chunk_offset": 523035108,
+          "length": 57986560
+        },
+        {
+          "file": "DetroitBecomeHuman.rne",
+          "file_offset": 0,
+          "chunk_offset": 581021668,
+          "length": 57986328
+        },
+        {
+          "file": "DXGI_Helper.dll",
+          "file_offset": 0,
+          "chunk_offset": 639007996,
+          "length": 11264
+        },
+        {
+          "file": "libexpat.dll",
+          "file_offset": 0,
+          "chunk_offset": 639019260,
+          "length": 173568
+        },
+        {
+          "file": "libpad.dll",
+          "file_offset": 0,
+          "chunk_offset": 639192828,
+          "length": 68608
+        },
+        {
+          "file": "libScePad.dll",
+          "file_offset": 0,
+          "chunk_offset": 639261436,
+          "length": 128512
+        },
+        {
+          "file": "mfc140.dll",
+          "file_offset": 0,
+          "chunk_offset": 639389948,
+          "length": 5792816
+        },
+        {
+          "file": "msvcp140.dll",
+          "file_offset": 0,
+          "chunk_offset": 645182764,
+          "length": 627440
+        },
+        {
+          "file": "runtime.ini",
+          "file_offset": 0,
+          "chunk_offset": 645810204,
+          "length": 292
+        },
+        {
+          "file": "ShaderCache/MainPipelineStates.bin",
+          "file_offset": 0,
+          "chunk_offset": 645810496,
+          "length": 2122191
+        },
+        {
+          "file": "ShaderCache/SecondaryPipelineStates.bin",
+          "file_offset": 0,
+          "chunk_offset": 647932687,
+          "length": 2012632
+        },
+        {
+          "file": "ShaderCache/ShaderCode.bin",
+          "file_offset": 0,
+          "chunk_offset": 649945319,
+          "length": 927137445
+        },
+        {
+          "file": "ShaderCache/VkPipelineCache.bin",
+          "file_offset": 0,
+          "chunk_offset": 1577082764,
+          "length": 1668241
+        },
+        {
+          "file": "steam_api64.cdx",
+          "file_offset": 0,
+          "chunk_offset": 1578751005,
+          "length": 289568
+        },
+        {
+          "file": "steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1579040573,
+          "length": 406424
+        },
+        {
+          "file": "steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 1579446997,
+          "length": 1674
+        },
+        {
+          "file": "vcomp120.dll",
+          "file_offset": 0,
+          "chunk_offset": 1579448671,
+          "length": 137376
+        },
+        {
+          "file": "vcruntime140.dll",
+          "file_offset": 0,
+          "chunk_offset": 1579586047,
+          "length": 85232
+        },
+        {
+          "file": "WindowInfo.JSON",
+          "file_offset": 0,
+          "chunk_offset": 1579671279,
+          "length": 227
+        }
+      ],
+      "sha256": "2fae9ff90d8b5781c785421821aabb507360004586aa5f206a1082a52e152292"
+    }
+  ]
+}
