@@ -24,8 +24,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install Agent test dependencies
-        run: python -m pip install -r windows/control-agent/requirements.txt
+      - name: Install test dependencies
+        run: |
+          python -m pip install -r windows/control-agent/requirements.txt
+          python -m pip install -r remote/relay/requirements.txt
 
       - name: Validate Python syntax
         run: |
@@ -33,11 +35,16 @@ jobs:
             windows/control-agent/agent.py \
             windows/control-agent/launcher.py \
             windows/control-agent/download_watcher.py \
-            remote/relay/server.py
+            remote/relay/server.py \
+            remote/relay/test_relay.py
 
       - name: Test download watcher behavior
         working-directory: windows/control-agent
         run: python test_download_watcher.py
+
+      - name: Test Relay routing and authentication
+        working-directory: remote/relay
+        run: python test_relay.py
 
       - uses: actions/setup-java@v5
         with:
