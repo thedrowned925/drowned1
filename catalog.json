@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-27T15:17:44.716526+00:00",
+  "updated_at": "2026-08-28T23:47:25.182620+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2608,6 +2608,41 @@
       },
       "media": {
         "steam_app_id": 383870
+      }
+    },
+    {
+      "id": "disco-elysium-the-final-cut",
+      "title": "Disco Elysium - The Final Cut",
+      "platform": "pc",
+      "description": "Disco Elysium - The Final Cut is a groundbreaking role playing game. You’re a detective with a unique skill system at your disposal and a whole city to carve your path across. Interrogate unforgettable characters, crack murders or take bribes. Become a hero or an absolute disaster of a human being.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/disco-elysium-the-final-cut/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/disco-elysium-the-final-cut/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/disco-elysium-the-final-cut/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/disco-elysium-the-final-cut/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/disco-elysium-the-final-cut/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/disco-elysium-the-final-cut/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/disco-elysium-the-final-cut/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/disco-elysium-the-final-cut/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/disco-elysium-the-final-cut/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/disco-elysium-the-final-cut/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/disco-elysium-the-final-cut/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/disco-elysium-the-final-cut/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-disco-elysium-the-final-cut-v1.0.0-stable",
+          "manifest_path": "manifests/pc/disco-elysium-the-final-cut/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/disco-elysium-the-final-cut/stable/1.0.0.json",
+          "size": 11404187310,
+          "published_at": "2026-08-28T23:47:25.182107+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 632470
       }
     }
   ]
