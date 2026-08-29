@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 79
-- **Toplam aktif sürüm/kanal:** 79
-- **Toplam aktif boyut:** 1881.362 GB · 1.881 TB
-- **Katalog güncelleme zamanı:** 2026-08-28 23:47:25 UTC
+- **Toplam oyun:** 80
+- **Toplam aktif sürüm/kanal:** 80
+- **Toplam aktif boyut:** 1885.044 GB · 1.885 TB
+- **Katalog güncelleme zamanı:** 2026-08-29 00:05:08 UTC
 
 ## PC
 
-**79 oyun · 79 aktif sürüm/kanal · 1881.362 GB · 1.881 TB**
+**80 oyun · 80 aktif sürüm/kanal · 1885.044 GB · 1.885 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -61,6 +61,7 @@
 | Horizon Zero Dawn™ Complete Edition | 1.0.0 | stable | 67.720 | 0.068 | `pc-horizon-zero-dawn-complete-edition-v1.0.0-stable` |
 | Hotline Miami | 1.0.0 | stable | 0.637 | 0.001 | `pc-hotline-miami-v1.0.0-stable` |
 | INSIDE | 1.0.0 | stable | 2.440 | 0.002 | `pc-inside-v1.0.0-stable` |
+| Journey | 1.0.0 | stable | 3.683 | 0.004 | `pc-journey-v1.0.0-stable` |
 | Life is Strange - Episode 1 | 1.0.0 | stable | 15.073 | 0.015 | `pc-life-is-strange-episode-1-v1.0.0-stable` |
 | LIMBO | 1.0.0 | stable | 0.115 | 0.000 | `pc-limbo-v1.0.0-stable` |
 | Mafia | 1.0.0 | stable | 2.914 | 0.003 | `pc-mafia-v1.0.0-stable` |
