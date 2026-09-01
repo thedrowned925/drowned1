@@ -1,0 +1,3495 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "far-cry-4",
+    "title": "Far Cry® 4",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Fight to liberate a war-torn Himalayan region in this open world FPS. Wield a deadly arsenal, dominate land and sky with gyrocopters and war elephants, and take on enemy territory solo or in co-op."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-far-cry-4-v1.0.0-stable"
+  },
+  "chunk_size": 886566618,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 35462664683,
+  "files": [
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "bin/bink2w64.dll",
+      "size": 441560,
+      "sha256": "4e9c5219f079aeba3899512518c8849d5495a42849fbaea0030b43a30808d380"
+    },
+    {
+      "path": "bin/distribution.steam",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "bin/Divelements.SandDock.dll",
+      "size": 421080,
+      "sha256": "06ebf4bfac4ee0ba6a3703aaff94d5c1ef22b2134f479fe7ad4a7909dd0e8eae"
+    },
+    {
+      "path": "bin/Divelements.SandGrid.dll",
+      "size": 345816,
+      "sha256": "c78b1d3709329b0bdbb719c0caad458dd489be4f79f3cf3b677c77fe5fd971d0"
+    },
+    {
+      "path": "bin/doge.dll",
+      "size": 575704,
+      "sha256": "1b6691d5758e6c46b3a14399a3a96db6fa5ad10578a3fbce259093ad3dad5e72"
+    },
+    {
+      "path": "bin/dualcore.dll",
+      "size": 24064,
+      "sha256": "041dafc02eaf822e7f460546c26226707378f06d088b522ab9b8eef2ea543d1e"
+    },
+    {
+      "path": "bin/EasyHook64.dll",
+      "size": 299008,
+      "sha256": "705c22ec66ddd8547fafece61e97d1a28f08a0c7bc4764cd87699a90d1f1c45b"
+    },
+    {
+      "path": "bin/Extreme Injector v3.exe",
+      "size": 1269760,
+      "sha256": "fda70123008180f3dcdfc6ed3c74f5eb1fa2b9e7dc76c4d149ad351b158e4376"
+    },
+    {
+      "path": "bin/FarCry4.exe",
+      "size": 90840,
+      "sha256": "0388d1b6a80b3c54ee1dde84a47d1d459674e93a0686afd853d1744ca6b6e910"
+    },
+    {
+      "path": "bin/farcry4.ico",
+      "size": 477478,
+      "sha256": "b792348d27410405eafdca7a85309a6ad42fb094c0509b2cef5c3a8de56a642e"
+    },
+    {
+      "path": "bin/FC64.dll",
+      "size": 35039960,
+      "sha256": "69d6fe3ce85dd89a1185b5947edce4069627c776ec54d15241fd11d40862001f"
+    },
+    {
+      "path": "bin/GDFWin8.dll",
+      "size": 3374296,
+      "sha256": "ebb093864b8122b81296a02173cb01662d57c31c295059a4f2f1ffe373c373ed"
+    },
+    {
+      "path": "bin/GFSDK_GodraysLib.x64.dll",
+      "size": 233688,
+      "sha256": "0022595d0d892e55d646e3a6d9edd01c5ea49ca26938d2ab26c00661110d17c3"
+    },
+    {
+      "path": "bin/GFSDK_HairWorks.win64.dll",
+      "size": 930008,
+      "sha256": "e2803ff71a94ad0d6a03bc310ffcb4dd57a94cadf180ee88b78812b01afd04d9"
+    },
+    {
+      "path": "bin/GFSDK_HairWorksExt.win64.dll",
+      "size": 8224472,
+      "sha256": "cb951bc377ed3aaa1e6f298f1e896a67c228284e7b7f9413e0aa54f137b58668"
+    },
+    {
+      "path": "bin/GFSDK_ShadowLib.win64.dll",
+      "size": 3515608,
+      "sha256": "7f919091ce3c791129ffc809446ba0d16d3b8f356ca3f5736db1d41e6a7715d7"
+    },
+    {
+      "path": "bin/GFSDK_SSAO.win64.dll",
+      "size": 716504,
+      "sha256": "fadcee9bd13792af45277df4430f81980bdd921543753c0b51d04ed6e3268790"
+    },
+    {
+      "path": "bin/GFSDK_TXAA.win64.dll",
+      "size": 100568,
+      "sha256": "9ed869f70017237c853201ccc48a9b6b4ff1e6ca0db92fda40fd94a41bd1885e"
+    },
+    {
+      "path": "bin/IGE.WPF.Core64.dll",
+      "size": 6354136,
+      "sha256": "7fcfa545f4e7dde65f9d487f5a36006658d08ae40d3e43b2590e05de0e76360f"
+    },
+    {
+      "path": "bin/IGE.WPF.Core_r64.dll",
+      "size": 6109696,
+      "sha256": "5024cd62872df59ce1e323f14d8d69abb233d6147e88e61a4cda155410d1b3bd"
+    },
+    {
+      "path": "bin/IGE_WPF64.exe",
+      "size": 1445592,
+      "sha256": "05d0b9fe7d69710757eae0d2da19f5ef31a25d34b5682f0854c334e28f84bf4c"
+    },
+    {
+      "path": "bin/IGE_WPF64.exe.config",
+      "size": 144,
+      "sha256": "50c9c9f3cc99f39697cf537ff09c98f42f023c474cc12fe1deba11894cf52c07"
+    },
+    {
+      "path": "bin/NvGsa.x64.dll",
+      "size": 65240,
+      "sha256": "8635c0ac0dcf5f6cc783a8baa68127f0e30001730ee8e717ca84a8296b824a7c"
+    },
+    {
+      "path": "bin/orbit_api.ini",
+      "size": 911,
+      "sha256": "d93342769cf857307d5e29e8b743a73a5bb18c3aba80e3af3f5ebae032d884fc"
+    },
+    {
+      "path": "bin/SandBar.dll",
+      "size": 263896,
+      "sha256": "d2b25fe3037bc27636dbb89ee9e13d7c5e48a486b7e2cf38d1d5c8e034cd66e3"
+    },
+    {
+      "path": "bin/SandDock.dll",
+      "size": 362200,
+      "sha256": "59987e4bd5bb96250ced894c93fffce618b551c125de7866b7715b95785e7e27"
+    },
+    {
+      "path": "bin/save3dmgames/saves.ini",
+      "size": 103,
+      "sha256": "44db31fb78d7dd422fbd97598c28e42a9c4444ea48381c987d798b4921e810ac"
+    },
+    {
+      "path": "bin/settings.xml",
+      "size": 2185,
+      "sha256": "b4169b6298591436b121cbedbd8f3391016b8c455d16be3b1b1742462993dfdb"
+    },
+    {
+      "path": "bin/steam_api.dll",
+      "size": 1094148,
+      "sha256": "5b7fea0d99396461eb4198c9c0f30ac75f0870f0c403b3f453b60c73dfc1c89d"
+    },
+    {
+      "path": "bin/steam_api.ini",
+      "size": 2397,
+      "sha256": "e1ff8032ad4397854b8c15589a80b2db79bbeba1d75ef387e65e3c605b554432"
+    },
+    {
+      "path": "bin/steam_api64.dll",
+      "size": 1349636,
+      "sha256": "c38d047622198a4a0ce6d0cba23b34d817efecc21293ccb14e90ff8fd3f98f01"
+    },
+    {
+      "path": "bin/systemdetection64.dll",
+      "size": 484056,
+      "sha256": "4f501641729faf6dbb12f33918b271918fb1817e26795aa846a0dc137d2d96dc"
+    },
+    {
+      "path": "bin/Ubisoft.ApplicationModel.dll",
+      "size": 168664,
+      "sha256": "d70a604f20eed895274aeefa8e01585035c1f53726b01af47004dcfffcaf7176"
+    },
+    {
+      "path": "bin/Ubisoft.Controls.dll",
+      "size": 1172184,
+      "sha256": "efccce626f221eaaba0442a3c2a20abe9fb511a5f22b53a6213fdcb56f9ad2d6"
+    },
+    {
+      "path": "bin/Ubisoft.Core.dll",
+      "size": 1092312,
+      "sha256": "37f738976f9ecc736119470cc0020ee7a80746f1f43af87590dca4308a534f7a"
+    },
+    {
+      "path": "bin/Ubisoft.IconLibrary.dll",
+      "size": 5457624,
+      "sha256": "2938ebfed0adfd091a5b62bb1dc816c664510ac3906a8cfd505a060108778fcc"
+    },
+    {
+      "path": "bin/Ubisoft.SandControls.dll",
+      "size": 189144,
+      "sha256": "1d0509729f7f96c426767cf1e8821e6a06575ec75224d415d4a99ee43afddb49"
+    },
+    {
+      "path": "bin/Ubisoft.Theater.Editors.dll",
+      "size": 457944,
+      "sha256": "21f8d53dc0185b09b4888d41853da23e6224ab3ef18ed916110130dc9d169f9b"
+    },
+    {
+      "path": "bin/Ubisoft.Theater.System.dll",
+      "size": 74968,
+      "sha256": "aaf9c72909503c064429611aed5586165ac73717e06967cbbfe02a31d4ef8a02"
+    },
+    {
+      "path": "bin/uplay_r164.dll",
+      "size": 901124,
+      "sha256": "1a1c5cfc2a24ba5eaa67035d1ca2b5d954597de7dda0154eaef8f66d537672b0"
+    },
+    {
+      "path": "bin/uplay_r1_loader64.3dm",
+      "size": 575192,
+      "sha256": "0e06fee61bc4090c745f9c063993e736cd3de621b1439d5ba5882fd53803291f"
+    },
+    {
+      "path": "bin/uplay_r1_loader64.dll",
+      "size": 88064,
+      "sha256": "00a7d35a9657e3a577c9f3ae77fb3e4fa591b555eb0e0cc93de5100ac090652c"
+    },
+    {
+      "path": "bin/uplay_r1_loader64.ubi",
+      "size": 575192,
+      "sha256": "0e06fee61bc4090c745f9c063993e736cd3de621b1439d5ba5882fd53803291f"
+    },
+    {
+      "path": "bin/version.xml",
+      "size": 587,
+      "sha256": "49caf2a0b620f31116d8f9b10ce74c77ae692852f026c2f0f6122bbc8909c5e2"
+    },
+    {
+      "path": "bin/WPFToolkit.dll",
+      "size": 467160,
+      "sha256": "0e87f40984de1553aede75f40e983e6cf2475782977aeccda18d8b726ee108b4"
+    },
+    {
+      "path": "bin/zlibwapi_x64.dll",
+      "size": 165592,
+      "sha256": "8b2b5911217cc32f76303c7f895c542a6e441ac465f5e690bb2bd11c0c45f2f4"
+    },
+    {
+      "path": "data_win32/common.dat",
+      "size": 128095667,
+      "sha256": "53aac0426c57d3d1887f485b3e8f510753ae8eb536203294f14dbb973f9c944a"
+    },
+    {
+      "path": "data_win32/common.fat",
+      "size": 65652,
+      "sha256": "d735442e3917dc81238bc5b697510c3001e787ff18d1918c2004fef0c04cbe8a"
+    },
+    {
+      "path": "data_win32/ige.dat",
+      "size": 271925671,
+      "sha256": "33a36e42a655cca63d0313754602d5c23e7a13749553dfb8f5f5d1e8285d9e04"
+    },
+    {
+      "path": "data_win32/ige.fat",
+      "size": 276092,
+      "sha256": "5921b8190f6f5b2081f9234d3d15683cfd3cf58cda2f677bafdf6c0d9cd43af4"
+    },
+    {
+      "path": "data_win32/patch.dat",
+      "size": 1914532690,
+      "sha256": "26bf2fa473d5104cddc3789e496ac38dc27b253657e41d27fdc89901dda732c0"
+    },
+    {
+      "path": "data_win32/patch.fat",
+      "size": 1461072,
+      "sha256": "64f00103c2c0f449c695f9201ab43788bffcd01b47b95ac15be2d97092599cc1"
+    },
+    {
+      "path": "data_win32/patch_hd.dat",
+      "size": 68835563,
+      "sha256": "82ad7b4befae8bebb6a340d089e13bfbfc9abff070b9985aed7ecdfbe5d6800d"
+    },
+    {
+      "path": "data_win32/patch_hd.fat",
+      "size": 3352,
+      "sha256": "b8ac46fa7c96683475a5ec44505b2a4e99ead113dc1db2a892d0994fe657ec25"
+    },
+    {
+      "path": "data_win32/shadersobj.dat",
+      "size": 102614758,
+      "sha256": "44fa91c6397e9ab5797613b3c0e929f79cf59736ce621bbf5319a8b62d56da55"
+    },
+    {
+      "path": "data_win32/shadersobj.fat",
+      "size": 698532,
+      "sha256": "e2d332b89b0991b1ae0ff10c8f1f1ef21ac18e2b51e207d44dfc58e810198800"
+    },
+    {
+      "path": "data_win32/sound.dat",
+      "size": 2619961111,
+      "sha256": "b6af81951f54b6e1babe7f2e94521ff6d7d9be732c6ef48eade705a2adb72653"
+    },
+    {
+      "path": "data_win32/sound.fat",
+      "size": 74332,
+      "sha256": "a843267bf2ef55061137ab27c66508275423784aaaa753f9da869e1eda0c3246"
+    },
+    {
+      "path": "data_win32/sound_english.dat",
+      "size": 41716128,
+      "sha256": "a075e8826e77e2b247ce22542ca1c89433dcbd8575d169b20d5e6e59b3dfac4b"
+    },
+    {
+      "path": "data_win32/sound_english.fat",
+      "size": 59512,
+      "sha256": "d9310cb98aefa21b2ae629cfba1a8b96dbf19029a8b18ff222aefc9c541fa217"
+    },
+    {
+      "path": "data_win32/sound_french.dat",
+      "size": 39804719,
+      "sha256": "6e2cdac9a5657851a7dbfc4f5467601d7af01b9bf5a1a454dcaf84b3c1eb895b"
+    },
+    {
+      "path": "data_win32/sound_french.fat",
+      "size": 59512,
+      "sha256": "823963c08007b3b336cdfa77dcbe0f91e35650dc09a9c5c31bb6c8b4fb79fc64"
+    },
+    {
+      "path": "data_win32/sound_german.dat",
+      "size": 40673424,
+      "sha256": "4936b1c1d6441e4e8a2832559c0a311e696ca6d6b238315cefc8d141cd9e700c"
+    },
+    {
+      "path": "data_win32/sound_german.fat",
+      "size": 59512,
+      "sha256": "563e94319eb9c292523bce4c8f67eb616380b1745844052940bc308abb7b6f14"
+    },
+    {
+      "path": "data_win32/sound_italian.dat",
+      "size": 41834589,
+      "sha256": "7bfe4380f815b60f225cbfaadd882bfd7e1cdb70ffde2048df2c00f5b05342ec"
+    },
+    {
+      "path": "data_win32/sound_italian.fat",
+      "size": 59512,
+      "sha256": "4eb2d3718d0a20300727b091e0173b21f126c3a93213b737c270d84af7d11045"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc.dat",
+      "size": 1081485120,
+      "sha256": "5f3151671e7162fdb5b01192230a3bd73e4d358637cbcc403e8e780f143abdc3"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc.fat",
+      "size": 907272,
+      "sha256": "45ae3ae73c51cff34395d6acbeb6b47f045afe88ea53a3697e91ef908f9253c3"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_english.dat",
+      "size": 63991152,
+      "sha256": "7f84613408841bbc3992aebf95a03df51b09bb596b615dc0b2294ebf2b704cec"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_english.fat",
+      "size": 51312,
+      "sha256": "b1e945428bcc31d93ffd2f0843e2063f867de7819b8100c5782e88563229aeb9"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_french.dat",
+      "size": 62052674,
+      "sha256": "ff96685088979d2aa3c72db1763659eb7d35bc9ba050962ea655b9c6921c0c2a"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_french.fat",
+      "size": 51312,
+      "sha256": "4cca8d970f63dc6ca0b950625d23bf8436a6d22f5b07ad8ecbebe1a0b68139b7"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_german.dat",
+      "size": 61325628,
+      "sha256": "ece505a3ca7405c9ab0e135591ff2946df2957ce322ec8aab28977a1728ff4a3"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_german.fat",
+      "size": 51312,
+      "sha256": "f04ec187c7cc7383a6938b05be0e6513d8cfcf868d2877e3d14f6f1f69a558f5"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_hd.dat",
+      "size": 251459405,
+      "sha256": "97aadd30f05a6ac5843c60198af29951fe2894cbf54699f0e34801fe02700f7f"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_hd.fat",
+      "size": 7052,
+      "sha256": "bff3d6aa8680b5b96df5eb6e6c4b8b78f78e66039e88c4e7a5bbdc010789e135"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_italian.dat",
+      "size": 62854171,
+      "sha256": "614afd7146661fea31466eb56d92e308d69474e3a1e582c3b847d4afb90b02ae"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_italian.fat",
+      "size": 51332,
+      "sha256": "a17c454412c54b39b061dc77228e7bc1b5b08e7f629a0722625d95e492d39888"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound.dat",
+      "size": 63929989,
+      "sha256": "532d4d721905a2534c416e7df18091ae82bafc567bfb3d73fc7160441156c6ac"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound.fat",
+      "size": 652,
+      "sha256": "0a8c930134f449754e43a9dc046f3658d17e73eca72031ed6194f23ccedc63e4"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound_english.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound_english.fat",
+      "size": 32,
+      "sha256": "4b9fcbec7382092b994410508c78a98f295f350a4cc8412a74e561902571bcd8"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound_french.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound_french.fat",
+      "size": 32,
+      "sha256": "4b9fcbec7382092b994410508c78a98f295f350a4cc8412a74e561902571bcd8"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound_german.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound_german.fat",
+      "size": 32,
+      "sha256": "4b9fcbec7382092b994410508c78a98f295f350a4cc8412a74e561902571bcd8"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound_italian.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound_italian.fat",
+      "size": 32,
+      "sha256": "4b9fcbec7382092b994410508c78a98f295f350a4cc8412a74e561902571bcd8"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_vistas.dat",
+      "size": 180125714,
+      "sha256": "971e86dc93988b23efceb36c3572c7ab6d1ba56e77e5f4a27ad3b5ac41b486aa"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_vistas.fat",
+      "size": 123192,
+      "sha256": "16f243834ac5100eea2372096bf615ff010c1e05684416325645cb4802c1fc4a"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_d90_dlc/toc.rml",
+      "size": 319,
+      "sha256": "3d9985cf8b261eed995a7b3da9aee2e28b5c9da36af275c02f005b39fc8c64b9"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30.dat",
+      "size": 1003489012,
+      "sha256": "2abc05fc1dfe70d72d877c3843fc9fac6792dcf7f8feba7b2f906eba019f81a3"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30.fat",
+      "size": 1586472,
+      "sha256": "ee3345a2315f703aac9a255ec91a5f1a0a7593ce4df1c141118fad52651fef74"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30.nfo.dep",
+      "size": 42841965,
+      "sha256": "b1a67d1a1e41d646f587519c56f2a3aec345db3b163351df1a01c403321dcd57"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_english.dat",
+      "size": 54151269,
+      "sha256": "48882ba357c2e802039be3c57a9e47b28d033656f68a8f1d95fcffe34faa6db9"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_english.fat",
+      "size": 40652,
+      "sha256": "d0af9777df5297baee738853686e8bfd7f8ea07494c7abfede3270ab6f303e77"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_english.nfo.dep",
+      "size": 13,
+      "sha256": "2e0bf1f2351ca833ef8e44c44e50c5d215bf0e309216f516bdca0e7c75e9fe38"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_french.dat",
+      "size": 53539145,
+      "sha256": "17b91b3bd46b834549a177202761492a25034877da8a90ec9b7f6742aeecfe21"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_french.fat",
+      "size": 41252,
+      "sha256": "b8982f95b482fc5298b908cb11b4d55cc808fdcf04d6c6d23486329674f39f9f"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_french.nfo.dep",
+      "size": 13,
+      "sha256": "2e0bf1f2351ca833ef8e44c44e50c5d215bf0e309216f516bdca0e7c75e9fe38"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_german.dat",
+      "size": 52114411,
+      "sha256": "eeb2b3bc7c72ba8df17c8dc3c5557d31fa55cdf3627b2d324a2977642b0cf8d3"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_german.fat",
+      "size": 40932,
+      "sha256": "30ccf05203568d23acc151ab10a2910e8071bea3bb7b86db672fbe4fae987156"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_german.nfo.dep",
+      "size": 13,
+      "sha256": "2e0bf1f2351ca833ef8e44c44e50c5d215bf0e309216f516bdca0e7c75e9fe38"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_hd.dat",
+      "size": 46039261,
+      "sha256": "acb278fa1a6f2f80ac980fb16eba4158642c60d1cf0930ea3f9ad423cf085f11"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_hd.fat",
+      "size": 2052,
+      "sha256": "3f137a3ca8b77b3ea6e3938766b6aaf191075d7db91036361fdf71a1846b87ae"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_hd.nfo.dep",
+      "size": 119152,
+      "sha256": "03b4c4ecaecadbbc7d918a1b9f2cf690b6201d7669465824c10ec88fabb7993e"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_italian.dat",
+      "size": 53660086,
+      "sha256": "e4f4cb0435b34b26605352f937df81e62cd340a79afd9bf63421db00a75c671a"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_italian.fat",
+      "size": 41072,
+      "sha256": "efb917f3b3aa499027fec80437e1df71a1b96292bb779167d27220b33fddd547"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_italian.nfo.dep",
+      "size": 13,
+      "sha256": "2e0bf1f2351ca833ef8e44c44e50c5d215bf0e309216f516bdca0e7c75e9fe38"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound.fat",
+      "size": 32,
+      "sha256": "4b9fcbec7382092b994410508c78a98f295f350a4cc8412a74e561902571bcd8"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound.nfo.dep",
+      "size": 13,
+      "sha256": "2e0bf1f2351ca833ef8e44c44e50c5d215bf0e309216f516bdca0e7c75e9fe38"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_english.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_english.fat",
+      "size": 32,
+      "sha256": "4b9fcbec7382092b994410508c78a98f295f350a4cc8412a74e561902571bcd8"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_english.nfo.dep",
+      "size": 13,
+      "sha256": "2e0bf1f2351ca833ef8e44c44e50c5d215bf0e309216f516bdca0e7c75e9fe38"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_french.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_french.fat",
+      "size": 32,
+      "sha256": "4b9fcbec7382092b994410508c78a98f295f350a4cc8412a74e561902571bcd8"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_french.nfo.dep",
+      "size": 13,
+      "sha256": "2e0bf1f2351ca833ef8e44c44e50c5d215bf0e309216f516bdca0e7c75e9fe38"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_german.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_german.fat",
+      "size": 32,
+      "sha256": "4b9fcbec7382092b994410508c78a98f295f350a4cc8412a74e561902571bcd8"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_german.nfo.dep",
+      "size": 13,
+      "sha256": "2e0bf1f2351ca833ef8e44c44e50c5d215bf0e309216f516bdca0e7c75e9fe38"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_italian.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_italian.fat",
+      "size": 32,
+      "sha256": "4b9fcbec7382092b994410508c78a98f295f350a4cc8412a74e561902571bcd8"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_italian.nfo.dep",
+      "size": 13,
+      "sha256": "2e0bf1f2351ca833ef8e44c44e50c5d215bf0e309216f516bdca0e7c75e9fe38"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_vistas.dat",
+      "size": 365283465,
+      "sha256": "5037bf9616af708140b1f7c39ba9515de2b831afa0a83624b8188c36c46d3af3"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_vistas.fat",
+      "size": 236052,
+      "sha256": "810601518a6c8763293abb2124e4e8dd1b26042906a87dce0a6adc8b477a2417"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_vistas.nfo.dep",
+      "size": 8098885,
+      "sha256": "d6f579d07559e5e08b393ead8bab983bdd0ad1d8e2fde31011197610eaf98042"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc30/toc.rml",
+      "size": 315,
+      "sha256": "04a3fb67c12506b510d183e95d1805b583d88e6762023a41ce1a9f24efce6062"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60.dat",
+      "size": 483315033,
+      "sha256": "547323ed743bda135d94461bad9f5953cfdbd4445c82c590d7ae5f6bf8e1ae69"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60.fat",
+      "size": 808932,
+      "sha256": "30b4631bdcc54faec449fd7005384400c23c8182bb047f0f61997d12a077fee4"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60.nfo.dep",
+      "size": 27567760,
+      "sha256": "f87ac2e8c170c493d8ac5d07f4e42df85281cd18ffa3dd10d278f3c1fb2b5fa7"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_english.dat",
+      "size": 15586078,
+      "sha256": "825fe5e7d14291448b15aef1e929cc45500812b0e9cd206b437173fa1dc3eb06"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_english.fat",
+      "size": 7172,
+      "sha256": "c6c44ed205d65c9f12badee7c28a69d040311fda22bbb36d12416e53c0f2a5eb"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_french.dat",
+      "size": 16447632,
+      "sha256": "23e592b91a693bb78adf75c8fbc18c77a669b94f17fc76e31cb3e71a7c3f51d3"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_french.fat",
+      "size": 7172,
+      "sha256": "9ea93499d8893032ae6ed9ff2652d70d5d04e82930549f7e4f048274acd1aa85"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_german.dat",
+      "size": 16017920,
+      "sha256": "9c04535291a416db0c2f3467d0c92c0d5e9c3877bd55882d9d90c55fe8608f79"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_german.fat",
+      "size": 7172,
+      "sha256": "6211875f322a332c782c12979d79012c481e2e795d6516ef77d62849c17891a4"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_hd.dat",
+      "size": 25012989,
+      "sha256": "84172d0f12bd97d4cb6559673e7cba07ab94505a9d1bc2e938e61d74974c664d"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_hd.fat",
+      "size": 1792,
+      "sha256": "2f3f8dd4fc98cbc6f1eae646b203accda42f2e7a0fabe0d6f118dd19ca1a09ff"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_italian.dat",
+      "size": 17127440,
+      "sha256": "bcccd7bef675772f14a8add3790689e5afd4f3ff36d8dc9ab361d787f9d30df3"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_italian.fat",
+      "size": 7192,
+      "sha256": "b8e8c5cce0676bed5f6c099e439477f375d2b6c0bca0cb8bc24384a99b834e2a"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound.fat",
+      "size": 32,
+      "sha256": "4b9fcbec7382092b994410508c78a98f295f350a4cc8412a74e561902571bcd8"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound_english.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound_english.fat",
+      "size": 32,
+      "sha256": "4b9fcbec7382092b994410508c78a98f295f350a4cc8412a74e561902571bcd8"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound_french.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound_french.fat",
+      "size": 32,
+      "sha256": "4b9fcbec7382092b994410508c78a98f295f350a4cc8412a74e561902571bcd8"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound_german.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound_german.fat",
+      "size": 32,
+      "sha256": "4b9fcbec7382092b994410508c78a98f295f350a4cc8412a74e561902571bcd8"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound_italian.dat",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound_italian.fat",
+      "size": 32,
+      "sha256": "4b9fcbec7382092b994410508c78a98f295f350a4cc8412a74e561902571bcd8"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_vistas.dat",
+      "size": 189649594,
+      "sha256": "d3aee28848c9201ad0715067ab7d0de9b66a6a86232f6ec559cdf7c5fb956225"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_vistas.fat",
+      "size": 123252,
+      "sha256": "88beb0d614c31dc29d3b709002ff2b88cf46f3b1a7a72668baaf05af0a6a9be7"
+    },
+    {
+      "path": "data_win32/worlds/downloadcontent/fcc_dlc60/toc.rml",
+      "size": 680,
+      "sha256": "ee78a4e44237a0ce6aeef5849987806a3c928cecb088ce4a7c65fe7dfb86daf7"
+    },
+    {
+      "path": "data_win32/worlds/fcc_main/fcc_main.dat",
+      "size": 9875839728,
+      "sha256": "ef0d1ad9cfe08188374c870adbbe770e86970040415edc948a3a5e0a836d692f"
+    },
+    {
+      "path": "data_win32/worlds/fcc_main/fcc_main.fat",
+      "size": 4941672,
+      "sha256": "0a43bb8373829f9fc5d3d7577405851028aab089783b09546e7959c8e2a4640a"
+    },
+    {
+      "path": "data_win32/worlds/fcc_main/fcc_main_english.dat",
+      "size": 481110568,
+      "sha256": "0c58b7b173aef5fd5e84558636cbb2736ace4703274f2befdc7ea5ac76ee2016"
+    },
+    {
+      "path": "data_win32/worlds/fcc_main/fcc_main_english.fat",
+      "size": 383972,
+      "sha256": "1f4abb89002fb8e693be0462b00517ba246a1cbebf11b9369a4c57164c90bf90"
+    },
+    {
+      "path": "data_win32/worlds/fcc_main/fcc_main_french.dat",
+      "size": 460694013,
+      "sha256": "20f3537fca672bd17ab995b44db0f73b9858c1abe363e48d3733ea9caa3c4d81"
+    },
+    {
+      "path": "data_win32/worlds/fcc_main/fcc_main_french.fat",
+      "size": 383972,
+      "sha256": "4e34aba87b8a42e0805f7701e95d45420fdd493a88c1e467610d70159d920631"
+    },
+    {
+      "path": "data_win32/worlds/fcc_main/fcc_main_german.dat",
+      "size": 471924770,
+      "sha256": "d12a58a11f14c6057bda92895f925e89be8ded91913b53ffd30d363b28bacaac"
+    },
+    {
+      "path": "data_win32/worlds/fcc_main/fcc_main_german.fat",
+      "size": 383972,
+      "sha256": "e5a3b189b5f77057a54a37d4707d6863fdbfef2b72f98fd524904adaab51c45f"
+    },
+    {
+      "path": "data_win32/worlds/fcc_main/fcc_main_hd.dat",
+      "size": 2765353427,
+      "sha256": "f4a40ccccf20ab85a930d445948ffef91ecd15aff2bfab2446a6525f053e2a55"
+    },
+    {
+      "path": "data_win32/worlds/fcc_main/fcc_main_hd.fat",
+      "size": 90032,
+      "sha256": "bdcb3e11d4c02e12dba22099bfb41e35bde56974f855be523abaca6dc222b56c"
+    },
+    {
+      "path": "data_win32/worlds/fcc_main/fcc_main_italian.dat",
+      "size": 481037798,
+      "sha256": "e2d0c09425f1e3dce84265d394fdf5fd1ea9fb0d969aac30bb1e292846efa869"
+    },
+    {
+      "path": "data_win32/worlds/fcc_main/fcc_main_italian.fat",
+      "size": 383972,
+      "sha256": "ede6038142bb8965e3726e28f2ec0e6f2b778d7fe0e1f85232592ef3b5fc1e1e"
+    },
+    {
+      "path": "data_win32/worlds/fcc_main/fcc_main_vistas.dat",
+      "size": 752086583,
+      "sha256": "b6ba2c75774cd15db8a648d0de27d780cd98e5d8b4594e37476f9b68e7ed1f83"
+    },
+    {
+      "path": "data_win32/worlds/fcc_main/fcc_main_vistas.fat",
+      "size": 502812,
+      "sha256": "822166cad387383f17e3f30fedc23955e9e8b2dad27b1645c368e154cfa41fa5"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon.dat",
+      "size": 6740406774,
+      "sha256": "11e93056e8ec7739e5a84e08b040357ec94c862f47944cae3815c194f5d76daa"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon.fat",
+      "size": 2980032,
+      "sha256": "edeff50838ceca055880d62b85b0be8b3e77e646b1f575fbf5291cc0863fda99"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_english.dat",
+      "size": 320037425,
+      "sha256": "61f8611ec3a26b316fde4d74890fb6a85bd30c2fdbfc4fb6eeb45c84f0ed82f7"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_english.fat",
+      "size": 302952,
+      "sha256": "b423229da66b8fe8634bda1fd4a1afd5ca3f3538ebddce02f8b3f019fd4fb602"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_french.dat",
+      "size": 305760512,
+      "sha256": "f1255794db8223a7ffa2109f346bc8e5c585cd5f25a1bf30032470e27d24fe8a"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_french.fat",
+      "size": 302952,
+      "sha256": "975bb2bfa18ac4bf77c60cbe56425e2c6fb8eb42320b7da873a3e680d485756d"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_german.dat",
+      "size": 314549001,
+      "sha256": "27632727f8a98b7b7bbeb3494237bcd0b9f39fe2b8e999d9f692eada33568ce7"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_german.fat",
+      "size": 302952,
+      "sha256": "4d636257a89be7891dd736606c68273e2cccd2df3a11d8e631078c6672f1e264"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_hd.dat",
+      "size": 1988199275,
+      "sha256": "71afe852213934e4ffd5aa49375a07642e4baa5cf396c3faec11558f04e3fdd0"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_hd.fat",
+      "size": 64992,
+      "sha256": "48b481a56e95718baf464e9632e6b6264f10340bfa8b73277372514fa2eb493f"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_italian.dat",
+      "size": 320368777,
+      "sha256": "99a23fb57e85810e75b7e1fd1905c98d2534d939c532c277686bb28d7c01f30d"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_italian.fat",
+      "size": 302952,
+      "sha256": "656901e1e973f57996d55637d54eb53635fcb271a179d5a36cf55412fdd48a1f"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_vistas.dat",
+      "size": 423479185,
+      "sha256": "2195541ba14cc91921171eaa6b9ef26eeea187b056ff3ca7d763666229f75ec7"
+    },
+    {
+      "path": "data_win32/worlds/multicommon/multicommon_vistas.fat",
+      "size": 297792,
+      "sha256": "ddedf94e18f9c3ddf688861b1e67ccab2549a64737fdcbdeb423bc1285e2d8b0"
+    },
+    {
+      "path": "FarCry4.dll",
+      "size": 5156568,
+      "sha256": "c2f00a65d1dbd13d317a9c45ad57d0082a2352cc197e08912de131a64dd1bbf8"
+    },
+    {
+      "path": "GameuxInstallHelper.dll",
+      "size": 92176,
+      "sha256": "ce44623640d159a7b60a608b90f1c019aec2278beb79924149519f70d1cf4000"
+    },
+    {
+      "path": "GDFInstall.exe",
+      "size": 94112,
+      "sha256": "42aeec8866d121f609a209736037f369c9ccb6510db609a86cef3bf9739427a9"
+    },
+    {
+      "path": "Support/License/Brazilian/lic.rtf",
+      "size": 157023,
+      "sha256": "ba2ce27f4e20df43cd8391b5e24c7c621af5fb2a9707003249aebd230d5decd6"
+    },
+    {
+      "path": "Support/License/Czech/lic.rtf",
+      "size": 216893,
+      "sha256": "f4b19d7ca62ba66ee9a514bc9e104e961d81cd5a670ba4f3c014bdbcb860ddaa"
+    },
+    {
+      "path": "Support/License/Danish/lic.rtf",
+      "size": 220822,
+      "sha256": "c4140728a19f4fcd98ba88134528ecbbe09801892309d10a72d80b0a9605bf4c"
+    },
+    {
+      "path": "Support/License/Dutch/lic.rtf",
+      "size": 221133,
+      "sha256": "565de2db266e31c250e1d7e39ff9610ea49cacd41de4267ee1ce06a75b2d2d4f"
+    },
+    {
+      "path": "Support/License/English(Canada)/lic.rtf",
+      "size": 305973,
+      "sha256": "2585c79c05dfb3186f8f9f4752a04f6bd71ffdbfd25dee0b02b69488fbd2e6da"
+    },
+    {
+      "path": "Support/License/English(US)/lic.rtf",
+      "size": 136078,
+      "sha256": "13f5c8b088fd0929a56d8479df527192dc625917122c9a91774a5f64c2dad3ba"
+    },
+    {
+      "path": "Support/License/English/lic.rtf",
+      "size": 401740,
+      "sha256": "6ff3d7e9de0502d23d0e61850cb18084cc655c29c606333a464dc9c7d2954c5c"
+    },
+    {
+      "path": "Support/License/Finnish/lic.rtf",
+      "size": 238574,
+      "sha256": "60ca229f844c6da1dafda04c451962404834c4831f0f5fc4d383e179b4ac7ebe"
+    },
+    {
+      "path": "Support/License/French(Canada)/lic.rtf",
+      "size": 389232,
+      "sha256": "910fe2f65d1fd333eb02ce8140425df500a794ebbd9ebd388b2bc84794f6bed5"
+    },
+    {
+      "path": "Support/License/French/lic.rtf",
+      "size": 619210,
+      "sha256": "419dc2701cab196d6def4267200ac53c3f59fcf28bd3fd912f8fe966a08483d9"
+    },
+    {
+      "path": "Support/License/German/lic.rtf",
+      "size": 242246,
+      "sha256": "5ac4c046326207c7cf30fae2ec4074e3c1959ab98f9edf6007adb44e32ffbede"
+    },
+    {
+      "path": "Support/License/Hungarian/lic.rtf",
+      "size": 224730,
+      "sha256": "02628dedb99806948de88e6afd4f39e395629a0dde181af945a261981d596756"
+    },
+    {
+      "path": "Support/License/Italian/lic.rtf",
+      "size": 238178,
+      "sha256": "70f59822a96807814c2f75caa1e215a5ad89ffa37ec9b066aecb4cfadb1da14d"
+    },
+    {
+      "path": "Support/License/Korean/lic.rtf",
+      "size": 271017,
+      "sha256": "29a17156bc1cec2ecfc624090b96effb3db93b2b9ee02e06ed06a5e4a2fb2c48"
+    },
+    {
+      "path": "Support/License/lic_cs-CZ.html",
+      "size": 36457,
+      "sha256": "f8ef98bc3444d29d5cbac1c0fe24a62318fda1bb9a2b8900455ddf019a009781"
+    },
+    {
+      "path": "Support/License/lic_da-DK.html",
+      "size": 34466,
+      "sha256": "4505c07b789ccc10a489b9462b80ed3da799e908d26db5c7272fd5095aa44364"
+    },
+    {
+      "path": "Support/License/lic_de-DE.html",
+      "size": 39798,
+      "sha256": "a7483f761d1a8557ec7bb6cc141eab4ccb0cc9becad3faaf79659432e7bdc19b"
+    },
+    {
+      "path": "Support/License/lic_en-US.html",
+      "size": 112285,
+      "sha256": "6ee409ddd9c3cc0dd91e6c3873b0beada6951a0dda6a1af5470fbaa29f48cc3c"
+    },
+    {
+      "path": "Support/License/lic_es-ES.html",
+      "size": 38300,
+      "sha256": "776aae5539deef690539306e6293adeb96de748d014fde725d68c89b2adc2df7"
+    },
+    {
+      "path": "Support/License/lic_es-MX.html",
+      "size": 38393,
+      "sha256": "7c1ef888f365bfcdb624b3131372aa456fcaff5d57d4a76c240bae74c9d5716a"
+    },
+    {
+      "path": "Support/License/lic_fi-FI.html",
+      "size": 35404,
+      "sha256": "6740470133476e236c50b7d98062c394a1c1f6ca5224477fbee84aeb8f045216"
+    },
+    {
+      "path": "Support/License/lic_fr-FR.html",
+      "size": 70099,
+      "sha256": "7cc981d879bd1122c34c1b003b710b288c3516432091118f9d9930f172b476a2"
+    },
+    {
+      "path": "Support/License/lic_hu-HU.html",
+      "size": 27795,
+      "sha256": "d7a8a69516dee372368f5061062f6d88887364fb74c23a3923e1257f6bf8463b"
+    },
+    {
+      "path": "Support/License/lic_it-IT.html",
+      "size": 38566,
+      "sha256": "c6e799e24777b1d1efc08ea0bbcf1d3ad5e3bef5638a1188af25b163b7ffd5df"
+    },
+    {
+      "path": "Support/License/lic_ko-KO.html",
+      "size": 32566,
+      "sha256": "a870d2e5eaa28789f34d3b243347390280db331127f08bde59a9b6d9abf9f602"
+    },
+    {
+      "path": "Support/License/lic_nb-NO.html",
+      "size": 35432,
+      "sha256": "852675f228f7b36ebee165b805b8cf7d310ba7bcd75021ce5bd8437eb4668d43"
+    },
+    {
+      "path": "Support/License/lic_nl-NL.html",
+      "size": 38817,
+      "sha256": "13770bf1356442384215a71c2a51a6f30fdecce9fb66b887bba0a34f5198b87d"
+    },
+    {
+      "path": "Support/License/lic_pl-PL.html",
+      "size": 40403,
+      "sha256": "ab18afd76645f371fae601615299604f90eea5051dcda622c8edce5859c6b98c"
+    },
+    {
+      "path": "Support/License/lic_pt-BR.html",
+      "size": 36084,
+      "sha256": "4207acd607a2fc628cd4c343809b9d10cf04a8b1a3b48675972408eb53bba510"
+    },
+    {
+      "path": "Support/License/lic_pt-PT.html",
+      "size": 26377,
+      "sha256": "9ec21b0434776c7860a0f5dfc0f67389a5d9f205efdb27225a4d79494e373d6e"
+    },
+    {
+      "path": "Support/License/lic_ru-RU.html",
+      "size": 64846,
+      "sha256": "5464c5d996ad5cc257fcc7cb236a1235bcb1a1ff954da03fb2e094dbe1205548"
+    },
+    {
+      "path": "Support/License/lic_sv-SE.html",
+      "size": 35230,
+      "sha256": "7c891c496fefc8c8ad4d4dfa8b7eb52eb29c0ca527f20474f12e003901c44bae"
+    },
+    {
+      "path": "Support/License/lic_zh-TW.html",
+      "size": 30502,
+      "sha256": "60c46dc8d4c3992619b3e622d81c4f8f620391372b7c1c097e753589ec355c79"
+    },
+    {
+      "path": "Support/License/Mexican/lic.rtf",
+      "size": 178876,
+      "sha256": "80e47143c683bc1a92fa0791f87802c388831455af727f8261d1760971369eaa"
+    },
+    {
+      "path": "Support/License/Norwegian/lic.rtf",
+      "size": 221072,
+      "sha256": "e40c7f8fc3064f7d6f5ee8a765e55837c2c4bfece5df5c4e72db136f1a0c3c66"
+    },
+    {
+      "path": "Support/License/Polish/lic.rtf",
+      "size": 264443,
+      "sha256": "e9d2174eb0bd0e2277d0d8c0ef49726be081c9846ce0e2235d38deb466e0b767"
+    },
+    {
+      "path": "Support/License/Portuguese(Brazil)/lic.rtf",
+      "size": 38656,
+      "sha256": "6256afc144780928a5bd7b06e7c61116153093f98a278e89d7c2dd4f52ff0367"
+    },
+    {
+      "path": "Support/License/Portuguese/lic.rtf",
+      "size": 38656,
+      "sha256": "6256afc144780928a5bd7b06e7c61116153093f98a278e89d7c2dd4f52ff0367"
+    },
+    {
+      "path": "Support/License/Russian/lic.rtf",
+      "size": 136136,
+      "sha256": "86a2a599cf3931e59e36b9c4043728abd3880a3ceefa647e088559dec1fb6e3e"
+    },
+    {
+      "path": "Support/License/Spanish(Mexican)/lic.rtf",
+      "size": 178876,
+      "sha256": "80e47143c683bc1a92fa0791f87802c388831455af727f8261d1760971369eaa"
+    },
+    {
+      "path": "Support/License/Spanish/lic.rtf",
+      "size": 246589,
+      "sha256": "c33b4bb9986850a0326a77ddb9ce917f7a3b8339603dbe44bdaba51fa35272be"
+    },
+    {
+      "path": "Support/License/Swedish/lic.rtf",
+      "size": 215439,
+      "sha256": "a3a3e97c1d194979cb375360288a97abbe7f10484c89d48b1af95f4f7edebda5"
+    },
+    {
+      "path": "Support/Manual/Brazilian/FarCry4.pdf",
+      "size": 1741824,
+      "sha256": "5cff8fa867c7c42673d80bf3ec76692fb8d25617a1e104b08a6e8382399f4bd6"
+    },
+    {
+      "path": "Support/Manual/Czech/FarCry4.pdf",
+      "size": 1842449,
+      "sha256": "7ad2cfb925e0e4be55682bc8db85633f544760e5e10a0ca57ac13f5e3406c30e"
+    },
+    {
+      "path": "Support/Manual/Danish/FarCry4.pdf",
+      "size": 1741824,
+      "sha256": "5cff8fa867c7c42673d80bf3ec76692fb8d25617a1e104b08a6e8382399f4bd6"
+    },
+    {
+      "path": "Support/Manual/Dutch/FarCry4.pdf",
+      "size": 1840041,
+      "sha256": "f57124d553ce510b5c0ec86f327a8895a98305e4cc8bb3f8061c272b0a6c39ee"
+    },
+    {
+      "path": "Support/Manual/English/FarCry4.pdf",
+      "size": 1741824,
+      "sha256": "5cff8fa867c7c42673d80bf3ec76692fb8d25617a1e104b08a6e8382399f4bd6"
+    },
+    {
+      "path": "Support/Manual/Finnish/FarCry4.pdf",
+      "size": 1741824,
+      "sha256": "5cff8fa867c7c42673d80bf3ec76692fb8d25617a1e104b08a6e8382399f4bd6"
+    },
+    {
+      "path": "Support/Manual/French/FarCry4.pdf",
+      "size": 1748993,
+      "sha256": "f3e74fd6805b2552225cb1cc976e372042d055d0b79307d050d606c4dffc9378"
+    },
+    {
+      "path": "Support/Manual/German/FarCry4.pdf",
+      "size": 1741824,
+      "sha256": "5cff8fa867c7c42673d80bf3ec76692fb8d25617a1e104b08a6e8382399f4bd6"
+    },
+    {
+      "path": "Support/Manual/Italian/FarCry4.pdf",
+      "size": 1737035,
+      "sha256": "424c7cc6e22ce26746ba3a3971b421350937b32c438651167e060ac051bff7ac"
+    },
+    {
+      "path": "Support/Manual/Korean/FarCry4.pdf",
+      "size": 1741824,
+      "sha256": "5cff8fa867c7c42673d80bf3ec76692fb8d25617a1e104b08a6e8382399f4bd6"
+    },
+    {
+      "path": "Support/Manual/Mexican/FarCry4.pdf",
+      "size": 1741824,
+      "sha256": "5cff8fa867c7c42673d80bf3ec76692fb8d25617a1e104b08a6e8382399f4bd6"
+    },
+    {
+      "path": "Support/Manual/Norwegian/FarCry4.pdf",
+      "size": 1741824,
+      "sha256": "5cff8fa867c7c42673d80bf3ec76692fb8d25617a1e104b08a6e8382399f4bd6"
+    },
+    {
+      "path": "Support/Manual/Polish/FarCry4.pdf",
+      "size": 1842449,
+      "sha256": "7ad2cfb925e0e4be55682bc8db85633f544760e5e10a0ca57ac13f5e3406c30e"
+    },
+    {
+      "path": "Support/Manual/Portuguese/FarCry4.pdf",
+      "size": 1741824,
+      "sha256": "5cff8fa867c7c42673d80bf3ec76692fb8d25617a1e104b08a6e8382399f4bd6"
+    },
+    {
+      "path": "Support/Manual/Spanish/FarCry4.pdf",
+      "size": 1741824,
+      "sha256": "5cff8fa867c7c42673d80bf3ec76692fb8d25617a1e104b08a6e8382399f4bd6"
+    },
+    {
+      "path": "Support/Manual/Swedish/FarCry4.pdf",
+      "size": 1741824,
+      "sha256": "5cff8fa867c7c42673d80bf3ec76692fb8d25617a1e104b08a6e8382399f4bd6"
+    },
+    {
+      "path": "Support/Readme/Brazilian/Readme.txt",
+      "size": 15401,
+      "sha256": "d6354d0b48b70c6665d9be048c4338b85e3d08df18f190effd2e69a7888592f9"
+    },
+    {
+      "path": "Support/Readme/Chinese/Readme.txt",
+      "size": 12226,
+      "sha256": "4410e95e2302654f0b89a0777b93c4b510212e9eb8214fd8e7c393a9e4517efd"
+    },
+    {
+      "path": "Support/Readme/Czech/Readme.txt",
+      "size": 13985,
+      "sha256": "6fd180439f773bb491daa6ff0a224fbd2a8260faeac9a31fbb08e0cb144eb8b6"
+    },
+    {
+      "path": "Support/Readme/Danish/Readme.txt",
+      "size": 14119,
+      "sha256": "5cfe94376f202c3ab8284899b5d8672321588eadd9b71bf6a894d8ec9a165fc3"
+    },
+    {
+      "path": "Support/Readme/Dutch/Readme.txt",
+      "size": 15257,
+      "sha256": "88e97e047a2d7283c5bb88b8400789b8e9443da8ab6c21c628550150f9269c14"
+    },
+    {
+      "path": "Support/Readme/English/Readme.txt",
+      "size": 14021,
+      "sha256": "cfb7b3773e7a1dde782a5117b8aa75d4c38312732836f962f51435051fa8d195"
+    },
+    {
+      "path": "Support/Readme/English/Readme_EN.txt",
+      "size": 12219,
+      "sha256": "79f691f2c3145b694290e7c76495c41ac184d46501601f0587c3d50346abe2dc"
+    },
+    {
+      "path": "Support/Readme/Finnish/Readme.txt",
+      "size": 14833,
+      "sha256": "34342eadbfafa2bb63840af760fc4bc1db690e6628da9c91d273a3456e2212c2"
+    },
+    {
+      "path": "Support/Readme/French(Canada)/Readme.txt",
+      "size": 10042,
+      "sha256": "fd479e4d3938a4a0a24010c22004030e09cfef2ee5c85f918d233cedec817197"
+    },
+    {
+      "path": "Support/Readme/French/Readme.txt",
+      "size": 15693,
+      "sha256": "3e2cc6813d66dafee755571fb6c92adf2883a7a1149c3c04a91257fb5f42a528"
+    },
+    {
+      "path": "Support/Readme/German/Readme.txt",
+      "size": 13087,
+      "sha256": "c6be73501e54320329e5fce9553dff1e46902a8c0b2548d2c8d59301a885bcd4"
+    },
+    {
+      "path": "Support/Readme/Hungarian/Readme.txt",
+      "size": 10282,
+      "sha256": "c358008f3d3bc657f2ec6217eac74fa8edeb73f704c0d05a846ae4e5cfd5b65f"
+    },
+    {
+      "path": "Support/Readme/Italian/Readme.txt",
+      "size": 14802,
+      "sha256": "d170f3cb355138ceaa3a69f66bb2c247eb8a175dd234ffb51fbd00b130430243"
+    },
+    {
+      "path": "Support/Readme/Korean/Readme.txt",
+      "size": 14597,
+      "sha256": "063450cf3558f0be86e0392785b4dd9c70633c2e1a3f58bcad064201454c6687"
+    },
+    {
+      "path": "Support/Readme/Mexican/Readme.txt",
+      "size": 15815,
+      "sha256": "2b4bfbea2bd84d8f33534af1b1835b23b21a79d16579a230d16c2c52868c650b"
+    },
+    {
+      "path": "Support/Readme/Norwegian/Readme.txt",
+      "size": 14684,
+      "sha256": "52d4b68dde260a37d3831f17bd0dd6d0bdcf4fc1c3ede986143366a40c19886f"
+    },
+    {
+      "path": "Support/Readme/Polish/Readme.txt",
+      "size": 15568,
+      "sha256": "236f89e8d645da1ce384d849aad3ee853434b36490373acd3382ea7d6615710d"
+    },
+    {
+      "path": "Support/Readme/Portuguese/Readme.txt",
+      "size": 12219,
+      "sha256": "79f691f2c3145b694290e7c76495c41ac184d46501601f0587c3d50346abe2dc"
+    },
+    {
+      "path": "Support/Readme/Portuguese/Readme_EN.txt",
+      "size": 12219,
+      "sha256": "79f691f2c3145b694290e7c76495c41ac184d46501601f0587c3d50346abe2dc"
+    },
+    {
+      "path": "Support/Readme/Spanish/Readme.txt",
+      "size": 15805,
+      "sha256": "b949648f85e14a926c1d13d3eb7511291592f9c3f9663c03cc3613be84d37bc3"
+    },
+    {
+      "path": "Support/Readme/Swedish/Readme.txt",
+      "size": 14278,
+      "sha256": "fa3d2cfee46357d15cc4d2661f7cfbb4f3ff5ec7fc7f6b6f8338c4ef8597270d"
+    },
+    {
+      "path": "unins000.dat",
+      "size": 509002,
+      "sha256": "bcc79ab932a3b0a86f02303502abd104d262a645fd3c0f366e0c356eda7386ae"
+    },
+    {
+      "path": "unins000.exe",
+      "size": 1515889,
+      "sha256": "8b1be1301e35e1e6519a140f9455dc90d1ea0918ce951ff80ce1ccbe468a7d09"
+    },
+    {
+      "path": "uplay_download/420/37774B9CA87384BDC475B67840CD9337F09E149E.state",
+      "size": 16769,
+      "sha256": "e53b2ca6240a6f11e8a26d2893677844f4179ba58eb28c63a34a389bd3ee740d"
+    },
+    {
+      "path": "uplay_download/420/38AAD8B3B7970578ED65E07AED8AB3F488695852.state",
+      "size": 21936,
+      "sha256": "fa3f5f269d0da556d216d3a631799ca6ef827eb82dacf89b3654c7eae6a76926"
+    },
+    {
+      "path": "uplay_install.manifest",
+      "size": 484415,
+      "sha256": "92e310cc782708e2c81bfbd1a591565a8b12f0447b874b4111955e7b1648e856"
+    },
+    {
+      "path": "WW.vdf",
+      "size": 1659,
+      "sha256": "bb5859eba3e0c985cc11bb69358782ba8f97695942f2351c45816787f2e2f39b"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 288088,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1097584,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16071608,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 30483912,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 36202784,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 41276024,
+          "length": 7054336
+        },
+        {
+          "file": "bin/bink2w64.dll",
+          "file_offset": 0,
+          "chunk_offset": 48330360,
+          "length": 441560
+        },
+        {
+          "file": "bin/Divelements.SandDock.dll",
+          "file_offset": 0,
+          "chunk_offset": 48771920,
+          "length": 421080
+        },
+        {
+          "file": "bin/Divelements.SandGrid.dll",
+          "file_offset": 0,
+          "chunk_offset": 49193000,
+          "length": 345816
+        },
+        {
+          "file": "bin/doge.dll",
+          "file_offset": 0,
+          "chunk_offset": 49538816,
+          "length": 575704
+        },
+        {
+          "file": "bin/dualcore.dll",
+          "file_offset": 0,
+          "chunk_offset": 50114520,
+          "length": 24064
+        },
+        {
+          "file": "bin/EasyHook64.dll",
+          "file_offset": 0,
+          "chunk_offset": 50138584,
+          "length": 299008
+        },
+        {
+          "file": "bin/Extreme Injector v3.exe",
+          "file_offset": 0,
+          "chunk_offset": 50437592,
+          "length": 1269760
+        },
+        {
+          "file": "bin/FarCry4.exe",
+          "file_offset": 0,
+          "chunk_offset": 51707352,
+          "length": 90840
+        },
+        {
+          "file": "bin/farcry4.ico",
+          "file_offset": 0,
+          "chunk_offset": 51798192,
+          "length": 477478
+        },
+        {
+          "file": "bin/FC64.dll",
+          "file_offset": 0,
+          "chunk_offset": 52275670,
+          "length": 35039960
+        },
+        {
+          "file": "bin/GDFWin8.dll",
+          "file_offset": 0,
+          "chunk_offset": 87315630,
+          "length": 3374296
+        },
+        {
+          "file": "bin/GFSDK_GodraysLib.x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 90689926,
+          "length": 233688
+        },
+        {
+          "file": "bin/GFSDK_HairWorks.win64.dll",
+          "file_offset": 0,
+          "chunk_offset": 90923614,
+          "length": 930008
+        },
+        {
+          "file": "bin/GFSDK_HairWorksExt.win64.dll",
+          "file_offset": 0,
+          "chunk_offset": 91853622,
+          "length": 8224472
+        },
+        {
+          "file": "bin/GFSDK_ShadowLib.win64.dll",
+          "file_offset": 0,
+          "chunk_offset": 100078094,
+          "length": 3515608
+        },
+        {
+          "file": "bin/GFSDK_SSAO.win64.dll",
+          "file_offset": 0,
+          "chunk_offset": 103593702,
+          "length": 716504
+        },
+        {
+          "file": "bin/GFSDK_TXAA.win64.dll",
+          "file_offset": 0,
+          "chunk_offset": 104310206,
+          "length": 100568
+        },
+        {
+          "file": "bin/IGE.WPF.Core64.dll",
+          "file_offset": 0,
+          "chunk_offset": 104410774,
+          "length": 6354136
+        },
+        {
+          "file": "bin/IGE.WPF.Core_r64.dll",
+          "file_offset": 0,
+          "chunk_offset": 110764910,
+          "length": 6109696
+        },
+        {
+          "file": "bin/IGE_WPF64.exe",
+          "file_offset": 0,
+          "chunk_offset": 116874606,
+          "length": 1445592
+        },
+        {
+          "file": "bin/IGE_WPF64.exe.config",
+          "file_offset": 0,
+          "chunk_offset": 118320198,
+          "length": 144
+        },
+        {
+          "file": "bin/NvGsa.x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 118320342,
+          "length": 65240
+        },
+        {
+          "file": "bin/orbit_api.ini",
+          "file_offset": 0,
+          "chunk_offset": 118385582,
+          "length": 911
+        },
+        {
+          "file": "bin/SandBar.dll",
+          "file_offset": 0,
+          "chunk_offset": 118386493,
+          "length": 263896
+        },
+        {
+          "file": "bin/SandDock.dll",
+          "file_offset": 0,
+          "chunk_offset": 118650389,
+          "length": 362200
+        },
+        {
+          "file": "bin/save3dmgames/saves.ini",
+          "file_offset": 0,
+          "chunk_offset": 119012589,
+          "length": 103
+        },
+        {
+          "file": "bin/settings.xml",
+          "file_offset": 0,
+          "chunk_offset": 119012692,
+          "length": 2185
+        },
+        {
+          "file": "bin/steam_api.dll",
+          "file_offset": 0,
+          "chunk_offset": 119014877,
+          "length": 1094148
+        },
+        {
+          "file": "bin/steam_api.ini",
+          "file_offset": 0,
+          "chunk_offset": 120109025,
+          "length": 2397
+        },
+        {
+          "file": "bin/steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 120111422,
+          "length": 1349636
+        },
+        {
+          "file": "bin/systemdetection64.dll",
+          "file_offset": 0,
+          "chunk_offset": 121461058,
+          "length": 484056
+        },
+        {
+          "file": "bin/Ubisoft.ApplicationModel.dll",
+          "file_offset": 0,
+          "chunk_offset": 121945114,
+          "length": 168664
+        },
+        {
+          "file": "bin/Ubisoft.Controls.dll",
+          "file_offset": 0,
+          "chunk_offset": 122113778,
+          "length": 1172184
+        },
+        {
+          "file": "bin/Ubisoft.Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 123285962,
+          "length": 1092312
+        },
+        {
+          "file": "bin/Ubisoft.IconLibrary.dll",
+          "file_offset": 0,
+          "chunk_offset": 124378274,
+          "length": 5457624
+        },
+        {
+          "file": "bin/Ubisoft.SandControls.dll",
+          "file_offset": 0,
+          "chunk_offset": 129835898,
+          "length": 189144
+        },
+        {
+          "file": "bin/Ubisoft.Theater.Editors.dll",
+          "file_offset": 0,
+          "chunk_offset": 130025042,
+          "length": 457944
+        },
+        {
+          "file": "bin/Ubisoft.Theater.System.dll",
+          "file_offset": 0,
+          "chunk_offset": 130482986,
+          "length": 74968
+        },
+        {
+          "file": "bin/uplay_r164.dll",
+          "file_offset": 0,
+          "chunk_offset": 130557954,
+          "length": 901124
+        },
+        {
+          "file": "bin/uplay_r1_loader64.3dm",
+          "file_offset": 0,
+          "chunk_offset": 131459078,
+          "length": 575192
+        },
+        {
+          "file": "bin/uplay_r1_loader64.dll",
+          "file_offset": 0,
+          "chunk_offset": 132034270,
+          "length": 88064
+        },
+        {
+          "file": "bin/uplay_r1_loader64.ubi",
+          "file_offset": 0,
+          "chunk_offset": 132122334,
+          "length": 575192
+        },
+        {
+          "file": "bin/version.xml",
+          "file_offset": 0,
+          "chunk_offset": 132697526,
+          "length": 587
+        },
+        {
+          "file": "bin/WPFToolkit.dll",
+          "file_offset": 0,
+          "chunk_offset": 132698113,
+          "length": 467160
+        },
+        {
+          "file": "bin/zlibwapi_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 133165273,
+          "length": 165592
+        },
+        {
+          "file": "data_win32/common.dat",
+          "file_offset": 0,
+          "chunk_offset": 133330865,
+          "length": 128095667
+        },
+        {
+          "file": "data_win32/common.fat",
+          "file_offset": 0,
+          "chunk_offset": 261426532,
+          "length": 65652
+        },
+        {
+          "file": "data_win32/ige.dat",
+          "file_offset": 0,
+          "chunk_offset": 261492184,
+          "length": 271925671
+        },
+        {
+          "file": "data_win32/ige.fat",
+          "file_offset": 0,
+          "chunk_offset": 533417855,
+          "length": 276092
+        },
+        {
+          "file": "data_win32/patch.dat",
+          "file_offset": 0,
+          "chunk_offset": 533693947,
+          "length": 352872671
+        }
+      ],
+      "sha256": "dfaa368a7a783a0937282618538a2c50192106e984a45bcd1b4d772bfe22eca9"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/patch.dat",
+          "file_offset": 352872671,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "68a2ef35615dbbaafdb2dc84d568c7e538f7a3b87ef98414935e72c4af4287a0"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/patch.dat",
+          "file_offset": 1239439289,
+          "chunk_offset": 0,
+          "length": 675093401
+        },
+        {
+          "file": "data_win32/patch.fat",
+          "file_offset": 0,
+          "chunk_offset": 675093401,
+          "length": 1461072
+        },
+        {
+          "file": "data_win32/patch_hd.dat",
+          "file_offset": 0,
+          "chunk_offset": 676554473,
+          "length": 68835563
+        },
+        {
+          "file": "data_win32/patch_hd.fat",
+          "file_offset": 0,
+          "chunk_offset": 745390036,
+          "length": 3352
+        },
+        {
+          "file": "data_win32/shadersobj.dat",
+          "file_offset": 0,
+          "chunk_offset": 745393388,
+          "length": 102614758
+        },
+        {
+          "file": "data_win32/shadersobj.fat",
+          "file_offset": 0,
+          "chunk_offset": 848008146,
+          "length": 698532
+        },
+        {
+          "file": "data_win32/sound.dat",
+          "file_offset": 0,
+          "chunk_offset": 848706678,
+          "length": 37859940
+        }
+      ],
+      "sha256": "bbfd786b913e2ff6d0e7716aad2ede07f0f9f4db5d2380ce92869d56a58ff46c"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/sound.dat",
+          "file_offset": 37859940,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "1ad6bdc439f765296691dc1bee3af436ed1d2819b67d8552994a54919458269e"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/sound.dat",
+          "file_offset": 924426558,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "d4bebc743e926b660431dc8bf74112934f48f27fbe44ae8c8ed0583f4b779ac6"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/sound.dat",
+          "file_offset": 1810993176,
+          "chunk_offset": 0,
+          "length": 808967935
+        },
+        {
+          "file": "data_win32/sound.fat",
+          "file_offset": 0,
+          "chunk_offset": 808967935,
+          "length": 74332
+        },
+        {
+          "file": "data_win32/sound_english.dat",
+          "file_offset": 0,
+          "chunk_offset": 809042267,
+          "length": 41716128
+        },
+        {
+          "file": "data_win32/sound_english.fat",
+          "file_offset": 0,
+          "chunk_offset": 850758395,
+          "length": 59512
+        },
+        {
+          "file": "data_win32/sound_french.dat",
+          "file_offset": 0,
+          "chunk_offset": 850817907,
+          "length": 35748711
+        }
+      ],
+      "sha256": "8b38e26665f5b5849eb56d3ed37d80810917526a3267f0c5f24d2e22816c5a15"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/sound_french.dat",
+          "file_offset": 35748711,
+          "chunk_offset": 0,
+          "length": 4056008
+        },
+        {
+          "file": "data_win32/sound_french.fat",
+          "file_offset": 0,
+          "chunk_offset": 4056008,
+          "length": 59512
+        },
+        {
+          "file": "data_win32/sound_german.dat",
+          "file_offset": 0,
+          "chunk_offset": 4115520,
+          "length": 40673424
+        },
+        {
+          "file": "data_win32/sound_german.fat",
+          "file_offset": 0,
+          "chunk_offset": 44788944,
+          "length": 59512
+        },
+        {
+          "file": "data_win32/sound_italian.dat",
+          "file_offset": 0,
+          "chunk_offset": 44848456,
+          "length": 41834589
+        },
+        {
+          "file": "data_win32/sound_italian.fat",
+          "file_offset": 0,
+          "chunk_offset": 86683045,
+          "length": 59512
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc.dat",
+          "file_offset": 0,
+          "chunk_offset": 86742557,
+          "length": 799824061
+        }
+      ],
+      "sha256": "0b6d20e92f34ce919dbfdcc1c2bf4d5c8340a0eac097eca86b16842b692a910d"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc.dat",
+          "file_offset": 799824061,
+          "chunk_offset": 0,
+          "length": 281661059
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc.fat",
+          "file_offset": 0,
+          "chunk_offset": 281661059,
+          "length": 907272
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_english.dat",
+          "file_offset": 0,
+          "chunk_offset": 282568331,
+          "length": 63991152
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_english.fat",
+          "file_offset": 0,
+          "chunk_offset": 346559483,
+          "length": 51312
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_french.dat",
+          "file_offset": 0,
+          "chunk_offset": 346610795,
+          "length": 62052674
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_french.fat",
+          "file_offset": 0,
+          "chunk_offset": 408663469,
+          "length": 51312
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_german.dat",
+          "file_offset": 0,
+          "chunk_offset": 408714781,
+          "length": 61325628
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_german.fat",
+          "file_offset": 0,
+          "chunk_offset": 470040409,
+          "length": 51312
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_hd.dat",
+          "file_offset": 0,
+          "chunk_offset": 470091721,
+          "length": 251459405
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_hd.fat",
+          "file_offset": 0,
+          "chunk_offset": 721551126,
+          "length": 7052
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_italian.dat",
+          "file_offset": 0,
+          "chunk_offset": 721558178,
+          "length": 62854171
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_italian.fat",
+          "file_offset": 0,
+          "chunk_offset": 784412349,
+          "length": 51332
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound.dat",
+          "file_offset": 0,
+          "chunk_offset": 784463681,
+          "length": 63929989
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound.fat",
+          "file_offset": 0,
+          "chunk_offset": 848393670,
+          "length": 652
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound_english.fat",
+          "file_offset": 0,
+          "chunk_offset": 848394322,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound_french.fat",
+          "file_offset": 0,
+          "chunk_offset": 848394354,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound_german.fat",
+          "file_offset": 0,
+          "chunk_offset": 848394386,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_sound_italian.fat",
+          "file_offset": 0,
+          "chunk_offset": 848394418,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_vistas.dat",
+          "file_offset": 0,
+          "chunk_offset": 848394450,
+          "length": 38172168
+        }
+      ],
+      "sha256": "18da2f5b000aa4307921c163b35681068fb106cd8a59ffee0c7715fc3bc01b05"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_vistas.dat",
+          "file_offset": 38172168,
+          "chunk_offset": 0,
+          "length": 141953546
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/fcc_d90_dlc_vistas.fat",
+          "file_offset": 0,
+          "chunk_offset": 141953546,
+          "length": 123192
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_d90_dlc/toc.rml",
+          "file_offset": 0,
+          "chunk_offset": 142076738,
+          "length": 319
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30.dat",
+          "file_offset": 0,
+          "chunk_offset": 142077057,
+          "length": 744489561
+        }
+      ],
+      "sha256": "e5789dc4d9057d2900ed96bc238bffcfd9fac8c3d1965e60dc92538f5cdaedb1"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30.dat",
+          "file_offset": 744489561,
+          "chunk_offset": 0,
+          "length": 258999451
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30.fat",
+          "file_offset": 0,
+          "chunk_offset": 258999451,
+          "length": 1586472
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30.nfo.dep",
+          "file_offset": 0,
+          "chunk_offset": 260585923,
+          "length": 42841965
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_english.dat",
+          "file_offset": 0,
+          "chunk_offset": 303427888,
+          "length": 54151269
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_english.fat",
+          "file_offset": 0,
+          "chunk_offset": 357579157,
+          "length": 40652
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_english.nfo.dep",
+          "file_offset": 0,
+          "chunk_offset": 357619809,
+          "length": 13
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_french.dat",
+          "file_offset": 0,
+          "chunk_offset": 357619822,
+          "length": 53539145
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_french.fat",
+          "file_offset": 0,
+          "chunk_offset": 411158967,
+          "length": 41252
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_french.nfo.dep",
+          "file_offset": 0,
+          "chunk_offset": 411200219,
+          "length": 13
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_german.dat",
+          "file_offset": 0,
+          "chunk_offset": 411200232,
+          "length": 52114411
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_german.fat",
+          "file_offset": 0,
+          "chunk_offset": 463314643,
+          "length": 40932
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_german.nfo.dep",
+          "file_offset": 0,
+          "chunk_offset": 463355575,
+          "length": 13
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_hd.dat",
+          "file_offset": 0,
+          "chunk_offset": 463355588,
+          "length": 46039261
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_hd.fat",
+          "file_offset": 0,
+          "chunk_offset": 509394849,
+          "length": 2052
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_hd.nfo.dep",
+          "file_offset": 0,
+          "chunk_offset": 509396901,
+          "length": 119152
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_italian.dat",
+          "file_offset": 0,
+          "chunk_offset": 509516053,
+          "length": 53660086
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_italian.fat",
+          "file_offset": 0,
+          "chunk_offset": 563176139,
+          "length": 41072
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_italian.nfo.dep",
+          "file_offset": 0,
+          "chunk_offset": 563217211,
+          "length": 13
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound.fat",
+          "file_offset": 0,
+          "chunk_offset": 563217224,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound.nfo.dep",
+          "file_offset": 0,
+          "chunk_offset": 563217256,
+          "length": 13
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_english.fat",
+          "file_offset": 0,
+          "chunk_offset": 563217269,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_english.nfo.dep",
+          "file_offset": 0,
+          "chunk_offset": 563217301,
+          "length": 13
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_french.fat",
+          "file_offset": 0,
+          "chunk_offset": 563217314,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_french.nfo.dep",
+          "file_offset": 0,
+          "chunk_offset": 563217346,
+          "length": 13
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_german.fat",
+          "file_offset": 0,
+          "chunk_offset": 563217359,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_german.nfo.dep",
+          "file_offset": 0,
+          "chunk_offset": 563217391,
+          "length": 13
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_italian.fat",
+          "file_offset": 0,
+          "chunk_offset": 563217404,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_sound_italian.nfo.dep",
+          "file_offset": 0,
+          "chunk_offset": 563217436,
+          "length": 13
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_vistas.dat",
+          "file_offset": 0,
+          "chunk_offset": 563217449,
+          "length": 323349169
+        }
+      ],
+      "sha256": "83d625d09049d30b2aa23a6c5933ed9d13de57332a5c345a43158a450b2b8162"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_vistas.dat",
+          "file_offset": 323349169,
+          "chunk_offset": 0,
+          "length": 41934296
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_vistas.fat",
+          "file_offset": 0,
+          "chunk_offset": 41934296,
+          "length": 236052
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/fcc_dlc30_vistas.nfo.dep",
+          "file_offset": 0,
+          "chunk_offset": 42170348,
+          "length": 8098885
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc30/toc.rml",
+          "file_offset": 0,
+          "chunk_offset": 50269233,
+          "length": 315
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60.dat",
+          "file_offset": 0,
+          "chunk_offset": 50269548,
+          "length": 483315033
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60.fat",
+          "file_offset": 0,
+          "chunk_offset": 533584581,
+          "length": 808932
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60.nfo.dep",
+          "file_offset": 0,
+          "chunk_offset": 534393513,
+          "length": 27567760
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_english.dat",
+          "file_offset": 0,
+          "chunk_offset": 561961273,
+          "length": 15586078
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_english.fat",
+          "file_offset": 0,
+          "chunk_offset": 577547351,
+          "length": 7172
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_french.dat",
+          "file_offset": 0,
+          "chunk_offset": 577554523,
+          "length": 16447632
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_french.fat",
+          "file_offset": 0,
+          "chunk_offset": 594002155,
+          "length": 7172
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_german.dat",
+          "file_offset": 0,
+          "chunk_offset": 594009327,
+          "length": 16017920
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_german.fat",
+          "file_offset": 0,
+          "chunk_offset": 610027247,
+          "length": 7172
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_hd.dat",
+          "file_offset": 0,
+          "chunk_offset": 610034419,
+          "length": 25012989
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_hd.fat",
+          "file_offset": 0,
+          "chunk_offset": 635047408,
+          "length": 1792
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_italian.dat",
+          "file_offset": 0,
+          "chunk_offset": 635049200,
+          "length": 17127440
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_italian.fat",
+          "file_offset": 0,
+          "chunk_offset": 652176640,
+          "length": 7192
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound.fat",
+          "file_offset": 0,
+          "chunk_offset": 652183832,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound_english.fat",
+          "file_offset": 0,
+          "chunk_offset": 652183864,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound_french.fat",
+          "file_offset": 0,
+          "chunk_offset": 652183896,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound_german.fat",
+          "file_offset": 0,
+          "chunk_offset": 652183928,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_sound_italian.fat",
+          "file_offset": 0,
+          "chunk_offset": 652183960,
+          "length": 32
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_vistas.dat",
+          "file_offset": 0,
+          "chunk_offset": 652183992,
+          "length": 189649594
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/fcc_dlc60_vistas.fat",
+          "file_offset": 0,
+          "chunk_offset": 841833586,
+          "length": 123252
+        },
+        {
+          "file": "data_win32/worlds/downloadcontent/fcc_dlc60/toc.rml",
+          "file_offset": 0,
+          "chunk_offset": 841956838,
+          "length": 680
+        },
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main.dat",
+          "file_offset": 0,
+          "chunk_offset": 841957518,
+          "length": 44609100
+        }
+      ],
+      "sha256": "3fd3c9b49a87644cbfd06e519a324a8fc78185d7c4665d5465324af7723eada5"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main.dat",
+          "file_offset": 44609100,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "ae6375c08c85becf9c6a41d62cfa0d5b11b5a39f6156f979779cc0f60a466acf"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main.dat",
+          "file_offset": 931175718,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "c1d03ee608cbab177e87a247481119a3de2b391599c76a6624e3fece7a806623"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main.dat",
+          "file_offset": 1817742336,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "ec982d6334d00171c3def7e68fe21dc1aa32124ddebd116d6f32c8774f5b8e23"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main.dat",
+          "file_offset": 2704308954,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "4be091aed2058e296a8e1f413fc1acbad855ba4ea420a3100b0f8192c9c113cc"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main.dat",
+          "file_offset": 3590875572,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "5aac17c41d117b6a7d768414c42803cb9bd5e49dd3eee6b7e2ab187b82c7f547"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main.dat",
+          "file_offset": 4477442190,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "d831c65bf7043590d603f3ef2b1a4bc9cf7ba7fb44c56b690f6a366965ea1403"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main.dat",
+          "file_offset": 5364008808,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "b4813d3fdbb032c9f9dd4f3ccf943a4a07c8e2e8e04e0f24a99b22ff78543cae"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main.dat",
+          "file_offset": 6250575426,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "a1de9a03edf44b3ce96b0f52ab3083f4fda6cfa707f359df2e190f7003702b6b"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main.dat",
+          "file_offset": 7137142044,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "261d71750699c219c8f4a5db7d246262b906e554c9d0cdf293489511d022a4c0"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main.dat",
+          "file_offset": 8023708662,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "ec735c74ff46f1d193e96c0289b452744608ce442aa16e111cec92da1698b8c5"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main.dat",
+          "file_offset": 8910275280,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "598e642225cb5c5f12638ec5d64c78d71a2461856d613cda866596dd6de6faa5"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main.dat",
+          "file_offset": 9796841898,
+          "chunk_offset": 0,
+          "length": 78997830
+        },
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main.fat",
+          "file_offset": 0,
+          "chunk_offset": 78997830,
+          "length": 4941672
+        },
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_english.dat",
+          "file_offset": 0,
+          "chunk_offset": 83939502,
+          "length": 481110568
+        },
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_english.fat",
+          "file_offset": 0,
+          "chunk_offset": 565050070,
+          "length": 383972
+        },
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_french.dat",
+          "file_offset": 0,
+          "chunk_offset": 565434042,
+          "length": 321132576
+        }
+      ],
+      "sha256": "ce988f9b77891cc7e278f8b0ee1af8f62ed7a8439962a8af7c0fc45872bfa025"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_french.dat",
+          "file_offset": 321132576,
+          "chunk_offset": 0,
+          "length": 139561437
+        },
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_french.fat",
+          "file_offset": 0,
+          "chunk_offset": 139561437,
+          "length": 383972
+        },
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_german.dat",
+          "file_offset": 0,
+          "chunk_offset": 139945409,
+          "length": 471924770
+        },
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_german.fat",
+          "file_offset": 0,
+          "chunk_offset": 611870179,
+          "length": 383972
+        },
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_hd.dat",
+          "file_offset": 0,
+          "chunk_offset": 612254151,
+          "length": 274312467
+        }
+      ],
+      "sha256": "6b3860afe1d0b9ddb93a1559dcf3031490e1402a3f992626dbf017c6d4abc123"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_hd.dat",
+          "file_offset": 274312467,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "cc283953aff4bcea3aec4b7e4917ad559568704cd7d5930cce11ea5a90ee65e7"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_hd.dat",
+          "file_offset": 1160879085,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "526545258c187397106e652ccffb49b05eb17621b2abc1eb2b3062016d6efd7d"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_hd.dat",
+          "file_offset": 2047445703,
+          "chunk_offset": 0,
+          "length": 717907724
+        },
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_hd.fat",
+          "file_offset": 0,
+          "chunk_offset": 717907724,
+          "length": 90032
+        },
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_italian.dat",
+          "file_offset": 0,
+          "chunk_offset": 717997756,
+          "length": 168568862
+        }
+      ],
+      "sha256": "c5eea4d57539de899881e7ff499e4715dd91a12e7098f7e23bbba6a9ec8ef953"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_italian.dat",
+          "file_offset": 168568862,
+          "chunk_offset": 0,
+          "length": 312468936
+        },
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_italian.fat",
+          "file_offset": 0,
+          "chunk_offset": 312468936,
+          "length": 383972
+        },
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_vistas.dat",
+          "file_offset": 0,
+          "chunk_offset": 312852908,
+          "length": 573713710
+        }
+      ],
+      "sha256": "485b0f0a8a52985cd86b76f016b00d610af19e87d6468984467305dd2c149687"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_vistas.dat",
+          "file_offset": 573713710,
+          "chunk_offset": 0,
+          "length": 178372873
+        },
+        {
+          "file": "data_win32/worlds/fcc_main/fcc_main_vistas.fat",
+          "file_offset": 0,
+          "chunk_offset": 178372873,
+          "length": 502812
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 0,
+          "chunk_offset": 178875685,
+          "length": 707690933
+        }
+      ],
+      "sha256": "533ab6cac0e00ad2876ec46d04ffd23ed40bbd9b532f276d73564e98f8354645"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 707690933,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "7cef4383c6f648cad2ad8c166807d7444dd2941170a730703850fa4ac9b3ab01"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 1594257551,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "8b399f1fc16a2f4349a0f0ca8886f3e6c09304f50f5a7a53cf247acde960ed14"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 2480824169,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "14fa4bfffd233a5882ab971ddfd4be4fa16ed51b3c420314eed2f6b933a9fdc8"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 3367390787,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "e49beb7febc993934e2d31c46853abc8468f351c1c8daf782e49c597858521d4"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 4253957405,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "dd710829e8b69f0c33d4136cef89af164a9c21f383c0e130d2ac822e8387058d"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 5140524023,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "2ad5c0c4b60b39b3fcd93231052318b1fede223bbefec7e2754444a5a10f40d0"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.dat",
+          "file_offset": 6027090641,
+          "chunk_offset": 0,
+          "length": 713316133
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon.fat",
+          "file_offset": 0,
+          "chunk_offset": 713316133,
+          "length": 2980032
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_english.dat",
+          "file_offset": 0,
+          "chunk_offset": 716296165,
+          "length": 170270453
+        }
+      ],
+      "sha256": "16567aad7c2dd2ab18c49641ab90ea2de0e9e65e532ffd1bf31b02eb1c3aa58b"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_english.dat",
+          "file_offset": 170270453,
+          "chunk_offset": 0,
+          "length": 149766972
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_english.fat",
+          "file_offset": 0,
+          "chunk_offset": 149766972,
+          "length": 302952
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_french.dat",
+          "file_offset": 0,
+          "chunk_offset": 150069924,
+          "length": 305760512
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_french.fat",
+          "file_offset": 0,
+          "chunk_offset": 455830436,
+          "length": 302952
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_german.dat",
+          "file_offset": 0,
+          "chunk_offset": 456133388,
+          "length": 314549001
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_german.fat",
+          "file_offset": 0,
+          "chunk_offset": 770682389,
+          "length": 302952
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_hd.dat",
+          "file_offset": 0,
+          "chunk_offset": 770985341,
+          "length": 115581277
+        }
+      ],
+      "sha256": "0aa7bffef356dac8a12c653e4e7a9627b42e314305e11af7f2a6f55a2ab8c02e"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_hd.dat",
+          "file_offset": 115581277,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "8031822c151232880d76c6c0162d87107bc7bb5fa50f0908c09f65fd1b6bb3ee"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 886566618,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_hd.dat",
+          "file_offset": 1002147895,
+          "chunk_offset": 0,
+          "length": 886566618
+        }
+      ],
+      "sha256": "382da3548dc12b15075d410c440770a0b032b44b65c55762ada5cf2d27297708"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 886566581,
+      "segments": [
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_hd.dat",
+          "file_offset": 1888714513,
+          "chunk_offset": 0,
+          "length": 99484762
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_hd.fat",
+          "file_offset": 0,
+          "chunk_offset": 99484762,
+          "length": 64992
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_italian.dat",
+          "file_offset": 0,
+          "chunk_offset": 99549754,
+          "length": 320368777
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_italian.fat",
+          "file_offset": 0,
+          "chunk_offset": 419918531,
+          "length": 302952
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_vistas.dat",
+          "file_offset": 0,
+          "chunk_offset": 420221483,
+          "length": 423479185
+        },
+        {
+          "file": "data_win32/worlds/multicommon/multicommon_vistas.fat",
+          "file_offset": 0,
+          "chunk_offset": 843700668,
+          "length": 297792
+        },
+        {
+          "file": "FarCry4.dll",
+          "file_offset": 0,
+          "chunk_offset": 843998460,
+          "length": 5156568
+        },
+        {
+          "file": "GameuxInstallHelper.dll",
+          "file_offset": 0,
+          "chunk_offset": 849155028,
+          "length": 92176
+        },
+        {
+          "file": "GDFInstall.exe",
+          "file_offset": 0,
+          "chunk_offset": 849247204,
+          "length": 94112
+        },
+        {
+          "file": "Support/License/Brazilian/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 849341316,
+          "length": 157023
+        },
+        {
+          "file": "Support/License/Czech/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 849498339,
+          "length": 216893
+        },
+        {
+          "file": "Support/License/Danish/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 849715232,
+          "length": 220822
+        },
+        {
+          "file": "Support/License/Dutch/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 849936054,
+          "length": 221133
+        },
+        {
+          "file": "Support/License/English(Canada)/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 850157187,
+          "length": 305973
+        },
+        {
+          "file": "Support/License/English(US)/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 850463160,
+          "length": 136078
+        },
+        {
+          "file": "Support/License/English/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 850599238,
+          "length": 401740
+        },
+        {
+          "file": "Support/License/Finnish/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 851000978,
+          "length": 238574
+        },
+        {
+          "file": "Support/License/French(Canada)/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 851239552,
+          "length": 389232
+        },
+        {
+          "file": "Support/License/French/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 851628784,
+          "length": 619210
+        },
+        {
+          "file": "Support/License/German/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 852247994,
+          "length": 242246
+        },
+        {
+          "file": "Support/License/Hungarian/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 852490240,
+          "length": 224730
+        },
+        {
+          "file": "Support/License/Italian/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 852714970,
+          "length": 238178
+        },
+        {
+          "file": "Support/License/Korean/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 852953148,
+          "length": 271017
+        },
+        {
+          "file": "Support/License/lic_cs-CZ.html",
+          "file_offset": 0,
+          "chunk_offset": 853224165,
+          "length": 36457
+        },
+        {
+          "file": "Support/License/lic_da-DK.html",
+          "file_offset": 0,
+          "chunk_offset": 853260622,
+          "length": 34466
+        },
+        {
+          "file": "Support/License/lic_de-DE.html",
+          "file_offset": 0,
+          "chunk_offset": 853295088,
+          "length": 39798
+        },
+        {
+          "file": "Support/License/lic_en-US.html",
+          "file_offset": 0,
+          "chunk_offset": 853334886,
+          "length": 112285
+        },
+        {
+          "file": "Support/License/lic_es-ES.html",
+          "file_offset": 0,
+          "chunk_offset": 853447171,
+          "length": 38300
+        },
+        {
+          "file": "Support/License/lic_es-MX.html",
+          "file_offset": 0,
+          "chunk_offset": 853485471,
+          "length": 38393
+        },
+        {
+          "file": "Support/License/lic_fi-FI.html",
+          "file_offset": 0,
+          "chunk_offset": 853523864,
+          "length": 35404
+        },
+        {
+          "file": "Support/License/lic_fr-FR.html",
+          "file_offset": 0,
+          "chunk_offset": 853559268,
+          "length": 70099
+        },
+        {
+          "file": "Support/License/lic_hu-HU.html",
+          "file_offset": 0,
+          "chunk_offset": 853629367,
+          "length": 27795
+        },
+        {
+          "file": "Support/License/lic_it-IT.html",
+          "file_offset": 0,
+          "chunk_offset": 853657162,
+          "length": 38566
+        },
+        {
+          "file": "Support/License/lic_ko-KO.html",
+          "file_offset": 0,
+          "chunk_offset": 853695728,
+          "length": 32566
+        },
+        {
+          "file": "Support/License/lic_nb-NO.html",
+          "file_offset": 0,
+          "chunk_offset": 853728294,
+          "length": 35432
+        },
+        {
+          "file": "Support/License/lic_nl-NL.html",
+          "file_offset": 0,
+          "chunk_offset": 853763726,
+          "length": 38817
+        },
+        {
+          "file": "Support/License/lic_pl-PL.html",
+          "file_offset": 0,
+          "chunk_offset": 853802543,
+          "length": 40403
+        },
+        {
+          "file": "Support/License/lic_pt-BR.html",
+          "file_offset": 0,
+          "chunk_offset": 853842946,
+          "length": 36084
+        },
+        {
+          "file": "Support/License/lic_pt-PT.html",
+          "file_offset": 0,
+          "chunk_offset": 853879030,
+          "length": 26377
+        },
+        {
+          "file": "Support/License/lic_ru-RU.html",
+          "file_offset": 0,
+          "chunk_offset": 853905407,
+          "length": 64846
+        },
+        {
+          "file": "Support/License/lic_sv-SE.html",
+          "file_offset": 0,
+          "chunk_offset": 853970253,
+          "length": 35230
+        },
+        {
+          "file": "Support/License/lic_zh-TW.html",
+          "file_offset": 0,
+          "chunk_offset": 854005483,
+          "length": 30502
+        },
+        {
+          "file": "Support/License/Mexican/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 854035985,
+          "length": 178876
+        },
+        {
+          "file": "Support/License/Norwegian/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 854214861,
+          "length": 221072
+        },
+        {
+          "file": "Support/License/Polish/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 854435933,
+          "length": 264443
+        },
+        {
+          "file": "Support/License/Portuguese(Brazil)/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 854700376,
+          "length": 38656
+        },
+        {
+          "file": "Support/License/Portuguese/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 854739032,
+          "length": 38656
+        },
+        {
+          "file": "Support/License/Russian/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 854777688,
+          "length": 136136
+        },
+        {
+          "file": "Support/License/Spanish(Mexican)/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 854913824,
+          "length": 178876
+        },
+        {
+          "file": "Support/License/Spanish/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 855092700,
+          "length": 246589
+        },
+        {
+          "file": "Support/License/Swedish/lic.rtf",
+          "file_offset": 0,
+          "chunk_offset": 855339289,
+          "length": 215439
+        },
+        {
+          "file": "Support/Manual/Brazilian/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 855554728,
+          "length": 1741824
+        },
+        {
+          "file": "Support/Manual/Czech/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 857296552,
+          "length": 1842449
+        },
+        {
+          "file": "Support/Manual/Danish/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 859139001,
+          "length": 1741824
+        },
+        {
+          "file": "Support/Manual/Dutch/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 860880825,
+          "length": 1840041
+        },
+        {
+          "file": "Support/Manual/English/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 862720866,
+          "length": 1741824
+        },
+        {
+          "file": "Support/Manual/Finnish/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 864462690,
+          "length": 1741824
+        },
+        {
+          "file": "Support/Manual/French/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 866204514,
+          "length": 1748993
+        },
+        {
+          "file": "Support/Manual/German/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 867953507,
+          "length": 1741824
+        },
+        {
+          "file": "Support/Manual/Italian/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 869695331,
+          "length": 1737035
+        },
+        {
+          "file": "Support/Manual/Korean/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 871432366,
+          "length": 1741824
+        },
+        {
+          "file": "Support/Manual/Mexican/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 873174190,
+          "length": 1741824
+        },
+        {
+          "file": "Support/Manual/Norwegian/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 874916014,
+          "length": 1741824
+        },
+        {
+          "file": "Support/Manual/Polish/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 876657838,
+          "length": 1842449
+        },
+        {
+          "file": "Support/Manual/Portuguese/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 878500287,
+          "length": 1741824
+        },
+        {
+          "file": "Support/Manual/Spanish/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 880242111,
+          "length": 1741824
+        },
+        {
+          "file": "Support/Manual/Swedish/FarCry4.pdf",
+          "file_offset": 0,
+          "chunk_offset": 881983935,
+          "length": 1741824
+        },
+        {
+          "file": "Support/Readme/Brazilian/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883725759,
+          "length": 15401
+        },
+        {
+          "file": "Support/Readme/Chinese/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883741160,
+          "length": 12226
+        },
+        {
+          "file": "Support/Readme/Czech/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883753386,
+          "length": 13985
+        },
+        {
+          "file": "Support/Readme/Danish/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883767371,
+          "length": 14119
+        },
+        {
+          "file": "Support/Readme/Dutch/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883781490,
+          "length": 15257
+        },
+        {
+          "file": "Support/Readme/English/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883796747,
+          "length": 14021
+        },
+        {
+          "file": "Support/Readme/English/Readme_EN.txt",
+          "file_offset": 0,
+          "chunk_offset": 883810768,
+          "length": 12219
+        },
+        {
+          "file": "Support/Readme/Finnish/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883822987,
+          "length": 14833
+        },
+        {
+          "file": "Support/Readme/French(Canada)/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883837820,
+          "length": 10042
+        },
+        {
+          "file": "Support/Readme/French/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883847862,
+          "length": 15693
+        },
+        {
+          "file": "Support/Readme/German/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883863555,
+          "length": 13087
+        },
+        {
+          "file": "Support/Readme/Hungarian/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883876642,
+          "length": 10282
+        },
+        {
+          "file": "Support/Readme/Italian/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883886924,
+          "length": 14802
+        },
+        {
+          "file": "Support/Readme/Korean/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883901726,
+          "length": 14597
+        },
+        {
+          "file": "Support/Readme/Mexican/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883916323,
+          "length": 15815
+        },
+        {
+          "file": "Support/Readme/Norwegian/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883932138,
+          "length": 14684
+        },
+        {
+          "file": "Support/Readme/Polish/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883946822,
+          "length": 15568
+        },
+        {
+          "file": "Support/Readme/Portuguese/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883962390,
+          "length": 12219
+        },
+        {
+          "file": "Support/Readme/Portuguese/Readme_EN.txt",
+          "file_offset": 0,
+          "chunk_offset": 883974609,
+          "length": 12219
+        },
+        {
+          "file": "Support/Readme/Spanish/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 883986828,
+          "length": 15805
+        },
+        {
+          "file": "Support/Readme/Swedish/Readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 884002633,
+          "length": 14278
+        },
+        {
+          "file": "unins000.dat",
+          "file_offset": 0,
+          "chunk_offset": 884016911,
+          "length": 509002
+        },
+        {
+          "file": "unins000.exe",
+          "file_offset": 0,
+          "chunk_offset": 884525913,
+          "length": 1515889
+        },
+        {
+          "file": "uplay_download/420/37774B9CA87384BDC475B67840CD9337F09E149E.state",
+          "file_offset": 0,
+          "chunk_offset": 886041802,
+          "length": 16769
+        },
+        {
+          "file": "uplay_download/420/38AAD8B3B7970578ED65E07AED8AB3F488695852.state",
+          "file_offset": 0,
+          "chunk_offset": 886058571,
+          "length": 21936
+        },
+        {
+          "file": "uplay_install.manifest",
+          "file_offset": 0,
+          "chunk_offset": 886080507,
+          "length": 484415
+        },
+        {
+          "file": "WW.vdf",
+          "file_offset": 0,
+          "chunk_offset": 886564922,
+          "length": 1659
+        }
+      ],
+      "sha256": "2cf3e37c65adefb3f03b1e8039474d82ec5658d8dd7d072a169c6993d464422e"
+    }
+  ]
+}
