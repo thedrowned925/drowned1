@@ -1,0 +1,989 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "metal-gear-solid-v-the-phantom-pain",
+    "title": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Ushering in a new era for the METAL GEAR franchise with cutting-edge technology powered by the Fox Engine, METAL GEAR SOLID V: The Phantom Pain, will provide players a first-rate gaming experience as they are offered tactical freedom to carry out open-world missions."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-metal-gear-solid-v-the-phantom-pain-v1.0.0-stable"
+  },
+  "chunk_size": 780789197,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 31231567849,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "CustomSoundtrack/Sands.mp3",
+      "size": 2871277,
+      "sha256": "2ca0192eebe55897ec6be0be5e3a2d78592768742ae0a0703b5f5bf242bb475b"
+    },
+    {
+      "path": "denuvo64.dll",
+      "size": 7653152,
+      "sha256": "31316ef7624d8973ed24ecfab3cbd339a5c94af5c6ac389f9d561ab3daa30f0f"
+    },
+    {
+      "path": "master/0/00.dat",
+      "size": 495866880,
+      "sha256": "a758610d2b21386d56756b5793a8e00d07e20d4d8ffd097fa7b65916861bee9d"
+    },
+    {
+      "path": "master/0/01.dat",
+      "size": 264920064,
+      "sha256": "1a86a59c622e4d37e70e9ee85ca2026a858053fb081de17fd8317abd2a08f516"
+    },
+    {
+      "path": "master/1/MGSVTUPDATEV0110/0/00.dat",
+      "size": 62381056,
+      "sha256": "2cf982bb8ccf2038daf8721e4c28db46cdaeb5c58f9cd23a9aaf29b55868549d"
+    },
+    {
+      "path": "master/1/MGSVTUPDATEV0110/0/01.dat",
+      "size": 683092992,
+      "sha256": "9856342d9b888a8b99deff546ec59690c2e7dde015209c67f635dc6a63c2223d"
+    },
+    {
+      "path": "master/chunk0.dat",
+      "size": 1521725440,
+      "sha256": "114174cff8f08f076c3870a9ac7df03b029cec9f44b99738f26b17043af92797"
+    },
+    {
+      "path": "master/chunk1.dat",
+      "size": 1680226304,
+      "sha256": "9185fe10e4a2ab9a2b9ee0e85ee062af5ae25b2884754986e925ca3db77106c0"
+    },
+    {
+      "path": "master/chunk2.dat",
+      "size": 3208062976,
+      "sha256": "5b94ffb578aa6e30acb9e8bc79b067a9fad237df44dc2c1a48c7241e7c1dfdb5"
+    },
+    {
+      "path": "master/chunk3.dat",
+      "size": 2001730560,
+      "sha256": "12b968152feeb8a8b6b9d3259692f7300a3fdce1ba815e4175dc821ff577565d"
+    },
+    {
+      "path": "master/chunk4.dat",
+      "size": 2564198400,
+      "sha256": "18d627321caea7468e6384033b7c45895c55f1050e5414adfc6a671dfca68325"
+    },
+    {
+      "path": "master/data1.dat",
+      "size": 296687616,
+      "sha256": "8539e719dfe85123002dd6adb20e649a6d8b38ad723a5564bf3c2c19143a995a"
+    },
+    {
+      "path": "master/e2f8e499bc8f3606.dat",
+      "size": 142925879,
+      "sha256": "d8e576bad2c2c9563aa94208791d3d86758bf33e7f56fb3d48f789360796a8b8"
+    },
+    {
+      "path": "master/e2f9a1fda590d087.dat",
+      "size": 225198023,
+      "sha256": "38632ab34cf69d9b39fa10bc080a1ca501a6f398c6c44387253e8f43564606ea"
+    },
+    {
+      "path": "master/e2faa449a7e0781d.dat",
+      "size": 89517705,
+      "sha256": "c91f4775281cae4bd4f65c64950970b4362bc8a9428c90812f731f31818cdd3c"
+    },
+    {
+      "path": "master/e2fb02c35da41a21.dat",
+      "size": 76821675,
+      "sha256": "a7ab7ed73ff819d4f981c26b2f3568e9bd7f24baa7f54443b1de949f02590c9f"
+    },
+    {
+      "path": "master/e2fbebbd66f86086.dat",
+      "size": 128221861,
+      "sha256": "81523511cc14535a44c42e4e1b8ac1810c27d0eaf4a05685c3765363613586f2"
+    },
+    {
+      "path": "master/texture0.dat",
+      "size": 3527175168,
+      "sha256": "d5938a586eafa20d0697d53bcb7648b6d5ead47f912bb50c2d19b8c816ac31da"
+    },
+    {
+      "path": "master/texture1.dat",
+      "size": 1228731392,
+      "sha256": "26055910755eccdb666e56bc3994b2b742eaab0a5af1f3cbb0e229f5cbdf1ae0"
+    },
+    {
+      "path": "master/texture2.dat",
+      "size": 2920239104,
+      "sha256": "a658d348205beb6c5bdb96ed506504e8bafc05a21d8a080a633a152f58ecc7be"
+    },
+    {
+      "path": "master/texture3.dat",
+      "size": 1297381376,
+      "sha256": "94420491ae3a7dca92e47637b4da0e8c0e70ac4531ffd3c6717ed71ae47e985e"
+    },
+    {
+      "path": "master/texture4.dat",
+      "size": 2031604736,
+      "sha256": "bd561b8b430212824d4dafb5c82162aa17a05b91ad89dc34a0fa70827ca2b0bf"
+    },
+    {
+      "path": "mgo/chunk0.dat",
+      "size": 1841563648,
+      "sha256": "d0b8476500bad378fc12dcff19e084afd78c6ce5e06e094b64094538a2ab0237"
+    },
+    {
+      "path": "mgo/texture0.dat",
+      "size": 4492363776,
+      "sha256": "c7c7d26839b81c48755ffdfdfe3e2ce20f3aa64ae795480219ae99b841c42560"
+    },
+    {
+      "path": "mgsvmgo.exe",
+      "size": 38307840,
+      "sha256": "a68167214dc82dcabd8a3b15c1a296729ca219517c022501ef9a83d112276427"
+    },
+    {
+      "path": "mgsvtpp.exe",
+      "size": 235312128,
+      "sha256": "07cfbe2e9b6d589c97ab371ff267fbea06e994543e44df37b08dfed316421eee"
+    },
+    {
+      "path": "steam_api64.cdx",
+      "size": 211368,
+      "sha256": "08bd0152356e5619ee56a6714ac951b6800dbb21821693a4efaf85278442c60a"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 301856,
+      "sha256": "20c53ca205c149f1528bf285c9e260acc42d6f99cccebf7eacd175b04c8a4064"
+    },
+    {
+      "path": "steam_appid.txt",
+      "size": 6,
+      "sha256": "344f2467f4644383393c23f60fec4c9e3562f882c7df8d52da546f5e356bacd2"
+    },
+    {
+      "path": "steam_emu.ini",
+      "size": 3628,
+      "sha256": "3b0d40237f9803659c4b8af6f656a72d55a642b3f4404d1a1685af7e30eb3a38"
+    },
+    {
+      "path": "version_info.txt",
+      "size": 45,
+      "sha256": "db251caccf2066c5a09f32c05b4595da2f9fe2af98464b878291256aa2fe5c4f"
+    },
+    {
+      "path": "Win11 Fix.rar",
+      "size": 116881694,
+      "sha256": "433a3d43519671f5490a50cd401c9e243303714b9a8c9153db2685385abb15a5"
+    },
+    {
+      "path": "winmm.dll",
+      "size": 168448,
+      "sha256": "2e3bff9f6cbe4ff6f477ca511e00a6da27da8e5795e9487ba188f80c29912bf3"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "CustomSoundtrack/Sands.mp3",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 2871277
+        },
+        {
+          "file": "denuvo64.dll",
+          "file_offset": 0,
+          "chunk_offset": 52091053,
+          "length": 7653152
+        },
+        {
+          "file": "master/0/00.dat",
+          "file_offset": 0,
+          "chunk_offset": 59744205,
+          "length": 495866880
+        },
+        {
+          "file": "master/0/01.dat",
+          "file_offset": 0,
+          "chunk_offset": 555611085,
+          "length": 225178112
+        }
+      ],
+      "sha256": "43e3f03413db5765a25c92196467b72b7aa535b1e76380f1b4944d65088c4a4b"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/0/01.dat",
+          "file_offset": 225178112,
+          "chunk_offset": 0,
+          "length": 39741952
+        },
+        {
+          "file": "master/1/MGSVTUPDATEV0110/0/00.dat",
+          "file_offset": 0,
+          "chunk_offset": 39741952,
+          "length": 62381056
+        },
+        {
+          "file": "master/1/MGSVTUPDATEV0110/0/01.dat",
+          "file_offset": 0,
+          "chunk_offset": 102123008,
+          "length": 678666189
+        }
+      ],
+      "sha256": "323ef1881ac28a59f52f535ea7ed6363f2b2db59f5d299ca4739eda6c7fb5b68"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/1/MGSVTUPDATEV0110/0/01.dat",
+          "file_offset": 678666189,
+          "chunk_offset": 0,
+          "length": 4426803
+        },
+        {
+          "file": "master/chunk0.dat",
+          "file_offset": 0,
+          "chunk_offset": 4426803,
+          "length": 776362394
+        }
+      ],
+      "sha256": "06f1ed4520855ba707739af078282667c55a2c921b4b17fa0f61b4e18a19f6a8"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/chunk0.dat",
+          "file_offset": 776362394,
+          "chunk_offset": 0,
+          "length": 745363046
+        },
+        {
+          "file": "master/chunk1.dat",
+          "file_offset": 0,
+          "chunk_offset": 745363046,
+          "length": 35426151
+        }
+      ],
+      "sha256": "9e90d68b0f6e9f8297ca150e1d702cad6c0933f60dfe70fe48c38f06e83070bb"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/chunk1.dat",
+          "file_offset": 35426151,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "755892e477dcf8d3fbf29c56c5cec2b7d84b2c7bf0eb405a7812a0a397296bff"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/chunk1.dat",
+          "file_offset": 816215348,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "701e130f683732f87b829a875c612f6038f90c71e77b212da4d97e11782ffe5f"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/chunk1.dat",
+          "file_offset": 1597004545,
+          "chunk_offset": 0,
+          "length": 83221759
+        },
+        {
+          "file": "master/chunk2.dat",
+          "file_offset": 0,
+          "chunk_offset": 83221759,
+          "length": 697567438
+        }
+      ],
+      "sha256": "2b1e93f94e5f486100e0e9ce1254551beb621b90cf2857a0c34972aef891e215"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/chunk2.dat",
+          "file_offset": 697567438,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "16933e8ae162ba2775bcf89768400cfa2fc3701bd9970c7ce60f2a42d77d8489"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/chunk2.dat",
+          "file_offset": 1478356635,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "6252a33559c014725a941f14ae8d1025320345ceb1d9285dcbb7184abf64ea92"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/chunk2.dat",
+          "file_offset": 2259145832,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "e7dca218f419935d6592d5c872247fb0c7fe66e0888dc4fc452ef03a82584859"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/chunk2.dat",
+          "file_offset": 3039935029,
+          "chunk_offset": 0,
+          "length": 168127947
+        },
+        {
+          "file": "master/chunk3.dat",
+          "file_offset": 0,
+          "chunk_offset": 168127947,
+          "length": 612661250
+        }
+      ],
+      "sha256": "c084a3671cc32146edfed1b6b07f6bc5e74d25699461900ab870c18db574d608"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/chunk3.dat",
+          "file_offset": 612661250,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "5847b19b21d636504093d853f7470192f9e99fc1178998b23bcd10125a18b707"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/chunk3.dat",
+          "file_offset": 1393450447,
+          "chunk_offset": 0,
+          "length": 608280113
+        },
+        {
+          "file": "master/chunk4.dat",
+          "file_offset": 0,
+          "chunk_offset": 608280113,
+          "length": 172509084
+        }
+      ],
+      "sha256": "2b1bfb8ed03d1986c0d8eef1fa6f3a025dc0aa6b926e44b27907463cda383463"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/chunk4.dat",
+          "file_offset": 172509084,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "65886140328f0253e5050eee82d832796708c655df423e8ec7f5e7e2d45e6e58"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/chunk4.dat",
+          "file_offset": 953298281,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "e4a9de19d08dfd2874087079e4f8b8e9610f2779ba2ea3c93d455831700bd6e1"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/chunk4.dat",
+          "file_offset": 1734087478,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "6c510cf3bdb723c840c809750f1567574cf5539748c1ae17611a27c9cbfa1c69"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/chunk4.dat",
+          "file_offset": 2514876675,
+          "chunk_offset": 0,
+          "length": 49321725
+        },
+        {
+          "file": "master/data1.dat",
+          "file_offset": 0,
+          "chunk_offset": 49321725,
+          "length": 296687616
+        },
+        {
+          "file": "master/e2f8e499bc8f3606.dat",
+          "file_offset": 0,
+          "chunk_offset": 346009341,
+          "length": 142925879
+        },
+        {
+          "file": "master/e2f9a1fda590d087.dat",
+          "file_offset": 0,
+          "chunk_offset": 488935220,
+          "length": 225198023
+        },
+        {
+          "file": "master/e2faa449a7e0781d.dat",
+          "file_offset": 0,
+          "chunk_offset": 714133243,
+          "length": 66655954
+        }
+      ],
+      "sha256": "4394121f68a729d3106f9097e835726a4737521554bcafb1530c2bf96098b207"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/e2faa449a7e0781d.dat",
+          "file_offset": 66655954,
+          "chunk_offset": 0,
+          "length": 22861751
+        },
+        {
+          "file": "master/e2fb02c35da41a21.dat",
+          "file_offset": 0,
+          "chunk_offset": 22861751,
+          "length": 76821675
+        },
+        {
+          "file": "master/e2fbebbd66f86086.dat",
+          "file_offset": 0,
+          "chunk_offset": 99683426,
+          "length": 128221861
+        },
+        {
+          "file": "master/texture0.dat",
+          "file_offset": 0,
+          "chunk_offset": 227905287,
+          "length": 552883910
+        }
+      ],
+      "sha256": "cc0298c675dd34bf97767c3e7ba1902cde4a13184622fca8082e7d67064f9dd1"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/texture0.dat",
+          "file_offset": 552883910,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "61c11ab000099c229ad5644c87332c59a7c4a1609717b3ded7d3718dfd22a8fb"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/texture0.dat",
+          "file_offset": 1333673107,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "509a50726065e69ae068a362c67bfe3878ed5955a729c7b1d8c0ddd437558971"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/texture0.dat",
+          "file_offset": 2114462304,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "88afcbfcafb8fbcc4eb2f0c304c4921f6d1692e3c555f31a74cfc56d07ebe782"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/texture0.dat",
+          "file_offset": 2895251501,
+          "chunk_offset": 0,
+          "length": 631923667
+        },
+        {
+          "file": "master/texture1.dat",
+          "file_offset": 0,
+          "chunk_offset": 631923667,
+          "length": 148865530
+        }
+      ],
+      "sha256": "95b6ce718493d82cc295d2eeac1adbf78bf27bd359f01bab6793e733be105c60"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/texture1.dat",
+          "file_offset": 148865530,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "8b0d1f8038aee4ac1ce7d4d6fb2a3dae21b9d6b97f63aeb0206cbce408873998"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/texture1.dat",
+          "file_offset": 929654727,
+          "chunk_offset": 0,
+          "length": 299076665
+        },
+        {
+          "file": "master/texture2.dat",
+          "file_offset": 0,
+          "chunk_offset": 299076665,
+          "length": 481712532
+        }
+      ],
+      "sha256": "7d8fe2f97e1e92c126cbbbe8a265c844fdba6bbdc9d498a36c38485e5d2bb7dd"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/texture2.dat",
+          "file_offset": 481712532,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "7c2cfadc8b92a8e18435e70758c7886ba42ee6b28454c7ce85d493052e715d77"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/texture2.dat",
+          "file_offset": 1262501729,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "d019c6b42db6d404781fef26fd890b7de6190eba9acbeeea693d490a31da7184"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/texture2.dat",
+          "file_offset": 2043290926,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "73f0dc6e8212692758b562b55f91c5a70b032af73a1762961709abbcba4fbd5e"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/texture2.dat",
+          "file_offset": 2824080123,
+          "chunk_offset": 0,
+          "length": 96158981
+        },
+        {
+          "file": "master/texture3.dat",
+          "file_offset": 0,
+          "chunk_offset": 96158981,
+          "length": 684630216
+        }
+      ],
+      "sha256": "89d6c28447a31e29437ae81cddeb74fe2b9e767a70571cac65a3b313d374aba5"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/texture3.dat",
+          "file_offset": 684630216,
+          "chunk_offset": 0,
+          "length": 612751160
+        },
+        {
+          "file": "master/texture4.dat",
+          "file_offset": 0,
+          "chunk_offset": 612751160,
+          "length": 168038037
+        }
+      ],
+      "sha256": "7db599a4f9f7d260a213df12bf3b0e2b7a939016ca042fe2de8b01b683999d9e"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/texture4.dat",
+          "file_offset": 168038037,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "d56a83aa83ddb658a03e0cd7d2fb36fb4fb227ee91b51ced59cd3949cc4ff4fd"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/texture4.dat",
+          "file_offset": 948827234,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "9c6aa7bb1b6b79ccbbd997558ea250d6059ab82c7c9d3ee15fdd32d2c9b66b23"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "master/texture4.dat",
+          "file_offset": 1729616431,
+          "chunk_offset": 0,
+          "length": 301988305
+        },
+        {
+          "file": "mgo/chunk0.dat",
+          "file_offset": 0,
+          "chunk_offset": 301988305,
+          "length": 478800892
+        }
+      ],
+      "sha256": "57af8dced6ac13920d9f8e09ea72c5e33eb69351667911734fd079ef544b478d"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "mgo/chunk0.dat",
+          "file_offset": 478800892,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "14176f26e543deb2f44ca91c49b9e897ae53df99f2d0f5eecc832e00813ab53e"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "mgo/chunk0.dat",
+          "file_offset": 1259590089,
+          "chunk_offset": 0,
+          "length": 581973559
+        },
+        {
+          "file": "mgo/texture0.dat",
+          "file_offset": 0,
+          "chunk_offset": 581973559,
+          "length": 198815638
+        }
+      ],
+      "sha256": "7f9492bf40f2c933b2bd0ce2e25513439f1d676265c0cbc32d2a596a0fd959fc"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "mgo/texture0.dat",
+          "file_offset": 198815638,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "2265bbc4e5b4cc6145e33cbbb23e62ee505f5aed9701f125d1533495b0779383"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "mgo/texture0.dat",
+          "file_offset": 979604835,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "c2cf586163309e7b8a718cef87eb1b33b3a58361e954bceaa9d3d75267be059d"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "mgo/texture0.dat",
+          "file_offset": 1760394032,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "8e1bea8177bd51e26d3fc021bbe141f1fdd397f32da97583eadf50bef7a08df9"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "mgo/texture0.dat",
+          "file_offset": 2541183229,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "f5cf497f4d480ccfdbcfbc68a4b1135f30b186666a71a613d4ea77d53bd920f2"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 780789197,
+      "segments": [
+        {
+          "file": "mgo/texture0.dat",
+          "file_offset": 3321972426,
+          "chunk_offset": 0,
+          "length": 780789197
+        }
+      ],
+      "sha256": "34fefbdc6d88b326c1410b85cd8562c285cda056bc5cf8f038ea7a415849c0a7"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 780789166,
+      "segments": [
+        {
+          "file": "mgo/texture0.dat",
+          "file_offset": 4102761623,
+          "chunk_offset": 0,
+          "length": 389602153
+        },
+        {
+          "file": "mgsvmgo.exe",
+          "file_offset": 0,
+          "chunk_offset": 389602153,
+          "length": 38307840
+        },
+        {
+          "file": "mgsvtpp.exe",
+          "file_offset": 0,
+          "chunk_offset": 427909993,
+          "length": 235312128
+        },
+        {
+          "file": "steam_api64.cdx",
+          "file_offset": 0,
+          "chunk_offset": 663222121,
+          "length": 211368
+        },
+        {
+          "file": "steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 663433489,
+          "length": 301856
+        },
+        {
+          "file": "steam_appid.txt",
+          "file_offset": 0,
+          "chunk_offset": 663735345,
+          "length": 6
+        },
+        {
+          "file": "steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 663735351,
+          "length": 3628
+        },
+        {
+          "file": "version_info.txt",
+          "file_offset": 0,
+          "chunk_offset": 663738979,
+          "length": 45
+        },
+        {
+          "file": "Win11 Fix.rar",
+          "file_offset": 0,
+          "chunk_offset": 663739024,
+          "length": 116881694
+        },
+        {
+          "file": "winmm.dll",
+          "file_offset": 0,
+          "chunk_offset": 780620718,
+          "length": 168448
+        }
+      ],
+      "sha256": "d130610f92534a5fbff4fb2abbfaa1f1003699d8af89f6cb614970f8cc8c3dc2"
+    }
+  ]
+}
