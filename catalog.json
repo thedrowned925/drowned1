@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-01T20:32:37.232122+00:00",
+  "updated_at": "2026-09-01T21:00:31.957911+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2712,6 +2712,41 @@
       },
       "media": {
         "steam_app_id": 287700
+      }
+    },
+    {
+      "id": "far-cry-4",
+      "title": "Far Cry® 4",
+      "platform": "pc",
+      "description": "Fight to liberate a war-torn Himalayan region in this open world FPS. Wield a deadly arsenal, dominate land and sky with gyrocopters and war elephants, and take on enemy territory solo or in co-op.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/far-cry-4/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/far-cry-4/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/far-cry-4/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/far-cry-4/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/far-cry-4/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/far-cry-4/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/far-cry-4/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/far-cry-4/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/far-cry-4/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/far-cry-4/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/far-cry-4/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/far-cry-4/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-far-cry-4-v1.0.0-stable",
+          "manifest_path": "manifests/pc/far-cry-4/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/far-cry-4/stable/1.0.0.json",
+          "size": 35462664683,
+          "published_at": "2026-09-01T21:00:31.957532+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 298110
       }
     }
   ]
