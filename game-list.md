@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 80
-- **Toplam aktif sürüm/kanal:** 80
-- **Toplam aktif boyut:** 1885.044 GB · 1.885 TB
-- **Katalog güncelleme zamanı:** 2026-08-29 00:05:08 UTC
+- **Toplam oyun:** 81
+- **Toplam aktif sürüm/kanal:** 81
+- **Toplam aktif boyut:** 1916.276 GB · 1.916 TB
+- **Katalog güncelleme zamanı:** 2026-09-01 20:32:37 UTC
 
 ## PC
 
-**80 oyun · 80 aktif sürüm/kanal · 1885.044 GB · 1.885 TB**
+**81 oyun · 81 aktif sürüm/kanal · 1916.276 GB · 1.916 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -69,6 +69,7 @@
 | Mass Effect (2007) | 1.0.0 | stable | 24.338 | 0.024 | `pc-mass-effect-2007-v1.0.0-stable` |
 | Mass Effect 2 (2010 Edition) | 1.0.0 | stable | 29.915 | 0.030 | `pc-mass-effect-2-2010-edition-v1.0.0-stable` |
 | Max Payne | 1.0.0 | stable | 0.924 | 0.001 | `pc-max-payne-v1.0.0-stable` |
+| METAL GEAR SOLID V: THE PHANTOM PAIN | 1.0.0 | stable | 31.232 | 0.031 | `pc-metal-gear-solid-v-the-phantom-pain-v1.0.0-stable` |
 | Middle-earth™: Shadow of Mordor™ | 1.0.0 | stable | 55.510 | 0.056 | `pc-middle-earth-shadow-of-mordor-v1.0.0-stable` |
 | NieR:Automata™ | 1.0.0 | stable | 28.805 | 0.029 | `pc-nier-automata-v1.0.0-stable` |
 | Ori and the Blind Forest: Definitive Edition | 1.0.0 | stable | 11.108 | 0.011 | `pc-ori-and-the-blind-forest-definitive-edition-v1.0.0-stable` |
