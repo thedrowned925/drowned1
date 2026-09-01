@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-29T00:05:08.318695+00:00",
+  "updated_at": "2026-09-01T20:32:37.232122+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2677,6 +2677,41 @@
       },
       "media": {
         "steam_app_id": 638230
+      }
+    },
+    {
+      "id": "metal-gear-solid-v-the-phantom-pain",
+      "title": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+      "platform": "pc",
+      "description": "Ushering in a new era for the METAL GEAR franchise with cutting-edge technology powered by the Fox Engine, METAL GEAR SOLID V: The Phantom Pain, will provide players a first-rate gaming experience as they are offered tactical freedom to carry out open-world missions.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/metal-gear-solid-v-the-phantom-pain/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/metal-gear-solid-v-the-phantom-pain/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/metal-gear-solid-v-the-phantom-pain/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/metal-gear-solid-v-the-phantom-pain/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/metal-gear-solid-v-the-phantom-pain/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/metal-gear-solid-v-the-phantom-pain/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/metal-gear-solid-v-the-phantom-pain/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/metal-gear-solid-v-the-phantom-pain/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/metal-gear-solid-v-the-phantom-pain/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/metal-gear-solid-v-the-phantom-pain/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/metal-gear-solid-v-the-phantom-pain/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/metal-gear-solid-v-the-phantom-pain/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-metal-gear-solid-v-the-phantom-pain-v1.0.0-stable",
+          "manifest_path": "manifests/pc/metal-gear-solid-v-the-phantom-pain/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/metal-gear-solid-v-the-phantom-pain/stable/1.0.0.json",
+          "size": 31231567849,
+          "published_at": "2026-09-01T20:32:37.231400+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 287700
       }
     }
   ]
