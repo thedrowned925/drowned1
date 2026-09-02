@@ -23,7 +23,7 @@ jobs:
         app:
           - name: Drowned-Release-Manager
             dir: windows/release-manager
-            entry: app_v10.py
+            entry: app_v11.py
           - name: Drowned-Launcher
             dir: windows/launcher
             entry: app_v18.py
@@ -51,6 +51,7 @@ jobs:
           python -m py_compile shared/python/drowned_shared/addons.py
           python -m py_compile shared/python/drowned_shared/addon_publish.py
           python -m py_compile shared/python/drowned_shared/addon_delete.py
+          python -m py_compile windows/release-manager/game_prepare.py
           python -m py_compile "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
 
       - name: Run shared protocol tests
@@ -79,6 +80,14 @@ jobs:
           }
           if (-not (Select-String -Path archive-contents.txt -Pattern "drowned_shared.addons" -Quiet)) {
             throw "PyInstaller archive does not contain optional-package backend"
+          }
+          if ("${{ matrix.app.name }}" -eq "Drowned-Release-Manager") {
+            if (-not (Select-String -Path archive-contents.txt -Pattern "game_prepare" -Quiet)) {
+              throw "Release Manager archive does not contain game_prepare"
+            }
+            if (-not (Select-String -Path archive-contents.txt -Pattern "psutil" -Quiet)) {
+              throw "Release Manager archive does not contain psutil process telemetry"
+            }
           }
 
       - name: Launch smoke test
