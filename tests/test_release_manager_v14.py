@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import ast
+import importlib.util
 import sqlite3
 import sys
 import tempfile
@@ -15,8 +16,12 @@ BRIDGE = RELEASE_DIR / "fdm_bridge.py"
 WORKFLOW = ROOT / ".github" / "workflows" / "build-windows.yml"
 REQUIREMENTS = RELEASE_DIR / "requirements.txt"
 
-sys.path.insert(0, str(RELEASE_DIR))
-from fdm_bridge import FdmDatabaseReader  # noqa: E402
+HAS_PSUTIL = importlib.util.find_spec("psutil") is not None
+if HAS_PSUTIL:
+    sys.path.insert(0, str(RELEASE_DIR))
+    from fdm_bridge import FdmDatabaseReader  # noqa: E402
+else:
+    FdmDatabaseReader = None
 
 
 class ReleaseManagerV14Tests(unittest.TestCase):
@@ -35,7 +40,9 @@ class ReleaseManagerV14Tests(unittest.TestCase):
         self.assertIn('APP_VERSION = "0.14.0"', source)
         self.assertIn("FDM tarafından yönetiliyor", source)
 
+    @unittest.skipUnless(HAS_PSUTIL, "FDM runtime dependencies are installed only in Release Manager matrix job")
     def test_fdm_reader_uses_fdm_database_progress_and_speed(self):
+        assert FdmDatabaseReader is not None
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             database = root / "fdm.sqlite"
