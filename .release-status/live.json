@@ -1,6 +1,6 @@
 {
   "active": true,
-  "phase": "upload",
+  "phase": "metadata",
   "kind": "game",
   "title": "God of War Ragnarök",
   "platform": "PC",
@@ -10,5 +10,5 @@
   "total_sent": 172095946463,
   "total_size": 172095946463,
   "message": "",
-  "updated_at": "2026-09-02T11:37:54.560872+00:00"
+  "updated_at": "2026-09-02T11:37:55.642985+00:00"
 }
