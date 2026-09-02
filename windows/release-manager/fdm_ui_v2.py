@@ -14,6 +14,7 @@ FIRST_CONFIRM_TEXTS = {"tamam", "ok", "add"}
 START_BUTTON_TEXTS = {"indir", "download", "başlat", "baslat", "start"}
 URL_LABEL_TOKENS = ("url girin", "enter url", "torrent dosyas", "torrent file")
 FOLDER_LABEL_TOKENS = ("kaydet", "save to", "save in", "klasör", "klasor", "folder", "konum", "location")
+_ORIGINAL_FIND_DATABASE = base.find_fdm_database
 
 
 def _norm(value: str) -> str:
@@ -80,9 +81,11 @@ def _largest_root(desktop, pids: list[int]):
     roots = _roots(desktop, pids)
     if not roots:
         return None
+
     def area(window):
         rect = _rect(window)
         return max(1, rect.width()) * max(1, rect.height()) if rect else 1
+
     return max(roots, key=area)
 
 
@@ -92,13 +95,10 @@ def _find_exact_button(root, texts: set[str]):
     for button in _descendants(root, "Button"):
         if not _visible(button):
             continue
-        value = _norm(_text(button))
-        if value in wanted:
+        if _norm(_text(button)) in wanted:
             candidates.append(button)
     if not candidates:
         return None
-    # Prefer the left-most/top-most match. For the main window this selects the
-    # real "İndirme ekle" button and never the search field.
     return min(candidates, key=lambda item: (_center(item)[1], _center(item)[0]))
 
 
@@ -130,9 +130,6 @@ def _pick_url_edit(root, confirm_button):
             continue
         x, y = _center(edit)
         score = 0.0
-        # The real URL input is directly above the TAMAM/OK button inside the
-        # add-download modal. The main FDM search box sits at the very top and
-        # receives a strong penalty.
         dy = confirm_y - y
         if 10 <= dy <= 220:
             score += 260.0 - dy
@@ -141,14 +138,14 @@ def _pick_url_edit(root, confirm_button):
         score -= abs(confirm_x - x) * 0.08
         if rect.width() >= 260:
             score += 25.0
+        # Prevent the exact bug seen in v15: the main search box is in the top
+        # bar, while the add-download URL edit is inside the modal below it.
         if root_rect is not None and rect.top < root_rect.top + 70:
             score -= 600.0
         current = _norm(_text(edit))
         if current.startswith("http://") or current.startswith("https://"):
             score += 20.0
         for label in labels:
-            # Screenshot/UI contract: URL field is immediately below the
-            # "URL girin veya torrent dosyasını seçin" label.
             if rect.top >= label.bottom and rect.top - label.bottom <= 90:
                 score += 500.0
                 break
@@ -217,35 +214,12 @@ def _wait_for_button(desktop, pids: list[int], texts: set[str], timeout: float):
     return None, None
 
 
-def _database_has_url(url: str) -> bool:
-    database = find_fdm_database_v2()
-    if database is None:
-        return False
-    try:
-        uri = database.resolve().as_uri() + "?mode=ro"
-        connection = sqlite3.connect(uri, uri=True, timeout=0.5)
-        try:
-            for (table,) in connection.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'"):
-                try:
-                    columns = [row[1] for row in connection.execute(f'PRAGMA table_info("{str(table).replace(chr(34), chr(34)*2)}")')]
-                    if not columns:
-                        continue
-                    rows = connection.execute(f'SELECT * FROM "{str(table).replace(chr(34), chr(34)*2)}" ORDER BY rowid DESC LIMIT 120').fetchall()
-                except sqlite3.DatabaseError:
-                    continue
-                needle = url.lower()
-                for row in rows:
-                    if any(needle in str(value).lower() for value in row if value is not None):
-                        return True
-        finally:
-            connection.close()
-    except Exception:
-        return False
-    return False
+def _quoted(name: str) -> str:
+    return '"' + str(name).replace('"', '""') + '"'
 
 
 def find_fdm_database_v2() -> Path | None:
-    existing = base.find_fdm_database()
+    existing = _ORIGINAL_FIND_DATABASE()
     if existing:
         return existing
     roots = []
@@ -266,7 +240,7 @@ def find_fdm_database_v2() -> Path | None:
         for pattern in ("*.sqlite", "*.db", "*.sqlite3"):
             try:
                 candidates.extend(root.glob(pattern))
-                candidates.extend(root.glob("*/*" + pattern[1:]))
+                candidates.extend(root.glob("*/" + pattern))
             except OSError:
                 pass
     candidates = [path for path in candidates if path.is_file()]
@@ -275,14 +249,44 @@ def find_fdm_database_v2() -> Path | None:
     return max(candidates, key=lambda path: path.stat().st_mtime)
 
 
+def _database_has_url(url: str) -> bool:
+    database = find_fdm_database_v2()
+    if database is None:
+        return False
+    try:
+        uri = database.resolve().as_uri() + "?mode=ro"
+        connection = sqlite3.connect(uri, uri=True, timeout=0.5)
+        try:
+            tables = connection.execute(
+                "SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'"
+            ).fetchall()
+            needle = url.lower()
+            for (table,) in tables:
+                try:
+                    quoted = _quoted(str(table))
+                    columns = [row[1] for row in connection.execute(f"PRAGMA table_info({quoted})")]
+                    if not columns:
+                        continue
+                    rows = connection.execute(f"SELECT * FROM {quoted} ORDER BY rowid DESC LIMIT 120").fetchall()
+                except sqlite3.DatabaseError:
+                    continue
+                for row in rows:
+                    if any(needle in str(value).lower() for value in row if value is not None):
+                        return True
+        finally:
+            connection.close()
+    except Exception:
+        return False
+    return False
+
+
 def _configure_second_dialog(desktop, pids: list[int], target_dir: Path, url: str, log):
-    """Handle FDM's post-URL "Save to / Download" confirmation when present."""
+    """Handle FDM's post-URL 'Save to / Download' confirmation when present."""
     deadline = time.monotonic() + 12.0
     while time.monotonic() < deadline:
-        # If FDM already created the job, there may be no second confirmation in
-        # the user's UI mode. Do not click arbitrary controls after that point.
-        if _database_has_url(url):
-            return
+        # Prefer a visible Save-to/Download dialog over the database signal. FDM
+        # may create an internal task before the user presses the final Download
+        # button, so checking the database first can skip destination selection.
         for root in _roots(desktop, pids):
             action = _find_exact_button(root, START_BUTTON_TEXTS)
             if action is None:
@@ -294,13 +298,14 @@ def _configure_second_dialog(desktop, pids: list[int], target_dir: Path, url: st
             action.click_input()
             log(f"FDM hedef klasörü ayarlandı: {target_dir}")
             return
+        if _database_has_url(url):
+            return
         time.sleep(0.15)
-    # Some FDM layouts use the configured default folder and immediately create
-    # the job after the first TAMAM. The downloader later verifies the actual
-    # FDM job path, so we do not guess/click anything here.
 
 
-def submit_to_fdm_v2(url: str, target_dir: Path, log=base.base._noop):
+def submit_to_fdm_v2(url: str, target_dir: Path, log=None):
+    if log is None:
+        log = base.base._noop
     if os.name != "nt":
         raise RuntimeError("FDM otomatik entegrasyonu şu anda Windows build'inde destekleniyor.")
     executable = base.find_fdm_executable()
@@ -317,6 +322,7 @@ def submit_to_fdm_v2(url: str, target_dir: Path, log=base.base._noop):
 
     desktop = Desktop(backend="uia")
     main = None
+    add_button = None
     deadline = time.monotonic() + 15
     while time.monotonic() < deadline:
         pids = list(dict.fromkeys(pids + base._fdm_pids()))
@@ -326,11 +332,11 @@ def submit_to_fdm_v2(url: str, target_dir: Path, log=base.base._noop):
             if add_button is not None:
                 break
         time.sleep(0.2)
-    else:
+    if main is None or add_button is None:
         raise RuntimeError("FDM ana penceresinde 'İndirme ekle / Add download' butonu bulunamadı.")
 
-    # Critical v16 fix: click the actual Add Download button. Never use Ctrl+J
-    # and never target the main search box.
+    # Critical v16 fix: click the real Add Download button. Never use Ctrl+J and
+    # never type into the main search box.
     main.set_focus()
     add_button.click_input()
     log("FDM: 'İndirme ekle' butonuna basıldı.")
@@ -348,8 +354,9 @@ def submit_to_fdm_v2(url: str, target_dir: Path, log=base.base._noop):
     _configure_second_dialog(desktop, pids, target_dir, url, log)
 
 
-# Patch helpers used by the existing FdmDownloader without touching extraction,
-# EXE detection, game test, cleanup or upload code.
 def install():
+    # Existing FdmDownloader resolves these names from fdm_bridge at runtime, so
+    # patching only these two functions leaves extraction/test/cleanup/upload
+    # untouched.
     base.submit_to_fdm = submit_to_fdm_v2
     base.find_fdm_database = find_fdm_database_v2
