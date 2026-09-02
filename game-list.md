@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 87
-- **Toplam aktif sürüm/kanal:** 87
-- **Toplam aktif boyut:** 2205.493 GB · 2.205 TB
-- **Katalog güncelleme zamanı:** 2026-09-02 12:10:14 UTC
+- **Toplam oyun:** 88
+- **Toplam aktif sürüm/kanal:** 88
+- **Toplam aktif boyut:** 2253.645 GB · 2.254 TB
+- **Katalog güncelleme zamanı:** 2026-09-02 12:43:38 UTC
 
 ## PC
 
-**87 oyun · 87 aktif sürüm/kanal · 2205.493 GB · 2.205 TB**
+**88 oyun · 88 aktif sürüm/kanal · 2253.645 GB · 2.254 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -64,6 +64,7 @@
 | Horizon Zero Dawn™ Complete Edition | 1.0.0 | stable | 67.720 | 0.068 | `pc-horizon-zero-dawn-complete-edition-v1.0.0-stable` |
 | Hotline Miami | 1.0.0 | stable | 0.637 | 0.001 | `pc-hotline-miami-v1.0.0-stable` |
 | INSIDE | 1.0.0 | stable | 2.440 | 0.002 | `pc-inside-v1.0.0-stable` |
+| It Takes Two | 1.0.0 | stable | 48.153 | 0.048 | `pc-it-takes-two-v1.0.0-stable` |
 | Journey | 1.0.0 | stable | 3.683 | 0.004 | `pc-journey-v1.0.0-stable` |
 | Life is Strange - Episode 1 | 1.0.0 | stable | 15.073 | 0.015 | `pc-life-is-strange-episode-1-v1.0.0-stable` |
 | LIMBO | 1.0.0 | stable | 0.115 | 0.000 | `pc-limbo-v1.0.0-stable` |
