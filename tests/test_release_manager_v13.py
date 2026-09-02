@@ -36,9 +36,9 @@ class ReleaseManagerV13Tests(unittest.TestCase):
         self.assertIn("shutil.copyfileobj", source)
         self.assertIn("seg_path.unlink", source)
 
-    def test_windows_build_uses_v13(self):
+    def test_latest_windows_build_supersedes_v13_with_v14(self):
         workflow = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v13.py", workflow)
+        self.assertIn("dir: windows/release-manager\n            entry: app_v14.py", workflow)
 
 
 if __name__ == "__main__":
