@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 86
-- **Toplam aktif sürüm/kanal:** 86
-- **Toplam aktif boyut:** 2170.534 GB · 2.171 TB
-- **Katalog güncelleme zamanı:** 2026-09-02 11:38:25 UTC
+- **Toplam oyun:** 87
+- **Toplam aktif sürüm/kanal:** 87
+- **Toplam aktif boyut:** 2205.493 GB · 2.205 TB
+- **Katalog güncelleme zamanı:** 2026-09-02 12:10:14 UTC
 
 ## PC
 
-**86 oyun · 86 aktif sürüm/kanal · 2170.534 GB · 2.171 TB**
+**87 oyun · 87 aktif sürüm/kanal · 2205.493 GB · 2.205 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -72,6 +72,7 @@
 | Mass Effect (2007) | 1.0.0 | stable | 24.338 | 0.024 | `pc-mass-effect-2007-v1.0.0-stable` |
 | Mass Effect 2 (2010 Edition) | 1.0.0 | stable | 29.915 | 0.030 | `pc-mass-effect-2-2010-edition-v1.0.0-stable` |
 | Max Payne | 1.0.0 | stable | 0.924 | 0.001 | `pc-max-payne-v1.0.0-stable` |
+| Max Payne 3 | 1.0.0 | stable | 34.958 | 0.035 | `pc-max-payne-3-v1.0.0-stable` |
 | METAL GEAR SOLID V: THE PHANTOM PAIN | 1.0.0 | stable | 31.232 | 0.031 | `pc-metal-gear-solid-v-the-phantom-pain-v1.0.0-stable` |
 | Middle-earth™: Shadow of Mordor™ | 1.0.0 | stable | 55.510 | 0.056 | `pc-middle-earth-shadow-of-mordor-v1.0.0-stable` |
 | NieR:Automata™ | 1.0.0 | stable | 28.805 | 0.029 | `pc-nier-automata-v1.0.0-stable` |
