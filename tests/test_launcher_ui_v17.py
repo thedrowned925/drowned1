@@ -7,7 +7,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 V17 = ROOT / "windows" / "launcher" / "app_v17.py"
-WORKFLOW = ROOT / ".github" / "workflows" / "build-windows.yml"
 
 
 class LauncherUIV17Tests(unittest.TestCase):
@@ -65,9 +64,9 @@ class LauncherUIV17Tests(unittest.TestCase):
         self.assertIn("self.big_picture.show()", source, "reparented big_picture must be un-hidden explicitly")
         self.assertIn("self._show_classic_shell", source, "must keep an explicit way back to the old list-rail UI")
 
-    def test_windows_build_uses_v17(self):
-        workflow = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/launcher\n            entry: app_v17.py", workflow)
+    # Whether the Windows build actually points at v17 is superseded by
+    # app_v18 (see test_launcher_ui_v18.py); this file only asserts
+    # properties of v17's own source, not which version ships.
 
 
 if __name__ == "__main__":
