@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-02T08:27:17.388030+00:00",
+  "updated_at": "2026-09-02T08:40:08.711265+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2813,6 +2813,41 @@
       },
       "media": {
         "steam_app_id": 8930
+      }
+    },
+    {
+      "id": "call-of-duty-modern-warfare-3-2011",
+      "title": "Call of Duty®: Modern Warfare® 3 (2011)",
+      "platform": "pc",
+      "description": "The best-selling first-person action series of all-time returns with an epic sequel to the multiple GOTY award winner Call of Duty®: Modern Warfare® 2",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-modern-warfare-3-2011/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-modern-warfare-3-2011/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-modern-warfare-3-2011/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-modern-warfare-3-2011/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-modern-warfare-3-2011/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-modern-warfare-3-2011/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-modern-warfare-3-2011/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-modern-warfare-3-2011/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-modern-warfare-3-2011/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-modern-warfare-3-2011/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-modern-warfare-3-2011/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-modern-warfare-3-2011/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-call-of-duty-modern-warfare-3-2011-v1.0.0-stable",
+          "manifest_path": "manifests/pc/call-of-duty-modern-warfare-3-2011/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/call-of-duty-modern-warfare-3-2011/stable/1.0.0.json",
+          "size": 18441965634,
+          "published_at": "2026-09-02T08:40:08.711243+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 42680
       }
     }
   ]
