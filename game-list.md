@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 85
-- **Toplam aktif sürüm/kanal:** 85
-- **Toplam aktif boyut:** 1998.438 GB · 1.998 TB
-- **Katalog güncelleme zamanı:** 2026-09-02 08:40:08 UTC
+- **Toplam oyun:** 86
+- **Toplam aktif sürüm/kanal:** 86
+- **Toplam aktif boyut:** 2170.534 GB · 2.171 TB
+- **Katalog güncelleme zamanı:** 2026-09-02 11:38:25 UTC
 
 ## PC
 
-**85 oyun · 85 aktif sürüm/kanal · 1998.438 GB · 1.998 TB**
+**86 oyun · 86 aktif sürüm/kanal · 2170.534 GB · 2.171 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -50,6 +50,7 @@
 | Far Cry® 4 | 1.0.0 | stable | 35.463 | 0.035 | `pc-far-cry-4-v1.0.0-stable` |
 | Firewatch | 1.0.0 | stable | 4.312 | 0.004 | `pc-firewatch-v1.0.0-stable` |
 | God of War | 1.0.0 | stable | 66.388 | 0.066 | `pc-god-of-war-v1.0.0-stable` |
+| God of War Ragnarök | 1.0.0 | beta | 172.096 | 0.172 | `pc-god-of-war-ragnar-k-v1.0.0-beta` |
 | Grand Theft Auto III | 1.0.0 | stable | 1.351 | 0.001 | `pc-grand-theft-auto-iii-v1.0.0-stable` |
 | Grand Theft Auto IV: The Complete Edition | 1.0.0 | stable | 23.783 | 0.024 | `pc-grand-theft-auto-iv-the-complete-edition-v1.0.0-stable` |
 | Grand Theft Auto V Enhanced | 1.0.0 | stable | 103.274 | 0.103 | `pc-grand-theft-auto-v-enhanced-v1.0.0-stable` |
