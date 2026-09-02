@@ -11,7 +11,7 @@ fdm_ui_v3.install()
 class Manager(previous.Manager):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle(f"Drowned Release Manager {APP_VERSION} • FDM visual bridge")
+        self.setWindowTitle(f"Drowned Release Manager {APP_VERSION} • FDM Ctrl+V bridge")
 
 def main():
     app = QApplication(sys.argv)
