@@ -1,4 +1,4 @@
-name: Build Drowned Control v1.0.0
+name: Build Drowned Control v1.1.0
 
 on:
   workflow_dispatch:
@@ -37,20 +37,20 @@ jobs:
       - name: Verify APK
         run: |
           test -f mobile/control-app/app/build/outputs/apk/debug/app-debug.apk
-          cp mobile/control-app/app/build/outputs/apk/debug/app-debug.apk Drowned-Control-v1.0.0.apk
-          ls -lh Drowned-Control-v1.0.0.apk
+          cp mobile/control-app/app/build/outputs/apk/debug/app-debug.apk Drowned-Control-v1.1.0.apk
+          ls -lh Drowned-Control-v1.1.0.apk
 
       - name: Publish GitHub Release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release view "drowned-control-v1.0.0" >/dev/null 2>&1; then
-            gh release upload "drowned-control-v1.0.0" Drowned-Control-v1.0.0.apk --clobber
+          if gh release view "drowned-control-v1.1.0" >/dev/null 2>&1; then
+            gh release upload "drowned-control-v1.1.0" Drowned-Control-v1.1.0.apk --clobber
           else
-            gh release create "drowned-control-v1.0.0" \
-              --title "Drowned Control v1.0.0 - Android" \
-              --notes "Read-only Android dashboard for Drowned releases. Shows game artwork, versions/channels, per-game size, total catalog storage, search/filter and cached offline viewing. Contains no GitHub PAT and has no write/delete/publish capability." \
-              Drowned-Control-v1.0.0.apk
+            gh release create "drowned-control-v1.1.0" \
+              --title "Drowned Control v1.1.0 - Android" \
+              --notes "Read-only Android dashboard for Drowned releases. v1.1.0 adds a Release Manager tab that tracks GitHub Actions pipeline runs, published GitHub Releases, and per-component build status files. The original catalog dashboard is unchanged. Contains no GitHub PAT and has no write/delete/publish capability." \
+              Drowned-Control-v1.1.0.apk
           fi
 
       - name: Report build status

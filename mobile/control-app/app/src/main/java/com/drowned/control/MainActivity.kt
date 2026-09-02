@@ -19,6 +19,8 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.NavigationBar
+import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -27,6 +29,10 @@ import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Icon
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Build
+import androidx.compose.material.icons.filled.Public
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
@@ -36,6 +42,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -50,6 +57,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.json.JSONObject
 import java.net.HttpURLConnection
@@ -206,6 +215,37 @@ fun DrownedTheme(content: @Composable () -> Unit) {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DrownedControlApp() {
+    var tab by rememberSaveable { mutableStateOf(0) }
+    Scaffold(
+        bottomBar = {
+            NavigationBar(containerColor = Color(0xFF101923)) {
+                NavigationBarItem(
+                    selected = tab == 0,
+                    onClick = { tab = 0 },
+                    icon = { Icon(Icons.Filled.Public, contentDescription = null) },
+                    label = { Text("Katalog") },
+                )
+                NavigationBarItem(
+                    selected = tab == 1,
+                    onClick = { tab = 1 },
+                    icon = { Icon(Icons.Filled.Build, contentDescription = null) },
+                    label = { Text("Yayınlar") },
+                )
+            }
+        }
+    ) { padding ->
+        Box(modifier = Modifier.fillMaxSize().padding(padding)) {
+            when (tab) {
+                0 -> CatalogTab()
+                else -> ReleaseTab()
+            }
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun CatalogTab() {
     val context = LocalContext.current
     var catalog by remember { mutableStateOf<Catalog?>(null) }
     var error by remember { mutableStateOf<String?>(null) }
@@ -256,6 +296,43 @@ fun DrownedControlApp() {
             else -> LoadingState(Modifier.padding(padding))
         }
     }
+}
+
+// Live-tracks GitHub Actions runs: polls fast while a build/upload is in progress, slow when idle.
+// Conditional GET (ETag) in ReleaseRepository makes the fast interval safe against GitHub's rate limit.
+private const val RELEASE_POLL_ACTIVE_MS = 8_000L
+private const val RELEASE_POLL_IDLE_MS = 45_000L
+
+@Composable
+private fun ReleaseTab() {
+    val context = LocalContext.current
+    val scope = rememberCoroutineScope()
+    var dashboard by remember { mutableStateOf<com.drowned.control.release.ReleaseDashboard?>(null) }
+    var error by remember { mutableStateOf<String?>(null) }
+
+    suspend fun refreshOnce() {
+        try {
+            dashboard = com.drowned.control.release.ReleaseRepository.load(context)
+            error = null
+        } catch (throwable: Throwable) {
+            if (dashboard == null) error = throwable.message ?: "Dağıtım durumu alınamadı."
+        }
+    }
+
+    LaunchedEffect(Unit) {
+        while (true) {
+            refreshOnce()
+            val hasLiveRuns = dashboard?.runningRuns?.isNotEmpty() == true
+            delay(if (hasLiveRuns) RELEASE_POLL_ACTIVE_MS else RELEASE_POLL_IDLE_MS)
+        }
+    }
+
+    com.drowned.control.release.ReleaseManagerScreen(
+        dashboard = dashboard,
+        isLoading = dashboard == null && error == null,
+        error = error,
+        onRefresh = { scope.launch { refreshOnce() } },
+    )
 }
 
 @Composable
