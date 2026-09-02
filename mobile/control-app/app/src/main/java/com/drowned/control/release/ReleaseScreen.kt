@@ -164,14 +164,14 @@ fun ReleaseManagerScreen(
 
 @Composable
 private fun OverviewSummary(dashboard: ReleaseDashboard) {
+    val running = dashboard.runningRuns.size
+    val failed = dashboard.failedRuns.size
+    val releases = dashboard.releases.size
+    val totalDownloads = dashboard.releases.sumOf { it.totalDownloads }
     Row(
         modifier = Modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.spacedBy(8.dp),
     ) {
-        val running = dashboard.runningRuns.size
-        val failed = dashboard.failedRuns.size
-        val releases = dashboard.releases.size
-        val totalDownloads = dashboard.releases.sumOf { it.totalDownloads }
         SummaryStat("ÇALIŞAN", running.toString(), ColorRunning, Modifier.weight(1f))
         SummaryStat("BAŞARISIZ", failed.toString(), ColorFailure, Modifier.weight(1f))
         SummaryStat("YAYIN", releases.toString(), ColorAccent, Modifier.weight(1f))
@@ -438,7 +438,6 @@ private fun MetaTag(label: String, value: String, color: Color) {
         color = color,
         maxLines = 1,
         overflow = TextOverflow.Ellipsis,
-        modifier = Modifier.weight(1f, fill = false),
     )
 }
 

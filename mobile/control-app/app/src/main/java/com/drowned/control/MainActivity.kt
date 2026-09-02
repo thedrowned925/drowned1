@@ -32,7 +32,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Icon
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Build
-import androidx.compose.material.icons.filled.Public
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
@@ -222,7 +222,7 @@ fun DrownedControlApp() {
                 NavigationBarItem(
                     selected = tab == 0,
                     onClick = { tab = 0 },
-                    icon = { Icon(Icons.Filled.Public, contentDescription = null) },
+                    icon = { Icon(Icons.Filled.Home, contentDescription = null) },
                     label = { Text("Katalog") },
                 )
                 NavigationBarItem(
