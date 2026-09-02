@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import ctypes
+from ctypes import wintypes
 import os
 import time
 from collections import deque
@@ -17,18 +18,41 @@ import fdm_ui_v2 as previous_ui
 
 
 def _set_clipboard_text(text: str) -> None:
-    """Put unicode text on the Windows clipboard without extra dependencies."""
+    """Put Unicode text on the Windows clipboard using 64-bit-safe Win32 types."""
     if os.name != "nt":
         raise RuntimeError("FDM görsel otomasyonu yalnız Windows'ta kullanılabilir.")
+
     user32 = ctypes.windll.user32
     kernel32 = ctypes.windll.kernel32
     GMEM_MOVEABLE = 0x0002
     CF_UNICODETEXT = 13
 
+    # ctypes defaults to c_int for unspecified Win32 return values. On 64-bit
+    # Windows that can truncate HGLOBAL/pointers, so define every relevant
+    # signature explicitly.
+    kernel32.GlobalAlloc.argtypes = [wintypes.UINT, ctypes.c_size_t]
+    kernel32.GlobalAlloc.restype = wintypes.HGLOBAL
+    kernel32.GlobalLock.argtypes = [wintypes.HGLOBAL]
+    kernel32.GlobalLock.restype = ctypes.c_void_p
+    kernel32.GlobalUnlock.argtypes = [wintypes.HGLOBAL]
+    kernel32.GlobalUnlock.restype = wintypes.BOOL
+    kernel32.GlobalFree.argtypes = [wintypes.HGLOBAL]
+    kernel32.GlobalFree.restype = wintypes.HGLOBAL
+
+    user32.OpenClipboard.argtypes = [wintypes.HWND]
+    user32.OpenClipboard.restype = wintypes.BOOL
+    user32.EmptyClipboard.argtypes = []
+    user32.EmptyClipboard.restype = wintypes.BOOL
+    user32.SetClipboardData.argtypes = [wintypes.UINT, wintypes.HANDLE]
+    user32.SetClipboardData.restype = wintypes.HANDLE
+    user32.CloseClipboard.argtypes = []
+    user32.CloseClipboard.restype = wintypes.BOOL
+
     data = (text + "\0").encode("utf-16-le")
     handle = kernel32.GlobalAlloc(GMEM_MOVEABLE, len(data))
     if not handle:
         raise RuntimeError("Windows clipboard belleği ayrılamadı.")
+
     pointer = kernel32.GlobalLock(handle)
     if not pointer:
         kernel32.GlobalFree(handle)
@@ -38,18 +62,31 @@ def _set_clipboard_text(text: str) -> None:
     finally:
         kernel32.GlobalUnlock(handle)
 
-    if not user32.OpenClipboard(None):
+    # Clipboard can be momentarily busy (browser/FDM/clipboard history). Retry
+    # briefly instead of failing the whole preparation job immediately.
+    opened = False
+    for _ in range(20):
+        if user32.OpenClipboard(None):
+            opened = True
+            break
+        time.sleep(0.025)
+    if not opened:
         kernel32.GlobalFree(handle)
         raise RuntimeError("Windows clipboard açılamadı.")
+
+    transferred = False
     try:
-        user32.EmptyClipboard()
-        if not user32.SetClipboardData(CF_UNICODETEXT, handle):
-            kernel32.GlobalFree(handle)
+        if not user32.EmptyClipboard():
+            raise RuntimeError("Windows clipboard temizlenemedi.")
+        result = user32.SetClipboardData(CF_UNICODETEXT, handle)
+        if not result:
             raise RuntimeError("URL clipboard'a yazılamadı.")
-        # Ownership passes to the OS after SetClipboardData succeeds.
-        handle = None
+        # Ownership transfers to Windows after SetClipboardData succeeds.
+        transferred = True
     finally:
         user32.CloseClipboard()
+        if not transferred:
+            kernel32.GlobalFree(handle)
 
 
 def _is_fdm_blue(rgb: tuple[int, int, int]) -> bool:
