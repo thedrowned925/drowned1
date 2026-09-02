@@ -30,7 +30,7 @@ jobs:
         app:
           - name: Drowned-Release-Manager
             dir: windows/release-manager
-            entry: app_v14.py
+            entry: app_v15.py
           - name: Drowned-Launcher
             dir: windows/launcher
             entry: app_v18.py
