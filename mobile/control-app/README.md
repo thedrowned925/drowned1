@@ -18,18 +18,22 @@ Drowned Control is a read-only Android dashboard for the Drowned distribution re
 
 ### Release Manager tab (v1.1)
 
+- **Live desktop upload card**: while the Windows Release Manager desktop tool is actively uploading a game/channel or optional package, the phone shows its title, platform/channel/version, phase (preparing/uploading/writing metadata) and live percentage — independent of GitHub Actions, since a desktop upload doesn't necessarily trigger a CI run
 - Overview summary: running builds, failed builds, release count, total downloads, latest run status
 - GitHub Actions pipeline runs (status, conclusion, event, branch, actor, run number) with filter chips
-- **Live progress per running run**: current stage name and completion percentage, computed from the run's job/step list (`GET /actions/runs/{id}/jobs`)
-- Auto-refresh: polls every 8s while a build is in progress, every 45s when idle — no manual refresh needed to watch an upload land
+- Live progress per running CI run: current stage name and completion percentage, computed from the run's job/step list (`GET /actions/runs/{id}/jobs`)
+- Auto-refresh: polls every 8s while a CI build or a desktop upload is in progress, every 45s when idle — no manual refresh needed to watch either one land
 - Published GitHub Releases with asset list, sizes, download counts and draft/prerelease badges
 - Per-component build status read from `.build-status/*.txt` files written by CI workflows
 - Tap a run or release to open its GitHub page in the browser
 - Offline fallback to the last successfully downloaded dashboard
 
-The Release Manager tab is connected to the release pipeline: it reads the same GitHub Actions runs and Releases that the Release Manager desktop tool produces, and it reads the `.build-status` files that the build workflows write after every run. This lets you track upload/build status, live, directly from the phone.
+The Release Manager tab is connected to the whole release pipeline, both halves of it:
 
-Polling uses conditional GET (`If-None-Match` / ETag) against the GitHub API: an unchanged resource returns HTTP 304, which does not count against GitHub's unauthenticated 60-req/hour rate limit. This is what makes frequent polling safe without a token.
+- **CI**: it reads the same GitHub Actions runs and Releases that the build workflows produce, and the `.build-status` files those workflows write after every run.
+- **Desktop uploads**: the Windows Release Manager app (`windows/release-manager`) writes `.release-status/live.json` every few seconds while a chunked upload is running (via `drowned_shared.upload_status.UploadStatusBroadcaster`, using the same GitHub Contents API call the catalog/manifests already go through — no new server, no new credential). The phone just reads that file back.
+
+Polling uses conditional GET (`If-None-Match` / ETag) against the GitHub Actions/Releases API: an unchanged resource returns HTTP 304, which does not count against GitHub's unauthenticated 60-req/hour rate limit. This is what makes frequent polling safe without a token. The two raw files (`.build-status/*.txt`, `.release-status/live.json`) are served from raw.githubusercontent.com and aren't subject to that quota at all.
 
 ## Security model
 

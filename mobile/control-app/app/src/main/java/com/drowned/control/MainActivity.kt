@@ -322,8 +322,9 @@ private fun ReleaseTab() {
     LaunchedEffect(Unit) {
         while (true) {
             refreshOnce()
-            val hasLiveRuns = dashboard?.runningRuns?.isNotEmpty() == true
-            delay(if (hasLiveRuns) RELEASE_POLL_ACTIVE_MS else RELEASE_POLL_IDLE_MS)
+            val hasRunningBuild = dashboard?.runningRuns?.isNotEmpty() == true
+            val hasLiveUpload = dashboard?.liveUpload?.let { it.active && it.isFresh } == true
+            delay(if (hasRunningBuild || hasLiveUpload) RELEASE_POLL_ACTIVE_MS else RELEASE_POLL_IDLE_MS)
         }
     }
 

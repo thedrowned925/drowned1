@@ -1,5 +1,13 @@
 package com.drowned.control.release
 
+/** minSdk 26 ships java.time natively, no desugaring needed. */
+internal fun parseIsoInstantMillis(raw: String): Long? =
+    try {
+        java.time.Instant.parse(raw).toEpochMilli()
+    } catch (_: Exception) {
+        null
+    }
+
 data class JobStep(
     val name: String,
     val status: String,
@@ -81,10 +89,43 @@ data class BuildStatus(
     val time: String,
 )
 
+/**
+ * Mirrors the JSON the desktop Release Manager writes to `.release-status/live.json`
+ * (via drowned_shared.upload_status.UploadStatusBroadcaster) while an upload is in
+ * flight. This is the only bridge between a live desktop upload and the phone - the
+ * upload itself has nothing to do with GitHub Actions.
+ */
+data class LiveUploadStatus(
+    val active: Boolean,
+    val phase: String,
+    val kind: String,
+    val title: String,
+    val platform: String,
+    val channel: String,
+    val version: String,
+    val percent: Int,
+    val totalSent: Long,
+    val totalSize: Long,
+    val message: String,
+    val updatedAt: String,
+) {
+    /** Guards against a crashed desktop run leaving a stuck "active" status behind. */
+    val isFresh: Boolean
+        get() {
+            val updatedMillis = parseIsoInstantMillis(updatedAt) ?: return false
+            return System.currentTimeMillis() - updatedMillis < STALE_AFTER_MS
+        }
+
+    companion object {
+        private const val STALE_AFTER_MS = 60_000L
+    }
+}
+
 data class ReleaseDashboard(
     val workflowRuns: List<WorkflowRun>,
     val releases: List<ReleaseInfo>,
     val buildStatuses: List<BuildStatus>,
+    val liveUpload: LiveUploadStatus?,
     val fromCache: Boolean,
 ) {
     val latestRun: WorkflowRun? get() = workflowRuns.firstOrNull()

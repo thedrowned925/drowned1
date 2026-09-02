@@ -18,6 +18,7 @@ from PySide6.QtWidgets import (
 )
 
 import app_v5 as previous
+from drowned_shared.upload_status import UploadStatusBroadcaster
 
 APP_VERSION = "0.6.0"
 
@@ -251,10 +252,19 @@ class TelemetryPublishWorker(previous.MediaPublishWorker):
     telemetry = Signal(object)
 
     def run(self):
+        broadcaster = None
         try:
             p = self.params
             client = previous.GitHubClient(p["token"], p["owner"], p["repo"], p["branch"])
             client.repo_info()
+            broadcaster = UploadStatusBroadcaster(
+                client, "game", p["title"], p["platform"], p["channel"], p["version"]
+            )
+
+            def on_telemetry(snapshot):
+                self.telemetry.emit(snapshot)
+                broadcaster.update(snapshot)
+
             manifest = previous.publish_project(
                 client,
                 Path(p["source"]),
@@ -268,10 +278,13 @@ class TelemetryPublishWorker(previous.MediaPublishWorker):
                 log=self.log.emit,
                 cancelled=lambda: self.cancelled,
                 media=p.get("media") or None,
-                detailed_progress=self.telemetry.emit,
+                detailed_progress=on_telemetry,
             )
+            broadcaster.finish()
             self.done.emit(manifest["release"]["tag"])
         except Exception as exc:
+            if broadcaster:
+                broadcaster.fail(str(exc))
             self.error.emit(previous.legacy.permission_message(exc))
 
 

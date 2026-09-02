@@ -21,6 +21,8 @@ private val BUILD_STATUS_FILES = listOf(
     "optional-packages-v1" to ".build-status/optional-packages-v1.txt",
 )
 
+private const val LIVE_UPLOAD_STATUS_PATH = ".release-status/live.json"
+
 object ReleaseRepository {
 
     suspend fun load(context: Context): ReleaseDashboard = withContext(Dispatchers.IO) {
@@ -29,6 +31,7 @@ object ReleaseRepository {
             val runs = fetchWorkflowRuns(prefs)
             val releases = fetchReleases(prefs)
             val statuses = fetchBuildStatuses()
+            val liveUpload = fetchLiveUploadStatus()
             val runsWithJobs = runs.map { run ->
                 if (run.isLive) {
                     try {
@@ -38,7 +41,7 @@ object ReleaseRepository {
                     }
                 } else run
             }
-            val dashboard = ReleaseDashboard(runsWithJobs, releases, statuses, fromCache = false)
+            val dashboard = ReleaseDashboard(runsWithJobs, releases, statuses, liveUpload, fromCache = false)
             prefs.edit().putString("release_dashboard", serialize(dashboard)).apply()
             dashboard
         } catch (error: Exception) {
@@ -191,6 +194,37 @@ object ReleaseRepository {
             parseBuildStatus(name, text)
         }
     }
+
+    private fun fetchLiveUploadStatus(): LiveUploadStatus? {
+        val connection = openConnection("$RAW_BASE/$LIVE_UPLOAD_STATUS_PATH")
+        connection.connect()
+        if (connection.responseCode !in 200..299) {
+            connection.disconnect()
+            return null
+        }
+        val text = readAll(connection)
+        connection.disconnect()
+        return try {
+            parseLiveUploadStatus(JSONObject(text))
+        } catch (error: Exception) {
+            null
+        }
+    }
+
+    private fun parseLiveUploadStatus(item: JSONObject): LiveUploadStatus = LiveUploadStatus(
+        active = item.optBoolean("active"),
+        phase = item.optString("phase"),
+        kind = item.optString("kind"),
+        title = item.optString("title"),
+        platform = item.optString("platform"),
+        channel = item.optString("channel"),
+        version = item.optString("version"),
+        percent = item.optInt("percent"),
+        totalSent = item.optLong("total_sent"),
+        totalSize = item.optLong("total_size"),
+        message = item.optString("message"),
+        updatedAt = item.optString("updated_at"),
+    )
 
     private fun parseBuildStatus(name: String, text: String): BuildStatus {
         var status = "unknown"
@@ -366,6 +400,7 @@ object ReleaseRepository {
                 )
             }
         }
-        return ReleaseDashboard(runs, releases, statuses, fromCache = true)
+        // Live upload status is deliberately not cached - it is only meaningful in the moment.
+        return ReleaseDashboard(runs, releases, statuses, liveUpload = null, fromCache = true)
     }
 }

@@ -32,6 +32,7 @@ from drowned_shared.chunking import ChunkBuilder
 from drowned_shared.github_client import GitHubClient
 from drowned_shared.metadata import load_catalog
 from drowned_shared.turbo_upload import choose_upload_plan
+from drowned_shared.upload_status import UploadStatusBroadcaster
 from drowned_shared.util import format_bytes, slugify
 
 APP_VERSION = "0.10.0"
@@ -49,10 +50,19 @@ class OptionalPackageWorker(QObject):
         self.cancelled = False
 
     def run(self):
+        broadcaster = None
         try:
             p = self.params
             client = GitHubClient(p["token"], p["owner"], p["repo"], p["branch"])
             client.repo_info()
+            broadcaster = UploadStatusBroadcaster(
+                client, "addon", p["package_title"], p["platform"], p["channel"], p["package_version"]
+            )
+
+            def on_progress(sent, total):
+                self.progress.emit(int(sent * 100 / max(total, 1)))
+                broadcaster.update_simple(sent, total)
+
             manifest = publish_optional_package(
                 client,
                 Path(p["source"]),
@@ -64,14 +74,15 @@ class OptionalPackageWorker(QObject):
                 p["package_id"],
                 p["package_version"],
                 p["description"],
-                progress=lambda sent, total: self.progress.emit(
-                    int(sent * 100 / max(total, 1))
-                ),
+                progress=on_progress,
                 log=self.log.emit,
                 cancelled=lambda: self.cancelled,
             )
+            broadcaster.finish()
             self.done.emit(manifest)
         except Exception as exc:
+            if broadcaster:
+                broadcaster.fail(str(exc))
             self.error.emit(str(exc))
 
 

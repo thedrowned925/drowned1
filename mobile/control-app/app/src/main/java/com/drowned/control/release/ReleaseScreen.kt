@@ -94,6 +94,10 @@ fun ReleaseManagerScreen(
                     }
                 }
             }
+            val liveUpload = dashboard.liveUpload
+            if (liveUpload != null && liveUpload.active && liveUpload.isFresh) {
+                item { LiveUploadCard(liveUpload) }
+            }
             item { OverviewSummary(dashboard) }
             item {
                 LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -160,6 +164,72 @@ fun ReleaseManagerScreen(
         }
         item { Spacer(Modifier.height(24.dp)) }
     }
+}
+
+@Composable
+private fun LiveUploadCard(status: LiveUploadStatus) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(containerColor = ColorSurface),
+        shape = RoundedCornerShape(16.dp),
+    ) {
+        Column(Modifier.padding(16.dp)) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Box(Modifier.size(9.dp).clip(CircleShape).background(ColorRunning))
+                    Spacer(Modifier.width(8.dp))
+                    Text(
+                        "CANLI YÜKLEME",
+                        fontSize = 12.sp,
+                        fontWeight = FontWeight.ExtraBold,
+                        color = ColorRunning,
+                    )
+                }
+                Text("%${status.percent}", fontSize = 18.sp, fontWeight = FontWeight.ExtraBold, color = ColorRunning)
+            }
+            Spacer(Modifier.height(8.dp))
+            Text(
+                status.title,
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color(0xFFEAF2F8),
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+            )
+            Spacer(Modifier.height(4.dp))
+            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                if (status.platform.isNotBlank()) MetaTag("platform", status.platform, ColorNeutral)
+                if (status.channel.isNotBlank()) MetaTag("kanal", status.channel, ColorNeutral)
+                if (status.version.isNotBlank()) MetaTag("sürüm", status.version, ColorNeutral)
+                if (status.kind == "addon") MetaTag("tür", "ek paket", ColorNeutral)
+            }
+            Spacer(Modifier.height(10.dp))
+            LinearProgressIndicator(
+                progress = { status.percent / 100f },
+                modifier = Modifier.fillMaxWidth().height(8.dp).clip(RoundedCornerShape(4.dp)),
+                color = ColorRunning,
+                trackColor = ColorSurfaceAlt,
+            )
+            Spacer(Modifier.height(6.dp))
+            Text(
+                formatUploadPhase(status.phase) +
+                    if (status.totalSize > 0) " · ${formatBytes(status.totalSent)} / ${formatBytes(status.totalSize)}" else "",
+                fontSize = 12.sp,
+                color = ColorNeutral,
+            )
+        }
+    }
+}
+
+private fun formatUploadPhase(phase: String): String = when (phase) {
+    "plan" -> "Hazırlanıyor"
+    "upload" -> "Yükleniyor"
+    "metadata" -> "Meta veri yazılıyor"
+    else -> phase
 }
 
 @Composable
