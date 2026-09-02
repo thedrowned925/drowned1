@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 84
-- **Toplam aktif sürüm/kanal:** 84
-- **Toplam aktif boyut:** 1979.997 GB · 1.980 TB
-- **Katalog güncelleme zamanı:** 2026-09-02 08:27:17 UTC
+- **Toplam oyun:** 85
+- **Toplam aktif sürüm/kanal:** 85
+- **Toplam aktif boyut:** 1998.438 GB · 1.998 TB
+- **Katalog güncelleme zamanı:** 2026-09-02 08:40:08 UTC
 
 ## PC
 
-**84 oyun · 84 aktif sürüm/kanal · 1979.997 GB · 1.980 TB**
+**85 oyun · 85 aktif sürüm/kanal · 1998.438 GB · 1.998 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -30,6 +30,7 @@
 | Call of Duty® 4: Modern Warfare® (2007) | 1.0.0 | stable | 6.975 | 0.007 | `pc-call-of-duty-4-modern-warfare-2007-v1.0.0-stable` |
 | Call of Duty®: Black Ops | 1.0.0 | stable | 12.096 | 0.012 | `pc-call-of-duty-black-ops-v1.0.0-stable` |
 | Call of Duty®: Modern Warfare® 2 (2009) | 1.0.0 | stable | 12.833 | 0.013 | `pc-call-of-duty-modern-warfare-2-2009-v1.0.0-stable` |
+| Call of Duty®: Modern Warfare® 3 (2011) | 1.0.0 | stable | 18.442 | 0.018 | `pc-call-of-duty-modern-warfare-3-2011-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 0.015 | `pc-captured-2-v1.0.0-stable` |
 | Celeste | 1.0.0 | stable | 2.737 | 0.003 | `pc-celeste-v1.0.0-stable` |
 | Cyberpunk 2077 | 1.0.0 | stable | 102.015 | 0.102 | `pc-cyberpunk-2077-v1.0.0-stable` |
