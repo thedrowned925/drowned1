@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import ast
 import unittest
 from pathlib import Path
 
@@ -27,9 +26,9 @@ class ReleaseManagerV15Tests(unittest.TestCase):
         self.assertIn("DROWNED_FDM_PATH", source)
         self.assertIn("App Paths\\fdm.exe", source)
 
-    def test_windows_build_uses_v15(self):
+    def test_windows_build_supersedes_v15(self):
         source = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v15.py", source)
+        self.assertIn("dir: windows/release-manager\n            entry: app_v16.py", source)
 
 
 if __name__ == "__main__":
