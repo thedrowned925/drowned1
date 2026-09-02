@@ -76,6 +76,14 @@ def _segment_path(segment_dir: Path, index: int) -> Path:
     return segment_dir / f"{index:06d}.part"
 
 
+def _legacy_path(path: Path) -> Path:
+    candidate = path.with_name(path.name + ".legacy-v12")
+    if not candidate.exists():
+        return candidate
+    stamp = int(time.time())
+    return path.with_name(path.name + f".legacy-v12-{stamp}")
+
+
 class ProgressiveParallelDownloader(base.ParallelDownloader):
     """Range downloader tuned for fast residential gigabit connections.
 
@@ -178,13 +186,21 @@ class ProgressiveParallelDownloader(base.ParallelDownloader):
                 state = None
 
         if state is None:
-            # Old v11/v12 Range state used an already pre-sized sparse/random
-            # access file. It cannot be safely resumed as a contiguous file.
-            if part.exists() or segment_dir.exists() or state_path.exists():
-                self.log("Eski indirme state'i progressive mod ile uyumsuz; indirme temiz olarak yeniden başlatılıyor.")
-            part.unlink(missing_ok=True)
-            shutil.rmtree(segment_dir, ignore_errors=True)
-            state_path.unlink(missing_ok=True)
+            # v11/v12 used one pre-sized random-access .part file. It cannot be
+            # safely resumed as a contiguous progressive file. Preserve it as a
+            # legacy backup instead of silently deleting already downloaded data.
+            if part.exists():
+                legacy = _legacy_path(part)
+                os.replace(part, legacy)
+                self.log(
+                    f"Eski v12 .part progressive mod ile uyumsuz; korundu: {legacy.name}. "
+                    "Yeni indirme temiz olarak başlayacak."
+                )
+            if state_path.exists():
+                legacy_state = _legacy_path(state_path)
+                os.replace(state_path, legacy_state)
+            if segment_dir.exists():
+                shutil.rmtree(segment_dir, ignore_errors=True)
             segment_dir.mkdir(parents=True, exist_ok=True)
             self._write_progressive_state(probe, 0, force=True)
             return 0
