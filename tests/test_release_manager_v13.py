@@ -33,7 +33,7 @@ class ReleaseManagerV13Tests(unittest.TestCase):
 
     def test_latest_windows_build_supersedes_v13(self):
         workflow = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v16.py", workflow)
+        self.assertIn("dir: windows/release-manager\n            entry: app_v17.py", workflow)
 
 
 if __name__ == "__main__":
