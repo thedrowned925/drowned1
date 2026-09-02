@@ -12,15 +12,12 @@ import fdm_ui_v2 as previous_ui
 
 
 def _set_clipboard_text(text: str) -> None:
-    """Put Unicode text on the Windows clipboard using 64-bit-safe Win32 types."""
     if os.name != "nt":
         raise RuntimeError("FDM görsel otomasyonu yalnız Windows'ta kullanılabilir.")
-
     user32 = ctypes.windll.user32
     kernel32 = ctypes.windll.kernel32
     GMEM_MOVEABLE = 0x0002
     CF_UNICODETEXT = 13
-
     kernel32.GlobalAlloc.argtypes = [wintypes.UINT, ctypes.c_size_t]
     kernel32.GlobalAlloc.restype = wintypes.HGLOBAL
     kernel32.GlobalLock.argtypes = [wintypes.HGLOBAL]
@@ -37,7 +34,6 @@ def _set_clipboard_text(text: str) -> None:
     user32.SetClipboardData.restype = wintypes.HANDLE
     user32.CloseClipboard.argtypes = []
     user32.CloseClipboard.restype = wintypes.BOOL
-
     data = (text + "\0").encode("utf-16-le")
     handle = kernel32.GlobalAlloc(GMEM_MOVEABLE, len(data))
     if not handle:
@@ -50,7 +46,6 @@ def _set_clipboard_text(text: str) -> None:
         ctypes.memmove(pointer, data, len(data))
     finally:
         kernel32.GlobalUnlock(handle)
-
     opened = False
     for _ in range(20):
         if user32.OpenClipboard(None):
@@ -60,7 +55,6 @@ def _set_clipboard_text(text: str) -> None:
     if not opened:
         kernel32.GlobalFree(handle)
         raise RuntimeError("Windows clipboard açılamadı.")
-
     transferred = False
     try:
         if not user32.EmptyClipboard():
@@ -92,7 +86,6 @@ def _blue_components(image, *, x0=0.0, y0=0.0, x1=1.0, y1=1.0, step: int = 2):
         for x in range(left, right, step):
             if _is_fdm_blue(pixels[x, y]):
                 points.add((x // step, y // step))
-
     components = []
     while points:
         start = points.pop()
@@ -111,13 +104,7 @@ def _blue_components(image, *, x0=0.0, y0=0.0, x1=1.0, y1=1.0, step: int = 2):
                 if neighbor in points:
                     points.remove(neighbor)
                     queue.append(neighbor)
-        components.append({
-            "x": min_x * step,
-            "y": min_y * step,
-            "w": (max_x - min_x + 1) * step,
-            "h": (max_y - min_y + 1) * step,
-            "samples": count,
-        })
+        components.append({"x": min_x * step, "y": min_y * step, "w": (max_x - min_x + 1) * step, "h": (max_y - min_y + 1) * step, "samples": count})
     return components
 
 
@@ -130,7 +117,6 @@ def _to_screen(main, image, x: float, y: float) -> tuple[int, int]:
 
 def _click_component(main, image, component) -> None:
     from pywinauto import mouse
-
     x = component["x"] + component["w"] / 2
     y = component["y"] + component["h"] / 2
     mouse.click(button="left", coords=_to_screen(main, image, x, y))
@@ -138,7 +124,6 @@ def _click_component(main, image, component) -> None:
 
 def _find_main_window(pids: list[int]):
     from pywinauto import Desktop
-
     desktop = Desktop(backend="uia")
     deadline = time.monotonic() + 12
     while time.monotonic() < deadline:
@@ -167,23 +152,22 @@ def _find_add_button(image):
 
 
 def _find_url_outline(image):
-    """Locate the real modal URL edit from its long blue focused border.
-
-    On the user's FDM 6.34.4 build the URL edit begins close to the left edge.
-    Sampling can therefore see only its long top border instead of a connected
-    rectangle. A >=220px horizontal blue component is enough; when only the
-    border is visible we synthesize a 40px-high click region below that border.
-    """
-    candidates = []
+    raw = []
     for item in _blue_components(image, x0=0.015, y0=0.07, x1=0.97, y1=0.78):
-        if item["w"] < 220 or item["h"] > 95:
-            continue
-        normalized = dict(item)
-        if normalized["h"] < 14:
-            normalized["h"] = 40
-        score = normalized["w"] + normalized["samples"] * 0.15
-        candidates.append((score, normalized))
-    return max(candidates, default=(0, None), key=lambda pair: pair[0])[1]
+        if item["w"] >= 220 and item["h"] <= 95:
+            raw.append(item)
+    if not raw:
+        return None
+    max_width = max(item["w"] for item in raw)
+    # The focused edit can appear as two disconnected long horizontal edges.
+    # Pick the top edge among near-equal widest components, then synthesize the
+    # interior click region below it. This matches FDM 6.34.4 exactly.
+    near_widest = [item for item in raw if item["w"] >= max_width * 0.90]
+    chosen = min(near_widest, key=lambda item: item["y"])
+    normalized = dict(chosen)
+    if normalized["h"] < 14:
+        normalized["h"] = 40
+    return normalized
 
 
 def _find_confirm_button(image):
@@ -203,11 +187,7 @@ def _open_add_dialog_visually(main, log=base._noop):
         _click_component(main, image, button)
         log(f"FDM: görsel Add Download düğmesi bulundu ({button['x']},{button['y']} {button['w']}x{button['h']}).")
         return
-
     from pywinauto import mouse
-
-    # Calibrated against the user's actual FDM 6.34.4 screenshot. The search box
-    # is farther right, so this fallback cannot reproduce the old search-box bug.
     fallback_x = image.size[0] * 0.735
     fallback_y = image.size[1] * 0.072
     mouse.click(button="left", coords=_to_screen(main, image, fallback_x, fallback_y))
@@ -236,13 +216,11 @@ def submit_to_fdm(url: str, target_dir: Path, log=base._noop):
     target_dir = Path(target_dir).resolve()
     target_dir.mkdir(parents=True, exist_ok=True)
     pids = base._ensure_fdm_running(executable)
-
     try:
         from pywinauto import Desktop
         from pywinauto.keyboard import send_keys
     except ImportError as exc:
         raise RuntimeError("FDM otomasyonu için pywinauto paketi bulunamadı.") from exc
-
     main = _find_main_window(pids)
     try:
         main.restore()
@@ -252,21 +230,16 @@ def submit_to_fdm(url: str, target_dir: Path, log=base._noop):
         main.set_focus()
     except Exception:
         pass
-
     _open_add_dialog_visually(main, log)
     image, outline = _wait_for_url_dialog(main)
     if image is None or outline is None:
         raise RuntimeError("FDM 'İndirme ekle' penceresi açıldı ancak gerçek URL alanı görsel olarak bulunamadı.")
-
-    # Always focus the modal field explicitly before typing. The top search box
-    # never receives keyboard input from Release Manager.
     _click_component(main, image, outline)
     _set_clipboard_text(url)
     time.sleep(0.05)
     send_keys("^a")
     send_keys("^v")
     time.sleep(0.12)
-
     confirm_image = main.capture_as_image()
     confirm = _find_confirm_button(confirm_image)
     if confirm is not None:
@@ -275,17 +248,12 @@ def submit_to_fdm(url: str, target_dir: Path, log=base._noop):
     else:
         send_keys("{ENTER}")
         log("FDM: TAMAM rengi bulunamadı; odaklı modal URL alanında Enter kullanıldı.")
-
-    # If FDM exposes a second Save-to/Download dialog, set the Release Manager
-    # folder there before starting. Otherwise FdmDownloader still verifies the
-    # final FDM path equals target_dir and refuses unsafe silent relocation.
     try:
         desktop = Desktop(backend="uia")
         pids = list(dict.fromkeys(pids + base._fdm_pids()))
         previous_ui._configure_second_dialog(desktop, pids, target_dir, url, log)
     except Exception as exc:
         log(f"FDM hedef klasör ek ekranı otomatik ayarlanamadı: {exc}")
-
     log(f"FDM indirme isteği gönderildi: {executable}")
 
 
