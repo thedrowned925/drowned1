@@ -32,9 +32,7 @@ class ReleaseManagerV14Tests(unittest.TestCase):
             node for node in tree.body
             if isinstance(node, ast.ClassDef) and node.name == "Manager"
         )
-        methods = {
-            node.name for node in manager.body if isinstance(node, ast.FunctionDef)
-        }
+        methods = {node.name for node in manager.body if isinstance(node, ast.FunctionDef)}
         self.assertEqual(methods, {"__init__"})
         self.assertIn("game_prepare_base.ParallelDownloader = FdmDownloader", source)
         self.assertIn('APP_VERSION = "0.14.0"', source)
@@ -50,20 +48,11 @@ class ReleaseManagerV14Tests(unittest.TestCase):
             target.mkdir()
             url = "https://example.test/files/game.rar"
             output = target / "game.rar"
-
             connection = sqlite3.connect(database)
-            connection.execute(
-                "CREATE TABLE downloads ("
-                "url TEXT, target_path TEXT, total_bytes INTEGER, downloaded_bytes INTEGER, "
-                "speed INTEGER, status TEXT, connections INTEGER)"
-            )
-            connection.execute(
-                "INSERT INTO downloads VALUES (?, ?, ?, ?, ?, ?, ?)",
-                (url, str(output), 1000, 250, 125, "downloading", 16),
-            )
+            connection.execute("CREATE TABLE downloads (url TEXT, target_path TEXT, total_bytes INTEGER, downloaded_bytes INTEGER, speed INTEGER, status TEXT, connections INTEGER)")
+            connection.execute("INSERT INTO downloads VALUES (?, ?, ?, ?, ?, ?, ?)", (url, str(output), 1000, 250, 125, "downloading", 16))
             connection.commit()
             connection.close()
-
             reader = FdmDatabaseReader(database, url, "game.rar", target)
             snapshot = reader.snapshot(1000)
             self.assertIsNotNone(snapshot)
@@ -73,14 +62,10 @@ class ReleaseManagerV14Tests(unittest.TestCase):
             self.assertEqual(snapshot.speed, 125)
             self.assertEqual(snapshot.connections, 16)
             self.assertFalse(snapshot.completed)
-
             connection = sqlite3.connect(database)
-            connection.execute(
-                "UPDATE downloads SET downloaded_bytes = 1000, status = 'completed'"
-            )
+            connection.execute("UPDATE downloads SET downloaded_bytes = 1000, status = 'completed'")
             connection.commit()
             connection.close()
-
             snapshot = reader.snapshot(1000)
             self.assertIsNotNone(snapshot)
             assert snapshot is not None
@@ -95,10 +80,10 @@ class ReleaseManagerV14Tests(unittest.TestCase):
         self.assertIn("FDM download kaydı", source)
         self.assertNotIn("output.stat().st_size -", source)
 
-    def test_windows_build_packages_v14_fdm_bridge(self):
+    def test_windows_build_packages_fdm_bridge_and_latest_manager(self):
         workflow = WORKFLOW.read_text(encoding="utf-8")
         requirements = REQUIREMENTS.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v14.py", workflow)
+        self.assertIn("dir: windows/release-manager\n            entry: app_v15.py", workflow)
         self.assertIn("python -m py_compile windows/release-manager/fdm_bridge.py", workflow)
         self.assertIn('Pattern "fdm_bridge"', workflow)
         self.assertIn('Pattern "pywinauto"', workflow)
