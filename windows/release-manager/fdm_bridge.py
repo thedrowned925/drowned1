@@ -20,6 +20,7 @@ import game_prepare as base
 FDM_PROCESS_NAMES = {"fdm.exe", "fdm"}
 COMPLETE_WORDS = ("complete", "completed", "finished", "done", "success", "seeding")
 ERROR_WORDS = ("error", "failed", "failure")
+_FDM_OVERRIDE: Path | None = None
 
 
 @dataclass
@@ -36,7 +37,70 @@ class FdmSnapshot:
     table: str = ""
 
 
+def set_fdm_override(path: str | os.PathLike[str] | None):
+    global _FDM_OVERRIDE
+    if not path:
+        _FDM_OVERRIDE = None
+        return
+    candidate = Path(path).expanduser()
+    _FDM_OVERRIDE = candidate if candidate.is_file() else None
+
+
+def _running_fdm_executable() -> Path | None:
+    for process in psutil.process_iter(["name", "exe"]):
+        try:
+            name = str(process.info.get("name") or "").lower()
+            exe = str(process.info.get("exe") or "").strip()
+            lower = exe.lower()
+            if name in FDM_PROCESS_NAMES or lower.endswith("\\fdm.exe") or lower.endswith("/fdm.exe"):
+                if exe:
+                    candidate = Path(exe)
+                    if candidate.is_file():
+                        return candidate
+        except (psutil.AccessDenied, psutil.NoSuchProcess, OSError):
+            pass
+    return None
+
+
+def _registry_fdm_executable() -> Path | None:
+    if os.name != "nt":
+        return None
+    try:
+        import winreg
+    except ImportError:
+        return None
+    keys = [
+        (winreg.HKEY_CURRENT_USER, r"Software\Microsoft\Windows\CurrentVersion\App Paths\fdm.exe"),
+        (winreg.HKEY_LOCAL_MACHINE, r"Software\Microsoft\Windows\CurrentVersion\App Paths\fdm.exe"),
+        (winreg.HKEY_LOCAL_MACHINE, r"Software\WOW6432Node\Microsoft\Windows\CurrentVersion\App Paths\fdm.exe"),
+    ]
+    for hive, key_name in keys:
+        try:
+            with winreg.OpenKey(hive, key_name) as key:
+                value, _ = winreg.QueryValueEx(key, None)
+                candidate = Path(str(value).strip(' "'))
+                if candidate.is_file():
+                    return candidate
+        except OSError:
+            continue
+    return None
+
+
 def find_fdm_executable() -> Path | None:
+    if _FDM_OVERRIDE and _FDM_OVERRIDE.is_file():
+        return _FDM_OVERRIDE
+    env_override = os.environ.get("DROWNED_FDM_PATH", "").strip()
+    if env_override:
+        candidate = Path(env_override).expanduser()
+        if candidate.is_file():
+            return candidate
+    running = _running_fdm_executable()
+    if running:
+        return running
+    registered = _registry_fdm_executable()
+    if registered:
+        return registered
+
     candidates: list[Path] = []
     for env_name in ("LOCALAPPDATA", "ProgramFiles", "ProgramFiles(x86)"):
         root = os.environ.get(env_name)
@@ -151,14 +215,7 @@ def _best_text(flat: dict[str, Any], patterns: tuple[str, ...], filename: str = 
 
 
 class FdmDatabaseReader:
-    """Read FDM's own SQLite state without depending on one fixed schema.
-
-    FDM has changed its internal database shape across releases. We therefore
-    discover tables/columns and flatten JSON payloads, then match the row by URL
-    and filename. Progress comes from the FDM record. If FDM does not expose a
-    speed/ETA field in a particular build, speed is derived from successive FDM
-    downloaded-byte values rather than from the filesystem.
-    """
+    """Read FDM's own SQLite state without depending on one fixed schema."""
 
     def __init__(self, database: Path, url: str, filename: str, target_dir: Path):
         self.database = Path(database)
@@ -181,12 +238,7 @@ class FdmDatabaseReader:
         connection.execute("PRAGMA busy_timeout=1000")
         connection.execute("PRAGMA read_uncommitted=1")
         try:
-            tables = [
-                str(row[0])
-                for row in connection.execute(
-                    "SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'"
-                )
-            ]
+            tables = [str(row[0]) for row in connection.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'")]
             results: list[tuple[int, str, dict[str, Any]]] = []
             url_lower = self.url.lower()
             file_lower = self.filename.lower()
@@ -196,9 +248,7 @@ class FdmDatabaseReader:
                     columns = [str(row[1]) for row in connection.execute(f"PRAGMA table_info({self._quoted(table)})")]
                     if not columns:
                         continue
-                    rows = connection.execute(
-                        f"SELECT * FROM {self._quoted(table)} ORDER BY rowid DESC LIMIT 600"
-                    ).fetchall()
+                    rows = connection.execute(f"SELECT * FROM {self._quoted(table)} ORDER BY rowid DESC LIMIT 600").fetchall()
                 except sqlite3.DatabaseError:
                     continue
                 for row in rows:
@@ -230,36 +280,13 @@ class FdmDatabaseReader:
         if not rows:
             return None
         _score, table, flat = rows[0]
-        total = int(
-            _best_number(
-                flat,
-                (
-                    r"(^|\.)(total|content).*(bytes|size|length)$",
-                    r"(^|\.)(file_?size|filesize|total_?bytes|totalbytes)$",
-                ),
-            )
-            or expected_total
-            or 0
-        )
-        done = int(
-            _best_number(
-                flat,
-                (
-                    r"(^|\.)(downloaded|received|transferred|completed|current).*(bytes|size)$",
-                    r"(^|\.)(downloaded_?bytes|received_?bytes|bytes_?downloaded|bytes_?received)$",
-                ),
-                maximum=float(total) * 1.05 if total else None,
-            )
-        )
+        total = int(_best_number(flat, (r"(^|\.)(total|content).*(bytes|size|length)$", r"(^|\.)(file_?size|filesize|total_?bytes|totalbytes)$")) or expected_total or 0)
+        done = int(_best_number(flat, (r"(^|\.)(downloaded|received|transferred|completed|current).*(bytes|size)$", r"(^|\.)(downloaded_?bytes|received_?bytes|bytes_?downloaded|bytes_?received)$"), maximum=float(total) * 1.05 if total else None))
         if not done and total:
             percent = _best_number(flat, (r"(^|\.)(progress|percent|percentage)$",), maximum=100.0)
             if percent:
                 done = int(total * (percent / 100.0))
-
-        direct_speed = _best_number(
-            flat,
-            (r"(^|\.)(speed|download_?speed|current_?speed|bytes_?per_?second)$",),
-        )
+        direct_speed = _best_number(flat, (r"(^|\.)(speed|download_?speed|current_?speed|bytes_?per_?second)$",))
         now = time.monotonic()
         dt = max(0.05, now - self._last_time)
         derived_speed = max(0.0, (done - self._last_done) / dt) if done >= self._last_done else 0.0
@@ -269,7 +296,6 @@ class FdmDatabaseReader:
         if raw_speed > 0:
             self._smooth_speed = raw_speed if self._smooth_speed <= 0 else self._smooth_speed * 0.72 + raw_speed * 0.28
         speed = float(direct_speed or self._smooth_speed or 0.0)
-
         eta_value = _best_number(flat, (r"(^|\.)(eta|remaining_?time|time_?remaining)$",), maximum=365 * 24 * 3600)
         eta = float(eta_value) if eta_value else ((total - done) / speed if total and speed > 0 and done <= total else None)
         status = _best_text(flat, (r"(^|\.)(status|state|download_?state)$",))
@@ -277,21 +303,8 @@ class FdmDatabaseReader:
         connections = int(_best_number(flat, (r"(^|\.)(connections|sections|threads|segments)$",), maximum=512))
         status_lower = status.lower()
         error = status if any(word in status_lower for word in ERROR_WORDS) else ""
-        completed = any(word in status_lower for word in COMPLETE_WORDS)
-        if total and done >= total:
-            completed = True
-        return FdmSnapshot(
-            done=max(0, done),
-            total=max(0, total),
-            speed=max(0.0, speed),
-            eta=eta,
-            status=status,
-            path=path,
-            connections=max(0, connections),
-            completed=completed,
-            error=error,
-            table=table,
-        )
+        completed = any(word in status_lower for word in COMPLETE_WORDS) or bool(total and done >= total)
+        return FdmSnapshot(done=max(0, done), total=max(0, total), speed=max(0.0, speed), eta=eta, status=status, path=path, connections=max(0, connections), completed=completed, error=error, table=table)
 
 
 def _fdm_pids() -> list[int]:
@@ -300,7 +313,7 @@ def _fdm_pids() -> list[int]:
         try:
             name = str(process.info.get("name") or "").lower()
             exe = str(process.info.get("exe") or "").lower()
-            if name in FDM_PROCESS_NAMES or exe.endswith("\\fdm.exe") or exe.endswith("/fdm"):
+            if name in FDM_PROCESS_NAMES or exe.endswith("\\fdm.exe") or exe.endswith("/fdm.exe"):
                 pids.append(int(process.info["pid"]))
         except (psutil.AccessDenied, psutil.NoSuchProcess):
             pass
@@ -326,7 +339,7 @@ def submit_to_fdm(url: str, target_dir: Path, log=base._noop):
         raise RuntimeError("FDM otomatik entegrasyonu şu anda Windows build'inde destekleniyor.")
     executable = find_fdm_executable()
     if not executable:
-        raise RuntimeError("Free Download Manager bulunamadı. FDM 6.x kurulu olmalı.")
+        raise RuntimeError("Free Download Manager bulunamadı. FDM 6.x kurulu olmalı veya 'FDM yolu' alanından fdm.exe seçilmeli.")
     target_dir = Path(target_dir).resolve()
     target_dir.mkdir(parents=True, exist_ok=True)
     pids = _ensure_fdm_running(executable)
@@ -403,150 +416,89 @@ def submit_to_fdm(url: str, target_dir: Path, log=base._noop):
 
     try:
         url_edit.set_edit_text(url)
-    except Exception:
-        url_edit.set_focus()
-        send_keys("^a")
-        send_keys(url, with_spaces=True)
-
-    if folder_edit is None:
-        raise RuntimeError(
-            "FDM hedef klasör alanı otomatik bulunamadı. Bu build dosyayı başka diske taşımaz; "
-            "FDM'nin Add Download penceresinin standart hedef klasör alanı gerekli."
-        )
-    try:
-        folder_edit.set_edit_text(str(target_dir))
-    except Exception:
-        folder_edit.set_focus()
-        send_keys("^a")
-        send_keys(str(target_dir), with_spaces=True)
+        if folder_edit is not None:
+            folder_edit.set_edit_text(str(target_dir))
+    except Exception as exc:
+        raise RuntimeError(f"FDM indirme bilgileri doldurulamadı: {exc}") from exc
 
     button = None
-    preferred = ("download", "add", "start", "indir", "ekle", "başlat", "ok")
-    try:
-        buttons = dialog.descendants(control_type="Button")
-    except Exception:
-        buttons = []
-    for token in preferred:
-        for candidate in buttons:
-            try:
-                text = candidate.window_text().strip().lower()
-            except Exception:
-                continue
-            if text == token or token in text:
-                button = candidate
-                break
-        if button is not None:
+    for child in dialog.descendants(control_type="Button"):
+        try:
+            text = (child.window_text() or "").strip().lower()
+        except Exception:
+            continue
+        if any(token in text for token in ("download", "indir", "ok", "tamam", "start", "başlat")):
+            button = child
             break
-    if button is not None:
-        button.click_input()
-    else:
-        dialog.set_focus()
-        send_keys("{ENTER}")
-    log(f"FDM job gönderildi • hedef: {target_dir}")
+    if button is None:
+        raise RuntimeError("FDM indirme başlatma butonu bulunamadı.")
+    button.click_input()
+    log(f"FDM indirmesi başlatıldı: {executable}")
 
 
-class FdmDownloader(base.ParallelDownloader):
-    """Use Free Download Manager for transport and FDM's own database for telemetry."""
+class FdmDownloader:
+    def __init__(self, target_dir: Path, connections: int = 0, telemetry=base._noop, log=base._noop, cancelled=lambda: False):
+        self.target_dir = Path(target_dir)
+        self.connections = connections
+        self.telemetry = telemetry
+        self.log = log
+        self.cancelled = cancelled
 
     def download_all(self, urls: list[str]):
-        urls = [url.strip() for url in urls if url.strip()]
-        if not urls:
-            raise ValueError("En az bir indirme URL'si gerekli.")
         probes = [base.probe_url(url) for url in urls]
-        overall_total = sum(probe.size for probe in probes)
-        outputs: list[Path] = []
-        done_before = 0
-        for index, probe in enumerate(probes, 1):
+        outputs = []
+        total_all = sum(probe.size for probe in probes)
+        done_base = 0
+        for probe in probes:
             if self.cancelled():
                 raise RuntimeError("İşlem iptal edildi.")
-            self.log(f"[{index}/{len(probes)}] FDM'ye gönderiliyor: {probe.filename}")
-            path = self._download_one_fdm(probe, done_before, overall_total)
-            outputs.append(path)
-            done_before += probe.size or path.stat().st_size
-        return outputs, probes
-
-    def _download_one_fdm(self, probe: base.URLProbe, base_done: int, overall_total: int) -> Path:
-        expected = self.target_dir / probe.filename
-        if expected.exists() and (not probe.size or expected.stat().st_size == probe.size):
-            self.log(f"Zaten tamamlanmış dosya kullanılıyor: {expected.name}")
-            return expected
-
-        submit_to_fdm(probe.final_url, self.target_dir, self.log)
-        db_deadline = time.monotonic() + 30
-        database = find_fdm_database()
-        while database is None and time.monotonic() < db_deadline:
-            if self.cancelled():
-                raise RuntimeError("İşlem iptal edildi. FDM'deki indirme ayrı olarak devam ediyor olabilir.")
-            time.sleep(0.5)
-            database = find_fdm_database()
-        if database is None:
-            raise RuntimeError("FDM yerel veritabanı bulunamadı; FDM istatistikleri okunamıyor.")
-
-        self.log(f"FDM telemetry DB: {database}")
-        reader = FdmDatabaseReader(database, probe.final_url, probe.filename, self.target_dir)
-        start = time.monotonic()
-        snapshot_deadline = start + 45
-        last_snapshot: FdmSnapshot | None = None
-        while True:
-            if self.cancelled():
-                raise RuntimeError("İşlem iptal edildi. FDM'deki indirme ayrı olarak devam ediyor olabilir.")
-            try:
+            output = self.target_dir / probe.filename
+            submit_to_fdm(probe.final_url, self.target_dir, self.log)
+            database = None
+            deadline = time.monotonic() + 20
+            while time.monotonic() < deadline and database is None:
+                database = find_fdm_database()
+                if database is None:
+                    time.sleep(0.5)
+            if database is None:
+                raise RuntimeError("FDM download veritabanı bulunamadı; istatistikler takip edilemiyor.")
+            reader = FdmDatabaseReader(database, probe.final_url, probe.filename, self.target_dir)
+            row_deadline = time.monotonic() + 30
+            snapshot = None
+            while time.monotonic() < row_deadline:
                 snapshot = reader.snapshot(probe.size)
-            except (sqlite3.DatabaseError, OSError):
-                snapshot = None
+                if snapshot:
+                    break
+                if self.cancelled():
+                    raise RuntimeError("İşlem iptal edildi.")
+                time.sleep(0.4)
             if snapshot is None:
-                if time.monotonic() > snapshot_deadline:
-                    raise RuntimeError("FDM download kaydı 45 saniye içinde SQLite veritabanında bulunamadı.")
-                time.sleep(0.5)
-                continue
-            last_snapshot = snapshot
-            done = max(0, snapshot.done)
-            total = snapshot.total or probe.size
-            speed = max(0.0, snapshot.speed)
-            eta = snapshot.eta
-            elapsed = max(0.0, time.monotonic() - start)
-            progress = done / total if total else 0.0
-            detail = f"FDM • {probe.filename}"
-            if snapshot.status:
-                detail += f" • {snapshot.status}"
-            self.telemetry(
-                {
-                    "phase": "download",
-                    "done": base_done + done,
-                    "total": overall_total or total,
-                    "progress": (base_done + done) / max(overall_total or total, 1),
-                    "speed": speed,
-                    "average_speed": speed,
-                    "elapsed": elapsed,
-                    "eta": eta,
-                    "detail": detail,
-                    "disk_free": base._disk_free(self.target_dir),
-                    "connections": snapshot.connections,
-                    "active_connections": snapshot.connections if not snapshot.completed else 0,
-                    "file_done": done,
-                    "file_total": total,
-                }
-            )
-            if snapshot.error:
-                raise RuntimeError(f"FDM indirme hatası: {snapshot.error}")
-
-            output = Path(snapshot.path) if snapshot.path else expected
-            if not output.is_absolute():
-                output = self.target_dir / output.name
-            try:
-                output.resolve().relative_to(self.target_dir.resolve())
-            except (OSError, ValueError):
-                raise RuntimeError(
-                    f"FDM dosyayı seçilen klasörün dışına kaydediyor: {output}. "
-                    "Dosya otomatik taşınmadı; disk alanını korumak için işlem durduruldu."
-                )
-            if snapshot.completed:
-                if not output.exists() and expected.exists():
-                    output = expected
-                if output.exists():
-                    if probe.size and output.stat().st_size != probe.size:
-                        time.sleep(0.5)
-                        continue
-                    self.log(f"✓ FDM indirme tamamlandı: {output.name}")
-                    return output
-            time.sleep(0.5)
+                raise RuntimeError("FDM download kaydı bulunamadı; URL FDM'ye aktarıldı ancak job eşleştirilemedi.")
+            while True:
+                if self.cancelled():
+                    raise RuntimeError("İşlem iptal edildi.")
+                snapshot = reader.snapshot(probe.size) or snapshot
+                if snapshot.error:
+                    raise RuntimeError(f"FDM indirme hatası: {snapshot.error}")
+                total = snapshot.total or probe.size
+                done = min(snapshot.done, total) if total else snapshot.done
+                self.telemetry({"phase": "download", "done": done_base + done, "total": total_all or total, "progress": ((done_base + done) / (total_all or total)) if (total_all or total) else 0.0, "speed": snapshot.speed, "average_speed": snapshot.speed, "elapsed": 0.0, "eta": snapshot.eta, "detail": f"FDM • {probe.filename} • {snapshot.status or 'indiriliyor'}", "disk_free": base._disk_free(self.target_dir), "connections": snapshot.connections, "active_connections": snapshot.connections, "file_done": done, "file_total": total})
+                if snapshot.completed:
+                    break
+                time.sleep(0.35)
+            candidate_paths = [Path(snapshot.path) if snapshot.path else None, output]
+            found = next((path for path in candidate_paths if path and path.is_file()), None)
+            if found is None:
+                deadline = time.monotonic() + 15
+                while time.monotonic() < deadline and found is None:
+                    if output.is_file():
+                        found = output
+                        break
+                    time.sleep(0.25)
+            if found is None:
+                raise RuntimeError("FDM tamamlandı ancak indirilen dosya seçilen klasörde bulunamadı.")
+            if found.parent.resolve() != self.target_dir.resolve():
+                raise RuntimeError(f"FDM dosyayı farklı klasöre kaydetti: {found.parent}. Beklenen klasör: {self.target_dir}. FDM hedefini düzeltip tekrar dene.")
+            outputs.append(found)
+            done_base += probe.size or found.stat().st_size
+        return outputs, probes
