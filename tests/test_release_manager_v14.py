@@ -80,7 +80,7 @@ class ReleaseManagerV14Tests(unittest.TestCase):
     def test_windows_build_packages_fdm_bridge_and_latest_manager(self):
         workflow = WORKFLOW.read_text(encoding="utf-8")
         requirements = REQUIREMENTS.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v16.py", workflow)
+        self.assertIn("dir: windows/release-manager\n            entry: app_v17.py", workflow)
         self.assertIn("python -m py_compile windows/release-manager/fdm_bridge.py", workflow)
         self.assertIn('Pattern "fdm_bridge"', workflow)
         self.assertIn('Pattern "pywinauto"', workflow)
