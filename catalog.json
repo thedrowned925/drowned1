@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-02T08:40:08.711265+00:00",
+  "updated_at": "2026-09-02T11:38:25.932667+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2848,6 +2848,41 @@
       },
       "media": {
         "steam_app_id": 42680
+      }
+    },
+    {
+      "id": "god-of-war-ragnar-k",
+      "title": "God of War Ragnarök",
+      "platform": "pc",
+      "description": "Kratos and Atreus embark on a mythic journey for answers before Ragnarök arrives – now on PC.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/god-of-war-ragnar-k/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/god-of-war-ragnar-k/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/god-of-war-ragnar-k/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/god-of-war-ragnar-k/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/god-of-war-ragnar-k/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/god-of-war-ragnar-k/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/god-of-war-ragnar-k/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/god-of-war-ragnar-k/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/god-of-war-ragnar-k/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/god-of-war-ragnar-k/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/god-of-war-ragnar-k/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/god-of-war-ragnar-k/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "beta": {
+          "version": "1.0.0",
+          "tag": "pc-god-of-war-ragnar-k-v1.0.0-beta",
+          "manifest_path": "manifests/pc/god-of-war-ragnar-k/beta/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/god-of-war-ragnar-k/beta/1.0.0.json",
+          "size": 172095946463,
+          "published_at": "2026-09-02T11:38:25.932358+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 2322010
       }
     }
   ]
