@@ -28,7 +28,7 @@ class ReleaseManagerV15Tests(unittest.TestCase):
 
     def test_windows_build_supersedes_v15(self):
         source = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v17.py", source)
+        self.assertIn("dir: windows/release-manager\n            entry: app_v18.py", source)
 
 
 if __name__ == "__main__":
