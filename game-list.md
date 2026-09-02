@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 82
-- **Toplam aktif sürüm/kanal:** 82
-- **Toplam aktif boyut:** 1951.739 GB · 1.952 TB
-- **Katalog güncelleme zamanı:** 2026-09-01 21:00:31 UTC
+- **Toplam oyun:** 83
+- **Toplam aktif sürüm/kanal:** 83
+- **Toplam aktif boyut:** 1969.466 GB · 1.969 TB
+- **Katalog güncelleme zamanı:** 2026-09-02 07:26:42 UTC
 
 ## PC
 
-**82 oyun · 82 aktif sürüm/kanal · 1951.739 GB · 1.952 TB**
+**83 oyun · 83 aktif sürüm/kanal · 1969.466 GB · 1.969 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -94,6 +94,7 @@
 | The Wolf Among Us | 1.0.0 | stable | 6.061 | 0.006 | `pc-the-wolf-among-us-v1.0.0-stable` |
 | Tomb Raider Definitive Edition | 1.0.0 | stable | 25.926 | 0.026 | `pc-tomb-raider-definitive-edition-v1.0.0-stable` |
 | Undertale | 1.0.0 | stable | 0.213 | 0.000 | `pc-undertale-v1.0.0-stable` |
+| Watch_Dogs™ | 1.0.0 | stable | 17.727 | 0.018 | `pc-watch_dogs-v1.0.0-stable` |
 | Wolfenstein: The New Order | 1.0.0 | stable | 46.691 | 0.047 | `pc-wolfenstein-the-new-order-v1.0.0-stable` |
 
 ---
