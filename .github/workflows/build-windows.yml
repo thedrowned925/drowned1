@@ -65,6 +65,11 @@ jobs:
           python -m py_compile windows/release-manager/fdm_ui_v3.py
           python -m py_compile windows/release-manager/fdm_submit_v4.py
           python -m py_compile "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
+          if ("${{ matrix.app.name }}" -eq "Drowned-Release-Manager") {
+            Push-Location windows/release-manager
+            python -c "import app_v18; import fdm_ui_v3; import fdm_submit_v4; import fdm_bridge; assert hasattr(fdm_bridge, '_noop'); print('Release Manager import chain OK')"
+            Pop-Location
+          }
 
       - name: Run shared protocol tests
         run: python -X utf8 -m unittest discover -s tests -v
