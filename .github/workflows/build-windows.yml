@@ -30,7 +30,7 @@ jobs:
         app:
           - name: Drowned-Release-Manager
             dir: windows/release-manager
-            entry: app_v16.py
+            entry: app_v17.py
           - name: Drowned-Launcher
             dir: windows/launcher
             entry: app_v18.py
@@ -62,6 +62,7 @@ jobs:
           python -m py_compile windows/release-manager/game_download_v2.py
           python -m py_compile windows/release-manager/fdm_bridge.py
           python -m py_compile windows/release-manager/fdm_ui_v2.py
+          python -m py_compile windows/release-manager/fdm_ui_v3.py
           python -m py_compile "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
 
       - name: Run shared protocol tests
@@ -99,10 +100,13 @@ jobs:
               throw "Release Manager archive does not contain FDM integration bridge"
             }
             if (-not (Select-String -Path archive-contents.txt -Pattern "fdm_ui_v2" -Quiet)) {
-              throw "Release Manager archive does not contain FDM Add Download UI fix"
+              throw "Release Manager archive does not contain FDM destination compatibility bridge"
+            }
+            if (-not (Select-String -Path archive-contents.txt -Pattern "fdm_ui_v3" -Quiet)) {
+              throw "Release Manager archive does not contain FDM 6.34 visual bridge"
             }
             if (-not (Select-String -Path archive-contents.txt -Pattern "pywinauto" -Quiet)) {
-              throw "Release Manager archive does not contain pywinauto FDM UI automation"
+              throw "Release Manager archive does not contain pywinauto FDM automation"
             }
             if (-not (Select-String -Path archive-contents.txt -Pattern "psutil" -Quiet)) {
               throw "Release Manager archive does not contain process telemetry"
