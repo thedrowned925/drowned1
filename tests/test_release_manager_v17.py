@@ -36,31 +36,39 @@ class ReleaseManagerV17Tests(unittest.TestCase):
         self.assertIn("def _find_url_outline", source)
         self.assertIn("def _find_confirm_button", source)
         self.assertIn("_set_clipboard_text(url)", source)
+        self.assertIn("_configure_second_dialog", source)
         self.assertNotIn('send_keys("^j")', source)
         self.assertNotIn("ADD_BUTTON_TEXTS", source)
 
     @unittest.skipUnless(HAS_RUNTIME, "visual bridge runtime dependencies are installed in Release Manager matrix job")
-    def test_blue_geometry_detects_add_url_and_confirm_controls(self):
+    def test_blue_geometry_detects_realistic_fdm_controls(self):
         assert fdm_ui_v3 is not None
-        image = Image.new("RGB", (1000, 600), (245, 247, 250))
-        draw = ImageDraw.Draw(image)
         blue = (65, 140, 230)
-        draw.rectangle((700, 25, 835, 65), fill=blue)
+
+        image = Image.new("RGB", (1770, 700), (245, 247, 250))
+        draw = ImageDraw.Draw(image)
+        # Matches the relative geometry measured from the user's FDM 6.34.4 screenshot.
+        draw.rectangle((1232, 56, 1378, 96), fill=blue)
         add = fdm_ui_v3._find_add_button(image)
         self.assertIsNotNone(add)
         assert add is not None
-        self.assertGreater(add["x"], 650)
+        self.assertGreater(add["x"], 1200)
 
-        modal = Image.new("RGB", (1000, 600), (225, 230, 235))
+        modal = Image.new("RGB", (909, 296), (225, 230, 235))
         draw = ImageDraw.Draw(modal)
-        draw.rectangle((170, 170, 690, 215), outline=blue, width=3)
-        draw.rectangle((620, 245, 710, 290), fill=blue)
+        # Real screenshot: URL field begins close to x=34 and its top blue border
+        # can be observed without the whole outline becoming one component.
+        draw.line((34, 105, 543, 105), fill=blue, width=3)
+        draw.line((34, 105, 34, 145), fill=blue, width=3)
+        draw.line((543, 105, 543, 145), fill=blue, width=3)
+        draw.rectangle((600, 168, 678, 209), fill=blue)
         outline = fdm_ui_v3._find_url_outline(modal)
         confirm = fdm_ui_v3._find_confirm_button(modal)
         self.assertIsNotNone(outline)
         self.assertIsNotNone(confirm)
         assert outline is not None and confirm is not None
-        self.assertGreater(outline["w"], 400)
+        self.assertGreater(outline["w"], 450)
+        self.assertGreaterEqual(outline["h"], 40)
         self.assertLess(confirm["w"], 180)
 
     def test_windows_build_packages_v17_visual_bridge(self):
