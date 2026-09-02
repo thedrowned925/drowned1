@@ -15,13 +15,8 @@ class ReleaseManagerV13Tests(unittest.TestCase):
     def test_v13_is_download_only_wrapper(self):
         source = APP.read_text(encoding="utf-8")
         tree = ast.parse(source)
-        manager = next(
-            node for node in tree.body
-            if isinstance(node, ast.ClassDef) and node.name == "Manager"
-        )
-        methods = {
-            node.name for node in manager.body if isinstance(node, ast.FunctionDef)
-        }
+        manager = next(node for node in tree.body if isinstance(node, ast.ClassDef) and node.name == "Manager")
+        methods = {node.name for node in manager.body if isinstance(node, ast.FunctionDef)}
         self.assertEqual(methods, {"__init__"})
         self.assertIn("game_prepare_base.ParallelDownloader = ProgressiveParallelDownloader", source)
         self.assertIn('APP_VERSION = "0.13.0"', source)
@@ -38,7 +33,7 @@ class ReleaseManagerV13Tests(unittest.TestCase):
 
     def test_latest_windows_build_supersedes_v13(self):
         workflow = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v15.py", workflow)
+        self.assertIn("dir: windows/release-manager\n            entry: app_v16.py", workflow)
 
 
 if __name__ == "__main__":
