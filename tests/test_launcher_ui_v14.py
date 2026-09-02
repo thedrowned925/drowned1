@@ -57,7 +57,7 @@ class LauncherUIV14Tests(unittest.TestCase):
 
     def test_windows_build_keeps_release_manager_and_uses_latest_launcher_ui(self):
         workflow = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v14.py", workflow)
+        self.assertIn("dir: windows/release-manager\n            entry: app_v15.py", workflow)
         self.assertIn("dir: windows/launcher\n            entry: app_v18.py", workflow)
 
 
