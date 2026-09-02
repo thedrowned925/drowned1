@@ -9,6 +9,13 @@ on:
       - 'shared/python/**'
       - 'tests/**'
       - '.github/workflows/build-windows.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'windows/**'
+      - 'shared/python/**'
+      - 'tests/**'
+      - '.github/workflows/build-windows.yml'
 
 concurrency:
   group: windows-build-${{ github.ref }}
