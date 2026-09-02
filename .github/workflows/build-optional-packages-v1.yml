@@ -1,6 +1,8 @@
 # One-time validated release build for optional packages v1.
 # v1.0.1: adds the live upload status broadcaster (drowned_shared.upload_status).
 # v1.1.0: ships Launcher app_v16 (Steam-like animated UI) instead of the stale v12.
+# v1.2.0: ships Launcher app_v17 - the Big Picture capsule-grid shell is now the
+#         default (windowed) view instead of an F11-only kiosk mode.
 name: Build Optional Packages v1
 
 on:
@@ -44,7 +46,7 @@ jobs:
           python -m py_compile shared/python/drowned_shared/deletion.py
           python -m py_compile shared/python/drowned_shared/upload_status.py
           python -m py_compile windows/release-manager/app_v10.py
-          python -m py_compile windows/launcher/app_v16.py
+          python -m py_compile windows/launcher/app_v17.py
 
       - name: Run full test suite
         run: python -X utf8 -m unittest discover -s tests -v
@@ -81,7 +83,7 @@ jobs:
           if ($p.HasExited) { throw "Release Manager exited during startup with code $($p.ExitCode)" }
           Stop-Process -Id $p.Id -Force
 
-      - name: Build Launcher v0.16
+      - name: Build Launcher v0.17
         shell: pwsh
         run: >-
           pyinstaller
@@ -91,7 +93,7 @@ jobs:
           --paths "shared/python"
           --collect-all drowned_shared
           --name "Drowned-Launcher"
-          "windows/launcher/app_v16.py"
+          "windows/launcher/app_v17.py"
 
       - name: Verify Launcher package
         shell: pwsh
@@ -115,18 +117,18 @@ jobs:
         shell: pwsh
         run: |
           Compress-Archive -Path "dist/Drowned-Release-Manager/*" -DestinationPath "Drowned-Release-Manager-v0.10.1-Optional-Packages-Windows.zip"
-          Compress-Archive -Path "dist/Drowned-Launcher/*" -DestinationPath "Drowned-Launcher-v0.16.0-Optional-Packages-Windows.zip"
+          Compress-Archive -Path "dist/Drowned-Launcher/*" -DestinationPath "Drowned-Launcher-v0.17.0-Optional-Packages-Windows.zip"
 
       - name: Publish GitHub Release
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "drowned-optional-packages-v1.1.0" `
-            --title "Drowned Optional Packages v1.1.0" `
-            --notes "Release Manager v0.10.1 + Launcher v0.16. Launcher jumps from the plain v0.12 UI straight to v0.16: cinematic hero art with a slow Ken-Burns camera drift, glowing hover/focus buttons, cross-fade page transitions and a Steam-style downloads view (this UI already existed in source since v0.13-v0.15 but had never been packaged into a public release). Release Manager v0.10.1 adds a live upload status broadcaster: while a game/channel or optional-package upload is running, it writes .release-status/live.json to the repo every few seconds (same Contents API call already used for catalog.json), which the Drowned Control mobile app polls to show live upload progress. No new server or credential. Optional overlay packages (e.g. high-resolution textures) are unchanged: independent Releases/manifests, opt-in install into the existing game directory, and safe uninstall that restores overwritten base files. Existing GitHub PAT/keyring identity is unchanged." `
+          gh release create "drowned-optional-packages-v1.2.0" `
+            --title "Drowned Optional Packages v1.2.0" `
+            --notes "Release Manager v0.10.1 + Launcher v0.17. Launcher now opens straight into the Big Picture capsule-grid shell (full-width portrait box-art tiles, search, All/Installed/Downloads tabs) instead of the old compact list-rail - the Epic Games/Steam-style library screen this app already had, previously reachable only via F11 kiosk mode. F11 still gives real OS fullscreen on top of it; a 'Klasik görünüm' button returns to the original list-rail + hero layout. Release Manager v0.10.1 adds a live upload status broadcaster: while a game/channel or optional-package upload is running, it writes .release-status/live.json to the repo every few seconds (same Contents API call already used for catalog.json), which the Drowned Control mobile app polls to show live upload progress. No new server or credential. Optional overlay packages (e.g. high-resolution textures) are unchanged: independent Releases/manifests, opt-in install into the existing game directory, and safe uninstall that restores overwritten base files. Existing GitHub PAT/keyring identity is unchanged." `
             "Drowned-Release-Manager-v0.10.1-Optional-Packages-Windows.zip" `
-            "Drowned-Launcher-v0.16.0-Optional-Packages-Windows.zip"
+            "Drowned-Launcher-v0.17.0-Optional-Packages-Windows.zip"
 
       - name: Report build status
         if: always()

@@ -26,7 +26,7 @@ jobs:
             entry: app_v10.py
           - name: Drowned-Launcher
             dir: windows/launcher
-            entry: app_v16.py
+            entry: app_v17.py
     steps:
       - uses: actions/checkout@v6
 

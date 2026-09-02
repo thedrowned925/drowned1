@@ -6,13 +6,13 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-V14 = ROOT / "windows" / "launcher" / "app_v14.py"
+V17 = ROOT / "windows" / "launcher" / "app_v17.py"
 WORKFLOW = ROOT / ".github" / "workflows" / "build-windows.yml"
 
 
-class LauncherUIV14Tests(unittest.TestCase):
-    def test_v14_keeps_backend_methods_inherited(self):
-        tree = ast.parse(V14.read_text(encoding="utf-8"))
+class LauncherUIV17Tests(unittest.TestCase):
+    def test_v17_is_presentation_only(self):
+        tree = ast.parse(V17.read_text(encoding="utf-8"))
         launcher = next(
             node for node in tree.body
             if isinstance(node, ast.ClassDef) and node.name == "Launcher"
@@ -44,20 +44,29 @@ class LauncherUIV14Tests(unittest.TestCase):
             "_addon_verify_error",
             "load_catalog",
             "open_settings",
+            "render_library",
+            "library_selection_changed",
         }
         self.assertFalse(methods & forbidden, methods & forbidden)
 
-    def test_v14_does_not_import_backend_or_release_manager(self):
-        source = V14.read_text(encoding="utf-8")
+    def test_v17_inherits_v16_and_has_no_backend_imports(self):
+        source = V17.read_text(encoding="utf-8")
+        self.assertIn("import app_v16 as previous", source)
+        self.assertIn('APP_VERSION = "0.17.0"', source)
         self.assertNotIn("from drowned_shared", source)
         self.assertNotIn("import drowned_shared", source)
         self.assertNotIn("release-manager", source.lower())
-        self.assertIn("import app_v12 as previous", source)
-        self.assertIn('APP_VERSION = "0.14.0"', source)
 
-    def test_windows_build_keeps_release_manager_and_uses_latest_launcher_ui(self):
+    def test_v17_makes_big_picture_shell_the_default_view(self):
+        """The whole point of v17: Epic/Steam-style capsule grid on launch,
+        not hidden behind the old F11 kiosk-mode toggle."""
+        source = V17.read_text(encoding="utf-8")
+        self.assertIn("self._show_epic_home()", source)
+        self.assertIn("self.big_picture.show()", source, "reparented big_picture must be un-hidden explicitly")
+        self.assertIn("self._show_classic_shell", source, "must keep an explicit way back to the old list-rail UI")
+
+    def test_windows_build_uses_v17(self):
         workflow = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v10.py", workflow)
         self.assertIn("dir: windows/launcher\n            entry: app_v17.py", workflow)
 
 
