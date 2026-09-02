@@ -4,6 +4,15 @@ import sys
 
 from PySide6.QtWidgets import QApplication
 
+# Compatibility shim for the FDM submission layers. fdm_bridge historically
+# kept its no-op callback on game_prepare as `base._noop`, while the newer FDM
+# modules import it as `fdm_bridge._noop`. Install the alias before importing
+# app_v17/fdm_ui_v3 so frozen and normal imports behave identically.
+import fdm_bridge
+
+if not hasattr(fdm_bridge, "_noop"):
+    fdm_bridge._noop = fdm_bridge.base._noop
+
 import app_v17 as previous
 import fdm_submit_v4
 
