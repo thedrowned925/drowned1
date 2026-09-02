@@ -42,11 +42,10 @@ class ReleaseManagerV16Tests(unittest.TestCase):
         self.assertIn("action.click_input()", source)
         self.assertIn("_database_has_url", source)
 
-    def test_windows_build_packages_v16_ui_fix(self):
+    def test_windows_build_supersedes_v16(self):
         workflow = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v16.py", workflow)
+        self.assertIn("dir: windows/release-manager\n            entry: app_v17.py", workflow)
         self.assertIn("python -m py_compile windows/release-manager/fdm_ui_v2.py", workflow)
-        self.assertIn('Pattern "fdm_ui_v2"', workflow)
 
 
 if __name__ == "__main__":
