@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 83
-- **Toplam aktif sürüm/kanal:** 83
-- **Toplam aktif boyut:** 1969.466 GB · 1.969 TB
-- **Katalog güncelleme zamanı:** 2026-09-02 07:26:42 UTC
+- **Toplam oyun:** 84
+- **Toplam aktif sürüm/kanal:** 84
+- **Toplam aktif boyut:** 1979.997 GB · 1.980 TB
+- **Katalog güncelleme zamanı:** 2026-09-02 08:27:17 UTC
 
 ## PC
 
-**83 oyun · 83 aktif sürüm/kanal · 1969.466 GB · 1.969 TB**
+**84 oyun · 84 aktif sürüm/kanal · 1979.997 GB · 1.980 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -83,6 +83,7 @@
 | Resident Evil 2 | 1.0.0 | stable | 25.845 | 0.026 | `pc-resident-evil-2-v1.0.0-stable` |
 | Rise of the Tomb Raider™ | 1.0.0 | stable | 27.164 | 0.027 | `pc-rise-of-the-tomb-raider-v1.0.0-stable` |
 | Sekiro™: Shadows Die Twice - GOTY Edition | 1.0.0 | stable | 15.285 | 0.015 | `pc-sekiro-shadows-die-twice-goty-edition-v1.0.0-stable` |
+| Sid Meier's Civilization® V | 1.0.0 | stable | 10.531 | 0.011 | `pc-sid-meier-s-civilization-v-v1.0.0-stable` |
 | South Park™: The Stick of Truth™ | 1.0.0 | stable | 5.772 | 0.006 | `pc-south-park-the-stick-of-truth-v1.0.0-stable` |
 | STAR WARS™ Knights of the Old Republic™ | 1.0.0 | stable | 3.733 | 0.004 | `pc-star-wars-knights-of-the-old-republic-v1.0.0-stable` |
 | Stardew Valley | 1.0.0 | stable | 0.733 | 0.001 | `pc-stardew-valley-v1.0.0-stable` |
