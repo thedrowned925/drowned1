@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-02T11:38:25.932667+00:00",
+  "updated_at": "2026-09-02T12:10:14.415424+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2883,6 +2883,41 @@
       },
       "media": {
         "steam_app_id": 2322010
+      }
+    },
+    {
+      "id": "max-payne-3",
+      "title": "Max Payne 3",
+      "platform": "pc",
+      "description": "No longer a New York City cop, Max Payne moves to São Paulo to protect a wealthy family in an effort to finally escape his troubled past. This complete edition of Max Payne 3 includes the complete original game and all previously released downloadable content.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-3/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-3/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-3/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-3/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-3/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-3/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-3/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-3/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-3/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-3/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-3/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-3/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-max-payne-3-v1.0.0-stable",
+          "manifest_path": "manifests/pc/max-payne-3/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/max-payne-3/stable/1.0.0.json",
+          "size": 34958110011,
+          "published_at": "2026-09-02T12:10:14.415396+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 204100
       }
     }
   ]
