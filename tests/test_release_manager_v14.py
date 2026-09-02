@@ -28,10 +28,7 @@ class ReleaseManagerV14Tests(unittest.TestCase):
     def test_v14_only_replaces_download_transport(self):
         source = APP.read_text(encoding="utf-8")
         tree = ast.parse(source)
-        manager = next(
-            node for node in tree.body
-            if isinstance(node, ast.ClassDef) and node.name == "Manager"
-        )
+        manager = next(node for node in tree.body if isinstance(node, ast.ClassDef) and node.name == "Manager")
         methods = {node.name for node in manager.body if isinstance(node, ast.FunctionDef)}
         self.assertEqual(methods, {"__init__"})
         self.assertIn("game_prepare_base.ParallelDownloader = FdmDownloader", source)
@@ -83,7 +80,7 @@ class ReleaseManagerV14Tests(unittest.TestCase):
     def test_windows_build_packages_fdm_bridge_and_latest_manager(self):
         workflow = WORKFLOW.read_text(encoding="utf-8")
         requirements = REQUIREMENTS.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v15.py", workflow)
+        self.assertIn("dir: windows/release-manager\n            entry: app_v16.py", workflow)
         self.assertIn("python -m py_compile windows/release-manager/fdm_bridge.py", workflow)
         self.assertIn('Pattern "fdm_bridge"', workflow)
         self.assertIn('Pattern "pywinauto"', workflow)
