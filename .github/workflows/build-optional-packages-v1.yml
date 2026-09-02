@@ -1,4 +1,6 @@
 # One-time validated release build for optional packages v1.
+# v1.0.1: adds the live upload status broadcaster (drowned_shared.upload_status)
+# so the mobile Release Manager tab can show real-time upload progress.
 name: Build Optional Packages v1
 
 on:
@@ -40,6 +42,7 @@ jobs:
           python -m py_compile shared/python/drowned_shared/addon_publish.py
           python -m py_compile shared/python/drowned_shared/addon_delete.py
           python -m py_compile shared/python/drowned_shared/deletion.py
+          python -m py_compile shared/python/drowned_shared/upload_status.py
           python -m py_compile windows/release-manager/app_v10.py
           python -m py_compile windows/launcher/app_v12.py
 
@@ -64,7 +67,7 @@ jobs:
           $exe = "dist/Drowned-Release-Manager/Drowned-Release-Manager.exe"
           if (!(Test-Path $exe)) { throw "Release Manager executable missing" }
           python -m PyInstaller.utils.cliutils.archive_viewer -r $exe | Out-File -Encoding utf8 rm-archive.txt
-          foreach ($module in @("drowned_shared.addons", "drowned_shared.addon_publish", "drowned_shared.addon_delete")) {
+          foreach ($module in @("drowned_shared.addons", "drowned_shared.addon_publish", "drowned_shared.addon_delete", "drowned_shared.upload_status")) {
             if (-not (Select-String -Path rm-archive.txt -Pattern $module -Quiet)) { throw "Release Manager missing $module" }
           }
 
@@ -111,7 +114,7 @@ jobs:
       - name: Package applications
         shell: pwsh
         run: |
-          Compress-Archive -Path "dist/Drowned-Release-Manager/*" -DestinationPath "Drowned-Release-Manager-v0.10.0-Optional-Packages-Windows.zip"
+          Compress-Archive -Path "dist/Drowned-Release-Manager/*" -DestinationPath "Drowned-Release-Manager-v0.10.1-Optional-Packages-Windows.zip"
           Compress-Archive -Path "dist/Drowned-Launcher/*" -DestinationPath "Drowned-Launcher-v0.12.0-Optional-Packages-Windows.zip"
 
       - name: Publish GitHub Release
@@ -119,10 +122,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "drowned-optional-packages-v1.0.0" `
-            --title "Drowned Optional Packages v1.0.0" `
-            --notes "Release Manager v0.10 + Launcher v0.12. Adds optional overlay packages such as high-resolution textures. Packages have independent Releases/manifests, install into the existing game directory on opt-in, and uninstall safely by deleting package-owned files and restoring overwritten base files. Existing GitHub PAT/keyring identity is unchanged." `
-            "Drowned-Release-Manager-v0.10.0-Optional-Packages-Windows.zip" `
+          gh release create "drowned-optional-packages-v1.0.1" `
+            --title "Drowned Optional Packages v1.0.1" `
+            --notes "Release Manager v0.10.1 + Launcher v0.12. v0.10.1 adds a live upload status broadcaster: while a game/channel or optional-package upload is running, Release Manager writes .release-status/live.json to the repo every few seconds (same Contents API call already used for catalog.json), which the Drowned Control mobile app polls to show live upload progress. No new server or credential. Optional overlay packages (e.g. high-resolution textures) are unchanged: independent Releases/manifests, opt-in install into the existing game directory, and safe uninstall that restores overwritten base files. Existing GitHub PAT/keyring identity is unchanged." `
+            "Drowned-Release-Manager-v0.10.1-Optional-Packages-Windows.zip" `
             "Drowned-Launcher-v0.12.0-Optional-Packages-Windows.zip"
 
       - name: Report build status

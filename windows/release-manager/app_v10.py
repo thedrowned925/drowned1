@@ -35,7 +35,7 @@ from drowned_shared.turbo_upload import choose_upload_plan
 from drowned_shared.upload_status import UploadStatusBroadcaster
 from drowned_shared.util import format_bytes, slugify
 
-APP_VERSION = "0.10.0"
+APP_VERSION = "0.10.1"
 
 
 class OptionalPackageWorker(QObject):
