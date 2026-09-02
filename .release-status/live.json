@@ -1,14 +1,14 @@
 {
-  "active": false,
-  "phase": "done",
+  "active": true,
+  "phase": "plan",
   "kind": "game",
-  "title": "God of War Ragnarök",
+  "title": "Max Payne 3",
   "platform": "PC",
-  "channel": "beta",
+  "channel": "stable",
   "version": "1.0.0",
-  "percent": 100,
+  "percent": 0,
   "total_sent": 0,
-  "total_size": 0,
+  "total_size": 34958110011,
   "message": "",
-  "updated_at": "2026-09-02T11:38:29.495306+00:00"
+  "updated_at": "2026-09-02T11:58:56.271371+00:00"
 }
