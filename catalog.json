@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-02T07:26:42.730777+00:00",
+  "updated_at": "2026-09-02T08:27:17.388030+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2781,6 +2781,38 @@
       },
       "media": {
         "steam_app_id": 243470
+      }
+    },
+    {
+      "id": "sid-meier-s-civilization-v",
+      "title": "Sid Meier's Civilization® V",
+      "platform": "pc",
+      "description": "Create, discover, and download new player-created maps, scenarios, interfaces, and more!",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sid-meier-s-civilization-v/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sid-meier-s-civilization-v/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sid-meier-s-civilization-v/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sid-meier-s-civilization-v/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sid-meier-s-civilization-v/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sid-meier-s-civilization-v/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sid-meier-s-civilization-v/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sid-meier-s-civilization-v/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/sid-meier-s-civilization-v/screenshots/04.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-sid-meier-s-civilization-v-v1.0.0-stable",
+          "manifest_path": "manifests/pc/sid-meier-s-civilization-v/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/sid-meier-s-civilization-v/stable/1.0.0.json",
+          "size": 10530864334,
+          "published_at": "2026-09-02T08:27:17.383873+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 8930
       }
     }
   ]
