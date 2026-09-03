@@ -1,6 +1,6 @@
 {
   "active": true,
-  "phase": "plan",
+  "phase": "upload",
   "kind": "game",
   "title": "BioShock® 2",
   "platform": "PC",
@@ -10,5 +10,5 @@
   "total_sent": 0,
   "total_size": 8932507637,
   "message": "",
-  "updated_at": "2026-09-03T08:11:14.893179+00:00"
+  "updated_at": "2026-09-03T08:11:16.652255+00:00"
 }
