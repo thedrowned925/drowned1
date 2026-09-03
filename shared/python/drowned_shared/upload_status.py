@@ -4,23 +4,18 @@ import json
 import time
 from datetime import datetime, timezone
 
-STATUS_PATH = ".release-status/live.json"
+from .realtime_status import LiveStatusPublisher
 
-# Progress ticks are throttled to this interval; phase changes always go
-# through immediately regardless of the timer. Chosen to keep the mobile
-# dashboard feeling live without spamming the Contents API with a commit
-# every 0.25s (the underlying publish.py callback rate).
-MIN_TICK_INTERVAL_SECONDS = 5.0
+STATUS_PATH = ".release-status/live.json"
+LEGACY_GITHUB_INTERVAL_SECONDS = 15.0
 
 
 class UploadStatusBroadcaster:
-    """Publishes coarse upload progress to a small repo-tracked JSON file.
+    """Publishes live progress to Supabase and keeps GitHub JSON as fallback.
 
-    This is the only bridge between a live Release Manager upload (running on
-    someone's desktop) and the mobile Release Manager tab: there is no shared
-    server, so progress travels the same way the catalog/manifests already do
-    - as a small file committed straight to the distribution repo via the
-    Contents API, read back over raw.githubusercontent.com.
+    Supabase is the fast path used by Android Realtime. The legacy repo-tracked
+    JSON remains as a low-frequency fallback so older Android builds continue to
+    work and a temporary Supabase outage never affects the real publish job.
     """
 
     def __init__(self, client, kind: str, title: str, platform: str = "", channel: str = "", version: str = ""):
@@ -32,13 +27,22 @@ class UploadStatusBroadcaster:
         self.version = version
         self._last_sent = 0.0
         self._last_phase: str | None = None
+        self.realtime = LiveStatusPublisher(
+            client.token,
+            kind=kind,
+            title=title,
+            platform=platform,
+            channel=channel,
+            version=version,
+        )
 
     def update(self, snapshot: dict) -> None:
         """Feed a drowned_shared.publish detailed_progress snapshot."""
         phase = str(snapshot.get("phase") or "upload")
-        if not self._should_send(phase):
+        self.realtime.update(snapshot, active=True)
+        if not self._should_send_legacy(phase):
             return
-        self._push(
+        self._push_legacy(
             phase=phase,
             total_sent=int(snapshot.get("total_sent") or 0),
             total_size=int(snapshot.get("total_size") or 0),
@@ -47,25 +51,32 @@ class UploadStatusBroadcaster:
 
     def update_simple(self, sent: int, total: int) -> None:
         """Feed a plain (sent, total) progress callback."""
-        if not self._should_send("upload"):
-            return
-        self._push(phase="upload", total_sent=int(sent), total_size=int(total), active=True)
+        snapshot = {
+            "phase": "upload",
+            "total_sent": int(sent),
+            "total_size": int(total),
+        }
+        self.realtime.update(snapshot, active=True)
+        if self._should_send_legacy("upload"):
+            self._push_legacy("upload", int(sent), int(total), True)
 
     def finish(self) -> None:
-        self._push(phase="done", total_sent=0, total_size=0, active=False)
+        self.realtime.finish("done")
+        self._push_legacy(phase="done", total_sent=0, total_size=0, active=False)
 
     def fail(self, message: str = "") -> None:
-        self._push(phase="error", total_sent=0, total_size=0, active=False, message=message)
+        self.realtime.fail(message)
+        self._push_legacy(phase="error", total_sent=0, total_size=0, active=False, message=message)
 
-    def _should_send(self, phase: str) -> bool:
+    def _should_send_legacy(self, phase: str) -> bool:
         now = time.monotonic()
-        if phase != self._last_phase or now - self._last_sent >= MIN_TICK_INTERVAL_SECONDS:
+        if phase != self._last_phase or now - self._last_sent >= LEGACY_GITHUB_INTERVAL_SECONDS:
             self._last_sent = now
             self._last_phase = phase
             return True
         return False
 
-    def _push(self, phase: str, total_sent: int, total_size: int, active: bool, message: str = "") -> None:
+    def _push_legacy(self, phase: str, total_sent: int, total_size: int, active: bool, message: str = "") -> None:
         percent = int(total_sent * 100 / total_size) if total_size else (100 if phase == "done" else 0)
         body = {
             "active": active,
@@ -88,6 +99,4 @@ class UploadStatusBroadcaster:
                 f"Update live upload status ({phase})",
             )
         except Exception:
-            # Best-effort telemetry only - never let a status ping break the
-            # actual upload it is reporting on.
             pass
