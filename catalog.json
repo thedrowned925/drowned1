@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-03T08:14:29.166225+00:00",
+  "updated_at": "2026-09-03T09:15:46.910359+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -3021,6 +3021,39 @@
       },
       "media": {
         "steam_app_id": 8850
+      }
+    },
+    {
+      "id": "assassin-s-creed-origins",
+      "title": "Assassin's Creed® Origins",
+      "platform": "pc",
+      "description": "Explore Ancient Egypt in this action-adventure game. Battle powerful enemies, unveil conspiracies, and discover the origin story of the Assassin’s Brotherhood.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-origins/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-origins/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-origins/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-origins/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-origins/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-origins/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-origins/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-origins/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-origins/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-origins/screenshots/05.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-assassin-s-creed-origins-v1.0.0-stable",
+          "manifest_path": "manifests/pc/assassin-s-creed-origins/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/assassin-s-creed-origins/stable/1.0.0.json",
+          "size": 74319227035,
+          "published_at": "2026-09-03T09:15:46.910333+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 582160
       }
     }
   ]
