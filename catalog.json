@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-03T12:13:00.092832+00:00",
+  "updated_at": "2026-09-03T19:57:52.717511+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -3087,6 +3087,41 @@
       },
       "media": {
         "steam_app_id": 418370
+      }
+    },
+    {
+      "id": "hellblade-senua-s-sacrifice",
+      "title": "Hellblade: Senua's Sacrifice",
+      "platform": "pc",
+      "description": "From the makers of Heavenly Sword, Enslaved: Odyssey to the West, and DmC: Devil May Cry, comes a warrior’s brutal journey into myth and madness. Set in the Viking age, a broken Celtic warrior embarks on a haunting vision quest into Viking Hell to fight for the soul of her dead lover.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hellblade-senua-s-sacrifice/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hellblade-senua-s-sacrifice/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hellblade-senua-s-sacrifice/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hellblade-senua-s-sacrifice/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hellblade-senua-s-sacrifice/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hellblade-senua-s-sacrifice/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hellblade-senua-s-sacrifice/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hellblade-senua-s-sacrifice/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hellblade-senua-s-sacrifice/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hellblade-senua-s-sacrifice/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hellblade-senua-s-sacrifice/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/hellblade-senua-s-sacrifice/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-hellblade-senua-s-sacrifice-v1.0.0-stable",
+          "manifest_path": "manifests/pc/hellblade-senua-s-sacrifice/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/hellblade-senua-s-sacrifice/stable/1.0.0.json",
+          "size": 20288137291,
+          "published_at": "2026-09-03T19:57:52.717500+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 414340
       }
     }
   ]
