@@ -16,10 +16,23 @@ import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+import org.json.JSONArray
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.net.HttpURLConnection
+import java.net.URL
 import kotlin.math.roundToLong
 
 private const val SUPABASE_URL = "https://hfigrspqyxhscbkmporz.supabase.co"
-private const val SUPABASE_PUBLISHABLE_KEY = "sb_publishable_6eylCS77qrEkMJNa6sW95g_u89HDoj4"
+
+// supabase-kt 3.0.1 predates the modern sb_publishable_* key format. The legacy
+// anon JWT is intentionally a public client key and keeps the old Realtime
+// channel authentication compatible. RLS still controls what the app can read.
+private const val SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhmaWdyc3BxeXhoc2Nia21wb3J6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgzOTY0NjIsImV4cCI6MjEwMzk3MjQ2Mn0.7esPHfTAIS19KKniUi6Klo1Fgoze2-y6jOOlhHlZaGg"
+private const val REST_POLL_MS = 2_000L
+private const val REALTIME_RETRY_MS = 3_000L
+private const val LIVE_ROW_URL =
+    "$SUPABASE_URL/rest/v1/release_live_status?machine_id=eq.primary&limit=1"
 
 @Serializable
 private data class SupabaseLiveRow(
@@ -48,10 +61,11 @@ object RealtimeLiveStore {
     private val _status = mutableStateOf<LiveUploadStatus?>(null)
     val status: State<LiveUploadStatus?> = _status
 
-    private var started = false
+    @Volatile private var started = false
+    @Volatile private var latestPublishedMillis = 0L
 
     private val client by lazy {
-        createSupabaseClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY) {
+        createSupabaseClient(SUPABASE_URL, SUPABASE_ANON_KEY) {
             install(Postgrest)
             install(Realtime)
         }
@@ -61,13 +75,29 @@ object RealtimeLiveStore {
     fun ensureStarted() {
         if (started) return
         started = true
+
+        // Primary path: low-latency Supabase Realtime stream.
         scope.launch {
             while (isActive) {
                 try {
                     collectRealtime()
                 } catch (_: Throwable) {
-                    delay(3_000)
+                    delay(REALTIME_RETRY_MS)
                 }
+            }
+        }
+
+        // Independent safety net: even if a Realtime channel cannot subscribe on
+        // a particular Android/network combination, the same row is read every
+        // two seconds through PostgREST so the live card never silently vanishes.
+        scope.launch {
+            while (isActive) {
+                try {
+                    fetchRestSnapshot()?.let(::publish)
+                } catch (_: Throwable) {
+                    // Live telemetry must never crash the dashboard.
+                }
+                delay(REST_POLL_MS)
             }
         }
     }
@@ -79,9 +109,56 @@ object RealtimeLiveStore {
             .selectSingleValueAsFlow(SupabaseLiveRow::machineId) {
                 eq("machine_id", "primary")
             }
-            .collect { row ->
-                _status.value = row.toUiStatus()
-            }
+            .collect(::publish)
+    }
+
+    private fun publish(row: SupabaseLiveRow) {
+        val rowMillis = parseIsoInstantMillis(row.updatedAt) ?: 0L
+        if (rowMillis > 0L && rowMillis < latestPublishedMillis) return
+        if (rowMillis > 0L) latestPublishedMillis = rowMillis
+        _status.value = row.toUiStatus()
+    }
+
+    private fun fetchRestSnapshot(): SupabaseLiveRow? {
+        val connection = (URL(LIVE_ROW_URL).openConnection() as HttpURLConnection).apply {
+            requestMethod = "GET"
+            connectTimeout = 5_000
+            readTimeout = 5_000
+            setRequestProperty("apikey", SUPABASE_ANON_KEY)
+            setRequestProperty("Authorization", "Bearer $SUPABASE_ANON_KEY")
+            setRequestProperty("Accept", "application/json")
+            setRequestProperty("User-Agent", "Drowned-Control-Android/1.2")
+        }
+        return try {
+            connection.connect()
+            if (connection.responseCode !in 200..299) return null
+            val text = BufferedReader(InputStreamReader(connection.inputStream)).use { it.readText() }
+            val array = JSONArray(text)
+            if (array.length() == 0) return null
+            val item = array.optJSONObject(0) ?: return null
+            SupabaseLiveRow(
+                machineId = item.optString("machine_id", "primary"),
+                active = item.optBoolean("active", false),
+                phase = item.optString("phase", "idle"),
+                kind = item.optString("kind", "release"),
+                title = item.optString("title", ""),
+                platform = item.optString("platform", ""),
+                channel = item.optString("channel", ""),
+                version = item.optString("version", ""),
+                percent = item.optInt("percent", 0),
+                speedBps = item.optLong("speed_bps", 0L),
+                averageSpeedBps = item.optLong("avg_speed_bps", 0L),
+                etaSeconds = if (item.isNull("eta_seconds")) null else item.optInt("eta_seconds"),
+                processedBytes = item.optLong("processed_bytes", 0L),
+                totalBytes = item.optLong("total_bytes", 0L),
+                connections = item.optInt("connections", 0),
+                currentItem = item.optString("current_item", ""),
+                message = item.optString("message", ""),
+                updatedAt = item.optString("updated_at", ""),
+            )
+        } finally {
+            connection.disconnect()
+        }
     }
 }
 
