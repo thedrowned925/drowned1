@@ -1,4 +1,4 @@
-name: Build Drowned Control v1.3.0
+name: Build Drowned Control v1.4.0
 
 on:
   workflow_dispatch:
@@ -37,14 +37,14 @@ jobs:
       - name: Verify APK
         run: |
           test -f mobile/control-app/app/build/outputs/apk/debug/app-debug.apk
-          cp mobile/control-app/app/build/outputs/apk/debug/app-debug.apk Drowned-Control-v1.3.0.apk
-          ls -lh Drowned-Control-v1.3.0.apk
+          cp mobile/control-app/app/build/outputs/apk/debug/app-debug.apk Drowned-Control-v1.4.0.apk
+          ls -lh Drowned-Control-v1.4.0.apk
 
       - name: Upload test artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Drowned-Control-v1.3.0-Android
-          path: Drowned-Control-v1.3.0.apk
+          name: Drowned-Control-v1.4.0-Android
+          path: Drowned-Control-v1.4.0.apk
           compression-level: 0
 
       - name: Publish GitHub Release
@@ -52,13 +52,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release view "drowned-control-v1.3.0" >/dev/null 2>&1; then
-            gh release upload "drowned-control-v1.3.0" Drowned-Control-v1.3.0.apk --clobber
+          if gh release view "drowned-control-v1.4.0" >/dev/null 2>&1; then
+            gh release upload "drowned-control-v1.4.0" Drowned-Control-v1.4.0.apk --clobber
           else
-            gh release create "drowned-control-v1.3.0" \
-              --title "Drowned Control v1.3.0 - Android" \
-              --notes "Adds paired Android control for PC-side ZIP/RAR/7z extraction with Supabase Realtime progress, cancellation, output-folder selection and the existing remote upload flow. Game files never pass through Supabase." \
-              Drowned-Control-v1.3.0.apk
+            gh release create "drowned-control-v1.4.0" \
+              --title "Drowned Control v1.4.0 - Android" \
+              --notes "Adds WinRAR-compatible remote extraction plus PC-side copy, cut/move, rename and folder creation controls with Supabase Realtime progress. File bytes never pass through Supabase." \
+              Drowned-Control-v1.4.0.apk
           fi
 
       - name: Report build status
