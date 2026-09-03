@@ -27,8 +27,12 @@ class UploadStatusBroadcaster:
         self.version = version
         self._last_sent = 0.0
         self._last_phase: str | None = None
+        # Some lightweight/test GitHub clients intentionally expose only the
+        # upsert API. Realtime is optional, so a missing token must never break
+        # the actual upload path or legacy status publishing.
+        github_token = str(getattr(client, "token", "") or "").strip()
         self.realtime = LiveStatusPublisher(
-            client.token,
+            github_token,
             kind=kind,
             title=title,
             platform=platform,
