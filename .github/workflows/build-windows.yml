@@ -61,6 +61,7 @@ jobs:
           python -m py_compile shared/python/drowned_shared/realtime_status.py
           python -m py_compile shared/python/drowned_shared/remote_control.py
           python -m py_compile windows/release-manager/game_prepare.py
+          python -m py_compile windows/release-manager/remote_file_ops.py
           python -m py_compile windows/release-manager/game_download_v2.py
           python -m py_compile windows/release-manager/fdm_bridge.py
           python -m py_compile windows/release-manager/fdm_ui_v2.py
@@ -70,7 +71,7 @@ jobs:
           python -m py_compile "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
           if ("${{ matrix.app.name }}" -eq "Drowned-Release-Manager") {
             Push-Location windows/release-manager
-            python -c "import app_v21; import app_v20; import fdm_ui_v3; import fdm_submit_v4; import fdm_bridge; import drowned_shared.remote_control; assert hasattr(fdm_bridge, '_noop'); print('Release Manager v0.21 import chain OK')"
+            python -c "import app_v21; import app_v20; import remote_file_ops; import fdm_ui_v3; import fdm_submit_v4; import fdm_bridge; import drowned_shared.remote_control; assert hasattr(fdm_bridge, '_noop'); print('Release Manager v0.22 import chain OK')"
             Pop-Location
           }
 
@@ -105,6 +106,9 @@ jobs:
             if (-not (Select-String -Path archive-contents.txt -Pattern "game_prepare" -Quiet)) {
               throw "Release Manager archive does not contain game_prepare"
             }
+            if (-not (Select-String -Path archive-contents.txt -Pattern "remote_file_ops" -Quiet)) {
+              throw "Release Manager archive does not contain WinRAR/file-manager backend"
+            }
             if (-not (Select-String -Path archive-contents.txt -Pattern "app_v20" -Quiet)) {
               throw "Release Manager archive does not contain v0.20 remote-control base"
             }
@@ -121,7 +125,7 @@ jobs:
               throw "Release Manager archive does not contain Android remote-control agent"
             }
             if (-not (Select-String -Path archive-contents.txt -Pattern "drowned_shared.realtime_status" -Quiet)) {
-              throw "Release Manager archive does not contain realtime extraction telemetry"
+              throw "Release Manager archive does not contain realtime telemetry"
             }
             if (-not (Select-String -Path archive-contents.txt -Pattern "pywinauto" -Quiet)) {
               throw "Release Manager archive does not contain pywinauto FDM modal automation"
