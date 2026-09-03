@@ -30,7 +30,7 @@ jobs:
         app:
           - name: Drowned-Release-Manager
             dir: windows/release-manager
-            entry: app_v18.py
+            entry: app_v20.py
           - name: Drowned-Launcher
             dir: windows/launcher
             entry: app_v18.py
@@ -54,10 +54,12 @@ jobs:
 
       - name: Compile and verify imports
         run: |
-          python -c "import drowned_shared; import drowned_shared.addons; import drowned_shared.addon_publish; import drowned_shared.addon_delete; print('drowned_shared:', drowned_shared.__file__)"
+          python -c "import drowned_shared; import drowned_shared.addons; import drowned_shared.addon_publish; import drowned_shared.addon_delete; import drowned_shared.remote_control; print('drowned_shared:', drowned_shared.__file__)"
           python -m py_compile shared/python/drowned_shared/addons.py
           python -m py_compile shared/python/drowned_shared/addon_publish.py
           python -m py_compile shared/python/drowned_shared/addon_delete.py
+          python -m py_compile shared/python/drowned_shared/realtime_status.py
+          python -m py_compile shared/python/drowned_shared/remote_control.py
           python -m py_compile windows/release-manager/game_prepare.py
           python -m py_compile windows/release-manager/game_download_v2.py
           python -m py_compile windows/release-manager/fdm_bridge.py
@@ -67,7 +69,7 @@ jobs:
           python -m py_compile "${{ matrix.app.dir }}/${{ matrix.app.entry }}"
           if ("${{ matrix.app.name }}" -eq "Drowned-Release-Manager") {
             Push-Location windows/release-manager
-            python -c "import app_v18; import fdm_ui_v3; import fdm_submit_v4; import fdm_bridge; assert hasattr(fdm_bridge, '_noop'); print('Release Manager import chain OK')"
+            python -c "import app_v20; import fdm_ui_v3; import fdm_submit_v4; import fdm_bridge; import drowned_shared.remote_control; assert hasattr(fdm_bridge, '_noop'); print('Release Manager v0.20 import chain OK')"
             Pop-Location
           }
 
@@ -110,6 +112,9 @@ jobs:
             }
             if (-not (Select-String -Path archive-contents.txt -Pattern "fdm_submit_v4" -Quiet)) {
               throw "Release Manager archive does not contain FDM direct URL handoff"
+            }
+            if (-not (Select-String -Path archive-contents.txt -Pattern "drowned_shared.remote_control" -Quiet)) {
+              throw "Release Manager archive does not contain Android remote-control agent"
             }
             if (-not (Select-String -Path archive-contents.txt -Pattern "pywinauto" -Quiet)) {
               throw "Release Manager archive does not contain pywinauto FDM modal automation"
