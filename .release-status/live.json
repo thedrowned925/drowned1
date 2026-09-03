@@ -1,14 +1,14 @@
 {
-  "active": true,
-  "phase": "metadata",
+  "active": false,
+  "phase": "done",
   "kind": "game",
   "title": "BioShock® 2",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
   "percent": 100,
-  "total_sent": 8932507637,
-  "total_size": 8932507637,
+  "total_sent": 0,
+  "total_size": 0,
   "message": "",
-  "updated_at": "2026-09-03T08:14:07.588337+00:00"
+  "updated_at": "2026-09-03T08:14:31.692222+00:00"
 }
