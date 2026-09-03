@@ -31,7 +31,7 @@ class ReleaseManagerV17Tests(unittest.TestCase):
 
     def test_windows_build_supersedes_v17(self):
         workflow = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v18.py", workflow)
+        self.assertIn("dir: windows/release-manager\n            entry: app_v20.py", workflow)
         self.assertIn("python -m py_compile windows/release-manager/fdm_ui_v3.py", workflow)
 
 
