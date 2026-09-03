@@ -1,9 +1,9 @@
-name: Build Drowned Control v1.1.0
+name: Build Drowned Control v1.4.1
 
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, release-manager-v11]
     paths:
       - 'mobile/control-app/**'
       - '.github/workflows/build-mobile-control-v1.yml'
@@ -37,24 +37,32 @@ jobs:
       - name: Verify APK
         run: |
           test -f mobile/control-app/app/build/outputs/apk/debug/app-debug.apk
-          cp mobile/control-app/app/build/outputs/apk/debug/app-debug.apk Drowned-Control-v1.1.0.apk
-          ls -lh Drowned-Control-v1.1.0.apk
+          cp mobile/control-app/app/build/outputs/apk/debug/app-debug.apk Drowned-Control-v1.4.1.apk
+          ls -lh Drowned-Control-v1.4.1.apk
+
+      - name: Upload test artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Drowned-Control-v1.4.1-Android
+          path: Drowned-Control-v1.4.1.apk
+          compression-level: 0
 
       - name: Publish GitHub Release
+        if: github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release view "drowned-control-v1.1.0" >/dev/null 2>&1; then
-            gh release upload "drowned-control-v1.1.0" Drowned-Control-v1.1.0.apk --clobber
+          if gh release view "drowned-control-v1.4.1" >/dev/null 2>&1; then
+            gh release upload "drowned-control-v1.4.1" Drowned-Control-v1.4.1.apk --clobber
           else
-            gh release create "drowned-control-v1.1.0" \
-              --title "Drowned Control v1.1.0 - Android" \
-              --notes "Read-only Android dashboard for Drowned releases. v1.1.0 adds a Release Manager tab that tracks GitHub Actions pipeline runs, published GitHub Releases, and per-component build status files. The original catalog dashboard is unchanged. Contains no GitHub PAT and has no write/delete/publish capability." \
-              Drowned-Control-v1.1.0.apk
+            gh release create "drowned-control-v1.4.1" \
+              --title "Drowned Control v1.4.1 - Android" \
+              --notes "Fixes live Supabase telemetry lag by keeping Realtime as the primary path and adding a sub-second active-task snapshot fallback. Also keeps WinRAR-compatible remote extraction and PC file management controls." \
+              Drowned-Control-v1.4.1.apk
           fi
 
       - name: Report build status
-        if: always()
+        if: always() && github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ github.token }}
           BUILD_STATUS: ${{ job.status }}

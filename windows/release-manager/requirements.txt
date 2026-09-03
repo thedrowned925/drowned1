@@ -1,2 +1,4 @@
 PySide6-Essentials>=6.9,<7
 keyring>=25,<26
+psutil>=6,<8
+pywinauto>=0.6.9,<0.7
