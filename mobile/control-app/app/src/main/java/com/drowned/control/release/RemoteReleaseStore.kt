@@ -35,6 +35,13 @@ data class RemoteArchive(
     val firstPart: Boolean = true,
 )
 
+data class RemoteFile(
+    val name: String,
+    val path: String,
+    val size: Long,
+    val kind: String,
+)
+
 data class RemotePcState(
     val title: String = "",
     val steamAppId: String = "",
@@ -56,6 +63,12 @@ data class RemotePcState(
     val extractTarget: String = "",
     val extractOutput: String = "",
     val extractError: String = "",
+    val fileRunning: Boolean = false,
+    val fileOperation: String = "",
+    val fileSource: String = "",
+    val fileTarget: String = "",
+    val fileOutput: String = "",
+    val fileError: String = "",
 )
 
 data class RemoteDirectory(
@@ -63,6 +76,7 @@ data class RemoteDirectory(
     val parent: String,
     val folders: List<RemoteFolder>,
     val archives: List<RemoteArchive>,
+    val files: List<RemoteFile>,
     val diskFree: Long,
 )
 
@@ -141,11 +155,26 @@ object RemoteReleaseApi {
                 )
             }
         }
+        val fileArray = result.optJSONArray("files") ?: JSONArray()
+        val files = buildList {
+            for (index in 0 until fileArray.length()) {
+                val item = fileArray.optJSONObject(index) ?: continue
+                add(
+                    RemoteFile(
+                        name = item.optString("name"),
+                        path = item.optString("path"),
+                        size = item.optLong("size", 0L),
+                        kind = item.optString("kind", "file"),
+                    )
+                )
+            }
+        }
         return RemoteDirectory(
             path = result.optString("path"),
             parent = result.optString("parent"),
             folders = folders,
             archives = archives,
+            files = files,
             diskFree = result.optLong("disk_free", 0L),
         )
     }
@@ -189,6 +218,45 @@ object RemoteReleaseApi {
 
     suspend fun cancelExtract(token: String): RemotePcState =
         commandState(token, "cancel_extract", JSONObject(), 25_000L)
+
+    suspend fun copyPath(token: String, source: String, target: String): RemotePcState =
+        commandState(
+            token,
+            "fs_copy",
+            JSONObject().put("source", source).put("target", target),
+            30_000L,
+        )
+
+    suspend fun movePath(token: String, source: String, target: String): RemotePcState =
+        commandState(
+            token,
+            "fs_move",
+            JSONObject().put("source", source).put("target", target),
+            30_000L,
+        )
+
+    suspend fun cancelFileOperation(token: String): RemotePcState =
+        commandState(token, "fs_cancel", JSONObject(), 25_000L)
+
+    suspend fun createFolder(token: String, parent: String, name: String): String {
+        val result = command(
+            token,
+            "fs_mkdir",
+            JSONObject().put("parent", parent).put("name", name),
+            25_000L,
+        )
+        return result.optString("path")
+    }
+
+    suspend fun renamePath(token: String, path: String, name: String): String {
+        val result = command(
+            token,
+            "fs_rename",
+            JSONObject().put("path", path).put("name", name),
+            25_000L,
+        )
+        return result.optString("path")
+    }
 
     suspend fun startUpload(
         token: String,
@@ -321,6 +389,12 @@ object RemoteReleaseApi {
             extractTarget = item.optString("extract_target"),
             extractOutput = item.optString("extract_output"),
             extractError = item.optString("extract_error"),
+            fileRunning = item.optBoolean("file_running", false),
+            fileOperation = item.optString("file_operation"),
+            fileSource = item.optString("file_source"),
+            fileTarget = item.optString("file_target"),
+            fileOutput = item.optString("file_output"),
+            fileError = item.optString("file_error"),
         )
     }
 }
