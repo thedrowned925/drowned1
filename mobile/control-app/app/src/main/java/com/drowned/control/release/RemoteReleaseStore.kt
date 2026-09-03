@@ -27,6 +27,14 @@ data class RemoteFolder(
     val diskFree: Long = 0,
 )
 
+data class RemoteArchive(
+    val name: String,
+    val path: String,
+    val size: Long,
+    val kind: String,
+    val firstPart: Boolean = true,
+)
+
 data class RemotePcState(
     val title: String = "",
     val steamAppId: String = "",
@@ -43,12 +51,18 @@ data class RemotePcState(
     val artworkLogo: Boolean = false,
     val screenshots: Int = 0,
     val trailers: Int = 0,
+    val extractRunning: Boolean = false,
+    val extractArchive: String = "",
+    val extractTarget: String = "",
+    val extractOutput: String = "",
+    val extractError: String = "",
 )
 
 data class RemoteDirectory(
     val path: String,
     val parent: String,
     val folders: List<RemoteFolder>,
+    val archives: List<RemoteArchive>,
     val diskFree: Long,
 )
 
@@ -105,17 +119,33 @@ object RemoteReleaseApi {
 
     suspend fun listDirectory(token: String, path: String): RemoteDirectory {
         val result = command(token, "list_dir", JSONObject().put("path", path), 25_000L)
-        val array = result.optJSONArray("folders") ?: JSONArray()
+        val folderArray = result.optJSONArray("folders") ?: JSONArray()
         val folders = buildList {
-            for (index in 0 until array.length()) {
-                val item = array.optJSONObject(index) ?: continue
+            for (index in 0 until folderArray.length()) {
+                val item = folderArray.optJSONObject(index) ?: continue
                 add(RemoteFolder(item.optString("name"), item.optString("path")))
+            }
+        }
+        val archiveArray = result.optJSONArray("archives") ?: JSONArray()
+        val archives = buildList {
+            for (index in 0 until archiveArray.length()) {
+                val item = archiveArray.optJSONObject(index) ?: continue
+                add(
+                    RemoteArchive(
+                        name = item.optString("name"),
+                        path = item.optString("path"),
+                        size = item.optLong("size", 0L),
+                        kind = item.optString("kind"),
+                        firstPart = item.optBoolean("first_part", true),
+                    )
+                )
             }
         }
         return RemoteDirectory(
             path = result.optString("path"),
             parent = result.optString("parent"),
             folders = folders,
+            archives = archives,
             diskFree = result.optLong("disk_free", 0L),
         )
     }
@@ -141,6 +171,24 @@ object RemoteReleaseApi {
             .put("description", description),
         25_000L,
     )
+
+    suspend fun startExtract(
+        token: String,
+        archive: String,
+        target: String,
+        title: String,
+    ): RemotePcState = commandState(
+        token,
+        "start_extract",
+        JSONObject()
+            .put("archive", archive)
+            .put("target", target)
+            .put("title", title),
+        30_000L,
+    )
+
+    suspend fun cancelExtract(token: String): RemotePcState =
+        commandState(token, "cancel_extract", JSONObject(), 25_000L)
 
     suspend fun startUpload(
         token: String,
@@ -185,7 +233,7 @@ object RemoteReleaseApi {
             readTimeout = 12_000
             setRequestProperty("Content-Type", "application/json")
             setRequestProperty("Accept", "application/json")
-            setRequestProperty("User-Agent", "Drowned-Control-Android/1.3")
+            setRequestProperty("User-Agent", "Drowned-Control-Android/1.4")
         }
         return try {
             val body = JSONObject()
@@ -236,7 +284,7 @@ object RemoteReleaseApi {
             setRequestProperty("Authorization", "Bearer $REMOTE_ANON_KEY")
             setRequestProperty("x-machine-token", token)
             setRequestProperty("Accept", "application/json")
-            setRequestProperty("User-Agent", "Drowned-Control-Android/1.3")
+            setRequestProperty("User-Agent", "Drowned-Control-Android/1.4")
         }
         return try {
             val code = connection.responseCode
@@ -268,6 +316,11 @@ object RemoteReleaseApi {
             artworkLogo = artwork.optBoolean("logo", false),
             screenshots = artwork.optInt("screenshots", 0),
             trailers = artwork.optInt("trailers", 0),
+            extractRunning = item.optBoolean("extract_running", false),
+            extractArchive = item.optString("extract_archive"),
+            extractTarget = item.optString("extract_target"),
+            extractOutput = item.optString("extract_output"),
+            extractError = item.optString("extract_error"),
         )
     }
 }
