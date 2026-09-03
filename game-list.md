@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 89
-- **Toplam aktif sürüm/kanal:** 89
-- **Toplam aktif boyut:** 2290.673 GB · 2.291 TB
-- **Katalog güncelleme zamanı:** 2026-09-03 05:10:24 UTC
+- **Toplam oyun:** 90
+- **Toplam aktif sürüm/kanal:** 90
+- **Toplam aktif boyut:** 2299.605 GB · 2.300 TB
+- **Katalog güncelleme zamanı:** 2026-09-03 08:14:29 UTC
 
 ## PC
 
-**89 oyun · 89 aktif sürüm/kanal · 2290.673 GB · 2.291 TB**
+**90 oyun · 90 aktif sürüm/kanal · 2299.605 GB · 2.300 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -25,6 +25,7 @@
 | Batman: Arkham City - Game of the Year Edition | 1.0.0 | stable | 18.232 | 0.018 | `pc-batman-arkham-city-game-of-the-year-edition-v1.0.0-stable` |
 | Batman™: Arkham Knight | 1.0.0 | stable | 58.187 | 0.058 | `pc-batman-arkham-knight-v1.0.0-stable` |
 | BioShock Infinite | 1.0.0 | stable | 47.811 | 0.048 | `pc-bioshock-infinite-v1.0.0-stable` |
+| BioShock® 2 | 1.0.0 | stable | 8.933 | 0.009 | `pc-bioshock-2-v1.0.0-stable` |
 | BioShock™ | 1.0.0 | stable | 6.039 | 0.006 | `pc-bioshock-v1.0.0-stable` |
 | Borderlands 2 | 1.0.0 | stable | 36.051 | 0.036 | `pc-borderlands-2-v1.0.0-stable` |
 | Call of Duty® 4: Modern Warfare® (2007) | 1.0.0 | stable | 6.975 | 0.007 | `pc-call-of-duty-4-modern-warfare-2007-v1.0.0-stable` |
