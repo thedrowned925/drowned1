@@ -29,7 +29,8 @@ private const val SUPABASE_URL = "https://hfigrspqyxhscbkmporz.supabase.co"
 // anon JWT is intentionally a public client key and keeps the old Realtime
 // channel authentication compatible. RLS still controls what the app can read.
 private const val SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhmaWdyc3BxeXhoc2Nia21wb3J6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgzOTY0NjIsImV4cCI6MjEwMzk3MjQ2Mn0.7esPHfTAIS19KKniUi6Klo1Fgoze2-y6jOOlhHlZaGg"
-private const val REST_POLL_MS = 2_000L
+private const val FALLBACK_CHECK_MS = 2_000L
+private const val REALTIME_STALE_MS = 8_000L
 private const val REALTIME_RETRY_MS = 3_000L
 private const val LIVE_ROW_URL =
     "$SUPABASE_URL/rest/v1/release_live_status?machine_id=eq.primary&limit=1"
@@ -63,6 +64,7 @@ object RealtimeLiveStore {
 
     @Volatile private var started = false
     @Volatile private var latestPublishedMillis = 0L
+    @Volatile private var latestReceiveMillis = 0L
 
     private val client by lazy {
         createSupabaseClient(SUPABASE_URL, SUPABASE_ANON_KEY) {
@@ -87,17 +89,21 @@ object RealtimeLiveStore {
             }
         }
 
-        // Independent safety net: even if a Realtime channel cannot subscribe on
-        // a particular Android/network combination, the same row is read every
-        // two seconds through PostgREST so the live card never silently vanishes.
+        // Safety net only. The loop wakes every two seconds, but it performs a
+        // REST request only when Realtime has not delivered anything recently.
+        // This keeps the mobile view reliable while avoiding needless Free-plan
+        // egress when the WebSocket channel is healthy.
         scope.launch {
             while (isActive) {
                 try {
-                    fetchRestSnapshot()?.let(::publish)
+                    val now = System.currentTimeMillis()
+                    if (latestReceiveMillis == 0L || now - latestReceiveMillis >= REALTIME_STALE_MS) {
+                        fetchRestSnapshot()?.let(::publish)
+                    }
                 } catch (_: Throwable) {
                     // Live telemetry must never crash the dashboard.
                 }
-                delay(REST_POLL_MS)
+                delay(FALLBACK_CHECK_MS)
             }
         }
     }
@@ -116,6 +122,7 @@ object RealtimeLiveStore {
         val rowMillis = parseIsoInstantMillis(row.updatedAt) ?: 0L
         if (rowMillis > 0L && rowMillis < latestPublishedMillis) return
         if (rowMillis > 0L) latestPublishedMillis = rowMillis
+        latestReceiveMillis = System.currentTimeMillis()
         _status.value = row.toUiStatus()
     }
 
@@ -127,7 +134,7 @@ object RealtimeLiveStore {
             setRequestProperty("apikey", SUPABASE_ANON_KEY)
             setRequestProperty("Authorization", "Bearer $SUPABASE_ANON_KEY")
             setRequestProperty("Accept", "application/json")
-            setRequestProperty("User-Agent", "Drowned-Control-Android/1.2")
+            setRequestProperty("User-Agent", "Drowned-Control-Android/1.3")
         }
         return try {
             connection.connect()
