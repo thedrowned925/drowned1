@@ -15,11 +15,12 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -62,6 +63,16 @@ fun RemoteReleaseScreen(onBack: () -> Unit) {
     var browserOpen by remember { mutableStateOf(false) }
     var roots by remember { mutableStateOf<List<RemoteFolder>>(emptyList()) }
     var directory by remember { mutableStateOf<RemoteDirectory?>(null) }
+    var selectedArchive by rememberSaveable { mutableStateOf("") }
+    var selectedArchiveName by rememberSaveable { mutableStateOf("") }
+    var extractTarget by rememberSaveable { mutableStateOf("") }
+
+    LaunchedEffect(Unit) {
+        RealtimeLiveStore.ensureStarted()
+    }
+    val liveStatus = RealtimeLiveStore.status.value
+    val extractionLive = liveStatus?.takeIf { it.kind == "extract" }
+    val extractionActive = state?.extractRunning == true || extractionLive?.active == true
 
     fun applyState(value: RemotePcState) {
         state = value
@@ -72,6 +83,11 @@ fun RemoteReleaseScreen(onBack: () -> Unit) {
         if (value.channel.isNotBlank()) channel = value.channel
         description = value.description
         if (value.source.isNotBlank()) source = value.source
+        if (value.extractArchive.isNotBlank()) {
+            selectedArchive = value.extractArchive
+            selectedArchiveName = value.extractArchive.substringAfterLast('\\').substringAfterLast('/')
+        }
+        if (value.extractTarget.isNotBlank()) extractTarget = value.extractTarget
     }
 
     fun runTask(label: String, block: suspend () -> Unit) {
@@ -162,7 +178,7 @@ fun RemoteReleaseScreen(onBack: () -> Unit) {
                             singleLine = true,
                         )
                         Button(
-                            enabled = !busy && steamId.isNotBlank(),
+                            enabled = !busy && steamId.isNotBlank() && !extractionActive,
                             onClick = {
                                 runTask("Steam bilgileri PC'de çekiliyor…") {
                                     val pc = RemoteReleaseApi.fetchSteam(pairingToken, steamId)
@@ -223,8 +239,13 @@ fun RemoteReleaseScreen(onBack: () -> Unit) {
             item {
                 Card(colors = CardDefaults.cardColors(containerColor = RemoteCard), shape = RoundedCornerShape(16.dp)) {
                     Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(9.dp)) {
-                        Text("4. PC'deki upload klasörünü seç", fontWeight = FontWeight.Bold)
-                        Text(source.ifBlank { "Henüz klasör seçilmedi." }, fontSize = 12.sp, color = if (source.isBlank()) RemoteMuted else RemoteGood)
+                        Text("4. PC dosya / klasör tarayıcısı", fontWeight = FontWeight.Bold)
+                        Text(
+                            "Upload klasörü seçebilir veya ZIP / RAR / 7z arşivi seçip PC'de çıkartabilirsin. Dosya içeriği Supabase'e gönderilmez.",
+                            fontSize = 12.sp,
+                            color = RemoteMuted,
+                        )
+                        Text(source.ifBlank { "Upload klasörü henüz seçilmedi." }, fontSize = 12.sp, color = if (source.isBlank()) RemoteMuted else RemoteGood)
                         Button(
                             enabled = !busy,
                             onClick = {
@@ -234,7 +255,7 @@ fun RemoteReleaseScreen(onBack: () -> Unit) {
                                     browserOpen = true
                                 }
                             },
-                        ) { Text(if (browserOpen) "Diskleri yenile" else "PC klasörlerini aç") }
+                        ) { Text(if (browserOpen) "Diskleri yenile" else "PC dosyalarını aç") }
 
                         if (browserOpen) {
                             val current = directory
@@ -263,14 +284,36 @@ fun RemoteReleaseScreen(onBack: () -> Unit) {
                                             val pc = RemoteReleaseApi.selectSource(pairingToken, current.path)
                                             applyState(pc)
                                             source = current.path
-                                            browserOpen = false
                                             info = "✓ Upload klasörü PC'de seçildi."
                                         }
-                                    }) { Text("Bu klasörü seç") }
+                                    }) { Text("Upload klasörü yap") }
                                 }
+                                TextButton(onClick = {
+                                    extractTarget = current.path
+                                    info = "✓ Arşiv çıkarma hedefi: ${current.path}"
+                                }) { Text("Bu klasörü çıkarma hedefi yap") }
+
+                                if (current.archives.isNotEmpty()) {
+                                    Text("Arşivler", fontWeight = FontWeight.SemiBold, fontSize = 13.sp, color = RemoteAccent)
+                                    current.archives.take(80).forEach { archive ->
+                                        ArchiveRow(archive, selectedArchive == archive.path) {
+                                            if (!archive.firstPart) {
+                                                error = "Çok parçalı RAR için ilk parçayı (.part1.rar / .part01.rar) seç."
+                                            } else {
+                                                selectedArchive = archive.path
+                                                selectedArchiveName = archive.name
+                                                if (extractTarget.isBlank()) extractTarget = current.path
+                                                info = "✓ Arşiv seçildi: ${archive.name}"
+                                                error = null
+                                            }
+                                        }
+                                    }
+                                }
+
                                 if (current.folders.isEmpty()) {
                                     Text("Alt klasör yok.", fontSize = 12.sp, color = RemoteMuted)
                                 } else {
+                                    Text("Klasörler", fontWeight = FontWeight.SemiBold, fontSize = 13.sp)
                                     current.folders.take(120).forEach { folder ->
                                         FolderRow(folder.name, folder.path) {
                                             runTask("${folder.name} açılıyor…") {
@@ -288,14 +331,121 @@ fun RemoteReleaseScreen(onBack: () -> Unit) {
             item {
                 Card(colors = CardDefaults.cardColors(containerColor = RemoteCardAlt), shape = RoundedCornerShape(16.dp)) {
                     Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(9.dp)) {
-                        Text("5. Upload'u PC'de başlat", fontWeight = FontWeight.ExtraBold, fontSize = 17.sp)
+                        Text("5. Arşivi PC'de çıkart", fontWeight = FontWeight.ExtraBold, fontSize = 17.sp)
+                        Text(
+                            selectedArchiveName.ifBlank { "Tarayıcıdan ZIP / RAR / 7z seç." },
+                            fontSize = 12.sp,
+                            color = if (selectedArchive.isBlank()) RemoteMuted else RemoteGood,
+                        )
+                        if (selectedArchive.isNotBlank()) {
+                            Text(selectedArchive, fontSize = 10.sp, color = RemoteMuted, maxLines = 2)
+                            Text(
+                                "Hedef: ${extractTarget.ifBlank { "Arşivin bulunduğu klasör" }}",
+                                fontSize = 11.sp,
+                                color = RemoteMuted,
+                            )
+                        }
+
+                        if (extractionLive != null) {
+                            Text(
+                                "${extractionLive.percent}% · ${extractionLive.phase}",
+                                fontWeight = FontWeight.Bold,
+                                color = if (extractionLive.active) RemoteAccent else RemoteGood,
+                            )
+                            LinearProgressIndicator(
+                                progress = { extractionLive.percent.coerceIn(0, 100) / 100f },
+                                modifier = Modifier.fillMaxWidth(),
+                            )
+                            if (extractionLive.totalSize > 0) {
+                                Text(
+                                    "${humanBytes(extractionLive.totalSent)} / ${humanBytes(extractionLive.totalSize)}",
+                                    fontSize = 11.sp,
+                                    color = RemoteMuted,
+                                )
+                            }
+                            if (extractionLive.message.isNotBlank()) {
+                                Text(extractionLive.message, fontSize = 11.sp, color = RemoteMuted)
+                            }
+                        }
+
+                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Button(
+                                enabled = !busy && selectedArchive.isNotBlank() && !extractionActive && state?.uploadRunning != true,
+                                onClick = {
+                                    runTask("Arşiv çıkarma PC'de başlatılıyor…") {
+                                        val pc = RemoteReleaseApi.startExtract(
+                                            pairingToken,
+                                            selectedArchive,
+                                            extractTarget,
+                                            title,
+                                        )
+                                        applyState(pc)
+                                        info = "✓ Arşiv çıkarma PC'de başladı. İlerleme Supabase Realtime üzerinden canlı geliyor."
+                                    }
+                                },
+                            ) { Text(if (extractionActive) "Çıkartılıyor" else "ÇIKARTMAYI BAŞLAT") }
+
+                            if (extractionActive) {
+                                Button(
+                                    enabled = !busy,
+                                    onClick = {
+                                        runTask("İptal sinyali PC'ye gönderiliyor…") {
+                                            val pc = RemoteReleaseApi.cancelExtract(pairingToken)
+                                            applyState(pc)
+                                            info = "İptal sinyali gönderildi; PC güvenli noktada işlemi durduracak."
+                                        }
+                                    },
+                                ) { Text("İPTAL") }
+                            }
+                        }
+
+                        TextButton(
+                            enabled = !busy,
+                            onClick = {
+                                runTask("PC durumu yenileniyor…") {
+                                    val pc = RemoteReleaseApi.getState(pairingToken)
+                                    applyState(pc)
+                                    info = if (pc.extractOutput.isNotBlank()) {
+                                        "✓ Çıkarma tamamlandı: ${pc.extractOutput}"
+                                    } else {
+                                        "PC durumu yenilendi."
+                                    }
+                                }
+                            },
+                        ) { Text("Çıkarma durumunu PC'den yenile") }
+
+                        state?.extractOutput?.takeIf { it.isNotBlank() }?.let { output ->
+                            Text("Çıktı: $output", fontSize = 11.sp, color = RemoteGood)
+                            Button(
+                                enabled = !busy && !extractionActive,
+                                onClick = {
+                                    runTask("Çıkarılan klasör upload kaynağı yapılıyor…") {
+                                        val pc = RemoteReleaseApi.selectSource(pairingToken, output)
+                                        applyState(pc)
+                                        source = output
+                                        info = "✓ Çıkarılan klasör upload kaynağı olarak seçildi."
+                                    }
+                                },
+                            ) { Text("Çıkarılan klasörü upload kaynağı yap") }
+                        }
+                        state?.extractError?.takeIf { it.isNotBlank() }?.let {
+                            Text("Son çıkarma hatası: $it", fontSize = 11.sp, color = RemoteBad)
+                        }
+                    }
+                }
+            }
+
+            item {
+                Card(colors = CardDefaults.cardColors(containerColor = RemoteCardAlt), shape = RoundedCornerShape(16.dp)) {
+                    Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(9.dp)) {
+                        Text("6. Upload'u PC'de başlat", fontWeight = FontWeight.ExtraBold, fontSize = 17.sp)
                         Text(
                             "Telefon dosya taşımayacak. Seçtiğin klasör mevcut Balanced Direct Stream pipeline ile doğrudan PC → GitHub yüklenecek.",
                             fontSize = 12.sp,
                             color = RemoteMuted,
                         )
                         Button(
-                            enabled = !busy && source.isNotBlank() && title.isNotBlank() && state?.uploadRunning != true,
+                            enabled = !busy && source.isNotBlank() && title.isNotBlank() && state?.uploadRunning != true && !extractionActive,
                             onClick = {
                                 runTask("Upload PC'de başlatılıyor…") {
                                     val request = (state ?: RemotePcState()).copy(
@@ -348,6 +498,30 @@ private fun FolderRow(name: String, detail: String, onClick: () -> Unit) {
         Column(Modifier.padding(11.dp)) {
             Text("📁 $name", fontWeight = FontWeight.SemiBold, fontSize = 13.sp)
             Text(detail, fontSize = 10.sp, color = RemoteMuted, maxLines = 1)
+        }
+    }
+}
+
+@Composable
+private fun ArchiveRow(archive: RemoteArchive, selected: Boolean, onClick: () -> Unit) {
+    Card(
+        modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
+        colors = CardDefaults.cardColors(containerColor = if (selected) RemoteCard else RemoteCardAlt),
+        shape = RoundedCornerShape(10.dp),
+    ) {
+        Column(Modifier.padding(11.dp)) {
+            Text(
+                "📦 ${archive.name}",
+                fontWeight = FontWeight.SemiBold,
+                fontSize = 13.sp,
+                color = if (selected) RemoteAccent else androidx.compose.ui.graphics.Color.Unspecified,
+            )
+            Text(
+                "${archive.kind.uppercase()} · ${humanBytes(archive.size)}" + if (archive.firstPart) "" else " · ilk parça değil",
+                fontSize = 10.sp,
+                color = if (archive.firstPart) RemoteMuted else RemoteBad,
+                maxLines = 1,
+            )
         }
     }
 }
