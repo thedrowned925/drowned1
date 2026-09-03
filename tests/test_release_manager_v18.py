@@ -38,7 +38,7 @@ class ReleaseManagerV18Tests(unittest.TestCase):
 
     def test_windows_build_packages_v18_handoff(self):
         workflow = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v18.py", workflow)
+        self.assertIn("dir: windows/release-manager\n            entry: app_v20.py", workflow)
         self.assertIn("python -m py_compile windows/release-manager/fdm_submit_v4.py", workflow)
         self.assertIn('Pattern "fdm_submit_v4"', workflow)
 
