@@ -90,7 +90,7 @@ data class GameInfo(
     val artwork: Artwork,
     val channels: List<ChannelInfo>,
 ) {
-    val totalSize: Long get() = channels.sumOf { it.size }
+    val totalSize: Long get() = channels.sumOf { it.totalSize }
 }
 
 data class Catalog(
@@ -231,13 +231,20 @@ fun DrownedControlApp() {
                     icon = { Icon(Icons.Filled.Build, contentDescription = null) },
                     label = { Text("Yayınlar") },
                 )
+                NavigationBarItem(
+                    selected = tab == 2,
+                    onClick = { tab = 2 },
+                    icon = { Icon(Icons.Filled.Build, contentDescription = null) },
+                    label = { Text("PC'den Yayınla") },
+                )
             }
         }
     ) { padding ->
         Box(modifier = Modifier.fillMaxSize().padding(padding)) {
             when (tab) {
                 0 -> CatalogTab()
-                else -> ReleaseTab()
+                1 -> ReleaseTab()
+                else -> com.drowned.control.release.RemoteReleaseScreen(onBack = { tab = 1 })
             }
         }
     }
@@ -298,8 +305,8 @@ private fun CatalogTab() {
     }
 }
 
-// Live-tracks GitHub Actions runs: polls fast while a build/upload is in progress, slow when idle.
-// Conditional GET (ETag) in ReleaseRepository makes the fast interval safe against GitHub's rate limit.
+// GitHub history is cached/throttled in ReleaseRepository. Supabase remains the
+// live path for active preparation/upload telemetry.
 private const val RELEASE_POLL_ACTIVE_MS = 8_000L
 private const val RELEASE_POLL_IDLE_MS = 45_000L
 
