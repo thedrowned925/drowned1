@@ -1,0 +1,3992 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "hellblade-senua-s-sacrifice",
+    "title": "Hellblade: Senua's Sacrifice",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "From the makers of Heavenly Sword, Enslaved: Odyssey to the West, and DmC: Devil May Cry, comes a warrior’s brutal journey into myth and madness. Set in the Viking age, a broken Celtic warrior embarks on a haunting vision quest into Viking Hell to fight for the soul of her dead lover."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-hellblade-senua-s-sacrifice-v1.0.0-stable"
+  },
+  "chunk_size": 507203433,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 20288137291,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+      "size": 1369936,
+      "sha256": "159b30d9f1bbe69ae03e0d19669d4fcb565246d81672b7034a69cef9f466dcbe"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/NVIDIA/NGX/Win64/nvngx_dlss.dll",
+      "size": 14452936,
+      "sha256": "7bfc911f68a5bc2ec9deb402574af6035f71b1621735da5f554259b85a7359cf"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/NVIDIA/NGX/Win64/nvngx_dlss.dll original that comes with game v2.3.0/nvngx_dlss.dll",
+      "size": 14452936,
+      "sha256": "7bfc911f68a5bc2ec9deb402574af6035f71b1621735da5f554259b85a7359cf"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/NVIDIA/NGX/Win64/nvngx_dlss_2.3.4 - newest/nvngx_dlss.dll",
+      "size": 14464712,
+      "sha256": "79a41d60e556a056a20005dbbe552ceef2707d02be1c630d9d2cdfb006b4d4b2"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+      "size": 117760,
+      "sha256": "41e6d6e6b691b8aca94aa35bf04e7a204f02ec843e192cc4d28f421ec517934a"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Oculus/Audio/Win64/ovraudio64.dll",
+      "size": 8883200,
+      "sha256": "40f4cae5a44a8c51a9a586abb6ec3427138e1345fb7a43d7c6eb5b24aa2c2a19"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Win64/OVRPlugin.dll",
+      "size": 2466232,
+      "sha256": "bae67fbb1c47c74d3142460cac28dead2f6ae619b4c512b5ee267a96b8b7f2d7"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+      "size": 49152,
+      "sha256": "284a6e70a6dce01f8a02d93e1bb78baf0efb6140459c587d8986d59fb6bd675b"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Clothing_x64.dll",
+      "size": 1219072,
+      "sha256": "12e2803bca4a46990b6a00d2cb0869931181d82942e3a7853afb4ff795def072"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Destructible_x64.dll",
+      "size": 2009600,
+      "sha256": "82b315e6d6af95914c406285d197319d9243fb664e6f45dcb21a9f2f5e43192b"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Legacy_x64.dll",
+      "size": 3329536,
+      "sha256": "58ac9873ad9f1a4b6c7e607a86980fe00d992ec08138c16a5021b4890ef25b1c"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFramework_x64.dll",
+      "size": 1043968,
+      "sha256": "cce437454486fd7fdeb7b24ae2afc3e3b5123a1b739c7de0061b313bfff88e3b"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/NvCloth_x64.dll",
+      "size": 265728,
+      "sha256": "46bc7ad33191c1fc72192002e6a432c1b9399d42c8849bcbd6a9487a777fc254"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3_x64.dll",
+      "size": 2105344,
+      "sha256": "09c50ddccf9b31dcf97e57505f0b4616c8a963b6d4502ce10d836f0c460a1b00"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Common_x64.dll",
+      "size": 1598976,
+      "sha256": "1ed491817611f251cdea84d438ccd9d9ab8cb7cf42a1ecd7476834b7bbe53be4"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Cooking_x64.dll",
+      "size": 244736,
+      "sha256": "bff31ef9eaded496fecdb1e2f89f3108b9529d6e221e56d53c7321cf2575bcd4"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundation_x64.dll",
+      "size": 54784,
+      "sha256": "7690c1572c74cf8029258fa1feeb00ba938d6a6c4b5fea34b9fb421224672dbe"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDK_x64.dll",
+      "size": 188928,
+      "sha256": "39a7088bb1cb810fc2d6e461d3517339b34769d61ae5447df9ec3a629e048cf5"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Steamworks/Steamv147/Win64/steam_api64.cdx",
+      "size": 290768,
+      "sha256": "728d0d3a8df8e5bea3a5fe5bdbe826f2a3f9fb6a397bc8a3ac716c3e2ce9c944"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Steamworks/Steamv147/Win64/steam_api64.dll",
+      "size": 406424,
+      "sha256": "ed76239614fb302e5bd244511de67ea48c624ec079737d558d632a05fd213762"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Steamworks/Steamv147/Win64/steam_emu.ini",
+      "size": 1758,
+      "sha256": "bd23a0d7fd2d73ffe2b9f7845ed8e22fc20812a5986489f548a8fcbc75b13caa"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+      "size": 1714176,
+      "sha256": "0f66dcb5837e9b59c499277fd272b862043356aa9145802cf0a63e00a1bcca59"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+      "size": 37888,
+      "sha256": "a9d6f5538f44011c1f65d7ace64216a237636717cb0c8c59f4f89cc08dd3d24f"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+      "size": 847440,
+      "sha256": "0e01f400baa09694cacfd2cfbff0d721c17b56785d2d6e29b6fdd117f70ccc1e"
+    },
+    {
+      "path": "Engine/Plugins/Online/OnlineSubsystemGOG/Source/ThirdParty/GalaxySDK/Libraries/Galaxy64.dll",
+      "size": 13556224,
+      "sha256": "f92a130c80588db7f2ee38e1e3394c141bbcf5e08cc84a5aa92cdf50663ce593"
+    },
+    {
+      "path": "Engine/Plugins/Online/OnlineSubsystemGOG/Source/ThirdParty/GalaxySDK/Libraries_CSharp/GalaxyCSharp.dll",
+      "size": 397312,
+      "sha256": "6d2264a2815d92e062a381b566dbba60fc3f4077f997f32d3f7c6decc7129e31"
+    },
+    {
+      "path": "Engine/Plugins/Online/OnlineSubsystemGOG/Source/ThirdParty/GalaxySDK/Libraries_CSharp/GalaxyCSharpGlue.dll",
+      "size": 1916416,
+      "sha256": "1b1607dff5e1d7ba1cf44401eff3999cbe2bba504cf7e213a6a735704ed0edd5"
+    },
+    {
+      "path": "Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll",
+      "size": 662368,
+      "sha256": "5560da9b9d39f1df17ab37acdb66a19ed1f93f4f1c361590e05d7484d637d0c6"
+    },
+    {
+      "path": "HellbladeGame.exe",
+      "size": 202752,
+      "sha256": "4d477d39c56e2f05259862eb6487b2e794fd4a7113aaab6330cf6bdda2f3aed0"
+    },
+    {
+      "path": "HellbladeGame/Binaries/Win64/HellbladeGame-Win64-Shipping.cdx",
+      "size": 77115224,
+      "sha256": "3a9dfd6e85d474cac6431621f4f193153f265e8714a46e0e1dacbf109897940e"
+    },
+    {
+      "path": "HellbladeGame/Binaries/Win64/HellbladeGame-Win64-Shipping.exe",
+      "size": 77115224,
+      "sha256": "eb562be2bb9e00a3d23c3991d1aa913ee150e9ece90a0f3e606d86c68e046019"
+    },
+    {
+      "path": "HellbladeGame/Binaries/Win64/steam_appid.txt",
+      "size": 6,
+      "sha256": "729033e3b6979a56182a2baec36eb8839a0b178eb19c0a53b146a7d923d263e7"
+    },
+    {
+      "path": "HellbladeGame/Content/Bink/binkpluginw64.dll",
+      "size": 678608,
+      "sha256": "39818f16220aae15409dcdd5d1ffd427c81be264e71292d07ecc2f08b17b64fc"
+    },
+    {
+      "path": "HellbladeGame/Content/Bink/binkw64.dll",
+      "size": 277712,
+      "sha256": "bf1b6d76aabf8d8e8d70af4db4f9b823589895d45e5a85522824cdb0cf60b54c"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter10start.sav",
+      "size": 586671,
+      "sha256": "134a59eb972f43edf492567e55cfb8f069c46e529199278b6b5f8212cbecd0d9"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter11start.sav",
+      "size": 630232,
+      "sha256": "12aa8d017efabe0f632a40f410249b309405a0b646fcdef17cb75e1171e9985d"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter12start.sav",
+      "size": 660462,
+      "sha256": "d13873723931ad9e875aefaadc4552074471960e1498e90120b52c9bc4e4637c"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter13start.sav",
+      "size": 677592,
+      "sha256": "844e97eeb8271ce299eca0b049fb32317ca08587ded7eea871291e3272e26e4f"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter1start.sav",
+      "size": 33393,
+      "sha256": "ac267f919db2d5d13b630df11353f6591c5a686744a07f4c6ef5993b4545a719"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter2start.sav",
+      "size": 104036,
+      "sha256": "f15bc8846f9260fa6e04e180e4e4417c454c9f56a64c5cf444ec008fe3ce6deb"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter3start.sav",
+      "size": 285617,
+      "sha256": "a4f3415b30ba7148b546b009ede839e5fa5de8ac71e02003c009ce08c85cd98f"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter4start.sav",
+      "size": 104232,
+      "sha256": "8fff4ab3a8bd9e12969ab5c8650cf216b47eb55eb6476cb882239559e735cbc3"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter5start.sav",
+      "size": 151444,
+      "sha256": "2e96f9e1510cd7b3fa6c84a0d74f3baa57d021628997e3a07093f0c50134488f"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter6start with blood eagle.sav",
+      "size": 288913,
+      "sha256": "a4ece8c0d56219faa90228cfbaa9c32cef7c86ae439d54fcac445a41d2f87c1b"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter6start without blood eagle.sav",
+      "size": 304963,
+      "sha256": "fc9f82fa244e88c5b564082cc13d5223c2166a3806b7491a642b82ebb863cb06"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter6start.sav",
+      "size": 304963,
+      "sha256": "fc9f82fa244e88c5b564082cc13d5223c2166a3806b7491a642b82ebb863cb06"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter7start.sav",
+      "size": 328739,
+      "sha256": "b0d41d2d0f430405b3517026cff6813e38e22356938d3b06aa64505505c34618"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter8start.sav",
+      "size": 344501,
+      "sha256": "0aef6e305795b399a34252937240fa4d314f9abab6c473eaa11f435ba28947d3"
+    },
+    {
+      "path": "HellbladeGame/Content/Chapters/Chapter9start.sav",
+      "size": 496201,
+      "sha256": "5ca6afcbbf1647f37247b0f8594e8937fea580f8f78b4a450a6129d04256455c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/AboutDeath.bik",
+      "size": 223806348,
+      "sha256": "38e78b85382f05cc58fb8d116394f6cfaaf8bd2dcf67019d0f739d9b0a41bf51"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/AboutDeath.uasset",
+      "size": 1163,
+      "sha256": "c64800e5ad4ec2e86da592f4aced0b37e033ad9379675720feaa286195357940"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/AboutDeath_Tex.uasset",
+      "size": 31399,
+      "sha256": "d7eb254b947b670a6ae2771b89faf016dfcfbf4154f38f680f7b726c8bfa3928"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/AboutDeath_Tex_Mat.uasset",
+      "size": 85639,
+      "sha256": "c5771bd27cf5cf20e38da0ce2d4e112ebcd6fd85210e167706b74e0ff21bec3c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/BC_01_A.bik",
+      "size": 53733024,
+      "sha256": "8aef3928910f1e4ddb22c31e4ef852b2d867a0b63e876f7ab8a5d5b23bbb95ee"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/BC_01_A.uasset",
+      "size": 1034,
+      "sha256": "9a956d69c7b13473479729ec3e77a9c4858b02807dbaf99a47df9ac045a107e7"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/BC_01_A_Tex.uasset",
+      "size": 42338,
+      "sha256": "866246a57866eb1680451f1eb27f8eb839d8cc251eeef539d6e0d8a05496cb92"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/BC_02_A.bik",
+      "size": 53733024,
+      "sha256": "8aef3928910f1e4ddb22c31e4ef852b2d867a0b63e876f7ab8a5d5b23bbb95ee"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/BC_02_A.uasset",
+      "size": 1034,
+      "sha256": "db4e507625cfcdf2754148723e3ee8606eadb6a54c8d1a4b4ab5e267f7f8b969"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/BC_02_A_Tex.uasset",
+      "size": 37055,
+      "sha256": "a1f454639217af6f74427c1c992970542d3660e36ee50dbbc94aae48f2687bb8"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/BC_Death_A.bik",
+      "size": 11845300,
+      "sha256": "b9b87bc9512ab9f8f5efb62d5facd35325433c609d4624ed4d7eee0be70c3d61"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/BC_Death_A.uasset",
+      "size": 1049,
+      "sha256": "a60cfdc80a2b94f7dec2860c71b633ce8d81119aedbfc8b48d18866911fec8dd"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/BC_Death_A_Tex.uasset",
+      "size": 47563,
+      "sha256": "11a6d543c9b60c63af550baec47778716d1932e06ecfc1d563113ae8fefea208"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Bink_FirePireGuy.bik",
+      "size": 4995712,
+      "sha256": "66a1d8904bc18ac9d8c7da957ae6994dd0b7edb8225b4a7474046b2bbb4c3f72"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Bink_FirePireGuy.uasset",
+      "size": 838,
+      "sha256": "f66b21e085d53cd13bca60c65c6af5328518f49bdf6974eb933d7bb7417bbd36"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Dillion_Face_Test.bik",
+      "size": 51850900,
+      "sha256": "3ef76afd4c98350d9aab0bbbc614f26aed2bfc8fbc4282f108128581f28de1fa"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionReunited.bik",
+      "size": 28383400,
+      "sha256": "ee0dfb4a0d47855e4e7e8c66b55f076a6d158bc43dad30789213f8adcc1e6977"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionSavesHer_Dillion.bik",
+      "size": 103983680,
+      "sha256": "38fff6c4639bd3f457edbae726e73f7103c3513254497400cfdc66b731e09b29"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionSavesHer_Dillion.uasset",
+      "size": 1228,
+      "sha256": "1782733368ea0d9f4c1a44f0dc70a04d3ede9f9e35fa2e2308b16ba5c7e067f1"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionSavesHer_Dillion_Mat.uasset",
+      "size": 90416,
+      "sha256": "358c2f28dc695aa5a044df96183d05ee4f0303aaf26b600d5ca70e48727d4021"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionSavesHer_Dillion_Tex.uasset",
+      "size": 79828,
+      "sha256": "2e83e4c640dfcdd499f86d9f23839cae88128bf289b8f23041fdd5cd8890ee51"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionSavesHer_Face_Mat.uasset",
+      "size": 73970,
+      "sha256": "b25b6094a69c88ef2f81ebf70fdb1238af3e4663b12fe89d85e7baa332efc104"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionSavesHer_Face_Mat_Inst.uasset",
+      "size": 71105,
+      "sha256": "3692d0f84dda1d824a5e80bb59b4a46767bd45f29d875c35d9b7ae833eb602ca"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionSavesHer_Face_Test.uasset",
+      "size": 46934,
+      "sha256": "583d26f68e721a3debe50c4c9da011cc5f01a0fbe6f67225b94002368add88fa"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionTowerA.bik",
+      "size": 61746344,
+      "sha256": "e51426a263ff85ea16f083adcb2253440249f44221d6f648209eac72098c4d15"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionTowerA.uasset",
+      "size": 1264,
+      "sha256": "79d24c77f565b8854f523880701009a7d7bb4fa3037b9131da6997d5b2414b97"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionTowerA_Tex.uasset",
+      "size": 72857,
+      "sha256": "df5a917a34834e0d26b44d912dfbfeec00fb906c16844cf7778a0e60602d9d36"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionTowerB.bik",
+      "size": 59087728,
+      "sha256": "f475fde96241c03f1d0f61bf52b69c2d32b25682f0a10903c162d055158a1453"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionTowerB.uasset",
+      "size": 1264,
+      "sha256": "42ee16dfd7cb7ed3906c6b51ba71bcd598e23b7ddb2e7ad8f80dd7a14f5ac78e"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionTowerB_Tex.uasset",
+      "size": 72409,
+      "sha256": "9b472c88bae01283eeb8d44c98d13c3a0211546cc4e0cd8686df7f00ffc3adbb"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionValrvn.bik",
+      "size": 35240244,
+      "sha256": "09bc34ba38c24d0c485811e1d8b1004d9d5ce69910f526923b79172a55472f21"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionValrvn.uasset",
+      "size": 1178,
+      "sha256": "63e045ce3b12bd052c8c39781ca8d895343939914543b36ab0dff2bc73b0c553"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionValrvn_Tex.uasset",
+      "size": 49443,
+      "sha256": "6a8feaf6438c7acb18aac9ad0ca54d94cdfc7a5d7aa16f6361526d6eb2aa0727"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DillionValrvn_Tex_Mat.uasset",
+      "size": 72822,
+      "sha256": "d020c2a22e96023da0713d134bd0b118992d5c5b54fa98ca9364ec8adda1eb78"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Druth_Secret_Runes.bik",
+      "size": 231737416,
+      "sha256": "f1e0a187e822786773bcb1c948c1fc8b5ccfd26afbf7d2792e6d67d5d2f54b7c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Druth_Secret_Runes.uasset",
+      "size": 1203,
+      "sha256": "d22776500707d5334776691f6750d82dc927a15687b57fcaa3cda4a2c2df62ba"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Druth_Secret_Runes_Tex.uasset",
+      "size": 36571,
+      "sha256": "b538ec271dfd67ac1b9458247ae09073ef07ac700e5d741b2c9e059d76f86303"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Druth_Wicker_A.bik",
+      "size": 44729160,
+      "sha256": "ec350db5b4842953545d4f51210c92689185a27e72028adaa634320238ab79c2"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Druth_Wicker_A.uasset",
+      "size": 1061,
+      "sha256": "dd1584d78965d88ee0049473f8bb016cf523b402412d53d8aa29b93c28bb8b1b"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Druth_Wicker_B.bik",
+      "size": 48359332,
+      "sha256": "8fb9bcf172ff4cd6763bff3e8cbdb5fe6b2bda64d155521d6d095f85e4ba6c5b"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Druth_Wicker_B.uasset",
+      "size": 1061,
+      "sha256": "220080d9040f99d66b9792b518b050049d2d3966a31431b0743224983114c519"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Druth_Wicker_C.bik",
+      "size": 45548148,
+      "sha256": "75d7b1d1a0e7fd05ebe724e3038404b8af0e2bbd50ba1fb7c313f4c814b4e0d1"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Druth_Wicker_C.uasset",
+      "size": 1061,
+      "sha256": "c2e358cebe8c751a24f22c29cf3deea7d695185298b3a981d8c03f00ec012255"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthA.bik",
+      "size": 12936092,
+      "sha256": "af8580bde0e9b80596688029546ea908794708c8cba741a438dcef53800e8640"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthA.uasset",
+      "size": 1021,
+      "sha256": "59785c622ab80ba94f042f6009c166ffb7cb4240c893aea6c2079ac8b1142ecf"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthA_FX_Tex_Mat.uasset",
+      "size": 73967,
+      "sha256": "6bd0352b145db83d0798610ddb6c9a81ab942bbe1ed205879ca45f393fcc5c68"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthA_Tex.uasset",
+      "size": 29338,
+      "sha256": "47e6eed083fe5735f785aac27717688a08b5c29f419fc30840c6ddd366f8ba46"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthA_Tex_Mat.uasset",
+      "size": 84750,
+      "sha256": "693dfa307c539913e66671bf46fe4187b8ca0bfe6f162f8dc162593cd46a9bf1"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthAV2cc.bik",
+      "size": 54671532,
+      "sha256": "621071cb3e2e420017f9d209a7c7149e57e7b053a7d029d9d215997e9f15987c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthAV2cc.uasset",
+      "size": 1163,
+      "sha256": "e1e9c4d1ef980e97cb2cd3b09006bdfc7b19a85c134aa4d57cb3ab5d2d1a8de5"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthAV2cc_Tex.uasset",
+      "size": 39694,
+      "sha256": "a1f51227063f8250f9ea0cc7d0fe5b47b15a1e011bf332918a289118ef0f682a"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthB_FX.bik",
+      "size": 23183260,
+      "sha256": "0161e4e555680d921d7249d89a532491fc74a6eac619185faaed20b604303360"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthB_FX.uasset",
+      "size": 1036,
+      "sha256": "6dccde8a4ffac7a157b0fb7c52ae58a2026ee34028b85f88f3ba2f1fbbe3856c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthB_FX_Tex.uasset",
+      "size": 37567,
+      "sha256": "84d85f43143a0a168662a139bc542f1fe71f6e5c9faeda42bb8c5ed332bbfd4c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthB_FX_Tex_Mat.uasset",
+      "size": 76370,
+      "sha256": "551478c4e2365389f9202a894150b13017e0eb505da533c0ad994f8161dca194"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthBV2cc.bik",
+      "size": 36471660,
+      "sha256": "4efd2547ebf1c4eb56bbcd0c220822b4b559cba1f82db2cab2e0ebd61cb6c745"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthBV2cc.uasset",
+      "size": 1163,
+      "sha256": "2385877528ad30a030b9e392984f2912e482ea13282eadf497de01a0d8696aee"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthBV2cc_Tex.uasset",
+      "size": 29802,
+      "sha256": "f99ccc1c6b1ac9ecb7a2b1c26ae6d35b286b9562031da248d1ab2b105ac1e7bb"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthC.bik",
+      "size": 11758352,
+      "sha256": "ebd940252fee092b122611f9adfa3cc55529de9354509c1ec569f0b644e11ad5"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthC.uasset",
+      "size": 1021,
+      "sha256": "b0b91766c28a474234233e147ce4d5676590b146163aba6fb40a82c3141e851c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthC_FX_Tex_Mat.uasset",
+      "size": 73918,
+      "sha256": "f80c44427ae66811abedf0bd8919da887e8c4003a02d23493d7c40a925a069fa"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthC_Tex.uasset",
+      "size": 27369,
+      "sha256": "3cd245bc90862ee6d11b83f4de5fcd8c5ab52c7b7a7bbd4259cbd3041f78a9d6"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthC_Tex_Mat.uasset",
+      "size": 90854,
+      "sha256": "5aa896094a7d511e2aaa6400d71412a742a8941ff77a94a5d9e1f12e1ae756bc"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthDiesA.bik",
+      "size": 28849528,
+      "sha256": "3fd7d6794937fb42a15a6a6aa0701cbf9c85081d9fa29911144a703b2d2507f0"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthDiesA.uasset",
+      "size": 1163,
+      "sha256": "c6800feda9adbe4eb513e4b4ec17b5fe634409ca9e5e313bb81e5f919db5648d"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthDiesA_Tex.uasset",
+      "size": 23399,
+      "sha256": "d9c0a62d6b17c0a7e811d1828a16cd63195bfc949fe6c6d4cc4e3e0723f079e8"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthDiesA_Tex_Mat.uasset",
+      "size": 74178,
+      "sha256": "4603c21f348586abdf39de9bf52243701d9481f7d69fb0f9b56f3403ee37b339"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthDiesB.bik",
+      "size": 77299472,
+      "sha256": "1cd0733ef1e45490f33303d827348f95c917482285487b9a3cb6beeb4cd88448"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthDiesB.uasset",
+      "size": 1163,
+      "sha256": "6b66707cd464ea61342533dac41334f50a521b40c588e80346dd208f9679be2c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthDiesB_Tex.uasset",
+      "size": 52571,
+      "sha256": "ae8f0570bf39e7f5240619a1f88945cdafa5f65981c17f08fc3c7d609b683eaa"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/DruthDiesB_Tex_Mat.uasset",
+      "size": 74178,
+      "sha256": "788fd82b207161d3a003b629b30fcae17f2a4c2502fd4f65c383e737b9535b6c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Dwicker_A_cc.bik",
+      "size": 45496548,
+      "sha256": "f790bfd13f488d790529022eeb7857f884594efef44c0cbe48c4d8867c09f99d"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Dwicker_A_cc.uasset",
+      "size": 1173,
+      "sha256": "5f7d4647765765d522e1cdf47b872f3d1d0a536509600104bf344abe6592e878"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Dwicker_A_cc_Tex.uasset",
+      "size": 30446,
+      "sha256": "f7333549f08ad49707e86277b28f1f2172a6e20a686ffc3b904ae43b1f05fe8c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Dwicker_B_cc.bik",
+      "size": 49072820,
+      "sha256": "5ba68dbe302b998fd3947c4ecb30228fa6826c985479cabf346ba9bd90e313a3"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Dwicker_B_cc.uasset",
+      "size": 1173,
+      "sha256": "678d75658f7713c824d166ac11babe7bdaedb981248edc3ffa1f5d81685909d8"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Dwicker_B_cc_Tex.uasset",
+      "size": 31307,
+      "sha256": "6fadb240a7b9377a856848150c7bd52f9cf0c91cae189a7fc27da3e5dfdae91a"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Dwicker_C_cc.bik",
+      "size": 55369564,
+      "sha256": "855d04ac8a4167c352a7f9504f0354d24cd2dd42975365f3c0c9b585c3b06270"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Dwicker_C_cc.uasset",
+      "size": 1173,
+      "sha256": "d29e84c3f969bd84f347113d562401b708992e5a0ff3036ec0f8ec9dfd2c838a"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Dwicker_C_cc_Tex.uasset",
+      "size": 28960,
+      "sha256": "261ff11d57c3c576a7796296bcdf5ae64fb550f50fdcc6c9610393e67574eaa6"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Ending.bik",
+      "size": 88675528,
+      "sha256": "1e660e71dcf81241415fd293db10f3671fe02906dd4d03367323c80d9f00b9d6"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Ending.uasset",
+      "size": 1178,
+      "sha256": "1fb206be24e7dd5b3d09eed643ea88acb495764f203c7f0da55b9012acd03b85"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Ending_Tex.uasset",
+      "size": 52717,
+      "sha256": "ef051d7fcb73d82f9f9598f533fa0328ddfe36948ebe86be142cecfb819ce651"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Ending_Tex_Mat.uasset",
+      "size": 85629,
+      "sha256": "ddc205ede19e5e43e2db5b34013183bf5080ab33c9d4f8925ea25e9c63d86eb0"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_HF_01.bik",
+      "size": 63115524,
+      "sha256": "707840181b228f8681e9a7bcf4822e04feb446d59664a979caf2542dbb6000fb"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_HiddenFace_CS_01.uasset",
+      "size": 1217,
+      "sha256": "bb79c5e8dc028ed74b92eb76deaf69173bebd355c8f5871f72e9b9ccd71fcf74"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_HiddenFace_CS_01_Tex.uasset",
+      "size": 58772,
+      "sha256": "2c59db106af580d758f33e9045fefa3768964082114053d99bf6c984d6037175"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Pyre.bik",
+      "size": 155682984,
+      "sha256": "7e6c1a5bb1557af64405a46ea063786676b24188abc4d8ae34d348d8d49b43cb"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Pyre.uasset",
+      "size": 1168,
+      "sha256": "231811f60a09085f8df5da1aa705b5d1c6a7c7675a8f7877a17adf9b05cbd745"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Pyre_A_Mat.uasset",
+      "size": 98424,
+      "sha256": "29fa4bafeb983d9df8c956361b7880b97ea6f31eb08874df9bf17d84e048788e"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Pyre_B_Mat.uasset",
+      "size": 98453,
+      "sha256": "b6ec484eb21cb57a2f96a1e138164bb85632858f2a85b37837a8e8b1b7aa3e62"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Pyre_C_Mat.uasset",
+      "size": 98451,
+      "sha256": "c326657382de78cb93663eef20afee813b0d4cf7cdc386ee7ac35798faac6c94"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Pyre_D_Mat.uasset",
+      "size": 98453,
+      "sha256": "a9fa4ae63a46eb1316488724ed3721004cb5f360d1554c86338b5757b29338f4"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Pyre_Mat.uasset",
+      "size": 97495,
+      "sha256": "cfc0b0beba6f6dd45e7df76e89e2d806c93e9c3e3240780dc1ba9b77d2f2253d"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Pyre_Tex.uasset",
+      "size": 73056,
+      "sha256": "4e4df1622ef68f1193bad95f00ec73e0bda1e652a98bf6ade3e52bedbf90891e"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_SOC_end.bik",
+      "size": 19354928,
+      "sha256": "c22e07ffbcec13abe72f2c284db2ae546965effcac8f04ca9c970fcf18870c5c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_SOC_end.uasset",
+      "size": 1183,
+      "sha256": "20444fc6d61d45979b1e488be41f81d95d880578367cc9c136f1ecdca60fdde1"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_SOC_end_Tex.uasset",
+      "size": 49928,
+      "sha256": "ea715f8d89ac82d882491bcc075ccfb9bd33473d078475bfd3e8457ad89147ab"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_SOC_end_Tex_Mat.uasset",
+      "size": 90396,
+      "sha256": "b3dec5a860b5df181a6dc0d15c8431881499f4056d41e97f5a4a5b19afca39be"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Trapped.bik",
+      "size": 131110692,
+      "sha256": "feef8750f9b21f4333bd5236343af86c38b87dd4ecdc5019b16328509158a97a"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Trapped.uasset",
+      "size": 1183,
+      "sha256": "7b70ef6518b9569a673fa460c2d9a56579ca4dce9d515fb9350430eccc6d97de"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galena_Trapped_Tex.uasset",
+      "size": 24746,
+      "sha256": "ee572db9e32a1a34c81e7a3ece8e6cda69c41aeb9a717fd27b721a7be0966292"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_BeSafeSenua.uasset",
+      "size": 1085,
+      "sha256": "547109cf717c034482c13c9cce9f338a1445d4f3d05a2276e365d0884ae553d7"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_BeSafeSenua_Tex.uasset",
+      "size": 61611,
+      "sha256": "f3f941f95b8c1e03684e119b85dd370b1dc4cd33261675effa11cd7d7d4d788e"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_ComeToMe.uasset",
+      "size": 1184,
+      "sha256": "ff4830abbf54e71186d047ea48f5969640561d811a5c86949e95f3928e98b585"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_ComeToMe_Tex.uasset",
+      "size": 61478,
+      "sha256": "5a018f8d4ce4e81d047ea91fe2fd2a5b89713e90a38b503a83928794b09ac7ea"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_DontBeAfraid.uasset",
+      "size": 1090,
+      "sha256": "2405a6dff8cf0e653d371aed2cfeb2b4e72f0fe087c27e9a26901ba341f63d98"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_DontBeAfraid_Tex.uasset",
+      "size": 62460,
+      "sha256": "531e41472ca32a1191fca5a6d86b75b0b6416bf0673d651b0a9dc5d43cc75887"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_DontForgetMe.uasset",
+      "size": 1090,
+      "sha256": "88e9429f9a3cd4fdd339528f8a8d80a8e92b21c0e1dda063597518dca70e3bdf"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_DontForgetMe_Tex.uasset",
+      "size": 62403,
+      "sha256": "e2ddbbff98e8a5684e132dc3dc55776e3b9d2eb78a56340363b0f092535b8edb"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_HereForYou.uasset",
+      "size": 1080,
+      "sha256": "fe62d9b0ab5ff688905d7cc715a21f3ff0602b59a521762c9e4a48ee23fadcca"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_HereForYou_Tex.uasset",
+      "size": 62121,
+      "sha256": "3069b88d79498c44d1ea28ad92d616d35305efa9966033bf512b117baddaa2f5"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_IAlwaysLoveYou.uasset",
+      "size": 1100,
+      "sha256": "a9658f87393e697320a9e7419929dfec05ca468e4fd5fe7c1ad0e4502cdc1ff8"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_IAlwaysLoveYou_Tex.uasset",
+      "size": 61958,
+      "sha256": "db866f6eb11b3451ebfab31f14ef82c057754150b1536fc2814f01544c60794b"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_IamHere.uasset",
+      "size": 1335,
+      "sha256": "b96aeeaacbf577c286a319a52258d5d43697eb2e663f983c31078b70962db161"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_IamHere_Tex.uasset",
+      "size": 61394,
+      "sha256": "cdb2c1cf77df18e355d5e568a51ea719c13ce189a117da487d9af2549af9271d"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_IamWatching.uasset",
+      "size": 1085,
+      "sha256": "5b50bea2abe8408676fd97f2b4aa14b28bcae908cfd5b95e72da87a0b1f01ccd"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_IamWatching_Tex.uasset",
+      "size": 61801,
+      "sha256": "48f7db02f89cd3b4ca3828375b6dc4519e9e027be70918e2deadebd724440bc8"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_ILoveYou.uasset",
+      "size": 1070,
+      "sha256": "d8fe14dd412d7b22656a7b5397e4ce0a83a9c1c913670255333f3c5bfd5594b6"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_ILoveYou_Tex.uasset",
+      "size": 62515,
+      "sha256": "72a649af25e2ac12ea702ae750fea05ec71ba554df7b565bf767fbf11c2c4807"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_ISeeYou.uasset",
+      "size": 1065,
+      "sha256": "eaaffe7df73bcf82639e1948f54ac6df9451c71c1caa043a9cf97dee3c7e364f"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_ISeeYou_Tex.uasset",
+      "size": 60997,
+      "sha256": "e94f8e893885f857f875d93a0e4172da8c4b7a215a6e8a5bc5415f762e1478ef"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_IWatchingOver.uasset",
+      "size": 1095,
+      "sha256": "b114e3d50532e8f31bf482e1d972aa2e2fa859366e15a8428f53f17c441a1756"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_IWatchingOver_Tex.uasset",
+      "size": 61783,
+      "sha256": "c747e1253bda46820eba59927fc974ba6a17b03e92aa809d163d816f9fd487c2"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_NeverBeAlone.uasset",
+      "size": 1090,
+      "sha256": "444ff8cfa911ed31a3c90e4bb116e85fbb335df368948e7750b95a022673cb99"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_NeverBeAlone_Tex.uasset",
+      "size": 62671,
+      "sha256": "8e2d91f120e1a3dd299a570532fcd9619b3ea3f40f20d048a5d1bcdf8b5afc14"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_NoOneHurtYou.uasset",
+      "size": 1090,
+      "sha256": "3b08d19a1c012a03685736d65b45f799633989441401cfbd663f5cc6a1d2ba9a"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_NoOneHurtYou_Tex.uasset",
+      "size": 61673,
+      "sha256": "b41d407163c5eb00ebc8cc11069eea4c57e2ab61aedf65d0ee69e664cb4a251c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_Senua.uasset",
+      "size": 1055,
+      "sha256": "e2f179746c2c3312d76e17edbb89feb2307ce72409bfc8fcf15cf0510928e918"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_Senua_B.uasset",
+      "size": 1065,
+      "sha256": "914df52bb8336fa77f2f449a36750137e4ca66cebac565891b39615d60295707"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_Senua_B_Tex.uasset",
+      "size": 62271,
+      "sha256": "de4d72f8b3a4fbc9deb0109eef24239aaa3e0e65261000aaab75f7a00da5d99c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_Senua_Tex.uasset",
+      "size": 62146,
+      "sha256": "c2e02559fd744b838701ec882f9b8cb0f4ee0b4cd7dbea3e8260b4ca5b83ad74"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_Smile.uasset",
+      "size": 1055,
+      "sha256": "0cb846f059863518361217c177adb1475eaf45477b2343cd90fe20a46152aaf6"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_Smile_00000.uasset",
+      "size": 1144234,
+      "sha256": "6acebc548eea5e0cfb077881a9117bd82ab113b89ec8e8fc911ee8cddb861bc6"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_Smile_Tex.uasset",
+      "size": 62773,
+      "sha256": "0f48e27ecda7e2e6ed515b18cd1d767230ac605dcab87925d51715afe00b4fb8"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_Yes.uasset",
+      "size": 1045,
+      "sha256": "a98468005333a532b9b6e02b1e18d9f6c1884662c5d2caa48926319a75b51210"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_Yes_Tex.uasset",
+      "size": 61765,
+      "sha256": "97a6eff60e1ff07b516b3dacd493ee925e90c31ec7010eff939f620016b77290"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_YesIamHere.uasset",
+      "size": 1080,
+      "sha256": "5acc7c469b75806442ab379dd70a2ad1333530695fd91a34d0d56be368c1dc40"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_YesIamHere_Tex.uasset",
+      "size": 61543,
+      "sha256": "551758a3a65d018834fca45ede1db0e0911903e4b930cc18ca5b7b2110dd81d8"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_YouAreSafe.uasset",
+      "size": 1080,
+      "sha256": "5c199739692bf7d99457d5a7877281ce7df331beb825b91f4e514018569691f4"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_YouAreSafe_Tex.uasset",
+      "size": 61929,
+      "sha256": "6b194688ae489aeb38df99983783780e2f2d2abd033f9fe36b42995f30225ed2"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces/HF_YouAreSafe_Tex2.uasset",
+      "size": 61224,
+      "sha256": "159f6daa2597e3b0058ab8d1f2081d88819690614a9eeb8fe50ef41174fbf16d"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_Ending.bik",
+      "size": 70907152,
+      "sha256": "61d1e97167f4e00ec4b22022a63801bd1271ab768358225527ba519f05dc4a28"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_Ending.uasset",
+      "size": 1204,
+      "sha256": "27bff8ca236b56ccd2cf114ac40b3e1817d9c26cb56954987d7708aba8ef69de"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_Ending_Tex.uasset",
+      "size": 52351,
+      "sha256": "222c6a6b310c0a2718802c34eecbfcb73e5bd56c911cda9c1fb8a28ffb04d12d"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_01.bik",
+      "size": 50438452,
+      "sha256": "946548b52dce47a8ea666b436d75cc3d35caa4925a107d12f0aaf5b33b8cda16"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_01.uasset",
+      "size": 1199,
+      "sha256": "d82a0b6fea95e7df38b923ebe7721ef2e89b74f4121a3b64fba0a1d6011c9933"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_01_Tex.uasset",
+      "size": 58686,
+      "sha256": "cc6b1d678254129030b0049c488d8da91b7a9c4f907d6edef75727b1fb580362"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_09.bik",
+      "size": 40255780,
+      "sha256": "ed25e29fcaa0de486f22c5063501f37fa38d4edacaebdfc774da39df1701f33c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_09.uasset",
+      "size": 1199,
+      "sha256": "993d1ae081288321edb9defc873d2687ce455c717c1817c7a64155f76a5cba86"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_09_Tex.uasset",
+      "size": 56724,
+      "sha256": "5dc665ca84abc3e815406dac0bda8af24e4f178fc88a7d599406bdba2d6fb2dd"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_11.bik",
+      "size": 41043512,
+      "sha256": "b7e82cb4391f2b779ded8bca03af69503be929eebb67a7aaf4bcf22f46396921"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_11.uasset",
+      "size": 1193,
+      "sha256": "8e00af718e75012c74c2fd11097117066f250eb0626003ab6c5c41515b363f06"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_11_Tex.uasset",
+      "size": 55457,
+      "sha256": "00e0c83b1997d560723c63b301256e4f9304c6e3afc8240461505cf1f7393954"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_14.bik",
+      "size": 60777768,
+      "sha256": "337ff2b5e85143973270a2c4c665985ac51b45244655c26b18b3c867a81c0e4a"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_14.uasset",
+      "size": 1193,
+      "sha256": "38ab6bd47eafddade1513388ed942208fe424a30f296ed58317ee6b035d19487"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_14_Tex.uasset",
+      "size": 55990,
+      "sha256": "9597507f97b78c5ab936bdc5543809840694b96f550759d8dc7b06388c598f17"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_18.bik",
+      "size": 58415436,
+      "sha256": "55e1cbc4087a745224b8f6f50a4610b7b45ec495e3b7b3937b2a7735f73f41d1"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_18.uasset",
+      "size": 1193,
+      "sha256": "8ecb2325a8a0b112aeee5176e477e0361f4cfd8b755d86bff600adc92b50c942"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_18_Tex.uasset",
+      "size": 55473,
+      "sha256": "d2cf2a6a40ccb6644c491c9540b36e09f4cfb48bdd9da3cf5a6bb7f575e19458"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_22.bik",
+      "size": 39415504,
+      "sha256": "bebb5588efce7d87a2263adc0c86109b4c7d584008e07bdf4302872fbd0d1cb4"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_22.uasset",
+      "size": 1193,
+      "sha256": "e8169b9b962a89addca1c6bc46d8eac7173431bc3f9b1d3b70f83b53e71f5ca3"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_22_Tex.uasset",
+      "size": 55472,
+      "sha256": "1555bd6d29f2c1617bbe04b2c9fce093dd7c9e7642b1f0eb44c1a5df8f9c2718"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_26.bik",
+      "size": 71904776,
+      "sha256": "9367fcdf93551545587bc83cc03db9c22f433f33d0f00ba05fad9facb24b678c"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_26.uasset",
+      "size": 1193,
+      "sha256": "a91312072a36c8760fc27db84fabeef7b9dc7551140f3dacea4eebe1ead5a9ec"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_26_Tex.uasset",
+      "size": 56791,
+      "sha256": "0061c734e50fd6ece0ecbfc233eb0a825b810c36ae170c8d418a00d59bd37c8f"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaFaces2/GalenaFaces.uasset",
+      "size": 13933,
+      "sha256": "4b956debffc3ac8c0c5b516f40a84b23cc4b96d6938e1789bb5d1a04bd5f0329"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaHearingVoices2to5.bik",
+      "size": 93161488,
+      "sha256": "6d9fa960846ac0473319f6bf49ceda754c85e4dd718d50cc8f2e25f36f187213"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaHearingVoices3to5.bik",
+      "size": 85151372,
+      "sha256": "5c1f74a70c9f6d3b8ca57696db6467202be689882ed7d1e42ae90721e389df40"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyre_A.bik",
+      "size": 22162632,
+      "sha256": "f4aaf6eb129e10a33666ce4c926c2a909ac3d401cb9f2b7b07f0c636a04c7cfd"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyre_A.uasset",
+      "size": 1173,
+      "sha256": "772092d75d0da9d656b5d2b97293f643f61633a2cf60fd3ae2b4a79e34bd3851"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyre_A_Tex.uasset",
+      "size": 36890,
+      "sha256": "dd7690a24b56562ddaba3e58380c687658b3fac8fa5a9521eab4b6803f624bf5"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyre_B.bik",
+      "size": 21073828,
+      "sha256": "d5235fcefe36b8791619447913606e929a55d3e5ecc0089e2c1b60510d04ec06"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyre_B.uasset",
+      "size": 1173,
+      "sha256": "00eba926d4ca4ec5efbe1f8dba2abbfea1f1f2d91b160d987b0437a7999f5771"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyre_B_Tex.uasset",
+      "size": 36704,
+      "sha256": "8172cd6b5389854f3349b332b1036a6cbc92ef94706b1bd5f688e61d04be21a9"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyre_C.bik",
+      "size": 23407240,
+      "sha256": "3d4f16e76528748b5185442153e9a5b557dd311613a102f0d516c44a12f9259f"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyre_C.uasset",
+      "size": 1173,
+      "sha256": "63f3be1ecbd89b70f771143dcab6a37b8534d7b5a2e5c0ab3013eba5163c81d9"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyre_C_Tex.uasset",
+      "size": 37070,
+      "sha256": "d9e72b539a98aba6df1772d82d9c13a75f12bb87459dc9e5169976407370dac3"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyre_D.bik",
+      "size": 3967036,
+      "sha256": "ab75cbdddde7ede7adc83215128cce40816ae0bfd82be32c1a3787c6aa7d814e"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyre_D.uasset",
+      "size": 1259,
+      "sha256": "09f440db06fd4496499b39a63aba5f71b322828d0415e81f0b475864bb618610"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyre_D_Tex.uasset",
+      "size": 38269,
+      "sha256": "2e3c4ea4eb974fe251233ad0491c3fe25977699a7a3473c6f1ae1bfca6424666"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyreClose.bik",
+      "size": 30485572,
+      "sha256": "68a5cbfd58f5fdc6e9cac2796d4b5adeea3884d8dc9c636eb09ae94bf2683664"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyreClose.uasset",
+      "size": 1188,
+      "sha256": "8c153a976ade1635d2ab9d1103a2fc3a5f4bb02612155d0016b5ef03b94a6ef8"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyreClose_Mat.uasset",
+      "size": 90132,
+      "sha256": "f2d894330f0c242ee504300542132b58f7d30e5c810cb1417db6610870041cf0"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/GalenaPyreClose_Tex.uasset",
+      "size": 70595,
+      "sha256": "b442c11346cc9c1727b835728d47eef5b2e79350ef4c3d154404fef3439dee83"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galenastocks.bik",
+      "size": 17722744,
+      "sha256": "dc5c21d5a8247568b0ecb7b4edf7e3e0c3e274f2bdf3077808826a5d30b8b09f"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galenastocks.uasset",
+      "size": 1173,
+      "sha256": "28090b2417bf418e892256d4827bea789456f3a03ca4a892d7f9576885999524"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galenastocks_Tex.uasset",
+      "size": 54080,
+      "sha256": "1b95935c1353e047f0daef80e28e32c456b86317e2dff0deeca5d4a768482149"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Galenastocks_Tex_Mat.uasset",
+      "size": 90428,
+      "sha256": "38ca3838603feafa128b3564bb7c0e7994da21afc49cc05f1321c31111e17540"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/HB_DocumentaryRoughCut.bik",
+      "size": 1906853360,
+      "sha256": "d34fbea152db395f0b96dbc425ebc4cac43dbd0d0c8461e73482575017550978"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/HB_DocumentaryRoughCut.uasset",
+      "size": 1223,
+      "sha256": "997e3837331f5ecc1dd0807670b113b4b576bc25d3c41fbf6cbb5a3b7a4d2c8a"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/HB_DocumentaryRoughCut_Tex.uasset",
+      "size": 54212,
+      "sha256": "1118e150a8212a83c8dc7eae7bc3793b0d72d52f043c80bc92377991c0321a86"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Injured_Mirror.bik",
+      "size": 261592956,
+      "sha256": "554afc97dfeeaae34415f41170bf7d42accae72c4ce468eed099af10997167a4"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Injured_Mirror.uasset",
+      "size": 1183,
+      "sha256": "39506221596ab26860a3f9d2eb014e37cc84b312e87e66c7fe06da99fb621fe6"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Injured_Mirror_Tex.uasset",
+      "size": 85402,
+      "sha256": "901936bc6c0936a50d15b9e5b322404b3916f2ff75e22dca9c1556b47385a0e3"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/LoadingScreen.bik",
+      "size": 110784,
+      "sha256": "8d9814568887ee517988c9c80ad48fc61cf8f201937ac6c5b5ca246512ed0655"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/NinjaTheory_Logo.bik",
+      "size": 295472,
+      "sha256": "725cb5b3f77db402ad506e6812dab3dfaed397acec166ee757af4b7e536890de"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/NinjaTheory_Logo.uasset",
+      "size": 1142,
+      "sha256": "b4f2615b5d48f82a1f35f1aeaa93d99f03df13ce62d56e819af9b1ec561ddc3b"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/pyrevideo.bik",
+      "size": 5833636,
+      "sha256": "e3e010d56b1d51522984e0429ef2b27cbe26e21eb631f75314896a6d19339fd9"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/pyrevideo.uasset",
+      "size": 1116,
+      "sha256": "a2ffbe1252f9d5b3510d07733c8da2596bc09bc19085b86c2d486c0f355447af"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/pyrevideo_Mat.uasset",
+      "size": 85384,
+      "sha256": "79d3dac2d7ad6d9e07d461d55cc712922300e9556d2cf8a60880dfefbd7768e7"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/pyrevideo_Tex.uasset",
+      "size": 73783,
+      "sha256": "093f46c3e7345771b9670e5f01bf067e1f521b57c6aff7da7c5a05d14d38aaa2"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Qloc_Logo_1080.bik",
+      "size": 799188,
+      "sha256": "8d351b3d507781decfaf21ffb3626aa99bfac712bd299f329de3fe55c2658315"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Qloc_Logo_1080.uasset",
+      "size": 1162,
+      "sha256": "2efbad1b928acc4ba9aab056181128e657ccde163202665981ebf2497161587b"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Qloc_Logo_4k.bik",
+      "size": 1027976,
+      "sha256": "b1b2f5078eb8a2877b7ce735f3688b8f4fb98a68179a3e6110c4c92d109fb496"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Qloc_Logo_4k.uasset",
+      "size": 1162,
+      "sha256": "f45c3441d14318fd631cba34679d766b2bdfff000ec28f342ca149c3ff76fdf7"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ShardReflection_01.bik",
+      "size": 28519228,
+      "sha256": "31d7051d58988d176a2022ba4ebb8198d04ce45dd177a360df7215c33a2d8e43"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ShardReflection_01.uasset",
+      "size": 1334,
+      "sha256": "cca33bd2e9f5f5b7b981d58cd359157d4548fb8c2db6479a7e7075c3db1a99ad"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ShardReflection_01_Tex.uasset",
+      "size": 2979,
+      "sha256": "ccd91c1b2b99fb908a4428969bbbe49a0ed335e0ed5de333955452b794ea4735"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ShardReflection_02.bik",
+      "size": 5248228,
+      "sha256": "88d79022641a7183b1be52dc53c9699a340d3aa84f27a31f885fa60f65dc352f"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ShardReflection_02.uasset",
+      "size": 1334,
+      "sha256": "510755fe74d92e631fb9eb12b95b0a2b2fe762f46cad8bcd4632088a387961e3"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ShardReflection_02_Tex.uasset",
+      "size": 112441,
+      "sha256": "1fdea65f0af05f66e6b01a925ada5c2cbc427c51a8402cae1e4ac05a273a13d0"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ShardReflection_03.bik",
+      "size": 10439028,
+      "sha256": "bf1a294db22d4e2543464795a92480a8afd6fafe359a8e51e25dca379ba4d9bb"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ShardReflection_03.uasset",
+      "size": 1334,
+      "sha256": "5bbaeb106023e5ec38cd6eab5f266f1a24cfa52b600868d69509e9e5ecb96521"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ShardReflection_03_Tex.uasset",
+      "size": 109998,
+      "sha256": "0f3e9208976b486771575047efa1e027a6df81b6d22c0f5db758b283dec50a3a"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ShardReflection_04.bik",
+      "size": 12656488,
+      "sha256": "70a06d86c2130b138a191d4324e5588a891edc1efc73e5f1be99c06c37143817"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ShardReflection_04.uasset",
+      "size": 1334,
+      "sha256": "d89c383f01067ab24669b45130553650584f879b8c06829f7118f75fa6d2e09a"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ShardReflection_04_Tex.uasset",
+      "size": 101398,
+      "sha256": "4dbef410d9f7bc9fd8493e8d44fd1c487b3c96f656911e91099b9fa3642ff929"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ThirdParty_Logo.bik",
+      "size": 4285344,
+      "sha256": "8f8ac2b4f0239d7ac2255f5bff145683c1d27b1f11b3b370d9274f266797eb32"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ThirdParty_Logo.uasset",
+      "size": 1137,
+      "sha256": "04442b4203ce1697cc3ea33daf2b8ad76abc0d548ac506df2289810a78f3905f"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ThirdParty_Logo_ONION.bik",
+      "size": 4578456,
+      "sha256": "9f7f55273d42c3835869f227cd50a1f3dd2401aab7a8aa2343c391c427507bca"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ThirdParty_Logo_ONION.uasset",
+      "size": 1218,
+      "sha256": "d1252419e826ad23ababe259ecc15d81a83c08bcb509b069a823949534a78809"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Torture_BeastCave.uasset",
+      "size": 1071,
+      "sha256": "1772e78ef1fd1e55bf53881aac87f69d72cebfd79e45a482a8a4751ba9253925"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Torture_BeastCave_Tex.uasset",
+      "size": 42965,
+      "sha256": "7d6d8b2ef64a519a15c4e34b2af10c5e34facf5e2fa60b516a919f03f2b59167"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Torture_COMP.bik",
+      "size": 48674628,
+      "sha256": "325e8bb16d0993b1dd088ef6d39ae934a63be0bb6d23687ebc3c698b4205c631"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Torture_COMP.uasset",
+      "size": 1051,
+      "sha256": "a41fed18b0ad502a822d4ee656812dc79ec2f9e68ef40366f4104c7af3a35f9a"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Tower_Dillion.bik",
+      "size": 130276936,
+      "sha256": "5c6be95a83ab6e6bbe59caeee99416ae6fb8681a6546318022eddd8f4dc759df"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Tower_Dillion2.uasset",
+      "size": 1060,
+      "sha256": "4fc13c161f6e91d04250ce63ad474ea1cdcd1d48f518571511c57879cdee7254"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Tower_Dillion_B.bik",
+      "size": 138530508,
+      "sha256": "e8dd29d357d7669ea0adfb7de7c1a1787c060620342730b5eff90bd8266aedf4"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Tower_Dillion_B.uasset",
+      "size": 1066,
+      "sha256": "243d4bf397eeae985cc5dc17f10080d0c9856f077e6bb3103218cebe514e0106"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Tower_Dillion_B_Tex.uasset",
+      "size": 99023,
+      "sha256": "556e61837665211ed634e3861f0757df40a534d539811ba2a1b752cfd3dfa148"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Tower_Dillion_Tex.uasset",
+      "size": 93947,
+      "sha256": "8f36e06c82f92399abbd975d26c52c70b47bfe075387cf954ced08f0d53d0f28"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/UE4_Logo.bik",
+      "size": 11347108,
+      "sha256": "9fcf616a7b3d9dea9872b99de6ef7eab8b46aadf02d37432da5ad50de11e4485"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/UE4_Logo.uasset",
+      "size": 1258,
+      "sha256": "7ae8ba738afc0e8df61b1ea3495e0ffbf0a8917e79accf5dd055358e314c1e2e"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/UE4_Logo_Tex.uasset",
+      "size": 2674,
+      "sha256": "17d52fc083984c00dcab2b128cbd75d362481a53823718d3d867c9ade6765d47"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/videoplayback.uasset",
+      "size": 688,
+      "sha256": "3d2fbf717e2ada3c203f99e4d341d5aac477d5b22265704d991c6b2164635f45"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Zynbel_Line_01.bik",
+      "size": 6570348,
+      "sha256": "a6616eb1ba2656ba067d3560f477613cad0159e7e4c386e7ead753831d72158a"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Zynbel_Line_01.uasset",
+      "size": 1175,
+      "sha256": "509fe1aa82963d5bddcb27c65dd7f51c1ff5a846a187eda138c5de6b9ba86a0e"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Zynbel_Line_02.bik",
+      "size": 27018416,
+      "sha256": "db7a595d94bf846e7a382f8bc2a62ea960f6ff4018789a3615d7c755b3fb470a"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Zynbel_Line_02.uasset",
+      "size": 1175,
+      "sha256": "b8f3e7cb236d369e12bc90aa47d9dc0714d02e27534c03b006c1b577c155b87b"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Zynbel_Line_03.bik",
+      "size": 19644452,
+      "sha256": "3ca7fc439b0ce61d320e9ed451540f7133b9229ef97f982a92acef51c6b87a31"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Zynbel_Line_03.uasset",
+      "size": 1175,
+      "sha256": "91212760b0ff08a9939220c78fac011efe24a569021207d2e24b77c20b0d951d"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Zynbel_Line_04.bik",
+      "size": 21361256,
+      "sha256": "a3d17c07afbf833a5490948d49b93435188b96c755cadfed843e50edb5ff0613"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Zynbel_Line_04.uasset",
+      "size": 1175,
+      "sha256": "ddaabfc6411a97156cb6fa21ce37a48e5f7cac77cae726ff7bb7e9fefb83b647"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Zynbel_Line_1_Tex.uasset",
+      "size": 36254,
+      "sha256": "551ffb0c46b23ff9ee0e435e669abfb2d34fda7ded49e288a4833311cb51f5ea"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Zynbel_Line_2_Tex.uasset",
+      "size": 57280,
+      "sha256": "663b1ec315b5df61de4816a6b4048bf5d003b7dbda7db394d66e60b8442b9494"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Zynbel_Line_3_Tex.uasset",
+      "size": 10073,
+      "sha256": "83d54141f210da53194e770f387c613a2e1968a2bd382a98abf5ad9a80ec19ed"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/Zynbel_Line_4_Tex.uasset",
+      "size": 10073,
+      "sha256": "1af0ffdd4c6a50889ffb7d8f2995e2265f30da02f7ad991d2982912357888d3b"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ZynbelKneel.bik",
+      "size": 128543520,
+      "sha256": "2a2de4548745afd779d1f67577e2cb6791af98efd0bf521a3261bd2fced34527"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ZynbelKneel.uasset",
+      "size": 1168,
+      "sha256": "ad85598cb8d665d860f05a235d0a8ba79836dec2c915e9ab1a1d9ac431dcf71e"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ZynbelKneel_Mat.uasset",
+      "size": 91061,
+      "sha256": "7da02bb8f895034f06014aecf8e7730bea5037d79adda634e3dda10dd0a36dca"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ZynbelKneel_Tex.uasset",
+      "size": 73619,
+      "sha256": "ae35ee2819e7be26f9e2ee0b5adc0e709d401d81d37eb6c9f743190dcd174af7"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ZynbelStand.bik",
+      "size": 24806704,
+      "sha256": "6802c6845c9a64bc42a9fec330fb1a63f903f91f4b8b730e00ba1136a71c8e87"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ZynbelStand.uasset",
+      "size": 1168,
+      "sha256": "e74af3acc284997151500f62ca30bffd261fc0117c25a4bc3f0b8e58be4a17bf"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ZynbelStand_Mat.uasset",
+      "size": 90967,
+      "sha256": "9bbf49a98771e8e4aae1111a13d10c8022d8e3f9f7c35a5c25fb272ed1400177"
+    },
+    {
+      "path": "HellbladeGame/Content/Movies/ZynbelStand_Tex.uasset",
+      "size": 46350,
+      "sha256": "4974a30fd7d62b896aee7571e673b31875fc9d5f1c841f88b75f2c19ee5f3267"
+    },
+    {
+      "path": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+      "size": 14541554879,
+      "sha256": "27572e7f92e7e914a117550f41241a1c701b47cffc37c8b3f617df0b0a54e0eb"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 1369936
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/NVIDIA/NGX/Win64/nvngx_dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 50589712,
+          "length": 14452936
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/NVIDIA/NGX/Win64/nvngx_dlss.dll original that comes with game v2.3.0/nvngx_dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 65042648,
+          "length": 14452936
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/NVIDIA/NGX/Win64/nvngx_dlss_2.3.4 - newest/nvngx_dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 79495584,
+          "length": 14464712
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 93960296,
+          "length": 117760
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Oculus/Audio/Win64/ovraudio64.dll",
+          "file_offset": 0,
+          "chunk_offset": 94078056,
+          "length": 8883200
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Win64/OVRPlugin.dll",
+          "file_offset": 0,
+          "chunk_offset": 102961256,
+          "length": 2466232
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 105427488,
+          "length": 49152
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Clothing_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 105476640,
+          "length": 1219072
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Destructible_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 106695712,
+          "length": 2009600
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Legacy_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 108705312,
+          "length": 3329536
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFramework_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 112034848,
+          "length": 1043968
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/NvCloth_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 113078816,
+          "length": 265728
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 113344544,
+          "length": 2105344
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Common_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 115449888,
+          "length": 1598976
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Cooking_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 117048864,
+          "length": 244736
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundation_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 117293600,
+          "length": 54784
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDK_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 117348384,
+          "length": 188928
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Steamworks/Steamv147/Win64/steam_api64.cdx",
+          "file_offset": 0,
+          "chunk_offset": 117537312,
+          "length": 290768
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Steamworks/Steamv147/Win64/steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 117828080,
+          "length": 406424
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Steamworks/Steamv147/Win64/steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 118234504,
+          "length": 1758
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 118236262,
+          "length": 1714176
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 119950438,
+          "length": 37888
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+          "file_offset": 0,
+          "chunk_offset": 119988326,
+          "length": 847440
+        },
+        {
+          "file": "Engine/Plugins/Online/OnlineSubsystemGOG/Source/ThirdParty/GalaxySDK/Libraries/Galaxy64.dll",
+          "file_offset": 0,
+          "chunk_offset": 120835766,
+          "length": 13556224
+        },
+        {
+          "file": "Engine/Plugins/Online/OnlineSubsystemGOG/Source/ThirdParty/GalaxySDK/Libraries_CSharp/GalaxyCSharp.dll",
+          "file_offset": 0,
+          "chunk_offset": 134391990,
+          "length": 397312
+        },
+        {
+          "file": "Engine/Plugins/Online/OnlineSubsystemGOG/Source/ThirdParty/GalaxySDK/Libraries_CSharp/GalaxyCSharpGlue.dll",
+          "file_offset": 0,
+          "chunk_offset": 134789302,
+          "length": 1916416
+        },
+        {
+          "file": "Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll",
+          "file_offset": 0,
+          "chunk_offset": 136705718,
+          "length": 662368
+        },
+        {
+          "file": "HellbladeGame.exe",
+          "file_offset": 0,
+          "chunk_offset": 137368086,
+          "length": 202752
+        },
+        {
+          "file": "HellbladeGame/Binaries/Win64/HellbladeGame-Win64-Shipping.cdx",
+          "file_offset": 0,
+          "chunk_offset": 137570838,
+          "length": 77115224
+        },
+        {
+          "file": "HellbladeGame/Binaries/Win64/HellbladeGame-Win64-Shipping.exe",
+          "file_offset": 0,
+          "chunk_offset": 214686062,
+          "length": 77115224
+        },
+        {
+          "file": "HellbladeGame/Binaries/Win64/steam_appid.txt",
+          "file_offset": 0,
+          "chunk_offset": 291801286,
+          "length": 6
+        },
+        {
+          "file": "HellbladeGame/Content/Bink/binkpluginw64.dll",
+          "file_offset": 0,
+          "chunk_offset": 291801292,
+          "length": 678608
+        },
+        {
+          "file": "HellbladeGame/Content/Bink/binkw64.dll",
+          "file_offset": 0,
+          "chunk_offset": 292479900,
+          "length": 277712
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter10start.sav",
+          "file_offset": 0,
+          "chunk_offset": 292757612,
+          "length": 586671
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter11start.sav",
+          "file_offset": 0,
+          "chunk_offset": 293344283,
+          "length": 630232
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter12start.sav",
+          "file_offset": 0,
+          "chunk_offset": 293974515,
+          "length": 660462
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter13start.sav",
+          "file_offset": 0,
+          "chunk_offset": 294634977,
+          "length": 677592
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter1start.sav",
+          "file_offset": 0,
+          "chunk_offset": 295312569,
+          "length": 33393
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter2start.sav",
+          "file_offset": 0,
+          "chunk_offset": 295345962,
+          "length": 104036
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter3start.sav",
+          "file_offset": 0,
+          "chunk_offset": 295449998,
+          "length": 285617
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter4start.sav",
+          "file_offset": 0,
+          "chunk_offset": 295735615,
+          "length": 104232
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter5start.sav",
+          "file_offset": 0,
+          "chunk_offset": 295839847,
+          "length": 151444
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter6start with blood eagle.sav",
+          "file_offset": 0,
+          "chunk_offset": 295991291,
+          "length": 288913
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter6start without blood eagle.sav",
+          "file_offset": 0,
+          "chunk_offset": 296280204,
+          "length": 304963
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter6start.sav",
+          "file_offset": 0,
+          "chunk_offset": 296585167,
+          "length": 304963
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter7start.sav",
+          "file_offset": 0,
+          "chunk_offset": 296890130,
+          "length": 328739
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter8start.sav",
+          "file_offset": 0,
+          "chunk_offset": 297218869,
+          "length": 344501
+        },
+        {
+          "file": "HellbladeGame/Content/Chapters/Chapter9start.sav",
+          "file_offset": 0,
+          "chunk_offset": 297563370,
+          "length": 496201
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/AboutDeath.bik",
+          "file_offset": 0,
+          "chunk_offset": 298059571,
+          "length": 209143862
+        }
+      ],
+      "sha256": "033852d97a34aa66a256e47cde3332a71c39eb2dfa0e5e88bb6ae4e3ff27369c"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Movies/AboutDeath.bik",
+          "file_offset": 209143862,
+          "chunk_offset": 0,
+          "length": 14662486
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/AboutDeath.uasset",
+          "file_offset": 0,
+          "chunk_offset": 14662486,
+          "length": 1163
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/AboutDeath_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 14663649,
+          "length": 31399
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/AboutDeath_Tex_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 14695048,
+          "length": 85639
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/BC_01_A.bik",
+          "file_offset": 0,
+          "chunk_offset": 14780687,
+          "length": 53733024
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/BC_01_A.uasset",
+          "file_offset": 0,
+          "chunk_offset": 68513711,
+          "length": 1034
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/BC_01_A_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 68514745,
+          "length": 42338
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/BC_02_A.bik",
+          "file_offset": 0,
+          "chunk_offset": 68557083,
+          "length": 53733024
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/BC_02_A.uasset",
+          "file_offset": 0,
+          "chunk_offset": 122290107,
+          "length": 1034
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/BC_02_A_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 122291141,
+          "length": 37055
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/BC_Death_A.bik",
+          "file_offset": 0,
+          "chunk_offset": 122328196,
+          "length": 11845300
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/BC_Death_A.uasset",
+          "file_offset": 0,
+          "chunk_offset": 134173496,
+          "length": 1049
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/BC_Death_A_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 134174545,
+          "length": 47563
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Bink_FirePireGuy.bik",
+          "file_offset": 0,
+          "chunk_offset": 134222108,
+          "length": 4995712
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Bink_FirePireGuy.uasset",
+          "file_offset": 0,
+          "chunk_offset": 139217820,
+          "length": 838
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Dillion_Face_Test.bik",
+          "file_offset": 0,
+          "chunk_offset": 139218658,
+          "length": 51850900
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionReunited.bik",
+          "file_offset": 0,
+          "chunk_offset": 191069558,
+          "length": 28383400
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionSavesHer_Dillion.bik",
+          "file_offset": 0,
+          "chunk_offset": 219452958,
+          "length": 103983680
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionSavesHer_Dillion.uasset",
+          "file_offset": 0,
+          "chunk_offset": 323436638,
+          "length": 1228
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionSavesHer_Dillion_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 323437866,
+          "length": 90416
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionSavesHer_Dillion_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 323528282,
+          "length": 79828
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionSavesHer_Face_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 323608110,
+          "length": 73970
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionSavesHer_Face_Mat_Inst.uasset",
+          "file_offset": 0,
+          "chunk_offset": 323682080,
+          "length": 71105
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionSavesHer_Face_Test.uasset",
+          "file_offset": 0,
+          "chunk_offset": 323753185,
+          "length": 46934
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionTowerA.bik",
+          "file_offset": 0,
+          "chunk_offset": 323800119,
+          "length": 61746344
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionTowerA.uasset",
+          "file_offset": 0,
+          "chunk_offset": 385546463,
+          "length": 1264
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionTowerA_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 385547727,
+          "length": 72857
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionTowerB.bik",
+          "file_offset": 0,
+          "chunk_offset": 385620584,
+          "length": 59087728
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionTowerB.uasset",
+          "file_offset": 0,
+          "chunk_offset": 444708312,
+          "length": 1264
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionTowerB_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 444709576,
+          "length": 72409
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionValrvn.bik",
+          "file_offset": 0,
+          "chunk_offset": 444781985,
+          "length": 35240244
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionValrvn.uasset",
+          "file_offset": 0,
+          "chunk_offset": 480022229,
+          "length": 1178
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionValrvn_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 480023407,
+          "length": 49443
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DillionValrvn_Tex_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 480072850,
+          "length": 72822
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Druth_Secret_Runes.bik",
+          "file_offset": 0,
+          "chunk_offset": 480145672,
+          "length": 27057761
+        }
+      ],
+      "sha256": "384b85d652ad75697d803632b72df808d3833ebf9ee0f2e0616040c5e96c228d"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Movies/Druth_Secret_Runes.bik",
+          "file_offset": 27057761,
+          "chunk_offset": 0,
+          "length": 204679655
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Druth_Secret_Runes.uasset",
+          "file_offset": 0,
+          "chunk_offset": 204679655,
+          "length": 1203
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Druth_Secret_Runes_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 204680858,
+          "length": 36571
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Druth_Wicker_A.bik",
+          "file_offset": 0,
+          "chunk_offset": 204717429,
+          "length": 44729160
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Druth_Wicker_A.uasset",
+          "file_offset": 0,
+          "chunk_offset": 249446589,
+          "length": 1061
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Druth_Wicker_B.bik",
+          "file_offset": 0,
+          "chunk_offset": 249447650,
+          "length": 48359332
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Druth_Wicker_B.uasset",
+          "file_offset": 0,
+          "chunk_offset": 297806982,
+          "length": 1061
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Druth_Wicker_C.bik",
+          "file_offset": 0,
+          "chunk_offset": 297808043,
+          "length": 45548148
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Druth_Wicker_C.uasset",
+          "file_offset": 0,
+          "chunk_offset": 343356191,
+          "length": 1061
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthA.bik",
+          "file_offset": 0,
+          "chunk_offset": 343357252,
+          "length": 12936092
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthA.uasset",
+          "file_offset": 0,
+          "chunk_offset": 356293344,
+          "length": 1021
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthA_FX_Tex_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 356294365,
+          "length": 73967
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthA_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 356368332,
+          "length": 29338
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthA_Tex_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 356397670,
+          "length": 84750
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthAV2cc.bik",
+          "file_offset": 0,
+          "chunk_offset": 356482420,
+          "length": 54671532
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthAV2cc.uasset",
+          "file_offset": 0,
+          "chunk_offset": 411153952,
+          "length": 1163
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthAV2cc_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 411155115,
+          "length": 39694
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthB_FX.bik",
+          "file_offset": 0,
+          "chunk_offset": 411194809,
+          "length": 23183260
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthB_FX.uasset",
+          "file_offset": 0,
+          "chunk_offset": 434378069,
+          "length": 1036
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthB_FX_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 434379105,
+          "length": 37567
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthB_FX_Tex_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 434416672,
+          "length": 76370
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthBV2cc.bik",
+          "file_offset": 0,
+          "chunk_offset": 434493042,
+          "length": 36471660
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthBV2cc.uasset",
+          "file_offset": 0,
+          "chunk_offset": 470964702,
+          "length": 1163
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthBV2cc_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 470965865,
+          "length": 29802
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthC.bik",
+          "file_offset": 0,
+          "chunk_offset": 470995667,
+          "length": 11758352
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthC.uasset",
+          "file_offset": 0,
+          "chunk_offset": 482754019,
+          "length": 1021
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthC_FX_Tex_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 482755040,
+          "length": 73918
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthC_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 482828958,
+          "length": 27369
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthC_Tex_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 482856327,
+          "length": 90854
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthDiesA.bik",
+          "file_offset": 0,
+          "chunk_offset": 482947181,
+          "length": 24256252
+        }
+      ],
+      "sha256": "a3abc5a0f4935d50fe162265009bcbcd6ca8e6952851488445ebef866dea7232"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Movies/DruthDiesA.bik",
+          "file_offset": 24256252,
+          "chunk_offset": 0,
+          "length": 4593276
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthDiesA.uasset",
+          "file_offset": 0,
+          "chunk_offset": 4593276,
+          "length": 1163
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthDiesA_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 4594439,
+          "length": 23399
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthDiesA_Tex_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 4617838,
+          "length": 74178
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthDiesB.bik",
+          "file_offset": 0,
+          "chunk_offset": 4692016,
+          "length": 77299472
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthDiesB.uasset",
+          "file_offset": 0,
+          "chunk_offset": 81991488,
+          "length": 1163
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthDiesB_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 81992651,
+          "length": 52571
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/DruthDiesB_Tex_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 82045222,
+          "length": 74178
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Dwicker_A_cc.bik",
+          "file_offset": 0,
+          "chunk_offset": 82119400,
+          "length": 45496548
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Dwicker_A_cc.uasset",
+          "file_offset": 0,
+          "chunk_offset": 127615948,
+          "length": 1173
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Dwicker_A_cc_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 127617121,
+          "length": 30446
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Dwicker_B_cc.bik",
+          "file_offset": 0,
+          "chunk_offset": 127647567,
+          "length": 49072820
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Dwicker_B_cc.uasset",
+          "file_offset": 0,
+          "chunk_offset": 176720387,
+          "length": 1173
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Dwicker_B_cc_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 176721560,
+          "length": 31307
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Dwicker_C_cc.bik",
+          "file_offset": 0,
+          "chunk_offset": 176752867,
+          "length": 55369564
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Dwicker_C_cc.uasset",
+          "file_offset": 0,
+          "chunk_offset": 232122431,
+          "length": 1173
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Dwicker_C_cc_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 232123604,
+          "length": 28960
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Ending.bik",
+          "file_offset": 0,
+          "chunk_offset": 232152564,
+          "length": 88675528
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Ending.uasset",
+          "file_offset": 0,
+          "chunk_offset": 320828092,
+          "length": 1178
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Ending_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 320829270,
+          "length": 52717
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Ending_Tex_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 320881987,
+          "length": 85629
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_HF_01.bik",
+          "file_offset": 0,
+          "chunk_offset": 320967616,
+          "length": 63115524
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_HiddenFace_CS_01.uasset",
+          "file_offset": 0,
+          "chunk_offset": 384083140,
+          "length": 1217
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_HiddenFace_CS_01_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 384084357,
+          "length": 58772
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Pyre.bik",
+          "file_offset": 0,
+          "chunk_offset": 384143129,
+          "length": 123060304
+        }
+      ],
+      "sha256": "d3787642c5fbb47623a8a2a620a05ce8b7966a78b3b69edbb594cf893d2470ba"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Pyre.bik",
+          "file_offset": 123060304,
+          "chunk_offset": 0,
+          "length": 32622680
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Pyre.uasset",
+          "file_offset": 0,
+          "chunk_offset": 32622680,
+          "length": 1168
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Pyre_A_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 32623848,
+          "length": 98424
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Pyre_B_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 32722272,
+          "length": 98453
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Pyre_C_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 32820725,
+          "length": 98451
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Pyre_D_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 32919176,
+          "length": 98453
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Pyre_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 33017629,
+          "length": 97495
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Pyre_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 33115124,
+          "length": 73056
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_SOC_end.bik",
+          "file_offset": 0,
+          "chunk_offset": 33188180,
+          "length": 19354928
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_SOC_end.uasset",
+          "file_offset": 0,
+          "chunk_offset": 52543108,
+          "length": 1183
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_SOC_end_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 52544291,
+          "length": 49928
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_SOC_end_Tex_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 52594219,
+          "length": 90396
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Trapped.bik",
+          "file_offset": 0,
+          "chunk_offset": 52684615,
+          "length": 131110692
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Trapped.uasset",
+          "file_offset": 0,
+          "chunk_offset": 183795307,
+          "length": 1183
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galena_Trapped_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 183796490,
+          "length": 24746
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_BeSafeSenua.uasset",
+          "file_offset": 0,
+          "chunk_offset": 183821236,
+          "length": 1085
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_BeSafeSenua_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 183822321,
+          "length": 61611
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_ComeToMe.uasset",
+          "file_offset": 0,
+          "chunk_offset": 183883932,
+          "length": 1184
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_ComeToMe_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 183885116,
+          "length": 61478
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_DontBeAfraid.uasset",
+          "file_offset": 0,
+          "chunk_offset": 183946594,
+          "length": 1090
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_DontBeAfraid_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 183947684,
+          "length": 62460
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_DontForgetMe.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184010144,
+          "length": 1090
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_DontForgetMe_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184011234,
+          "length": 62403
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_HereForYou.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184073637,
+          "length": 1080
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_HereForYou_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184074717,
+          "length": 62121
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_IAlwaysLoveYou.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184136838,
+          "length": 1100
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_IAlwaysLoveYou_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184137938,
+          "length": 61958
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_IamHere.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184199896,
+          "length": 1335
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_IamHere_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184201231,
+          "length": 61394
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_IamWatching.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184262625,
+          "length": 1085
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_IamWatching_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184263710,
+          "length": 61801
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_ILoveYou.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184325511,
+          "length": 1070
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_ILoveYou_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184326581,
+          "length": 62515
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_ISeeYou.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184389096,
+          "length": 1065
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_ISeeYou_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184390161,
+          "length": 60997
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_IWatchingOver.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184451158,
+          "length": 1095
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_IWatchingOver_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184452253,
+          "length": 61783
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_NeverBeAlone.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184514036,
+          "length": 1090
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_NeverBeAlone_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184515126,
+          "length": 62671
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_NoOneHurtYou.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184577797,
+          "length": 1090
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_NoOneHurtYou_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184578887,
+          "length": 61673
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_Senua.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184640560,
+          "length": 1055
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_Senua_B.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184641615,
+          "length": 1065
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_Senua_B_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184642680,
+          "length": 62271
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_Senua_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184704951,
+          "length": 62146
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_Smile.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184767097,
+          "length": 1055
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_Smile_00000.uasset",
+          "file_offset": 0,
+          "chunk_offset": 184768152,
+          "length": 1144234
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_Smile_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 185912386,
+          "length": 62773
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_Yes.uasset",
+          "file_offset": 0,
+          "chunk_offset": 185975159,
+          "length": 1045
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_Yes_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 185976204,
+          "length": 61765
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_YesIamHere.uasset",
+          "file_offset": 0,
+          "chunk_offset": 186037969,
+          "length": 1080
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_YesIamHere_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 186039049,
+          "length": 61543
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_YouAreSafe.uasset",
+          "file_offset": 0,
+          "chunk_offset": 186100592,
+          "length": 1080
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_YouAreSafe_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 186101672,
+          "length": 61929
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces/HF_YouAreSafe_Tex2.uasset",
+          "file_offset": 0,
+          "chunk_offset": 186163601,
+          "length": 61224
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_Ending.bik",
+          "file_offset": 0,
+          "chunk_offset": 186224825,
+          "length": 70907152
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_Ending.uasset",
+          "file_offset": 0,
+          "chunk_offset": 257131977,
+          "length": 1204
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_Ending_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 257133181,
+          "length": 52351
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_01.bik",
+          "file_offset": 0,
+          "chunk_offset": 257185532,
+          "length": 50438452
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_01.uasset",
+          "file_offset": 0,
+          "chunk_offset": 307623984,
+          "length": 1199
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_01_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 307625183,
+          "length": 58686
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_09.bik",
+          "file_offset": 0,
+          "chunk_offset": 307683869,
+          "length": 40255780
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_09.uasset",
+          "file_offset": 0,
+          "chunk_offset": 347939649,
+          "length": 1199
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_09_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 347940848,
+          "length": 56724
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_11.bik",
+          "file_offset": 0,
+          "chunk_offset": 347997572,
+          "length": 41043512
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_11.uasset",
+          "file_offset": 0,
+          "chunk_offset": 389041084,
+          "length": 1193
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_11_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 389042277,
+          "length": 55457
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_14.bik",
+          "file_offset": 0,
+          "chunk_offset": 389097734,
+          "length": 60777768
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_14.uasset",
+          "file_offset": 0,
+          "chunk_offset": 449875502,
+          "length": 1193
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_14_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 449876695,
+          "length": 55990
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_18.bik",
+          "file_offset": 0,
+          "chunk_offset": 449932685,
+          "length": 57270748
+        }
+      ],
+      "sha256": "3f6b2dc7b34300101b0227f349a17df96d104e38a1f9821ab4f94482275d77fd"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_18.bik",
+          "file_offset": 57270748,
+          "chunk_offset": 0,
+          "length": 1144688
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_18.uasset",
+          "file_offset": 0,
+          "chunk_offset": 1144688,
+          "length": 1193
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_18_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 1145881,
+          "length": 55473
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_22.bik",
+          "file_offset": 0,
+          "chunk_offset": 1201354,
+          "length": 39415504
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_22.uasset",
+          "file_offset": 0,
+          "chunk_offset": 40616858,
+          "length": 1193
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_22_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 40618051,
+          "length": 55472
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_26.bik",
+          "file_offset": 0,
+          "chunk_offset": 40673523,
+          "length": 71904776
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_26.uasset",
+          "file_offset": 0,
+          "chunk_offset": 112578299,
+          "length": 1193
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/Galena_HF_26_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 112579492,
+          "length": 56791
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaFaces2/GalenaFaces.uasset",
+          "file_offset": 0,
+          "chunk_offset": 112636283,
+          "length": 13933
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaHearingVoices2to5.bik",
+          "file_offset": 0,
+          "chunk_offset": 112650216,
+          "length": 93161488
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaHearingVoices3to5.bik",
+          "file_offset": 0,
+          "chunk_offset": 205811704,
+          "length": 85151372
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyre_A.bik",
+          "file_offset": 0,
+          "chunk_offset": 290963076,
+          "length": 22162632
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyre_A.uasset",
+          "file_offset": 0,
+          "chunk_offset": 313125708,
+          "length": 1173
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyre_A_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 313126881,
+          "length": 36890
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyre_B.bik",
+          "file_offset": 0,
+          "chunk_offset": 313163771,
+          "length": 21073828
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyre_B.uasset",
+          "file_offset": 0,
+          "chunk_offset": 334237599,
+          "length": 1173
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyre_B_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 334238772,
+          "length": 36704
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyre_C.bik",
+          "file_offset": 0,
+          "chunk_offset": 334275476,
+          "length": 23407240
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyre_C.uasset",
+          "file_offset": 0,
+          "chunk_offset": 357682716,
+          "length": 1173
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyre_C_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 357683889,
+          "length": 37070
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyre_D.bik",
+          "file_offset": 0,
+          "chunk_offset": 357720959,
+          "length": 3967036
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyre_D.uasset",
+          "file_offset": 0,
+          "chunk_offset": 361687995,
+          "length": 1259
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyre_D_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 361689254,
+          "length": 38269
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyreClose.bik",
+          "file_offset": 0,
+          "chunk_offset": 361727523,
+          "length": 30485572
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyreClose.uasset",
+          "file_offset": 0,
+          "chunk_offset": 392213095,
+          "length": 1188
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyreClose_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 392214283,
+          "length": 90132
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/GalenaPyreClose_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 392304415,
+          "length": 70595
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galenastocks.bik",
+          "file_offset": 0,
+          "chunk_offset": 392375010,
+          "length": 17722744
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galenastocks.uasset",
+          "file_offset": 0,
+          "chunk_offset": 410097754,
+          "length": 1173
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galenastocks_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 410098927,
+          "length": 54080
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Galenastocks_Tex_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 410153007,
+          "length": 90428
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/HB_DocumentaryRoughCut.bik",
+          "file_offset": 0,
+          "chunk_offset": 410243435,
+          "length": 96959998
+        }
+      ],
+      "sha256": "ed1a698dafb0c22b8e6c48175f2fb61cc9681bfc46c7913e1d649302f67ecbb4"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Movies/HB_DocumentaryRoughCut.bik",
+          "file_offset": 96959998,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "1fd745ca2bf167e1ca5347f8f5ecb93806f212d7c2f11a938007607cce919abf"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Movies/HB_DocumentaryRoughCut.bik",
+          "file_offset": 604163431,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "07ae2b7f1ae25bc8244c296a8281deab49e155d07158f59734fe2ea7c2b9ce7d"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Movies/HB_DocumentaryRoughCut.bik",
+          "file_offset": 1111366864,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "5050474fd65bb5057baa27c791d98b76e51bc404783bb7be85d278a61b5a4e8c"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Movies/HB_DocumentaryRoughCut.bik",
+          "file_offset": 1618570297,
+          "chunk_offset": 0,
+          "length": 288283063
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/HB_DocumentaryRoughCut.uasset",
+          "file_offset": 0,
+          "chunk_offset": 288283063,
+          "length": 1223
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/HB_DocumentaryRoughCut_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 288284286,
+          "length": 54212
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Injured_Mirror.bik",
+          "file_offset": 0,
+          "chunk_offset": 288338498,
+          "length": 218864935
+        }
+      ],
+      "sha256": "b05a4c8679cf32fb2267424d5463cefcf9fd63c42f810c34fb73f6ab3b05a1cb"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Movies/Injured_Mirror.bik",
+          "file_offset": 218864935,
+          "chunk_offset": 0,
+          "length": 42728021
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Injured_Mirror.uasset",
+          "file_offset": 0,
+          "chunk_offset": 42728021,
+          "length": 1183
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Injured_Mirror_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 42729204,
+          "length": 85402
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/LoadingScreen.bik",
+          "file_offset": 0,
+          "chunk_offset": 42814606,
+          "length": 110784
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/NinjaTheory_Logo.bik",
+          "file_offset": 0,
+          "chunk_offset": 42925390,
+          "length": 295472
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/NinjaTheory_Logo.uasset",
+          "file_offset": 0,
+          "chunk_offset": 43220862,
+          "length": 1142
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/pyrevideo.bik",
+          "file_offset": 0,
+          "chunk_offset": 43222004,
+          "length": 5833636
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/pyrevideo.uasset",
+          "file_offset": 0,
+          "chunk_offset": 49055640,
+          "length": 1116
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/pyrevideo_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 49056756,
+          "length": 85384
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/pyrevideo_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 49142140,
+          "length": 73783
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Qloc_Logo_1080.bik",
+          "file_offset": 0,
+          "chunk_offset": 49215923,
+          "length": 799188
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Qloc_Logo_1080.uasset",
+          "file_offset": 0,
+          "chunk_offset": 50015111,
+          "length": 1162
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Qloc_Logo_4k.bik",
+          "file_offset": 0,
+          "chunk_offset": 50016273,
+          "length": 1027976
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Qloc_Logo_4k.uasset",
+          "file_offset": 0,
+          "chunk_offset": 51044249,
+          "length": 1162
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ShardReflection_01.bik",
+          "file_offset": 0,
+          "chunk_offset": 51045411,
+          "length": 28519228
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ShardReflection_01.uasset",
+          "file_offset": 0,
+          "chunk_offset": 79564639,
+          "length": 1334
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ShardReflection_01_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 79565973,
+          "length": 2979
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ShardReflection_02.bik",
+          "file_offset": 0,
+          "chunk_offset": 79568952,
+          "length": 5248228
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ShardReflection_02.uasset",
+          "file_offset": 0,
+          "chunk_offset": 84817180,
+          "length": 1334
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ShardReflection_02_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 84818514,
+          "length": 112441
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ShardReflection_03.bik",
+          "file_offset": 0,
+          "chunk_offset": 84930955,
+          "length": 10439028
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ShardReflection_03.uasset",
+          "file_offset": 0,
+          "chunk_offset": 95369983,
+          "length": 1334
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ShardReflection_03_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 95371317,
+          "length": 109998
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ShardReflection_04.bik",
+          "file_offset": 0,
+          "chunk_offset": 95481315,
+          "length": 12656488
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ShardReflection_04.uasset",
+          "file_offset": 0,
+          "chunk_offset": 108137803,
+          "length": 1334
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ShardReflection_04_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 108139137,
+          "length": 101398
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ThirdParty_Logo.bik",
+          "file_offset": 0,
+          "chunk_offset": 108240535,
+          "length": 4285344
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ThirdParty_Logo.uasset",
+          "file_offset": 0,
+          "chunk_offset": 112525879,
+          "length": 1137
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ThirdParty_Logo_ONION.bik",
+          "file_offset": 0,
+          "chunk_offset": 112527016,
+          "length": 4578456
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ThirdParty_Logo_ONION.uasset",
+          "file_offset": 0,
+          "chunk_offset": 117105472,
+          "length": 1218
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Torture_BeastCave.uasset",
+          "file_offset": 0,
+          "chunk_offset": 117106690,
+          "length": 1071
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Torture_BeastCave_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 117107761,
+          "length": 42965
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Torture_COMP.bik",
+          "file_offset": 0,
+          "chunk_offset": 117150726,
+          "length": 48674628
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Torture_COMP.uasset",
+          "file_offset": 0,
+          "chunk_offset": 165825354,
+          "length": 1051
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Tower_Dillion.bik",
+          "file_offset": 0,
+          "chunk_offset": 165826405,
+          "length": 130276936
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Tower_Dillion2.uasset",
+          "file_offset": 0,
+          "chunk_offset": 296103341,
+          "length": 1060
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Tower_Dillion_B.bik",
+          "file_offset": 0,
+          "chunk_offset": 296104401,
+          "length": 138530508
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Tower_Dillion_B.uasset",
+          "file_offset": 0,
+          "chunk_offset": 434634909,
+          "length": 1066
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Tower_Dillion_B_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 434635975,
+          "length": 99023
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Tower_Dillion_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 434734998,
+          "length": 93947
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/UE4_Logo.bik",
+          "file_offset": 0,
+          "chunk_offset": 434828945,
+          "length": 11347108
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/UE4_Logo.uasset",
+          "file_offset": 0,
+          "chunk_offset": 446176053,
+          "length": 1258
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/UE4_Logo_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 446177311,
+          "length": 2674
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/videoplayback.uasset",
+          "file_offset": 0,
+          "chunk_offset": 446179985,
+          "length": 688
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Zynbel_Line_01.bik",
+          "file_offset": 0,
+          "chunk_offset": 446180673,
+          "length": 6570348
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Zynbel_Line_01.uasset",
+          "file_offset": 0,
+          "chunk_offset": 452751021,
+          "length": 1175
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Zynbel_Line_02.bik",
+          "file_offset": 0,
+          "chunk_offset": 452752196,
+          "length": 27018416
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Zynbel_Line_02.uasset",
+          "file_offset": 0,
+          "chunk_offset": 479770612,
+          "length": 1175
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Zynbel_Line_03.bik",
+          "file_offset": 0,
+          "chunk_offset": 479771787,
+          "length": 19644452
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Zynbel_Line_03.uasset",
+          "file_offset": 0,
+          "chunk_offset": 499416239,
+          "length": 1175
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Zynbel_Line_04.bik",
+          "file_offset": 0,
+          "chunk_offset": 499417414,
+          "length": 7786019
+        }
+      ],
+      "sha256": "f1fbf9ec70b03873cad24aa9fd6b22709213d4f6dd57ba80a2cd69c45304039c"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Movies/Zynbel_Line_04.bik",
+          "file_offset": 7786019,
+          "chunk_offset": 0,
+          "length": 13575237
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Zynbel_Line_04.uasset",
+          "file_offset": 0,
+          "chunk_offset": 13575237,
+          "length": 1175
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Zynbel_Line_1_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 13576412,
+          "length": 36254
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Zynbel_Line_2_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 13612666,
+          "length": 57280
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Zynbel_Line_3_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 13669946,
+          "length": 10073
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/Zynbel_Line_4_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 13680019,
+          "length": 10073
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ZynbelKneel.bik",
+          "file_offset": 0,
+          "chunk_offset": 13690092,
+          "length": 128543520
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ZynbelKneel.uasset",
+          "file_offset": 0,
+          "chunk_offset": 142233612,
+          "length": 1168
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ZynbelKneel_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 142234780,
+          "length": 91061
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ZynbelKneel_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 142325841,
+          "length": 73619
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ZynbelStand.bik",
+          "file_offset": 0,
+          "chunk_offset": 142399460,
+          "length": 24806704
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ZynbelStand.uasset",
+          "file_offset": 0,
+          "chunk_offset": 167206164,
+          "length": 1168
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ZynbelStand_Mat.uasset",
+          "file_offset": 0,
+          "chunk_offset": 167207332,
+          "length": 90967
+        },
+        {
+          "file": "HellbladeGame/Content/Movies/ZynbelStand_Tex.uasset",
+          "file_offset": 0,
+          "chunk_offset": 167298299,
+          "length": 46350
+        },
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 0,
+          "chunk_offset": 167344649,
+          "length": 339858784
+        }
+      ],
+      "sha256": "fbe708992e543da8e3a9db5eb9437f7ed30dfcc40406e6024f8ebf960426aadf"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 339858784,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "bbb094737b9479a69fc7f07749d260d281cf89281bd326134641bf05a4af29de"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 847062217,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "7c11a6ceafc5b5836d4d1f80786d348339171087dd9ae68f2830bbb3818cafd4"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 1354265650,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "b7ab05c7b403c73b8b56e9e6794ce179f311cf38efdc0c85347ac3c9c7a218b3"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 1861469083,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "51333c96e619227fb76d1001a6ffc7575d16001665e11421f56f643512ed06d4"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 2368672516,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "77ad1cd4c2200ea2d9168c6389533d2c72cd7aa184a024a3b1ab42e62d010686"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 2875875949,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "89e0590c853125ce86dab1ffd31b9adff28116bfdab95a5925878031bde33a6e"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 3383079382,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "70aec9b66352398615f42326d304c94a11b00712bd66089bd469287356372150"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 3890282815,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "1cbd27b1c50f9f9ebd62714fedfc0bf6e6c142c43ce3b5d15f5eb3b16e089d3d"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 4397486248,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "a417bce68c788e3087519119f1d290e66927cf3a42a9d0c2e75bce22a91d2555"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 4904689681,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "5de19df84e6aae2993a210541d6f7ed6b487615c9481212c7975e1ed7f8cc1d6"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 5411893114,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "177cd0c86b41ee758fd810161e314d56ff09bc23924188e284c8525a2d150246"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 5919096547,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "540f8f00abf6eaaf32c785b9425a5233fffca611e6a5b2b2ecd4f8bb1e317284"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 6426299980,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "a85e5f8263198fc826f9abd50a2919fa8f9c47a814bfd1d2673bb074ed074e54"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 6933503413,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "d9ec9427e63666523a3dde54d084530915e5680899d8f85124771ca9080880d8"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 7440706846,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "641db84fb5045e6197ce414cb6c3333e8faa50796cbb1928c0fc040d65468939"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 7947910279,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "d93c0a441ab563e8ccd77d2b61b46b745d42b828bfd032f82d035be753fc23e0"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 8455113712,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "6b92e821b9c72ee0a1fbe91a03b551e6333ae1ffe6cbc6f4fc3651e8f27b1684"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 8962317145,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "17d1192d4e581d167bb2fda9ffd3903021aba506707251c3084dc351a13a17ac"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 9469520578,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "d1b243ae371edd24a2540976f3e598464832d5ba05d46ece1ff9b4b477991bac"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 9976724011,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "3fb9717ea2805e79d7208de1aa04b8802f99c72e2edce29a817ab3fbc072911c"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 10483927444,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "b77a247342ef5a7e773408e334813bd177b716460e0455d92230764362ed0745"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 10991130877,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "23bd13e4e73239aee4aef10d0acc0ba9d18d5c650f6461e0ad8e9bb2aee927c5"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 11498334310,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "d98a2f4e2c92b0d2daeefd5df024af7fea23b7c5e315063a8e3875c5e406c3cf"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 12005537743,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "3b0673cee43a23a53240a421402be69a3c25fcf4d1bb1a97e15a610254a795c8"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 12512741176,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "55aebb815504a1d1438a466cc3cf3139ad871c5e36889a852771bdc64518c591"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 13019944609,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "baa7d20cbc0a865eca45d8184cbaa37855f22f5ba7342984bfbf621f3f467503"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 507203433,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 13527148042,
+          "chunk_offset": 0,
+          "length": 507203433
+        }
+      ],
+      "sha256": "122453b7e8e5e5424a283ab0360a2cc704a46a0092bfc4fd1b0ec8fb3f74943a"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 507203404,
+      "segments": [
+        {
+          "file": "HellbladeGame/Content/Paks/HellbladeGame-WindowsNoEditor.pak",
+          "file_offset": 14034351475,
+          "chunk_offset": 0,
+          "length": 507203404
+        }
+      ],
+      "sha256": "9f7bdb8113d304979953dbf8d5897d9e513536679cf39f1e5959323a92310c0c"
+    }
+  ]
+}
