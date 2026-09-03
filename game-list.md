@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 88
-- **Toplam aktif sürüm/kanal:** 88
-- **Toplam aktif boyut:** 2253.645 GB · 2.254 TB
-- **Katalog güncelleme zamanı:** 2026-09-02 12:43:38 UTC
+- **Toplam oyun:** 89
+- **Toplam aktif sürüm/kanal:** 89
+- **Toplam aktif boyut:** 2290.673 GB · 2.291 TB
+- **Katalog güncelleme zamanı:** 2026-09-03 05:10:24 UTC
 
 ## PC
 
-**88 oyun · 88 aktif sürüm/kanal · 2253.645 GB · 2.254 TB**
+**89 oyun · 89 aktif sürüm/kanal · 2290.673 GB · 2.291 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -60,6 +60,7 @@
 | Half Life 2 | 1.0.0 | stable | 17.641 | 0.018 | `pc-half-life-2-v1.0.0-stable` |
 | Half-Life | 1.0.0 | stable | 0.550 | 0.001 | `pc-half-life-v1.0.0-stable` |
 | Hans | 1.0.0 | stable | 0.876 | 0.001 | `pc-hans-v1.0.0-stable` |
+| Heavy Rain | 1.0.0 | stable | 37.027 | 0.037 | `pc-heavy-rain-v1.0.0-stable` |
 | Hollow Knight | 1.0.0 | stable | 5.284 | 0.005 | `pc-hollow-knight-v1.0.0-stable` |
 | Horizon Zero Dawn™ Complete Edition | 1.0.0 | stable | 67.720 | 0.068 | `pc-horizon-zero-dawn-complete-edition-v1.0.0-stable` |
 | Hotline Miami | 1.0.0 | stable | 0.637 | 0.001 | `pc-hotline-miami-v1.0.0-stable` |
