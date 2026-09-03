@@ -1,0 +1,1720 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "heavy-rain",
+    "title": "Heavy Rain",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Experience a gripping psychological thriller filled with innumerable twists and turns. The hunt is on for a murderer known only as the Origami Killer. Four characters, each following their own leads, must take part in a desperate attempt to prevent the killer from claiming a new victim."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-heavy-rain-v1.0.0-stable"
+  },
+  "chunk_size": 925685943,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 37027437691,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "bink2w64.dll",
+      "size": 380928,
+      "sha256": "fbd773f56df3c6b9b7eb725a033c071c4c39fc38694fcb7580599e3eac9b7c32"
+    },
+    {
+      "path": "gpudetect.ini",
+      "size": 1367,
+      "sha256": "25adef15e2c39bc3c5d64b78cf9eb0946fca48f889a247f3cd7ea01dac9f6d9d"
+    },
+    {
+      "path": "HeavyRain.bak",
+      "size": 26233040,
+      "sha256": "3b137abd6184853bbde13fa57d70866dccf633ee906e61d990bdbaac36e9450d"
+    },
+    {
+      "path": "HeavyRain.exe",
+      "size": 26027520,
+      "sha256": "7958b098ddd82f8eac1b309f56420eebe71750e17af8add27d804f03c97045f1"
+    },
+    {
+      "path": "libexpat.dll",
+      "size": 1304576,
+      "sha256": "0bb392236ca3e9f30ab4f3081de9a7a4f59db13c952461afe30d039ad5048ceb"
+    },
+    {
+      "path": "Misc/SplashScreens/boot.dds",
+      "size": 460928,
+      "sha256": "93a70dfcb4c11f875840b2e0590403bd84ffd47b320bd7161b1dfaf15ca6bf63"
+    },
+    {
+      "path": "msvcp140.dll",
+      "size": 627440,
+      "sha256": "86881a7054532019291c162f0a8177980c1c2b45490f7e88543f22915d08d9ff"
+    },
+    {
+      "path": "Resources/BigFile_WIN.d01",
+      "size": 1058172938,
+      "sha256": "6bc807eec978ca49f6de3256d6102463c1c13db0f25e5d0ce8dbcb126fbbf5e0"
+    },
+    {
+      "path": "Resources/BigFile_WIN.d02",
+      "size": 1066995637,
+      "sha256": "a105dacba1508f87495328e0410151bc95541dcd9da33174a0b723b65b1a802f"
+    },
+    {
+      "path": "Resources/BigFile_WIN.d03",
+      "size": 1036957670,
+      "sha256": "5822f7e045a31bac3ab615febabfa999b9dad3448d751a306d334a4b1ac3ad88"
+    },
+    {
+      "path": "Resources/BigFile_WIN.d04",
+      "size": 1044609475,
+      "sha256": "a377137363fc6d12b65ac8e3bc62edb9c8df5520de8639360ba126c7dba133c6"
+    },
+    {
+      "path": "Resources/BigFile_WIN.d05",
+      "size": 220962917,
+      "sha256": "1e637d5d654df3bc788c5132bf584a9d6dc9f203dfd7f1acfceb36c5a5db4820"
+    },
+    {
+      "path": "Resources/BigFile_WIN.dat",
+      "size": 968015947,
+      "sha256": "b8b43eb94c72412fd980eac939d05ccc3d943a5c8894ec4c49a98c2a8a230f42"
+    },
+    {
+      "path": "Resources/BigFile_WIN.dbg",
+      "size": 406492,
+      "sha256": "80eeb82d79fb99b36e7b23f5342a8b441c82574b8a789bc504aa14f1ba82324b"
+    },
+    {
+      "path": "Resources/BigFile_WIN.dep",
+      "size": 3432860,
+      "sha256": "86c19c47ecb5fb25a110edf8ef105e42c22c5b11fe049c508f49a546572c1419"
+    },
+    {
+      "path": "Resources/BigFile_WIN.idm",
+      "size": 117224,
+      "sha256": "923e2efd3acee01ac6eb78f6f22a7fe69a25084d64378a1598ca5f25c92332da"
+    },
+    {
+      "path": "Resources/BigFile_WIN.idx",
+      "size": 146768,
+      "sha256": "b369111205ad8d18ff105cba81616b019cc68e938dae21aa6c95bdf4b5a0f1b3"
+    },
+    {
+      "path": "Resources/BigFile_WIN.pdbg",
+      "size": 15922997,
+      "sha256": "e8664a7cb45ce985c70f447245d575017808e6be57b72ea762b8a01c12149e44"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.d01",
+      "size": 1007676326,
+      "sha256": "0d50a9a80e560481fccc40baf2e265dfd13081dc6bb0f2db16cc6d68443dec6c"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.d02",
+      "size": 1072811150,
+      "sha256": "7bdd02b7ad2cb4de1461aa4ce82e18f53de0e2398f09077db79764b428e8846f"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.d03",
+      "size": 1073741925,
+      "sha256": "da15902d396df1f95d3d20d0aa7b5cb655aceb1d06711c4fa8b420156544ce30"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.d04",
+      "size": 1065071535,
+      "sha256": "44129af50b27648ef73b97b56abd32499df411e90dd1577010f2bd970841a143"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.d05",
+      "size": 1067439212,
+      "sha256": "679318b1847614cbb11628a89aee2164f891670c944d7fd249e145f2d77db7f0"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.d06",
+      "size": 1067191090,
+      "sha256": "902e926f4dd555543ce16dab77eb23bf96b753f569bd09154a1075954411b557"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.d07",
+      "size": 1050606553,
+      "sha256": "70654dac3cb1887c1013150101ae956b22782c4a3a046255d0c91815ae268e3e"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.d08",
+      "size": 1072860672,
+      "sha256": "e009b1c273dc9f01eae6a2fda7e5896c765bfd323beece705aa4d62a9b26f221"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.d09",
+      "size": 1073639525,
+      "sha256": "3cf7cc172ca75753c9d7bbd16f636da6c064a7cf2b135e2fd3719ee2c1230255"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.d10",
+      "size": 1073202273,
+      "sha256": "de4edd14d8c6b530bdd45a76ab4845360d6c2cb93282c73ea48aa69db44feb9d"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.d11",
+      "size": 1069477222,
+      "sha256": "5706fba45ef8b3c6aa911c92b6bdbdeba82109a0c433824e7525ca32b3c42306"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.d12",
+      "size": 1073636488,
+      "sha256": "47ed78d8b5aeb518eeac22091c75c719caa877dd3f302d833503e3ff709765ff"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.d13",
+      "size": 1071140848,
+      "sha256": "640de4f5a4d1dbd735547f11cc214a3e991368c069cfe3063108d0c6e93d2b71"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.d14",
+      "size": 948592741,
+      "sha256": "8b6495d1f7e971c1061490699a22e44bbf9cb1e18c50356204b0a4d1c2bae449"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.dat",
+      "size": 968015947,
+      "sha256": "b8b43eb94c72412fd980eac939d05ccc3d943a5c8894ec4c49a98c2a8a230f42"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.dbg",
+      "size": 1509578,
+      "sha256": "5a4bf68c6e8288e4a163baabd32197f2de76e4bc20ac4b0d9a9b6d132b7e4f56"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.dep",
+      "size": 12209148,
+      "sha256": "39df27b7a8292cdb3c1fb32872abebab84883a3101d147714d76ff08ebf0e8c2"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.idm",
+      "size": 382160,
+      "sha256": "b05076839ce078c6bddd9202ae6f0f4639cb8f68d45b08bb3bb6c6e21c8eb3dc"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.idx",
+      "size": 516228,
+      "sha256": "dbeecb54872fca2f8cca6183ea34a67f186396cf1165d69eb1bd4ca4bd717b83"
+    },
+    {
+      "path": "Resources/GameData/GameData_WIN.pdbg",
+      "size": 57915685,
+      "sha256": "d2b4797adf734ccab7e84f65bada3c8807ee3ca8f7ce2ff8a54e4c4720ab48d8"
+    },
+    {
+      "path": "Resources/LanguageData/LanguageData_WIN.d01",
+      "size": 1073725842,
+      "sha256": "044c9248cf632f0f7c4ea04e81c9dc5650376bc83c644a931ef801ac3f8710af"
+    },
+    {
+      "path": "Resources/LanguageData/LanguageData_WIN.d02",
+      "size": 180181133,
+      "sha256": "4d8fe93715f8337798966cfa3e6bb1149fe864a806e3d2d42a3eaa0bd9a6ad7d"
+    },
+    {
+      "path": "Resources/LanguageData/LanguageData_WIN.dat",
+      "size": 1073211868,
+      "sha256": "53c209b666306e94416044e960bcb092a001cdb3c4131034c60d9feb6a75cacc"
+    },
+    {
+      "path": "Resources/LanguageData/LanguageData_WIN.dbg",
+      "size": 752519,
+      "sha256": "5eb56c2f61c8e8bbea57da219957fea404c63dadcf86fbb23d3a4b3de5ceb7b2"
+    },
+    {
+      "path": "Resources/LanguageData/LanguageData_WIN.dep",
+      "size": 150924,
+      "sha256": "7fa6396ab9a43d27fb05f0fbe8b5fe5f9844db4a6db59c1d2d9e79a6f2ac781c"
+    },
+    {
+      "path": "Resources/LanguageData/LanguageData_WIN.idm",
+      "size": 189688,
+      "sha256": "f65d82f90dd2c3c9a880ae9e759f4a849d741787c182b51cecaa84bdd0f8aac5"
+    },
+    {
+      "path": "Resources/LanguageData/LanguageData_WIN.idx",
+      "size": 264172,
+      "sha256": "cbc0bd513d9eebb2df5efa70579dc0df44dcaf88c48cccde1b5221f09d0bf470"
+    },
+    {
+      "path": "Resources/LanguageData/LanguageData_WIN.pdbg",
+      "size": 24,
+      "sha256": "0815b29ff1d88c69f08a4db0026e9e169b052957c442b5cde92e8354232d3265"
+    },
+    {
+      "path": "Resources/LanguageData/O-LanguageData_WIN.d01",
+      "size": 1073545732,
+      "sha256": "fa4b63301aefa55e4652ca2b6ad4a6471c4c5323a5fb239db1c4aafd42a273d0"
+    },
+    {
+      "path": "Resources/LanguageData/O-LanguageData_WIN.d02",
+      "size": 1073654236,
+      "sha256": "ad6ac1b3a429ee0ac57c708370a34b9554d95647ea3ad51390a41a12223888b9"
+    },
+    {
+      "path": "Resources/LanguageData/O-LanguageData_WIN.d03",
+      "size": 1072310990,
+      "sha256": "399370e595a09ed01419efbcf9de43e73b782efa42e658e2c83340f3827e2d9b"
+    },
+    {
+      "path": "Resources/LanguageData/O-LanguageData_WIN.d04",
+      "size": 1073715898,
+      "sha256": "13abdbe3fa9c7914942ee770c4d129dd81fe383b6f89dd3cbfeca0857da0f8e4"
+    },
+    {
+      "path": "Resources/LanguageData/O-LanguageData_WIN.d05",
+      "size": 1073719697,
+      "sha256": "8103f97816068e2ad5098999480d7fd2b46c96941684e0833cab781dfc50eacf"
+    },
+    {
+      "path": "Resources/LanguageData/O-LanguageData_WIN.d06",
+      "size": 1072085790,
+      "sha256": "b54eb016f5d3205370ef4cc50ee98f0e24ae5ef4749ea24fe7226bc74d4d5aac"
+    },
+    {
+      "path": "Resources/LanguageData/O-LanguageData_WIN.d07",
+      "size": 1073707490,
+      "sha256": "f0bd84290fdf9c8a5193c1d4dbd565691a514f59b211609159434724e5299a2e"
+    },
+    {
+      "path": "Resources/LanguageData/O-LanguageData_WIN.d08",
+      "size": 252962957,
+      "sha256": "956d95831738c8ee14eca7ec2fc655511afdfe9c364b81240b229cdfcf2d22f3"
+    },
+    {
+      "path": "Resources/LanguageData/O-LanguageData_WIN.dat",
+      "size": 1073443280,
+      "sha256": "194d25fa17b04ea09b89a73f0d4dcc4dc473cb470ebe16a30b62e93041a30b7d"
+    },
+    {
+      "path": "Resources/LanguageData/O-LanguageData_WIN.dbg",
+      "size": 3063801,
+      "sha256": "d66619d2ddccac22cf588380523f7830acd17eb59b5c640210258076f066ec63"
+    },
+    {
+      "path": "Resources/LanguageData/O-LanguageData_WIN.dep",
+      "size": 609132,
+      "sha256": "788c0f89b3f1124af58429f29d9b08d6c4157fce3024319806b62e61e91bf3eb"
+    },
+    {
+      "path": "Resources/LanguageData/O-LanguageData_WIN.idm",
+      "size": 762448,
+      "sha256": "2227c68c166f6b5721d5182d98d80f81649b01f22d8050dd56aa6d99cf985a99"
+    },
+    {
+      "path": "Resources/LanguageData/O-LanguageData_WIN.idx",
+      "size": 1066036,
+      "sha256": "f066b7cdb34efa4e51199fdfb830755c2e70823639a4ece30b7cd65ffc803fbf"
+    },
+    {
+      "path": "Resources/LanguageData/O-LanguageData_WIN.pdbg",
+      "size": 24,
+      "sha256": "0815b29ff1d88c69f08a4db0026e9e169b052957c442b5cde92e8354232d3265"
+    },
+    {
+      "path": "steam_api64.bak",
+      "size": 290768,
+      "sha256": "728d0d3a8df8e5bea3a5fe5bdbe826f2a3f9fb6a397bc8a3ac716c3e2ce9c944"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 2718720,
+      "sha256": "c8cb1cde9c0322e4bc75dad37ed3091dc19347833cde3d51bbfca470d5b065cf"
+    },
+    {
+      "path": "steam_settings/controller/GamepadSetting.txt",
+      "size": 352,
+      "sha256": "75b071a35dff53646aaee00b49602b3095649db6278b6dd76c65f8565df3ee09"
+    },
+    {
+      "path": "steam_settings/controller/GamepadSetting_old.txt",
+      "size": 340,
+      "sha256": "13a3ca44b1b77e19a391d2228c37ca4d9ff65ec7ee0ce73f3365a6bcaf6cbae7"
+    },
+    {
+      "path": "steam_settings/disable_networking.txt",
+      "size": 79,
+      "sha256": "f7fd6426bd798fad5dfd616ea43a01eaa45b223078794c5c98a230c7ec095945"
+    },
+    {
+      "path": "steam_settings/disable_overlay.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "steam_settings/steam_appid.txt",
+      "size": 6,
+      "sha256": "1318495976f02da1e4c7da78df6627aaedb640d4fb58d634177b09753937cafe"
+    },
+    {
+      "path": "user_setting.ini",
+      "size": 55,
+      "sha256": "eaf9bf245c5d60e3e93a57f922f072838e8d9343e1a40d7abdd071d8400313b3"
+    },
+    {
+      "path": "vcruntime140.dll",
+      "size": 85232,
+      "sha256": "6cadb4fef773c23b511acc8b715a084815c6e41dd8c694bc70090a97b3b03fb9"
+    },
+    {
+      "path": "Videos/HR_0301_MALL_INTRO.BIK",
+      "size": 125589564,
+      "sha256": "70e54b47f863c12b67227a303809ebd8bfea72b7bbd57b188f9623f5be87a707"
+    },
+    {
+      "path": "Videos/HR_0301_MALL_OUTRO.BIK",
+      "size": 95655592,
+      "sha256": "36bcad3c5f0ad4404a5f815d127ecc16f5aea33cddc33a4489dbca3ba80c89de"
+    },
+    {
+      "path": "Videos/HR_0901_UNDERWATER.BIK",
+      "size": 4571468,
+      "sha256": "c5c15e96edf457aa09bdc078ca39ad12b3d3d9e0195a1da5df15591dcee3a102"
+    },
+    {
+      "path": "Videos/HR_1501_LEXINGTON_INTRO.BIK",
+      "size": 57078960,
+      "sha256": "a172e87f55153a8862a2f31a17852782330bfd05f9b98bf461d92a244887a65a"
+    },
+    {
+      "path": "Videos/HR_1601_ETHANMOTEL_INTRO.BIK",
+      "size": 43606272,
+      "sha256": "667371557debba9d6f39e65f00ed3b63805027ad34074b74c24723fa814934ee"
+    },
+    {
+      "path": "Videos/HR_1901_GARAGE_OUTRO.BIK",
+      "size": 32234656,
+      "sha256": "d5d15529c4b12ca21cfdffe8d0d7aa06afbb71be5f3c39d7c12d99ae7656f687"
+    },
+    {
+      "path": "Videos/HR_2301_KRAMER_INTRO.BIK",
+      "size": 31727480,
+      "sha256": "c51f00a5a92e8cf35f153095ca69c4ddc9cfd8f6a1f198ea34cd4d4bd6b8d9a3"
+    },
+    {
+      "path": "Videos/HR_2601_POLICE_KORDA.BIK",
+      "size": 108044864,
+      "sha256": "c8dab8403061846f5d95618dc653ee10e3afbbfe6b93060c674c018c75017a9c"
+    },
+    {
+      "path": "Videos/HR_2601_POLICE_NEWS.BIK",
+      "size": 121090828,
+      "sha256": "d1760bfdcf7c42f6490a5f2642a514ea24c659a007dc72a64057b4f44e02ec10"
+    },
+    {
+      "path": "Videos/HR_2601_POLICE_WOKORDA.BIK",
+      "size": 70495868,
+      "sha256": "c2d7ecad6f54f11f0408c1f0d17a5b3e1116226c2bbe4f2f8184567faf6f1d99"
+    },
+    {
+      "path": "Videos/HR_3401_ARRESTED_FULL.BIK",
+      "size": 229617728,
+      "sha256": "86aad350f0aae23bbfa7ea08332ffd99be4560d71f111f3bef63be0638d90fc2"
+    },
+    {
+      "path": "Videos/HR_4801_JAYDEN_WATCH.BIK",
+      "size": 32858232,
+      "sha256": "33af2e48a437239c1ebabef642d0e939be19f7f1f1a00425f3f819bd3d3fb458"
+    },
+    {
+      "path": "Videos/HR_4901_GOODBYE_FULL.bik",
+      "size": 135931144,
+      "sha256": "7784a4dc1a2799188ec0ae6353207d94581a2a69fad85f23cbe584e321724ddc"
+    },
+    {
+      "path": "Videos/HR_4903_LAUREN_LETTER.BIK",
+      "size": 22599704,
+      "sha256": "05d5253755049039c884683e4b53094e3ca55ccbddee2ab30a65f5b7371dadfb"
+    },
+    {
+      "path": "Videos/HR_4903_SHELBY_HASSAN_ALIVE.BIK",
+      "size": 16091132,
+      "sha256": "06c84b8f253c42fc4c36127cc54ecc827d8d71f839ed1a781fda6bc055a43afa"
+    },
+    {
+      "path": "Videos/HR_4903_SHELBY_HOSPITAL.BIK",
+      "size": 23318208,
+      "sha256": "b4f4cd3bd48a52b0b55ac6fbbdd5c153184f3d782f406ac2de993f232b8a911e"
+    },
+    {
+      "path": "Videos/HR_4903_SHELBY_MANFRED.BIK",
+      "size": 51257668,
+      "sha256": "b3d91301b783f06c06edeb1b0f046ba5cd3b0ab25a4b03a5d58e502e92c5c3c6"
+    },
+    {
+      "path": "Videos/HR_4903_SHELBY_PACO.BIK",
+      "size": 34444548,
+      "sha256": "e0060ca201d1ecd4d701e35979b47c7d197561ba12e090e16e20564cd0db38c5"
+    },
+    {
+      "path": "Videos/HR_4903_SUSAN_PHONE.BIK",
+      "size": 27456528,
+      "sha256": "00a36e66618a2ea041ddbd8771c0f9f2336a82558b1a08e94bd953658456578e"
+    },
+    {
+      "path": "Videos/HR_5201_SHELBY_MALL.BIK",
+      "size": 23765336,
+      "sha256": "b56e08a6885f343b95539d4fd040d54a36ea4b238aad759a5c9aa9c39a6e0688"
+    },
+    {
+      "path": "Videos/HR_BONUS_FINAL_TRAILER.BIK",
+      "size": 18777632,
+      "sha256": "c9b981d2ee20ab47055b8fe393e7710faf41135c3b2fce7b1741cb77712fb285"
+    },
+    {
+      "path": "Videos/HR_BONUS_MUSIC.bik",
+      "size": 162477488,
+      "sha256": "71d12bd429e9e258db15aa6fb11202eaf474b8f99b471eae31d0a39830ea24b3"
+    },
+    {
+      "path": "Videos/HR_BONUS_THE_CASTING.BIK",
+      "size": 569997100,
+      "sha256": "b9cfa0dc2bb7726b54a6c26a07cdf6566d35e245ef1cb5a5b23eeee394a199ca"
+    },
+    {
+      "path": "Videos/HR_CLOSING_CREDITS.BIK",
+      "size": 718049044,
+      "sha256": "6d4acafe508ceba2d539217dfc824b753a0fef8ce8a8c5d173306fd7a3d00576"
+    },
+    {
+      "path": "Videos/HR_LOGO_QD.BIK",
+      "size": 861900,
+      "sha256": "92a2a07067c86a02ba9fea65714d06e697fd4c7d94f28093c943d6484a2245a8"
+    },
+    {
+      "path": "Videos/HR_MAKING_OF_MOTION_CAPTURE_01.BIK",
+      "size": 301740588,
+      "sha256": "42ad89ef5118f0a86e7744967bce40583091f85373d3f921bcc3210178fa92f8"
+    },
+    {
+      "path": "Videos/HR_MAKING_OF_MUSICS_04.BIK",
+      "size": 536439144,
+      "sha256": "e14d9ee57440b09acd3a84be98007cff3765fc3d4c79b97abf60799fda80030b"
+    },
+    {
+      "path": "Videos/HR_MAKING_OF_THE_ACTORS_02.BIK",
+      "size": 562560808,
+      "sha256": "98aea5bdeebe540d6b8c54aca2b5efb73060064b7e2df279e863ccfe13cde744"
+    },
+    {
+      "path": "Videos/HR_OPENING_CREDITS.BIK",
+      "size": 308879260,
+      "sha256": "9ca39d8924e1297f31f1074fba1904667bb14092aa536e90451d72bd27c3e82f"
+    },
+    {
+      "path": "Videos/HR_SCREEN_QD.BIK",
+      "size": 13538292,
+      "sha256": "87bba1712cb561dbc4654b6d438a39eec03e640a5e9c032acc47244dd4086a0b"
+    },
+    {
+      "path": "Videos/HR_SCREEN_US.BIK",
+      "size": 22828616,
+      "sha256": "3ad6a0c193a100ca01602614f934e34b8ed265a0b1e326793ba71631497e292a"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "bink2w64.dll",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 380928
+        },
+        {
+          "file": "gpudetect.ini",
+          "file_offset": 0,
+          "chunk_offset": 49600704,
+          "length": 1367
+        },
+        {
+          "file": "HeavyRain.bak",
+          "file_offset": 0,
+          "chunk_offset": 49602071,
+          "length": 26233040
+        },
+        {
+          "file": "HeavyRain.exe",
+          "file_offset": 0,
+          "chunk_offset": 75835111,
+          "length": 26027520
+        },
+        {
+          "file": "libexpat.dll",
+          "file_offset": 0,
+          "chunk_offset": 101862631,
+          "length": 1304576
+        },
+        {
+          "file": "Misc/SplashScreens/boot.dds",
+          "file_offset": 0,
+          "chunk_offset": 103167207,
+          "length": 460928
+        },
+        {
+          "file": "msvcp140.dll",
+          "file_offset": 0,
+          "chunk_offset": 103628135,
+          "length": 627440
+        },
+        {
+          "file": "Resources/BigFile_WIN.d01",
+          "file_offset": 0,
+          "chunk_offset": 104255575,
+          "length": 821430368
+        }
+      ],
+      "sha256": "c9858a457aa741a1ae8722710fbb62a5afc8456477b7233e0fb09aa7878cb5ea"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/BigFile_WIN.d01",
+          "file_offset": 821430368,
+          "chunk_offset": 0,
+          "length": 236742570
+        },
+        {
+          "file": "Resources/BigFile_WIN.d02",
+          "file_offset": 0,
+          "chunk_offset": 236742570,
+          "length": 688943373
+        }
+      ],
+      "sha256": "179ba6e7d1da95fdede38471e8b6d824e48cbd0a13e69eb8f083d033c8bdd95c"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/BigFile_WIN.d02",
+          "file_offset": 688943373,
+          "chunk_offset": 0,
+          "length": 378052264
+        },
+        {
+          "file": "Resources/BigFile_WIN.d03",
+          "file_offset": 0,
+          "chunk_offset": 378052264,
+          "length": 547633679
+        }
+      ],
+      "sha256": "8f79ed6d85036f78956a01cf4568c6bd81d53570e787f8c45e65295265b6a001"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/BigFile_WIN.d03",
+          "file_offset": 547633679,
+          "chunk_offset": 0,
+          "length": 489323991
+        },
+        {
+          "file": "Resources/BigFile_WIN.d04",
+          "file_offset": 0,
+          "chunk_offset": 489323991,
+          "length": 436361952
+        }
+      ],
+      "sha256": "5259b22338fe3e99087e691490ba8d36ff14df237ab42ab951a6615eb98c2870"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/BigFile_WIN.d04",
+          "file_offset": 436361952,
+          "chunk_offset": 0,
+          "length": 608247523
+        },
+        {
+          "file": "Resources/BigFile_WIN.d05",
+          "file_offset": 0,
+          "chunk_offset": 608247523,
+          "length": 220962917
+        },
+        {
+          "file": "Resources/BigFile_WIN.dat",
+          "file_offset": 0,
+          "chunk_offset": 829210440,
+          "length": 96475503
+        }
+      ],
+      "sha256": "2b84e5dfaa0cc3b13ce44226c509d9160c3903aab8560e1c7299560e10a3e0f6"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/BigFile_WIN.dat",
+          "file_offset": 96475503,
+          "chunk_offset": 0,
+          "length": 871540444
+        },
+        {
+          "file": "Resources/BigFile_WIN.dbg",
+          "file_offset": 0,
+          "chunk_offset": 871540444,
+          "length": 406492
+        },
+        {
+          "file": "Resources/BigFile_WIN.dep",
+          "file_offset": 0,
+          "chunk_offset": 871946936,
+          "length": 3432860
+        },
+        {
+          "file": "Resources/BigFile_WIN.idm",
+          "file_offset": 0,
+          "chunk_offset": 875379796,
+          "length": 117224
+        },
+        {
+          "file": "Resources/BigFile_WIN.idx",
+          "file_offset": 0,
+          "chunk_offset": 875497020,
+          "length": 146768
+        },
+        {
+          "file": "Resources/BigFile_WIN.pdbg",
+          "file_offset": 0,
+          "chunk_offset": 875643788,
+          "length": 15922997
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.d01",
+          "file_offset": 0,
+          "chunk_offset": 891566785,
+          "length": 34119158
+        }
+      ],
+      "sha256": "7690a77e32dad3393111b688d2a19547409a40f9059c043766b0be17f88742cd"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d01",
+          "file_offset": 34119158,
+          "chunk_offset": 0,
+          "length": 925685943
+        }
+      ],
+      "sha256": "3c4a2f66b652343c8c898f8751f0146bdf7394503be710fe9a0a629e9de04f24"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d01",
+          "file_offset": 959805101,
+          "chunk_offset": 0,
+          "length": 47871225
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.d02",
+          "file_offset": 0,
+          "chunk_offset": 47871225,
+          "length": 877814718
+        }
+      ],
+      "sha256": "26c455754d2e56e716a71ca1e5f1be6df1fa42c554de9f51a3e84a8b9d920cc7"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d02",
+          "file_offset": 877814718,
+          "chunk_offset": 0,
+          "length": 194996432
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.d03",
+          "file_offset": 0,
+          "chunk_offset": 194996432,
+          "length": 730689511
+        }
+      ],
+      "sha256": "38117e93d3382bd333227d45374b5dcac9d014b152ae7c28e66022628e67945d"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d03",
+          "file_offset": 730689511,
+          "chunk_offset": 0,
+          "length": 343052414
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.d04",
+          "file_offset": 0,
+          "chunk_offset": 343052414,
+          "length": 582633529
+        }
+      ],
+      "sha256": "3c393aa75d2bfefaf59a703b7e67036460550212ade5c2c558bfe32ec0c3cc72"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d04",
+          "file_offset": 582633529,
+          "chunk_offset": 0,
+          "length": 482438006
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.d05",
+          "file_offset": 0,
+          "chunk_offset": 482438006,
+          "length": 443247937
+        }
+      ],
+      "sha256": "64900645de3b3cec2c009eebe9ad4b30c0934fe6fd50f3a32bdc81e1f0c65729"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d05",
+          "file_offset": 443247937,
+          "chunk_offset": 0,
+          "length": 624191275
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.d06",
+          "file_offset": 0,
+          "chunk_offset": 624191275,
+          "length": 301494668
+        }
+      ],
+      "sha256": "503301f9758b4e81182d12874853c60837ad7de1e58a6a86dcc7c43d38016510"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d06",
+          "file_offset": 301494668,
+          "chunk_offset": 0,
+          "length": 765696422
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.d07",
+          "file_offset": 0,
+          "chunk_offset": 765696422,
+          "length": 159989521
+        }
+      ],
+      "sha256": "615c46ace8cfffd7dbf9e7736b4b4a0671b81991e7f32750e7c52d958b41fa1f"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d07",
+          "file_offset": 159989521,
+          "chunk_offset": 0,
+          "length": 890617032
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.d08",
+          "file_offset": 0,
+          "chunk_offset": 890617032,
+          "length": 35068911
+        }
+      ],
+      "sha256": "f2c97ccabf96bfa1a5deb501dbdaad581809350bd73a48cf39a1d4604eadfb84"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d08",
+          "file_offset": 35068911,
+          "chunk_offset": 0,
+          "length": 925685943
+        }
+      ],
+      "sha256": "a4f594d5d0c96b8c4f3a9f2380cc76c497bf43db186d6b266ab148011cdbca40"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d08",
+          "file_offset": 960754854,
+          "chunk_offset": 0,
+          "length": 112105818
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.d09",
+          "file_offset": 0,
+          "chunk_offset": 112105818,
+          "length": 813580125
+        }
+      ],
+      "sha256": "60705df41536103db89205d217cf54e9b0885b8ba462b6c9a6feddcbf3d0c211"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d09",
+          "file_offset": 813580125,
+          "chunk_offset": 0,
+          "length": 260059400
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.d10",
+          "file_offset": 0,
+          "chunk_offset": 260059400,
+          "length": 665626543
+        }
+      ],
+      "sha256": "1b2fd75da1cb050f6eb0d199d61a2711f745941004f86956c8d8680266ddd07b"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d10",
+          "file_offset": 665626543,
+          "chunk_offset": 0,
+          "length": 407575730
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.d11",
+          "file_offset": 0,
+          "chunk_offset": 407575730,
+          "length": 518110213
+        }
+      ],
+      "sha256": "b6abaee407964129cca80131aa33a889ba38d16920012a8402fb6bbbc227a7c7"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d11",
+          "file_offset": 518110213,
+          "chunk_offset": 0,
+          "length": 551367009
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.d12",
+          "file_offset": 0,
+          "chunk_offset": 551367009,
+          "length": 374318934
+        }
+      ],
+      "sha256": "31d6e9f43548a7ba16a1a5d9b0f422ea625be201af06f4da4c39a27c21bd2429"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d12",
+          "file_offset": 374318934,
+          "chunk_offset": 0,
+          "length": 699317554
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.d13",
+          "file_offset": 0,
+          "chunk_offset": 699317554,
+          "length": 226368389
+        }
+      ],
+      "sha256": "967207e87c70067b5cfb27896c79f7d9b5f2926070d1799f2156d00d5bbe2aeb"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d13",
+          "file_offset": 226368389,
+          "chunk_offset": 0,
+          "length": 844772459
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.d14",
+          "file_offset": 0,
+          "chunk_offset": 844772459,
+          "length": 80913484
+        }
+      ],
+      "sha256": "e3124d90b5d26b4f6491d2d3f05f63f2373fb1dd0f3245b97ed96737981d5409"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.d14",
+          "file_offset": 80913484,
+          "chunk_offset": 0,
+          "length": 867679257
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.dat",
+          "file_offset": 0,
+          "chunk_offset": 867679257,
+          "length": 58006686
+        }
+      ],
+      "sha256": "e478c4d2bc175ef4a5047ec07fbc75181d3f988749a1bd0d74a5d7e93ddd230e"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.dat",
+          "file_offset": 58006686,
+          "chunk_offset": 0,
+          "length": 910009261
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.dbg",
+          "file_offset": 0,
+          "chunk_offset": 910009261,
+          "length": 1509578
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.dep",
+          "file_offset": 0,
+          "chunk_offset": 911518839,
+          "length": 12209148
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.idm",
+          "file_offset": 0,
+          "chunk_offset": 923727987,
+          "length": 382160
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.idx",
+          "file_offset": 0,
+          "chunk_offset": 924110147,
+          "length": 516228
+        },
+        {
+          "file": "Resources/GameData/GameData_WIN.pdbg",
+          "file_offset": 0,
+          "chunk_offset": 924626375,
+          "length": 1059568
+        }
+      ],
+      "sha256": "240408bfab141084af5018f4a27718b6dd00fedcb4ba2519b92107ea757ec71d"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/GameData/GameData_WIN.pdbg",
+          "file_offset": 1059568,
+          "chunk_offset": 0,
+          "length": 56856117
+        },
+        {
+          "file": "Resources/LanguageData/LanguageData_WIN.d01",
+          "file_offset": 0,
+          "chunk_offset": 56856117,
+          "length": 868829826
+        }
+      ],
+      "sha256": "7ad5b3f7cc2f6a3b84314c3dc478eec57b38edf25f351a2235df31e348faddc2"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/LanguageData/LanguageData_WIN.d01",
+          "file_offset": 868829826,
+          "chunk_offset": 0,
+          "length": 204896016
+        },
+        {
+          "file": "Resources/LanguageData/LanguageData_WIN.d02",
+          "file_offset": 0,
+          "chunk_offset": 204896016,
+          "length": 180181133
+        },
+        {
+          "file": "Resources/LanguageData/LanguageData_WIN.dat",
+          "file_offset": 0,
+          "chunk_offset": 385077149,
+          "length": 540608794
+        }
+      ],
+      "sha256": "0988b0e51b4946645562c0cdca6cba248abc21f6d45a52d767f31ca770e8949f"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/LanguageData/LanguageData_WIN.dat",
+          "file_offset": 540608794,
+          "chunk_offset": 0,
+          "length": 532603074
+        },
+        {
+          "file": "Resources/LanguageData/LanguageData_WIN.dbg",
+          "file_offset": 0,
+          "chunk_offset": 532603074,
+          "length": 752519
+        },
+        {
+          "file": "Resources/LanguageData/LanguageData_WIN.dep",
+          "file_offset": 0,
+          "chunk_offset": 533355593,
+          "length": 150924
+        },
+        {
+          "file": "Resources/LanguageData/LanguageData_WIN.idm",
+          "file_offset": 0,
+          "chunk_offset": 533506517,
+          "length": 189688
+        },
+        {
+          "file": "Resources/LanguageData/LanguageData_WIN.idx",
+          "file_offset": 0,
+          "chunk_offset": 533696205,
+          "length": 264172
+        },
+        {
+          "file": "Resources/LanguageData/LanguageData_WIN.pdbg",
+          "file_offset": 0,
+          "chunk_offset": 533960377,
+          "length": 24
+        },
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d01",
+          "file_offset": 0,
+          "chunk_offset": 533960401,
+          "length": 391725542
+        }
+      ],
+      "sha256": "fc6be1b6fbe4d1e294a2981ec22ddd15c48b8abfc392e0c4feabd0b627ebea1d"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d01",
+          "file_offset": 391725542,
+          "chunk_offset": 0,
+          "length": 681820190
+        },
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d02",
+          "file_offset": 0,
+          "chunk_offset": 681820190,
+          "length": 243865753
+        }
+      ],
+      "sha256": "1c88641328f539948b28a541c9c03a43a3b9bb2619cf19ab151b00be0601de98"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d02",
+          "file_offset": 243865753,
+          "chunk_offset": 0,
+          "length": 829788483
+        },
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d03",
+          "file_offset": 0,
+          "chunk_offset": 829788483,
+          "length": 95897460
+        }
+      ],
+      "sha256": "f33ab6289432cb73e2b57c9048c90aab6d8334de9a65e46a425c786cb227cd2e"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d03",
+          "file_offset": 95897460,
+          "chunk_offset": 0,
+          "length": 925685943
+        }
+      ],
+      "sha256": "c76c56776548ff3a846ad45f756a784c25c87961ec2814ea1db38ea942c8c012"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d03",
+          "file_offset": 1021583403,
+          "chunk_offset": 0,
+          "length": 50727587
+        },
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d04",
+          "file_offset": 0,
+          "chunk_offset": 50727587,
+          "length": 874958356
+        }
+      ],
+      "sha256": "98f3e0d1be4a932dd6d992fc62735b7b01786eca22aad0de958ca13b0966aa74"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d04",
+          "file_offset": 874958356,
+          "chunk_offset": 0,
+          "length": 198757542
+        },
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d05",
+          "file_offset": 0,
+          "chunk_offset": 198757542,
+          "length": 726928401
+        }
+      ],
+      "sha256": "9eadb694c83f06a2a706533fb536ccc101e32cdc15732b2b11ead320b7f74657"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d05",
+          "file_offset": 726928401,
+          "chunk_offset": 0,
+          "length": 346791296
+        },
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d06",
+          "file_offset": 0,
+          "chunk_offset": 346791296,
+          "length": 578894647
+        }
+      ],
+      "sha256": "9f31043925bfa00dfc435a878308ba12bb0c7f12b646a4b5590f315ce114ba9a"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d06",
+          "file_offset": 578894647,
+          "chunk_offset": 0,
+          "length": 493191143
+        },
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d07",
+          "file_offset": 0,
+          "chunk_offset": 493191143,
+          "length": 432494800
+        }
+      ],
+      "sha256": "4440e8c93af07265e0798c1032a829e8a558f35d791e1cb71c3e08e09c20f07c"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d07",
+          "file_offset": 432494800,
+          "chunk_offset": 0,
+          "length": 641212690
+        },
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.d08",
+          "file_offset": 0,
+          "chunk_offset": 641212690,
+          "length": 252962957
+        },
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.dat",
+          "file_offset": 0,
+          "chunk_offset": 894175647,
+          "length": 31510296
+        }
+      ],
+      "sha256": "9d41dc502f2b20ee4e241e46494405d154528eb2158ca898399e7db939b49c5b"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.dat",
+          "file_offset": 31510296,
+          "chunk_offset": 0,
+          "length": 925685943
+        }
+      ],
+      "sha256": "af62326671126188fd2dc246828cb181133273d232e7bf6d39fb89e9e6591024"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.dat",
+          "file_offset": 957196239,
+          "chunk_offset": 0,
+          "length": 116247041
+        },
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.dbg",
+          "file_offset": 0,
+          "chunk_offset": 116247041,
+          "length": 3063801
+        },
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.dep",
+          "file_offset": 0,
+          "chunk_offset": 119310842,
+          "length": 609132
+        },
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.idm",
+          "file_offset": 0,
+          "chunk_offset": 119919974,
+          "length": 762448
+        },
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.idx",
+          "file_offset": 0,
+          "chunk_offset": 120682422,
+          "length": 1066036
+        },
+        {
+          "file": "Resources/LanguageData/O-LanguageData_WIN.pdbg",
+          "file_offset": 0,
+          "chunk_offset": 121748458,
+          "length": 24
+        },
+        {
+          "file": "steam_api64.bak",
+          "file_offset": 0,
+          "chunk_offset": 121748482,
+          "length": 290768
+        },
+        {
+          "file": "steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 122039250,
+          "length": 2718720
+        },
+        {
+          "file": "steam_settings/controller/GamepadSetting.txt",
+          "file_offset": 0,
+          "chunk_offset": 124757970,
+          "length": 352
+        },
+        {
+          "file": "steam_settings/controller/GamepadSetting_old.txt",
+          "file_offset": 0,
+          "chunk_offset": 124758322,
+          "length": 340
+        },
+        {
+          "file": "steam_settings/disable_networking.txt",
+          "file_offset": 0,
+          "chunk_offset": 124758662,
+          "length": 79
+        },
+        {
+          "file": "steam_settings/steam_appid.txt",
+          "file_offset": 0,
+          "chunk_offset": 124758741,
+          "length": 6
+        },
+        {
+          "file": "user_setting.ini",
+          "file_offset": 0,
+          "chunk_offset": 124758747,
+          "length": 55
+        },
+        {
+          "file": "vcruntime140.dll",
+          "file_offset": 0,
+          "chunk_offset": 124758802,
+          "length": 85232
+        },
+        {
+          "file": "Videos/HR_0301_MALL_INTRO.BIK",
+          "file_offset": 0,
+          "chunk_offset": 124844034,
+          "length": 125589564
+        },
+        {
+          "file": "Videos/HR_0301_MALL_OUTRO.BIK",
+          "file_offset": 0,
+          "chunk_offset": 250433598,
+          "length": 95655592
+        },
+        {
+          "file": "Videos/HR_0901_UNDERWATER.BIK",
+          "file_offset": 0,
+          "chunk_offset": 346089190,
+          "length": 4571468
+        },
+        {
+          "file": "Videos/HR_1501_LEXINGTON_INTRO.BIK",
+          "file_offset": 0,
+          "chunk_offset": 350660658,
+          "length": 57078960
+        },
+        {
+          "file": "Videos/HR_1601_ETHANMOTEL_INTRO.BIK",
+          "file_offset": 0,
+          "chunk_offset": 407739618,
+          "length": 43606272
+        },
+        {
+          "file": "Videos/HR_1901_GARAGE_OUTRO.BIK",
+          "file_offset": 0,
+          "chunk_offset": 451345890,
+          "length": 32234656
+        },
+        {
+          "file": "Videos/HR_2301_KRAMER_INTRO.BIK",
+          "file_offset": 0,
+          "chunk_offset": 483580546,
+          "length": 31727480
+        },
+        {
+          "file": "Videos/HR_2601_POLICE_KORDA.BIK",
+          "file_offset": 0,
+          "chunk_offset": 515308026,
+          "length": 108044864
+        },
+        {
+          "file": "Videos/HR_2601_POLICE_NEWS.BIK",
+          "file_offset": 0,
+          "chunk_offset": 623352890,
+          "length": 121090828
+        },
+        {
+          "file": "Videos/HR_2601_POLICE_WOKORDA.BIK",
+          "file_offset": 0,
+          "chunk_offset": 744443718,
+          "length": 70495868
+        },
+        {
+          "file": "Videos/HR_3401_ARRESTED_FULL.BIK",
+          "file_offset": 0,
+          "chunk_offset": 814939586,
+          "length": 110746357
+        }
+      ],
+      "sha256": "0a881daf9b2d8b0cad5dc65436590bb994dbbe4808e2265b6e36008097005d3f"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Videos/HR_3401_ARRESTED_FULL.BIK",
+          "file_offset": 110746357,
+          "chunk_offset": 0,
+          "length": 118871371
+        },
+        {
+          "file": "Videos/HR_4801_JAYDEN_WATCH.BIK",
+          "file_offset": 0,
+          "chunk_offset": 118871371,
+          "length": 32858232
+        },
+        {
+          "file": "Videos/HR_4901_GOODBYE_FULL.bik",
+          "file_offset": 0,
+          "chunk_offset": 151729603,
+          "length": 135931144
+        },
+        {
+          "file": "Videos/HR_4903_LAUREN_LETTER.BIK",
+          "file_offset": 0,
+          "chunk_offset": 287660747,
+          "length": 22599704
+        },
+        {
+          "file": "Videos/HR_4903_SHELBY_HASSAN_ALIVE.BIK",
+          "file_offset": 0,
+          "chunk_offset": 310260451,
+          "length": 16091132
+        },
+        {
+          "file": "Videos/HR_4903_SHELBY_HOSPITAL.BIK",
+          "file_offset": 0,
+          "chunk_offset": 326351583,
+          "length": 23318208
+        },
+        {
+          "file": "Videos/HR_4903_SHELBY_MANFRED.BIK",
+          "file_offset": 0,
+          "chunk_offset": 349669791,
+          "length": 51257668
+        },
+        {
+          "file": "Videos/HR_4903_SHELBY_PACO.BIK",
+          "file_offset": 0,
+          "chunk_offset": 400927459,
+          "length": 34444548
+        },
+        {
+          "file": "Videos/HR_4903_SUSAN_PHONE.BIK",
+          "file_offset": 0,
+          "chunk_offset": 435372007,
+          "length": 27456528
+        },
+        {
+          "file": "Videos/HR_5201_SHELBY_MALL.BIK",
+          "file_offset": 0,
+          "chunk_offset": 462828535,
+          "length": 23765336
+        },
+        {
+          "file": "Videos/HR_BONUS_FINAL_TRAILER.BIK",
+          "file_offset": 0,
+          "chunk_offset": 486593871,
+          "length": 18777632
+        },
+        {
+          "file": "Videos/HR_BONUS_MUSIC.bik",
+          "file_offset": 0,
+          "chunk_offset": 505371503,
+          "length": 162477488
+        },
+        {
+          "file": "Videos/HR_BONUS_THE_CASTING.BIK",
+          "file_offset": 0,
+          "chunk_offset": 667848991,
+          "length": 257836952
+        }
+      ],
+      "sha256": "4ab1356e423d2194045b3e96ce7c3f36d793c8ff4518dbc8f3117fe560b51316"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Videos/HR_BONUS_THE_CASTING.BIK",
+          "file_offset": 257836952,
+          "chunk_offset": 0,
+          "length": 312160148
+        },
+        {
+          "file": "Videos/HR_CLOSING_CREDITS.BIK",
+          "file_offset": 0,
+          "chunk_offset": 312160148,
+          "length": 613525795
+        }
+      ],
+      "sha256": "a703b515764d69a703ee51ad5fd9dcfaf86714ba445a07654d74ee481459a520"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 925685943,
+      "segments": [
+        {
+          "file": "Videos/HR_CLOSING_CREDITS.BIK",
+          "file_offset": 613525795,
+          "chunk_offset": 0,
+          "length": 104523249
+        },
+        {
+          "file": "Videos/HR_LOGO_QD.BIK",
+          "file_offset": 0,
+          "chunk_offset": 104523249,
+          "length": 861900
+        },
+        {
+          "file": "Videos/HR_MAKING_OF_MOTION_CAPTURE_01.BIK",
+          "file_offset": 0,
+          "chunk_offset": 105385149,
+          "length": 301740588
+        },
+        {
+          "file": "Videos/HR_MAKING_OF_MUSICS_04.BIK",
+          "file_offset": 0,
+          "chunk_offset": 407125737,
+          "length": 518560206
+        }
+      ],
+      "sha256": "673a873bec7d22a6260635e4ab9b68d5488cdcc19428e0ea1fbc906f3ebd6f75"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 925685914,
+      "segments": [
+        {
+          "file": "Videos/HR_MAKING_OF_MUSICS_04.BIK",
+          "file_offset": 518560206,
+          "chunk_offset": 0,
+          "length": 17878938
+        },
+        {
+          "file": "Videos/HR_MAKING_OF_THE_ACTORS_02.BIK",
+          "file_offset": 0,
+          "chunk_offset": 17878938,
+          "length": 562560808
+        },
+        {
+          "file": "Videos/HR_OPENING_CREDITS.BIK",
+          "file_offset": 0,
+          "chunk_offset": 580439746,
+          "length": 308879260
+        },
+        {
+          "file": "Videos/HR_SCREEN_QD.BIK",
+          "file_offset": 0,
+          "chunk_offset": 889319006,
+          "length": 13538292
+        },
+        {
+          "file": "Videos/HR_SCREEN_US.BIK",
+          "file_offset": 0,
+          "chunk_offset": 902857298,
+          "length": 22828616
+        }
+      ],
+      "sha256": "b05141133c2129d2ce8ca98950f3e3b4ee8aa3958295dc32f14563458b0fdf34"
+    }
+  ]
+}
