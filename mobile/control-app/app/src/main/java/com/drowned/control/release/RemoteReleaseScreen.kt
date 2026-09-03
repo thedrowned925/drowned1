@@ -388,7 +388,7 @@ fun RemoteReleaseScreen(onBack: () -> Unit) {
 }
 
 @Composable
-private fun RemoteSection(title: String, content: @Composable Column.() -> Unit) {
+private fun RemoteSection(title: String, content: @Composable () -> Unit) {
     Card(colors = CardDefaults.cardColors(containerColor = RemoteCard), shape = RoundedCornerShape(16.dp)) {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(9.dp)) {
             Text(title, fontWeight = FontWeight.Bold)
