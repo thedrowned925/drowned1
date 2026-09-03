@@ -1,14 +1,14 @@
 {
-  "active": false,
-  "phase": "done",
+  "active": true,
+  "phase": "plan",
   "kind": "game",
-  "title": "It Takes Two",
+  "title": "Heavy Rain",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
-  "percent": 100,
+  "percent": 0,
   "total_sent": 0,
-  "total_size": 0,
+  "total_size": 37027437691,
   "message": "",
-  "updated_at": "2026-09-02T12:43:42.771508+00:00"
+  "updated_at": "2026-09-03T04:58:41.401303+00:00"
 }
