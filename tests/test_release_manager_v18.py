@@ -14,7 +14,7 @@ WORKFLOW = ROOT / ".github" / "workflows" / "build-windows.yml"
 class ReleaseManagerV18Tests(unittest.TestCase):
     def test_v18_installs_only_direct_fdm_handoff(self):
         source = APP.read_text(encoding="utf-8")
-        self.assertIn('APP_VERSION = "0.18.0"', source)
+        self.assertIn('APP_VERSION = "0.19.0"', source)
         self.assertIn("import app_v17 as previous", source)
         self.assertIn("fdm_submit_v4.install()", source)
 
