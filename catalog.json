@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-03T09:15:46.910359+00:00",
+  "updated_at": "2026-09-03T12:13:00.092832+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -3054,6 +3054,39 @@
       },
       "media": {
         "steam_app_id": 582160
+      }
+    },
+    {
+      "id": "resident-evil-7-biohazard",
+      "title": "Resident Evil 7 Biohazard",
+      "platform": "pc",
+      "description": "Fear and isolation seep through the walls of an abandoned southern farmhouse. \"7\" marks a new beginning for survival horror with the “Isolated View” of the visceral new first-person perspective.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/resident-evil-7-biohazard/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/resident-evil-7-biohazard/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/resident-evil-7-biohazard/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/resident-evil-7-biohazard/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/resident-evil-7-biohazard/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/resident-evil-7-biohazard/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/resident-evil-7-biohazard/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/resident-evil-7-biohazard/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/resident-evil-7-biohazard/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/resident-evil-7-biohazard/screenshots/05.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-resident-evil-7-biohazard-v1.0.0-stable",
+          "manifest_path": "manifests/pc/resident-evil-7-biohazard/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/resident-evil-7-biohazard/stable/1.0.0.json",
+          "size": 110746414353,
+          "published_at": "2026-09-03T12:13:00.092821+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 418370
       }
     }
   ]
