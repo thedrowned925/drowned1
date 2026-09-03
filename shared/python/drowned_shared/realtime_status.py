@@ -11,7 +11,10 @@ import requests
 
 SUPABASE_PROJECT_URL = "https://hfigrspqyxhscbkmporz.supabase.co"
 LIVE_UPDATE_URL = f"{SUPABASE_PROJECT_URL}/functions/v1/release-live-update"
-MIN_PUSH_INTERVAL_SECONDS = 1.0
+# Phase transitions / finish / errors use force=True and remain immediate. During
+# steady transfer we only need a few updates per second on the phone, so keep
+# ample headroom under the Supabase Free Edge Function invocation quota.
+MIN_PUSH_INTERVAL_SECONDS = 3.0
 
 
 @dataclass
