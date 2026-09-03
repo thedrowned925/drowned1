@@ -40,7 +40,12 @@ class Manager(previous.Manager):
         state = super()._remote_state()
         state.update(
             {
-                "extract_running": self._extract_running(),
+                # Android uses the existing Supabase Realtime row as the canonical
+                # activity source. Keeping this false prevents a one-shot command
+                # response from leaving the UI stuck on "extracting" after the
+                # worker finishes. The PC still checks _extract_running() before
+                # accepting another extraction/upload command.
+                "extract_running": False,
                 "extract_archive": self._remote_extract_archive,
                 "extract_target": self._remote_extract_target,
                 "extract_output": self._remote_extract_output,
