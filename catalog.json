@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-02T12:43:38.526327+00:00",
+  "updated_at": "2026-09-03T05:10:24.309263+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -2953,6 +2953,40 @@
       },
       "media": {
         "steam_app_id": 1426210
+      }
+    },
+    {
+      "id": "heavy-rain",
+      "title": "Heavy Rain",
+      "platform": "pc",
+      "description": "Experience a gripping psychological thriller filled with innumerable twists and turns. The hunt is on for a murderer known only as the Origami Killer. Four characters, each following their own leads, must take part in a desperate attempt to prevent the killer from claiming a new victim.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/heavy-rain/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/heavy-rain/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/heavy-rain/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/heavy-rain/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/heavy-rain/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/heavy-rain/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/heavy-rain/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/heavy-rain/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/heavy-rain/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/heavy-rain/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/heavy-rain/screenshots/06.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-heavy-rain-v1.0.0-stable",
+          "manifest_path": "manifests/pc/heavy-rain/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/heavy-rain/stable/1.0.0.json",
+          "size": 37027437691,
+          "published_at": "2026-09-03T05:10:24.309252+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 960910
       }
     }
   ]
