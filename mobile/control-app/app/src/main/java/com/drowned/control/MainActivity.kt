@@ -90,7 +90,7 @@ data class GameInfo(
     val artwork: Artwork,
     val channels: List<ChannelInfo>,
 ) {
-    val totalSize: Long get() = channels.sumOf { it.totalSize }
+    val totalSize: Long get() = channels.sumOf { it.size }
 }
 
 data class Catalog(
