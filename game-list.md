@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 91
-- **Toplam aktif sürüm/kanal:** 91
-- **Toplam aktif boyut:** 2373.924 GB · 2.374 TB
-- **Katalog güncelleme zamanı:** 2026-09-03 09:15:46 UTC
+- **Toplam oyun:** 92
+- **Toplam aktif sürüm/kanal:** 92
+- **Toplam aktif boyut:** 2484.671 GB · 2.485 TB
+- **Katalog güncelleme zamanı:** 2026-09-03 12:13:00 UTC
 
 ## PC
 
-**91 oyun · 91 aktif sürüm/kanal · 2373.924 GB · 2.374 TB**
+**92 oyun · 92 aktif sürüm/kanal · 2484.671 GB · 2.485 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -88,6 +88,7 @@
 | Red Dead Redemption | 1.0.0 | stable | 10.225 | 0.010 | `pc-red-dead-redemption-v1.0.0-stable` |
 | Red Dead Redemption 2 | 1.0.0 | stable | 128.093 | 0.128 | `pc-red-dead-redemption-2-v1.0.0-stable` |
 | Resident Evil 2 | 1.0.0 | stable | 25.845 | 0.026 | `pc-resident-evil-2-v1.0.0-stable` |
+| Resident Evil 7 Biohazard | 1.0.0 | stable | 110.746 | 0.111 | `pc-resident-evil-7-biohazard-v1.0.0-stable` |
 | Rise of the Tomb Raider™ | 1.0.0 | stable | 27.164 | 0.027 | `pc-rise-of-the-tomb-raider-v1.0.0-stable` |
 | Sekiro™: Shadows Die Twice - GOTY Edition | 1.0.0 | stable | 15.285 | 0.015 | `pc-sekiro-shadows-die-twice-goty-edition-v1.0.0-stable` |
 | Sid Meier's Civilization® V | 1.0.0 | stable | 10.531 | 0.011 | `pc-sid-meier-s-civilization-v-v1.0.0-stable` |
