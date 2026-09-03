@@ -29,9 +29,9 @@ private const val SUPABASE_URL = "https://hfigrspqyxhscbkmporz.supabase.co"
 // anon JWT is intentionally a public client key and keeps the old Realtime
 // channel authentication compatible. RLS still controls what the app can read.
 private const val SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhmaWdyc3BxeXhoc2Nia21wb3J6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgzOTY0NjIsImV4cCI6MjEwMzk3MjQ2Mn0.7esPHfTAIS19KKniUi6Klo1Fgoze2-y6jOOlhHlZaGg"
-private const val FALLBACK_CHECK_MS = 2_000L
-private const val REALTIME_STALE_MS = 8_000L
-private const val REALTIME_RETRY_MS = 3_000L
+private const val ACTIVE_SNAPSHOT_MS = 750L
+private const val IDLE_SNAPSHOT_MS = 2_500L
+private const val REALTIME_RETRY_MS = 2_000L
 private const val LIVE_ROW_URL =
     "$SUPABASE_URL/rest/v1/release_live_status?machine_id=eq.primary&limit=1"
 
@@ -58,13 +58,13 @@ private data class SupabaseLiveRow(
 )
 
 object RealtimeLiveStore {
-    private val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    private val ioScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    private val mainScope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
     private val _status = mutableStateOf<LiveUploadStatus?>(null)
     val status: State<LiveUploadStatus?> = _status
 
     @Volatile private var started = false
     @Volatile private var latestPublishedMillis = 0L
-    @Volatile private var latestReceiveMillis = 0L
 
     private val client by lazy {
         createSupabaseClient(SUPABASE_URL, SUPABASE_ANON_KEY) {
@@ -78,8 +78,9 @@ object RealtimeLiveStore {
         if (started) return
         started = true
 
-        // Primary path: low-latency Supabase Realtime stream.
-        scope.launch {
+        // Primary path: Supabase Realtime. It should normally deliver the row
+        // immediately after the PC updates it.
+        ioScope.launch {
             while (isActive) {
                 try {
                     collectRealtime()
@@ -89,21 +90,18 @@ object RealtimeLiveStore {
             }
         }
 
-        // Safety net only. The loop wakes every two seconds, but it performs a
-        // REST request only when Realtime has not delivered anything recently.
-        // This keeps the mobile view reliable while avoiding needless Free-plan
-        // egress when the WebSocket channel is healthy.
-        scope.launch {
+        // Reliability path: do not wait several seconds to decide whether the
+        // WebSocket is stale. While a PC task is active we also read the single
+        // status row every 750 ms. This row is tiny and guarantees that a flaky
+        // mobile WebSocket cannot leave the UI several percent behind.
+        ioScope.launch {
             while (isActive) {
                 try {
-                    val now = System.currentTimeMillis()
-                    if (latestReceiveMillis == 0L || now - latestReceiveMillis >= REALTIME_STALE_MS) {
-                        fetchRestSnapshot()?.let(::publish)
-                    }
+                    fetchRestSnapshot()?.let(::publish)
                 } catch (_: Throwable) {
                     // Live telemetry must never crash the dashboard.
                 }
-                delay(FALLBACK_CHECK_MS)
+                delay(if (_status.value?.active == true) ACTIVE_SNAPSHOT_MS else IDLE_SNAPSHOT_MS)
             }
         }
     }
@@ -118,23 +116,29 @@ object RealtimeLiveStore {
             .collect(::publish)
     }
 
+    @Synchronized
     private fun publish(row: SupabaseLiveRow) {
         val rowMillis = parseIsoInstantMillis(row.updatedAt) ?: 0L
         if (rowMillis > 0L && rowMillis < latestPublishedMillis) return
         if (rowMillis > 0L) latestPublishedMillis = rowMillis
-        latestReceiveMillis = System.currentTimeMillis()
-        _status.value = row.toUiStatus()
+        val uiValue = row.toUiStatus()
+        mainScope.launch {
+            _status.value = uiValue
+        }
     }
 
     private fun fetchRestSnapshot(): SupabaseLiveRow? {
         val connection = (URL(LIVE_ROW_URL).openConnection() as HttpURLConnection).apply {
             requestMethod = "GET"
-            connectTimeout = 5_000
-            readTimeout = 5_000
+            useCaches = false
+            connectTimeout = 4_000
+            readTimeout = 4_000
             setRequestProperty("apikey", SUPABASE_ANON_KEY)
             setRequestProperty("Authorization", "Bearer $SUPABASE_ANON_KEY")
             setRequestProperty("Accept", "application/json")
-            setRequestProperty("User-Agent", "Drowned-Control-Android/1.3")
+            setRequestProperty("Cache-Control", "no-cache, no-store, max-age=0")
+            setRequestProperty("Pragma", "no-cache")
+            setRequestProperty("User-Agent", "Drowned-Control-Android/1.4.1")
         }
         return try {
             connection.connect()
