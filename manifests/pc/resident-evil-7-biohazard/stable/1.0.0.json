@@ -1,0 +1,1474 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "resident-evil-7-biohazard",
+    "title": "Resident Evil 7 Biohazard",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Fear and isolation seep through the walls of an abandoned southern farmhouse. \"7\" marks a new beginning for survival horror with the “Isolated View” of the visceral new first-person perspective."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-resident-evil-7-biohazard-v1.0.0-stable"
+  },
+  "chunk_size": 1977614543,
+  "upload_workers": 56,
+  "upload_waves": 1,
+  "total_size": 110746414353,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "AkConvolutionReverb.dll",
+      "size": 150016,
+      "sha256": "156aed81b8e399bc9c925dce46a690c4bec90c359e3f91eff0f116e6e654bfe6"
+    },
+    {
+      "path": "amd_ags_x64.dll",
+      "size": 42496,
+      "sha256": "298b40fb70c142cc61135a125ff6c2a2e474526b9a7045102666a9434e84f459"
+    },
+    {
+      "path": "D3D12/D3D12Core.dll",
+      "size": 2989448,
+      "sha256": "5cdfe7bb0fc0bfd7cfbfc5e31f88d279857ccf127188ae3882e34f42a211cdc7"
+    },
+    {
+      "path": "dlc/re_dlc_stm_529930.pak",
+      "size": 10357821150,
+      "sha256": "4e10a7b985f44203b71be2cec9abfe52715d7c65e7beeb6171be7d9aa7d2f797"
+    },
+    {
+      "path": "dlc/re_dlc_stm_530590.pak",
+      "size": 17166413,
+      "sha256": "19ee4942725e35f9a8165dc16ee1c6c2ed20f43f5919847f554dc068bffaec43"
+    },
+    {
+      "path": "dlc/re_dlc_stm_530591.pak",
+      "size": 17166872,
+      "sha256": "64d7e955211b7825a2957ed4cae6d3dda448db7ecfab1c06d9cdb850297ca90d"
+    },
+    {
+      "path": "dlc/re_dlc_stm_530592.pak",
+      "size": 17166371,
+      "sha256": "5e69ffe775a58b3fbdf7be805b972e26d6b1ecd9509a02147dcb6c5f4af1868b"
+    },
+    {
+      "path": "dlc/re_dlc_stm_530593.pak",
+      "size": 17166364,
+      "sha256": "0e284ad06b7688ab552b2c1599100d100c1b07d2fd8954bb90ad57903470e833"
+    },
+    {
+      "path": "dlc/re_dlc_stm_530594.pak",
+      "size": 17167091,
+      "sha256": "05d4524340005eceba6fe5ecea3ebf47e9dab6d810a9ce4aef0a5b786d84b527"
+    },
+    {
+      "path": "dlc/re_dlc_stm_530595.pak",
+      "size": 14367973,
+      "sha256": "23a482b607066cfce00e170e90d9f8b1f2b540c05abe310a3fcc1cc5394f0524"
+    },
+    {
+      "path": "dlc/re_dlc_stm_530596.pak",
+      "size": 14368164,
+      "sha256": "41f124c14da532b79e91a89e9ebc5397b472e9ca3ef5aa1b92b5f31cc3ad1764"
+    },
+    {
+      "path": "dlc/re_dlc_stm_530597.pak",
+      "size": 14368106,
+      "sha256": "b16f682272bb920939a0b48bba829683a0b26c7b504203fc3b8e6736330df44c"
+    },
+    {
+      "path": "dlc/re_dlc_stm_530598.pak",
+      "size": 14368079,
+      "sha256": "d996ecaffe767622e34e3d9ba49acb36acede1f854d7611f863dacd4a8c8a9ef"
+    },
+    {
+      "path": "dlc/re_dlc_stm_530599.pak",
+      "size": 14368267,
+      "sha256": "c22acfda937ceb09cc00787ee1ad264df64382655a75a8a6f14e59da5b87fc08"
+    },
+    {
+      "path": "dlc/re_dlc_stm_530610.pak",
+      "size": 13562944869,
+      "sha256": "c287ed7fcd39762114b3794907264e3599e2617f3bb9b53020f89d17e7b9d420"
+    },
+    {
+      "path": "dlc/re_dlc_stm_530611.pak",
+      "size": 12542633132,
+      "sha256": "30417669d7a811b83229e361168fa249a60f5dac456daa8963fe432469841896"
+    },
+    {
+      "path": "dlc/re_dlc_stm_543550.pak",
+      "size": 5175167,
+      "sha256": "0212c7f5b41244917ec6cf3382081f09933fd2ac0dff1717def7b0b19952fe99"
+    },
+    {
+      "path": "dlc/re_dlc_stm_564190.pak",
+      "size": 6426509490,
+      "sha256": "502e4af72ab88e2edb737b8999be54896bf9f0b1c39ac08ac3e7d0688e6a46f4"
+    },
+    {
+      "path": "MSSpatial.dll",
+      "size": 125440,
+      "sha256": "d42684551b598cbb449e44e63498cd434ae776d0b80131127d076168f3785c23"
+    },
+    {
+      "path": "re7.cdx",
+      "size": 156285848,
+      "sha256": "5f272c1ea9daf2568eb813e230be1a508c4242eff3dd6887a95af4168aa887d7"
+    },
+    {
+      "path": "re7.exe",
+      "size": 156286080,
+      "sha256": "ffae8ba4cf4ea81f28c8cb22f2f87b70fe2dd1f62f33ee40a0830d56a511c8e4"
+    },
+    {
+      "path": "re7_config.ini",
+      "size": 12564,
+      "sha256": "dcab3b38a8e1e413bebe43e691c0f7e3675da742eb6fcc55c1df1c28bd691630"
+    },
+    {
+      "path": "re_chunk_000.pak",
+      "size": 25441877026,
+      "sha256": "da4b17a83beb65c604635e3225fc6e54101d9a24df03379f24d95651cb1d7580"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_001.pak",
+      "size": 549834000,
+      "sha256": "365f2e460cca8b88eb1560947560916fccd4d473b9c34c0bf69dc5f9847d921b"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_002.pak",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_003.pak",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_004.pak",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_005.pak",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_006.pak",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_007.pak",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "re_chunk_000.pak.patch_008.pak",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/529930/re_dlc_000.pak",
+      "size": 1214826198,
+      "sha256": "fa07e67a358f30f52c42a2b6c53948d3f0a9f308b008796c2d8085b243a6cc01"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/530610/re_dlc_000.pak",
+      "size": 1996772976,
+      "sha256": "727839d37bd0aa8c880c610fe49938847f0f0edc091429172e086a344e96d969"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/530611/re_dlc_000.pak",
+      "size": 6934428065,
+      "sha256": "4acfac4d2d709293c12695787b833835bb735f10310fc0d8b279f7fed4b92600"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/564190/re_dlc_000.pak",
+      "size": 5124329946,
+      "sha256": "31b002ed0cf3d419d76cca755410d09112bb5ce2a86a78a3e15f94b2ab7b1956"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/_CommonRedist/_redist_readme.txt",
+      "size": 2038,
+      "sha256": "b9ff3c3422e06fb509f4d9ea3ae4493ee804a7efdd1297fbff8eceed40b6c403"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/_CommonRedist/dxwebsetup.exe",
+      "size": 295320,
+      "sha256": "2cf71d098c608c56e07f4655855a886c3102553f648df88458df616b26fd612f"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+      "size": 31533074,
+      "sha256": "3c188e4651bcc07df2bdb06d69585158797b1bafb91557b09217621628cd5b23"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/_CommonRedist/xnafx40_redist.msi",
+      "size": 7054848,
+      "sha256": "47260420773a20443fb1e38a89b7f39c5237a80a842de598e6c8f7f90a3bbd6d"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/amd_ags_x64.dll",
+      "size": 107520,
+      "sha256": "2b4059afffa60078014fe490eb0700716689b55ab3a334435c69af4292b985c1"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re7.cdx",
+      "size": 141310360,
+      "sha256": "b7571e2845671175f8ff1a206425349aeb56c84182afb6d290eefc4d95de0fd8"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re7.exe",
+      "size": 141310360,
+      "sha256": "bcec29dcef3377bd2793924797f49da85e128974fc6e83a1cf29539aee8b6abe"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re7_config.ini",
+      "size": 36,
+      "sha256": "4f49e946bb96426bb16e9285d13ff660613ddb445e170957dd4648026dd3623c"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak",
+      "size": 21619451718,
+      "sha256": "043bfe2ec6f8b0792bb21a37a0a2d8aabbe120b2bcee0754ce54be54ac7b27d2"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_001.pak",
+      "size": 2620272361,
+      "sha256": "2c11e8f908056333703b031b06a116ec0e31274952aaca5543d9c16d3ce400a4"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_002.pak",
+      "size": 666791570,
+      "sha256": "b3a09d4707b47795a7f70f3f39ae966a75fded1fdcaf97bceb369524fed28272"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_003.pak",
+      "size": 699693798,
+      "sha256": "b083f09fd7cea2d5876084e9a93e70fc3e4e59e2dac2a5ef1700bee0b07adf9f"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_004.pak",
+      "size": 30299054,
+      "sha256": "4e5c2f7a9106fb6c1be9a9046638c945212391778927cc5a67a5e8068cb55f4f"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_005.pak",
+      "size": 31648505,
+      "sha256": "6fcfe9dab4f2fc936bc9d8eba28d33b4464ac83bd361721c199aeb3a15dba6ce"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_006.pak",
+      "size": 4056031,
+      "sha256": "94f427b50ca56077cda4f6f6e828892847702971ea7062ad02b96104c26af108"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_007.pak",
+      "size": 25429228,
+      "sha256": "6719f89274b9ef60efbe84002dce27b5a147e6f6e1746a5ee6720c2284b74aaa"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_008.pak",
+      "size": 19917055,
+      "sha256": "b9dbc189c950e91e0c12a1c56e604ed4249c293796945fb0c6ad017399ab2e73"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_009.pak",
+      "size": 21542243,
+      "sha256": "3f422642bf3d7d4826c705143c57f4e5d3aac54e45ab3b5fc5740a05e10f0fe9"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/steam_api64.cdx",
+      "size": 235600,
+      "sha256": "71af8666392acad2080a816b9f1196fe9ccb950e1db8a549f8312c4d231f55a8"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/steam_api64.dll",
+      "size": 411560,
+      "sha256": "d4dd812364c4f67303f93f770a1afef5894cc1a377ac163d04c4e3f8abaee12e"
+    },
+    {
+      "path": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/steam_emu.ini",
+      "size": 2063,
+      "sha256": "409eb645182834cc14d0f339f8910188fde21e35efa10dca7dfc412d118c7a08"
+    },
+    {
+      "path": "shader.cache2",
+      "size": 2733942,
+      "sha256": "1e1293c3aa315aa5692e6610e3aa5a8eb48a0752b8fe1b1d1ea6c2a5af9b8687"
+    },
+    {
+      "path": "steam_api64.cdx",
+      "size": 265504,
+      "sha256": "ca1fa9a7609ab10b7926400559cf073e5888423cc156af72c6027d72a89eea73"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 411048,
+      "sha256": "55bfb4a17b931176304990be2f502c4e8b29c6ee2893527d973740e2104ca92f"
+    },
+    {
+      "path": "steam_emu.ini",
+      "size": 3218,
+      "sha256": "9c0f6fd05423553c55fa5bb8a61f1d650580ac051586eb72fd95eec36e43eca8"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "AkConvolutionReverb.dll",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 150016
+        },
+        {
+          "file": "amd_ags_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 49369792,
+          "length": 42496
+        },
+        {
+          "file": "D3D12/D3D12Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 49412288,
+          "length": 2989448
+        },
+        {
+          "file": "dlc/re_dlc_stm_529930.pak",
+          "file_offset": 0,
+          "chunk_offset": 52401736,
+          "length": 1925212807
+        }
+      ],
+      "sha256": "ba48f32af2b125b6537bee82bcfa2a1a28b5dc8b2c2efcf5919653f47b8916d5"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_529930.pak",
+          "file_offset": 1925212807,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "909e0000cf01bbb3ca7e9d6e2270a0f857424aae930c7a9e90fda3ec9e49d58c"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_529930.pak",
+          "file_offset": 3902827350,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "247ac3386fdbc2dd3fd83267f44d146d4a2728f967bf9a07b7903fffe9a789ad"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_529930.pak",
+          "file_offset": 5880441893,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "bb78b1ca7281da86f7842960d0de4c65c3a412e8c42e221172326c3914fcecd0"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_529930.pak",
+          "file_offset": 7858056436,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "88e14663340e7e84cb9e3b8653abc84b40cf33bbf98a2899772a027f2fb93963"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_529930.pak",
+          "file_offset": 9835670979,
+          "chunk_offset": 0,
+          "length": 522150171
+        },
+        {
+          "file": "dlc/re_dlc_stm_530590.pak",
+          "file_offset": 0,
+          "chunk_offset": 522150171,
+          "length": 17166413
+        },
+        {
+          "file": "dlc/re_dlc_stm_530591.pak",
+          "file_offset": 0,
+          "chunk_offset": 539316584,
+          "length": 17166872
+        },
+        {
+          "file": "dlc/re_dlc_stm_530592.pak",
+          "file_offset": 0,
+          "chunk_offset": 556483456,
+          "length": 17166371
+        },
+        {
+          "file": "dlc/re_dlc_stm_530593.pak",
+          "file_offset": 0,
+          "chunk_offset": 573649827,
+          "length": 17166364
+        },
+        {
+          "file": "dlc/re_dlc_stm_530594.pak",
+          "file_offset": 0,
+          "chunk_offset": 590816191,
+          "length": 17167091
+        },
+        {
+          "file": "dlc/re_dlc_stm_530595.pak",
+          "file_offset": 0,
+          "chunk_offset": 607983282,
+          "length": 14367973
+        },
+        {
+          "file": "dlc/re_dlc_stm_530596.pak",
+          "file_offset": 0,
+          "chunk_offset": 622351255,
+          "length": 14368164
+        },
+        {
+          "file": "dlc/re_dlc_stm_530597.pak",
+          "file_offset": 0,
+          "chunk_offset": 636719419,
+          "length": 14368106
+        },
+        {
+          "file": "dlc/re_dlc_stm_530598.pak",
+          "file_offset": 0,
+          "chunk_offset": 651087525,
+          "length": 14368079
+        },
+        {
+          "file": "dlc/re_dlc_stm_530599.pak",
+          "file_offset": 0,
+          "chunk_offset": 665455604,
+          "length": 14368267
+        },
+        {
+          "file": "dlc/re_dlc_stm_530610.pak",
+          "file_offset": 0,
+          "chunk_offset": 679823871,
+          "length": 1297790672
+        }
+      ],
+      "sha256": "3f8839bb4ac7392dbedc0556c2ebcdf8400bec8769966737234469cd0da859dd"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_530610.pak",
+          "file_offset": 1297790672,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "e169005c5131386cb32674824200c2a97f8bfd09716c43b095dd94375764efa4"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_530610.pak",
+          "file_offset": 3275405215,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "5243e846a8fda51894fa24c8bb5d87892342dc05771366628b48c2db0476a87a"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_530610.pak",
+          "file_offset": 5253019758,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "030c3572bea221f2bbf00435ab71dbb283e63583e5ae96d61c221be37ab311d9"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_530610.pak",
+          "file_offset": 7230634301,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "14fd091906217fe352379c57289f840ea160caf09b4732a9c909e01bec43b5ad"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_530610.pak",
+          "file_offset": 9208248844,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "836737ea61ce687ceefdd4dace189a456d2cb957eaaf37d6e37167c236b91f45"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_530610.pak",
+          "file_offset": 11185863387,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "4c9757d08fdb949cfebb5bab7672a64dbe913787dd32a32935cfc84e9633bc40"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_530610.pak",
+          "file_offset": 13163477930,
+          "chunk_offset": 0,
+          "length": 399466939
+        },
+        {
+          "file": "dlc/re_dlc_stm_530611.pak",
+          "file_offset": 0,
+          "chunk_offset": 399466939,
+          "length": 1578147604
+        }
+      ],
+      "sha256": "d00edca6c3c9a08de30eee75fed8b6188896314c7585babd299dfc7e9f0458ed"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_530611.pak",
+          "file_offset": 1578147604,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "ffd27440b25cb5efad90bcdcafb6a498ea692c5a3c1589beda6ab1ac619b14ff"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_530611.pak",
+          "file_offset": 3555762147,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "b68056c1dd0c55f297df53127236c81aa4c2303c121e8d43936fc776a1ad6330"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_530611.pak",
+          "file_offset": 5533376690,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "a18f34fa0ee12b8081748037cdb72a15318f7c63c5108499e0f80a9392f34d01"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_530611.pak",
+          "file_offset": 7510991233,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "82128e5a47f2d6d9a83554f7875d95d042cbefc309dd4d77b8d34083b6bb25bc"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_530611.pak",
+          "file_offset": 9488605776,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "5bf4567bdd26f93876d087454f63d58ab65a227b2f43fe1926847c1979bad61f"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_530611.pak",
+          "file_offset": 11466220319,
+          "chunk_offset": 0,
+          "length": 1076412813
+        },
+        {
+          "file": "dlc/re_dlc_stm_543550.pak",
+          "file_offset": 0,
+          "chunk_offset": 1076412813,
+          "length": 5175167
+        },
+        {
+          "file": "dlc/re_dlc_stm_564190.pak",
+          "file_offset": 0,
+          "chunk_offset": 1081587980,
+          "length": 896026563
+        }
+      ],
+      "sha256": "0c4137a64b5e7f9898cb0c95253072ea1273124c2954aceac0693080ffe99341"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_564190.pak",
+          "file_offset": 896026563,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "78bfcada1fe6d9bac7ef3fc9b21fafc1e38728d710596113e0a8ea12614cab33"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_564190.pak",
+          "file_offset": 2873641106,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "349f083fb8970b92b4b9af8a9c3033ac0b5576649f9ee980c26a82adab577adc"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "dlc/re_dlc_stm_564190.pak",
+          "file_offset": 4851255649,
+          "chunk_offset": 0,
+          "length": 1575253841
+        },
+        {
+          "file": "MSSpatial.dll",
+          "file_offset": 0,
+          "chunk_offset": 1575253841,
+          "length": 125440
+        },
+        {
+          "file": "re7.cdx",
+          "file_offset": 0,
+          "chunk_offset": 1575379281,
+          "length": 156285848
+        },
+        {
+          "file": "re7.exe",
+          "file_offset": 0,
+          "chunk_offset": 1731665129,
+          "length": 156286080
+        },
+        {
+          "file": "re7_config.ini",
+          "file_offset": 0,
+          "chunk_offset": 1887951209,
+          "length": 12564
+        },
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 0,
+          "chunk_offset": 1887963773,
+          "length": 89650770
+        }
+      ],
+      "sha256": "b9746736c806c41c247aa5fafe4973a8da0c5fa5127ffc6d9767e6fea0946712"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 89650770,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "0890576d65396644391d8aca7393d1c1f0ebcc7687d0992766a97968631c9781"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 2067265313,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "fa8927a2de6cab8c2295a9caa5b94a12997d46db5cdc23e5b375c0b8459e4e4c"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 4044879856,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "57db428e71070dedf7e370d449fbe0034b6583a83b9547068469d30a811e3b17"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 6022494399,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "445a6b99c21d78c7cb50d3fbabd3d8924c5eb06969336c9d0fed52d468d6f986"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 8000108942,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "3f3d8bac3df14f204af1e967884b3b98455620ebedc29753aae70c2ca6451aad"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 9977723485,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "207abc597a33a14a6b89586cb3448d4d11a4f76bbaf3dab61b8dd6c328eb5393"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 11955338028,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "934af51e1a05f0b298c89fc39bcc9c9edd416d304373798ba4e557b2560fe599"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 13932952571,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "c44054b73c682e6ccb35d29411d1b848055bcbd228fada607adc6867be870ec7"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 15910567114,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "db1ca0635506c8c10a9863ce0f58e6e9a65921511a6fbc047da9bc089a1354e4"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 17888181657,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "50dbdc72b28299d6903217d757bb7a1e7503897ea13c8631267961e44fe6175e"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 19865796200,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "f79e868c0fc93fa9f5ab714237821dde4a223306c0562b6cd41e9b7a6f817ad8"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 21843410743,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "0287068c92af30908e316c1dfd0131b58fea9fad8a9244791a61f1219b1c4110"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak",
+          "file_offset": 23821025286,
+          "chunk_offset": 0,
+          "length": 1620851740
+        },
+        {
+          "file": "re_chunk_000.pak.patch_001.pak",
+          "file_offset": 0,
+          "chunk_offset": 1620851740,
+          "length": 356762803
+        }
+      ],
+      "sha256": "2de70e929753553e14bcded41435d49fc2b0d0b2bc21725a3437c4130912e02b"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "re_chunk_000.pak.patch_001.pak",
+          "file_offset": 356762803,
+          "chunk_offset": 0,
+          "length": 193071197
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/529930/re_dlc_000.pak",
+          "file_offset": 0,
+          "chunk_offset": 193071197,
+          "length": 1214826198
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/530610/re_dlc_000.pak",
+          "file_offset": 0,
+          "chunk_offset": 1407897395,
+          "length": 569717148
+        }
+      ],
+      "sha256": "d703a72957ccc769bfa4c837e8e5b59a3d9a8370bc01755090a3ab0d0985f72f"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/530610/re_dlc_000.pak",
+          "file_offset": 569717148,
+          "chunk_offset": 0,
+          "length": 1427055828
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/530611/re_dlc_000.pak",
+          "file_offset": 0,
+          "chunk_offset": 1427055828,
+          "length": 550558715
+        }
+      ],
+      "sha256": "dcb42bf7000eb2c19d5f44514bf34fe1b22b666852215399c34ecb684685316f"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/530611/re_dlc_000.pak",
+          "file_offset": 550558715,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "e32adb7e2993e8c4fbb72061556f99b7a7d12137b737b621d26e8a7e41011c12"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/530611/re_dlc_000.pak",
+          "file_offset": 2528173258,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "e43cae3ef0fd4f4d34afa7f0de791c656552db794bd80974546b7373d6c1327a"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/530611/re_dlc_000.pak",
+          "file_offset": 4505787801,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "f8806cb195336b339e2e620b36ce7fb2a1ab733ae462a079b291de30b98daa93"
+    },
+    {
+      "name": "chunk-000041.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/530611/re_dlc_000.pak",
+          "file_offset": 6483402344,
+          "chunk_offset": 0,
+          "length": 451025721
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/564190/re_dlc_000.pak",
+          "file_offset": 0,
+          "chunk_offset": 451025721,
+          "length": 1526588822
+        }
+      ],
+      "sha256": "8898d5f37d422146fc9a0356754208db77ef194af68eb8fd8f6068ae9a08adce"
+    },
+    {
+      "name": "chunk-000042.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/564190/re_dlc_000.pak",
+          "file_offset": 1526588822,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "4e172d99c639a60d24b7fa431bcc42f096c117a20f39bf57276ea88e2452dd91"
+    },
+    {
+      "name": "chunk-000043.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/564190/re_dlc_000.pak",
+          "file_offset": 3504203365,
+          "chunk_offset": 0,
+          "length": 1620126581
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/_CommonRedist/_redist_readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 1620126581,
+          "length": 2038
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 1620128619,
+          "length": 889416
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 1621018035,
+          "length": 295320
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1621313355,
+          "length": 809496
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1622122851,
+          "length": 31533074
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 1653655925,
+          "length": 7054848
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/amd_ags_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1660710773,
+          "length": 107520
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re7.cdx",
+          "file_offset": 0,
+          "chunk_offset": 1660818293,
+          "length": 141310360
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re7.exe",
+          "file_offset": 0,
+          "chunk_offset": 1802128653,
+          "length": 141310360
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re7_config.ini",
+          "file_offset": 0,
+          "chunk_offset": 1943439013,
+          "length": 36
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak",
+          "file_offset": 0,
+          "chunk_offset": 1943439049,
+          "length": 34175494
+        }
+      ],
+      "sha256": "9dac69a76d2f95c9309ab7090c7f61ed50347abe17215b5a35225c27f1c54989"
+    },
+    {
+      "name": "chunk-000044.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak",
+          "file_offset": 34175494,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "6158be527852d43e01f19532ae0405bf087b87183743554f71e3aaa6441116fd"
+    },
+    {
+      "name": "chunk-000045.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak",
+          "file_offset": 2011790037,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "f63640be073bfa29b86b3f8467be1745e439fd2d5f7eab5b3daa8b1cea36ff3d"
+    },
+    {
+      "name": "chunk-000046.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak",
+          "file_offset": 3989404580,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "62712eaf21b78b68eae0b127e6aa478c30e9644f9ca21fcacbaedd0f55b49093"
+    },
+    {
+      "name": "chunk-000047.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak",
+          "file_offset": 5967019123,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "7b3ba920bdabb72982c9a8b82b3c9ac35e0ae060acaab0791831bfaf9cd61649"
+    },
+    {
+      "name": "chunk-000048.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak",
+          "file_offset": 7944633666,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "7d5825a0c656eee9072539ee2db476205c5f361113eee3ea4615f96ab61abe5f"
+    },
+    {
+      "name": "chunk-000049.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak",
+          "file_offset": 9922248209,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "84d84aba18c5ef613372a8c3b412affa225d847fd1fc90ca6ce2ca9722af79da"
+    },
+    {
+      "name": "chunk-000050.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak",
+          "file_offset": 11899862752,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "f8f194ba5151760629a0741e0dbd6e86f1ea81a2f1f2d4b4df1212977a3b272e"
+    },
+    {
+      "name": "chunk-000051.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak",
+          "file_offset": 13877477295,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "223bde738409a15eb98c4a74b8cc5674ee64beb31dc4b98b093573215b1e0d10"
+    },
+    {
+      "name": "chunk-000052.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak",
+          "file_offset": 15855091838,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "83cd0b6106d2f208f00d49374045fd6872c6f0f675c294c1afa14c478913768d"
+    },
+    {
+      "name": "chunk-000053.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak",
+          "file_offset": 17832706381,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "22210d533bf3c7cf5a91367a6c1fc4d1487b433a93179e7fbdacf33b71ca5af9"
+    },
+    {
+      "name": "chunk-000054.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak",
+          "file_offset": 19810320924,
+          "chunk_offset": 0,
+          "length": 1809130794
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_001.pak",
+          "file_offset": 0,
+          "chunk_offset": 1809130794,
+          "length": 168483749
+        }
+      ],
+      "sha256": "7fa37ddd756339e92a84a05f034f9e564a4e97e8324773ad78e8380e4fb4c600"
+    },
+    {
+      "name": "chunk-000055.bin",
+      "size": 1977614543,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_001.pak",
+          "file_offset": 168483749,
+          "chunk_offset": 0,
+          "length": 1977614543
+        }
+      ],
+      "sha256": "555145e637d2e44fdc4064440a9172347dfcc655a55872f5c2a841973fcc10bf"
+    },
+    {
+      "name": "chunk-000056.bin",
+      "size": 1977614488,
+      "segments": [
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_001.pak",
+          "file_offset": 2146098292,
+          "chunk_offset": 0,
+          "length": 474174069
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_002.pak",
+          "file_offset": 0,
+          "chunk_offset": 474174069,
+          "length": 666791570
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_003.pak",
+          "file_offset": 0,
+          "chunk_offset": 1140965639,
+          "length": 699693798
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_004.pak",
+          "file_offset": 0,
+          "chunk_offset": 1840659437,
+          "length": 30299054
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_005.pak",
+          "file_offset": 0,
+          "chunk_offset": 1870958491,
+          "length": 31648505
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_006.pak",
+          "file_offset": 0,
+          "chunk_offset": 1902606996,
+          "length": 4056031
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_007.pak",
+          "file_offset": 0,
+          "chunk_offset": 1906663027,
+          "length": 25429228
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_008.pak",
+          "file_offset": 0,
+          "chunk_offset": 1932092255,
+          "length": 19917055
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/re_chunk_000.pak.patch_009.pak",
+          "file_offset": 0,
+          "chunk_offset": 1952009310,
+          "length": 21542243
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/steam_api64.cdx",
+          "file_offset": 0,
+          "chunk_offset": 1973551553,
+          "length": 235600
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1973787153,
+          "length": 411560
+        },
+        {
+          "file": "Resident.Evil.7.NON-RT.DX11-SteamRIP.com/RESIDENT EVIL 7 biohazard/steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 1974198713,
+          "length": 2063
+        },
+        {
+          "file": "shader.cache2",
+          "file_offset": 0,
+          "chunk_offset": 1974200776,
+          "length": 2733942
+        },
+        {
+          "file": "steam_api64.cdx",
+          "file_offset": 0,
+          "chunk_offset": 1976934718,
+          "length": 265504
+        },
+        {
+          "file": "steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1977200222,
+          "length": 411048
+        },
+        {
+          "file": "steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 1977611270,
+          "length": 3218
+        }
+      ],
+      "sha256": "44421c14a8e74fd8ae9e2ad2b190a258183d65f2d8f810ae6acfffb1c52b143d"
+    }
+  ]
+}
