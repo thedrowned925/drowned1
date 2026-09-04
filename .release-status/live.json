@@ -1,6 +1,6 @@
 {
   "active": true,
-  "phase": "upload",
+  "phase": "metadata",
   "kind": "game",
   "title": "Dragon Age™ Inquisition",
   "platform": "PC",
@@ -10,5 +10,5 @@
   "total_sent": 40065963255,
   "total_size": 40065963255,
   "message": "",
-  "updated_at": "2026-09-04T05:29:14.298142+00:00"
+  "updated_at": "2026-09-04T05:29:15.298290+00:00"
 }
