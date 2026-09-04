@@ -1,0 +1,2413 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "dead-space-2",
+    "title": "Dead Space™ 2",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Three years after the Necromorph infestation aboard the USS Ishimura, Isaac Clarke awakens from a coma, confused, disoriented, and on a space station called The Sprawl. Explore this world and its zero-g environments to discover the truth about the Unitology and its role in the Necromorph epidemic."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-dead-space-2-v1.0.0-stable"
+  },
+  "chunk_size": 272529777,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 10901191044,
+  "files": [
+    {
+      "path": "__Installer/installerdata.xml",
+      "size": 169820,
+      "sha256": "a2e220e7232441c75e7388170322025b97254759dba8df894cee79adbd7be017"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "activation.exe",
+      "size": 2074624,
+      "sha256": "63278c61d2cf63bdd024e6b2538929cdc41680884bad2d1f7c0cb37ed5cabdba"
+    },
+    {
+      "path": "activation.x64.dll",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "activation.x86.dll",
+      "size": 6364672,
+      "sha256": "b599b33c5fffba0f1387fce9bbe86931a2d6d48dbeaacd09d126a45ea39adb93"
+    },
+    {
+      "path": "activation.xml",
+      "size": 28969,
+      "sha256": "8daaea8ac8a1784dfd681acb84eca9349e9698a0bec7235f5a528b695f810417"
+    },
+    {
+      "path": "Dead.ico",
+      "size": 370070,
+      "sha256": "fee832f3de97889a52e3f7b433b384e593d89289dcfb6079078f6dbb70b34a53"
+    },
+    {
+      "path": "deadspace2.exe",
+      "size": 63201280,
+      "sha256": "e13195d0cdd928e9bbb537b049b4aee0bb63e8ac1915af5bf166f745aea985ec"
+    },
+    {
+      "path": "DS2DAT0.DAT",
+      "size": 2145060192,
+      "sha256": "fd7d1bdbb5ec6b92324cd877465a029942c78396468695b4551068f4c3562e23"
+    },
+    {
+      "path": "DS2DAT1.DAT",
+      "size": 647362336,
+      "sha256": "3537308b17237d733d6b70607dd3c84397c2b65cd53ba648d725fa7ca2584e51"
+    },
+    {
+      "path": "DS2DAT6.DAT",
+      "size": 1054554112,
+      "sha256": "fed960612373e1ab42cef096812f069646cf649420fb8c6d808ecdb1e957e99f"
+    },
+    {
+      "path": "DS2DAT7.DAT",
+      "size": 1847844864,
+      "sha256": "6f933272717800543794723f0395e9697e81ab3fa5820790538a50075519dd4a"
+    },
+    {
+      "path": "DS2DAT8.DAT",
+      "size": 1652404224,
+      "sha256": "b9242f262963b6fd0cef755a6086e41b063a103dce8b42f34e3c0f3b3e0baa7d"
+    },
+    {
+      "path": "DS2DAT9.DAT",
+      "size": 1733416960,
+      "sha256": "21d507b08ef085f9b0cf9ddf0a3f8c5b86992dfd7df40f4f8ef8163c69918d3d"
+    },
+    {
+      "path": "game.ico",
+      "size": 15086,
+      "sha256": "cadc2a7e3c0272ff20989d5ea0c7c023c2d1781a91978f0e57752264e345d1e4"
+    },
+    {
+      "path": "GDFBinary.de.dll",
+      "size": 802064,
+      "sha256": "a4d1c47c3f56695bcd767127f544c882b7274daedc34180a4c3707f71c29a02a"
+    },
+    {
+      "path": "GDFBinary.en-us.dll",
+      "size": 1585936,
+      "sha256": "43de2c72f25ca1fa706afff175395f3542027e0150914f56abaac2447101ec57"
+    },
+    {
+      "path": "GDFBinary.es.dll",
+      "size": 428304,
+      "sha256": "08cfe6a383148777ec22ba669a4d086dbfb999ab37d9309df4a0286b00a5d2ee"
+    },
+    {
+      "path": "GDFBinary.fr-fr.dll",
+      "size": 1585936,
+      "sha256": "43de2c72f25ca1fa706afff175395f3542027e0150914f56abaac2447101ec57"
+    },
+    {
+      "path": "GDFBinary.it.dll",
+      "size": 618768,
+      "sha256": "1c52182916a8c6f6042178e0efc131c096b07cd8ff5d3b384381416ab980e67e"
+    },
+    {
+      "path": "GDFBinary.ru.dll",
+      "size": 802064,
+      "sha256": "a4d1c47c3f56695bcd767127f544c882b7274daedc34180a4c3707f71c29a02a"
+    },
+    {
+      "path": "joypad_example.txt",
+      "size": 499,
+      "sha256": "9bdda3a1f4c8906e0438b4c13de1420bb31dedfda977dcb5ba87b60f129a033a"
+    },
+    {
+      "path": "movies/en/bloopers.vp6",
+      "size": 200324,
+      "sha256": "c615acbc3a085d43f7272e92847979e6bfa81dcc8436e0b43ba921f4467ba6cb"
+    },
+    {
+      "path": "movies/en/dementia_seq01.vp6",
+      "size": 8272712,
+      "sha256": "1f49916cc747c80caf443c6aa1bbadfa5975557fda26eab8a82b577a7287a74e"
+    },
+    {
+      "path": "movies/en/dementia_seq02.vp6",
+      "size": 7413168,
+      "sha256": "39bdec7782c60f53b94414b78deaab783e7f316322410891cda33f2ffcac48e2"
+    },
+    {
+      "path": "movies/en/dementia_seq03.vp6",
+      "size": 4065688,
+      "sha256": "99302a7aaec8e10fc078738a3e573f5af4b67b1ac9f04567b35f4596fd85d93b"
+    },
+    {
+      "path": "movies/en/dementia_seq04.vp6",
+      "size": 8799936,
+      "sha256": "81bd0f934facdac7fb90fda21123d92e2121f8a4a9b4b973b1c107092c9a074b"
+    },
+    {
+      "path": "movies/en/dementia_seq05.vp6",
+      "size": 8272712,
+      "sha256": "1f49916cc747c80caf443c6aa1bbadfa5975557fda26eab8a82b577a7287a74e"
+    },
+    {
+      "path": "movies/en/ealogo.vp6",
+      "size": 16167852,
+      "sha256": "c29f84bf3063eca902686f8bad2d8c9f89dcedb9a58f03ffb850e0dda4e031d3"
+    },
+    {
+      "path": "movies/en/excavation.vp6",
+      "size": 58338392,
+      "sha256": "6e1befcf1d702a776e999189fab6d8dda89dfe86b1e7953d7d519adc4791579c"
+    },
+    {
+      "path": "movies/en/pdlc1_vt_01_01.vp6",
+      "size": 9835088,
+      "sha256": "4797b61166cb6992f3c312b6965de3fe513993f906da40513ad172bad0ddce4c"
+    },
+    {
+      "path": "movies/en/pdlc1_vt_01_01a.vp6",
+      "size": 5068864,
+      "sha256": "f4c13ca3dc8f1ae2475903533d76211b80e058cc6ba754f1c4322945a7b5cba4"
+    },
+    {
+      "path": "movies/en/pdlc1_vt_02_01.vp6",
+      "size": 1375644,
+      "sha256": "db1b330483f6aab0bae899ad854eae04d48d91b551e9e02c462f6942634c0039"
+    },
+    {
+      "path": "movies/en/pdlc_vt_bf.vp6",
+      "size": 1410804,
+      "sha256": "53aa97dbead2afbcac2808559483c03f720f7f4f01499f65e55b6fae7b3c0259"
+    },
+    {
+      "path": "movies/en/remebering.vp6",
+      "size": 8881696,
+      "sha256": "3bf55231a70ee5fb3ff325cfbf585482ea627d72974cc2615d21d2daad7d217a"
+    },
+    {
+      "path": "movies/en/se_9_11.vp6",
+      "size": 6447628,
+      "sha256": "9f7abbc76bb904835e86e2b40c16aa808f656010e64c490ecddbcac64664fc4e"
+    },
+    {
+      "path": "movies/en/Trio_FrontEnd.vp6",
+      "size": 8825508,
+      "sha256": "be11b516bd575a7bd5b55331ace07e2eaba70173327890beaa1cda9ab5e278a1"
+    },
+    {
+      "path": "movies/en/unitology.vp6",
+      "size": 6939216,
+      "sha256": "56959d03fca0dae76bffa1b8377681bd7baa6a0c26981a4121e4a869ece3e8d0"
+    },
+    {
+      "path": "movies/en/vid002-worms.vp6",
+      "size": 48808312,
+      "sha256": "18e05293620c099b8d6b6dcd7cdcc70a2e97965d7bdacd150dae0287d37675e0"
+    },
+    {
+      "path": "movies/en/vidlog_1_2.vp6",
+      "size": 6720144,
+      "sha256": "ea8b649f9bef7046fbe05f7cf887db5a34c607f1a3951a0a814bcbe57eb0a35e"
+    },
+    {
+      "path": "movies/en/vidlog_1_3.vp6",
+      "size": 706760,
+      "sha256": "219769d65fbccafe891bc702b4b5bb2559f37806b060eabba3d76aa4bffbaf44"
+    },
+    {
+      "path": "movies/en/vm_01_01.vp6",
+      "size": 29742916,
+      "sha256": "125ef9ceedabd4b314e4ec241f06fb938b0740cf896f425daa241ebaa0d1e987"
+    },
+    {
+      "path": "movies/en/vm_02_01.vp6",
+      "size": 8231880,
+      "sha256": "404b27e5119f6c7533d78666ca58b417dbd14ccbb1d5bc330fd017a482a2267b"
+    },
+    {
+      "path": "movies/en/vm_02_01_big.vp6",
+      "size": 8804672,
+      "sha256": "9cf747c6bce3a7f67cbdc0787b528b0b0ddbb59de16f8040b3e2d3bc28e7a79a"
+    },
+    {
+      "path": "movies/en/vm_08_02.vp6",
+      "size": 8905296,
+      "sha256": "71e4d8467533c052a84ed58f43c81ab162551b276d027c0cc9df93d92f56ff59"
+    },
+    {
+      "path": "movies/en/vm_08_05.vp6",
+      "size": 24887088,
+      "sha256": "2fea058cd0d334a71679be9345b28df8f771c62f8849d8fefc3d15c4bab545a0"
+    },
+    {
+      "path": "movies/en/vm_09_01.vp6",
+      "size": 5859688,
+      "sha256": "1d59c9c958760d70d38eabce24a3113e9e50a73b2f0d40c3709e5d0dc908e859"
+    },
+    {
+      "path": "movies/en/vm_11_01.vp6",
+      "size": 7296968,
+      "sha256": "de3688367c5354fba6d544d182f1390d6e4a0614a5a82dcda6ce2932f1c91405"
+    },
+    {
+      "path": "movies/en/vm_static.vp6",
+      "size": 3773640,
+      "sha256": "98eb340ae3f47fa507489468279efd5d8dadbb581f2cb656458dc1d368757f88"
+    },
+    {
+      "path": "movies/en/vt_00_01.vp6",
+      "size": 181638532,
+      "sha256": "54642d2a7e566639e0868c9a43e2c89c872bcd3a2034bda8601decc04b0b61bb"
+    },
+    {
+      "path": "movies/en/vt_01_01.vp6",
+      "size": 47001696,
+      "sha256": "1192fbd326ebf303a4c3ddb1542f31c21cb65ff1d6992247d468b03a29942430"
+    },
+    {
+      "path": "movies/en/vt_01_02.vp6",
+      "size": 9741020,
+      "sha256": "8e891b30aef8d7be5d4e92ba3fa0f802b13c56d15f4d9401fe04c9fbf1996e4b"
+    },
+    {
+      "path": "movies/en/vt_02_01.vp6",
+      "size": 4087592,
+      "sha256": "654cd9b39fd3c64827c4820203e1161dfc2b1d1553ee6f013916849d3b192361"
+    },
+    {
+      "path": "movies/en/vt_02_04.vp6",
+      "size": 11931672,
+      "sha256": "27667d1580efa1d266d38e6a23cb05e6ac48dca0d259db9845a163030e69ebe7"
+    },
+    {
+      "path": "movies/en/vt_03_04.vp6",
+      "size": 11000696,
+      "sha256": "c5c177ced4b7180683eefca63ca5ae803c4c5ebd2550d3d32b449e0e44ef0c1c"
+    },
+    {
+      "path": "movies/en/vt_04_01.vp6",
+      "size": 4779504,
+      "sha256": "6e058c89691340a9584af2737629cf06f48cba5e0219753806ebbbe7eaf27f0d"
+    },
+    {
+      "path": "movies/en/vt_04_03.vp6",
+      "size": 7973208,
+      "sha256": "0c31295c37ced527e391e2bb91b720977cd116b530b2eb6fd0528e7345e8a488"
+    },
+    {
+      "path": "movies/en/vt_04_04.vp6",
+      "size": 3959796,
+      "sha256": "7777765536770e7f666fe934b365b60af00911d9afc04fcffb3b5da0aa55eb26"
+    },
+    {
+      "path": "movies/en/vt_04_05.vp6",
+      "size": 20086676,
+      "sha256": "da6f1cba30d5a3f4df8a69230ab0899eb551515a58222c554c7ae98d8310bf8c"
+    },
+    {
+      "path": "movies/en/vt_04_06.vp6",
+      "size": 8619968,
+      "sha256": "25ba3efed6a69b8f8d5bb311507e3bcc6a868eb62f92085ee901f078f74f9f53"
+    },
+    {
+      "path": "movies/en/vt_05_02.vp6",
+      "size": 5446348,
+      "sha256": "d07139265d82cdb034268a24280da9551696af8bddba9f6e710b48b5d628ef23"
+    },
+    {
+      "path": "movies/en/vt_06_01.vp6",
+      "size": 7519752,
+      "sha256": "b44c92ce041dc82e2831f6a0ff35760cbeaa6c684c5a8b3fc1ce1d00fed293ed"
+    },
+    {
+      "path": "movies/en/vt_08_01.vp6",
+      "size": 5974048,
+      "sha256": "87352107710f81feaa8f97d722ae5dfb9947729f424a764bdc339a78c2f90a5a"
+    },
+    {
+      "path": "movies/en/vt_09_01.vp6",
+      "size": 4743636,
+      "sha256": "d16a0123600d6eb10ca04166889b2f1cd3cff6e65259a57d21ac4b4629fec83d"
+    },
+    {
+      "path": "movies/en/vt_10_01.vp6",
+      "size": 4269600,
+      "sha256": "4c80ce53b5871b9cbaebb71f33606f2c6e2a15b0052b06b8664d643966133c55"
+    },
+    {
+      "path": "movies/en/vt_10_02.vp6",
+      "size": 12028652,
+      "sha256": "7486c1edf154ec45541fa6f30eb0c0ebbe29c0aef999f5f8ba733442c7d5187d"
+    },
+    {
+      "path": "movies/en/vt_10_03.vp6",
+      "size": 3979048,
+      "sha256": "2fc2bfc1bfce18acc4d53224ddfeb5108fc172a553e635e9c2f75f043807f7c7"
+    },
+    {
+      "path": "movies/en/vt_10_04.vp6",
+      "size": 12521124,
+      "sha256": "4d59d0fccd9f237915f6b3579c4b3c0e7633bef16bb8b804dfb8f0ca2c5c05c4"
+    },
+    {
+      "path": "movies/en/vt_11_01.vp6",
+      "size": 7154820,
+      "sha256": "650ae4b97d56f460a78f702ecf0fb118cf62c30b9b0ee182aa1e71099bd1d87e"
+    },
+    {
+      "path": "movies/en/vt_3_05.vp6",
+      "size": 16993348,
+      "sha256": "20b3a1f7ee113b436e8cc5c04e3525e94f8e5da44344bea722478bd063694878"
+    },
+    {
+      "path": "movies/en/vt_3_05_cdemo.vp6",
+      "size": 14701240,
+      "sha256": "bfd9be737580db64e2971a102bfb2d786d67997f25036005252286a9d8a099da"
+    },
+    {
+      "path": "movies/en/vt_at_01_05.vp6",
+      "size": 2282868,
+      "sha256": "af4136b6710f4761d054b20b23a1c4b3c55bfd981aae7291ec822a8977f52b5b"
+    },
+    {
+      "path": "movies/en/vt_at_01_05a.vp6",
+      "size": 4872836,
+      "sha256": "7b44a25275f5a07f2aa95d58fc4c5a69154d08eb1947eebc2ae99ffbc53824d5"
+    },
+    {
+      "path": "movies/en/vt_at_03_02.vp6",
+      "size": 5330740,
+      "sha256": "e7d5093b4686337804dcd74956c66a8dd4a95ceaa1a375f75fdef694dc678fd0"
+    },
+    {
+      "path": "movies/en/vt_at_04_02.vp6",
+      "size": 9426904,
+      "sha256": "ed4c99a0e841887cda0d84b7428ca8935ef7ebc8366925161a87b43a0b9ace96"
+    },
+    {
+      "path": "movies/en/vt_at_04_05.vp6",
+      "size": 7625444,
+      "sha256": "d021e0135d562f0fddabcab27f2617bf81e47b16b3042b3da5925450d30fb114"
+    },
+    {
+      "path": "movies/en/vt_at_04_06.vp6",
+      "size": 10695656,
+      "sha256": "a213ccf74f06f600529b222ba6ace344247d959e8d683a1cbc2bd4607a19780d"
+    },
+    {
+      "path": "movies/en/vt_at_05_11.vp6",
+      "size": 6409700,
+      "sha256": "f8739edd8f30a86fbe2a609fecd61ddfddb1f48a7cd420097370009005ecf795"
+    },
+    {
+      "path": "movies/en/vt_at_05_13.vp6",
+      "size": 8542384,
+      "sha256": "d87520526f59d462ba66066648c18ef19437d3ca090d5c7edd21a16133d2761d"
+    },
+    {
+      "path": "movies/en/vt_at_06_05.vp6",
+      "size": 2979788,
+      "sha256": "8a9df0048d9e40695edcc09cf33f2a07adab9d8d5bb4b56acbeea37ec5497dbf"
+    },
+    {
+      "path": "movies/en/vt_at_06_09.vp6",
+      "size": 18895316,
+      "sha256": "75078631a0347366ca5e130825df608f14b29ffce70a6fefd0d56172af8de806"
+    },
+    {
+      "path": "movies/en/vt_at_08_04.vp6",
+      "size": 6577716,
+      "sha256": "7c21ddf443320968112340e40f96c19e4176dddfab94b246813f250e34923421"
+    },
+    {
+      "path": "movies/en/vt_at_08_05.vp6",
+      "size": 4009344,
+      "sha256": "58428688ae53dde22314c445a94ab7e83d51abbc2f344a10ce71f127b0eb220d"
+    },
+    {
+      "path": "movies/en/vt_at_08_06.vp6",
+      "size": 4852068,
+      "sha256": "630d7bfa3dd106360a80f2466b0d76631539c18c8ec6499e396812a0bdfc7482"
+    },
+    {
+      "path": "movies/en/vt_tk_tutorial.vp6",
+      "size": 13862252,
+      "sha256": "483c5fe60a3edffda7aba9632769a84f59154531a6a458bcbaefcd83ad78296a"
+    },
+    {
+      "path": "movies/fr/bloopers.vp6",
+      "size": 200324,
+      "sha256": "c615acbc3a085d43f7272e92847979e6bfa81dcc8436e0b43ba921f4467ba6cb"
+    },
+    {
+      "path": "movies/fr/dementia_seq01.vp6",
+      "size": 8272712,
+      "sha256": "1f49916cc747c80caf443c6aa1bbadfa5975557fda26eab8a82b577a7287a74e"
+    },
+    {
+      "path": "movies/fr/dementia_seq02.vp6",
+      "size": 7413168,
+      "sha256": "39bdec7782c60f53b94414b78deaab783e7f316322410891cda33f2ffcac48e2"
+    },
+    {
+      "path": "movies/fr/dementia_seq03.vp6",
+      "size": 4065688,
+      "sha256": "99302a7aaec8e10fc078738a3e573f5af4b67b1ac9f04567b35f4596fd85d93b"
+    },
+    {
+      "path": "movies/fr/dementia_seq04.vp6",
+      "size": 8799936,
+      "sha256": "81bd0f934facdac7fb90fda21123d92e2121f8a4a9b4b973b1c107092c9a074b"
+    },
+    {
+      "path": "movies/fr/dementia_seq05.vp6",
+      "size": 8272712,
+      "sha256": "1f49916cc747c80caf443c6aa1bbadfa5975557fda26eab8a82b577a7287a74e"
+    },
+    {
+      "path": "movies/fr/ealogo.vp6",
+      "size": 16167852,
+      "sha256": "c29f84bf3063eca902686f8bad2d8c9f89dcedb9a58f03ffb850e0dda4e031d3"
+    },
+    {
+      "path": "movies/fr/excavation.vp6",
+      "size": 58338392,
+      "sha256": "6e1befcf1d702a776e999189fab6d8dda89dfe86b1e7953d7d519adc4791579c"
+    },
+    {
+      "path": "movies/fr/pdlc1_vt_01_01.vp6",
+      "size": 9835088,
+      "sha256": "4797b61166cb6992f3c312b6965de3fe513993f906da40513ad172bad0ddce4c"
+    },
+    {
+      "path": "movies/fr/pdlc1_vt_01_01a.vp6",
+      "size": 5068864,
+      "sha256": "f4c13ca3dc8f1ae2475903533d76211b80e058cc6ba754f1c4322945a7b5cba4"
+    },
+    {
+      "path": "movies/fr/pdlc1_vt_02_01.vp6",
+      "size": 1375644,
+      "sha256": "db1b330483f6aab0bae899ad854eae04d48d91b551e9e02c462f6942634c0039"
+    },
+    {
+      "path": "movies/fr/pdlc_vt_bf.vp6",
+      "size": 1410804,
+      "sha256": "53aa97dbead2afbcac2808559483c03f720f7f4f01499f65e55b6fae7b3c0259"
+    },
+    {
+      "path": "movies/fr/remebering.vp6",
+      "size": 12823988,
+      "sha256": "13fd8804b1681b4ea796a699a6183e153c98c1a2253d86890d23039e5d95175e"
+    },
+    {
+      "path": "movies/fr/se_9_11.vp6",
+      "size": 6447628,
+      "sha256": "9f7abbc76bb904835e86e2b40c16aa808f656010e64c490ecddbcac64664fc4e"
+    },
+    {
+      "path": "movies/fr/Trio_FrontEnd.vp6",
+      "size": 8825508,
+      "sha256": "be11b516bd575a7bd5b55331ace07e2eaba70173327890beaa1cda9ab5e278a1"
+    },
+    {
+      "path": "movies/fr/unitology.vp6",
+      "size": 9835276,
+      "sha256": "c3683f3e6850be47020f8354906959249628ef00c003860f6e20077fb001ceb4"
+    },
+    {
+      "path": "movies/fr/vid002-worms.vp6",
+      "size": 48808312,
+      "sha256": "ba9d4bae0e290026115de0e6c118ae68914466137fb52aef5655852091bbf02a"
+    },
+    {
+      "path": "movies/fr/vidlog_1_2.vp6",
+      "size": 6720144,
+      "sha256": "ea8b649f9bef7046fbe05f7cf887db5a34c607f1a3951a0a814bcbe57eb0a35e"
+    },
+    {
+      "path": "movies/fr/vidlog_1_3.vp6",
+      "size": 706760,
+      "sha256": "219769d65fbccafe891bc702b4b5bb2559f37806b060eabba3d76aa4bffbaf44"
+    },
+    {
+      "path": "movies/fr/vm_01_01.vp6",
+      "size": 29742916,
+      "sha256": "262b46a160c7dd832a4b338818aebe34e9682b0bf482a590bd781f4d4d1b3780"
+    },
+    {
+      "path": "movies/fr/vm_02_01.vp6",
+      "size": 8231560,
+      "sha256": "e6ffe763d8d66ab5d12beca613571b9fa87759ed5643c849e56d1d5220e3603e"
+    },
+    {
+      "path": "movies/fr/vm_02_01_big.vp6",
+      "size": 8804292,
+      "sha256": "2ac8947c6f8fa0c8127cd9c66b5f82991b25f5a00e893be24e67d9b7eb17171f"
+    },
+    {
+      "path": "movies/fr/vm_08_02.vp6",
+      "size": 8905296,
+      "sha256": "71e4d8467533c052a84ed58f43c81ab162551b276d027c0cc9df93d92f56ff59"
+    },
+    {
+      "path": "movies/fr/vm_08_05.vp6",
+      "size": 24887088,
+      "sha256": "4ebe2d772f909d4fab41ca57a681ba6e0c81b896768a2866ddde17fbf75f9492"
+    },
+    {
+      "path": "movies/fr/vm_09_01.vp6",
+      "size": 6014220,
+      "sha256": "a59956687543258d42ec1849681b849437080a682663db7de6ad63127de2e276"
+    },
+    {
+      "path": "movies/fr/vm_11_01.vp6",
+      "size": 7296968,
+      "sha256": "de3688367c5354fba6d544d182f1390d6e4a0614a5a82dcda6ce2932f1c91405"
+    },
+    {
+      "path": "movies/fr/vm_static.vp6",
+      "size": 3774212,
+      "sha256": "e040dfadcb6a43bacd936f1ade3eff62b6b56d3b055168b10ebefb8b7128e11d"
+    },
+    {
+      "path": "movies/fr/vt_00_01.vp6",
+      "size": 160895716,
+      "sha256": "578e1866b78732b700fb5a991aff12f28c170e4c23ec483055c65990edbe6797"
+    },
+    {
+      "path": "movies/fr/vt_01_01.vp6",
+      "size": 47001436,
+      "sha256": "d35a5c44a897b43a92024dd3ec6285e4edfa567518f2e39ffcf479fd5ee4d88d"
+    },
+    {
+      "path": "movies/fr/vt_01_02.vp6",
+      "size": 9740848,
+      "sha256": "5903ce1bc97b5d8ac453395368e7feef0a617e1723131d868aadb6a5354168bf"
+    },
+    {
+      "path": "movies/fr/vt_02_01.vp6",
+      "size": 4087592,
+      "sha256": "5c7c65e1c36771da77b197de4e47ffc8796a455d96f30b22b5605efdb7c7205f"
+    },
+    {
+      "path": "movies/fr/vt_02_04.vp6",
+      "size": 11932004,
+      "sha256": "3a045ece49adfb9c437cdb423154fadec46c7b18bb5d4a57049701db7493e663"
+    },
+    {
+      "path": "movies/fr/vt_03_04.vp6",
+      "size": 11000756,
+      "sha256": "a28c1f155b3920c052867d4be096a338ff341fb61c638e214f8ee1058c6dab60"
+    },
+    {
+      "path": "movies/fr/vt_04_01.vp6",
+      "size": 4780344,
+      "sha256": "3847c67a128a037dee3259388e8f786a320da4e0f0ec69e16da4e804cf90cd2c"
+    },
+    {
+      "path": "movies/fr/vt_04_03.vp6",
+      "size": 7972828,
+      "sha256": "c1b53ea01c335e1579ccf882b7731c6fe716177f61d68386d879d04dede64deb"
+    },
+    {
+      "path": "movies/fr/vt_04_04.vp6",
+      "size": 3960488,
+      "sha256": "d661be4da7062621d9ea99b512a756f88bd18f9f3b291611ad144330a7e341f2"
+    },
+    {
+      "path": "movies/fr/vt_04_05.vp6",
+      "size": 20086624,
+      "sha256": "71d66e7251b940e11e5d75ede16390ebfcc1d41f37ac778d61f06e78d13c246e"
+    },
+    {
+      "path": "movies/fr/vt_04_06.vp6",
+      "size": 8619588,
+      "sha256": "ef5b1ff9a4a3d3ec6d06babb41789a060403cd7a2e0a1ae3f39e568146adc654"
+    },
+    {
+      "path": "movies/fr/vt_05_02.vp6",
+      "size": 5445548,
+      "sha256": "5b610bc3c99019fbf69ce646e54aa7b4bf139c444cf309a4a7fd7cf15d06619d"
+    },
+    {
+      "path": "movies/fr/vt_06_01.vp6",
+      "size": 7519312,
+      "sha256": "8ddbdb453c280669153d9008bc8faa5bd83211417d61ce63bd4d3f2b36abd752"
+    },
+    {
+      "path": "movies/fr/vt_08_01.vp6",
+      "size": 5973460,
+      "sha256": "b0cf4c6532b7941d0ecb7555921ad6e4b8b2c9ea191cbb4646e4fb13b5259d64"
+    },
+    {
+      "path": "movies/fr/vt_09_01.vp6",
+      "size": 4744476,
+      "sha256": "584da3174d78eb564159f7b5d1650c0167801034f15706a192ca0aa1afca25a4"
+    },
+    {
+      "path": "movies/fr/vt_10_01.vp6",
+      "size": 4270348,
+      "sha256": "942cb0ab58f5ef63fdf26b8e80ef300547e8c891e9370f094a63531472756751"
+    },
+    {
+      "path": "movies/fr/vt_10_02.vp6",
+      "size": 12028984,
+      "sha256": "027aa60e64681994113300247c4623b634e18ae4c8d84b124bae7fc0599aa438"
+    },
+    {
+      "path": "movies/fr/vt_10_03.vp6",
+      "size": 3979768,
+      "sha256": "249cc2c2945a6f0e81c59e4906d0fdbd6a54616a07975c0d5ec391853009d383"
+    },
+    {
+      "path": "movies/fr/vt_10_04.vp6",
+      "size": 12521544,
+      "sha256": "b772f85eae0d189432624b5dcabd1408686d6c267358ee555e64071e73ee5b2b"
+    },
+    {
+      "path": "movies/fr/vt_11_01.vp6",
+      "size": 7154048,
+      "sha256": "92776ca4b79afa1469d6ccfd77a7a64c7908a63f1c36887bb9c296c79bf2be7b"
+    },
+    {
+      "path": "movies/fr/vt_3_05.vp6",
+      "size": 9385204,
+      "sha256": "8e35bbf11661495a5f666032f114819441e0ec1dec65e25f037a2f7471c444bc"
+    },
+    {
+      "path": "movies/fr/vt_3_05_cdemo.vp6",
+      "size": 14701240,
+      "sha256": "bfd9be737580db64e2971a102bfb2d786d67997f25036005252286a9d8a099da"
+    },
+    {
+      "path": "movies/fr/vt_at_01_05.vp6",
+      "size": 2282868,
+      "sha256": "af4136b6710f4761d054b20b23a1c4b3c55bfd981aae7291ec822a8977f52b5b"
+    },
+    {
+      "path": "movies/fr/vt_at_01_05a.vp6",
+      "size": 4872836,
+      "sha256": "7b44a25275f5a07f2aa95d58fc4c5a69154d08eb1947eebc2ae99ffbc53824d5"
+    },
+    {
+      "path": "movies/fr/vt_at_03_02.vp6",
+      "size": 5331668,
+      "sha256": "485001c8c11766a9bbf9ca9fd52aa5c006e8bba6b761cf39dfd10fb4610c1dd6"
+    },
+    {
+      "path": "movies/fr/vt_at_04_02.vp6",
+      "size": 9426672,
+      "sha256": "f4fe1bcd7437e74c9fb44c53060dcb869ab43b60ad82a8f9ebb1c74a29803013"
+    },
+    {
+      "path": "movies/fr/vt_at_04_05.vp6",
+      "size": 7625444,
+      "sha256": "d021e0135d562f0fddabcab27f2617bf81e47b16b3042b3da5925450d30fb114"
+    },
+    {
+      "path": "movies/fr/vt_at_04_06.vp6",
+      "size": 10695748,
+      "sha256": "bf1c17d31ce3c8f14c3584dafb13d644863d38d560ba256aa1a719d5fe3caffa"
+    },
+    {
+      "path": "movies/fr/vt_at_05_11.vp6",
+      "size": 6409080,
+      "sha256": "5ad757c24d1f7e1143da5d7cfb51f4af3e73b374dc375775956a3058e17541e0"
+    },
+    {
+      "path": "movies/fr/vt_at_05_13.vp6",
+      "size": 8542384,
+      "sha256": "d87520526f59d462ba66066648c18ef19437d3ca090d5c7edd21a16133d2761d"
+    },
+    {
+      "path": "movies/fr/vt_at_06_05.vp6",
+      "size": 2980328,
+      "sha256": "09104a702c253f248264e2f90cb2385795030f7da314ca18c25b4325ae9202e7"
+    },
+    {
+      "path": "movies/fr/vt_at_06_09.vp6",
+      "size": 18895056,
+      "sha256": "7363732963130927193340e4173736e8c3976b4c2119c19e9e939905bf6acba3"
+    },
+    {
+      "path": "movies/fr/vt_at_08_04.vp6",
+      "size": 6577716,
+      "sha256": "7c21ddf443320968112340e40f96c19e4176dddfab94b246813f250e34923421"
+    },
+    {
+      "path": "movies/fr/vt_at_08_05.vp6",
+      "size": 4010064,
+      "sha256": "01a762fef3d35c9d2ccd98d17368d248a9e5ee1f0dcd38056d994465d4c7f119"
+    },
+    {
+      "path": "movies/fr/vt_at_08_06.vp6",
+      "size": 1934712,
+      "sha256": "c392d304ffef2fc32c5ce07b5e36626c83ae02992c0d1814e2b2b141d4d06346"
+    },
+    {
+      "path": "movies/fr/vt_tk_tutorial.vp6",
+      "size": 13862972,
+      "sha256": "67ffdf10e02885d3f39cc998a486f790a5638289c242de4a3bf6cf97e7661e86"
+    },
+    {
+      "path": "Support/AutoRun.bmp",
+      "size": 74996,
+      "sha256": "12f94eface2e1fce452429faa73b5843ae42a435e5530e0dfbe4ab0a012ad915"
+    },
+    {
+      "path": "Support/EA Help/Electronic_Arts_Technical_Support.htm",
+      "size": 9734,
+      "sha256": "dab4f28b6a06a64f79bab7bd4c707edfab3cebda15d7bb2da6678ac0345cda85"
+    },
+    {
+      "path": "Support/EAEula/de_eula.rtf",
+      "size": 56490,
+      "sha256": "2fcf37adabc1439b061036bf441550a957569f3f065194ccd9d0ed5e733298af"
+    },
+    {
+      "path": "Support/EAEula/en-us_eula.rtf",
+      "size": 177523,
+      "sha256": "e2044368917d4a5d092466a1988d71ebf9c1e3a34c51072e39192b95d508cc29"
+    },
+    {
+      "path": "Support/EAEula/es_eula.rtf",
+      "size": 54824,
+      "sha256": "ac08b40379f390e9b9ab20e7912ea018995064d651f4a0cd94dbc142d842d159"
+    },
+    {
+      "path": "Support/EAEula/fr-fr_eula.rtf",
+      "size": 58723,
+      "sha256": "e8801171ba8591ecf835e00091f8ab96275bc7a58acfc13263626f3ff5dbd8eb"
+    },
+    {
+      "path": "Support/EAEula/it_eula.rtf",
+      "size": 55789,
+      "sha256": "5cc3c839aa1274f6b553010e6ffcd4084ca7460c4fa8cd70b49a06d19711ea88"
+    },
+    {
+      "path": "Support/EAEula/ru_eula.rtf",
+      "size": 106215,
+      "sha256": "debc4a62c7fc5d36d25649a7759ce58f50bad33d6eb7193270b37150a9e1f039"
+    },
+    {
+      "path": "Support/leeme.txt",
+      "size": 7332,
+      "sha256": "65aa11a61b34f394a3eb457e262161e75f2a5ab5a8911c52bcd1291c2bfe2aaa"
+    },
+    {
+      "path": "Support/Leggimi.it.txt",
+      "size": 7043,
+      "sha256": "5380445ef5617b2e93e2f4eeae45fb4586b7b1933e10550255c7a6914816a2d0"
+    },
+    {
+      "path": "Support/lisezmoi.txt",
+      "size": 6913,
+      "sha256": "1d4254cf1fdaa3f65fb1b3961c00f4b6943a43a6a39a89d85100355beebac049"
+    },
+    {
+      "path": "Support/mnfst.txt",
+      "size": 92233,
+      "sha256": "a8e88953d179845a9abf031b48995460b87135eb0ca93c871947f0146568db4a"
+    },
+    {
+      "path": "Support/readme.de.txt",
+      "size": 7257,
+      "sha256": "d1c90be45997f4fdf51bfa751245cda5117bfc3938666f072060aaaa41676c19"
+    },
+    {
+      "path": "Support/readme.ru.txt",
+      "size": 11646,
+      "sha256": "2a97698fd6d1ceebfe99f40b2f88de4769650bccd615a67e817e983669011722"
+    },
+    {
+      "path": "Support/readme.txt",
+      "size": 6518,
+      "sha256": "c63244ca7a29bf3816ddff8c7210f71da54c09fa73ed20a929e6f5031d196e4d"
+    },
+    {
+      "path": "Update 1.01 by FLT - Unlocks All Store Items (Cheats)/deadspace2.exe",
+      "size": 63684608,
+      "sha256": "03edad59768b27e3e9b35f7bfe2e672ba5547ce727bc003d9dccba5e7cee25a9"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "__Installer/installerdata.xml",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 169820
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 169820,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 1059236,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1347324,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 2156820,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 17130844,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31543148,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37262020,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42335260,
+          "length": 7054336
+        },
+        {
+          "file": "activation.exe",
+          "file_offset": 0,
+          "chunk_offset": 49389596,
+          "length": 2074624
+        },
+        {
+          "file": "activation.x86.dll",
+          "file_offset": 0,
+          "chunk_offset": 51464220,
+          "length": 6364672
+        },
+        {
+          "file": "activation.xml",
+          "file_offset": 0,
+          "chunk_offset": 57828892,
+          "length": 28969
+        },
+        {
+          "file": "Dead.ico",
+          "file_offset": 0,
+          "chunk_offset": 57857861,
+          "length": 370070
+        },
+        {
+          "file": "deadspace2.exe",
+          "file_offset": 0,
+          "chunk_offset": 58227931,
+          "length": 63201280
+        },
+        {
+          "file": "DS2DAT0.DAT",
+          "file_offset": 0,
+          "chunk_offset": 121429211,
+          "length": 151100566
+        }
+      ],
+      "sha256": "7d048c21f15cbedbc86909456d9731dffdaf3d0d3dda9ba38f730264f60bb26a"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT0.DAT",
+          "file_offset": 151100566,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "9979bcc9260db074c9beb8dc816936c611058d028b8e3238d4e7690bc3858cd7"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT0.DAT",
+          "file_offset": 423630343,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "0400d88942cb4dd3d0d495159f8f6571492186ba33c9d92481a911234a786f11"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT0.DAT",
+          "file_offset": 696160120,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "b27ac9f27ad63611f6971e934b6cebd1703ba3ed127316da5e5da9bc471f82ef"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT0.DAT",
+          "file_offset": 968689897,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "810f3b4f3ff2be603c56eb0bd18cf4411325d1af6ab9ecce8ba1ecb19591acc7"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT0.DAT",
+          "file_offset": 1241219674,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "46844f32dd11d355d915b5eaf7ae88a504c9c2c004bf87479f16d794e324d40b"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT0.DAT",
+          "file_offset": 1513749451,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "72b514be08cb7eb1f46e3c5151946a7983d755f3c329f8df887c2c8fa8f7d2b3"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT0.DAT",
+          "file_offset": 1786279228,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "95a33b0fe285fab6ce313a94033af305502cb320ca9e579002f3bab3f6f213fc"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT0.DAT",
+          "file_offset": 2058809005,
+          "chunk_offset": 0,
+          "length": 86251187
+        },
+        {
+          "file": "DS2DAT1.DAT",
+          "file_offset": 0,
+          "chunk_offset": 86251187,
+          "length": 186278590
+        }
+      ],
+      "sha256": "72c58d4042bdf0787800b67917df2d61adfa25a9e264b201bbda3b6e09563fee"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT1.DAT",
+          "file_offset": 186278590,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "1c07eafbee8993935ae7552c4383889503d3ad2f4211cc6ba1c71761d1ac868d"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT1.DAT",
+          "file_offset": 458808367,
+          "chunk_offset": 0,
+          "length": 188553969
+        },
+        {
+          "file": "DS2DAT6.DAT",
+          "file_offset": 0,
+          "chunk_offset": 188553969,
+          "length": 83975808
+        }
+      ],
+      "sha256": "978ca1702e437beadd89189de2ab5f8a7c96b1140d5a59e8ae97a370a19bd395"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT6.DAT",
+          "file_offset": 83975808,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "8f9339ea703aa0a654d9acfef6bc799107de52ff1198b5cc592438766b4f0240"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT6.DAT",
+          "file_offset": 356505585,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "8750773ecc4c09ab1410819d399a4ae732ba0ba566fff48fa719f989f593b09b"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT6.DAT",
+          "file_offset": 629035362,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "8edf44d556424435accc8f2a162e0e5503676f0bdefcc839c0c489d56ac30021"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT6.DAT",
+          "file_offset": 901565139,
+          "chunk_offset": 0,
+          "length": 152988973
+        },
+        {
+          "file": "DS2DAT7.DAT",
+          "file_offset": 0,
+          "chunk_offset": 152988973,
+          "length": 119540804
+        }
+      ],
+      "sha256": "683a804c0ad30821838a4fe68100150fc5dd6e20998eec8f99c7504e80dec5d5"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT7.DAT",
+          "file_offset": 119540804,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "5329e38687be88eb5292d9781894155f8b698aac5536bc1ace16e20202d87c9d"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT7.DAT",
+          "file_offset": 392070581,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "76abc1acd41784c989b0b4122a5697039c6875cca28869328ee3f5eda25439be"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT7.DAT",
+          "file_offset": 664600358,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "eca0df4ec2dafdf4bc067eeb18c5f73c55b818fcd2ba28684f02456f6c309944"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT7.DAT",
+          "file_offset": 937130135,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "fc87f703c502a4944d387291f8b80c053eb408fc15eb89eb966fd9f943c3e6c0"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT7.DAT",
+          "file_offset": 1209659912,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "1853ddf3996ee009b4897a4c83c4741c6c49259195ed25ceb48c3bff7362ddf2"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT7.DAT",
+          "file_offset": 1482189689,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "fd0ee13c26e9edeb8cdd4e60e674199dcee314e1e5477d3fe5651ddd420a0913"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT7.DAT",
+          "file_offset": 1754719466,
+          "chunk_offset": 0,
+          "length": 93125398
+        },
+        {
+          "file": "DS2DAT8.DAT",
+          "file_offset": 0,
+          "chunk_offset": 93125398,
+          "length": 179404379
+        }
+      ],
+      "sha256": "e444ca5ec803746e0ca120f3c53204859c9dea2d784d27cf6b3108f5d4440fba"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT8.DAT",
+          "file_offset": 179404379,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "b0c8aacce9516cef15d97d4a671fbd9ca488516e6712348c94cf162326261609"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT8.DAT",
+          "file_offset": 451934156,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "e6099ed251401c2f0ad008e0f558a6e5d4b6a2d7d64680c8790e8424a19f759f"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT8.DAT",
+          "file_offset": 724463933,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "232487fba3baaba2714a5ce06eaa0667478f0a19f0f2c1cae980640ac0439462"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT8.DAT",
+          "file_offset": 996993710,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "a0780e1e52adc42c869144faef1906517a85e5ae3571285666b31339cba1bf20"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT8.DAT",
+          "file_offset": 1269523487,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "8d21670e792678d431c294e1109b5f95ac6c54e440f618091e1f2ad5b89e5545"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT8.DAT",
+          "file_offset": 1542053264,
+          "chunk_offset": 0,
+          "length": 110350960
+        },
+        {
+          "file": "DS2DAT9.DAT",
+          "file_offset": 0,
+          "chunk_offset": 110350960,
+          "length": 162178817
+        }
+      ],
+      "sha256": "96a4ddc1f8cc9793fb55353ed44d631d84d098afba12ae9f6d3b785a09d7a331"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT9.DAT",
+          "file_offset": 162178817,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "b39d523d43c88fdab2c60c30b501ca787c06b6a5fbd9bf2d15b6e84a3e16f990"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT9.DAT",
+          "file_offset": 434708594,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "f7b0f1e7040d703c3956c201dc5360646131ba2aeed512505c2476f232e170b6"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT9.DAT",
+          "file_offset": 707238371,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "414b0182189e1bfaa7ae0614129113d513f4bf55ce4b0a8278813d3b84bc75e0"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT9.DAT",
+          "file_offset": 979768148,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "e464e75547de201841e0559bfcef3b63fff460038b6d147e45981c45a5e5a880"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT9.DAT",
+          "file_offset": 1252297925,
+          "chunk_offset": 0,
+          "length": 272529777
+        }
+      ],
+      "sha256": "64be376e6282b8c54d346c6269a99424f6ba83eb4d7261190b0f4f54f2c270b5"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "DS2DAT9.DAT",
+          "file_offset": 1524827702,
+          "chunk_offset": 0,
+          "length": 208589258
+        },
+        {
+          "file": "game.ico",
+          "file_offset": 0,
+          "chunk_offset": 208589258,
+          "length": 15086
+        },
+        {
+          "file": "GDFBinary.de.dll",
+          "file_offset": 0,
+          "chunk_offset": 208604344,
+          "length": 802064
+        },
+        {
+          "file": "GDFBinary.en-us.dll",
+          "file_offset": 0,
+          "chunk_offset": 209406408,
+          "length": 1585936
+        },
+        {
+          "file": "GDFBinary.es.dll",
+          "file_offset": 0,
+          "chunk_offset": 210992344,
+          "length": 428304
+        },
+        {
+          "file": "GDFBinary.fr-fr.dll",
+          "file_offset": 0,
+          "chunk_offset": 211420648,
+          "length": 1585936
+        },
+        {
+          "file": "GDFBinary.it.dll",
+          "file_offset": 0,
+          "chunk_offset": 213006584,
+          "length": 618768
+        },
+        {
+          "file": "GDFBinary.ru.dll",
+          "file_offset": 0,
+          "chunk_offset": 213625352,
+          "length": 802064
+        },
+        {
+          "file": "joypad_example.txt",
+          "file_offset": 0,
+          "chunk_offset": 214427416,
+          "length": 499
+        },
+        {
+          "file": "movies/en/bloopers.vp6",
+          "file_offset": 0,
+          "chunk_offset": 214427915,
+          "length": 200324
+        },
+        {
+          "file": "movies/en/dementia_seq01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 214628239,
+          "length": 8272712
+        },
+        {
+          "file": "movies/en/dementia_seq02.vp6",
+          "file_offset": 0,
+          "chunk_offset": 222900951,
+          "length": 7413168
+        },
+        {
+          "file": "movies/en/dementia_seq03.vp6",
+          "file_offset": 0,
+          "chunk_offset": 230314119,
+          "length": 4065688
+        },
+        {
+          "file": "movies/en/dementia_seq04.vp6",
+          "file_offset": 0,
+          "chunk_offset": 234379807,
+          "length": 8799936
+        },
+        {
+          "file": "movies/en/dementia_seq05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 243179743,
+          "length": 8272712
+        },
+        {
+          "file": "movies/en/ealogo.vp6",
+          "file_offset": 0,
+          "chunk_offset": 251452455,
+          "length": 16167852
+        },
+        {
+          "file": "movies/en/excavation.vp6",
+          "file_offset": 0,
+          "chunk_offset": 267620307,
+          "length": 4909470
+        }
+      ],
+      "sha256": "d9b2845eb5020f540c3e5cba8b5019daf8142825a0397525e9744ab55eec09f8"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "movies/en/excavation.vp6",
+          "file_offset": 4909470,
+          "chunk_offset": 0,
+          "length": 53428922
+        },
+        {
+          "file": "movies/en/pdlc1_vt_01_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 53428922,
+          "length": 9835088
+        },
+        {
+          "file": "movies/en/pdlc1_vt_01_01a.vp6",
+          "file_offset": 0,
+          "chunk_offset": 63264010,
+          "length": 5068864
+        },
+        {
+          "file": "movies/en/pdlc1_vt_02_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 68332874,
+          "length": 1375644
+        },
+        {
+          "file": "movies/en/pdlc_vt_bf.vp6",
+          "file_offset": 0,
+          "chunk_offset": 69708518,
+          "length": 1410804
+        },
+        {
+          "file": "movies/en/remebering.vp6",
+          "file_offset": 0,
+          "chunk_offset": 71119322,
+          "length": 8881696
+        },
+        {
+          "file": "movies/en/se_9_11.vp6",
+          "file_offset": 0,
+          "chunk_offset": 80001018,
+          "length": 6447628
+        },
+        {
+          "file": "movies/en/Trio_FrontEnd.vp6",
+          "file_offset": 0,
+          "chunk_offset": 86448646,
+          "length": 8825508
+        },
+        {
+          "file": "movies/en/unitology.vp6",
+          "file_offset": 0,
+          "chunk_offset": 95274154,
+          "length": 6939216
+        },
+        {
+          "file": "movies/en/vid002-worms.vp6",
+          "file_offset": 0,
+          "chunk_offset": 102213370,
+          "length": 48808312
+        },
+        {
+          "file": "movies/en/vidlog_1_2.vp6",
+          "file_offset": 0,
+          "chunk_offset": 151021682,
+          "length": 6720144
+        },
+        {
+          "file": "movies/en/vidlog_1_3.vp6",
+          "file_offset": 0,
+          "chunk_offset": 157741826,
+          "length": 706760
+        },
+        {
+          "file": "movies/en/vm_01_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 158448586,
+          "length": 29742916
+        },
+        {
+          "file": "movies/en/vm_02_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 188191502,
+          "length": 8231880
+        },
+        {
+          "file": "movies/en/vm_02_01_big.vp6",
+          "file_offset": 0,
+          "chunk_offset": 196423382,
+          "length": 8804672
+        },
+        {
+          "file": "movies/en/vm_08_02.vp6",
+          "file_offset": 0,
+          "chunk_offset": 205228054,
+          "length": 8905296
+        },
+        {
+          "file": "movies/en/vm_08_05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 214133350,
+          "length": 24887088
+        },
+        {
+          "file": "movies/en/vm_09_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 239020438,
+          "length": 5859688
+        },
+        {
+          "file": "movies/en/vm_11_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 244880126,
+          "length": 7296968
+        },
+        {
+          "file": "movies/en/vm_static.vp6",
+          "file_offset": 0,
+          "chunk_offset": 252177094,
+          "length": 3773640
+        },
+        {
+          "file": "movies/en/vt_00_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 255950734,
+          "length": 16579043
+        }
+      ],
+      "sha256": "29f981d49ed7eda4392ee4905f966d5c6b31260b49a093ef3c5c5907ae2e0131"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "movies/en/vt_00_01.vp6",
+          "file_offset": 16579043,
+          "chunk_offset": 0,
+          "length": 165059489
+        },
+        {
+          "file": "movies/en/vt_01_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 165059489,
+          "length": 47001696
+        },
+        {
+          "file": "movies/en/vt_01_02.vp6",
+          "file_offset": 0,
+          "chunk_offset": 212061185,
+          "length": 9741020
+        },
+        {
+          "file": "movies/en/vt_02_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 221802205,
+          "length": 4087592
+        },
+        {
+          "file": "movies/en/vt_02_04.vp6",
+          "file_offset": 0,
+          "chunk_offset": 225889797,
+          "length": 11931672
+        },
+        {
+          "file": "movies/en/vt_03_04.vp6",
+          "file_offset": 0,
+          "chunk_offset": 237821469,
+          "length": 11000696
+        },
+        {
+          "file": "movies/en/vt_04_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 248822165,
+          "length": 4779504
+        },
+        {
+          "file": "movies/en/vt_04_03.vp6",
+          "file_offset": 0,
+          "chunk_offset": 253601669,
+          "length": 7973208
+        },
+        {
+          "file": "movies/en/vt_04_04.vp6",
+          "file_offset": 0,
+          "chunk_offset": 261574877,
+          "length": 3959796
+        },
+        {
+          "file": "movies/en/vt_04_05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 265534673,
+          "length": 6995104
+        }
+      ],
+      "sha256": "042c3fabb49ed81920ca357fd0501f6bc2295bfbacc044e254d51c77af76e0f9"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "movies/en/vt_04_05.vp6",
+          "file_offset": 6995104,
+          "chunk_offset": 0,
+          "length": 13091572
+        },
+        {
+          "file": "movies/en/vt_04_06.vp6",
+          "file_offset": 0,
+          "chunk_offset": 13091572,
+          "length": 8619968
+        },
+        {
+          "file": "movies/en/vt_05_02.vp6",
+          "file_offset": 0,
+          "chunk_offset": 21711540,
+          "length": 5446348
+        },
+        {
+          "file": "movies/en/vt_06_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 27157888,
+          "length": 7519752
+        },
+        {
+          "file": "movies/en/vt_08_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 34677640,
+          "length": 5974048
+        },
+        {
+          "file": "movies/en/vt_09_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 40651688,
+          "length": 4743636
+        },
+        {
+          "file": "movies/en/vt_10_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 45395324,
+          "length": 4269600
+        },
+        {
+          "file": "movies/en/vt_10_02.vp6",
+          "file_offset": 0,
+          "chunk_offset": 49664924,
+          "length": 12028652
+        },
+        {
+          "file": "movies/en/vt_10_03.vp6",
+          "file_offset": 0,
+          "chunk_offset": 61693576,
+          "length": 3979048
+        },
+        {
+          "file": "movies/en/vt_10_04.vp6",
+          "file_offset": 0,
+          "chunk_offset": 65672624,
+          "length": 12521124
+        },
+        {
+          "file": "movies/en/vt_11_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 78193748,
+          "length": 7154820
+        },
+        {
+          "file": "movies/en/vt_3_05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 85348568,
+          "length": 16993348
+        },
+        {
+          "file": "movies/en/vt_3_05_cdemo.vp6",
+          "file_offset": 0,
+          "chunk_offset": 102341916,
+          "length": 14701240
+        },
+        {
+          "file": "movies/en/vt_at_01_05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 117043156,
+          "length": 2282868
+        },
+        {
+          "file": "movies/en/vt_at_01_05a.vp6",
+          "file_offset": 0,
+          "chunk_offset": 119326024,
+          "length": 4872836
+        },
+        {
+          "file": "movies/en/vt_at_03_02.vp6",
+          "file_offset": 0,
+          "chunk_offset": 124198860,
+          "length": 5330740
+        },
+        {
+          "file": "movies/en/vt_at_04_02.vp6",
+          "file_offset": 0,
+          "chunk_offset": 129529600,
+          "length": 9426904
+        },
+        {
+          "file": "movies/en/vt_at_04_05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 138956504,
+          "length": 7625444
+        },
+        {
+          "file": "movies/en/vt_at_04_06.vp6",
+          "file_offset": 0,
+          "chunk_offset": 146581948,
+          "length": 10695656
+        },
+        {
+          "file": "movies/en/vt_at_05_11.vp6",
+          "file_offset": 0,
+          "chunk_offset": 157277604,
+          "length": 6409700
+        },
+        {
+          "file": "movies/en/vt_at_05_13.vp6",
+          "file_offset": 0,
+          "chunk_offset": 163687304,
+          "length": 8542384
+        },
+        {
+          "file": "movies/en/vt_at_06_05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 172229688,
+          "length": 2979788
+        },
+        {
+          "file": "movies/en/vt_at_06_09.vp6",
+          "file_offset": 0,
+          "chunk_offset": 175209476,
+          "length": 18895316
+        },
+        {
+          "file": "movies/en/vt_at_08_04.vp6",
+          "file_offset": 0,
+          "chunk_offset": 194104792,
+          "length": 6577716
+        },
+        {
+          "file": "movies/en/vt_at_08_05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 200682508,
+          "length": 4009344
+        },
+        {
+          "file": "movies/en/vt_at_08_06.vp6",
+          "file_offset": 0,
+          "chunk_offset": 204691852,
+          "length": 4852068
+        },
+        {
+          "file": "movies/en/vt_tk_tutorial.vp6",
+          "file_offset": 0,
+          "chunk_offset": 209543920,
+          "length": 13862252
+        },
+        {
+          "file": "movies/fr/bloopers.vp6",
+          "file_offset": 0,
+          "chunk_offset": 223406172,
+          "length": 200324
+        },
+        {
+          "file": "movies/fr/dementia_seq01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 223606496,
+          "length": 8272712
+        },
+        {
+          "file": "movies/fr/dementia_seq02.vp6",
+          "file_offset": 0,
+          "chunk_offset": 231879208,
+          "length": 7413168
+        },
+        {
+          "file": "movies/fr/dementia_seq03.vp6",
+          "file_offset": 0,
+          "chunk_offset": 239292376,
+          "length": 4065688
+        },
+        {
+          "file": "movies/fr/dementia_seq04.vp6",
+          "file_offset": 0,
+          "chunk_offset": 243358064,
+          "length": 8799936
+        },
+        {
+          "file": "movies/fr/dementia_seq05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 252158000,
+          "length": 8272712
+        },
+        {
+          "file": "movies/fr/ealogo.vp6",
+          "file_offset": 0,
+          "chunk_offset": 260430712,
+          "length": 12099065
+        }
+      ],
+      "sha256": "c101a0b70b6d3a826623d2e31c038a0ab1aae6324a8ad22502ca5b22acc6f7ef"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "movies/fr/ealogo.vp6",
+          "file_offset": 12099065,
+          "chunk_offset": 0,
+          "length": 4068787
+        },
+        {
+          "file": "movies/fr/excavation.vp6",
+          "file_offset": 0,
+          "chunk_offset": 4068787,
+          "length": 58338392
+        },
+        {
+          "file": "movies/fr/pdlc1_vt_01_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 62407179,
+          "length": 9835088
+        },
+        {
+          "file": "movies/fr/pdlc1_vt_01_01a.vp6",
+          "file_offset": 0,
+          "chunk_offset": 72242267,
+          "length": 5068864
+        },
+        {
+          "file": "movies/fr/pdlc1_vt_02_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 77311131,
+          "length": 1375644
+        },
+        {
+          "file": "movies/fr/pdlc_vt_bf.vp6",
+          "file_offset": 0,
+          "chunk_offset": 78686775,
+          "length": 1410804
+        },
+        {
+          "file": "movies/fr/remebering.vp6",
+          "file_offset": 0,
+          "chunk_offset": 80097579,
+          "length": 12823988
+        },
+        {
+          "file": "movies/fr/se_9_11.vp6",
+          "file_offset": 0,
+          "chunk_offset": 92921567,
+          "length": 6447628
+        },
+        {
+          "file": "movies/fr/Trio_FrontEnd.vp6",
+          "file_offset": 0,
+          "chunk_offset": 99369195,
+          "length": 8825508
+        },
+        {
+          "file": "movies/fr/unitology.vp6",
+          "file_offset": 0,
+          "chunk_offset": 108194703,
+          "length": 9835276
+        },
+        {
+          "file": "movies/fr/vid002-worms.vp6",
+          "file_offset": 0,
+          "chunk_offset": 118029979,
+          "length": 48808312
+        },
+        {
+          "file": "movies/fr/vidlog_1_2.vp6",
+          "file_offset": 0,
+          "chunk_offset": 166838291,
+          "length": 6720144
+        },
+        {
+          "file": "movies/fr/vidlog_1_3.vp6",
+          "file_offset": 0,
+          "chunk_offset": 173558435,
+          "length": 706760
+        },
+        {
+          "file": "movies/fr/vm_01_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 174265195,
+          "length": 29742916
+        },
+        {
+          "file": "movies/fr/vm_02_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 204008111,
+          "length": 8231560
+        },
+        {
+          "file": "movies/fr/vm_02_01_big.vp6",
+          "file_offset": 0,
+          "chunk_offset": 212239671,
+          "length": 8804292
+        },
+        {
+          "file": "movies/fr/vm_08_02.vp6",
+          "file_offset": 0,
+          "chunk_offset": 221043963,
+          "length": 8905296
+        },
+        {
+          "file": "movies/fr/vm_08_05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 229949259,
+          "length": 24887088
+        },
+        {
+          "file": "movies/fr/vm_09_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 254836347,
+          "length": 6014220
+        },
+        {
+          "file": "movies/fr/vm_11_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 260850567,
+          "length": 7296968
+        },
+        {
+          "file": "movies/fr/vm_static.vp6",
+          "file_offset": 0,
+          "chunk_offset": 268147535,
+          "length": 3774212
+        },
+        {
+          "file": "movies/fr/vt_00_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 271921747,
+          "length": 608030
+        }
+      ],
+      "sha256": "60c03622d4d6ea9933c1d64e45cbc8e5bbeaa482c70c8833bc8e7e5e39f3967a"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 272529777,
+      "segments": [
+        {
+          "file": "movies/fr/vt_00_01.vp6",
+          "file_offset": 608030,
+          "chunk_offset": 0,
+          "length": 160287686
+        },
+        {
+          "file": "movies/fr/vt_01_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 160287686,
+          "length": 47001436
+        },
+        {
+          "file": "movies/fr/vt_01_02.vp6",
+          "file_offset": 0,
+          "chunk_offset": 207289122,
+          "length": 9740848
+        },
+        {
+          "file": "movies/fr/vt_02_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 217029970,
+          "length": 4087592
+        },
+        {
+          "file": "movies/fr/vt_02_04.vp6",
+          "file_offset": 0,
+          "chunk_offset": 221117562,
+          "length": 11932004
+        },
+        {
+          "file": "movies/fr/vt_03_04.vp6",
+          "file_offset": 0,
+          "chunk_offset": 233049566,
+          "length": 11000756
+        },
+        {
+          "file": "movies/fr/vt_04_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 244050322,
+          "length": 4780344
+        },
+        {
+          "file": "movies/fr/vt_04_03.vp6",
+          "file_offset": 0,
+          "chunk_offset": 248830666,
+          "length": 7972828
+        },
+        {
+          "file": "movies/fr/vt_04_04.vp6",
+          "file_offset": 0,
+          "chunk_offset": 256803494,
+          "length": 3960488
+        },
+        {
+          "file": "movies/fr/vt_04_05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 260763982,
+          "length": 11765795
+        }
+      ],
+      "sha256": "356357d94680fb47cf02bf868eb6c8c64b23d05d612bc5532895889899f0f2ad"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 272529741,
+      "segments": [
+        {
+          "file": "movies/fr/vt_04_05.vp6",
+          "file_offset": 11765795,
+          "chunk_offset": 0,
+          "length": 8320829
+        },
+        {
+          "file": "movies/fr/vt_04_06.vp6",
+          "file_offset": 0,
+          "chunk_offset": 8320829,
+          "length": 8619588
+        },
+        {
+          "file": "movies/fr/vt_05_02.vp6",
+          "file_offset": 0,
+          "chunk_offset": 16940417,
+          "length": 5445548
+        },
+        {
+          "file": "movies/fr/vt_06_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 22385965,
+          "length": 7519312
+        },
+        {
+          "file": "movies/fr/vt_08_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 29905277,
+          "length": 5973460
+        },
+        {
+          "file": "movies/fr/vt_09_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 35878737,
+          "length": 4744476
+        },
+        {
+          "file": "movies/fr/vt_10_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 40623213,
+          "length": 4270348
+        },
+        {
+          "file": "movies/fr/vt_10_02.vp6",
+          "file_offset": 0,
+          "chunk_offset": 44893561,
+          "length": 12028984
+        },
+        {
+          "file": "movies/fr/vt_10_03.vp6",
+          "file_offset": 0,
+          "chunk_offset": 56922545,
+          "length": 3979768
+        },
+        {
+          "file": "movies/fr/vt_10_04.vp6",
+          "file_offset": 0,
+          "chunk_offset": 60902313,
+          "length": 12521544
+        },
+        {
+          "file": "movies/fr/vt_11_01.vp6",
+          "file_offset": 0,
+          "chunk_offset": 73423857,
+          "length": 7154048
+        },
+        {
+          "file": "movies/fr/vt_3_05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 80577905,
+          "length": 9385204
+        },
+        {
+          "file": "movies/fr/vt_3_05_cdemo.vp6",
+          "file_offset": 0,
+          "chunk_offset": 89963109,
+          "length": 14701240
+        },
+        {
+          "file": "movies/fr/vt_at_01_05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 104664349,
+          "length": 2282868
+        },
+        {
+          "file": "movies/fr/vt_at_01_05a.vp6",
+          "file_offset": 0,
+          "chunk_offset": 106947217,
+          "length": 4872836
+        },
+        {
+          "file": "movies/fr/vt_at_03_02.vp6",
+          "file_offset": 0,
+          "chunk_offset": 111820053,
+          "length": 5331668
+        },
+        {
+          "file": "movies/fr/vt_at_04_02.vp6",
+          "file_offset": 0,
+          "chunk_offset": 117151721,
+          "length": 9426672
+        },
+        {
+          "file": "movies/fr/vt_at_04_05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 126578393,
+          "length": 7625444
+        },
+        {
+          "file": "movies/fr/vt_at_04_06.vp6",
+          "file_offset": 0,
+          "chunk_offset": 134203837,
+          "length": 10695748
+        },
+        {
+          "file": "movies/fr/vt_at_05_11.vp6",
+          "file_offset": 0,
+          "chunk_offset": 144899585,
+          "length": 6409080
+        },
+        {
+          "file": "movies/fr/vt_at_05_13.vp6",
+          "file_offset": 0,
+          "chunk_offset": 151308665,
+          "length": 8542384
+        },
+        {
+          "file": "movies/fr/vt_at_06_05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 159851049,
+          "length": 2980328
+        },
+        {
+          "file": "movies/fr/vt_at_06_09.vp6",
+          "file_offset": 0,
+          "chunk_offset": 162831377,
+          "length": 18895056
+        },
+        {
+          "file": "movies/fr/vt_at_08_04.vp6",
+          "file_offset": 0,
+          "chunk_offset": 181726433,
+          "length": 6577716
+        },
+        {
+          "file": "movies/fr/vt_at_08_05.vp6",
+          "file_offset": 0,
+          "chunk_offset": 188304149,
+          "length": 4010064
+        },
+        {
+          "file": "movies/fr/vt_at_08_06.vp6",
+          "file_offset": 0,
+          "chunk_offset": 192314213,
+          "length": 1934712
+        },
+        {
+          "file": "movies/fr/vt_tk_tutorial.vp6",
+          "file_offset": 0,
+          "chunk_offset": 194248925,
+          "length": 13862972
+        },
+        {
+          "file": "Support/AutoRun.bmp",
+          "file_offset": 0,
+          "chunk_offset": 208111897,
+          "length": 74996
+        },
+        {
+          "file": "Support/EA Help/Electronic_Arts_Technical_Support.htm",
+          "file_offset": 0,
+          "chunk_offset": 208186893,
+          "length": 9734
+        },
+        {
+          "file": "Support/EAEula/de_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 208196627,
+          "length": 56490
+        },
+        {
+          "file": "Support/EAEula/en-us_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 208253117,
+          "length": 177523
+        },
+        {
+          "file": "Support/EAEula/es_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 208430640,
+          "length": 54824
+        },
+        {
+          "file": "Support/EAEula/fr-fr_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 208485464,
+          "length": 58723
+        },
+        {
+          "file": "Support/EAEula/it_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 208544187,
+          "length": 55789
+        },
+        {
+          "file": "Support/EAEula/ru_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 208599976,
+          "length": 106215
+        },
+        {
+          "file": "Support/leeme.txt",
+          "file_offset": 0,
+          "chunk_offset": 208706191,
+          "length": 7332
+        },
+        {
+          "file": "Support/Leggimi.it.txt",
+          "file_offset": 0,
+          "chunk_offset": 208713523,
+          "length": 7043
+        },
+        {
+          "file": "Support/lisezmoi.txt",
+          "file_offset": 0,
+          "chunk_offset": 208720566,
+          "length": 6913
+        },
+        {
+          "file": "Support/mnfst.txt",
+          "file_offset": 0,
+          "chunk_offset": 208727479,
+          "length": 92233
+        },
+        {
+          "file": "Support/readme.de.txt",
+          "file_offset": 0,
+          "chunk_offset": 208819712,
+          "length": 7257
+        },
+        {
+          "file": "Support/readme.ru.txt",
+          "file_offset": 0,
+          "chunk_offset": 208826969,
+          "length": 11646
+        },
+        {
+          "file": "Support/readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 208838615,
+          "length": 6518
+        },
+        {
+          "file": "Update 1.01 by FLT - Unlocks All Store Items (Cheats)/deadspace2.exe",
+          "file_offset": 0,
+          "chunk_offset": 208845133,
+          "length": 63684608
+        }
+      ],
+      "sha256": "ecbaabc5837705f610a75cc6d7656c2fe4366e233b02bf62969fad801fae1a7a"
+    }
+  ]
+}
