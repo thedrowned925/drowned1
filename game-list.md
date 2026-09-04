@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 93
-- **Toplam aktif sürüm/kanal:** 93
-- **Toplam aktif boyut:** 2504.959 GB · 2.505 TB
-- **Katalog güncelleme zamanı:** 2026-09-03 19:57:52 UTC
+- **Toplam oyun:** 94
+- **Toplam aktif sürüm/kanal:** 94
+- **Toplam aktif boyut:** 2545.025 GB · 2.545 TB
+- **Katalog güncelleme zamanı:** 2026-09-04 05:29:36 UTC
 
 ## PC
 
-**93 oyun · 93 aktif sürüm/kanal · 2504.959 GB · 2.505 TB**
+**94 oyun · 94 aktif sürüm/kanal · 2545.025 GB · 2.545 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -44,6 +44,7 @@
 | Dishonored | 1.0.0 | stable | 18.079 | 0.018 | `pc-dishonored-v1.0.0-stable` |
 | DOOM | 1.0.0 | stable | 73.984 | 0.074 | `pc-doom-v1.0.0-stable` |
 | Dragon Age: Origins | 1.0.0 | stable | 25.470 | 0.025 | `pc-dragon-age-origins-v1.0.0-stable` |
+| Dragon Age™ Inquisition | 1.0.0 | stable | 40.066 | 0.040 | `pc-dragon-age-inquisition-v1.0.0-stable` |
 | ELDEN RING | 1.0.0 | stable | 74.150 | 0.074 | `pc-elden-ring-v1.0.0-stable` |
 | Fallout 3: Game of the Year Edition | 1.0.0 | stable | 9.207 | 0.009 | `pc-fallout-3-game-of-the-year-edition-v1.0.0-stable` |
 | Fallout 4 | 1.0.0 | stable | 38.617 | 0.039 | `pc-fallout-4-v1.0.0-stable` |
