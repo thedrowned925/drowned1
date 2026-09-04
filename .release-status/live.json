@@ -1,14 +1,14 @@
 {
-  "active": false,
-  "phase": "done",
+  "active": true,
+  "phase": "plan",
   "kind": "game",
-  "title": "Hellblade: Senua's Sacrifice",
+  "title": "Dragon Age™ Inquisition",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
-  "percent": 100,
+  "percent": 0,
   "total_sent": 0,
-  "total_size": 0,
+  "total_size": 40065963255,
   "message": "",
-  "updated_at": "2026-09-03T19:57:55.695084+00:00"
+  "updated_at": "2026-09-04T05:17:21.818880+00:00"
 }
