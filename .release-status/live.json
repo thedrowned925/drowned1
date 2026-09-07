@@ -1,14 +1,14 @@
 {
-  "active": false,
-  "phase": "done",
+  "active": true,
+  "phase": "plan",
   "kind": "game",
-  "title": "Call of Duty® 2",
+  "title": "Dying Light",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
-  "percent": 100,
+  "percent": 0,
   "total_sent": 0,
-  "total_size": 0,
+  "total_size": 40974948371,
   "message": "",
-  "updated_at": "2026-09-07T16:19:03.714081+00:00"
+  "updated_at": "2026-09-07T19:54:19.785172+00:00"
 }
