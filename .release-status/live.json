@@ -1,14 +1,14 @@
 {
-  "active": false,
-  "phase": "done",
+  "active": true,
+  "phase": "plan",
   "kind": "game",
-  "title": "Battlefield 3™",
+  "title": "Call of Duty® 2",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
-  "percent": 100,
+  "percent": 0,
   "total_sent": 0,
-  "total_size": 0,
+  "total_size": 3797608653,
   "message": "",
-  "updated_at": "2026-09-07T16:10:56.011289+00:00"
+  "updated_at": "2026-09-07T16:17:28.898774+00:00"
 }
