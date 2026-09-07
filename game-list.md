@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 100
-- **Toplam aktif sürüm/kanal:** 100
-- **Toplam aktif boyut:** 2620.457 GB · 2.620 TB
-- **Katalog güncelleme zamanı:** 2026-09-07 20:18:43 UTC
+- **Toplam oyun:** 101
+- **Toplam aktif sürüm/kanal:** 101
+- **Toplam aktif boyut:** 2639.496 GB · 2.639 TB
+- **Katalog güncelleme zamanı:** 2026-09-07 23:24:12 UTC
 
 ## PC
 
-**100 oyun · 100 aktif sürüm/kanal · 2620.457 GB · 2.620 TB**
+**101 oyun · 101 aktif sürüm/kanal · 2639.496 GB · 2.639 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -42,6 +42,7 @@
 | DARK SOULS™: Prepare To Die™ Edition | 1.0.0 | stable | 3.962 | 0.004 | `pc-dark-souls-prepare-to-die-edition-v1.0.0-stable` |
 | Dead Space (2008) | 1.0.0 | stable | 7.953 | 0.008 | `pc-dead-space-2008-v1.0.0-stable` |
 | Dead Space™ 2 | 1.0.0 | stable | 10.901 | 0.011 | `pc-dead-space-2-v1.0.0-stable` |
+| Deus Ex: Human Revolution - Director's Cut | 1.0.0 | stable | 19.040 | 0.019 | `pc-deus-ex-human-revolution-director-s-cut-v1.0.0-stable` |
 | Diablo 2 | 1.0.0 | stable | 2.016 | 0.002 | `pc-diablo-2-v1.0.0-stable` |
 | Disco Elysium - The Final Cut | 1.0.0 | stable | 11.404 | 0.011 | `pc-disco-elysium-the-final-cut-v1.0.0-stable` |
 | Dishonored | 1.0.0 | stable | 18.079 | 0.018 | `pc-dishonored-v1.0.0-stable` |
