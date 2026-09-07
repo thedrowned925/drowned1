@@ -1,0 +1,1203 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "max-payne-2-the-fall-of-max-payne",
+    "title": "Max Payne 2: The Fall of Max Payne",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Max Payne 2: The Fall of Max Payne is a violent, film-noir love story. Dark, tragic and intense, the in-depth story is a thrill-ride of shocking twists and revelations. Love hurts."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-max-payne-2-the-fall-of-max-payne-v1.0.0-stable"
+  },
+  "chunk_size": 66054116,
+  "upload_workers": 26,
+  "upload_waves": 1,
+  "total_size": 1717407014,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "BugReport.exe",
+      "size": 49152,
+      "sha256": "362c9c66d26d573215e3c1f0cc897aca061ae6f6cc371d46ea268581e8173747"
+    },
+    {
+      "path": "d3d9.dll",
+      "size": 1188864,
+      "sha256": "f8dbac94d2e8e39503544fc25a3e1568ba48399e3c215f24a175f18d4471870a"
+    },
+    {
+      "path": "e2driver/binkw32.dll",
+      "size": 375808,
+      "sha256": "2d0ae23a6175dc7b635c402a5e7e9542e923c0d1c376a8c5ef876ca0d5959d23"
+    },
+    {
+      "path": "e2driver/e2_d3d8_driver_mfc.dll",
+      "size": 495616,
+      "sha256": "9d72637c51f7a17dd9d95b079e5508ecbe8f1799c34395e0876945d741ff11ae"
+    },
+    {
+      "path": "e2mfc.dll",
+      "size": 421888,
+      "sha256": "9107267fd91d101782f00689431d2faaf7ec8e1984b1a37a189f9c26c09d4d72"
+    },
+    {
+      "path": "eax.dll",
+      "size": 135168,
+      "sha256": "e56ee2d67bfeebbbcaa154b61e0ef248b0a25d6a1e65450f0ed86231d1768e1c"
+    },
+    {
+      "path": "grphmfc.dll",
+      "size": 122880,
+      "sha256": "1a7c6974f66cd7633bcaa7ae799936b301acedb64549e8a0ab734d1e218e8248"
+    },
+    {
+      "path": "help/html/graphics.htm",
+      "size": 11324,
+      "sha256": "6b0eb720332d917c7a3af68076a3da19796b01430448391dfc79b82c8155465b"
+    },
+    {
+      "path": "help/html/input.htm",
+      "size": 4153,
+      "sha256": "6e7feaf72378c8f93060ae7b44c79ad9c891f5176ee4fd81afdfe5e7b0e93dc2"
+    },
+    {
+      "path": "help/html/install.htm",
+      "size": 3377,
+      "sha256": "c31cd68f8cfc970c014803af0f6bb46bc79d5ae45ac29a887407eaa686c4c97d"
+    },
+    {
+      "path": "help/html/intro.htm",
+      "size": 2945,
+      "sha256": "6a8ba4a4c24c933333fc888f0823e0ab6e0ba89bc6269fb31aac1302bdcbcfaf"
+    },
+    {
+      "path": "help/html/perform.htm",
+      "size": 5328,
+      "sha256": "6ffec7278700300088ddb4922a428f0bef982e88e52077dc5685e910550d83d2"
+    },
+    {
+      "path": "help/html/playing.htm",
+      "size": 11310,
+      "sha256": "ed25a3972a354519bd25913be918ff5eebdabbb7535481237697b796b74e1943"
+    },
+    {
+      "path": "help/html/side.htm",
+      "size": 1973,
+      "sha256": "4fdc21e214b8885b8913348986f785c7f16d1878a57f1523e3b296636a592906"
+    },
+    {
+      "path": "help/html/side_ie.css",
+      "size": 877,
+      "sha256": "77722b6a607f82020bea07e7bb8db584c862e1c841942f7079358b54a0bd2c7e"
+    },
+    {
+      "path": "help/html/side_ns.css",
+      "size": 827,
+      "sha256": "3a618e98e2a1ab68acb53cb894e12f654953bcc716104db25dca1f21c45bf8f0"
+    },
+    {
+      "path": "help/html/sound.htm",
+      "size": 4919,
+      "sha256": "36adf3ab9f88d062b8ac31c8efff26e412be32c1d203e0a8145f2f11371f1eb1"
+    },
+    {
+      "path": "help/html/style_ie.css",
+      "size": 571,
+      "sha256": "fa430cd682185f1ce727b301b9dc0df44dbeb4b6100769d9e85459bd7f05cf44"
+    },
+    {
+      "path": "help/html/style_ns.css",
+      "size": 733,
+      "sha256": "1e155da66fd0057908f758426b9f4cd85c2f5eaf758dbb07e9febe158f3ea476"
+    },
+    {
+      "path": "help/html/top.htm",
+      "size": 704,
+      "sha256": "41999e576120d6f1cb050f6bd0112f08e9760e6d3104f39968e1b38941f10694"
+    },
+    {
+      "path": "help/html/troubles.htm",
+      "size": 4349,
+      "sha256": "a428db96e83ef80e041760e622f66e7a6c6fe65710fe0b7f0a7fd87d3e083391"
+    },
+    {
+      "path": "help/images/1x1pix.gif",
+      "size": 43,
+      "sha256": "71d66e87a9561f8cc70f06a466a5f75a77aa9cb55e8795e0539c514eff7cf7d3"
+    },
+    {
+      "path": "help/images/maxbg.gif",
+      "size": 47879,
+      "sha256": "c58bbe4ec769089649e89c833015e48feb272784d005ea69fce6a45193cbab95"
+    },
+    {
+      "path": "help/images/maxlogo.gif",
+      "size": 3831,
+      "sha256": "67ca9409b6d27f7563d2ab6cac68e48587c9446aeed6439fc848b4984690661c"
+    },
+    {
+      "path": "help/images/menu1x80.gif",
+      "size": 71,
+      "sha256": "88032d71c38cf9c2bc7d7381ce77f9e696525cbf7ef3aa5136685c167a94c241"
+    },
+    {
+      "path": "help/images/rmdlogo.gif",
+      "size": 1758,
+      "sha256": "fce0f589b249037c4102eba3a11e4a15fbef5b388e3d78516023de6d4e341935"
+    },
+    {
+      "path": "help/images/rockstarlogo.gif",
+      "size": 1502,
+      "sha256": "69e9908bf87bd8b1a4cc9e01e8dbf098faec1e31eab30ecd70455ce40eaaf122"
+    },
+    {
+      "path": "help/patch.htm",
+      "size": 1664,
+      "sha256": "ba46c7630f3d94bf8421dbd1da63fbb2281dcc384064f30545644531f913437f"
+    },
+    {
+      "path": "help/readme.htm",
+      "size": 1013,
+      "sha256": "a8979debe366b5fd288689fe1b070677a943b981233f256e0af9df571f6ca2c4"
+    },
+    {
+      "path": "help/register.url",
+      "size": 131,
+      "sha256": "c71b84af2aff42f54e277b10934c69d2a3ee4d0230c50a0434222043dd6b2128"
+    },
+    {
+      "path": "help/support.url",
+      "size": 126,
+      "sha256": "287a8e2b7bb8cdb24757c5e0dc7b8c04383767217d0f7b2ec8c70c02047d8aa1"
+    },
+    {
+      "path": "KF2MFC.dll",
+      "size": 368640,
+      "sha256": "ae16ab1360d20c1478334e9d55b989b782baf6db8a3f5a67d95537f882b469ee"
+    },
+    {
+      "path": "MaxPayne2.exe",
+      "size": 1486848,
+      "sha256": "1e25cafc37174a607b58a38dfac796056f0f38f35d253b0b2d7677f9bd7bd010"
+    },
+    {
+      "path": "MaxPayne2.ico",
+      "size": 370070,
+      "sha256": "e46e9cf87ee266199ab783fed1eb7fc17860eb9a1902f39c972a264d3cee1152"
+    },
+    {
+      "path": "mfc71.dll",
+      "size": 1060864,
+      "sha256": "4da5efdc46d126b45daeee8bc69c0ba2aa243589046b7dfd12a7e21b9bee6a32"
+    },
+    {
+      "path": "movies/credits.bik",
+      "size": 14723540,
+      "sha256": "4276f983b1aa16a76911bff33616ded0b3bdfa6275521d86ff285f92938f5b86"
+    },
+    {
+      "path": "movies/previously.bik",
+      "size": 35242404,
+      "sha256": "1edbb7d18d772a54d472eb4686bede542328183edb294ecb3b6ba2f4aca72a78"
+    },
+    {
+      "path": "movies/startup.bik",
+      "size": 5281568,
+      "sha256": "5cd3043deadd2aeaaa68a8263965a1315e67bcebcbba0558c4299d9c79b55f01"
+    },
+    {
+      "path": "MP2_Data.ras",
+      "size": 287187040,
+      "sha256": "dda431909f8ae7575f238a97066e00f822744bfdf30a4459f536b058d2b95870"
+    },
+    {
+      "path": "MP2_English.ras",
+      "size": 354981006,
+      "sha256": "fde9686acc2d0e8895645c07c14c24dd9f5055c4ace05c3ca9f2dc0ae5bb46bb"
+    },
+    {
+      "path": "MP2_Init.ras",
+      "size": 584059,
+      "sha256": "56a4e81a834b1cfb030e88c5ca004298a7a66a1e41a3b750cb1317c321d63728"
+    },
+    {
+      "path": "MP2_Levels_A.ras",
+      "size": 241280617,
+      "sha256": "8a2dce935b5522dd1a7bab651b81e4416e1072551ea3dc88e1ae2b482d363848"
+    },
+    {
+      "path": "MP2_Levels_B.ras",
+      "size": 413304672,
+      "sha256": "b506c8c5e987348d398ef477a6502f88f86e4e7cf215ef994bbb26016fdc777b"
+    },
+    {
+      "path": "MP2_Levels_C.ras",
+      "size": 112577097,
+      "sha256": "89d61f86f37cec10d0e334bde36e59fc07a842f9912fca04a461180208858284"
+    },
+    {
+      "path": "MP2_Music.ras",
+      "size": 167070351,
+      "sha256": "91199214a8a782ff4638de59ce4f18a5e889e5a3ea1bea85d0544004615f00eb"
+    },
+    {
+      "path": "MP2_Sounds.ras",
+      "size": 23534692,
+      "sha256": "f77e4698361b264817abcf1466f8d97cf140323c1667fbceed8225ffed4b1d4f"
+    },
+    {
+      "path": "msvcp71.dll",
+      "size": 499712,
+      "sha256": "df96156f6a548fd6fe5672918de5ae4509d3c810a57bffd2a91de45a3ed5b23b"
+    },
+    {
+      "path": "msvcr71.dll",
+      "size": 348160,
+      "sha256": "8094af5ee310714caebccaeee7769ffb08048503ba478b879edfef5f1a24fefe"
+    },
+    {
+      "path": "oleacc.dll",
+      "size": 176128,
+      "sha256": "195c173a2009ca957b93fad00f2bff24597cdba022258dddd0014b4069979ff7"
+    },
+    {
+      "path": "PSysLibMFC.dll",
+      "size": 106496,
+      "sha256": "94be26fe728fb5e3cda23398245846555f20774093346e39f1ba78ca48b5f3e5"
+    },
+    {
+      "path": "rlmfc.dll",
+      "size": 225280,
+      "sha256": "68e4d7d99d8db08bd05d414fa224eae921a72760ed8b93e377f8c51597ea2e61"
+    },
+    {
+      "path": "savegames/Where are my saved games.txt",
+      "size": 176,
+      "sha256": "878d6c36813a6efdcc76b6f39d8b045f9e9a71f7bca8a0cbab79a88c2750e7fb"
+    },
+    {
+      "path": "scripts/global.ini",
+      "size": 259,
+      "sha256": "5eb61f9eca90f202179dff6850cbeb92bcba464dab4da24ae936769e3906a057"
+    },
+    {
+      "path": "scripts/MaxPayne2.WidescreenFix.asi",
+      "size": 222720,
+      "sha256": "3ba1f25bd374f104aa4833b84823113a111456e8b4d49969b300202cee6af111"
+    },
+    {
+      "path": "scripts/MaxPayne2.WidescreenFix.ini",
+      "size": 999,
+      "sha256": "01352722c9d4be9085a077a5f0cb5d8717958634f20257182b82b423607a15be"
+    },
+    {
+      "path": "sndmfc.dll",
+      "size": 106496,
+      "sha256": "82940ecb52cdf7ccbf9115f88582ae718f6da9ed8d2a0864e6078a067b41782c"
+    },
+    {
+      "path": "SysInfo.dll",
+      "size": 49152,
+      "sha256": "f82d757ccafbf914b07f41bb367a5067986a7b68169bed654ae1e66e5fda66a4"
+    },
+    {
+      "path": "T_GraphMFC.dll",
+      "size": 36864,
+      "sha256": "0d1fc2c9dae1af032b19e29eb8083a73fee95ffed32d97bbfe863f6aa91c8419"
+    },
+    {
+      "path": "X_AudioMFC.dll",
+      "size": 221184,
+      "sha256": "975efe0460c7417ed15778796c4362f7b24a908800bd53577c0c2a1a4ecebb27"
+    },
+    {
+      "path": "X_BasicModesMFC.dll",
+      "size": 315392,
+      "sha256": "7812180685d6cc1821b94c71739226ecd461052e2c204e46b824b486bdaf6895"
+    },
+    {
+      "path": "X_GameObjectsMFC.dll",
+      "size": 1912832,
+      "sha256": "98823044e9ba0e9dfd61c0008c1831a2372cfccd7a287314cc93e50b30ae2628"
+    },
+    {
+      "path": "X_HelpersMFC.dll",
+      "size": 53248,
+      "sha256": "770410fe92095c1e0f768f4e10168c8fc551bc0cf6aec03f83c21b12c426689e"
+    },
+    {
+      "path": "X_Inputmfc.dll",
+      "size": 77824,
+      "sha256": "196dd65447d6614c7ede82fb6f4bf902712df1dbfe15df2589d99247dd69c27c"
+    },
+    {
+      "path": "X_LevelMFC.dll",
+      "size": 126976,
+      "sha256": "0c37c97e81d93619db6f0a4b03947c4a05a4a45aef50b5df970ee4a58463ccd7"
+    },
+    {
+      "path": "X_LevelRuntimeMFC.dll",
+      "size": 118784,
+      "sha256": "42565f3579eaf1f2d592cd4b60db9257d1bb1cc5d9f6de17d4a57545c14252b3"
+    },
+    {
+      "path": "X_MessageMFC.dll",
+      "size": 135168,
+      "sha256": "0cb2b59eec07c6fec01e5390f2a06977c8bfd733005eca87218477baec2649de"
+    },
+    {
+      "path": "X_ModesMFC.dll",
+      "size": 204800,
+      "sha256": "5491f25aa2d6986511c3af32754108dde2a0220c0aeb69c8db16f0f541c26556"
+    },
+    {
+      "path": "X_PhysicalSimulationMFC.dll",
+      "size": 860160,
+      "sha256": "cd97cb986712f7f540e7af83353f4980b6c7affc997bd657946b78ec3f77c99f"
+    },
+    {
+      "path": "X_SharedDBMFC.dll",
+      "size": 434176,
+      "sha256": "02684e6465ea6097a50d01a48d785d98b3197df1966f4ccb1d18e3b576375c54"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "BugReport.exe",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 49152
+        },
+        {
+          "file": "d3d9.dll",
+          "file_offset": 0,
+          "chunk_offset": 49268928,
+          "length": 1188864
+        },
+        {
+          "file": "e2driver/binkw32.dll",
+          "file_offset": 0,
+          "chunk_offset": 50457792,
+          "length": 375808
+        },
+        {
+          "file": "e2driver/e2_d3d8_driver_mfc.dll",
+          "file_offset": 0,
+          "chunk_offset": 50833600,
+          "length": 495616
+        },
+        {
+          "file": "e2mfc.dll",
+          "file_offset": 0,
+          "chunk_offset": 51329216,
+          "length": 421888
+        },
+        {
+          "file": "eax.dll",
+          "file_offset": 0,
+          "chunk_offset": 51751104,
+          "length": 135168
+        },
+        {
+          "file": "grphmfc.dll",
+          "file_offset": 0,
+          "chunk_offset": 51886272,
+          "length": 122880
+        },
+        {
+          "file": "help/html/graphics.htm",
+          "file_offset": 0,
+          "chunk_offset": 52009152,
+          "length": 11324
+        },
+        {
+          "file": "help/html/input.htm",
+          "file_offset": 0,
+          "chunk_offset": 52020476,
+          "length": 4153
+        },
+        {
+          "file": "help/html/install.htm",
+          "file_offset": 0,
+          "chunk_offset": 52024629,
+          "length": 3377
+        },
+        {
+          "file": "help/html/intro.htm",
+          "file_offset": 0,
+          "chunk_offset": 52028006,
+          "length": 2945
+        },
+        {
+          "file": "help/html/perform.htm",
+          "file_offset": 0,
+          "chunk_offset": 52030951,
+          "length": 5328
+        },
+        {
+          "file": "help/html/playing.htm",
+          "file_offset": 0,
+          "chunk_offset": 52036279,
+          "length": 11310
+        },
+        {
+          "file": "help/html/side.htm",
+          "file_offset": 0,
+          "chunk_offset": 52047589,
+          "length": 1973
+        },
+        {
+          "file": "help/html/side_ie.css",
+          "file_offset": 0,
+          "chunk_offset": 52049562,
+          "length": 877
+        },
+        {
+          "file": "help/html/side_ns.css",
+          "file_offset": 0,
+          "chunk_offset": 52050439,
+          "length": 827
+        },
+        {
+          "file": "help/html/sound.htm",
+          "file_offset": 0,
+          "chunk_offset": 52051266,
+          "length": 4919
+        },
+        {
+          "file": "help/html/style_ie.css",
+          "file_offset": 0,
+          "chunk_offset": 52056185,
+          "length": 571
+        },
+        {
+          "file": "help/html/style_ns.css",
+          "file_offset": 0,
+          "chunk_offset": 52056756,
+          "length": 733
+        },
+        {
+          "file": "help/html/top.htm",
+          "file_offset": 0,
+          "chunk_offset": 52057489,
+          "length": 704
+        },
+        {
+          "file": "help/html/troubles.htm",
+          "file_offset": 0,
+          "chunk_offset": 52058193,
+          "length": 4349
+        },
+        {
+          "file": "help/images/1x1pix.gif",
+          "file_offset": 0,
+          "chunk_offset": 52062542,
+          "length": 43
+        },
+        {
+          "file": "help/images/maxbg.gif",
+          "file_offset": 0,
+          "chunk_offset": 52062585,
+          "length": 47879
+        },
+        {
+          "file": "help/images/maxlogo.gif",
+          "file_offset": 0,
+          "chunk_offset": 52110464,
+          "length": 3831
+        },
+        {
+          "file": "help/images/menu1x80.gif",
+          "file_offset": 0,
+          "chunk_offset": 52114295,
+          "length": 71
+        },
+        {
+          "file": "help/images/rmdlogo.gif",
+          "file_offset": 0,
+          "chunk_offset": 52114366,
+          "length": 1758
+        },
+        {
+          "file": "help/images/rockstarlogo.gif",
+          "file_offset": 0,
+          "chunk_offset": 52116124,
+          "length": 1502
+        },
+        {
+          "file": "help/patch.htm",
+          "file_offset": 0,
+          "chunk_offset": 52117626,
+          "length": 1664
+        },
+        {
+          "file": "help/readme.htm",
+          "file_offset": 0,
+          "chunk_offset": 52119290,
+          "length": 1013
+        },
+        {
+          "file": "help/register.url",
+          "file_offset": 0,
+          "chunk_offset": 52120303,
+          "length": 131
+        },
+        {
+          "file": "help/support.url",
+          "file_offset": 0,
+          "chunk_offset": 52120434,
+          "length": 126
+        },
+        {
+          "file": "KF2MFC.dll",
+          "file_offset": 0,
+          "chunk_offset": 52120560,
+          "length": 368640
+        },
+        {
+          "file": "MaxPayne2.exe",
+          "file_offset": 0,
+          "chunk_offset": 52489200,
+          "length": 1486848
+        },
+        {
+          "file": "MaxPayne2.ico",
+          "file_offset": 0,
+          "chunk_offset": 53976048,
+          "length": 370070
+        },
+        {
+          "file": "mfc71.dll",
+          "file_offset": 0,
+          "chunk_offset": 54346118,
+          "length": 1060864
+        },
+        {
+          "file": "movies/credits.bik",
+          "file_offset": 0,
+          "chunk_offset": 55406982,
+          "length": 10647134
+        }
+      ],
+      "sha256": "0166017080e8f00659407aa04a9178b09ec80b9f9821c60e7da1cafdaf0ce814"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "movies/credits.bik",
+          "file_offset": 10647134,
+          "chunk_offset": 0,
+          "length": 4076406
+        },
+        {
+          "file": "movies/previously.bik",
+          "file_offset": 0,
+          "chunk_offset": 4076406,
+          "length": 35242404
+        },
+        {
+          "file": "movies/startup.bik",
+          "file_offset": 0,
+          "chunk_offset": 39318810,
+          "length": 5281568
+        },
+        {
+          "file": "MP2_Data.ras",
+          "file_offset": 0,
+          "chunk_offset": 44600378,
+          "length": 21453738
+        }
+      ],
+      "sha256": "2c1ece05e48f275bbde973f7d866d6ed2ee6e7696c75c2df00c295aa37ac67b8"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Data.ras",
+          "file_offset": 21453738,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "e9934af31c197d758cf03a04237a50ba4d2a753f4c393365c4388816521fdc95"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Data.ras",
+          "file_offset": 87507854,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "bbf9c027dfa8339b9bdfc7bdeb7c2f9678a03fd0d6b4d93072aa3a6bdb502418"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Data.ras",
+          "file_offset": 153561970,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "b7c3d8472f14e6a363fae6797241d23677dc1a7712a5a748e21155a0bd9987f7"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Data.ras",
+          "file_offset": 219616086,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "9112d6cae0971c3704a591f9a8b95e0830e49f739c2d00016b4084b6aecbc335"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Data.ras",
+          "file_offset": 285670202,
+          "chunk_offset": 0,
+          "length": 1516838
+        },
+        {
+          "file": "MP2_English.ras",
+          "file_offset": 0,
+          "chunk_offset": 1516838,
+          "length": 64537278
+        }
+      ],
+      "sha256": "00f709692cb2b79e24005012c8816773bcb05f12ac7a34d64bcc92d341ba688c"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_English.ras",
+          "file_offset": 64537278,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "60b4d82f4e417ea170f54c5f7d6b1ea8714d12371b0af47d4d83f2889a95149a"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_English.ras",
+          "file_offset": 130591394,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "b612cee836e1056288b7e34ae9aeabc70849863c1d2c5b50bc44a9e0e9e0fbf9"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_English.ras",
+          "file_offset": 196645510,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "9e658cd3eb1e1fb99c215579cd578df8c91dcd3ce906ecf8f83fbc45de94eea1"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_English.ras",
+          "file_offset": 262699626,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "07049a340ec6354feec12f261f32daffc02e5f6991e205cbef7b80c37fbda23b"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_English.ras",
+          "file_offset": 328753742,
+          "chunk_offset": 0,
+          "length": 26227264
+        },
+        {
+          "file": "MP2_Init.ras",
+          "file_offset": 0,
+          "chunk_offset": 26227264,
+          "length": 584059
+        },
+        {
+          "file": "MP2_Levels_A.ras",
+          "file_offset": 0,
+          "chunk_offset": 26811323,
+          "length": 39242793
+        }
+      ],
+      "sha256": "eccbe65da7aa0cb793345f4cc5fadd1a66527374bed4894243cd09627faed189"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Levels_A.ras",
+          "file_offset": 39242793,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "479a7055012425ef7579d003d234cc0bb2636b72831f7843368d0e23d7266162"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Levels_A.ras",
+          "file_offset": 105296909,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "5c42903f13d0df6d7683d4dcb2399030060fbe75ca55f71dfc798bd9202c964b"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Levels_A.ras",
+          "file_offset": 171351025,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "7efefdb2c41f7a7487059455197bf6b35ce177dcb8c85cf43c0d18f54b470641"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Levels_A.ras",
+          "file_offset": 237405141,
+          "chunk_offset": 0,
+          "length": 3875476
+        },
+        {
+          "file": "MP2_Levels_B.ras",
+          "file_offset": 0,
+          "chunk_offset": 3875476,
+          "length": 62178640
+        }
+      ],
+      "sha256": "341d1366e9fd6b548d4c0634b2c53ccb280045baaf55edf9b39df452ba32fd53"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Levels_B.ras",
+          "file_offset": 62178640,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "04550d640a3631d30882710136fcdbcb64dd261a73a9605b73cc2101d3ce4dc8"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Levels_B.ras",
+          "file_offset": 128232756,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "19bbd17aa5e4b7f3b0a6a89065998ebbb07cd3add79db3c437326d704b982c6a"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Levels_B.ras",
+          "file_offset": 194286872,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "0ca3f5d0d86d6f2f4a235afc4684795bf2157e5b86a20d0b530260a7efa9f6b7"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Levels_B.ras",
+          "file_offset": 260340988,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "17e731ba1cf4af23d97bb5ef8dbd45271fe9e9c1c418a411b7d67d93a845bef9"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Levels_B.ras",
+          "file_offset": 326395104,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "490dfa4ba4da80fc904d342256160948190dcd6108e884154350d2a4a4101623"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Levels_B.ras",
+          "file_offset": 392449220,
+          "chunk_offset": 0,
+          "length": 20855452
+        },
+        {
+          "file": "MP2_Levels_C.ras",
+          "file_offset": 0,
+          "chunk_offset": 20855452,
+          "length": 45198664
+        }
+      ],
+      "sha256": "b7f2cb1d05d8bddc17fc67afc938a720e3f976d4a4c2bcb87560efbe9c460212"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Levels_C.ras",
+          "file_offset": 45198664,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "2b87586ef96732196a57e11079ce52a0ba09043da06416d2dd0482a47911a103"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Levels_C.ras",
+          "file_offset": 111252780,
+          "chunk_offset": 0,
+          "length": 1324317
+        },
+        {
+          "file": "MP2_Music.ras",
+          "file_offset": 0,
+          "chunk_offset": 1324317,
+          "length": 64729799
+        }
+      ],
+      "sha256": "11e9f331bcc282ca65ff33f9ede91794aa44bdfd7cc2580bb194850c749d0c71"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 66054116,
+      "segments": [
+        {
+          "file": "MP2_Music.ras",
+          "file_offset": 64729799,
+          "chunk_offset": 0,
+          "length": 66054116
+        }
+      ],
+      "sha256": "50309d5d69cd59f344ad5c195928f720c3771406025c68a3527612435382cf30"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 66054114,
+      "segments": [
+        {
+          "file": "MP2_Music.ras",
+          "file_offset": 130783915,
+          "chunk_offset": 0,
+          "length": 36286436
+        },
+        {
+          "file": "MP2_Sounds.ras",
+          "file_offset": 0,
+          "chunk_offset": 36286436,
+          "length": 23534692
+        },
+        {
+          "file": "msvcp71.dll",
+          "file_offset": 0,
+          "chunk_offset": 59821128,
+          "length": 499712
+        },
+        {
+          "file": "msvcr71.dll",
+          "file_offset": 0,
+          "chunk_offset": 60320840,
+          "length": 348160
+        },
+        {
+          "file": "oleacc.dll",
+          "file_offset": 0,
+          "chunk_offset": 60669000,
+          "length": 176128
+        },
+        {
+          "file": "PSysLibMFC.dll",
+          "file_offset": 0,
+          "chunk_offset": 60845128,
+          "length": 106496
+        },
+        {
+          "file": "rlmfc.dll",
+          "file_offset": 0,
+          "chunk_offset": 60951624,
+          "length": 225280
+        },
+        {
+          "file": "savegames/Where are my saved games.txt",
+          "file_offset": 0,
+          "chunk_offset": 61176904,
+          "length": 176
+        },
+        {
+          "file": "scripts/global.ini",
+          "file_offset": 0,
+          "chunk_offset": 61177080,
+          "length": 259
+        },
+        {
+          "file": "scripts/MaxPayne2.WidescreenFix.asi",
+          "file_offset": 0,
+          "chunk_offset": 61177339,
+          "length": 222720
+        },
+        {
+          "file": "scripts/MaxPayne2.WidescreenFix.ini",
+          "file_offset": 0,
+          "chunk_offset": 61400059,
+          "length": 999
+        },
+        {
+          "file": "sndmfc.dll",
+          "file_offset": 0,
+          "chunk_offset": 61401058,
+          "length": 106496
+        },
+        {
+          "file": "SysInfo.dll",
+          "file_offset": 0,
+          "chunk_offset": 61507554,
+          "length": 49152
+        },
+        {
+          "file": "T_GraphMFC.dll",
+          "file_offset": 0,
+          "chunk_offset": 61556706,
+          "length": 36864
+        },
+        {
+          "file": "X_AudioMFC.dll",
+          "file_offset": 0,
+          "chunk_offset": 61593570,
+          "length": 221184
+        },
+        {
+          "file": "X_BasicModesMFC.dll",
+          "file_offset": 0,
+          "chunk_offset": 61814754,
+          "length": 315392
+        },
+        {
+          "file": "X_GameObjectsMFC.dll",
+          "file_offset": 0,
+          "chunk_offset": 62130146,
+          "length": 1912832
+        },
+        {
+          "file": "X_HelpersMFC.dll",
+          "file_offset": 0,
+          "chunk_offset": 64042978,
+          "length": 53248
+        },
+        {
+          "file": "X_Inputmfc.dll",
+          "file_offset": 0,
+          "chunk_offset": 64096226,
+          "length": 77824
+        },
+        {
+          "file": "X_LevelMFC.dll",
+          "file_offset": 0,
+          "chunk_offset": 64174050,
+          "length": 126976
+        },
+        {
+          "file": "X_LevelRuntimeMFC.dll",
+          "file_offset": 0,
+          "chunk_offset": 64301026,
+          "length": 118784
+        },
+        {
+          "file": "X_MessageMFC.dll",
+          "file_offset": 0,
+          "chunk_offset": 64419810,
+          "length": 135168
+        },
+        {
+          "file": "X_ModesMFC.dll",
+          "file_offset": 0,
+          "chunk_offset": 64554978,
+          "length": 204800
+        },
+        {
+          "file": "X_PhysicalSimulationMFC.dll",
+          "file_offset": 0,
+          "chunk_offset": 64759778,
+          "length": 860160
+        },
+        {
+          "file": "X_SharedDBMFC.dll",
+          "file_offset": 0,
+          "chunk_offset": 65619938,
+          "length": 434176
+        }
+      ],
+      "sha256": "904b1db9b0ca5986533c7684182d1369a28b6e3f80d0152986758a5b7699ea07"
+    }
+  ]
+}
