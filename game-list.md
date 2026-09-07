@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 98
-- **Toplam aktif sürüm/kanal:** 98
-- **Toplam aktif boyut:** 2617.926 GB · 2.618 TB
-- **Katalog güncelleme zamanı:** 2026-09-07 20:07:53 UTC
+- **Toplam oyun:** 99
+- **Toplam aktif sürüm/kanal:** 99
+- **Toplam aktif boyut:** 2618.739 GB · 2.619 TB
+- **Katalog güncelleme zamanı:** 2026-09-07 20:12:59 UTC
 
 ## PC
 
-**98 oyun · 98 aktif sürüm/kanal · 2617.926 GB · 2.618 TB**
+**99 oyun · 99 aktif sürüm/kanal · 2618.739 GB · 2.619 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -101,6 +101,7 @@
 | South Park™: The Stick of Truth™ | 1.0.0 | stable | 5.772 | 0.006 | `pc-south-park-the-stick-of-truth-v1.0.0-stable` |
 | STAR WARS™ Knights of the Old Republic™ | 1.0.0 | stable | 3.733 | 0.004 | `pc-star-wars-knights-of-the-old-republic-v1.0.0-stable` |
 | Stardew Valley | 1.0.0 | stable | 0.733 | 0.001 | `pc-stardew-valley-v1.0.0-stable` |
+| Terraria | 1.0.0 | stable | 0.814 | 0.001 | `pc-terraria-v1.0.0-stable` |
 | The Elder Scrolls IV: Oblivion® Game of the Year Edition (2009) | 1.0.0 | stable | 5.946 | 0.006 | `pc-the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009-v1.0.0-stable` |
 | The Elder Scrolls V: Skyrim | 1.0.0 | stable | 13.902 | 0.014 | `pc-the-elder-scrolls-v-skyrim-v1.0.0-stable` |
 | The Walking Dead | 1.0.0 | stable | 4.637 | 0.005 | `pc-the-walking-dead-v1.0.0-stable` |
