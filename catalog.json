@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-07T20:12:59.979991+00:00",
+  "updated_at": "2026-09-07T20:18:43.135560+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -3325,6 +3325,37 @@
       },
       "media": {
         "steam_app_id": 105600
+      }
+    },
+    {
+      "id": "max-payne-2-the-fall-of-max-payne",
+      "title": "Max Payne 2: The Fall of Max Payne",
+      "platform": "pc",
+      "description": "Max Payne 2: The Fall of Max Payne is a violent, film-noir love story. Dark, tragic and intense, the in-depth story is a thrill-ride of shocking twists and revelations. Love hurts.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-2-the-fall-of-max-payne/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-2-the-fall-of-max-payne/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-2-the-fall-of-max-payne/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-2-the-fall-of-max-payne/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-2-the-fall-of-max-payne/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-2-the-fall-of-max-payne/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-2-the-fall-of-max-payne/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/max-payne-2-the-fall-of-max-payne/screenshots/03.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-max-payne-2-the-fall-of-max-payne-v1.0.0-stable",
+          "manifest_path": "manifests/pc/max-payne-2-the-fall-of-max-payne/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/max-payne-2-the-fall-of-max-payne/stable/1.0.0.json",
+          "size": 1717407014,
+          "published_at": "2026-09-07T20:18:43.135549+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 12150
       }
     }
   ]
