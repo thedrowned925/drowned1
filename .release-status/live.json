@@ -1,14 +1,14 @@
 {
-  "active": true,
-  "phase": "metadata",
+  "active": false,
+  "phase": "done",
   "kind": "game",
   "title": "Dying Light",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
   "percent": 100,
-  "total_sent": 40974948371,
-  "total_size": 40974948371,
+  "total_sent": 0,
+  "total_size": 0,
   "message": "",
-  "updated_at": "2026-09-07T20:07:26.930401+00:00"
+  "updated_at": "2026-09-07T20:07:56.444867+00:00"
 }
