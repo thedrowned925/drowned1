@@ -1,0 +1,2188 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "deus-ex-human-revolution-director-s-cut",
+    "title": "Deus Ex: Human Revolution - Director's Cut",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "You play Adam Jensen, an ex-SWAT specialist who's been handpicked to oversee the defensive needs of one of America's most experimental biotechnology firms. When a black ops team breaks in and kills the very scientists you were hired to protect, everything you thought you knew about your job changes."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-deus-ex-human-revolution-director-s-cut-v1.0.0-stable"
+  },
+  "chunk_size": 475994241,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 19039769616,
+  "files": [
+    {
+      "path": "_CommonRedist/_redist_readme.txt",
+      "size": 2038,
+      "sha256": "b9ff3c3422e06fb509f4d9ea3ae4493ee804a7efdd1297fbff8eceed40b6c403"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 295320,
+      "sha256": "2cf71d098c608c56e07f4655855a886c3102553f648df88458df616b26fd612f"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+      "size": 31533074,
+      "sha256": "3c188e4651bcc07df2bdb06d69585158797b1bafb91557b09217621628cd5b23"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054848,
+      "sha256": "47260420773a20443fb1e38a89b7f39c5237a80a842de598e6c8f7f90a3bbd6d"
+    },
+    {
+      "path": "BIGFILE.000",
+      "size": 2146160640,
+      "sha256": "0a0ccdc8b65dc9ee96aa0af33017118de103b474e28250fdf11f3ec76a3cd0f7"
+    },
+    {
+      "path": "BIGFILE.001",
+      "size": 2141575168,
+      "sha256": "b1fbb445de3d75ea4996866e65a931d9edee31572bf10ee73a54f9bcefd35ee8"
+    },
+    {
+      "path": "BIGFILE.002",
+      "size": 2143993856,
+      "sha256": "60702d19151ba2c7d855b8691aab0059c956147428da1c743ae71d26d8aca4d2"
+    },
+    {
+      "path": "BIGFILE.003",
+      "size": 2145372160,
+      "sha256": "c6b258dd53e94c70e3b1967ab2f3805721d40ff465aa3f44cda18cbb093fa2d1"
+    },
+    {
+      "path": "BIGFILE.004",
+      "size": 2146357248,
+      "sha256": "04d39e45caaba1f232986d88ef6cfd30cdb1de2e86e0be924ef290671c9203ab"
+    },
+    {
+      "path": "BIGFILE.005",
+      "size": 2146344960,
+      "sha256": "62e348e70be6b474a1b22452c85a6a0b5c379838a24f26008c1ffb6d5835717e"
+    },
+    {
+      "path": "BIGFILE.006",
+      "size": 2145624064,
+      "sha256": "a9b90b9058ef6259c9574d0bdf436846262c2ff1728a16a72329b882363f9183"
+    },
+    {
+      "path": "BIGFILE.007",
+      "size": 2146304000,
+      "sha256": "d31c4b2100659f6db2f5f8a649d430582895c815e14d49b5a6034726cf2bd0b5"
+    },
+    {
+      "path": "BIGFILE.008",
+      "size": 1817227264,
+      "sha256": "7db98e09cb36338a22b3e6486a012caff7abf6c9e6d32717965ab35b172c8d36"
+    },
+    {
+      "path": "DFEngine.dll",
+      "size": 889488,
+      "sha256": "030324902ef29f04a3c1152fac6f52bd26ba64dbdaa71cf24f6d2f97e102145e"
+    },
+    {
+      "path": "DX3HTML.zip",
+      "size": 49660,
+      "sha256": "6719e84170162359d9649fadc3d25842ceb41af08545fa68aeee69a85ae4029e"
+    },
+    {
+      "path": "dxhr.ico",
+      "size": 32038,
+      "sha256": "70caff36b067f527d887285e57cefde9614b66f02e31ca1fd039cce277b80ba2"
+    },
+    {
+      "path": "DXHRDC.exe",
+      "size": 11915312,
+      "sha256": "8266b6b4a5bf25f2f4e8de068aa3720f6289c962bb1c2bb70a7b1c111ba510a1"
+    },
+    {
+      "path": "fmodex.dll",
+      "size": 374272,
+      "sha256": "bde1882d73f30a7894a94a1187deeb6ff00208b447b34c2f22d044680ca5d61b"
+    },
+    {
+      "path": "fmodexL.dll",
+      "size": 423424,
+      "sha256": "efbf00b432669c01d4cfa91d8b2bb8f3c89685d6908b851cc8327ff0ba4f7efe"
+    },
+    {
+      "path": "installscript.vdf",
+      "size": 710,
+      "sha256": "4f92207cc2c15707eabbdd8fe63cb0b16346ebe1537bc7fcae987d0ee1023345"
+    },
+    {
+      "path": "MakeAppXml.exe",
+      "size": 90624,
+      "sha256": "6b07273da22d26da6ee01390ec335bb16e68cebdbc07dd054279cbafa0983058"
+    },
+    {
+      "path": "steam_api.bak",
+      "size": 106408,
+      "sha256": "6756b377865f55e1c8c8a21526f87559741f204036ce33e5be594d3e13b53bce"
+    },
+    {
+      "path": "steam_api.dll",
+      "size": 5911976,
+      "sha256": "a3ef49d70b8f3dafbcab3866c6f724ede9f841b128dac1fe2627385924f22800"
+    },
+    {
+      "path": "steam_appid.txt",
+      "size": 6,
+      "sha256": "a594595c866a0c46a35b1cd5359d9d03d928877a6eff2f4e0e0187ab6297b45e"
+    },
+    {
+      "path": "steam_interfaces.txt",
+      "size": 400,
+      "sha256": "3bc60f3265dedaf306720367041da406af2c3078e67fab99a8c1134d617dd5cc"
+    },
+    {
+      "path": "steam_settings/achievements.json",
+      "size": 91568,
+      "sha256": "6839af365ac05fbde2398a8bc2f8e2d4033c5b1999d018a550c795c388b7bbc7"
+    },
+    {
+      "path": "steam_settings/configs.app.ini",
+      "size": 3673,
+      "sha256": "06c1695be7324645ac3bcfe63459ee9e4d51c31af3bf01f284b8308f7263c583"
+    },
+    {
+      "path": "steam_settings/configs.overlay.ini.disabled",
+      "size": 5321,
+      "sha256": "c4c6e739200ba4c4a460f7948ae46eacb83c7d356551ecd77e644788fa8bf4e9"
+    },
+    {
+      "path": "steam_settings/configs.user.ini",
+      "size": 1659,
+      "sha256": "2af6e70b2f5ca493200b1882445d8baec8e3efcedabf44daea530adf618adc11"
+    },
+    {
+      "path": "steam_settings/images/00f78385453546a1a4030004d2d63a99b2e29087.jpg",
+      "size": 2075,
+      "sha256": "557cb2e8a41415d02b55de7fedf18fd1cf5611aae583aafd584ddf3caa2f3a3a"
+    },
+    {
+      "path": "steam_settings/images/026963cddaf9d2b932308f6bae8bd39e1efde6b8.jpg",
+      "size": 2313,
+      "sha256": "4b03b54badc8705f03fe8089ef34037c7082cad4abf766eb55cae18bc3fa6fc1"
+    },
+    {
+      "path": "steam_settings/images/04738298bd3af57243d12aa88b264837b52e3354.jpg",
+      "size": 2895,
+      "sha256": "ddd5b9fc62bc4349a80448f7ad8a7b306f2d54292f6343dbfbb8e3f715de631b"
+    },
+    {
+      "path": "steam_settings/images/0494ee938a263ce7e3c98109fc94e68c1d984979.jpg",
+      "size": 2906,
+      "sha256": "75ff54d9590794d596473874407485c45c398f3164ca680b75748d38434a825d"
+    },
+    {
+      "path": "steam_settings/images/0742ff8e063455f97eef08459ca28711713a1676.jpg",
+      "size": 3146,
+      "sha256": "0b60085a55a93af3d667b71a4fd70bd74134c2b050ce1fe7d534bffbc9b3be6a"
+    },
+    {
+      "path": "steam_settings/images/08519b007cf879e7061a3d1f34959fea44534f54.jpg",
+      "size": 2676,
+      "sha256": "1b8bcc311959fa62ffd8747c082d00faf1a8d5fbb25b0c7e81a9ec023bc0770c"
+    },
+    {
+      "path": "steam_settings/images/0852d022319bdde6104394b20d79bb91950356ca.jpg",
+      "size": 1806,
+      "sha256": "654d3a02edd3a5e444ee057023a7a9661c6ffecdebc2ce396606bd5dab801319"
+    },
+    {
+      "path": "steam_settings/images/0ac9feba95b4c9fe555bf90d89dec6232f175a58.jpg",
+      "size": 3101,
+      "sha256": "40b40ac42134a9c337ec551495297afb768c6c78476c133c1a92f2db4baf4ae2"
+    },
+    {
+      "path": "steam_settings/images/10a2d34bbb9d6f36f3600124ad1d42e6f7f89b83.jpg",
+      "size": 2852,
+      "sha256": "1e9285e61c9dbf6450b25c483dcf048f8eb8be5bd6797d529244423d10009898"
+    },
+    {
+      "path": "steam_settings/images/13c483fe628783ed76d1b81bffdb87718fef874f.jpg",
+      "size": 2575,
+      "sha256": "d57865546875179beea5c1e75547b7019dcb861bca69cb7f9c49265b80dbf46c"
+    },
+    {
+      "path": "steam_settings/images/1416ab2b1c04387121edbd5d2261f2d42e35ab66.jpg",
+      "size": 2564,
+      "sha256": "cfcb4c1060429d527be83de750a171eaa07a829373d9300e3a0eec125ba83c53"
+    },
+    {
+      "path": "steam_settings/images/1430b0441543260f061e831434ac9765b3f96019.jpg",
+      "size": 1990,
+      "sha256": "a25f5d19ed47b1f3feaa58dcdabd4aad33f44654a7f0b39294c7476f6b791f84"
+    },
+    {
+      "path": "steam_settings/images/16fbdb3a9686876e52f8ebeba6581739bc2539ba.jpg",
+      "size": 3059,
+      "sha256": "e75debb89f010cc2d8a7de47540b80f74269a896150419d6841d5ce984d38212"
+    },
+    {
+      "path": "steam_settings/images/187db8df76ff98732d086850ffe75b9804ad7c22.jpg",
+      "size": 2679,
+      "sha256": "ba278de867c0ef2753b95efc1d7445614fc522078167dc724bc1ffd602adf9c8"
+    },
+    {
+      "path": "steam_settings/images/1af8e66f4f2fb4127fda8f84df9be17547e73c9c.jpg",
+      "size": 2657,
+      "sha256": "418790c730cac34324863764e3b10781a05e6c4ae32e41ef6a7ff41c36217da8"
+    },
+    {
+      "path": "steam_settings/images/2217505b2f217b9518c29cbbe7ada8f4dbdc9aa8.jpg",
+      "size": 2581,
+      "sha256": "6513270eaa8fbac2942913c573bf53e2b416269dac269a5cd10048e4c5d73780"
+    },
+    {
+      "path": "steam_settings/images/222a6123794d92d63bfb9dea8400ed1283c42c20.jpg",
+      "size": 3144,
+      "sha256": "17cbb830e28095363a1f1d849d8cb03e526bf53ed3cecfab58b3f4d7bfcd1a78"
+    },
+    {
+      "path": "steam_settings/images/249bf43b141c416cf88701e9d3106a88f1e40ae9.jpg",
+      "size": 3139,
+      "sha256": "81f138fceb0d243ea32f4977f18a5adea005fa07b26549297a11f2d70c9b9e2c"
+    },
+    {
+      "path": "steam_settings/images/24f54aa95b1da6044aad08935991f065509eb73e.jpg",
+      "size": 2703,
+      "sha256": "cf34944809962cc6d3d1574ddbebcea1e5f4fae00e3d0b979bb9d387e230d713"
+    },
+    {
+      "path": "steam_settings/images/25bf9c793678b6c8ff319124bcb30fbbffbc8e9d.jpg",
+      "size": 3077,
+      "sha256": "d6195cf78e5b00dad1643f28c921869795ff988e1ba2f6a144a4028a04310a4a"
+    },
+    {
+      "path": "steam_settings/images/25e5daf9e37680d62433cdbe5a329debe1d15075.jpg",
+      "size": 2750,
+      "sha256": "8c37767f7188d6e9f2746781f627f2932401efb9f4d9c0c960c27d391d90806f"
+    },
+    {
+      "path": "steam_settings/images/265c7a142924e33d4cf0e2fb401bc2a9f6a67ad1.jpg",
+      "size": 2555,
+      "sha256": "d92f7750621f7f49d244b1f0d7921325a3a48bfdeb5142129de07bf7169d2870"
+    },
+    {
+      "path": "steam_settings/images/29bee02dad3dfb316d5bf4876e91301b2773ff2e.jpg",
+      "size": 1818,
+      "sha256": "a45871e655bf36697d7038f51790e0b2e9d164fd3e30dd20e20eac7eb4fd210b"
+    },
+    {
+      "path": "steam_settings/images/2a0a2c6129080f5dae4846c02d45097451561a42.jpg",
+      "size": 3000,
+      "sha256": "78ddf46469bef002013c0a1a54ce98681d16d99224f3c86dfe86b4163b942640"
+    },
+    {
+      "path": "steam_settings/images/2a5daa7cda6d0801114ba7ed529b2bf6602eb5cd.jpg",
+      "size": 2424,
+      "sha256": "5fce7105772d2c6c4967c70216cc1abff9623c0e608bd19fe688f8c7e2e6ccc2"
+    },
+    {
+      "path": "steam_settings/images/35845607f70d1458a7e9f17c20ca93101c8b4ce6.jpg",
+      "size": 2431,
+      "sha256": "dc414ecec85b0ef39ff68286cabb31cd6f5adcc0e7d949adb26515024d0ab6ff"
+    },
+    {
+      "path": "steam_settings/images/35f259790f002637163471f5ed351f39a84de204.jpg",
+      "size": 3039,
+      "sha256": "f638476fd7d5a95da18c467b59a35132b084be835662aec4f78c05e3f0fb4e9e"
+    },
+    {
+      "path": "steam_settings/images/36370502af13bfcc19fc23b33addf60d2d510568.jpg",
+      "size": 2982,
+      "sha256": "fb3a608e14da3a664570cce2fd959719c7b3525964c1f41ac8ec23786c716b2d"
+    },
+    {
+      "path": "steam_settings/images/396b5b3be5232878421c4d8c6d95233ced3190d0.jpg",
+      "size": 2861,
+      "sha256": "5be51da2cd60e826e25ee6c00a47ae9936745e53b6b9fd178fa3c0cda6558b96"
+    },
+    {
+      "path": "steam_settings/images/3df63c9a395fa35397766a27f30ee1825800ec13.jpg",
+      "size": 2718,
+      "sha256": "e9ef170683b78ca5f68156d800a751f8151e25280c607f39bac177706e89acd1"
+    },
+    {
+      "path": "steam_settings/images/40064db9ed166c6a0d5a89916de2da6815feb82c.jpg",
+      "size": 3409,
+      "sha256": "3485fbc90ad46522df423c255db2a7788e8ddf867834e639895aa868cf3c983a"
+    },
+    {
+      "path": "steam_settings/images/429ad9c2130f841f01ffaba24609c497d07f8802.jpg",
+      "size": 2403,
+      "sha256": "924509f879b98bafcd5f067f6774c4c1ff33783cbab4e54662dad82652de9b03"
+    },
+    {
+      "path": "steam_settings/images/4432f698b75467c23880cef2b4bd3b0c1b17dd32.jpg",
+      "size": 3313,
+      "sha256": "dd31126c6794c301d17d23ff599688d5d614400476c9a13f08e2ab5c5ebbd517"
+    },
+    {
+      "path": "steam_settings/images/464704d8521c146222e9f73f4fe9548ff28ebdd4.jpg",
+      "size": 2902,
+      "sha256": "f557acc5cd69a929d947955b18c6d8287490be947b3e1c86bf1b87eb1e08cf11"
+    },
+    {
+      "path": "steam_settings/images/46484873b64b2a77034939acc39bbb8851dc857e.jpg",
+      "size": 2055,
+      "sha256": "df248c4e8ba35213e34d150be5bfab6079d1a6e8348ce9d7bd7b77b7cd402d18"
+    },
+    {
+      "path": "steam_settings/images/46bb5c887f1388482bca12d5ba592ecb91dcd0c6.jpg",
+      "size": 3250,
+      "sha256": "6615d762447003d8bf21f2387718d856042a4ea3ba03a5014eff4c61b4399e08"
+    },
+    {
+      "path": "steam_settings/images/4a12aaf21f3c73598ff642e8b9b26b4b6cad1544.jpg",
+      "size": 2718,
+      "sha256": "eebe5f87c405a0e31b69ca7f573ad630ef4faaa7b2653b3cee90bd6f189a145e"
+    },
+    {
+      "path": "steam_settings/images/4b2d29d95c74a3a7f9767d969a3a1eba07e243e3.jpg",
+      "size": 2594,
+      "sha256": "9b814b5e47ffeb166eb5e607458661df64841ad8521771aede16fd4687476fd2"
+    },
+    {
+      "path": "steam_settings/images/4bc17a96cc77b65e67f6e1e72ac7c6345e6b4017.jpg",
+      "size": 2971,
+      "sha256": "3964566d012d6cfb99ad5017fe97a85a482f226ded6739e6e3aa4dcbe1bccbbd"
+    },
+    {
+      "path": "steam_settings/images/4c762d547bacc9722e2d3a5092c32ef1d01aa9c6.jpg",
+      "size": 3012,
+      "sha256": "bc33b5b3dca5d94caedc7f98180a97e4fc9696aa76870c99f436faee2a24fc47"
+    },
+    {
+      "path": "steam_settings/images/500ad7e570194f9d43cb079086934cabc3b7e2f0.jpg",
+      "size": 2584,
+      "sha256": "212597f6036474a297c95f6a0af886b913457fe31af03136c62f646d4c08744d"
+    },
+    {
+      "path": "steam_settings/images/5015022c3d805744cac85640b7d696d1be17e342.jpg",
+      "size": 2641,
+      "sha256": "71beaa0d90165f2f8c8c5e2549f83c9d25e973df2dd728cdcc7f4c34af171fd6"
+    },
+    {
+      "path": "steam_settings/images/507cd4ca3e05567c4ee02af6a34583073c49074b.jpg",
+      "size": 3348,
+      "sha256": "f837b50ba01718a4a78bd47f346b654702646f18eb03656c605a09f39c1b8419"
+    },
+    {
+      "path": "steam_settings/images/531d95508d8df8dc214e5d055f4e46af06b85e43.jpg",
+      "size": 2907,
+      "sha256": "b89e14e0b43d80d9dd58d4a32226f0cb3a9a0ac28b95f573f6ea38f9ef8230a6"
+    },
+    {
+      "path": "steam_settings/images/594f3b561de207c21333a08cd44a0f2d575ed9a5.jpg",
+      "size": 2730,
+      "sha256": "f858a47d193321c0606de9dcac2f6dea67e3d88b190e2594f80c72b42997015d"
+    },
+    {
+      "path": "steam_settings/images/5d709065dd18d8df1168d014fbead05fad382dec.jpg",
+      "size": 3343,
+      "sha256": "0438137aa80d84d817b02c16d9ea303b92b0b22b0a68a50364d85afcd691dab8"
+    },
+    {
+      "path": "steam_settings/images/5e7449a03ddc903a57dfa1b05cc76aabcf2ae72c.jpg",
+      "size": 2205,
+      "sha256": "a89c5dae8ec8197131dfcf8bfc9042de53c4138ad91caf2f4870b9f473a2830c"
+    },
+    {
+      "path": "steam_settings/images/63bbf5412236ab43c70843c2761f88a547038f4c.jpg",
+      "size": 2645,
+      "sha256": "8b03e9f5e10684fc40db9155a684c1e13ae5361804a80a82c057b392ccf9e1a2"
+    },
+    {
+      "path": "steam_settings/images/63bfadd0004f7c8e15852d19e278adf56712f13e.jpg",
+      "size": 2973,
+      "sha256": "7ccf210c2c4e6606946526f9f05f56605c0fdaba1a31c325de719cd4408dc6ca"
+    },
+    {
+      "path": "steam_settings/images/66caf846e402e9cb274266b716a753ab7120b624.jpg",
+      "size": 2996,
+      "sha256": "4e4683d2a2802261432d3d212fcdf96440311985c6e652f0997246581685d9e8"
+    },
+    {
+      "path": "steam_settings/images/671e7cd854801e61cd472213e7768f286c6fbaf9.jpg",
+      "size": 2793,
+      "sha256": "afe3ff35f5e75bee5eb2419bcb1f4027f6e94a8629f182aa8d43899131941177"
+    },
+    {
+      "path": "steam_settings/images/676697fd005a6295bd59e8844768ca7b5c41d6ca.jpg",
+      "size": 2606,
+      "sha256": "5dd5dbe177451c587aa92184c2090034132a99886c81ed118f2d3881b17863f5"
+    },
+    {
+      "path": "steam_settings/images/681bc6879e2065b99621176b94656517b7195ab6.jpg",
+      "size": 2441,
+      "sha256": "39f17bb6c9e882ccb3d9d7f88f96bc6199aa81cf65fe370061f85636a8433704"
+    },
+    {
+      "path": "steam_settings/images/693131aa6b804fdf2b94f21c9afd5e5ef4588430.jpg",
+      "size": 2787,
+      "sha256": "5281103fbe6ef203358470b3c62b1f324f9b569a98892f2a8625dc4a4a35e103"
+    },
+    {
+      "path": "steam_settings/images/698edb5d0b3ee7614a01e3e8ffdccf31ba0aa65a.jpg",
+      "size": 3345,
+      "sha256": "91ec33f241fcfb658ff4a71adf3f3687a9abef27f0c67e5bbcf395e30bd90078"
+    },
+    {
+      "path": "steam_settings/images/69929348298d05eb1323814bcae0079a3d8cca02.jpg",
+      "size": 3261,
+      "sha256": "6b89f00373ef918d0ed89c64b781c299136617e2ae45a1acecc92222096063fc"
+    },
+    {
+      "path": "steam_settings/images/6c31ed2ee17f33b9f906d72009ba4a27e1732c1d.jpg",
+      "size": 2894,
+      "sha256": "21e26836a25e586b0da3b3af0ad335f5a57a4a87133b1a916c96181f3d784f84"
+    },
+    {
+      "path": "steam_settings/images/6e1efca81204aca6f9e85c5dac85fcdbc5dbf2fc.jpg",
+      "size": 3344,
+      "sha256": "612d91ae29a2aa07fc8709935975366307dddc84f941819a60726688f71119af"
+    },
+    {
+      "path": "steam_settings/images/6e2953f4dce5a45c663a38610d9aff8f089256ce.jpg",
+      "size": 2817,
+      "sha256": "3a5b5b585d516bfbf80053cd6346602022c77e74548df4030a16e0c42a628058"
+    },
+    {
+      "path": "steam_settings/images/74c97edb1da80bc4aec3e827ec6fe6c23d6678ee.jpg",
+      "size": 3366,
+      "sha256": "091c6d7f360e36458e239599ba321b0d45206e56b7aa260566121f57469c6969"
+    },
+    {
+      "path": "steam_settings/images/7846c00a37ed9bb74bd4508910c935c27de3f68f.jpg",
+      "size": 2985,
+      "sha256": "f8fd2a476d7dbae4f660c39ee7568c2a48c90a4acacfbb0132d85ff1cb39c232"
+    },
+    {
+      "path": "steam_settings/images/7c8e0881faba5279b4a5a0b23baffd1932791b92.jpg",
+      "size": 2817,
+      "sha256": "84ce7a210eac039d75c64ecc5f8243700ef0cbc5013dc86fd9734b0d28e5dd06"
+    },
+    {
+      "path": "steam_settings/images/8052262fee1a1e35b55ce632f2f6ad8eae233ba8.jpg",
+      "size": 3415,
+      "sha256": "8a079fdd00ce7f6ed72e17e1de327a1c172600060bcc546bbb328e158804f7a7"
+    },
+    {
+      "path": "steam_settings/images/858335f2bb400e1ecc2e2f83117bbe94567c5a87.jpg",
+      "size": 2604,
+      "sha256": "0847f3dd80507c207103c12a02e12b392b7f24f6c94d366f712e227987bdd91b"
+    },
+    {
+      "path": "steam_settings/images/8e6921314738e0d30ae1e922f356e49ba340d19e.jpg",
+      "size": 2872,
+      "sha256": "4887bca94d22f67e19771cb2938d14b34c5024fff04bc717187f7b74e21e54e4"
+    },
+    {
+      "path": "steam_settings/images/8f42d210a7220b44c433b6b23c494ba90288d1b4.jpg",
+      "size": 1620,
+      "sha256": "1d937094d3a4244711ace1dced8ea756fe689484fb2154fb1bb09f7c8e849fac"
+    },
+    {
+      "path": "steam_settings/images/905b8110c3417bd927f9f759a3d8be2c8f784e8d.jpg",
+      "size": 2390,
+      "sha256": "3e92c4fe32770539fc7144405e76db1be23167aa756a3b0fe263990b201f64a1"
+    },
+    {
+      "path": "steam_settings/images/92c85a07596160a7806a224cb5a72a0a8221e922.jpg",
+      "size": 2685,
+      "sha256": "4c0bd531c3256d1f7619daad6ac2ec064b5c4b2886ca8c8f3714a411132db53e"
+    },
+    {
+      "path": "steam_settings/images/9563df238ad3bc3eac47ccb428782e267f06acbc.jpg",
+      "size": 2512,
+      "sha256": "36b8914394eee181f92b585016385f352f744cc723bc990e26e2cb7d2df4abc2"
+    },
+    {
+      "path": "steam_settings/images/96b19f47f9f8a54767dea89a4fa265737df544c3.jpg",
+      "size": 2608,
+      "sha256": "e7ed26733fba70bb3ac332486e63f9ce375a66ab50825ff47d4f02ab9825cdad"
+    },
+    {
+      "path": "steam_settings/images/98375732db1a9c80b73a08a9095de78a5dcb5b35.jpg",
+      "size": 3011,
+      "sha256": "e0e3941a5a1ad50ef1a3974358170a0f77476f1c0ccae1203eea891e8e6c0d37"
+    },
+    {
+      "path": "steam_settings/images/98cc85a9c888a8d9c7656eff26248a33087e5a75.jpg",
+      "size": 3121,
+      "sha256": "d01489536cc6c1806735641723bc45d7cddb669137d94f0f32145c0c60150057"
+    },
+    {
+      "path": "steam_settings/images/99a16550f3d0a9d9565d993c9f9a2ded2fd0a006.jpg",
+      "size": 2516,
+      "sha256": "e5809323fb1e4876abc13ad0077da5602668c311a27cd52381931d069394f4b4"
+    },
+    {
+      "path": "steam_settings/images/9b9760062eead33ec801d6a13e1f1663c38cfa8e.jpg",
+      "size": 2899,
+      "sha256": "3971ee59352cda4752852a0f1b3e31a7d9ff45b2457940bde65ad893d4cc407b"
+    },
+    {
+      "path": "steam_settings/images/a6780a93a65ac19e66f9986abddc444cb9757d39.jpg",
+      "size": 3462,
+      "sha256": "70ed3be776f04721e01c770f83642f545d294d46f5af47c27f444298fc932511"
+    },
+    {
+      "path": "steam_settings/images/aaa2853d08b6550f24b753091644a34fd8ecf542.jpg",
+      "size": 2515,
+      "sha256": "75f5adabe42556e7c88d87888572c1a287902a5c3c753286c4722b23a1e55aee"
+    },
+    {
+      "path": "steam_settings/images/ad2fac90636bc9ff9517ebf7a8772f4d3c297a47.jpg",
+      "size": 2874,
+      "sha256": "bafa0aba70297716b066a578c8b3ca2a04af58962dcc96398fe96352c533c3a4"
+    },
+    {
+      "path": "steam_settings/images/ae4802224802fd76acdae8ed87767e6e8bfc262c.jpg",
+      "size": 3084,
+      "sha256": "c04d2182d8e666dd3a8100929a18f96b4ecd75d10753f72ec6711b6853d4d651"
+    },
+    {
+      "path": "steam_settings/images/aee83fc4df69257e3168a843be2c098e6a02244f.jpg",
+      "size": 2379,
+      "sha256": "e491c7c3469915b20cb3db704566542b694e1743201bc52bda66517c8b0c0bdc"
+    },
+    {
+      "path": "steam_settings/images/af6c84738927291dbc03be7293f4a1aafeca628f.jpg",
+      "size": 2302,
+      "sha256": "28f4bfe06f8729077c9ac90d6e76312f43b26c92db2dc1d9c6d490acf3635343"
+    },
+    {
+      "path": "steam_settings/images/b05eeacf2c412180ee6d551209cce79527482d80.jpg",
+      "size": 3249,
+      "sha256": "6cec4905c65c84fd36fb6567f27fe39cca713153a2b4c84a9f45cd4ff7e295e1"
+    },
+    {
+      "path": "steam_settings/images/b0e11077735a8b888dc0ce4fc9a5b4013115c817.jpg",
+      "size": 2805,
+      "sha256": "302dbceb1d7f5c8237833fac8afd7f343d269624411d6c1658a3919e8946a05e"
+    },
+    {
+      "path": "steam_settings/images/b563c8929caad572732114bb5109c9f84e8f4471.jpg",
+      "size": 2696,
+      "sha256": "dea3719b6be792ae34952baf0cf22691ff528d1e9b61910cb5958f02a5ab4eab"
+    },
+    {
+      "path": "steam_settings/images/b7cba4c8b3db078e6e4efe54efd81b5a7758a2a6.jpg",
+      "size": 2807,
+      "sha256": "d15ea9e3fef28ec6010353cfe038714cfd430b352807e1dd1fcc7931e498db7b"
+    },
+    {
+      "path": "steam_settings/images/b890d45c4a5294f16931ae86b206104adc486e2c.jpg",
+      "size": 3452,
+      "sha256": "424da3dbda142dca87cd3af92047b01808b9602efb23de4741bb5890a97b9875"
+    },
+    {
+      "path": "steam_settings/images/bbe064602557d6a69000aab61cd71f7f0df5f96b.jpg",
+      "size": 3119,
+      "sha256": "d33b93da5cd557d9abec79867cd007f9552ce6c9a1c0d6772f6001501748159f"
+    },
+    {
+      "path": "steam_settings/images/bd883d371462a4f3e8b32350f3977dba3a46871d.jpg",
+      "size": 2466,
+      "sha256": "05cee598e7ed0feae93cab63b3f73f6d13ba5d7695d138434e28cb1c7a4e3cba"
+    },
+    {
+      "path": "steam_settings/images/be6eb72f34f65b00464e4a66d8bf674fc6ff6cd5.jpg",
+      "size": 3209,
+      "sha256": "687f58dfb87220d0b97b34227b78efb682ca3b237ab430af8a7fcbd0fe872c38"
+    },
+    {
+      "path": "steam_settings/images/be82290cf4978d9cfa2c61b5b36dbddd29b314bc.jpg",
+      "size": 2716,
+      "sha256": "6bc192e5222a609c40ed836484f39b62d250affafa5216f4cbc2659b352def83"
+    },
+    {
+      "path": "steam_settings/images/c0110d8588d34ec3d25639a3ab8790aabdbf57b6.jpg",
+      "size": 2509,
+      "sha256": "ae08702acf8b707fdf5ab7f55f75aefcc5b5a9459fe00f3772e4abbd1beaaaed"
+    },
+    {
+      "path": "steam_settings/images/c1ddd77f663256824203a39cd52f7d3e70691129.jpg",
+      "size": 2849,
+      "sha256": "e41f91d4e676458704288138a13f2e4ce4f913c4e3f56450d7ae074208335dc8"
+    },
+    {
+      "path": "steam_settings/images/c7e4dad58484e36068844729169f2d7224584e13.jpg",
+      "size": 3167,
+      "sha256": "b22e624e34dbb404bb6ced7ffaeca63a3eda69ef4e807e8ba9ee0a35b5e534da"
+    },
+    {
+      "path": "steam_settings/images/cba4b9d62c421aae3f121bb9fe720a6b8d9caccc.jpg",
+      "size": 2749,
+      "sha256": "edf13dd98b055b8b79b1a6624d7bfe67a7eaeca975f5a7d91d90c43d274eba23"
+    },
+    {
+      "path": "steam_settings/images/cf3927714e6dd8308b358f296302d6b9ffefc583.jpg",
+      "size": 3022,
+      "sha256": "e6b3b2289cfbc4560f6920a41c4698df1bdecaa953e809ac1ca0ed5dbff4996a"
+    },
+    {
+      "path": "steam_settings/images/d35bc8fae82ee0fa1641687118994960254c0e3b.jpg",
+      "size": 2922,
+      "sha256": "10b4faadb4e1ea6054078a28eef8a700b6650709e500211375b41007a0c2d6ed"
+    },
+    {
+      "path": "steam_settings/images/d59f5f931fd3001e1efdf1b18e9b7cb86ce4baeb.jpg",
+      "size": 2694,
+      "sha256": "f0751512defeca4e560652e4917d77848fd38a721cd4d3f2cd5182c2e6c90092"
+    },
+    {
+      "path": "steam_settings/images/d6144be29240cd7da9f005cf5a6dd2904f49924a.jpg",
+      "size": 2158,
+      "sha256": "a333cab66667af2fd67be2560a4b6519c2ed6eef02d776ae4c2553f1fa17de41"
+    },
+    {
+      "path": "steam_settings/images/d68770f1381ff637854ebd03cafdd705c54c3dd4.jpg",
+      "size": 2790,
+      "sha256": "5d8fb67668d931b81741ea6f789a41dfb971d8b9e2cd7b93eda509f5ca5edafa"
+    },
+    {
+      "path": "steam_settings/images/dac3e383c5c151a2d2b5dfacb3bed062316207a5.jpg",
+      "size": 3066,
+      "sha256": "9ecc8f1297e6def147fe853e1f4b3eee7802b7b9c4912174feed064f7078924a"
+    },
+    {
+      "path": "steam_settings/images/dfec50389c8eac2b88f1de9b288b9e91a482f75f.jpg",
+      "size": 3162,
+      "sha256": "57ed62830f770af6c00e01b1c20e9dbe46415d48c6119e549f0befa3516812da"
+    },
+    {
+      "path": "steam_settings/images/e1216de68a5bb9abac69b49b40b862c2a108fd44.jpg",
+      "size": 2868,
+      "sha256": "6dbcf691de1b9aabd9c6f2cda297f4d4b284cce2e23799452429222581270d71"
+    },
+    {
+      "path": "steam_settings/images/e1850a73e7cdf02552092fb6c05e233923e72c7b.jpg",
+      "size": 2923,
+      "sha256": "cde775224961a8e5f3dca5e99b37889d9ca784a2ff983c63e9252ccff20ee23e"
+    },
+    {
+      "path": "steam_settings/images/e441954cf5f261ee40ed9aa405011e08610650c5.jpg",
+      "size": 2303,
+      "sha256": "9a9c4bfa6174dc598b2d6debcdb301a29cc5d08649430b08b5110635f6b04654"
+    },
+    {
+      "path": "steam_settings/images/e649d651c78ba403021fbf7f2f7ba6af815fd931.jpg",
+      "size": 2481,
+      "sha256": "fcf2b9debc26d5e68b740eb5eb60577028cad2dc2cc94ef4ebf3548dc1bb3ec8"
+    },
+    {
+      "path": "steam_settings/images/e87aaf540fa60f1d3b154bbe4d6e28ad4f296eec.jpg",
+      "size": 2977,
+      "sha256": "d25e2ebf86396fa1e9eb4700ef2653c0095ae412328c02e17a563cd6cb2b4a5b"
+    },
+    {
+      "path": "steam_settings/images/e9b015b26469fd06fc6762affffb2e044a3a042a.jpg",
+      "size": 2316,
+      "sha256": "d6b274ab252d9b5ff82017092b62c815bc2f3d7fefdc90a6ed21646e226db736"
+    },
+    {
+      "path": "steam_settings/images/ea85786e2d2c5bfbc8523b91be960d1ab3884979.jpg",
+      "size": 2976,
+      "sha256": "b97994c7b662eda4f61bfc4db090d3f9f7ab3acc3ffe8b9abacb56c4b79111df"
+    },
+    {
+      "path": "steam_settings/images/ebca471082b2bb44b6e486276504c7c175d0bea0.jpg",
+      "size": 3283,
+      "sha256": "00f308f5cf967f1756a37ce1db84d2921d57949e6407553d795e285cf86bd360"
+    },
+    {
+      "path": "steam_settings/images/ec8a6de5b86ac80d780b3a2d858d1aaba1069e59.jpg",
+      "size": 2942,
+      "sha256": "d48005ce8c2b47e75c682e65a8d7cf7576f7984ecd8907add71e8bf13de3bec2"
+    },
+    {
+      "path": "steam_settings/images/ec8f067e37482da3cf4371215791683a8839d944.jpg",
+      "size": 2578,
+      "sha256": "2efa7bfc5dbdb403de89e7ff67a6249fb1e2f14efac607ae3edf6b63d0b0b3f2"
+    },
+    {
+      "path": "steam_settings/images/f2dabdfa9f3ba0aa1122d0f799faf70607a6eaac.jpg",
+      "size": 3290,
+      "sha256": "122bbe3d9415f928b642277e9366e650583e9a05aad1c8f61e92386b8588bf2a"
+    },
+    {
+      "path": "steam_settings/images/f41f1207496ff088f1e8a6844412aaf42de82bbc.jpg",
+      "size": 3211,
+      "sha256": "b36dddde43f2b8c5c39d11fc8168500d87f0ee04dd461a5f0fc86b384db57d72"
+    },
+    {
+      "path": "steam_settings/images/f5b9c9a83e1cd724f553ad3bd627cd9c64c3eac0.jpg",
+      "size": 2539,
+      "sha256": "42cbb13a0638b3e819dafa7aaade071c2ade9d215bf7354c291c13b95528c980"
+    },
+    {
+      "path": "steam_settings/images/f97f40017ea588459858122db8d7bbce0607390d.jpg",
+      "size": 2763,
+      "sha256": "28ac82cd729d61cc830df7faa90524cc8e1bb138a2a7b964a69c0c1603bf73b3"
+    },
+    {
+      "path": "steam_settings/images/fa55fe76f44f90378246794b59ba8e73acc1f19c.jpg",
+      "size": 1805,
+      "sha256": "6c7626df44ea7a4334e3359a040057c93089dc742e043a5fedf9f7100f3bf4ca"
+    },
+    {
+      "path": "steam_settings/images/fd2ff52e21dd95b5db1cd7b7b914e64541f0b6db.jpg",
+      "size": 2852,
+      "sha256": "52c0d00090602912d405959db33db9e15207954b88a9afa016a1a37f195e03e4"
+    },
+    {
+      "path": "steam_settings/images/fdc11f31e066695fec7de4c8efb015f5fe5e377c.jpg",
+      "size": 2843,
+      "sha256": "ab98bfc1294230eb37bf682bb30315e0b5b55aaf62f4366af96d0881e0d7f2d6"
+    },
+    {
+      "path": "steam_settings/images/ff16e849c0605b6dd6d7fca1b4892c88dc6acbb3.jpg",
+      "size": 3122,
+      "sha256": "a106b469349b246df5d37d2afc612e230aec77f76e1e44c3f259a4f05b286e35"
+    },
+    {
+      "path": "steam_settings/steam_appid.txt",
+      "size": 6,
+      "sha256": "a594595c866a0c46a35b1cd5359d9d03d928877a6eff2f4e0e0187ab6297b45e"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "_CommonRedist/_redist_readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 2038
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 2038,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 891454,
+          "length": 295320
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1186774,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1996270,
+          "length": 31533074
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 33529344,
+          "length": 7054848
+        },
+        {
+          "file": "BIGFILE.000",
+          "file_offset": 0,
+          "chunk_offset": 40584192,
+          "length": 435410049
+        }
+      ],
+      "sha256": "98d9e0909e98d89fce4215da124730a553908c9ea9054276e73d93db8ba3ccca"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.000",
+          "file_offset": 435410049,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "3fc73fa043150fa5dd86127983ffe44acd84f2a6d094c4643d28973da9f95cb1"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.000",
+          "file_offset": 911404290,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "c57a2b953f2370fa2449b90c142df6d8a3e818ede260418e73a65cc5c9435397"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.000",
+          "file_offset": 1387398531,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "bcb79694a76093b9eb97f37949f2d53a0413c8a42f56ad0712dfbf4340f1cb20"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.000",
+          "file_offset": 1863392772,
+          "chunk_offset": 0,
+          "length": 282767868
+        },
+        {
+          "file": "BIGFILE.001",
+          "file_offset": 0,
+          "chunk_offset": 282767868,
+          "length": 193226373
+        }
+      ],
+      "sha256": "43d6de12f0a8d9c9bf0c15ba93c1b9fa5a264f3586dc372d7d2aa4ffc02a75f1"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.001",
+          "file_offset": 193226373,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "2d651afcd192478035f0ec0473450a751e618c57902e0719ac4b71966ecb2edb"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.001",
+          "file_offset": 669220614,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "1f26d9837c680aac3beb7cf96d6863301af31de3cec62c93cbab433aab730fd1"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.001",
+          "file_offset": 1145214855,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "27849b4c1343c607b3fe434e3966139591475d270492d831ec33af10753e367b"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.001",
+          "file_offset": 1621209096,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "ead441036758d9925f1285a5d822a3155c806bf97bdda52e33f1efe87cf8c150"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.001",
+          "file_offset": 2097203337,
+          "chunk_offset": 0,
+          "length": 44371831
+        },
+        {
+          "file": "BIGFILE.002",
+          "file_offset": 0,
+          "chunk_offset": 44371831,
+          "length": 431622410
+        }
+      ],
+      "sha256": "3591ff86ae63b5f7c5986ca8c3a4f7edda80b9cd94948095e1d42d7eacbfa8d8"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.002",
+          "file_offset": 431622410,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "eb55bfa2474ad68f90971ba250065ac6b7587314bab7233616c70a9ec13e553d"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.002",
+          "file_offset": 907616651,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "d63cbf29534467e424ba9e5d6c6f23529d38268ff555d0df88ce8eb4d3e52f3a"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.002",
+          "file_offset": 1383610892,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "064bd9d54d2abba9d3cf0973ae2d844c90eea4efe5b2589045b98ec8ba4277e8"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.002",
+          "file_offset": 1859605133,
+          "chunk_offset": 0,
+          "length": 284388723
+        },
+        {
+          "file": "BIGFILE.003",
+          "file_offset": 0,
+          "chunk_offset": 284388723,
+          "length": 191605518
+        }
+      ],
+      "sha256": "3bd98570fee2f9fa0e71a2dcb92c6464de44a3b6b36d71a3bd7d6ef26ce6d12c"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.003",
+          "file_offset": 191605518,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "37e96cb435ad84279b829b6d8be81d519b932a48e579746daeb1f0fe5a11587e"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.003",
+          "file_offset": 667599759,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "9d7c923685ce3271464ff976b3e2d555b29aa125a5bd9434857ee2b4b0927d54"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.003",
+          "file_offset": 1143594000,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "6d7d1e81972c3bf3e55758cf8eaf7d924e58a1f17f77cd296b0980ca34b403e9"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.003",
+          "file_offset": 1619588241,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "eedce05cf2875dd848ca77ddf4c9216f8c6a0bfe6fec3204bb973f32c9cfe1bb"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.003",
+          "file_offset": 2095582482,
+          "chunk_offset": 0,
+          "length": 49789678
+        },
+        {
+          "file": "BIGFILE.004",
+          "file_offset": 0,
+          "chunk_offset": 49789678,
+          "length": 426204563
+        }
+      ],
+      "sha256": "5e6a533e6378ea411947caf0eb85501f48a3d4ff450dedc9ecf88d163c7232ce"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.004",
+          "file_offset": 426204563,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "e4a239187616a53826fd44a16c789378f90831bd9018519d1bed87b2479debb2"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.004",
+          "file_offset": 902198804,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "9a366b397de60725aa2a431384bafa391e087f980a0008cc7a082eefb16759b7"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.004",
+          "file_offset": 1378193045,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "1e84ccf27ab776fcf7903de38bd317d9877a82e65d8c9e8aa8eb5771b610555d"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.004",
+          "file_offset": 1854187286,
+          "chunk_offset": 0,
+          "length": 292169962
+        },
+        {
+          "file": "BIGFILE.005",
+          "file_offset": 0,
+          "chunk_offset": 292169962,
+          "length": 183824279
+        }
+      ],
+      "sha256": "3aa7afe154dcb32ac749f3b0bdf310f4f4b640c183f2e84a525df964543a99bc"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.005",
+          "file_offset": 183824279,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "a0ff7f9f40e3ce1c473c6fb4f461f86008b32c5edefdc5f64ad1b23c6f4964ca"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.005",
+          "file_offset": 659818520,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "b850cb4bb468a2c564202d94b781a6ce06cb01bca21575257caa055602aa5373"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.005",
+          "file_offset": 1135812761,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "6cf7dab777b4d7174409e8802b3f42f4741fc42bfdf17d726c4e4e7c67494449"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.005",
+          "file_offset": 1611807002,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "a3b65fdb8205cef50add72a3d9cc96ea782aa3bf2b0d6aabdd8d924c5c943e1b"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.005",
+          "file_offset": 2087801243,
+          "chunk_offset": 0,
+          "length": 58543717
+        },
+        {
+          "file": "BIGFILE.006",
+          "file_offset": 0,
+          "chunk_offset": 58543717,
+          "length": 417450524
+        }
+      ],
+      "sha256": "ce5c926d3a00658be6de01b61d11ff5c2846cf1b57c0eb5d687370702d5c7332"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.006",
+          "file_offset": 417450524,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "be5cbd0828b15c73349fb0c56f117e5d834182d17188ab92b92b122faf7798c1"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.006",
+          "file_offset": 893444765,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "fc584ae7c75bfa59638858331101800b49d98e604195b4ac5812a62f81ded5d4"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.006",
+          "file_offset": 1369439006,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "2eb96f0bcaa619c9972f8bff9575cea1edc33fe696fbb7d9ed4105fa7c156552"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.006",
+          "file_offset": 1845433247,
+          "chunk_offset": 0,
+          "length": 300190817
+        },
+        {
+          "file": "BIGFILE.007",
+          "file_offset": 0,
+          "chunk_offset": 300190817,
+          "length": 175803424
+        }
+      ],
+      "sha256": "e65b1ff3c527f82e8e5b7f91199f24f60a794fffa8b3203abc45cd6ac02f7e02"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.007",
+          "file_offset": 175803424,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "ea19431c971461f7e6123242adad0fc047159492154f74d4439bf9743ac0a0a7"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.007",
+          "file_offset": 651797665,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "3d40bf63b3f2f0bf20b8ce4ebf54c9ef8b546fd22addccd4d93918a55be5e607"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.007",
+          "file_offset": 1127791906,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "1a929d5e8e511c480cad9a93f41a92afbd58782f72d181941f23123ae3ae3716"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.007",
+          "file_offset": 1603786147,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "20d27b282275a9d079ce1a1c49b928dbee6c93e3863e7bc8f5bf7affd3583f4f"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.007",
+          "file_offset": 2079780388,
+          "chunk_offset": 0,
+          "length": 66523612
+        },
+        {
+          "file": "BIGFILE.008",
+          "file_offset": 0,
+          "chunk_offset": 66523612,
+          "length": 409470629
+        }
+      ],
+      "sha256": "504d2fa089c305425e9a6df55dfb70fad65762923818a56aafdf9ed9e8a72985"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.008",
+          "file_offset": 409470629,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "b06a4f410ddb8de559196f060d4b7967721f32d4c4b838b76a73a376492f3669"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 475994241,
+      "segments": [
+        {
+          "file": "BIGFILE.008",
+          "file_offset": 885464870,
+          "chunk_offset": 0,
+          "length": 475994241
+        }
+      ],
+      "sha256": "ef4cad29b72c9a95861ebee5f70d123a3cdd73d38a99fc95de2ddde2ac57849f"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 475994217,
+      "segments": [
+        {
+          "file": "BIGFILE.008",
+          "file_offset": 1361459111,
+          "chunk_offset": 0,
+          "length": 455768153
+        },
+        {
+          "file": "DFEngine.dll",
+          "file_offset": 0,
+          "chunk_offset": 455768153,
+          "length": 889488
+        },
+        {
+          "file": "DX3HTML.zip",
+          "file_offset": 0,
+          "chunk_offset": 456657641,
+          "length": 49660
+        },
+        {
+          "file": "dxhr.ico",
+          "file_offset": 0,
+          "chunk_offset": 456707301,
+          "length": 32038
+        },
+        {
+          "file": "DXHRDC.exe",
+          "file_offset": 0,
+          "chunk_offset": 456739339,
+          "length": 11915312
+        },
+        {
+          "file": "fmodex.dll",
+          "file_offset": 0,
+          "chunk_offset": 468654651,
+          "length": 374272
+        },
+        {
+          "file": "fmodexL.dll",
+          "file_offset": 0,
+          "chunk_offset": 469028923,
+          "length": 423424
+        },
+        {
+          "file": "installscript.vdf",
+          "file_offset": 0,
+          "chunk_offset": 469452347,
+          "length": 710
+        },
+        {
+          "file": "MakeAppXml.exe",
+          "file_offset": 0,
+          "chunk_offset": 469453057,
+          "length": 90624
+        },
+        {
+          "file": "steam_api.bak",
+          "file_offset": 0,
+          "chunk_offset": 469543681,
+          "length": 106408
+        },
+        {
+          "file": "steam_api.dll",
+          "file_offset": 0,
+          "chunk_offset": 469650089,
+          "length": 5911976
+        },
+        {
+          "file": "steam_appid.txt",
+          "file_offset": 0,
+          "chunk_offset": 475562065,
+          "length": 6
+        },
+        {
+          "file": "steam_interfaces.txt",
+          "file_offset": 0,
+          "chunk_offset": 475562071,
+          "length": 400
+        },
+        {
+          "file": "steam_settings/achievements.json",
+          "file_offset": 0,
+          "chunk_offset": 475562471,
+          "length": 91568
+        },
+        {
+          "file": "steam_settings/configs.app.ini",
+          "file_offset": 0,
+          "chunk_offset": 475654039,
+          "length": 3673
+        },
+        {
+          "file": "steam_settings/configs.overlay.ini.disabled",
+          "file_offset": 0,
+          "chunk_offset": 475657712,
+          "length": 5321
+        },
+        {
+          "file": "steam_settings/configs.user.ini",
+          "file_offset": 0,
+          "chunk_offset": 475663033,
+          "length": 1659
+        },
+        {
+          "file": "steam_settings/images/00f78385453546a1a4030004d2d63a99b2e29087.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475664692,
+          "length": 2075
+        },
+        {
+          "file": "steam_settings/images/026963cddaf9d2b932308f6bae8bd39e1efde6b8.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475666767,
+          "length": 2313
+        },
+        {
+          "file": "steam_settings/images/04738298bd3af57243d12aa88b264837b52e3354.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475669080,
+          "length": 2895
+        },
+        {
+          "file": "steam_settings/images/0494ee938a263ce7e3c98109fc94e68c1d984979.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475671975,
+          "length": 2906
+        },
+        {
+          "file": "steam_settings/images/0742ff8e063455f97eef08459ca28711713a1676.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475674881,
+          "length": 3146
+        },
+        {
+          "file": "steam_settings/images/08519b007cf879e7061a3d1f34959fea44534f54.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475678027,
+          "length": 2676
+        },
+        {
+          "file": "steam_settings/images/0852d022319bdde6104394b20d79bb91950356ca.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475680703,
+          "length": 1806
+        },
+        {
+          "file": "steam_settings/images/0ac9feba95b4c9fe555bf90d89dec6232f175a58.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475682509,
+          "length": 3101
+        },
+        {
+          "file": "steam_settings/images/10a2d34bbb9d6f36f3600124ad1d42e6f7f89b83.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475685610,
+          "length": 2852
+        },
+        {
+          "file": "steam_settings/images/13c483fe628783ed76d1b81bffdb87718fef874f.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475688462,
+          "length": 2575
+        },
+        {
+          "file": "steam_settings/images/1416ab2b1c04387121edbd5d2261f2d42e35ab66.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475691037,
+          "length": 2564
+        },
+        {
+          "file": "steam_settings/images/1430b0441543260f061e831434ac9765b3f96019.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475693601,
+          "length": 1990
+        },
+        {
+          "file": "steam_settings/images/16fbdb3a9686876e52f8ebeba6581739bc2539ba.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475695591,
+          "length": 3059
+        },
+        {
+          "file": "steam_settings/images/187db8df76ff98732d086850ffe75b9804ad7c22.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475698650,
+          "length": 2679
+        },
+        {
+          "file": "steam_settings/images/1af8e66f4f2fb4127fda8f84df9be17547e73c9c.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475701329,
+          "length": 2657
+        },
+        {
+          "file": "steam_settings/images/2217505b2f217b9518c29cbbe7ada8f4dbdc9aa8.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475703986,
+          "length": 2581
+        },
+        {
+          "file": "steam_settings/images/222a6123794d92d63bfb9dea8400ed1283c42c20.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475706567,
+          "length": 3144
+        },
+        {
+          "file": "steam_settings/images/249bf43b141c416cf88701e9d3106a88f1e40ae9.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475709711,
+          "length": 3139
+        },
+        {
+          "file": "steam_settings/images/24f54aa95b1da6044aad08935991f065509eb73e.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475712850,
+          "length": 2703
+        },
+        {
+          "file": "steam_settings/images/25bf9c793678b6c8ff319124bcb30fbbffbc8e9d.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475715553,
+          "length": 3077
+        },
+        {
+          "file": "steam_settings/images/25e5daf9e37680d62433cdbe5a329debe1d15075.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475718630,
+          "length": 2750
+        },
+        {
+          "file": "steam_settings/images/265c7a142924e33d4cf0e2fb401bc2a9f6a67ad1.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475721380,
+          "length": 2555
+        },
+        {
+          "file": "steam_settings/images/29bee02dad3dfb316d5bf4876e91301b2773ff2e.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475723935,
+          "length": 1818
+        },
+        {
+          "file": "steam_settings/images/2a0a2c6129080f5dae4846c02d45097451561a42.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475725753,
+          "length": 3000
+        },
+        {
+          "file": "steam_settings/images/2a5daa7cda6d0801114ba7ed529b2bf6602eb5cd.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475728753,
+          "length": 2424
+        },
+        {
+          "file": "steam_settings/images/35845607f70d1458a7e9f17c20ca93101c8b4ce6.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475731177,
+          "length": 2431
+        },
+        {
+          "file": "steam_settings/images/35f259790f002637163471f5ed351f39a84de204.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475733608,
+          "length": 3039
+        },
+        {
+          "file": "steam_settings/images/36370502af13bfcc19fc23b33addf60d2d510568.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475736647,
+          "length": 2982
+        },
+        {
+          "file": "steam_settings/images/396b5b3be5232878421c4d8c6d95233ced3190d0.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475739629,
+          "length": 2861
+        },
+        {
+          "file": "steam_settings/images/3df63c9a395fa35397766a27f30ee1825800ec13.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475742490,
+          "length": 2718
+        },
+        {
+          "file": "steam_settings/images/40064db9ed166c6a0d5a89916de2da6815feb82c.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475745208,
+          "length": 3409
+        },
+        {
+          "file": "steam_settings/images/429ad9c2130f841f01ffaba24609c497d07f8802.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475748617,
+          "length": 2403
+        },
+        {
+          "file": "steam_settings/images/4432f698b75467c23880cef2b4bd3b0c1b17dd32.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475751020,
+          "length": 3313
+        },
+        {
+          "file": "steam_settings/images/464704d8521c146222e9f73f4fe9548ff28ebdd4.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475754333,
+          "length": 2902
+        },
+        {
+          "file": "steam_settings/images/46484873b64b2a77034939acc39bbb8851dc857e.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475757235,
+          "length": 2055
+        },
+        {
+          "file": "steam_settings/images/46bb5c887f1388482bca12d5ba592ecb91dcd0c6.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475759290,
+          "length": 3250
+        },
+        {
+          "file": "steam_settings/images/4a12aaf21f3c73598ff642e8b9b26b4b6cad1544.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475762540,
+          "length": 2718
+        },
+        {
+          "file": "steam_settings/images/4b2d29d95c74a3a7f9767d969a3a1eba07e243e3.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475765258,
+          "length": 2594
+        },
+        {
+          "file": "steam_settings/images/4bc17a96cc77b65e67f6e1e72ac7c6345e6b4017.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475767852,
+          "length": 2971
+        },
+        {
+          "file": "steam_settings/images/4c762d547bacc9722e2d3a5092c32ef1d01aa9c6.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475770823,
+          "length": 3012
+        },
+        {
+          "file": "steam_settings/images/500ad7e570194f9d43cb079086934cabc3b7e2f0.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475773835,
+          "length": 2584
+        },
+        {
+          "file": "steam_settings/images/5015022c3d805744cac85640b7d696d1be17e342.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475776419,
+          "length": 2641
+        },
+        {
+          "file": "steam_settings/images/507cd4ca3e05567c4ee02af6a34583073c49074b.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475779060,
+          "length": 3348
+        },
+        {
+          "file": "steam_settings/images/531d95508d8df8dc214e5d055f4e46af06b85e43.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475782408,
+          "length": 2907
+        },
+        {
+          "file": "steam_settings/images/594f3b561de207c21333a08cd44a0f2d575ed9a5.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475785315,
+          "length": 2730
+        },
+        {
+          "file": "steam_settings/images/5d709065dd18d8df1168d014fbead05fad382dec.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475788045,
+          "length": 3343
+        },
+        {
+          "file": "steam_settings/images/5e7449a03ddc903a57dfa1b05cc76aabcf2ae72c.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475791388,
+          "length": 2205
+        },
+        {
+          "file": "steam_settings/images/63bbf5412236ab43c70843c2761f88a547038f4c.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475793593,
+          "length": 2645
+        },
+        {
+          "file": "steam_settings/images/63bfadd0004f7c8e15852d19e278adf56712f13e.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475796238,
+          "length": 2973
+        },
+        {
+          "file": "steam_settings/images/66caf846e402e9cb274266b716a753ab7120b624.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475799211,
+          "length": 2996
+        },
+        {
+          "file": "steam_settings/images/671e7cd854801e61cd472213e7768f286c6fbaf9.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475802207,
+          "length": 2793
+        },
+        {
+          "file": "steam_settings/images/676697fd005a6295bd59e8844768ca7b5c41d6ca.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475805000,
+          "length": 2606
+        },
+        {
+          "file": "steam_settings/images/681bc6879e2065b99621176b94656517b7195ab6.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475807606,
+          "length": 2441
+        },
+        {
+          "file": "steam_settings/images/693131aa6b804fdf2b94f21c9afd5e5ef4588430.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475810047,
+          "length": 2787
+        },
+        {
+          "file": "steam_settings/images/698edb5d0b3ee7614a01e3e8ffdccf31ba0aa65a.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475812834,
+          "length": 3345
+        },
+        {
+          "file": "steam_settings/images/69929348298d05eb1323814bcae0079a3d8cca02.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475816179,
+          "length": 3261
+        },
+        {
+          "file": "steam_settings/images/6c31ed2ee17f33b9f906d72009ba4a27e1732c1d.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475819440,
+          "length": 2894
+        },
+        {
+          "file": "steam_settings/images/6e1efca81204aca6f9e85c5dac85fcdbc5dbf2fc.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475822334,
+          "length": 3344
+        },
+        {
+          "file": "steam_settings/images/6e2953f4dce5a45c663a38610d9aff8f089256ce.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475825678,
+          "length": 2817
+        },
+        {
+          "file": "steam_settings/images/74c97edb1da80bc4aec3e827ec6fe6c23d6678ee.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475828495,
+          "length": 3366
+        },
+        {
+          "file": "steam_settings/images/7846c00a37ed9bb74bd4508910c935c27de3f68f.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475831861,
+          "length": 2985
+        },
+        {
+          "file": "steam_settings/images/7c8e0881faba5279b4a5a0b23baffd1932791b92.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475834846,
+          "length": 2817
+        },
+        {
+          "file": "steam_settings/images/8052262fee1a1e35b55ce632f2f6ad8eae233ba8.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475837663,
+          "length": 3415
+        },
+        {
+          "file": "steam_settings/images/858335f2bb400e1ecc2e2f83117bbe94567c5a87.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475841078,
+          "length": 2604
+        },
+        {
+          "file": "steam_settings/images/8e6921314738e0d30ae1e922f356e49ba340d19e.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475843682,
+          "length": 2872
+        },
+        {
+          "file": "steam_settings/images/8f42d210a7220b44c433b6b23c494ba90288d1b4.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475846554,
+          "length": 1620
+        },
+        {
+          "file": "steam_settings/images/905b8110c3417bd927f9f759a3d8be2c8f784e8d.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475848174,
+          "length": 2390
+        },
+        {
+          "file": "steam_settings/images/92c85a07596160a7806a224cb5a72a0a8221e922.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475850564,
+          "length": 2685
+        },
+        {
+          "file": "steam_settings/images/9563df238ad3bc3eac47ccb428782e267f06acbc.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475853249,
+          "length": 2512
+        },
+        {
+          "file": "steam_settings/images/96b19f47f9f8a54767dea89a4fa265737df544c3.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475855761,
+          "length": 2608
+        },
+        {
+          "file": "steam_settings/images/98375732db1a9c80b73a08a9095de78a5dcb5b35.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475858369,
+          "length": 3011
+        },
+        {
+          "file": "steam_settings/images/98cc85a9c888a8d9c7656eff26248a33087e5a75.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475861380,
+          "length": 3121
+        },
+        {
+          "file": "steam_settings/images/99a16550f3d0a9d9565d993c9f9a2ded2fd0a006.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475864501,
+          "length": 2516
+        },
+        {
+          "file": "steam_settings/images/9b9760062eead33ec801d6a13e1f1663c38cfa8e.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475867017,
+          "length": 2899
+        },
+        {
+          "file": "steam_settings/images/a6780a93a65ac19e66f9986abddc444cb9757d39.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475869916,
+          "length": 3462
+        },
+        {
+          "file": "steam_settings/images/aaa2853d08b6550f24b753091644a34fd8ecf542.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475873378,
+          "length": 2515
+        },
+        {
+          "file": "steam_settings/images/ad2fac90636bc9ff9517ebf7a8772f4d3c297a47.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475875893,
+          "length": 2874
+        },
+        {
+          "file": "steam_settings/images/ae4802224802fd76acdae8ed87767e6e8bfc262c.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475878767,
+          "length": 3084
+        },
+        {
+          "file": "steam_settings/images/aee83fc4df69257e3168a843be2c098e6a02244f.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475881851,
+          "length": 2379
+        },
+        {
+          "file": "steam_settings/images/af6c84738927291dbc03be7293f4a1aafeca628f.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475884230,
+          "length": 2302
+        },
+        {
+          "file": "steam_settings/images/b05eeacf2c412180ee6d551209cce79527482d80.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475886532,
+          "length": 3249
+        },
+        {
+          "file": "steam_settings/images/b0e11077735a8b888dc0ce4fc9a5b4013115c817.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475889781,
+          "length": 2805
+        },
+        {
+          "file": "steam_settings/images/b563c8929caad572732114bb5109c9f84e8f4471.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475892586,
+          "length": 2696
+        },
+        {
+          "file": "steam_settings/images/b7cba4c8b3db078e6e4efe54efd81b5a7758a2a6.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475895282,
+          "length": 2807
+        },
+        {
+          "file": "steam_settings/images/b890d45c4a5294f16931ae86b206104adc486e2c.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475898089,
+          "length": 3452
+        },
+        {
+          "file": "steam_settings/images/bbe064602557d6a69000aab61cd71f7f0df5f96b.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475901541,
+          "length": 3119
+        },
+        {
+          "file": "steam_settings/images/bd883d371462a4f3e8b32350f3977dba3a46871d.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475904660,
+          "length": 2466
+        },
+        {
+          "file": "steam_settings/images/be6eb72f34f65b00464e4a66d8bf674fc6ff6cd5.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475907126,
+          "length": 3209
+        },
+        {
+          "file": "steam_settings/images/be82290cf4978d9cfa2c61b5b36dbddd29b314bc.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475910335,
+          "length": 2716
+        },
+        {
+          "file": "steam_settings/images/c0110d8588d34ec3d25639a3ab8790aabdbf57b6.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475913051,
+          "length": 2509
+        },
+        {
+          "file": "steam_settings/images/c1ddd77f663256824203a39cd52f7d3e70691129.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475915560,
+          "length": 2849
+        },
+        {
+          "file": "steam_settings/images/c7e4dad58484e36068844729169f2d7224584e13.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475918409,
+          "length": 3167
+        },
+        {
+          "file": "steam_settings/images/cba4b9d62c421aae3f121bb9fe720a6b8d9caccc.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475921576,
+          "length": 2749
+        },
+        {
+          "file": "steam_settings/images/cf3927714e6dd8308b358f296302d6b9ffefc583.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475924325,
+          "length": 3022
+        },
+        {
+          "file": "steam_settings/images/d35bc8fae82ee0fa1641687118994960254c0e3b.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475927347,
+          "length": 2922
+        },
+        {
+          "file": "steam_settings/images/d59f5f931fd3001e1efdf1b18e9b7cb86ce4baeb.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475930269,
+          "length": 2694
+        },
+        {
+          "file": "steam_settings/images/d6144be29240cd7da9f005cf5a6dd2904f49924a.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475932963,
+          "length": 2158
+        },
+        {
+          "file": "steam_settings/images/d68770f1381ff637854ebd03cafdd705c54c3dd4.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475935121,
+          "length": 2790
+        },
+        {
+          "file": "steam_settings/images/dac3e383c5c151a2d2b5dfacb3bed062316207a5.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475937911,
+          "length": 3066
+        },
+        {
+          "file": "steam_settings/images/dfec50389c8eac2b88f1de9b288b9e91a482f75f.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475940977,
+          "length": 3162
+        },
+        {
+          "file": "steam_settings/images/e1216de68a5bb9abac69b49b40b862c2a108fd44.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475944139,
+          "length": 2868
+        },
+        {
+          "file": "steam_settings/images/e1850a73e7cdf02552092fb6c05e233923e72c7b.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475947007,
+          "length": 2923
+        },
+        {
+          "file": "steam_settings/images/e441954cf5f261ee40ed9aa405011e08610650c5.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475949930,
+          "length": 2303
+        },
+        {
+          "file": "steam_settings/images/e649d651c78ba403021fbf7f2f7ba6af815fd931.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475952233,
+          "length": 2481
+        },
+        {
+          "file": "steam_settings/images/e87aaf540fa60f1d3b154bbe4d6e28ad4f296eec.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475954714,
+          "length": 2977
+        },
+        {
+          "file": "steam_settings/images/e9b015b26469fd06fc6762affffb2e044a3a042a.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475957691,
+          "length": 2316
+        },
+        {
+          "file": "steam_settings/images/ea85786e2d2c5bfbc8523b91be960d1ab3884979.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475960007,
+          "length": 2976
+        },
+        {
+          "file": "steam_settings/images/ebca471082b2bb44b6e486276504c7c175d0bea0.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475962983,
+          "length": 3283
+        },
+        {
+          "file": "steam_settings/images/ec8a6de5b86ac80d780b3a2d858d1aaba1069e59.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475966266,
+          "length": 2942
+        },
+        {
+          "file": "steam_settings/images/ec8f067e37482da3cf4371215791683a8839d944.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475969208,
+          "length": 2578
+        },
+        {
+          "file": "steam_settings/images/f2dabdfa9f3ba0aa1122d0f799faf70607a6eaac.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475971786,
+          "length": 3290
+        },
+        {
+          "file": "steam_settings/images/f41f1207496ff088f1e8a6844412aaf42de82bbc.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475975076,
+          "length": 3211
+        },
+        {
+          "file": "steam_settings/images/f5b9c9a83e1cd724f553ad3bd627cd9c64c3eac0.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475978287,
+          "length": 2539
+        },
+        {
+          "file": "steam_settings/images/f97f40017ea588459858122db8d7bbce0607390d.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475980826,
+          "length": 2763
+        },
+        {
+          "file": "steam_settings/images/fa55fe76f44f90378246794b59ba8e73acc1f19c.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475983589,
+          "length": 1805
+        },
+        {
+          "file": "steam_settings/images/fd2ff52e21dd95b5db1cd7b7b914e64541f0b6db.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475985394,
+          "length": 2852
+        },
+        {
+          "file": "steam_settings/images/fdc11f31e066695fec7de4c8efb015f5fe5e377c.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475988246,
+          "length": 2843
+        },
+        {
+          "file": "steam_settings/images/ff16e849c0605b6dd6d7fca1b4892c88dc6acbb3.jpg",
+          "file_offset": 0,
+          "chunk_offset": 475991089,
+          "length": 3122
+        },
+        {
+          "file": "steam_settings/steam_appid.txt",
+          "file_offset": 0,
+          "chunk_offset": 475994211,
+          "length": 6
+        }
+      ],
+      "sha256": "59bcadf42822821e2b735acf81493477801dad1975b27f03e5167bd9fa445139"
+    }
+  ]
+}
