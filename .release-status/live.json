@@ -1,6 +1,6 @@
 {
   "active": true,
-  "phase": "upload",
+  "phase": "metadata",
   "kind": "game",
   "title": "Dying Light",
   "platform": "PC",
@@ -10,5 +10,5 @@
   "total_sent": 40974948371,
   "total_size": 40974948371,
   "message": "",
-  "updated_at": "2026-09-07T20:07:20.594576+00:00"
+  "updated_at": "2026-09-07T20:07:26.930401+00:00"
 }
