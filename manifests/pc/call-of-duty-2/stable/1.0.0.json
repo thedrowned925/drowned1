@@ -1,0 +1,1715 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "call-of-duty-2",
+    "title": "Call of Duty® 2",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Call of Duty® 2 redefines the cinematic intensity and chaos of battle as seen through the eyes of ordinary soldiers fighting together in epic WWII conflicts. The sequel to 2003's Call of Duty, winner of over 80 Game of the Year awards, Call of Duty 2 offers more immense, more intense, more realistic battles than ever before, thanks to..."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-call-of-duty-2-v1.0.0-stable"
+  },
+  "chunk_size": 94940217,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 3797608653,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "_Original/CoD2MP_s.exe",
+      "size": 756224,
+      "sha256": "41124c4620c1e96b8b908611a4135e3ccef4f675f56338d7f85bea6684afdf0e"
+    },
+    {
+      "path": "_Original/CoD2SP_s.exe",
+      "size": 662528,
+      "sha256": "ab17a89cc3722ae80edc1f4483cacbcae08b0373b9128fe4ec053ebc79062281"
+    },
+    {
+      "path": "cod.bmp",
+      "size": 921656,
+      "sha256": "6332e8ea8608f3f3f97beb60220a5aba7a125bac20d03cd2856dff40be378d84"
+    },
+    {
+      "path": "CoD2MP_s.exe",
+      "size": 22745600,
+      "sha256": "6f4effbb117199aa748b100906bccf49649b4f11251768a6c1621a80ab9c397d"
+    },
+    {
+      "path": "CoD2SP_s.exe",
+      "size": 25980416,
+      "sha256": "64e7adca30f5c25a858bb537932c7041d4588a0554bbb917b8e25ac43a0e5a48"
+    },
+    {
+      "path": "codlogo.bmp",
+      "size": 109976,
+      "sha256": "1e0e1a3bc43f9b591c0912f195800031c5a2125c2e5c3114552b807b8b368ceb"
+    },
+    {
+      "path": "Docs/license.txt",
+      "size": 14884,
+      "sha256": "84d4701b6d772848e6553a7b4b2e111b331e0a5ddaad91e7428000c12ae16610"
+    },
+    {
+      "path": "Docs/pbeula_ENU.txt",
+      "size": 5345,
+      "sha256": "af535171712c16f495099d8b57490a91d77fa68539ce81817af1586e08c92cd7"
+    },
+    {
+      "path": "Docs/TechHelp/_borders/left.htm",
+      "size": 3862,
+      "sha256": "1ef87dc1e2f9ac27e2a54a90ab76f007096fdfb815900345d497e5cc79835c32"
+    },
+    {
+      "path": "Docs/TechHelp/_borders/side_ie.css",
+      "size": 1044,
+      "sha256": "6660f414c80f229516c8f29b84fb429c6e5c09c0b5962c1680af9ab9bb15a3bc"
+    },
+    {
+      "path": "Docs/TechHelp/_borders/style_ie.css",
+      "size": 641,
+      "sha256": "9874ec59102c1c88219fa62d758ad6ad63e0a5468979a6d8715f0575077d5c7e"
+    },
+    {
+      "path": "Docs/TechHelp/_borders/top.htm",
+      "size": 5325,
+      "sha256": "501f2937941761506e75ab9c0c7bef32283f5a8c8e7f155f09f3791724da2e68"
+    },
+    {
+      "path": "Docs/TechHelp/_borders/top_files/atvi.jpg",
+      "size": 33410,
+      "sha256": "8d8f111f5be9c50bbd8fc8bb91b73e00e1e3e01eca57823d7f88cd5188e4197a"
+    },
+    {
+      "path": "Docs/TechHelp/_borders/top_files/filelist.xml",
+      "size": 320,
+      "sha256": "9a89f9e25fc1ed9989f5002a192b65d48fdca4b1883362395bef365147aeea7e"
+    },
+    {
+      "path": "Docs/TechHelp/_borders/top_files/image001.gif",
+      "size": 9250,
+      "sha256": "d645b9f6bfae4ca39fca4c18f2158773b855544e257f616959d9aaace106d71a"
+    },
+    {
+      "path": "Docs/TechHelp/_borders/top_files/image002.png",
+      "size": 72417,
+      "sha256": "68b185f740d137de142ca743fc3b23b6586eb4706ee6deb2b041d071a6805771"
+    },
+    {
+      "path": "Docs/TechHelp/_borders/top_files/image004.png",
+      "size": 12345,
+      "sha256": "848d4d7bee4f429fb86be6f10b5b6726691fd005d656656b828f567384e6c29a"
+    },
+    {
+      "path": "Docs/TechHelp/_borders/top_files/oledata.mso",
+      "size": 420308,
+      "sha256": "3a8114a0d9dde60dfd309b34a8f54327c9ab4ecde6441fbe859a88b18f437792"
+    },
+    {
+      "path": "Docs/TechHelp/Compatibility/msr.htm",
+      "size": 6121,
+      "sha256": "7426d75f7c60485e432dc3d4856d7c72df9e88a58405243e31b5c5469ff94e5b"
+    },
+    {
+      "path": "Docs/TechHelp/Credits/credits.htm",
+      "size": 98174,
+      "sha256": "18b95c6fffa9f294c83ce7285a4b197cdec18a994c32ab9cd19cb1f7a33b84bc"
+    },
+    {
+      "path": "Docs/TechHelp/Default.htm",
+      "size": 8079,
+      "sha256": "fddd24706509ab4e6dc3f55b70bd6124d7a6c885d8cb6715e576978b52a13a0e"
+    },
+    {
+      "path": "Docs/TechHelp/images/3by3.gif",
+      "size": 49,
+      "sha256": "f873891d2ed368d9264dd949f8d21cc0d17973f6f069b538e3585a6684496e2e"
+    },
+    {
+      "path": "Docs/TechHelp/images/Activision.jpg",
+      "size": 2441,
+      "sha256": "af57a195026980eb9537c39e24b59a08dd05698fda6326de1bb95cc61d6bf86a"
+    },
+    {
+      "path": "Docs/TechHelp/images/ATVIsmall.jpg",
+      "size": 6391,
+      "sha256": "032653695f093054c36824e9dcad391cb499a0ca0b0a740f831dddc8523a656b"
+    },
+    {
+      "path": "Docs/TechHelp/images/ATVIsmall_invert.jpg",
+      "size": 1357,
+      "sha256": "4b843b059313444fdca9044eafe8eaac66a921b6b5d4b27e7333833ad566d685"
+    },
+    {
+      "path": "Docs/TechHelp/images/cod2.gif",
+      "size": 9250,
+      "sha256": "d645b9f6bfae4ca39fca4c18f2158773b855544e257f616959d9aaace106d71a"
+    },
+    {
+      "path": "Docs/TechHelp/images/IW.jpg",
+      "size": 2839,
+      "sha256": "1f47e0e112eccfdb2233a3d58145f6597788514d15b45defde7eb2e5eae9755f"
+    },
+    {
+      "path": "Docs/TechHelp/images/redstripe.jpg",
+      "size": 1954,
+      "sha256": "c1d384b1f55c664cafb78819a010d6ce9fb34e467ca36697993a669c6e10de79"
+    },
+    {
+      "path": "Docs/TechHelp/index.htm",
+      "size": 4176,
+      "sha256": "49c4fd0a3d39f63ea365e7d2dffd1d22a00d7e61b2efb1f2857b8046a723e4b4"
+    },
+    {
+      "path": "Docs/TechHelp/Manual/manual_us.pdf",
+      "size": 542217,
+      "sha256": "34bd5430d837d1a0c371c765256fb5ec45441755c1a595ce08e594507f2c184e"
+    },
+    {
+      "path": "Docs/TechHelp/Readme/readme.txt",
+      "size": 28085,
+      "sha256": "3425e851f8274abfb947f40cc68f8e14451503416fc65105b0f1880bdfaaf15d"
+    },
+    {
+      "path": "Docs/TechHelp/Tech Help/Customer Support/Customer_support.htm",
+      "size": 238166,
+      "sha256": "3f5664a75b8799a31b708a7542222ed679842928d2a195ca4be98ba1d8e4b24d"
+    },
+    {
+      "path": "Docs/TechHelp/Tech Help/Default.htm",
+      "size": 890,
+      "sha256": "771c1e21d531cf5ed9279765208ceccae08f21b254e05f0eb217eeea37e68cc7"
+    },
+    {
+      "path": "Docs/TechHelp/Tech Help/Information/Audio_Problems.htm",
+      "size": 9594,
+      "sha256": "bca504aa7b6db695fb3276340c5ec699b45803932fb138fb2877c544e85820f4"
+    },
+    {
+      "path": "Docs/TechHelp/Tech Help/Information/autoplay.htm",
+      "size": 8216,
+      "sha256": "19907a2d14d13cd280a5d67ffacfffa3903255ac3232e625cfe5b9d0ca39474b"
+    },
+    {
+      "path": "Docs/TechHelp/Tech Help/Information/dedicated_serv.htm",
+      "size": 20760,
+      "sha256": "464c05fb391734eeaef987947003d0c9ab63b42317416e96ced5bbbc244cceae"
+    },
+    {
+      "path": "Docs/TechHelp/Tech Help/Information/DirectX.htm",
+      "size": 8772,
+      "sha256": "1efd61882f1efe0f90294bfdfb2726b64f78761916a92b8efcda7e258de73327"
+    },
+    {
+      "path": "Docs/TechHelp/Tech Help/Information/Electronic_Registration.htm",
+      "size": 6918,
+      "sha256": "5772f3f00ee2e11cc95abb25df6558f6fb67dd28595e72bb269297bc50e4817e"
+    },
+    {
+      "path": "Docs/TechHelp/Tech Help/Information/Updates_and_or_Patches.htm",
+      "size": 6907,
+      "sha256": "95c55ec33b89cf1807ad9bf4ff9c12e6d3cac8ef6eed2888e84a5af51f1dbe88"
+    },
+    {
+      "path": "gfx_d3d_mp_x86_s.dll",
+      "size": 1855488,
+      "sha256": "243505f56ec0f86122fc09b3a6c18f0daf49a00abb2d969147f595991584a6b2"
+    },
+    {
+      "path": "gfx_d3d_x86_s.dll",
+      "size": 1851392,
+      "sha256": "5b364adca51d945e3af2ec321be0646b38cb61ad129849939aca548d4eefa584"
+    },
+    {
+      "path": "instscript.vdf",
+      "size": 330,
+      "sha256": "5f8e046371795986b7c86342d9e3b8d7a9fbf23da0d9b09e47312ca2da24f9ce"
+    },
+    {
+      "path": "localization.txt",
+      "size": 2271,
+      "sha256": "e9aba77f5d9e68bb1da3221fe635ec66211391fc82a21a39fb8e37a09bc89723"
+    },
+    {
+      "path": "main/iw_00.iwd",
+      "size": 162248089,
+      "sha256": "21824d61312e4d844db66ae518e050e5e72b2dd91c6335524bc62cd66cf3c86c"
+    },
+    {
+      "path": "main/iw_01.iwd",
+      "size": 145087064,
+      "sha256": "32339f2be00a8e3e1d0352146e0da091a3287ac7edbebfc3cab3435288841f16"
+    },
+    {
+      "path": "main/iw_02.iwd",
+      "size": 164849656,
+      "sha256": "b57765d51a7b35ee38cac4c16e10b7ad7cc920403199595a20e88f8c68a06a55"
+    },
+    {
+      "path": "main/iw_03.iwd",
+      "size": 166691505,
+      "sha256": "b55b9daabd1d74237e855191bb7b3a8d0b466c4506e8e477be6d0e269c6596c4"
+    },
+    {
+      "path": "main/iw_04.iwd",
+      "size": 167614395,
+      "sha256": "39b647800c49c05f7019d4cc43f851275217be5302d64377031e039047f7d704"
+    },
+    {
+      "path": "main/iw_05.iwd",
+      "size": 167121878,
+      "sha256": "da8dd0d12c093b1e98b079d06f73ee8e064a7c5e7427da7842819be994fe282c"
+    },
+    {
+      "path": "main/iw_06.iwd",
+      "size": 49366825,
+      "sha256": "c984d1e9f55feb6d58fe01d813e7e214ce59d5d36990f6335a5f1d0b3d71472b"
+    },
+    {
+      "path": "main/iw_07.iwd",
+      "size": 2438462,
+      "sha256": "7e9627fe22370246320271c5947f638f6c80141b3f09bac0ab98feb06e993e79"
+    },
+    {
+      "path": "main/iw_08.iwd",
+      "size": 167893004,
+      "sha256": "2d11dc6a6285f8d7822a65423f96df1292d8e729615b4677e8da4e829f72860c"
+    },
+    {
+      "path": "main/iw_09.iwd",
+      "size": 168002498,
+      "sha256": "367ad45acd1b4519bc43a14c0d18f1a334f8ccd74d8e0e5bfa8d5a80d31cd46f"
+    },
+    {
+      "path": "main/iw_10.iwd",
+      "size": 167770114,
+      "sha256": "c17022d6a4047356d84c631fe1cbb98ebe8de17033f555c667d7aae9856e1311"
+    },
+    {
+      "path": "main/iw_11.iwd",
+      "size": 167727066,
+      "sha256": "75745855ae9810bbadee207a3e079535670a848a3459c5e6c132234c7b6b291e"
+    },
+    {
+      "path": "main/iw_12.iwd",
+      "size": 167659421,
+      "sha256": "4862a976a1427f5ae9a2e3bb4368f847e091180f33e8ca09fdef5c81baa8bc63"
+    },
+    {
+      "path": "main/iw_13.iwd",
+      "size": 170373438,
+      "sha256": "82c4f02f4d33408c0b6a87e6ce9fa27672b699ed25453b4a90564f945704757e"
+    },
+    {
+      "path": "main/iw_14.iwd",
+      "size": 95725502,
+      "sha256": "50180fa4d0f78c0c41ee326e3603cbcf96d767f80dfdd11ef2edf9ad0b0e3565"
+    },
+    {
+      "path": "main/iw_15.iwd",
+      "size": 26569995,
+      "sha256": "2c4b1797da9cc626b3dae99befa41dfbba4894dc14ce1199f5a459b88678f3ef"
+    },
+    {
+      "path": "main/localized_english_iw00.iwd",
+      "size": 168398774,
+      "sha256": "6c6bc9af2dd537f847f12f0f048e0d5ae5a63495595aa0a2e28fb169da113003"
+    },
+    {
+      "path": "main/localized_english_iw01.iwd",
+      "size": 168530302,
+      "sha256": "40fead8ce472c26c1fe67971ef359ae8cbf7c0eeb2961255e738d26b7851a9ea"
+    },
+    {
+      "path": "main/localized_english_iw02.iwd",
+      "size": 168661767,
+      "sha256": "179edf734928f0ca5c022b651d2e115b00f483204ddd70d5f93eefe9542115f1"
+    },
+    {
+      "path": "main/localized_english_iw03.iwd",
+      "size": 168644916,
+      "sha256": "cc0538a6702bb195b56f908e559ae4a442d11cdae748eba093825651521d5757"
+    },
+    {
+      "path": "main/localized_english_iw04.iwd",
+      "size": 168613245,
+      "sha256": "4cf57c23f4a554c2d65042d3fb1c476c731f7e8a9dbd5483dfabbd87d5a7890e"
+    },
+    {
+      "path": "main/localized_english_iw05.iwd",
+      "size": 168478961,
+      "sha256": "dc3352d491bacf92d2a3d935e8c44868373a4f5e0de5388646a11cf63b28fd85"
+    },
+    {
+      "path": "main/localized_english_iw06.iwd",
+      "size": 168106160,
+      "sha256": "a6c165c0c2283e347899bbb8cc3f30e746cd2345503d0702a1b3faa9e24afbdd"
+    },
+    {
+      "path": "main/localized_english_iw07.iwd",
+      "size": 139489678,
+      "sha256": "0b2999599ab3a24a8927adae85d324670503d54420d5c40bc139dca112714170"
+    },
+    {
+      "path": "main/localized_english_iw08.iwd",
+      "size": 153153908,
+      "sha256": "2b4e9b2f2a8e7a776c6f5193f8be74e0494fccc0c76e9a4c55d5d8e6bb6fb32e"
+    },
+    {
+      "path": "main/localized_english_iw09.iwd",
+      "size": 124935,
+      "sha256": "f9d55e32de33b775a20c27b1f6925d3caa783e748c6eb2769e1a8d46b552c997"
+    },
+    {
+      "path": "main/localized_english_iw10.iwd",
+      "size": 55786984,
+      "sha256": "2908568dac233db366a09d46cd0938f731a08ee979c0a8726f1706ae2138f25d"
+    },
+    {
+      "path": "main/localized_english_iw11.iwd",
+      "size": 706,
+      "sha256": "b5240406ddfe089e26fa59476f44027081a620df0e98bd7f9145a266ef8df966"
+    },
+    {
+      "path": "miles/mssa3d.m3d",
+      "size": 98816,
+      "sha256": "6b5d0e461f119a9e95e10de24aada3306407acf1c2e1841b26c4c1a5f950224c"
+    },
+    {
+      "path": "miles/mssds3d.m3d",
+      "size": 81408,
+      "sha256": "3443fc45bafc64331dff5c212bfe8e67c1b1d6ed5b7d547e2dbff7aeab8987d4"
+    },
+    {
+      "path": "miles/mssdsp.flt",
+      "size": 115200,
+      "sha256": "9e526ca5a85503774c5cb272984207884614bd718e66d894c2bfa43817a65b4f"
+    },
+    {
+      "path": "miles/mssdx7.m3d",
+      "size": 90112,
+      "sha256": "15c64ec72a82dee96cefba33d5b7f0d658c6e008d0bf43cdeeac928990c32d51"
+    },
+    {
+      "path": "miles/msseax.m3d",
+      "size": 115712,
+      "sha256": "37faa064ea1e5ae4909ab97f96a43f1d8fc5e40380c0d30ee78e61560daed264"
+    },
+    {
+      "path": "miles/mssmp3.asi",
+      "size": 137216,
+      "sha256": "93b4322c8266ed4c05e5abbfcdba81537e557072ad6c752d899178952bcf5c29"
+    },
+    {
+      "path": "miles/mssrsx.m3d",
+      "size": 369664,
+      "sha256": "43da4d7c40db81a7bc19214d4bddf38910fe5ded8722a6b0bcf53280b1f43d8c"
+    },
+    {
+      "path": "miles/msssoft.m3d",
+      "size": 77824,
+      "sha256": "62233bebccb6aeb97370a8499c577e2982f46924e3a1bc55c53fa1f8a2404252"
+    },
+    {
+      "path": "miles/mssvoice.asi",
+      "size": 212992,
+      "sha256": "bcafbc0806f63c9cc7f07ca9690e993f2347e67ead1da0852df7268ef8cab198"
+    },
+    {
+      "path": "mss32.dll",
+      "size": 370688,
+      "sha256": "7855b8fbae917cb8449f2d4361ab61b5ecec4df0a11130d797cb0aa99b4260ea"
+    },
+    {
+      "path": "pb/dll/wc001203.dll",
+      "size": 503808,
+      "sha256": "62b220f6403c4a60f65856592a097e1a8a25512deb0a7a930006ed559cec7e65"
+    },
+    {
+      "path": "pb/dll/ws001105.dll",
+      "size": 307200,
+      "sha256": "a9c91ff610a26480597782ec66a6171f591ba5750ab719b8017ff978ce2b624d"
+    },
+    {
+      "path": "pb/htm/lc001203.htm",
+      "size": 17,
+      "sha256": "294518cc925310660f00a3f3d392effa3a8e8941de4750e748e1175f693c8b1b"
+    },
+    {
+      "path": "pb/htm/mc001203.htm",
+      "size": 17,
+      "sha256": "294518cc925310660f00a3f3d392effa3a8e8941de4750e748e1175f693c8b1b"
+    },
+    {
+      "path": "pb/htm/wc001203.htm",
+      "size": 438026,
+      "sha256": "02ceda892716b488cda85ee8f20fc64db48402b1430493b102788b6397a497f1"
+    },
+    {
+      "path": "pb/htm/ws001105.htm",
+      "size": 324648,
+      "sha256": "032655071c56112161e36d13879f0d62f729670c254ea7aec33e2759d1dcf3a7"
+    },
+    {
+      "path": "pb/pbag.dll",
+      "size": 57344,
+      "sha256": "f3e3259568e390d708823e34482541d8c028cfebf7d10cf2e4adc4309e87c083"
+    },
+    {
+      "path": "pb/pbags.dll",
+      "size": 57344,
+      "sha256": "f3e3259568e390d708823e34482541d8c028cfebf7d10cf2e4adc4309e87c083"
+    },
+    {
+      "path": "pb/pbcl.dll",
+      "size": 503808,
+      "sha256": "62b220f6403c4a60f65856592a097e1a8a25512deb0a7a930006ed559cec7e65"
+    },
+    {
+      "path": "pb/pbcls.dll",
+      "size": 503808,
+      "sha256": "62b220f6403c4a60f65856592a097e1a8a25512deb0a7a930006ed559cec7e65"
+    },
+    {
+      "path": "pb/pbsv.dll",
+      "size": 307200,
+      "sha256": "7958c56df879ddadd98fae442b527bdebf3997836f467e16b4f2b7b7b06882a0"
+    },
+    {
+      "path": "Uninstall/botva2.dll",
+      "size": 37888,
+      "sha256": "609661a14733f6e9c2c2f2ff9c274f8a4cbedaff4dd32049aa5161f8d7083d6a"
+    },
+    {
+      "path": "Uninstall/dark.png",
+      "size": 67185,
+      "sha256": "56e1b926b344ef760fea6a4fd862e066ea5295f7e5671fc7c0d1f1bc148e2009"
+    },
+    {
+      "path": "Uninstall/light.png",
+      "size": 58221,
+      "sha256": "9813c13b925ca95d4038c827e5efa1bf6c00aed41c65b7e7d5907ddf68866847"
+    },
+    {
+      "path": "Uninstall/Setup1.jpg",
+      "size": 178814,
+      "sha256": "e46a0c5734957c09d84345b0da7591666cdecf70981fc6d3a7d0c45c5e1b2a7f"
+    },
+    {
+      "path": "Uninstall/unins000.dat",
+      "size": 218971,
+      "sha256": "bc4be0cb0e9cb5315a7754a10755b43caf751c32b89b92eacf114d64c3d04bbb"
+    },
+    {
+      "path": "Uninstall/unins000.exe",
+      "size": 1549169,
+      "sha256": "0deacc4ff6f893dbb63435399fb331981d62eb5d8e158a4d610f3678b728a9a2"
+    },
+    {
+      "path": "version.inf",
+      "size": 141,
+      "sha256": "f7f0012bbba71a18912d569bad18e36f1cea59be1b1a822a3cd28e21772e34e8"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "_Original/CoD2MP_s.exe",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 756224
+        },
+        {
+          "file": "_Original/CoD2SP_s.exe",
+          "file_offset": 0,
+          "chunk_offset": 49976000,
+          "length": 662528
+        },
+        {
+          "file": "cod.bmp",
+          "file_offset": 0,
+          "chunk_offset": 50638528,
+          "length": 921656
+        },
+        {
+          "file": "CoD2MP_s.exe",
+          "file_offset": 0,
+          "chunk_offset": 51560184,
+          "length": 22745600
+        },
+        {
+          "file": "CoD2SP_s.exe",
+          "file_offset": 0,
+          "chunk_offset": 74305784,
+          "length": 20634433
+        }
+      ],
+      "sha256": "37d727f6ef5df891e831effa3a186549a6a56900024bc03bc6f179f77dbb3584"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "CoD2SP_s.exe",
+          "file_offset": 20634433,
+          "chunk_offset": 0,
+          "length": 5345983
+        },
+        {
+          "file": "codlogo.bmp",
+          "file_offset": 0,
+          "chunk_offset": 5345983,
+          "length": 109976
+        },
+        {
+          "file": "Docs/license.txt",
+          "file_offset": 0,
+          "chunk_offset": 5455959,
+          "length": 14884
+        },
+        {
+          "file": "Docs/pbeula_ENU.txt",
+          "file_offset": 0,
+          "chunk_offset": 5470843,
+          "length": 5345
+        },
+        {
+          "file": "Docs/TechHelp/_borders/left.htm",
+          "file_offset": 0,
+          "chunk_offset": 5476188,
+          "length": 3862
+        },
+        {
+          "file": "Docs/TechHelp/_borders/side_ie.css",
+          "file_offset": 0,
+          "chunk_offset": 5480050,
+          "length": 1044
+        },
+        {
+          "file": "Docs/TechHelp/_borders/style_ie.css",
+          "file_offset": 0,
+          "chunk_offset": 5481094,
+          "length": 641
+        },
+        {
+          "file": "Docs/TechHelp/_borders/top.htm",
+          "file_offset": 0,
+          "chunk_offset": 5481735,
+          "length": 5325
+        },
+        {
+          "file": "Docs/TechHelp/_borders/top_files/atvi.jpg",
+          "file_offset": 0,
+          "chunk_offset": 5487060,
+          "length": 33410
+        },
+        {
+          "file": "Docs/TechHelp/_borders/top_files/filelist.xml",
+          "file_offset": 0,
+          "chunk_offset": 5520470,
+          "length": 320
+        },
+        {
+          "file": "Docs/TechHelp/_borders/top_files/image001.gif",
+          "file_offset": 0,
+          "chunk_offset": 5520790,
+          "length": 9250
+        },
+        {
+          "file": "Docs/TechHelp/_borders/top_files/image002.png",
+          "file_offset": 0,
+          "chunk_offset": 5530040,
+          "length": 72417
+        },
+        {
+          "file": "Docs/TechHelp/_borders/top_files/image004.png",
+          "file_offset": 0,
+          "chunk_offset": 5602457,
+          "length": 12345
+        },
+        {
+          "file": "Docs/TechHelp/_borders/top_files/oledata.mso",
+          "file_offset": 0,
+          "chunk_offset": 5614802,
+          "length": 420308
+        },
+        {
+          "file": "Docs/TechHelp/Compatibility/msr.htm",
+          "file_offset": 0,
+          "chunk_offset": 6035110,
+          "length": 6121
+        },
+        {
+          "file": "Docs/TechHelp/Credits/credits.htm",
+          "file_offset": 0,
+          "chunk_offset": 6041231,
+          "length": 98174
+        },
+        {
+          "file": "Docs/TechHelp/Default.htm",
+          "file_offset": 0,
+          "chunk_offset": 6139405,
+          "length": 8079
+        },
+        {
+          "file": "Docs/TechHelp/images/3by3.gif",
+          "file_offset": 0,
+          "chunk_offset": 6147484,
+          "length": 49
+        },
+        {
+          "file": "Docs/TechHelp/images/Activision.jpg",
+          "file_offset": 0,
+          "chunk_offset": 6147533,
+          "length": 2441
+        },
+        {
+          "file": "Docs/TechHelp/images/ATVIsmall.jpg",
+          "file_offset": 0,
+          "chunk_offset": 6149974,
+          "length": 6391
+        },
+        {
+          "file": "Docs/TechHelp/images/ATVIsmall_invert.jpg",
+          "file_offset": 0,
+          "chunk_offset": 6156365,
+          "length": 1357
+        },
+        {
+          "file": "Docs/TechHelp/images/cod2.gif",
+          "file_offset": 0,
+          "chunk_offset": 6157722,
+          "length": 9250
+        },
+        {
+          "file": "Docs/TechHelp/images/IW.jpg",
+          "file_offset": 0,
+          "chunk_offset": 6166972,
+          "length": 2839
+        },
+        {
+          "file": "Docs/TechHelp/images/redstripe.jpg",
+          "file_offset": 0,
+          "chunk_offset": 6169811,
+          "length": 1954
+        },
+        {
+          "file": "Docs/TechHelp/index.htm",
+          "file_offset": 0,
+          "chunk_offset": 6171765,
+          "length": 4176
+        },
+        {
+          "file": "Docs/TechHelp/Manual/manual_us.pdf",
+          "file_offset": 0,
+          "chunk_offset": 6175941,
+          "length": 542217
+        },
+        {
+          "file": "Docs/TechHelp/Readme/readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 6718158,
+          "length": 28085
+        },
+        {
+          "file": "Docs/TechHelp/Tech Help/Customer Support/Customer_support.htm",
+          "file_offset": 0,
+          "chunk_offset": 6746243,
+          "length": 238166
+        },
+        {
+          "file": "Docs/TechHelp/Tech Help/Default.htm",
+          "file_offset": 0,
+          "chunk_offset": 6984409,
+          "length": 890
+        },
+        {
+          "file": "Docs/TechHelp/Tech Help/Information/Audio_Problems.htm",
+          "file_offset": 0,
+          "chunk_offset": 6985299,
+          "length": 9594
+        },
+        {
+          "file": "Docs/TechHelp/Tech Help/Information/autoplay.htm",
+          "file_offset": 0,
+          "chunk_offset": 6994893,
+          "length": 8216
+        },
+        {
+          "file": "Docs/TechHelp/Tech Help/Information/dedicated_serv.htm",
+          "file_offset": 0,
+          "chunk_offset": 7003109,
+          "length": 20760
+        },
+        {
+          "file": "Docs/TechHelp/Tech Help/Information/DirectX.htm",
+          "file_offset": 0,
+          "chunk_offset": 7023869,
+          "length": 8772
+        },
+        {
+          "file": "Docs/TechHelp/Tech Help/Information/Electronic_Registration.htm",
+          "file_offset": 0,
+          "chunk_offset": 7032641,
+          "length": 6918
+        },
+        {
+          "file": "Docs/TechHelp/Tech Help/Information/Updates_and_or_Patches.htm",
+          "file_offset": 0,
+          "chunk_offset": 7039559,
+          "length": 6907
+        },
+        {
+          "file": "gfx_d3d_mp_x86_s.dll",
+          "file_offset": 0,
+          "chunk_offset": 7046466,
+          "length": 1855488
+        },
+        {
+          "file": "gfx_d3d_x86_s.dll",
+          "file_offset": 0,
+          "chunk_offset": 8901954,
+          "length": 1851392
+        },
+        {
+          "file": "instscript.vdf",
+          "file_offset": 0,
+          "chunk_offset": 10753346,
+          "length": 330
+        },
+        {
+          "file": "localization.txt",
+          "file_offset": 0,
+          "chunk_offset": 10753676,
+          "length": 2271
+        },
+        {
+          "file": "main/iw_00.iwd",
+          "file_offset": 0,
+          "chunk_offset": 10755947,
+          "length": 84184270
+        }
+      ],
+      "sha256": "90a4d6008921011a83ecf1d964f7a7219c371aa8fb1b0980792550d2beba5925"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_00.iwd",
+          "file_offset": 84184270,
+          "chunk_offset": 0,
+          "length": 78063819
+        },
+        {
+          "file": "main/iw_01.iwd",
+          "file_offset": 0,
+          "chunk_offset": 78063819,
+          "length": 16876398
+        }
+      ],
+      "sha256": "d269a04d3bb591a6506c4787b4a7001cf7fcef194e3e04a0f6394933f9245aaa"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_01.iwd",
+          "file_offset": 16876398,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "b87048c822bc886632d2173c82afc927c30f4bdd5d3b8619c36413ce4930b925"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_01.iwd",
+          "file_offset": 111816615,
+          "chunk_offset": 0,
+          "length": 33270449
+        },
+        {
+          "file": "main/iw_02.iwd",
+          "file_offset": 0,
+          "chunk_offset": 33270449,
+          "length": 61669768
+        }
+      ],
+      "sha256": "73ef185ced013a409d1eeae236ee8d3ef70497a7976109944ad5e9b68b89a4c3"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_02.iwd",
+          "file_offset": 61669768,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "813aa8a1fffeb1db0fcfbf479069c87debd93ace58b2053dac6d10415ab9c3ac"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_02.iwd",
+          "file_offset": 156609985,
+          "chunk_offset": 0,
+          "length": 8239671
+        },
+        {
+          "file": "main/iw_03.iwd",
+          "file_offset": 0,
+          "chunk_offset": 8239671,
+          "length": 86700546
+        }
+      ],
+      "sha256": "72a22039cd0e9dc6333101c751b716eedb780caaa4492767b40dc5933cb27996"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_03.iwd",
+          "file_offset": 86700546,
+          "chunk_offset": 0,
+          "length": 79990959
+        },
+        {
+          "file": "main/iw_04.iwd",
+          "file_offset": 0,
+          "chunk_offset": 79990959,
+          "length": 14949258
+        }
+      ],
+      "sha256": "e564346af67429352022a6f0d622db4e812bfae8924d0344dee7c72cb0bbc0f0"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_04.iwd",
+          "file_offset": 14949258,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "3eaeab8401d145eccaa180e77059d1b8651c1e8de1f37069ea840f23fbd56aca"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_04.iwd",
+          "file_offset": 109889475,
+          "chunk_offset": 0,
+          "length": 57724920
+        },
+        {
+          "file": "main/iw_05.iwd",
+          "file_offset": 0,
+          "chunk_offset": 57724920,
+          "length": 37215297
+        }
+      ],
+      "sha256": "b8454a110cb5700350beaac67631776c00d24594b29af4be74dd42fae4512ddb"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_05.iwd",
+          "file_offset": 37215297,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "5747d1b1ad160327b0c93b3d3bff60b4ab32cfe61b445fef6236b07222a4b645"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_05.iwd",
+          "file_offset": 132155514,
+          "chunk_offset": 0,
+          "length": 34966364
+        },
+        {
+          "file": "main/iw_06.iwd",
+          "file_offset": 0,
+          "chunk_offset": 34966364,
+          "length": 49366825
+        },
+        {
+          "file": "main/iw_07.iwd",
+          "file_offset": 0,
+          "chunk_offset": 84333189,
+          "length": 2438462
+        },
+        {
+          "file": "main/iw_08.iwd",
+          "file_offset": 0,
+          "chunk_offset": 86771651,
+          "length": 8168566
+        }
+      ],
+      "sha256": "7fcde334a5d6fe4c996803dc00479c2bc8c7d047323b0a7cedf2b8200ced8701"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_08.iwd",
+          "file_offset": 8168566,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "cf6d831787c79d3acf9a51b42520478e7a986e265c6a552595425676e47b7a6b"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_08.iwd",
+          "file_offset": 103108783,
+          "chunk_offset": 0,
+          "length": 64784221
+        },
+        {
+          "file": "main/iw_09.iwd",
+          "file_offset": 0,
+          "chunk_offset": 64784221,
+          "length": 30155996
+        }
+      ],
+      "sha256": "9e9cb7ef866537276e7ab9e9ce658be0dcb1e3b6881351057f52ef12f8554ba7"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_09.iwd",
+          "file_offset": 30155996,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "19d7970f65169b71b92f6719f93938d444cbd5b1561b8a7ade7c8f169500e560"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_09.iwd",
+          "file_offset": 125096213,
+          "chunk_offset": 0,
+          "length": 42906285
+        },
+        {
+          "file": "main/iw_10.iwd",
+          "file_offset": 0,
+          "chunk_offset": 42906285,
+          "length": 52033932
+        }
+      ],
+      "sha256": "ec50e424c63b0595fe7710669bec2ec0e9aaea04a04b2217a8aa1dad59592cb6"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_10.iwd",
+          "file_offset": 52033932,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "f3bd8b704c3fb91f800ce903078cf3004731f0cfad0dc6a21266e560d1f630d1"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_10.iwd",
+          "file_offset": 146974149,
+          "chunk_offset": 0,
+          "length": 20795965
+        },
+        {
+          "file": "main/iw_11.iwd",
+          "file_offset": 0,
+          "chunk_offset": 20795965,
+          "length": 74144252
+        }
+      ],
+      "sha256": "34952af4deea2e5f18d1540147cdadb2b98aef42e6e3709f3f9cb85efab14a56"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_11.iwd",
+          "file_offset": 74144252,
+          "chunk_offset": 0,
+          "length": 93582814
+        },
+        {
+          "file": "main/iw_12.iwd",
+          "file_offset": 0,
+          "chunk_offset": 93582814,
+          "length": 1357403
+        }
+      ],
+      "sha256": "87fca559c6d4ff724cac73a0292a6977a2f1a6c7b8e36d79609d124eafdeb180"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_12.iwd",
+          "file_offset": 1357403,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "bb146ffd8b6e82a3162a2f1329e9d31ce7961b036e08ebed1cf167e0d0e87eaa"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_12.iwd",
+          "file_offset": 96297620,
+          "chunk_offset": 0,
+          "length": 71361801
+        },
+        {
+          "file": "main/iw_13.iwd",
+          "file_offset": 0,
+          "chunk_offset": 71361801,
+          "length": 23578416
+        }
+      ],
+      "sha256": "81b9a04d8c9aaf89e2adea856a41dfbe125fe6793d6b4e0ea10cf78bc7d38844"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_13.iwd",
+          "file_offset": 23578416,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "d815ae049f6592fdb7b4c5fef816b6f7baaaa5b456f5b34d193f6b5390fc7a2a"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_13.iwd",
+          "file_offset": 118518633,
+          "chunk_offset": 0,
+          "length": 51854805
+        },
+        {
+          "file": "main/iw_14.iwd",
+          "file_offset": 0,
+          "chunk_offset": 51854805,
+          "length": 43085412
+        }
+      ],
+      "sha256": "fb2abb8deee1c1757552ed2440029ed5e94ea063b7e025ec8c3775a25f26f294"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/iw_14.iwd",
+          "file_offset": 43085412,
+          "chunk_offset": 0,
+          "length": 52640090
+        },
+        {
+          "file": "main/iw_15.iwd",
+          "file_offset": 0,
+          "chunk_offset": 52640090,
+          "length": 26569995
+        },
+        {
+          "file": "main/localized_english_iw00.iwd",
+          "file_offset": 0,
+          "chunk_offset": 79210085,
+          "length": 15730132
+        }
+      ],
+      "sha256": "494393892212c44c1cc72adf7a4f6a0676002f019b2ba079581853cda7343642"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw00.iwd",
+          "file_offset": 15730132,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "71a731aa446725b9a661902a53d0123d44359368ebd728a8de0f013a33735571"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw00.iwd",
+          "file_offset": 110670349,
+          "chunk_offset": 0,
+          "length": 57728425
+        },
+        {
+          "file": "main/localized_english_iw01.iwd",
+          "file_offset": 0,
+          "chunk_offset": 57728425,
+          "length": 37211792
+        }
+      ],
+      "sha256": "9220a350eca040fd4db0a369efdd9cb8cd1208c1dc07820bb22a67c511f85e37"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw01.iwd",
+          "file_offset": 37211792,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "ecb615ed61ea634eee3c4a50d2a2931ef67c38ae2c856b32d5d4f681856f4e69"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw01.iwd",
+          "file_offset": 132152009,
+          "chunk_offset": 0,
+          "length": 36378293
+        },
+        {
+          "file": "main/localized_english_iw02.iwd",
+          "file_offset": 0,
+          "chunk_offset": 36378293,
+          "length": 58561924
+        }
+      ],
+      "sha256": "9abba5ae6345a27ec15741bc1230c340830121b35bbea9b728d640b3f7b68105"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw02.iwd",
+          "file_offset": 58561924,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "dea870bea9fc448fd521551fbbaa0e069d8409b32cde5e1aa9e562f18cf3e78f"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw02.iwd",
+          "file_offset": 153502141,
+          "chunk_offset": 0,
+          "length": 15159626
+        },
+        {
+          "file": "main/localized_english_iw03.iwd",
+          "file_offset": 0,
+          "chunk_offset": 15159626,
+          "length": 79780591
+        }
+      ],
+      "sha256": "f761167b27e92cdb4a6dec9cadb56e1e6488581efe3b91eafabd29c2eeb06cc1"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw03.iwd",
+          "file_offset": 79780591,
+          "chunk_offset": 0,
+          "length": 88864325
+        },
+        {
+          "file": "main/localized_english_iw04.iwd",
+          "file_offset": 0,
+          "chunk_offset": 88864325,
+          "length": 6075892
+        }
+      ],
+      "sha256": "80f5e23906594d51986fdd462d7eff4305a6390bdcd8b554b76fabcee5d577f6"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw04.iwd",
+          "file_offset": 6075892,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "58e219a332a7e54356d5046a7572c8e49c51827ffe4e2af1edf9088475ffbde7"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw04.iwd",
+          "file_offset": 101016109,
+          "chunk_offset": 0,
+          "length": 67597136
+        },
+        {
+          "file": "main/localized_english_iw05.iwd",
+          "file_offset": 0,
+          "chunk_offset": 67597136,
+          "length": 27343081
+        }
+      ],
+      "sha256": "1a48b627f738be6a54df2ea174529a89bedd9cecb7deaec5722ed07b63db23ce"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw05.iwd",
+          "file_offset": 27343081,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "283070275661499b483488c64d89235c582319b9b8dc6a3cb7dfe6e0dbbf89ac"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw05.iwd",
+          "file_offset": 122283298,
+          "chunk_offset": 0,
+          "length": 46195663
+        },
+        {
+          "file": "main/localized_english_iw06.iwd",
+          "file_offset": 0,
+          "chunk_offset": 46195663,
+          "length": 48744554
+        }
+      ],
+      "sha256": "d042a85a5c3f187118478d44f0338d1523b002a95d3f5cf53abb6283147eb525"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw06.iwd",
+          "file_offset": 48744554,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "768a399d4e3fbff1fa9192864aa5c4d30a13b56b7aebfcfb3430f9438ec3352b"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw06.iwd",
+          "file_offset": 143684771,
+          "chunk_offset": 0,
+          "length": 24421389
+        },
+        {
+          "file": "main/localized_english_iw07.iwd",
+          "file_offset": 0,
+          "chunk_offset": 24421389,
+          "length": 70518828
+        }
+      ],
+      "sha256": "c29021dd282e6d77d9e3fd182a419c2a43d3c7827612df78e67b02c44993034f"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw07.iwd",
+          "file_offset": 70518828,
+          "chunk_offset": 0,
+          "length": 68970850
+        },
+        {
+          "file": "main/localized_english_iw08.iwd",
+          "file_offset": 0,
+          "chunk_offset": 68970850,
+          "length": 25969367
+        }
+      ],
+      "sha256": "a8fcc5394f1839d590958eba9287577658042888c232f3372d40f29168cccf47"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 94940217,
+      "segments": [
+        {
+          "file": "main/localized_english_iw08.iwd",
+          "file_offset": 25969367,
+          "chunk_offset": 0,
+          "length": 94940217
+        }
+      ],
+      "sha256": "673b112a140e11abd0e943396c1e9e92cd719dd7c330cab4f5d0d12b1d6f6ca1"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 94940190,
+      "segments": [
+        {
+          "file": "main/localized_english_iw08.iwd",
+          "file_offset": 120909584,
+          "chunk_offset": 0,
+          "length": 32244324
+        },
+        {
+          "file": "main/localized_english_iw09.iwd",
+          "file_offset": 0,
+          "chunk_offset": 32244324,
+          "length": 124935
+        },
+        {
+          "file": "main/localized_english_iw10.iwd",
+          "file_offset": 0,
+          "chunk_offset": 32369259,
+          "length": 55786984
+        },
+        {
+          "file": "main/localized_english_iw11.iwd",
+          "file_offset": 0,
+          "chunk_offset": 88156243,
+          "length": 706
+        },
+        {
+          "file": "miles/mssa3d.m3d",
+          "file_offset": 0,
+          "chunk_offset": 88156949,
+          "length": 98816
+        },
+        {
+          "file": "miles/mssds3d.m3d",
+          "file_offset": 0,
+          "chunk_offset": 88255765,
+          "length": 81408
+        },
+        {
+          "file": "miles/mssdsp.flt",
+          "file_offset": 0,
+          "chunk_offset": 88337173,
+          "length": 115200
+        },
+        {
+          "file": "miles/mssdx7.m3d",
+          "file_offset": 0,
+          "chunk_offset": 88452373,
+          "length": 90112
+        },
+        {
+          "file": "miles/msseax.m3d",
+          "file_offset": 0,
+          "chunk_offset": 88542485,
+          "length": 115712
+        },
+        {
+          "file": "miles/mssmp3.asi",
+          "file_offset": 0,
+          "chunk_offset": 88658197,
+          "length": 137216
+        },
+        {
+          "file": "miles/mssrsx.m3d",
+          "file_offset": 0,
+          "chunk_offset": 88795413,
+          "length": 369664
+        },
+        {
+          "file": "miles/msssoft.m3d",
+          "file_offset": 0,
+          "chunk_offset": 89165077,
+          "length": 77824
+        },
+        {
+          "file": "miles/mssvoice.asi",
+          "file_offset": 0,
+          "chunk_offset": 89242901,
+          "length": 212992
+        },
+        {
+          "file": "mss32.dll",
+          "file_offset": 0,
+          "chunk_offset": 89455893,
+          "length": 370688
+        },
+        {
+          "file": "pb/dll/wc001203.dll",
+          "file_offset": 0,
+          "chunk_offset": 89826581,
+          "length": 503808
+        },
+        {
+          "file": "pb/dll/ws001105.dll",
+          "file_offset": 0,
+          "chunk_offset": 90330389,
+          "length": 307200
+        },
+        {
+          "file": "pb/htm/lc001203.htm",
+          "file_offset": 0,
+          "chunk_offset": 90637589,
+          "length": 17
+        },
+        {
+          "file": "pb/htm/mc001203.htm",
+          "file_offset": 0,
+          "chunk_offset": 90637606,
+          "length": 17
+        },
+        {
+          "file": "pb/htm/wc001203.htm",
+          "file_offset": 0,
+          "chunk_offset": 90637623,
+          "length": 438026
+        },
+        {
+          "file": "pb/htm/ws001105.htm",
+          "file_offset": 0,
+          "chunk_offset": 91075649,
+          "length": 324648
+        },
+        {
+          "file": "pb/pbag.dll",
+          "file_offset": 0,
+          "chunk_offset": 91400297,
+          "length": 57344
+        },
+        {
+          "file": "pb/pbags.dll",
+          "file_offset": 0,
+          "chunk_offset": 91457641,
+          "length": 57344
+        },
+        {
+          "file": "pb/pbcl.dll",
+          "file_offset": 0,
+          "chunk_offset": 91514985,
+          "length": 503808
+        },
+        {
+          "file": "pb/pbcls.dll",
+          "file_offset": 0,
+          "chunk_offset": 92018793,
+          "length": 503808
+        },
+        {
+          "file": "pb/pbsv.dll",
+          "file_offset": 0,
+          "chunk_offset": 92522601,
+          "length": 307200
+        },
+        {
+          "file": "Uninstall/botva2.dll",
+          "file_offset": 0,
+          "chunk_offset": 92829801,
+          "length": 37888
+        },
+        {
+          "file": "Uninstall/dark.png",
+          "file_offset": 0,
+          "chunk_offset": 92867689,
+          "length": 67185
+        },
+        {
+          "file": "Uninstall/light.png",
+          "file_offset": 0,
+          "chunk_offset": 92934874,
+          "length": 58221
+        },
+        {
+          "file": "Uninstall/Setup1.jpg",
+          "file_offset": 0,
+          "chunk_offset": 92993095,
+          "length": 178814
+        },
+        {
+          "file": "Uninstall/unins000.dat",
+          "file_offset": 0,
+          "chunk_offset": 93171909,
+          "length": 218971
+        },
+        {
+          "file": "Uninstall/unins000.exe",
+          "file_offset": 0,
+          "chunk_offset": 93390880,
+          "length": 1549169
+        },
+        {
+          "file": "version.inf",
+          "file_offset": 0,
+          "chunk_offset": 94940049,
+          "length": 141
+        }
+      ],
+      "sha256": "371da7c68162d2c19e669ae25f75e6128b375f6bd7dc4e1aa95e240e6b6d69a6"
+    }
+  ]
+}
