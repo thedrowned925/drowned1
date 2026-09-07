@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 95
-- **Toplam aktif sürüm/kanal:** 95
-- **Toplam aktif boyut:** 2555.926 GB · 2.556 TB
-- **Katalog güncelleme zamanı:** 2026-09-04 12:11:54 UTC
+- **Toplam oyun:** 96
+- **Toplam aktif sürüm/kanal:** 96
+- **Toplam aktif boyut:** 2573.153 GB · 2.573 TB
+- **Katalog güncelleme zamanı:** 2026-09-07 16:10:52 UTC
 
 ## PC
 
-**95 oyun · 95 aktif sürüm/kanal · 2555.926 GB · 2.556 TB**
+**96 oyun · 96 aktif sürüm/kanal · 2573.153 GB · 2.573 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -25,6 +25,7 @@
 | Batman: Arkham Asylum Game of the Year Edition | 1.0.0 | stable | 8.609 | 0.009 | `pc-batman-arkham-asylum-game-of-the-year-edition-v1.0.0-stable` |
 | Batman: Arkham City - Game of the Year Edition | 1.0.0 | stable | 18.232 | 0.018 | `pc-batman-arkham-city-game-of-the-year-edition-v1.0.0-stable` |
 | Batman™: Arkham Knight | 1.0.0 | stable | 58.187 | 0.058 | `pc-batman-arkham-knight-v1.0.0-stable` |
+| Battlefield 3™ | 1.0.0 | stable | 17.227 | 0.017 | `pc-battlefield-3-v1.0.0-stable` |
 | BioShock Infinite | 1.0.0 | stable | 47.811 | 0.048 | `pc-bioshock-infinite-v1.0.0-stable` |
 | BioShock® 2 | 1.0.0 | stable | 8.933 | 0.009 | `pc-bioshock-2-v1.0.0-stable` |
 | BioShock™ | 1.0.0 | stable | 6.039 | 0.006 | `pc-bioshock-v1.0.0-stable` |
