@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-07T16:10:52.513243+00:00",
+  "updated_at": "2026-09-07T16:19:00.965630+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -3223,6 +3223,38 @@
       },
       "media": {
         "steam_app_id": 1238820
+      }
+    },
+    {
+      "id": "call-of-duty-2",
+      "title": "Call of Duty® 2",
+      "platform": "pc",
+      "description": "Call of Duty® 2 redefines the cinematic intensity and chaos of battle as seen through the eyes of ordinary soldiers fighting together in epic WWII conflicts. The sequel to 2003's Call of Duty, winner of over 80 Game of the Year awards, Call of Duty 2 offers more immense, more intense, more realistic battles than ever before, thanks to...",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-2/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-2/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-2/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-2/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-2/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-2/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-2/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-2/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-2/screenshots/04.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-call-of-duty-2-v1.0.0-stable",
+          "manifest_path": "manifests/pc/call-of-duty-2/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/call-of-duty-2/stable/1.0.0.json",
+          "size": 3797608653,
+          "published_at": "2026-09-07T16:19:00.965619+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 2630
       }
     }
   ]
