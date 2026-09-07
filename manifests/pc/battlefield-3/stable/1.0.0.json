@@ -1,0 +1,4729 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "battlefield-3",
+    "title": "Battlefield 3™",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Enjoy total freedom to fight the way you want. Explore 29 massive multiplayer maps and use loads of vehicles, weapons, and gadgets to help you turn up the heat. Every second of battle gets you closer to unlocking tons of extras and moving up in the Ranks. So get in the action."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-battlefield-3-v1.0.0-stable"
+  },
+  "chunk_size": 430672901,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 17226916011,
+  "files": [
+    {
+      "path": "__Installer/Cleanup.dat",
+      "size": 41193,
+      "sha256": "69f810fe1ccbfc49ca492abc253f54f84446e029acf10a287491009080858315"
+    },
+    {
+      "path": "__Installer/Cleanup.exe",
+      "size": 525664,
+      "sha256": "e4e2e539393529cbb7af269a49a881f1698f762364689432826fbb6b337df565"
+    },
+    {
+      "path": "__Installer/installerdata.xml",
+      "size": 61540,
+      "sha256": "d539cf58da11abd1385f2a7a9b5c5a2107edd684b21d10da8c0c727c93ead945"
+    },
+    {
+      "path": "__Installer/punkbuster/eula/cs_CZ.txt",
+      "size": 5560,
+      "sha256": "0f9ca01d109cd7f13ba402efbd050e91c8f0b372fde6f53d1e0884bf3ea3ab74"
+    },
+    {
+      "path": "__Installer/punkbuster/eula/de_DE.txt",
+      "size": 5560,
+      "sha256": "0f9ca01d109cd7f13ba402efbd050e91c8f0b372fde6f53d1e0884bf3ea3ab74"
+    },
+    {
+      "path": "__Installer/punkbuster/eula/en_US.txt",
+      "size": 5560,
+      "sha256": "0f9ca01d109cd7f13ba402efbd050e91c8f0b372fde6f53d1e0884bf3ea3ab74"
+    },
+    {
+      "path": "__Installer/punkbuster/eula/es_ES.txt",
+      "size": 5560,
+      "sha256": "0f9ca01d109cd7f13ba402efbd050e91c8f0b372fde6f53d1e0884bf3ea3ab74"
+    },
+    {
+      "path": "__Installer/punkbuster/eula/fr_FR.txt",
+      "size": 6800,
+      "sha256": "b841bc73dec67b7bdf3c77f0a40acebf73dc12be59d834838902c6e0eb75cf68"
+    },
+    {
+      "path": "__Installer/punkbuster/eula/it_IT.txt",
+      "size": 5560,
+      "sha256": "0f9ca01d109cd7f13ba402efbd050e91c8f0b372fde6f53d1e0884bf3ea3ab74"
+    },
+    {
+      "path": "__Installer/punkbuster/eula/ja_JP.txt",
+      "size": 5560,
+      "sha256": "0f9ca01d109cd7f13ba402efbd050e91c8f0b372fde6f53d1e0884bf3ea3ab74"
+    },
+    {
+      "path": "__Installer/punkbuster/eula/ko_KR.txt",
+      "size": 5560,
+      "sha256": "0f9ca01d109cd7f13ba402efbd050e91c8f0b372fde6f53d1e0884bf3ea3ab74"
+    },
+    {
+      "path": "__Installer/punkbuster/eula/pl_PL.txt",
+      "size": 5560,
+      "sha256": "0f9ca01d109cd7f13ba402efbd050e91c8f0b372fde6f53d1e0884bf3ea3ab74"
+    },
+    {
+      "path": "__Installer/punkbuster/eula/ru_RU.txt",
+      "size": 5560,
+      "sha256": "0f9ca01d109cd7f13ba402efbd050e91c8f0b372fde6f53d1e0884bf3ea3ab74"
+    },
+    {
+      "path": "__Installer/punkbuster/eula/zh_TW.txt",
+      "size": 5560,
+      "sha256": "0f9ca01d109cd7f13ba402efbd050e91c8f0b372fde6f53d1e0884bf3ea3ab74"
+    },
+    {
+      "path": "__Installer/punkbuster/redist/pbsvc.exe",
+      "size": 2580552,
+      "sha256": "73ede934a027b42ac1bc55f346142604841ec567b79078c296386beab486d80f"
+    },
+    {
+      "path": "__Installer/Touchup.dat",
+      "size": 46386,
+      "sha256": "ef4a5d6bd2d8a49a6471eb82afa488304974e06c18c3cb858acf63cb51f95c9f"
+    },
+    {
+      "path": "__Installer/Touchup.exe",
+      "size": 526176,
+      "sha256": "a039105d7c7719dcc4bbf4dead9bf7304eeeab18991d6bbb372c0c810a3a32af"
+    },
+    {
+      "path": "__Installer/vc/vc2008sp1/eula/de_DE.txt",
+      "size": 7886,
+      "sha256": "dd7e90f69f6679d0b0673592ed95669e65d45e23519c3b51857cde9d2e3037cb"
+    },
+    {
+      "path": "__Installer/vc/vc2008sp1/eula/en_US.txt",
+      "size": 5061,
+      "sha256": "3d35dde137b448710e79738f7a117cda222c927868ef0ceb668bf3c6a0dffec5"
+    },
+    {
+      "path": "__Installer/vc/vc2008sp1/eula/es_ES.txt",
+      "size": 6655,
+      "sha256": "fa0358e2607315d5b57718bddfd8e3476758ebc544da16a44e7d674e46ab7911"
+    },
+    {
+      "path": "__Installer/vc/vc2008sp1/eula/es_MX.txt",
+      "size": 6655,
+      "sha256": "fa0358e2607315d5b57718bddfd8e3476758ebc544da16a44e7d674e46ab7911"
+    },
+    {
+      "path": "__Installer/vc/vc2008sp1/eula/fr_FR.txt",
+      "size": 6392,
+      "sha256": "290a37ea58b0d1018382fd2c7bc08726e229e417c99e99861426ec46ffc3d122"
+    },
+    {
+      "path": "__Installer/vc/vc2008sp1/eula/it_IT.txt",
+      "size": 7068,
+      "sha256": "d6905d5b9ea46b6630032458b7970362ddec3caabab0902078b4cdad883c8250"
+    },
+    {
+      "path": "__Installer/vc/vc2008sp1/eula/ja_JP.txt",
+      "size": 8057,
+      "sha256": "97259441662dea42d3b1a0e2959a58681d094e2b88e9d22b2030dcef99a1bacb"
+    },
+    {
+      "path": "__Installer/vc/vc2008sp1/eula/ko_KR.txt",
+      "size": 6765,
+      "sha256": "77be193ea8ff3f9653be847546884581f9957c2d5ef7fb3f124cb989054997d5"
+    },
+    {
+      "path": "__Installer/vc/vc2008sp1/eula/ru_RU.txt",
+      "size": 12763,
+      "sha256": "18e758e974077be9ed8d4d136024b5a635ed6473f1a512274bb7f459c63f827f"
+    },
+    {
+      "path": "__Installer/vc/vc2008sp1/eula/zh_CN.txt",
+      "size": 4982,
+      "sha256": "cd92425a07c3198807ebaa75a2d9f28738ec52a162a2d70de607b0ec6da1bcde"
+    },
+    {
+      "path": "__Installer/vc/vc2008sp1/eula/zh_TW.txt",
+      "size": 5118,
+      "sha256": "74247704b7fb72baaab1de668292c888a7f6fd57ea209262713813227d2d6ae6"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "bf3.exe",
+      "size": 34144256,
+      "sha256": "74b4084011b633a9880aa56165ca968eefffa79c5062b1a6bb30d988642a0445"
+    },
+    {
+      "path": "bf3.par",
+      "size": 802,
+      "sha256": "e77c9406f701044f46f3714625ee6fc9f107609bb3868316b4ce495f9f805a28"
+    },
+    {
+      "path": "changelog.txt",
+      "size": 30838,
+      "sha256": "0f457e1b94307729d7ffeba4d737a5deeb225e38fefb77bda83e943145fc0d11"
+    },
+    {
+      "path": "Core/activation.exe",
+      "size": 938104,
+      "sha256": "45e3ab1116f75e2b392af1a5fa5c804354ba7a41367b5c6ccf14cbab0170fa1c"
+    },
+    {
+      "path": "Core/awc.dll",
+      "size": 521840,
+      "sha256": "28e2fca79d0aa0b8cd651b758658c2527241422bf5a9d92a75979140f128371d"
+    },
+    {
+      "path": "Core/codecs/qcncodecs4.dll",
+      "size": 143872,
+      "sha256": "bd412bfc8d3d20018b78c7265f9975731683350697b68cb30b5053c5dda40d9d"
+    },
+    {
+      "path": "Core/codecs/qjpcodecs4.dll",
+      "size": 180224,
+      "sha256": "1200677d1fa227eb8c0a13ea78a9125d44c5ed4803b507635dee722683f2333d"
+    },
+    {
+      "path": "Core/codecs/qjpcodecsd4.dll",
+      "size": 237056,
+      "sha256": "526c2a7dced739864ac4990af9f7207899e928704ca4623bf750ca1335ddb413"
+    },
+    {
+      "path": "Core/codecs/qkrcodecs4.dll",
+      "size": 79872,
+      "sha256": "826b03637074ec6a782236a37dcf205eea6889cfb1c2e00dc1b460e8ea3f5702"
+    },
+    {
+      "path": "Core/codecs/qtwcodecs4.dll",
+      "size": 158208,
+      "sha256": "41d78d74fe4e778f567f48363671bd48f82bac9c596fe42e2e765109d3dd6b7d"
+    },
+    {
+      "path": "Core/EACore.dll",
+      "size": 11685504,
+      "sha256": "ee88bd8fe9c1224fa513ae3b46633f4788f4c5c1a81d195ce9e97a98d7bf0f4b"
+    },
+    {
+      "path": "Core/EACore_App.ini",
+      "size": 1488,
+      "sha256": "ad34b5ad0ce1d064d5722ed2f48349b819653a74af5cebefaa7cf97e21cc629e"
+    },
+    {
+      "path": "Core/EACoreServer.exe",
+      "size": 117376,
+      "sha256": "ac3ac0cb1a313c07a69acbc7d7bf49641e93007e94320d832901722dd763b08a"
+    },
+    {
+      "path": "Core/EAProxyInstaller.exe",
+      "size": 1628808,
+      "sha256": "223dd9dee639f3dad15f35f02df951df80c24c43704ba47d1d6e9863d56c40ac"
+    },
+    {
+      "path": "Core/imageformats/Microsoft.VC80.CRT.manifest",
+      "size": 1869,
+      "sha256": "17ad1a64ba1c382abf89341b40950f9b31f95015c6b0d3e25925bfebc1b53eb5"
+    },
+    {
+      "path": "Core/imageformats/msvcr80.dll",
+      "size": 626688,
+      "sha256": "02bdde38e4c6bd795a092d496b8d6060cdbe71e22ef4d7a204e3050c1be44fa9"
+    },
+    {
+      "path": "Core/imageformats/qgif4.dll",
+      "size": 28672,
+      "sha256": "4793869bacb8d49ac604451f62a55faef26930d609c0af9154e904fbe2c05b84"
+    },
+    {
+      "path": "Core/imageformats/qico4.dll",
+      "size": 32256,
+      "sha256": "6c8363093706985bed4a35ce352bb893be317e88d1b84ef055d32596341746c9"
+    },
+    {
+      "path": "Core/imageformats/qjpeg4.dll",
+      "size": 211456,
+      "sha256": "176f965d2cea629fcd1df24b93b147f1c61e3223284aad50ea606367184e46c3"
+    },
+    {
+      "path": "Core/lang/AWCStrings_cs_CZ.xml",
+      "size": 7890,
+      "sha256": "72563d43c48a196f7b500523016cc0334fa09b61e664542beb0e79ea3940012d"
+    },
+    {
+      "path": "Core/lang/AWCStrings_da_DK.xml",
+      "size": 7924,
+      "sha256": "f58cd9170c54ee422f21e6390c32ee599b1f010bc22e58ab8431025106422f65"
+    },
+    {
+      "path": "Core/lang/AWCStrings_de_DE.xml",
+      "size": 8716,
+      "sha256": "6323f421b889072b28eda1bddb19556ef1d4d37003ae4a9bf6b3a96ecde4aac6"
+    },
+    {
+      "path": "Core/lang/AWCStrings_el_GR.xml",
+      "size": 8990,
+      "sha256": "2435d55de1f18d5541134e9eabe8dfe9b27753f21ee2923b2d27012d0c5d22fe"
+    },
+    {
+      "path": "Core/lang/AWCStrings_en_GB.xml",
+      "size": 7706,
+      "sha256": "024e5b2f27aeed6c726ebb082bed246ba2270879dcf1e23baa9063080fe1972d"
+    },
+    {
+      "path": "Core/lang/AWCStrings_en_US.xml",
+      "size": 7706,
+      "sha256": "ded48c2f9d5037cff42983ee8b6bc1e0f74e3e52993f43f1e5d9aaad79d3b64c"
+    },
+    {
+      "path": "Core/lang/AWCStrings_es_ES.xml",
+      "size": 8170,
+      "sha256": "53ae6e3356382463886f86223986d521cfd1a716e9ae801f69ff5f546c05372e"
+    },
+    {
+      "path": "Core/lang/AWCStrings_es_MX.xml",
+      "size": 8262,
+      "sha256": "168df6ca0e12151a49fede2a22f3237878af08e19c91bd883ca17ea69807df82"
+    },
+    {
+      "path": "Core/lang/AWCStrings_fi_FI.xml",
+      "size": 7872,
+      "sha256": "5e99ce11381c18f735f8e2a8294d74f2638d8e47f342fc48fd01554c4a9ac61e"
+    },
+    {
+      "path": "Core/lang/AWCStrings_fr_FR.xml",
+      "size": 8330,
+      "sha256": "d52cade9a35b3866c7a626f31d769460da78de6f3c4a250f68a4d71e49524a00"
+    },
+    {
+      "path": "Core/lang/AWCStrings_hu_HU.xml",
+      "size": 8416,
+      "sha256": "44c93233cc0313b3702f416d1a4a55adb299f54eb811a0a4b9ac1d54ad95d104"
+    },
+    {
+      "path": "Core/lang/AWCStrings_it_IT.xml",
+      "size": 7820,
+      "sha256": "42e34c18c869751892c7348e89877bfa9948605da902524138708106d5b4d6fb"
+    },
+    {
+      "path": "Core/lang/AWCStrings_ja_JP.xml",
+      "size": 5792,
+      "sha256": "5654b0f75dae5c2f12d8b55af32bb274b6dc0b0e92245c0688af2f61cfc21165"
+    },
+    {
+      "path": "Core/lang/AWCStrings_ko_KR.xml",
+      "size": 5880,
+      "sha256": "e7a23f84fd9f81a5de49c665c2f1c8668de2c40d273c8299f5a2d0d15ffd152a"
+    },
+    {
+      "path": "Core/lang/AWCStrings_nl_NL.xml",
+      "size": 8612,
+      "sha256": "33887028ea4406838de0ac1403a6c1b3bb8980027fadfd9ea4ca5aaab34d7141"
+    },
+    {
+      "path": "Core/lang/AWCStrings_no_NO.xml",
+      "size": 7756,
+      "sha256": "7ac19e8124fc7bad872752d0ac17d65607bacdf6d71a3a65b35385f6f2e97e51"
+    },
+    {
+      "path": "Core/lang/AWCStrings_pl_PL.xml",
+      "size": 8178,
+      "sha256": "be72d044e343829f6c71a59853cb9f24f1d2b7ca33236e615db2256dba655c1f"
+    },
+    {
+      "path": "Core/lang/AWCStrings_pt_BR.xml",
+      "size": 8188,
+      "sha256": "7ce48ec8a52feab7fb6be9748f53bd0639574220cb5377e89e54e8de55bcc607"
+    },
+    {
+      "path": "Core/lang/AWCStrings_pt_PT.xml",
+      "size": 7914,
+      "sha256": "4fcf89d5de07c3141ee6a7def4f625827cbf458b1875a5a573151cb49810c76a"
+    },
+    {
+      "path": "Core/lang/AWCStrings_ru_RU.xml",
+      "size": 7814,
+      "sha256": "34021e9a85716761ee49df0420b25a16d754ae9bc4231f3e5853982457be7280"
+    },
+    {
+      "path": "Core/lang/AWCStrings_sv_SE.xml",
+      "size": 7640,
+      "sha256": "34ba3eef916c57b4c62a6630cf9d586e9f99a09cacb38de4723fa0c52804784d"
+    },
+    {
+      "path": "Core/lang/AWCStrings_th_TH.xml",
+      "size": 7574,
+      "sha256": "bea28079bfc94ef2e3877011a3baaf91fa3359cfc76e55881ef1254c95a69539"
+    },
+    {
+      "path": "Core/lang/AWCStrings_zh_CN.xml",
+      "size": 4884,
+      "sha256": "ecf1a8c72592b5838f3e1ecab6456e2116e6f8af2ef51874a95c6d36528c572c"
+    },
+    {
+      "path": "Core/lang/AWCStrings_zh_TW.xml",
+      "size": 4898,
+      "sha256": "0d2ffee07cb5c66f0dd46196489e037991f917d0e7dcf2293fe8bf2e1dd174c7"
+    },
+    {
+      "path": "Core/lang/CoreStrings_cs_CZ.xml",
+      "size": 52296,
+      "sha256": "980b1b50d4facf438d4ed7591f750a02f134704b5545254e90f4f2ad2105b0cf"
+    },
+    {
+      "path": "Core/lang/CoreStrings_da_DK.xml",
+      "size": 50980,
+      "sha256": "01da2aa86fd1ef90d6fa93478e77ce68664220209dcbf8578a71696b8800a8d8"
+    },
+    {
+      "path": "Core/lang/CoreStrings_de_DE.xml",
+      "size": 57218,
+      "sha256": "d5cbc56ae0210a16eb5124b49068aa5e98f4a6e777d5847097e72a9ae2455100"
+    },
+    {
+      "path": "Core/lang/CoreStrings_el_GR.xml",
+      "size": 58010,
+      "sha256": "e192c9db46ee08a423216d74dbb0792fc6913f9633326a5e5468d4dc19afa0dd"
+    },
+    {
+      "path": "Core/lang/CoreStrings_en_GB.xml",
+      "size": 49868,
+      "sha256": "166b6acf238ab3436b437401e80dbb2149d8b1e2081a732cc6f9ada9354112e4"
+    },
+    {
+      "path": "Core/lang/CoreStrings_en_US.xml",
+      "size": 49868,
+      "sha256": "1f1cde0ae53aebd8fd6c42303371f08fc266d57e6e58bba261315316ad8edcbc"
+    },
+    {
+      "path": "Core/lang/CoreStrings_es_ES.xml",
+      "size": 55674,
+      "sha256": "9dad6839c6f07292e169bb888be6da83a76309e819583320f8fea710f608b711"
+    },
+    {
+      "path": "Core/lang/CoreStrings_es_MX.xml",
+      "size": 54782,
+      "sha256": "84729b73e8c782e6a2daa38a69d39c23823b67568374f3067c67353875118741"
+    },
+    {
+      "path": "Core/lang/CoreStrings_fi_FI.xml",
+      "size": 50360,
+      "sha256": "9353cc6fde296974b0bd7e59776b67859d8ec6bae0aa5a836de19463e804e6da"
+    },
+    {
+      "path": "Core/lang/CoreStrings_fr_FR.xml",
+      "size": 56896,
+      "sha256": "880866482964d483a2ead2ecb28eff98504e9052e731d2efe89b2c99feb494fe"
+    },
+    {
+      "path": "Core/lang/CoreStrings_hu_HU.xml",
+      "size": 54492,
+      "sha256": "66c8854cdc4a58207faecc5aa1d93042683e7af1b6e58ab0f89a5abe399c9cc8"
+    },
+    {
+      "path": "Core/lang/CoreStrings_it_IT.xml",
+      "size": 52756,
+      "sha256": "6f315e841209b99d156f77c62fabd872238300545e2e25380fa39e959d8c7eb4"
+    },
+    {
+      "path": "Core/lang/CoreStrings_ja_JP.xml",
+      "size": 36868,
+      "sha256": "cb24b24a18a004149b5a4f7b53444de2516f42d49e8c211cf277136e45adaff9"
+    },
+    {
+      "path": "Core/lang/CoreStrings_ko_KR.xml",
+      "size": 37232,
+      "sha256": "ae847c4afc351ac1fbe7c59a2a1270a2769edccbce7f52eee9ab76fc3ef63165"
+    },
+    {
+      "path": "Core/lang/CoreStrings_nl_NL.xml",
+      "size": 53426,
+      "sha256": "9bf5e4925bdf5b32ff52be80d5b50856b1a0fa72464aed795eb0e88933a35e89"
+    },
+    {
+      "path": "Core/lang/CoreStrings_no_NO.xml",
+      "size": 49780,
+      "sha256": "0dfaa01266ee284ac8b264fd8e98071b37e94e73c0e2865d17709c9b81d9e21d"
+    },
+    {
+      "path": "Core/lang/CoreStrings_pl_PL.xml",
+      "size": 53272,
+      "sha256": "59a6a11cd0c13b963d6e77313ee0c360992e82c4dacdcf08f2a33165b38b64a4"
+    },
+    {
+      "path": "Core/lang/CoreStrings_pt_BR.xml",
+      "size": 56556,
+      "sha256": "9c8cdc6fac9a80178a52c09bb6e517bf4022e42e6402ebaafa03ee8527c3d83e"
+    },
+    {
+      "path": "Core/lang/CoreStrings_pt_PT.xml",
+      "size": 54254,
+      "sha256": "ce96955d17b519e1f553c97bb8879c6a04a0bae6a3287408cef5640c67c7e8ba"
+    },
+    {
+      "path": "Core/lang/CoreStrings_ru_RU.xml",
+      "size": 50452,
+      "sha256": "03dc4d89ba509b97b2099aae57f2ae762d413b698fa9dd5edc942b1d73f64919"
+    },
+    {
+      "path": "Core/lang/CoreStrings_sv_SE.xml",
+      "size": 50706,
+      "sha256": "4baae79b5c3bcfb62d1d20ea369cf3bb80bb0a19bda3258045f07abab1331b62"
+    },
+    {
+      "path": "Core/lang/CoreStrings_th_TH.xml",
+      "size": 49162,
+      "sha256": "887a9af4842846f995c24b906e91c77b1cc27d7f2af5f8a95a35f08964a8e9a7"
+    },
+    {
+      "path": "Core/lang/CoreStrings_zh_CN.xml",
+      "size": 29970,
+      "sha256": "44340785e3513d4a5278750b524f3b3d0983a948a0f039e71f3936c609782551"
+    },
+    {
+      "path": "Core/lang/CoreStrings_zh_TW.xml",
+      "size": 30388,
+      "sha256": "ada46257c53bf01be7e32523854424d425cbc5206df98e943377a0dc91543863"
+    },
+    {
+      "path": "Core/libeay32.dll",
+      "size": 1032192,
+      "sha256": "d8905c521ab62d447a65f64bcc07ab47fa7c375998b6ee16813f6e91bbb520a3"
+    },
+    {
+      "path": "Core/Microsoft.VC80.CRT.manifest",
+      "size": 1869,
+      "sha256": "17ad1a64ba1c382abf89341b40950f9b31f95015c6b0d3e25925bfebc1b53eb5"
+    },
+    {
+      "path": "Core/msvcp100.dll",
+      "size": 421200,
+      "sha256": "d769fafa2b3232de9fa7153212ba287f68e745257f1c00fafb511e7a02de7adf"
+    },
+    {
+      "path": "Core/msvcp80.dll",
+      "size": 548864,
+      "sha256": "2026f3c4f830dff6883b88e2647272a52a132f25eb42c0d423e36b3f65a94d08"
+    },
+    {
+      "path": "Core/msvcr100.dll",
+      "size": 773968,
+      "sha256": "60c06e0fa4449314da3a0a87c1a9d9577df99226f943637e06f61188e5862efa"
+    },
+    {
+      "path": "Core/msvcr80.dll",
+      "size": 626688,
+      "sha256": "02bdde38e4c6bd795a092d496b8d6060cdbe71e22ef4d7a204e3050c1be44fa9"
+    },
+    {
+      "path": "Core/PatchProgress.exe",
+      "size": 204416,
+      "sha256": "a2cffdc389cab886350a7de6499d771d560bfd386420b8254838d40e4a8a7816"
+    },
+    {
+      "path": "Core/phonon4.dll",
+      "size": 327680,
+      "sha256": "9803e4a86cdc9d054673ed64ba0110734ec72a0d077982712a93233bb68d40a6"
+    },
+    {
+      "path": "Core/QtCore4.dll",
+      "size": 2694144,
+      "sha256": "f356cded1ef08d8c99860db2fe19598a55d762b510c1c89fb3f33b46f602d7c2"
+    },
+    {
+      "path": "Core/QtGui4.dll",
+      "size": 9440256,
+      "sha256": "1be9a3031f8e488cd5839a7b74641d6e758fbde4d28eb09bc4cf892e2edd0a38"
+    },
+    {
+      "path": "Core/QtNetwork4.dll",
+      "size": 1152512,
+      "sha256": "d62b3a6ad4844cad35c9938358cc8cd7e9f78688a30f8f2418fba5fa14ce4936"
+    },
+    {
+      "path": "Core/QtWebKit4.dll",
+      "size": 16846848,
+      "sha256": "f43c8f49d9c640a5389018a97255671f0659f8c6ae67de13c25debc7fde52690"
+    },
+    {
+      "path": "Core/QtXml4.dll",
+      "size": 413184,
+      "sha256": "d64ffc530bb54854aba4d49797f4ad67c0b70b3e7129edcb9972e84b4f95f55a"
+    },
+    {
+      "path": "Core/QtXmlPatterns4.dll",
+      "size": 3564544,
+      "sha256": "c151f1350170c93cef8d78d3b1ab93844762934736be6eb03d59b05bafe046b4"
+    },
+    {
+      "path": "Core/ssleay32.dll",
+      "size": 212992,
+      "sha256": "76d16105a58413b2fb36d3e7f2cae4b585904f47779d78af67055782d6d24512"
+    },
+    {
+      "path": "Data/bom.fb2",
+      "size": 104479475,
+      "sha256": "7fd8a57985447cea4c1258bcb6e1b7d6efa3ee1d6fd28853788eef6d5d140102"
+    },
+    {
+      "path": "Data/cas.cat",
+      "size": 3494160,
+      "sha256": "f4e47e386a930b108888e7496dc0bc0fd1c6e4fa2c8a4b36c11860b8946d4a88"
+    },
+    {
+      "path": "Data/cas_01.cas",
+      "size": 1075586892,
+      "sha256": "deee8012c9e08e750316456cadeb000721bd4e83d747d889b0f4bf590544e0a6"
+    },
+    {
+      "path": "Data/cas_02.cas",
+      "size": 1074044677,
+      "sha256": "e8344d30e2a80fff4db6b1f2fd4da069dd04e1626cd573f7a8bbc3cbc39cc119"
+    },
+    {
+      "path": "Data/cas_03.cas",
+      "size": 1106947939,
+      "sha256": "cf42954899e41a51a0fbf7dfd9bcfda63aca4b30f579351efb24fb9af05748a7"
+    },
+    {
+      "path": "Data/cas_04.cas",
+      "size": 1073970423,
+      "sha256": "8dbc7092b4590cfff85c58ee168b82ed3a25f1ecf706baba05545ab2195a4c01"
+    },
+    {
+      "path": "Data/cas_05.cas",
+      "size": 1139008480,
+      "sha256": "929b962fd3a80881775d78f00a84c320eb9b70276cb793c16b0c2c3161cceae9"
+    },
+    {
+      "path": "Data/cas_06.cas",
+      "size": 1073789027,
+      "sha256": "6c3b7a26cf8c680fc3c6e525e42931ccd56340e00af8e38a419a85282b122f28"
+    },
+    {
+      "path": "Data/cas_07.cas",
+      "size": 1085795993,
+      "sha256": "d8e140bef8786b97f2275db1c0ea6b92997fb2e7788d6e4e48fc72220afd33ff"
+    },
+    {
+      "path": "Data/cas_08.cas",
+      "size": 1074126622,
+      "sha256": "7f443b35494bc61b833bc5d5745d6c75199cfebf152fde907a5accc0a8382b46"
+    },
+    {
+      "path": "Data/cas_09.cas",
+      "size": 1073754649,
+      "sha256": "1cb17d9f2105ae89762ef5930beccbec26954a170bee5af31f0b6f585c782c71"
+    },
+    {
+      "path": "Data/cas_10.cas",
+      "size": 431223052,
+      "sha256": "ee3394828c8c6b97fd39620b66993c52a42ff6b26b539c74818043bc8feac32d"
+    },
+    {
+      "path": "Data/initfs_Win32",
+      "size": 151448,
+      "sha256": "02a03e50f5f27c94762725a7eb88dd93e698057f0268f25a677618e794c7006b"
+    },
+    {
+      "path": "Data/layout.toc",
+      "size": 2282,
+      "sha256": "7f07a3f10c04e0667b07c8557c3470d0c695f79a421e203b2bed73bd2603fc07"
+    },
+    {
+      "path": "Data/Win32/Chunks0.sb",
+      "size": 14,
+      "sha256": "889fcd68b6d0bb6a7c401f5417e3a4e29f5b245d2757f968d413b552c746166c"
+    },
+    {
+      "path": "Data/Win32/Chunks0.toc",
+      "size": 162286,
+      "sha256": "3614ff4b8f60e82b1bfd692761e65b9fe1530d29a557bf7580e15d6ae829de64"
+    },
+    {
+      "path": "Data/Win32/Chunks1.sb",
+      "size": 14,
+      "sha256": "889fcd68b6d0bb6a7c401f5417e3a4e29f5b245d2757f968d413b552c746166c"
+    },
+    {
+      "path": "Data/Win32/Chunks1.toc",
+      "size": 161257,
+      "sha256": "76cddfaecbb4e73f0af0770e9ce51e4d90aa7f2c9cd28075ed8ba1ff4bb0ed5e"
+    },
+    {
+      "path": "Data/Win32/Chunks2.sb",
+      "size": 14,
+      "sha256": "889fcd68b6d0bb6a7c401f5417e3a4e29f5b245d2757f968d413b552c746166c"
+    },
+    {
+      "path": "Data/Win32/Chunks2.toc",
+      "size": 161110,
+      "sha256": "8eecd9951422f446cd061cbebbd6f992146695d1ed2b0757dd332dfe2bb1322d"
+    },
+    {
+      "path": "Data/Win32/default_settings_Win32.sb",
+      "size": 120907,
+      "sha256": "0a31050ccf6bff1c5e8735d71155bad2c34836871326a2b789312439a52d7da2"
+    },
+    {
+      "path": "Data/Win32/default_settings_Win32.toc",
+      "size": 710,
+      "sha256": "ae72cdeb9ff55c329ce50446a14f6c1950728a490f9d47332cb96cbaac938e15"
+    },
+    {
+      "path": "Data/Win32/Globals.sb",
+      "size": 140209,
+      "sha256": "9c3dba5b7f00a1090db1df6387105d6de0e7c8c4874ea35dd6430006e76d8718"
+    },
+    {
+      "path": "Data/Win32/Globals.toc",
+      "size": 766,
+      "sha256": "dca15199725b876cd850640a467913ac657682f4dce1d93582be92a4b97b2b85"
+    },
+    {
+      "path": "Data/Win32/Levels/COOP_002/COOP_002.sb",
+      "size": 2909327,
+      "sha256": "fb31a532441d37518f4d1965c53ca2fc913a5c5a22b05df85842cb2ed50d82df"
+    },
+    {
+      "path": "Data/Win32/Levels/COOP_002/COOP_002.toc",
+      "size": 2007,
+      "sha256": "a5e6c1c00321c51e02acf83c0a8e8407e389b677bd8fc83350aa0866cf79fb4d"
+    },
+    {
+      "path": "Data/Win32/Levels/COOP_003/COOP_003.sb",
+      "size": 3244343,
+      "sha256": "46b134b954140b049c7e36e3f23e71f5764c235fe57a02f3b99b23c6eaa21a41"
+    },
+    {
+      "path": "Data/Win32/Levels/COOP_003/COOP_003.toc",
+      "size": 1989,
+      "sha256": "dd094f1b2966cdddc5e3388d934bed4ff65caf9a9c986a116fdb719f3d7cf0cd"
+    },
+    {
+      "path": "Data/Win32/Levels/COOP_006/COOP_006.sb",
+      "size": 2186136,
+      "sha256": "e555bca9caafdb9808df593c08185ed9530f2a50e3ed4d7b1443d13ef0aa3430"
+    },
+    {
+      "path": "Data/Win32/Levels/COOP_006/COOP_006.toc",
+      "size": 1800,
+      "sha256": "28f9e8cd172220acd8d9c97030cda2490c463fd457251d9239eeaddcf2942576"
+    },
+    {
+      "path": "Data/Win32/Levels/COOP_007/COOP_007.sb",
+      "size": 2815678,
+      "sha256": "7481150edb0d2161edffa8b0e8b71b94d91b9f19c357429d6b7f64d5dc78b46a"
+    },
+    {
+      "path": "Data/Win32/Levels/COOP_007/COOP_007.toc",
+      "size": 1762,
+      "sha256": "ce97bcfad00567505a6c6a8ff6eff52112ac58e11c5ed755ddfc1c251a371618"
+    },
+    {
+      "path": "Data/Win32/Levels/COOP_009/COOP_009.sb",
+      "size": 4308764,
+      "sha256": "942a1a135184f7e49a64c6c7d27d7521b010af89b8764d37819b4fa68e96745c"
+    },
+    {
+      "path": "Data/Win32/Levels/COOP_009/COOP_009.toc",
+      "size": 2144,
+      "sha256": "b7cdb3be8526e4282f65a8285390d541adc12a1da0a3d7eccb3afe46d1db5dcb"
+    },
+    {
+      "path": "Data/Win32/Levels/COOP_010/COOP_010.sb",
+      "size": 3549423,
+      "sha256": "db0eaac2620f6044aa6b1ae7c693a0f8b4ccd3cfa43d9fb0b769f7d18f809dea"
+    },
+    {
+      "path": "Data/Win32/Levels/COOP_010/COOP_010.toc",
+      "size": 2061,
+      "sha256": "17d2341e598b0914761fe2a81cf28fe0df88085c31ee8a108062ff7841cc15ac"
+    },
+    {
+      "path": "Data/Win32/Levels/FrontEnd/FrontEnd.sb",
+      "size": 1925594,
+      "sha256": "bf818e77927aca8d19bb0c976a810b37623db36f12109f57776d1da37bc11f1d"
+    },
+    {
+      "path": "Data/Win32/Levels/FrontEnd/FrontEnd.toc",
+      "size": 1270,
+      "sha256": "27dec8773f953c62682d786ae76e3019395e4eaea407808799a673f7449ab261"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_001/MP_001.sb",
+      "size": 6802181,
+      "sha256": "48f30c3822e543c238b5c6bb93a9ed3cfb1a71424299235639dc9a9a2b004190"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_001/MP_001.toc",
+      "size": 1832,
+      "sha256": "689dff3ecf016bf6385646026ee06ec90633a93d5f9b38386cf5e09ce19774c7"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_003/MP_003.sb",
+      "size": 6453615,
+      "sha256": "bedb80a34e3b43a0489f6140cd6a06acbee3cd59b7dd4db3753ee3a76766e97e"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_003/MP_003.toc",
+      "size": 1887,
+      "sha256": "c44f8fe5e6c343f2806d70041303dabef2b83087d248b5fddf27ddea1afe1a98"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_007/MP_007.sb",
+      "size": 6779935,
+      "sha256": "1bc4dedd6d8fdc830210d4c9b7c67c203daa831681ff3d7ee774a2bfe1b3f727"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_007/MP_007.toc",
+      "size": 1836,
+      "sha256": "2ab10595ab19eabf3417528ae1e3b222c18107f0543c582b1bd95331fe59381d"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_011/MP_011.sb",
+      "size": 6307833,
+      "sha256": "168db4ade9e6e4770bb214e4bc48d193e5b0bb2c06b63057d482dc4b8da3e972"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_011/MP_011.toc",
+      "size": 1850,
+      "sha256": "c4d649bee123047440530691da44fc388f8d8e9ee12dfc69b82d276481e93bd1"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_012/MP_012.sb",
+      "size": 7287755,
+      "sha256": "bc5d2ea3b94e203e73bb174b0a754c08a91ae487f713dd0f4b4b2ba3b02b0978"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_012/MP_012.toc",
+      "size": 1923,
+      "sha256": "3f4d8e8816c99e63cf886eb3370cb8c5be342b6095e2464681d2b89ed04efb4f"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_013/MP_013.sb",
+      "size": 6544443,
+      "sha256": "ebe37c7f71724b019695e3791d1bc5631c8903778b39fc33e531a914a980fe43"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_013/MP_013.toc",
+      "size": 1828,
+      "sha256": "0630b7bf2829403ac8d943ee100cf3bc8c978c94d5c7dfefc687fea465713414"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_017/MP_017.sb",
+      "size": 6782529,
+      "sha256": "a18174390631095f27bbaa2b5e8198846fd39212834d40c18f9f953184ca5c2c"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_017/MP_017.toc",
+      "size": 1654,
+      "sha256": "7bcf73993631427a087e8a922f24e389b5aa47aaea605797a1a4349ec42b8bbc"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_018/MP_018.sb",
+      "size": 6885490,
+      "sha256": "a15170d0dbf91f077bd5d42b06e2b3186c21e694278b84f3641677c3ab76beed"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_018/MP_018.toc",
+      "size": 2036,
+      "sha256": "970627f4b821318942eb26461a17995ec238cdf14cfa9f5a77a38aacada9fd42"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_Subway/MP_Subway.sb",
+      "size": 6200012,
+      "sha256": "0b40902f6b0f0e1f193b6b5de141cd8ce83f82ebba2e5c3335f63ba9c9466308"
+    },
+    {
+      "path": "Data/Win32/Levels/MP_Subway/MP_Subway.toc",
+      "size": 2114,
+      "sha256": "f788b992cc52954d8ea2d3759800f7fe8aae5299af841362a77c4819d8104e40"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Bank/SP_Bank.sb",
+      "size": 7527843,
+      "sha256": "9b8b8ad1099ed4c015b58996bd48827b158bc211521851545fa922fd166999a5"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Bank/SP_Bank.toc",
+      "size": 4495,
+      "sha256": "64b591409e9a1a07bbe51a2cbc21add05e30de3002056e009803bc6c7539263f"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Earthquake/SP_Earthquake.sb",
+      "size": 5942463,
+      "sha256": "64d8c0448cf607db9e01d577be16a86f652862cb0a278100eada42a4d396b96a"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Earthquake/SP_Earthquake.toc",
+      "size": 3497,
+      "sha256": "28f79c942e7a2735388ca5e5235ff897967679d69c3ddeeef5e014b327458562"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Earthquake2/SP_Earthquake2.sb",
+      "size": 4667911,
+      "sha256": "499ddf54271d09de49c9e0e34bb70a43570af3513c4f801759cc428f014ded32"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Earthquake2/SP_Earthquake2.toc",
+      "size": 2818,
+      "sha256": "f33ec104021071050f6f6f09ab2655c5a14a2949664eeb8e6d5893e5c8888b55"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Finale/SP_Finale.sb",
+      "size": 3866606,
+      "sha256": "7d27cc5be31573bc41b127a950762796c8a5f600ad7aba63604647c210c46c80"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Finale/SP_Finale.toc",
+      "size": 2250,
+      "sha256": "8a383f4f9d8aafbe93fc1a392e042c0af33761bb60faa1c6bd2d335c51bb5739"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Jet/SP_Jet.sb",
+      "size": 2565916,
+      "sha256": "c3c35929a1c5eab7ce631375fe4870f7092430b99f28646b28813ed466313ecf"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Jet/SP_Jet.toc",
+      "size": 2200,
+      "sha256": "64ac3fca289bd378de8df5d5b38f3ec8d1efc5d5c750f74ba873b3f520b5c30f"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_New_York/SP_New_York.sb",
+      "size": 1377812,
+      "sha256": "6f0a17176335353416037fb423f1fef288f50559e046e08fb8083991ae64ec28"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_New_York/SP_New_York.toc",
+      "size": 1604,
+      "sha256": "e77a2abe2050213c5567a1c0faf08481fa96a63b6b362b96fa22b44ea9f7154c"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Paris/SP_Paris.sb",
+      "size": 6665413,
+      "sha256": "52975b54ccdaaa60d7b38f47636d76cb0bd251ec3bb21d2b64488746e0b84023"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Paris/SP_Paris.toc",
+      "size": 2998,
+      "sha256": "1d2e4540ecee44425597a73e4a7652ac63d4ed9effc4d356a1b64f4ffad441c2"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Sniper/SP_Sniper.sb",
+      "size": 6901263,
+      "sha256": "caba2f6b06d99ce7ee068ef31ec34e3ed8f806d92a29a74a5c8050f39e1ebb66"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Sniper/SP_Sniper.toc",
+      "size": 3373,
+      "sha256": "cf2ed22fe734506f6e0319d890c93c387583e501b2a215646b7a63313d4c0e16"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Tank/SP_Tank.sb",
+      "size": 3391245,
+      "sha256": "571be0fce2bcafa231444fddfd89c4cb8cd99130bcf5b151a05eb6dccdd1c72a"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Tank/SP_Tank.toc",
+      "size": 3134,
+      "sha256": "b33da3264826e087713d2dc87f08f84b26691281a3557b83de773a7f2817cb5d"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Tank_b/SP_Tank_b.sb",
+      "size": 3907084,
+      "sha256": "2d0ff848369a88766cd82a03debf6246c31022bd7057b713927c818c427580f1"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Tank_b/SP_Tank_b.toc",
+      "size": 2355,
+      "sha256": "d02c220917164fe240e436e24e2e3a32d84e4231e5385a5241d738aaa2d9277b"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Valley/SP_Valley.sb",
+      "size": 2994690,
+      "sha256": "cb5a99a96fcb7ecbabd5b1e1ef0698da68c42e9fa296d170270f8fbf41785e39"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Valley/SP_Valley.toc",
+      "size": 3013,
+      "sha256": "e0d5c2124a1d5c39aa83a0ea20ef8a9b137edd0fb5232219bd219374573acac1"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Villa/SP_Villa.sb",
+      "size": 3900692,
+      "sha256": "4fa9747d3ba8319239c15cb579532dc5419840cbfee1bfbb4f27bf836d66239e"
+    },
+    {
+      "path": "Data/Win32/Levels/SP_Villa/SP_Villa.toc",
+      "size": 3006,
+      "sha256": "1adad175b432d220ded451d108bf6b291b448b6060b694fcb975d732d5425471"
+    },
+    {
+      "path": "Data/Win32/Levels/Web_Loading/Web_Loading.sb",
+      "size": 153910,
+      "sha256": "f389a08dc81f12d734e429abdee4844744ce1d14c8f2494332d75f2f7ad3d0e8"
+    },
+    {
+      "path": "Data/Win32/Levels/Web_Loading/Web_Loading.toc",
+      "size": 1324,
+      "sha256": "00ec7d216da5d55ab8b2e1afe1690c14b3076ac11ddd5a5d69094af9059b5bfc"
+    },
+    {
+      "path": "Data/Win32/Loc/cs.sb",
+      "size": 232986,
+      "sha256": "99da4dcc175193afa3bb06de7bfe2ff0bdb6a8052c8f1b76a5ed188297e0e89c"
+    },
+    {
+      "path": "Data/Win32/Loc/cs.toc",
+      "size": 744,
+      "sha256": "4d82dbeb7527cf08f2083a0a22d7f439c4d87cec78d780f3b88d9af219a36cbd"
+    },
+    {
+      "path": "Data/Win32/Loc/de.sb",
+      "size": 826297313,
+      "sha256": "f350257f50ed32f8ebaeb07265635f0491b26970362d478e3a7ef3ec7b10e970"
+    },
+    {
+      "path": "Data/Win32/Loc/de.toc",
+      "size": 187878,
+      "sha256": "3912a3335f9d687110b5fb5b43486ced8b8f1a222c46d3ab50ae73ad3ee6ae57"
+    },
+    {
+      "path": "Data/Win32/Loc/en.sb",
+      "size": 1209346277,
+      "sha256": "f7ba0f48df4962be7432c1104fdd1d22db0ec936e56f0ce3178677974de90b04"
+    },
+    {
+      "path": "Data/Win32/Loc/en.toc",
+      "size": 210614,
+      "sha256": "37b467f7ac7a82c6c1a71794440c3c36f959887c519e48240900e89d089b2e48"
+    },
+    {
+      "path": "Data/Win32/Loc/es.sb",
+      "size": 814883348,
+      "sha256": "0aa080e0b81ed2deb55ede34372cd40604f286cd7043b114646c3c8d7f473156"
+    },
+    {
+      "path": "Data/Win32/Loc/es.toc",
+      "size": 187927,
+      "sha256": "8337ee67a7fa4fcb9d7a43306d322c03d35249d12b19cec59e2c1ddffe55ae2b"
+    },
+    {
+      "path": "Data/Win32/Loc/fr.sb",
+      "size": 757613079,
+      "sha256": "664c67cdc61e849c385443504204a978f92fcea6c3b327d9d4230f7002841cc9"
+    },
+    {
+      "path": "Data/Win32/Loc/fr.toc",
+      "size": 187878,
+      "sha256": "4670b4687336058e4541902c34af0b3ffc81fec9006338edd3d78cb7750331b1"
+    },
+    {
+      "path": "Data/Win32/Loc/it.sb",
+      "size": 783620810,
+      "sha256": "8586aca5f18239749ec2e923b9c6d386c27aea4aa5adc6954c3b91e7e34e3a22"
+    },
+    {
+      "path": "Data/Win32/Loc/it.toc",
+      "size": 187927,
+      "sha256": "0a3f04cffb46f2b0724fbd92dd903329d7764d9427661cd109f9434f965df01b"
+    },
+    {
+      "path": "Data/Win32/Loc/ja.toc",
+      "size": 187976,
+      "sha256": "60a81d67de9870315800309baf4ec29d606d8b7e539a9bfad4f582aca37fd14a"
+    },
+    {
+      "path": "Data/Win32/Loc/ko.sb",
+      "size": 204646,
+      "sha256": "a316152fd195ac20f6c0c28753fc3fbdf0647256b60f4ef1d004202ed6f7844f"
+    },
+    {
+      "path": "Data/Win32/Loc/ko.toc",
+      "size": 744,
+      "sha256": "7268e1d7d2bd10def7b91c63cf8c04b1ca0be2d1c857a2352f6ed9cd0d641326"
+    },
+    {
+      "path": "Data/Win32/Loc/pl.sb",
+      "size": 723710707,
+      "sha256": "4c879d9848587c50b4fb1c219370b40c2d75459188d3cc5265bc9e50b4adb0c9"
+    },
+    {
+      "path": "Data/Win32/Loc/pl.toc",
+      "size": 187927,
+      "sha256": "88983dabfcc1a6fdeba311c62f26346fe8dcec5633620bc9e787368dde0dd827"
+    },
+    {
+      "path": "Data/Win32/Loc/zh.sb",
+      "size": 200688,
+      "sha256": "7a9689fb03e09ac70bb45b738a92a2be595096d422b54d2502dd8f8e3d51a293"
+    },
+    {
+      "path": "Data/Win32/Loc/zh.toc",
+      "size": 744,
+      "sha256": "8c010c16c0ca023969ad90d12ff890cc71b1a3c792fa8b673262ecb983fdeda5"
+    },
+    {
+      "path": "Data/Win32/MpChunks.sb",
+      "size": 14,
+      "sha256": "889fcd68b6d0bb6a7c401f5417e3a4e29f5b245d2757f968d413b552c746166c"
+    },
+    {
+      "path": "Data/Win32/MpChunks.toc",
+      "size": 525573,
+      "sha256": "050ee443b7e74d6f0642abef25d5ce25387d449ea7300c25beef2512d6977092"
+    },
+    {
+      "path": "Data/Win32/SpChunks.sb",
+      "size": 14,
+      "sha256": "889fcd68b6d0bb6a7c401f5417e3a4e29f5b245d2757f968d413b552c746166c"
+    },
+    {
+      "path": "Data/Win32/SpChunks.toc",
+      "size": 344812,
+      "sha256": "e73f81b22b8698808ee096b983c7150f668fa3c633ddc5223b9852e837d746cd"
+    },
+    {
+      "path": "Data/Win32/UI.sb",
+      "size": 1229141,
+      "sha256": "28e3b09a98257d1571e207413bca24352ad70da2d04ef161c571d24d1bc3f2a5"
+    },
+    {
+      "path": "Data/Win32/UI.toc",
+      "size": 5423,
+      "sha256": "862220790f7d8e52d5df942772079612c36c7167460b6089444e7ea89bc2d5ae"
+    },
+    {
+      "path": "Data/Win32/Weapons.sb",
+      "size": 153485,
+      "sha256": "8f8a51cd75bb72b61d17d3578a42fae3d0708e54c3407034a5efc5ad7b7e2cc1"
+    },
+    {
+      "path": "Data/Win32/Weapons.toc",
+      "size": 7137,
+      "sha256": "41b312f2534098d3b5b9c0c2893bfdb087a4f58756fe586b2385d5bb4acd1246"
+    },
+    {
+      "path": "Engine.BuildInfo_Win32_Retail_dll.dll",
+      "size": 17408,
+      "sha256": "a56b348e95067da737ccb9f187de1c5a54a2981f2035c38a0f1713791eeb054d"
+    },
+    {
+      "path": "GDFBinary_cs_CZ.dll",
+      "size": 436600,
+      "sha256": "cc8e13088066ff7062ea471f38ef1432fd0ae4f385f015582df7bb65faa197d5"
+    },
+    {
+      "path": "GDFBinary_de_DE.dll",
+      "size": 436600,
+      "sha256": "68c45e99246678010acf81060993631b30378d8cd79229448aef87d4e5bb8a48"
+    },
+    {
+      "path": "GDFBinary_en_US.dll",
+      "size": 436600,
+      "sha256": "13d2663b897e25433fb18e62aa9a3058490da7fbf8d935ea84e3efb3320606d1"
+    },
+    {
+      "path": "GDFBinary_es_ES.dll",
+      "size": 436600,
+      "sha256": "36f291fbfa630a03d62d3067bfa3c547ed62048a17cac730d2a9b2a95d71e8a5"
+    },
+    {
+      "path": "GDFBinary_fr_FR.dll",
+      "size": 436600,
+      "sha256": "122a9191dfe68bc88eaf124664cf935408c303b8b0fdcf943f5b91b1399c6a41"
+    },
+    {
+      "path": "GDFBinary_it_IT.dll",
+      "size": 436600,
+      "sha256": "612c1bf0b03a234a55c6ae664c4d0d6e2f7349c60f2d533d74429420c03ea179"
+    },
+    {
+      "path": "GDFBinary_ja_JP.dll",
+      "size": 436600,
+      "sha256": "09beef7eac67ce7371ecf62ff49cbedce592837bd70f1f27b49daf3e47362469"
+    },
+    {
+      "path": "GDFBinary_ko_KR.dll",
+      "size": 436600,
+      "sha256": "5e720fd96df72f8068671ecdd9b47c319b124990dd88b67ba4fbc6e9c561386d"
+    },
+    {
+      "path": "GDFBinary_pl_PL.dll",
+      "size": 436600,
+      "sha256": "d6c1c8145a1e1de6ce8adef37171773e728a300c6581d442fe2537ceeabcdc96"
+    },
+    {
+      "path": "GDFBinary_zh_TW.dll",
+      "size": 436600,
+      "sha256": "7e800911f5c11cde9f8b30c17626bed2f2e15aa8e5ab3d282f88bf201cf1b721"
+    },
+    {
+      "path": "Support/eula/cs_CZ_eula.rtf",
+      "size": 205632,
+      "sha256": "e5728afc7a784ae99f4c784ffc0bcdc2af68264407bc73c2c4cc902e53058eb9"
+    },
+    {
+      "path": "Support/eula/de_DE_eula.rtf",
+      "size": 149071,
+      "sha256": "8d082ef2fba4ccadfffc4b8be35332e7b5860634a82f553dbfdf19ff2f190c4f"
+    },
+    {
+      "path": "Support/eula/en_US_eula.rtf",
+      "size": 124253,
+      "sha256": "b6a95dc9495f4d38a513301a245649dad4175099a58a0a481a8cf6ad431f966f"
+    },
+    {
+      "path": "Support/eula/es_ES_eula.rtf",
+      "size": 141764,
+      "sha256": "7d1b33d8a1abdc907d3c97b49cfeb4dac235809d86230edb0a1efc9b612dd986"
+    },
+    {
+      "path": "Support/eula/fr_FR_eula.rtf",
+      "size": 157293,
+      "sha256": "2b45b26c70a641a018b2a271eb6c0dd46775a700a3de82a11c40d37e6c6d7856"
+    },
+    {
+      "path": "Support/eula/it_IT_eula.rtf",
+      "size": 136199,
+      "sha256": "c97af77ec1b6db3777aae185e6280d7acbf8dfbba981d1fc3995f14d46cfd779"
+    },
+    {
+      "path": "Support/eula/ja_JP_eula.rtf",
+      "size": 416355,
+      "sha256": "200e66f80a5e7fa0a734ff3828ed0e8e2d897614cd76ad80c8eca6f16d47c545"
+    },
+    {
+      "path": "Support/eula/ko_KR_eula.rtf",
+      "size": 1362201,
+      "sha256": "776fb205c06e845b6726340e55e4c4141472bbb2d00f1cca4c07d74fac8f8f3c"
+    },
+    {
+      "path": "Support/eula/pl_PL_eula.rtf",
+      "size": 169965,
+      "sha256": "ecaaf036cbd030c316764dcdc9f8f47a6507765d7360acfba62009a0a07cd007"
+    },
+    {
+      "path": "Support/eula/ru_RU_eula.rtf",
+      "size": 499054,
+      "sha256": "50e76e940d103a7bd1dd049514ebb9cd9bd331e4998498f9233ba10c38f829a1"
+    },
+    {
+      "path": "Support/eula/zh_TW_eula.rtf",
+      "size": 338361,
+      "sha256": "262c25325b0042abb08dd74c36d6d511d5d68de2eb1ee55aec413dc972d04b57"
+    },
+    {
+      "path": "Support/mnfst.txt",
+      "size": 76540,
+      "sha256": "15ce2d1d7a30109199f62f05f38edcb9e7baa5fd06093f4acd002eb234dcfb4a"
+    },
+    {
+      "path": "Support/readme/Ctimne.txt",
+      "size": 8911,
+      "sha256": "5d37bd776158e7ea59b46fadb4bfa573604da867307f0eab81d2d21aa63f8f52"
+    },
+    {
+      "path": "Support/readme/Leggimi.it.txt",
+      "size": 9060,
+      "sha256": "3e04a0f6a904abd90a58451fea75ade775022359e9bc4d432723cac4cc5c7e69"
+    },
+    {
+      "path": "Support/readme/lisezmoi.txt",
+      "size": 9628,
+      "sha256": "ceae74b5456286f143ff58a6ca2cc9f01a9f942cc0fd167e1035e6c63fad7d55"
+    },
+    {
+      "path": "Support/readme/Léeme.txt",
+      "size": 9562,
+      "sha256": "0da928cb2acff8627774d056dfdf5811f9d04eb70c50cd4a7d36ce06e6e1757a"
+    },
+    {
+      "path": "Support/readme/Przeczytaj.txt",
+      "size": 9007,
+      "sha256": "61897edbb5474498770f6b3f27f58d9cc4eb2e90bb8c1bbe74975e34306e2d47"
+    },
+    {
+      "path": "Support/readme/readme.de.txt",
+      "size": 9506,
+      "sha256": "9f144e34bda3a2085a36b49e84b6fab8194b13d02b02c9f0ad58b2de4f02c743"
+    },
+    {
+      "path": "Support/readme/readme.ja.txt",
+      "size": 10502,
+      "sha256": "d6aa715b11bb348b0f2c3774a6322cc013dd4fe7868e76df57b82f3aebd48214"
+    },
+    {
+      "path": "Support/readme/readme.ko.txt",
+      "size": 9156,
+      "sha256": "410ecae8a729a8906006ef75f742174b9dc79ca2fee11de7fed90ddda09d14c6"
+    },
+    {
+      "path": "Support/readme/readme.ru.txt",
+      "size": 14704,
+      "sha256": "06b3a1500982b351423e18d99bd1a39e86d814d91cbabac6d50a98cad07bd910"
+    },
+    {
+      "path": "Support/readme/readme.txt",
+      "size": 8376,
+      "sha256": "8c8f0eb98067aea88b551659666aa0c63bb4ee875a6fabc483029d004e01465b"
+    },
+    {
+      "path": "Support/readme/readme.zh-tw.txt",
+      "size": 8882,
+      "sha256": "3ba657000d5714f07d0d6af8727e0a4dd21f9433c8fd17cb4a8b84faf7182896"
+    },
+    {
+      "path": "Uninstall/botva2.dll",
+      "size": 37888,
+      "sha256": "609661a14733f6e9c2c2f2ff9c274f8a4cbedaff4dd32049aa5161f8d7083d6a"
+    },
+    {
+      "path": "Uninstall/dark.png",
+      "size": 67185,
+      "sha256": "56e1b926b344ef760fea6a4fd862e066ea5295f7e5671fc7c0d1f1bc148e2009"
+    },
+    {
+      "path": "Uninstall/light.png",
+      "size": 58221,
+      "sha256": "9813c13b925ca95d4038c827e5efa1bf6c00aed41c65b7e7d5907ddf68866847"
+    },
+    {
+      "path": "Uninstall/Setup1.jpg",
+      "size": 256060,
+      "sha256": "c5d4fa60448d6f00a9bb5ddfe5f918e04a43e45009cb86856895839efe96ef9a"
+    },
+    {
+      "path": "Uninstall/unins000.dat",
+      "size": 152011,
+      "sha256": "6b26e7959d2f86bd0deab94618bfbe55db99e5b568a3077df568daf50fff1918"
+    },
+    {
+      "path": "Uninstall/unins000.exe",
+      "size": 1602929,
+      "sha256": "c2cbcabaae3f9135ae40ba7f0dc3d82b1a47a7e4232b29c5ba7b7dd07060f2b2"
+    },
+    {
+      "path": "Update/Patch/Data/cas.cat",
+      "size": 490640,
+      "sha256": "fc3b162b4687f6a377dfc38cd0bb6dbb0d8352bb5537d68de9ddd2f58f297244"
+    },
+    {
+      "path": "Update/Patch/Data/cas_01.cas",
+      "size": 1040376249,
+      "sha256": "595f75846cd49bb5803fc404aa42080cb4e4cc7196e8b4e8d65c41b5adee6cba"
+    },
+    {
+      "path": "Update/Patch/Data/initfs_Win32",
+      "size": 156158,
+      "sha256": "4c398163a75d02787570a3456938bb71e81099ab5e3aa242df2aad4e7c7d6c3d"
+    },
+    {
+      "path": "Update/Patch/Data/layout.toc",
+      "size": 2602,
+      "sha256": "7110c29782d141e021e29f49ac6951149c597a7bd353a9de70be7ebb9f748ffd"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Chunks0.sb",
+      "size": 14,
+      "sha256": "889fcd68b6d0bb6a7c401f5417e3a4e29f5b245d2757f968d413b552c746166c"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Chunks0.toc",
+      "size": 174732,
+      "sha256": "0a5fd1c3c45e205473fa8faa36726bc91039163bcd4f8a8af2c83473ca2e0cd8"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Chunks1.sb",
+      "size": 14,
+      "sha256": "889fcd68b6d0bb6a7c401f5417e3a4e29f5b245d2757f968d413b552c746166c"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Chunks1.toc",
+      "size": 175418,
+      "sha256": "6571a2e24c7edcc39a73fd1d5b35ea1029d781624ca6ba09b7c8bdd00f234c58"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Chunks2.sb",
+      "size": 14,
+      "sha256": "889fcd68b6d0bb6a7c401f5417e3a4e29f5b245d2757f968d413b552c746166c"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Chunks2.toc",
+      "size": 174291,
+      "sha256": "3a099aadd329f7f4e035d83ef963d263a7d353b8759c8087565420112484c197"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/default_settings_Win32.sb",
+      "size": 129785,
+      "sha256": "b7e512b01399100dfca51ff9b7e5ba5073095bb7611fe351e89a599ecf3d899d"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/default_settings_Win32.toc",
+      "size": 710,
+      "sha256": "cf73b870e1b341a21e8891193f3584e259f77d316a5663a626fed13c253dec4f"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Globals.sb",
+      "size": 150179,
+      "sha256": "c9026dea6ab22d35afb75e3f1ebe5ed700f717b65a535e620bb289d90ce7d167"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Globals.toc",
+      "size": 766,
+      "sha256": "c61aa4aa27c7787ea1450f6426f973d5fb862f4613a2fab1e864881c1d06dbcf"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/COOP_002/COOP_002.sb",
+      "size": 2920697,
+      "sha256": "b5263ee24c2eb16d70f9fffd311e71af5139e7c0a99e8a98b61e9c146d640ad5"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/COOP_002/COOP_002.toc",
+      "size": 2007,
+      "sha256": "35cb3f88aa00245c68c5ac844eeaf21e22989ebe6e8b41091efe266370b56dd4"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/COOP_003/COOP_003.sb",
+      "size": 3298588,
+      "sha256": "73cbad4facf066ec6c4d21d09686be29e40e93863ae1a95ea009edcd4ab747f9"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/COOP_003/COOP_003.toc",
+      "size": 1989,
+      "sha256": "617ac029643ead23718f96f74842b9f29e399c073ebd3920b226a80045c50e7a"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/COOP_006/COOP_006.sb",
+      "size": 2198949,
+      "sha256": "4b7a244f32079a511051280e7b3067565290aeaa64cee283f4897b87c0b93897"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/COOP_006/COOP_006.toc",
+      "size": 1800,
+      "sha256": "883650426a26d21b845abd6853576329b94260cca0774e4547023fb21d88b8e0"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/COOP_007/COOP_007.sb",
+      "size": 2875190,
+      "sha256": "684fe4b36d530d6103509e542097c51934690fdfbddb1884e414ecf526548166"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/COOP_007/COOP_007.toc",
+      "size": 1762,
+      "sha256": "e95ef9b30aba57480cbdc2d4089534cb9634f0cea459d377b92ab8945d5faa20"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/COOP_009/COOP_009.sb",
+      "size": 4367325,
+      "sha256": "06c16bfa5b5b00999d76e12bdbd025397fec5794187dcded900115dc3e7167f3"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/COOP_009/COOP_009.toc",
+      "size": 2144,
+      "sha256": "02fffe4b1c786855af17d5dbf68d2c0a05319bfdacfc155627ffed5e91ba0636"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/COOP_010/COOP_010.sb",
+      "size": 3563969,
+      "sha256": "cd03d228ef7b57c53e380ac696206110da9bc6a46a3364e015684cf257c9aef2"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/COOP_010/COOP_010.toc",
+      "size": 2061,
+      "sha256": "b04d3d8bce26e06e74368e9296c2a50b9963b3c94b12a186d45c1bbacbedbfaa"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/FrontEnd/FrontEnd.sb",
+      "size": 2109205,
+      "sha256": "03333756dcf6f2ad22720249c169e7029883a40dad45e0779a07863ac1634dbf"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/FrontEnd/FrontEnd.toc",
+      "size": 1270,
+      "sha256": "92f216273197b356e70a6b69555b9ddaa11e8558f752c704e290d4af495f67f9"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_001/MP_001.sb",
+      "size": 7085770,
+      "sha256": "6b9541b951fa8992823c01cbbe658ad7aaae9aece6686fabd45fa6dfc248d92e"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_001/MP_001.toc",
+      "size": 1832,
+      "sha256": "a55949425b164242b972b476f1400d9bf930ff51dab491c278fb317de36296a0"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_003/MP_003.sb",
+      "size": 6734308,
+      "sha256": "2cddcd044a7a2f82deb6e6e12f9e2c23bfb7951c607c5874e4d3d57d13b29fdc"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_003/MP_003.toc",
+      "size": 1887,
+      "sha256": "5892407c236e7484c94592d714b4f66d30a112ea70207cea4544564404e6e88d"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_007/MP_007.sb",
+      "size": 7059538,
+      "sha256": "9358973fe8227900e82fce5fd76469aea32d5846f8056402aa45321ab110cde4"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_007/MP_007.toc",
+      "size": 1836,
+      "sha256": "ed13f1035013e9dbf8cf02b4e0c908542b0bffed12a68643ac74137e7e0866ff"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_011/MP_011.sb",
+      "size": 6580503,
+      "sha256": "ffd2537346b5b9287cb667a90a42a3a401a5f27e02ef5006297693025d57795c"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_011/MP_011.toc",
+      "size": 1850,
+      "sha256": "0ea8ba010ab98aa27c12d3ff33587ba60900b8b308f96b48572651c6f4215fcb"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_012/MP_012.sb",
+      "size": 7494772,
+      "sha256": "657a7b98e35b1c3fbba9bdcbb556d7108498de9d6c7b7aa32ff54c2b4f703c30"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_012/MP_012.toc",
+      "size": 1923,
+      "sha256": "94320097b08cc661aaa640b94089e7859e1f60cc23ec2ee5909153a46567c2b8"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_013/MP_013.sb",
+      "size": 6815929,
+      "sha256": "5d1b5166dbcf348b3e8f0d1e280d44d8f635aa512c4cdae07764b733a55ed83b"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_013/MP_013.toc",
+      "size": 1828,
+      "sha256": "8090798642b7ed57ca2653b7d340f9680ef9e3ba1c24ffcf0183758f8494fb01"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_017/MP_017.sb",
+      "size": 7059096,
+      "sha256": "985913f0028da3147bdb1776e72b1267f5a8f2c8cf67e32909def44941bc677c"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_017/MP_017.toc",
+      "size": 1654,
+      "sha256": "0d6e63d2d733e047c632f52584253a10fbe7e7679ef94410bb51613dd3489485"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_018/MP_018.sb",
+      "size": 7164537,
+      "sha256": "2bb399d06bedf90c06bec02a64509ea2c0cd6f3defaef30138e0ae67890596f2"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_018/MP_018.toc",
+      "size": 2036,
+      "sha256": "7d85df13081f8fe8102a82a35bb977e6c370e7f6c1609d5402691daaf76c0c4c"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_Subway/MP_Subway.sb",
+      "size": 6487116,
+      "sha256": "e920c6e1e49823acedfadcb4b1cae09eab3a37becf3eaabee24cf91a8a387b97"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/MP_Subway/MP_Subway.toc",
+      "size": 2114,
+      "sha256": "90a3d79e26605a9048bec96e410771476f8d6fdb124bc44fd97fc96b93347f2a"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Bank/SP_Bank.sb",
+      "size": 7756466,
+      "sha256": "9591c942170becd4a59526b7e0f89abffa9d3acbdca38b0a91426872df734fa5"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Bank/SP_Bank.toc",
+      "size": 4495,
+      "sha256": "fe29e76b39d9081f7b35d64644d91fc4940b726396fdc611349b85a1b25c3c75"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Earthquake/SP_Earthquake.sb",
+      "size": 6026696,
+      "sha256": "77842e71532b0bb41e41cf37e01a7b843b1c81b43c04a40847c4acd966cea212"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Earthquake/SP_Earthquake.toc",
+      "size": 3497,
+      "sha256": "5ec6a944ab36e710404850f2a48263fad46dfabac0ccfc7e81d7f33410dd015f"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Earthquake2/SP_Earthquake2.sb",
+      "size": 4704925,
+      "sha256": "820a40de62d95a5f77fb55fc86605bc47cb95891360b08cef6fefd59079a7840"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Earthquake2/SP_Earthquake2.toc",
+      "size": 2818,
+      "sha256": "d94c761edd43ab1ffb09fd60b720d452794225268a3155b82dded7dd89f2bc3a"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Finale/SP_Finale.sb",
+      "size": 3888328,
+      "sha256": "f3e689e5185554b08caed90f65bc37bed1424b54065ed798e37e41fb23dd98b7"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Finale/SP_Finale.toc",
+      "size": 2250,
+      "sha256": "7e3bf20eb2a698a4482acb0206a9a0c7f73950cf5492028548a549232391e93f"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Jet/SP_Jet.sb",
+      "size": 2659738,
+      "sha256": "679a62529823ffb58006560b303a712f3bb9ff5a0ab060206924a40e682bf4f4"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Jet/SP_Jet.toc",
+      "size": 2200,
+      "sha256": "075cd086769710f7e7d49742b05c5405c0203a516f938daea0785f2fd5f8a18e"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_New_York/SP_New_York.sb",
+      "size": 1392365,
+      "sha256": "152981c19421da9b70c9ac28f807493992ad95ab6569e3abc3765f2b65993730"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_New_York/SP_New_York.toc",
+      "size": 1604,
+      "sha256": "dd4d5892ff00930d804f08ad16860dc2c7fd9d421525d9c24b03546ce22e1321"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Paris/SP_Paris.sb",
+      "size": 6684202,
+      "sha256": "f58cd71c3b47d0b3907d93ea6d04def9422319465e81c8f2ba8d88b4fa02a6e0"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Paris/SP_Paris.toc",
+      "size": 2998,
+      "sha256": "239f19e155d6dcabcfc002d3f046c0bc2fec7f48d76898864bde49de97ab389a"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Sniper/SP_Sniper.sb",
+      "size": 6967609,
+      "sha256": "bd9d1fddd9e5f2f66024d7af53e569e872f45c26782a1a9733928fbefb50d15d"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Sniper/SP_Sniper.toc",
+      "size": 3373,
+      "sha256": "1e5a3e2cc7045dd6b383836015d3ad1dab18b8a137d3ec1a070c6ec0ea472efa"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Tank/SP_Tank.sb",
+      "size": 3404239,
+      "sha256": "24b5a4c1f3d830f0154e30f2bf0a889eff7082f14105032668f5b94f746fc62b"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Tank/SP_Tank.toc",
+      "size": 3134,
+      "sha256": "dd7bc2388a32a2e441f3dc9d0fbd4d17c8a92130196a62ec9d442ba5deb4d02b"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Tank_b/SP_Tank_b.sb",
+      "size": 3932958,
+      "sha256": "c4f5db3e08f420e04b7661ec051c4e52d20f30a5493fe4f1ef2b3a2cc03c5fed"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Tank_b/SP_Tank_b.toc",
+      "size": 2355,
+      "sha256": "677010d984559a7c0ba16a6fcc834a4889b42751165b11f65b1da48bc1ea6b46"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Valley/SP_Valley.sb",
+      "size": 3174602,
+      "sha256": "45126eb0870cedcc64e80eb3a5836d480bf8c3ccb3ecc3147ca911891fb09ddb"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Valley/SP_Valley.toc",
+      "size": 3013,
+      "sha256": "499e6ebba3504cc0fb3b481034112b49d929df5a57819be7b66d4e6ff6f87e27"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Villa/SP_Villa.sb",
+      "size": 3911002,
+      "sha256": "95dfc56e7274561b6ae70565fdba4a0260f19f9d6e638e8804f31c5b7a8924d4"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/SP_Villa/SP_Villa.toc",
+      "size": 3006,
+      "sha256": "2d4130d28a5e43f577fb9d6cddbe1ecccc594def56589e617bf2e176f05dafa1"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/Web_Loading/Web_Loading.sb",
+      "size": 163612,
+      "sha256": "e50e9d464e4c0be9ef7a40fd8b566b2d4ed8fb9a11786027c6fc7960420f9507"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/Web_Loading/Web_Loading.toc",
+      "size": 1324,
+      "sha256": "d9ca39e5f7403c5985e74fb47a46983c554b4533cc6ec0c25e352d161c99eb48"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/XP1_001/XP1_001.sb",
+      "size": 71491440,
+      "sha256": "88444f10688a5dff58dd9292fd0abe57d3d36cda7f0133c1019fff79f9872219"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/XP1_001/XP1_001.toc",
+      "size": 1753,
+      "sha256": "a102ebecda47e382a3ed2f57eae11a921dffaea002f853f1ceabd94f1672122a"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/XP1_002/XP1_002.sb",
+      "size": 82382768,
+      "sha256": "cd6a49b7d511fb4eeade0a15af86cbb2a813afff125821a877b0426e2e568c7b"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/XP1_002/XP1_002.toc",
+      "size": 1712,
+      "sha256": "3367806c0d72ed6093421441785d2093dd25de08aa4c66612f0024988abde2fb"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/XP1_003/XP1_003.sb",
+      "size": 84186816,
+      "sha256": "3a93ec5a8d49897df027aa42bd1a18eac487b5b072605dab44fc64a5e53a63dd"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/XP1_003/XP1_003.toc",
+      "size": 1712,
+      "sha256": "a51f6a45f14fb704ec6a81cae6e24ad607d5618db55ab885dc7bf16f06cb665b"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/XP1_004/XP1_004.sb",
+      "size": 69444736,
+      "sha256": "5c1e8d4af0b6ebd50cd93bfe85db0f12c92a6f8307ad0ae69fe52a8b5e1d87c6"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Levels/XP1_004/XP1_004.toc",
+      "size": 1643,
+      "sha256": "1cb6e3386d66da669220cf0ee5c69455bb39c1b3cf230833bb93e9d3faff1b14"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/cs.sb",
+      "size": 248643,
+      "sha256": "aaaaaf99264a2eb40aeb7ac135ea92c982fab2db046907b4770384bad569ad9f"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/cs.toc",
+      "size": 678,
+      "sha256": "4b48e661815bf6868833cfd94784350ff86aafd5afcbc1b90861446e93bfa7b1"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/de.sb",
+      "size": 1159173,
+      "sha256": "1ed356ad74762044c6ce5fc99c71bfebb9fa6b6136f35b067355367102e188ad"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/de.toc",
+      "size": 778,
+      "sha256": "131409b25e9b7073fd7493cffaaa21d2ef4ecd93a29a8b7243d7114bb8f2910b"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/en.sb",
+      "size": 2337020,
+      "sha256": "1a059dc94f196d04e937d472d211302281ccf0da1551adf77032786998b6833c"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/en.toc",
+      "size": 778,
+      "sha256": "170c3d1cfe0819416bc352f0b85de5d59b1c8ae860cecd096fd8714c248ab32d"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/es.sb",
+      "size": 1236476,
+      "sha256": "db7653cd266cbad900a22b02777c78ce2403a8468c9c27869a7b50481870cfe3"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/es.toc",
+      "size": 729,
+      "sha256": "a2f5a149916428c7dc0f1fc418f60b69b603b2c5cc08df026656bbcf457ab37b"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/fr.sb",
+      "size": 1116259,
+      "sha256": "64a4bd59037d27430f61c7728af9bcb9b1f9e8c05efede8849cb8912bf4439b4"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/fr.toc",
+      "size": 778,
+      "sha256": "2c2e1e86fd50acac812f5c3a48ea9cdfcd0cc44ebfb481d536c63e3d58040b41"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/it.sb",
+      "size": 1110588,
+      "sha256": "03894ec084a25dfebfb140ce68ceb154c23d459f496ec1747bb762d3f3ebcb05"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/it.toc",
+      "size": 729,
+      "sha256": "ec7dc18b2de55755f0c8d20817c8ea9b6ca780a9ff826e2f4a3b940cd68b464f"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/ja.sb",
+      "size": 1111142,
+      "sha256": "bc471043ac25d2db7e269bb95ce482736ee83a4d149e9153019281c1a2c401cb"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/ja.toc",
+      "size": 778,
+      "sha256": "992654043b64ab9200b5885230339a407e91853b3b85c60e3849b922be151e1d"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/ko.sb",
+      "size": 217918,
+      "sha256": "54a3431f0a0dc3884aaf733a8960e8eb31c155c89f188d79663f02d606e6d3aa"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/ko.toc",
+      "size": 678,
+      "sha256": "2842dddbf276297e1d95e76ba99bf0e18ac8436776398201dbe0b19dfcbe9011"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/pl.sb",
+      "size": 1086635,
+      "sha256": "5ae3c3726243ba720ae589872ea832ac780f06c31b37fe1d73124b84cbc46c65"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/pl.toc",
+      "size": 778,
+      "sha256": "858fb47aa7a861b54152fb1f07e770c2f8e5835fcd4eb85d2d4c5a6a0846aaa6"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/zh.sb",
+      "size": 213906,
+      "sha256": "267cf79e41c970f7716fb75697ce75fca6f446d8e5cabc6d53fa1908f90e8569"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Loc/zh.toc",
+      "size": 678,
+      "sha256": "cc11451e23b214996aa36df8f8bf5520567d440ed0e91d7cac1ae3b29cf59656"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/MpChunks.sb",
+      "size": 14,
+      "sha256": "889fcd68b6d0bb6a7c401f5417e3a4e29f5b245d2757f968d413b552c746166c"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/MpChunks.toc",
+      "size": 542821,
+      "sha256": "a6508539fbf0b36e61f8c8ecde373028715a6a567e487dabc8bef354043cd295"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/SpChunks.sb",
+      "size": 14,
+      "sha256": "889fcd68b6d0bb6a7c401f5417e3a4e29f5b245d2757f968d413b552c746166c"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/SpChunks.toc",
+      "size": 353387,
+      "sha256": "9982aee5c38a18bb64ce89350c6bdb86f41f9ec28687fdab83f72b323c1aa7f0"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/UI.sb",
+      "size": 1298149,
+      "sha256": "67fae46424b2f4a00aecdd70066fe57c26bbfeaafaf81c2b2cda51b6e2053070"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/UI.toc",
+      "size": 5423,
+      "sha256": "85e9715a562df9e1e28772677a136304a3cdccc1a4b66439689a854c173f478c"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Weapons.sb",
+      "size": 189538,
+      "sha256": "915ec1d2b814bdb743317c19770823eb27e889caccfb789428226b8cd3db90a1"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Weapons.toc",
+      "size": 7987,
+      "sha256": "cfcf973ac001555989cf0b5e597ead98b5d664a09f0b39dbda743d47a170f6a3"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Xp1Chunks.sb",
+      "size": 955768,
+      "sha256": "335c48bc708eee385cc3f0ea489ce8f1211a833951df940400897b5b696e7529"
+    },
+    {
+      "path": "Update/Patch/Data/Win32/Xp1Chunks.toc",
+      "size": 629,
+      "sha256": "dcaf733f28a3df1123d31641e1017b5be8fd4db4d484c6678ff221a93c9791d9"
+    },
+    {
+      "path": "Update/Patch/package.mft",
+      "size": 38,
+      "sha256": "d95e2c2e869d987e961ec238e5967a5945ef8d2f112d5d61e0912b552338ffd2"
+    },
+    {
+      "path": "Update/Xpack1/Data/Win32/Xp1Chunks.toc",
+      "size": 82874,
+      "sha256": "17d6875c604880e433b8a932d7672a2c5c1cffed5bc1e11615561bd69be27593"
+    },
+    {
+      "path": "Update/Xpack1/package.mft",
+      "size": 45,
+      "sha256": "2920193d7a5e24d0655a6f309fd1bb046856babd0afdfe1994930d09c53eb99f"
+    },
+    {
+      "path": "version.json",
+      "size": 35,
+      "sha256": "37f7ad115a0f72d070dd7999dff414d03d7f98c7836d48e8fe77a114f1021b79"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "__Installer/Cleanup.dat",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 41193
+        },
+        {
+          "file": "__Installer/Cleanup.exe",
+          "file_offset": 0,
+          "chunk_offset": 41193,
+          "length": 525664
+        },
+        {
+          "file": "__Installer/installerdata.xml",
+          "file_offset": 0,
+          "chunk_offset": 566857,
+          "length": 61540
+        },
+        {
+          "file": "__Installer/punkbuster/eula/cs_CZ.txt",
+          "file_offset": 0,
+          "chunk_offset": 628397,
+          "length": 5560
+        },
+        {
+          "file": "__Installer/punkbuster/eula/de_DE.txt",
+          "file_offset": 0,
+          "chunk_offset": 633957,
+          "length": 5560
+        },
+        {
+          "file": "__Installer/punkbuster/eula/en_US.txt",
+          "file_offset": 0,
+          "chunk_offset": 639517,
+          "length": 5560
+        },
+        {
+          "file": "__Installer/punkbuster/eula/es_ES.txt",
+          "file_offset": 0,
+          "chunk_offset": 645077,
+          "length": 5560
+        },
+        {
+          "file": "__Installer/punkbuster/eula/fr_FR.txt",
+          "file_offset": 0,
+          "chunk_offset": 650637,
+          "length": 6800
+        },
+        {
+          "file": "__Installer/punkbuster/eula/it_IT.txt",
+          "file_offset": 0,
+          "chunk_offset": 657437,
+          "length": 5560
+        },
+        {
+          "file": "__Installer/punkbuster/eula/ja_JP.txt",
+          "file_offset": 0,
+          "chunk_offset": 662997,
+          "length": 5560
+        },
+        {
+          "file": "__Installer/punkbuster/eula/ko_KR.txt",
+          "file_offset": 0,
+          "chunk_offset": 668557,
+          "length": 5560
+        },
+        {
+          "file": "__Installer/punkbuster/eula/pl_PL.txt",
+          "file_offset": 0,
+          "chunk_offset": 674117,
+          "length": 5560
+        },
+        {
+          "file": "__Installer/punkbuster/eula/ru_RU.txt",
+          "file_offset": 0,
+          "chunk_offset": 679677,
+          "length": 5560
+        },
+        {
+          "file": "__Installer/punkbuster/eula/zh_TW.txt",
+          "file_offset": 0,
+          "chunk_offset": 685237,
+          "length": 5560
+        },
+        {
+          "file": "__Installer/punkbuster/redist/pbsvc.exe",
+          "file_offset": 0,
+          "chunk_offset": 690797,
+          "length": 2580552
+        },
+        {
+          "file": "__Installer/Touchup.dat",
+          "file_offset": 0,
+          "chunk_offset": 3271349,
+          "length": 46386
+        },
+        {
+          "file": "__Installer/Touchup.exe",
+          "file_offset": 0,
+          "chunk_offset": 3317735,
+          "length": 526176
+        },
+        {
+          "file": "__Installer/vc/vc2008sp1/eula/de_DE.txt",
+          "file_offset": 0,
+          "chunk_offset": 3843911,
+          "length": 7886
+        },
+        {
+          "file": "__Installer/vc/vc2008sp1/eula/en_US.txt",
+          "file_offset": 0,
+          "chunk_offset": 3851797,
+          "length": 5061
+        },
+        {
+          "file": "__Installer/vc/vc2008sp1/eula/es_ES.txt",
+          "file_offset": 0,
+          "chunk_offset": 3856858,
+          "length": 6655
+        },
+        {
+          "file": "__Installer/vc/vc2008sp1/eula/es_MX.txt",
+          "file_offset": 0,
+          "chunk_offset": 3863513,
+          "length": 6655
+        },
+        {
+          "file": "__Installer/vc/vc2008sp1/eula/fr_FR.txt",
+          "file_offset": 0,
+          "chunk_offset": 3870168,
+          "length": 6392
+        },
+        {
+          "file": "__Installer/vc/vc2008sp1/eula/it_IT.txt",
+          "file_offset": 0,
+          "chunk_offset": 3876560,
+          "length": 7068
+        },
+        {
+          "file": "__Installer/vc/vc2008sp1/eula/ja_JP.txt",
+          "file_offset": 0,
+          "chunk_offset": 3883628,
+          "length": 8057
+        },
+        {
+          "file": "__Installer/vc/vc2008sp1/eula/ko_KR.txt",
+          "file_offset": 0,
+          "chunk_offset": 3891685,
+          "length": 6765
+        },
+        {
+          "file": "__Installer/vc/vc2008sp1/eula/ru_RU.txt",
+          "file_offset": 0,
+          "chunk_offset": 3898450,
+          "length": 12763
+        },
+        {
+          "file": "__Installer/vc/vc2008sp1/eula/zh_CN.txt",
+          "file_offset": 0,
+          "chunk_offset": 3911213,
+          "length": 4982
+        },
+        {
+          "file": "__Installer/vc/vc2008sp1/eula/zh_TW.txt",
+          "file_offset": 0,
+          "chunk_offset": 3916195,
+          "length": 5118
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 3921313,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 4810729,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 5098817,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 5908313,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 20882337,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 35294641,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 41013513,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 46086753,
+          "length": 7054336
+        },
+        {
+          "file": "bf3.exe",
+          "file_offset": 0,
+          "chunk_offset": 53141089,
+          "length": 34144256
+        },
+        {
+          "file": "bf3.par",
+          "file_offset": 0,
+          "chunk_offset": 87285345,
+          "length": 802
+        },
+        {
+          "file": "changelog.txt",
+          "file_offset": 0,
+          "chunk_offset": 87286147,
+          "length": 30838
+        },
+        {
+          "file": "Core/activation.exe",
+          "file_offset": 0,
+          "chunk_offset": 87316985,
+          "length": 938104
+        },
+        {
+          "file": "Core/awc.dll",
+          "file_offset": 0,
+          "chunk_offset": 88255089,
+          "length": 521840
+        },
+        {
+          "file": "Core/codecs/qcncodecs4.dll",
+          "file_offset": 0,
+          "chunk_offset": 88776929,
+          "length": 143872
+        },
+        {
+          "file": "Core/codecs/qjpcodecs4.dll",
+          "file_offset": 0,
+          "chunk_offset": 88920801,
+          "length": 180224
+        },
+        {
+          "file": "Core/codecs/qjpcodecsd4.dll",
+          "file_offset": 0,
+          "chunk_offset": 89101025,
+          "length": 237056
+        },
+        {
+          "file": "Core/codecs/qkrcodecs4.dll",
+          "file_offset": 0,
+          "chunk_offset": 89338081,
+          "length": 79872
+        },
+        {
+          "file": "Core/codecs/qtwcodecs4.dll",
+          "file_offset": 0,
+          "chunk_offset": 89417953,
+          "length": 158208
+        },
+        {
+          "file": "Core/EACore.dll",
+          "file_offset": 0,
+          "chunk_offset": 89576161,
+          "length": 11685504
+        },
+        {
+          "file": "Core/EACore_App.ini",
+          "file_offset": 0,
+          "chunk_offset": 101261665,
+          "length": 1488
+        },
+        {
+          "file": "Core/EACoreServer.exe",
+          "file_offset": 0,
+          "chunk_offset": 101263153,
+          "length": 117376
+        },
+        {
+          "file": "Core/EAProxyInstaller.exe",
+          "file_offset": 0,
+          "chunk_offset": 101380529,
+          "length": 1628808
+        },
+        {
+          "file": "Core/imageformats/Microsoft.VC80.CRT.manifest",
+          "file_offset": 0,
+          "chunk_offset": 103009337,
+          "length": 1869
+        },
+        {
+          "file": "Core/imageformats/msvcr80.dll",
+          "file_offset": 0,
+          "chunk_offset": 103011206,
+          "length": 626688
+        },
+        {
+          "file": "Core/imageformats/qgif4.dll",
+          "file_offset": 0,
+          "chunk_offset": 103637894,
+          "length": 28672
+        },
+        {
+          "file": "Core/imageformats/qico4.dll",
+          "file_offset": 0,
+          "chunk_offset": 103666566,
+          "length": 32256
+        },
+        {
+          "file": "Core/imageformats/qjpeg4.dll",
+          "file_offset": 0,
+          "chunk_offset": 103698822,
+          "length": 211456
+        },
+        {
+          "file": "Core/lang/AWCStrings_cs_CZ.xml",
+          "file_offset": 0,
+          "chunk_offset": 103910278,
+          "length": 7890
+        },
+        {
+          "file": "Core/lang/AWCStrings_da_DK.xml",
+          "file_offset": 0,
+          "chunk_offset": 103918168,
+          "length": 7924
+        },
+        {
+          "file": "Core/lang/AWCStrings_de_DE.xml",
+          "file_offset": 0,
+          "chunk_offset": 103926092,
+          "length": 8716
+        },
+        {
+          "file": "Core/lang/AWCStrings_el_GR.xml",
+          "file_offset": 0,
+          "chunk_offset": 103934808,
+          "length": 8990
+        },
+        {
+          "file": "Core/lang/AWCStrings_en_GB.xml",
+          "file_offset": 0,
+          "chunk_offset": 103943798,
+          "length": 7706
+        },
+        {
+          "file": "Core/lang/AWCStrings_en_US.xml",
+          "file_offset": 0,
+          "chunk_offset": 103951504,
+          "length": 7706
+        },
+        {
+          "file": "Core/lang/AWCStrings_es_ES.xml",
+          "file_offset": 0,
+          "chunk_offset": 103959210,
+          "length": 8170
+        },
+        {
+          "file": "Core/lang/AWCStrings_es_MX.xml",
+          "file_offset": 0,
+          "chunk_offset": 103967380,
+          "length": 8262
+        },
+        {
+          "file": "Core/lang/AWCStrings_fi_FI.xml",
+          "file_offset": 0,
+          "chunk_offset": 103975642,
+          "length": 7872
+        },
+        {
+          "file": "Core/lang/AWCStrings_fr_FR.xml",
+          "file_offset": 0,
+          "chunk_offset": 103983514,
+          "length": 8330
+        },
+        {
+          "file": "Core/lang/AWCStrings_hu_HU.xml",
+          "file_offset": 0,
+          "chunk_offset": 103991844,
+          "length": 8416
+        },
+        {
+          "file": "Core/lang/AWCStrings_it_IT.xml",
+          "file_offset": 0,
+          "chunk_offset": 104000260,
+          "length": 7820
+        },
+        {
+          "file": "Core/lang/AWCStrings_ja_JP.xml",
+          "file_offset": 0,
+          "chunk_offset": 104008080,
+          "length": 5792
+        },
+        {
+          "file": "Core/lang/AWCStrings_ko_KR.xml",
+          "file_offset": 0,
+          "chunk_offset": 104013872,
+          "length": 5880
+        },
+        {
+          "file": "Core/lang/AWCStrings_nl_NL.xml",
+          "file_offset": 0,
+          "chunk_offset": 104019752,
+          "length": 8612
+        },
+        {
+          "file": "Core/lang/AWCStrings_no_NO.xml",
+          "file_offset": 0,
+          "chunk_offset": 104028364,
+          "length": 7756
+        },
+        {
+          "file": "Core/lang/AWCStrings_pl_PL.xml",
+          "file_offset": 0,
+          "chunk_offset": 104036120,
+          "length": 8178
+        },
+        {
+          "file": "Core/lang/AWCStrings_pt_BR.xml",
+          "file_offset": 0,
+          "chunk_offset": 104044298,
+          "length": 8188
+        },
+        {
+          "file": "Core/lang/AWCStrings_pt_PT.xml",
+          "file_offset": 0,
+          "chunk_offset": 104052486,
+          "length": 7914
+        },
+        {
+          "file": "Core/lang/AWCStrings_ru_RU.xml",
+          "file_offset": 0,
+          "chunk_offset": 104060400,
+          "length": 7814
+        },
+        {
+          "file": "Core/lang/AWCStrings_sv_SE.xml",
+          "file_offset": 0,
+          "chunk_offset": 104068214,
+          "length": 7640
+        },
+        {
+          "file": "Core/lang/AWCStrings_th_TH.xml",
+          "file_offset": 0,
+          "chunk_offset": 104075854,
+          "length": 7574
+        },
+        {
+          "file": "Core/lang/AWCStrings_zh_CN.xml",
+          "file_offset": 0,
+          "chunk_offset": 104083428,
+          "length": 4884
+        },
+        {
+          "file": "Core/lang/AWCStrings_zh_TW.xml",
+          "file_offset": 0,
+          "chunk_offset": 104088312,
+          "length": 4898
+        },
+        {
+          "file": "Core/lang/CoreStrings_cs_CZ.xml",
+          "file_offset": 0,
+          "chunk_offset": 104093210,
+          "length": 52296
+        },
+        {
+          "file": "Core/lang/CoreStrings_da_DK.xml",
+          "file_offset": 0,
+          "chunk_offset": 104145506,
+          "length": 50980
+        },
+        {
+          "file": "Core/lang/CoreStrings_de_DE.xml",
+          "file_offset": 0,
+          "chunk_offset": 104196486,
+          "length": 57218
+        },
+        {
+          "file": "Core/lang/CoreStrings_el_GR.xml",
+          "file_offset": 0,
+          "chunk_offset": 104253704,
+          "length": 58010
+        },
+        {
+          "file": "Core/lang/CoreStrings_en_GB.xml",
+          "file_offset": 0,
+          "chunk_offset": 104311714,
+          "length": 49868
+        },
+        {
+          "file": "Core/lang/CoreStrings_en_US.xml",
+          "file_offset": 0,
+          "chunk_offset": 104361582,
+          "length": 49868
+        },
+        {
+          "file": "Core/lang/CoreStrings_es_ES.xml",
+          "file_offset": 0,
+          "chunk_offset": 104411450,
+          "length": 55674
+        },
+        {
+          "file": "Core/lang/CoreStrings_es_MX.xml",
+          "file_offset": 0,
+          "chunk_offset": 104467124,
+          "length": 54782
+        },
+        {
+          "file": "Core/lang/CoreStrings_fi_FI.xml",
+          "file_offset": 0,
+          "chunk_offset": 104521906,
+          "length": 50360
+        },
+        {
+          "file": "Core/lang/CoreStrings_fr_FR.xml",
+          "file_offset": 0,
+          "chunk_offset": 104572266,
+          "length": 56896
+        },
+        {
+          "file": "Core/lang/CoreStrings_hu_HU.xml",
+          "file_offset": 0,
+          "chunk_offset": 104629162,
+          "length": 54492
+        },
+        {
+          "file": "Core/lang/CoreStrings_it_IT.xml",
+          "file_offset": 0,
+          "chunk_offset": 104683654,
+          "length": 52756
+        },
+        {
+          "file": "Core/lang/CoreStrings_ja_JP.xml",
+          "file_offset": 0,
+          "chunk_offset": 104736410,
+          "length": 36868
+        },
+        {
+          "file": "Core/lang/CoreStrings_ko_KR.xml",
+          "file_offset": 0,
+          "chunk_offset": 104773278,
+          "length": 37232
+        },
+        {
+          "file": "Core/lang/CoreStrings_nl_NL.xml",
+          "file_offset": 0,
+          "chunk_offset": 104810510,
+          "length": 53426
+        },
+        {
+          "file": "Core/lang/CoreStrings_no_NO.xml",
+          "file_offset": 0,
+          "chunk_offset": 104863936,
+          "length": 49780
+        },
+        {
+          "file": "Core/lang/CoreStrings_pl_PL.xml",
+          "file_offset": 0,
+          "chunk_offset": 104913716,
+          "length": 53272
+        },
+        {
+          "file": "Core/lang/CoreStrings_pt_BR.xml",
+          "file_offset": 0,
+          "chunk_offset": 104966988,
+          "length": 56556
+        },
+        {
+          "file": "Core/lang/CoreStrings_pt_PT.xml",
+          "file_offset": 0,
+          "chunk_offset": 105023544,
+          "length": 54254
+        },
+        {
+          "file": "Core/lang/CoreStrings_ru_RU.xml",
+          "file_offset": 0,
+          "chunk_offset": 105077798,
+          "length": 50452
+        },
+        {
+          "file": "Core/lang/CoreStrings_sv_SE.xml",
+          "file_offset": 0,
+          "chunk_offset": 105128250,
+          "length": 50706
+        },
+        {
+          "file": "Core/lang/CoreStrings_th_TH.xml",
+          "file_offset": 0,
+          "chunk_offset": 105178956,
+          "length": 49162
+        },
+        {
+          "file": "Core/lang/CoreStrings_zh_CN.xml",
+          "file_offset": 0,
+          "chunk_offset": 105228118,
+          "length": 29970
+        },
+        {
+          "file": "Core/lang/CoreStrings_zh_TW.xml",
+          "file_offset": 0,
+          "chunk_offset": 105258088,
+          "length": 30388
+        },
+        {
+          "file": "Core/libeay32.dll",
+          "file_offset": 0,
+          "chunk_offset": 105288476,
+          "length": 1032192
+        },
+        {
+          "file": "Core/Microsoft.VC80.CRT.manifest",
+          "file_offset": 0,
+          "chunk_offset": 106320668,
+          "length": 1869
+        },
+        {
+          "file": "Core/msvcp100.dll",
+          "file_offset": 0,
+          "chunk_offset": 106322537,
+          "length": 421200
+        },
+        {
+          "file": "Core/msvcp80.dll",
+          "file_offset": 0,
+          "chunk_offset": 106743737,
+          "length": 548864
+        },
+        {
+          "file": "Core/msvcr100.dll",
+          "file_offset": 0,
+          "chunk_offset": 107292601,
+          "length": 773968
+        },
+        {
+          "file": "Core/msvcr80.dll",
+          "file_offset": 0,
+          "chunk_offset": 108066569,
+          "length": 626688
+        },
+        {
+          "file": "Core/PatchProgress.exe",
+          "file_offset": 0,
+          "chunk_offset": 108693257,
+          "length": 204416
+        },
+        {
+          "file": "Core/phonon4.dll",
+          "file_offset": 0,
+          "chunk_offset": 108897673,
+          "length": 327680
+        },
+        {
+          "file": "Core/QtCore4.dll",
+          "file_offset": 0,
+          "chunk_offset": 109225353,
+          "length": 2694144
+        },
+        {
+          "file": "Core/QtGui4.dll",
+          "file_offset": 0,
+          "chunk_offset": 111919497,
+          "length": 9440256
+        },
+        {
+          "file": "Core/QtNetwork4.dll",
+          "file_offset": 0,
+          "chunk_offset": 121359753,
+          "length": 1152512
+        },
+        {
+          "file": "Core/QtWebKit4.dll",
+          "file_offset": 0,
+          "chunk_offset": 122512265,
+          "length": 16846848
+        },
+        {
+          "file": "Core/QtXml4.dll",
+          "file_offset": 0,
+          "chunk_offset": 139359113,
+          "length": 413184
+        },
+        {
+          "file": "Core/QtXmlPatterns4.dll",
+          "file_offset": 0,
+          "chunk_offset": 139772297,
+          "length": 3564544
+        },
+        {
+          "file": "Core/ssleay32.dll",
+          "file_offset": 0,
+          "chunk_offset": 143336841,
+          "length": 212992
+        },
+        {
+          "file": "Data/bom.fb2",
+          "file_offset": 0,
+          "chunk_offset": 143549833,
+          "length": 104479475
+        },
+        {
+          "file": "Data/cas.cat",
+          "file_offset": 0,
+          "chunk_offset": 248029308,
+          "length": 3494160
+        },
+        {
+          "file": "Data/cas_01.cas",
+          "file_offset": 0,
+          "chunk_offset": 251523468,
+          "length": 179149433
+        }
+      ],
+      "sha256": "adf274f1601b415e891e15ea57551bebbb68ac8d8cbb39f14db21492e3a604e0"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_01.cas",
+          "file_offset": 179149433,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "d653919c3143a8b4373e9adc01e15c6f6723daa5abe83276cb74419dd501b7b2"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_01.cas",
+          "file_offset": 609822334,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "dbe3c988345c78ad71a735e71bb726da48605de540775c02a1c2a0725a64e854"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_01.cas",
+          "file_offset": 1040495235,
+          "chunk_offset": 0,
+          "length": 35091657
+        },
+        {
+          "file": "Data/cas_02.cas",
+          "file_offset": 0,
+          "chunk_offset": 35091657,
+          "length": 395581244
+        }
+      ],
+      "sha256": "b81bb5581a8e69a2006bbe6717c7f3d191ef6c4c6426418912d50392b12d07b4"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_02.cas",
+          "file_offset": 395581244,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "b5b1809f8f56b9e9f2567c266d8f1f0f374faee5392925fa2303a54d97acde46"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_02.cas",
+          "file_offset": 826254145,
+          "chunk_offset": 0,
+          "length": 247790532
+        },
+        {
+          "file": "Data/cas_03.cas",
+          "file_offset": 0,
+          "chunk_offset": 247790532,
+          "length": 182882369
+        }
+      ],
+      "sha256": "9807c813cbdb3d65c4383b7259bf7877afd73a7c7854a4674648edcdc768ef9a"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_03.cas",
+          "file_offset": 182882369,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "95497449e509bc8bb5696127d86516a99c600260a9fb4b4295567a9d606a6b8b"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_03.cas",
+          "file_offset": 613555270,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "c4478f739f266683eace9b3c4757f6f2c0612fc7fa99f4533be67f333ddcd170"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_03.cas",
+          "file_offset": 1044228171,
+          "chunk_offset": 0,
+          "length": 62719768
+        },
+        {
+          "file": "Data/cas_04.cas",
+          "file_offset": 0,
+          "chunk_offset": 62719768,
+          "length": 367953133
+        }
+      ],
+      "sha256": "0bf5eea3521041bf436d59526bde5ff89fd47b8c34d2b53f100cde020c114adf"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_04.cas",
+          "file_offset": 367953133,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "fe7ea7c33b28f388d97a138918da2564ce94f8933be3cefbe383a8c92b7e8c20"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_04.cas",
+          "file_offset": 798626034,
+          "chunk_offset": 0,
+          "length": 275344389
+        },
+        {
+          "file": "Data/cas_05.cas",
+          "file_offset": 0,
+          "chunk_offset": 275344389,
+          "length": 155328512
+        }
+      ],
+      "sha256": "0b8eee833aed978a3f7cb2ffd559537d9dec48cbf3a7344a61f12977bbed2451"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_05.cas",
+          "file_offset": 155328512,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "0b550e11f0e06959aeb11a537eac0787e6c28ea4ee089977e6cee2fe70efa98c"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_05.cas",
+          "file_offset": 586001413,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "1c8a01a3713759c0e3a1affaf6c51879ced40d22a7a15af68cac3e62415f004c"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_05.cas",
+          "file_offset": 1016674314,
+          "chunk_offset": 0,
+          "length": 122334166
+        },
+        {
+          "file": "Data/cas_06.cas",
+          "file_offset": 0,
+          "chunk_offset": 122334166,
+          "length": 308338735
+        }
+      ],
+      "sha256": "04b3a4ec7451f05ff4cc8ba50a83ecf2dc0ba9fefa6a207ba99aef106c35fd7f"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_06.cas",
+          "file_offset": 308338735,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "8512f1f5b7001b9427f33e118c2e41255b7fa62666cd2db2424ed0f84e30efe4"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_06.cas",
+          "file_offset": 739011636,
+          "chunk_offset": 0,
+          "length": 334777391
+        },
+        {
+          "file": "Data/cas_07.cas",
+          "file_offset": 0,
+          "chunk_offset": 334777391,
+          "length": 95895510
+        }
+      ],
+      "sha256": "73474d113371dbf24ebd6db8bd506c7d8d8429b513e3bebed97d9dc16a1c45d9"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_07.cas",
+          "file_offset": 95895510,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "8a267bafab74aad0f8ba86d5e4ff00f0984197efb01cd4f39d7437a63533cf8e"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_07.cas",
+          "file_offset": 526568411,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "d3b0225a0a43f82d7dc66c2f625cc3d6e5ebe39a7ced3da9a7c7853b3072f41c"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_07.cas",
+          "file_offset": 957241312,
+          "chunk_offset": 0,
+          "length": 128554681
+        },
+        {
+          "file": "Data/cas_08.cas",
+          "file_offset": 0,
+          "chunk_offset": 128554681,
+          "length": 302118220
+        }
+      ],
+      "sha256": "c78fb20ef2ea229b8eaaa92c1059052d09b79685988b0c125fae31899f08e3d3"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_08.cas",
+          "file_offset": 302118220,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "8389b7f523b198a63e5ea06f3ad45343eac10df63c2cc7afcdb0904f05642b4f"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_08.cas",
+          "file_offset": 732791121,
+          "chunk_offset": 0,
+          "length": 341335501
+        },
+        {
+          "file": "Data/cas_09.cas",
+          "file_offset": 0,
+          "chunk_offset": 341335501,
+          "length": 89337400
+        }
+      ],
+      "sha256": "982dc115630091cc5b1eb50c81500da1d598eb56b605a9e29977c70e7412a640"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_09.cas",
+          "file_offset": 89337400,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "6e75bde65f5960d37d10a1f17012d8cdbd08549c6e28bf48716026503ca508ad"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_09.cas",
+          "file_offset": 520010301,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "13fac31eda7d5e04c0c132c2188c2158b5c0f63f9c66db05182f272365b42007"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_09.cas",
+          "file_offset": 950683202,
+          "chunk_offset": 0,
+          "length": 123071447
+        },
+        {
+          "file": "Data/cas_10.cas",
+          "file_offset": 0,
+          "chunk_offset": 123071447,
+          "length": 307601454
+        }
+      ],
+      "sha256": "3834bf804607daff02de41f9239e9b8187d67e4ac34886b692096cee509df3cc"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/cas_10.cas",
+          "file_offset": 307601454,
+          "chunk_offset": 0,
+          "length": 123621598
+        },
+        {
+          "file": "Data/initfs_Win32",
+          "file_offset": 0,
+          "chunk_offset": 123621598,
+          "length": 151448
+        },
+        {
+          "file": "Data/layout.toc",
+          "file_offset": 0,
+          "chunk_offset": 123773046,
+          "length": 2282
+        },
+        {
+          "file": "Data/Win32/Chunks0.sb",
+          "file_offset": 0,
+          "chunk_offset": 123775328,
+          "length": 14
+        },
+        {
+          "file": "Data/Win32/Chunks0.toc",
+          "file_offset": 0,
+          "chunk_offset": 123775342,
+          "length": 162286
+        },
+        {
+          "file": "Data/Win32/Chunks1.sb",
+          "file_offset": 0,
+          "chunk_offset": 123937628,
+          "length": 14
+        },
+        {
+          "file": "Data/Win32/Chunks1.toc",
+          "file_offset": 0,
+          "chunk_offset": 123937642,
+          "length": 161257
+        },
+        {
+          "file": "Data/Win32/Chunks2.sb",
+          "file_offset": 0,
+          "chunk_offset": 124098899,
+          "length": 14
+        },
+        {
+          "file": "Data/Win32/Chunks2.toc",
+          "file_offset": 0,
+          "chunk_offset": 124098913,
+          "length": 161110
+        },
+        {
+          "file": "Data/Win32/default_settings_Win32.sb",
+          "file_offset": 0,
+          "chunk_offset": 124260023,
+          "length": 120907
+        },
+        {
+          "file": "Data/Win32/default_settings_Win32.toc",
+          "file_offset": 0,
+          "chunk_offset": 124380930,
+          "length": 710
+        },
+        {
+          "file": "Data/Win32/Globals.sb",
+          "file_offset": 0,
+          "chunk_offset": 124381640,
+          "length": 140209
+        },
+        {
+          "file": "Data/Win32/Globals.toc",
+          "file_offset": 0,
+          "chunk_offset": 124521849,
+          "length": 766
+        },
+        {
+          "file": "Data/Win32/Levels/COOP_002/COOP_002.sb",
+          "file_offset": 0,
+          "chunk_offset": 124522615,
+          "length": 2909327
+        },
+        {
+          "file": "Data/Win32/Levels/COOP_002/COOP_002.toc",
+          "file_offset": 0,
+          "chunk_offset": 127431942,
+          "length": 2007
+        },
+        {
+          "file": "Data/Win32/Levels/COOP_003/COOP_003.sb",
+          "file_offset": 0,
+          "chunk_offset": 127433949,
+          "length": 3244343
+        },
+        {
+          "file": "Data/Win32/Levels/COOP_003/COOP_003.toc",
+          "file_offset": 0,
+          "chunk_offset": 130678292,
+          "length": 1989
+        },
+        {
+          "file": "Data/Win32/Levels/COOP_006/COOP_006.sb",
+          "file_offset": 0,
+          "chunk_offset": 130680281,
+          "length": 2186136
+        },
+        {
+          "file": "Data/Win32/Levels/COOP_006/COOP_006.toc",
+          "file_offset": 0,
+          "chunk_offset": 132866417,
+          "length": 1800
+        },
+        {
+          "file": "Data/Win32/Levels/COOP_007/COOP_007.sb",
+          "file_offset": 0,
+          "chunk_offset": 132868217,
+          "length": 2815678
+        },
+        {
+          "file": "Data/Win32/Levels/COOP_007/COOP_007.toc",
+          "file_offset": 0,
+          "chunk_offset": 135683895,
+          "length": 1762
+        },
+        {
+          "file": "Data/Win32/Levels/COOP_009/COOP_009.sb",
+          "file_offset": 0,
+          "chunk_offset": 135685657,
+          "length": 4308764
+        },
+        {
+          "file": "Data/Win32/Levels/COOP_009/COOP_009.toc",
+          "file_offset": 0,
+          "chunk_offset": 139994421,
+          "length": 2144
+        },
+        {
+          "file": "Data/Win32/Levels/COOP_010/COOP_010.sb",
+          "file_offset": 0,
+          "chunk_offset": 139996565,
+          "length": 3549423
+        },
+        {
+          "file": "Data/Win32/Levels/COOP_010/COOP_010.toc",
+          "file_offset": 0,
+          "chunk_offset": 143545988,
+          "length": 2061
+        },
+        {
+          "file": "Data/Win32/Levels/FrontEnd/FrontEnd.sb",
+          "file_offset": 0,
+          "chunk_offset": 143548049,
+          "length": 1925594
+        },
+        {
+          "file": "Data/Win32/Levels/FrontEnd/FrontEnd.toc",
+          "file_offset": 0,
+          "chunk_offset": 145473643,
+          "length": 1270
+        },
+        {
+          "file": "Data/Win32/Levels/MP_001/MP_001.sb",
+          "file_offset": 0,
+          "chunk_offset": 145474913,
+          "length": 6802181
+        },
+        {
+          "file": "Data/Win32/Levels/MP_001/MP_001.toc",
+          "file_offset": 0,
+          "chunk_offset": 152277094,
+          "length": 1832
+        },
+        {
+          "file": "Data/Win32/Levels/MP_003/MP_003.sb",
+          "file_offset": 0,
+          "chunk_offset": 152278926,
+          "length": 6453615
+        },
+        {
+          "file": "Data/Win32/Levels/MP_003/MP_003.toc",
+          "file_offset": 0,
+          "chunk_offset": 158732541,
+          "length": 1887
+        },
+        {
+          "file": "Data/Win32/Levels/MP_007/MP_007.sb",
+          "file_offset": 0,
+          "chunk_offset": 158734428,
+          "length": 6779935
+        },
+        {
+          "file": "Data/Win32/Levels/MP_007/MP_007.toc",
+          "file_offset": 0,
+          "chunk_offset": 165514363,
+          "length": 1836
+        },
+        {
+          "file": "Data/Win32/Levels/MP_011/MP_011.sb",
+          "file_offset": 0,
+          "chunk_offset": 165516199,
+          "length": 6307833
+        },
+        {
+          "file": "Data/Win32/Levels/MP_011/MP_011.toc",
+          "file_offset": 0,
+          "chunk_offset": 171824032,
+          "length": 1850
+        },
+        {
+          "file": "Data/Win32/Levels/MP_012/MP_012.sb",
+          "file_offset": 0,
+          "chunk_offset": 171825882,
+          "length": 7287755
+        },
+        {
+          "file": "Data/Win32/Levels/MP_012/MP_012.toc",
+          "file_offset": 0,
+          "chunk_offset": 179113637,
+          "length": 1923
+        },
+        {
+          "file": "Data/Win32/Levels/MP_013/MP_013.sb",
+          "file_offset": 0,
+          "chunk_offset": 179115560,
+          "length": 6544443
+        },
+        {
+          "file": "Data/Win32/Levels/MP_013/MP_013.toc",
+          "file_offset": 0,
+          "chunk_offset": 185660003,
+          "length": 1828
+        },
+        {
+          "file": "Data/Win32/Levels/MP_017/MP_017.sb",
+          "file_offset": 0,
+          "chunk_offset": 185661831,
+          "length": 6782529
+        },
+        {
+          "file": "Data/Win32/Levels/MP_017/MP_017.toc",
+          "file_offset": 0,
+          "chunk_offset": 192444360,
+          "length": 1654
+        },
+        {
+          "file": "Data/Win32/Levels/MP_018/MP_018.sb",
+          "file_offset": 0,
+          "chunk_offset": 192446014,
+          "length": 6885490
+        },
+        {
+          "file": "Data/Win32/Levels/MP_018/MP_018.toc",
+          "file_offset": 0,
+          "chunk_offset": 199331504,
+          "length": 2036
+        },
+        {
+          "file": "Data/Win32/Levels/MP_Subway/MP_Subway.sb",
+          "file_offset": 0,
+          "chunk_offset": 199333540,
+          "length": 6200012
+        },
+        {
+          "file": "Data/Win32/Levels/MP_Subway/MP_Subway.toc",
+          "file_offset": 0,
+          "chunk_offset": 205533552,
+          "length": 2114
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Bank/SP_Bank.sb",
+          "file_offset": 0,
+          "chunk_offset": 205535666,
+          "length": 7527843
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Bank/SP_Bank.toc",
+          "file_offset": 0,
+          "chunk_offset": 213063509,
+          "length": 4495
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Earthquake/SP_Earthquake.sb",
+          "file_offset": 0,
+          "chunk_offset": 213068004,
+          "length": 5942463
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Earthquake/SP_Earthquake.toc",
+          "file_offset": 0,
+          "chunk_offset": 219010467,
+          "length": 3497
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Earthquake2/SP_Earthquake2.sb",
+          "file_offset": 0,
+          "chunk_offset": 219013964,
+          "length": 4667911
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Earthquake2/SP_Earthquake2.toc",
+          "file_offset": 0,
+          "chunk_offset": 223681875,
+          "length": 2818
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Finale/SP_Finale.sb",
+          "file_offset": 0,
+          "chunk_offset": 223684693,
+          "length": 3866606
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Finale/SP_Finale.toc",
+          "file_offset": 0,
+          "chunk_offset": 227551299,
+          "length": 2250
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Jet/SP_Jet.sb",
+          "file_offset": 0,
+          "chunk_offset": 227553549,
+          "length": 2565916
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Jet/SP_Jet.toc",
+          "file_offset": 0,
+          "chunk_offset": 230119465,
+          "length": 2200
+        },
+        {
+          "file": "Data/Win32/Levels/SP_New_York/SP_New_York.sb",
+          "file_offset": 0,
+          "chunk_offset": 230121665,
+          "length": 1377812
+        },
+        {
+          "file": "Data/Win32/Levels/SP_New_York/SP_New_York.toc",
+          "file_offset": 0,
+          "chunk_offset": 231499477,
+          "length": 1604
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Paris/SP_Paris.sb",
+          "file_offset": 0,
+          "chunk_offset": 231501081,
+          "length": 6665413
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Paris/SP_Paris.toc",
+          "file_offset": 0,
+          "chunk_offset": 238166494,
+          "length": 2998
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Sniper/SP_Sniper.sb",
+          "file_offset": 0,
+          "chunk_offset": 238169492,
+          "length": 6901263
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Sniper/SP_Sniper.toc",
+          "file_offset": 0,
+          "chunk_offset": 245070755,
+          "length": 3373
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Tank/SP_Tank.sb",
+          "file_offset": 0,
+          "chunk_offset": 245074128,
+          "length": 3391245
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Tank/SP_Tank.toc",
+          "file_offset": 0,
+          "chunk_offset": 248465373,
+          "length": 3134
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Tank_b/SP_Tank_b.sb",
+          "file_offset": 0,
+          "chunk_offset": 248468507,
+          "length": 3907084
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Tank_b/SP_Tank_b.toc",
+          "file_offset": 0,
+          "chunk_offset": 252375591,
+          "length": 2355
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Valley/SP_Valley.sb",
+          "file_offset": 0,
+          "chunk_offset": 252377946,
+          "length": 2994690
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Valley/SP_Valley.toc",
+          "file_offset": 0,
+          "chunk_offset": 255372636,
+          "length": 3013
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Villa/SP_Villa.sb",
+          "file_offset": 0,
+          "chunk_offset": 255375649,
+          "length": 3900692
+        },
+        {
+          "file": "Data/Win32/Levels/SP_Villa/SP_Villa.toc",
+          "file_offset": 0,
+          "chunk_offset": 259276341,
+          "length": 3006
+        },
+        {
+          "file": "Data/Win32/Levels/Web_Loading/Web_Loading.sb",
+          "file_offset": 0,
+          "chunk_offset": 259279347,
+          "length": 153910
+        },
+        {
+          "file": "Data/Win32/Levels/Web_Loading/Web_Loading.toc",
+          "file_offset": 0,
+          "chunk_offset": 259433257,
+          "length": 1324
+        },
+        {
+          "file": "Data/Win32/Loc/cs.sb",
+          "file_offset": 0,
+          "chunk_offset": 259434581,
+          "length": 232986
+        },
+        {
+          "file": "Data/Win32/Loc/cs.toc",
+          "file_offset": 0,
+          "chunk_offset": 259667567,
+          "length": 744
+        },
+        {
+          "file": "Data/Win32/Loc/de.sb",
+          "file_offset": 0,
+          "chunk_offset": 259668311,
+          "length": 171004590
+        }
+      ],
+      "sha256": "1868107a7b59ac5d559cf47c2e933aeac02f01869cd470739af4f149ce428b93"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/Win32/Loc/de.sb",
+          "file_offset": 171004590,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "f33357950f9021e81efdc9d9bd8345dea77e7ad39343c39b4e463b797932c3ec"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/Win32/Loc/de.sb",
+          "file_offset": 601677491,
+          "chunk_offset": 0,
+          "length": 224619822
+        },
+        {
+          "file": "Data/Win32/Loc/de.toc",
+          "file_offset": 0,
+          "chunk_offset": 224619822,
+          "length": 187878
+        },
+        {
+          "file": "Data/Win32/Loc/en.sb",
+          "file_offset": 0,
+          "chunk_offset": 224807700,
+          "length": 205865201
+        }
+      ],
+      "sha256": "469eeed7f84bc8784a7637f25ba4c2952b2a1928fac44dd380e29bc81d26484d"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/Win32/Loc/en.sb",
+          "file_offset": 205865201,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "5e37209c43c721aba563ee00790b612000e705bfbd8768fc35645af0cf5a0791"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/Win32/Loc/en.sb",
+          "file_offset": 636538102,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "20a432d7aafa67358aaa65cceded43e902cf50af5d560ef4e0eb5cd5f89b2a3a"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/Win32/Loc/en.sb",
+          "file_offset": 1067211003,
+          "chunk_offset": 0,
+          "length": 142135274
+        },
+        {
+          "file": "Data/Win32/Loc/en.toc",
+          "file_offset": 0,
+          "chunk_offset": 142135274,
+          "length": 210614
+        },
+        {
+          "file": "Data/Win32/Loc/es.sb",
+          "file_offset": 0,
+          "chunk_offset": 142345888,
+          "length": 288327013
+        }
+      ],
+      "sha256": "666b06ade27de7e9ec364a6b02a0797db8e3e33e3d70a56e06f0549525a37922"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/Win32/Loc/es.sb",
+          "file_offset": 288327013,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "69971e38aac794dc4ed0d2ed18df16966393de59c3316b40a0f62b93a340d5c1"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/Win32/Loc/es.sb",
+          "file_offset": 718999914,
+          "chunk_offset": 0,
+          "length": 95883434
+        },
+        {
+          "file": "Data/Win32/Loc/es.toc",
+          "file_offset": 0,
+          "chunk_offset": 95883434,
+          "length": 187927
+        },
+        {
+          "file": "Data/Win32/Loc/fr.sb",
+          "file_offset": 0,
+          "chunk_offset": 96071361,
+          "length": 334601540
+        }
+      ],
+      "sha256": "c6b07065b7fca64a13af8c2015993e5fcfff3acfc07e2bdb0638c6d19e9dea3b"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/Win32/Loc/fr.sb",
+          "file_offset": 334601540,
+          "chunk_offset": 0,
+          "length": 423011539
+        },
+        {
+          "file": "Data/Win32/Loc/fr.toc",
+          "file_offset": 0,
+          "chunk_offset": 423011539,
+          "length": 187878
+        },
+        {
+          "file": "Data/Win32/Loc/it.sb",
+          "file_offset": 0,
+          "chunk_offset": 423199417,
+          "length": 7473484
+        }
+      ],
+      "sha256": "205defc4033948d8835838af3371c9f59fadd4007316c7320f1abad1bd58c755"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/Win32/Loc/it.sb",
+          "file_offset": 7473484,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "d09acb52a50fae6701e1de3a5f6525f756953bc282f99f6ffe712a9fbcf4445e"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/Win32/Loc/it.sb",
+          "file_offset": 438146385,
+          "chunk_offset": 0,
+          "length": 345474425
+        },
+        {
+          "file": "Data/Win32/Loc/it.toc",
+          "file_offset": 0,
+          "chunk_offset": 345474425,
+          "length": 187927
+        },
+        {
+          "file": "Data/Win32/Loc/ja.toc",
+          "file_offset": 0,
+          "chunk_offset": 345662352,
+          "length": 187976
+        },
+        {
+          "file": "Data/Win32/Loc/ko.sb",
+          "file_offset": 0,
+          "chunk_offset": 345850328,
+          "length": 204646
+        },
+        {
+          "file": "Data/Win32/Loc/ko.toc",
+          "file_offset": 0,
+          "chunk_offset": 346054974,
+          "length": 744
+        },
+        {
+          "file": "Data/Win32/Loc/pl.sb",
+          "file_offset": 0,
+          "chunk_offset": 346055718,
+          "length": 84617183
+        }
+      ],
+      "sha256": "b549b15287043776d2616f834b9ec1277dd4625de35dd201af38e784417ea9fb"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/Win32/Loc/pl.sb",
+          "file_offset": 84617183,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "6dc9a20a5945826340c38353159ee3cb967d10a9c7cb8decbce174a539a2ce19"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Data/Win32/Loc/pl.sb",
+          "file_offset": 515290084,
+          "chunk_offset": 0,
+          "length": 208420623
+        },
+        {
+          "file": "Data/Win32/Loc/pl.toc",
+          "file_offset": 0,
+          "chunk_offset": 208420623,
+          "length": 187927
+        },
+        {
+          "file": "Data/Win32/Loc/zh.sb",
+          "file_offset": 0,
+          "chunk_offset": 208608550,
+          "length": 200688
+        },
+        {
+          "file": "Data/Win32/Loc/zh.toc",
+          "file_offset": 0,
+          "chunk_offset": 208809238,
+          "length": 744
+        },
+        {
+          "file": "Data/Win32/MpChunks.sb",
+          "file_offset": 0,
+          "chunk_offset": 208809982,
+          "length": 14
+        },
+        {
+          "file": "Data/Win32/MpChunks.toc",
+          "file_offset": 0,
+          "chunk_offset": 208809996,
+          "length": 525573
+        },
+        {
+          "file": "Data/Win32/SpChunks.sb",
+          "file_offset": 0,
+          "chunk_offset": 209335569,
+          "length": 14
+        },
+        {
+          "file": "Data/Win32/SpChunks.toc",
+          "file_offset": 0,
+          "chunk_offset": 209335583,
+          "length": 344812
+        },
+        {
+          "file": "Data/Win32/UI.sb",
+          "file_offset": 0,
+          "chunk_offset": 209680395,
+          "length": 1229141
+        },
+        {
+          "file": "Data/Win32/UI.toc",
+          "file_offset": 0,
+          "chunk_offset": 210909536,
+          "length": 5423
+        },
+        {
+          "file": "Data/Win32/Weapons.sb",
+          "file_offset": 0,
+          "chunk_offset": 210914959,
+          "length": 153485
+        },
+        {
+          "file": "Data/Win32/Weapons.toc",
+          "file_offset": 0,
+          "chunk_offset": 211068444,
+          "length": 7137
+        },
+        {
+          "file": "Engine.BuildInfo_Win32_Retail_dll.dll",
+          "file_offset": 0,
+          "chunk_offset": 211075581,
+          "length": 17408
+        },
+        {
+          "file": "GDFBinary_cs_CZ.dll",
+          "file_offset": 0,
+          "chunk_offset": 211092989,
+          "length": 436600
+        },
+        {
+          "file": "GDFBinary_de_DE.dll",
+          "file_offset": 0,
+          "chunk_offset": 211529589,
+          "length": 436600
+        },
+        {
+          "file": "GDFBinary_en_US.dll",
+          "file_offset": 0,
+          "chunk_offset": 211966189,
+          "length": 436600
+        },
+        {
+          "file": "GDFBinary_es_ES.dll",
+          "file_offset": 0,
+          "chunk_offset": 212402789,
+          "length": 436600
+        },
+        {
+          "file": "GDFBinary_fr_FR.dll",
+          "file_offset": 0,
+          "chunk_offset": 212839389,
+          "length": 436600
+        },
+        {
+          "file": "GDFBinary_it_IT.dll",
+          "file_offset": 0,
+          "chunk_offset": 213275989,
+          "length": 436600
+        },
+        {
+          "file": "GDFBinary_ja_JP.dll",
+          "file_offset": 0,
+          "chunk_offset": 213712589,
+          "length": 436600
+        },
+        {
+          "file": "GDFBinary_ko_KR.dll",
+          "file_offset": 0,
+          "chunk_offset": 214149189,
+          "length": 436600
+        },
+        {
+          "file": "GDFBinary_pl_PL.dll",
+          "file_offset": 0,
+          "chunk_offset": 214585789,
+          "length": 436600
+        },
+        {
+          "file": "GDFBinary_zh_TW.dll",
+          "file_offset": 0,
+          "chunk_offset": 215022389,
+          "length": 436600
+        },
+        {
+          "file": "Support/eula/cs_CZ_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 215458989,
+          "length": 205632
+        },
+        {
+          "file": "Support/eula/de_DE_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 215664621,
+          "length": 149071
+        },
+        {
+          "file": "Support/eula/en_US_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 215813692,
+          "length": 124253
+        },
+        {
+          "file": "Support/eula/es_ES_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 215937945,
+          "length": 141764
+        },
+        {
+          "file": "Support/eula/fr_FR_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 216079709,
+          "length": 157293
+        },
+        {
+          "file": "Support/eula/it_IT_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 216237002,
+          "length": 136199
+        },
+        {
+          "file": "Support/eula/ja_JP_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 216373201,
+          "length": 416355
+        },
+        {
+          "file": "Support/eula/ko_KR_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 216789556,
+          "length": 1362201
+        },
+        {
+          "file": "Support/eula/pl_PL_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 218151757,
+          "length": 169965
+        },
+        {
+          "file": "Support/eula/ru_RU_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 218321722,
+          "length": 499054
+        },
+        {
+          "file": "Support/eula/zh_TW_eula.rtf",
+          "file_offset": 0,
+          "chunk_offset": 218820776,
+          "length": 338361
+        },
+        {
+          "file": "Support/mnfst.txt",
+          "file_offset": 0,
+          "chunk_offset": 219159137,
+          "length": 76540
+        },
+        {
+          "file": "Support/readme/Ctimne.txt",
+          "file_offset": 0,
+          "chunk_offset": 219235677,
+          "length": 8911
+        },
+        {
+          "file": "Support/readme/Leggimi.it.txt",
+          "file_offset": 0,
+          "chunk_offset": 219244588,
+          "length": 9060
+        },
+        {
+          "file": "Support/readme/lisezmoi.txt",
+          "file_offset": 0,
+          "chunk_offset": 219253648,
+          "length": 9628
+        },
+        {
+          "file": "Support/readme/Léeme.txt",
+          "file_offset": 0,
+          "chunk_offset": 219263276,
+          "length": 9562
+        },
+        {
+          "file": "Support/readme/Przeczytaj.txt",
+          "file_offset": 0,
+          "chunk_offset": 219272838,
+          "length": 9007
+        },
+        {
+          "file": "Support/readme/readme.de.txt",
+          "file_offset": 0,
+          "chunk_offset": 219281845,
+          "length": 9506
+        },
+        {
+          "file": "Support/readme/readme.ja.txt",
+          "file_offset": 0,
+          "chunk_offset": 219291351,
+          "length": 10502
+        },
+        {
+          "file": "Support/readme/readme.ko.txt",
+          "file_offset": 0,
+          "chunk_offset": 219301853,
+          "length": 9156
+        },
+        {
+          "file": "Support/readme/readme.ru.txt",
+          "file_offset": 0,
+          "chunk_offset": 219311009,
+          "length": 14704
+        },
+        {
+          "file": "Support/readme/readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 219325713,
+          "length": 8376
+        },
+        {
+          "file": "Support/readme/readme.zh-tw.txt",
+          "file_offset": 0,
+          "chunk_offset": 219334089,
+          "length": 8882
+        },
+        {
+          "file": "Uninstall/botva2.dll",
+          "file_offset": 0,
+          "chunk_offset": 219342971,
+          "length": 37888
+        },
+        {
+          "file": "Uninstall/dark.png",
+          "file_offset": 0,
+          "chunk_offset": 219380859,
+          "length": 67185
+        },
+        {
+          "file": "Uninstall/light.png",
+          "file_offset": 0,
+          "chunk_offset": 219448044,
+          "length": 58221
+        },
+        {
+          "file": "Uninstall/Setup1.jpg",
+          "file_offset": 0,
+          "chunk_offset": 219506265,
+          "length": 256060
+        },
+        {
+          "file": "Uninstall/unins000.dat",
+          "file_offset": 0,
+          "chunk_offset": 219762325,
+          "length": 152011
+        },
+        {
+          "file": "Uninstall/unins000.exe",
+          "file_offset": 0,
+          "chunk_offset": 219914336,
+          "length": 1602929
+        },
+        {
+          "file": "Update/Patch/Data/cas.cat",
+          "file_offset": 0,
+          "chunk_offset": 221517265,
+          "length": 490640
+        },
+        {
+          "file": "Update/Patch/Data/cas_01.cas",
+          "file_offset": 0,
+          "chunk_offset": 222007905,
+          "length": 208664996
+        }
+      ],
+      "sha256": "53d0a7152d7290ad7768562bec99f0fbee35342b7ae9740f32047130c53ab6f3"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Update/Patch/Data/cas_01.cas",
+          "file_offset": 208664996,
+          "chunk_offset": 0,
+          "length": 430672901
+        }
+      ],
+      "sha256": "dc352c07435d8250780f9e8cda5e42acac08376578c1ee00971645ba27a449ef"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 430672901,
+      "segments": [
+        {
+          "file": "Update/Patch/Data/cas_01.cas",
+          "file_offset": 639337897,
+          "chunk_offset": 0,
+          "length": 401038352
+        },
+        {
+          "file": "Update/Patch/Data/initfs_Win32",
+          "file_offset": 0,
+          "chunk_offset": 401038352,
+          "length": 156158
+        },
+        {
+          "file": "Update/Patch/Data/layout.toc",
+          "file_offset": 0,
+          "chunk_offset": 401194510,
+          "length": 2602
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Chunks0.sb",
+          "file_offset": 0,
+          "chunk_offset": 401197112,
+          "length": 14
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Chunks0.toc",
+          "file_offset": 0,
+          "chunk_offset": 401197126,
+          "length": 174732
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Chunks1.sb",
+          "file_offset": 0,
+          "chunk_offset": 401371858,
+          "length": 14
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Chunks1.toc",
+          "file_offset": 0,
+          "chunk_offset": 401371872,
+          "length": 175418
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Chunks2.sb",
+          "file_offset": 0,
+          "chunk_offset": 401547290,
+          "length": 14
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Chunks2.toc",
+          "file_offset": 0,
+          "chunk_offset": 401547304,
+          "length": 174291
+        },
+        {
+          "file": "Update/Patch/Data/Win32/default_settings_Win32.sb",
+          "file_offset": 0,
+          "chunk_offset": 401721595,
+          "length": 129785
+        },
+        {
+          "file": "Update/Patch/Data/Win32/default_settings_Win32.toc",
+          "file_offset": 0,
+          "chunk_offset": 401851380,
+          "length": 710
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Globals.sb",
+          "file_offset": 0,
+          "chunk_offset": 401852090,
+          "length": 150179
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Globals.toc",
+          "file_offset": 0,
+          "chunk_offset": 402002269,
+          "length": 766
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/COOP_002/COOP_002.sb",
+          "file_offset": 0,
+          "chunk_offset": 402003035,
+          "length": 2920697
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/COOP_002/COOP_002.toc",
+          "file_offset": 0,
+          "chunk_offset": 404923732,
+          "length": 2007
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/COOP_003/COOP_003.sb",
+          "file_offset": 0,
+          "chunk_offset": 404925739,
+          "length": 3298588
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/COOP_003/COOP_003.toc",
+          "file_offset": 0,
+          "chunk_offset": 408224327,
+          "length": 1989
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/COOP_006/COOP_006.sb",
+          "file_offset": 0,
+          "chunk_offset": 408226316,
+          "length": 2198949
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/COOP_006/COOP_006.toc",
+          "file_offset": 0,
+          "chunk_offset": 410425265,
+          "length": 1800
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/COOP_007/COOP_007.sb",
+          "file_offset": 0,
+          "chunk_offset": 410427065,
+          "length": 2875190
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/COOP_007/COOP_007.toc",
+          "file_offset": 0,
+          "chunk_offset": 413302255,
+          "length": 1762
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/COOP_009/COOP_009.sb",
+          "file_offset": 0,
+          "chunk_offset": 413304017,
+          "length": 4367325
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/COOP_009/COOP_009.toc",
+          "file_offset": 0,
+          "chunk_offset": 417671342,
+          "length": 2144
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/COOP_010/COOP_010.sb",
+          "file_offset": 0,
+          "chunk_offset": 417673486,
+          "length": 3563969
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/COOP_010/COOP_010.toc",
+          "file_offset": 0,
+          "chunk_offset": 421237455,
+          "length": 2061
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/FrontEnd/FrontEnd.sb",
+          "file_offset": 0,
+          "chunk_offset": 421239516,
+          "length": 2109205
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/FrontEnd/FrontEnd.toc",
+          "file_offset": 0,
+          "chunk_offset": 423348721,
+          "length": 1270
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_001/MP_001.sb",
+          "file_offset": 0,
+          "chunk_offset": 423349991,
+          "length": 7085770
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_001/MP_001.toc",
+          "file_offset": 0,
+          "chunk_offset": 430435761,
+          "length": 1832
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_003/MP_003.sb",
+          "file_offset": 0,
+          "chunk_offset": 430437593,
+          "length": 235308
+        }
+      ],
+      "sha256": "bb95d6a1d228c404b957f7f5c48099d07dd7f54b6f42ba9388b1e40db0e91616"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 430672872,
+      "segments": [
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_003/MP_003.sb",
+          "file_offset": 235308,
+          "chunk_offset": 0,
+          "length": 6499000
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_003/MP_003.toc",
+          "file_offset": 0,
+          "chunk_offset": 6499000,
+          "length": 1887
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_007/MP_007.sb",
+          "file_offset": 0,
+          "chunk_offset": 6500887,
+          "length": 7059538
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_007/MP_007.toc",
+          "file_offset": 0,
+          "chunk_offset": 13560425,
+          "length": 1836
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_011/MP_011.sb",
+          "file_offset": 0,
+          "chunk_offset": 13562261,
+          "length": 6580503
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_011/MP_011.toc",
+          "file_offset": 0,
+          "chunk_offset": 20142764,
+          "length": 1850
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_012/MP_012.sb",
+          "file_offset": 0,
+          "chunk_offset": 20144614,
+          "length": 7494772
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_012/MP_012.toc",
+          "file_offset": 0,
+          "chunk_offset": 27639386,
+          "length": 1923
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_013/MP_013.sb",
+          "file_offset": 0,
+          "chunk_offset": 27641309,
+          "length": 6815929
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_013/MP_013.toc",
+          "file_offset": 0,
+          "chunk_offset": 34457238,
+          "length": 1828
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_017/MP_017.sb",
+          "file_offset": 0,
+          "chunk_offset": 34459066,
+          "length": 7059096
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_017/MP_017.toc",
+          "file_offset": 0,
+          "chunk_offset": 41518162,
+          "length": 1654
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_018/MP_018.sb",
+          "file_offset": 0,
+          "chunk_offset": 41519816,
+          "length": 7164537
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_018/MP_018.toc",
+          "file_offset": 0,
+          "chunk_offset": 48684353,
+          "length": 2036
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_Subway/MP_Subway.sb",
+          "file_offset": 0,
+          "chunk_offset": 48686389,
+          "length": 6487116
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/MP_Subway/MP_Subway.toc",
+          "file_offset": 0,
+          "chunk_offset": 55173505,
+          "length": 2114
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Bank/SP_Bank.sb",
+          "file_offset": 0,
+          "chunk_offset": 55175619,
+          "length": 7756466
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Bank/SP_Bank.toc",
+          "file_offset": 0,
+          "chunk_offset": 62932085,
+          "length": 4495
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Earthquake/SP_Earthquake.sb",
+          "file_offset": 0,
+          "chunk_offset": 62936580,
+          "length": 6026696
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Earthquake/SP_Earthquake.toc",
+          "file_offset": 0,
+          "chunk_offset": 68963276,
+          "length": 3497
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Earthquake2/SP_Earthquake2.sb",
+          "file_offset": 0,
+          "chunk_offset": 68966773,
+          "length": 4704925
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Earthquake2/SP_Earthquake2.toc",
+          "file_offset": 0,
+          "chunk_offset": 73671698,
+          "length": 2818
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Finale/SP_Finale.sb",
+          "file_offset": 0,
+          "chunk_offset": 73674516,
+          "length": 3888328
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Finale/SP_Finale.toc",
+          "file_offset": 0,
+          "chunk_offset": 77562844,
+          "length": 2250
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Jet/SP_Jet.sb",
+          "file_offset": 0,
+          "chunk_offset": 77565094,
+          "length": 2659738
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Jet/SP_Jet.toc",
+          "file_offset": 0,
+          "chunk_offset": 80224832,
+          "length": 2200
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_New_York/SP_New_York.sb",
+          "file_offset": 0,
+          "chunk_offset": 80227032,
+          "length": 1392365
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_New_York/SP_New_York.toc",
+          "file_offset": 0,
+          "chunk_offset": 81619397,
+          "length": 1604
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Paris/SP_Paris.sb",
+          "file_offset": 0,
+          "chunk_offset": 81621001,
+          "length": 6684202
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Paris/SP_Paris.toc",
+          "file_offset": 0,
+          "chunk_offset": 88305203,
+          "length": 2998
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Sniper/SP_Sniper.sb",
+          "file_offset": 0,
+          "chunk_offset": 88308201,
+          "length": 6967609
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Sniper/SP_Sniper.toc",
+          "file_offset": 0,
+          "chunk_offset": 95275810,
+          "length": 3373
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Tank/SP_Tank.sb",
+          "file_offset": 0,
+          "chunk_offset": 95279183,
+          "length": 3404239
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Tank/SP_Tank.toc",
+          "file_offset": 0,
+          "chunk_offset": 98683422,
+          "length": 3134
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Tank_b/SP_Tank_b.sb",
+          "file_offset": 0,
+          "chunk_offset": 98686556,
+          "length": 3932958
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Tank_b/SP_Tank_b.toc",
+          "file_offset": 0,
+          "chunk_offset": 102619514,
+          "length": 2355
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Valley/SP_Valley.sb",
+          "file_offset": 0,
+          "chunk_offset": 102621869,
+          "length": 3174602
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Valley/SP_Valley.toc",
+          "file_offset": 0,
+          "chunk_offset": 105796471,
+          "length": 3013
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Villa/SP_Villa.sb",
+          "file_offset": 0,
+          "chunk_offset": 105799484,
+          "length": 3911002
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/SP_Villa/SP_Villa.toc",
+          "file_offset": 0,
+          "chunk_offset": 109710486,
+          "length": 3006
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/Web_Loading/Web_Loading.sb",
+          "file_offset": 0,
+          "chunk_offset": 109713492,
+          "length": 163612
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/Web_Loading/Web_Loading.toc",
+          "file_offset": 0,
+          "chunk_offset": 109877104,
+          "length": 1324
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/XP1_001/XP1_001.sb",
+          "file_offset": 0,
+          "chunk_offset": 109878428,
+          "length": 71491440
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/XP1_001/XP1_001.toc",
+          "file_offset": 0,
+          "chunk_offset": 181369868,
+          "length": 1753
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/XP1_002/XP1_002.sb",
+          "file_offset": 0,
+          "chunk_offset": 181371621,
+          "length": 82382768
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/XP1_002/XP1_002.toc",
+          "file_offset": 0,
+          "chunk_offset": 263754389,
+          "length": 1712
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/XP1_003/XP1_003.sb",
+          "file_offset": 0,
+          "chunk_offset": 263756101,
+          "length": 84186816
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/XP1_003/XP1_003.toc",
+          "file_offset": 0,
+          "chunk_offset": 347942917,
+          "length": 1712
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/XP1_004/XP1_004.sb",
+          "file_offset": 0,
+          "chunk_offset": 347944629,
+          "length": 69444736
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Levels/XP1_004/XP1_004.toc",
+          "file_offset": 0,
+          "chunk_offset": 417389365,
+          "length": 1643
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/cs.sb",
+          "file_offset": 0,
+          "chunk_offset": 417391008,
+          "length": 248643
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/cs.toc",
+          "file_offset": 0,
+          "chunk_offset": 417639651,
+          "length": 678
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/de.sb",
+          "file_offset": 0,
+          "chunk_offset": 417640329,
+          "length": 1159173
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/de.toc",
+          "file_offset": 0,
+          "chunk_offset": 418799502,
+          "length": 778
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/en.sb",
+          "file_offset": 0,
+          "chunk_offset": 418800280,
+          "length": 2337020
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/en.toc",
+          "file_offset": 0,
+          "chunk_offset": 421137300,
+          "length": 778
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/es.sb",
+          "file_offset": 0,
+          "chunk_offset": 421138078,
+          "length": 1236476
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/es.toc",
+          "file_offset": 0,
+          "chunk_offset": 422374554,
+          "length": 729
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/fr.sb",
+          "file_offset": 0,
+          "chunk_offset": 422375283,
+          "length": 1116259
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/fr.toc",
+          "file_offset": 0,
+          "chunk_offset": 423491542,
+          "length": 778
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/it.sb",
+          "file_offset": 0,
+          "chunk_offset": 423492320,
+          "length": 1110588
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/it.toc",
+          "file_offset": 0,
+          "chunk_offset": 424602908,
+          "length": 729
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/ja.sb",
+          "file_offset": 0,
+          "chunk_offset": 424603637,
+          "length": 1111142
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/ja.toc",
+          "file_offset": 0,
+          "chunk_offset": 425714779,
+          "length": 778
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/ko.sb",
+          "file_offset": 0,
+          "chunk_offset": 425715557,
+          "length": 217918
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/ko.toc",
+          "file_offset": 0,
+          "chunk_offset": 425933475,
+          "length": 678
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/pl.sb",
+          "file_offset": 0,
+          "chunk_offset": 425934153,
+          "length": 1086635
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/pl.toc",
+          "file_offset": 0,
+          "chunk_offset": 427020788,
+          "length": 778
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/zh.sb",
+          "file_offset": 0,
+          "chunk_offset": 427021566,
+          "length": 213906
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Loc/zh.toc",
+          "file_offset": 0,
+          "chunk_offset": 427235472,
+          "length": 678
+        },
+        {
+          "file": "Update/Patch/Data/Win32/MpChunks.sb",
+          "file_offset": 0,
+          "chunk_offset": 427236150,
+          "length": 14
+        },
+        {
+          "file": "Update/Patch/Data/Win32/MpChunks.toc",
+          "file_offset": 0,
+          "chunk_offset": 427236164,
+          "length": 542821
+        },
+        {
+          "file": "Update/Patch/Data/Win32/SpChunks.sb",
+          "file_offset": 0,
+          "chunk_offset": 427778985,
+          "length": 14
+        },
+        {
+          "file": "Update/Patch/Data/Win32/SpChunks.toc",
+          "file_offset": 0,
+          "chunk_offset": 427778999,
+          "length": 353387
+        },
+        {
+          "file": "Update/Patch/Data/Win32/UI.sb",
+          "file_offset": 0,
+          "chunk_offset": 428132386,
+          "length": 1298149
+        },
+        {
+          "file": "Update/Patch/Data/Win32/UI.toc",
+          "file_offset": 0,
+          "chunk_offset": 429430535,
+          "length": 5423
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Weapons.sb",
+          "file_offset": 0,
+          "chunk_offset": 429435958,
+          "length": 189538
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Weapons.toc",
+          "file_offset": 0,
+          "chunk_offset": 429625496,
+          "length": 7987
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Xp1Chunks.sb",
+          "file_offset": 0,
+          "chunk_offset": 429633483,
+          "length": 955768
+        },
+        {
+          "file": "Update/Patch/Data/Win32/Xp1Chunks.toc",
+          "file_offset": 0,
+          "chunk_offset": 430589251,
+          "length": 629
+        },
+        {
+          "file": "Update/Patch/package.mft",
+          "file_offset": 0,
+          "chunk_offset": 430589880,
+          "length": 38
+        },
+        {
+          "file": "Update/Xpack1/Data/Win32/Xp1Chunks.toc",
+          "file_offset": 0,
+          "chunk_offset": 430589918,
+          "length": 82874
+        },
+        {
+          "file": "Update/Xpack1/package.mft",
+          "file_offset": 0,
+          "chunk_offset": 430672792,
+          "length": 45
+        },
+        {
+          "file": "version.json",
+          "file_offset": 0,
+          "chunk_offset": 430672837,
+          "length": 35
+        }
+      ],
+      "sha256": "7c72cc9a003ca727bb9025affd111e568a21d14ca2aff514d28650f90e4b9bcd"
+    }
+  ]
+}
