@@ -1,14 +1,14 @@
 {
   "active": true,
-  "phase": "upload",
+  "phase": "metadata",
   "kind": "game",
   "title": "Call of Duty® 2",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
-  "percent": 88,
-  "total_sent": 3371859968,
+  "percent": 100,
+  "total_sent": 3797608653,
   "total_size": 3797608653,
   "message": "",
-  "updated_at": "2026-09-07T16:18:30.818666+00:00"
+  "updated_at": "2026-09-07T16:18:44.115505+00:00"
 }
