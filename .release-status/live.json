@@ -1,6 +1,6 @@
 {
   "active": true,
-  "phase": "plan",
+  "phase": "upload",
   "kind": "game",
   "title": "Max Payne 2: The Fall of Max Payne",
   "platform": "PC",
@@ -10,5 +10,5 @@
   "total_sent": 0,
   "total_size": 1717407014,
   "message": "",
-  "updated_at": "2026-09-07T20:17:36.956331+00:00"
+  "updated_at": "2026-09-07T20:17:38.876151+00:00"
 }
