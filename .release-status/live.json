@@ -1,6 +1,6 @@
 {
   "active": true,
-  "phase": "upload",
+  "phase": "metadata",
   "kind": "game",
   "title": "Battlefield 3™",
   "platform": "PC",
@@ -10,5 +10,5 @@
   "total_sent": 17226916011,
   "total_size": 17226916011,
   "message": "",
-  "updated_at": "2026-09-07T16:10:28.266457+00:00"
+  "updated_at": "2026-09-07T16:10:29.149015+00:00"
 }
