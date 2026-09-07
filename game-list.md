@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 99
-- **Toplam aktif sürüm/kanal:** 99
-- **Toplam aktif boyut:** 2618.739 GB · 2.619 TB
-- **Katalog güncelleme zamanı:** 2026-09-07 20:12:59 UTC
+- **Toplam oyun:** 100
+- **Toplam aktif sürüm/kanal:** 100
+- **Toplam aktif boyut:** 2620.457 GB · 2.620 TB
+- **Katalog güncelleme zamanı:** 2026-09-07 20:18:43 UTC
 
 ## PC
 
-**99 oyun · 99 aktif sürüm/kanal · 2618.739 GB · 2.619 TB**
+**100 oyun · 100 aktif sürüm/kanal · 2620.457 GB · 2.620 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -82,6 +82,7 @@
 | Mass Effect (2007) | 1.0.0 | stable | 24.338 | 0.024 | `pc-mass-effect-2007-v1.0.0-stable` |
 | Mass Effect 2 (2010 Edition) | 1.0.0 | stable | 29.915 | 0.030 | `pc-mass-effect-2-2010-edition-v1.0.0-stable` |
 | Max Payne | 1.0.0 | stable | 0.924 | 0.001 | `pc-max-payne-v1.0.0-stable` |
+| Max Payne 2: The Fall of Max Payne | 1.0.0 | stable | 1.717 | 0.002 | `pc-max-payne-2-the-fall-of-max-payne-v1.0.0-stable` |
 | Max Payne 3 | 1.0.0 | stable | 34.958 | 0.035 | `pc-max-payne-3-v1.0.0-stable` |
 | METAL GEAR SOLID V: THE PHANTOM PAIN | 1.0.0 | stable | 31.232 | 0.031 | `pc-metal-gear-solid-v-the-phantom-pain-v1.0.0-stable` |
 | Middle-earth™: Shadow of Mordor™ | 1.0.0 | stable | 55.510 | 0.056 | `pc-middle-earth-shadow-of-mordor-v1.0.0-stable` |
