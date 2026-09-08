@@ -1,0 +1,5708 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "star-wars-jedi-fallen-order",
+    "title": "STAR WARS Jedi: Fallen Order™",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "A galaxy-spanning adventure awaits in Star Wars Jedi: Fallen Order, a 3rd person action-adventure title from Respawn. An abandoned Padawan must complete his training, develop new powerful Force abilities, and master the art of the lightsaber - all while staying one step ahead of the Empire."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-star-wars-jedi-fallen-order-v1.0.0-stable"
+  },
+  "chunk_size": 1522192238,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 60887689490,
+  "files": [
+    {
+      "path": "0003518/deluxe.bin",
+      "size": 4096,
+      "sha256": "81a804b754da7612576feaed3439f70c965554021472b2cee861a330890df572"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/DDV_1.bk2",
+      "size": 3063421784,
+      "sha256": "3b9de25a39731b2cc161fc88db0931db0def35dd3b4f4e312649f82f9ce35040"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/DDV_2.bk2",
+      "size": 362548224,
+      "sha256": "edb269916b36e2b98ba341bf06d98e111d04c7398a4f10a6a492fdf069932ba6"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/DDV_3.bk2",
+      "size": 327834376,
+      "sha256": "aeed9203d19682f4249d3d7a9f7d2d6facabcf1cd399dce3b8a111f8fb1b63e9"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/DDV_4.bk2",
+      "size": 919179052,
+      "sha256": "696051accbfea580092c11d0dc83915c2cd7eb9d5b3133461612789a20bdaef3"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/DE_DDV_1_Subtitle.srt",
+      "size": 110724,
+      "sha256": "2052f3bf3e3c61e75bd11be0865b8e2665db0677735b7811d45afe09181787fc"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/DE_DDV_2_Subtitle.srt",
+      "size": 11808,
+      "sha256": "76bb84ce1dd6c3b262ee8d19b9ba366cb9052bb333fe3ec6c9acf904c5493cf8"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/DE_DDV_3_Subtitle.srt",
+      "size": 9970,
+      "sha256": "f9526f0a74ee5123b0bcc2cd0e918a42cace6712d8a54d090dbf9547e0c6a3ec"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/DE_DDV_4_Subtitle.srt",
+      "size": 32611,
+      "sha256": "9f5c59ba0d73b2ae722c491e00a4d3fd24e1bb26eae4ac1422d55b95fee88a20"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/EN_DDV_1_Subtitle.srt",
+      "size": 109148,
+      "sha256": "b66edbed0590f317a0471e6b363d76fe03715f4bc495414f6881510f04b7824f"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/EN_DDV_2_Subtitle.srt",
+      "size": 11697,
+      "sha256": "6599b88c3664e454a343407b9ffdaf32ac3d1beee727682fbfe4fdd3865809da"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/EN_DDV_3_Subtitle.srt",
+      "size": 10241,
+      "sha256": "295c91896cb4b3b5b1bda7d09ec8207feae692363f440fe6070364311f7c3d88"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/EN_DDV_4_Subtitle.srt",
+      "size": 32145,
+      "sha256": "b6d3877fd5e372e51c1400b03629a6a012cc3660b4cd7c53672f1e81f94c5ee1"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-ES_DDV_1_Subtitle.srt",
+      "size": 103513,
+      "sha256": "86bed3155abe1476f1f0ed99da7a299074f14d8f0a221ad2fd4ea6f8bea761cc"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-ES_DDV_2_Subtitle.srt",
+      "size": 11460,
+      "sha256": "4fda5f4359b0b031fff50e1fa6b9eb635dde348b9ae211d3f2c6f52ff996bb74"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-ES_DDV_3_Subtitle.srt",
+      "size": 10083,
+      "sha256": "f9c4aed7f9c93b9bee772ef398fe371a05bbd60c5722b155ef19c2b451bd1af9"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-ES_DDV_4_Subtitle.srt",
+      "size": 30832,
+      "sha256": "279ae5d1560fef6429e39e6d85a63dac04a941e2fb4cf2efbd548b5bcd43972a"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-MX_DDV_1_Subtitle.srt",
+      "size": 109371,
+      "sha256": "40f9dfe75d33381b99303e32930b5e6f496442bd260bbe099bc489f68dee6b37"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-MX_DDV_2_Subtitle.srt",
+      "size": 11413,
+      "sha256": "3b5d266365f682cb181ff8308f8777377d0459dd66681cdc69c64c168f9ce980"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-MX_DDV_3_Subtitle.srt",
+      "size": 9907,
+      "sha256": "35b5b15be26252f96c74b1f99d41d4ff9558d1ca7d504efa82214dda8a302281"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-MX_DDV_4_Subtitle.srt",
+      "size": 32310,
+      "sha256": "8f0727f4cff1dc668013ee2ec35e3b2e03dd76becedd2134c590eb0a2aa59db6"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/FR_DDV_1_Subtitle.srt",
+      "size": 107014,
+      "sha256": "99646778e0b702492e2ddb6e7e940885509cec83384eb41676442b352e9fa248"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/FR_DDV_2_Subtitle.srt",
+      "size": 11359,
+      "sha256": "c95666b04fd28a90ffabbbd74fc21b4044998bcfcc4673afc864f1b984d5749b"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/FR_DDV_3_Subtitle.srt",
+      "size": 10016,
+      "sha256": "789285a601fd8a8d58443006a84fdc9b1493eb0c573f41fd62dc866b3c5f7e51"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/FR_DDV_4_Subtitle.srt",
+      "size": 31883,
+      "sha256": "9565d881ff1f568a4edf58acc22fc4b5d3328ab2583b0e74330720dd43de08de"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/IT_DDV_1_Subtitle.srt",
+      "size": 105033,
+      "sha256": "bf449ade8fdb0b9e1039b4ae24e7e65318f83395c8aa2ece0bcb0c76dcd4cb63"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/IT_DDV_2_Subtitle.srt",
+      "size": 11701,
+      "sha256": "8ce20f4a93099ac3d58b5e56b7b615d1132e89fc0d29121fb58acef0aa033fa4"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/IT_DDV_3_Subtitle.srt",
+      "size": 10006,
+      "sha256": "86795eeca55736f5fdc503b2d7da38f14c9fec92ce250c255a1fe912f7e3ee31"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/IT_DDV_4_Subtitle.srt",
+      "size": 31186,
+      "sha256": "f6ecbe7c369f83a99fe476fd10ec30c2f8afbd1e25ee4b76e7169e210b183859"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/JA_DDV_1_Subtitle.srt",
+      "size": 103456,
+      "sha256": "10735920dc1f7c039bf5a6d4ae8fbb8911217cdc222dbb0e91f00b237facfee2"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/JA_DDV_2_Subtitle.srt",
+      "size": 11691,
+      "sha256": "202e42010ce4112d1f5bb2c8baf1ad94ccddaacbfed81a499adf7c3a0d91b487"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/JA_DDV_3_Subtitle.srt",
+      "size": 9945,
+      "sha256": "27643c74f0bbedc56f8dd9082b3b472aaf1280e8a0c242b2abb224612923beec"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/JA_DDV_4_Subtitle.srt",
+      "size": 31459,
+      "sha256": "5385504bec1bd4614bd57b757a98c399bf2d94e04b664b658c48c33d2b0cce62"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/KO_DDV_1_Subtitle.srt",
+      "size": 119565,
+      "sha256": "2eeae899cd45de9378e486a0264c901b8ffc9f50844f3fae310a20b2d7d0c089"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/KO_DDV_2_Subtitle.srt",
+      "size": 13177,
+      "sha256": "479b32cc100f2f8289b5113cafe5df08c69d2b537217e6c3eb3580ad87a45f0c"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/KO_DDV_3_Subtitle.srt",
+      "size": 11244,
+      "sha256": "5881a2cbfbd97e61e0ec9519dd7be13c3a3f8a44f8ab4059f71319c67ed67484"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/KO_DDV_4_Subtitle.srt",
+      "size": 35029,
+      "sha256": "f0ac041e74429bbfb4a8b55359d103c70f8a43e4904c7e838c7558acd62f4c3d"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PL_DDV_1_Subtitle.srt",
+      "size": 102239,
+      "sha256": "3c475d7c7f025eba73cef9ec6a043b37899524533ccd4b2cbb1208e03be2915f"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PL_DDV_2_Subtitle.srt",
+      "size": 11445,
+      "sha256": "4c5df8246ce92d0fca8f29314caf818c4847dcac44b66ac43a1039af85f4848d"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PL_DDV_3_Subtitle.srt",
+      "size": 9492,
+      "sha256": "19572dd0cc4fcbde653710aaefb2260545e4aaa11ad78ec22b7c5edc13732f1d"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PL_DDV_4_Subtitle.srt",
+      "size": 30838,
+      "sha256": "47fedb63de9faf88db44e05783e25af83f7ce3419e05ddce041d12d44f9eb104"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PT_DDV_1_Subtitle.srt",
+      "size": 103500,
+      "sha256": "5f9f4a2401a0729df0593b696a520aea18499fb1ec6b4b33981605a10553efb7"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PT_DDV_2_Subtitle.srt",
+      "size": 11764,
+      "sha256": "ceb4d877fc56d886df5251a7e5e17f430c6c8e5ffe174bfcc3dc1402cd390b55"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PT_DDV_3_Subtitle.srt",
+      "size": 9986,
+      "sha256": "607204a91c7f5707cc38e96a7248e4ebea8734fa108a84454f5a47bddeebeb54"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PT_DDV_4_Subtitle.srt",
+      "size": 30653,
+      "sha256": "2f7fa43c8c59008098e469f2a549b36343fdcfb2c0dfab7fcc8ecf8f6d6e0cb1"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/RU_DDV_1_Subtitle.srt",
+      "size": 149216,
+      "sha256": "ef11a646d39bb6eae2aa13d490b716fbfbf9359d655470ed5ef0e5ff95ac2b68"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/RU_DDV_2_Subtitle.srt",
+      "size": 15919,
+      "sha256": "e8ef682f6ba247d5ece9220c019ad1872d0fe4bcaf55da8b2f655bc6058aba7b"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/RU_DDV_3_Subtitle.srt",
+      "size": 14026,
+      "sha256": "d40609b45243b28fbf8282a665af4390c90988d94a0a31e5a33147f70cf5a577"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/RU_DDV_4_Subtitle.srt",
+      "size": 43677,
+      "sha256": "d19109cb70b9e3c660e39d46b1fd657eb2f1e5b7788a579f5eea17795329a7d1"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANS_DDV_1_Subtitle.srt",
+      "size": 96649,
+      "sha256": "48b0a3cc0198fe14d635cc0481f27a3b5516f4537bfb9a27fe3b3008be6d289d"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANS_DDV_2_Subtitle.srt",
+      "size": 11136,
+      "sha256": "82f948cd06acf254fa40fe636f25bb37c87f14f144e8e74a8e83c13ebdbe61cc"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANS_DDV_3_Subtitle.srt",
+      "size": 9167,
+      "sha256": "eb21ceedada6777c8a4a95d486d347ebe68fb1823b68d145a281ea5592ed6703"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANS_DDV_4_Subtitle.srt",
+      "size": 28046,
+      "sha256": "fba7bdbce9eae57b310963db8b868c4ea8dc87d0bf6bdd49481c1ab545abea4a"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANT_DDV_1_Subtitle.srt",
+      "size": 95217,
+      "sha256": "82e3ef3bd74585f1a0d8c509f436d7020f1c895ae9b5045fcb05c4ca86307983"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANT_DDV_2_Subtitle.srt",
+      "size": 11044,
+      "sha256": "40e34058698440b0f0acd19026e9cf522de6929e871e91f86945f0511ff36f76"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANT_DDV_3_Subtitle.srt",
+      "size": 8911,
+      "sha256": "09d205655484009d848b2ce54e6751f2d4519d6235ba68a70f8fa24634e0d81b"
+    },
+    {
+      "path": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANT_DDV_4_Subtitle.srt",
+      "size": 28095,
+      "sha256": "e096a1b5ee52ec20d7703a79c615ef336d19e28ac1b6cc11731d236371156bbc"
+    },
+    {
+      "path": "0003518/SwGame/Content/Paks/Deluxepakchunk0-WindowsNoEditor.pak",
+      "size": 68056290,
+      "sha256": "d48998aecca858466408e0555c1630acf5614a967947150713abd5f32a63493a"
+    },
+    {
+      "path": "__Installer/Cleanup.dat",
+      "size": 76718,
+      "sha256": "3a8542fc0c7da24a3fb72667edc3843af55d790f2b165934794db5f6ae2af39a"
+    },
+    {
+      "path": "__Installer/Cleanup.exe",
+      "size": 929576,
+      "sha256": "f9a8fc7ac579a140b902ec9e80bb5772a9466d3d7a484b521c6afc8175598196"
+    },
+    {
+      "path": "__Installer/Deluxe/__Installer/Cleanup.dat",
+      "size": 74297,
+      "sha256": "bda74850ad98421265f59adda564f1b5c9f22bcd07e004d872d2979ecdee17cf"
+    },
+    {
+      "path": "__Installer/Deluxe/__Installer/Cleanup.exe",
+      "size": 929576,
+      "sha256": "f9a8fc7ac579a140b902ec9e80bb5772a9466d3d7a484b521c6afc8175598196"
+    },
+    {
+      "path": "__Installer/Deluxe/__Installer/installerdata.xml",
+      "size": 4929,
+      "sha256": "8ca7795b21aff8217ef375a7e11ee85154433fbcdc94f54826361e0c1d17c5c3"
+    },
+    {
+      "path": "__Installer/Deluxe/__Installer/InstallLog.txt",
+      "size": 26602,
+      "sha256": "fcfdc51738aca2169d89aa3e33fcf5b488147cb55c9414040440388f4805c6db"
+    },
+    {
+      "path": "__Installer/Deluxe/__Installer/Touchup.dat",
+      "size": 74000,
+      "sha256": "3f6ce13815238e49b4ebc76fdbf10fbc58ce44f7c873068c4db0b704e772f726"
+    },
+    {
+      "path": "__Installer/Deluxe/__Installer/Touchup.exe",
+      "size": 930088,
+      "sha256": "526ce22848ddb0e4c99ca528c8412ead9ac569f83f3edda17ea5e5496f8d9e68"
+    },
+    {
+      "path": "__Installer/Deluxe/Support/eula/de_DE.html",
+      "size": 45940,
+      "sha256": "dcf654adf220678a27df9d803e55894e08c6d99c256ce80247097381bbf9e1b6"
+    },
+    {
+      "path": "__Installer/Deluxe/Support/eula/en_US.html",
+      "size": 43885,
+      "sha256": "4d2f0cf2583fd15f387ca3644be2eb0de44025e95d3c32ddba24ce867aebe39f"
+    },
+    {
+      "path": "__Installer/Deluxe/Support/eula/es_ES.html",
+      "size": 54068,
+      "sha256": "2212e1e9d3253f9a21e4eee855812690645f459154a7dfabec2e75f91e352672"
+    },
+    {
+      "path": "__Installer/Deluxe/Support/eula/es_MX.html",
+      "size": 54072,
+      "sha256": "800c938d440f49fcdc7ea97ddfe737d226e45a1fab426bbf8aedecf50a5f98ba"
+    },
+    {
+      "path": "__Installer/Deluxe/Support/eula/fr_FR.html",
+      "size": 55221,
+      "sha256": "af5074a8230c63f45e639b03f0b9a968b78469b23f8cdcce66917dd4b7086a5c"
+    },
+    {
+      "path": "__Installer/Deluxe/Support/eula/it_IT.html",
+      "size": 51641,
+      "sha256": "60f8494d982bdb5fac46962f615bbb050271f3cdc05063a4adfebc2c0063007d"
+    },
+    {
+      "path": "__Installer/Deluxe/Support/eula/ja_JP.html",
+      "size": 62485,
+      "sha256": "4a5bc299b46befd88940615b69d0b592e5f5bd78356a8dd4fb580eb5e6cff3e1"
+    },
+    {
+      "path": "__Installer/Deluxe/Support/eula/ko_KR.html",
+      "size": 53424,
+      "sha256": "d2d56f2b570bdfb914c526f6e9b82d1869245aa9deab5099b5b7fcbdc2ab7ed1"
+    },
+    {
+      "path": "__Installer/Deluxe/Support/eula/pl_PL.html",
+      "size": 56820,
+      "sha256": "f0f4518c8b815f9e9f816ca6585292100b68edd7a18b1a49ea57ff5b179dafd2"
+    },
+    {
+      "path": "__Installer/Deluxe/Support/eula/pt_BR.html",
+      "size": 51387,
+      "sha256": "3d7ee1f345037984f88a51954bfbd13d8527fe5844a5aebc332b2995d9cd1f03"
+    },
+    {
+      "path": "__Installer/Deluxe/Support/eula/ru_RU.html",
+      "size": 87320,
+      "sha256": "cd3594b52dcb077e41bc5a41c77b10a01900f1c1d6f8aeda8f1d4ff0f60dcaee"
+    },
+    {
+      "path": "__Installer/Deluxe/Support/eula/zh_CN.html",
+      "size": 41140,
+      "sha256": "7c84f3e1fbd58a3e9a016bd513c2ebf06799aec3a2a12bdc1e3dd3fdad18198a"
+    },
+    {
+      "path": "__Installer/Deluxe/Support/eula/zh_TW.html",
+      "size": 41232,
+      "sha256": "e4ea28b0e4969027bef4cc3495bbb979b71b76d3cc3cbad29acf3cb02d322048"
+    },
+    {
+      "path": "__Installer/Deluxe/Support/mnfst.txt",
+      "size": 4975,
+      "sha256": "26c75a4126c810741c14aa4b772c81ceecbd4df496bb83c94792a249d99b9fdf"
+    },
+    {
+      "path": "__Installer/directx/eula/cs_CZ.txt",
+      "size": 5914,
+      "sha256": "2075f934cc19b1fd7fb8f6877a81028de5533afcfb99b8a315fa1a8aecc3b18f"
+    },
+    {
+      "path": "__Installer/directx/eula/de_DE.txt",
+      "size": 7547,
+      "sha256": "ae36abcb6f126a7d1c562d34da5b71b8bdb78f4f090662da3251b659786291bb"
+    },
+    {
+      "path": "__Installer/directx/eula/en_US.txt",
+      "size": 4849,
+      "sha256": "55eaf19bbbbcc80e36e22e3bac1842413376874505b4927abd7eb0c203987771"
+    },
+    {
+      "path": "__Installer/directx/eula/es_ES.txt",
+      "size": 6300,
+      "sha256": "f405942aa8a9304bcfdbc69debafad762bbc475914a22f6aa2b123e917eca0cc"
+    },
+    {
+      "path": "__Installer/directx/eula/es_MX.txt",
+      "size": 6300,
+      "sha256": "f405942aa8a9304bcfdbc69debafad762bbc475914a22f6aa2b123e917eca0cc"
+    },
+    {
+      "path": "__Installer/directx/eula/fr_FR.txt",
+      "size": 5968,
+      "sha256": "9b706586164d843842639318c20b099a4c7124653cd0191d0d8ba02e354074c8"
+    },
+    {
+      "path": "__Installer/directx/eula/it_IT.txt",
+      "size": 6808,
+      "sha256": "0f9d6572b8afd61fea4ab545d2143c0e9b34535666d6de36eea6c1470e73b541"
+    },
+    {
+      "path": "__Installer/directx/eula/ja_JP.txt",
+      "size": 7721,
+      "sha256": "0524efe96126ec2813e9b9cd266aaf6ea8aee04c912cb5c89e1b27b4d1e365a2"
+    },
+    {
+      "path": "__Installer/directx/eula/ko_KR.txt",
+      "size": 6570,
+      "sha256": "ef10962ef28ea921b4fcf66c2d2d157cdb31221f22aa28cb55f11d086bc024b1"
+    },
+    {
+      "path": "__Installer/directx/eula/nl_NL.txt",
+      "size": 6120,
+      "sha256": "cbf33813695d7fe18a22a8407181eb3306139f9f3cc1ff8c4f62f4a7a48d7c06"
+    },
+    {
+      "path": "__Installer/directx/eula/no_NO.txt",
+      "size": 5790,
+      "sha256": "a7e7c1ce09e7af8228864db0545b1dd23112fbd4b3996ce9225c3a4940265f9f"
+    },
+    {
+      "path": "__Installer/directx/eula/pl_PL.txt",
+      "size": 6988,
+      "sha256": "6ef9adc80a34593db291ba5a1c9b6708c215b5ff577904d462b78655f25624e8"
+    },
+    {
+      "path": "__Installer/directx/eula/pt_BR.txt",
+      "size": 5452,
+      "sha256": "7eda42113cda5ab0c8929aef732892c173f2e674598544b4cba972f74c78d3be"
+    },
+    {
+      "path": "__Installer/directx/eula/pt_PT.txt",
+      "size": 5452,
+      "sha256": "7eda42113cda5ab0c8929aef732892c173f2e674598544b4cba972f74c78d3be"
+    },
+    {
+      "path": "__Installer/directx/eula/ru_RU.txt",
+      "size": 12348,
+      "sha256": "ad8943e984ae4a05112a9047de65f185787e9cdd04064d4c92c343f436ff0e74"
+    },
+    {
+      "path": "__Installer/directx/eula/sv_SE.txt",
+      "size": 5461,
+      "sha256": "a57077b0d7d9422cfe5011ea1b569afca013e114ca1c39d2767fbe563638d536"
+    },
+    {
+      "path": "__Installer/directx/eula/zh_CN.txt",
+      "size": 4837,
+      "sha256": "9e0d231ba1d3ba216550963342e13bf7ab60386ce81549baf1865c43421a7f60"
+    },
+    {
+      "path": "__Installer/directx/eula/zh_TW.txt",
+      "size": 4924,
+      "sha256": "c47753fb52a25852f5ad9a443f94bdb16f5918b0bf9cfe8247097de7cab2c9d4"
+    },
+    {
+      "path": "__Installer/directx/redist/Apr2005_d3dx9_25_x64.cab",
+      "size": 1347354,
+      "sha256": "b4188ce988af9c4771ae0abcc7edc42a091133f9f20196564f51755dc55ea85d"
+    },
+    {
+      "path": "__Installer/directx/redist/Apr2005_d3dx9_25_x86.cab",
+      "size": 1078962,
+      "sha256": "6ebfb6ed6ac0b69502a5b74e2edca188872fe767269c4ebf62f174157d198de4"
+    },
+    {
+      "path": "__Installer/directx/redist/Apr2006_d3dx9_30_x64.cab",
+      "size": 1397830,
+      "sha256": "079f61e155695a61a0ce009ee00cf76fbf6b2b9b412c1a5b4a2035d4b5c90a5b"
+    },
+    {
+      "path": "__Installer/directx/redist/Apr2006_d3dx9_30_x86.cab",
+      "size": 1115221,
+      "sha256": "4b5da79e14ef58f2608fc5ccedfc7c6c6f782291aa5573f36af76f2903173db5"
+    },
+    {
+      "path": "__Installer/directx/redist/Apr2006_MDX1_x86.cab",
+      "size": 916430,
+      "sha256": "0e3b4b9d5a45884620820d0e9cfed852b03dfb44e443179a35e93f3183384db3"
+    },
+    {
+      "path": "__Installer/directx/redist/Apr2006_MDX1_x86_Archive.cab",
+      "size": 4162630,
+      "sha256": "0a051a9b50f58dc631254102ac885942ced67c2911950de0cdd93cd1cd9453ec"
+    },
+    {
+      "path": "__Installer/directx/redist/Apr2006_XACT_x64.cab",
+      "size": 179133,
+      "sha256": "002f45af20e43a24abee7a79c5add11987c88140b84e2ecd33c0c67259c7f71b"
+    },
+    {
+      "path": "__Installer/directx/redist/Apr2006_XACT_x86.cab",
+      "size": 133103,
+      "sha256": "875662d0fc1fe865bf43e7279fd391e88f96b3141c1a829ab3080d547501ff8f"
+    },
+    {
+      "path": "__Installer/directx/redist/Apr2006_xinput_x64.cab",
+      "size": 87101,
+      "sha256": "48da57aa045a877053a481802fdb3ec5782615d9ad85a8c06612bd80272e75d7"
+    },
+    {
+      "path": "__Installer/directx/redist/Apr2006_xinput_x86.cab",
+      "size": 46010,
+      "sha256": "a9b3dd45926364d79b42b75d8064c814ff428437143c59b1c703ec8323305fbb"
+    },
+    {
+      "path": "__Installer/directx/redist/APR2007_d3dx10_33_x64.cab",
+      "size": 698612,
+      "sha256": "1bed02f304d495c2769debff315ae3f017c7e9907d85138996554e8e61a61e91"
+    },
+    {
+      "path": "__Installer/directx/redist/APR2007_d3dx10_33_x86.cab",
+      "size": 695865,
+      "sha256": "6aca96d6aa400d8ad07d2fb1c4aa94c62d261b9370cbf01d2acce24e489038ba"
+    },
+    {
+      "path": "__Installer/directx/redist/APR2007_d3dx9_33_x64.cab",
+      "size": 1607358,
+      "sha256": "387c63928479e0ad138fa154f9f291821275f6fdf122aac8ace87f0d2033e77c"
+    },
+    {
+      "path": "__Installer/directx/redist/APR2007_d3dx9_33_x86.cab",
+      "size": 1606039,
+      "sha256": "9a7e65d97910b2038bb01a640a86c2ebf62ab7b36a50f349e71ec901b206f0ee"
+    },
+    {
+      "path": "__Installer/directx/redist/APR2007_XACT_x64.cab",
+      "size": 195766,
+      "sha256": "0e1042d91b755a36e7dfca480bb3f868cb23f5438dd1415fd3fcfb13b27d761e"
+    },
+    {
+      "path": "__Installer/directx/redist/APR2007_XACT_x86.cab",
+      "size": 151225,
+      "sha256": "9dee9f2b720b0fc90b8ebdac22d20f2008e58f16f354b9a967526c439bf0b9a3"
+    },
+    {
+      "path": "__Installer/directx/redist/APR2007_xinput_x64.cab",
+      "size": 96817,
+      "sha256": "e7a09f8235cc587cc63f583e39fbc75008d9677c8bb4dcc11cb8d0178a5153ac"
+    },
+    {
+      "path": "__Installer/directx/redist/APR2007_xinput_x86.cab",
+      "size": 53302,
+      "sha256": "2acea6c8b9f6f7f89ec51365a1e49fbd0d8c42c53418bd0783dbf3f74a744e6d"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2005_d3dx9_27_x64.cab",
+      "size": 1350542,
+      "sha256": "281d20c56caa3a2851199c028d4d20ef0a862cc3f84b165eb200da573d9e4401"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2005_d3dx9_27_x86.cab",
+      "size": 1077644,
+      "sha256": "7a10900872ecd9bdbc8f7beb7869a260fa4b25e34084f237f1b096df5371c273"
+    },
+    {
+      "path": "__Installer/directx/redist/AUG2006_XACT_x64.cab",
+      "size": 182903,
+      "sha256": "beaac99fd17bc9fa85a2a220a13d8c13bd90f66eee595cbd27ab9aaadc234b03"
+    },
+    {
+      "path": "__Installer/directx/redist/AUG2006_XACT_x86.cab",
+      "size": 137235,
+      "sha256": "cd2e1256efa1723eb77c77440f7b72f0eed8c0df17677cd4cc5a95a65a0f4849"
+    },
+    {
+      "path": "__Installer/directx/redist/AUG2006_xinput_x64.cab",
+      "size": 87142,
+      "sha256": "a54c7820f37b5e70068b801263c7efcc26b6404555a968094227e8bbaf5c22c5"
+    },
+    {
+      "path": "__Installer/directx/redist/AUG2006_xinput_x86.cab",
+      "size": 46058,
+      "sha256": "ad2b521d1a7abca6314eaeacb23690b63b2a17adbb2a47d3d69cc4660c7d2152"
+    },
+    {
+      "path": "__Installer/directx/redist/AUG2007_d3dx10_35_x64.cab",
+      "size": 852286,
+      "sha256": "edbdcb1fa651ec3c8a505a0bb8570b6147ed89ca372e3e6ea86dc6876d6a72f5"
+    },
+    {
+      "path": "__Installer/directx/redist/AUG2007_d3dx10_35_x86.cab",
+      "size": 796867,
+      "sha256": "a574ecb764861fc40301ebb65fb0bde10fc904ac6eea0580c325dd0c561ff35b"
+    },
+    {
+      "path": "__Installer/directx/redist/AUG2007_d3dx9_35_x64.cab",
+      "size": 1800160,
+      "sha256": "6a637ef67615722156fe3fd57ef7581d4ac85ee237d445975b6a20c7a76bd7e3"
+    },
+    {
+      "path": "__Installer/directx/redist/AUG2007_d3dx9_35_x86.cab",
+      "size": 1708152,
+      "sha256": "6891a70890d5b0bed82a41c47211690a73b24b6df331b83135ed647ff13b1aca"
+    },
+    {
+      "path": "__Installer/directx/redist/AUG2007_XACT_x64.cab",
+      "size": 198096,
+      "sha256": "35f09b0727ee1ab9116166c512c08886623a67939b2e0d841efdee689b6e0f84"
+    },
+    {
+      "path": "__Installer/directx/redist/AUG2007_XACT_x86.cab",
+      "size": 153012,
+      "sha256": "b39c1b8483111be11cd4c10ef2d18ec8f0b23ff13b628482507076ede9fa9bd1"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2008_d3dx10_39_x64.cab",
+      "size": 867612,
+      "sha256": "ae64328b9a02a47c5ad429b9fba47b9228ab1a1e7d4e00e5d24087f2772d0b80"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2008_d3dx10_39_x86.cab",
+      "size": 849167,
+      "sha256": "8c0643efa8d113fc5ef0a0e98d9a2cc0e32cb8d4219ca0bc7e57cf710fd4fdad"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2008_d3dx9_39_x64.cab",
+      "size": 1794084,
+      "sha256": "e0c5dc6a375a70ac6c8cea9193b76db241dad8e754702d57fd20765b55b30798"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2008_d3dx9_39_x86.cab",
+      "size": 1464672,
+      "sha256": "87d672f2ea01ef2123fe5c92da82a988cd964ca55ad660cc073d78d8151a7d84"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2008_XACT_x64.cab",
+      "size": 121772,
+      "sha256": "c49e261887fefc13cc914590e33faec10316641bf683a121901c302a7a9efab4"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2008_XACT_x86.cab",
+      "size": 92996,
+      "sha256": "913f67e5daeb61d872392f2951e13ecfacef572ad4bb1731f7bbefa1ab314a24"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2008_XAudio_x64.cab",
+      "size": 271412,
+      "sha256": "5320967b14b8f7ad95973a26d3cb9de645acc663d3c3d1fce7d6464abe7e0d78"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2008_XAudio_x86.cab",
+      "size": 271038,
+      "sha256": "d26eff418f73c878a174c69a12dff08323df617526e8c5d8439e975f083db63b"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2009_D3DCompiler_42_x64.cab",
+      "size": 919044,
+      "sha256": "d2e14fc8cb9410caad5bd17c4acff2b6e060c552c432d11946a6905aee216931"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2009_D3DCompiler_42_x86.cab",
+      "size": 900598,
+      "sha256": "36c9be8c55f721c38110d56a6ccada672e7566d89f77c738c94fcdf1a584ecf4"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2009_d3dcsx_42_x64.cab",
+      "size": 3112111,
+      "sha256": "b53bb3ed6f56702672f9f0201f6399b28f8c012ac7f1a604fb13b32a10a40dab"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2009_d3dcsx_42_x86.cab",
+      "size": 3319740,
+      "sha256": "a66fd98a1f746698848a4a7eb5ae69dac8ff2654b56c7decebb03cdca8dc7c85"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2009_d3dx10_42_x64.cab",
+      "size": 232635,
+      "sha256": "2cfd51f0115c048ed432522d387167e46b2a2929524dcbd08b91c07705d5da27"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2009_d3dx10_42_x86.cab",
+      "size": 192131,
+      "sha256": "eef0244674e44a4131f12243a11badf3e9c7a24efdca73dd26cf75f24d902597"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2009_d3dx11_42_x64.cab",
+      "size": 136301,
+      "sha256": "0b91a568769bf0f89658ffb4eff9eacdc5debbe4ddc2d94da6f7068237c94c86"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2009_d3dx11_42_x86.cab",
+      "size": 105044,
+      "sha256": "e8c845fc2cf746ba07f8921a09dc533973621d6f8a015342e2b078d11815b121"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2009_d3dx9_42_x64.cab",
+      "size": 930116,
+      "sha256": "832f6a4415c873ed8acca0d5c9e65fe163d9567f0ce29fb3fda11d7afd1e11c7"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2009_d3dx9_42_x86.cab",
+      "size": 728456,
+      "sha256": "0adc71e37869f12b4806321f40c25dad3d5f8ad372eb35e0bcbaacf60408eb45"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2009_XACT_x64.cab",
+      "size": 122408,
+      "sha256": "69dab3f80a58912fbee51934d1e6da8d0432efa7577810600dfd168d4a52d637"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2009_XACT_x86.cab",
+      "size": 93106,
+      "sha256": "7c4bab445d4666965019b6084c23e4b9ae9e34b14898d01debc0101ddb9e12e4"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2009_XAudio_x64.cab",
+      "size": 273264,
+      "sha256": "1269f085046694d1466a4b75386ec30dd0564949db4fa90df366983f860acb97"
+    },
+    {
+      "path": "__Installer/directx/redist/Aug2009_XAudio_x86.cab",
+      "size": 272642,
+      "sha256": "b8e0c1022a42156c4239aea081f3abb0bf45ef61f30413df182e422e26435714"
+    },
+    {
+      "path": "__Installer/directx/redist/Dec2005_d3dx9_28_x64.cab",
+      "size": 1357976,
+      "sha256": "8231b38a0ab70018f15d7239ed96e5f2bc89ddae6cf9650c9d7bd052b96877e3"
+    },
+    {
+      "path": "__Installer/directx/redist/Dec2005_d3dx9_28_x86.cab",
+      "size": 1079456,
+      "sha256": "bdee0708db956a4ce59220626106a2df70ede2e1e32f29e432254b04876fa7b9"
+    },
+    {
+      "path": "__Installer/directx/redist/DEC2006_d3dx10_00_x64.cab",
+      "size": 212807,
+      "sha256": "d926d1381f1949754f5e6d597c4ab49e3f350312b2e426effafeed22ba9ced91"
+    },
+    {
+      "path": "__Installer/directx/redist/DEC2006_d3dx10_00_x86.cab",
+      "size": 191720,
+      "sha256": "07fe66373868c32de3f4a4097bd3834ac98018f490f5bf08f02f559c48dbf985"
+    },
+    {
+      "path": "__Installer/directx/redist/DEC2006_d3dx9_32_x64.cab",
+      "size": 1571154,
+      "sha256": "473c0111f5a1efb6791575c5f769431fa2affd76813aaf9d476a571e26cd3fed"
+    },
+    {
+      "path": "__Installer/directx/redist/DEC2006_d3dx9_32_x86.cab",
+      "size": 1574376,
+      "sha256": "81251ebd8ee94f108807e32e04dea544c3937a5f870bc6ccb917d059e70b1838"
+    },
+    {
+      "path": "__Installer/directx/redist/DEC2006_XACT_x64.cab",
+      "size": 192475,
+      "sha256": "b3f65d918e4dc0e84ce5d0add6d0d46425c58de19fddfbc7b996ff357caac3b2"
+    },
+    {
+      "path": "__Installer/directx/redist/DEC2006_XACT_x86.cab",
+      "size": 145599,
+      "sha256": "3d9b905fce31b42c47be263165d71c346b5d47abdabbfe6e9a87fd5a89b0b9f5"
+    },
+    {
+      "path": "__Installer/directx/redist/DSETUP.dll",
+      "size": 95576,
+      "sha256": "2a61679eeedabf7d0d0ac14e5447486575622d6b7cfa56f136c1576ff96da21f"
+    },
+    {
+      "path": "__Installer/directx/redist/dsetup32.dll",
+      "size": 1566040,
+      "sha256": "fb0e534f9b0926e518f1c2980640dfd29f14217cdfa37cf3a0c13349127ed9a8"
+    },
+    {
+      "path": "__Installer/directx/redist/dxdllreg_x86.cab",
+      "size": 44624,
+      "sha256": "4afe0249a13868b7c4a92b4d53c998adf6053eb5e2c47fd81020fd8d4bb11150"
+    },
+    {
+      "path": "__Installer/directx/redist/DXSETUP.exe",
+      "size": 517976,
+      "sha256": "8f47d7121ef6532ad9ad9901e44e237f5c30448b752028c58a9d19521414e40d"
+    },
+    {
+      "path": "__Installer/directx/redist/dxupdate.cab",
+      "size": 97152,
+      "sha256": "e18a5404b612e88fa8b403c9b33f064c0a89528db7ef9a79aa116908d0e6afed"
+    },
+    {
+      "path": "__Installer/directx/redist/Feb2005_d3dx9_24_x64.cab",
+      "size": 1247499,
+      "sha256": "48eeeecd6411039b23f32b7b22c8d40bce45280af5f8b066edd6cf30284b90ca"
+    },
+    {
+      "path": "__Installer/directx/redist/Feb2005_d3dx9_24_x86.cab",
+      "size": 1013225,
+      "sha256": "12e2aab3dbaee503724a5505a6f6951f07306578801a4b5b6b9b54514275ce79"
+    },
+    {
+      "path": "__Installer/directx/redist/Feb2006_d3dx9_29_x64.cab",
+      "size": 1362796,
+      "sha256": "405bd17fe25128a91693807a6008031d87c005ba93d016cbab6276891d3bc6bb"
+    },
+    {
+      "path": "__Installer/directx/redist/Feb2006_d3dx9_29_x86.cab",
+      "size": 1084720,
+      "sha256": "20231448d5d74b7df1e43d796d76381d563699f81944c7ad9ccbcc1a77a5591e"
+    },
+    {
+      "path": "__Installer/directx/redist/Feb2006_XACT_x64.cab",
+      "size": 178359,
+      "sha256": "ea39caab8e071df53c2f44c19fb2ff6e2f6af4ef47f0c66d8e7b1b0918d6745f"
+    },
+    {
+      "path": "__Installer/directx/redist/Feb2006_XACT_x86.cab",
+      "size": 132409,
+      "sha256": "633a1fe357e57bbb8e058e1e029f61f379ab936a85c5d30ee442d804a1806868"
+    },
+    {
+      "path": "__Installer/directx/redist/FEB2007_XACT_x64.cab",
+      "size": 194675,
+      "sha256": "85d3279df02904f161f62f7a529911e135439ae26f4aa4984be439a4ac1768ab"
+    },
+    {
+      "path": "__Installer/directx/redist/FEB2007_XACT_x86.cab",
+      "size": 147983,
+      "sha256": "d2446c0478d0087250c2f4f4cbdec7bdc9aec7ac92ca37b874c96aa3a3275dcd"
+    },
+    {
+      "path": "__Installer/directx/redist/Feb2010_X3DAudio_x64.cab",
+      "size": 54678,
+      "sha256": "832b6d48e169b4725ae482ea4d1c3360a09631a89b2fac3aba81a50805a50adc"
+    },
+    {
+      "path": "__Installer/directx/redist/Feb2010_X3DAudio_x86.cab",
+      "size": 20713,
+      "sha256": "acba5c4d4ac90e1df1c8404be5ff780e24238153cb410af909cd4364d213f2a9"
+    },
+    {
+      "path": "__Installer/directx/redist/Feb2010_XACT_x64.cab",
+      "size": 122446,
+      "sha256": "42d7936ca7520a8092ccb82612d0217c755ecf619251fd2aa0c37ccfd8c49807"
+    },
+    {
+      "path": "__Installer/directx/redist/Feb2010_XACT_x86.cab",
+      "size": 93180,
+      "sha256": "d168fcdd6b63c24f6f6d2851ad1d0d977146edd9f6377b46d8f87bf5a92a0693"
+    },
+    {
+      "path": "__Installer/directx/redist/Feb2010_XAudio_x64.cab",
+      "size": 276960,
+      "sha256": "038a01a9b3ba4ceb4df4726a5704a5b325871c07e3714913c3a9ff4184a50df6"
+    },
+    {
+      "path": "__Installer/directx/redist/Feb2010_XAudio_x86.cab",
+      "size": 277191,
+      "sha256": "86a653d6a77bad77df48a19669eb41dc402297b42d6f9ee239b39735be409d31"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2005_d3dx9_26_x64.cab",
+      "size": 1336002,
+      "sha256": "7237630b897ce760948d9144151ef27c0699fb76150b5f157676fa2d220a236f"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2005_d3dx9_26_x86.cab",
+      "size": 1064925,
+      "sha256": "b448d7ba5b6fe1dc27639d42eb6ba0a997a793135678c729ba6756cfe4efc38b"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2006_XACT_x64.cab",
+      "size": 180785,
+      "sha256": "e7bddd9db994cbb19671d45216edf40ffb3a77068cc97fbeb4c4e41e0d073501"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2006_XACT_x86.cab",
+      "size": 133671,
+      "sha256": "c1a1348611259756b5921d43f9fd9f2a5b40a48af88ea679a40263a2aca029ec"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2007_d3dx10_34_x64.cab",
+      "size": 699044,
+      "sha256": "3ef426fdd89840ead821ee8fe7a6f470ad8bf06dbcf2ac7cc8e8a0dd0a55622d"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2007_d3dx10_34_x86.cab",
+      "size": 698472,
+      "sha256": "47b355fb5324776370e2bd27ca2df982a516611fc1e702d75a829b207b3b80f6"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2007_d3dx9_34_x64.cab",
+      "size": 1607774,
+      "sha256": "c28c2018fcc72a9548a752e2917284320fc1a8848ae9d92bf3513aa312cafc29"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2007_d3dx9_34_x86.cab",
+      "size": 1607286,
+      "sha256": "9c3507b1dd4a81651a5013cb7ecb552932ce5989cbaadd4024f02918f55276ac"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2007_XACT_x64.cab",
+      "size": 197122,
+      "sha256": "0e08de538c217d80b19bd56066a269ca9b388e63ff6f3807b369d7b6a7fe794f"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2007_XACT_x86.cab",
+      "size": 152909,
+      "sha256": "e28d18ef520ca81ff7d33dad80b6144771cb82516f01739cef8d3b813c74643d"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2008_d3dx10_38_x64.cab",
+      "size": 867828,
+      "sha256": "781eb9276ea0d737d82dc60753c6d6ff89e92d016b48a60e9b21d1a66b8eb545"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2008_d3dx10_38_x86.cab",
+      "size": 849919,
+      "sha256": "b9b4110bd8004f83c0bfcef378071fd49c895294f4583e0b164317a692d9783c"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2008_d3dx9_38_x64.cab",
+      "size": 1792608,
+      "sha256": "72e7f92c20462c4746ce000bc909ed6b3f71467f9e5593ba7c074be47553596d"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2008_d3dx9_38_x86.cab",
+      "size": 1463878,
+      "sha256": "5906932933e363acb1651a6b1f252662fb3512ed54dd6b0b87baa141ed6fb21a"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2008_X3DAudio_x64.cab",
+      "size": 55154,
+      "sha256": "627c66ed6f3b82c8a90f549584c324e33f039f397f196ce9eccb86de76efb574"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2008_X3DAudio_x86.cab",
+      "size": 21905,
+      "sha256": "151d0be9d3fa6ce37f7aa8e047b8cc449e86398ed0623c3cc0e203ec221ebc2a"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2008_XACT_x64.cab",
+      "size": 121054,
+      "sha256": "f0736b0ab6eb8c91682f6934c9d4306fc134c65066f70f7f5f80031a927baa8d"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2008_XACT_x86.cab",
+      "size": 93128,
+      "sha256": "f06de1eef8043f7919a50972df7d0653f9439b725769dae93536dea749b8e2d6"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2008_XAudio_x64.cab",
+      "size": 269628,
+      "sha256": "9b15a27080204b3c36b787f919cefbf9d441f0b0b616f8b944feb42dc4eb2ff1"
+    },
+    {
+      "path": "__Installer/directx/redist/JUN2008_XAudio_x86.cab",
+      "size": 269024,
+      "sha256": "564696443875b094baafb5f4a151c25876ca537c1834356eddb979be0ca247ac"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2010_D3DCompiler_43_x64.cab",
+      "size": 944460,
+      "sha256": "213ad66ab9e469db1e6a49a646d082bfc3700db94172984e7e36801612af50c6"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2010_D3DCompiler_43_x86.cab",
+      "size": 931471,
+      "sha256": "417eebd5b19f45c67c94c2d2ba8b774c0fc6d958b896d7b1ac12cf5a0ea06e0e"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2010_d3dcsx_43_x64.cab",
+      "size": 752783,
+      "sha256": "cdbec7e3a5a0fef016eb294b036f93c75e45c6ead8d99397f859a32d23fe20cc"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2010_d3dcsx_43_x86.cab",
+      "size": 762188,
+      "sha256": "e2c5a2cbba7f211b6ca72ff8e5f69cba1f83be06357311b19e64f582fd3d14e4"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2010_d3dx10_43_x64.cab",
+      "size": 235955,
+      "sha256": "efce48d425c07f1faad4a55d7061a01ed6245aac17f43163cf2a23cbc9a3054b"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2010_d3dx10_43_x86.cab",
+      "size": 197283,
+      "sha256": "a8cf71ffb80b683616d0621be96d3795b0ffda3877ed2d80cd958bfa393ddcfc"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2010_d3dx11_43_x64.cab",
+      "size": 138205,
+      "sha256": "c1d0d56b83bfb09a5e1a89e1898bb74446a847b30a968f3664ec2d87368eb63e"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2010_d3dx11_43_x86.cab",
+      "size": 109445,
+      "sha256": "a58cefe822e371d078eaf89319f832693352ba7d62079320074397f0f3425961"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2010_d3dx9_43_x64.cab",
+      "size": 937246,
+      "sha256": "9b98a1269af7f3a0007bfdc73206a47a6ee158d34ba8a87009396c18186bb06a"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2010_d3dx9_43_x86.cab",
+      "size": 768036,
+      "sha256": "fcc6cf0966b4853d6fa3d32ab299cde5a9824feaecb0d4f34ea452fb9fd1c867"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2010_XACT_x64.cab",
+      "size": 124596,
+      "sha256": "06251ab76450feb7dc2ffb9be7615f5eb56960cefa4c990ef560f2c6f2a7551b"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2010_XACT_x86.cab",
+      "size": 93686,
+      "sha256": "354c2e579ed00b391dd5d8be91b0f45115e7c232ed1b842747830be0fd26e915"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2010_XAudio_x64.cab",
+      "size": 277338,
+      "sha256": "51500283f69e97f5beddb073ba2a9017de3d30379c0dcc4d11dd2236ce07b317"
+    },
+    {
+      "path": "__Installer/directx/redist/Jun2010_XAudio_x86.cab",
+      "size": 278060,
+      "sha256": "7b4332207563beba1103744b6db5399ad150e9e6838f9d5a71497e7eb3645ebf"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2008_d3dx10_37_x64.cab",
+      "size": 844884,
+      "sha256": "9eaba54ab5392802bee889982c585707797ae7810c1e7a66f98903fc963a9eab"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2008_d3dx10_37_x86.cab",
+      "size": 818260,
+      "sha256": "de438d52b5f1141be26f7d06f283699d96827129da524a412e1605bd9c8e6b6a"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2008_d3dx9_37_x64.cab",
+      "size": 1769862,
+      "sha256": "33ed3e21fe9118bad3e11ee13a3f0b31c52ae7e22378ebf96de590b114c2ca02"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2008_d3dx9_37_x86.cab",
+      "size": 1443282,
+      "sha256": "0be4fe173c7becbab42a25421f28d54629479e240a3378b37ac4b657bf60e128"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2008_X3DAudio_x64.cab",
+      "size": 55058,
+      "sha256": "b0209ae7c140b3b3a7635a00d7364591d6b3d017d6bb007f9e347767b00b1671"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2008_X3DAudio_x86.cab",
+      "size": 21867,
+      "sha256": "15e0dcefc22fb6a09e3d8724fa5c17c23db01f10879f343e7da22938f568abd7"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2008_XACT_x64.cab",
+      "size": 122336,
+      "sha256": "221a6a70898c8d513fac732dfa0ada137b268cffc90875c05d1049ba8f2e3e5b"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2008_XACT_x86.cab",
+      "size": 93734,
+      "sha256": "d1a429a0725765a5b302b83af062d2780859f0a52369b200d1b031e14f030ea0"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2008_XAudio_x64.cab",
+      "size": 251194,
+      "sha256": "35d20903b1b246afda8c5205bfa3b253fbad5d3255ce14b5a8d5aaa6b6909dbc"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2008_XAudio_x86.cab",
+      "size": 226250,
+      "sha256": "786e6417d105b1dedcb502a799d7cd30a65cbe59a2b41a411781bdafa7fb1917"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2009_d3dx10_41_x64.cab",
+      "size": 1067160,
+      "sha256": "4e78a01a3a5d236f27cda4a66a9d8a59c06e8a9779fd2f2a3e1f9b416d2c4213"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2009_d3dx10_41_x86.cab",
+      "size": 1040745,
+      "sha256": "80736b3fe97947507a32bf7cd744e01a86424c4cc9977f7b4a7404268e83f8c1"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2009_d3dx9_41_x64.cab",
+      "size": 1973702,
+      "sha256": "218929568334f78c93d3a111ad268ff56ed4a6fee83ce26dce0a2619a092f46b"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2009_d3dx9_41_x86.cab",
+      "size": 1612446,
+      "sha256": "74ff3ac77380b3a7271f22b21e019c50f6caa8585f0b59cca094e76ce170a28b"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2009_X3DAudio_x64.cab",
+      "size": 54600,
+      "sha256": "5fcb6f2d1dbf278c14813812448026a8d2bf2179bb4c2e807b9167fdb7966290"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2009_X3DAudio_x86.cab",
+      "size": 21298,
+      "sha256": "fd713dc9d50cb72508f0c416f6861588f1227bb9f2e1a40a6f0e774be248bb8d"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2009_XACT_x64.cab",
+      "size": 121506,
+      "sha256": "63721ba32053e4f2b0905aab8e68fe63eadaae53543be89b2d5f082b10edf6a2"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2009_XACT_x86.cab",
+      "size": 92740,
+      "sha256": "ba7f2b4e34c355dae4ca2aeae585985f2626c69e4cf857b9db009d50a23b620c"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2009_XAudio_x64.cab",
+      "size": 275044,
+      "sha256": "e470186155459daf0674a30450a4887f941ca7dbdf9aa311fc4d4c87352529ba"
+    },
+    {
+      "path": "__Installer/directx/redist/Mar2009_XAudio_x86.cab",
+      "size": 273018,
+      "sha256": "7c360b93d3e799d3502f0b6acf4139c058d7d47e63d41f4af0f2bff59b4742b2"
+    },
+    {
+      "path": "__Installer/directx/redist/Nov2007_d3dx10_36_x64.cab",
+      "size": 864600,
+      "sha256": "0847e4034d70ccbea527e04d14d8d60c9854ecc89cb29b3e07139e65962fbce9"
+    },
+    {
+      "path": "__Installer/directx/redist/Nov2007_d3dx10_36_x86.cab",
+      "size": 803884,
+      "sha256": "0da883c82456a5340411f222af5891fd370bf7efd919e90a48aec0f67f01ec80"
+    },
+    {
+      "path": "__Installer/directx/redist/Nov2007_d3dx9_36_x64.cab",
+      "size": 1802058,
+      "sha256": "39afab1a89bcf46806b422837da35ddc1b8eedf0393d875a89b47cde5fed79d4"
+    },
+    {
+      "path": "__Installer/directx/redist/Nov2007_d3dx9_36_x86.cab",
+      "size": 1709360,
+      "sha256": "89026e7e14fff8164de3c13a774d539e789637104d7bc84b8bb4e059b76a9679"
+    },
+    {
+      "path": "__Installer/directx/redist/NOV2007_X3DAudio_x64.cab",
+      "size": 46144,
+      "sha256": "f954abaf7966b409d3db339f5dc491e103365f47b23faffca25d85ea3728f12f"
+    },
+    {
+      "path": "__Installer/directx/redist/NOV2007_X3DAudio_x86.cab",
+      "size": 18496,
+      "sha256": "74a6d31a4c54d8c0fb2dcde922409c05db3219b7dcffa44c16f603ba054fb922"
+    },
+    {
+      "path": "__Installer/directx/redist/NOV2007_XACT_x64.cab",
+      "size": 196762,
+      "sha256": "d01b468ec66b36bea0e20503c01b93ac64d9e001c20d28cf7c71293e9f874af0"
+    },
+    {
+      "path": "__Installer/directx/redist/NOV2007_XACT_x86.cab",
+      "size": 148264,
+      "sha256": "c888a8a79249ab284a918c371f2fe6da81fdf432e65d3da3cd24fecede267aed"
+    },
+    {
+      "path": "__Installer/directx/redist/Nov2008_d3dx10_40_x64.cab",
+      "size": 994154,
+      "sha256": "a318a71b953f87ef0f5fad91a153f7ee251c8f895581950022f38f63d5f66cba"
+    },
+    {
+      "path": "__Installer/directx/redist/Nov2008_d3dx10_40_x86.cab",
+      "size": 965421,
+      "sha256": "4d7805c3db9fe72978fdd4c0c8ff973eed07ca6619d1c988cd01e08b70e1d137"
+    },
+    {
+      "path": "__Installer/directx/redist/Nov2008_d3dx9_40_x64.cab",
+      "size": 1906878,
+      "sha256": "723e8fcfe969493e6c4f79d2634c052eed9cd1e7051cfbf4466643b964fea29c"
+    },
+    {
+      "path": "__Installer/directx/redist/Nov2008_d3dx9_40_x86.cab",
+      "size": 1550796,
+      "sha256": "a259dd75611610bc0fd9c874e68ec89bbae4ac5f8db0857705a35de616604641"
+    },
+    {
+      "path": "__Installer/directx/redist/Nov2008_X3DAudio_x64.cab",
+      "size": 54522,
+      "sha256": "8de7aedf7f823e455c663cec42b158f6d5308efd356a9cf9295ae49f7c8a3fdb"
+    },
+    {
+      "path": "__Installer/directx/redist/Nov2008_X3DAudio_x86.cab",
+      "size": 21851,
+      "sha256": "f2264f092313682f4e274ad71030248fa2e23d202abc2d46ab09c7d6b580b81b"
+    },
+    {
+      "path": "__Installer/directx/redist/Nov2008_XACT_x64.cab",
+      "size": 121794,
+      "sha256": "9dda7b01517451b9ca53abc3a4e61277481c4e8a6404d15450b5a416416b8016"
+    },
+    {
+      "path": "__Installer/directx/redist/Nov2008_XACT_x86.cab",
+      "size": 92684,
+      "sha256": "7b5594c1146a7753e8aeb0d235a060360b3072ba7b0fa122536d85b42df73a2e"
+    },
+    {
+      "path": "__Installer/directx/redist/Nov2008_XAudio_x64.cab",
+      "size": 273960,
+      "sha256": "980e6bb91d20d90225405887ebec47a7b1deee21faab4c561faae323007f6c98"
+    },
+    {
+      "path": "__Installer/directx/redist/Nov2008_XAudio_x86.cab",
+      "size": 272611,
+      "sha256": "00c28cd39034f7e1d434adc0bd39e4be29eabe8b73a2f3eaca6de11d2d22be95"
+    },
+    {
+      "path": "__Installer/directx/redist/Oct2005_xinput_x64.cab",
+      "size": 86037,
+      "sha256": "10f2bcfcc38d3150bc80eb0030a1cd40084f1ec028dc927543c485d54ec35022"
+    },
+    {
+      "path": "__Installer/directx/redist/Oct2005_xinput_x86.cab",
+      "size": 45359,
+      "sha256": "f2d475864e34409fb586093f92390e1f47403867c39ac30918941f19f3fccb0f"
+    },
+    {
+      "path": "__Installer/directx/redist/OCT2006_d3dx9_31_x64.cab",
+      "size": 1412902,
+      "sha256": "3cf78eeedcddddaf131af35cc68c218685c133326ff2876cb821096ed7ebf0c8"
+    },
+    {
+      "path": "__Installer/directx/redist/OCT2006_d3dx9_31_x86.cab",
+      "size": 1127217,
+      "sha256": "fd8c9c23aea007aa92eca130446913ef04d9fc78e0e6fc3c49c25d210889de61"
+    },
+    {
+      "path": "__Installer/directx/redist/OCT2006_XACT_x64.cab",
+      "size": 182361,
+      "sha256": "db037f2b07f00a7aa481b12ed35d52e3b7c18bb786590eb444b27cf69a675f0f"
+    },
+    {
+      "path": "__Installer/directx/redist/OCT2006_XACT_x86.cab",
+      "size": 138017,
+      "sha256": "65916ca9db2d3eeb6a44f19a19c4254ca4fc1795bad81fda35e028d9b62e1d3d"
+    },
+    {
+      "path": "__Installer/installerdata.xml",
+      "size": 20384,
+      "sha256": "a29dd1527c67102b1eb2dffba3b32479f7fce261ecfbdb15bdb0766f492ad669"
+    },
+    {
+      "path": "__Installer/InstallLog.txt",
+      "size": 58822,
+      "sha256": "710935f516d1160b907ab4d05d988b6eaa43631edd9d0146974668f8c3f0c9b4"
+    },
+    {
+      "path": "__Installer/Touchup.dat",
+      "size": 89622,
+      "sha256": "703d8f6973328489330c795b36c91fd3281b9e2c5d69d7200f067902a679ed3e"
+    },
+    {
+      "path": "__Installer/Touchup.exe",
+      "size": 930088,
+      "sha256": "526ce22848ddb0e4c99ca528c8412ead9ac569f83f3edda17ea5e5496f8d9e68"
+    },
+    {
+      "path": "__Installer/vc/vc2015/eula/cs_CZ.rtf",
+      "size": 11775,
+      "sha256": "2428e8ba8fc9648422333b6b4b92fb476741fc1022de7cb59d030ec35cc21ac7"
+    },
+    {
+      "path": "__Installer/vc/vc2015/eula/de_DE.rtf",
+      "size": 12146,
+      "sha256": "c017edfe3b0d308e20fbf3de8795fd4451a530475a2d0ee0824e166045eadfb7"
+    },
+    {
+      "path": "__Installer/vc/vc2015/eula/en_US.rtf",
+      "size": 8863,
+      "sha256": "4d7b2abaab1c0d46260e5d48ad4ce4bbc3ec02c660838a9a578f1bead68d6b35"
+    },
+    {
+      "path": "__Installer/vc/vc2015/eula/es_ES.rtf",
+      "size": 10616,
+      "sha256": "55929413b6a530f8c4acbb1e7eee81fb9ed0bd64af5cd26d6f5637cedfaf0a2d"
+    },
+    {
+      "path": "__Installer/vc/vc2015/eula/fr_FR.rtf",
+      "size": 12019,
+      "sha256": "c7f03da5d9a7f689b8dcbd507ff0b3fa98daba55616f902e5e47e9839b753e1f"
+    },
+    {
+      "path": "__Installer/vc/vc2015/eula/it_IT.rtf",
+      "size": 11154,
+      "sha256": "f1214784c57aa3323426af64d132045970717994eba500b25283684dc1adebaa"
+    },
+    {
+      "path": "__Installer/vc/vc2015/eula/ja_JP.rtf",
+      "size": 32348,
+      "sha256": "ac0d8e0eaab1875909a6a6f106a37cd7468f87f71887a44263f5f0178f99c40b"
+    },
+    {
+      "path": "__Installer/vc/vc2015/eula/ko_KR.rtf",
+      "size": 29329,
+      "sha256": "dcefd9b37d78f37ed8aaef70ac2bfcde441dcfb97469a6aa6af89c1ffadbf814"
+    },
+    {
+      "path": "__Installer/vc/vc2015/eula/pl_PL.rtf",
+      "size": 13213,
+      "sha256": "898d5ca01a3271d97350d06a6ccdb8803a176bb42baf7e2c8f76c9037235ca8e"
+    },
+    {
+      "path": "__Installer/vc/vc2015/eula/pt_BR.rtf",
+      "size": 10200,
+      "sha256": "42dc678ef9d5e4e147bf178ffe2fa3cd4bbbf9c904872b4e344d8bb22c473ed5"
+    },
+    {
+      "path": "__Installer/vc/vc2015/eula/ru_RU.rtf",
+      "size": 54812,
+      "sha256": "f00a2a67106ca3badb4c233951a262ec0a9bba3151e1d8da0362dcada7928dcd"
+    },
+    {
+      "path": "__Installer/vc/vc2015/eula/tr_TR.rtf",
+      "size": 12669,
+      "sha256": "1e602773f3071636e0f9c6b27037b7b4094dc26f7c2fabcdf3287bc9bcaa8652"
+    },
+    {
+      "path": "__Installer/vc/vc2015/eula/zh_CN.rtf",
+      "size": 19329,
+      "sha256": "63f463f0ace41fa088acfb70f501db47e3b83600db31538d8daba010e6b83d42"
+    },
+    {
+      "path": "__Installer/vc/vc2015/eula/zh_TW.rtf",
+      "size": 19250,
+      "sha256": "d5147ee2ba7826d5b68e0dc10fc2ac95079f89c38264c5648d924dec9290d085"
+    },
+    {
+      "path": "__Installer/vc/vc2015/redist/vc_redist.x64.exe",
+      "size": 14572000,
+      "sha256": "5eea714e1f22f1875c1cb7b1738b0c0b1f02aec5ecb95f0fdb1c5171c6cd93a3"
+    },
+    {
+      "path": "__Installer/vc/vc2015/redist/vc_redist.x86.exe",
+      "size": 13767776,
+      "sha256": "fdd1e1f0dcae2d0aa0720895eff33b927d13076e64464bb7c7e5843b7667cd14"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Bink/bink2w64.dll",
+      "size": 391360,
+      "sha256": "6e3c89955583b82152f569aa044c1ea36bcb60954ebaa9cb14c13f23d36d162b"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Bink/binkpluginw64.dll",
+      "size": 613568,
+      "sha256": "9f56cd63dccc252436cadc3d1cfe930f8df350959a3e902c1bdea3a920d9c8c2"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+      "size": 117760,
+      "sha256": "41e6d6e6b691b8aca94aa35bf04e7a204f02ec843e192cc4d28f421ec517934a"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+      "size": 49152,
+      "sha256": "284a6e70a6dce01f8a02d93e1bb78baf0efb6140459c587d8986d59fb6bd675b"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Oodle/Win64/oo2core_8_win64.dll",
+      "size": 1007104,
+      "sha256": "3e9ce021a2acc1da961ce8955c69980bcfd16f6ba3479afd756a1bf0c30d7bb1"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Clothing_x64.dll",
+      "size": 1219072,
+      "sha256": "1c5f3bf59858d80260ebe2cb9c019d43f610f6972dbe5a97364df34cb7db024d"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingCHECKED_x64.dll",
+      "size": 1586688,
+      "sha256": "0a717f56f43c7085ad898bee422214a19cc076bbf6f9497a2166e820c8000f84"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll",
+      "size": 1575424,
+      "sha256": "99b057a40f55e2ca2c85b09dcf979cd8484c7407126f67704655e3f469f98641"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Destructible_x64.dll",
+      "size": 2008576,
+      "sha256": "fb6bf5764b56d9d04f10acbdeb45db05cda01cb1790036888923adf78924b9af"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_DestructibleCHECKED_x64.dll",
+      "size": 2774528,
+      "sha256": "5da839becd13eac0809ad4dfbc95da9c6729b801920509fb4d6bfa5723f4df7e"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_DestructiblePROFILE_x64.dll",
+      "size": 2735616,
+      "sha256": "ea679a92de5598f689ef69a98b6e1c8aedeae396d6186b2a56bf43ebb4cba2c4"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Legacy_x64.dll",
+      "size": 3329536,
+      "sha256": "a6d9f6083c4faae0c4977f36946016949941f9d0e0432ac82fe1db6d2455c5c9"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyCHECKED_x64.dll",
+      "size": 4194304,
+      "sha256": "1fea141acdf1945ee1604b45dbcfaf67ee6da4e47591a5148787ccf06e932a43"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll",
+      "size": 4198400,
+      "sha256": "34a0f4ee3817cd093ded0c94b757265da9ed08cc0aa2977b80d6d19a77f6da3d"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFramework_x64.dll",
+      "size": 1043456,
+      "sha256": "f5f260533ab839fedea7e903a4e97e382cbf356d639d7681ec2fc678a0dfe963"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFrameworkCHECKED_x64.dll",
+      "size": 1379328,
+      "sha256": "4104ee1bdbf87d34b4e6bc2227648b422e7f8a94cf0c32d18e97b96e7a430750"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFrameworkPROFILE_x64.dll",
+      "size": 1381888,
+      "sha256": "fe5df39d3d2b91cdd9685b4df3929fff1c04946ded886749bb9754b5049e3e91"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/NvCloth_x64.dll",
+      "size": 265216,
+      "sha256": "287273d55200c0ae38bb398b275858b4c524a67ef458698671cdfa43035dbe89"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/NvClothCHECKED_x64.dll",
+      "size": 267776,
+      "sha256": "6f625741c90f9d6bc8ff1b712c9811c123e3cbbe72ce28a4f15b60a15a3af2b4"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/NvClothPROFILE_x64.dll",
+      "size": 264192,
+      "sha256": "ea5604b88f5cf75ab24ec73095f446b1a2652733882820f76f42d61449e83e40"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3_x64.dll",
+      "size": 2105344,
+      "sha256": "e7cf24d8db8fa7671c8af78659a1a4a974b2aac54adbb1dbca94b4dbf058d15f"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CHECKED_x64.dll",
+      "size": 3223552,
+      "sha256": "9af5581aef4b5aaf770d4c045172860b264197dc0a16bffd40e338d22c58182b"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Common_x64.dll",
+      "size": 1597440,
+      "sha256": "d8f54fbcbbc5125f6239c0d1142d7afc854f7c63b83f9a3e9a70b91a0a56e2a5"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonCHECKED_x64.dll",
+      "size": 2040320,
+      "sha256": "b66da239b0f7913f916e4505cbf7790a5a3c99877cb1a75b184d69b3a47143fb"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll",
+      "size": 2031616,
+      "sha256": "88709152cfe2372b18fc7751126a3be49f8497a769f54940141147e3b0969587"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Cooking_x64.dll",
+      "size": 244736,
+      "sha256": "5e770b647abb35c97b91bf7dcdb9cb91aa87d566e8d038f0696c14b617b6dfa6"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CookingCHECKED_x64.dll",
+      "size": 331264,
+      "sha256": "200ea256c2cda9352cb6d27b77cfdf68d0c43ec1471fc857ae01bd488ab23c2d"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CookingPROFILE_x64.dll",
+      "size": 244736,
+      "sha256": "2372d99600d5864c048c9a0f47745bdd691ebe2fc242ae45a8a8506ff096e831"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll",
+      "size": 3140608,
+      "sha256": "f16a5e32180451b492016f739c248e043ce1979f3e76173cf3faca91023412c8"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundation_x64.dll",
+      "size": 54784,
+      "sha256": "7d689005a1dc7c66bdc8480ece96a0d909ee218bc5cc5e8f11b276dc8f79bade"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationCHECKED_x64.dll",
+      "size": 101888,
+      "sha256": "92051382ba79a69c6f6d597320ea1699a4ba53471b865d1776f46de8bc088d05"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll",
+      "size": 96768,
+      "sha256": "2ed1ae0076702a0e790a2a84e71fb7438c3bc9e1a2b31f8defa2c3060912902b"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDK_x64.dll",
+      "size": 188928,
+      "sha256": "cfb97be4ad86b93425f8a6d6b81fd52383710a1984e9adc3023e41a629124da3"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKCHECKED_x64.dll",
+      "size": 267776,
+      "sha256": "8cb3d7fa6d83cf349a81e918daa1eb99b078bc3f4b61aa032506854c48d29692"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll",
+      "size": 267776,
+      "sha256": "845c760ea4c561d48f40d0ec36b8c9a2c82d31cc45dab867b09ed78ace39064c"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+      "size": 1714176,
+      "sha256": "0f66dcb5837e9b59c499277fd272b862043356aa9145802cf0a63e00a1bcca59"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+      "size": 37888,
+      "sha256": "a9d6f5538f44011c1f65d7ace64216a237636717cb0c8c59f4f89cc08dd3d24f"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Windows/DirectX/x64/WinPixEventRuntime.dll",
+      "size": 44752,
+      "sha256": "0afaa35527ac034861ffa5564e5f6bd9e4d54e79132b3283cdd98e41f5584d19"
+    },
+    {
+      "path": "Engine/Binaries/Win64/CrashReportClient.exe",
+      "size": 17215488,
+      "sha256": "56d549bd81beaa33b5d270237c9c46aac88b8a2671aa54288d48ba13f905ed67"
+    },
+    {
+      "path": "Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak",
+      "size": 11105632,
+      "sha256": "48f749e9f9b4e288b5cb489d593211ec15b926c33e0701dd75c1f7b839066dfe"
+    },
+    {
+      "path": "fg.bin",
+      "size": 4096,
+      "sha256": "8217a9b7f59e8f18aef781baefad9a30c7f7d90973746ac304b90cef878a77e3"
+    },
+    {
+      "path": "fg2.bin",
+      "size": 4096,
+      "sha256": "d939f59f63d0577bae2fa9cbf27419f889e8a13dcb9c0a433797a446b6f8f571"
+    },
+    {
+      "path": "fg3.bin",
+      "size": 4096,
+      "sha256": "d939f59f63d0577bae2fa9cbf27419f889e8a13dcb9c0a433797a446b6f8f571"
+    },
+    {
+      "path": "fg4.bin",
+      "size": 4096,
+      "sha256": "d939f59f63d0577bae2fa9cbf27419f889e8a13dcb9c0a433797a446b6f8f571"
+    },
+    {
+      "path": "fg5.bin",
+      "size": 4096,
+      "sha256": "d939f59f63d0577bae2fa9cbf27419f889e8a13dcb9c0a433797a446b6f8f571"
+    },
+    {
+      "path": "fg6.bin",
+      "size": 4096,
+      "sha256": "d939f59f63d0577bae2fa9cbf27419f889e8a13dcb9c0a433797a446b6f8f571"
+    },
+    {
+      "path": "fg7.bin",
+      "size": 4096,
+      "sha256": "d939f59f63d0577bae2fa9cbf27419f889e8a13dcb9c0a433797a446b6f8f571"
+    },
+    {
+      "path": "Support/EA Help/Technical Support.en_US.rtf",
+      "size": 63685,
+      "sha256": "c3939b47feeae56e9394a666f0e63a9350ddbd6c84c83351c4930f57ae32cb5b"
+    },
+    {
+      "path": "Support/EA Help/Technical Support.ru_RU.rtf",
+      "size": 94066,
+      "sha256": "878c3d06b013ddfbd1f1bb84c1fd130ab3e0f49bf7aab76756ffd9fdd89bcef0"
+    },
+    {
+      "path": "Support/EA Help/Technical Support.zh_CN.rtf",
+      "size": 133611,
+      "sha256": "49e67bdff398e5c36cfd2cdf1346b45d12454f2418ce193ab01729398cbf33ee"
+    },
+    {
+      "path": "Support/mnfst.txt",
+      "size": 26434,
+      "sha256": "8df0cf2f2dace467ec24734216aeece743ca51ec6f558f8b09e8d30bf891435f"
+    },
+    {
+      "path": "Support/Privacy and Cookie Policy/en_US.html",
+      "size": 48505,
+      "sha256": "854c2216210760abd2073830309b7008e5d4c89005e503a0bf588a3a4ccdd6b0"
+    },
+    {
+      "path": "Support/Privacy and Cookie Policy/ru_RU.html",
+      "size": 89333,
+      "sha256": "68c95990c30f55012da9f5d6f184a0cc51933a4a29c0db77f2b005fda1263e3c"
+    },
+    {
+      "path": "Support/Privacy and Cookie Policy/zh_CN.html",
+      "size": 43988,
+      "sha256": "100c2de44885c835e5858fbfdf4c4b3b22437de412395af3be1787390f6a77e1"
+    },
+    {
+      "path": "Support/User Agreement/en_US.html",
+      "size": 51955,
+      "sha256": "2e34d8ae9340444f9b6cec4066d91327584f9c5d3bea8f96dc74d9cbe5d23b50"
+    },
+    {
+      "path": "Support/User Agreement/ru_RU.html",
+      "size": 101070,
+      "sha256": "f4bb8e2bdae0b283190993b88047841809b56169188d9742ddfc01eb1f8b536f"
+    },
+    {
+      "path": "Support/User Agreement/zh_CN.html",
+      "size": 46880,
+      "sha256": "2bb73db2ebec955da9622fe99baea06138846d9e946886dfb189868f10b70a0d"
+    },
+    {
+      "path": "SwGame/Binaries/Win64/anadius.cfg",
+      "size": 1254,
+      "sha256": "a2ad3579d9cafdc73585c51f71ff89e72bd37cd89c33f6dc65db6da0d6b5d5a8"
+    },
+    {
+      "path": "SwGame/Binaries/Win64/anadius64.dll",
+      "size": 787968,
+      "sha256": "bf82e9a44192b18dd5b8b65b62a9ccd05ed41bbbe09cd1212a3ca31bcb28cfa9"
+    },
+    {
+      "path": "SwGame/Binaries/Win64/Core/Activation.dll",
+      "size": 2566472,
+      "sha256": "45e1ff40e8bfd3f7b203af2f31c4c54efe17b3a7949eb7b64fd6f4f07aab749d"
+    },
+    {
+      "path": "SwGame/Binaries/Win64/Core/Activation64.dll",
+      "size": 3037504,
+      "sha256": "8fab87b9f14873d6cba680fbdc22299a2a0653b2fc7c6ab55ada96f95ee9424f"
+    },
+    {
+      "path": "SwGame/Binaries/Win64/starwarsjedifallenorder.exe",
+      "size": 61245952,
+      "sha256": "35cc225fbe896b839fa74a755363bcd9e8c2d4295cae53ff20111590846d42d8"
+    },
+    {
+      "path": "SwGame/Binaries/Win64/SwGame-Win64-Shipping.exe",
+      "size": 61243904,
+      "sha256": "d6f8be0a937c8167fdbb6e6425fe1da31cc25694ca328c66607c55b5b526c91f"
+    },
+    {
+      "path": "SwGame/Content/Movies/Default_Startup.mp4",
+      "size": 35830406,
+      "sha256": "24f16a3b2d787c1f31187d696457f2c41e88658403b902a66259c378e48d053f"
+    },
+    {
+      "path": "SwGame/Content/Movies/Default_Startup_Loop.mp4",
+      "size": 18208943,
+      "sha256": "ead2a3bd1dfbea2c0b03d47608b2b3855a4547559fe8c3090a9b09fa53165c4d"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Air Focus Attack.mp4",
+      "size": 2504701,
+      "sha256": "ef87442b1f42a9d3d2e6823820688b1b3321ec9743d94bb73ecfe2afe83fb8fb"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Auto Blaster Deflection.mp4",
+      "size": 4586049,
+      "sha256": "14377bfa6b3baf7e6c47534441c4df78ed1f53df1d65d9fc7c2619e2108016f7"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Delay Attack Staff Saber.mp4",
+      "size": 6920317,
+      "sha256": "3056151071e0389de13ce8c29e2c359e802a3cc682fcf413c6fd62293990bbb2"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Delay Attack.mp4",
+      "size": 4660891,
+      "sha256": "451e3015e015a6e38cfbefd87742c741319f472602b4d94b2b37c329fcd7eae4"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Double Blade Focus Attack Upgrade.mp4",
+      "size": 3164316,
+      "sha256": "691ed271b2be81f2cee9839266a41f0c609abdfc0c4bc9f5a21922d887f019dd"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Evade Attack.mp4",
+      "size": 6228157,
+      "sha256": "b9985b66190a5bb1e4d1cf5deebf3e716297687ce32455fcf0b853e1e5ebb6f6"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Focus Attack.mp4",
+      "size": 4850635,
+      "sha256": "ea2b03a8a04216b4f086e188373265196a3fc7c039325113d0b3c1d195214aaf"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Force Pull 1.mp4",
+      "size": 10299577,
+      "sha256": "320d2f133e90db124dbfa7587ddf38a6c4fbfc8550e54175c5b56a599e504440"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Force Pull 2.mp4",
+      "size": 2557371,
+      "sha256": "09f0d8b5be824d051b47898c6d1aa070864435eaf82a535ca379c67510a36e45"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Force Slow Upgrade 1.mp4",
+      "size": 9826366,
+      "sha256": "40d9267d2ff8f0d9243254566dda32ed3abe273d62e4cc66603aa110e22639b9"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Force Slow Upgrade 2.mp4",
+      "size": 4430179,
+      "sha256": "41e881b0b736fee3bfbc4e5dd6d7c22426017d7e97c5f911a57eabc8d220a402"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Increased Leap Distance.mp4",
+      "size": 2178781,
+      "sha256": "af6ba4aabd5f63ac4572d75c3826161e6413f6eaa83f3bae3bad30bcf660bcdf"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Increased Throw Distance.mp4",
+      "size": 2546187,
+      "sha256": "4c62f198fe9d4681bf9f32a86972181b2de145e039aadd949877aff8b955ab9b"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Jedi Evade.mp4",
+      "size": 2439482,
+      "sha256": "c0e19dd4e8b67c0ce036e503f0dee1e24add7ac035f76c86e57d9fe862d97c32"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Leap.mp4",
+      "size": 4412658,
+      "sha256": "adbf2d91e0b7dab4c090477ee2c76935b62af582de0de38f87fc6cd6bfbce31e"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Lightsaber Throw.mp4",
+      "size": 2413715,
+      "sha256": "79b01835b1730b7adcae75a666e2071706e96936434061df3b39e97f850f8f35"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Lightsaber Transform Attack (Single to Double).mp4",
+      "size": 5136450,
+      "sha256": "811a61d03e88e1c71c214a4b021ced30925579088559cac2750203dd47c1f18f"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Sprint Attack.mp4",
+      "size": 2959936,
+      "sha256": "8a61c580d21004fc034434d7bc09e4cff9f7bc68f20f5649eb874ff4c8644197"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Upgrade Push 1.mp4",
+      "size": 5820732,
+      "sha256": "afb4b131276aa69c18f90b66c99fc92ff8d757a10747104a38c2157da5a05cc8"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Upgrade Push 2.mp4",
+      "size": 7491209,
+      "sha256": "e342b528e42236f035c532ea47959d5f22e65060da5ae42672b2e1badc6dc720"
+    },
+    {
+      "path": "SwGame/Content/Movies/Skill tree/Upgraded Focus Attack.mp4",
+      "size": 2801438,
+      "sha256": "b961eb95a95caba5224f7cd56841bfe9a4906b3ba7d873605855ce2d70450188"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor.pak",
+      "size": 6006851957,
+      "sha256": "503272c171c1a0162a40cf944a9c9b7212b78cd371bb5b21e2ea7a9a5232c8e8"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_0_P.pak",
+      "size": 17509117,
+      "sha256": "e9d1cb5ddd70d668c77385ad4f0db758bb197c01dd0d4d4a68afef918bafa9d4"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_1_P.pak",
+      "size": 4152949,
+      "sha256": "a3a45cc6961aa4114357e08cb52716e76c64326a5055782f964447ac86937496"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_2_P.pak",
+      "size": 1347529,
+      "sha256": "a9940092312f462e1dc36cb4514c05dfac081cd153afb1a7ea54ee89d960b80f"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_3_P.pak",
+      "size": 61737608,
+      "sha256": "bcb2ba4cb92116f5ee7b835653ad45319ebbe945ce7ed0b9e5b1f984010cb031"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_4_P.pak",
+      "size": 35129376,
+      "sha256": "df43805d20eed9bb502140b8bb52362a7145651db6f00fa473e276451f63aebf"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_5_P.pak",
+      "size": 1444321,
+      "sha256": "00d4d1c68e2a1282215b2d47af0d4357a5092f58bbefb7c34592c658186eabb8"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_6_P.pak",
+      "size": 4880598,
+      "sha256": "42954d1d1ad6e668d482784ee6fb86dca46e88092f81b593671a2f867f1bf828"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_7_P.pak",
+      "size": 1080831882,
+      "sha256": "a42fb8bcb2aeb5548227ca3b436aa9b67c217020c704f1f15d51d28a5929ec16"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_8_P.pak",
+      "size": 29015804,
+      "sha256": "62d8616c1040ea02ac0a50986ded3c73995dbd78f41e99a3a32e7000508da5cb"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor.pak",
+      "size": 12919437530,
+      "sha256": "2f662568ff5c15a3e51115c2849d64caa2b99eb8b8bac4aea54fe0838bef606a"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_0_P.pak",
+      "size": 5694153,
+      "sha256": "650ec8f4a816ce1deb2e86ffcb01396cec3f9cbec3ee2beae27df507f6c0f586"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_1_P.pak",
+      "size": 1642859,
+      "sha256": "6c3f5e5b8c255a3634a18422787ac3ff88f88fe67afa43ae02acf08446d339e3"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_2_P.pak",
+      "size": 3217419,
+      "sha256": "598f28dde05d060f6db9e413f383440ae7941aea1164f8c90922c9d72d02e766"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_3_P.pak",
+      "size": 1844621,
+      "sha256": "0274cfebbbad1e9b3ea947644f3b8ad65d71f86f5d9459c3f382e614769758b3"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_4_P.pak",
+      "size": 1579919,
+      "sha256": "67e91d759891e27daa5d6605e6dc9374b872913c3c7238997bc58dfac449f52f"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_5_P.pak",
+      "size": 1542073,
+      "sha256": "0b05cd57cb4e041479e1b706afe06139106051490af3972893a1e5ed4d245f0d"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_6_P.pak",
+      "size": 2807725,
+      "sha256": "241de28f04d3bb09b7ec94c57bcbe8fe2157abaa3d6ae01d642b366316a2255b"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_7_P.pak",
+      "size": 122722344,
+      "sha256": "d875300096d2f0a95a4182348a72e9263ed0534c2256d7fa27bdc0b6be41ce03"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_8_P.pak",
+      "size": 1951423,
+      "sha256": "4dc967da1f4d861f61d30eeb72275ac5680ea2feb32bcf3f3e64c014f40db6df"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor.pak",
+      "size": 4683203675,
+      "sha256": "8bbda36b363414513fc14b56a4502936c57aa69bf43a2c468868f4a304af44f1"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_0_P.pak",
+      "size": 25270676,
+      "sha256": "228c490828d024b2b885df68a984b806ace6035521c0f8e59d56806f3b3f3250"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_1_P.pak",
+      "size": 6830428,
+      "sha256": "dce5cdcac178620b096667cbba3a0c79359b644aa5bb3e5105e0f601ccaefb30"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_2_P.pak",
+      "size": 7501074,
+      "sha256": "7798ac9e97bebee88ea53a0f865b1b229a638a5ebfcf72f01b04be354cb2cad7"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_3_P.pak",
+      "size": 7616246,
+      "sha256": "b92f6a0c7b69795054d00e636a3499108b2311790b5ac8048fa5c2a918477814"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_4_P.pak",
+      "size": 6914634,
+      "sha256": "5d2f8544c5ff8ad2f8f3fbac11bc84be9128f2be470a510480ef81e6457cd0f0"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_5_P.pak",
+      "size": 6691484,
+      "sha256": "b55ab62cefeb7b4948d0380c05a28735979699539a81226c97392de7d48546d8"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_6_P.pak",
+      "size": 7720958,
+      "sha256": "7407e8ef81cb4a64f05127bf6c01c9bcf8267d1e6da4df0558490da1f6c50648"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_7_P.pak",
+      "size": 7473730,
+      "sha256": "767bf511053e57c76dc8023390b58117cfdbc0a9a8076aa5627781c014f8b6c8"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_8_P.pak",
+      "size": 6689558,
+      "sha256": "c9fb4842908e8d8052b277bea65ab6a06327fa35be58630c18fa13b285317076"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor.pak",
+      "size": 12390418562,
+      "sha256": "a2e3ab6fe221f612db973d608b7aa3dc31c0e0a5a525104faf6addeb9cda3f4b"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_0_P.pak",
+      "size": 14720493,
+      "sha256": "b5b0bfbc664746549aa27eda45d6f95e9352c13bcf89555b3ade9df53c0e4736"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_1_P.pak",
+      "size": 4896621,
+      "sha256": "6676b6b927a7a3232566c089154540232aa873a8be5e437a1c5f9fb630b6b740"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_2_P.pak",
+      "size": 5229887,
+      "sha256": "f0508874b9e047687d87c1412aec7dcb2b79c88e1f12735ee2a804db1ef703de"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_3_P.pak",
+      "size": 29418795,
+      "sha256": "6559ceb0194c50f27f0610e451a4eb092286cc94942dbf30584b871712ae36a6"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_4_P.pak",
+      "size": 42743282,
+      "sha256": "584c0fa4971bfdba7359a4f49f291c578a9dbf8ff2cf0a689f4060d730223c4a"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_5_P.pak",
+      "size": 5499103,
+      "sha256": "655498833f1a459917947280d615bd4d6edc137967e91c4a78c43af6850f57fc"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_6_P.pak",
+      "size": 5022865,
+      "sha256": "2cefaf4e120b4dda8e7670fb2b377fe9b6d3720a4b5b0ab2187422b22fef59fa"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_7_P.pak",
+      "size": 9773731,
+      "sha256": "c508f18d78a7502cac2d442056b3b57186e50bfc84d80eedfab5abc5d86b537e"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_8_P.pak",
+      "size": 4898669,
+      "sha256": "cf16aafc5e0d70164ecf03d4731d60f86b335d2ac1ef4b03aa93b04ee1dbcdb6"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor.pak",
+      "size": 8371306193,
+      "sha256": "fab26cdfe90df09031fe96158396a6a2511dcc3b5c87d732f945c35e30e01912"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_0_P.pak",
+      "size": 21426598,
+      "sha256": "5aaa066d4a95e8d700abbb26f254659d9ab83f814fdda62f95081605c7ddeccd"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_1_P.pak",
+      "size": 13557348,
+      "sha256": "b1b669bbd4a222eb25b6e96f7ba13dfc926c0b3ef9511ba8f9836656ff294938"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_2_P.pak",
+      "size": 13664424,
+      "sha256": "3da736a9ab7d073e02687a07e8151c49c2ab574ac1968f7f04080ecd553ccb82"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_3_P.pak",
+      "size": 15542556,
+      "sha256": "27bf60ca48a67e9eaa04383d556e0547a82e1e0ec957fce7f72d0ee3fcb8326d"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_4_P.pak",
+      "size": 13841558,
+      "sha256": "a1e027e212671e81f6b2ee33453b7d2dab89798bc8e14ec91773459d22d8abda"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_5_P.pak",
+      "size": 14099008,
+      "sha256": "e67ddc677ca45ec5f2ff3beaf9976905d80a0d264f8ff0cf8b26f08e7b22050c"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_6_P.pak",
+      "size": 14212090,
+      "sha256": "1f00cc1e27ef108f57fed828d61ef34fbeeb1a12bdbf9f912dc08144028885a2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_7_P.pak",
+      "size": 16566931,
+      "sha256": "9eff702ebbc4c8a713d5a64d53e1b0c7e47fcc969119693c114032cf91a9a2a1"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_8_P.pak",
+      "size": 13541108,
+      "sha256": "b1fff0c5a12086dcef2938cbcd855bf0c6831a169224e73c868b1be926d11355"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor.pak",
+      "size": 572494714,
+      "sha256": "dc7e8c15c0bcc7da08d7152b1def42a44e37e188dabda5c3228e657228fbed43"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_0_P.pak",
+      "size": 666769,
+      "sha256": "8b4ac7b415efa0ac3f2185738db7be1326e13f8c73b0f2f02355932d4470ccb6"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_1_P.pak",
+      "size": 159778,
+      "sha256": "a843b8ab35d4caee33979c600d89f058137cf6025a8743c7b0e227a4fece548f"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_2_P.pak",
+      "size": 159830,
+      "sha256": "2fc5a68e94e3fc1559a1c582b6d2e563d4fc05d34c4914df423de129aa9b9973"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_3_P.pak",
+      "size": 254415,
+      "sha256": "c4f092c06ce62ba07f7b483eb6a9ff82c05aca89d9490761e4cd3fe311cea30f"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_4_P.pak",
+      "size": 160020,
+      "sha256": "558b2ca004da465142107e07fb9ce6afd54e7de92896914da702314cdaabfcac"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_5_P.pak",
+      "size": 160024,
+      "sha256": "90ad5c0079f1c8357535e9945d8a1cd8f9f165986f87ca5dae003f2b0cb38c97"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_6_P.pak",
+      "size": 410915,
+      "sha256": "eaaf9001fb4044f25ce8d624d5177427e794e4b735f56c2c31a62596f5456505"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_7_P.pak",
+      "size": 1108609,
+      "sha256": "f5516daf2b849bfaec72fd544e36587904bc3bec144184a782be6aa0a87bd7d9"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_8_P.pak",
+      "size": 160080,
+      "sha256": "b8a3d335731534e963bf7e969b7c9b4651d5153d06cb58574568b5b025ef2429"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor.pak",
+      "size": 5865789759,
+      "sha256": "d8c5cb4bc610c4825704c956def858dc7ddc36e1d0aaab89e1665581a0817c7e"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_0_P.pak",
+      "size": 23145906,
+      "sha256": "ff55e581721a78e31ee4843e99774656c600d9766137c15f5fa0b3aff96d26b2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_1_P.pak",
+      "size": 21420320,
+      "sha256": "202b23b898ae2193fb67f5b61adcb6244dd52ad7404d59bd8036f424d3d4f073"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_2_P.pak",
+      "size": 22694352,
+      "sha256": "0a3f0e155844d351ff8f90aa78d0cbfe58a9c781377741aa7b4bb8323be854dc"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_3_P.pak",
+      "size": 23655004,
+      "sha256": "ea7e2eba2911a4245efdad638750c4e601163807bab3ed26af7a7122c0dc1243"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_4_P.pak",
+      "size": 21884458,
+      "sha256": "92819409bc0c33bd5c7438ae1f0a1e54d5c74e8e9de4da0143a4de6ecf4914b0"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_5_P.pak",
+      "size": 21833174,
+      "sha256": "628be0920cfb20390a8425d8d8dead95e939fb73bc7333833ef57f02b8c7dafc"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_6_P.pak",
+      "size": 22016542,
+      "sha256": "65ececb7929d3a402a0d272c5ac12622692c65b682a5ff0d871e03f007f1d007"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_7_P.pak",
+      "size": 26334602,
+      "sha256": "d514a907226ce93034e24e764d75bf06238d2308c209b6e228cdd99184e130e0"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_8_P.pak",
+      "size": 21378808,
+      "sha256": "450833ec2962a5c78c7cb4b99c13706ae225706d2f08e1366cf387401c096fea"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor.pak",
+      "size": 1211672846,
+      "sha256": "a1fef5efd7fe2dfccb87eeaf23f3ccfd40625dc95131e3295047704430a2f889"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_0_P.pak",
+      "size": 10598747,
+      "sha256": "be3e65c9dd0a81027bade4371183754ef870b44a40ab8ab0a47803cfd6061b0d"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_1_P.pak",
+      "size": 10034607,
+      "sha256": "f5d83a35aa5fe93940fa2a54fab055e925347685bde4f21f34aa76966547873c"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_2_P.pak",
+      "size": 10034607,
+      "sha256": "98bc0a64f15d7edcaa87f06ea7f9fdb1da95daaf7ac6d754fa46ac1e746fa8c4"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_3_P.pak",
+      "size": 10128112,
+      "sha256": "a91224a8d697ffa2f6a737700432ec3198a25a64eafb810c973411403993467c"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_4_P.pak",
+      "size": 10034606,
+      "sha256": "145790fe9b4801df3e15056114ee5ae3f97013cb207a6cd03b21181e9a7a8093"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_5_P.pak",
+      "size": 10117054,
+      "sha256": "39d6a0bb45d7bd2714303366a81d2cbc92eebd24349331d63dbf5afdc680a9f1"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_6_P.pak",
+      "size": 11507852,
+      "sha256": "f292c5b370d3c7b896206e938ff777b027b8dcf8eae4e16eddc3e5d1111b9c3c"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_7_P.pak",
+      "size": 12097589,
+      "sha256": "95b35dd1af9bcc58ada7ea8656ed436136177cf5b23757f097d0d1e69d3c8800"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_8_P.pak",
+      "size": 10034607,
+      "sha256": "666d34db3acf12899b1ec5e40eb47fcc333d0f94ba489157fe436dd03bcf3c23"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor.pak",
+      "size": 724591974,
+      "sha256": "83046fcb70f7ba997f14cc3f47052babf7af94c124e9a9ad716f8cede0eade0d"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_0_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_1_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_2_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_3_P.pak",
+      "size": 21598865,
+      "sha256": "b7e38288af16635d2d1133ba4bc49bc75b063fc4c753abd054ba8ed45091fc32"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_4_P.pak",
+      "size": 14398576,
+      "sha256": "fa63f6ced19335b5e768f3a840369d54c7abfcf6f7b4ddb910d1ac2fb2d61786"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_5_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_6_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_7_P.pak",
+      "size": 254173,
+      "sha256": "03f2e382f05b8a631afc5fb1582d32b61ec56e5855e92b947860df17f40e64fd"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_8_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor.pak",
+      "size": 793596690,
+      "sha256": "951c8f5b71e1aa898903f9ae46e317ad6e0855c73c7ca07505577fa0337a9a4c"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_0_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_1_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_2_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_3_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_4_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_5_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_6_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_7_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_8_P.pak",
+      "size": 71,
+      "sha256": "7de60905ce7ffa17991f06309b7ce4ed6698b475f510001d631461549bf037f2"
+    },
+    {
+      "path": "SwGame/Content/Splash/Splash.bmp",
+      "size": 2250054,
+      "sha256": "bd1c0b3c5cdc08f64df6a668ebaca8bd949b9a94a4d0b5d30147fe4bbab00ae6"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "0003518/deluxe.bin",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 4096
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/DDV_1.bk2",
+          "file_offset": 0,
+          "chunk_offset": 4096,
+          "length": 1522188142
+        }
+      ],
+      "sha256": "bd12a077c7defbc97e7d8f28bd5a747208b672cb33d31f32427d9e07b55dd0bb"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/DDV_1.bk2",
+          "file_offset": 1522188142,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "5f26bb4fd05d5a9441fbef07f4e5e34777dc0fc2e73c1be330dcd939b5e90580"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/DDV_1.bk2",
+          "file_offset": 3044380380,
+          "chunk_offset": 0,
+          "length": 19041404
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/DDV_2.bk2",
+          "file_offset": 0,
+          "chunk_offset": 19041404,
+          "length": 362548224
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/DDV_3.bk2",
+          "file_offset": 0,
+          "chunk_offset": 381589628,
+          "length": 327834376
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/DDV_4.bk2",
+          "file_offset": 0,
+          "chunk_offset": 709424004,
+          "length": 812768234
+        }
+      ],
+      "sha256": "a2c31b9946377dce8ef35f34b30ddd05ce6a7bea8ad78848ec73adc1f114c82d"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/DDV_4.bk2",
+          "file_offset": 812768234,
+          "chunk_offset": 0,
+          "length": 106410818
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/DE_DDV_1_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 106410818,
+          "length": 110724
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/DE_DDV_2_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 106521542,
+          "length": 11808
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/DE_DDV_3_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 106533350,
+          "length": 9970
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/DE_DDV_4_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 106543320,
+          "length": 32611
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/EN_DDV_1_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 106575931,
+          "length": 109148
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/EN_DDV_2_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 106685079,
+          "length": 11697
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/EN_DDV_3_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 106696776,
+          "length": 10241
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/EN_DDV_4_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 106707017,
+          "length": 32145
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-ES_DDV_1_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 106739162,
+          "length": 103513
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-ES_DDV_2_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 106842675,
+          "length": 11460
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-ES_DDV_3_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 106854135,
+          "length": 10083
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-ES_DDV_4_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 106864218,
+          "length": 30832
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-MX_DDV_1_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 106895050,
+          "length": 109371
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-MX_DDV_2_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107004421,
+          "length": 11413
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-MX_DDV_3_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107015834,
+          "length": 9907
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ES-MX_DDV_4_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107025741,
+          "length": 32310
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/FR_DDV_1_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107058051,
+          "length": 107014
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/FR_DDV_2_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107165065,
+          "length": 11359
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/FR_DDV_3_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107176424,
+          "length": 10016
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/FR_DDV_4_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107186440,
+          "length": 31883
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/IT_DDV_1_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107218323,
+          "length": 105033
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/IT_DDV_2_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107323356,
+          "length": 11701
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/IT_DDV_3_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107335057,
+          "length": 10006
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/IT_DDV_4_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107345063,
+          "length": 31186
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/JA_DDV_1_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107376249,
+          "length": 103456
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/JA_DDV_2_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107479705,
+          "length": 11691
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/JA_DDV_3_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107491396,
+          "length": 9945
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/JA_DDV_4_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107501341,
+          "length": 31459
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/KO_DDV_1_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107532800,
+          "length": 119565
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/KO_DDV_2_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107652365,
+          "length": 13177
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/KO_DDV_3_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107665542,
+          "length": 11244
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/KO_DDV_4_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107676786,
+          "length": 35029
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PL_DDV_1_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107711815,
+          "length": 102239
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PL_DDV_2_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107814054,
+          "length": 11445
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PL_DDV_3_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107825499,
+          "length": 9492
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PL_DDV_4_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107834991,
+          "length": 30838
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PT_DDV_1_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107865829,
+          "length": 103500
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PT_DDV_2_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107969329,
+          "length": 11764
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PT_DDV_3_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107981093,
+          "length": 9986
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/PT_DDV_4_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 107991079,
+          "length": 30653
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/RU_DDV_1_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 108021732,
+          "length": 149216
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/RU_DDV_2_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 108170948,
+          "length": 15919
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/RU_DDV_3_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 108186867,
+          "length": 14026
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/RU_DDV_4_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 108200893,
+          "length": 43677
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANS_DDV_1_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 108244570,
+          "length": 96649
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANS_DDV_2_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 108341219,
+          "length": 11136
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANS_DDV_3_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 108352355,
+          "length": 9167
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANS_DDV_4_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 108361522,
+          "length": 28046
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANT_DDV_1_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 108389568,
+          "length": 95217
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANT_DDV_2_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 108484785,
+          "length": 11044
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANT_DDV_3_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 108495829,
+          "length": 8911
+        },
+        {
+          "file": "0003518/SwGame/Content/Deluxe/Movies/subtitles/ZH-HANT_DDV_4_Subtitle.srt",
+          "file_offset": 0,
+          "chunk_offset": 108504740,
+          "length": 28095
+        },
+        {
+          "file": "0003518/SwGame/Content/Paks/Deluxepakchunk0-WindowsNoEditor.pak",
+          "file_offset": 0,
+          "chunk_offset": 108532835,
+          "length": 68056290
+        },
+        {
+          "file": "__Installer/Cleanup.dat",
+          "file_offset": 0,
+          "chunk_offset": 176589125,
+          "length": 76718
+        },
+        {
+          "file": "__Installer/Cleanup.exe",
+          "file_offset": 0,
+          "chunk_offset": 176665843,
+          "length": 929576
+        },
+        {
+          "file": "__Installer/Deluxe/__Installer/Cleanup.dat",
+          "file_offset": 0,
+          "chunk_offset": 177595419,
+          "length": 74297
+        },
+        {
+          "file": "__Installer/Deluxe/__Installer/Cleanup.exe",
+          "file_offset": 0,
+          "chunk_offset": 177669716,
+          "length": 929576
+        },
+        {
+          "file": "__Installer/Deluxe/__Installer/installerdata.xml",
+          "file_offset": 0,
+          "chunk_offset": 178599292,
+          "length": 4929
+        },
+        {
+          "file": "__Installer/Deluxe/__Installer/InstallLog.txt",
+          "file_offset": 0,
+          "chunk_offset": 178604221,
+          "length": 26602
+        },
+        {
+          "file": "__Installer/Deluxe/__Installer/Touchup.dat",
+          "file_offset": 0,
+          "chunk_offset": 178630823,
+          "length": 74000
+        },
+        {
+          "file": "__Installer/Deluxe/__Installer/Touchup.exe",
+          "file_offset": 0,
+          "chunk_offset": 178704823,
+          "length": 930088
+        },
+        {
+          "file": "__Installer/Deluxe/Support/eula/de_DE.html",
+          "file_offset": 0,
+          "chunk_offset": 179634911,
+          "length": 45940
+        },
+        {
+          "file": "__Installer/Deluxe/Support/eula/en_US.html",
+          "file_offset": 0,
+          "chunk_offset": 179680851,
+          "length": 43885
+        },
+        {
+          "file": "__Installer/Deluxe/Support/eula/es_ES.html",
+          "file_offset": 0,
+          "chunk_offset": 179724736,
+          "length": 54068
+        },
+        {
+          "file": "__Installer/Deluxe/Support/eula/es_MX.html",
+          "file_offset": 0,
+          "chunk_offset": 179778804,
+          "length": 54072
+        },
+        {
+          "file": "__Installer/Deluxe/Support/eula/fr_FR.html",
+          "file_offset": 0,
+          "chunk_offset": 179832876,
+          "length": 55221
+        },
+        {
+          "file": "__Installer/Deluxe/Support/eula/it_IT.html",
+          "file_offset": 0,
+          "chunk_offset": 179888097,
+          "length": 51641
+        },
+        {
+          "file": "__Installer/Deluxe/Support/eula/ja_JP.html",
+          "file_offset": 0,
+          "chunk_offset": 179939738,
+          "length": 62485
+        },
+        {
+          "file": "__Installer/Deluxe/Support/eula/ko_KR.html",
+          "file_offset": 0,
+          "chunk_offset": 180002223,
+          "length": 53424
+        },
+        {
+          "file": "__Installer/Deluxe/Support/eula/pl_PL.html",
+          "file_offset": 0,
+          "chunk_offset": 180055647,
+          "length": 56820
+        },
+        {
+          "file": "__Installer/Deluxe/Support/eula/pt_BR.html",
+          "file_offset": 0,
+          "chunk_offset": 180112467,
+          "length": 51387
+        },
+        {
+          "file": "__Installer/Deluxe/Support/eula/ru_RU.html",
+          "file_offset": 0,
+          "chunk_offset": 180163854,
+          "length": 87320
+        },
+        {
+          "file": "__Installer/Deluxe/Support/eula/zh_CN.html",
+          "file_offset": 0,
+          "chunk_offset": 180251174,
+          "length": 41140
+        },
+        {
+          "file": "__Installer/Deluxe/Support/eula/zh_TW.html",
+          "file_offset": 0,
+          "chunk_offset": 180292314,
+          "length": 41232
+        },
+        {
+          "file": "__Installer/Deluxe/Support/mnfst.txt",
+          "file_offset": 0,
+          "chunk_offset": 180333546,
+          "length": 4975
+        },
+        {
+          "file": "__Installer/directx/eula/cs_CZ.txt",
+          "file_offset": 0,
+          "chunk_offset": 180338521,
+          "length": 5914
+        },
+        {
+          "file": "__Installer/directx/eula/de_DE.txt",
+          "file_offset": 0,
+          "chunk_offset": 180344435,
+          "length": 7547
+        },
+        {
+          "file": "__Installer/directx/eula/en_US.txt",
+          "file_offset": 0,
+          "chunk_offset": 180351982,
+          "length": 4849
+        },
+        {
+          "file": "__Installer/directx/eula/es_ES.txt",
+          "file_offset": 0,
+          "chunk_offset": 180356831,
+          "length": 6300
+        },
+        {
+          "file": "__Installer/directx/eula/es_MX.txt",
+          "file_offset": 0,
+          "chunk_offset": 180363131,
+          "length": 6300
+        },
+        {
+          "file": "__Installer/directx/eula/fr_FR.txt",
+          "file_offset": 0,
+          "chunk_offset": 180369431,
+          "length": 5968
+        },
+        {
+          "file": "__Installer/directx/eula/it_IT.txt",
+          "file_offset": 0,
+          "chunk_offset": 180375399,
+          "length": 6808
+        },
+        {
+          "file": "__Installer/directx/eula/ja_JP.txt",
+          "file_offset": 0,
+          "chunk_offset": 180382207,
+          "length": 7721
+        },
+        {
+          "file": "__Installer/directx/eula/ko_KR.txt",
+          "file_offset": 0,
+          "chunk_offset": 180389928,
+          "length": 6570
+        },
+        {
+          "file": "__Installer/directx/eula/nl_NL.txt",
+          "file_offset": 0,
+          "chunk_offset": 180396498,
+          "length": 6120
+        },
+        {
+          "file": "__Installer/directx/eula/no_NO.txt",
+          "file_offset": 0,
+          "chunk_offset": 180402618,
+          "length": 5790
+        },
+        {
+          "file": "__Installer/directx/eula/pl_PL.txt",
+          "file_offset": 0,
+          "chunk_offset": 180408408,
+          "length": 6988
+        },
+        {
+          "file": "__Installer/directx/eula/pt_BR.txt",
+          "file_offset": 0,
+          "chunk_offset": 180415396,
+          "length": 5452
+        },
+        {
+          "file": "__Installer/directx/eula/pt_PT.txt",
+          "file_offset": 0,
+          "chunk_offset": 180420848,
+          "length": 5452
+        },
+        {
+          "file": "__Installer/directx/eula/ru_RU.txt",
+          "file_offset": 0,
+          "chunk_offset": 180426300,
+          "length": 12348
+        },
+        {
+          "file": "__Installer/directx/eula/sv_SE.txt",
+          "file_offset": 0,
+          "chunk_offset": 180438648,
+          "length": 5461
+        },
+        {
+          "file": "__Installer/directx/eula/zh_CN.txt",
+          "file_offset": 0,
+          "chunk_offset": 180444109,
+          "length": 4837
+        },
+        {
+          "file": "__Installer/directx/eula/zh_TW.txt",
+          "file_offset": 0,
+          "chunk_offset": 180448946,
+          "length": 4924
+        },
+        {
+          "file": "__Installer/directx/redist/Apr2005_d3dx9_25_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 180453870,
+          "length": 1347354
+        },
+        {
+          "file": "__Installer/directx/redist/Apr2005_d3dx9_25_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 181801224,
+          "length": 1078962
+        },
+        {
+          "file": "__Installer/directx/redist/Apr2006_d3dx9_30_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 182880186,
+          "length": 1397830
+        },
+        {
+          "file": "__Installer/directx/redist/Apr2006_d3dx9_30_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 184278016,
+          "length": 1115221
+        },
+        {
+          "file": "__Installer/directx/redist/Apr2006_MDX1_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 185393237,
+          "length": 916430
+        },
+        {
+          "file": "__Installer/directx/redist/Apr2006_MDX1_x86_Archive.cab",
+          "file_offset": 0,
+          "chunk_offset": 186309667,
+          "length": 4162630
+        },
+        {
+          "file": "__Installer/directx/redist/Apr2006_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 190472297,
+          "length": 179133
+        },
+        {
+          "file": "__Installer/directx/redist/Apr2006_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 190651430,
+          "length": 133103
+        },
+        {
+          "file": "__Installer/directx/redist/Apr2006_xinput_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 190784533,
+          "length": 87101
+        },
+        {
+          "file": "__Installer/directx/redist/Apr2006_xinput_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 190871634,
+          "length": 46010
+        },
+        {
+          "file": "__Installer/directx/redist/APR2007_d3dx10_33_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 190917644,
+          "length": 698612
+        },
+        {
+          "file": "__Installer/directx/redist/APR2007_d3dx10_33_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 191616256,
+          "length": 695865
+        },
+        {
+          "file": "__Installer/directx/redist/APR2007_d3dx9_33_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 192312121,
+          "length": 1607358
+        },
+        {
+          "file": "__Installer/directx/redist/APR2007_d3dx9_33_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 193919479,
+          "length": 1606039
+        },
+        {
+          "file": "__Installer/directx/redist/APR2007_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 195525518,
+          "length": 195766
+        },
+        {
+          "file": "__Installer/directx/redist/APR2007_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 195721284,
+          "length": 151225
+        },
+        {
+          "file": "__Installer/directx/redist/APR2007_xinput_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 195872509,
+          "length": 96817
+        },
+        {
+          "file": "__Installer/directx/redist/APR2007_xinput_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 195969326,
+          "length": 53302
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2005_d3dx9_27_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 196022628,
+          "length": 1350542
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2005_d3dx9_27_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 197373170,
+          "length": 1077644
+        },
+        {
+          "file": "__Installer/directx/redist/AUG2006_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 198450814,
+          "length": 182903
+        },
+        {
+          "file": "__Installer/directx/redist/AUG2006_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 198633717,
+          "length": 137235
+        },
+        {
+          "file": "__Installer/directx/redist/AUG2006_xinput_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 198770952,
+          "length": 87142
+        },
+        {
+          "file": "__Installer/directx/redist/AUG2006_xinput_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 198858094,
+          "length": 46058
+        },
+        {
+          "file": "__Installer/directx/redist/AUG2007_d3dx10_35_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 198904152,
+          "length": 852286
+        },
+        {
+          "file": "__Installer/directx/redist/AUG2007_d3dx10_35_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 199756438,
+          "length": 796867
+        },
+        {
+          "file": "__Installer/directx/redist/AUG2007_d3dx9_35_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 200553305,
+          "length": 1800160
+        },
+        {
+          "file": "__Installer/directx/redist/AUG2007_d3dx9_35_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 202353465,
+          "length": 1708152
+        },
+        {
+          "file": "__Installer/directx/redist/AUG2007_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 204061617,
+          "length": 198096
+        },
+        {
+          "file": "__Installer/directx/redist/AUG2007_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 204259713,
+          "length": 153012
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2008_d3dx10_39_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 204412725,
+          "length": 867612
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2008_d3dx10_39_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 205280337,
+          "length": 849167
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2008_d3dx9_39_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 206129504,
+          "length": 1794084
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2008_d3dx9_39_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 207923588,
+          "length": 1464672
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2008_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 209388260,
+          "length": 121772
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2008_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 209510032,
+          "length": 92996
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2008_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 209603028,
+          "length": 271412
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2008_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 209874440,
+          "length": 271038
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2009_D3DCompiler_42_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 210145478,
+          "length": 919044
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2009_D3DCompiler_42_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 211064522,
+          "length": 900598
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2009_d3dcsx_42_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 211965120,
+          "length": 3112111
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2009_d3dcsx_42_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 215077231,
+          "length": 3319740
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2009_d3dx10_42_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 218396971,
+          "length": 232635
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2009_d3dx10_42_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 218629606,
+          "length": 192131
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2009_d3dx11_42_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 218821737,
+          "length": 136301
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2009_d3dx11_42_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 218958038,
+          "length": 105044
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2009_d3dx9_42_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 219063082,
+          "length": 930116
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2009_d3dx9_42_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 219993198,
+          "length": 728456
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2009_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 220721654,
+          "length": 122408
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2009_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 220844062,
+          "length": 93106
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2009_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 220937168,
+          "length": 273264
+        },
+        {
+          "file": "__Installer/directx/redist/Aug2009_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 221210432,
+          "length": 272642
+        },
+        {
+          "file": "__Installer/directx/redist/Dec2005_d3dx9_28_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 221483074,
+          "length": 1357976
+        },
+        {
+          "file": "__Installer/directx/redist/Dec2005_d3dx9_28_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 222841050,
+          "length": 1079456
+        },
+        {
+          "file": "__Installer/directx/redist/DEC2006_d3dx10_00_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 223920506,
+          "length": 212807
+        },
+        {
+          "file": "__Installer/directx/redist/DEC2006_d3dx10_00_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 224133313,
+          "length": 191720
+        },
+        {
+          "file": "__Installer/directx/redist/DEC2006_d3dx9_32_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 224325033,
+          "length": 1571154
+        },
+        {
+          "file": "__Installer/directx/redist/DEC2006_d3dx9_32_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 225896187,
+          "length": 1574376
+        },
+        {
+          "file": "__Installer/directx/redist/DEC2006_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 227470563,
+          "length": 192475
+        },
+        {
+          "file": "__Installer/directx/redist/DEC2006_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 227663038,
+          "length": 145599
+        },
+        {
+          "file": "__Installer/directx/redist/DSETUP.dll",
+          "file_offset": 0,
+          "chunk_offset": 227808637,
+          "length": 95576
+        },
+        {
+          "file": "__Installer/directx/redist/dsetup32.dll",
+          "file_offset": 0,
+          "chunk_offset": 227904213,
+          "length": 1566040
+        },
+        {
+          "file": "__Installer/directx/redist/dxdllreg_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 229470253,
+          "length": 44624
+        },
+        {
+          "file": "__Installer/directx/redist/DXSETUP.exe",
+          "file_offset": 0,
+          "chunk_offset": 229514877,
+          "length": 517976
+        },
+        {
+          "file": "__Installer/directx/redist/dxupdate.cab",
+          "file_offset": 0,
+          "chunk_offset": 230032853,
+          "length": 97152
+        },
+        {
+          "file": "__Installer/directx/redist/Feb2005_d3dx9_24_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 230130005,
+          "length": 1247499
+        },
+        {
+          "file": "__Installer/directx/redist/Feb2005_d3dx9_24_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 231377504,
+          "length": 1013225
+        },
+        {
+          "file": "__Installer/directx/redist/Feb2006_d3dx9_29_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 232390729,
+          "length": 1362796
+        },
+        {
+          "file": "__Installer/directx/redist/Feb2006_d3dx9_29_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 233753525,
+          "length": 1084720
+        },
+        {
+          "file": "__Installer/directx/redist/Feb2006_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 234838245,
+          "length": 178359
+        },
+        {
+          "file": "__Installer/directx/redist/Feb2006_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 235016604,
+          "length": 132409
+        },
+        {
+          "file": "__Installer/directx/redist/FEB2007_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 235149013,
+          "length": 194675
+        },
+        {
+          "file": "__Installer/directx/redist/FEB2007_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 235343688,
+          "length": 147983
+        },
+        {
+          "file": "__Installer/directx/redist/Feb2010_X3DAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 235491671,
+          "length": 54678
+        },
+        {
+          "file": "__Installer/directx/redist/Feb2010_X3DAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 235546349,
+          "length": 20713
+        },
+        {
+          "file": "__Installer/directx/redist/Feb2010_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 235567062,
+          "length": 122446
+        },
+        {
+          "file": "__Installer/directx/redist/Feb2010_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 235689508,
+          "length": 93180
+        },
+        {
+          "file": "__Installer/directx/redist/Feb2010_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 235782688,
+          "length": 276960
+        },
+        {
+          "file": "__Installer/directx/redist/Feb2010_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 236059648,
+          "length": 277191
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2005_d3dx9_26_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 236336839,
+          "length": 1336002
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2005_d3dx9_26_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 237672841,
+          "length": 1064925
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2006_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 238737766,
+          "length": 180785
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2006_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 238918551,
+          "length": 133671
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2007_d3dx10_34_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 239052222,
+          "length": 699044
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2007_d3dx10_34_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 239751266,
+          "length": 698472
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2007_d3dx9_34_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 240449738,
+          "length": 1607774
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2007_d3dx9_34_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 242057512,
+          "length": 1607286
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2007_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 243664798,
+          "length": 197122
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2007_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 243861920,
+          "length": 152909
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2008_d3dx10_38_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 244014829,
+          "length": 867828
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2008_d3dx10_38_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 244882657,
+          "length": 849919
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2008_d3dx9_38_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 245732576,
+          "length": 1792608
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2008_d3dx9_38_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 247525184,
+          "length": 1463878
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2008_X3DAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 248989062,
+          "length": 55154
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2008_X3DAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 249044216,
+          "length": 21905
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2008_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 249066121,
+          "length": 121054
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2008_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 249187175,
+          "length": 93128
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2008_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 249280303,
+          "length": 269628
+        },
+        {
+          "file": "__Installer/directx/redist/JUN2008_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 249549931,
+          "length": 269024
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2010_D3DCompiler_43_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 249818955,
+          "length": 944460
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2010_D3DCompiler_43_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 250763415,
+          "length": 931471
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2010_d3dcsx_43_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 251694886,
+          "length": 752783
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2010_d3dcsx_43_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 252447669,
+          "length": 762188
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2010_d3dx10_43_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 253209857,
+          "length": 235955
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2010_d3dx10_43_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 253445812,
+          "length": 197283
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2010_d3dx11_43_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 253643095,
+          "length": 138205
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2010_d3dx11_43_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 253781300,
+          "length": 109445
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2010_d3dx9_43_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 253890745,
+          "length": 937246
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2010_d3dx9_43_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 254827991,
+          "length": 768036
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2010_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 255596027,
+          "length": 124596
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2010_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 255720623,
+          "length": 93686
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2010_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 255814309,
+          "length": 277338
+        },
+        {
+          "file": "__Installer/directx/redist/Jun2010_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 256091647,
+          "length": 278060
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2008_d3dx10_37_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 256369707,
+          "length": 844884
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2008_d3dx10_37_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 257214591,
+          "length": 818260
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2008_d3dx9_37_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 258032851,
+          "length": 1769862
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2008_d3dx9_37_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 259802713,
+          "length": 1443282
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2008_X3DAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 261245995,
+          "length": 55058
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2008_X3DAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 261301053,
+          "length": 21867
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2008_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 261322920,
+          "length": 122336
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2008_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 261445256,
+          "length": 93734
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2008_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 261538990,
+          "length": 251194
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2008_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 261790184,
+          "length": 226250
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2009_d3dx10_41_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 262016434,
+          "length": 1067160
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2009_d3dx10_41_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 263083594,
+          "length": 1040745
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2009_d3dx9_41_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 264124339,
+          "length": 1973702
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2009_d3dx9_41_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 266098041,
+          "length": 1612446
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2009_X3DAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 267710487,
+          "length": 54600
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2009_X3DAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 267765087,
+          "length": 21298
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2009_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 267786385,
+          "length": 121506
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2009_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 267907891,
+          "length": 92740
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2009_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 268000631,
+          "length": 275044
+        },
+        {
+          "file": "__Installer/directx/redist/Mar2009_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 268275675,
+          "length": 273018
+        },
+        {
+          "file": "__Installer/directx/redist/Nov2007_d3dx10_36_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 268548693,
+          "length": 864600
+        },
+        {
+          "file": "__Installer/directx/redist/Nov2007_d3dx10_36_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 269413293,
+          "length": 803884
+        },
+        {
+          "file": "__Installer/directx/redist/Nov2007_d3dx9_36_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 270217177,
+          "length": 1802058
+        },
+        {
+          "file": "__Installer/directx/redist/Nov2007_d3dx9_36_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 272019235,
+          "length": 1709360
+        },
+        {
+          "file": "__Installer/directx/redist/NOV2007_X3DAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 273728595,
+          "length": 46144
+        },
+        {
+          "file": "__Installer/directx/redist/NOV2007_X3DAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 273774739,
+          "length": 18496
+        },
+        {
+          "file": "__Installer/directx/redist/NOV2007_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 273793235,
+          "length": 196762
+        },
+        {
+          "file": "__Installer/directx/redist/NOV2007_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 273989997,
+          "length": 148264
+        },
+        {
+          "file": "__Installer/directx/redist/Nov2008_d3dx10_40_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 274138261,
+          "length": 994154
+        },
+        {
+          "file": "__Installer/directx/redist/Nov2008_d3dx10_40_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 275132415,
+          "length": 965421
+        },
+        {
+          "file": "__Installer/directx/redist/Nov2008_d3dx9_40_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 276097836,
+          "length": 1906878
+        },
+        {
+          "file": "__Installer/directx/redist/Nov2008_d3dx9_40_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 278004714,
+          "length": 1550796
+        },
+        {
+          "file": "__Installer/directx/redist/Nov2008_X3DAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 279555510,
+          "length": 54522
+        },
+        {
+          "file": "__Installer/directx/redist/Nov2008_X3DAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 279610032,
+          "length": 21851
+        },
+        {
+          "file": "__Installer/directx/redist/Nov2008_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 279631883,
+          "length": 121794
+        },
+        {
+          "file": "__Installer/directx/redist/Nov2008_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 279753677,
+          "length": 92684
+        },
+        {
+          "file": "__Installer/directx/redist/Nov2008_XAudio_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 279846361,
+          "length": 273960
+        },
+        {
+          "file": "__Installer/directx/redist/Nov2008_XAudio_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 280120321,
+          "length": 272611
+        },
+        {
+          "file": "__Installer/directx/redist/Oct2005_xinput_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 280392932,
+          "length": 86037
+        },
+        {
+          "file": "__Installer/directx/redist/Oct2005_xinput_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 280478969,
+          "length": 45359
+        },
+        {
+          "file": "__Installer/directx/redist/OCT2006_d3dx9_31_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 280524328,
+          "length": 1412902
+        },
+        {
+          "file": "__Installer/directx/redist/OCT2006_d3dx9_31_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 281937230,
+          "length": 1127217
+        },
+        {
+          "file": "__Installer/directx/redist/OCT2006_XACT_x64.cab",
+          "file_offset": 0,
+          "chunk_offset": 283064447,
+          "length": 182361
+        },
+        {
+          "file": "__Installer/directx/redist/OCT2006_XACT_x86.cab",
+          "file_offset": 0,
+          "chunk_offset": 283246808,
+          "length": 138017
+        },
+        {
+          "file": "__Installer/installerdata.xml",
+          "file_offset": 0,
+          "chunk_offset": 283384825,
+          "length": 20384
+        },
+        {
+          "file": "__Installer/InstallLog.txt",
+          "file_offset": 0,
+          "chunk_offset": 283405209,
+          "length": 58822
+        },
+        {
+          "file": "__Installer/Touchup.dat",
+          "file_offset": 0,
+          "chunk_offset": 283464031,
+          "length": 89622
+        },
+        {
+          "file": "__Installer/Touchup.exe",
+          "file_offset": 0,
+          "chunk_offset": 283553653,
+          "length": 930088
+        },
+        {
+          "file": "__Installer/vc/vc2015/eula/cs_CZ.rtf",
+          "file_offset": 0,
+          "chunk_offset": 284483741,
+          "length": 11775
+        },
+        {
+          "file": "__Installer/vc/vc2015/eula/de_DE.rtf",
+          "file_offset": 0,
+          "chunk_offset": 284495516,
+          "length": 12146
+        },
+        {
+          "file": "__Installer/vc/vc2015/eula/en_US.rtf",
+          "file_offset": 0,
+          "chunk_offset": 284507662,
+          "length": 8863
+        },
+        {
+          "file": "__Installer/vc/vc2015/eula/es_ES.rtf",
+          "file_offset": 0,
+          "chunk_offset": 284516525,
+          "length": 10616
+        },
+        {
+          "file": "__Installer/vc/vc2015/eula/fr_FR.rtf",
+          "file_offset": 0,
+          "chunk_offset": 284527141,
+          "length": 12019
+        },
+        {
+          "file": "__Installer/vc/vc2015/eula/it_IT.rtf",
+          "file_offset": 0,
+          "chunk_offset": 284539160,
+          "length": 11154
+        },
+        {
+          "file": "__Installer/vc/vc2015/eula/ja_JP.rtf",
+          "file_offset": 0,
+          "chunk_offset": 284550314,
+          "length": 32348
+        },
+        {
+          "file": "__Installer/vc/vc2015/eula/ko_KR.rtf",
+          "file_offset": 0,
+          "chunk_offset": 284582662,
+          "length": 29329
+        },
+        {
+          "file": "__Installer/vc/vc2015/eula/pl_PL.rtf",
+          "file_offset": 0,
+          "chunk_offset": 284611991,
+          "length": 13213
+        },
+        {
+          "file": "__Installer/vc/vc2015/eula/pt_BR.rtf",
+          "file_offset": 0,
+          "chunk_offset": 284625204,
+          "length": 10200
+        },
+        {
+          "file": "__Installer/vc/vc2015/eula/ru_RU.rtf",
+          "file_offset": 0,
+          "chunk_offset": 284635404,
+          "length": 54812
+        },
+        {
+          "file": "__Installer/vc/vc2015/eula/tr_TR.rtf",
+          "file_offset": 0,
+          "chunk_offset": 284690216,
+          "length": 12669
+        },
+        {
+          "file": "__Installer/vc/vc2015/eula/zh_CN.rtf",
+          "file_offset": 0,
+          "chunk_offset": 284702885,
+          "length": 19329
+        },
+        {
+          "file": "__Installer/vc/vc2015/eula/zh_TW.rtf",
+          "file_offset": 0,
+          "chunk_offset": 284722214,
+          "length": 19250
+        },
+        {
+          "file": "__Installer/vc/vc2015/redist/vc_redist.x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 284741464,
+          "length": 14572000
+        },
+        {
+          "file": "__Installer/vc/vc2015/redist/vc_redist.x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 299313464,
+          "length": 13767776
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 313081240,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 313970656,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 314258744,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 315068240,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 330042264,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 344454568,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 350173440,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 355246680,
+          "length": 7054336
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Bink/bink2w64.dll",
+          "file_offset": 0,
+          "chunk_offset": 362301016,
+          "length": 391360
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Bink/binkpluginw64.dll",
+          "file_offset": 0,
+          "chunk_offset": 362692376,
+          "length": 613568
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 363305944,
+          "length": 117760
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 363423704,
+          "length": 49152
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Oodle/Win64/oo2core_8_win64.dll",
+          "file_offset": 0,
+          "chunk_offset": 363472856,
+          "length": 1007104
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Clothing_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 364479960,
+          "length": 1219072
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingCHECKED_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 365699032,
+          "length": 1586688
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 367285720,
+          "length": 1575424
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Destructible_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 368861144,
+          "length": 2008576
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_DestructibleCHECKED_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 370869720,
+          "length": 2774528
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_DestructiblePROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 373644248,
+          "length": 2735616
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Legacy_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 376379864,
+          "length": 3329536
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyCHECKED_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 379709400,
+          "length": 4194304
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 383903704,
+          "length": 4198400
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFramework_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 388102104,
+          "length": 1043456
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFrameworkCHECKED_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 389145560,
+          "length": 1379328
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFrameworkPROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 390524888,
+          "length": 1381888
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/NvCloth_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 391906776,
+          "length": 265216
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/NvClothCHECKED_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 392171992,
+          "length": 267776
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/NvClothPROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 392439768,
+          "length": 264192
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 392703960,
+          "length": 2105344
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CHECKED_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 394809304,
+          "length": 3223552
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Common_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 398032856,
+          "length": 1597440
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonCHECKED_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 399630296,
+          "length": 2040320
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 401670616,
+          "length": 2031616
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Cooking_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 403702232,
+          "length": 244736
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CookingCHECKED_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 403946968,
+          "length": 331264
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CookingPROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 404278232,
+          "length": 244736
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 404522968,
+          "length": 3140608
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundation_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 407663576,
+          "length": 54784
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationCHECKED_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 407718360,
+          "length": 101888
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 407820248,
+          "length": 96768
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDK_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 407917016,
+          "length": 188928
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKCHECKED_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 408105944,
+          "length": 267776
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 408373720,
+          "length": 267776
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 408641496,
+          "length": 1714176
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 410355672,
+          "length": 37888
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Windows/DirectX/x64/WinPixEventRuntime.dll",
+          "file_offset": 0,
+          "chunk_offset": 410393560,
+          "length": 44752
+        },
+        {
+          "file": "Engine/Binaries/Win64/CrashReportClient.exe",
+          "file_offset": 0,
+          "chunk_offset": 410438312,
+          "length": 17215488
+        },
+        {
+          "file": "Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak",
+          "file_offset": 0,
+          "chunk_offset": 427653800,
+          "length": 11105632
+        },
+        {
+          "file": "fg.bin",
+          "file_offset": 0,
+          "chunk_offset": 438759432,
+          "length": 4096
+        },
+        {
+          "file": "fg2.bin",
+          "file_offset": 0,
+          "chunk_offset": 438763528,
+          "length": 4096
+        },
+        {
+          "file": "fg3.bin",
+          "file_offset": 0,
+          "chunk_offset": 438767624,
+          "length": 4096
+        },
+        {
+          "file": "fg4.bin",
+          "file_offset": 0,
+          "chunk_offset": 438771720,
+          "length": 4096
+        },
+        {
+          "file": "fg5.bin",
+          "file_offset": 0,
+          "chunk_offset": 438775816,
+          "length": 4096
+        },
+        {
+          "file": "fg6.bin",
+          "file_offset": 0,
+          "chunk_offset": 438779912,
+          "length": 4096
+        },
+        {
+          "file": "fg7.bin",
+          "file_offset": 0,
+          "chunk_offset": 438784008,
+          "length": 4096
+        },
+        {
+          "file": "Support/EA Help/Technical Support.en_US.rtf",
+          "file_offset": 0,
+          "chunk_offset": 438788104,
+          "length": 63685
+        },
+        {
+          "file": "Support/EA Help/Technical Support.ru_RU.rtf",
+          "file_offset": 0,
+          "chunk_offset": 438851789,
+          "length": 94066
+        },
+        {
+          "file": "Support/EA Help/Technical Support.zh_CN.rtf",
+          "file_offset": 0,
+          "chunk_offset": 438945855,
+          "length": 133611
+        },
+        {
+          "file": "Support/mnfst.txt",
+          "file_offset": 0,
+          "chunk_offset": 439079466,
+          "length": 26434
+        },
+        {
+          "file": "Support/Privacy and Cookie Policy/en_US.html",
+          "file_offset": 0,
+          "chunk_offset": 439105900,
+          "length": 48505
+        },
+        {
+          "file": "Support/Privacy and Cookie Policy/ru_RU.html",
+          "file_offset": 0,
+          "chunk_offset": 439154405,
+          "length": 89333
+        },
+        {
+          "file": "Support/Privacy and Cookie Policy/zh_CN.html",
+          "file_offset": 0,
+          "chunk_offset": 439243738,
+          "length": 43988
+        },
+        {
+          "file": "Support/User Agreement/en_US.html",
+          "file_offset": 0,
+          "chunk_offset": 439287726,
+          "length": 51955
+        },
+        {
+          "file": "Support/User Agreement/ru_RU.html",
+          "file_offset": 0,
+          "chunk_offset": 439339681,
+          "length": 101070
+        },
+        {
+          "file": "Support/User Agreement/zh_CN.html",
+          "file_offset": 0,
+          "chunk_offset": 439440751,
+          "length": 46880
+        },
+        {
+          "file": "SwGame/Binaries/Win64/anadius.cfg",
+          "file_offset": 0,
+          "chunk_offset": 439487631,
+          "length": 1254
+        },
+        {
+          "file": "SwGame/Binaries/Win64/anadius64.dll",
+          "file_offset": 0,
+          "chunk_offset": 439488885,
+          "length": 787968
+        },
+        {
+          "file": "SwGame/Binaries/Win64/Core/Activation.dll",
+          "file_offset": 0,
+          "chunk_offset": 440276853,
+          "length": 2566472
+        },
+        {
+          "file": "SwGame/Binaries/Win64/Core/Activation64.dll",
+          "file_offset": 0,
+          "chunk_offset": 442843325,
+          "length": 3037504
+        },
+        {
+          "file": "SwGame/Binaries/Win64/starwarsjedifallenorder.exe",
+          "file_offset": 0,
+          "chunk_offset": 445880829,
+          "length": 61245952
+        },
+        {
+          "file": "SwGame/Binaries/Win64/SwGame-Win64-Shipping.exe",
+          "file_offset": 0,
+          "chunk_offset": 507126781,
+          "length": 61243904
+        },
+        {
+          "file": "SwGame/Content/Movies/Default_Startup.mp4",
+          "file_offset": 0,
+          "chunk_offset": 568370685,
+          "length": 35830406
+        },
+        {
+          "file": "SwGame/Content/Movies/Default_Startup_Loop.mp4",
+          "file_offset": 0,
+          "chunk_offset": 604201091,
+          "length": 18208943
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Air Focus Attack.mp4",
+          "file_offset": 0,
+          "chunk_offset": 622410034,
+          "length": 2504701
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Auto Blaster Deflection.mp4",
+          "file_offset": 0,
+          "chunk_offset": 624914735,
+          "length": 4586049
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Delay Attack Staff Saber.mp4",
+          "file_offset": 0,
+          "chunk_offset": 629500784,
+          "length": 6920317
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Delay Attack.mp4",
+          "file_offset": 0,
+          "chunk_offset": 636421101,
+          "length": 4660891
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Double Blade Focus Attack Upgrade.mp4",
+          "file_offset": 0,
+          "chunk_offset": 641081992,
+          "length": 3164316
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Evade Attack.mp4",
+          "file_offset": 0,
+          "chunk_offset": 644246308,
+          "length": 6228157
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Focus Attack.mp4",
+          "file_offset": 0,
+          "chunk_offset": 650474465,
+          "length": 4850635
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Force Pull 1.mp4",
+          "file_offset": 0,
+          "chunk_offset": 655325100,
+          "length": 10299577
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Force Pull 2.mp4",
+          "file_offset": 0,
+          "chunk_offset": 665624677,
+          "length": 2557371
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Force Slow Upgrade 1.mp4",
+          "file_offset": 0,
+          "chunk_offset": 668182048,
+          "length": 9826366
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Force Slow Upgrade 2.mp4",
+          "file_offset": 0,
+          "chunk_offset": 678008414,
+          "length": 4430179
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Increased Leap Distance.mp4",
+          "file_offset": 0,
+          "chunk_offset": 682438593,
+          "length": 2178781
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Increased Throw Distance.mp4",
+          "file_offset": 0,
+          "chunk_offset": 684617374,
+          "length": 2546187
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Jedi Evade.mp4",
+          "file_offset": 0,
+          "chunk_offset": 687163561,
+          "length": 2439482
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Leap.mp4",
+          "file_offset": 0,
+          "chunk_offset": 689603043,
+          "length": 4412658
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Lightsaber Throw.mp4",
+          "file_offset": 0,
+          "chunk_offset": 694015701,
+          "length": 2413715
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Lightsaber Transform Attack (Single to Double).mp4",
+          "file_offset": 0,
+          "chunk_offset": 696429416,
+          "length": 5136450
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Sprint Attack.mp4",
+          "file_offset": 0,
+          "chunk_offset": 701565866,
+          "length": 2959936
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Upgrade Push 1.mp4",
+          "file_offset": 0,
+          "chunk_offset": 704525802,
+          "length": 5820732
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Upgrade Push 2.mp4",
+          "file_offset": 0,
+          "chunk_offset": 710346534,
+          "length": 7491209
+        },
+        {
+          "file": "SwGame/Content/Movies/Skill tree/Upgraded Focus Attack.mp4",
+          "file_offset": 0,
+          "chunk_offset": 717837743,
+          "length": 2801438
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor.pak",
+          "file_offset": 0,
+          "chunk_offset": 720639181,
+          "length": 801553057
+        }
+      ],
+      "sha256": "83d0abdf958efb74d5e58fec80b5249a7be6c9ff6af97bf70203ce7ba6aaccfa"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor.pak",
+          "file_offset": 801553057,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "d43369481422d6bca18eae94359dd041221db97640d43fde951157c2e1504949"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor.pak",
+          "file_offset": 2323745295,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "f9d328ab14f3802f79b19fd429e1854ebb84af6591d1fe7b92cbe412a22953cc"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor.pak",
+          "file_offset": 3845937533,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "9d5cc4a0c9cc0f67472e9a02c147abe82fe8be086473edce0aa6284c8508a182"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor.pak",
+          "file_offset": 5368129771,
+          "chunk_offset": 0,
+          "length": 638722186
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_0_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 638722186,
+          "length": 17509117
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_1_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 656231303,
+          "length": 4152949
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_2_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 660384252,
+          "length": 1347529
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_3_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 661731781,
+          "length": 61737608
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_4_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 723469389,
+          "length": 35129376
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_5_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 758598765,
+          "length": 1444321
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_6_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 760043086,
+          "length": 4880598
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_7_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 764923684,
+          "length": 757268554
+        }
+      ],
+      "sha256": "a9570eb6fb8d83b11221991952252ada1bc236d21c22556ea26a0e4bb32f0334"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_7_P.pak",
+          "file_offset": 757268554,
+          "chunk_offset": 0,
+          "length": 323563328
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk0-WindowsNoEditor_8_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 323563328,
+          "length": 29015804
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor.pak",
+          "file_offset": 0,
+          "chunk_offset": 352579132,
+          "length": 1169613106
+        }
+      ],
+      "sha256": "37843c7cd7237757594eb741ad3f7703b9bbd8ca1b886e9ba619054ddb0f57e5"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor.pak",
+          "file_offset": 1169613106,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "317602e4ed6c77ec8b9f1dbc39e03f7ca37426cc7de4a6b4719328471f664428"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor.pak",
+          "file_offset": 2691805344,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "ddf8736652957123884bf15177f9cb0e7b9c7dd9113960b1cc8337a818665fb1"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor.pak",
+          "file_offset": 4213997582,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "1d9b0d241e45a31f19a49eeeb68cd60212091c2f5f1e9b9da081f02b1bd9472e"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor.pak",
+          "file_offset": 5736189820,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "8f53711f99fbb59e340b572148c26bfde9ce73fcee54a68fa26426153b7982cc"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor.pak",
+          "file_offset": 7258382058,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "3912e99bc5673396d738f89971edeeed517961f67e4b4329dda192df944270de"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor.pak",
+          "file_offset": 8780574296,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "bc88c7aef1f5d403d89faa14af2ef0bd1b587b751973f3365a77b5bdb586767b"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor.pak",
+          "file_offset": 10302766534,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "fb9f09d547391dbe7f2d941a1ce6841153c763263c319f619d945cda09d15ee6"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor.pak",
+          "file_offset": 11824958772,
+          "chunk_offset": 0,
+          "length": 1094478758
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_0_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1094478758,
+          "length": 5694153
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_1_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1100172911,
+          "length": 1642859
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_2_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1101815770,
+          "length": 3217419
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_3_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1105033189,
+          "length": 1844621
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_4_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1106877810,
+          "length": 1579919
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_5_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1108457729,
+          "length": 1542073
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_6_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1109999802,
+          "length": 2807725
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_7_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1112807527,
+          "length": 122722344
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk11-WindowsNoEditor_8_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1235529871,
+          "length": 1951423
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor.pak",
+          "file_offset": 0,
+          "chunk_offset": 1237481294,
+          "length": 284710944
+        }
+      ],
+      "sha256": "846f375fff5ac8b1f4168abe29722b488aa73582e11b9272e2825cd227f60a25"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor.pak",
+          "file_offset": 284710944,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "94fc4fe01d1346ba528f8d57eb32ff8ff425f7f96bd7c9e401dd705355e7cf8a"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor.pak",
+          "file_offset": 1806903182,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "2c0c1b9244f922812ceabe1deb5382c70a2b32f6aef8d8969e6c69563881a47f"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor.pak",
+          "file_offset": 3329095420,
+          "chunk_offset": 0,
+          "length": 1354108255
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_0_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1354108255,
+          "length": 25270676
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_1_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1379378931,
+          "length": 6830428
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_2_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1386209359,
+          "length": 7501074
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_3_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1393710433,
+          "length": 7616246
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_4_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1401326679,
+          "length": 6914634
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_5_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1408241313,
+          "length": 6691484
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_6_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1414932797,
+          "length": 7720958
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_7_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1422653755,
+          "length": 7473730
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk12-WindowsNoEditor_8_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1430127485,
+          "length": 6689558
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor.pak",
+          "file_offset": 0,
+          "chunk_offset": 1436817043,
+          "length": 85375195
+        }
+      ],
+      "sha256": "58482ad5623c23f0a1ca2f0d88d3669f58fd56cfd5eb49283d76f43df62dc507"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor.pak",
+          "file_offset": 85375195,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "e223e13e14d8dc0e2699d63263e0d630457f497849db16495bb33cf73d3047a9"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor.pak",
+          "file_offset": 1607567433,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "5f7bb4e85e39ba231df4c9b3ee19b479d2d691e336bedb235d43614d7b93848b"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor.pak",
+          "file_offset": 3129759671,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "622809b8f22d63d06bbf268e8d21b0a85e01ff3d7563944c99abcc0a6674a064"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor.pak",
+          "file_offset": 4651951909,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "1c2ede7e956be87cbdf344d75dd498b6760fb1d6fa86d55379a48ebe6185800c"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor.pak",
+          "file_offset": 6174144147,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "69dadaa32c59cf8954a222d72f25a89b5740238b6683434c087fb9e10b1d01f6"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor.pak",
+          "file_offset": 7696336385,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "ca90c4bf3918dd0d2481bc9a1460c00cf50a9b5f5c85ceef82744fc49ba8a767"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor.pak",
+          "file_offset": 9218528623,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "856a546d141318434df27a3b485c7b97edf10493f8befbc9bda490ab15e443e2"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor.pak",
+          "file_offset": 10740720861,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "65e579ff7d483c2efe74b0571cfb6e106045e90c4e8123cc0f80069b1e9b4ffa"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor.pak",
+          "file_offset": 12262913099,
+          "chunk_offset": 0,
+          "length": 127505463
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_0_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 127505463,
+          "length": 14720493
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_1_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 142225956,
+          "length": 4896621
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_2_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 147122577,
+          "length": 5229887
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_3_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 152352464,
+          "length": 29418795
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_4_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 181771259,
+          "length": 42743282
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_5_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 224514541,
+          "length": 5499103
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_6_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 230013644,
+          "length": 5022865
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_7_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 235036509,
+          "length": 9773731
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk13-WindowsNoEditor_8_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 244810240,
+          "length": 4898669
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor.pak",
+          "file_offset": 0,
+          "chunk_offset": 249708909,
+          "length": 1272483329
+        }
+      ],
+      "sha256": "e1af18bbe9e2ae0d7a2247024e1fe98596170dce5eb814ede294670a5717adef"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor.pak",
+          "file_offset": 1272483329,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "89feb37a25a5d5b9de391afb8e80c1dabbbb8cb47bbde1d7743533e1455c1501"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor.pak",
+          "file_offset": 2794675567,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "d1b2ed3d4c71d5952663540067269c8f3be5b9a2697e0c0b62ee9c399f089e75"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor.pak",
+          "file_offset": 4316867805,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "5e1b2827a457c09c14459d736ddd94d2ceb724190164850c93377083f2ea044b"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor.pak",
+          "file_offset": 5839060043,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "09f76a1bc44cf85c4d87ad5a2ad7cf54964517fc47e15bb15694664b3a12a83e"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor.pak",
+          "file_offset": 7361252281,
+          "chunk_offset": 0,
+          "length": 1010053912
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_0_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1010053912,
+          "length": 21426598
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_1_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1031480510,
+          "length": 13557348
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_2_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1045037858,
+          "length": 13664424
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_3_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1058702282,
+          "length": 15542556
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_4_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1074244838,
+          "length": 13841558
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_5_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1088086396,
+          "length": 14099008
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_6_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1102185404,
+          "length": 14212090
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_7_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1116397494,
+          "length": 16566931
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk14-WindowsNoEditor_8_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1132964425,
+          "length": 13541108
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor.pak",
+          "file_offset": 0,
+          "chunk_offset": 1146505533,
+          "length": 375686705
+        }
+      ],
+      "sha256": "151b079c7d8e8bf9112c186ddc373df285bfc62acb9997e92e0434a670369b24"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor.pak",
+          "file_offset": 375686705,
+          "chunk_offset": 0,
+          "length": 196808009
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_0_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 196808009,
+          "length": 666769
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_1_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 197474778,
+          "length": 159778
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_2_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 197634556,
+          "length": 159830
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_3_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 197794386,
+          "length": 254415
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_4_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 198048801,
+          "length": 160020
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_5_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 198208821,
+          "length": 160024
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_6_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 198368845,
+          "length": 410915
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_7_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 198779760,
+          "length": 1108609
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk15-WindowsNoEditor_8_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 199888369,
+          "length": 160080
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor.pak",
+          "file_offset": 0,
+          "chunk_offset": 200048449,
+          "length": 1322143789
+        }
+      ],
+      "sha256": "e09d2e65e94ba0502c611379ee55f90f913802e5649fa86b82a44ae5a78bae50"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor.pak",
+          "file_offset": 1322143789,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "ab50db71f4cf3ffaa8ad68ccc90e062da3686ad4df7fe8e480dd08de9d909606"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor.pak",
+          "file_offset": 2844336027,
+          "chunk_offset": 0,
+          "length": 1522192238
+        }
+      ],
+      "sha256": "28dcbb592c4ea63da27e5eb0d5228ca885d30ef7cc5484ac4ada1ba39722acb5"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor.pak",
+          "file_offset": 4366528265,
+          "chunk_offset": 0,
+          "length": 1499261494
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_0_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1499261494,
+          "length": 22930744
+        }
+      ],
+      "sha256": "bce10ad8e52439a64074c69a79aa61cc272de97258600aabf8191895f7b30732"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 1522192238,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_0_P.pak",
+          "file_offset": 22930744,
+          "chunk_offset": 0,
+          "length": 215162
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_1_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 215162,
+          "length": 21420320
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_2_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 21635482,
+          "length": 22694352
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_3_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 44329834,
+          "length": 23655004
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_4_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 67984838,
+          "length": 21884458
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_5_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 89869296,
+          "length": 21833174
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_6_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 111702470,
+          "length": 22016542
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_7_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 133719012,
+          "length": 26334602
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk16-WindowsNoEditor_8_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 160053614,
+          "length": 21378808
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor.pak",
+          "file_offset": 0,
+          "chunk_offset": 181432422,
+          "length": 1211672846
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_0_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1393105268,
+          "length": 10598747
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_1_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1403704015,
+          "length": 10034607
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_2_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1413738622,
+          "length": 10034607
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_3_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1423773229,
+          "length": 10128112
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_4_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1433901341,
+          "length": 10034606
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_5_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1443935947,
+          "length": 10117054
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_6_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1454053001,
+          "length": 11507852
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_7_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1465560853,
+          "length": 12097589
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk17-WindowsNoEditor_8_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1477658442,
+          "length": 10034607
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor.pak",
+          "file_offset": 0,
+          "chunk_offset": 1487693049,
+          "length": 34499189
+        }
+      ],
+      "sha256": "73e77769fab7a6b33cbd87bdb493521299946b9550613f175396827b0dc8f527"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 1522192208,
+      "segments": [
+        {
+          "file": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor.pak",
+          "file_offset": 34499189,
+          "chunk_offset": 0,
+          "length": 690092785
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_0_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 690092785,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_1_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 690092856,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_2_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 690092927,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_3_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 690092998,
+          "length": 21598865
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_4_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 711691863,
+          "length": 14398576
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_5_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 726090439,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_6_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 726090510,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_7_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 726090581,
+          "length": 254173
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk2-WindowsNoEditor_8_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 726344754,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor.pak",
+          "file_offset": 0,
+          "chunk_offset": 726344825,
+          "length": 793596690
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_0_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1519941515,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_1_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1519941586,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_2_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1519941657,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_3_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1519941728,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_4_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1519941799,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_5_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1519941870,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_6_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1519941941,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_7_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1519942012,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Paks/pakchunk9-WindowsNoEditor_8_P.pak",
+          "file_offset": 0,
+          "chunk_offset": 1519942083,
+          "length": 71
+        },
+        {
+          "file": "SwGame/Content/Splash/Splash.bmp",
+          "file_offset": 0,
+          "chunk_offset": 1519942154,
+          "length": 2250054
+        }
+      ],
+      "sha256": "aefc40156d9f7edd54ec5f93814ad5024ec9db1ee468d5e672f1f88793b91109"
+    }
+  ]
+}
