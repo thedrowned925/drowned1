@@ -1,14 +1,14 @@
 {
-  "active": false,
-  "phase": "done",
+  "active": true,
+  "phase": "plan",
   "kind": "game",
-  "title": "Deus Ex: Human Revolution - Director's Cut",
+  "title": "STAR WARS Jedi: Fallen Order™",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
-  "percent": 100,
+  "percent": 0,
   "total_sent": 0,
-  "total_size": 0,
+  "total_size": 60887689490,
   "message": "",
-  "updated_at": "2026-09-07T23:24:15.791856+00:00"
+  "updated_at": "2026-09-08T17:08:19.714787+00:00"
 }
