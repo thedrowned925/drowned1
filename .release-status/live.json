@@ -1,6 +1,6 @@
 {
   "active": true,
-  "phase": "upload",
+  "phase": "metadata",
   "kind": "game",
   "title": "STAR WARS Jedi: Fallen Order™",
   "platform": "PC",
@@ -10,5 +10,5 @@
   "total_sent": 60887689490,
   "total_size": 60887689490,
   "message": "",
-  "updated_at": "2026-09-08T17:27:31.075422+00:00"
+  "updated_at": "2026-09-08T17:27:32.229525+00:00"
 }
