@@ -3,6 +3,26 @@
 Steam tarzında, PySide6 ile hazırlanmış yerel Windows launcher. Geliştirme dalı:
 `feat/launcher-steam-desktop`. Giriş noktası `windows/launcher/app_steam.py`.
 
+## Devam çalışması — 0.19.1-preview
+
+7 Eylül 2026 tarihli ilk Windows önizleme çalışması, küçük pencere testinde
+oyun seçenekleri düğmesi sağ kenardan taştığı için durdu; `.exe` ve artifact
+adımları çalışmadı. Bu sürümde:
+
+- Oyna/kurulum, doğrulama/kaldırma ve aktif indirme kontrolleri ayrı satırlarda.
+- Dar detay görünümünde kurulum bilgileri açıklamanın altına geçer; geniş
+  görünümde sağ sütunda kalır. Sol liste genişletildiğinde de yatay taşma olmaz.
+- Katalog yenilenirken eski kapak yanıtları yeni görseli ezmez; değişen kapak
+  adresi listelerde yeniden yüklenir ve başarısız raf isteği tekrar denenebilir.
+- Kurulu filtresiyle gizlenip tekrar gösterilen kart indirme ilerlemesini korur.
+- Yeni aktarımda ve aktarım bittiğinde hız grafiği ile eski ölçümler temizlenir.
+- Hareketi azalt seçildiğinde devam eden sayfa geçişi hemen durur.
+
+Regresyon testlerine geniş sol listeyle aktif güncelleme, kapak yanıt sırası,
+filtre sonrası ilerleme, aktarım sıfırlama ve hareket tercihi senaryoları eklendi.
+Ekran görüntüleri mevcut katalog ve yerel artwork ile yenilendi; indirmeler
+görseli boş/etkin aktarım olmayan durumu gösterir.
+
 ## Kapsam ve uyumluluk
 
 Bu dal mevcut dosyaları değiştirmeden yeni launcher dosyaları, testler ve ayrı bir

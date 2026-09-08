@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 # Headless only when explicitly running tests, never in the launcher entry point.
 os.environ.setdefault('QT_QPA_PLATFORM', 'offscreen')
 try:
-    from PySide6.QtCore import QSettings, Qt
+    from PySide6.QtCore import QAbstractAnimation, QBuffer, QIODevice, QSettings, Qt
     from PySide6.QtGui import QPixmap
     from PySide6.QtTest import QTest
     from PySide6.QtWidgets import QApplication, QCheckBox
@@ -166,6 +166,63 @@ class LauncherSteamTests(unittest.TestCase):
         self.win.artwork_loaded('obsolete', {'hero': b'invalid'})
         self.assertEqual(self.win.home_hero.hero.cacheKey(), expected)
 
+    def test_cover_refresh_ignores_stale_responses_and_releases_failed_requests(self):
+        key = self.win._home_rows[0][0]
+        current = self.win.library.item(0).data(Qt.UserRole)[0]
+        current['artwork'] = {'cover': 'https://example.invalid/new.png'}
+        self.win.library.item(0).setData(Qt.UserRole, (current, 'stable'))
+        self.win._refresh_shelf()
+        self.win.library_grid.set_items([(key, current, 'stable')])
+        self.win.library_grid_bp.set_items([(key, current, 'stable')])
+        image = QPixmap(20, 20)
+        image.fill(Qt.red)
+        buffer = QBuffer()
+        buffer.open(QIODevice.WriteOnly)
+        image.save(buffer, 'PNG')
+        raw = bytes(buffer.data())
+        new_url = current['artwork']['cover']
+        self.win._cover_pending.add((key, new_url))
+        self.win._cover_loaded(key, 'https://example.invalid/old.png', raw)
+        self.assertTrue(self.win._cards[key].pixmap.isNull())
+        self.win._cover_loaded(key, new_url, None)
+        self.assertNotIn((key, new_url), self.win._cover_pending)
+        self.win._cover_loaded(key, new_url, raw)
+        self.assertFalse(self.win._cards[key].pixmap.isNull())
+        self.assertIn(new_url, self.win._tile_cover_cache)
+
+    def test_filtered_transfer_card_recovers_progress_when_shown_again(self):
+        key = self.win._home_rows[0][0]
+        self.win._set_tile_progress(key, 37)
+        self.win._set_home_filter(True)
+        self.assertNotIn(key, self.win._cards)
+        self.win._set_home_filter(False)
+        self.assertEqual(self.win._cards[key].percent, 37)
+        self.win._set_tile_progress(key, None)
+        self.assertIsNone(self.win._cards[key].percent)
+
+    def test_reduce_motion_stops_an_in_progress_page_transition(self):
+        self.win._apply_motion(False)
+        self.win.show_current_game()
+        self.win._motion_changed(True)
+        self.assertEqual(self.win.right_stack._effect.opacity(), 1)
+        self.assertEqual(self.win.right_stack._fade.state(), QAbstractAnimation.State.Stopped)
+
+    def test_transfer_start_and_finish_clear_previous_metrics(self):
+        from drowned_shared.install import DownloadControl
+        self.win.download_control = DownloadControl()
+        self.addCleanup(setattr, self.win, 'download_control', None)
+        self.win.install_progress(70, '70 MiB / 100 MiB • 12 MiB/sn • 4 stream')
+        self.win._set_download_controls(True)
+        self.assertEqual(len(self.win.transfer_graph.samples), 0)
+        self.assertEqual(self.win.dlp_peak.text(), '—')
+        self.assertEqual(self.win.dlp_bar.value(), 0)
+        self.win.install_progress(20, '20 MiB / 100 MiB • 2 MiB/sn • 4 stream')
+        self.assertEqual(self.win.dlp_peak.text(), '2 MiB/sn')
+        self.win._clear_active_download_ui('Tamamlandı')
+        self.assertEqual(len(self.win.transfer_graph.samples), 0)
+        self.assertEqual(self.win.dlp_net.text(), '—')
+        self.assertEqual(self.win.dlp_percent.text(), '%0')
+
     def test_transfer_metrics_and_pause_mirror_existing_control(self):
         from drowned_shared.install import DownloadControl
         self.win._active_install_context = {'key': self.win._key(self.win.current_game, 'stable'), 'title': 'Alpha', 'channel': 'stable'}
@@ -231,6 +288,27 @@ class LauncherSteamTests(unittest.TestCase):
             self.assertGreaterEqual(left, 0, widget.text())
             self.assertLessEqual(left + widget.width(), viewport.width(), widget.text())
         self.assertEqual(self.win.right_stack.widget(0).horizontalScrollBar().maximum(), 0)
+
+    def test_narrow_details_fit_with_wide_sidebar_and_active_update(self):
+        from drowned_shared.install import DownloadControl
+        self.install_record(0)
+        self.win.update_install_state_ui()
+        self.win.resize(1080, 700)
+        self.win.main_splitter.setSizes([370, 710])
+        self.win.download_control = DownloadControl()
+        self.addCleanup(setattr, self.win, 'download_control', None)
+        self.win._set_download_controls(True)
+        self.win.show_current_game()
+        self.app.processEvents()
+        page = self.win.right_stack.widget(0)
+        viewport = page.viewport()
+        for widget in (self.win.play_button, self.win.install_button, self.win.verify_button,
+                       self.win.uninstall_button, self.win.game_menu_button, self.win.action_pause):
+            with self.subTest(button=widget.text()):
+                left = widget.mapTo(viewport, widget.rect().topLeft()).x()
+                self.assertGreaterEqual(left, 0)
+                self.assertLessEqual(left + widget.width(), viewport.width())
+        self.assertEqual(page.horizontalScrollBar().maximum(), 0)
 
     def test_big_picture_escape_restores_desktop_page(self):
         self.win.show_home()

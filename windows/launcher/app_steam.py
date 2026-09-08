@@ -14,7 +14,7 @@ import sys
 from PySide6.QtCore import QEvent, QSettings, QTimer, Qt
 from PySide6.QtGui import QColor, QKeySequence, QPalette, QPixmap, QShortcut
 from PySide6.QtWidgets import (
-    QApplication, QCheckBox, QComboBox, QFileDialog, QFrame, QGridLayout,
+    QApplication, QBoxLayout, QCheckBox, QComboBox, QFileDialog, QFrame, QGridLayout,
     QHBoxLayout, QLabel, QLineEdit, QListWidget, QMenu, QMessageBox,
     QPlainTextEdit, QProgressBar, QScrollArea, QSizePolicy, QSplitter,
     QStackedWidget, QVBoxLayout, QWidget,
@@ -24,7 +24,7 @@ import app_v12 as functional
 import app_v10 as BASE
 from steam_desktop_widgets import STYLE, ControllerGrid, DesktopList, FadeStack, LibraryCard, MotionButton, SteamHero, TransferGraph
 
-APP_VERSION = '0.19.0-preview'
+APP_VERSION = '0.19.1-preview'
 
 
 def apply_palette(app):
@@ -74,6 +74,7 @@ class Launcher(functional.Launcher):
         self._view_ready = False
         self._home_installed_only = False
         self._cover_pending = set()
+        self._card_progress = {}
         # New presentation preferences are deliberately outside the legacy keys.
         self.desktop_preferences = QSettings('Drowned', 'LauncherSteamDesktop')
         super().__init__()
@@ -269,6 +270,7 @@ class Launcher(functional.Launcher):
         layout = page.layout()
         old = self.hero
         layout.removeWidget(old)
+        old.hide()
         old.deleteLater()
         self.hero = SteamHero()
         layout.insertWidget(0, self.hero)
@@ -307,12 +309,16 @@ class Launcher(functional.Launcher):
             old.deleteLater()
             setattr(self, attr, replacement)
         self.description.setMinimumWidth(120)
+        self.meta.setWordWrap(True)
         self.title.setWordWrap(True)
         self.title.setTextFormat(Qt.PlainText)
         self.description.setTextFormat(Qt.PlainText)
         scroller = QScrollArea()
         scroller.setWidgetResizable(True)
         scroller.setWidget(page)
+        self.detail_columns = containing_layout(self.detail_stack.parentWidget().layout(), self.detail_stack)
+        self.detail_viewport = scroller.viewport()
+        self.detail_viewport.installEventFilter(self)
         return scroller
 
     def _finish_details(self):
@@ -323,6 +329,24 @@ class Launcher(functional.Launcher):
         self.verify_button.setText('DOĞRULA')
         self.uninstall_button.setMinimumWidth(65)
         self.install_button.setMinimumWidth(95)
+        # Constructors in v7/v8 insert maintenance buttons after _build_ui.
+        # Give them their own row: Windows font metrics make a single row of
+        # PLAY / INSTALL / VERIFY / UNINSTALL wider than the detail viewport.
+        action_bar = self.info_card.parentWidget()
+        page_layout = action_bar.parentWidget().layout()
+        maintenance = QWidget()
+        maintenance_layout = QHBoxLayout(maintenance)
+        maintenance_layout.setContentsMargins(28, 6, 28, 10)
+        for native in (self.verify_button, self.uninstall_button):
+            self.info_card.layout().removeWidget(native)
+            maintenance_layout.addWidget(native)
+        maintenance_layout.addStretch()
+        page_layout.insertWidget(page_layout.indexOf(action_bar) + 1, maintenance)
+        # Transfer controls must also fit while an installed game is updating.
+        action_bar.layout().removeWidget(self.action_dl)
+        self.action_dl.layout().setContentsMargins(28, 8, 28, 10)
+        self.action_dl.layout().addStretch()
+        page_layout.insertWidget(page_layout.indexOf(maintenance) + 1, self.action_dl)
         self.addon_panel.setMaximumWidth(16777215)
         # Keep the original package controls, presented as an actual detail tab.
         self.addon_panel.parentWidget().layout().removeWidget(self.addon_panel)
@@ -334,12 +358,19 @@ class Launcher(functional.Launcher):
 
     def _build_side_panels(self):
         panels = BASE.Launcher._build_side_panels(self)
+        self.detail_side_panels = panels
         panels.setFixedWidth(248)
         # Paths can be long; wrap them without imposing a window-wide minimum.
         self.panel_path.setWordWrap(True)
         self.panel_path.setMinimumWidth(0)
         self.panel_path.setTextInteractionFlags(Qt.TextSelectableByMouse)
         return panels
+
+    def _layout_details(self):
+        compact = self.detail_viewport.width() < 880
+        self.detail_columns.setDirection(QBoxLayout.TopToBottom if compact else QBoxLayout.LeftToRight)
+        self.detail_side_panels.setMinimumWidth(0 if compact else 248)
+        self.detail_side_panels.setMaximumWidth(16777215 if compact else 248)
 
     def _build_downloads_page(self):
         page = QFrame()
@@ -560,6 +591,7 @@ class Launcher(functional.Launcher):
             card = self._cards[key]
             card.title = title
             card.installed = key in installed
+            card.percent = self._card_progress.get(key)
             card.motion_enabled = not self.motion_toggle.isChecked()
             card.setAccessibleName(title)
             card.setToolTip(title)
@@ -597,6 +629,8 @@ class Launcher(functional.Launcher):
     def eventFilter(self, watched, event):
         if watched is getattr(self, 'shelf', None) and event.type() == QEvent.Resize:
             self._layout_shelf()
+        if watched is getattr(self, 'detail_viewport', None) and event.type() == QEvent.Resize:
+            self._layout_details()
         return super().eventFilter(watched, event)
 
     def _request_shelf_covers(self, *_):
@@ -619,11 +653,34 @@ class Launcher(functional.Launcher):
     def _apply_cover(self, key, pixmap):
         super()._apply_cover(key, pixmap)
         if key in self._cards:
+            self._cover_pending.discard((key, self._cards[key].cover_url))
             self._cards[key].pixmap = pixmap
             self._cards[key].update()
 
+    def _cover_loaded(self, key, url, raw):
+        self._cover_pending.discard((key, url))
+        pixmap = QPixmap()
+        if not raw or not pixmap.loadFromData(raw):
+            return
+        self._tile_cover_cache[url] = pixmap
+        # A catalog refresh can change the artwork URL while a request is in
+        # flight. Apply to each view only if it still expects this exact URL.
+        for view in (self.library_grid, self.library_grid_bp):
+            item = view._items.get(key)
+            if item is not None and item.cover_url == url:
+                view.set_tile_cover(key, pixmap)
+                view._sync_item_motion()
+        card = self._cards.get(key)
+        if card is not None and card.cover_url == url:
+            card.pixmap = pixmap
+            card.update()
+
     def _set_tile_progress(self, key, percent):
         super()._set_tile_progress(key, percent)
+        if percent is None:
+            self._card_progress.pop(key, None)
+        elif key:
+            self._card_progress[key] = percent
         if key in self._cards:
             self._cards[key].percent = percent
             self._cards[key].update()
@@ -671,7 +728,23 @@ class Launcher(functional.Launcher):
 
     def _set_download_controls(self, active):
         super()._set_download_controls(active)
+        if active:
+            self.transfer_graph.clear()
+            self._reset_transfer_metrics()
         self._sync_desktop_state()
+
+    def _reset_transfer_metrics(self):
+        for metric in (self.dlp_net, self.dlp_peak, self.dlp_streams, self.dlp_bytes):
+            metric.setText('—')
+        self.dlp_percent.setText('%0')
+        self.dlp_bar.setValue(0)
+        self.dlp_eta.setText('Kalan tahmini süre: —')
+
+    def _clear_active_download_ui(self, message):
+        super()._clear_active_download_ui(message)
+        self.transfer_graph.clear()
+        self._reset_transfer_metrics()
+        self.dlp_hero.set_hero(None)
 
     def show_empty_state(self, title, description):
         super().show_empty_state(title, description)
@@ -755,8 +828,17 @@ class Launcher(functional.Launcher):
         self.motion_toggle.setChecked(reduced)
         self.motion_toggle.blockSignals(False)
         self.right_stack.motion_enabled = not reduced
+        if reduced:
+            self.right_stack._fade.stop()
+            self.right_stack._effect.setOpacity(1)
         for widget in self.findChildren(MotionButton) + self.findChildren(LibraryCard):
             widget.motion_enabled = not reduced
+            if reduced:
+                if isinstance(widget, MotionButton):
+                    widget._motion.stop()
+                else:
+                    widget._animation.stop()
+                    widget._frame(0)
         for hero in (self.hero, self.home_hero):
             hero.motion_enabled = not reduced
             hero._update_motion()

@@ -6,6 +6,7 @@ on:
     paths:
       - 'windows/launcher/app_steam.py'
       - 'windows/launcher/steam_desktop_widgets.py'
+      - 'windows/launcher/requirements.txt'
       - 'tests/test_launcher_steam.py'
       - '.github/workflows/build-launcher-steam-preview.yml'
   workflow_dispatch:
@@ -37,7 +38,10 @@ jobs:
       - name: Run regression and native UI tests
         env:
           QT_QPA_PLATFORM: offscreen
-        run: python -X utf8 -m unittest discover -s tests -v
+        run: |
+          python -c "from PySide6.QtWidgets import QApplication"
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -X utf8 -m unittest discover -s tests -v
       - name: Build isolated preview
         run: >-
           pyinstaller --noconfirm --clean --windowed

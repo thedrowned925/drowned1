@@ -342,6 +342,10 @@ class TransferGraph(QFrame):
         self.samples.append(max(0, float(speed)))
         self.update()
 
+    def clear(self):
+        self.samples.clear()
+        self.update()
+
     def paintEvent(self, event):
         p = QPainter(self)
         p.setRenderHint(QPainter.Antialiasing)
@@ -380,6 +384,15 @@ from library_navigation import GameListView as _GameListView, GameGridView as _G
 
 class _ViewportMotion:
     motion_enabled = True
+
+    def set_items(self, rows):
+        for key, game, _ in rows:
+            item = self._items.get(key)
+            url = str((game.get('artwork') or {}).get('cover') or '')
+            if item is not None and item.cover_url != url:
+                item.set_cover(None)
+                item.cover_requested = False
+        super().set_items(rows)
 
     def set_motion_enabled(self, enabled):
         self.motion_enabled = enabled
