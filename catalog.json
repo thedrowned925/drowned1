@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-07T23:24:12.905508+00:00",
+  "updated_at": "2026-09-08T17:27:57.226267+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -3391,6 +3391,41 @@
       },
       "media": {
         "steam_app_id": 238010
+      }
+    },
+    {
+      "id": "star-wars-jedi-fallen-order",
+      "title": "STAR WARS Jedi: Fallen Order™",
+      "platform": "pc",
+      "description": "A galaxy-spanning adventure awaits in Star Wars Jedi: Fallen Order, a 3rd person action-adventure title from Respawn. An abandoned Padawan must complete his training, develop new powerful Force abilities, and master the art of the lightsaber - all while staying one step ahead of the Empire.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-jedi-fallen-order/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-jedi-fallen-order/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-jedi-fallen-order/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-jedi-fallen-order/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-jedi-fallen-order/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-jedi-fallen-order/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-jedi-fallen-order/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-jedi-fallen-order/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-jedi-fallen-order/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-jedi-fallen-order/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-jedi-fallen-order/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/star-wars-jedi-fallen-order/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-star-wars-jedi-fallen-order-v1.0.0-stable",
+          "manifest_path": "manifests/pc/star-wars-jedi-fallen-order/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/star-wars-jedi-fallen-order/stable/1.0.0.json",
+          "size": 60887689490,
+          "published_at": "2026-09-08T17:27:57.226256+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 1172380
       }
     }
   ]
