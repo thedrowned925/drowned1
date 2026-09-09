@@ -2,17 +2,18 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 103
-- **Toplam aktif sürüm/kanal:** 103
-- **Toplam aktif boyut:** 2713.408 GB · 2.713 TB
-- **Katalog güncelleme zamanı:** 2026-09-09 20:21:41 UTC
+- **Toplam oyun:** 104
+- **Toplam aktif sürüm/kanal:** 104
+- **Toplam aktif boyut:** 2724.385 GB · 2.724 TB
+- **Katalog güncelleme zamanı:** 2026-09-09 21:05:32 UTC
 
 ## PC
 
-**103 oyun · 103 aktif sürüm/kanal · 2713.408 GB · 2.713 TB**
+**104 oyun · 104 aktif sürüm/kanal · 2724.385 GB · 2.724 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
+| Alan Wake | 1.0.0 | stable | 10.977 | 0.011 | `pc-alan-wake-v1.0.0-stable` |
 | Assassin's Creed 2 | 1.0.1 | stable | 7.276 | 0.007 | `pc-assassin-s-creed-2-v1.0.1-stable` |
 | Assassin's Creed Black Flag Resynced | 1.0.0 | stable | 72.871 | 0.073 | `pc-assassin-s-creed-black-flag-resynced-v1.0.0-stable` |
 | Assassin's Creed Brotherhood | 1.0.0 | stable | 9.652 | 0.010 | `pc-assassin-s-creed-brotherhood-v1.0.0-stable` |
