@@ -1,14 +1,14 @@
 {
-  "active": false,
-  "phase": "done",
+  "active": true,
+  "phase": "plan",
   "kind": "game",
-  "title": "Alan Wake",
+  "title": "Need for Speed™ Most Wanted",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
-  "percent": 100,
+  "percent": 0,
   "total_sent": 0,
-  "total_size": 0,
+  "total_size": 8100189102,
   "message": "",
-  "updated_at": "2026-09-09T21:05:35.457546+00:00"
+  "updated_at": "2026-09-09T21:15:11.127788+00:00"
 }
