@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 105
-- **Toplam aktif sürüm/kanal:** 105
-- **Toplam aktif boyut:** 2732.485 GB · 2.732 TB
-- **Katalog güncelleme zamanı:** 2026-09-09 21:18:23 UTC
+- **Toplam oyun:** 106
+- **Toplam aktif sürüm/kanal:** 106
+- **Toplam aktif boyut:** 2735.033 GB · 2.735 TB
+- **Katalog güncelleme zamanı:** 2026-09-09 21:55:00 UTC
 
 ## PC
 
-**105 oyun · 105 aktif sürüm/kanal · 2732.485 GB · 2.732 TB**
+**106 oyun · 106 aktif sürüm/kanal · 2735.033 GB · 2.735 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -117,6 +117,7 @@
 | Tomb Raider Definitive Edition | 1.0.0 | stable | 25.926 | 0.026 | `pc-tomb-raider-definitive-edition-v1.0.0-stable` |
 | Undertale | 1.0.0 | stable | 0.213 | 0.000 | `pc-undertale-v1.0.0-stable` |
 | Watch_Dogs™ | 1.0.0 | stable | 17.727 | 0.018 | `pc-watch_dogs-v1.0.0-stable` |
+| What Remains of Edith Finch | 1.0.0 | stable | 2.548 | 0.003 | `pc-what-remains-of-edith-finch-v1.0.0-stable` |
 | Wolfenstein: The New Order | 1.0.0 | stable | 46.691 | 0.047 | `pc-wolfenstein-the-new-order-v1.0.0-stable` |
 
 ---
