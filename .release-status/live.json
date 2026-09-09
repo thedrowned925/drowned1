@@ -1,14 +1,14 @@
 {
-  "active": false,
-  "phase": "done",
+  "active": true,
+  "phase": "plan",
   "kind": "game",
-  "title": "What Remains of Edith Finch",
+  "title": "Call of Duty: World at War",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
-  "percent": 100,
+  "percent": 0,
   "total_sent": 0,
-  "total_size": 0,
+  "total_size": 7280098514,
   "message": "",
-  "updated_at": "2026-09-09T21:55:03.005725+00:00"
+  "updated_at": "2026-09-09T22:04:47.660871+00:00"
 }
