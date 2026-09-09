@@ -1,0 +1,5917 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "alan-wake",
+    "title": "Alan Wake",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "A Dark Presence stalks the small town of Bright Falls, pushing Alan Wake to the brink of sanity in his fight to unravel the mystery and save his love."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-alan-wake-v1.0.0-stable"
+  },
+  "chunk_size": 274414298,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 10976571904,
+  "files": [
+    {
+      "path": "ai_f_Win32.dll",
+      "size": 619872,
+      "sha256": "f693abad730bceb2feee298821371818b3fc8bf9567e7c86d94f15cf4443791d"
+    },
+    {
+      "path": "alanwake.exe",
+      "size": 3043680,
+      "sha256": "ee7a6fd67f35bd42985652d7aa76b87d5586da3c6575e67c6b1e339055ce8da2"
+    },
+    {
+      "path": "app_f_Win32.dll",
+      "size": 239968,
+      "sha256": "550e146468a59ccdd1a279287c66d89b1601c8d93845b341f42a91190aee6189"
+    },
+    {
+      "path": "binkw32.dll",
+      "size": 226304,
+      "sha256": "0c60199bc470a30b01fa32c0e93fc9deb8c800573a0354eae9ed57132f85dc18"
+    },
+    {
+      "path": "d3d_f_Win32.dll",
+      "size": 190304,
+      "sha256": "4c40f63fa41d31948b11572f1a2aefb496c453a11e67317fb9b2b13bf3a2a3e4"
+    },
+    {
+      "path": "data/config/locale_config.xml",
+      "size": 3780,
+      "sha256": "bf3168189f4b0658a75610d90dcba2d91a9172b9babf7fece34ecbf399aa495c"
+    },
+    {
+      "path": "data/ep999-000-cht.bin",
+      "size": 3627,
+      "sha256": "489547d045e7ebc4fa5a3c804643d36f83898f6d692ea53f551d57e0fa4dc2d1"
+    },
+    {
+      "path": "data/ep999-000-cht.rmdp",
+      "size": 4624712,
+      "sha256": "45f1ba58e58f5205633a971147e5b14aa38dbe39af02f8359f0e85abc269ce84"
+    },
+    {
+      "path": "data/ep999-000-cz.bin",
+      "size": 7820,
+      "sha256": "b773f82ea1e4449473bb388fbcd151b993852089f3308fbda47ec457203d606b"
+    },
+    {
+      "path": "data/ep999-000-cz.rmdp",
+      "size": 7176328,
+      "sha256": "5e9bf98445b20cf81594bf3c1d822d65032582ef8b441c3086de965e69ec7e47"
+    },
+    {
+      "path": "data/ep999-000-de.bin",
+      "size": 182305,
+      "sha256": "235858d61ee7d222849514478193a0d80d8a8c8dfe9111e3b71426ffc47eed56"
+    },
+    {
+      "path": "data/ep999-000-de.rmdp",
+      "size": 265212880,
+      "sha256": "5de8ebfccf8f407f593367d38563851c791e13685897cc930882bb38251ba95e"
+    },
+    {
+      "path": "data/ep999-000-en.bin",
+      "size": 187869,
+      "sha256": "2d7fe34d845ca07ac4a94e948c648418a8d106463bba619c12fb506a4db8e314"
+    },
+    {
+      "path": "data/ep999-000-en.rmdp",
+      "size": 267865104,
+      "sha256": "921685806e7f3575d0ae79a0017f1a93454f50033f06fb702a01d2e8585424fa"
+    },
+    {
+      "path": "data/ep999-000-es.bin",
+      "size": 182305,
+      "sha256": "427bde5220998421daa8c8c0d90187713d9f4397b761f2fc6a3f7faca14c3baf"
+    },
+    {
+      "path": "data/ep999-000-es.rmdp",
+      "size": 265226296,
+      "sha256": "2d8005108234741e06b9a3293d63a5b063d8cc2f81dbf37396664ef884123eda"
+    },
+    {
+      "path": "data/ep999-000-esm.bin",
+      "size": 182313,
+      "sha256": "4db389204b347dfbd6fee0eabe5f9a5be1227740ae10a43f0e82bac1cbb2f84b"
+    },
+    {
+      "path": "data/ep999-000-esm.rmdp",
+      "size": 263924416,
+      "sha256": "0cce356c8cd294a31f7f640a9e5b1287cb564545e8de9d9621d712107bc32739"
+    },
+    {
+      "path": "data/ep999-000-fr.bin",
+      "size": 182305,
+      "sha256": "e43a47a00a7e26ed7a05aec82aa25a0c1c04ee831c7500abd34bac94d5d9b10d"
+    },
+    {
+      "path": "data/ep999-000-fr.rmdp",
+      "size": 265123952,
+      "sha256": "804ff651f1d5105796bcf3f2a1ff57fe061dbdbfa9e6d8ff0cb4e3471e7aaa37"
+    },
+    {
+      "path": "data/ep999-000-it.bin",
+      "size": 182305,
+      "sha256": "2f74ab434bc2846e5b5febec8a8992a52e1550872dfc1b099b85bd5728f5c8ab"
+    },
+    {
+      "path": "data/ep999-000-it.rmdp",
+      "size": 264831536,
+      "sha256": "f8ec608b853d50fb7703ffbc0419ad671bbcafcf1789e5c4269b2cdf4d7b19aa"
+    },
+    {
+      "path": "data/ep999-000-jp.bin",
+      "size": 182295,
+      "sha256": "0acaf4541d13d39fe62278ea99a315a35aff6decb1e992d736f643456359e204"
+    },
+    {
+      "path": "data/ep999-000-jp.rmdp",
+      "size": 269123744,
+      "sha256": "fe3b535d9f2e90aa287cc4e6cf787bd90f551627c23db2e7d6d42446d841efa6"
+    },
+    {
+      "path": "data/ep999-000-ko.bin",
+      "size": 3622,
+      "sha256": "3ec50a05a400ba3b9a5b8a3304eafbbbd03ca0a7471601c15d8c3bdf5cd0d56c"
+    },
+    {
+      "path": "data/ep999-000-ko.rmdp",
+      "size": 4588376,
+      "sha256": "d92dfeaeb29da1826d418ed066442ef671a1cf9ba1cf39b6beb0944ddbe00c4b"
+    },
+    {
+      "path": "data/ep999-000-pl.bin",
+      "size": 3696,
+      "sha256": "57ca86d6f894fbd794805ed27a5c5548d2945d53b1e4f4b86c3896fb91d6d7d1"
+    },
+    {
+      "path": "data/ep999-000-pl.rmdp",
+      "size": 5013432,
+      "sha256": "ff040363a4e724dd6f851932de2f08493598f2420bd27b6ff57e7e35c60fa6a2"
+    },
+    {
+      "path": "data/ep999-000-ru.bin",
+      "size": 3696,
+      "sha256": "e0b91d0a2545c60dec6817e9c4abbbda6929c927743366c3b91aa1085998bf14"
+    },
+    {
+      "path": "data/ep999-000-ru.rmdp",
+      "size": 5080632,
+      "sha256": "0f86e018b493a595445754054b9f5c512cc1880ca1801dd70b8856c2c0de0fb6"
+    },
+    {
+      "path": "data/ep999-000.bin",
+      "size": 2436918,
+      "sha256": "d7f801642dbde814563b601a18a74b22468aefb7390f0f852e49496a4847a4a3"
+    },
+    {
+      "path": "data/ep999-000.rmdp",
+      "size": 3050241104,
+      "sha256": "4102e00ab492e87ea31a061043345f7b7ddfbbd8bdd0cd2c5d8bfae0830633c2"
+    },
+    {
+      "path": "data/ep999-001-cht.bin",
+      "size": 461,
+      "sha256": "c1ba1ba7f4c692152e7c2c23c28f06ef1a37f052feacac45bcb253a4ea8326d7"
+    },
+    {
+      "path": "data/ep999-001-cht.rmdp",
+      "size": 2685144,
+      "sha256": "7fd15da999c65cae82c4114b95dcfb4f53c686cd59372e6a7a8b4c7d608d8c26"
+    },
+    {
+      "path": "data/ep999-001-cz.bin",
+      "size": 296,
+      "sha256": "dad01464935eb0b1f758902b3bb0e675d5595bf462990959b9ed6f59d61281e2"
+    },
+    {
+      "path": "data/ep999-001-cz.rmdp",
+      "size": 836400,
+      "sha256": "f665be6096e2929935a85e6dba02a0b8cec31c8a3a00b2bd92eaf9bed69b75bc"
+    },
+    {
+      "path": "data/ep999-001-de.bin",
+      "size": 296,
+      "sha256": "480d83e446d75dae7ca44461b54ff5a2f1d3827a3b1e10c763832547f7de9fdf"
+    },
+    {
+      "path": "data/ep999-001-de.rmdp",
+      "size": 915408,
+      "sha256": "c4ee8ea48aad12bd557cf3a487ed0437511eb638b7a8aef39d10df7bf5de4ceb"
+    },
+    {
+      "path": "data/ep999-001-en.bin",
+      "size": 296,
+      "sha256": "253ff653c34e9232da5e56c1254ac6c681491b7403cb5f8a1fd4281edc4710a0"
+    },
+    {
+      "path": "data/ep999-001-en.rmdp",
+      "size": 867600,
+      "sha256": "13990acfd2c7991c2cb432fd9e73c552b456f715a2a5228177c9de596009219b"
+    },
+    {
+      "path": "data/ep999-001-es.bin",
+      "size": 296,
+      "sha256": "e8ce284f659d1b35b2d48aeb83c6634644f11cdde64fe5cd77bcb7ee1f9815ff"
+    },
+    {
+      "path": "data/ep999-001-es.rmdp",
+      "size": 875232,
+      "sha256": "2fc5d8a5f43e48ff65475a454edc23e9bb7f45d6ec05eb92290d1e5ba8347f75"
+    },
+    {
+      "path": "data/ep999-001-esm.bin",
+      "size": 535,
+      "sha256": "f56b02da9e137af9f8ac259771bab1b085a65a4b75bdbf9c9150f829dc030929"
+    },
+    {
+      "path": "data/ep999-001-esm.rmdp",
+      "size": 3087312,
+      "sha256": "167cd19ec0b5ae43ce78590d1dd4803aa1043cbc42149a63896b77c01062f44d"
+    },
+    {
+      "path": "data/ep999-001-fr.bin",
+      "size": 296,
+      "sha256": "4e222cc14e44af38120c0591f45ce4399f836848cb7ced25002e74c97566426b"
+    },
+    {
+      "path": "data/ep999-001-fr.rmdp",
+      "size": 940192,
+      "sha256": "67539cf614a6c5d3414f8c3d29add1ddc3e7de3a6a812d21e219a785d9cb89c9"
+    },
+    {
+      "path": "data/ep999-001-it.bin",
+      "size": 296,
+      "sha256": "e67deddd40846cdedb0a8c46db6021405595cab13ced654f68f0880351ce7efa"
+    },
+    {
+      "path": "data/ep999-001-it.rmdp",
+      "size": 866984,
+      "sha256": "59b45e40fb87e1686c3be952e63c985154488c0ccbd7bfb3cd2c4d6d5170c7ae"
+    },
+    {
+      "path": "data/ep999-001-jp.bin",
+      "size": 296,
+      "sha256": "138d14d8cc666fb2792a2e9fad5fe74eaf57b473a0509dd57e02c91386560e0a"
+    },
+    {
+      "path": "data/ep999-001-jp.rmdp",
+      "size": 417640,
+      "sha256": "56c716256c04968086dd24254e1163727d38f2cbffbeba65268cfb17bcc80da1"
+    },
+    {
+      "path": "data/ep999-001-ko.bin",
+      "size": 296,
+      "sha256": "e939b47e932f637819f5b6f3da1bacc997a8288d288788ed3eda2bc10d1110a7"
+    },
+    {
+      "path": "data/ep999-001-ko.rmdp",
+      "size": 534176,
+      "sha256": "4f41393f12cd08c096df35ddb5d82a800f9c59899e10eb63c256f6bd491e4ae4"
+    },
+    {
+      "path": "data/ep999-001-pl.bin",
+      "size": 296,
+      "sha256": "e949bdb6ff96d175e0e49ca52887b516e791c0f3986918ceea704928b34db263"
+    },
+    {
+      "path": "data/ep999-001-pl.rmdp",
+      "size": 830408,
+      "sha256": "7dec56db7639f2337d8ca25895fbe16c434b63bbd00c996802a576d74ec74112"
+    },
+    {
+      "path": "data/ep999-001-ru.bin",
+      "size": 296,
+      "sha256": "cf34dcadc1c617933d3932440897cf8f222d7613cc3de9295084b74df48dd244"
+    },
+    {
+      "path": "data/ep999-001-ru.rmdp",
+      "size": 855360,
+      "sha256": "4de3c7e9c776d309bbdf9267c1c861d3421e0d231d6a04504a58c2a513b76a85"
+    },
+    {
+      "path": "data/ep999-001.bin",
+      "size": 262,
+      "sha256": "2b2717f1bf6348ada9a1af26500251773ec3dd01456932a8cce2367dcbc754a7"
+    },
+    {
+      "path": "data/ep999-001.rmdp",
+      "size": 334088,
+      "sha256": "4c3a6a3a4b3bc8459030ed57a5bbefd5557619ac30506a6898119ea7850019a5"
+    },
+    {
+      "path": "data/ep999-002-cht.bin",
+      "size": 5309,
+      "sha256": "29e10762d660bbd6046806a6674c46d05d8b1c2471b3d4bd7ed4112ddb18bd43"
+    },
+    {
+      "path": "data/ep999-002-cht.rmdp",
+      "size": 2573288,
+      "sha256": "9ad950c310fd28159879ce6d2f515cae279829c94ea8c27b54e916c7b9e2af59"
+    },
+    {
+      "path": "data/ep999-002-cz.bin",
+      "size": 296,
+      "sha256": "254ca2ad74b6e7033a0a523d4efaadf92c4dc6b2c4bad141e05767754a4c973e"
+    },
+    {
+      "path": "data/ep999-002-cz.rmdp",
+      "size": 836400,
+      "sha256": "7bf814e218dbba1d1864ad49d56f8fbbc3f418d9063f84fe2a417f12012fc48d"
+    },
+    {
+      "path": "data/ep999-002-de.bin",
+      "size": 5305,
+      "sha256": "81ec4633202367bc340ccb8002a7beb22f5477e6e2ae31dd84586b2274ea50ab"
+    },
+    {
+      "path": "data/ep999-002-de.rmdp",
+      "size": 3080920,
+      "sha256": "6c195620c79e97b971b2a3c372710ab4f333fa28c86e30eb3f21e9f98b9434b2"
+    },
+    {
+      "path": "data/ep999-002-en.bin",
+      "size": 1142,
+      "sha256": "d3f8ef4e1d1a2654ffb81e540b3f1fe3f96b45f228463045f102ac02892047ce"
+    },
+    {
+      "path": "data/ep999-002-en.rmdp",
+      "size": 1124528,
+      "sha256": "df434a154b17f297ba91dc650e1ecfe3b8d6adad45b91812fe0e1e1386dc5f09"
+    },
+    {
+      "path": "data/ep999-002-es.bin",
+      "size": 5305,
+      "sha256": "0a7453faa7d2772ddbdbddeee5193ef0aa75c9dfacbea5494e3e8d6c8aa06fe3"
+    },
+    {
+      "path": "data/ep999-002-es.rmdp",
+      "size": 3040760,
+      "sha256": "67c14c6a3a8ed466db11a60cf1868da3f112672a31d94b0eb99de9f0465e54de"
+    },
+    {
+      "path": "data/ep999-002-esm.bin",
+      "size": 5309,
+      "sha256": "49f50c3018eec64d1d1765a4852032b90f748813cfab85cff2c64ced99c3242b"
+    },
+    {
+      "path": "data/ep999-002-esm.rmdp",
+      "size": 3043560,
+      "sha256": "ee7dcc38152567695d55e122964f9250f03611249174b441f205e09261b4f79f"
+    },
+    {
+      "path": "data/ep999-002-fr.bin",
+      "size": 5305,
+      "sha256": "e8c0d767989f9cf2ad52b09568780cc11155c3df119f1d3c577513063706a140"
+    },
+    {
+      "path": "data/ep999-002-fr.rmdp",
+      "size": 3105704,
+      "sha256": "2e5a9d1dce381e2745e5ffcbf309f832d0ae93e0af5af6b04c4bc3929719e356"
+    },
+    {
+      "path": "data/ep999-002-it.bin",
+      "size": 5305,
+      "sha256": "4bbf83a1c060cc3bddcf3ed652b7d1f5ee3623431ac79913b2fa527ac2adbaf3"
+    },
+    {
+      "path": "data/ep999-002-it.rmdp",
+      "size": 3032512,
+      "sha256": "21bda4d83051ab403f5d88d632a8646e3512945b1937d0569bf570fe2e79a309"
+    },
+    {
+      "path": "data/ep999-002-jp.bin",
+      "size": 5305,
+      "sha256": "0c7471c3f7f0e16fa807ad8bd8e1d99e2a794051b25376402830ba559e7cf0d6"
+    },
+    {
+      "path": "data/ep999-002-jp.rmdp",
+      "size": 2583128,
+      "sha256": "e6b1700037362d652a26e0232637b42cdaf486b7762990aebf15c359d0116249"
+    },
+    {
+      "path": "data/ep999-002-ko.bin",
+      "size": 5305,
+      "sha256": "9cb807c2079b64a206f93c4dce898a0fd456e7f129122b0f72b51ebe485123c3"
+    },
+    {
+      "path": "data/ep999-002-ko.rmdp",
+      "size": 2699656,
+      "sha256": "3f533216c1a69c8ba2092afb7fb27554099e7f0d86e26aea3cd72813f824de2f"
+    },
+    {
+      "path": "data/ep999-002-pl.bin",
+      "size": 5305,
+      "sha256": "3eb1c56cf5182f0613fb5c77ea09d0617c338f587947ec74f7155af3f7b60075"
+    },
+    {
+      "path": "data/ep999-002-pl.rmdp",
+      "size": 2995928,
+      "sha256": "f71a166eac7761fa01648e813cf2db8a3ed2e290deb618a0daec69337e794ed2"
+    },
+    {
+      "path": "data/ep999-002-ru.bin",
+      "size": 5305,
+      "sha256": "a624af806b926ccb18e6c59da95b48990499121f271f65cff614d598a058cc89"
+    },
+    {
+      "path": "data/ep999-002-ru.rmdp",
+      "size": 3020880,
+      "sha256": "a31b3afb2f04002f7f980b934c060fe664b1b50c21454ad38ddeed7aea2d4eec"
+    },
+    {
+      "path": "data/ep999-002.bin",
+      "size": 366,
+      "sha256": "271677958f2cda5d6cfb5c6e83db8922b357342067ef4cc3e761ca56f0bd3af6"
+    },
+    {
+      "path": "data/ep999-002.rmdp",
+      "size": 7062944,
+      "sha256": "97c55990fb50d3ecdb9dbb3d1709e0d7dcfa09c74aa20e6551e734c7c939e52b"
+    },
+    {
+      "path": "data/ep999-003-cht.bin",
+      "size": 297,
+      "sha256": "291d22b96c6ba9b0a43a1428b693892ea1a0776937b424a2ca6fcdf2eb61be67"
+    },
+    {
+      "path": "data/ep999-003-cht.rmdp",
+      "size": 407832,
+      "sha256": "2b88fa2d02e78838d6fd631ada5e7def7cbd137979185ecfbaeef40a3a3269f4"
+    },
+    {
+      "path": "data/ep999-003-cz.bin",
+      "size": 296,
+      "sha256": "3df23d9cee1e0549bef272884438fd70cc35b5284c6659216bbc1822c9b90b40"
+    },
+    {
+      "path": "data/ep999-003-cz.rmdp",
+      "size": 836448,
+      "sha256": "c76da30d376f1a91a9cb110636ca94f8127ca8e745d69e77d4081e37da62f9ae"
+    },
+    {
+      "path": "data/ep999-003-de.bin",
+      "size": 296,
+      "sha256": "7599cf60094687ab61cb5afe5c4e493959733ac9f9208a671ab9b78b573239d1"
+    },
+    {
+      "path": "data/ep999-003-de.rmdp",
+      "size": 915576,
+      "sha256": "f5ad78db0e74bc79852185b915c3e9b0671a7964132fe25e3cb782737006c303"
+    },
+    {
+      "path": "data/ep999-003-en.bin",
+      "size": 296,
+      "sha256": "3c8e7b15de6c9722b671624778d6a7b27c585b114bd0fd806d9153a3d9d84612"
+    },
+    {
+      "path": "data/ep999-003-en.rmdp",
+      "size": 867768,
+      "sha256": "8cc4d5aea528af79ce0506bcd9bb9292d8ae99f334857e19576d2d6d24728c2a"
+    },
+    {
+      "path": "data/ep999-003-es.bin",
+      "size": 296,
+      "sha256": "3fccf97322d24691ae49fda4db04a5bb3f1090d7af7f713eb692ec9fed2613bf"
+    },
+    {
+      "path": "data/ep999-003-es.rmdp",
+      "size": 875416,
+      "sha256": "de8d9cb46c0ddf29b9aaadc440894646254ba87c64f363c447a09aeafaa60f5c"
+    },
+    {
+      "path": "data/ep999-003-esm.bin",
+      "size": 297,
+      "sha256": "15088c7641c5c25dee988321298528e386b02eb5b5b045734e93c95a7f2523e6"
+    },
+    {
+      "path": "data/ep999-003-esm.rmdp",
+      "size": 878120,
+      "sha256": "18a4c866090b3f8244af93fb4a731cbf4586e4e011f9934e831e2befc9515b0d"
+    },
+    {
+      "path": "data/ep999-003-fr.bin",
+      "size": 296,
+      "sha256": "ec23f88cc75cb1bb9ece37438310d829ed1991aa829818b0162307c09cbac276"
+    },
+    {
+      "path": "data/ep999-003-fr.rmdp",
+      "size": 940360,
+      "sha256": "be96190dfcfb17d16fff7d2d39413ab9af91de71f25036a79784d11d079357ea"
+    },
+    {
+      "path": "data/ep999-003-it.bin",
+      "size": 296,
+      "sha256": "3e17ffe44419fd872ba5be98d8e7b04f3559712c04c5bf40798f9132fe220d49"
+    },
+    {
+      "path": "data/ep999-003-it.rmdp",
+      "size": 867168,
+      "sha256": "410ab17ab19cc2e6e7399aed75ba2dbb31a0aa1efc61e59c6763b31bd42f316b"
+    },
+    {
+      "path": "data/ep999-003-jp.bin",
+      "size": 296,
+      "sha256": "d2b67631b8a7a31faf10997b26670e9092c50816c8f31d2aa815276970c01759"
+    },
+    {
+      "path": "data/ep999-003-jp.rmdp",
+      "size": 417776,
+      "sha256": "e5269e5c68bcc92052484811bc52c4d6c82eae14091531a40486235d99e3df3c"
+    },
+    {
+      "path": "data/ep999-003-ko.bin",
+      "size": 296,
+      "sha256": "d2277db01a16732488373970892090af89e76fb16ab32643ffca504d09a078ca"
+    },
+    {
+      "path": "data/ep999-003-ko.rmdp",
+      "size": 534304,
+      "sha256": "c199a25c78137e8bc342595bb4a211ffb04c22591166566f303e3ef619fcbcd1"
+    },
+    {
+      "path": "data/ep999-003-pl.bin",
+      "size": 533,
+      "sha256": "c736cb23014f0804235bdae246272a2e51eb7fbc2cb21bd9e8d0c6736d578353"
+    },
+    {
+      "path": "data/ep999-003-pl.rmdp",
+      "size": 3094816,
+      "sha256": "5893666d0726803aabd2eae024639bddc8f3150aad94dbee7ad336020d48b683"
+    },
+    {
+      "path": "data/ep999-003-ru.bin",
+      "size": 533,
+      "sha256": "1b878b893c36a8661d9db073ecb3b88fd72c9445a98b31bed4be73927199f500"
+    },
+    {
+      "path": "data/ep999-003-ru.rmdp",
+      "size": 3159848,
+      "sha256": "49707b65a06a38aa9c29da5e3063d1ace9668715226fcecc5e4217595251c4f7"
+    },
+    {
+      "path": "data/ep999-003.bin",
+      "size": 1788,
+      "sha256": "13b6d82e6c20aeeee672dd86b182edc64c92d41e727c459f457c79bd2e70f2c6"
+    },
+    {
+      "path": "data/ep999-003.rmdp",
+      "size": 2779328,
+      "sha256": "2adc9295b14c230b690870c8ed1a8911b60778f093d0ef81c4aaacae10d39094"
+    },
+    {
+      "path": "data/ep999-004-cht.bin",
+      "size": 297,
+      "sha256": "cae0c19afd8801c65ddf68228c94d92b17f08eb76df91a3c71353849680d249c"
+    },
+    {
+      "path": "data/ep999-004-cht.rmdp",
+      "size": 407880,
+      "sha256": "5c0a8c293b4b3146dc25b31c01c8485d469eade1b6c6c5922372a7adf5a638fc"
+    },
+    {
+      "path": "data/ep999-004-cz.bin",
+      "size": 296,
+      "sha256": "23efd6b738f95fd5d2b4cc4df2eafc2590f2f7d47f628b5434f846bde5b90aa6"
+    },
+    {
+      "path": "data/ep999-004-cz.rmdp",
+      "size": 836512,
+      "sha256": "54720034ddfc625bafbc1f04fbf18bc80ebe0b10c3c3190dbd05a611fb190aaf"
+    },
+    {
+      "path": "data/ep999-004-de.bin",
+      "size": 296,
+      "sha256": "a28a86ca3f4eb06858e9f23244fb86c8dbae9a76cf6a994017850ed2ce7ac436"
+    },
+    {
+      "path": "data/ep999-004-de.rmdp",
+      "size": 915640,
+      "sha256": "8d241a683a60af6ef5b8debb2b909a5103754cd1953ffde7d2908fa141bf15f4"
+    },
+    {
+      "path": "data/ep999-004-en.bin",
+      "size": 296,
+      "sha256": "a601ef6f3e65e63754e12acc27569fe150fb7f4bf1845e378552f7a1e7b7ca83"
+    },
+    {
+      "path": "data/ep999-004-en.rmdp",
+      "size": 867824,
+      "sha256": "e7b60c5642670d64be57d214d7c0a7f33fb169f6734ff40d7a9d9ebc5e42aff3"
+    },
+    {
+      "path": "data/ep999-004-es.bin",
+      "size": 296,
+      "sha256": "c596979016d10151edbf81d5fd7325ba1382cd7fc1b8c32ccd5af08969732105"
+    },
+    {
+      "path": "data/ep999-004-es.rmdp",
+      "size": 875472,
+      "sha256": "f3fc7a4356917cd32fad91d7f38c06fa5acd6ab0d5f1db805aced91f7224109c"
+    },
+    {
+      "path": "data/ep999-004-esm.bin",
+      "size": 297,
+      "sha256": "fa5e6d0746295889687e4bbb5260e43183ee087bb5a4cf3ccf19783ecfa31372"
+    },
+    {
+      "path": "data/ep999-004-esm.rmdp",
+      "size": 878176,
+      "sha256": "0fd705c4dd1cb10fec578d9711c62c6b2749b9fb32e6323f29265db115ea2277"
+    },
+    {
+      "path": "data/ep999-004-fr.bin",
+      "size": 296,
+      "sha256": "b14bb887701c007227bec79e4768cff0caca50f2b0b8968ef4b361a22d5a8f6e"
+    },
+    {
+      "path": "data/ep999-004-fr.rmdp",
+      "size": 940416,
+      "sha256": "c3ac94716dd63ac7da62ff01a143954ff9a4edafdf4853690dab090c85af706b"
+    },
+    {
+      "path": "data/ep999-004-it.bin",
+      "size": 296,
+      "sha256": "18deaa84cbea13be86bdd752dacac537b5ae68f013c8cda41161338a56347a22"
+    },
+    {
+      "path": "data/ep999-004-it.rmdp",
+      "size": 867232,
+      "sha256": "accc56cd8b4f83036273e4e35ac485b6499e7122ff4e706be6678a39e6e8a3b2"
+    },
+    {
+      "path": "data/ep999-004-jp.bin",
+      "size": 296,
+      "sha256": "615463e3af58525124f61c6486d7d5f64ad2bfe743f6eeda8208c40bfd20fdd9"
+    },
+    {
+      "path": "data/ep999-004-jp.rmdp",
+      "size": 417824,
+      "sha256": "d13319d80741ee2e25ba35ec04aca4efbd79c8a6316a0e14db0198035cb7b31a"
+    },
+    {
+      "path": "data/ep999-004-ko.bin",
+      "size": 296,
+      "sha256": "fa3567b156f0e38c817e8d3f5ef5ce2dcbf8867c1a0b906ea459453a94b3639e"
+    },
+    {
+      "path": "data/ep999-004-ko.rmdp",
+      "size": 534360,
+      "sha256": "5fc35a7e6208a6082b2fef2e654cb243601f0c16e1cba147b2fdaaf0e9bcc542"
+    },
+    {
+      "path": "data/ep999-004-pl.bin",
+      "size": 296,
+      "sha256": "f30acd76fc7c678e1895d53cfd42da11ad18753c98bb7947ab55a0dcd93a5c0a"
+    },
+    {
+      "path": "data/ep999-004-pl.rmdp",
+      "size": 831280,
+      "sha256": "b2ced9f6c7dad9c6ba50a7aac6cf8faa891e0a79046c8a6d6183795ace78e072"
+    },
+    {
+      "path": "data/ep999-004-ru.bin",
+      "size": 296,
+      "sha256": "cd7b510e361db30fa05d6e8a072d360f0ec8ce2e9f682b8a942b651af0cc80c6"
+    },
+    {
+      "path": "data/ep999-004-ru.rmdp",
+      "size": 854080,
+      "sha256": "baaaf093b11a39af4a1c5ca30783beabb948969204a33a69c9e8b386845c0af2"
+    },
+    {
+      "path": "data/ep999-004.bin",
+      "size": 262,
+      "sha256": "1c6ff935e8b1ce0db4a499aa275720ca42164fc8465299869cfbab9b351d02fa"
+    },
+    {
+      "path": "data/ep999-004.rmdp",
+      "size": 334136,
+      "sha256": "8bc8d663b97785f31f7c0dcc86d4b279988ba026efb1efecd260fec23bbc199f"
+    },
+    {
+      "path": "data/ep999-005.bin",
+      "size": 262,
+      "sha256": "cf1aef721124e4a3f63b15b26af9c222de2c1c0f99903a0b32c4140503259746"
+    },
+    {
+      "path": "data/ep999-005.rmdp",
+      "size": 334136,
+      "sha256": "bf367f25222406c878be521270bee0d88d6fb36d82e3b632750858d38a689af2"
+    },
+    {
+      "path": "data/ep999-006.bin",
+      "size": 262,
+      "sha256": "4a774187858371657ff6ecf88ebed270be1ecb509cee9dd1307fc61a74b4f88a"
+    },
+    {
+      "path": "data/ep999-006.rmdp",
+      "size": 67448,
+      "sha256": "34543d467b2fe36aaa0add43e69e7c7751c3782c60a8dfbb6a9d18b5749e0396"
+    },
+    {
+      "path": "data/ep999-007.bin",
+      "size": 802,
+      "sha256": "88c540349f5f995e9df32aae30d7e0e0bb4f9316f0000c53dcdef5c6faf86ac5"
+    },
+    {
+      "path": "data/ep999-007.rmdp",
+      "size": 1136376,
+      "sha256": "eb16aee4ec5de03a7c682e141bbca25ca2fb9c993850ebf783d4c3ae7b263c97"
+    },
+    {
+      "path": "data/videos/alan_wake_logo.bik",
+      "size": 20088192,
+      "sha256": "6039a8a5d942439d9967bc5de1aa35947595ad97c1ea0b544a96c58b77630709"
+    },
+    {
+      "path": "data/videos/cine_10100.bik",
+      "size": 19512604,
+      "sha256": "7be930ca88b82d25c0dd0949cff300c5895019d2267e7785b38b540c2c1fcda1"
+    },
+    {
+      "path": "data/videos/cine_10200.bik",
+      "size": 914668,
+      "sha256": "aa821dd4eb223f7deee1ea38da59fd19f0d09f01a71aef4dca99c4656fc130e0"
+    },
+    {
+      "path": "data/videos/cine_10300.bik",
+      "size": 49063080,
+      "sha256": "cadb2779240844bd1e615264c02e992040ef4c51fa7eb1436bd4da025999699a"
+    },
+    {
+      "path": "data/videos/cine_10400.bik",
+      "size": 117565220,
+      "sha256": "4cf585f22d7377b677c5b5132ca249c922e91b7cdb8c8876ae9f682d35734aee"
+    },
+    {
+      "path": "data/videos/cine_1100.bik",
+      "size": 108646500,
+      "sha256": "e14a13b7c53fc64269a2ddca3d1be2d93bc9e390ecf827390ac7cd514d6e9cb6"
+    },
+    {
+      "path": "data/videos/cine_11000.bik",
+      "size": 34754136,
+      "sha256": "33f6a683fa573339ec52c071c8b21861645df7b5db33c322564c71ce67c12ad4"
+    },
+    {
+      "path": "data/videos/cine_11100.bik",
+      "size": 59274640,
+      "sha256": "407ad4284f6df732d3adfe4fefb9b83572caaf48fe3ad0f454005a7c65b44275"
+    },
+    {
+      "path": "data/videos/cine_11200.bik",
+      "size": 83530576,
+      "sha256": "8373cca055d8651c6b9117fdfb142b3a29d66feb824e79bc6cf74d380c73674d"
+    },
+    {
+      "path": "data/videos/cine_11300.bik",
+      "size": 31932220,
+      "sha256": "134b40dfab6787c0b5c49e952b53f2fb08c1f10d74e746ce3829932602189b3e"
+    },
+    {
+      "path": "data/videos/cine_11500.bik",
+      "size": 69446196,
+      "sha256": "c444b1784d93931893cc69076a6584583ccc968af0ec554e8639950d98314e6a"
+    },
+    {
+      "path": "data/videos/cine_11600.bik",
+      "size": 38643784,
+      "sha256": "c31a3bb81d9742de7c0d652611a4fb3a1f6729233f88e45f02f8f0975d485a7f"
+    },
+    {
+      "path": "data/videos/cine_1200.bik",
+      "size": 29082568,
+      "sha256": "3fb6c82379f9dd10e666216b75b88b2577724b31d293e47093abd37ed67b583b"
+    },
+    {
+      "path": "data/videos/cine_12100.bik",
+      "size": 99851036,
+      "sha256": "c59e39d6221f6e685d6b032651ada7214bc70e00a9c2b2b84c9a4146c6e12c07"
+    },
+    {
+      "path": "data/videos/cine_12300.bik",
+      "size": 23553096,
+      "sha256": "d756af61a66c3dbc2fc54d48d4fe79359a4c180b594188e14432374698edb941"
+    },
+    {
+      "path": "data/videos/cine_12400.bik",
+      "size": 123452656,
+      "sha256": "93aa6c31891ddeb353a524ff0bd6b69cc09c36aa74cfd319db93ca990e066731"
+    },
+    {
+      "path": "data/videos/cine_1300.bik",
+      "size": 37460788,
+      "sha256": "5fa0fb8caafacd8789842a9cffb9dbd5db627a7c801d2436c64f910446e6e75e"
+    },
+    {
+      "path": "data/videos/cine_13100.bik",
+      "size": 16767008,
+      "sha256": "f9cbd625426b74fb2390e3e1a5fcbd5df5fa46b02ad2938ce25030d92af11a0f"
+    },
+    {
+      "path": "data/videos/cine_13200.bik",
+      "size": 212478180,
+      "sha256": "62b614af61a60471ec9d7c9a8038ac62faf3f3b730e498d02cb5e4ef2193253c"
+    },
+    {
+      "path": "data/videos/cine_14000.bik",
+      "size": 34909300,
+      "sha256": "94c058cc02f6091f38d37126c76b75719f3d2576545c80e4fc5d9d11a4583c41"
+    },
+    {
+      "path": "data/videos/cine_14100.bik",
+      "size": 53852204,
+      "sha256": "f3185e82dbc4841404afa52c6c70a8270e73a859373287f0ab0cdfb1018b63d8"
+    },
+    {
+      "path": "data/videos/cine_14200.bik",
+      "size": 38343440,
+      "sha256": "5b957fe57cd66e2a143d33ea1f0b39c7bfe54e9524d5c5609ad0428ff4f2a016"
+    },
+    {
+      "path": "data/videos/cine_14300.bik",
+      "size": 33736668,
+      "sha256": "7e952498df37950ae1e8febcd0c9f67116eaefb392df3623dbbc1c48330f1bd0"
+    },
+    {
+      "path": "data/videos/cine_14500.bik",
+      "size": 25735264,
+      "sha256": "bb9041ec1b0e1ec8800fe59131dd36ebf280bebbba005988bd27e7b797796677"
+    },
+    {
+      "path": "data/videos/cine_15100.bik",
+      "size": 94523672,
+      "sha256": "e939a49001a4e2faf006f14aa3a15f9359ca0b1ea2603663f7b4fcbec0ce6b1c"
+    },
+    {
+      "path": "data/videos/cine_15300.bik",
+      "size": 19681804,
+      "sha256": "0b7a142dc3294dfb74c73637fb35affd4a59ad924344142a518edf7da9270bb1"
+    },
+    {
+      "path": "data/videos/cine_15350.bik",
+      "size": 61236140,
+      "sha256": "17bd4d9aa206481a03c177df33613a01dfd02a39376d4ef6f91e709c11af32b1"
+    },
+    {
+      "path": "data/videos/cine_15400.bik",
+      "size": 160819020,
+      "sha256": "ededbdbe8ae71133fa2bc865691f6b5aed97a39bbe39b5db2ca8aa2f5d77e33a"
+    },
+    {
+      "path": "data/videos/cine_16000.bik",
+      "size": 34475068,
+      "sha256": "bd6434df9b940bba1252382191f2e91002f59223a9ba1133eb8ef4a569417aac"
+    },
+    {
+      "path": "data/videos/cine_16100.bik",
+      "size": 20702316,
+      "sha256": "1dcbffb57b737bd0baffde520bbf9330ecfc0d0bf6decabb2711d80d8812f268"
+    },
+    {
+      "path": "data/videos/cine_16200.bik",
+      "size": 149169136,
+      "sha256": "e8248b996f725acdece8452e463df981b1aaf43f16316e2a1ce60c87e0c655f2"
+    },
+    {
+      "path": "data/videos/cine_16300.bik",
+      "size": 3292056,
+      "sha256": "4b19598308e3d467e5547b8a9b48d7c26f5ccb4e5e0b787112cff7f49a2d9cb1"
+    },
+    {
+      "path": "data/videos/cine_16500.bik",
+      "size": 39255672,
+      "sha256": "98a53ef820fda1fecd7e4a7871b2bc63c213743fa6690ef8cf712f8e253de17a"
+    },
+    {
+      "path": "data/videos/cine_17100.bik",
+      "size": 27405536,
+      "sha256": "261f6984e17d428b0abeb14bc8549089001e3230fda812cb66ca4a3c085142c5"
+    },
+    {
+      "path": "data/videos/cine_17200.bik",
+      "size": 52813544,
+      "sha256": "3ce05f7e4494f9f9eb4e9dedccccc51ac30ec8a3d52d96c9c9eac17ddcc389d0"
+    },
+    {
+      "path": "data/videos/cine_17300.bik",
+      "size": 310930396,
+      "sha256": "f71274ad90dcef99563efa455cc738d6c83e3331a28495876e948191a913b398"
+    },
+    {
+      "path": "data/videos/cine_2100.bik",
+      "size": 53470652,
+      "sha256": "b8a4b74d5afa456de7e65ab3e93649c941465a8cb9a451c925858b75dec7aa5a"
+    },
+    {
+      "path": "data/videos/cine_2300.bik",
+      "size": 60197804,
+      "sha256": "b8f59942844666d46daf98e1171beba6433fb52cab2897e2782c8b05abab8f3c"
+    },
+    {
+      "path": "data/videos/cine_2400.bik",
+      "size": 34139968,
+      "sha256": "c0b63a154db070839df20b4503b9ff4c73830aaab17c129cad2f0c0f1072e883"
+    },
+    {
+      "path": "data/videos/cine_2500.bik",
+      "size": 87841484,
+      "sha256": "1530bb7d7b163c34cd790d5e4535e620b975d81a17be6edb6f25b16a2be0e167"
+    },
+    {
+      "path": "data/videos/cine_2600.bik",
+      "size": 19877056,
+      "sha256": "e4e3214a5c9333b2c8adfacf645e923f5624fb37660729dfae83e70e29b0a0fa"
+    },
+    {
+      "path": "data/videos/cine_2700.bik",
+      "size": 72369268,
+      "sha256": "653a67883c704227f0ad8f1a32890f832740f852133d98b6f73dd3f054c566be"
+    },
+    {
+      "path": "data/videos/cine_2800.bik",
+      "size": 17740036,
+      "sha256": "5e3cb24090b90fab6a54a4a6b90f18efbaeb49e442381f89abeb51122d4fb671"
+    },
+    {
+      "path": "data/videos/cine_3100.bik",
+      "size": 35092744,
+      "sha256": "4230b17a1a66499d9348f6fbc56494a700c3864d175f1a8cb23d7c0aca4de171"
+    },
+    {
+      "path": "data/videos/cine_3150.bik",
+      "size": 33001940,
+      "sha256": "51c39d57178dfcd89c26cd8dae7e61f473ebd49bc4f0a44f1ddfc7eaee292d7a"
+    },
+    {
+      "path": "data/videos/cine_3200.bik",
+      "size": 29260608,
+      "sha256": "21e535858073358c4677f63e701de1cc7c2b8a0c857a2a0b3add195e86969595"
+    },
+    {
+      "path": "data/videos/cine_3300.bik",
+      "size": 18967632,
+      "sha256": "b57f85e86c196d9dc4c5223a8e5b9846c4f88072bc2fc18b97bfa27f02483ccc"
+    },
+    {
+      "path": "data/videos/cine_3400.bik",
+      "size": 1552748,
+      "sha256": "403885ec904454cbdd19c4bc3c8f3e92aef2f8874bc51156da5d5e0ac02c14eb"
+    },
+    {
+      "path": "data/videos/cine_3500.bik",
+      "size": 129515700,
+      "sha256": "fa202ec6e2a685eba0bf84c90a7c3f0823ce4f637844426f2f377c9c96c56612"
+    },
+    {
+      "path": "data/videos/cine_4000.bik",
+      "size": 34769248,
+      "sha256": "ec8a4732907596dfc7cb82c07607667a2c1fbbea55149c7047abef2866f63bd3"
+    },
+    {
+      "path": "data/videos/cine_4100.bik",
+      "size": 15270832,
+      "sha256": "a757402cb17645104a06f3e772e2cdebf741ad9b0c7ebd5e79cc0a1860b6df32"
+    },
+    {
+      "path": "data/videos/cine_4200.bik",
+      "size": 98282684,
+      "sha256": "733653ecfd457605bedb6aa63e8e60279c023e53548f34252342747e08b4bd97"
+    },
+    {
+      "path": "data/videos/cine_4500.bik",
+      "size": 24886812,
+      "sha256": "fbe47d799740d3c9033aa447c33f62639e9e5add924a4d74b21ea0fb8c753c43"
+    },
+    {
+      "path": "data/videos/cine_4600.bik",
+      "size": 80610724,
+      "sha256": "6ae82fc104642ed0e7160c9c922aadbbd6a6912107d0496b7dcfaa9408afde59"
+    },
+    {
+      "path": "data/videos/cine_5100.bik",
+      "size": 56265008,
+      "sha256": "19105d27d34cf0c688cbee43f7160cce70090812e1e02fa9281c3803c54fcc67"
+    },
+    {
+      "path": "data/videos/cine_5200.bik",
+      "size": 39882100,
+      "sha256": "d3f83307e0aee4616ab860d786ef7c7d65bcf16783fbb954ff95a01a4a92929f"
+    },
+    {
+      "path": "data/videos/cine_5300.bik",
+      "size": 2580716,
+      "sha256": "135645072c86b447091b3e331a7f8b70223f31771066915730ca04fa07a19d18"
+    },
+    {
+      "path": "data/videos/cine_5400.bik",
+      "size": 30595108,
+      "sha256": "bae93addb7979bcc26e393cf52b522a7c6bf18f6843fc7c3f9fe91fa9e2724eb"
+    },
+    {
+      "path": "data/videos/cine_5600.bik",
+      "size": 37821896,
+      "sha256": "1b28ad1a2f1f9d986abe7c3025d5531087a44c481c446d59191193ce17b20864"
+    },
+    {
+      "path": "data/videos/cine_5700.bik",
+      "size": 49466980,
+      "sha256": "b6267376a04f2ddae4ca0d1896d4e943174fd6359db02fef0e8a17bc82e5e7de"
+    },
+    {
+      "path": "data/videos/cine_5800.bik",
+      "size": 143816648,
+      "sha256": "3fde9e80cc302a1c6416db71cd50bf048a730268aec3bac7cf1daacb819a3ae6"
+    },
+    {
+      "path": "data/videos/cine_9000.bik",
+      "size": 34506200,
+      "sha256": "1a639503dc83a3bface8366c4827c52f0a4444c3ed5cdf7e3d81dd99a9790d5b"
+    },
+    {
+      "path": "data/videos/cine_9100.bik",
+      "size": 29717272,
+      "sha256": "830cdb5d4796ded8307c313b3aacaaa1e84317ecb734f8c92d9cca7814573f8e"
+    },
+    {
+      "path": "data/videos/cine_9200.bik",
+      "size": 85897152,
+      "sha256": "e7d3f40f97d4802b5352770c4077b8418b9420ddeb6bd73826bf1f645a95ab4c"
+    },
+    {
+      "path": "data/videos/cine_9300.bik",
+      "size": 39746296,
+      "sha256": "f301f9b12cefd69adc1b2e7a5d643172ae2f6ea51e6bd9c41ab68ed09ba7fce4"
+    },
+    {
+      "path": "data/videos/cine_9500.bik",
+      "size": 38232788,
+      "sha256": "2c9ddbce60bd3d3949e9aa4ef2530872b59d14d50b344dac3c4aa65ee0df5b95"
+    },
+    {
+      "path": "data/videos/cine_9700.bik",
+      "size": 16880276,
+      "sha256": "a8f72150d38092ec4e4efe7fba041e9b459a432fa3350336023a0b37a178a871"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl01_01.bik",
+      "size": 6418220,
+      "sha256": "09614d803e412533d655f2f958599e7411fe6889a5fc71c452f1c79cf0851551"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl01_03.bik",
+      "size": 1501260,
+      "sha256": "ede16aae239edbce436b77e64aef91217e3b7a2fb2e25dc779e51aa2d8bb18ba"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl01_04.bik",
+      "size": 3463936,
+      "sha256": "8b442f13b4bb05e76fe8c761d64eae9ce1d48ec539435085bc2fdfc9179ffad9"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl02_05.bik",
+      "size": 3614480,
+      "sha256": "eac0b866c6012df1c4e1ef2ab2d8c2b0cc9fdfa86b9e413b238e79716f5f9bf1"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl02_06.bik",
+      "size": 1975212,
+      "sha256": "345964be6bd2f5fea4cc3d14b464478763d65699ca0e5432373fb9deabe1459c"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl02_07.bik",
+      "size": 3854084,
+      "sha256": "cd627ca9957dd2e2c0414955da77a73f09145b8dd73cc85291bc376d20d12b18"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl02_08.bik",
+      "size": 2762520,
+      "sha256": "2d9cdad7e0b56f7605c8d50765ca29731bcaa5033972bf3f0e351b3f83cff86c"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl02_09.bik",
+      "size": 4022412,
+      "sha256": "fbdf4337ff3480dfe8b3b9073c10bfa490cf3cb32f997563a15a7ea706f0381e"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl03_10.bik",
+      "size": 2455308,
+      "sha256": "c7405cf5b3b58f2e5f1943c53e2eb65b7cfbbb0037a05155ee88f6ccb99a226f"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl03_11.bik",
+      "size": 5998360,
+      "sha256": "9d40f64d2e1a133c5adbe9275476dd22cf208a22a130d174760e42ec988a7d24"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl03_12.bik",
+      "size": 995000,
+      "sha256": "645db40dba92879537f6f89755285f06405702658868bf51249f763417908a5a"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl03_13.bik",
+      "size": 1140712,
+      "sha256": "9b110c185819e41da6c86d54e88a5d9272a236b968dd4da867a3499061f0a380"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl03_14.bik",
+      "size": 1317012,
+      "sha256": "85e037ad17d96bb34aac0170690173c7b636ff6e9e437fdcb3c434f4b39396cb"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl03_15.bik",
+      "size": 763048,
+      "sha256": "80e86b349940d3c2dbecee60014e135f75d3a5dc392b36b48e07618f36da713a"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl03_16.bik",
+      "size": 763040,
+      "sha256": "e31d5f42734d54b866df8960c7ddfa33ece2e8ea6831e5b1279e990a3421c514"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl03_17.bik",
+      "size": 3007348,
+      "sha256": "baabd1678e63f11273b287967be0c7d59046ec9f4c244cd05e9981a9276629b7"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl04_18.bik",
+      "size": 2794036,
+      "sha256": "a1cd26ffd530dd727ab4a0c4c30f4940f1dad4ee18c217e56ce959c97cd5a9cc"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl04_19.bik",
+      "size": 1586016,
+      "sha256": "9083a2ff4723830269b4f26572c12655b645ec4de99e4be6fe5e6c52c04b3aa3"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl05_20.bik",
+      "size": 2280484,
+      "sha256": "3be56bb794be8693f95b097f3752d0d0a1a450371e32d42b93a1c019cacef5bb"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl05_21.bik",
+      "size": 2402984,
+      "sha256": "1767d2f1f25f70c53efc8db302234de5abb2df56b498b184e8d88cb1cec1705b"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl05_22.bik",
+      "size": 5123392,
+      "sha256": "540880f8d270685532df64a4b58ea305a38e87b901501a77b872e01489d2498e"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl05_23.bik",
+      "size": 2526072,
+      "sha256": "af1dd7b46466fcf424f2b6f4313a2b4899cffab1f647e67f3790bb0e7dd7d94a"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl05_24.bik",
+      "size": 1897308,
+      "sha256": "d8e080accf5135d4471f4333dea6cf0acb7811fd3943a33572301e1ba2d203b5"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl05_25.bik",
+      "size": 1572952,
+      "sha256": "2e4feb5ebd568464c9b0b625d54a1618dc438e190afd38d51eb716f0522cf005"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl05_26.bik",
+      "size": 1510612,
+      "sha256": "67464f2e2d73903eb5b476c16698495978bb7b55a221ee9f1b45240f2ca431b9"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl09_27.bik",
+      "size": 2543896,
+      "sha256": "c4b1cd8c5647e8f7b0bb98d6be12c5c090e92d9977c77de9822ca6c522405d9a"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl09_28.bik",
+      "size": 4243932,
+      "sha256": "98b0ff7ae356ad698b512a5b7c28196913ec1858b0db09b4d33078a56f38ff7e"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl09_29.bik",
+      "size": 2264264,
+      "sha256": "2a4d33cc7fde8508f6fa0936ad160e6a3d285c2a6892e71a9467e288be8a4b42"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl09_30.bik",
+      "size": 1958044,
+      "sha256": "47427c11c3c3f81ed05bb3dde237faec2b8fb71dcf01cc78c85beabfbac71a3a"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl09_31.bik",
+      "size": 2283576,
+      "sha256": "0918c1c441fdaa626e49e4c7d76e839259791280e45437187d3d22c0f91d58c2"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl09_32.bik",
+      "size": 2612484,
+      "sha256": "dfbc3f6c4f05d7a23d0899cea39359c38ee775b03fc3433c1ab87da0faaa00cb"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl09_33.bik",
+      "size": 1667532,
+      "sha256": "4c3def50d9c06c7e2e46fbdc34be65fdf217d004ab92b2ef9babd1f9d4859fbc"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl10_34.bik",
+      "size": 2344428,
+      "sha256": "52e96bd892ffd7bbabc42e1916ca3500c9b04553d9c3e9e00d2d16239db73ca8"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl10_35.bik",
+      "size": 4477436,
+      "sha256": "4685ac114d9e798c654f124d6bce29957a7bf38482493b5e8025f99a3f531b62"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl10_36.bik",
+      "size": 3516136,
+      "sha256": "e861af1fc70ed38a42276c3c18bb279552dcabab17660861efa45f862a9b7bad"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl10_37.bik",
+      "size": 3399004,
+      "sha256": "180cc5c679a3e11b5b334846f46d2649f1f4969cf28f4ddf433f9f9cccb55bf0"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl10_38.bik",
+      "size": 1224988,
+      "sha256": "b480d38692231abe8a31b901ae7a2c6703cc92684c832c1663de2fdd590a99a5"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl10_39.bik",
+      "size": 2055416,
+      "sha256": "b7d71c697696331b66431b76976cc97574e36449360959cc5532b65ae1d321f5"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl10_40.bik",
+      "size": 2590712,
+      "sha256": "8d4714f7bab6ae84925d49b9005d0bb0e4c7d88c373988056a16bf43131696c5"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl11_41.bik",
+      "size": 3007144,
+      "sha256": "2e8395b47545b39c23ca9417bdc2ed896e5cdbe583cb5f7f5bc7dde17a460772"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl11_42.bik",
+      "size": 2648520,
+      "sha256": "46b72001991def55318c5491ed0e489c402384369562e1b6b5eb3860077b6c15"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl11_43.bik",
+      "size": 2788772,
+      "sha256": "cee23e4389c77adbfd61792622e309da1e2758799e0704c391761f0bafe8d96b"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl11_44.bik",
+      "size": 1731936,
+      "sha256": "8ad5cf501aade59802c295b60c0c92df12afcd0a5fe38163608c4b8259f4fa2e"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl11_45.bik",
+      "size": 2487100,
+      "sha256": "a73116fd0cc3f404b79ad75a739dafde1dc812bb192597a32a30c37fd583a6e9"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl11_46.bik",
+      "size": 1510668,
+      "sha256": "def57225223001f40ade3cba21f27feffee4def11eb02ded7775697991e8bdea"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl12_47.bik",
+      "size": 1234668,
+      "sha256": "00839260b9cdcc24fcca51eadc448b2b7094f853c87f210a6f61358332232b6e"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl12_48.bik",
+      "size": 5800432,
+      "sha256": "6f0b17f18698315e8ef0d9c88fac5aa13befcce4a17d38d7df9840c67cf42214"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl12_49.bik",
+      "size": 1225148,
+      "sha256": "c56c2520e5da2a3b9cc39a9cfa6484dfe793b4944cf7fa13dfc4655a5cca99be"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl12_50.bik",
+      "size": 1691852,
+      "sha256": "bf361aff905344c66f9a66170f7d6df57997e8eed70156add52ba0c0e0af9e94"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl12_51.bik",
+      "size": 1876988,
+      "sha256": "a8636c5bf90fed7709e6042b95e1d55d4426360d9055d3ec07a6c09630de8a6e"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl12_52.bik",
+      "size": 2874416,
+      "sha256": "5edfc438c747c427a4fceda6f12aff8057a34a588312a5cede684d43bf1c4e56"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl13_53.bik",
+      "size": 2406368,
+      "sha256": "ae94feea3d8f13c14264e1328c18b19dfcde42c1f352b3b9988e6151d2b59cdf"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl14_54.bik",
+      "size": 3093620,
+      "sha256": "dd034e13996a1a648356ab14c55cd07d120c674ba39320458666923316bcf8a8"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl14_55.bik",
+      "size": 2878748,
+      "sha256": "284938e584aae862ce98af295ebcaca30d5fc641eb25baf5bf02c5534f022b3e"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl14_56.bik",
+      "size": 2862588,
+      "sha256": "2f3fe6a6882c480a3e7185041ee2f8468ce479bf7f64ed13db0e22f1300e8a10"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl14_57.bik",
+      "size": 3180204,
+      "sha256": "0deb99d4a27e9e89ee11519db73dcd2393819b36fefc65298b232419849c146f"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl14_58.bik",
+      "size": 2095816,
+      "sha256": "7eafb3551faaf2e393bbd0feaba586ed6d56183b6b3f950ab50c617231ee3ba4"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl15_59.bik",
+      "size": 1355372,
+      "sha256": "c1686ea7ce882d2b56081d302579876102aadd8be7202290c3a8a209e908b2cb"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl15_60.bik",
+      "size": 2997896,
+      "sha256": "eef527d252cf87c566fd09e25d391317a3b37683a6954a49a81c8ec7dd5eb773"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl15_61.bik",
+      "size": 2119244,
+      "sha256": "36c054ba2e1f986ce78b78f0df047697ccaf87843e8aa4e0613737f7330f1790"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl15_62.bik",
+      "size": 4799424,
+      "sha256": "2944e066132309855c23ca4b2a7f6e0b2359ec34ba65c3284c89a03d650a7264"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl15_63.bik",
+      "size": 1678528,
+      "sha256": "1351d67db4de793a7f06ba73fa951e8eadfbaad52e48ab6669333029ad5a608b"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl16_64.bik",
+      "size": 3094344,
+      "sha256": "36809dd030bc3fb0d947b36a3dee0606311566417e5b723854216809d021586e"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl16_65.bik",
+      "size": 3407048,
+      "sha256": "a2dd826c02238d9fb040c3f2b52724c0f00bc650a350bcf1a6e0566662f948ee"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl16_66.bik",
+      "size": 2587452,
+      "sha256": "2d1361893e86200b16580408c00b2480cd58b612ec32ef8467a90ac93a700d42"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl16_67.bik",
+      "size": 3806320,
+      "sha256": "3b578ddb90d9e2e02729867cc1014fe606599dccba88c2ed8955a0ffb332efff"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl16_68.bik",
+      "size": 1833756,
+      "sha256": "146f46a497a70c7d6e1249271c69063ee77470ce8da8c23c024aebfb2c3d91b7"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl16_69.bik",
+      "size": 2164036,
+      "sha256": "e090b79384b3a7e0fbcd3cfac0e88874ac67687336548b46a54fbb55bbeeb508"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl16_70.bik",
+      "size": 1733516,
+      "sha256": "913e633c4063b90138d1e563f8057a5830318dc6c1043e42fc79fd7584fd31e0"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl16_71.bik",
+      "size": 1769776,
+      "sha256": "d0ed2bc7c4c1c7f7f931e2f40b2d842c5f7b3dad5d2dbfb2a6017d27afd1923f"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl17_72.bik",
+      "size": 2555812,
+      "sha256": "023981b33dff3f45e21bb04c48330b6f98c2c93e577f31046a619c689a6bb12d"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl17_73.bik",
+      "size": 3813872,
+      "sha256": "7697bccb5f735778aa38db2f480b7647b802bacda5d934462f73b0e0c3b8170a"
+    },
+    {
+      "path": "data/videos/commentary/commentary_lvl17_74.bik",
+      "size": 1012768,
+      "sha256": "b270ec1c3e86d6eb2f6ac649be3d4436d0068cef3da8a2f1e8de531956b70cfc"
+    },
+    {
+      "path": "data/videos/credits_background.bik",
+      "size": 18820,
+      "sha256": "c8c77c5099e011902d1bbd776c189b51fe26c89f336d5d33924465a01e205968"
+    },
+    {
+      "path": "data/videos/dlc1/cine_100000.bik",
+      "size": 25790992,
+      "sha256": "0ba1adefe8f97cd85b24c8fed222211071e80877f8e65fe12b9092b04cb83961"
+    },
+    {
+      "path": "data/videos/dlc1/cine_100100.bik",
+      "size": 34669080,
+      "sha256": "e2d1b26d8142b1dcff22e18862862033b8bc134adacdb9c88b811ae2b5627b80"
+    },
+    {
+      "path": "data/videos/dlc1/cine_100300.bik",
+      "size": 27812316,
+      "sha256": "a65d082374f5c3bfaa04cdfaab8ceb54738eb21236ce93df0cd8b5256db201e3"
+    },
+    {
+      "path": "data/videos/dlc1/cine_100400.bik",
+      "size": 74680776,
+      "sha256": "84e4f24e992da87466656e941e26bbc151720875530d3052424293cdeae912dd"
+    },
+    {
+      "path": "data/videos/dlc1/television_noise.bik",
+      "size": 504004,
+      "sha256": "33deecd334f2059e2feca8fab6f3d9c8c4a8e413b83e79b9a7e65ed2e2345bfa"
+    },
+    {
+      "path": "data/videos/dlc1/television_white_noise.bik",
+      "size": 503992,
+      "sha256": "188aa8180e1e6b5e36e014845111e0dce5e433f65d15994df98be74f4208cdc7"
+    },
+    {
+      "path": "data/videos/dlc1/television_white_noise_dim.bik",
+      "size": 504032,
+      "sha256": "417517f9a569996214c40910dcc2c9fdecd05614a57ceb4b21418464ec208b6a"
+    },
+    {
+      "path": "data/videos/dlc1/television_white_noise_mouthless.bik",
+      "size": 503992,
+      "sha256": "c96f6a2820a3a01b0df34c96f06321a31ccecd4ab952216c1510da1f05cdb2cb"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_111_all.bik",
+      "size": 1035148,
+      "sha256": "96eca1b6749074cd47c13666d601ba7c8b1e9aac1e8c5ae4934dbcb33098897f"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_128.bik",
+      "size": 1501840,
+      "sha256": "7d26da204eed06c5e5a8e3cebecfb058dcef1dee5fa20cb4d718a260abd3d4c8"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_184.bik",
+      "size": 1668172,
+      "sha256": "d6ec70b1ae0a2606b97ca3fe8faa5f37a4fe99285b571356c95d368657555613"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_212m.bik",
+      "size": 1490724,
+      "sha256": "df13bcd4ee70ba0c9a1def0a3195e1d3506daeec83c6cfb5f22e9608a6c1934e"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_212q.bik",
+      "size": 2502924,
+      "sha256": "c729c9581135c7f2bd70db8df19cb7b9d42089ee306cd2aae7a23b55368db894"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_80aa.bik",
+      "size": 1201480,
+      "sha256": "fb5490c8836a4f35a28fb18eec490045bf085e8ce461ee460f36dae76b269d34"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_90a.bik",
+      "size": 774476,
+      "sha256": "ec6f5251226b7e0bfa3f77143d9a5b33585c493dea7e4cac5e920bc355b03ad8"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_craziness_generic_1.bik",
+      "size": 1308256,
+      "sha256": "7af1a0a4eaf86c139f6f13294f82f366e3e23060ecd4f1b1653c7d14ac9b5549"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_eye_generic_1.bik",
+      "size": 1501792,
+      "sha256": "97e34d27adf4695dd1de6d177fe6c3cd07565324feebb6db6a2e9e93ea31933c"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_eye_generic_2.bik",
+      "size": 1501800,
+      "sha256": "0fee8b1b038f927beb3a082567288f07cc07e083d51d2c5c7e3f99ad36152ffe"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_mouth_generic_1.bik",
+      "size": 1174780,
+      "sha256": "cd8e53f0df4e7351f9f5241a6b98a941ddbaf344cb32e7d06267ea1e68a347d4"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_mouth_generic_shout_1.bik",
+      "size": 831032,
+      "sha256": "e37c3aba0a2b347c78c814ba1ed3db6d2338bbc7a22b3304e26336a3481f5e75"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_mouth_generic_shout_2.bik",
+      "size": 831040,
+      "sha256": "40b8ba1f668b79487ab565e4780373fbb709357e4d37e7201c132fdcc602ad7f"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_mouth_generic_smile_1.bik",
+      "size": 400608,
+      "sha256": "c1978c4b651ff8044a030b5c0ce81cfbec04c3670fb51a7f10ba10d8cea73822"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_onfloor_generic_1.bik",
+      "size": 690916,
+      "sha256": "2356ff17c9d7b8411894d6a98e29b344543f327acd278be73f7203da6f66a475"
+    },
+    {
+      "path": "data/videos/dlc1/tvwake_ultimatedisturbance_generic_1.bik",
+      "size": 1465728,
+      "sha256": "96bfdd18757e6e5b61d6fc54273a9a7f7804dd442f90deabac898fb73f4af79b"
+    },
+    {
+      "path": "data/videos/dlc2/cine_200000.bik",
+      "size": 22266804,
+      "sha256": "8f2995c4c64ec6a6d3c6d5472fe3cf9fa8dbef800d9071f1c65ede3c977e6454"
+    },
+    {
+      "path": "data/videos/dlc2/cine_200100.bik",
+      "size": 21233344,
+      "sha256": "0b3751ef4c36f5c5413b46de209c91e0715ca0a46a981d2da0b2a20808605698"
+    },
+    {
+      "path": "data/videos/dlc2/cine_200200.bik",
+      "size": 14904512,
+      "sha256": "d9063b2ae859721042d909618254326cd53617651dce5c672f50a2aee89a579f"
+    },
+    {
+      "path": "data/videos/dlc2/cine_200300.bik",
+      "size": 119130956,
+      "sha256": "d16f2c00494ddc28dd4dd89faecba050b95cd2fa722ffab9303fda5a169e1980"
+    },
+    {
+      "path": "data/videos/dlc2/television_noise.bik",
+      "size": 504004,
+      "sha256": "33deecd334f2059e2feca8fab6f3d9c8c4a8e413b83e79b9a7e65ed2e2345bfa"
+    },
+    {
+      "path": "data/videos/dlc2/television_white_noise.bik",
+      "size": 503992,
+      "sha256": "188aa8180e1e6b5e36e014845111e0dce5e433f65d15994df98be74f4208cdc7"
+    },
+    {
+      "path": "data/videos/dlc2/television_white_noise_dim.bik",
+      "size": 504032,
+      "sha256": "417517f9a569996214c40910dcc2c9fdecd05614a57ceb4b21418464ec208b6a"
+    },
+    {
+      "path": "data/videos/dlc2/television_white_noise_mouthless.bik",
+      "size": 503992,
+      "sha256": "c96f6a2820a3a01b0df34c96f06321a31ccecd4ab952216c1510da1f05cdb2cb"
+    },
+    {
+      "path": "data/videos/dlc2/tv_alice_117eaa.bik",
+      "size": 1533108,
+      "sha256": "6b7671fefadb90acc22e3e72ae9130e14708e0ea93c9ec8616a746abf199987b"
+    },
+    {
+      "path": "data/videos/dlc2/tv_alice_117eab.bik",
+      "size": 1067348,
+      "sha256": "cfb05e834c8d792a92f65ddd3e8ead84bdf118ae128879261c2155250d03df78"
+    },
+    {
+      "path": "data/videos/dlc2/tv_alice_117eaf.bik",
+      "size": 2914772,
+      "sha256": "6a45be62c3da5c316f4d06070649c9e34b8dd367eddfec863a2356836e9481a4"
+    },
+    {
+      "path": "data/videos/dlc2/tv_alice_117eag.bik",
+      "size": 1123080,
+      "sha256": "228c9214d083e2940fa2a09ffcbf93d543765178a6f99232bb950603b4310d0d"
+    },
+    {
+      "path": "data/videos/dlc2/tv_alice_117eze.bik",
+      "size": 1306076,
+      "sha256": "6579cf511a32d19800373c4da0fd7237fd6367cca5243627453c8eb338ac7207"
+    },
+    {
+      "path": "data/videos/dlc2/tv_alice_117ezf.bik",
+      "size": 979560,
+      "sha256": "e0e513130a77ea957d6737c1881fb5c9248222a44b692c5d269b544c94175934"
+    },
+    {
+      "path": "data/videos/dlc2/tvwake_120.bik",
+      "size": 1408412,
+      "sha256": "241164b466f595503d23f63b85bf93f07d8e19bcb31673a8433a7c9e03d18e8b"
+    },
+    {
+      "path": "data/videos/dlc2/tvwake_143a.bik",
+      "size": 1261536,
+      "sha256": "4940c7c0e6d3d7e24c2e9eb94250249ae47b397bfa73fbaefb2fc78c660003cb"
+    },
+    {
+      "path": "data/videos/dlc2/tvwake_145a.bik",
+      "size": 894464,
+      "sha256": "1865f10fd03f855971ad9645e75abf107a395493da45d95f77c182c9ed028630"
+    },
+    {
+      "path": "data/videos/dlc2/tvwake_149a.bik",
+      "size": 5836660,
+      "sha256": "e51f03ae2b8e060bc33d4e13cd6e10ba904d671a738e48ee4c4794d1216b97ed"
+    },
+    {
+      "path": "data/videos/dlc2/tvwake_craziness_generic_1.bik",
+      "size": 1308256,
+      "sha256": "7af1a0a4eaf86c139f6f13294f82f366e3e23060ecd4f1b1653c7d14ac9b5549"
+    },
+    {
+      "path": "data/videos/dlc2/tvwake_eye_generic_1.bik",
+      "size": 1501792,
+      "sha256": "97e34d27adf4695dd1de6d177fe6c3cd07565324feebb6db6a2e9e93ea31933c"
+    },
+    {
+      "path": "data/videos/dlc2/tvwake_eye_generic_2.bik",
+      "size": 1501800,
+      "sha256": "0fee8b1b038f927beb3a082567288f07cc07e083d51d2c5c7e3f99ad36152ffe"
+    },
+    {
+      "path": "data/videos/dlc2/tvwake_mouth_generic_1.bik",
+      "size": 1174780,
+      "sha256": "cd8e53f0df4e7351f9f5241a6b98a941ddbaf344cb32e7d06267ea1e68a347d4"
+    },
+    {
+      "path": "data/videos/dlc2/tvwake_mouth_generic_shout_1.bik",
+      "size": 831032,
+      "sha256": "e37c3aba0a2b347c78c814ba1ed3db6d2338bbc7a22b3304e26336a3481f5e75"
+    },
+    {
+      "path": "data/videos/dlc2/tvwake_mouth_generic_shout_2.bik",
+      "size": 831040,
+      "sha256": "40b8ba1f668b79487ab565e4780373fbb709357e4d37e7201c132fdcc602ad7f"
+    },
+    {
+      "path": "data/videos/dlc2/tvwake_mouth_generic_smile_1.bik",
+      "size": 400608,
+      "sha256": "c1978c4b651ff8044a030b5c0ce81cfbec04c3670fb51a7f10ba10d8cea73822"
+    },
+    {
+      "path": "data/videos/dlc2/tvwake_onfloor_generic_1.bik",
+      "size": 690916,
+      "sha256": "2356ff17c9d7b8411894d6a98e29b344543f327acd278be73f7203da6f66a475"
+    },
+    {
+      "path": "data/videos/dlc2/tvwake_ultimatedisturbance_generic_1.bik",
+      "size": 1465728,
+      "sha256": "96bfdd18757e6e5b61d6fc54273a9a7f7804dd442f90deabac898fb73f4af79b"
+    },
+    {
+      "path": "data/videos/five_seconds_of_black.bik",
+      "size": 18820,
+      "sha256": "c8c77c5099e011902d1bbd776c189b51fe26c89f336d5d33924465a01e205968"
+    },
+    {
+      "path": "data/videos/flash_18700_a.bik",
+      "size": 366320,
+      "sha256": "00f95b299e754d68c1f496ab85c4e0701d9e950b89b40d4ee2751aa2c089bf1f"
+    },
+    {
+      "path": "data/videos/flash_18700_b.bik",
+      "size": 454972,
+      "sha256": "2d46c0c8e8d1c1a2e27eb2a01641e3c730581f0ce8dc9ce634b7ccfa554d7445"
+    },
+    {
+      "path": "data/videos/flash_18700_c.bik",
+      "size": 543324,
+      "sha256": "62c6601f3e32e71fe1e4cadef88fe97bdc0c62f20819120f55b6af33e37e58e8"
+    },
+    {
+      "path": "data/videos/flash_18700_d.bik",
+      "size": 498044,
+      "sha256": "cb4e1bb6bc5f44721059922ec280029581267dd19fef92b67c726192656eb64e"
+    },
+    {
+      "path": "data/videos/flash_18700_e.bik",
+      "size": 501676,
+      "sha256": "afc32be8dd066d8a6d67ffea94bfcc7589c998d475a99161e230a9b53e080f40"
+    },
+    {
+      "path": "data/videos/flash_18700_f.bik",
+      "size": 546828,
+      "sha256": "95947fc6e4305fdb4f2c202b823f44d480d53a1978cf0048d30116217c89059f"
+    },
+    {
+      "path": "data/videos/flash_18700_g.bik",
+      "size": 546464,
+      "sha256": "33104933a5229a1e771ad9eef37bdd49590466d0e6a7b77ba6b5d4e5936f36d5"
+    },
+    {
+      "path": "data/videos/flash_18700_h.bik",
+      "size": 545484,
+      "sha256": "f32b573ac19d274681710281efd183cc4df0605bd2295ef9e9693390a03038b4"
+    },
+    {
+      "path": "data/videos/flash_18700_i.bik",
+      "size": 544596,
+      "sha256": "b8df66237bf4a3a2f3fb3bc044331431a55dca37dedf13b7a3647f98399586ca"
+    },
+    {
+      "path": "data/videos/ingame_tv_energizer.bik",
+      "size": 1355968,
+      "sha256": "404153b23ce45e1fa8fab75068d11816c40e20a434400ea247bec753fa1232a8"
+    },
+    {
+      "path": "data/videos/ingame_tv_eye.bik",
+      "size": 2452796,
+      "sha256": "8ab10888d9dd93887853a0a5f12c9f65419842959341373cfc80814fec3f1e46"
+    },
+    {
+      "path": "data/videos/ingame_tv_ford.bik",
+      "size": 1404888,
+      "sha256": "b705b9a7b31e92f566426db4af59fae93d22afeb14ec6884b21a68a27f9fe0b2"
+    },
+    {
+      "path": "data/videos/ingame_tv_placeholder.bik",
+      "size": 272360,
+      "sha256": "7123a72178784f0d8648485b8042c35df56888061d79f570850ad5e5088a9536"
+    },
+    {
+      "path": "data/videos/ingame_tv_trailer.bik",
+      "size": 4644276,
+      "sha256": "df8295d5bd903e4c01d138c217c27d27ca3c2f5a76dabf7c07103706873443ca"
+    },
+    {
+      "path": "data/videos/ingame_tv_verizon.bik",
+      "size": 1453548,
+      "sha256": "4fc3a3496d1c0195937b0e388b3c3968098fac68336bef2a48643aae021f5a8b"
+    },
+    {
+      "path": "data/videos/ingame_tv_whitenoise.bik",
+      "size": 4500028,
+      "sha256": "c34144f2bc9c6a5fd051db2a2b0cfad9ce60ea3666d3b72db091d9418b415a9d"
+    },
+    {
+      "path": "data/videos/menu_dlc_background.bik",
+      "size": 4901364,
+      "sha256": "1111aa000d0c9790b0ce91da27bdd41bba3ce65758cd5079129360fd6c8bf68a"
+    },
+    {
+      "path": "data/videos/menu_episode1_background.bik",
+      "size": 12490280,
+      "sha256": "97ace5dd8708121270265b99dc18b2d2e865e93184bb23e20f5085af24ab8904"
+    },
+    {
+      "path": "data/videos/menu_episode2_background.bik",
+      "size": 17257632,
+      "sha256": "dbd02f38d911fb7fd5f03beea92530d7dca021eb849fc32bfbd452dfc831b691"
+    },
+    {
+      "path": "data/videos/menu_episode3_background.bik",
+      "size": 7651052,
+      "sha256": "e169c754df6dc607ec5ea10f9145126d66fa9027ed75226de64e6ef9034421d7"
+    },
+    {
+      "path": "data/videos/menu_episode4_background.bik",
+      "size": 6526700,
+      "sha256": "ba436e0914daf30dc154db14c914e777202760997381130858a347267ec0a1c8"
+    },
+    {
+      "path": "data/videos/menu_episode5_background.bik",
+      "size": 12234744,
+      "sha256": "b126acaa8871e45aff26888611ef4967b9d5aef8a324205aa4e7752e287ab7f7"
+    },
+    {
+      "path": "data/videos/menu_episode6_background.bik",
+      "size": 15136120,
+      "sha256": "3f12173a0ed736b00e4207055e6e7519e8e3f98d1de258622ecdad6de8cb70fc"
+    },
+    {
+      "path": "data/videos/startup_attract.bik",
+      "size": 63318868,
+      "sha256": "5a3beff2108545ce0470bfff64af0e033abd8a5b617e43c7d048a8d39d882cfc"
+    },
+    {
+      "path": "data/videos/startup_mgs.bik",
+      "size": 7392428,
+      "sha256": "169b66b31cb07f5819c845b2befb1a2659fb0e0b0e8a051f2c1afc3b599d6c61"
+    },
+    {
+      "path": "data/videos/startup_remedy.bik",
+      "size": 5144332,
+      "sha256": "4722ecd15676116acf24944dc989b4205c1c1524a8ad8a73eceb2eb647bc5a9c"
+    },
+    {
+      "path": "data/videos/test_surround_sound.bik",
+      "size": 691980,
+      "sha256": "1d91ccf6617fe3ef8cbb1363c15706bf50cded70959cbb08595fdd0804f250fe"
+    },
+    {
+      "path": "data/videos/tvshow_ns_a_family_occasion.bik",
+      "size": 6464220,
+      "sha256": "a01dac9b335dbd5448fb193d793960721213665f963c42bef3df01f271aa016f"
+    },
+    {
+      "path": "data/videos/tvshow_ns_a_quantum_suicide.bik",
+      "size": 9921788,
+      "sha256": "46db0b0e6855ee80b314375425131b333cfc27f25e192435da4ac59824eadaaa"
+    },
+    {
+      "path": "data/videos/tvshow_ns_an_absence_of_creativity.bik",
+      "size": 8699576,
+      "sha256": "4e1a047829b77e65e34e64bbc719f80722f1a2f60bf836864141a282e05f78cb"
+    },
+    {
+      "path": "data/videos/tvshow_ns_taken_in_his_prime.bik",
+      "size": 6514256,
+      "sha256": "5f2a037a7c411e1ece63f886f51d3eb391272c6f4655cda68723dc7f4ba9355d"
+    },
+    {
+      "path": "data/videos/tvshow_ns_the_dream_of_dreams.bik",
+      "size": 6597864,
+      "sha256": "ff2fd425a1f131c19c42dc34ad3660522d5418b93bd31d073447d78ac8afa69f"
+    },
+    {
+      "path": "data/videos/tvshow_ns_the_man_in_the_mirror.bik",
+      "size": 8418672,
+      "sha256": "4ac07b1eb576d8ae9f624f486bc66d974b8a7aab742cf4541be7be17d0e7375a"
+    },
+    {
+      "path": "data/videos/tvshow_talk_show.bik",
+      "size": 9060688,
+      "sha256": "8106d424a3e3a8f8dd47a5dfa9e5f52ceb9cf020c9c15e20f4f3af95a269e90c"
+    },
+    {
+      "path": "data/videos/tvshow_writer_in_the_cabin_part_01.bik",
+      "size": 1021732,
+      "sha256": "e788ffdd2255c881f859d9dcf6b2743cff8569862123a608ed531b1a5bcdcf73"
+    },
+    {
+      "path": "data/videos/tvshow_writer_in_the_cabin_part_02.bik",
+      "size": 1494896,
+      "sha256": "0593d871a34a7951d4f4a78a554d547efed43fa5d43205b58ee8d092f042df8e"
+    },
+    {
+      "path": "data/videos/tvshow_writer_in_the_cabin_part_03.bik",
+      "size": 1454728,
+      "sha256": "84ed2e1403f2ff8d0c8c5d0a4d7983941fae071aeb62874db9813249b49d0043"
+    },
+    {
+      "path": "data/videos/tvshow_writer_in_the_cabin_part_04.bik",
+      "size": 2342700,
+      "sha256": "99f41bb271787281d56c64e95d718b49ba86d48e680dc36597f9e5c2ba90e794"
+    },
+    {
+      "path": "data/videos/tvshow_writer_in_the_cabin_part_05.bik",
+      "size": 2678792,
+      "sha256": "3d84190135f12a4c40d8bf3a2742ef5a451fe781086c6de1c0e86a5b8a64f859"
+    },
+    {
+      "path": "data/videos/tvshow_writer_in_the_cabin_part_06.bik",
+      "size": 2167136,
+      "sha256": "a253856b60967f6edb736a8ccc1f4c38a691672994a34c2c63e9404aa7c97a7b"
+    },
+    {
+      "path": "data/videos/tvshow_writer_in_the_cabin_part_07.bik",
+      "size": 3267408,
+      "sha256": "95bd8eb02f3baa74dc72037352365017a0e96c96d9056bd6b55ca064ba9d32e6"
+    },
+    {
+      "path": "dm_f_Win32.dll",
+      "size": 89440,
+      "sha256": "c9e73ba80723951d2fccc4a2541d6d266904b96e53fface36d5d8bd7bb05a0f5"
+    },
+    {
+      "path": "EULA.txt",
+      "size": 59407,
+      "sha256": "f204560fc1e3da79b61f47d8be9b4971dcba790e4b018034043bf8a9c34c8338"
+    },
+    {
+      "path": "Extras/alan_wake_files_book/alan_wake_files_book/Alan Wake Files Book.pdf",
+      "size": 5407695,
+      "sha256": "32b82dae2b131ee382c380d9aa8dda35f02e077e038d37dab91143009651ae4a"
+    },
+    {
+      "path": "Extras/alan_wake_making_of/alan_wake_making_of/Alan_Wake_Building_a_thriller_final.avi",
+      "size": 151741580,
+      "sha256": "b959a3a5c6bcba86af48330af5e3d38642e30e4147984ff9427ad37e88d7beaf"
+    },
+    {
+      "path": "Extras/alan_wake_making_of/alan_wake_making_of/Alan_Wake_Building_the_Technology.avi",
+      "size": 116215048,
+      "sha256": "6cbabc580014b8425dcb70fc11f015973efe258c934b3f2f1c6d63ff1a9e847e"
+    },
+    {
+      "path": "Extras/alan_wake_making_of/alan_wake_making_of/AlanWake_Building_the_Drama.avi",
+      "size": 92881930,
+      "sha256": "10fb0cb2ab3355e9d5fc26be52dc5ff993eec9e169389cb71deea7573f9c45f2"
+    },
+    {
+      "path": "Extras/alan_wake_manual/alan_wake_manual/Alan Wake manual.pdf",
+      "size": 2625932,
+      "sha256": "fa450ccec20d1d534f9225002aa6b5518a7fea160511b87bbbaef26d4fe9f307"
+    },
+    {
+      "path": "Extras/alan_wake_music_video/Poets of the Fall - War Music Video/Poets of the Fall - War Music Video.wmv",
+      "size": 201297601,
+      "sha256": "fffcbb55fac0be235574fd6fe4d849858f61a6b4fea92fd16a3a5c304eb2c771"
+    },
+    {
+      "path": "Extras/alan_wake_music_video/Poets of the Fall - War Music Video/Poets of the Fall - War.mp3",
+      "size": 9762691,
+      "sha256": "b7fc8f386ade774334f39b7fa50c9309be63d2f70fab3005cf7f35475fada83c"
+    },
+    {
+      "path": "Extras/alan_wake_night_springs/alan_wake_night_springs/Absence_of_Creativity.avi",
+      "size": 58980648,
+      "sha256": "72c21183ccddbe381f3797d1189147aac579b38545ef581d2f2d8e3e69966962"
+    },
+    {
+      "path": "Extras/alan_wake_night_springs/alan_wake_night_springs/Doomed_Samaritan.avi",
+      "size": 52821336,
+      "sha256": "7899451e28f9655ff2e0f2029cf2d7fb91a7a7c288804ab477a66f8242daa5fe"
+    },
+    {
+      "path": "Extras/alan_wake_night_springs/alan_wake_night_springs/Dream_of_Dreams.avi",
+      "size": 44759674,
+      "sha256": "0c0a93af7901b59f69814afe7642ba06d549231a06c15b1e79db16b376ba30ac"
+    },
+    {
+      "path": "Extras/alan_wake_night_springs/alan_wake_night_springs/Eternal_Endurance.avi",
+      "size": 64331846,
+      "sha256": "14554e84afff657232edec8db2cb63ec0284745bec66ade5c07fcba903f8a45e"
+    },
+    {
+      "path": "Extras/alan_wake_night_springs/alan_wake_night_springs/Family_Occasion.avi",
+      "size": 44018420,
+      "sha256": "d5146ca87e322963e3d4ab64bbf97aafac74bb9676fb728c297cab5dad0ce68d"
+    },
+    {
+      "path": "Extras/alan_wake_night_springs/alan_wake_night_springs/Man_In_The_Mirror.avi",
+      "size": 56752062,
+      "sha256": "727c137db9a955920788dc0ad2810ba2571b7f47d0f2a95a1fb10d2d0909d298"
+    },
+    {
+      "path": "Extras/alan_wake_night_springs/alan_wake_night_springs/Quantum_Suicide.avi",
+      "size": 66276956,
+      "sha256": "7012190f33a30d4b9e88359561a40634b80e0079a77f466d3828c9d681451f8b"
+    },
+    {
+      "path": "Extras/alan_wake_night_springs/alan_wake_night_springs/Taken_In_His_Prime.avi",
+      "size": 44502990,
+      "sha256": "e73a3da53e3771ca4a1d1f7682d879c0699b05732c053a53b3b474942cb39840"
+    },
+    {
+      "path": "Extras/alan_wake_night_springs/alan_wake_night_springs/Whats_In_a_Name.avi",
+      "size": 57603422,
+      "sha256": "2e9a30a4df7789b996c0e3dea04595258833b828f1fa269338e15b66870e3e3a"
+    },
+    {
+      "path": "Extras/alan_wake_wallpaper/alan_wake_wallpaper/AlanWake_1280x1024.jpg",
+      "size": 262154,
+      "sha256": "7f6c4336d9fd436346b00f580c75310b37955be45d39715ea4c26ef50aa98c18"
+    },
+    {
+      "path": "Extras/alan_wake_wallpaper/alan_wake_wallpaper/AlanWake_1600x1200.jpg",
+      "size": 223126,
+      "sha256": "56ab07c608a51862e4268188843ec35a06c27a8bf5dc290e2c9719c5e975bbb4"
+    },
+    {
+      "path": "Extras/alan_wake_wallpaper/alan_wake_wallpaper/AlanWake_1920x1080.jpg",
+      "size": 306679,
+      "sha256": "0593468a3844e601939aeea4012187d4fbc19d50ddca33f0c1539709b68c01e4"
+    },
+    {
+      "path": "Extras/alan_wake_wallpaper/alan_wake_wallpaper/AlanWake_1920x1200.jpg",
+      "size": 232830,
+      "sha256": "194456b3744e7bf73a3ec07feb6ee9aabe22c4305b3d3a1f94172361b48dfb03"
+    },
+    {
+      "path": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/Part_Five_h264.avi",
+      "size": 41386958,
+      "sha256": "6c0c8df9a227b10b9822b65c887e9eba1da87bef2e2d0c8f85433c5b09bdadeb"
+    },
+    {
+      "path": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/Part_Four_h264.avi",
+      "size": 37050240,
+      "sha256": "a7334a1e6320476514d3113016ad216e0fb42af5d2fa7bff98810f21af13ee28"
+    },
+    {
+      "path": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/Part_One_h264.avi",
+      "size": 20122654,
+      "sha256": "93179401a6ab37b8216c2171561b3c006834a6d8fe17c33b38de5e392dcb6abd"
+    },
+    {
+      "path": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/Part_Seven_h264.avi",
+      "size": 49137634,
+      "sha256": "935520267c18d48fd46297da720c286a0fdfee46fe5f2b49cb5f5b0dea6c0d19"
+    },
+    {
+      "path": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/Part_Six_h264.avi",
+      "size": 34738520,
+      "sha256": "0d6cc1a32c9f1550ef541c86a4de779b64361b3240d8e291c8c1ac1468ee8ee8"
+    },
+    {
+      "path": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/Part_Three_h264.avi",
+      "size": 25626746,
+      "sha256": "d82f16f2dac83c2253461d1255be015fedad08adc6c1a2fb040a3cdfe2e356a1"
+    },
+    {
+      "path": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/Part_Two_h264.avi",
+      "size": 26144112,
+      "sha256": "de8540e983d11f2a64866505597b9c6af8fc3e0e97b0378eb08bc1bda86580b0"
+    },
+    {
+      "path": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/SPOILER ALERT.txt",
+      "size": 73,
+      "sha256": "11fdc8e1b93ce997a233e6e3cf580fdfc24057ff400725d96c597e12f54c1414"
+    },
+    {
+      "path": "fmodex.dll",
+      "size": 374784,
+      "sha256": "d08101bcf709f28d6af15f5f3aa0d9efcfe6af37bc305e1618a36eb148d53094"
+    },
+    {
+      "path": "gog.ico",
+      "size": 69248,
+      "sha256": "f6a71321521ba89713f0bd38b21f809e87e8a789cb172e8e4693f9479e30b1e4"
+    },
+    {
+      "path": "goggame-1207659037.hashdb",
+      "size": 157,
+      "sha256": "4e73f5a358b299c18da5c32e8e345f88ba9ee99198d15acc0875d56bd2c4e2b1"
+    },
+    {
+      "path": "goggame-1207659037.ico",
+      "size": 142656,
+      "sha256": "e5f36fad5f4353282843abdae6aefa67eb5b6d22a5e4837cbb915f3b58d5522f"
+    },
+    {
+      "path": "goggame-1207659037.info",
+      "size": 1015,
+      "sha256": "8e64465a7dffbec356bd5c17aff1007409f50cbc8644de47a1cf423bfe09f57e"
+    },
+    {
+      "path": "goggame-1207659037.script",
+      "size": 411,
+      "sha256": "1e4d43c1c0ac1ade2841408b8fbf5ff61f449a36da967202be95b9fe4bba2615"
+    },
+    {
+      "path": "goglog.ini",
+      "size": 84,
+      "sha256": "1d8ef56875530c57cf0559183c1934ec177045852e238a35584d6f225b2fc1d2"
+    },
+    {
+      "path": "grph_f_Win32.dll",
+      "size": 61280,
+      "sha256": "7537b78dbc5d73bc9ae16a46ee49dc56cab7e43ad92968fa3b729a1b42416927"
+    },
+    {
+      "path": "Launch Alan Wake.lnk",
+      "size": 798,
+      "sha256": "8bdb104cef3ecd3e9a23e042a51eba02e008ee057c064b8a58e3bd7007ee6ca3"
+    },
+    {
+      "path": "loc_f_Win32.dll",
+      "size": 44896,
+      "sha256": "ae6e188d62e9d917c9224676145aa2c2263297d89aff593dd1bfa6c6f34575c8"
+    },
+    {
+      "path": "Manual.pdf",
+      "size": 2625932,
+      "sha256": "fa450ccec20d1d534f9225002aa6b5518a7fea160511b87bbbaef26d4fe9f307"
+    },
+    {
+      "path": "physics_f_Win32.dll",
+      "size": 4943712,
+      "sha256": "da8ff200a3b72e8c057af2893333a6ca72a76e3636a2e6c51e3dad1f49f99a4b"
+    },
+    {
+      "path": "renderer_f_Win32.dll",
+      "size": 1357664,
+      "sha256": "32c08ad19b0c7290b4ca8c7425e7c0498c829c481946c4a5a89b976c1c4d9860"
+    },
+    {
+      "path": "rl_f_Win32.dll",
+      "size": 407392,
+      "sha256": "1871ddf317ae3f9b6d534468b012d95ea4050630829fab34872a9d5b72f72423"
+    },
+    {
+      "path": "shaders/build/pc/AfterImage.obj",
+      "size": 672,
+      "sha256": "060af615869c7ee900d4db8b6141a5f4da2762e36bbe0e63d90254a17fd60d90"
+    },
+    {
+      "path": "shaders/build/pc/AmbientConvolution.obj",
+      "size": 3925,
+      "sha256": "c2504d10775ba172a36fcb97925218b08054ffbfe61c63b2c0e4e7cb3c51bad6"
+    },
+    {
+      "path": "shaders/build/pc/AmbientProbe.obj",
+      "size": 126791,
+      "sha256": "aae33be295842738f14573b1ee3b58833a270b6345b8eba7309cbbc2fb43ee12"
+    },
+    {
+      "path": "shaders/build/pc/AutoExposure.obj",
+      "size": 1655,
+      "sha256": "ba0bd7e777f1bd8b6a05d409b46e1b7d73d12b97364016bb1c4d620eeefc22e9"
+    },
+    {
+      "path": "shaders/build/pc/Backdrop.obj",
+      "size": 2002,
+      "sha256": "771c4b9fac53597935112897600fcad094a1f409cf3f9929e93e16094e181f11"
+    },
+    {
+      "path": "shaders/build/pc/BakeNormals.obj",
+      "size": 480,
+      "sha256": "4d44577bfb18b469b8dd09f617ee2345b01cdf8af87b178e3268e83d859763e3"
+    },
+    {
+      "path": "shaders/build/pc/BilateralFilter.obj",
+      "size": 6355,
+      "sha256": "ff0422bc1299a84087fd8b49ed04ff93a40dc2988c895d480d172eb6dd95e2a9"
+    },
+    {
+      "path": "shaders/build/pc/BioTypeSampler.obj",
+      "size": 5201,
+      "sha256": "69754f3383818703257872bce1ff550897c6a67b43480890736ed9deeb91df29"
+    },
+    {
+      "path": "shaders/build/pc/BloomX86.obj",
+      "size": 18731,
+      "sha256": "8f155b7ee3e05dfb6fc50db486af05b43ad8661f7dc2568e6151d3f1f27acd4a"
+    },
+    {
+      "path": "shaders/build/pc/BloomXbox.obj",
+      "size": 37,
+      "sha256": "48f924ed65a2ed33ce3564705c2e1299815ed50dd14ffcf2d074403a58cb9371"
+    },
+    {
+      "path": "shaders/build/pc/Blur.obj",
+      "size": 8599,
+      "sha256": "659b9f32e34c2d35b1fa614100eaa0d16b9fe078238acf6dbac1371803308411"
+    },
+    {
+      "path": "shaders/build/pc/CarPaint.obj",
+      "size": 583629,
+      "sha256": "b2ce95e575062584e5d986b32fd4a2aac6dce183486edd245325bf28c1023705"
+    },
+    {
+      "path": "shaders/build/pc/Character.obj",
+      "size": 2831296,
+      "sha256": "c6049d7cee1f7be852a40c307c5c2c88e592be52d376b5ac0efca1999d72bab1"
+    },
+    {
+      "path": "shaders/build/pc/Chrome.obj",
+      "size": 1171654,
+      "sha256": "191100253d2b102399bcc0e6950fd3ecde3fb5d6bd0822a43441c0822f8f874a"
+    },
+    {
+      "path": "shaders/build/pc/CinematicRender.obj",
+      "size": 633,
+      "sha256": "961598d85484255f37c367ad2c3342226be59dab19aa466613536dc02d224d13"
+    },
+    {
+      "path": "shaders/build/pc/Clear.obj",
+      "size": 378,
+      "sha256": "7142a0cbfc92c9f3acb10eae2d3e6b1952fa2ecfb9c3b4bfba3db9a04f63c2c8"
+    },
+    {
+      "path": "shaders/build/pc/Color.obj",
+      "size": 138915,
+      "sha256": "f8ddc6869d6b785698024a10fcc67e249efaa9bdec68b4aba7d07ce8fbbeb343"
+    },
+    {
+      "path": "shaders/build/pc/ConvertToLinearDepth.obj",
+      "size": 3059,
+      "sha256": "c9f409b0ad5e19bd4ac971f12a1ff97be2143eb39a3ccabdbcfb8cf2fb3d050f"
+    },
+    {
+      "path": "shaders/build/pc/CopyVideoMemory.obj",
+      "size": 43,
+      "sha256": "80d04d78d2fc5db1d642244303523ffd345fba66cb982a5f9e708c187e04518d"
+    },
+    {
+      "path": "shaders/build/pc/CustomParticle.obj",
+      "size": 395884,
+      "sha256": "26edf0b04346f28c06edd75b2d7ce36524b9fa0201c10cddf60684ff536070ae"
+    },
+    {
+      "path": "shaders/build/pc/DarkLight.obj",
+      "size": 1024,
+      "sha256": "c95ba26a1475cd00a5f8f10ca30379a8ea04cf1d5a7a601864be4500b43348ea"
+    },
+    {
+      "path": "shaders/build/pc/DarkPresence.obj",
+      "size": 2665,
+      "sha256": "7cf2a8e94eeaa62e22bd9168cb8a191bf51d8dce25632b3c070304412db00742"
+    },
+    {
+      "path": "shaders/build/pc/DeferredLight.obj",
+      "size": 54304,
+      "sha256": "37f8965e3937d3d21e72d806894eb11c42f880c40d31848f29627d1b41757bc6"
+    },
+    {
+      "path": "shaders/build/pc/Displace.obj",
+      "size": 701,
+      "sha256": "23add9570f24684c766b66118dc0cad58bb4be2d176ac10d9f2163fe84f4dabc"
+    },
+    {
+      "path": "shaders/build/pc/Eye.obj",
+      "size": 324277,
+      "sha256": "892cd36dbea6f71d2cba860a8d792c1eb6822febcab76a19a7fb8bca625b2814"
+    },
+    {
+      "path": "shaders/build/pc/Flare.obj",
+      "size": 722,
+      "sha256": "b15276a8bf5be5cf0f63c1eca8d4e20468aeb0f06ef5b690f1ce6234ddced394"
+    },
+    {
+      "path": "shaders/build/pc/FoliageBillboard.obj",
+      "size": 67719,
+      "sha256": "235ed3bc311db8d325ef0a808da6a293c850e51d5c10ce1179dd606ed37dad2f"
+    },
+    {
+      "path": "shaders/build/pc/FoliagePRT.obj",
+      "size": 576971,
+      "sha256": "7b2a787a151f95e80da4e52d31b4a1932b8c7bc76a4ac439f3a60bae5cb59ca5"
+    },
+    {
+      "path": "shaders/build/pc/GenerateBillboard.obj",
+      "size": 1942,
+      "sha256": "f7f3dfc93919c9a1d04a15cfe1182e757ad7a0adb98a99db00e8a6b8ceab5328"
+    },
+    {
+      "path": "shaders/build/pc/GenerateMipmaps.obj",
+      "size": 1523,
+      "sha256": "bbd436019cafd43423e0a15255918fcfd27056e964bd6c724f483e6546ec0117"
+    },
+    {
+      "path": "shaders/build/pc/Glass.obj",
+      "size": 341217,
+      "sha256": "b4a01a5d1dcfbe479f92d79b83d134193245167e233f486f539ec24787121a8d"
+    },
+    {
+      "path": "shaders/build/pc/Godray.obj",
+      "size": 31400,
+      "sha256": "2c6890c8a4908bab3adc541e1e34761904084857745d5a16b23476f13d049af9"
+    },
+    {
+      "path": "shaders/build/pc/Grass.obj",
+      "size": 53338,
+      "sha256": "4b8fad49493145909456bdce0686461c3863a85ee2dd92290123e183e075179c"
+    },
+    {
+      "path": "shaders/build/pc/Light.obj",
+      "size": 99083,
+      "sha256": "4d0ee3054ca5cd33612738a8ca26fb4a06e1ee16a67bc0597175c7744ca0507a"
+    },
+    {
+      "path": "shaders/build/pc/LightBoost.obj",
+      "size": 2351,
+      "sha256": "d7812b8408b1b52374577f1b04b39c4da93bd9712c9ef234bedbe0a77007966e"
+    },
+    {
+      "path": "shaders/build/pc/LightSensitive.obj",
+      "size": 245797,
+      "sha256": "6c6897de05e0e53e316f28d37c174c998e39509b4b0f7624037ad20533ea34db"
+    },
+    {
+      "path": "shaders/build/pc/LocalPRT.obj",
+      "size": 898,
+      "sha256": "d15e7d7c57e704963af1ab6a09d01477558e6e586df67773dd409060b12b76ad"
+    },
+    {
+      "path": "shaders/build/pc/Map.obj",
+      "size": 952,
+      "sha256": "898ecd122c68c1300a52d9a5c42d5a67cdfbf2631b606d6dc4528a7a937fe0dd"
+    },
+    {
+      "path": "shaders/build/pc/OcclusionQuery.obj",
+      "size": 466,
+      "sha256": "9601adcec1264de96b0388c7a16b220854b0da3003cc8f7a5dbb2f01f2d6197a"
+    },
+    {
+      "path": "shaders/build/pc/Particle.obj",
+      "size": 869660,
+      "sha256": "25f11efc0a7fa9808d6967ed0ec06f62a4060c3ce427cf4bedc21d4cdfac0f79"
+    },
+    {
+      "path": "shaders/build/pc/PickUp.obj",
+      "size": 4741,
+      "sha256": "b20bb3b89157c6603fb61ecf903dc6945904fe8c685db5f9a63eac8ff903bc34"
+    },
+    {
+      "path": "shaders/build/pc/PostProcess.obj",
+      "size": 1051,
+      "sha256": "931ea3c47f7a81d49972a3568de5619464171e197ed55a3b3b811eff249b645e"
+    },
+    {
+      "path": "shaders/build/pc/RestoreSurface.obj",
+      "size": 42,
+      "sha256": "fd3c3465efd88df9f44fcbc34190c779278ef946084810d60de9dd3818c8e9b6"
+    },
+    {
+      "path": "shaders/build/pc/River.obj",
+      "size": 332755,
+      "sha256": "810ab7e647c44d62f6fba2fc9da8b35e945ff4818f71ea8d50eaed6fc36f4ff2"
+    },
+    {
+      "path": "shaders/build/pc/ShadeEffect.obj",
+      "size": 2711,
+      "sha256": "82e2d681000aeae730a1cdaabb26658929fd4bfe18085064404afc5fb1d6078c"
+    },
+    {
+      "path": "shaders/build/pc/ShadowBlob.obj",
+      "size": 1286,
+      "sha256": "b275094b5a82b108c89850d7f5bb0ee6beff6e130dc01de45e0f5e7f0a2b9588"
+    },
+    {
+      "path": "shaders/build/pc/ShadowBuffer.obj",
+      "size": 19838,
+      "sha256": "b0acefe36f3c8aeeac200abc1fc2e724376d2f5767b28af2b7fe8f2daa8d35a8"
+    },
+    {
+      "path": "shaders/build/pc/Skin.obj",
+      "size": 736834,
+      "sha256": "7a2adcc09d1eef6dc7b4671357f086ca5c381e2e31cc89c225b5cd04432bc327"
+    },
+    {
+      "path": "shaders/build/pc/Sky.obj",
+      "size": 42231,
+      "sha256": "cf8a72b2599b77ca968c3fb735e2d27a69671784b27ec95333ff8360fc07eb9e"
+    },
+    {
+      "path": "shaders/build/pc/SSAA.obj",
+      "size": 35489,
+      "sha256": "dd21f11d2c6595abff2dbc251f3beb602c40b68b5fd765315ab169c152c19a54"
+    },
+    {
+      "path": "shaders/build/pc/SSAO.obj",
+      "size": 51683,
+      "sha256": "1f240addacaada00e27404fbf9a07d5125a389dd9d1441ab57012d10c2dfb9b4"
+    },
+    {
+      "path": "shaders/build/pc/StandardMaterial.obj",
+      "size": 2261682,
+      "sha256": "701e651d003a18833193d03b4ad1b5bf58c9dee292bfb654006355925f563bce"
+    },
+    {
+      "path": "shaders/build/pc/Taken.obj",
+      "size": 4649515,
+      "sha256": "6bbff630d7cde60fb8148d2532a9b3c8c9a2274350d7cefe9e2478e67dbe649a"
+    },
+    {
+      "path": "shaders/build/pc/Terrain.obj",
+      "size": 131695,
+      "sha256": "5a6362e1a180eda88beda68edde735726e9e2d9a44d90394c4d6b20dff21202e"
+    },
+    {
+      "path": "shaders/build/pc/TerrainMesh.obj",
+      "size": 65498,
+      "sha256": "5de562304a859ee7f68eb761b4ff273230b154912e80983fe95a2fcb3927b6cc"
+    },
+    {
+      "path": "shaders/build/pc/TerrainMeshMaker.obj",
+      "size": 2295,
+      "sha256": "03ded7a4ce5eb04a1c260d24c9ded722092027b13028652a89691b8134b2a351"
+    },
+    {
+      "path": "shaders/build/pc/VectorBlur.obj",
+      "size": 5422,
+      "sha256": "506cd04c1962ac38a4cec85ca2cfc96eaf7bc17954c3b7c15f594f894be779b5"
+    },
+    {
+      "path": "shaders/build/pc/Velocity.obj",
+      "size": 11120,
+      "sha256": "9f88346e003250dd5a0080727e2d5b70dc111929dde1efa6e070fe5e1d037509"
+    },
+    {
+      "path": "shaders/build/pc/VideoTexture.obj",
+      "size": 96347,
+      "sha256": "ca995def13b8bf59190fe24ed59319bae3f6061d3c794fe9153d9ae6c06f8920"
+    },
+    {
+      "path": "shaders/build/pc/VolumetricLight.obj",
+      "size": 105791,
+      "sha256": "1703e93bc57f0caa9c05052eb8570fb84fbb224a412c2384fe4210d0413d15c7"
+    },
+    {
+      "path": "shaders/build/pc/Water.obj",
+      "size": 308779,
+      "sha256": "7923e0642e1a060195c9a568edc786cb60c66245415b4e7efef34700168abe15"
+    },
+    {
+      "path": "shaders/build/pc/WindowImpostor.obj",
+      "size": 189973,
+      "sha256": "028d756db2ff73f417747f7aa78eb1350d114fd34d44a9cdcb9f0d5ec42f844b"
+    },
+    {
+      "path": "snd_f_Win32.dll",
+      "size": 106848,
+      "sha256": "6ccb5e5a56dee07f22450432fb522c2549a9b666a0261a807bcd4c40947f02da"
+    },
+    {
+      "path": "support.ico",
+      "size": 62895,
+      "sha256": "05fe749ef47d1ec862d6c55be78e66d1011226bf1f78409acf57cb79cec5eb20"
+    },
+    {
+      "path": "unins000.dat",
+      "size": 2120266,
+      "sha256": "cdd6707adec8b2191c12a681fbbef4fa596d99cddff5b02c63bb5a6a84857cc1"
+    },
+    {
+      "path": "unins000.exe",
+      "size": 1334880,
+      "sha256": "ed1e60752c3fa82a1cebda1d6afb727187bf5edc3c41a8a6cf791c8c08f19083"
+    },
+    {
+      "path": "unins000.ini",
+      "size": 41,
+      "sha256": "b4e8da47aec04602821a625715203f3b3881e48fd285abf3d67849faaaed5604"
+    },
+    {
+      "path": "unins000.msg",
+      "size": 23077,
+      "sha256": "a7433647dfdf59ad56bfb900009803fab135ca83c68ad79141583ee5451afcee"
+    },
+    {
+      "path": "webcache.zip",
+      "size": 254255,
+      "sha256": "7390f2dc03bfaf41c7c28b08d31ceda674e8032dd8d34252f51d51fae855a8e3"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "ai_f_Win32.dll",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 619872
+        },
+        {
+          "file": "alanwake.exe",
+          "file_offset": 0,
+          "chunk_offset": 619872,
+          "length": 3043680
+        },
+        {
+          "file": "app_f_Win32.dll",
+          "file_offset": 0,
+          "chunk_offset": 3663552,
+          "length": 239968
+        },
+        {
+          "file": "binkw32.dll",
+          "file_offset": 0,
+          "chunk_offset": 3903520,
+          "length": 226304
+        },
+        {
+          "file": "d3d_f_Win32.dll",
+          "file_offset": 0,
+          "chunk_offset": 4129824,
+          "length": 190304
+        },
+        {
+          "file": "data/config/locale_config.xml",
+          "file_offset": 0,
+          "chunk_offset": 4320128,
+          "length": 3780
+        },
+        {
+          "file": "data/ep999-000-cht.bin",
+          "file_offset": 0,
+          "chunk_offset": 4323908,
+          "length": 3627
+        },
+        {
+          "file": "data/ep999-000-cht.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 4327535,
+          "length": 4624712
+        },
+        {
+          "file": "data/ep999-000-cz.bin",
+          "file_offset": 0,
+          "chunk_offset": 8952247,
+          "length": 7820
+        },
+        {
+          "file": "data/ep999-000-cz.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 8960067,
+          "length": 7176328
+        },
+        {
+          "file": "data/ep999-000-de.bin",
+          "file_offset": 0,
+          "chunk_offset": 16136395,
+          "length": 182305
+        },
+        {
+          "file": "data/ep999-000-de.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 16318700,
+          "length": 258095598
+        }
+      ],
+      "sha256": "d59d1f3414099cb7067beb02f986bc3c0c1a6197531f952d4fa0f9297b5ca8fa"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000-de.rmdp",
+          "file_offset": 258095598,
+          "chunk_offset": 0,
+          "length": 7117282
+        },
+        {
+          "file": "data/ep999-000-en.bin",
+          "file_offset": 0,
+          "chunk_offset": 7117282,
+          "length": 187869
+        },
+        {
+          "file": "data/ep999-000-en.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 7305151,
+          "length": 267109147
+        }
+      ],
+      "sha256": "b7917bab398a5ac30d40227f7b0dd15be462c8a31f190ed7f26305e07fc9e744"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000-en.rmdp",
+          "file_offset": 267109147,
+          "chunk_offset": 0,
+          "length": 755957
+        },
+        {
+          "file": "data/ep999-000-es.bin",
+          "file_offset": 0,
+          "chunk_offset": 755957,
+          "length": 182305
+        },
+        {
+          "file": "data/ep999-000-es.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 938262,
+          "length": 265226296
+        },
+        {
+          "file": "data/ep999-000-esm.bin",
+          "file_offset": 0,
+          "chunk_offset": 266164558,
+          "length": 182313
+        },
+        {
+          "file": "data/ep999-000-esm.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 266346871,
+          "length": 8067427
+        }
+      ],
+      "sha256": "37d363876b2dee7848a319e62d0ddce1f9e56872578299ad1105cf5e7276393f"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000-esm.rmdp",
+          "file_offset": 8067427,
+          "chunk_offset": 0,
+          "length": 255856989
+        },
+        {
+          "file": "data/ep999-000-fr.bin",
+          "file_offset": 0,
+          "chunk_offset": 255856989,
+          "length": 182305
+        },
+        {
+          "file": "data/ep999-000-fr.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 256039294,
+          "length": 18375004
+        }
+      ],
+      "sha256": "85a8d21840ba25dd2f19573a708d66eeb1c0949531c3e0407c0e8c45403fc999"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000-fr.rmdp",
+          "file_offset": 18375004,
+          "chunk_offset": 0,
+          "length": 246748948
+        },
+        {
+          "file": "data/ep999-000-it.bin",
+          "file_offset": 0,
+          "chunk_offset": 246748948,
+          "length": 182305
+        },
+        {
+          "file": "data/ep999-000-it.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 246931253,
+          "length": 27483045
+        }
+      ],
+      "sha256": "c21ad6dba8c6d3b3db27fef1634a638aefcebbed119307db8ff1be93077345e9"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000-it.rmdp",
+          "file_offset": 27483045,
+          "chunk_offset": 0,
+          "length": 237348491
+        },
+        {
+          "file": "data/ep999-000-jp.bin",
+          "file_offset": 0,
+          "chunk_offset": 237348491,
+          "length": 182295
+        },
+        {
+          "file": "data/ep999-000-jp.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 237530786,
+          "length": 36883512
+        }
+      ],
+      "sha256": "47bb67911e641712db81198c6f80f9a77b7a1908e12dce400cfb1619c637be56"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000-jp.rmdp",
+          "file_offset": 36883512,
+          "chunk_offset": 0,
+          "length": 232240232
+        },
+        {
+          "file": "data/ep999-000-ko.bin",
+          "file_offset": 0,
+          "chunk_offset": 232240232,
+          "length": 3622
+        },
+        {
+          "file": "data/ep999-000-ko.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 232243854,
+          "length": 4588376
+        },
+        {
+          "file": "data/ep999-000-pl.bin",
+          "file_offset": 0,
+          "chunk_offset": 236832230,
+          "length": 3696
+        },
+        {
+          "file": "data/ep999-000-pl.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 236835926,
+          "length": 5013432
+        },
+        {
+          "file": "data/ep999-000-ru.bin",
+          "file_offset": 0,
+          "chunk_offset": 241849358,
+          "length": 3696
+        },
+        {
+          "file": "data/ep999-000-ru.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 241853054,
+          "length": 5080632
+        },
+        {
+          "file": "data/ep999-000.bin",
+          "file_offset": 0,
+          "chunk_offset": 246933686,
+          "length": 2436918
+        },
+        {
+          "file": "data/ep999-000.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 249370604,
+          "length": 25043694
+        }
+      ],
+      "sha256": "89e5c6134d80638ac5b324c005c3bf25d2714564016f0c91602b1a32918195d7"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000.rmdp",
+          "file_offset": 25043694,
+          "chunk_offset": 0,
+          "length": 274414298
+        }
+      ],
+      "sha256": "d6416e2d5181a7ab039159eb38285baf49c4f61c949742c80ce2e1b43589bfac"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000.rmdp",
+          "file_offset": 299457992,
+          "chunk_offset": 0,
+          "length": 274414298
+        }
+      ],
+      "sha256": "1fd6f78c22fcbac08d34b36a1208794cb5d34a16088fd539b92b13ddf5151f5c"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000.rmdp",
+          "file_offset": 573872290,
+          "chunk_offset": 0,
+          "length": 274414298
+        }
+      ],
+      "sha256": "1d10aafb1933cfe4ac28e5ca1f6a9d043b2cdeeb39dd98b4c6d019b7a958fe83"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000.rmdp",
+          "file_offset": 848286588,
+          "chunk_offset": 0,
+          "length": 274414298
+        }
+      ],
+      "sha256": "a3105bbc1a165ddb546bd3ccf090b2ae3849e07fa28ecb8d5fda4574bc0e9f28"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000.rmdp",
+          "file_offset": 1122700886,
+          "chunk_offset": 0,
+          "length": 274414298
+        }
+      ],
+      "sha256": "2033222734e1837aacdf0a8b28f54f0b1e57b9c587c9a8f5a28b5c8dacd8ae53"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000.rmdp",
+          "file_offset": 1397115184,
+          "chunk_offset": 0,
+          "length": 274414298
+        }
+      ],
+      "sha256": "d9675f29c871dbdd888c9719d46b6db680961f1fc9abc12767c6bb6379fd23a9"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000.rmdp",
+          "file_offset": 1671529482,
+          "chunk_offset": 0,
+          "length": 274414298
+        }
+      ],
+      "sha256": "3684b60496cf82c348f0bea1495960f40a087d8157dd941e75e8c7480b86f51a"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000.rmdp",
+          "file_offset": 1945943780,
+          "chunk_offset": 0,
+          "length": 274414298
+        }
+      ],
+      "sha256": "3164c6d65472da3833d286ef6ee2d65e390b8a547a863e19d524ed9fa119bce6"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000.rmdp",
+          "file_offset": 2220358078,
+          "chunk_offset": 0,
+          "length": 274414298
+        }
+      ],
+      "sha256": "b3deffc2ca0b9d6442d37cd7aaa5f6fea105e1f5645300da35d7f25dd0f189b0"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000.rmdp",
+          "file_offset": 2494772376,
+          "chunk_offset": 0,
+          "length": 274414298
+        }
+      ],
+      "sha256": "7ab5b8cfad845364575929536f841fb8917e926ae321135f970264501a47e70b"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000.rmdp",
+          "file_offset": 2769186674,
+          "chunk_offset": 0,
+          "length": 274414298
+        }
+      ],
+      "sha256": "fdb4d854e240193795e1ee51136babd33f7fed5ae8a34da97200a2ec42cbe751"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/ep999-000.rmdp",
+          "file_offset": 3043600972,
+          "chunk_offset": 0,
+          "length": 6640132
+        },
+        {
+          "file": "data/ep999-001-cht.bin",
+          "file_offset": 0,
+          "chunk_offset": 6640132,
+          "length": 461
+        },
+        {
+          "file": "data/ep999-001-cht.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 6640593,
+          "length": 2685144
+        },
+        {
+          "file": "data/ep999-001-cz.bin",
+          "file_offset": 0,
+          "chunk_offset": 9325737,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-001-cz.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 9326033,
+          "length": 836400
+        },
+        {
+          "file": "data/ep999-001-de.bin",
+          "file_offset": 0,
+          "chunk_offset": 10162433,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-001-de.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 10162729,
+          "length": 915408
+        },
+        {
+          "file": "data/ep999-001-en.bin",
+          "file_offset": 0,
+          "chunk_offset": 11078137,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-001-en.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 11078433,
+          "length": 867600
+        },
+        {
+          "file": "data/ep999-001-es.bin",
+          "file_offset": 0,
+          "chunk_offset": 11946033,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-001-es.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 11946329,
+          "length": 875232
+        },
+        {
+          "file": "data/ep999-001-esm.bin",
+          "file_offset": 0,
+          "chunk_offset": 12821561,
+          "length": 535
+        },
+        {
+          "file": "data/ep999-001-esm.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 12822096,
+          "length": 3087312
+        },
+        {
+          "file": "data/ep999-001-fr.bin",
+          "file_offset": 0,
+          "chunk_offset": 15909408,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-001-fr.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 15909704,
+          "length": 940192
+        },
+        {
+          "file": "data/ep999-001-it.bin",
+          "file_offset": 0,
+          "chunk_offset": 16849896,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-001-it.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 16850192,
+          "length": 866984
+        },
+        {
+          "file": "data/ep999-001-jp.bin",
+          "file_offset": 0,
+          "chunk_offset": 17717176,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-001-jp.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 17717472,
+          "length": 417640
+        },
+        {
+          "file": "data/ep999-001-ko.bin",
+          "file_offset": 0,
+          "chunk_offset": 18135112,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-001-ko.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 18135408,
+          "length": 534176
+        },
+        {
+          "file": "data/ep999-001-pl.bin",
+          "file_offset": 0,
+          "chunk_offset": 18669584,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-001-pl.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 18669880,
+          "length": 830408
+        },
+        {
+          "file": "data/ep999-001-ru.bin",
+          "file_offset": 0,
+          "chunk_offset": 19500288,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-001-ru.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 19500584,
+          "length": 855360
+        },
+        {
+          "file": "data/ep999-001.bin",
+          "file_offset": 0,
+          "chunk_offset": 20355944,
+          "length": 262
+        },
+        {
+          "file": "data/ep999-001.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 20356206,
+          "length": 334088
+        },
+        {
+          "file": "data/ep999-002-cht.bin",
+          "file_offset": 0,
+          "chunk_offset": 20690294,
+          "length": 5309
+        },
+        {
+          "file": "data/ep999-002-cht.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 20695603,
+          "length": 2573288
+        },
+        {
+          "file": "data/ep999-002-cz.bin",
+          "file_offset": 0,
+          "chunk_offset": 23268891,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-002-cz.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 23269187,
+          "length": 836400
+        },
+        {
+          "file": "data/ep999-002-de.bin",
+          "file_offset": 0,
+          "chunk_offset": 24105587,
+          "length": 5305
+        },
+        {
+          "file": "data/ep999-002-de.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 24110892,
+          "length": 3080920
+        },
+        {
+          "file": "data/ep999-002-en.bin",
+          "file_offset": 0,
+          "chunk_offset": 27191812,
+          "length": 1142
+        },
+        {
+          "file": "data/ep999-002-en.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 27192954,
+          "length": 1124528
+        },
+        {
+          "file": "data/ep999-002-es.bin",
+          "file_offset": 0,
+          "chunk_offset": 28317482,
+          "length": 5305
+        },
+        {
+          "file": "data/ep999-002-es.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 28322787,
+          "length": 3040760
+        },
+        {
+          "file": "data/ep999-002-esm.bin",
+          "file_offset": 0,
+          "chunk_offset": 31363547,
+          "length": 5309
+        },
+        {
+          "file": "data/ep999-002-esm.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 31368856,
+          "length": 3043560
+        },
+        {
+          "file": "data/ep999-002-fr.bin",
+          "file_offset": 0,
+          "chunk_offset": 34412416,
+          "length": 5305
+        },
+        {
+          "file": "data/ep999-002-fr.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 34417721,
+          "length": 3105704
+        },
+        {
+          "file": "data/ep999-002-it.bin",
+          "file_offset": 0,
+          "chunk_offset": 37523425,
+          "length": 5305
+        },
+        {
+          "file": "data/ep999-002-it.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 37528730,
+          "length": 3032512
+        },
+        {
+          "file": "data/ep999-002-jp.bin",
+          "file_offset": 0,
+          "chunk_offset": 40561242,
+          "length": 5305
+        },
+        {
+          "file": "data/ep999-002-jp.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 40566547,
+          "length": 2583128
+        },
+        {
+          "file": "data/ep999-002-ko.bin",
+          "file_offset": 0,
+          "chunk_offset": 43149675,
+          "length": 5305
+        },
+        {
+          "file": "data/ep999-002-ko.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 43154980,
+          "length": 2699656
+        },
+        {
+          "file": "data/ep999-002-pl.bin",
+          "file_offset": 0,
+          "chunk_offset": 45854636,
+          "length": 5305
+        },
+        {
+          "file": "data/ep999-002-pl.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 45859941,
+          "length": 2995928
+        },
+        {
+          "file": "data/ep999-002-ru.bin",
+          "file_offset": 0,
+          "chunk_offset": 48855869,
+          "length": 5305
+        },
+        {
+          "file": "data/ep999-002-ru.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 48861174,
+          "length": 3020880
+        },
+        {
+          "file": "data/ep999-002.bin",
+          "file_offset": 0,
+          "chunk_offset": 51882054,
+          "length": 366
+        },
+        {
+          "file": "data/ep999-002.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 51882420,
+          "length": 7062944
+        },
+        {
+          "file": "data/ep999-003-cht.bin",
+          "file_offset": 0,
+          "chunk_offset": 58945364,
+          "length": 297
+        },
+        {
+          "file": "data/ep999-003-cht.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 58945661,
+          "length": 407832
+        },
+        {
+          "file": "data/ep999-003-cz.bin",
+          "file_offset": 0,
+          "chunk_offset": 59353493,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-003-cz.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 59353789,
+          "length": 836448
+        },
+        {
+          "file": "data/ep999-003-de.bin",
+          "file_offset": 0,
+          "chunk_offset": 60190237,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-003-de.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 60190533,
+          "length": 915576
+        },
+        {
+          "file": "data/ep999-003-en.bin",
+          "file_offset": 0,
+          "chunk_offset": 61106109,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-003-en.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 61106405,
+          "length": 867768
+        },
+        {
+          "file": "data/ep999-003-es.bin",
+          "file_offset": 0,
+          "chunk_offset": 61974173,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-003-es.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 61974469,
+          "length": 875416
+        },
+        {
+          "file": "data/ep999-003-esm.bin",
+          "file_offset": 0,
+          "chunk_offset": 62849885,
+          "length": 297
+        },
+        {
+          "file": "data/ep999-003-esm.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 62850182,
+          "length": 878120
+        },
+        {
+          "file": "data/ep999-003-fr.bin",
+          "file_offset": 0,
+          "chunk_offset": 63728302,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-003-fr.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 63728598,
+          "length": 940360
+        },
+        {
+          "file": "data/ep999-003-it.bin",
+          "file_offset": 0,
+          "chunk_offset": 64668958,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-003-it.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 64669254,
+          "length": 867168
+        },
+        {
+          "file": "data/ep999-003-jp.bin",
+          "file_offset": 0,
+          "chunk_offset": 65536422,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-003-jp.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 65536718,
+          "length": 417776
+        },
+        {
+          "file": "data/ep999-003-ko.bin",
+          "file_offset": 0,
+          "chunk_offset": 65954494,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-003-ko.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 65954790,
+          "length": 534304
+        },
+        {
+          "file": "data/ep999-003-pl.bin",
+          "file_offset": 0,
+          "chunk_offset": 66489094,
+          "length": 533
+        },
+        {
+          "file": "data/ep999-003-pl.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 66489627,
+          "length": 3094816
+        },
+        {
+          "file": "data/ep999-003-ru.bin",
+          "file_offset": 0,
+          "chunk_offset": 69584443,
+          "length": 533
+        },
+        {
+          "file": "data/ep999-003-ru.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 69584976,
+          "length": 3159848
+        },
+        {
+          "file": "data/ep999-003.bin",
+          "file_offset": 0,
+          "chunk_offset": 72744824,
+          "length": 1788
+        },
+        {
+          "file": "data/ep999-003.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 72746612,
+          "length": 2779328
+        },
+        {
+          "file": "data/ep999-004-cht.bin",
+          "file_offset": 0,
+          "chunk_offset": 75525940,
+          "length": 297
+        },
+        {
+          "file": "data/ep999-004-cht.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 75526237,
+          "length": 407880
+        },
+        {
+          "file": "data/ep999-004-cz.bin",
+          "file_offset": 0,
+          "chunk_offset": 75934117,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-004-cz.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 75934413,
+          "length": 836512
+        },
+        {
+          "file": "data/ep999-004-de.bin",
+          "file_offset": 0,
+          "chunk_offset": 76770925,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-004-de.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 76771221,
+          "length": 915640
+        },
+        {
+          "file": "data/ep999-004-en.bin",
+          "file_offset": 0,
+          "chunk_offset": 77686861,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-004-en.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 77687157,
+          "length": 867824
+        },
+        {
+          "file": "data/ep999-004-es.bin",
+          "file_offset": 0,
+          "chunk_offset": 78554981,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-004-es.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 78555277,
+          "length": 875472
+        },
+        {
+          "file": "data/ep999-004-esm.bin",
+          "file_offset": 0,
+          "chunk_offset": 79430749,
+          "length": 297
+        },
+        {
+          "file": "data/ep999-004-esm.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 79431046,
+          "length": 878176
+        },
+        {
+          "file": "data/ep999-004-fr.bin",
+          "file_offset": 0,
+          "chunk_offset": 80309222,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-004-fr.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 80309518,
+          "length": 940416
+        },
+        {
+          "file": "data/ep999-004-it.bin",
+          "file_offset": 0,
+          "chunk_offset": 81249934,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-004-it.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 81250230,
+          "length": 867232
+        },
+        {
+          "file": "data/ep999-004-jp.bin",
+          "file_offset": 0,
+          "chunk_offset": 82117462,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-004-jp.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 82117758,
+          "length": 417824
+        },
+        {
+          "file": "data/ep999-004-ko.bin",
+          "file_offset": 0,
+          "chunk_offset": 82535582,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-004-ko.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 82535878,
+          "length": 534360
+        },
+        {
+          "file": "data/ep999-004-pl.bin",
+          "file_offset": 0,
+          "chunk_offset": 83070238,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-004-pl.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 83070534,
+          "length": 831280
+        },
+        {
+          "file": "data/ep999-004-ru.bin",
+          "file_offset": 0,
+          "chunk_offset": 83901814,
+          "length": 296
+        },
+        {
+          "file": "data/ep999-004-ru.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 83902110,
+          "length": 854080
+        },
+        {
+          "file": "data/ep999-004.bin",
+          "file_offset": 0,
+          "chunk_offset": 84756190,
+          "length": 262
+        },
+        {
+          "file": "data/ep999-004.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 84756452,
+          "length": 334136
+        },
+        {
+          "file": "data/ep999-005.bin",
+          "file_offset": 0,
+          "chunk_offset": 85090588,
+          "length": 262
+        },
+        {
+          "file": "data/ep999-005.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 85090850,
+          "length": 334136
+        },
+        {
+          "file": "data/ep999-006.bin",
+          "file_offset": 0,
+          "chunk_offset": 85424986,
+          "length": 262
+        },
+        {
+          "file": "data/ep999-006.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 85425248,
+          "length": 67448
+        },
+        {
+          "file": "data/ep999-007.bin",
+          "file_offset": 0,
+          "chunk_offset": 85492696,
+          "length": 802
+        },
+        {
+          "file": "data/ep999-007.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 85493498,
+          "length": 1136376
+        },
+        {
+          "file": "data/videos/alan_wake_logo.bik",
+          "file_offset": 0,
+          "chunk_offset": 86629874,
+          "length": 20088192
+        },
+        {
+          "file": "data/videos/cine_10100.bik",
+          "file_offset": 0,
+          "chunk_offset": 106718066,
+          "length": 19512604
+        },
+        {
+          "file": "data/videos/cine_10200.bik",
+          "file_offset": 0,
+          "chunk_offset": 126230670,
+          "length": 914668
+        },
+        {
+          "file": "data/videos/cine_10300.bik",
+          "file_offset": 0,
+          "chunk_offset": 127145338,
+          "length": 49063080
+        },
+        {
+          "file": "data/videos/cine_10400.bik",
+          "file_offset": 0,
+          "chunk_offset": 176208418,
+          "length": 98205880
+        }
+      ],
+      "sha256": "ad2673e09130ffb07d4a38bd6292916c264259a6a8856cff3c67cd21d290b416"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/cine_10400.bik",
+          "file_offset": 98205880,
+          "chunk_offset": 0,
+          "length": 19359340
+        },
+        {
+          "file": "data/videos/cine_1100.bik",
+          "file_offset": 0,
+          "chunk_offset": 19359340,
+          "length": 108646500
+        },
+        {
+          "file": "data/videos/cine_11000.bik",
+          "file_offset": 0,
+          "chunk_offset": 128005840,
+          "length": 34754136
+        },
+        {
+          "file": "data/videos/cine_11100.bik",
+          "file_offset": 0,
+          "chunk_offset": 162759976,
+          "length": 59274640
+        },
+        {
+          "file": "data/videos/cine_11200.bik",
+          "file_offset": 0,
+          "chunk_offset": 222034616,
+          "length": 52379682
+        }
+      ],
+      "sha256": "14eaf5da48403370e7996f6101864eb86ea887cb8251f492a3d5fa81bc374611"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/cine_11200.bik",
+          "file_offset": 52379682,
+          "chunk_offset": 0,
+          "length": 31150894
+        },
+        {
+          "file": "data/videos/cine_11300.bik",
+          "file_offset": 0,
+          "chunk_offset": 31150894,
+          "length": 31932220
+        },
+        {
+          "file": "data/videos/cine_11500.bik",
+          "file_offset": 0,
+          "chunk_offset": 63083114,
+          "length": 69446196
+        },
+        {
+          "file": "data/videos/cine_11600.bik",
+          "file_offset": 0,
+          "chunk_offset": 132529310,
+          "length": 38643784
+        },
+        {
+          "file": "data/videos/cine_1200.bik",
+          "file_offset": 0,
+          "chunk_offset": 171173094,
+          "length": 29082568
+        },
+        {
+          "file": "data/videos/cine_12100.bik",
+          "file_offset": 0,
+          "chunk_offset": 200255662,
+          "length": 74158636
+        }
+      ],
+      "sha256": "febcd9c8048e680623728b05cf9cb85d43372442910d1fff08416f28d92577fa"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/cine_12100.bik",
+          "file_offset": 74158636,
+          "chunk_offset": 0,
+          "length": 25692400
+        },
+        {
+          "file": "data/videos/cine_12300.bik",
+          "file_offset": 0,
+          "chunk_offset": 25692400,
+          "length": 23553096
+        },
+        {
+          "file": "data/videos/cine_12400.bik",
+          "file_offset": 0,
+          "chunk_offset": 49245496,
+          "length": 123452656
+        },
+        {
+          "file": "data/videos/cine_1300.bik",
+          "file_offset": 0,
+          "chunk_offset": 172698152,
+          "length": 37460788
+        },
+        {
+          "file": "data/videos/cine_13100.bik",
+          "file_offset": 0,
+          "chunk_offset": 210158940,
+          "length": 16767008
+        },
+        {
+          "file": "data/videos/cine_13200.bik",
+          "file_offset": 0,
+          "chunk_offset": 226925948,
+          "length": 47488350
+        }
+      ],
+      "sha256": "471f2b496e08b5374f6f3255289527501837fce6f6e69958b9f91b1c181cf094"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/cine_13200.bik",
+          "file_offset": 47488350,
+          "chunk_offset": 0,
+          "length": 164989830
+        },
+        {
+          "file": "data/videos/cine_14000.bik",
+          "file_offset": 0,
+          "chunk_offset": 164989830,
+          "length": 34909300
+        },
+        {
+          "file": "data/videos/cine_14100.bik",
+          "file_offset": 0,
+          "chunk_offset": 199899130,
+          "length": 53852204
+        },
+        {
+          "file": "data/videos/cine_14200.bik",
+          "file_offset": 0,
+          "chunk_offset": 253751334,
+          "length": 20662964
+        }
+      ],
+      "sha256": "0e951b5034f9e232be78a526ae27b96cf908b636d771c55a0b48bd8d5f331fcb"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/cine_14200.bik",
+          "file_offset": 20662964,
+          "chunk_offset": 0,
+          "length": 17680476
+        },
+        {
+          "file": "data/videos/cine_14300.bik",
+          "file_offset": 0,
+          "chunk_offset": 17680476,
+          "length": 33736668
+        },
+        {
+          "file": "data/videos/cine_14500.bik",
+          "file_offset": 0,
+          "chunk_offset": 51417144,
+          "length": 25735264
+        },
+        {
+          "file": "data/videos/cine_15100.bik",
+          "file_offset": 0,
+          "chunk_offset": 77152408,
+          "length": 94523672
+        },
+        {
+          "file": "data/videos/cine_15300.bik",
+          "file_offset": 0,
+          "chunk_offset": 171676080,
+          "length": 19681804
+        },
+        {
+          "file": "data/videos/cine_15350.bik",
+          "file_offset": 0,
+          "chunk_offset": 191357884,
+          "length": 61236140
+        },
+        {
+          "file": "data/videos/cine_15400.bik",
+          "file_offset": 0,
+          "chunk_offset": 252594024,
+          "length": 21820274
+        }
+      ],
+      "sha256": "219bde9e69904b81d111cf0e5a61a5a05466cacbe870f54fb3ef99fabf3305da"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/cine_15400.bik",
+          "file_offset": 21820274,
+          "chunk_offset": 0,
+          "length": 138998746
+        },
+        {
+          "file": "data/videos/cine_16000.bik",
+          "file_offset": 0,
+          "chunk_offset": 138998746,
+          "length": 34475068
+        },
+        {
+          "file": "data/videos/cine_16100.bik",
+          "file_offset": 0,
+          "chunk_offset": 173473814,
+          "length": 20702316
+        },
+        {
+          "file": "data/videos/cine_16200.bik",
+          "file_offset": 0,
+          "chunk_offset": 194176130,
+          "length": 80238168
+        }
+      ],
+      "sha256": "9f2de69cd01c4e0e67eef78692734a6ed0155ab34d5d3c01f7c59a5afefb1f79"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/cine_16200.bik",
+          "file_offset": 80238168,
+          "chunk_offset": 0,
+          "length": 68930968
+        },
+        {
+          "file": "data/videos/cine_16300.bik",
+          "file_offset": 0,
+          "chunk_offset": 68930968,
+          "length": 3292056
+        },
+        {
+          "file": "data/videos/cine_16500.bik",
+          "file_offset": 0,
+          "chunk_offset": 72223024,
+          "length": 39255672
+        },
+        {
+          "file": "data/videos/cine_17100.bik",
+          "file_offset": 0,
+          "chunk_offset": 111478696,
+          "length": 27405536
+        },
+        {
+          "file": "data/videos/cine_17200.bik",
+          "file_offset": 0,
+          "chunk_offset": 138884232,
+          "length": 52813544
+        },
+        {
+          "file": "data/videos/cine_17300.bik",
+          "file_offset": 0,
+          "chunk_offset": 191697776,
+          "length": 82716522
+        }
+      ],
+      "sha256": "235f85dc900594eba86a5658c89fe7bcfac88d1f068517edef3788ffa3b81b57"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/cine_17300.bik",
+          "file_offset": 82716522,
+          "chunk_offset": 0,
+          "length": 228213874
+        },
+        {
+          "file": "data/videos/cine_2100.bik",
+          "file_offset": 0,
+          "chunk_offset": 228213874,
+          "length": 46200424
+        }
+      ],
+      "sha256": "26703711aa127b93e47ecfedbaf49aa0280bbbcd18ea0876851325f1ff462283"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/cine_2100.bik",
+          "file_offset": 46200424,
+          "chunk_offset": 0,
+          "length": 7270228
+        },
+        {
+          "file": "data/videos/cine_2300.bik",
+          "file_offset": 0,
+          "chunk_offset": 7270228,
+          "length": 60197804
+        },
+        {
+          "file": "data/videos/cine_2400.bik",
+          "file_offset": 0,
+          "chunk_offset": 67468032,
+          "length": 34139968
+        },
+        {
+          "file": "data/videos/cine_2500.bik",
+          "file_offset": 0,
+          "chunk_offset": 101608000,
+          "length": 87841484
+        },
+        {
+          "file": "data/videos/cine_2600.bik",
+          "file_offset": 0,
+          "chunk_offset": 189449484,
+          "length": 19877056
+        },
+        {
+          "file": "data/videos/cine_2700.bik",
+          "file_offset": 0,
+          "chunk_offset": 209326540,
+          "length": 65087758
+        }
+      ],
+      "sha256": "2e7024fde71611fac8a9f1ed35902255517b96806c242d345a49d7f2c898023d"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/cine_2700.bik",
+          "file_offset": 65087758,
+          "chunk_offset": 0,
+          "length": 7281510
+        },
+        {
+          "file": "data/videos/cine_2800.bik",
+          "file_offset": 0,
+          "chunk_offset": 7281510,
+          "length": 17740036
+        },
+        {
+          "file": "data/videos/cine_3100.bik",
+          "file_offset": 0,
+          "chunk_offset": 25021546,
+          "length": 35092744
+        },
+        {
+          "file": "data/videos/cine_3150.bik",
+          "file_offset": 0,
+          "chunk_offset": 60114290,
+          "length": 33001940
+        },
+        {
+          "file": "data/videos/cine_3200.bik",
+          "file_offset": 0,
+          "chunk_offset": 93116230,
+          "length": 29260608
+        },
+        {
+          "file": "data/videos/cine_3300.bik",
+          "file_offset": 0,
+          "chunk_offset": 122376838,
+          "length": 18967632
+        },
+        {
+          "file": "data/videos/cine_3400.bik",
+          "file_offset": 0,
+          "chunk_offset": 141344470,
+          "length": 1552748
+        },
+        {
+          "file": "data/videos/cine_3500.bik",
+          "file_offset": 0,
+          "chunk_offset": 142897218,
+          "length": 129515700
+        },
+        {
+          "file": "data/videos/cine_4000.bik",
+          "file_offset": 0,
+          "chunk_offset": 272412918,
+          "length": 2001380
+        }
+      ],
+      "sha256": "a5f63b4d68134b76f1f701724d1713d0c0870b1b1e21a15043c221ce87079b01"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/cine_4000.bik",
+          "file_offset": 2001380,
+          "chunk_offset": 0,
+          "length": 32767868
+        },
+        {
+          "file": "data/videos/cine_4100.bik",
+          "file_offset": 0,
+          "chunk_offset": 32767868,
+          "length": 15270832
+        },
+        {
+          "file": "data/videos/cine_4200.bik",
+          "file_offset": 0,
+          "chunk_offset": 48038700,
+          "length": 98282684
+        },
+        {
+          "file": "data/videos/cine_4500.bik",
+          "file_offset": 0,
+          "chunk_offset": 146321384,
+          "length": 24886812
+        },
+        {
+          "file": "data/videos/cine_4600.bik",
+          "file_offset": 0,
+          "chunk_offset": 171208196,
+          "length": 80610724
+        },
+        {
+          "file": "data/videos/cine_5100.bik",
+          "file_offset": 0,
+          "chunk_offset": 251818920,
+          "length": 22595378
+        }
+      ],
+      "sha256": "c121bae13f9635e2616bb31c7afbe1ff1aa6e0f9cdeb512291ad8d364d37accd"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/cine_5100.bik",
+          "file_offset": 22595378,
+          "chunk_offset": 0,
+          "length": 33669630
+        },
+        {
+          "file": "data/videos/cine_5200.bik",
+          "file_offset": 0,
+          "chunk_offset": 33669630,
+          "length": 39882100
+        },
+        {
+          "file": "data/videos/cine_5300.bik",
+          "file_offset": 0,
+          "chunk_offset": 73551730,
+          "length": 2580716
+        },
+        {
+          "file": "data/videos/cine_5400.bik",
+          "file_offset": 0,
+          "chunk_offset": 76132446,
+          "length": 30595108
+        },
+        {
+          "file": "data/videos/cine_5600.bik",
+          "file_offset": 0,
+          "chunk_offset": 106727554,
+          "length": 37821896
+        },
+        {
+          "file": "data/videos/cine_5700.bik",
+          "file_offset": 0,
+          "chunk_offset": 144549450,
+          "length": 49466980
+        },
+        {
+          "file": "data/videos/cine_5800.bik",
+          "file_offset": 0,
+          "chunk_offset": 194016430,
+          "length": 80397868
+        }
+      ],
+      "sha256": "2acb256312e2298761f05aca373f90427bb6a92a27f3e97d1baeed514982b2df"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/cine_5800.bik",
+          "file_offset": 80397868,
+          "chunk_offset": 0,
+          "length": 63418780
+        },
+        {
+          "file": "data/videos/cine_9000.bik",
+          "file_offset": 0,
+          "chunk_offset": 63418780,
+          "length": 34506200
+        },
+        {
+          "file": "data/videos/cine_9100.bik",
+          "file_offset": 0,
+          "chunk_offset": 97924980,
+          "length": 29717272
+        },
+        {
+          "file": "data/videos/cine_9200.bik",
+          "file_offset": 0,
+          "chunk_offset": 127642252,
+          "length": 85897152
+        },
+        {
+          "file": "data/videos/cine_9300.bik",
+          "file_offset": 0,
+          "chunk_offset": 213539404,
+          "length": 39746296
+        },
+        {
+          "file": "data/videos/cine_9500.bik",
+          "file_offset": 0,
+          "chunk_offset": 253285700,
+          "length": 21128598
+        }
+      ],
+      "sha256": "6f0d1b9824c94bc4800ff39d6a0be7765c3504d4ed90b2d7272d8126ec7250d0"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/cine_9500.bik",
+          "file_offset": 21128598,
+          "chunk_offset": 0,
+          "length": 17104190
+        },
+        {
+          "file": "data/videos/cine_9700.bik",
+          "file_offset": 0,
+          "chunk_offset": 17104190,
+          "length": 16880276
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl01_01.bik",
+          "file_offset": 0,
+          "chunk_offset": 33984466,
+          "length": 6418220
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl01_03.bik",
+          "file_offset": 0,
+          "chunk_offset": 40402686,
+          "length": 1501260
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl01_04.bik",
+          "file_offset": 0,
+          "chunk_offset": 41903946,
+          "length": 3463936
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl02_05.bik",
+          "file_offset": 0,
+          "chunk_offset": 45367882,
+          "length": 3614480
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl02_06.bik",
+          "file_offset": 0,
+          "chunk_offset": 48982362,
+          "length": 1975212
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl02_07.bik",
+          "file_offset": 0,
+          "chunk_offset": 50957574,
+          "length": 3854084
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl02_08.bik",
+          "file_offset": 0,
+          "chunk_offset": 54811658,
+          "length": 2762520
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl02_09.bik",
+          "file_offset": 0,
+          "chunk_offset": 57574178,
+          "length": 4022412
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl03_10.bik",
+          "file_offset": 0,
+          "chunk_offset": 61596590,
+          "length": 2455308
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl03_11.bik",
+          "file_offset": 0,
+          "chunk_offset": 64051898,
+          "length": 5998360
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl03_12.bik",
+          "file_offset": 0,
+          "chunk_offset": 70050258,
+          "length": 995000
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl03_13.bik",
+          "file_offset": 0,
+          "chunk_offset": 71045258,
+          "length": 1140712
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl03_14.bik",
+          "file_offset": 0,
+          "chunk_offset": 72185970,
+          "length": 1317012
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl03_15.bik",
+          "file_offset": 0,
+          "chunk_offset": 73502982,
+          "length": 763048
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl03_16.bik",
+          "file_offset": 0,
+          "chunk_offset": 74266030,
+          "length": 763040
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl03_17.bik",
+          "file_offset": 0,
+          "chunk_offset": 75029070,
+          "length": 3007348
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl04_18.bik",
+          "file_offset": 0,
+          "chunk_offset": 78036418,
+          "length": 2794036
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl04_19.bik",
+          "file_offset": 0,
+          "chunk_offset": 80830454,
+          "length": 1586016
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl05_20.bik",
+          "file_offset": 0,
+          "chunk_offset": 82416470,
+          "length": 2280484
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl05_21.bik",
+          "file_offset": 0,
+          "chunk_offset": 84696954,
+          "length": 2402984
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl05_22.bik",
+          "file_offset": 0,
+          "chunk_offset": 87099938,
+          "length": 5123392
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl05_23.bik",
+          "file_offset": 0,
+          "chunk_offset": 92223330,
+          "length": 2526072
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl05_24.bik",
+          "file_offset": 0,
+          "chunk_offset": 94749402,
+          "length": 1897308
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl05_25.bik",
+          "file_offset": 0,
+          "chunk_offset": 96646710,
+          "length": 1572952
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl05_26.bik",
+          "file_offset": 0,
+          "chunk_offset": 98219662,
+          "length": 1510612
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl09_27.bik",
+          "file_offset": 0,
+          "chunk_offset": 99730274,
+          "length": 2543896
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl09_28.bik",
+          "file_offset": 0,
+          "chunk_offset": 102274170,
+          "length": 4243932
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl09_29.bik",
+          "file_offset": 0,
+          "chunk_offset": 106518102,
+          "length": 2264264
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl09_30.bik",
+          "file_offset": 0,
+          "chunk_offset": 108782366,
+          "length": 1958044
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl09_31.bik",
+          "file_offset": 0,
+          "chunk_offset": 110740410,
+          "length": 2283576
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl09_32.bik",
+          "file_offset": 0,
+          "chunk_offset": 113023986,
+          "length": 2612484
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl09_33.bik",
+          "file_offset": 0,
+          "chunk_offset": 115636470,
+          "length": 1667532
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl10_34.bik",
+          "file_offset": 0,
+          "chunk_offset": 117304002,
+          "length": 2344428
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl10_35.bik",
+          "file_offset": 0,
+          "chunk_offset": 119648430,
+          "length": 4477436
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl10_36.bik",
+          "file_offset": 0,
+          "chunk_offset": 124125866,
+          "length": 3516136
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl10_37.bik",
+          "file_offset": 0,
+          "chunk_offset": 127642002,
+          "length": 3399004
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl10_38.bik",
+          "file_offset": 0,
+          "chunk_offset": 131041006,
+          "length": 1224988
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl10_39.bik",
+          "file_offset": 0,
+          "chunk_offset": 132265994,
+          "length": 2055416
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl10_40.bik",
+          "file_offset": 0,
+          "chunk_offset": 134321410,
+          "length": 2590712
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl11_41.bik",
+          "file_offset": 0,
+          "chunk_offset": 136912122,
+          "length": 3007144
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl11_42.bik",
+          "file_offset": 0,
+          "chunk_offset": 139919266,
+          "length": 2648520
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl11_43.bik",
+          "file_offset": 0,
+          "chunk_offset": 142567786,
+          "length": 2788772
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl11_44.bik",
+          "file_offset": 0,
+          "chunk_offset": 145356558,
+          "length": 1731936
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl11_45.bik",
+          "file_offset": 0,
+          "chunk_offset": 147088494,
+          "length": 2487100
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl11_46.bik",
+          "file_offset": 0,
+          "chunk_offset": 149575594,
+          "length": 1510668
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl12_47.bik",
+          "file_offset": 0,
+          "chunk_offset": 151086262,
+          "length": 1234668
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl12_48.bik",
+          "file_offset": 0,
+          "chunk_offset": 152320930,
+          "length": 5800432
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl12_49.bik",
+          "file_offset": 0,
+          "chunk_offset": 158121362,
+          "length": 1225148
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl12_50.bik",
+          "file_offset": 0,
+          "chunk_offset": 159346510,
+          "length": 1691852
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl12_51.bik",
+          "file_offset": 0,
+          "chunk_offset": 161038362,
+          "length": 1876988
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl12_52.bik",
+          "file_offset": 0,
+          "chunk_offset": 162915350,
+          "length": 2874416
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl13_53.bik",
+          "file_offset": 0,
+          "chunk_offset": 165789766,
+          "length": 2406368
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl14_54.bik",
+          "file_offset": 0,
+          "chunk_offset": 168196134,
+          "length": 3093620
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl14_55.bik",
+          "file_offset": 0,
+          "chunk_offset": 171289754,
+          "length": 2878748
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl14_56.bik",
+          "file_offset": 0,
+          "chunk_offset": 174168502,
+          "length": 2862588
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl14_57.bik",
+          "file_offset": 0,
+          "chunk_offset": 177031090,
+          "length": 3180204
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl14_58.bik",
+          "file_offset": 0,
+          "chunk_offset": 180211294,
+          "length": 2095816
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl15_59.bik",
+          "file_offset": 0,
+          "chunk_offset": 182307110,
+          "length": 1355372
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl15_60.bik",
+          "file_offset": 0,
+          "chunk_offset": 183662482,
+          "length": 2997896
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl15_61.bik",
+          "file_offset": 0,
+          "chunk_offset": 186660378,
+          "length": 2119244
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl15_62.bik",
+          "file_offset": 0,
+          "chunk_offset": 188779622,
+          "length": 4799424
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl15_63.bik",
+          "file_offset": 0,
+          "chunk_offset": 193579046,
+          "length": 1678528
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl16_64.bik",
+          "file_offset": 0,
+          "chunk_offset": 195257574,
+          "length": 3094344
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl16_65.bik",
+          "file_offset": 0,
+          "chunk_offset": 198351918,
+          "length": 3407048
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl16_66.bik",
+          "file_offset": 0,
+          "chunk_offset": 201758966,
+          "length": 2587452
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl16_67.bik",
+          "file_offset": 0,
+          "chunk_offset": 204346418,
+          "length": 3806320
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl16_68.bik",
+          "file_offset": 0,
+          "chunk_offset": 208152738,
+          "length": 1833756
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl16_69.bik",
+          "file_offset": 0,
+          "chunk_offset": 209986494,
+          "length": 2164036
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl16_70.bik",
+          "file_offset": 0,
+          "chunk_offset": 212150530,
+          "length": 1733516
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl16_71.bik",
+          "file_offset": 0,
+          "chunk_offset": 213884046,
+          "length": 1769776
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl17_72.bik",
+          "file_offset": 0,
+          "chunk_offset": 215653822,
+          "length": 2555812
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl17_73.bik",
+          "file_offset": 0,
+          "chunk_offset": 218209634,
+          "length": 3813872
+        },
+        {
+          "file": "data/videos/commentary/commentary_lvl17_74.bik",
+          "file_offset": 0,
+          "chunk_offset": 222023506,
+          "length": 1012768
+        },
+        {
+          "file": "data/videos/credits_background.bik",
+          "file_offset": 0,
+          "chunk_offset": 223036274,
+          "length": 18820
+        },
+        {
+          "file": "data/videos/dlc1/cine_100000.bik",
+          "file_offset": 0,
+          "chunk_offset": 223055094,
+          "length": 25790992
+        },
+        {
+          "file": "data/videos/dlc1/cine_100100.bik",
+          "file_offset": 0,
+          "chunk_offset": 248846086,
+          "length": 25568212
+        }
+      ],
+      "sha256": "81a965bad7fc244855bc9129f3f759edcd68554df39b7839b70364c738984d04"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/dlc1/cine_100100.bik",
+          "file_offset": 25568212,
+          "chunk_offset": 0,
+          "length": 9100868
+        },
+        {
+          "file": "data/videos/dlc1/cine_100300.bik",
+          "file_offset": 0,
+          "chunk_offset": 9100868,
+          "length": 27812316
+        },
+        {
+          "file": "data/videos/dlc1/cine_100400.bik",
+          "file_offset": 0,
+          "chunk_offset": 36913184,
+          "length": 74680776
+        },
+        {
+          "file": "data/videos/dlc1/television_noise.bik",
+          "file_offset": 0,
+          "chunk_offset": 111593960,
+          "length": 504004
+        },
+        {
+          "file": "data/videos/dlc1/television_white_noise.bik",
+          "file_offset": 0,
+          "chunk_offset": 112097964,
+          "length": 503992
+        },
+        {
+          "file": "data/videos/dlc1/television_white_noise_dim.bik",
+          "file_offset": 0,
+          "chunk_offset": 112601956,
+          "length": 504032
+        },
+        {
+          "file": "data/videos/dlc1/television_white_noise_mouthless.bik",
+          "file_offset": 0,
+          "chunk_offset": 113105988,
+          "length": 503992
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_111_all.bik",
+          "file_offset": 0,
+          "chunk_offset": 113609980,
+          "length": 1035148
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_128.bik",
+          "file_offset": 0,
+          "chunk_offset": 114645128,
+          "length": 1501840
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_184.bik",
+          "file_offset": 0,
+          "chunk_offset": 116146968,
+          "length": 1668172
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_212m.bik",
+          "file_offset": 0,
+          "chunk_offset": 117815140,
+          "length": 1490724
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_212q.bik",
+          "file_offset": 0,
+          "chunk_offset": 119305864,
+          "length": 2502924
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_80aa.bik",
+          "file_offset": 0,
+          "chunk_offset": 121808788,
+          "length": 1201480
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_90a.bik",
+          "file_offset": 0,
+          "chunk_offset": 123010268,
+          "length": 774476
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_craziness_generic_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 123784744,
+          "length": 1308256
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_eye_generic_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 125093000,
+          "length": 1501792
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_eye_generic_2.bik",
+          "file_offset": 0,
+          "chunk_offset": 126594792,
+          "length": 1501800
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_mouth_generic_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 128096592,
+          "length": 1174780
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_mouth_generic_shout_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 129271372,
+          "length": 831032
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_mouth_generic_shout_2.bik",
+          "file_offset": 0,
+          "chunk_offset": 130102404,
+          "length": 831040
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_mouth_generic_smile_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 130933444,
+          "length": 400608
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_onfloor_generic_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 131334052,
+          "length": 690916
+        },
+        {
+          "file": "data/videos/dlc1/tvwake_ultimatedisturbance_generic_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 132024968,
+          "length": 1465728
+        },
+        {
+          "file": "data/videos/dlc2/cine_200000.bik",
+          "file_offset": 0,
+          "chunk_offset": 133490696,
+          "length": 22266804
+        },
+        {
+          "file": "data/videos/dlc2/cine_200100.bik",
+          "file_offset": 0,
+          "chunk_offset": 155757500,
+          "length": 21233344
+        },
+        {
+          "file": "data/videos/dlc2/cine_200200.bik",
+          "file_offset": 0,
+          "chunk_offset": 176990844,
+          "length": 14904512
+        },
+        {
+          "file": "data/videos/dlc2/cine_200300.bik",
+          "file_offset": 0,
+          "chunk_offset": 191895356,
+          "length": 82518942
+        }
+      ],
+      "sha256": "d0d9ed5f67c224aa189dc27b7aaf11f86b685d012a5a883623959bb990b61037"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/dlc2/cine_200300.bik",
+          "file_offset": 82518942,
+          "chunk_offset": 0,
+          "length": 36612014
+        },
+        {
+          "file": "data/videos/dlc2/television_noise.bik",
+          "file_offset": 0,
+          "chunk_offset": 36612014,
+          "length": 504004
+        },
+        {
+          "file": "data/videos/dlc2/television_white_noise.bik",
+          "file_offset": 0,
+          "chunk_offset": 37116018,
+          "length": 503992
+        },
+        {
+          "file": "data/videos/dlc2/television_white_noise_dim.bik",
+          "file_offset": 0,
+          "chunk_offset": 37620010,
+          "length": 504032
+        },
+        {
+          "file": "data/videos/dlc2/television_white_noise_mouthless.bik",
+          "file_offset": 0,
+          "chunk_offset": 38124042,
+          "length": 503992
+        },
+        {
+          "file": "data/videos/dlc2/tv_alice_117eaa.bik",
+          "file_offset": 0,
+          "chunk_offset": 38628034,
+          "length": 1533108
+        },
+        {
+          "file": "data/videos/dlc2/tv_alice_117eab.bik",
+          "file_offset": 0,
+          "chunk_offset": 40161142,
+          "length": 1067348
+        },
+        {
+          "file": "data/videos/dlc2/tv_alice_117eaf.bik",
+          "file_offset": 0,
+          "chunk_offset": 41228490,
+          "length": 2914772
+        },
+        {
+          "file": "data/videos/dlc2/tv_alice_117eag.bik",
+          "file_offset": 0,
+          "chunk_offset": 44143262,
+          "length": 1123080
+        },
+        {
+          "file": "data/videos/dlc2/tv_alice_117eze.bik",
+          "file_offset": 0,
+          "chunk_offset": 45266342,
+          "length": 1306076
+        },
+        {
+          "file": "data/videos/dlc2/tv_alice_117ezf.bik",
+          "file_offset": 0,
+          "chunk_offset": 46572418,
+          "length": 979560
+        },
+        {
+          "file": "data/videos/dlc2/tvwake_120.bik",
+          "file_offset": 0,
+          "chunk_offset": 47551978,
+          "length": 1408412
+        },
+        {
+          "file": "data/videos/dlc2/tvwake_143a.bik",
+          "file_offset": 0,
+          "chunk_offset": 48960390,
+          "length": 1261536
+        },
+        {
+          "file": "data/videos/dlc2/tvwake_145a.bik",
+          "file_offset": 0,
+          "chunk_offset": 50221926,
+          "length": 894464
+        },
+        {
+          "file": "data/videos/dlc2/tvwake_149a.bik",
+          "file_offset": 0,
+          "chunk_offset": 51116390,
+          "length": 5836660
+        },
+        {
+          "file": "data/videos/dlc2/tvwake_craziness_generic_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 56953050,
+          "length": 1308256
+        },
+        {
+          "file": "data/videos/dlc2/tvwake_eye_generic_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 58261306,
+          "length": 1501792
+        },
+        {
+          "file": "data/videos/dlc2/tvwake_eye_generic_2.bik",
+          "file_offset": 0,
+          "chunk_offset": 59763098,
+          "length": 1501800
+        },
+        {
+          "file": "data/videos/dlc2/tvwake_mouth_generic_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 61264898,
+          "length": 1174780
+        },
+        {
+          "file": "data/videos/dlc2/tvwake_mouth_generic_shout_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 62439678,
+          "length": 831032
+        },
+        {
+          "file": "data/videos/dlc2/tvwake_mouth_generic_shout_2.bik",
+          "file_offset": 0,
+          "chunk_offset": 63270710,
+          "length": 831040
+        },
+        {
+          "file": "data/videos/dlc2/tvwake_mouth_generic_smile_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 64101750,
+          "length": 400608
+        },
+        {
+          "file": "data/videos/dlc2/tvwake_onfloor_generic_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 64502358,
+          "length": 690916
+        },
+        {
+          "file": "data/videos/dlc2/tvwake_ultimatedisturbance_generic_1.bik",
+          "file_offset": 0,
+          "chunk_offset": 65193274,
+          "length": 1465728
+        },
+        {
+          "file": "data/videos/five_seconds_of_black.bik",
+          "file_offset": 0,
+          "chunk_offset": 66659002,
+          "length": 18820
+        },
+        {
+          "file": "data/videos/flash_18700_a.bik",
+          "file_offset": 0,
+          "chunk_offset": 66677822,
+          "length": 366320
+        },
+        {
+          "file": "data/videos/flash_18700_b.bik",
+          "file_offset": 0,
+          "chunk_offset": 67044142,
+          "length": 454972
+        },
+        {
+          "file": "data/videos/flash_18700_c.bik",
+          "file_offset": 0,
+          "chunk_offset": 67499114,
+          "length": 543324
+        },
+        {
+          "file": "data/videos/flash_18700_d.bik",
+          "file_offset": 0,
+          "chunk_offset": 68042438,
+          "length": 498044
+        },
+        {
+          "file": "data/videos/flash_18700_e.bik",
+          "file_offset": 0,
+          "chunk_offset": 68540482,
+          "length": 501676
+        },
+        {
+          "file": "data/videos/flash_18700_f.bik",
+          "file_offset": 0,
+          "chunk_offset": 69042158,
+          "length": 546828
+        },
+        {
+          "file": "data/videos/flash_18700_g.bik",
+          "file_offset": 0,
+          "chunk_offset": 69588986,
+          "length": 546464
+        },
+        {
+          "file": "data/videos/flash_18700_h.bik",
+          "file_offset": 0,
+          "chunk_offset": 70135450,
+          "length": 545484
+        },
+        {
+          "file": "data/videos/flash_18700_i.bik",
+          "file_offset": 0,
+          "chunk_offset": 70680934,
+          "length": 544596
+        },
+        {
+          "file": "data/videos/ingame_tv_energizer.bik",
+          "file_offset": 0,
+          "chunk_offset": 71225530,
+          "length": 1355968
+        },
+        {
+          "file": "data/videos/ingame_tv_eye.bik",
+          "file_offset": 0,
+          "chunk_offset": 72581498,
+          "length": 2452796
+        },
+        {
+          "file": "data/videos/ingame_tv_ford.bik",
+          "file_offset": 0,
+          "chunk_offset": 75034294,
+          "length": 1404888
+        },
+        {
+          "file": "data/videos/ingame_tv_placeholder.bik",
+          "file_offset": 0,
+          "chunk_offset": 76439182,
+          "length": 272360
+        },
+        {
+          "file": "data/videos/ingame_tv_trailer.bik",
+          "file_offset": 0,
+          "chunk_offset": 76711542,
+          "length": 4644276
+        },
+        {
+          "file": "data/videos/ingame_tv_verizon.bik",
+          "file_offset": 0,
+          "chunk_offset": 81355818,
+          "length": 1453548
+        },
+        {
+          "file": "data/videos/ingame_tv_whitenoise.bik",
+          "file_offset": 0,
+          "chunk_offset": 82809366,
+          "length": 4500028
+        },
+        {
+          "file": "data/videos/menu_dlc_background.bik",
+          "file_offset": 0,
+          "chunk_offset": 87309394,
+          "length": 4901364
+        },
+        {
+          "file": "data/videos/menu_episode1_background.bik",
+          "file_offset": 0,
+          "chunk_offset": 92210758,
+          "length": 12490280
+        },
+        {
+          "file": "data/videos/menu_episode2_background.bik",
+          "file_offset": 0,
+          "chunk_offset": 104701038,
+          "length": 17257632
+        },
+        {
+          "file": "data/videos/menu_episode3_background.bik",
+          "file_offset": 0,
+          "chunk_offset": 121958670,
+          "length": 7651052
+        },
+        {
+          "file": "data/videos/menu_episode4_background.bik",
+          "file_offset": 0,
+          "chunk_offset": 129609722,
+          "length": 6526700
+        },
+        {
+          "file": "data/videos/menu_episode5_background.bik",
+          "file_offset": 0,
+          "chunk_offset": 136136422,
+          "length": 12234744
+        },
+        {
+          "file": "data/videos/menu_episode6_background.bik",
+          "file_offset": 0,
+          "chunk_offset": 148371166,
+          "length": 15136120
+        },
+        {
+          "file": "data/videos/startup_attract.bik",
+          "file_offset": 0,
+          "chunk_offset": 163507286,
+          "length": 63318868
+        },
+        {
+          "file": "data/videos/startup_mgs.bik",
+          "file_offset": 0,
+          "chunk_offset": 226826154,
+          "length": 7392428
+        },
+        {
+          "file": "data/videos/startup_remedy.bik",
+          "file_offset": 0,
+          "chunk_offset": 234218582,
+          "length": 5144332
+        },
+        {
+          "file": "data/videos/test_surround_sound.bik",
+          "file_offset": 0,
+          "chunk_offset": 239362914,
+          "length": 691980
+        },
+        {
+          "file": "data/videos/tvshow_ns_a_family_occasion.bik",
+          "file_offset": 0,
+          "chunk_offset": 240054894,
+          "length": 6464220
+        },
+        {
+          "file": "data/videos/tvshow_ns_a_quantum_suicide.bik",
+          "file_offset": 0,
+          "chunk_offset": 246519114,
+          "length": 9921788
+        },
+        {
+          "file": "data/videos/tvshow_ns_an_absence_of_creativity.bik",
+          "file_offset": 0,
+          "chunk_offset": 256440902,
+          "length": 8699576
+        },
+        {
+          "file": "data/videos/tvshow_ns_taken_in_his_prime.bik",
+          "file_offset": 0,
+          "chunk_offset": 265140478,
+          "length": 6514256
+        },
+        {
+          "file": "data/videos/tvshow_ns_the_dream_of_dreams.bik",
+          "file_offset": 0,
+          "chunk_offset": 271654734,
+          "length": 2759564
+        }
+      ],
+      "sha256": "3045d524d877a4256007de13c98acfee84878f4b3499d9f58254b0355ef0639b"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "data/videos/tvshow_ns_the_dream_of_dreams.bik",
+          "file_offset": 2759564,
+          "chunk_offset": 0,
+          "length": 3838300
+        },
+        {
+          "file": "data/videos/tvshow_ns_the_man_in_the_mirror.bik",
+          "file_offset": 0,
+          "chunk_offset": 3838300,
+          "length": 8418672
+        },
+        {
+          "file": "data/videos/tvshow_talk_show.bik",
+          "file_offset": 0,
+          "chunk_offset": 12256972,
+          "length": 9060688
+        },
+        {
+          "file": "data/videos/tvshow_writer_in_the_cabin_part_01.bik",
+          "file_offset": 0,
+          "chunk_offset": 21317660,
+          "length": 1021732
+        },
+        {
+          "file": "data/videos/tvshow_writer_in_the_cabin_part_02.bik",
+          "file_offset": 0,
+          "chunk_offset": 22339392,
+          "length": 1494896
+        },
+        {
+          "file": "data/videos/tvshow_writer_in_the_cabin_part_03.bik",
+          "file_offset": 0,
+          "chunk_offset": 23834288,
+          "length": 1454728
+        },
+        {
+          "file": "data/videos/tvshow_writer_in_the_cabin_part_04.bik",
+          "file_offset": 0,
+          "chunk_offset": 25289016,
+          "length": 2342700
+        },
+        {
+          "file": "data/videos/tvshow_writer_in_the_cabin_part_05.bik",
+          "file_offset": 0,
+          "chunk_offset": 27631716,
+          "length": 2678792
+        },
+        {
+          "file": "data/videos/tvshow_writer_in_the_cabin_part_06.bik",
+          "file_offset": 0,
+          "chunk_offset": 30310508,
+          "length": 2167136
+        },
+        {
+          "file": "data/videos/tvshow_writer_in_the_cabin_part_07.bik",
+          "file_offset": 0,
+          "chunk_offset": 32477644,
+          "length": 3267408
+        },
+        {
+          "file": "dm_f_Win32.dll",
+          "file_offset": 0,
+          "chunk_offset": 35745052,
+          "length": 89440
+        },
+        {
+          "file": "EULA.txt",
+          "file_offset": 0,
+          "chunk_offset": 35834492,
+          "length": 59407
+        },
+        {
+          "file": "Extras/alan_wake_files_book/alan_wake_files_book/Alan Wake Files Book.pdf",
+          "file_offset": 0,
+          "chunk_offset": 35893899,
+          "length": 5407695
+        },
+        {
+          "file": "Extras/alan_wake_making_of/alan_wake_making_of/Alan_Wake_Building_a_thriller_final.avi",
+          "file_offset": 0,
+          "chunk_offset": 41301594,
+          "length": 151741580
+        },
+        {
+          "file": "Extras/alan_wake_making_of/alan_wake_making_of/Alan_Wake_Building_the_Technology.avi",
+          "file_offset": 0,
+          "chunk_offset": 193043174,
+          "length": 81371124
+        }
+      ],
+      "sha256": "c20271c434c40d8275f852b6648a4ce5d52009425365928110cfdb1c3897f85a"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "Extras/alan_wake_making_of/alan_wake_making_of/Alan_Wake_Building_the_Technology.avi",
+          "file_offset": 81371124,
+          "chunk_offset": 0,
+          "length": 34843924
+        },
+        {
+          "file": "Extras/alan_wake_making_of/alan_wake_making_of/AlanWake_Building_the_Drama.avi",
+          "file_offset": 0,
+          "chunk_offset": 34843924,
+          "length": 92881930
+        },
+        {
+          "file": "Extras/alan_wake_manual/alan_wake_manual/Alan Wake manual.pdf",
+          "file_offset": 0,
+          "chunk_offset": 127725854,
+          "length": 2625932
+        },
+        {
+          "file": "Extras/alan_wake_music_video/Poets of the Fall - War Music Video/Poets of the Fall - War Music Video.wmv",
+          "file_offset": 0,
+          "chunk_offset": 130351786,
+          "length": 144062512
+        }
+      ],
+      "sha256": "b6a7ea10ee96c13c6f8ef9c821f7db56a154249f8dd81818c31d7bb83af7b734"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "Extras/alan_wake_music_video/Poets of the Fall - War Music Video/Poets of the Fall - War Music Video.wmv",
+          "file_offset": 144062512,
+          "chunk_offset": 0,
+          "length": 57235089
+        },
+        {
+          "file": "Extras/alan_wake_music_video/Poets of the Fall - War Music Video/Poets of the Fall - War.mp3",
+          "file_offset": 0,
+          "chunk_offset": 57235089,
+          "length": 9762691
+        },
+        {
+          "file": "Extras/alan_wake_night_springs/alan_wake_night_springs/Absence_of_Creativity.avi",
+          "file_offset": 0,
+          "chunk_offset": 66997780,
+          "length": 58980648
+        },
+        {
+          "file": "Extras/alan_wake_night_springs/alan_wake_night_springs/Doomed_Samaritan.avi",
+          "file_offset": 0,
+          "chunk_offset": 125978428,
+          "length": 52821336
+        },
+        {
+          "file": "Extras/alan_wake_night_springs/alan_wake_night_springs/Dream_of_Dreams.avi",
+          "file_offset": 0,
+          "chunk_offset": 178799764,
+          "length": 44759674
+        },
+        {
+          "file": "Extras/alan_wake_night_springs/alan_wake_night_springs/Eternal_Endurance.avi",
+          "file_offset": 0,
+          "chunk_offset": 223559438,
+          "length": 50854860
+        }
+      ],
+      "sha256": "2ae2d18dadb8663c48afbccff813b0a96858452b8e32f7690832ffbb749d43fe"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 274414298,
+      "segments": [
+        {
+          "file": "Extras/alan_wake_night_springs/alan_wake_night_springs/Eternal_Endurance.avi",
+          "file_offset": 50854860,
+          "chunk_offset": 0,
+          "length": 13476986
+        },
+        {
+          "file": "Extras/alan_wake_night_springs/alan_wake_night_springs/Family_Occasion.avi",
+          "file_offset": 0,
+          "chunk_offset": 13476986,
+          "length": 44018420
+        },
+        {
+          "file": "Extras/alan_wake_night_springs/alan_wake_night_springs/Man_In_The_Mirror.avi",
+          "file_offset": 0,
+          "chunk_offset": 57495406,
+          "length": 56752062
+        },
+        {
+          "file": "Extras/alan_wake_night_springs/alan_wake_night_springs/Quantum_Suicide.avi",
+          "file_offset": 0,
+          "chunk_offset": 114247468,
+          "length": 66276956
+        },
+        {
+          "file": "Extras/alan_wake_night_springs/alan_wake_night_springs/Taken_In_His_Prime.avi",
+          "file_offset": 0,
+          "chunk_offset": 180524424,
+          "length": 44502990
+        },
+        {
+          "file": "Extras/alan_wake_night_springs/alan_wake_night_springs/Whats_In_a_Name.avi",
+          "file_offset": 0,
+          "chunk_offset": 225027414,
+          "length": 49386884
+        }
+      ],
+      "sha256": "bab0b4a769fd2a5de4789ab6f3af8ece4e820f78aba01c3cbd3493746f191636"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 274414282,
+      "segments": [
+        {
+          "file": "Extras/alan_wake_night_springs/alan_wake_night_springs/Whats_In_a_Name.avi",
+          "file_offset": 49386884,
+          "chunk_offset": 0,
+          "length": 8216538
+        },
+        {
+          "file": "Extras/alan_wake_wallpaper/alan_wake_wallpaper/AlanWake_1280x1024.jpg",
+          "file_offset": 0,
+          "chunk_offset": 8216538,
+          "length": 262154
+        },
+        {
+          "file": "Extras/alan_wake_wallpaper/alan_wake_wallpaper/AlanWake_1600x1200.jpg",
+          "file_offset": 0,
+          "chunk_offset": 8478692,
+          "length": 223126
+        },
+        {
+          "file": "Extras/alan_wake_wallpaper/alan_wake_wallpaper/AlanWake_1920x1080.jpg",
+          "file_offset": 0,
+          "chunk_offset": 8701818,
+          "length": 306679
+        },
+        {
+          "file": "Extras/alan_wake_wallpaper/alan_wake_wallpaper/AlanWake_1920x1200.jpg",
+          "file_offset": 0,
+          "chunk_offset": 9008497,
+          "length": 232830
+        },
+        {
+          "file": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/Part_Five_h264.avi",
+          "file_offset": 0,
+          "chunk_offset": 9241327,
+          "length": 41386958
+        },
+        {
+          "file": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/Part_Four_h264.avi",
+          "file_offset": 0,
+          "chunk_offset": 50628285,
+          "length": 37050240
+        },
+        {
+          "file": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/Part_One_h264.avi",
+          "file_offset": 0,
+          "chunk_offset": 87678525,
+          "length": 20122654
+        },
+        {
+          "file": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/Part_Seven_h264.avi",
+          "file_offset": 0,
+          "chunk_offset": 107801179,
+          "length": 49137634
+        },
+        {
+          "file": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/Part_Six_h264.avi",
+          "file_offset": 0,
+          "chunk_offset": 156938813,
+          "length": 34738520
+        },
+        {
+          "file": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/Part_Three_h264.avi",
+          "file_offset": 0,
+          "chunk_offset": 191677333,
+          "length": 25626746
+        },
+        {
+          "file": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/Part_Two_h264.avi",
+          "file_offset": 0,
+          "chunk_offset": 217304079,
+          "length": 26144112
+        },
+        {
+          "file": "Extras/alan_wake_writer_in_the_cabin/alan_wake_writer_in_the_cabin_videos/SPOILER ALERT.txt",
+          "file_offset": 0,
+          "chunk_offset": 243448191,
+          "length": 73
+        },
+        {
+          "file": "fmodex.dll",
+          "file_offset": 0,
+          "chunk_offset": 243448264,
+          "length": 374784
+        },
+        {
+          "file": "gog.ico",
+          "file_offset": 0,
+          "chunk_offset": 243823048,
+          "length": 69248
+        },
+        {
+          "file": "goggame-1207659037.hashdb",
+          "file_offset": 0,
+          "chunk_offset": 243892296,
+          "length": 157
+        },
+        {
+          "file": "goggame-1207659037.ico",
+          "file_offset": 0,
+          "chunk_offset": 243892453,
+          "length": 142656
+        },
+        {
+          "file": "goggame-1207659037.info",
+          "file_offset": 0,
+          "chunk_offset": 244035109,
+          "length": 1015
+        },
+        {
+          "file": "goggame-1207659037.script",
+          "file_offset": 0,
+          "chunk_offset": 244036124,
+          "length": 411
+        },
+        {
+          "file": "goglog.ini",
+          "file_offset": 0,
+          "chunk_offset": 244036535,
+          "length": 84
+        },
+        {
+          "file": "grph_f_Win32.dll",
+          "file_offset": 0,
+          "chunk_offset": 244036619,
+          "length": 61280
+        },
+        {
+          "file": "Launch Alan Wake.lnk",
+          "file_offset": 0,
+          "chunk_offset": 244097899,
+          "length": 798
+        },
+        {
+          "file": "loc_f_Win32.dll",
+          "file_offset": 0,
+          "chunk_offset": 244098697,
+          "length": 44896
+        },
+        {
+          "file": "Manual.pdf",
+          "file_offset": 0,
+          "chunk_offset": 244143593,
+          "length": 2625932
+        },
+        {
+          "file": "physics_f_Win32.dll",
+          "file_offset": 0,
+          "chunk_offset": 246769525,
+          "length": 4943712
+        },
+        {
+          "file": "renderer_f_Win32.dll",
+          "file_offset": 0,
+          "chunk_offset": 251713237,
+          "length": 1357664
+        },
+        {
+          "file": "rl_f_Win32.dll",
+          "file_offset": 0,
+          "chunk_offset": 253070901,
+          "length": 407392
+        },
+        {
+          "file": "shaders/build/pc/AfterImage.obj",
+          "file_offset": 0,
+          "chunk_offset": 253478293,
+          "length": 672
+        },
+        {
+          "file": "shaders/build/pc/AmbientConvolution.obj",
+          "file_offset": 0,
+          "chunk_offset": 253478965,
+          "length": 3925
+        },
+        {
+          "file": "shaders/build/pc/AmbientProbe.obj",
+          "file_offset": 0,
+          "chunk_offset": 253482890,
+          "length": 126791
+        },
+        {
+          "file": "shaders/build/pc/AutoExposure.obj",
+          "file_offset": 0,
+          "chunk_offset": 253609681,
+          "length": 1655
+        },
+        {
+          "file": "shaders/build/pc/Backdrop.obj",
+          "file_offset": 0,
+          "chunk_offset": 253611336,
+          "length": 2002
+        },
+        {
+          "file": "shaders/build/pc/BakeNormals.obj",
+          "file_offset": 0,
+          "chunk_offset": 253613338,
+          "length": 480
+        },
+        {
+          "file": "shaders/build/pc/BilateralFilter.obj",
+          "file_offset": 0,
+          "chunk_offset": 253613818,
+          "length": 6355
+        },
+        {
+          "file": "shaders/build/pc/BioTypeSampler.obj",
+          "file_offset": 0,
+          "chunk_offset": 253620173,
+          "length": 5201
+        },
+        {
+          "file": "shaders/build/pc/BloomX86.obj",
+          "file_offset": 0,
+          "chunk_offset": 253625374,
+          "length": 18731
+        },
+        {
+          "file": "shaders/build/pc/BloomXbox.obj",
+          "file_offset": 0,
+          "chunk_offset": 253644105,
+          "length": 37
+        },
+        {
+          "file": "shaders/build/pc/Blur.obj",
+          "file_offset": 0,
+          "chunk_offset": 253644142,
+          "length": 8599
+        },
+        {
+          "file": "shaders/build/pc/CarPaint.obj",
+          "file_offset": 0,
+          "chunk_offset": 253652741,
+          "length": 583629
+        },
+        {
+          "file": "shaders/build/pc/Character.obj",
+          "file_offset": 0,
+          "chunk_offset": 254236370,
+          "length": 2831296
+        },
+        {
+          "file": "shaders/build/pc/Chrome.obj",
+          "file_offset": 0,
+          "chunk_offset": 257067666,
+          "length": 1171654
+        },
+        {
+          "file": "shaders/build/pc/CinematicRender.obj",
+          "file_offset": 0,
+          "chunk_offset": 258239320,
+          "length": 633
+        },
+        {
+          "file": "shaders/build/pc/Clear.obj",
+          "file_offset": 0,
+          "chunk_offset": 258239953,
+          "length": 378
+        },
+        {
+          "file": "shaders/build/pc/Color.obj",
+          "file_offset": 0,
+          "chunk_offset": 258240331,
+          "length": 138915
+        },
+        {
+          "file": "shaders/build/pc/ConvertToLinearDepth.obj",
+          "file_offset": 0,
+          "chunk_offset": 258379246,
+          "length": 3059
+        },
+        {
+          "file": "shaders/build/pc/CopyVideoMemory.obj",
+          "file_offset": 0,
+          "chunk_offset": 258382305,
+          "length": 43
+        },
+        {
+          "file": "shaders/build/pc/CustomParticle.obj",
+          "file_offset": 0,
+          "chunk_offset": 258382348,
+          "length": 395884
+        },
+        {
+          "file": "shaders/build/pc/DarkLight.obj",
+          "file_offset": 0,
+          "chunk_offset": 258778232,
+          "length": 1024
+        },
+        {
+          "file": "shaders/build/pc/DarkPresence.obj",
+          "file_offset": 0,
+          "chunk_offset": 258779256,
+          "length": 2665
+        },
+        {
+          "file": "shaders/build/pc/DeferredLight.obj",
+          "file_offset": 0,
+          "chunk_offset": 258781921,
+          "length": 54304
+        },
+        {
+          "file": "shaders/build/pc/Displace.obj",
+          "file_offset": 0,
+          "chunk_offset": 258836225,
+          "length": 701
+        },
+        {
+          "file": "shaders/build/pc/Eye.obj",
+          "file_offset": 0,
+          "chunk_offset": 258836926,
+          "length": 324277
+        },
+        {
+          "file": "shaders/build/pc/Flare.obj",
+          "file_offset": 0,
+          "chunk_offset": 259161203,
+          "length": 722
+        },
+        {
+          "file": "shaders/build/pc/FoliageBillboard.obj",
+          "file_offset": 0,
+          "chunk_offset": 259161925,
+          "length": 67719
+        },
+        {
+          "file": "shaders/build/pc/FoliagePRT.obj",
+          "file_offset": 0,
+          "chunk_offset": 259229644,
+          "length": 576971
+        },
+        {
+          "file": "shaders/build/pc/GenerateBillboard.obj",
+          "file_offset": 0,
+          "chunk_offset": 259806615,
+          "length": 1942
+        },
+        {
+          "file": "shaders/build/pc/GenerateMipmaps.obj",
+          "file_offset": 0,
+          "chunk_offset": 259808557,
+          "length": 1523
+        },
+        {
+          "file": "shaders/build/pc/Glass.obj",
+          "file_offset": 0,
+          "chunk_offset": 259810080,
+          "length": 341217
+        },
+        {
+          "file": "shaders/build/pc/Godray.obj",
+          "file_offset": 0,
+          "chunk_offset": 260151297,
+          "length": 31400
+        },
+        {
+          "file": "shaders/build/pc/Grass.obj",
+          "file_offset": 0,
+          "chunk_offset": 260182697,
+          "length": 53338
+        },
+        {
+          "file": "shaders/build/pc/Light.obj",
+          "file_offset": 0,
+          "chunk_offset": 260236035,
+          "length": 99083
+        },
+        {
+          "file": "shaders/build/pc/LightBoost.obj",
+          "file_offset": 0,
+          "chunk_offset": 260335118,
+          "length": 2351
+        },
+        {
+          "file": "shaders/build/pc/LightSensitive.obj",
+          "file_offset": 0,
+          "chunk_offset": 260337469,
+          "length": 245797
+        },
+        {
+          "file": "shaders/build/pc/LocalPRT.obj",
+          "file_offset": 0,
+          "chunk_offset": 260583266,
+          "length": 898
+        },
+        {
+          "file": "shaders/build/pc/Map.obj",
+          "file_offset": 0,
+          "chunk_offset": 260584164,
+          "length": 952
+        },
+        {
+          "file": "shaders/build/pc/OcclusionQuery.obj",
+          "file_offset": 0,
+          "chunk_offset": 260585116,
+          "length": 466
+        },
+        {
+          "file": "shaders/build/pc/Particle.obj",
+          "file_offset": 0,
+          "chunk_offset": 260585582,
+          "length": 869660
+        },
+        {
+          "file": "shaders/build/pc/PickUp.obj",
+          "file_offset": 0,
+          "chunk_offset": 261455242,
+          "length": 4741
+        },
+        {
+          "file": "shaders/build/pc/PostProcess.obj",
+          "file_offset": 0,
+          "chunk_offset": 261459983,
+          "length": 1051
+        },
+        {
+          "file": "shaders/build/pc/RestoreSurface.obj",
+          "file_offset": 0,
+          "chunk_offset": 261461034,
+          "length": 42
+        },
+        {
+          "file": "shaders/build/pc/River.obj",
+          "file_offset": 0,
+          "chunk_offset": 261461076,
+          "length": 332755
+        },
+        {
+          "file": "shaders/build/pc/ShadeEffect.obj",
+          "file_offset": 0,
+          "chunk_offset": 261793831,
+          "length": 2711
+        },
+        {
+          "file": "shaders/build/pc/ShadowBlob.obj",
+          "file_offset": 0,
+          "chunk_offset": 261796542,
+          "length": 1286
+        },
+        {
+          "file": "shaders/build/pc/ShadowBuffer.obj",
+          "file_offset": 0,
+          "chunk_offset": 261797828,
+          "length": 19838
+        },
+        {
+          "file": "shaders/build/pc/Skin.obj",
+          "file_offset": 0,
+          "chunk_offset": 261817666,
+          "length": 736834
+        },
+        {
+          "file": "shaders/build/pc/Sky.obj",
+          "file_offset": 0,
+          "chunk_offset": 262554500,
+          "length": 42231
+        },
+        {
+          "file": "shaders/build/pc/SSAA.obj",
+          "file_offset": 0,
+          "chunk_offset": 262596731,
+          "length": 35489
+        },
+        {
+          "file": "shaders/build/pc/SSAO.obj",
+          "file_offset": 0,
+          "chunk_offset": 262632220,
+          "length": 51683
+        },
+        {
+          "file": "shaders/build/pc/StandardMaterial.obj",
+          "file_offset": 0,
+          "chunk_offset": 262683903,
+          "length": 2261682
+        },
+        {
+          "file": "shaders/build/pc/Taken.obj",
+          "file_offset": 0,
+          "chunk_offset": 264945585,
+          "length": 4649515
+        },
+        {
+          "file": "shaders/build/pc/Terrain.obj",
+          "file_offset": 0,
+          "chunk_offset": 269595100,
+          "length": 131695
+        },
+        {
+          "file": "shaders/build/pc/TerrainMesh.obj",
+          "file_offset": 0,
+          "chunk_offset": 269726795,
+          "length": 65498
+        },
+        {
+          "file": "shaders/build/pc/TerrainMeshMaker.obj",
+          "file_offset": 0,
+          "chunk_offset": 269792293,
+          "length": 2295
+        },
+        {
+          "file": "shaders/build/pc/VectorBlur.obj",
+          "file_offset": 0,
+          "chunk_offset": 269794588,
+          "length": 5422
+        },
+        {
+          "file": "shaders/build/pc/Velocity.obj",
+          "file_offset": 0,
+          "chunk_offset": 269800010,
+          "length": 11120
+        },
+        {
+          "file": "shaders/build/pc/VideoTexture.obj",
+          "file_offset": 0,
+          "chunk_offset": 269811130,
+          "length": 96347
+        },
+        {
+          "file": "shaders/build/pc/VolumetricLight.obj",
+          "file_offset": 0,
+          "chunk_offset": 269907477,
+          "length": 105791
+        },
+        {
+          "file": "shaders/build/pc/Water.obj",
+          "file_offset": 0,
+          "chunk_offset": 270013268,
+          "length": 308779
+        },
+        {
+          "file": "shaders/build/pc/WindowImpostor.obj",
+          "file_offset": 0,
+          "chunk_offset": 270322047,
+          "length": 189973
+        },
+        {
+          "file": "snd_f_Win32.dll",
+          "file_offset": 0,
+          "chunk_offset": 270512020,
+          "length": 106848
+        },
+        {
+          "file": "support.ico",
+          "file_offset": 0,
+          "chunk_offset": 270618868,
+          "length": 62895
+        },
+        {
+          "file": "unins000.dat",
+          "file_offset": 0,
+          "chunk_offset": 270681763,
+          "length": 2120266
+        },
+        {
+          "file": "unins000.exe",
+          "file_offset": 0,
+          "chunk_offset": 272802029,
+          "length": 1334880
+        },
+        {
+          "file": "unins000.ini",
+          "file_offset": 0,
+          "chunk_offset": 274136909,
+          "length": 41
+        },
+        {
+          "file": "unins000.msg",
+          "file_offset": 0,
+          "chunk_offset": 274136950,
+          "length": 23077
+        },
+        {
+          "file": "webcache.zip",
+          "file_offset": 0,
+          "chunk_offset": 274160027,
+          "length": 254255
+        }
+      ],
+      "sha256": "0a30f50e6ac2c233b12adfed771fd55d1a1826a9bfc46fa6932be2d96026c417"
+    }
+  ]
+}
