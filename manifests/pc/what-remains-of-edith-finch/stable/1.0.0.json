@@ -1,0 +1,1106 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "what-remains-of-edith-finch",
+    "title": "What Remains of Edith Finch",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "What Remains of Edith Finch is a collection of strange tales about a family in Washington state. As Edith, you’ll explore the colossal Finch house, searching for stories as she explores her family history and tries to figure out why she's the last one in her family left alive."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-what-remains-of-edith-finch-v1.0.0-stable"
+  },
+  "chunk_size": 67055257,
+  "upload_workers": 38,
+  "upload_waves": 1,
+  "total_size": 2548099759,
+  "files": [
+    {
+      "path": "Engine/Binaries/DotNET/DotNETUtilities.dll",
+      "size": 16896,
+      "sha256": "8859eddc23dabf82a66779b4a199d1f3bdba599dfdaf40bb274fea53b58042c5"
+    },
+    {
+      "path": "Engine/Binaries/DotNET/DotNETUtilities.XML",
+      "size": 15036,
+      "sha256": "cdc1b23253d0e3d3f694f63fa571aa188969a66b9a3802b09f1b239580eccfaf"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+      "size": 49152,
+      "sha256": "284a6e70a6dce01f8a02d93e1bb78baf0efb6140459c587d8986d59fb6bd675b"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/oodle/Win64/oo2core_4_win64.dll",
+      "size": 883712,
+      "sha256": "a4d369eb21d486b381b93617f5a5499b7db878e52e50b06eae63ee5893facb7a"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_Clothing_x64.dll",
+      "size": 1379328,
+      "sha256": "165bbf516a4f8a62648893835dfb9c11bfcb75d479bd5dd9267eb0fa9ebec36a"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_ClothingDEBUG_x64.dll",
+      "size": 2997760,
+      "sha256": "1c8775728b9fa813c0524e3fe8f27651ff0ce14cb910d514f0c28493e233fa17"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll",
+      "size": 1444864,
+      "sha256": "2e9c5315c737c0a4edc81e16b1bc87aef846ef58eab9423094420c7524ce1db4"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_Destructible_x64.dll",
+      "size": 1683456,
+      "sha256": "e7f5d1e91236524e96992759a0fcdd9b7130f6f4cec08d75d126dbae58cbad37"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_DestructibleDEBUG_x64.dll",
+      "size": 3269632,
+      "sha256": "afc686eb4970ad12198735c9676e74d8ca03d78bdd0d3b5a515cf7dda7e2a099"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_DestructiblePROFILE_x64.dll",
+      "size": 1838592,
+      "sha256": "4ef038ede08ec537a1e142ce6adc7b2f8411b9e5bef49c04444cc632bbbad77f"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_Legacy_x64.dll",
+      "size": 2974208,
+      "sha256": "28712d2884f1b67e3b47a0c5c09ea13565c6d5213045be60c3dc97ea32833e81"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_LegacyDEBUG_x64.dll",
+      "size": 5172736,
+      "sha256": "49813b8eae5c5bf114c939fe5cfbbfd17efe2abeb27de4dcadacfdecb1aaf2d3"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll",
+      "size": 2974208,
+      "sha256": "c8b4a89b53f40ac4ce658bf7feaba5b380d1e4266faa351221728ae471a05c37"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/ApexFramework_x64.dll",
+      "size": 890880,
+      "sha256": "1bf3ec7b89d7c1938b59e26f812a7ac67abaa8d8cec6f663f68f7c316465b3a0"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/ApexFrameworkDEBUG_x64.dll",
+      "size": 2482688,
+      "sha256": "0eb8c963f17e14985a835ffd33ed691a2b91fc476853ca63e1590da5a4f3c36e"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/ApexFrameworkPROFILE_x64.dll",
+      "size": 1220096,
+      "sha256": "92596b560837513b3dd61a2d6456bc48027d51ec5e3ab6d3ab8607be20f22781"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/glut32.dll",
+      "size": 273920,
+      "sha256": "184c07df6467d6cc666f410b6e64f06125cec1730e2da6170a150cfafe0cf44a"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/nvToolsExt64_1.dll",
+      "size": 42496,
+      "sha256": "81bd0159a73411791fa1606fe2426b763cc055ac1a50c141ce7e890392ece10a"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3_x64.dll",
+      "size": 2278912,
+      "sha256": "95b726e15bf8c72ce7d84ab496e155b9267a67644d31d6fb6a373b5df2dc75dd"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3Common_x64.dll",
+      "size": 1539072,
+      "sha256": "892fb6c1ed5e2f8682b53f836a997703d5f9e0574c303bcdeac4cb968ca45bad"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3CommonDEBUG_x64.dll",
+      "size": 2402304,
+      "sha256": "d058675c2147a3566b1dc245a99dbd390c204cbf35a1c263be4bf4211eac7ff7"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll",
+      "size": 1540608,
+      "sha256": "764e1298c7513f8c1dd730bc815b099f5a781c6ff088ab8c37b8f32267b0e94b"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3Cooking_x64.dll",
+      "size": 170496,
+      "sha256": "e014b854331c1052511580b8728f249aed7eab829afef7064161170733487229"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3CookingDEBUG_x64.dll",
+      "size": 407040,
+      "sha256": "0cd8ed6e8062c118f0098bc35237f51203ec3b4edb526de306ccebb46b76cadc"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3CookingPROFILE_x64.dll",
+      "size": 170496,
+      "sha256": "106e2a8a8ed1c69c0ebd69d1ee6ddf0a417fe5801c9d0e0e6668e7e868fb31af"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3DEBUG_x64.dll",
+      "size": 6685184,
+      "sha256": "f719b85df887b1ce392df20e31a77f9345fcc4611f2150d653ce2d24858c4d1b"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3PROFILE_x64.dll",
+      "size": 2766336,
+      "sha256": "f0d291653723b60a807ae4a3de2aa7e8a13e26d3172a8711b0248793a8f0c190"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/ScePad/Win64/libScePad_x64.dll",
+      "size": 113664,
+      "sha256": "c92ba518ceda360bb10c04f2db44537378701e1a86667fe93d5a20c7fa1e296f"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Steamworks/Steamv138/Win64/steam_api64.dll",
+      "size": 239904,
+      "sha256": "f12cf470954d9d956f7d44f9eb84659890c5722a021548ab88710340c0965230"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Steamworks/Steamv138/Win64/steamclient64.dll",
+      "size": 12791872,
+      "sha256": "febeca3044f22dede97ac296d6babb08ecce6386caed0a582ffa82159487b985"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Steamworks/Steamv138/Win64/tier0_s64.dll",
+      "size": 334112,
+      "sha256": "89f63eef54a4c3877b443258776019481e1810ebe23f17b10028fb9d1312de5d"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Steamworks/Steamv138/Win64/vstdlib_s64.dll",
+      "size": 351008,
+      "sha256": "defb3bc905c3544ac5115a0d8e9985ca2f79b34397fc0549a8105adc02b65f62"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+      "size": 1714176,
+      "sha256": "0f66dcb5837e9b59c499277fd272b862043356aa9145802cf0a63e00a1bcca59"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+      "size": 37888,
+      "sha256": "a9d6f5538f44011c1f65d7ace64216a237636717cb0c8c59f4f89cc08dd3d24f"
+    },
+    {
+      "path": "EULA.txt",
+      "size": 45377,
+      "sha256": "0b255f498dd96e8ad2697a9df5482f1217d60de9346d4fe02c566a440b86d8a3"
+    },
+    {
+      "path": "FinchGame/Binaries/Win64/FinchGame-Win64-Shipping.exe",
+      "size": 46320640,
+      "sha256": "a0e7ea33abcfb96ce168592f0f54d949fea20c1815862b3a800b1965622ee8b4"
+    },
+    {
+      "path": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+      "size": 2431440884,
+      "sha256": "0aa28546d5b9ac16b09819225bad7d26df99fd4d891ef2b62856e54bf239de14"
+    },
+    {
+      "path": "gog.ico",
+      "size": 69248,
+      "sha256": "f6a71321521ba89713f0bd38b21f809e87e8a789cb172e8e4693f9479e30b1e4"
+    },
+    {
+      "path": "goggame-1651927092.hashdb",
+      "size": 1766,
+      "sha256": "78eee6a994d4e88973c16642622bd31527ac81005eb75a3409b48103de79552b"
+    },
+    {
+      "path": "goggame-1651927092.ico",
+      "size": 60683,
+      "sha256": "790ea476d03f8e84e893483b70cb57bc630cb7ceee5a8f2d868ef7233aa6ffa7"
+    },
+    {
+      "path": "goggame-1651927092.info",
+      "size": 1444,
+      "sha256": "9a7d5189049e771848e017768698333a6e2f327828f0280cb10262eb2dcf6977"
+    },
+    {
+      "path": "goggame-1651927092.script",
+      "size": 422,
+      "sha256": "16340415988db9f80d75e0d8feae2e3c534490b2f51595024e3597399ed6a6ec"
+    },
+    {
+      "path": "goglog.ini",
+      "size": 60,
+      "sha256": "02bcf024e81f6b57d626815507a95428f8f20ddfc2044d5285a0065528fa6bae"
+    },
+    {
+      "path": "language_setup.exe",
+      "size": 2966096,
+      "sha256": "27ea5455cdf66d832829314e70fb42480c6ed51b4cfcff9c795f6984f344088a"
+    },
+    {
+      "path": "language_setup.ini",
+      "size": 1778,
+      "sha256": "5644d750442e66671c4c04664d253e375d749bc9b09438f05e422261c61c5ea4"
+    },
+    {
+      "path": "language_setup.png",
+      "size": 54986,
+      "sha256": "410d4ab07a0857e1abd76066dd8017024c5e6a0847b38117a87cc14759e4c1a7"
+    },
+    {
+      "path": "Launch What Remains of Edith Finch.lnk",
+      "size": 932,
+      "sha256": "0ce47420837bf1650c803497a2f77fba0fb9eb8697383aedf3fda14bbf9cbcd2"
+    },
+    {
+      "path": "StartWRoEF.exe",
+      "size": 766032,
+      "sha256": "fc898dab8009c203acc8dfa38c766ac65f9cfbc1e946658364847c8f26ed7250"
+    },
+    {
+      "path": "support.ico",
+      "size": 62895,
+      "sha256": "05fe749ef47d1ec862d6c55be78e66d1011226bf1f78409acf57cb79cec5eb20"
+    },
+    {
+      "path": "unins000.dat",
+      "size": 1589670,
+      "sha256": "e58c754784c682617c4f255f6cd732eab6ea47137add4be50e92402e3963922c"
+    },
+    {
+      "path": "unins000.exe",
+      "size": 1251936,
+      "sha256": "c24ad5d204df332a3eac81aebc48737e4a9545f36f904cfc6694355de72bc2d8"
+    },
+    {
+      "path": "unins000.ini",
+      "size": 41,
+      "sha256": "77c4daef2e0614db87182a373f85f0a72d8fac9bdc480e69fb1d8bcf08e77eb8"
+    },
+    {
+      "path": "unins000.msg",
+      "size": 23077,
+      "sha256": "a7433647dfdf59ad56bfb900009803fab135ca83c68ad79141583ee5451afcee"
+    },
+    {
+      "path": "webcache.zip",
+      "size": 289060,
+      "sha256": "eaf7a56d334720e11b25a33420039dd55d42a1ec793e4b7790cbdba1f989f685"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "Engine/Binaries/DotNET/DotNETUtilities.dll",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 16896
+        },
+        {
+          "file": "Engine/Binaries/DotNET/DotNETUtilities.XML",
+          "file_offset": 0,
+          "chunk_offset": 16896,
+          "length": 15036
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 31932,
+          "length": 49152
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/oodle/Win64/oo2core_4_win64.dll",
+          "file_offset": 0,
+          "chunk_offset": 81084,
+          "length": 883712
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_Clothing_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 964796,
+          "length": 1379328
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_ClothingDEBUG_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 2344124,
+          "length": 2997760
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 5341884,
+          "length": 1444864
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_Destructible_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 6786748,
+          "length": 1683456
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_DestructibleDEBUG_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 8470204,
+          "length": 3269632
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_DestructiblePROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 11739836,
+          "length": 1838592
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_Legacy_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 13578428,
+          "length": 2974208
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_LegacyDEBUG_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 16552636,
+          "length": 5172736
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 21725372,
+          "length": 2974208
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/ApexFramework_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 24699580,
+          "length": 890880
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/ApexFrameworkDEBUG_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 25590460,
+          "length": 2482688
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015/ApexFrameworkPROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 28073148,
+          "length": 1220096
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/glut32.dll",
+          "file_offset": 0,
+          "chunk_offset": 29293244,
+          "length": 273920
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/nvToolsExt64_1.dll",
+          "file_offset": 0,
+          "chunk_offset": 29567164,
+          "length": 42496
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 29609660,
+          "length": 2278912
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3Common_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 31888572,
+          "length": 1539072
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3CommonDEBUG_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 33427644,
+          "length": 2402304
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 35829948,
+          "length": 1540608
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3Cooking_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 37370556,
+          "length": 170496
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3CookingDEBUG_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 37541052,
+          "length": 407040
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3CookingPROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 37948092,
+          "length": 170496
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3DEBUG_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 38118588,
+          "length": 6685184
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3PROFILE_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 44803772,
+          "length": 2766336
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/ScePad/Win64/libScePad_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 47570108,
+          "length": 113664
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Steamworks/Steamv138/Win64/steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 47683772,
+          "length": 239904
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Steamworks/Steamv138/Win64/steamclient64.dll",
+          "file_offset": 0,
+          "chunk_offset": 47923676,
+          "length": 12791872
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Steamworks/Steamv138/Win64/tier0_s64.dll",
+          "file_offset": 0,
+          "chunk_offset": 60715548,
+          "length": 334112
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Steamworks/Steamv138/Win64/vstdlib_s64.dll",
+          "file_offset": 0,
+          "chunk_offset": 61049660,
+          "length": 351008
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 61400668,
+          "length": 1714176
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 63114844,
+          "length": 37888
+        },
+        {
+          "file": "EULA.txt",
+          "file_offset": 0,
+          "chunk_offset": 63152732,
+          "length": 45377
+        },
+        {
+          "file": "FinchGame/Binaries/Win64/FinchGame-Win64-Shipping.exe",
+          "file_offset": 0,
+          "chunk_offset": 63198109,
+          "length": 3857148
+        }
+      ],
+      "sha256": "5ea701bf60c92e126cd315916d7dc079327cb9700be71f35bbcb117ed8d827ad"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Binaries/Win64/FinchGame-Win64-Shipping.exe",
+          "file_offset": 3857148,
+          "chunk_offset": 0,
+          "length": 42463492
+        },
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 0,
+          "chunk_offset": 42463492,
+          "length": 24591765
+        }
+      ],
+      "sha256": "09dedbf9814a94ec694127fa8b0884f8c1f982439d08faa9cd13e15dbb804ca2"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 24591765,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "95946aeb64d0a1d2dc4425403f48edc3268c4199301c4e112bb181c3f01c0d8b"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 91647022,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "0993e32304d4db2cc37af847eb38dff1e90a40853b8006e4412b0785230551ce"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 158702279,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "eff2255af7880706b39f595ca9f83ac2f4389b9f37d9b2dcd44b33b4e68aed09"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 225757536,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "071b8e916a3c829dca04c2b66610baff55bdd7a4469ed1d54e4b4b02d2289c96"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 292812793,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "34eb0cc659b02c6263798ea3a631480312faf644466fe628c6804fb15ba626f3"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 359868050,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "5eb3b3aac137a6b673d1cac0e10d8110814ccc6d6e1302f5e6969b7204b67093"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 426923307,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "b0a43991887b892c2325813e3e7a7352182fa82defe9fcb67fc405e707d30c8f"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 493978564,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "be8fcc58c76b51b3cbf6c6e764b02913b2c1924ba4eb53d5bb30ccb7b1b3ee44"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 561033821,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "3fc65878099c5e1a9b15581e8e5845cf76f0234e7ac83319ee9f3188ae443437"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 628089078,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "a020ae9be08b09d7124662446f169f05923baa544696cfabccce977b9e7a57b4"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 695144335,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "34d9594cb3d0ff9a4a270bbf2eec3e5ba4d81b39cbad4e0bb307146572162a93"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 762199592,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "918011412b6e3f89de34dc47cda61c1936ac6adc64777603a7b1bbc56e0dbcfc"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 829254849,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "1e5ea2a37a5ce20e7b7cc252aed2ff01722ec5fa41aec369dc8b23bdcc2bd71c"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 896310106,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "321bd617f00ee3acea573de6dcfccc16ecc9962fcc1144de60b6b804e45cb398"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 963365363,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "be0892ccc8a627b38324425b0e5da5b7e0d927bac3832411f09acf38a3a94e43"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1030420620,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "fb57730c7c97339785e3936ba1f85548169b0d28b193e52c823a5888dd18e955"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1097475877,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "25dfffc800312fe61016347aabfcdcac66ef5d9f9d0aff75156a3e2e08087cc7"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1164531134,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "287d39f855acb3e17fef47bd6578e8920d305bd05480bc12040ab1e60fcdb8f0"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1231586391,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "4ed3f8a73ed64a0da59b53073f4d7368c3196d13827e28f840d6050af0b3139d"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1298641648,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "461510c8c9ba71e63712e9cf4bca123bf8469265b552173e0da8320323108295"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1365696905,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "badfbf616690879683f3292a741959b0e6c231db3d137351e7f7228b465d4d26"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1432752162,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "ad3a8d45b782e3859884a1c88662d24610b5589dbb312fe81868497cd520915e"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1499807419,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "6a6d2bb105bcf92ac3e08e6b9d8fee1a6bb4e899648291525ef39b972398dfa8"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1566862676,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "46405facc3a46d3a95aff20ddab3ceb3d4f018d0089fb554a9f2ba9ae1f9e4b5"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1633917933,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "9e5dd79867ef9d431cd36561035992c22641110918fecd88a8fe79a38257185f"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1700973190,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "a7415cc868b3d1acc89251f8495d22c6be1ce48dd9568b4698884eeb66bf8863"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1768028447,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "0b12c4d201706df8f8d2e80eebe2b6b1187aaeafddd4d8014d9d226224e0e4cb"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1835083704,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "07ad8f8eba868bca639cbca8bf4ea7de7cbb4ea17aa79988a3460fbfec692f0b"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1902138961,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "e4fe7aea8797e7d7b9d7b2e845972ccfffbaf48e29565c3ec2f81e76b515b808"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 1969194218,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "d6ba9a265222a559028a146ea29fb58423b7682839aa079c505d09d2ff95baa9"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 2036249475,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "dc78fcae9d4a112233a7329cd0b439c4efe47a85fd846314eb5bf296acb83191"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 2103304732,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "0af81b4339874981462f80cd8a7d57716db63a2b313a43cf89badfac840f3565"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 2170359989,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "c7e08c7e00a70b0ed000e922e84216b2925ec55bfc3f9b77909aa85286c16ea9"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 2237415246,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "80f9d312c344d2936b96926d98af093aea388667b7fb38dcfd4de023536fc0de"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 67055257,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 2304470503,
+          "chunk_offset": 0,
+          "length": 67055257
+        }
+      ],
+      "sha256": "8bc3dc2bd119531bec3288aaf47eac4b1154564bbea4862016fc735b4fe48e39"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 67055250,
+      "segments": [
+        {
+          "file": "FinchGame/Content/Paks/FinchGame_Win64.pak",
+          "file_offset": 2371525760,
+          "chunk_offset": 0,
+          "length": 59915124
+        },
+        {
+          "file": "gog.ico",
+          "file_offset": 0,
+          "chunk_offset": 59915124,
+          "length": 69248
+        },
+        {
+          "file": "goggame-1651927092.hashdb",
+          "file_offset": 0,
+          "chunk_offset": 59984372,
+          "length": 1766
+        },
+        {
+          "file": "goggame-1651927092.ico",
+          "file_offset": 0,
+          "chunk_offset": 59986138,
+          "length": 60683
+        },
+        {
+          "file": "goggame-1651927092.info",
+          "file_offset": 0,
+          "chunk_offset": 60046821,
+          "length": 1444
+        },
+        {
+          "file": "goggame-1651927092.script",
+          "file_offset": 0,
+          "chunk_offset": 60048265,
+          "length": 422
+        },
+        {
+          "file": "goglog.ini",
+          "file_offset": 0,
+          "chunk_offset": 60048687,
+          "length": 60
+        },
+        {
+          "file": "language_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 60048747,
+          "length": 2966096
+        },
+        {
+          "file": "language_setup.ini",
+          "file_offset": 0,
+          "chunk_offset": 63014843,
+          "length": 1778
+        },
+        {
+          "file": "language_setup.png",
+          "file_offset": 0,
+          "chunk_offset": 63016621,
+          "length": 54986
+        },
+        {
+          "file": "Launch What Remains of Edith Finch.lnk",
+          "file_offset": 0,
+          "chunk_offset": 63071607,
+          "length": 932
+        },
+        {
+          "file": "StartWRoEF.exe",
+          "file_offset": 0,
+          "chunk_offset": 63072539,
+          "length": 766032
+        },
+        {
+          "file": "support.ico",
+          "file_offset": 0,
+          "chunk_offset": 63838571,
+          "length": 62895
+        },
+        {
+          "file": "unins000.dat",
+          "file_offset": 0,
+          "chunk_offset": 63901466,
+          "length": 1589670
+        },
+        {
+          "file": "unins000.exe",
+          "file_offset": 0,
+          "chunk_offset": 65491136,
+          "length": 1251936
+        },
+        {
+          "file": "unins000.ini",
+          "file_offset": 0,
+          "chunk_offset": 66743072,
+          "length": 41
+        },
+        {
+          "file": "unins000.msg",
+          "file_offset": 0,
+          "chunk_offset": 66743113,
+          "length": 23077
+        },
+        {
+          "file": "webcache.zip",
+          "file_offset": 0,
+          "chunk_offset": 66766190,
+          "length": 289060
+        }
+      ],
+      "sha256": "bb836ec3ffeda7b0ef07cb6d71c135af482bb5db6e16b06cb38b3d7b0affd6a8"
+    }
+  ]
+}
