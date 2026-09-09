@@ -1,6 +1,6 @@
 {
   "active": true,
-  "phase": "plan",
+  "phase": "upload",
   "kind": "game",
   "title": "Borderlands Game of the Year",
   "platform": "PC",
@@ -10,5 +10,5 @@
   "total_sent": 0,
   "total_size": 13024311874,
   "message": "",
-  "updated_at": "2026-09-09T20:16:59.946972+00:00"
+  "updated_at": "2026-09-09T20:17:02.111204+00:00"
 }
