@@ -1,14 +1,14 @@
 {
-  "active": false,
-  "phase": "done",
+  "active": true,
+  "phase": "plan",
   "kind": "game",
-  "title": "Need for Speed™ Most Wanted",
+  "title": "What Remains of Edith Finch",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
-  "percent": 100,
+  "percent": 0,
   "total_sent": 0,
-  "total_size": 0,
+  "total_size": 2548099759,
   "message": "",
-  "updated_at": "2026-09-09T21:18:26.637405+00:00"
+  "updated_at": "2026-09-09T21:53:42.014058+00:00"
 }
