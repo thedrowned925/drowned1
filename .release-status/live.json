@@ -1,6 +1,6 @@
 {
   "active": true,
-  "phase": "upload",
+  "phase": "metadata",
   "kind": "game",
   "title": "Alan Wake",
   "platform": "PC",
@@ -10,5 +10,5 @@
   "total_sent": 10976571904,
   "total_size": 10976571904,
   "message": "",
-  "updated_at": "2026-09-09T21:05:09.326154+00:00"
+  "updated_at": "2026-09-09T21:05:10.391230+00:00"
 }
