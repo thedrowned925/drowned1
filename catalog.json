@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-09T20:21:41.178647+00:00",
+  "updated_at": "2026-09-09T21:05:32.644836+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -3461,6 +3461,40 @@
       },
       "media": {
         "steam_app_id": 8980
+      }
+    },
+    {
+      "id": "alan-wake",
+      "title": "Alan Wake",
+      "platform": "pc",
+      "description": "A Dark Presence stalks the small town of Bright Falls, pushing Alan Wake to the brink of sanity in his fight to unravel the mystery and save his love.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/alan-wake/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/alan-wake/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/alan-wake/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/alan-wake/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/alan-wake/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/alan-wake/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/alan-wake/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/alan-wake/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/alan-wake/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/alan-wake/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/alan-wake/screenshots/06.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-alan-wake-v1.0.0-stable",
+          "manifest_path": "manifests/pc/alan-wake/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/alan-wake/stable/1.0.0.json",
+          "size": 10976571904,
+          "published_at": "2026-09-09T21:05:32.644825+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 108710
       }
     }
   ]
