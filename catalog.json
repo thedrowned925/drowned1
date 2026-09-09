@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-09T21:55:00.254225+00:00",
+  "updated_at": "2026-09-09T22:07:40.299910+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -3559,6 +3559,41 @@
       },
       "media": {
         "steam_app_id": 501300
+      }
+    },
+    {
+      "id": "call-of-duty-world-at-war",
+      "title": "Call of Duty: World at War",
+      "platform": "pc",
+      "description": "Call of Duty is back, redefining war like you've never experienced before. Building on the Call of Duty 4®: Modern Warfare engine, Call of Duty: World at War immerses players into the most gritty and chaotic WWII combat ever experienced.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-world-at-war/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-world-at-war/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-world-at-war/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-world-at-war/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-world-at-war/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-world-at-war/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-world-at-war/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-world-at-war/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-world-at-war/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-world-at-war/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-world-at-war/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/call-of-duty-world-at-war/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-call-of-duty-world-at-war-v1.0.0-stable",
+          "manifest_path": "manifests/pc/call-of-duty-world-at-war/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/call-of-duty-world-at-war/stable/1.0.0.json",
+          "size": 7280098514,
+          "published_at": "2026-09-09T22:07:40.299896+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 10090
       }
     }
   ]
