@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 106
-- **Toplam aktif sürüm/kanal:** 106
-- **Toplam aktif boyut:** 2735.033 GB · 2.735 TB
-- **Katalog güncelleme zamanı:** 2026-09-09 21:55:00 UTC
+- **Toplam oyun:** 107
+- **Toplam aktif sürüm/kanal:** 107
+- **Toplam aktif boyut:** 2742.313 GB · 2.742 TB
+- **Katalog güncelleme zamanı:** 2026-09-09 22:07:40 UTC
 
 ## PC
 
-**106 oyun · 106 aktif sürüm/kanal · 2735.033 GB · 2.735 TB**
+**107 oyun · 107 aktif sürüm/kanal · 2742.313 GB · 2.742 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -32,6 +32,7 @@
 | BioShock™ | 1.0.0 | stable | 6.039 | 0.006 | `pc-bioshock-v1.0.0-stable` |
 | Borderlands 2 | 1.0.0 | stable | 36.051 | 0.036 | `pc-borderlands-2-v1.0.0-stable` |
 | Borderlands Game of the Year | 1.0.0 | stable | 13.024 | 0.013 | `pc-borderlands-game-of-the-year-v1.0.0-stable` |
+| Call of Duty: World at War | 1.0.0 | stable | 7.280 | 0.007 | `pc-call-of-duty-world-at-war-v1.0.0-stable` |
 | Call of Duty® 2 | 1.0.0 | stable | 3.798 | 0.004 | `pc-call-of-duty-2-v1.0.0-stable` |
 | Call of Duty® 4: Modern Warfare® (2007) | 1.0.0 | stable | 6.975 | 0.007 | `pc-call-of-duty-4-modern-warfare-2007-v1.0.0-stable` |
 | Call of Duty®: Black Ops | 1.0.0 | stable | 12.096 | 0.012 | `pc-call-of-duty-black-ops-v1.0.0-stable` |
