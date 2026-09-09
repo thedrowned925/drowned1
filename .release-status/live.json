@@ -1,14 +1,14 @@
 {
   "active": true,
-  "phase": "upload",
+  "phase": "metadata",
   "kind": "game",
   "title": "Borderlands Game of the Year",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
-  "percent": 99,
-  "total_sent": 13023467725,
+  "percent": 100,
+  "total_sent": 13024311874,
   "total_size": 13024311874,
   "message": "",
-  "updated_at": "2026-09-09T20:21:03.540307+00:00"
+  "updated_at": "2026-09-09T20:21:12.316943+00:00"
 }
