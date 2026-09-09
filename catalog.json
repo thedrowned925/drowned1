@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-09T21:18:23.358137+00:00",
+  "updated_at": "2026-09-09T21:55:00.254225+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -3527,6 +3527,38 @@
       },
       "media": {
         "steam_app_id": 1262560
+      }
+    },
+    {
+      "id": "what-remains-of-edith-finch",
+      "title": "What Remains of Edith Finch",
+      "platform": "pc",
+      "description": "What Remains of Edith Finch is a collection of strange tales about a family in Washington state. As Edith, you’ll explore the colossal Finch house, searching for stories as she explores her family history and tries to figure out why she's the last one in her family left alive.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/what-remains-of-edith-finch/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/what-remains-of-edith-finch/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/what-remains-of-edith-finch/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/what-remains-of-edith-finch/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/what-remains-of-edith-finch/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/what-remains-of-edith-finch/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/what-remains-of-edith-finch/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/what-remains-of-edith-finch/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/what-remains-of-edith-finch/screenshots/04.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-what-remains-of-edith-finch-v1.0.0-stable",
+          "manifest_path": "manifests/pc/what-remains-of-edith-finch/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/what-remains-of-edith-finch/stable/1.0.0.json",
+          "size": 2548099759,
+          "published_at": "2026-09-09T21:55:00.254212+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 501300
       }
     }
   ]
