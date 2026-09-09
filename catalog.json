@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-08T17:27:57.226267+00:00",
+  "updated_at": "2026-09-09T20:21:41.178647+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -3426,6 +3426,41 @@
       },
       "media": {
         "steam_app_id": 1172380
+      }
+    },
+    {
+      "id": "borderlands-game-of-the-year",
+      "title": "Borderlands Game of the Year",
+      "platform": "pc",
+      "description": "Get ready for the mind blowing insanity! Play as one of four trigger-happy mercenaries and take out everything that stands in your way! With its addictive action, frantic first-person shooter combat, massive arsenal of weaponry, RPG elements and four-player co-op, Borderlands is a breakthrough experience that challenges all the...",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-game-of-the-year/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-game-of-the-year/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-game-of-the-year/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-game-of-the-year/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-game-of-the-year/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-game-of-the-year/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-game-of-the-year/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-game-of-the-year/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-game-of-the-year/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-game-of-the-year/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-game-of-the-year/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/borderlands-game-of-the-year/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-borderlands-game-of-the-year-v1.0.0-stable",
+          "manifest_path": "manifests/pc/borderlands-game-of-the-year/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/borderlands-game-of-the-year/stable/1.0.0.json",
+          "size": 13024311874,
+          "published_at": "2026-09-09T20:21:41.178635+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 8980
       }
     }
   ]
