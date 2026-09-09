@@ -1,6 +1,6 @@
 {
   "active": true,
-  "phase": "plan",
+  "phase": "upload",
   "kind": "game",
   "title": "What Remains of Edith Finch",
   "platform": "PC",
@@ -10,5 +10,5 @@
   "total_sent": 0,
   "total_size": 2548099759,
   "message": "",
-  "updated_at": "2026-09-09T21:53:42.014058+00:00"
+  "updated_at": "2026-09-09T21:53:44.164159+00:00"
 }
