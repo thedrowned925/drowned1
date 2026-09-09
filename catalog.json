@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-09T21:05:32.644836+00:00",
+  "updated_at": "2026-09-09T21:18:23.358137+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -3495,6 +3495,38 @@
       },
       "media": {
         "steam_app_id": 108710
+      }
+    },
+    {
+      "id": "need-for-speed-most-wanted",
+      "title": "Need for Speed™ Most Wanted",
+      "platform": "pc",
+      "description": "The open-world action in Need for Speed Most Wanted gives you the freedom to drive your way. Hit jumps and shortcuts, switch cars, lie low or head for terrain that plays to your vehicle’s unique strengths. Fight your way past cops and rivals using skill, high-end car tech and tons of nitrous.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/need-for-speed-most-wanted/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/need-for-speed-most-wanted/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/need-for-speed-most-wanted/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/need-for-speed-most-wanted/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/need-for-speed-most-wanted/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/need-for-speed-most-wanted/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/need-for-speed-most-wanted/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/need-for-speed-most-wanted/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/need-for-speed-most-wanted/screenshots/04.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-need-for-speed-most-wanted-v1.0.0-stable",
+          "manifest_path": "manifests/pc/need-for-speed-most-wanted/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/need-for-speed-most-wanted/stable/1.0.0.json",
+          "size": 8100189102,
+          "published_at": "2026-09-09T21:18:23.358126+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 1262560
       }
     }
   ]
