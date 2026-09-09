@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 104
-- **Toplam aktif sürüm/kanal:** 104
-- **Toplam aktif boyut:** 2724.385 GB · 2.724 TB
-- **Katalog güncelleme zamanı:** 2026-09-09 21:05:32 UTC
+- **Toplam oyun:** 105
+- **Toplam aktif sürüm/kanal:** 105
+- **Toplam aktif boyut:** 2732.485 GB · 2.732 TB
+- **Katalog güncelleme zamanı:** 2026-09-09 21:18:23 UTC
 
 ## PC
 
-**104 oyun · 104 aktif sürüm/kanal · 2724.385 GB · 2.724 TB**
+**105 oyun · 105 aktif sürüm/kanal · 2732.485 GB · 2.732 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -89,6 +89,7 @@
 | Max Payne 3 | 1.0.0 | stable | 34.958 | 0.035 | `pc-max-payne-3-v1.0.0-stable` |
 | METAL GEAR SOLID V: THE PHANTOM PAIN | 1.0.0 | stable | 31.232 | 0.031 | `pc-metal-gear-solid-v-the-phantom-pain-v1.0.0-stable` |
 | Middle-earth™: Shadow of Mordor™ | 1.0.0 | stable | 55.510 | 0.056 | `pc-middle-earth-shadow-of-mordor-v1.0.0-stable` |
+| Need for Speed™ Most Wanted | 1.0.0 | stable | 8.100 | 0.008 | `pc-need-for-speed-most-wanted-v1.0.0-stable` |
 | NieR:Automata™ | 1.0.0 | stable | 28.805 | 0.029 | `pc-nier-automata-v1.0.0-stable` |
 | Ori and the Blind Forest: Definitive Edition | 1.0.0 | stable | 11.108 | 0.011 | `pc-ori-and-the-blind-forest-definitive-edition-v1.0.0-stable` |
 | Papers, Please | 1.0.0 | stable | 0.094 | 0.000 | `pc-papers-please-v1.0.0-stable` |
