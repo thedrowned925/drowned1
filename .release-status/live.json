@@ -1,6 +1,6 @@
 {
   "active": true,
-  "phase": "plan",
+  "phase": "upload",
   "kind": "game",
   "title": "Assassin's Creed® Odyssey",
   "platform": "PC",
@@ -10,5 +10,5 @@
   "total_sent": 0,
   "total_size": 113774083460,
   "message": "",
-  "updated_at": "2026-09-10T20:11:43.492129+00:00"
+  "updated_at": "2026-09-10T20:11:45.814406+00:00"
 }
