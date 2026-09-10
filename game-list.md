@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 108
-- **Toplam aktif sürüm/kanal:** 108
-- **Toplam aktif boyut:** 2790.495 GB · 2.790 TB
-- **Katalog güncelleme zamanı:** 2026-09-10 14:37:40 UTC
+- **Toplam oyun:** 109
+- **Toplam aktif sürüm/kanal:** 109
+- **Toplam aktif boyut:** 2904.269 GB · 2.904 TB
+- **Katalog güncelleme zamanı:** 2026-09-10 20:37:03 UTC
 
 ## PC
 
-**108 oyun · 108 aktif sürüm/kanal · 2790.495 GB · 2.790 TB**
+**109 oyun · 109 aktif sürüm/kanal · 2904.269 GB · 2.904 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -17,6 +17,7 @@
 | Assassin's Creed 2 | 1.0.1 | stable | 7.276 | 0.007 | `pc-assassin-s-creed-2-v1.0.1-stable` |
 | Assassin's Creed Black Flag Resynced | 1.0.0 | stable | 72.871 | 0.073 | `pc-assassin-s-creed-black-flag-resynced-v1.0.0-stable` |
 | Assassin's Creed Brotherhood | 1.0.0 | stable | 9.652 | 0.010 | `pc-assassin-s-creed-brotherhood-v1.0.0-stable` |
+| Assassin's Creed® Odyssey | 1.0.0 | stable | 113.774 | 0.114 | `pc-assassin-s-creed-odyssey-v1.0.0-stable` |
 | Assassin's Creed® Origins | 1.0.0 | stable | 74.319 | 0.074 | `pc-assassin-s-creed-origins-v1.0.0-stable` |
 | Assassin's Creed® Revelations | 1.0.0 | stable | 7.139 | 0.007 | `pc-assassin-s-creed-revelations-v1.0.0-stable` |
 | Assassin's Creed® Unity | 1.0.0 | stable | 48.181 | 0.048 | `pc-assassin-s-creed-unity-v1.0.0-stable` |
