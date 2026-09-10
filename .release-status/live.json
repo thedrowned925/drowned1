@@ -1,14 +1,14 @@
 {
-  "active": false,
-  "phase": "done",
+  "active": true,
+  "phase": "plan",
   "kind": "game",
-  "title": "Call of Duty: World at War",
+  "title": "Assassin's Creed® Unity",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
-  "percent": 100,
+  "percent": 0,
   "total_sent": 0,
-  "total_size": 0,
+  "total_size": 48181326696,
   "message": "",
-  "updated_at": "2026-09-09T22:07:42.684233+00:00"
+  "updated_at": "2026-09-10T14:22:43.513420+00:00"
 }
