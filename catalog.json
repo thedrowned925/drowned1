@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-10T14:37:40.527351+00:00",
+  "updated_at": "2026-09-10T20:37:03.004210+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -3627,6 +3627,41 @@
       },
       "media": {
         "steam_app_id": 289650
+      }
+    },
+    {
+      "id": "assassin-s-creed-odyssey",
+      "title": "Assassin's Creed® Odyssey",
+      "platform": "pc",
+      "description": "In this action-adventure game, set sail for Ancient Greece to alter its fate. Fight in visceral battles on land and sea, shape your destiny from outcast to legend, and uncover secrets of your past.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-odyssey/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-odyssey/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-odyssey/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-odyssey/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-odyssey/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-odyssey/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-odyssey/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-odyssey/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-odyssey/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-odyssey/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-odyssey/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/assassin-s-creed-odyssey/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-assassin-s-creed-odyssey-v1.0.0-stable",
+          "manifest_path": "manifests/pc/assassin-s-creed-odyssey/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/assassin-s-creed-odyssey/stable/1.0.0.json",
+          "size": 113774083460,
+          "published_at": "2026-09-10T20:37:03.004168+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 812140
       }
     }
   ]
