@@ -1,6 +1,6 @@
 {
   "active": true,
-  "phase": "plan",
+  "phase": "upload",
   "kind": "game",
   "title": "Mirror's Edge™",
   "platform": "PC",
@@ -10,5 +10,5 @@
   "total_sent": 0,
   "total_size": 7880324079,
   "message": "",
-  "updated_at": "2026-09-11T09:19:05.506351+00:00"
+  "updated_at": "2026-09-11T09:19:07.613129+00:00"
 }
