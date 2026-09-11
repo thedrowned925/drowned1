@@ -1,14 +1,14 @@
 {
-  "active": false,
-  "phase": "done",
+  "active": true,
+  "phase": "plan",
   "kind": "game",
-  "title": "Mirror's Edge™",
+  "title": "CONTROL Ultimate Edition",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
-  "percent": 100,
+  "percent": 0,
   "total_sent": 0,
-  "total_size": 0,
+  "total_size": 45052700135,
   "message": "",
-  "updated_at": "2026-09-11T09:22:01.598554+00:00"
+  "updated_at": "2026-09-11T09:36:58.256796+00:00"
 }
