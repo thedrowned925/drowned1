@@ -1,14 +1,14 @@
 {
-  "active": false,
-  "phase": "done",
+  "active": true,
+  "phase": "plan",
   "kind": "game",
-  "title": "Assassin's Creed® Odyssey",
+  "title": "Mirror's Edge™",
   "platform": "PC",
   "channel": "stable",
   "version": "1.0.0",
-  "percent": 100,
+  "percent": 0,
   "total_sent": 0,
-  "total_size": 0,
+  "total_size": 7880324079,
   "message": "",
-  "updated_at": "2026-09-10T20:37:05.987569+00:00"
+  "updated_at": "2026-09-11T09:19:05.506351+00:00"
 }
