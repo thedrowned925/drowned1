@@ -1,0 +1,4003 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "control-ultimate-edition",
+    "title": "CONTROL Ultimate Edition",
+    "platform": "pc",
+    "channel": "stable",
+    "version": "1.0.0",
+    "description": "Winner of over 80 awards, CONTROL is a visually stunning third-person action-adventure that will keep you on the edge of your seat."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-control-ultimate-edition-v1.0.0-stable"
+  },
+  "chunk_size": 1126317504,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 45052700135,
+  "files": [
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x64.exe",
+      "size": 14974024,
+      "sha256": "b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52"
+    },
+    {
+      "path": "_CommonRedist/vcredist_2015-2019_x86.exe",
+      "size": 14412304,
+      "sha256": "ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x64.exe",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023"
+    },
+    {
+      "path": "_CommonRedist/vcredist_x86.exe",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7"
+    },
+    {
+      "path": "apex_clothing_x64.dll",
+      "size": 1156608,
+      "sha256": "aecb8f2b81f620593cf002005ca88b1863342679c0a21658429b4b6bf73b8a5e"
+    },
+    {
+      "path": "apexframework_x64.dll",
+      "size": 863744,
+      "sha256": "e91f303f355f24e96bdc04794d29d404d542f859c6e6c9b771eb678cda4717e5"
+    },
+    {
+      "path": "app_rmdwin10_f.dll",
+      "size": 132096,
+      "sha256": "a7121db591dc5e7452013fc02302111056e377197b877032c8331df249d64df6"
+    },
+    {
+      "path": "app_rmdwin7_f.dll",
+      "size": 132096,
+      "sha256": "8384d4b66e380c1026bf437a591053b99d21fd1c3e208d97a9d665569ebcd536"
+    },
+    {
+      "path": "AWEData",
+      "size": 3,
+      "sha256": "32658f284bc33fbd93a59d97ca9319faa4e31e71b0fc2636130ff1d49fd84e96"
+    },
+    {
+      "path": "bink2w64.dll",
+      "size": 380928,
+      "sha256": "fbd773f56df3c6b9b7eb725a033c071c4c39fc38694fcb7580599e3eac9b7c32"
+    },
+    {
+      "path": "bonsai_rmdwin10_f.dll",
+      "size": 6830592,
+      "sha256": "de7e0ffcfd46ca16901868ace77cd93c4ea309b3fa4aa3dac180285ce5f02a7a"
+    },
+    {
+      "path": "bonsai_rmdwin7_f.dll",
+      "size": 6830592,
+      "sha256": "bd18a957515dae61ee1e9b0fc62bc76c0fa999351e7457926e8f311a9549aba3"
+    },
+    {
+      "path": "CheckCDLL.dll",
+      "size": 9728,
+      "sha256": "a951a9a41f5671fc0e2df55bff15cb4a12ed3ba1c9e56a5f72b102992ba5613b"
+    },
+    {
+      "path": "CheckDXR.dll",
+      "size": 36864,
+      "sha256": "b370918444d67fa5646a1fa7f49bd2f0c41ebb745770aff0417a078fc2b2a32d"
+    },
+    {
+      "path": "coherentgtcore.dll",
+      "size": 27984496,
+      "sha256": "b23e2bed9d1e148aa2606b112a9fa033f579d366c12769b7fa44930864353e76"
+    },
+    {
+      "path": "coherentgtjs.dll",
+      "size": 9600112,
+      "sha256": "de858a0debaf4e4665c5dfb5682b39ebd3e60feae5c135ce7765663780cc5fc7"
+    },
+    {
+      "path": "coherenticuin.dll",
+      "size": 1838192,
+      "sha256": "f8595eeca1502329274e6e62e7a09c92f996bb5a362166ef48a92e38bc2a155b"
+    },
+    {
+      "path": "coherenticuuc.dll",
+      "size": 1318512,
+      "sha256": "062013db89b17cadb0d85636d443829b93ae543e5e826299fdf9220c75c67bb0"
+    },
+    {
+      "path": "coherentuigt.dll",
+      "size": 3272816,
+      "sha256": "442ac737a5068b9608e6b65dc35f3f1cefbcb56032384d5a9cfb0efe3ee19d9f"
+    },
+    {
+      "path": "Control.exe",
+      "size": 90112,
+      "sha256": "46ccc86d37fa9cfed678cfc189974b5345bc55423f97a1840597570c456629ad"
+    },
+    {
+      "path": "Control_DX11.exe",
+      "size": 20471296,
+      "sha256": "f163d6ee336cfe9ee937dc19cabdc99bb139a9b3535d6e97a56c575e6756aae2"
+    },
+    {
+      "path": "Control_DX12.exe",
+      "size": 20471808,
+      "sha256": "33db984b6453c17f5fbc3327bfe514dcb146c30deaa71cef06a91910c01b56a8"
+    },
+    {
+      "path": "coregame_rmdwin10_f.dll",
+      "size": 9437184,
+      "sha256": "5f09a79e016e86108627434bd8bf593bb30c0b55989cfe74097cc5597e5556bb"
+    },
+    {
+      "path": "coregame_rmdwin7_f.dll",
+      "size": 9436672,
+      "sha256": "4122fb4fcbac142efc545d27293e2966fd525e37656a2ed6242d9a9ebe0948a8"
+    },
+    {
+      "path": "coreshared_rmdwin10_f.dll",
+      "size": 2713088,
+      "sha256": "77c0190e0746dea938702934e13dd5a71874ac8653aa9849a5c68133babcb44a"
+    },
+    {
+      "path": "coreshared_rmdwin7_f.dll",
+      "size": 2711552,
+      "sha256": "b6458ceacf5980271c127c58aaebe1e8ea32b0961e593ea5ae8d64c736ab2d08"
+    },
+    {
+      "path": "d3d_rmdwin10_f.dll",
+      "size": 1065984,
+      "sha256": "7fa18deb9060501963f14f15d4fb682ef88b1ab5e2907e955b9219d75c45bc8d"
+    },
+    {
+      "path": "d3d_rmdwin7_f.dll",
+      "size": 758784,
+      "sha256": "eac92e88d8af2b9ea3d97ce8c7ed9ec48c1e0699a061bcbb1cd34c3c3d4d56d3"
+    },
+    {
+      "path": "d3dcompiler_46.dll",
+      "size": 3873224,
+      "sha256": "b1a06f7aa52439a948a152bfd3301d9b595c78969bb77c9741bba935139f58a0"
+    },
+    {
+      "path": "d3dcompiler_47.dll",
+      "size": 4493352,
+      "sha256": "b5dc27d5e34bda7f5f778f61ec1e77eebf596cd6322d7b396793182b11db91ec"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/ambientconvolution.obj",
+      "size": 5761,
+      "sha256": "a597f9bfb4da66f5881bd0ef6b34208bad6e1eb7dada0600454f1ba12f314950"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/autoexposurehistogram.obj",
+      "size": 23369,
+      "sha256": "9395dfa1fded8e799e6cc814c3069bc4b082d059d741cf32732c4f0b8a8987ba"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/backdrop.obj",
+      "size": 15920,
+      "sha256": "7e30a4f1b73c6e120e4eb0eb71db47d1b14a701aa5fea49c1976861a0f3eb606"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/billboard.obj",
+      "size": 204151,
+      "sha256": "258d6605e8e2d518a62503e7ba060024258bfee66efa2608ecb34a9605d0400f"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/bloomx86CS.obj",
+      "size": 175508,
+      "sha256": "94592d9f11f98c94eda1867c74085c716330a7b9563dff008d50df58e66a7e70"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/blur.obj",
+      "size": 50979,
+      "sha256": "a62db1c4fb9a8aeb32212fbee6dd19226dd0ba0ab0846175dba9fe903c626afb"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/character.obj",
+      "size": 3592529,
+      "sha256": "862c8b4177eabd6648c6719b447ebc8d1c232a47d2807ed6767e404e517cd035"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/cloth.obj",
+      "size": 2212360,
+      "sha256": "14f8f7001d57334f563fc573817461f7fa003ecf3de006d81be536fce980e48e"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/CoherentGT.obj",
+      "size": 46137,
+      "sha256": "ada2ded480f6207cfebed37dc6f02161913c3c9d80c12ed9b144483110f4e9c1"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/color.obj",
+      "size": 482788,
+      "sha256": "c4baa95807788122941d75a49f4b4b3660332b7fbddfd49385810e4e95cd8fe0"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/colorlutmixer.obj",
+      "size": 101544,
+      "sha256": "e18b4e7f3fa74e0b63de1918d03452aee93b2685e35ed348849b8d31db2afeb3"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/converttolineardepth.obj",
+      "size": 43691,
+      "sha256": "6d9dd16d36ca5e5606366552dc18c8661c72cdb1f4a1930aabceea65c0c10cde"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/copy.obj",
+      "size": 84341,
+      "sha256": "3d841dc511f59fa2c932ad815cb0d31a7122a95a5ff077d5b012c51defbc679a"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/crystal.obj",
+      "size": 279626,
+      "sha256": "c533245326334a3ce7b9b5a3832f584ddfdd619e5b03516a6342f0dc8678156a"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/decal.obj",
+      "size": 618316,
+      "sha256": "9b77376775434c0b3c5b8f7ccee4b9d93e5a37c9c0d3d66c6c683f3ac096b115"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/decal_projected.obj",
+      "size": 225900,
+      "sha256": "35bb69055f275fc7de16bc231610cff9e0552ba45907561692cddebc3b0ebf3d"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/deferredlight.obj",
+      "size": 285610,
+      "sha256": "baebc6171150190acd174a2e0249161470598808c790915b4f513c14ed5f8671"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/deferredlight_filtering_diffuse.obj",
+      "size": 35034,
+      "sha256": "a749d0bc7fdb075ac6c878ca66502eb883ece63f0464b5f1d42023ffe83a722a"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/deferredlight_filtering_shadow.obj",
+      "size": 29975,
+      "sha256": "60d94fb8248c126ec9ee8fa4ff7abe01fd596fd7e4569008220a3d75f606a6e1"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/deferredlight_filtering_specular.obj",
+      "size": 35015,
+      "sha256": "ff0ed44ae73887703bb3df9826bd152d63d7d9c19e3c4f6e49874117be4e9006"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/deferredlight_point.obj",
+      "size": 19210,
+      "sha256": "202871c8c5bf694629003d798b827a2fb0d0eea687c114be89808883efae7ebc"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/deferredlight_spot.obj",
+      "size": 21652,
+      "sha256": "1abfcd1aa962ecae8189bcf2340809e18b3949674a1d56f5cb87f50568e95e7c"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/deferredlight_volume.obj",
+      "size": 238880,
+      "sha256": "83b69ede8f3ac769f31c5111a5a16048f01cb358f1cd5d7771f6d8001eb5610e"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/depthoffield.obj",
+      "size": 42512,
+      "sha256": "069a61d0d83e3dcee51c79b83987d2d7f950faea6834427e5d37884afb60edc0"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/displace.obj",
+      "size": 1755,
+      "sha256": "9e59f75af4876709599539e71738476a1b1b713787385d33c8e5c009b28dbfd4"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/distancefield.obj",
+      "size": 124657,
+      "sha256": "b95bd13fbb4f4d47a9005462dfbcd79d9cf6f15579cb4557d9153b7136346c78"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/eye.obj",
+      "size": 777227,
+      "sha256": "7cd09eb14ea594aef42bcae04049838edcfe570a4120094cef79dc24ed598fa1"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/fft_512x512_c2c.obj",
+      "size": 8307,
+      "sha256": "57d13f63d08be5fae27116f5c677f44ba5aa95d65e6a8391d93247864bf4a2a9"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/fillvisualization.obj",
+      "size": 7495,
+      "sha256": "18580d2fe1aeb06ea8b036f6a9cafa9ca7127ca848d5296b80ccc6def309a8f4"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/flare.obj",
+      "size": 5260,
+      "sha256": "9fbc91b7905cf69053d07b81d18127142d76851ff9148b13aa75e7040980f493"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/foliage.obj",
+      "size": 1650655,
+      "sha256": "531a58a59c5eee45713da983badf8eba66e72a43f36cd3d598547e00ab4adf19"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/font.obj",
+      "size": 9932,
+      "sha256": "2656c3362dec6b443d1018748a5debaf594cbbf0f362c75285ee66ffe8e4f7dc"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/gbufferprocessor.obj",
+      "size": 52118,
+      "sha256": "afc4a12f41aee43945949beff3fb6472d1f685897a399878d6062958a112adae"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/generatemipmaps.obj",
+      "size": 3036,
+      "sha256": "c8b9c51f112af7007fad96a9594cbbb4802c0e33159acd02ac3716537a199dc2"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/gfxgraph_p7.obj",
+      "size": 929018,
+      "sha256": "5b2bc858436ae3e935b81703228c91dc40f66e93590333bdcda84303dd96d7e1"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/gfxgraph_photo_mode.obj",
+      "size": 83081,
+      "sha256": "b51627712ab030cf29c853c9a1277655bba8c011908aabeb1b80a2037e67a5a3"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/gfxgraph_samples.obj",
+      "size": 134471,
+      "sha256": "fa4f6db9c085ffece5161dec5220c004daef2900bea563c71f81f1d1ee54edf4"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/gfxgraph_tests.obj",
+      "size": 45086,
+      "sha256": "6aeae648907b8ccac7adeef5e6ca238b1c830baa11e4aae7fe3e3ab870353998"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/gidatacopy.obj",
+      "size": 1877,
+      "sha256": "dceafeeabc62ac10412c79d6c97d9bc177793792135fc339ec7884e3e5022dfe"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/glass.obj",
+      "size": 1050662,
+      "sha256": "ba88b426358527357e429e7c85febfa91bd7d5bed9c515e9d01a99a1b0876672"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/hair.obj",
+      "size": 1356184,
+      "sha256": "78cc7a10b3762b9d929fe7589194f67b788aa4ed17ad43f7e482ed53af969b88"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/illuminationvolumelight.obj",
+      "size": 37730,
+      "sha256": "7ff93b1b3ca82a5916d4f667a8ce284625c9edc1bd5ee8281b1798888885d825"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/illuminationvolumelight_debug.obj",
+      "size": 9328,
+      "sha256": "637bbd97ed8e0b6f200826e66f1f982fd5d757e46750ed55c9ce9bf48671862d"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/imgui.obj",
+      "size": 3996,
+      "sha256": "0a46b305e84d45445c7aaff9a4d1164a9a865e9a195d27813c3207fa7a54767a"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/light.obj",
+      "size": 1785778,
+      "sha256": "c2c21ee3c9da2289aa44d6d8b8f02ae77fd44acd9e057c9123c0cbf58683882a"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/lightprobe.obj",
+      "size": 362806,
+      "sha256": "7909e99ba11987c04a3b08b03d600ddc9b8bbdb4a2e6ab2a16036b075c185f12"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/lsao.obj",
+      "size": 591035,
+      "sha256": "c2f19198538d65bec5db5f87428b0843b2299b7863ef5d5f6b88316e72363cd7"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/lsao_filter.obj",
+      "size": 244949,
+      "sha256": "1fc2939ea903d819dfc394973c90a039770389e2c030f6cf87e638210517b48f"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/lsao_filter2.obj",
+      "size": 19304,
+      "sha256": "d9b2529c2ae9542864a802fdf411e1b9a540c9247f927b8db0a38b2b45cf8095"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/materialid.obj",
+      "size": 12304,
+      "sha256": "18a58842c9df117df9786d2f98b60a6208af269a6cfedd9369f257b4b9866886"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/NV12ToRGB.obj",
+      "size": 23494,
+      "sha256": "592ff6de89af2ed002d8ce94256ee70b56ebdd99eccfd86dbb38dc68e15dfd6b"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/NV12ToRGB_MF.obj",
+      "size": 6655,
+      "sha256": "3e638e497b5a499b20f7b010931e90dc884cd65e7e299e1977854476ec8309df"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/objecthighlight.obj",
+      "size": 30616,
+      "sha256": "1cbd7fb3acebfa8c38b82b33834725e960ae5dfb8e8996b6f233723921f7a3ac"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/occlusionquery.obj",
+      "size": 1523,
+      "sha256": "0638454f9b825b0e76a7432d4ee72342028919aaf63bfb68b75eca76483e4854"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/particle.obj",
+      "size": 5547094,
+      "sha256": "023aad677bb2b00bc9dd8bf877aa7c43ffd078a2ed697fa434f39be5f7d03429"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/particlecustomizations.obj",
+      "size": 228592,
+      "sha256": "63c47cade868236d5a3dfe8935032af3f38b74df5989d0788c1ab112c048c18b"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/particleline.obj",
+      "size": 5948210,
+      "sha256": "db5d9aa26089e310cafff68ae35c10d890108f4cdc96c7bdbab003c98ceec324"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/particlemesh.obj",
+      "size": 6254538,
+      "sha256": "d21fe3dbb7a14e0d079b0996e6e407c041bd6c848dc8af6861fca2a2a8b03762"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/particlevolume.obj",
+      "size": 75242,
+      "sha256": "17980616ecd8f349e6c5c883f9a473f76f01c05003eb7afab372a5fb5357df5e"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/pickup.obj",
+      "size": 32841,
+      "sha256": "43cf5cab014318f094a320622baabd862ebec6b080bdd66cbd06d3eace2846de"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/postprocess.obj",
+      "size": 5054,
+      "sha256": "f6a33b1aa2da98373e7b2fdb081b480ea320cadba0162073f8bda535995b6993"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/radiancevolume.obj",
+      "size": 21987,
+      "sha256": "843d4154a5446bb1513d5a6e08f3b207620a4be612d2d44ae6dbd38832fa96ce"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/rt_ao.obj",
+      "size": 541,
+      "sha256": "092f97d9ed4559429df800ad1796a7baa2ea60b82d953d92e611fdab7f2dc978"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/rt_deferred_diffusegi.obj",
+      "size": 1025,
+      "sha256": "c112d26ab3208aec2022f9d78a5b831aac0cc9e8662f93e824e6492cbad98f66"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/rt_deferred_reflection.obj",
+      "size": 1198,
+      "sha256": "ae5038ce2f6c3aa8ef9f2fbd9b9b86ca171b5e831e3bc368c3009cb6c3cd6d17"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/rt_denoise.obj",
+      "size": 17376,
+      "sha256": "59c87c0f0f5820718b31f2a3b40eefedadba456168fb86ce5ebccdc7541fe0b4"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/rt_diffusegi.obj",
+      "size": 457,
+      "sha256": "f49545812158ba7543450d3846b05375e6c6d8c82566eafe6dc78bfa088432cc"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/rt_light_lookup.obj",
+      "size": 839,
+      "sha256": "942d3ebe1608fee6609dbaee537fb517381c62f95afe0655b0156c6d141f109a"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/rt_reflection.obj",
+      "size": 1126,
+      "sha256": "1fbac312e4c0290cd64ee56675f9faf897d2c6ea7b62e5fa9afb09906718923e"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/rt_skinning.obj",
+      "size": 229781,
+      "sha256": "095da2a42ca249ca354caf4b87474c8e223fdf65a328bf43956fdb8f1f009f83"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/rt_spot.obj",
+      "size": 1165,
+      "sha256": "3b8d9749056c87435c7495174697cbf6f39e01ff36631e3790e3eede8b241797"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/rt_spot_deferred.obj",
+      "size": 1008,
+      "sha256": "c368880cac70e15ac7362acd16ffb8f1bc6533a06d41ae6b8e9361d0449b8061"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/rt_sunshadow.obj",
+      "size": 590,
+      "sha256": "676badd53366fd19b80c3bd50287f7f5a4b3357d34800492ac113f49b115995b"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/rt_sunshadow_copy.obj",
+      "size": 670,
+      "sha256": "47810e4db1ef44ccb5730b8c8eb702a1f64168df585f068421d0b64732c33eaf"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/rt_transparent.obj",
+      "size": 564,
+      "sha256": "33f95715714658de0859419c84d9b6e49eef70e1cd225989f8c1391614fa281e"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/rt_transparent_deferred.obj",
+      "size": 1251,
+      "sha256": "41e8b10063a940abebb23866f21651a85d25a07e1c453a6986edcb3d2f0a846b"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/sdfdatacopy.obj",
+      "size": 2857,
+      "sha256": "6d3d603e5c700144fe9d74ee7b0cee6cee47e1a7a79a301018c9a93eaa99f978"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/shadowbuffer.obj",
+      "size": 32501,
+      "sha256": "40982e2f3e0ce5eb52b2f70f92e76102ccf01179f9c97c99c9e2003bb0007065"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/shapeengine.obj",
+      "size": 67022,
+      "sha256": "dc2c4319669e8ec2972fb2acda264008f7bb8c9da036aeed6c71b6f476b1dc9e"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/sky.obj",
+      "size": 105540,
+      "sha256": "59c6884c1532be6ac8f9ab8f0299264b611f4510316439e0f730dfe09ed5a718"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/skydome.obj",
+      "size": 552192,
+      "sha256": "7fb0f2f05af2ab370e327929564550cc836e01717aef53cd88cc39e0156fedb3"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/ssaa.obj",
+      "size": 145387,
+      "sha256": "9c81f641bab3c25be53ce0862f344f9d1f39041ca315ac97b8df089cc8ad29db"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/ssaa_conversion.obj",
+      "size": 26896,
+      "sha256": "0f3ab68ff749dc2e61b1f798b4168502af7360f2683ce93f18427ebbed48f533"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/ssssblur.obj",
+      "size": 15469,
+      "sha256": "afe96d736396dd6d74a3d20f1775f6d91ad832793bccf3479726f31541e4cf19"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/standardmaterial.obj",
+      "size": 42983647,
+      "sha256": "0dbcfb77a8fe4504ca72a8c86c0be76570e778ff17a12f3f7b44d813739905e6"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/testing.obj",
+      "size": 933,
+      "sha256": "33f99b146b8f8445ab5d93fb7b36ecf5299c943e6376631a71f269f425f15655"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/texeldensitydebug.obj",
+      "size": 718432,
+      "sha256": "f26a1d0ecc2bc837ce6563739f295572a4b2a00c2e359d97b25acd8a7d28cf80"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/transparent.obj",
+      "size": 80493,
+      "sha256": "bd074dad787d811ec58e034ee3f22a20ef9ff86c36c949180d5d48ef80b42a01"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/utilities.obj",
+      "size": 9815,
+      "sha256": "54b6531fd20ca0085fa4048c1fd442e2c63571e02c4e8881305da223c8f224c5"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/vectorblur.obj",
+      "size": 72830,
+      "sha256": "ada3242d84146bec6346a625da0aa0abaea1d6fab1fe83c3f57be18b68149a9a"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/velocity.obj",
+      "size": 315806,
+      "sha256": "5a6b6fd6861cc94ff84c17b3df14097fa4dd283ab1b27e76e2f04ab57cd50c13"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/volumetriclight.obj",
+      "size": 77901,
+      "sha256": "66cb328686cfe013c6f4afefa2e924b303c0cc67cc8d79de2c7566f9605ab006"
+    },
+    {
+      "path": "data/shaders/build/pc_dx11/water.obj",
+      "size": 281525,
+      "sha256": "7de970337aa8dc1b42dd89d5444aa31ebe67d4e5558c5b6ca39bcf5cc57e7913"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/ambientconvolution.obj",
+      "size": 5825,
+      "sha256": "1cc56ac7d1cf9952c4699ebe371d8e21a7fd4ec0f45ad27744bc34be7b7e6a47"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/autoexposurehistogram.obj",
+      "size": 25993,
+      "sha256": "140e4ff79803226b179dd65d32c6745e46809d358b6264145c5b1367cad2a08f"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/backdrop.obj",
+      "size": 16408,
+      "sha256": "bd793388bd1c8fc06171178a50f000214f58cb59e021f953dfb788a3552f62f4"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/billboard.obj",
+      "size": 215831,
+      "sha256": "90aa77bbe8de435b203fefec2bfcbd08e77fe8eddfcdf0b30358bd4a6391ce8d"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/bloomx86CS.obj",
+      "size": 211896,
+      "sha256": "c4a8a8c32bd2bd4f58c1884ad18ad39f34b189127cfeee1dbdf236e41b936565"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/blur.obj",
+      "size": 52563,
+      "sha256": "be458faa2bf0a4ff035d4321728023c311c9ada404e3b525a6ddaf7e464c4de8"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/character.obj",
+      "size": 3737777,
+      "sha256": "e749633c5effd61ac932f6740f5a6544f37e3a904006ceb7d7bb0f813b582db2"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/cloth.obj",
+      "size": 2348536,
+      "sha256": "355a4f68542ff1b9b3d657f6426e1dfcfe0e1b40aac044adb50a77e01ab767c0"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/CoherentGT.obj",
+      "size": 47533,
+      "sha256": "419b0e8369b265257f485228303cf744703c67127710a7e26b4856ea8956ee31"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/color.obj",
+      "size": 493424,
+      "sha256": "4a44481c17683244187bdd7e8b73f036482abb9d78b86e03ce047f42db599da1"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/colorlutmixer.obj",
+      "size": 103172,
+      "sha256": "d8f802e1702df27b3f15d63b4fcc4dfc25104f3ae3ae1c1b93e2cc394368ccb8"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/converttolineardepth.obj",
+      "size": 44067,
+      "sha256": "33d5dab8ae2d34681a991f4458a5b7e3b6f1fd2428ea34fee92dca661279f552"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/copy.obj",
+      "size": 95353,
+      "sha256": "fdea845202745a8991d7bd29e45f70eabff3ef6b8bde7379b4456270c95d559e"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/crystal.obj",
+      "size": 284254,
+      "sha256": "f1e5943386d07c93087b7ffc73e70cd3150315b650a37ee2a4e4e545b7046e8e"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/decal.obj",
+      "size": 835524,
+      "sha256": "1efe7b1dbed5e09dd0fbce32c6d29e2009924963c97e01414b270d966b9a025d"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/decal_projected.obj",
+      "size": 255871,
+      "sha256": "995317b496a9b0b2d8d2afaf885bb8910db3577ddb1c45a5c79fe5afe6d948bf"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/deferredlight.obj",
+      "size": 593486,
+      "sha256": "fbb8cedc73fb9423ecba5d398b7d30f7ed5a02d6c4137661781b92526a9b8456"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/deferredlight_filtering_diffuse.obj",
+      "size": 35874,
+      "sha256": "fef0b86d89b6c9815b296334f2f71983455a9da159aab397b5ddef0503733dac"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/deferredlight_filtering_shadow.obj",
+      "size": 30755,
+      "sha256": "475ad0ca4679cb3a0cd9744d19370c4b6bf46f015f157eaabbcd631ec0c916d9"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/deferredlight_filtering_specular.obj",
+      "size": 35891,
+      "sha256": "3e59486007ce40defd4d04c4ef4feffadff5887e9fc3b32f31d1f5435a6b9e05"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/deferredlight_point.obj",
+      "size": 19650,
+      "sha256": "00ffe5bccba67095b66ee4318154c84f40aab06b501bb3de920bafc70e8d530b"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/deferredlight_spot.obj",
+      "size": 21936,
+      "sha256": "29b434962c6908c37e4832e3e9bc3719c7a7cf5541a423a76295ffc9f0ee219b"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/deferredlight_volume.obj",
+      "size": 240928,
+      "sha256": "c4afe5450c059ba3bfae7bf373bee95e12ab153ef1fd53f5090f32d7c0c6d51f"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/depthoffield.obj",
+      "size": 42876,
+      "sha256": "45aa3594df9e47b8837f069c01ebf564419e1f91dce59acaf71b81370d001405"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/displace.obj",
+      "size": 1835,
+      "sha256": "9e8822f2f4a639a18a7a55e619ba50c159bbc927d18451458056f41d8ab0a92c"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/distancefield.obj",
+      "size": 127593,
+      "sha256": "469b69a517826b69dae70e84e9fddc71a8c2aba270a48653a8b7383289cbd963"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/eye.obj",
+      "size": 810507,
+      "sha256": "cbd4eeb46e58aaaf27604f0d2425b32c6b27405ecb4b4145811469e7788216fc"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/fft_512x512_c2c.obj",
+      "size": 8483,
+      "sha256": "02a9178e8cff9ca4179535a9b4bea42b4db71196a8c79d85e81e25c3867fb609"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/fillvisualization.obj",
+      "size": 10567,
+      "sha256": "fa2f806428d89a90473765dbe3358e9a221fe0f09d65fae52b57aa32e1943f19"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/flare.obj",
+      "size": 5436,
+      "sha256": "4bdc9b963a603ec35335d9e670848a53ef388bef99aa3084918ebe45329579b3"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/foliage.obj",
+      "size": 1719311,
+      "sha256": "e24577e9368a5c552accf514c4868d0fd5adb9ac663b663b8112358943803f7c"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/font.obj",
+      "size": 20464,
+      "sha256": "e04ff87238a9aab86ee059e3453453364f1159591e0c9e0e37e1a1a4244d3544"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/gbufferprocessor.obj",
+      "size": 52642,
+      "sha256": "e971d6507780158e1d6395da3076d0dbf6ea7ebd06b035db9516b46df996b0f2"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/generatemipmaps.obj",
+      "size": 3116,
+      "sha256": "1f6686d733a4dbc95a805bca41ac3f75188dee0abaade14e5209494d41344a29"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/gfxgraph_p7.obj",
+      "size": 960962,
+      "sha256": "7ae625c4bf1e1a08cc44ea344dedd194f206a2ccfd36a7d549a46694cb3c444c"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/gfxgraph_photo_mode.obj",
+      "size": 96361,
+      "sha256": "8e72fca5e82a1e492dcdb8d70cde89d8555c3295ccb5745f1f8fad2181d2364a"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/gfxgraph_samples.obj",
+      "size": 137199,
+      "sha256": "5dd967cbf1179aab34b4581d2efc38a020c132d66bd2cfc6e24c30a455dd86a7"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/gfxgraph_tests.obj",
+      "size": 45930,
+      "sha256": "11ad0f96320af9435e4a92be02c17fcff205efb1d1c52a568fadd97c67fdfb59"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/gidatacopy.obj",
+      "size": 1965,
+      "sha256": "590250fcc5c7096c809a60c28cbf44cbfa0f8e1ec3ea97bd7ef636b488d4f9ef"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/glass.obj",
+      "size": 1078046,
+      "sha256": "f92f47e531a9031acc4efc885cf43dfd391e6e32c48c4ea344e9ffa263d08551"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/hair.obj",
+      "size": 1455432,
+      "sha256": "656eef2535259acd23d7fa5079ebd282173b86751ab421dbcccea977abadfcde"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/illuminationvolumelight.obj",
+      "size": 38446,
+      "sha256": "38ba095ba647b1b89e69cff2f5f0365e78975ab322f65e00179f738bc290d1cf"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/illuminationvolumelight_debug.obj",
+      "size": 11472,
+      "sha256": "c7b0cb19baa203f61571fae15771932dc55ac4ce50982d30ca4e3fb7ae6bd248"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/imgui.obj",
+      "size": 11844,
+      "sha256": "c87dd5912c19d9f034341bf8712a77ec0061c492282865f3d08d5f1f0d5da733"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/light.obj",
+      "size": 1837098,
+      "sha256": "082cd65f0bac5d63f11137f458e5caa8926020bff1e934415325b5b1d8bb4d28"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/lightprobe.obj",
+      "size": 371678,
+      "sha256": "0147447ca80fd41eaa5af9a2c5d60156cab3bf73989e038af05662aa40060f05"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/lsao.obj",
+      "size": 616755,
+      "sha256": "639077c6b6dcccf561d28d0d5ddd6bcbbc48d1b8557656fbb68661a02c1eef43"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/lsao_filter.obj",
+      "size": 254945,
+      "sha256": "854b29f9215435bb1fe66cd57397cfba708f836d8ef78f9bc00f2a97eb1ec084"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/lsao_filter2.obj",
+      "size": 19564,
+      "sha256": "9f4f1079838d42dc594ee1ff06ab6a037dae70e1b7f65e5419047848c1dd6fdb"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/materialid.obj",
+      "size": 13060,
+      "sha256": "f44f8f8b7cdb5dfda8ef0ca9c8470002e21d14c7057a9935415808b8df5403c3"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/NV12ToRGB.obj",
+      "size": 24306,
+      "sha256": "939228310f0402f732bddd0d86fe60c9e2801e475cabac9aa38dd7d6286c8e1c"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/NV12ToRGB_MF.obj",
+      "size": 6947,
+      "sha256": "b14ccceb5eff3ca8b12a711fdf6ee0d51a0c77f7e4dd65dbc15269a39448ffd1"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/objecthighlight.obj",
+      "size": 31300,
+      "sha256": "84a0dec3141bc1c9324e0620295e3b70ca642002b1f039acbf39fee238a953d2"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/occlusionquery.obj",
+      "size": 1559,
+      "sha256": "d2843ae1d38e1d42fa54e286cf490b6c1105a5ebbdabd58cbe38ef120e2268fe"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/particle.obj",
+      "size": 5707686,
+      "sha256": "522c181acde58f0777bf9837299cf3c6d5818d4e3fdfaf50a33a76b8801b4ac2"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/particlecustomizations.obj",
+      "size": 235112,
+      "sha256": "6cdaeda042e07198b56273237e3bbca2f1a4bbdcf9a53ae3ca168f78e9de2679"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/particleline.obj",
+      "size": 6121034,
+      "sha256": "f655bac7fbd57b09d230b919361fb99235351f2dfc6dacc3ee3c1cb40a679485"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/particlemesh.obj",
+      "size": 6480634,
+      "sha256": "92d32631bef5d1b74010a28b5fd485a2bac30070ffe62399ba1ac5a47bda48aa"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/particlevolume.obj",
+      "size": 72258,
+      "sha256": "9086e6ac9c991bedbc3527dfe388f6487090348a1656ddb0f180f2750cb086f1"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/pickup.obj",
+      "size": 33253,
+      "sha256": "9f5e2cad2065c3b54943cdcd2c419d6c8c08ec16063eeeb66929132508751757"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/postprocess.obj",
+      "size": 8122,
+      "sha256": "9a88d2908c089c71573c716078b57c54e5c5c6a2e99ebc5017d82df1277e53a5"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/radiancevolume.obj",
+      "size": 22047,
+      "sha256": "901abee4622da1b86c3262187dd50052786bcbe0a2bb0846b7ea31798cb747c6"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/rt_ao.obj",
+      "size": 17233,
+      "sha256": "7e8a2852cf5ad55d120264393a62c251a2e1932f1494ba813954fefda208a317"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/rt_deferred_diffusegi.obj",
+      "size": 277324,
+      "sha256": "e3a1919eb5b4f9a4a7ac8da21f8e0ff1cfdb8964010be9e398963b4a1dbd8987"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/rt_deferred_reflection.obj",
+      "size": 180740,
+      "sha256": "d1591ef24a45f995c1cd403d45b94d9bb2db7dea45b8e724bc72eee36205e642"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/rt_denoise.obj",
+      "size": 17592,
+      "sha256": "594d10fa230a8168b2a1103cf173996bd8ef8a49dfdb81563863271961b3828a"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/rt_diffusegi.obj",
+      "size": 52908,
+      "sha256": "5c9c9683377f721a4405bc3ae581948cff0241a24dd05078841dd8d861a87ede"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/rt_light_lookup.obj",
+      "size": 24291,
+      "sha256": "275869fefecc27a6df3a09308b2f22c45d5dc52670208727653f4418d1ffe3b4"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/rt_reflection.obj",
+      "size": 1137102,
+      "sha256": "780bd1851c7fb6f55ff158a88fd919b6a923e13eaf10f2ea3170443b758b618f"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/rt_skinning.obj",
+      "size": 240021,
+      "sha256": "57de883fb46028b1ff5748121a98065c2da824200ac1d225d6c1ae8324dace7e"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/rt_spot.obj",
+      "size": 60333,
+      "sha256": "6552e7fb14c02429067148d2fc0c9196c5b44af2f22d4c594ac7377cc8e1879d"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/rt_spot_deferred.obj",
+      "size": 51918,
+      "sha256": "3b74477492e1372036ad1688496e481e6746b2a1d31c332f42d653e2deb8bf57"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/rt_sunshadow.obj",
+      "size": 19438,
+      "sha256": "a9cc98a014244b5e85307245e045919526d01f6278fd002d0fbd66d4ba3351cb"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/rt_sunshadow_copy.obj",
+      "size": 1018,
+      "sha256": "f50b8729f3fc43900d53b45047362f21f25cca44b42c3b53b9c89011af8dddd6"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/rt_transparent.obj",
+      "size": 87730,
+      "sha256": "daf85ad0f65ac989b3a30a1489cd3dd91c619263158e79a79d1d58ad39eeecb6"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/rt_transparent_deferred.obj",
+      "size": 41140,
+      "sha256": "8737bf7bcb43a6ab30b9100487e4cf8bb47dca0e3285aeef6ecb29e50714a42e"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/sdfdatacopy.obj",
+      "size": 6011,
+      "sha256": "4852b955c7b4ea1a1b82345b57325a8477857f85bdb036e5c48127c2f3684c30"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/shadowbuffer.obj",
+      "size": 33349,
+      "sha256": "351a7046aaf202ccea74a0d381b2bd19e53726edbd44bf6a1a2ea93085fa9c15"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/shapeengine.obj",
+      "size": 126322,
+      "sha256": "0fc2b06ec0bb805e25ccc16670d969f40729a32ad4ea8cb9ff8b612a19c59212"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/sky.obj",
+      "size": 108316,
+      "sha256": "35ed868b6439b474e7adcb62c97e31f5539792c4b47500e16e348962ecd22608"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/skydome.obj",
+      "size": 564680,
+      "sha256": "1faca05c94a292edb82d713dec79fdff4c4da8c8e326b3191d0f10b8d05d66c2"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/ssaa.obj",
+      "size": 125587,
+      "sha256": "ffdd09f19ad2fed1534d5ce365c06c8822b971cf0403985bbdeefc800daee7d3"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/ssaa_conversion.obj",
+      "size": 27600,
+      "sha256": "8b9548686d03e7c3f12fdb17c51e0b5bac41580979f01a42157b34fd25f4e815"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/ssssblur.obj",
+      "size": 15789,
+      "sha256": "085e558d5f60384e8d5ed042869478089ae6b29aacc9e08a733c890010f69df0"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/standardmaterial.obj",
+      "size": 54579551,
+      "sha256": "ed405701a123510db95b7a7a42d35911c38cafb2e83a8e83b7bd51bce68ed9c2"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/testing.obj",
+      "size": 985,
+      "sha256": "f34bb064de236b43661c4c13c2ab3233765ee7f5f60047b591ffff6745960605"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/texeldensitydebug.obj",
+      "size": 741112,
+      "sha256": "adf6564cfb250b982b336e9cd0b30713e3cfb996cf716f9495075e1f1996e408"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/transparent.obj",
+      "size": 82673,
+      "sha256": "15135cdc7dccda3d2ec4baca4a7b43a46dec45eae725de8b0475fd0058beede1"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/utilities.obj",
+      "size": 10319,
+      "sha256": "5917ff8d41ea29d6544208c6a46524583cafd448e537b7ed07d146ff398e089e"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/vectorblur.obj",
+      "size": 74706,
+      "sha256": "75e27a9ba22670f3f77409422f11273f28ed1cbefc942e28bdfc4130fda7d5e8"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/velocity.obj",
+      "size": 329390,
+      "sha256": "0b67671355b8c2f8a905786d08e765341925d25d36ad398810ed3881a5830df3"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/volumetriclight.obj",
+      "size": 79665,
+      "sha256": "1b8bb0f6cc227213e81628fcb7875f7dd197303cb21355b3eaeaad393a9b9bf0"
+    },
+    {
+      "path": "data/shaders/build/pc_dxil/water.obj",
+      "size": 304197,
+      "sha256": "ac33c8abbaffafde8c42f2c7436b37a0f3a2909f2c3d7f4335a9e54cfaf953b8"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ar.bin",
+      "size": 485,
+      "sha256": "4cc499966c2aade43a44dedfd24eaf4c2077891dcab2821bccf7a33f2ff6a5d1"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ar.packmeta",
+      "size": 1269,
+      "sha256": "ccafb3d645a405a06473e94710194498a6f9306fc39bb885bf4b6f1a990a1941"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ar.rmdp",
+      "size": 2343136,
+      "sha256": "9bd20ba2ed2bb3f8d69415b9f868f7852352a6defb3291e6e098a62841475216"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-de.bin",
+      "size": 755492,
+      "sha256": "3c8735d1ea56b464af455b8b9ce3c061551ccfae18ee5cb8daf4563642871bd0"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-de.packmeta",
+      "size": 2469953,
+      "sha256": "760840e0f3efd75ef9380e7912f12b0ee63d6b43a9cded01676f61d94a4ae7c9"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-de.rmdp",
+      "size": 309181632,
+      "sha256": "fde35d2e8660e07f404eeb2618a36c4b41136fad413a6b5aea2bdde7a3f2b32d"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-en.bin",
+      "size": 767651,
+      "sha256": "c5c996706d1b7d2d2b9232d5cbfef410d6d5ba4ded8efb216c8fcb903ba19d0e"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-en.packmeta",
+      "size": 2514959,
+      "sha256": "8d66a18c66e0ae0e04851833fffd2ecbab97eec109d2f887a448c3c74bda87ab"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-en.rmdp",
+      "size": 289944960,
+      "sha256": "816514ceef9598fc97a97e7dc500dab1b9fb0f8bbcadf709f1d25bc172d7493f"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-es.bin",
+      "size": 755592,
+      "sha256": "7218ea7ed392a407bf88254bb6e3b27bc2f8909c62272ffe272af35f733485a1"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-es.packmeta",
+      "size": 2470304,
+      "sha256": "8436a405bb139c1f947e25b6a2bafdacb943f5acf196c48cadf1c21755e20047"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-es.rmdp",
+      "size": 301229312,
+      "sha256": "9519337a62230f94ca40a50fee21aab6e8ab78c8e87b8bf4d9eef50a947e6beb"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-fr.bin",
+      "size": 731376,
+      "sha256": "9236b92857e62855967b1c1cbcc893e24e342c14b0d967f61d014be67768eb46"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-fr.packmeta",
+      "size": 2383502,
+      "sha256": "15aba4801dbe20f75c8bb8701b9bcb2da75594531711e7554c638cc17e6d0e70"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-fr.rmdp",
+      "size": 280515168,
+      "sha256": "9e5bda2a69f9f5744828abf8984b74402a8d2b673fa8f0d40b6d535d8622c8d4"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-it.bin",
+      "size": 485,
+      "sha256": "fca8173160a447a4e3a6683df5eb27b521ef86ad178293e9b55e92caeeb3c51f"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-it.packmeta",
+      "size": 1269,
+      "sha256": "ccafb3d645a405a06473e94710194498a6f9306fc39bb885bf4b6f1a990a1941"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-it.rmdp",
+      "size": 2666976,
+      "sha256": "e37668398ad5bf3911aaaf4795d16eab6466abf4a30ddd571907df31250c7f2d"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ja.bin",
+      "size": 485,
+      "sha256": "fc07ea7fd3be2220f719e67a17ab63ae3806bc602df92a11d2b44b2c613eaad2"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ja.packmeta",
+      "size": 1269,
+      "sha256": "ccafb3d645a405a06473e94710194498a6f9306fc39bb885bf4b6f1a990a1941"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ja.rmdp",
+      "size": 1677088,
+      "sha256": "9bd64d80a0bfafbce4ec83298da3ceeec028158ebe4610da1fd1c825bd61d307"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ko.bin",
+      "size": 485,
+      "sha256": "ef4d428169bd3483a00877f30d38592ae86807d3fafa3ff13f7390de0ff970fa"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ko.packmeta",
+      "size": 1269,
+      "sha256": "ccafb3d645a405a06473e94710194498a6f9306fc39bb885bf4b6f1a990a1941"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ko.rmdp",
+      "size": 1688160,
+      "sha256": "c03c618a8278f93917e06110bb3037465b6ec08fd006e5d147caaf7a33a8590c"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-pl.bin",
+      "size": 485,
+      "sha256": "436da8db5393a52eafb77a2413ea086ef737cf0982a5e36250e2a11a864fa508"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-pl.packmeta",
+      "size": 1269,
+      "sha256": "ccafb3d645a405a06473e94710194498a6f9306fc39bb885bf4b6f1a990a1941"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-pl.rmdp",
+      "size": 2614656,
+      "sha256": "755096108176c1d58ad2ee5b651f13a377ab16e5ee273fd91438db2d6362a2a7"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ptbr.bin",
+      "size": 487,
+      "sha256": "3793d1d66d907949dd03edc6552977a71519772a8a78516789420bb73adfb28b"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ptbr.packmeta",
+      "size": 1269,
+      "sha256": "ccafb3d645a405a06473e94710194498a6f9306fc39bb885bf4b6f1a990a1941"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ptbr.rmdp",
+      "size": 2594336,
+      "sha256": "4c43810390aa8cc49e4588ed5b57f41fc31784791ff1a80dd7aab9689c9e86cd"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ru.bin",
+      "size": 485,
+      "sha256": "bfd2ae9197007045fa39ca3362b2477721f38d9cf937d28063bf813bb974c42d"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ru.packmeta",
+      "size": 1269,
+      "sha256": "ccafb3d645a405a06473e94710194498a6f9306fc39bb885bf4b6f1a990a1941"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-ru.rmdp",
+      "size": 2562816,
+      "sha256": "e3eab1dd5cd329082aac76b62b9343a1f5b278b904eecd9405069f3f2b263c3d"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-zhcn.bin",
+      "size": 487,
+      "sha256": "09ccba4e81c8cf4e7cce1e1b50bc294ce720806acee2156b33341285fc1b6935"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-zhcn.packmeta",
+      "size": 1269,
+      "sha256": "ccafb3d645a405a06473e94710194498a6f9306fc39bb885bf4b6f1a990a1941"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-zhcn.rmdp",
+      "size": 1404416,
+      "sha256": "e37a9d4b6d241756dea561f880e4e1dd0d69c57f29649c6cffc06ae79ecbd7a6"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-zhtw.bin",
+      "size": 487,
+      "sha256": "2d03442fb350221ed718e542076f92c4cafe6e1a85a85a6032754b2200cc5a0e"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-zhtw.packmeta",
+      "size": 1269,
+      "sha256": "ccafb3d645a405a06473e94710194498a6f9306fc39bb885bf4b6f1a990a1941"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic-zhtw.rmdp",
+      "size": 1397248,
+      "sha256": "644c0be7ebf72d3ea52c70d5d48dabb525045866996b51431734b0ca7eeb62a2"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic.bin",
+      "size": 1448530,
+      "sha256": "9ff7b839385b9aa2077b5e8429cca052b6663673f5a20803f5d1ab0e58023b08"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic.packmeta",
+      "size": 6099233,
+      "sha256": "ca63a209144901e619ccbb7950e03150eb17b5596822693ed2731967f118e5ef"
+    },
+    {
+      "path": "data_packfiles/ep100-000-generic.rmdp",
+      "size": 5337162720,
+      "sha256": "83dc05357bbea1859d9490676e0f2214d6078002c10ab2115eac26528b2bde12"
+    },
+    {
+      "path": "data_packfiles/ep100-000-pc.bin",
+      "size": 950897,
+      "sha256": "f7f7fb8a104c42ab58c315f7b221c995423e9c2e372abe36758bdbfd11a4d44d"
+    },
+    {
+      "path": "data_packfiles/ep100-000-pc.packmeta",
+      "size": 4872857,
+      "sha256": "47de7f764f02d07eb34c1d255f4cee329d55a9366f1be00a131989fb94fed01b"
+    },
+    {
+      "path": "data_packfiles/ep100-000-pc.rmdp",
+      "size": 11444814304,
+      "sha256": "e3aaad3a26e408f8c9cd2afdb3cf2770b604ad11409f65f2fef158942b3a9214"
+    },
+    {
+      "path": "data_packfiles/ep101-000-generic.bin",
+      "size": 2518416,
+      "sha256": "d88803b112d808d7920d7b5dc7a1a1025cc1fbc0a09dea50d8cd34725241c8d5"
+    },
+    {
+      "path": "data_packfiles/ep101-000-generic.packmeta",
+      "size": 8569223,
+      "sha256": "5622369e90dc302875bcf6ac73b7b5c6aad165870176709322244d61ec66621c"
+    },
+    {
+      "path": "data_packfiles/ep101-000-generic.rmdp",
+      "size": 11261300000,
+      "sha256": "07fca82f3079c53df24ae19306e2f504fe5a838141d24b46efd6bd5710cbc077"
+    },
+    {
+      "path": "data_packfiles/ep101-000-pc.bin",
+      "size": 1436638,
+      "sha256": "689ba94cc819ef035eecbcb2188ed5a22b9a1b7715ae7c40d632d27a83906389"
+    },
+    {
+      "path": "data_packfiles/ep101-000-pc.packmeta",
+      "size": 7269374,
+      "sha256": "3c1580b2e3d6802ff302d6c7c98d51ce2eb7c506857ee1d83b2baac03b131244"
+    },
+    {
+      "path": "data_packfiles/ep101-000-pc.rmdp",
+      "size": 15236224352,
+      "sha256": "a8c54142f34dc8c0a3e53d903e52a3151283d695b0df4b88f932dc0adfa25fd7"
+    },
+    {
+      "path": "dxcompiler.dll",
+      "size": 12380736,
+      "sha256": "8fdb8ca162a785a05787e315681ff6e671433506492805d124d4dfba7ddb611a"
+    },
+    {
+      "path": "dxil.dll",
+      "size": 1097344,
+      "sha256": "7fb89c6701839cc9a725d2f5c7df96737460469b98208aad28ba1fa9376dca74"
+    },
+    {
+      "path": "expression_rmdwin10_f.dll",
+      "size": 139776,
+      "sha256": "cf247c083fba18ff7579f9ef4d7a2910415aba868ae0d9ac3b0f7dfb9d4b6f09"
+    },
+    {
+      "path": "expression_rmdwin7_f.dll",
+      "size": 139776,
+      "sha256": "0f2a924061e2bed0dd7812e67fac53dcf49c6adacc69cbd458f0e7f9f1e441cf"
+    },
+    {
+      "path": "icudtcoherent53.dll",
+      "size": 21532784,
+      "sha256": "4bcbad237a48f3ac08793790c60d314f2c73d2ffa50eef0422e21b725e0b586e"
+    },
+    {
+      "path": "input_rmdwin10_f.dll",
+      "size": 90112,
+      "sha256": "08c1f07a756442e1997addc26084ddb2c5b5fc6d1fcdc06224a64b0d3d68d776"
+    },
+    {
+      "path": "input_rmdwin7_f.dll",
+      "size": 90112,
+      "sha256": "60041846bdf82691483f70ad1ce98b3e81d2b9c363da0632091b3a5aa752620f"
+    },
+    {
+      "path": "libcurl.dll",
+      "size": 424448,
+      "sha256": "7f6c2b2ddac7d1a2cbfe646536516f6c4256c4f75f0a42c81e5b9029d3006bd6"
+    },
+    {
+      "path": "loc_rmdwin10_f.dll",
+      "size": 48128,
+      "sha256": "4373419017d05cd93d7cbbd38fe4c9d4ca88d24910683cb3cbfb9da6e63d5c9c"
+    },
+    {
+      "path": "loc_rmdwin7_f.dll",
+      "size": 48128,
+      "sha256": "7cc8d8db7fbcd907d138dd8f4a0cff14acaf02e7bf41585db0fa45b2908bace4"
+    },
+    {
+      "path": "navigation_rmdwin10_f.dll",
+      "size": 1613824,
+      "sha256": "681f66232a7920f0bf3fd480c6f029e42511f7932a4476226968400385f08745"
+    },
+    {
+      "path": "navigation_rmdwin7_f.dll",
+      "size": 1613824,
+      "sha256": "63d8d9f24728980937f67f7cb47232ccbf50043ce5f7c39829ecd84cb687337a"
+    },
+    {
+      "path": "network_rmdwin10_f.dll",
+      "size": 947200,
+      "sha256": "bc7abfbb08828d4db816ed9e023cdcf64f72a82cd9e60f9f1f856a69ffe01b23"
+    },
+    {
+      "path": "network_rmdwin7_f.dll",
+      "size": 947200,
+      "sha256": "3b43049247f7822871d300409ebe8985ed9926ee51defc9a674f56643f78bbf5"
+    },
+    {
+      "path": "nvngx_dlss.dll",
+      "size": 48971832,
+      "sha256": "4e85cdbe0896aab5f12c29f0b66ae7e5d9622cfadac37aa9852acba8e4861f5a"
+    },
+    {
+      "path": "physics_rmdwin10_f.dll",
+      "size": 1784832,
+      "sha256": "97a2888a8905a89b2fae01fe0e97ae643d1781999e5e3f9c5e485e875bc724da"
+    },
+    {
+      "path": "physics_rmdwin7_f.dll",
+      "size": 1784832,
+      "sha256": "a49b0018724d0836571aa1f9e2e6b1a02e684e770410a0725e3532eed06f767b"
+    },
+    {
+      "path": "physx3_x64.dll",
+      "size": 2107904,
+      "sha256": "49c2c9af6c57049edf9caf9eef585f143b2c5fc9f1ad7b5410ff452a0052cc84"
+    },
+    {
+      "path": "physx3characterkinematic_x64.dll",
+      "size": 166912,
+      "sha256": "70465e96d50043bbaf1f8983d5bcc3ee2ea9f95534e4a0f432cf99fb87ca72a7"
+    },
+    {
+      "path": "physx3common_x64.dll",
+      "size": 1616384,
+      "sha256": "480f7635254752c43f2b9150a75ca9b77b24eb56145aaaa01da0620851d76e23"
+    },
+    {
+      "path": "physx3cooking_x64.dll",
+      "size": 248320,
+      "sha256": "3d04cb48f88562a4d6d3b9d21e24aaaaead34006893d928cf4394cb8bcd9c5bf"
+    },
+    {
+      "path": "platform_rmdwin10_f.dll",
+      "size": 616960,
+      "sha256": "d5e0efd243f940c1910440f8ab49189047b1ffe6117904b1bb02137e693eccc7"
+    },
+    {
+      "path": "platform_rmdwin7_f.dll",
+      "size": 616960,
+      "sha256": "c17c6be2613f218d1d0c95e5dc15797ee2d4db4aa2a349f6f61d20dae62c09de"
+    },
+    {
+      "path": "puppet_rmdwin10_f.dll",
+      "size": 636928,
+      "sha256": "4d4f0d31af97e0681da5e3d49f200dcad0ef0cee2804f0ff3bfa357dce926970"
+    },
+    {
+      "path": "puppet_rmdwin7_f.dll",
+      "size": 636928,
+      "sha256": "6a8ae5991401e39e3c48cfa428a0393fdb229f6314b8b19493e048f4fe21cfe9"
+    },
+    {
+      "path": "pxfoundation_x64.dll",
+      "size": 58880,
+      "sha256": "82d979c0644e5bb564fb47b6996df7f0ad81f467ec986089d951e4f8285307a6"
+    },
+    {
+      "path": "renderer.ini",
+      "size": 1374,
+      "sha256": "d48ea14540f447513553b431eaae86abc35a017fe6bfba58692d53e02dd288c3"
+    },
+    {
+      "path": "renderer_rmdwin10_f.dll",
+      "size": 8689664,
+      "sha256": "1887b95d58b19a312ff992958005d5ba83733fea6a93ff36b4983838c9ae5172"
+    },
+    {
+      "path": "renderer_rmdwin7_f.dll",
+      "size": 8523264,
+      "sha256": "6c3478ec5d6ff3a3c29a612c4921c4ccd15e4eeab699193d7594c010142aa687"
+    },
+    {
+      "path": "renoircore.windowsdesktop.dll",
+      "size": 1614960,
+      "sha256": "9197e790688e46e2d818d0255beae454c647569e2b19ef2d04141e4f1b0d096c"
+    },
+    {
+      "path": "rl_rmdwin10_f.dll",
+      "size": 3916800,
+      "sha256": "2cb07b0ff3d41da4e677f9fcb9919c2851948619abe30b7a5e8748e2e536fb8f"
+    },
+    {
+      "path": "rl_rmdwin7_f.dll",
+      "size": 3916800,
+      "sha256": "6ef7b2600cbf90dd2d8e8a408f27b9336840c355e3029b4a24c94057284fbcbe"
+    },
+    {
+      "path": "snd_rmdwin10_f.dll",
+      "size": 2960896,
+      "sha256": "d83f15554b0d95b42f22592b390705b4024b20b4a5d657f5c3c6373b5a6ea0b6"
+    },
+    {
+      "path": "snd_rmdwin7_f.dll",
+      "size": 2960896,
+      "sha256": "fe035e1ac84bf1be60961b57c6637034665247a020189a02d6e13a9a0074addb"
+    },
+    {
+      "path": "steam_api64.cdx",
+      "size": 250656,
+      "sha256": "b8246e1a629b945fe526b24c3e4f002c4f6eb86aa1b5ed9744399f22a0d2ca9f"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 411048,
+      "sha256": "55bfb4a17b931176304990be2f502c4e8b29c6ee2893527d973740e2104ca92f"
+    },
+    {
+      "path": "steam_emu.ini",
+      "size": 1757,
+      "sha256": "67748291f1dc369a319ffba9131fbc16fbc51b792283d6b75568c9c500378098"
+    },
+    {
+      "path": "TheFoundationData",
+      "size": 14,
+      "sha256": "e35359a24632d208906ed8a673b4a83d88924adbd1e534493da6a7fb03c9ee8c"
+    },
+    {
+      "path": "ui_rmdwin10_f.dll",
+      "size": 1310720,
+      "sha256": "02d373f4b4c559cdc008ad34f6febf3c5d04739e7b48dd0fc5909b0300a2e2c7"
+    },
+    {
+      "path": "ui_rmdwin7_f.dll",
+      "size": 1303552,
+      "sha256": "54d56494c8f4ee7a51bbc0bcd2d3bf6293850656cc906095f7b19afd5aeee7f3"
+    },
+    {
+      "path": "VC_redist.x64.exe",
+      "size": 25640112,
+      "sha256": "1821577409c35b2b9505ac833e246376cc68a8262972100444010b57226f0940"
+    },
+    {
+      "path": "wtf.dll",
+      "size": 468592,
+      "sha256": "f2f514ddee21f3267ce53c9ee3384d55544a23bb5553adc00f19cb5b09858ab8"
+    },
+    {
+      "path": "xg.dll",
+      "size": 104448,
+      "sha256": "356dd5d9b4fd6214b1549be4df33596c1344b5c4a1f473b73a33959848f7fcfa"
+    },
+    {
+      "path": "XInputWrapper.dll",
+      "size": 11264,
+      "sha256": "85af4d7ee9de6612c684495104927609ea3c247396117c6cfaf0df6b2377f5cc"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 889416,
+          "length": 288088
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1177504,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1987000,
+          "length": 14974024
+        },
+        {
+          "file": "_CommonRedist/vcredist_2015-2019_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 16961024,
+          "length": 14412304
+        },
+        {
+          "file": "_CommonRedist/vcredist_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 31373328,
+          "length": 5718872
+        },
+        {
+          "file": "_CommonRedist/vcredist_x86.exe",
+          "file_offset": 0,
+          "chunk_offset": 37092200,
+          "length": 5073240
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 42165440,
+          "length": 7054336
+        },
+        {
+          "file": "apex_clothing_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 49219776,
+          "length": 1156608
+        },
+        {
+          "file": "apexframework_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 50376384,
+          "length": 863744
+        },
+        {
+          "file": "app_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 51240128,
+          "length": 132096
+        },
+        {
+          "file": "app_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 51372224,
+          "length": 132096
+        },
+        {
+          "file": "AWEData",
+          "file_offset": 0,
+          "chunk_offset": 51504320,
+          "length": 3
+        },
+        {
+          "file": "bink2w64.dll",
+          "file_offset": 0,
+          "chunk_offset": 51504323,
+          "length": 380928
+        },
+        {
+          "file": "bonsai_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 51885251,
+          "length": 6830592
+        },
+        {
+          "file": "bonsai_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 58715843,
+          "length": 6830592
+        },
+        {
+          "file": "CheckCDLL.dll",
+          "file_offset": 0,
+          "chunk_offset": 65546435,
+          "length": 9728
+        },
+        {
+          "file": "CheckDXR.dll",
+          "file_offset": 0,
+          "chunk_offset": 65556163,
+          "length": 36864
+        },
+        {
+          "file": "coherentgtcore.dll",
+          "file_offset": 0,
+          "chunk_offset": 65593027,
+          "length": 27984496
+        },
+        {
+          "file": "coherentgtjs.dll",
+          "file_offset": 0,
+          "chunk_offset": 93577523,
+          "length": 9600112
+        },
+        {
+          "file": "coherenticuin.dll",
+          "file_offset": 0,
+          "chunk_offset": 103177635,
+          "length": 1838192
+        },
+        {
+          "file": "coherenticuuc.dll",
+          "file_offset": 0,
+          "chunk_offset": 105015827,
+          "length": 1318512
+        },
+        {
+          "file": "coherentuigt.dll",
+          "file_offset": 0,
+          "chunk_offset": 106334339,
+          "length": 3272816
+        },
+        {
+          "file": "Control.exe",
+          "file_offset": 0,
+          "chunk_offset": 109607155,
+          "length": 90112
+        },
+        {
+          "file": "Control_DX11.exe",
+          "file_offset": 0,
+          "chunk_offset": 109697267,
+          "length": 20471296
+        },
+        {
+          "file": "Control_DX12.exe",
+          "file_offset": 0,
+          "chunk_offset": 130168563,
+          "length": 20471808
+        },
+        {
+          "file": "coregame_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 150640371,
+          "length": 9437184
+        },
+        {
+          "file": "coregame_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 160077555,
+          "length": 9436672
+        },
+        {
+          "file": "coreshared_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 169514227,
+          "length": 2713088
+        },
+        {
+          "file": "coreshared_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 172227315,
+          "length": 2711552
+        },
+        {
+          "file": "d3d_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 174938867,
+          "length": 1065984
+        },
+        {
+          "file": "d3d_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 176004851,
+          "length": 758784
+        },
+        {
+          "file": "d3dcompiler_46.dll",
+          "file_offset": 0,
+          "chunk_offset": 176763635,
+          "length": 3873224
+        },
+        {
+          "file": "d3dcompiler_47.dll",
+          "file_offset": 0,
+          "chunk_offset": 180636859,
+          "length": 4493352
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/ambientconvolution.obj",
+          "file_offset": 0,
+          "chunk_offset": 185130211,
+          "length": 5761
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/autoexposurehistogram.obj",
+          "file_offset": 0,
+          "chunk_offset": 185135972,
+          "length": 23369
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/backdrop.obj",
+          "file_offset": 0,
+          "chunk_offset": 185159341,
+          "length": 15920
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/billboard.obj",
+          "file_offset": 0,
+          "chunk_offset": 185175261,
+          "length": 204151
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/bloomx86CS.obj",
+          "file_offset": 0,
+          "chunk_offset": 185379412,
+          "length": 175508
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/blur.obj",
+          "file_offset": 0,
+          "chunk_offset": 185554920,
+          "length": 50979
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/character.obj",
+          "file_offset": 0,
+          "chunk_offset": 185605899,
+          "length": 3592529
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/cloth.obj",
+          "file_offset": 0,
+          "chunk_offset": 189198428,
+          "length": 2212360
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/CoherentGT.obj",
+          "file_offset": 0,
+          "chunk_offset": 191410788,
+          "length": 46137
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/color.obj",
+          "file_offset": 0,
+          "chunk_offset": 191456925,
+          "length": 482788
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/colorlutmixer.obj",
+          "file_offset": 0,
+          "chunk_offset": 191939713,
+          "length": 101544
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/converttolineardepth.obj",
+          "file_offset": 0,
+          "chunk_offset": 192041257,
+          "length": 43691
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/copy.obj",
+          "file_offset": 0,
+          "chunk_offset": 192084948,
+          "length": 84341
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/crystal.obj",
+          "file_offset": 0,
+          "chunk_offset": 192169289,
+          "length": 279626
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/decal.obj",
+          "file_offset": 0,
+          "chunk_offset": 192448915,
+          "length": 618316
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/decal_projected.obj",
+          "file_offset": 0,
+          "chunk_offset": 193067231,
+          "length": 225900
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/deferredlight.obj",
+          "file_offset": 0,
+          "chunk_offset": 193293131,
+          "length": 285610
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/deferredlight_filtering_diffuse.obj",
+          "file_offset": 0,
+          "chunk_offset": 193578741,
+          "length": 35034
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/deferredlight_filtering_shadow.obj",
+          "file_offset": 0,
+          "chunk_offset": 193613775,
+          "length": 29975
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/deferredlight_filtering_specular.obj",
+          "file_offset": 0,
+          "chunk_offset": 193643750,
+          "length": 35015
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/deferredlight_point.obj",
+          "file_offset": 0,
+          "chunk_offset": 193678765,
+          "length": 19210
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/deferredlight_spot.obj",
+          "file_offset": 0,
+          "chunk_offset": 193697975,
+          "length": 21652
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/deferredlight_volume.obj",
+          "file_offset": 0,
+          "chunk_offset": 193719627,
+          "length": 238880
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/depthoffield.obj",
+          "file_offset": 0,
+          "chunk_offset": 193958507,
+          "length": 42512
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/displace.obj",
+          "file_offset": 0,
+          "chunk_offset": 194001019,
+          "length": 1755
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/distancefield.obj",
+          "file_offset": 0,
+          "chunk_offset": 194002774,
+          "length": 124657
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/eye.obj",
+          "file_offset": 0,
+          "chunk_offset": 194127431,
+          "length": 777227
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/fft_512x512_c2c.obj",
+          "file_offset": 0,
+          "chunk_offset": 194904658,
+          "length": 8307
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/fillvisualization.obj",
+          "file_offset": 0,
+          "chunk_offset": 194912965,
+          "length": 7495
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/flare.obj",
+          "file_offset": 0,
+          "chunk_offset": 194920460,
+          "length": 5260
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/foliage.obj",
+          "file_offset": 0,
+          "chunk_offset": 194925720,
+          "length": 1650655
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/font.obj",
+          "file_offset": 0,
+          "chunk_offset": 196576375,
+          "length": 9932
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/gbufferprocessor.obj",
+          "file_offset": 0,
+          "chunk_offset": 196586307,
+          "length": 52118
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/generatemipmaps.obj",
+          "file_offset": 0,
+          "chunk_offset": 196638425,
+          "length": 3036
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/gfxgraph_p7.obj",
+          "file_offset": 0,
+          "chunk_offset": 196641461,
+          "length": 929018
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/gfxgraph_photo_mode.obj",
+          "file_offset": 0,
+          "chunk_offset": 197570479,
+          "length": 83081
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/gfxgraph_samples.obj",
+          "file_offset": 0,
+          "chunk_offset": 197653560,
+          "length": 134471
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/gfxgraph_tests.obj",
+          "file_offset": 0,
+          "chunk_offset": 197788031,
+          "length": 45086
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/gidatacopy.obj",
+          "file_offset": 0,
+          "chunk_offset": 197833117,
+          "length": 1877
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/glass.obj",
+          "file_offset": 0,
+          "chunk_offset": 197834994,
+          "length": 1050662
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/hair.obj",
+          "file_offset": 0,
+          "chunk_offset": 198885656,
+          "length": 1356184
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/illuminationvolumelight.obj",
+          "file_offset": 0,
+          "chunk_offset": 200241840,
+          "length": 37730
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/illuminationvolumelight_debug.obj",
+          "file_offset": 0,
+          "chunk_offset": 200279570,
+          "length": 9328
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/imgui.obj",
+          "file_offset": 0,
+          "chunk_offset": 200288898,
+          "length": 3996
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/light.obj",
+          "file_offset": 0,
+          "chunk_offset": 200292894,
+          "length": 1785778
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/lightprobe.obj",
+          "file_offset": 0,
+          "chunk_offset": 202078672,
+          "length": 362806
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/lsao.obj",
+          "file_offset": 0,
+          "chunk_offset": 202441478,
+          "length": 591035
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/lsao_filter.obj",
+          "file_offset": 0,
+          "chunk_offset": 203032513,
+          "length": 244949
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/lsao_filter2.obj",
+          "file_offset": 0,
+          "chunk_offset": 203277462,
+          "length": 19304
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/materialid.obj",
+          "file_offset": 0,
+          "chunk_offset": 203296766,
+          "length": 12304
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/NV12ToRGB.obj",
+          "file_offset": 0,
+          "chunk_offset": 203309070,
+          "length": 23494
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/NV12ToRGB_MF.obj",
+          "file_offset": 0,
+          "chunk_offset": 203332564,
+          "length": 6655
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/objecthighlight.obj",
+          "file_offset": 0,
+          "chunk_offset": 203339219,
+          "length": 30616
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/occlusionquery.obj",
+          "file_offset": 0,
+          "chunk_offset": 203369835,
+          "length": 1523
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/particle.obj",
+          "file_offset": 0,
+          "chunk_offset": 203371358,
+          "length": 5547094
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/particlecustomizations.obj",
+          "file_offset": 0,
+          "chunk_offset": 208918452,
+          "length": 228592
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/particleline.obj",
+          "file_offset": 0,
+          "chunk_offset": 209147044,
+          "length": 5948210
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/particlemesh.obj",
+          "file_offset": 0,
+          "chunk_offset": 215095254,
+          "length": 6254538
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/particlevolume.obj",
+          "file_offset": 0,
+          "chunk_offset": 221349792,
+          "length": 75242
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/pickup.obj",
+          "file_offset": 0,
+          "chunk_offset": 221425034,
+          "length": 32841
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/postprocess.obj",
+          "file_offset": 0,
+          "chunk_offset": 221457875,
+          "length": 5054
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/radiancevolume.obj",
+          "file_offset": 0,
+          "chunk_offset": 221462929,
+          "length": 21987
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/rt_ao.obj",
+          "file_offset": 0,
+          "chunk_offset": 221484916,
+          "length": 541
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/rt_deferred_diffusegi.obj",
+          "file_offset": 0,
+          "chunk_offset": 221485457,
+          "length": 1025
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/rt_deferred_reflection.obj",
+          "file_offset": 0,
+          "chunk_offset": 221486482,
+          "length": 1198
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/rt_denoise.obj",
+          "file_offset": 0,
+          "chunk_offset": 221487680,
+          "length": 17376
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/rt_diffusegi.obj",
+          "file_offset": 0,
+          "chunk_offset": 221505056,
+          "length": 457
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/rt_light_lookup.obj",
+          "file_offset": 0,
+          "chunk_offset": 221505513,
+          "length": 839
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/rt_reflection.obj",
+          "file_offset": 0,
+          "chunk_offset": 221506352,
+          "length": 1126
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/rt_skinning.obj",
+          "file_offset": 0,
+          "chunk_offset": 221507478,
+          "length": 229781
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/rt_spot.obj",
+          "file_offset": 0,
+          "chunk_offset": 221737259,
+          "length": 1165
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/rt_spot_deferred.obj",
+          "file_offset": 0,
+          "chunk_offset": 221738424,
+          "length": 1008
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/rt_sunshadow.obj",
+          "file_offset": 0,
+          "chunk_offset": 221739432,
+          "length": 590
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/rt_sunshadow_copy.obj",
+          "file_offset": 0,
+          "chunk_offset": 221740022,
+          "length": 670
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/rt_transparent.obj",
+          "file_offset": 0,
+          "chunk_offset": 221740692,
+          "length": 564
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/rt_transparent_deferred.obj",
+          "file_offset": 0,
+          "chunk_offset": 221741256,
+          "length": 1251
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/sdfdatacopy.obj",
+          "file_offset": 0,
+          "chunk_offset": 221742507,
+          "length": 2857
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/shadowbuffer.obj",
+          "file_offset": 0,
+          "chunk_offset": 221745364,
+          "length": 32501
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/shapeengine.obj",
+          "file_offset": 0,
+          "chunk_offset": 221777865,
+          "length": 67022
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/sky.obj",
+          "file_offset": 0,
+          "chunk_offset": 221844887,
+          "length": 105540
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/skydome.obj",
+          "file_offset": 0,
+          "chunk_offset": 221950427,
+          "length": 552192
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/ssaa.obj",
+          "file_offset": 0,
+          "chunk_offset": 222502619,
+          "length": 145387
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/ssaa_conversion.obj",
+          "file_offset": 0,
+          "chunk_offset": 222648006,
+          "length": 26896
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/ssssblur.obj",
+          "file_offset": 0,
+          "chunk_offset": 222674902,
+          "length": 15469
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/standardmaterial.obj",
+          "file_offset": 0,
+          "chunk_offset": 222690371,
+          "length": 42983647
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/testing.obj",
+          "file_offset": 0,
+          "chunk_offset": 265674018,
+          "length": 933
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/texeldensitydebug.obj",
+          "file_offset": 0,
+          "chunk_offset": 265674951,
+          "length": 718432
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/transparent.obj",
+          "file_offset": 0,
+          "chunk_offset": 266393383,
+          "length": 80493
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/utilities.obj",
+          "file_offset": 0,
+          "chunk_offset": 266473876,
+          "length": 9815
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/vectorblur.obj",
+          "file_offset": 0,
+          "chunk_offset": 266483691,
+          "length": 72830
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/velocity.obj",
+          "file_offset": 0,
+          "chunk_offset": 266556521,
+          "length": 315806
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/volumetriclight.obj",
+          "file_offset": 0,
+          "chunk_offset": 266872327,
+          "length": 77901
+        },
+        {
+          "file": "data/shaders/build/pc_dx11/water.obj",
+          "file_offset": 0,
+          "chunk_offset": 266950228,
+          "length": 281525
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/ambientconvolution.obj",
+          "file_offset": 0,
+          "chunk_offset": 267231753,
+          "length": 5825
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/autoexposurehistogram.obj",
+          "file_offset": 0,
+          "chunk_offset": 267237578,
+          "length": 25993
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/backdrop.obj",
+          "file_offset": 0,
+          "chunk_offset": 267263571,
+          "length": 16408
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/billboard.obj",
+          "file_offset": 0,
+          "chunk_offset": 267279979,
+          "length": 215831
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/bloomx86CS.obj",
+          "file_offset": 0,
+          "chunk_offset": 267495810,
+          "length": 211896
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/blur.obj",
+          "file_offset": 0,
+          "chunk_offset": 267707706,
+          "length": 52563
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/character.obj",
+          "file_offset": 0,
+          "chunk_offset": 267760269,
+          "length": 3737777
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/cloth.obj",
+          "file_offset": 0,
+          "chunk_offset": 271498046,
+          "length": 2348536
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/CoherentGT.obj",
+          "file_offset": 0,
+          "chunk_offset": 273846582,
+          "length": 47533
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/color.obj",
+          "file_offset": 0,
+          "chunk_offset": 273894115,
+          "length": 493424
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/colorlutmixer.obj",
+          "file_offset": 0,
+          "chunk_offset": 274387539,
+          "length": 103172
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/converttolineardepth.obj",
+          "file_offset": 0,
+          "chunk_offset": 274490711,
+          "length": 44067
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/copy.obj",
+          "file_offset": 0,
+          "chunk_offset": 274534778,
+          "length": 95353
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/crystal.obj",
+          "file_offset": 0,
+          "chunk_offset": 274630131,
+          "length": 284254
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/decal.obj",
+          "file_offset": 0,
+          "chunk_offset": 274914385,
+          "length": 835524
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/decal_projected.obj",
+          "file_offset": 0,
+          "chunk_offset": 275749909,
+          "length": 255871
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/deferredlight.obj",
+          "file_offset": 0,
+          "chunk_offset": 276005780,
+          "length": 593486
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/deferredlight_filtering_diffuse.obj",
+          "file_offset": 0,
+          "chunk_offset": 276599266,
+          "length": 35874
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/deferredlight_filtering_shadow.obj",
+          "file_offset": 0,
+          "chunk_offset": 276635140,
+          "length": 30755
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/deferredlight_filtering_specular.obj",
+          "file_offset": 0,
+          "chunk_offset": 276665895,
+          "length": 35891
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/deferredlight_point.obj",
+          "file_offset": 0,
+          "chunk_offset": 276701786,
+          "length": 19650
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/deferredlight_spot.obj",
+          "file_offset": 0,
+          "chunk_offset": 276721436,
+          "length": 21936
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/deferredlight_volume.obj",
+          "file_offset": 0,
+          "chunk_offset": 276743372,
+          "length": 240928
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/depthoffield.obj",
+          "file_offset": 0,
+          "chunk_offset": 276984300,
+          "length": 42876
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/displace.obj",
+          "file_offset": 0,
+          "chunk_offset": 277027176,
+          "length": 1835
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/distancefield.obj",
+          "file_offset": 0,
+          "chunk_offset": 277029011,
+          "length": 127593
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/eye.obj",
+          "file_offset": 0,
+          "chunk_offset": 277156604,
+          "length": 810507
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/fft_512x512_c2c.obj",
+          "file_offset": 0,
+          "chunk_offset": 277967111,
+          "length": 8483
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/fillvisualization.obj",
+          "file_offset": 0,
+          "chunk_offset": 277975594,
+          "length": 10567
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/flare.obj",
+          "file_offset": 0,
+          "chunk_offset": 277986161,
+          "length": 5436
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/foliage.obj",
+          "file_offset": 0,
+          "chunk_offset": 277991597,
+          "length": 1719311
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/font.obj",
+          "file_offset": 0,
+          "chunk_offset": 279710908,
+          "length": 20464
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/gbufferprocessor.obj",
+          "file_offset": 0,
+          "chunk_offset": 279731372,
+          "length": 52642
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/generatemipmaps.obj",
+          "file_offset": 0,
+          "chunk_offset": 279784014,
+          "length": 3116
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/gfxgraph_p7.obj",
+          "file_offset": 0,
+          "chunk_offset": 279787130,
+          "length": 960962
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/gfxgraph_photo_mode.obj",
+          "file_offset": 0,
+          "chunk_offset": 280748092,
+          "length": 96361
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/gfxgraph_samples.obj",
+          "file_offset": 0,
+          "chunk_offset": 280844453,
+          "length": 137199
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/gfxgraph_tests.obj",
+          "file_offset": 0,
+          "chunk_offset": 280981652,
+          "length": 45930
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/gidatacopy.obj",
+          "file_offset": 0,
+          "chunk_offset": 281027582,
+          "length": 1965
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/glass.obj",
+          "file_offset": 0,
+          "chunk_offset": 281029547,
+          "length": 1078046
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/hair.obj",
+          "file_offset": 0,
+          "chunk_offset": 282107593,
+          "length": 1455432
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/illuminationvolumelight.obj",
+          "file_offset": 0,
+          "chunk_offset": 283563025,
+          "length": 38446
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/illuminationvolumelight_debug.obj",
+          "file_offset": 0,
+          "chunk_offset": 283601471,
+          "length": 11472
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/imgui.obj",
+          "file_offset": 0,
+          "chunk_offset": 283612943,
+          "length": 11844
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/light.obj",
+          "file_offset": 0,
+          "chunk_offset": 283624787,
+          "length": 1837098
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/lightprobe.obj",
+          "file_offset": 0,
+          "chunk_offset": 285461885,
+          "length": 371678
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/lsao.obj",
+          "file_offset": 0,
+          "chunk_offset": 285833563,
+          "length": 616755
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/lsao_filter.obj",
+          "file_offset": 0,
+          "chunk_offset": 286450318,
+          "length": 254945
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/lsao_filter2.obj",
+          "file_offset": 0,
+          "chunk_offset": 286705263,
+          "length": 19564
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/materialid.obj",
+          "file_offset": 0,
+          "chunk_offset": 286724827,
+          "length": 13060
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/NV12ToRGB.obj",
+          "file_offset": 0,
+          "chunk_offset": 286737887,
+          "length": 24306
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/NV12ToRGB_MF.obj",
+          "file_offset": 0,
+          "chunk_offset": 286762193,
+          "length": 6947
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/objecthighlight.obj",
+          "file_offset": 0,
+          "chunk_offset": 286769140,
+          "length": 31300
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/occlusionquery.obj",
+          "file_offset": 0,
+          "chunk_offset": 286800440,
+          "length": 1559
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/particle.obj",
+          "file_offset": 0,
+          "chunk_offset": 286801999,
+          "length": 5707686
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/particlecustomizations.obj",
+          "file_offset": 0,
+          "chunk_offset": 292509685,
+          "length": 235112
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/particleline.obj",
+          "file_offset": 0,
+          "chunk_offset": 292744797,
+          "length": 6121034
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/particlemesh.obj",
+          "file_offset": 0,
+          "chunk_offset": 298865831,
+          "length": 6480634
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/particlevolume.obj",
+          "file_offset": 0,
+          "chunk_offset": 305346465,
+          "length": 72258
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/pickup.obj",
+          "file_offset": 0,
+          "chunk_offset": 305418723,
+          "length": 33253
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/postprocess.obj",
+          "file_offset": 0,
+          "chunk_offset": 305451976,
+          "length": 8122
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/radiancevolume.obj",
+          "file_offset": 0,
+          "chunk_offset": 305460098,
+          "length": 22047
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/rt_ao.obj",
+          "file_offset": 0,
+          "chunk_offset": 305482145,
+          "length": 17233
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/rt_deferred_diffusegi.obj",
+          "file_offset": 0,
+          "chunk_offset": 305499378,
+          "length": 277324
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/rt_deferred_reflection.obj",
+          "file_offset": 0,
+          "chunk_offset": 305776702,
+          "length": 180740
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/rt_denoise.obj",
+          "file_offset": 0,
+          "chunk_offset": 305957442,
+          "length": 17592
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/rt_diffusegi.obj",
+          "file_offset": 0,
+          "chunk_offset": 305975034,
+          "length": 52908
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/rt_light_lookup.obj",
+          "file_offset": 0,
+          "chunk_offset": 306027942,
+          "length": 24291
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/rt_reflection.obj",
+          "file_offset": 0,
+          "chunk_offset": 306052233,
+          "length": 1137102
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/rt_skinning.obj",
+          "file_offset": 0,
+          "chunk_offset": 307189335,
+          "length": 240021
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/rt_spot.obj",
+          "file_offset": 0,
+          "chunk_offset": 307429356,
+          "length": 60333
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/rt_spot_deferred.obj",
+          "file_offset": 0,
+          "chunk_offset": 307489689,
+          "length": 51918
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/rt_sunshadow.obj",
+          "file_offset": 0,
+          "chunk_offset": 307541607,
+          "length": 19438
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/rt_sunshadow_copy.obj",
+          "file_offset": 0,
+          "chunk_offset": 307561045,
+          "length": 1018
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/rt_transparent.obj",
+          "file_offset": 0,
+          "chunk_offset": 307562063,
+          "length": 87730
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/rt_transparent_deferred.obj",
+          "file_offset": 0,
+          "chunk_offset": 307649793,
+          "length": 41140
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/sdfdatacopy.obj",
+          "file_offset": 0,
+          "chunk_offset": 307690933,
+          "length": 6011
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/shadowbuffer.obj",
+          "file_offset": 0,
+          "chunk_offset": 307696944,
+          "length": 33349
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/shapeengine.obj",
+          "file_offset": 0,
+          "chunk_offset": 307730293,
+          "length": 126322
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/sky.obj",
+          "file_offset": 0,
+          "chunk_offset": 307856615,
+          "length": 108316
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/skydome.obj",
+          "file_offset": 0,
+          "chunk_offset": 307964931,
+          "length": 564680
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/ssaa.obj",
+          "file_offset": 0,
+          "chunk_offset": 308529611,
+          "length": 125587
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/ssaa_conversion.obj",
+          "file_offset": 0,
+          "chunk_offset": 308655198,
+          "length": 27600
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/ssssblur.obj",
+          "file_offset": 0,
+          "chunk_offset": 308682798,
+          "length": 15789
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/standardmaterial.obj",
+          "file_offset": 0,
+          "chunk_offset": 308698587,
+          "length": 54579551
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/testing.obj",
+          "file_offset": 0,
+          "chunk_offset": 363278138,
+          "length": 985
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/texeldensitydebug.obj",
+          "file_offset": 0,
+          "chunk_offset": 363279123,
+          "length": 741112
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/transparent.obj",
+          "file_offset": 0,
+          "chunk_offset": 364020235,
+          "length": 82673
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/utilities.obj",
+          "file_offset": 0,
+          "chunk_offset": 364102908,
+          "length": 10319
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/vectorblur.obj",
+          "file_offset": 0,
+          "chunk_offset": 364113227,
+          "length": 74706
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/velocity.obj",
+          "file_offset": 0,
+          "chunk_offset": 364187933,
+          "length": 329390
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/volumetriclight.obj",
+          "file_offset": 0,
+          "chunk_offset": 364517323,
+          "length": 79665
+        },
+        {
+          "file": "data/shaders/build/pc_dxil/water.obj",
+          "file_offset": 0,
+          "chunk_offset": 364596988,
+          "length": 304197
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ar.bin",
+          "file_offset": 0,
+          "chunk_offset": 364901185,
+          "length": 485
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ar.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 364901670,
+          "length": 1269
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ar.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 364902939,
+          "length": 2343136
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-de.bin",
+          "file_offset": 0,
+          "chunk_offset": 367246075,
+          "length": 755492
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-de.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 368001567,
+          "length": 2469953
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-de.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 370471520,
+          "length": 309181632
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-en.bin",
+          "file_offset": 0,
+          "chunk_offset": 679653152,
+          "length": 767651
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-en.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 680420803,
+          "length": 2514959
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-en.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 682935762,
+          "length": 289944960
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-es.bin",
+          "file_offset": 0,
+          "chunk_offset": 972880722,
+          "length": 755592
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-es.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 973636314,
+          "length": 2470304
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-es.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 976106618,
+          "length": 150210886
+        }
+      ],
+      "sha256": "ada2445a3a027f3cd953a2095cc5892ee008f3376347e14e79618981670404a6"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-generic-es.rmdp",
+          "file_offset": 150210886,
+          "chunk_offset": 0,
+          "length": 151018426
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-fr.bin",
+          "file_offset": 0,
+          "chunk_offset": 151018426,
+          "length": 731376
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-fr.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 151749802,
+          "length": 2383502
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-fr.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 154133304,
+          "length": 280515168
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-it.bin",
+          "file_offset": 0,
+          "chunk_offset": 434648472,
+          "length": 485
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-it.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 434648957,
+          "length": 1269
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-it.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 434650226,
+          "length": 2666976
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ja.bin",
+          "file_offset": 0,
+          "chunk_offset": 437317202,
+          "length": 485
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ja.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 437317687,
+          "length": 1269
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ja.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 437318956,
+          "length": 1677088
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ko.bin",
+          "file_offset": 0,
+          "chunk_offset": 438996044,
+          "length": 485
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ko.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 438996529,
+          "length": 1269
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ko.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 438997798,
+          "length": 1688160
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-pl.bin",
+          "file_offset": 0,
+          "chunk_offset": 440685958,
+          "length": 485
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-pl.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 440686443,
+          "length": 1269
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-pl.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 440687712,
+          "length": 2614656
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ptbr.bin",
+          "file_offset": 0,
+          "chunk_offset": 443302368,
+          "length": 487
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ptbr.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 443302855,
+          "length": 1269
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ptbr.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 443304124,
+          "length": 2594336
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ru.bin",
+          "file_offset": 0,
+          "chunk_offset": 445898460,
+          "length": 485
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ru.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 445898945,
+          "length": 1269
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-ru.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 445900214,
+          "length": 2562816
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-zhcn.bin",
+          "file_offset": 0,
+          "chunk_offset": 448463030,
+          "length": 487
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-zhcn.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 448463517,
+          "length": 1269
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-zhcn.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 448464786,
+          "length": 1404416
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-zhtw.bin",
+          "file_offset": 0,
+          "chunk_offset": 449869202,
+          "length": 487
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-zhtw.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 449869689,
+          "length": 1269
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic-zhtw.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 449870958,
+          "length": 1397248
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic.bin",
+          "file_offset": 0,
+          "chunk_offset": 451268206,
+          "length": 1448530
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 452716736,
+          "length": 6099233
+        },
+        {
+          "file": "data_packfiles/ep100-000-generic.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 458815969,
+          "length": 667501535
+        }
+      ],
+      "sha256": "9f5a501aa0c1f86cb755062b688e37aab5a3328795fb9d004dfe348e4edc40cf"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-generic.rmdp",
+          "file_offset": 667501535,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "999d1ba471793890eb70d091ade11396e625849399ab8a3fb57c56e00a8ce1d8"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-generic.rmdp",
+          "file_offset": 1793819039,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "0aed0c089eeb799969e06dc04de296d9aaffb3a3bdb48641bb74162d153e840f"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-generic.rmdp",
+          "file_offset": 2920136543,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "60181fe3aea5e29bc60fdbfd6c8a48a8f99776bf60fbcf7fd55e01bf114117b1"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-generic.rmdp",
+          "file_offset": 4046454047,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "e48ec7208b647f86c7c9e0aa0e598b909dc106131f961b64ac018a0ee303eadd"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-generic.rmdp",
+          "file_offset": 5172771551,
+          "chunk_offset": 0,
+          "length": 164391169
+        },
+        {
+          "file": "data_packfiles/ep100-000-pc.bin",
+          "file_offset": 0,
+          "chunk_offset": 164391169,
+          "length": 950897
+        },
+        {
+          "file": "data_packfiles/ep100-000-pc.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 165342066,
+          "length": 4872857
+        },
+        {
+          "file": "data_packfiles/ep100-000-pc.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 170214923,
+          "length": 956102581
+        }
+      ],
+      "sha256": "714440b20f5fd01ce3f18cb0ad5e0ea311a78c919f007b193555bcfbbbb6e234"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-pc.rmdp",
+          "file_offset": 956102581,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "ed9c9e9aa68ff00be1e262386ccbfe439c0831f084759c5eb558197fa9064eed"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-pc.rmdp",
+          "file_offset": 2082420085,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "3c1307e13d507f6a15b6e8e8b35d3de6c2f876174816e104d70361f5ca0f3f46"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-pc.rmdp",
+          "file_offset": 3208737589,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "d244c220a5ad43b77c46defb3814bddba706df40feaaa61080f712dbeb0355f1"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-pc.rmdp",
+          "file_offset": 4335055093,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "73b8e2351e9f3aef1c4eebe174efb5945c0291be3f058a9dbe915337f20d8486"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-pc.rmdp",
+          "file_offset": 5461372597,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "d65a0e6eb0175e3ade9cad228910200c96d3a65ab1314e4d8dde4fbc20dacbdc"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-pc.rmdp",
+          "file_offset": 6587690101,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "113d0888ee5ab61949d7c21073daeac4b970614fc824f9167b8c6fad49db5b6b"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-pc.rmdp",
+          "file_offset": 7714007605,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "4288bb084f78b2470c1b5dea9f91c2759a81c34a422cd998cfdbb5f561671964"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-pc.rmdp",
+          "file_offset": 8840325109,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "ac450299463cbc968cd47140115778fe721b9271e0b509ca35848b7d6b8b4a4a"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-pc.rmdp",
+          "file_offset": 9966642613,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "f0b9a734ebf146b563c4adcfda5f4fd3854de70ab4e9ff05628b0838c1edd6f0"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep100-000-pc.rmdp",
+          "file_offset": 11092960117,
+          "chunk_offset": 0,
+          "length": 351854187
+        },
+        {
+          "file": "data_packfiles/ep101-000-generic.bin",
+          "file_offset": 0,
+          "chunk_offset": 351854187,
+          "length": 2518416
+        },
+        {
+          "file": "data_packfiles/ep101-000-generic.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 354372603,
+          "length": 8569223
+        },
+        {
+          "file": "data_packfiles/ep101-000-generic.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 362941826,
+          "length": 763375678
+        }
+      ],
+      "sha256": "1659eb5578a67c81b960a82909dad93eea09c3b508491caeb4d1ed50a065fdcf"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-generic.rmdp",
+          "file_offset": 763375678,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "a34c739d0a74399c4005a8de286ad47441ece64a480d825eaa1591ae3df1727c"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-generic.rmdp",
+          "file_offset": 1889693182,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "9cb80473c579115ad2b9f15971d57f5cc21b7a3e1f87871f964489c09b3908e4"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-generic.rmdp",
+          "file_offset": 3016010686,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "1f4f70c8ce01f579096fadf0edfe14e27669f94fc9563c203edff6cd55bd72ac"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-generic.rmdp",
+          "file_offset": 4142328190,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "b7001d9b6c083669f8312b4c8e8409c7c3bc4b8593578d0dc5b62faca3b50d57"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-generic.rmdp",
+          "file_offset": 5268645694,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "da6aeda8b677e97522e957d8409d194325fa7dad1f13b8d578bc8281a52ce793"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-generic.rmdp",
+          "file_offset": 6394963198,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "d37339aa10c7a3df60ed886e014446740712a2dd3f51924ab309e06b5667b485"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-generic.rmdp",
+          "file_offset": 7521280702,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "14ec408c141d9a84e4a019f762324968f58bd955ea31ca43e00ec83200a2bf27"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-generic.rmdp",
+          "file_offset": 8647598206,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "df4b419d7d3d554846963b70b6519f8daa7514287b05109c4610a0fb0622872a"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-generic.rmdp",
+          "file_offset": 9773915710,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "f831ea9a13e66d0791def4e3fe01c8cc72f92ea8064daaa1841793cf42cbde7c"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-generic.rmdp",
+          "file_offset": 10900233214,
+          "chunk_offset": 0,
+          "length": 361066786
+        },
+        {
+          "file": "data_packfiles/ep101-000-pc.bin",
+          "file_offset": 0,
+          "chunk_offset": 361066786,
+          "length": 1436638
+        },
+        {
+          "file": "data_packfiles/ep101-000-pc.packmeta",
+          "file_offset": 0,
+          "chunk_offset": 362503424,
+          "length": 7269374
+        },
+        {
+          "file": "data_packfiles/ep101-000-pc.rmdp",
+          "file_offset": 0,
+          "chunk_offset": 369772798,
+          "length": 756544706
+        }
+      ],
+      "sha256": "53078796e5919b5ca658e9840ccdd40f451eee825414da2693025770b06d395c"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-pc.rmdp",
+          "file_offset": 756544706,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "c8d72a7ca20c454c78deaf717b7fb06b5e5e48bc8af5e7bb9601cadb679abf3c"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-pc.rmdp",
+          "file_offset": 1882862210,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "a38f7100b151602b06115d84d788e613e2b8ef67ccd882e8226085b42538dbc2"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-pc.rmdp",
+          "file_offset": 3009179714,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "7c4dcbd57c304f00a5ee1514721adbb875cc85876df36740c74fc7d496175377"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-pc.rmdp",
+          "file_offset": 4135497218,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "0befab395c037ca396dc6d43a369c3b84b24ebc639cb3cad2b3a4c6b8618f4dd"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-pc.rmdp",
+          "file_offset": 5261814722,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "4aebef56cb0952a3be49090f4b52f883d5f0e697e050dd671f5f16a3baf9ec55"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-pc.rmdp",
+          "file_offset": 6388132226,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "49b4b87a2cfbb8d9bf855b87a75b6af8dbd2a3912549e183a06f22679e731164"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-pc.rmdp",
+          "file_offset": 7514449730,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "e10504c6bcfdd1caeef5aef3814f29b0db66a44ef90bc8a2364b65872cc411a2"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-pc.rmdp",
+          "file_offset": 8640767234,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "a8756749a117dfd3afe67ac4a47a60af594056bd4797e42cc76c690cb025ac2f"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-pc.rmdp",
+          "file_offset": 9767084738,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "72eae29cdadc121286dfbcbfcdb89c9529cfe9b1bd62feb21693e2b608bf686f"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-pc.rmdp",
+          "file_offset": 10893402242,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "ce621f1cb2ff2f0f17c22721fbbd612d8727dfa610fbbfd3237f273843bcdc68"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-pc.rmdp",
+          "file_offset": 12019719746,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "bb244bf2872fd77e6db2de40d39058d3a8078b56b6cf36d811cc66eccd7aeb6b"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 1126317504,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-pc.rmdp",
+          "file_offset": 13146037250,
+          "chunk_offset": 0,
+          "length": 1126317504
+        }
+      ],
+      "sha256": "b697064724cedfad9c4ed64b8545bd4562f8488b34c7608f02d991fefeeb601e"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 1126317479,
+      "segments": [
+        {
+          "file": "data_packfiles/ep101-000-pc.rmdp",
+          "file_offset": 14272354754,
+          "chunk_offset": 0,
+          "length": 963869598
+        },
+        {
+          "file": "dxcompiler.dll",
+          "file_offset": 0,
+          "chunk_offset": 963869598,
+          "length": 12380736
+        },
+        {
+          "file": "dxil.dll",
+          "file_offset": 0,
+          "chunk_offset": 976250334,
+          "length": 1097344
+        },
+        {
+          "file": "expression_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 977347678,
+          "length": 139776
+        },
+        {
+          "file": "expression_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 977487454,
+          "length": 139776
+        },
+        {
+          "file": "icudtcoherent53.dll",
+          "file_offset": 0,
+          "chunk_offset": 977627230,
+          "length": 21532784
+        },
+        {
+          "file": "input_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 999160014,
+          "length": 90112
+        },
+        {
+          "file": "input_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 999250126,
+          "length": 90112
+        },
+        {
+          "file": "libcurl.dll",
+          "file_offset": 0,
+          "chunk_offset": 999340238,
+          "length": 424448
+        },
+        {
+          "file": "loc_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 999764686,
+          "length": 48128
+        },
+        {
+          "file": "loc_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 999812814,
+          "length": 48128
+        },
+        {
+          "file": "navigation_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 999860942,
+          "length": 1613824
+        },
+        {
+          "file": "navigation_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1001474766,
+          "length": 1613824
+        },
+        {
+          "file": "network_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1003088590,
+          "length": 947200
+        },
+        {
+          "file": "network_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1004035790,
+          "length": 947200
+        },
+        {
+          "file": "nvngx_dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 1004982990,
+          "length": 48971832
+        },
+        {
+          "file": "physics_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1053954822,
+          "length": 1784832
+        },
+        {
+          "file": "physics_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1055739654,
+          "length": 1784832
+        },
+        {
+          "file": "physx3_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1057524486,
+          "length": 2107904
+        },
+        {
+          "file": "physx3characterkinematic_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1059632390,
+          "length": 166912
+        },
+        {
+          "file": "physx3common_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1059799302,
+          "length": 1616384
+        },
+        {
+          "file": "physx3cooking_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1061415686,
+          "length": 248320
+        },
+        {
+          "file": "platform_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1061664006,
+          "length": 616960
+        },
+        {
+          "file": "platform_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1062280966,
+          "length": 616960
+        },
+        {
+          "file": "puppet_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1062897926,
+          "length": 636928
+        },
+        {
+          "file": "puppet_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1063534854,
+          "length": 636928
+        },
+        {
+          "file": "pxfoundation_x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1064171782,
+          "length": 58880
+        },
+        {
+          "file": "renderer.ini",
+          "file_offset": 0,
+          "chunk_offset": 1064230662,
+          "length": 1374
+        },
+        {
+          "file": "renderer_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1064232036,
+          "length": 8689664
+        },
+        {
+          "file": "renderer_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1072921700,
+          "length": 8523264
+        },
+        {
+          "file": "renoircore.windowsdesktop.dll",
+          "file_offset": 0,
+          "chunk_offset": 1081444964,
+          "length": 1614960
+        },
+        {
+          "file": "rl_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1083059924,
+          "length": 3916800
+        },
+        {
+          "file": "rl_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1086976724,
+          "length": 3916800
+        },
+        {
+          "file": "snd_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1090893524,
+          "length": 2960896
+        },
+        {
+          "file": "snd_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1093854420,
+          "length": 2960896
+        },
+        {
+          "file": "steam_api64.cdx",
+          "file_offset": 0,
+          "chunk_offset": 1096815316,
+          "length": 250656
+        },
+        {
+          "file": "steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 1097065972,
+          "length": 411048
+        },
+        {
+          "file": "steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 1097477020,
+          "length": 1757
+        },
+        {
+          "file": "TheFoundationData",
+          "file_offset": 0,
+          "chunk_offset": 1097478777,
+          "length": 14
+        },
+        {
+          "file": "ui_rmdwin10_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1097478791,
+          "length": 1310720
+        },
+        {
+          "file": "ui_rmdwin7_f.dll",
+          "file_offset": 0,
+          "chunk_offset": 1098789511,
+          "length": 1303552
+        },
+        {
+          "file": "VC_redist.x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1100093063,
+          "length": 25640112
+        },
+        {
+          "file": "wtf.dll",
+          "file_offset": 0,
+          "chunk_offset": 1125733175,
+          "length": 468592
+        },
+        {
+          "file": "xg.dll",
+          "file_offset": 0,
+          "chunk_offset": 1126201767,
+          "length": 104448
+        },
+        {
+          "file": "XInputWrapper.dll",
+          "file_offset": 0,
+          "chunk_offset": 1126306215,
+          "length": 11264
+        }
+      ],
+      "sha256": "74c7e08cb1d031d8485811d6726be02be86ef8e5c5753d43ea8d10688bb61295"
+    }
+  ]
+}
