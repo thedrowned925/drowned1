@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-10T20:37:03.004210+00:00",
+  "updated_at": "2026-09-11T09:21:58.969125+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -3662,6 +3662,41 @@
       },
       "media": {
         "steam_app_id": 812140
+      }
+    },
+    {
+      "id": "mirror-s-edge",
+      "title": "Mirror's Edge™",
+      "platform": "pc",
+      "description": "In a city where information is heavily monitored, couriers called Runners transport sensitive data. In this seemingly utopian paradise, a crime has been committed, & you are being hunted. You are a Runner called Faith and this innovative first-person action-adventure is your story.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mirror-s-edge/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mirror-s-edge/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mirror-s-edge/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mirror-s-edge/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mirror-s-edge/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mirror-s-edge/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mirror-s-edge/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mirror-s-edge/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mirror-s-edge/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mirror-s-edge/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mirror-s-edge/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/mirror-s-edge/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-mirror-s-edge-v1.0.0-stable",
+          "manifest_path": "manifests/pc/mirror-s-edge/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/mirror-s-edge/stable/1.0.0.json",
+          "size": 7880324079,
+          "published_at": "2026-09-11T09:21:58.969114+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 17410
       }
     }
   ]
