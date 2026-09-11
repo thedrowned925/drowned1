@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-11T09:21:58.969125+00:00",
+  "updated_at": "2026-09-11T09:50:57.479050+00:00",
   "games": [
     {
       "id": "papers-please",
@@ -3697,6 +3697,41 @@
       },
       "media": {
         "steam_app_id": 17410
+      }
+    },
+    {
+      "id": "control-ultimate-edition",
+      "title": "CONTROL Ultimate Edition",
+      "platform": "pc",
+      "description": "Winner of over 80 awards, CONTROL is a visually stunning third-person action-adventure that will keep you on the edge of your seat.",
+      "artwork": {
+        "hero": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/control-ultimate-edition/hero.jpg",
+        "cover": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/control-ultimate-edition/cover.jpg",
+        "logo": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/control-ultimate-edition/logo.png",
+        "icon": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/control-ultimate-edition/icon.jpg",
+        "screenshots": [
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/control-ultimate-edition/screenshots/00.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/control-ultimate-edition/screenshots/01.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/control-ultimate-edition/screenshots/02.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/control-ultimate-edition/screenshots/03.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/control-ultimate-edition/screenshots/04.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/control-ultimate-edition/screenshots/05.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/control-ultimate-edition/screenshots/06.jpg",
+          "https://raw.githubusercontent.com/thedrowned925/drowned1/main/artwork/pc/control-ultimate-edition/screenshots/07.jpg"
+        ]
+      },
+      "channels": {
+        "stable": {
+          "version": "1.0.0",
+          "tag": "pc-control-ultimate-edition-v1.0.0-stable",
+          "manifest_path": "manifests/pc/control-ultimate-edition/stable/1.0.0.json",
+          "manifest_url": "https://raw.githubusercontent.com/thedrowned925/drowned1/main/manifests/pc/control-ultimate-edition/stable/1.0.0.json",
+          "size": 45052700135,
+          "published_at": "2026-09-11T09:50:57.479038+00:00"
+        }
+      },
+      "media": {
+        "steam_app_id": 870780
       }
     }
   ]
