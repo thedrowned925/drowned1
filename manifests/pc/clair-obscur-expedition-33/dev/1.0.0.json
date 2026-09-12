@@ -1,0 +1,2243 @@
+{
+  "schema_version": 1,
+  "game": {
+    "id": "clair-obscur-expedition-33",
+    "title": "Clair Obscur: Expedition 33",
+    "platform": "pc",
+    "channel": "dev",
+    "version": "1.0.0",
+    "description": "Lead the members of Expedition 33 on their quest to destroy the Paintress so that she can never paint death again. Explore a world of wonders inspired by Belle Époque France and battle unique enemies in this turn-based RPG with real-time mechanics."
+  },
+  "release": {
+    "owner": "thedrowned925",
+    "repo": "drowned1",
+    "tag": "pc-clair-obscur-expedition-33-v1.0.0-dev"
+  },
+  "chunk_size": 1177559074,
+  "upload_workers": 40,
+  "upload_waves": 1,
+  "total_size": 47102362922,
+  "files": [
+    {
+      "path": "_CommonRedist/_redist_readme.txt",
+      "size": 2038,
+      "sha256": "b9ff3c3422e06fb509f4d9ea3ae4493ee804a7efdd1297fbff8eceed40b6c403"
+    },
+    {
+      "path": "_CommonRedist/dotNetFx40_Full_setup.exe",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425"
+    },
+    {
+      "path": "_CommonRedist/dxwebsetup.exe",
+      "size": 295320,
+      "sha256": "2cf71d098c608c56e07f4655855a886c3102553f648df88458df616b26fd612f"
+    },
+    {
+      "path": "_CommonRedist/oalinst.exe",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd"
+    },
+    {
+      "path": "_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+      "size": 31533074,
+      "sha256": "3c188e4651bcc07df2bdb06d69585158797b1bafb91557b09217621628cd5b23"
+    },
+    {
+      "path": "_CommonRedist/xnafx40_redist.msi",
+      "size": 7054848,
+      "sha256": "47260420773a20443fb1e38a89b7f39c5237a80a842de598e6c8f7f90a3bbd6d"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+      "size": 2221984,
+      "sha256": "4b803d0bfa5d360cfcb3237d260226743d2255eacf6a98615334fb55deb7cf88"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll",
+      "size": 2536368,
+      "sha256": "150963f4a05ffddc9a8498ae0ec4ddf5bed762a83b6ad089d2fd8d499101c7ea"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+      "size": 1865216,
+      "sha256": "4877a28a3edaa86257061d7de3d16f1aaa331bdd6e1b1446000553504d2fd3b1"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+      "size": 49152,
+      "sha256": "284a6e70a6dce01f8a02d93e1bb78baf0efb6140459c587d8986d59fb6bd675b"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Steamworks/Steamv157/Win64/steam_api64.dll",
+      "size": 1098392,
+      "sha256": "f480de9ae15e17fb6e84ad0efa8a386095700cfb7f405bfd64aa61d518587b79"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Steamworks/Steamv157/Win64/steam_api64.rne",
+      "size": 295336,
+      "sha256": "4df999c0c8cb12589f0864d52be5d4c775577aeb27fee28b49b188f9ba083eea"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Steamworks/Steamv157/Win64/steam_emu.ini",
+      "size": 3279,
+      "sha256": "59ec630ca07ad89b7fd6b89bcba4186520564c4111413ce7790c9a266172e064"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+      "size": 1714176,
+      "sha256": "0f66dcb5837e9b59c499277fd272b862043356aa9145802cf0a63e00a1bcca59"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+      "size": 37888,
+      "sha256": "a9d6f5538f44011c1f65d7ace64216a237636717cb0c8c59f4f89cc08dd3d24f"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+      "size": 847440,
+      "sha256": "0e01f400baa09694cacfd2cfbff0d721c17b56785d2d6e29b6fdd117f70ccc1e"
+    },
+    {
+      "path": "Engine/Content/Renderer/TessellationTable.bin",
+      "size": 259568,
+      "sha256": "edc4f3b628a139c5e185bbaeca661c95c1f427368d3b92892c5cff36c56dd941"
+    },
+    {
+      "path": "Engine/Content/Slate/Cursor/invisible.cur",
+      "size": 326,
+      "sha256": "fef3980fa567e9c45d5d8dcaa432a2c1a3f3bb17fe67d7ab198164f56c142aa1"
+    },
+    {
+      "path": "Engine/Content/SlateDebug/Fonts/LastResort.tps",
+      "size": 930,
+      "sha256": "0f775fa99d05e21d43d2d06d55982b23dcdccdb512a9a5a07aff674f212c41b8"
+    },
+    {
+      "path": "Engine/Content/SlateDebug/Fonts/LastResort.ttf",
+      "size": 5395052,
+      "sha256": "fff0f8de0b868b964950fe97c9b60f893e9bc85a4f90b3629c5693db058b97b9"
+    },
+    {
+      "path": "Engine/Extras/Redist/en-us/UEPrereqSetup_x64.exe",
+      "size": 50521128,
+      "sha256": "3c6d84054962d95c7cbb4c66f7821a4742e238cc624a6e6b9c012540249f930e"
+    },
+    {
+      "path": "Engine/Plugins/Marketplace/XeSS/Binaries/ThirdParty/Win64/libxell.dll",
+      "size": 346984,
+      "sha256": "0b127d64483471795c02785e124746116b604c486a2c1cb3a10e0754792de018"
+    },
+    {
+      "path": "Engine/Plugins/Marketplace/XeSS/Binaries/ThirdParty/Win64/libxess.dll",
+      "size": 77771112,
+      "sha256": "23b3ebc802185f537423965c2ee9c8ad8adb5d137b004ce027a4088e629b5fd3"
+    },
+    {
+      "path": "Engine/Plugins/Marketplace/XeSS/Binaries/ThirdParty/Win64/libxess_dx11.dll",
+      "size": 147816,
+      "sha256": "9e0bb17d627306d7df07e16c0e08deef226332c6746631b7ad8095ac6f463d79"
+    },
+    {
+      "path": "Engine/Plugins/Marketplace/XeSS/Binaries/ThirdParty/Win64/libxess_fg.dll",
+      "size": 45557608,
+      "sha256": "d82d9adab239af4e49063d0c4d2e1134529f3963879998d7e0df43a32514ca84"
+    },
+    {
+      "path": "Expedition33_Steam.exe",
+      "size": 689984,
+      "sha256": "a41dd3ae25d9dbdfbbc4250a913bc2a9454519f4353844f3ede9fadd0c8ff492"
+    },
+    {
+      "path": "Expedition33_Steam.rne",
+      "size": 689544,
+      "sha256": "d306684d15dcb051201462d1802bffce0362556d1f2cda238ebe60e7db831d7b"
+    },
+    {
+      "path": "Manifest_DebugFiles_Win64.txt",
+      "size": 346,
+      "sha256": "2cd3f0a07744909aed93e733add46de4df31d624b84a59a4e4afcba764d76f91"
+    },
+    {
+      "path": "Manifest_NonUFSFiles_Win64.txt",
+      "size": 3505,
+      "sha256": "aa52fd7ca41aa146133d2b31cc718a346b6969debf3b3def172b687c3e4f2cc8"
+    },
+    {
+      "path": "Manifest_UFSFiles_Win64.txt",
+      "size": 31433036,
+      "sha256": "cd4dafbebb98ca38e7e3acbee16a774e620e73efbf04f9a76723e81f26fa48f5"
+    },
+    {
+      "path": "Sandfall/Binaries/Win64/amd_fidelityfx_framegeneration_dx12.dll",
+      "size": 1090832,
+      "sha256": "1429c91128d59a20120dd09b189a7e7ddfecf7e7b700d825bce4c4c6e9c0d451"
+    },
+    {
+      "path": "Sandfall/Binaries/Win64/amd_fidelityfx_upscaler_dx12.dll",
+      "size": 13138192,
+      "sha256": "241e6e5e4d848424eb8ec9a6b22c43fe34cf0cf52d30002ca435ba42e53a9ca0"
+    },
+    {
+      "path": "Sandfall/Binaries/Win64/D3D12/D3D12Core.dll",
+      "size": 5908408,
+      "sha256": "31f364f2b3aa1753e7ba9ff912d0721c8f424be5fa14503efddafbb30c635d3b"
+    },
+    {
+      "path": "Sandfall/Binaries/Win64/D3D12/d3d12SDKLayers.dll",
+      "size": 9525272,
+      "sha256": "5dfc320d5ee27190181b1a63e74eb481b07ea727513dbeb38a96db6157969d24"
+    },
+    {
+      "path": "Sandfall/Binaries/Win64/OpenColorIO_2_3.dll",
+      "size": 4274688,
+      "sha256": "296e59b29664f3b36fbb480dc1def106d22787d6b9b1fdd1e9e59d6eecade981"
+    },
+    {
+      "path": "Sandfall/Binaries/Win64/OpenImageDenoise.dll",
+      "size": 49771920,
+      "sha256": "7d47ea2ded08f14ff0565e3636d9e72f52a2a70bcd94c8331053b3814e17c7c5"
+    },
+    {
+      "path": "Sandfall/Binaries/Win64/SandFall-Win64-Shipping.exe",
+      "size": 162421568,
+      "sha256": "218a2478aad5b3a1674b5d7097ec1ac4f994abb95466f9da1407fcd39d639618"
+    },
+    {
+      "path": "Sandfall/Binaries/Win64/tbb.dll",
+      "size": 213504,
+      "sha256": "d5db1d48d7025f2c59704dad2e9ba8dfc5562c134fa49d8373b823cf9ccd1957"
+    },
+    {
+      "path": "Sandfall/Binaries/Win64/tbb12.dll",
+      "size": 293376,
+      "sha256": "de25bc26f71c5fa53b585116db11d643dc63373fab094e5d786a2ef7eb50786d"
+    },
+    {
+      "path": "Sandfall/Binaries/Win64/tbbmalloc.dll",
+      "size": 55296,
+      "sha256": "c14ea6f54cdfe42b7e87455e220589799b764c5335dd3665e7343a404afadb34"
+    },
+    {
+      "path": "Sandfall/Content/Movies/LoadingScreen/LoadingScreen_Fade_in_Petals.mp4",
+      "size": 1332024,
+      "sha256": "54563bca3fb3816775ddefdad0deff1aaaf8bf325907172588c2a0a55cc8f57d"
+    },
+    {
+      "path": "Sandfall/Content/Movies/LoadingScreen/LoadingScreen_Loop_Petals.mp4",
+      "size": 1467327,
+      "sha256": "5e5d7f13266717146ccbc39388aa6d37ca6768e9683c377203da7951cf05eedc"
+    },
+    {
+      "path": "Sandfall/Content/Paks/global.ucas",
+      "size": 2945888,
+      "sha256": "babfc08993207d2b26c4124f0ec8053c0b9c70d7b2ee9ae70828b1fc914e48fb"
+    },
+    {
+      "path": "Sandfall/Content/Paks/global.utoc",
+      "size": 743,
+      "sha256": "c7ce2de024ba1aaec3e1056acc59eb291e0e89200a68b419836c86552fdbffa5"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk0-Windows.pak",
+      "size": 206753900,
+      "sha256": "e1c2e22881df064c3359f8ad5b66c7986379ceffc802b32c3bfcfc804856bdc1"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk0-Windows.ucas",
+      "size": 2891702832,
+      "sha256": "700af23399cd2648449dbaff8fb7851220e514916e8fdced1b8b69ff35e15da2"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk0-Windows.utoc",
+      "size": 4788913,
+      "sha256": "413e993b41ee89c8d5895d4f535346e8ea5733a7c0d6f57a3cd60ca83d3ff31a"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk100-Windows.pak",
+      "size": 339,
+      "sha256": "d4727afa740188b38cc1e636fe478e62cf8b54699ae340533d4487339e24a950"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk100-Windows.ucas",
+      "size": 1961034528,
+      "sha256": "6676c06ce39ff850a832cfd73726d87738550f50fb2744be694b4993706aeca9"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk100-Windows.utoc",
+      "size": 1127726,
+      "sha256": "7335193201c1983cd4a5a95c42a06efa40db2c259b2f747648c060c0e1419715"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk101-Windows.pak",
+      "size": 339,
+      "sha256": "dbd25b97bac7f6fd6a478856b9e3dd5034c3a3703c24ae0b3c88dac096fe340f"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk101-Windows.ucas",
+      "size": 2122001552,
+      "sha256": "7d60bfe2ec32abdd2c27712925e5a4827af810038d9a3f90b28966aa5dc5fa1b"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk101-Windows.utoc",
+      "size": 959723,
+      "sha256": "6c7ddf3b9fd532d63287f7ed4f8cea383f4470cf6735426585e6b1190e53e97a"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk102-Windows.pak",
+      "size": 339,
+      "sha256": "bf50b7bad9e1006da9ea9dce15c1f762642627bff5c8a1b6976b6ce40050eeb7"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk102-Windows.ucas",
+      "size": 2578205120,
+      "sha256": "f7ec0e9c238012aec42680935d67661090364fb0516eb7db7ee59ec0e12cd512"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk102-Windows.utoc",
+      "size": 1340805,
+      "sha256": "cb5c33bed7fecadc0fe82ff8a8b5112750ab832ef77ee5f290b10680aadcd96a"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk150-Windows.pak",
+      "size": 339,
+      "sha256": "1fe97a02755effa9855f43a6cb7c056203fe14e50f088b00722d790a971c14a6"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk150-Windows.ucas",
+      "size": 27621200,
+      "sha256": "bf184a167c701f70a815057730ba8f7b18d5fb4fdcd299a0d6cc0f7ba6bbb38c"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk150-Windows.utoc",
+      "size": 36581,
+      "sha256": "4a65ebe976fe0b3bd7ab0221ebcd9d9108e3566a9823687894ac226de3fdc6e7"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk151-Windows.pak",
+      "size": 339,
+      "sha256": "88f2e07e08bbfc521c3e404d44601bd0cfce52d79da3126ad3dad3a3ab369da4"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk151-Windows.ucas",
+      "size": 221070608,
+      "sha256": "d81081a0169865e9a0aed1b07a8b997480ebae914f375e3ce94d77a1ac6c7f8c"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk151-Windows.utoc",
+      "size": 133408,
+      "sha256": "3aa772cfb9df3c529f5dfdb2dcd2e36c43c985242724c35f94c19190503c8997"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk152-Windows.pak",
+      "size": 339,
+      "sha256": "8b053f671b9965587bff4363d905f6b9a9371d2236ae9a5d3f4aa2fb05c02069"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk152-Windows.ucas",
+      "size": 255753216,
+      "sha256": "29cbf9a74108d57b0b2ad5ccb6e3665b6b5222b4ac3e9a98b99404e64729cbdf"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk152-Windows.utoc",
+      "size": 154694,
+      "sha256": "7f6cc946163d4f9c65bed178d6f5583f95cc629782e7e67a5e1cdb4bee959ec8"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk153-Windows.pak",
+      "size": 339,
+      "sha256": "ff84f4d70a87b8a596108634ff8fb08073d56768f9646f5441f06703eaa057f9"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk153-Windows.ucas",
+      "size": 110859760,
+      "sha256": "4575c00abfc4519a22515ab2bf0c086dc0284cc7c6347bf70ba382e764a65ce1"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk153-Windows.utoc",
+      "size": 79950,
+      "sha256": "e0c0f9afe9a154d5f500617b1e535963f9503a1cb1452ad3a5aafa7c7b0366ac"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk154-Windows.pak",
+      "size": 339,
+      "sha256": "5ffcb31a7ec6fa7e530ed99a437bca934d88c9f04f5bb42ecd329c3cb557c89c"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk154-Windows.ucas",
+      "size": 246531808,
+      "sha256": "2d32aef51b54ff23516550990438c59b9731c76c1e8d5ca4f7675f7ff4286f24"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk154-Windows.utoc",
+      "size": 137633,
+      "sha256": "023afdfef388470712490ce1219405cdbe1652e8171b68cd4b5a69522e748d59"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk200-Windows.pak",
+      "size": 339,
+      "sha256": "a312c018a990da336451716f9d5fd516258cff817962c992add29426cdba6377"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk200-Windows.ucas",
+      "size": 4696055456,
+      "sha256": "72150ca94dc23ae7e52c4385309de82e6ca7f9827437b651abc8d44a9be86e88"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk200-Windows.utoc",
+      "size": 2610906,
+      "sha256": "1d2a8efb810081e48ed1a0a87dc0d5d24b059b042598d6d38720101e2af60c7a"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk201-Windows.pak",
+      "size": 339,
+      "sha256": "5fb53f0d5e49169145b339ad3bd060613410a83aea0f138509fb5d2aa0ab3711"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk201-Windows.ucas",
+      "size": 215272912,
+      "sha256": "74f395addd6f7fc64abcaa18fdfa16c40bde65095fcba02be0b4b6ba14641c34"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk201-Windows.utoc",
+      "size": 91450,
+      "sha256": "9b5394179e16bee555f37ec88a79242d63c2435615ce022c46568041ed933e3d"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk202-Windows.pak",
+      "size": 339,
+      "sha256": "0ede89ff2d08c6f2ae0ca5b87c3a80ca15a5927a9af3d69b3b37fdcf2e5f8dde"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk202-Windows.ucas",
+      "size": 505883824,
+      "sha256": "5b9adb2fb2335bce56837db0e7e9e61ea34e510688313117b7ec55624f2ba8ab"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk202-Windows.utoc",
+      "size": 240460,
+      "sha256": "1876b5c461506349177209d223b254e43e1a67ecf0b71a5d9e1c83314cdbfbc6"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk211-Windows.pak",
+      "size": 339,
+      "sha256": "ac0ae6b8d1bdc58324f59e9a747fd8385e55ddfe4c399cfd34b395f225e96e0f"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk211-Windows.ucas",
+      "size": 868390688,
+      "sha256": "f6ab8909414d224b6008725c5fe22123ee98c7d209838354499031441bad3349"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk211-Windows.utoc",
+      "size": 371280,
+      "sha256": "aa551aa93adfeb6efcec6d21e26c1a9fa19139ff3c5d50a5faab3e14611ce706"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk212-Windows.pak",
+      "size": 339,
+      "sha256": "e3b93fa505f64e9ff603f65479ecfe86df81ece46b8d240ed3212fbd53be3f7f"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk212-Windows.ucas",
+      "size": 33465776,
+      "sha256": "213dddfc5bd5c8abd2718d1f560fd880300c3e62c471cfb73b0a01b0918de321"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk212-Windows.utoc",
+      "size": 12338,
+      "sha256": "2193fb33a67994d93a825db940ed1949bfab3f7b141874e795e3a372803ee134"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk213-Windows.pak",
+      "size": 339,
+      "sha256": "e91cf182c802b9671cffcb33bc4ad7e9289fa5a3098cb3a8080dcbbaf84f03c8"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk213-Windows.ucas",
+      "size": 217116096,
+      "sha256": "9ecfaba8d7681db2ca51e1099701359538238cf5572d2b45f0a3565ac6319677"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk213-Windows.utoc",
+      "size": 94859,
+      "sha256": "c63730ca4da8d235f6a6a521b2ad9367ec6d11c5bbca1bb6dbe2a12284de800c"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk214-Windows.pak",
+      "size": 339,
+      "sha256": "26c38baf478392774d0505e5a1ec0115c44dbf3a283ab2d47d3498386c98ee22"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk214-Windows.ucas",
+      "size": 350150304,
+      "sha256": "3af08b0d60cab8d752b33c42457249c1b61cb988cc5a03f51b5e0b3963bddccf"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk214-Windows.utoc",
+      "size": 182234,
+      "sha256": "65ac6c68558d5dce672a1dbd5ccda9f2d9d246587bc2540e692a8da6d3102a96"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk300-Windows.pak",
+      "size": 339,
+      "sha256": "1c43fc3d15d322eccaa7c0911d0ae80a83bd4f1d8f0a377d3cec1584538f5979"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk300-Windows.ucas",
+      "size": 4299692032,
+      "sha256": "32a4499afb67de4cd1085fb2ffbe704258c9d8812543f9b774c93938c99e20af"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk300-Windows.utoc",
+      "size": 1724143,
+      "sha256": "429f237ecadd1135a21275c002bb392076f068a34375fd3614244722f0351213"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk400-Windows.pak",
+      "size": 339,
+      "sha256": "fc28b4998e51acf689b665440d4f13b8409fbdfd40f1d52ae1da615ad9643520"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk400-Windows.ucas",
+      "size": 2019373344,
+      "sha256": "cfb0ed502a855760756c5d5b4a038509d02b6219490a50a2360dc5ab5d6f0095"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk400-Windows.utoc",
+      "size": 1509724,
+      "sha256": "2e8404efac2baeb841257dca9cd5f64a65173eb1848eb0eaf48788ded1490c3c"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk402-Windows.pak",
+      "size": 339,
+      "sha256": "24645ef91841b9e2e18b7d1f73030b854fef435beec2480e82368c625586cece"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk402-Windows.ucas",
+      "size": 156574592,
+      "sha256": "b2d0f7d5737ffef8b6b574a2db0111cae8f2065701f1c0b93601914a9d43a3c0"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk402-Windows.utoc",
+      "size": 93289,
+      "sha256": "b788f1ef08594f0a74be925483aa83ed6ed6d188747db7b89f557b5faf9e6720"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk403-Windows.pak",
+      "size": 339,
+      "sha256": "cafd022b51991827a5d8eb6227b7993c2d71fa8848c99ceacd86ebd18b5eda79"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk403-Windows.ucas",
+      "size": 150905888,
+      "sha256": "5cbb0a7b5e3797317b32bc2850bb8cc66c5b28b802f30424d51931076a0dec83"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk403-Windows.utoc",
+      "size": 98029,
+      "sha256": "56603356e423d3733fbe50e15e57309bd5028c5602ffed59df8fb9bdbce165b0"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk404-Windows.pak",
+      "size": 339,
+      "sha256": "ab34966c1377db71f0e341c2f78a147b7531d87f795442361feb7ccdf4e05e8b"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk404-Windows.ucas",
+      "size": 72293952,
+      "sha256": "c275b7a995ae7eea4b43a95446008b625b70bd2518b89cfae27687b499a9e2f4"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk404-Windows.utoc",
+      "size": 45880,
+      "sha256": "d6590deab42ef804fd35b8f7c5fc1f1b6d5485eaf2a563e32c2799b88f8f2e11"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk405-Windows.pak",
+      "size": 339,
+      "sha256": "432311937f03ec3f3f3a6e20efcbf30a046d39cfecf09d792f4594958ced64bc"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk405-Windows.ucas",
+      "size": 500219712,
+      "sha256": "d3d24bbfd6928d8569e1a5b0688be0152ef42afbbe7c3090d81c5e4ec98b69a1"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk405-Windows.utoc",
+      "size": 366905,
+      "sha256": "4e2080f68645d8b8d8e2d37a0dfa85893416c81374631c0bea6da9c247f075ec"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk406-Windows.pak",
+      "size": 339,
+      "sha256": "c12ba19fd57e5129f3bd251c60eb72a2611d30d0a6aa2cff135ae4ec4627a38d"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk406-Windows.ucas",
+      "size": 8929664,
+      "sha256": "d198f2d9af9acb3c55f1bf6c0c0f5fef5881891f582e754b980ef5b5cb72c436"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk406-Windows.utoc",
+      "size": 31998,
+      "sha256": "4003c2ddac031339fb08bf2e48e68056bf9b42cd7d9906366ce39abca98c59e2"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk407-Windows.pak",
+      "size": 339,
+      "sha256": "adfd52408bfa12d8a4a87f8c297bc18dccded1036b3e0c8f1d5d979d69853fa1"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk407-Windows.ucas",
+      "size": 180378384,
+      "sha256": "43f4889a7ba3cce5f3f496b8801056b324ba7dd755aa0d3b18d5bf80bec6f335"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk407-Windows.utoc",
+      "size": 129450,
+      "sha256": "e5c33af86c4ade30f71a714f00e2ad311c61dbe0e50cd4e089469ec7ab7e7b43"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk499-Windows.pak",
+      "size": 339,
+      "sha256": "6dbaf5256e094cbd99f0c36989b0c53f93b9bc1809d0b155d7eea398d9bb8dc0"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk499-Windows.ucas",
+      "size": 1506114320,
+      "sha256": "f9d33029a368156b01a6ac2ac4200284ca878928996101827515489b90d4fd11"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk499-Windows.utoc",
+      "size": 1095748,
+      "sha256": "4683a93aac02122f61d54333fc7dc48aea9270266ffdd5a9f4ff851a1581389e"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk500-Windows.pak",
+      "size": 339,
+      "sha256": "48884c9c2b7c6a243e7e872b34067149a977fb33154bc6f448cbd0d57c55f698"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk500-Windows.ucas",
+      "size": 846345504,
+      "sha256": "ddf0e272eaa02060dd35f22ea8a4fbaa008e5c4083d08c8361353d81d6088e8c"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk500-Windows.utoc",
+      "size": 437242,
+      "sha256": "dbbf2bea6c08329d91264b9bda07d33c805be1673afedf4ed55b4cb91d100730"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk600-Windows.pak",
+      "size": 339,
+      "sha256": "47e4ed3717cd4f2b1b54ae4d44650f01dc32a718e47c7b77b39232c047913d81"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk600-Windows.ucas",
+      "size": 3138459152,
+      "sha256": "c2d96c44d05e6b731be05df8e007d490fcc69384a11ee8155135fb1a53fda0d0"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk600-Windows.utoc",
+      "size": 5596225,
+      "sha256": "8fb0cdfe44ba02d20cfe4abf8d54e20d0e60f1a495e62964ce244cbd890dfab3"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk700-Windows.pak",
+      "size": 339,
+      "sha256": "4f473b049c1193e8e9ddfa5d26da5998481bf4b60e8a35ad0c829ce372a09315"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk700-Windows.ucas",
+      "size": 127934832,
+      "sha256": "1ddbcb9d3a7461acb015417f428c9c2286b473ccc44194b486642a23030f9cee"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk700-Windows.utoc",
+      "size": 143388,
+      "sha256": "3d0b962ff354792f041b0e807ec34c6e4d2e3b524f2242844136d3143421bd0d"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk800-Windows.pak",
+      "size": 1432160181,
+      "sha256": "3a1b95101b7aad8dbe8627414243c0056537a3ca3bcc4778af51f6a6378798d5"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk800-Windows.ucas",
+      "size": 1783657824,
+      "sha256": "cabbfd1d3cf326b08adf596593c3e418d4c108b49479dfb744092c5dbb50c632"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk800-Windows.utoc",
+      "size": 704361,
+      "sha256": "d25922556a1b3161919ebbee96efea2423328df897fcea21f911a362d27cb6cf"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk900-Windows.pak",
+      "size": 339,
+      "sha256": "5abba570e7431f3c1e1e1595e91c6a1639e1e60ddd9f435f2bb1b44412fb3a2c"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk900-Windows.ucas",
+      "size": 7246912,
+      "sha256": "7fbc052825e97fb46c102f87d06ef15febd77d46b12adaffb384ad0d2a0d8d87"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk900-Windows.utoc",
+      "size": 205784,
+      "sha256": "2012d02778201e31242e117db1e4bdfcde08bee957e09c20af4c5f25ef837ca3"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk901-Windows.pak",
+      "size": 339,
+      "sha256": "d622a9ac1b29c10a47454505c1c15f3674bc69ce765e2d9b34fa1728fecd4d98"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk901-Windows.ucas",
+      "size": 11360,
+      "sha256": "da1132f191d7665289eda8b25bef6ce192726d8c8607a3c0fdfde8721cac6d2f"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk901-Windows.utoc",
+      "size": 573,
+      "sha256": "37de9a6fe79aa79660265a57648bb00d9686ffa8d0bd5872682c7fa4d07fcf58"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk910-Windows.pak",
+      "size": 339,
+      "sha256": "4bdfae75327c3730c29ce9e511555274a2ff589cad81ba9dc8b1554fb38b9b43"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk910-Windows.ucas",
+      "size": 66279504,
+      "sha256": "9f4c0262880d102c173becdae9e519b88015ba35386ca9b05484990585db360f"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk910-Windows.utoc",
+      "size": 113883,
+      "sha256": "db38ca35875d6a790f3e7ab78a840f31c04ca7207e20c0ab70c42e412e4b8aa1"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk999-Windows.pak",
+      "size": 597098414,
+      "sha256": "56aa3ceb02847754b5d49eab3b0f8baa13cf09db0eead6069dbf6501de6b20e7"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk999-Windows.ucas",
+      "size": 11974854080,
+      "sha256": "395a71ef644715308e4d9e94109fc0c0ffa9678c2602ba7b2e15ce014b259fe9"
+    },
+    {
+      "path": "Sandfall/Content/Paks/pakchunk999-Windows.utoc",
+      "size": 8268747,
+      "sha256": "80cb41be125d5d1a43515bf051161468784966c42c5e6c798ec144f612a8684f"
+    },
+    {
+      "path": "Sandfall/Plugins/Marketplace/OVRLipSync/ThirdParty/Lib/Win64/OVRLipSync.dll",
+      "size": 40471800,
+      "sha256": "f20e7bcb50f1591e1c4fdf5fb16ceda876ec599c1731fd857779b977b4e585b7"
+    },
+    {
+      "path": "Sandfall/Plugins/NVIDIA/DLSS/Binaries/ThirdParty/Win64/nvngx_dlss.dll",
+      "size": 48972848,
+      "sha256": "139f682991c40b36695f0e9d8993901d276e0e7b1eefd5e5c88d74ae714020d4"
+    },
+    {
+      "path": "Sandfall/Plugins/NVIDIA/DLSS/Binaries/ThirdParty/Win64/nvngx_dlssd.dll",
+      "size": 72980024,
+      "sha256": "599940728e5e93ae930adc36d90dad1f00cf92a5612488140a024dcaad00382e"
+    },
+    {
+      "path": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/nvngx_deepdvc.dll",
+      "size": 3277352,
+      "sha256": "473f83072b8873d23809a346c768e6af07ee103dd853db404ee69cc22d62a330"
+    },
+    {
+      "path": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/nvngx_dlssg.dll",
+      "size": 7597104,
+      "sha256": "3d17996b4c4f669f0fe27c9672e9fa71a39e997e09ac020c077edec682570ce8"
+    },
+    {
+      "path": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/sl.common.dll",
+      "size": 672216,
+      "sha256": "1942aa47a8504eb09b3a0b074d47bd66f5d6bde8f67e00c4177342ff939af2b0"
+    },
+    {
+      "path": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/sl.deepdvc.dll",
+      "size": 184280,
+      "sha256": "2bcb5e0b68ec97df99168e0e9e23667c145a4f17ae03b39b563febbf7f33a026"
+    },
+    {
+      "path": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/sl.dlss_g.dll",
+      "size": 447960,
+      "sha256": "a5cfcf553a3c6d4559a78df2617c52d8b25d02a2458bc5e1178aceb19f676ae2"
+    },
+    {
+      "path": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/sl.interposer.dll",
+      "size": 543200,
+      "sha256": "34411f9ae0ba3c55897aa8bd229568671409d1094f210d75595ff57dc6ab6908"
+    },
+    {
+      "path": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/sl.pcl.dll",
+      "size": 175064,
+      "sha256": "a944784bab320d3a59c48aeaa291fa3d7254a2e9da765a847df0ca1e92b2befe"
+    },
+    {
+      "path": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/sl.reflex.dll",
+      "size": 198104,
+      "sha256": "e0fde699f74634892a4bdc3209310463a334510fbf0cebc7b65a2b5a9a41be8f"
+    },
+    {
+      "path": "Sandfall/Plugins/Sentry/Binaries/Win64/crashpad_handler.exe",
+      "size": 995840,
+      "sha256": "7230eee0d18fc321d8ca6e7291a6b860b43652576481ce8695f6941ce7e93dba"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "chunk-000001.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "_CommonRedist/_redist_readme.txt",
+          "file_offset": 0,
+          "chunk_offset": 0,
+          "length": 2038
+        },
+        {
+          "file": "_CommonRedist/dotNetFx40_Full_setup.exe",
+          "file_offset": 0,
+          "chunk_offset": 2038,
+          "length": 889416
+        },
+        {
+          "file": "_CommonRedist/dxwebsetup.exe",
+          "file_offset": 0,
+          "chunk_offset": 891454,
+          "length": 295320
+        },
+        {
+          "file": "_CommonRedist/oalinst.exe",
+          "file_offset": 0,
+          "chunk_offset": 1186774,
+          "length": 809496
+        },
+        {
+          "file": "_CommonRedist/VisualCppRedist_AIO_x86_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 1996270,
+          "length": 31533074
+        },
+        {
+          "file": "_CommonRedist/xnafx40_redist.msi",
+          "file_offset": 0,
+          "chunk_offset": 33529344,
+          "length": 7054848
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+          "file_offset": 0,
+          "chunk_offset": 40584192,
+          "length": 2221984
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll",
+          "file_offset": 0,
+          "chunk_offset": 42806176,
+          "length": 2536368
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+          "file_offset": 0,
+          "chunk_offset": 45342544,
+          "length": 1865216
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 47207760,
+          "length": 49152
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Steamworks/Steamv157/Win64/steam_api64.dll",
+          "file_offset": 0,
+          "chunk_offset": 47256912,
+          "length": 1098392
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Steamworks/Steamv157/Win64/steam_api64.rne",
+          "file_offset": 0,
+          "chunk_offset": 48355304,
+          "length": 295336
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Steamworks/Steamv157/Win64/steam_emu.ini",
+          "file_offset": 0,
+          "chunk_offset": 48650640,
+          "length": 3279
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 48653919,
+          "length": 1714176
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+          "file_offset": 0,
+          "chunk_offset": 50368095,
+          "length": 37888
+        },
+        {
+          "file": "Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+          "file_offset": 0,
+          "chunk_offset": 50405983,
+          "length": 847440
+        },
+        {
+          "file": "Engine/Content/Renderer/TessellationTable.bin",
+          "file_offset": 0,
+          "chunk_offset": 51253423,
+          "length": 259568
+        },
+        {
+          "file": "Engine/Content/Slate/Cursor/invisible.cur",
+          "file_offset": 0,
+          "chunk_offset": 51512991,
+          "length": 326
+        },
+        {
+          "file": "Engine/Content/SlateDebug/Fonts/LastResort.tps",
+          "file_offset": 0,
+          "chunk_offset": 51513317,
+          "length": 930
+        },
+        {
+          "file": "Engine/Content/SlateDebug/Fonts/LastResort.ttf",
+          "file_offset": 0,
+          "chunk_offset": 51514247,
+          "length": 5395052
+        },
+        {
+          "file": "Engine/Extras/Redist/en-us/UEPrereqSetup_x64.exe",
+          "file_offset": 0,
+          "chunk_offset": 56909299,
+          "length": 50521128
+        },
+        {
+          "file": "Engine/Plugins/Marketplace/XeSS/Binaries/ThirdParty/Win64/libxell.dll",
+          "file_offset": 0,
+          "chunk_offset": 107430427,
+          "length": 346984
+        },
+        {
+          "file": "Engine/Plugins/Marketplace/XeSS/Binaries/ThirdParty/Win64/libxess.dll",
+          "file_offset": 0,
+          "chunk_offset": 107777411,
+          "length": 77771112
+        },
+        {
+          "file": "Engine/Plugins/Marketplace/XeSS/Binaries/ThirdParty/Win64/libxess_dx11.dll",
+          "file_offset": 0,
+          "chunk_offset": 185548523,
+          "length": 147816
+        },
+        {
+          "file": "Engine/Plugins/Marketplace/XeSS/Binaries/ThirdParty/Win64/libxess_fg.dll",
+          "file_offset": 0,
+          "chunk_offset": 185696339,
+          "length": 45557608
+        },
+        {
+          "file": "Expedition33_Steam.exe",
+          "file_offset": 0,
+          "chunk_offset": 231253947,
+          "length": 689984
+        },
+        {
+          "file": "Expedition33_Steam.rne",
+          "file_offset": 0,
+          "chunk_offset": 231943931,
+          "length": 689544
+        },
+        {
+          "file": "Manifest_DebugFiles_Win64.txt",
+          "file_offset": 0,
+          "chunk_offset": 232633475,
+          "length": 346
+        },
+        {
+          "file": "Manifest_NonUFSFiles_Win64.txt",
+          "file_offset": 0,
+          "chunk_offset": 232633821,
+          "length": 3505
+        },
+        {
+          "file": "Manifest_UFSFiles_Win64.txt",
+          "file_offset": 0,
+          "chunk_offset": 232637326,
+          "length": 31433036
+        },
+        {
+          "file": "Sandfall/Binaries/Win64/amd_fidelityfx_framegeneration_dx12.dll",
+          "file_offset": 0,
+          "chunk_offset": 264070362,
+          "length": 1090832
+        },
+        {
+          "file": "Sandfall/Binaries/Win64/amd_fidelityfx_upscaler_dx12.dll",
+          "file_offset": 0,
+          "chunk_offset": 265161194,
+          "length": 13138192
+        },
+        {
+          "file": "Sandfall/Binaries/Win64/D3D12/D3D12Core.dll",
+          "file_offset": 0,
+          "chunk_offset": 278299386,
+          "length": 5908408
+        },
+        {
+          "file": "Sandfall/Binaries/Win64/D3D12/d3d12SDKLayers.dll",
+          "file_offset": 0,
+          "chunk_offset": 284207794,
+          "length": 9525272
+        },
+        {
+          "file": "Sandfall/Binaries/Win64/OpenColorIO_2_3.dll",
+          "file_offset": 0,
+          "chunk_offset": 293733066,
+          "length": 4274688
+        },
+        {
+          "file": "Sandfall/Binaries/Win64/OpenImageDenoise.dll",
+          "file_offset": 0,
+          "chunk_offset": 298007754,
+          "length": 49771920
+        },
+        {
+          "file": "Sandfall/Binaries/Win64/SandFall-Win64-Shipping.exe",
+          "file_offset": 0,
+          "chunk_offset": 347779674,
+          "length": 162421568
+        },
+        {
+          "file": "Sandfall/Binaries/Win64/tbb.dll",
+          "file_offset": 0,
+          "chunk_offset": 510201242,
+          "length": 213504
+        },
+        {
+          "file": "Sandfall/Binaries/Win64/tbb12.dll",
+          "file_offset": 0,
+          "chunk_offset": 510414746,
+          "length": 293376
+        },
+        {
+          "file": "Sandfall/Binaries/Win64/tbbmalloc.dll",
+          "file_offset": 0,
+          "chunk_offset": 510708122,
+          "length": 55296
+        },
+        {
+          "file": "Sandfall/Content/Movies/LoadingScreen/LoadingScreen_Fade_in_Petals.mp4",
+          "file_offset": 0,
+          "chunk_offset": 510763418,
+          "length": 1332024
+        },
+        {
+          "file": "Sandfall/Content/Movies/LoadingScreen/LoadingScreen_Loop_Petals.mp4",
+          "file_offset": 0,
+          "chunk_offset": 512095442,
+          "length": 1467327
+        },
+        {
+          "file": "Sandfall/Content/Paks/global.ucas",
+          "file_offset": 0,
+          "chunk_offset": 513562769,
+          "length": 2945888
+        },
+        {
+          "file": "Sandfall/Content/Paks/global.utoc",
+          "file_offset": 0,
+          "chunk_offset": 516508657,
+          "length": 743
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk0-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 516509400,
+          "length": 206753900
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk0-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 723263300,
+          "length": 454295774
+        }
+      ],
+      "sha256": "79b4230db3e3bdad6e7b4eb4c201e3a0085456c3e121aade1ee7c63a41d15c4e"
+    },
+    {
+      "name": "chunk-000002.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk0-Windows.ucas",
+          "file_offset": 454295774,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "813aa0551c666fcf613ca52d6ffc6d4919c057236298bed14ce22e5392711160"
+    },
+    {
+      "name": "chunk-000003.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk0-Windows.ucas",
+          "file_offset": 1631854848,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "9c64e16617920a8294513d7cf2f2be4953d95e162928692e67cc40fb68a2313e"
+    },
+    {
+      "name": "chunk-000004.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk0-Windows.ucas",
+          "file_offset": 2809413922,
+          "chunk_offset": 0,
+          "length": 82288910
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk0-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 82288910,
+          "length": 4788913
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk100-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 87077823,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk100-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 87078162,
+          "length": 1090480912
+        }
+      ],
+      "sha256": "1f9f6cdb8d89c4a54b175c233808863553192ac81b361093c330bee379dc0dbb"
+    },
+    {
+      "name": "chunk-000005.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk100-Windows.ucas",
+          "file_offset": 1090480912,
+          "chunk_offset": 0,
+          "length": 870553616
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk100-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 870553616,
+          "length": 1127726
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk101-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 871681342,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk101-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 871681681,
+          "length": 305877393
+        }
+      ],
+      "sha256": "9d77f306befe4a8f7fb6d127de6ab56db1d821f3ad2621ade4b5f692f43e98c1"
+    },
+    {
+      "name": "chunk-000006.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk101-Windows.ucas",
+          "file_offset": 305877393,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "17e38634b91a152877000bca1d32c62a6c72326e3774ea57a9373f6e597e4d94"
+    },
+    {
+      "name": "chunk-000007.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk101-Windows.ucas",
+          "file_offset": 1483436467,
+          "chunk_offset": 0,
+          "length": 638565085
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk101-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 638565085,
+          "length": 959723
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk102-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 639524808,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk102-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 639525147,
+          "length": 538033927
+        }
+      ],
+      "sha256": "be4befb9380c5f41065994e1bbaca6d2ff32e525b6a51e211b54a88a2daa5e39"
+    },
+    {
+      "name": "chunk-000008.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk102-Windows.ucas",
+          "file_offset": 538033927,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "ce26c1da5a52caee0407457ee8ed3286317ebdf7415a36610629673e5f152bbb"
+    },
+    {
+      "name": "chunk-000009.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk102-Windows.ucas",
+          "file_offset": 1715593001,
+          "chunk_offset": 0,
+          "length": 862612119
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk102-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 862612119,
+          "length": 1340805
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk150-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 863952924,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk150-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 863953263,
+          "length": 27621200
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk150-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 891574463,
+          "length": 36581
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk151-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 891611044,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk151-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 891611383,
+          "length": 221070608
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk151-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 1112681991,
+          "length": 133408
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk152-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 1112815399,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk152-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 1112815738,
+          "length": 64743336
+        }
+      ],
+      "sha256": "264466ada9780e3ee92bfa5a1a1947c8480404a0c9fa15626bd2bb84b5cb75d9"
+    },
+    {
+      "name": "chunk-000010.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk152-Windows.ucas",
+          "file_offset": 64743336,
+          "chunk_offset": 0,
+          "length": 191009880
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk152-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 191009880,
+          "length": 154694
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk153-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 191164574,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk153-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 191164913,
+          "length": 110859760
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk153-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 302024673,
+          "length": 79950
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk154-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 302104623,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk154-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 302104962,
+          "length": 246531808
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk154-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 548636770,
+          "length": 137633
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk200-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 548774403,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk200-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 548774742,
+          "length": 628784332
+        }
+      ],
+      "sha256": "d8073b03ae05ec59debd9582ae80d674db03e48809c8a24e3e6da2d2cc7c7405"
+    },
+    {
+      "name": "chunk-000011.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk200-Windows.ucas",
+          "file_offset": 628784332,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "1bc114daf33f3e5fcd4d80b73f62dfbb29fb7d7fabd322b60c993e03bea95725"
+    },
+    {
+      "name": "chunk-000012.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk200-Windows.ucas",
+          "file_offset": 1806343406,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "3f6935e233561465ae5eb4a52eba8c39102c8c3e1519e4585b55ff48bac45ed1"
+    },
+    {
+      "name": "chunk-000013.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk200-Windows.ucas",
+          "file_offset": 2983902480,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "29510dd9ec7d8ac98d59b8505dd99a7d2753c16d219659c036d0e1b6561e16bd"
+    },
+    {
+      "name": "chunk-000014.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk200-Windows.ucas",
+          "file_offset": 4161461554,
+          "chunk_offset": 0,
+          "length": 534593902
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk200-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 534593902,
+          "length": 2610906
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk201-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 537204808,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk201-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 537205147,
+          "length": 215272912
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk201-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 752478059,
+          "length": 91450
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk202-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 752569509,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk202-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 752569848,
+          "length": 424989226
+        }
+      ],
+      "sha256": "2fa78f92c996dcd15bfe8d5039129efce977785395f3cfd1ed3160bfd12af153"
+    },
+    {
+      "name": "chunk-000015.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk202-Windows.ucas",
+          "file_offset": 424989226,
+          "chunk_offset": 0,
+          "length": 80894598
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk202-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 80894598,
+          "length": 240460
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk211-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 81135058,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk211-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 81135397,
+          "length": 868390688
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk211-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 949526085,
+          "length": 371280
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk212-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 949897365,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk212-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 949897704,
+          "length": 33465776
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk212-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 983363480,
+          "length": 12338
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk213-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 983375818,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk213-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 983376157,
+          "length": 194182917
+        }
+      ],
+      "sha256": "2d92363a69eae42c1f70aa607edffede5f1d4f044574718e2542d29b2031027e"
+    },
+    {
+      "name": "chunk-000016.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk213-Windows.ucas",
+          "file_offset": 194182917,
+          "chunk_offset": 0,
+          "length": 22933179
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk213-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 22933179,
+          "length": 94859
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk214-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 23028038,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk214-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 23028377,
+          "length": 350150304
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk214-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 373178681,
+          "length": 182234
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk300-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 373360915,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk300-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 373361254,
+          "length": 804197820
+        }
+      ],
+      "sha256": "707e151e7ad9bcf23e5a9a006a496efcfe77a7db7ce1fcc8a4577c05162544b5"
+    },
+    {
+      "name": "chunk-000017.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk300-Windows.ucas",
+          "file_offset": 804197820,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "3c443d1f9ff3135d0bf63a241d1facf21ffe619677b09909f7a7ef5bdb185328"
+    },
+    {
+      "name": "chunk-000018.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk300-Windows.ucas",
+          "file_offset": 1981756894,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "09d788cfa7fb57aa876bb5ab30c2bb28be4303e1ac350c4abcaf0aa2ee773a0e"
+    },
+    {
+      "name": "chunk-000019.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk300-Windows.ucas",
+          "file_offset": 3159315968,
+          "chunk_offset": 0,
+          "length": 1140376064
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk300-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 1140376064,
+          "length": 1724143
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk400-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 1142100207,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk400-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 1142100546,
+          "length": 35458528
+        }
+      ],
+      "sha256": "00870b4fc21b8bd54f1b235cfd240c9ac049f97a9acf399ef62b577115161291"
+    },
+    {
+      "name": "chunk-000020.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk400-Windows.ucas",
+          "file_offset": 35458528,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "53a548d3356568f5683439c315b84e6e91d7b5fe31d51c9c21a49d1619b43406"
+    },
+    {
+      "name": "chunk-000021.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk400-Windows.ucas",
+          "file_offset": 1213017602,
+          "chunk_offset": 0,
+          "length": 806355742
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk400-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 806355742,
+          "length": 1509724
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk402-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 807865466,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk402-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 807865805,
+          "length": 156574592
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk402-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 964440397,
+          "length": 93289
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk403-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 964533686,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk403-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 964534025,
+          "length": 150905888
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk403-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 1115439913,
+          "length": 98029
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk404-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 1115537942,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk404-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 1115538281,
+          "length": 62020793
+        }
+      ],
+      "sha256": "868702cfaa97670a7e1a9b84fa36b184d55e5b895b014d63191f2c51a770c577"
+    },
+    {
+      "name": "chunk-000022.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk404-Windows.ucas",
+          "file_offset": 62020793,
+          "chunk_offset": 0,
+          "length": 10273159
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk404-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 10273159,
+          "length": 45880
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk405-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 10319039,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk405-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 10319378,
+          "length": 500219712
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk405-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 510539090,
+          "length": 366905
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk406-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 510905995,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk406-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 510906334,
+          "length": 8929664
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk406-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 519835998,
+          "length": 31998
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk407-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 519867996,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk407-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 519868335,
+          "length": 180378384
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk407-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 700246719,
+          "length": 129450
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk499-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 700376169,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk499-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 700376508,
+          "length": 477182566
+        }
+      ],
+      "sha256": "d85e8837fdd4b44f3fb2786c1bb7d3b757cbe661c16ea284b1f48aae7b7a874a"
+    },
+    {
+      "name": "chunk-000023.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk499-Windows.ucas",
+          "file_offset": 477182566,
+          "chunk_offset": 0,
+          "length": 1028931754
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk499-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 1028931754,
+          "length": 1095748
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk500-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 1030027502,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk500-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 1030027841,
+          "length": 147531233
+        }
+      ],
+      "sha256": "e9f152f1b66d95a26be62a9402549cd2014c7e3c872bd262aa2c908287ff1e61"
+    },
+    {
+      "name": "chunk-000024.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk500-Windows.ucas",
+          "file_offset": 147531233,
+          "chunk_offset": 0,
+          "length": 698814271
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk500-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 698814271,
+          "length": 437242
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk600-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 699251513,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk600-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 699251852,
+          "length": 478307222
+        }
+      ],
+      "sha256": "10c59cfd148f3c14960118b8797b4a2db967f52dc2f76f0e145ddd0efc0f9c5d"
+    },
+    {
+      "name": "chunk-000025.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk600-Windows.ucas",
+          "file_offset": 478307222,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "d5b5e0b268b4a3d852e4d90835a63250c92f3301cad9bfe7ef4716b1e1b10803"
+    },
+    {
+      "name": "chunk-000026.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk600-Windows.ucas",
+          "file_offset": 1655866296,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "0a7891b5aab55c33f38fdce98bd5d65957e5754c311e6acce46d925b51de3a74"
+    },
+    {
+      "name": "chunk-000027.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk600-Windows.ucas",
+          "file_offset": 2833425370,
+          "chunk_offset": 0,
+          "length": 305033782
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk600-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 305033782,
+          "length": 5596225
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk700-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 310630007,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk700-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 310630346,
+          "length": 127934832
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk700-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 438565178,
+          "length": 143388
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk800-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 438708566,
+          "length": 738850508
+        }
+      ],
+      "sha256": "8ac902d3067312d8f4934d78c29ff65d394a0aefd84c4637b0467a43925d71c5"
+    },
+    {
+      "name": "chunk-000028.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk800-Windows.pak",
+          "file_offset": 738850508,
+          "chunk_offset": 0,
+          "length": 693309673
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk800-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 693309673,
+          "length": 484249401
+        }
+      ],
+      "sha256": "ce1c8909ce55e72c516b1bb8511228d8ee9954a9e552649645e09053df5a564f"
+    },
+    {
+      "name": "chunk-000029.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk800-Windows.ucas",
+          "file_offset": 484249401,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "c6f46cf3eeaf4efb57c7b94bd96e217d5ce0b3cf3e355dbbc19b2be1ca4c0d43"
+    },
+    {
+      "name": "chunk-000030.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk800-Windows.ucas",
+          "file_offset": 1661808475,
+          "chunk_offset": 0,
+          "length": 121849349
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk800-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 121849349,
+          "length": 704361
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk900-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 122553710,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk900-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 122554049,
+          "length": 7246912
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk900-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 129800961,
+          "length": 205784
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk901-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 130006745,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk901-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 130007084,
+          "length": 11360
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk901-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 130018444,
+          "length": 573
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk910-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 130019017,
+          "length": 339
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk910-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 130019356,
+          "length": 66279504
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk910-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 196298860,
+          "length": 113883
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk999-Windows.pak",
+          "file_offset": 0,
+          "chunk_offset": 196412743,
+          "length": 597098414
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk999-Windows.ucas",
+          "file_offset": 0,
+          "chunk_offset": 793511157,
+          "length": 384047917
+        }
+      ],
+      "sha256": "9a392224edfed697c3af18bac5b39a79cb0317671a877419da22efadc51f500c"
+    },
+    {
+      "name": "chunk-000031.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk999-Windows.ucas",
+          "file_offset": 384047917,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "1a982c0c6e21eacea0e5968355423ac54ba73065b0424222c4179cdfe1490503"
+    },
+    {
+      "name": "chunk-000032.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk999-Windows.ucas",
+          "file_offset": 1561606991,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "7abbc2c2a940c12af0139448ad92ebcb2b433d495eba94cc1a0a43935837c069"
+    },
+    {
+      "name": "chunk-000033.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk999-Windows.ucas",
+          "file_offset": 2739166065,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "a8ad983c41c489911681c766902d4ff73e076f0fe5eca99612a16764ab9d6755"
+    },
+    {
+      "name": "chunk-000034.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk999-Windows.ucas",
+          "file_offset": 3916725139,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "c105c3c8dc8a42c15397c75969cb84b104edccfb2aab2d66d6d20b06e3d973b7"
+    },
+    {
+      "name": "chunk-000035.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk999-Windows.ucas",
+          "file_offset": 5094284213,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "6a4f4ea2ca222eb1349484283c74f6600b8140207c93b0ae06416cd5c6f51e3e"
+    },
+    {
+      "name": "chunk-000036.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk999-Windows.ucas",
+          "file_offset": 6271843287,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "825071ee30e852b49f1a0995dedbdff645676d25f2e818916af536361de507b6"
+    },
+    {
+      "name": "chunk-000037.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk999-Windows.ucas",
+          "file_offset": 7449402361,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "ab15f1a0ebbb00fe719a05986b704c4ccdb7d3a1ca3633887a3e9d3f09688612"
+    },
+    {
+      "name": "chunk-000038.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk999-Windows.ucas",
+          "file_offset": 8626961435,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "7474872558bb83845d337dddbea5bed8d988a9b3b0d22eebbb4739e9aa6f3a71"
+    },
+    {
+      "name": "chunk-000039.bin",
+      "size": 1177559074,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk999-Windows.ucas",
+          "file_offset": 9804520509,
+          "chunk_offset": 0,
+          "length": 1177559074
+        }
+      ],
+      "sha256": "90c35a29d2c9c8bcc42e2c0f1c37377d357227b1357e869f22b3acb6b5aea52f"
+    },
+    {
+      "name": "chunk-000040.bin",
+      "size": 1177559036,
+      "segments": [
+        {
+          "file": "Sandfall/Content/Paks/pakchunk999-Windows.ucas",
+          "file_offset": 10982079583,
+          "chunk_offset": 0,
+          "length": 992774497
+        },
+        {
+          "file": "Sandfall/Content/Paks/pakchunk999-Windows.utoc",
+          "file_offset": 0,
+          "chunk_offset": 992774497,
+          "length": 8268747
+        },
+        {
+          "file": "Sandfall/Plugins/Marketplace/OVRLipSync/ThirdParty/Lib/Win64/OVRLipSync.dll",
+          "file_offset": 0,
+          "chunk_offset": 1001043244,
+          "length": 40471800
+        },
+        {
+          "file": "Sandfall/Plugins/NVIDIA/DLSS/Binaries/ThirdParty/Win64/nvngx_dlss.dll",
+          "file_offset": 0,
+          "chunk_offset": 1041515044,
+          "length": 48972848
+        },
+        {
+          "file": "Sandfall/Plugins/NVIDIA/DLSS/Binaries/ThirdParty/Win64/nvngx_dlssd.dll",
+          "file_offset": 0,
+          "chunk_offset": 1090487892,
+          "length": 72980024
+        },
+        {
+          "file": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/nvngx_deepdvc.dll",
+          "file_offset": 0,
+          "chunk_offset": 1163467916,
+          "length": 3277352
+        },
+        {
+          "file": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/nvngx_dlssg.dll",
+          "file_offset": 0,
+          "chunk_offset": 1166745268,
+          "length": 7597104
+        },
+        {
+          "file": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/sl.common.dll",
+          "file_offset": 0,
+          "chunk_offset": 1174342372,
+          "length": 672216
+        },
+        {
+          "file": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/sl.deepdvc.dll",
+          "file_offset": 0,
+          "chunk_offset": 1175014588,
+          "length": 184280
+        },
+        {
+          "file": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/sl.dlss_g.dll",
+          "file_offset": 0,
+          "chunk_offset": 1175198868,
+          "length": 447960
+        },
+        {
+          "file": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/sl.interposer.dll",
+          "file_offset": 0,
+          "chunk_offset": 1175646828,
+          "length": 543200
+        },
+        {
+          "file": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/sl.pcl.dll",
+          "file_offset": 0,
+          "chunk_offset": 1176190028,
+          "length": 175064
+        },
+        {
+          "file": "Sandfall/Plugins/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/sl.reflex.dll",
+          "file_offset": 0,
+          "chunk_offset": 1176365092,
+          "length": 198104
+        },
+        {
+          "file": "Sandfall/Plugins/Sentry/Binaries/Win64/crashpad_handler.exe",
+          "file_offset": 0,
+          "chunk_offset": 1176563196,
+          "length": 995840
+        }
+      ],
+      "sha256": "9c699854d19195e18571d8db53f87d5b1606c1115d84f2dec19e2940a545a4da"
+    }
+  ]
+}
