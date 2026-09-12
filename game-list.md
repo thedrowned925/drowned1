@@ -2,14 +2,14 @@
 
 > Bu dosya `catalog.json` verisinden GitHub Actions tarafından otomatik üretilir. Elle düzenlemeyin.
 
-- **Toplam oyun:** 111
-- **Toplam aktif sürüm/kanal:** 111
-- **Toplam aktif boyut:** 2957.202 GB · 2.957 TB
-- **Katalog güncelleme zamanı:** 2026-09-11 09:50:57 UTC
+- **Toplam oyun:** 112
+- **Toplam aktif sürüm/kanal:** 112
+- **Toplam aktif boyut:** 3004.304 GB · 3.004 TB
+- **Katalog güncelleme zamanı:** 2026-09-12 22:31:24 UTC
 
 ## PC
 
-**111 oyun · 111 aktif sürüm/kanal · 2957.202 GB · 2.957 TB**
+**112 oyun · 112 aktif sürüm/kanal · 3004.304 GB · 3.004 TB**
 
 | Oyun | Sürüm | Kanal | Boyut (GB) | Boyut (TB) | Release etiketi |
 |---|---:|---|---:|---:|---|
@@ -42,6 +42,7 @@
 | Call of Duty®: Modern Warfare® 3 (2011) | 1.0.0 | stable | 18.442 | 0.018 | `pc-call-of-duty-modern-warfare-3-2011-v1.0.0-stable` |
 | CAPTURED 2 | 1.0.0 | stable | 15.458 | 0.015 | `pc-captured-2-v1.0.0-stable` |
 | Celeste | 1.0.0 | stable | 2.737 | 0.003 | `pc-celeste-v1.0.0-stable` |
+| Clair Obscur: Expedition 33 | 1.0.0 | dev | 47.102 | 0.047 | `pc-clair-obscur-expedition-33-v1.0.0-dev` |
 | CONTROL Ultimate Edition | 1.0.0 | stable | 45.053 | 0.045 | `pc-control-ultimate-edition-v1.0.0-stable` |
 | Cyberpunk 2077 | 1.0.0 | stable | 102.015 | 0.102 | `pc-cyberpunk-2077-v1.0.0-stable` |
 | DARK SOULS™ III | 1.0.0 | stable | 26.890 | 0.027 | `pc-dark-souls-iii-v1.0.0-stable` |
