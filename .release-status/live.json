@@ -1,14 +1,14 @@
 {
-  "active": false,
-  "phase": "done",
+  "active": true,
+  "phase": "plan",
   "kind": "game",
-  "title": "CONTROL Ultimate Edition",
+  "title": "Clair Obscur: Expedition 33",
   "platform": "PC",
-  "channel": "stable",
+  "channel": "dev",
   "version": "1.0.0",
-  "percent": 100,
+  "percent": 0,
   "total_sent": 0,
-  "total_size": 0,
+  "total_size": 47102362922,
   "message": "",
-  "updated_at": "2026-09-11T09:50:59.973345+00:00"
+  "updated_at": "2026-09-12T22:16:35.772977+00:00"
 }
