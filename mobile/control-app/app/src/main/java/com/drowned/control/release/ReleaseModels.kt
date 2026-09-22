@@ -90,10 +90,9 @@ data class BuildStatus(
 )
 
 /**
- * Mirrors the JSON the desktop Release Manager writes to `.release-status/live.json`
- * (via drowned_shared.upload_status.UploadStatusBroadcaster) while an upload is in
- * flight. This is the only bridge between a live desktop upload and the phone - the
- * upload itself has nothing to do with GitHub Actions.
+ * UI shape used by both the old GitHub live.json fallback and the new Supabase
+ * Realtime transport. Supabase supplies this value continuously; GitHub remains
+ * a compatibility fallback for older/temporarily disconnected clients.
  */
 data class LiveUploadStatus(
     val active: Boolean,
@@ -121,13 +120,27 @@ data class LiveUploadStatus(
     }
 }
 
-data class ReleaseDashboard(
+class ReleaseDashboard(
     val workflowRuns: List<WorkflowRun>,
     val releases: List<ReleaseInfo>,
     val buildStatuses: List<BuildStatus>,
-    val liveUpload: LiveUploadStatus?,
+    liveUpload: LiveUploadStatus?,
     val fromCache: Boolean,
 ) {
+    private val fallbackLiveUpload = liveUpload
+
+    init {
+        RealtimeLiveStore.ensureStarted()
+    }
+
+    /**
+     * Compose observes RealtimeLiveStore.status because this getter is read from
+     * ReleaseManagerScreen. Supabase therefore refreshes the live card instantly
+     * without waiting for the 8/45 second GitHub polling loop.
+     */
+    val liveUpload: LiveUploadStatus?
+        get() = RealtimeLiveStore.status.value ?: fallbackLiveUpload
+
     val latestRun: WorkflowRun? get() = workflowRuns.firstOrNull()
     val recentReleases: List<ReleaseInfo> get() = releases.take(20)
     val failedRuns: List<WorkflowRun> get() = workflowRuns.filter { it.conclusion == "failure" }

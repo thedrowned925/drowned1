@@ -13,36 +13,15 @@ WORKFLOW = ROOT / ".github" / "workflows" / "build-windows.yml"
 class LauncherUIV14Tests(unittest.TestCase):
     def test_v14_keeps_backend_methods_inherited(self):
         tree = ast.parse(V14.read_text(encoding="utf-8"))
-        launcher = next(
-            node for node in tree.body
-            if isinstance(node, ast.ClassDef) and node.name == "Launcher"
-        )
-        methods = {
-            node.name for node in launcher.body if isinstance(node, ast.FunctionDef)
-        }
+        launcher = next(node for node in tree.body if isinstance(node, ast.ClassDef) and node.name == "Launcher")
+        methods = {node.name for node in launcher.body if isinstance(node, ast.FunctionDef)}
         forbidden = {
-            "install_current_game",
-            "install_progress",
-            "install_done",
-            "install_cancelled",
-            "install_error",
-            "verify_current_game",
-            "repair_done",
-            "repair_error",
-            "uninstall_current_game",
-            "uninstall_done",
-            "toggle_pause",
-            "cancel_download",
-            "_set_download_controls",
-            "_addon_toggled",
-            "_start_addon_install",
-            "_start_addon_remove",
-            "_addon_install_done",
-            "_addon_remove_done",
-            "_addon_error",
-            "_addon_verify_done",
-            "_addon_verify_error",
-            "load_catalog",
+            "install_current_game", "install_progress", "install_done", "install_cancelled",
+            "install_error", "verify_current_game", "repair_done", "repair_error",
+            "uninstall_current_game", "uninstall_done", "toggle_pause", "cancel_download",
+            "_set_download_controls", "_addon_toggled", "_start_addon_install",
+            "_start_addon_remove", "_addon_install_done", "_addon_remove_done",
+            "_addon_error", "_addon_verify_done", "_addon_verify_error", "load_catalog",
             "open_settings",
         }
         self.assertFalse(methods & forbidden, methods & forbidden)
@@ -57,7 +36,7 @@ class LauncherUIV14Tests(unittest.TestCase):
 
     def test_windows_build_keeps_release_manager_and_uses_latest_launcher_ui(self):
         workflow = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/release-manager\n            entry: app_v10.py", workflow)
+        self.assertIn("dir: windows/release-manager\n            entry: app_v21.py", workflow)
         self.assertIn("dir: windows/launcher\n            entry: app_v18.py", workflow)
 
 
