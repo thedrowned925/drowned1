@@ -48,3 +48,9 @@ jobs:
           python -m py_compile windows/launcher/library_navigation.py
           python -m py_compile windows/launcher/xinput.py
           python -m py_compile windows/launcher/xinput_v2.py
+          python -m py_compile windows/launcher/app_v19.py
+          python -m py_compile windows/launcher/steam_theme.py
+          python -m py_compile windows/launcher/steam_format.py
+          python -m py_compile windows/launcher/steam_widgets.py
+          python -m py_compile windows/launcher/steam_library.py
+          python -m py_compile windows/launcher/steam_pages.py

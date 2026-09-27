@@ -85,9 +85,9 @@ class LauncherUIV18Tests(unittest.TestCase):
         ):
             self.assertIn(real_action, source)
 
-    def test_windows_build_uses_v18(self):
-        workflow = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("dir: windows/launcher\n            entry: app_v18.py", workflow)
+    # Whether the Windows build actually points at v18 is superseded by
+    # app_v19 (see test_launcher_ui_v19.py); this file only asserts
+    # properties of v18's own source, not which version ships.
 
 
 if __name__ == "__main__":
